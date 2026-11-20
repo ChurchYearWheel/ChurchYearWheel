@@ -1,0 +1,12 @@
+id,date,name,full_name,rank,style,color_override,color_override_bottom,icon,icon_when,transfer,variant,when,action,link
+,01-30,St. Brother Mutien-Marie,"Saint Brother Mutien-Marie, religious",12,optional_memorial,,,,,,,,,
+,02-06,St. Amand,"Saint Amand, missionary",11,memorial,,,,,,,,,
+sts_paul_miki_and_companions,02-07,,"Saints Paul Miki and companions, martyrs",10,memorial,-,,,,,,,,
+,02-18,St. Bernadette Soubirous,"Saint Bernadette Soubirous, religious",12,optional_memorial,,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-bernadette-soubirous-1844-1879/
+,05-10,St. Father Damien,"Saint Father Damien, missionary",11,memorial,,,,,,,,,
+,06-10,Bl. Edward Poppe,"Blessed Edward Poppe, priest",12,optional_memorial,,,,,,,,,
+,08-07,St. Juliana of Liège,"Saint Juliana of Liège, virgin",12,optional_memorial,,,,,,,,,
+,08-31,"Our Lady, Mediatrix",,12,optional_memorial,,,,,,,,,
+,09-17,St. Lambert,"Saint Lambert, bishop and martyr",12,optional_memorial,,,,,,,,,
+,11-03,St. Hubert,"Saint Hubert, bishop",12,optional_memorial,,,,,,,,,
+,11-26,St. John Berchmans,"Saint John Berchmans, religious",12,optional_memorial,,,,,,,,,

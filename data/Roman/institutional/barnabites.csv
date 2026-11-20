@@ -1,0 +1,8 @@
+id,date,name,full_name,rank,style,color_override,color_override_bottom,icon,icon_when,transfer,variant,when,action
+conversion_of_st_paul,,,Conversion of Saint Paul,7,feast_rank,WHITE,,,,,,,
+,01-30,St. Francis Xavier M. Bianchi,"Saint Francis Xavier M. Bianchi, priest",11,memorial,,,,,,,,
+,05-24,Mary Help of Christians,,12,optional_memorial,,,,,,,,
+,06-30,St. Paul,"Saint Paul the Apostle, Titular and Principal Patron of the Order",8,feast_rank,RED,,,,,,,
+,07-05,St. Anthony Mary Zaccaria,"Saint Anthony Mary Zaccaria, priest and founder",4,solemnity,WHITE,,,,,,,
+,10-11,St. Alexander Sauli,"Saint Alexander Sauli, bishop",11,memorial,,,,,,,,
+,(sun#3:11)-1,"Our Lady, Mother of Divine Providence",,4,solemnity,WHITE,,,,,,,

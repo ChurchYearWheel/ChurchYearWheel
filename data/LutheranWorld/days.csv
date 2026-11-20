@@ -1,0 +1,386 @@
+id,variant,when,date,from,to,every,first,count,first2,count2,title,names,notes,latin,color,color_bottom,rank,style,icon,claims,yield,full_name
+# ===========================================================================,,,,,,,,,,,,,,,,,,,,,,
+"# The church years of Lutheran churches in Europe, Indonesia and Madagascar, as",,,,,,,,,,,,,,,,,,,,,,
+"# rules, in each church's own language: the Protestant churches in Germany (EKD,",,,,,,,,,,,,,,,,,,,,,,
+"# following the OGTL of 2018) and Poland (the same order), the Lutheran churches",,,,,,,,,,,,,,,,,,,,,,
+"# of Slovakia, Hungary, Estonia, Latvia and Iceland, the Batak Protestant",,,,,,,,,,,,,,,,,,,,,,
+"# Christian Church (HKBP), the Indonesian Christian Lutheran Church (GKLI) and",,,,,,,,,,,,,,,,,,,,,,
+# the Malagasy Lutheran Church (FLM).  All keep the historic one-year,,,,,,,,,,,,,,,,,,,,,,
+"# order: Sundays after Epiphany and after Trinity, the pre-Lent Sundays, and the",,,,,,,,,,,,,,,,,,,,,,
+# Latin names of the Lent and Easter Sundays.,,,,,,,,,,,,,,,,,,,,,,
+# ===========================================================================,,,,,,,,,,,,,,,,,,,,,,
+advent,ekd,,,start,start+27,sun,1,,,,{number}. Sonntag im Advent,,,,PURPLE,,,,,,,
+christmas_eve,ekd,,12-24,,,,,,,,Heiliger Abend,,,,WHITE,,,,,,,Christvesper (Heiliger Abend)
+christmas,ekd,,12-25,,,,,,,,Christfest I,,,,WHITE,,,,,,,1. Weihnachtstag (Christfest I)
+christmas_2,ekd,,12-26,,,,,,,,Christfest II,,,,WHITE,,,,,,,2. Weihnachtstag (Christfest II)
+after_christmas_1,ekd,date lt 12-31,sun>12-26,,,,,,,,1. Sonntag nach dem Christfest,,,,WHITE,,,,,,,
+new_years_eve,ekd,,12-31,,,,,,,,Altjahrsabend,,,,WHITE,,,,,,,Altjahrsabend (Silvester)
+new_year,ekd,,01-01,,,,,,,,Neujahrstag,,,,WHITE,,,,,,,
+after_christmas_2,ekd,date lt 01-06,sun>=01-02,,,,,,,,2. Sonntag nach dem Christfest,,,,WHITE,,,,,,,
+epiphany,ekd,,01-06,,,,,,,,Epiphanias,,,,WHITE,,,,,,,Fest der Erscheinung des Herrn (Epiphanias)
+# OGTL 2018: the Epiphany season ends with the Sunday on or before 2 February,,,,,,,,,,,,,,,,,,,,,,
+"# (2 February 2025, 27 January 2030 at kirchenjahr-evangelisch.de); when Easter",,,,,,,,,,,,,,,,,,,,,,
+"# is so early that this Sunday would be Estomihi, a week earlier.",,,,,,,,,,,,,,,,,,,,,,
+last_epiphany,ekd,,"min(sun<=02-02, easter-56)",,,,,,,,Letzter Sonntag nach Epiphanias,,,,WHITE,,,,,TRUE,,
+after_epiphany,ekd,,,01-07,@last_epiphany-1,sun,1,,,,{number}. Sonntag nach Epiphanias,,,,WHITE,,,,,,,
+"# One to five Sundays before Passiontide, counted backwards.",,,,,,,,,,,,,,,,,,,,,,
+before_passion,ekd,,,@last_epiphany+7,easter-70,sun,4,before,,,{number}. Sonntag vor der Passionszeit,,,,,,,,,,,
+septuagesima,ekd,easter-63 gt @last_epiphany,easter-63,,,,,,,,Septuagesimä,,,,,,,,,,,Septuagesimä (3. Sonntag vor der Passionszeit)
+sexagesima,ekd,easter-56 gt @last_epiphany,easter-56,,,,,,,,Sexagesimä,,,,,,,,,,,Sexagesimä (2. Sonntag vor der Passionszeit)
+estomihi,ekd,,easter-49,,,,,,,,Estomihi,,,,,,,,,,,Estomihi (Sonntag vor der Passionszeit)
+ash_wednesday,ekd,,easter-46,,,,,,,,Aschermittwoch,,,,PURPLE,,,,,,,
+lent,ekd,,,easter-42,easter-14,sun,1,,,,{name},Invokavit|Reminiszere|Okuli|Lätare|Judika,,,,,,,,,,{number}. Sonntag der Passionszeit ({name})
+palm_sunday,ekd,,easter-7,,,,,,,,Palmsonntag,,,,PURPLE,,,,,,,
+maundy_thursday,ekd,,easter-3,,,,,,,,Gründonnerstag,,,,WHITE,,,,,,,
+good_friday,ekd,,easter-2,,,,,,,,Karfreitag,,,,BLACK,,,,,,,
+holy_saturday,ekd,,easter-1,,,,,,,,Karsamstag,,,,BLACK,,,,,,,Karsamstag (Osternacht)
+easter,ekd,,easter,,,,,,,,Ostersonntag,,,,WHITE,,,,,,,Osterfest (Ostersonntag)
+easter_monday,ekd,,easter+1,,,,,,,,Ostermontag,,,,WHITE,,,,,,,
+after_easter,ekd,,,easter+7,easter+35,sun,1,,,,{name},Quasimodogeniti|Misericordias Domini|Jubilate|Kantate|Rogate,,,,,,,,,,{name} ({number}. Sonntag nach Ostern)
+ascension,ekd,,easter+39,,,,,,,,Christi Himmelfahrt,,,,WHITE,,,,,,,
+exaudi,ekd,,easter+42,,,,,,,,Exaudi,,,,,,,,,,,Exaudi (6. Sonntag nach Ostern)
+pentecost,ekd,,easter+49,,,,,,,,Pfingstsonntag,,,,RED,,,,,,,Pfingstfest (Pfingstsonntag)
+whit_monday,ekd,,easter+50,,,,,,,,Pfingstmontag,,,,RED,,,,,,,
+trinity,ekd,,easter+56,,,,,,,,Trinitatis,,,,WHITE,,,,,,,Tag der Heiligen Dreifaltigkeit (Trinitatis)
+after_trinity,ekd,,,easter+63,next_start-22,sun,1,,,,{number}. Sonntag nach Trinitatis,,,,,,,,,,,
+israel,ekd,,easter+126,,,,,,,,Israelsonntag,,,,,,,,,TRUE,,10. Sonntag nach Trinitatis (Israelsonntag)
+# Harvest thanksgiving: the first Sunday after Michaelis (29 September).,,,,,,,,,,,,,,,,,,,,,,
+harvest,ekd,date lt next_start-21,sun>09-29,,,,,,,,Erntedankfest,,,,,,,,,TRUE,,
+reformation,ekd,date lt next_start-21,10-31,,,,,,,,Reformationstag,,,,RED,,,,,TRUE,,
+third_last,ekd,,next_start-21,,,,,,,,Drittletzter Sonntag,,,,,,,,,TRUE,,Drittletzter Sonntag des Kirchenjahres
+second_last,ekd,,next_start-14,,,,,,,,Vorletzter Sonntag,,,,,,,,,TRUE,,Vorletzter Sonntag des Kirchenjahres
+repentance,ekd,,next_start-11,,,,,,,,Buß- und Bettag,,,,PURPLE,,,,,,,
+eternity,ekd,,next_start-7,,,,,,,,Ewigkeitssonntag,,,,WHITE,,,,,TRUE,,Letzter Sonntag des Kirchenjahres (Ewigkeitssonntag / Totensonntag)
+advent,poland,,,start,start+27,sun,1,,,,{number}. niedziela Adwentu,,,,PURPLE,,,,,,,
+christmas_eve,poland,,12-24,,,,,,,,Wigilia,,,,WHITE,,,,,,,Wigilia Bożego Narodzenia
+christmas,poland,,12-25,,,,,,,,1. Święto Narodzenia Pańskiego,,,,WHITE,,,,,,,
+christmas_2,poland,,12-26,,,,,,,,2. Święto Narodzenia Pańskiego,,,,WHITE,,,,,,,2. Święto Narodzenia Pańskiego (Uroczystość Szczepana Męczennika)
+after_christmas_1,poland,date lt 12-31,sun>12-26,,,,,,,,1. niedziela po Narodzeniu Pańskim,,,,WHITE,,,,,,,
+new_years_eve,poland,,12-31,,,,,,,,Sylwester,,,,WHITE,,,,,,,
+new_year,poland,,01-01,,,,,,,,Nowy Rok,,,,WHITE,,,,,,,Nowy Rok (Święto Nadania Zbawicielowi Imienia Jezus)
+after_christmas_2,poland,date lt 01-06,sun>=01-02,,,,,,,,2. niedziela po Narodzeniu Pańskim,,,,WHITE,,,,,,,
+epiphany,poland,,01-06,,,,,,,,Święto Epifanii,,,,WHITE,,,,,,,Święto Objawienia Pańskiego (Epifanii)
+last_epiphany,poland,,"min(sun<02-02, easter-56)",,,,,,,,Ostatnia niedziela po Epifanii,,,,WHITE,,,,,TRUE,,
+after_epiphany,poland,,,01-07,@last_epiphany-1,sun,1,,,,{number}. niedziela po Epifanii,,,,WHITE,,,,,,,1. niedziela po Epifanii (Święto Chrztu Pańskiego)|||
+before_lent,poland,,,@last_epiphany+7,easter-70,sun,4,before,,,{number}. niedziela przed postem,,,,,,,,,,,
+septuagesima,poland,easter-63 gt @last_epiphany,easter-63,,,,,,,,3. niedziela przed postem,,,,,,,,,,,3. niedziela przed postem (Septuagesimae)
+sexagesima,poland,easter-56 gt @last_epiphany,easter-56,,,,,,,,2. niedziela przed postem,,,,,,,,,,,2. niedziela przed postem (Sexagesimae)
+estomihi,poland,,easter-49,,,,,,,,Niedziela przedpostna Estomihi,,,,,,,,,,,
+ash_wednesday,poland,,easter-46,,,,,,,,Dzień Pokuty i Modlitwy,,,,PURPLE,,,,,,,Dzień Pokuty i Modlitwy (Środa Popielcowa)
+lent,poland,,,easter-42,easter-14,sun,1,,,,{number}. niedziela pasyjna,,,Invocavit|Reminiscere|Oculi|Laetare|Judica,,,,,,,,
+palm_sunday,poland,,easter-7,,,,,,,,Niedziela Palmowa,,,,PURPLE,,,,,,,6. niedziela pasyjna - Niedziela Palmowa
+maundy_thursday,poland,,easter-3,,,,,,,,Wielki Czwartek,,,,WHITE,,,,,,,
+good_friday,poland,,easter-2,,,,,,,,Wielki Piątek,,,,BLACK,,,,,,,
+holy_saturday,poland,,easter-1,,,,,,,,Wielka Sobota,,,,BLACK,,,,,,,
+easter,poland,,easter,,,,,,,,1. Święto Zmartwychwstania Pańskiego,,,,WHITE,,,,,,,
+easter_monday,poland,,easter+1,,,,,,,,2. Święto Zmartwychwstania Pańskiego,,,,WHITE,,,,,,,
+after_easter,poland,,,easter+7,easter+35,sun,1,,,,{number}. niedziela po Wielkanocy,,,Quasimodogeniti|Misericordias Domini|Jubilate|Cantate|Rogate,,,,,,,,
+ascension,poland,,easter+39,,,,,,,,Wniebowstąpienie Pańskie,,,,WHITE,,,,,,,
+exaudi,poland,,easter+42,,,,,,,,6. niedziela po Wielkanocy,,,Exaudi,,,,,,,,
+pentecost,poland,,easter+49,,,,,,,,1. Święto Zesłania Ducha Świętego,,,,RED,,,,,,,
+whit_monday,poland,,easter+50,,,,,,,,2. Święto Zesłania Ducha Świętego,,,,RED,,,,,,,
+trinity,poland,,easter+56,,,,,,,,Święto Trójcy Świętej,,,,WHITE,,,,,,,
+after_trinity,poland,,,easter+63,next_start-22,sun,1,,,,{number}. niedziela po Trójcy Świętej,,,,,,,,,,,
+israel,poland,,easter+126,,,,,,,,Niedziela Izraela,,,,,,,,,TRUE,,10. niedziela po Trójcy Świętej (Niedziela Izraela)
+"# Harvest thanksgiving: as in Germany, the first Sunday after Michaelmas.",,,,,,,,,,,,,,,,,,,,,,
+harvest,poland,date lt next_start-21,sun>09-29,,,,,,,,Dziękczynne Święto Żniw,,,,,,,,,TRUE,,
+reformation,poland,date lt next_start-21,10-31,,,,,,,,Pamiątka Reformacji,,,,RED,,,,,TRUE,,
+third_last,poland,,next_start-21,,,,,,,,3. niedziela przed końcem roku kościelnego,,,,,,,,,TRUE,,
+second_last,poland,,next_start-14,,,,,,,,Przedostatnia niedziela roku kościelnego,,,,,,,,,TRUE,,
+eternity,poland,,next_start-7,,,,,,,,Niedziela Wieczności,,,,WHITE,,,,,TRUE,,
+advent,iceland,,,start,start+27,sun,1,,,,{name} sunnudagur í aðventu,Fyrsti|Annar|3.|4.,,,WHITE|PURPLE|PURPLE|ROSE,,,,,,,
+christmas_eve,iceland,,12-24,,,,,,,,Aðfangadagur,,,,WHITE,,,,,,,
+christmas,iceland,,12-25,,,,,,,,Jóladagur,,,,WHITE,,,,,,,
+christmas_2,iceland,,12-26,,,,,,,,Annar jóladagur,,,,WHITE,,,,,,,Annar jóladagur (Stefánsdagur frumvotts)
+after_christmas,iceland,date le 12-31,sun>12-26,,,,,,,,Sunnudagur milli jóla og nýárs,,,,WHITE,,,,,,,
+new_years_eve,iceland,,12-31,,,,,,,,Gamlársdagur,,,,WHITE,,,,,,,
+new_year,iceland,,01-01,,,,,,,,Nýársdagur,,,,WHITE,,,,,,,
+after_new_year,iceland,date lt 01-06,sun>=01-02,,,,,,,,Sunnudagur milli nýárs og þrettánda,,,,WHITE,,,,,,,
+epiphany,iceland,,01-06,,,,,,,,Þrettándinn,,,,WHITE,,,,,,,Þrettándinn (Birtingarhátíð Drottins)
+last_epiphany,iceland,,easter-70,,,,,,,,Síðasti sunnudagur eftir þrettánda,,,,WHITE,,,,,TRUE,,
+after_epiphany,iceland,,,01-07,easter-64,sun,1,,,,{number}. sunnudagur eftir þrettánda,,,,,,,,,,,
+septuagesima,iceland,,easter-63,,,,,,,,1. sunnudagur í níuviknaföstu,,,Septuagesimae,,,,,,,,
+sexagesima,iceland,,easter-56,,,,,,,,2. sunnudagur í níuviknaföstu,,,Sexagesima,,,,,,,,2. sunnudagur í níuviknaföstu (Biblíudagurinn)
+estomihi,iceland,,easter-49,,,,,,,,Sunnudagur í föstuinngang,,,Estomihi,,,,,,,,
+ash_wednesday,iceland,,easter-46,,,,,,,,Öskudagur,,,,PURPLE,,,,,,,
+lent,iceland,,,easter-42,easter-14,sun,1,,,,{number}. sunnudagur í föstu,,,Invokavit|Reminiscere|Oculi|Laetare|Iudica,,,,,,,,|||4. sunnudagur í föstu (miðfasta)|
+"# The Annunciation: the Sunday 22-28 March, or the 5th Sunday in Lent when that",,,,,,,,,,,,,,,,,,,,,,
+# Sunday is Palm Sunday or later (5. sunnudagur í föstu in 2026).,,,,,,,,,,,,,,,,,,,,,,
+annunciation,iceland,date lt easter-7,sun>=03-22,,,,,,,,Boðunardagur Maríu,,,,WHITE,,,,,TRUE,,
+annunciation_early,iceland,(sun>=03-22) ge easter-7,easter-14,,,,,,,,Boðunardagur Maríu,,,,WHITE,,,,,TRUE,,
+palm_sunday,iceland,,easter-7,,,,,,,,Pálmasunnudagur,,,,PURPLE,,,,,,,
+maundy_thursday,iceland,,easter-3,,,,,,,,Skírdagur,,,,WHITE,,,,,,,
+good_friday,iceland,,easter-2,,,,,,,,Föstudagurinn langi,,,,PURPLE; black,,,,,,,
+easter_eve,iceland,,easter-1,,,,,,,,Aðfangadagur páska,,,,,,,,,,,
+easter,iceland,,easter,,,,,,,,Páskadagur,,,,WHITE,,,,,,,
+easter_monday,iceland,,easter+1,,,,,,,,Annar páskadagur,,,,WHITE,,,,,,,
+after_easter,iceland,,,easter+7,easter+42,sun,1,,,,{number}. sunnudagur eftir páska,,,Quasi modo geniti|Misericordias domini|Iubilate|Kantate|Rogate|Exaudi,,,,,,,,
+# The first day of summer: the first Thursday after 18 April.,,,,,,,,,,,,,,,,,,,,,,
+summer,iceland,date ne easter-3,thu>04-18,,,,,,,,Sumardagurinn fyrsti,,,,WHITE,,,,,,,
+ascension,iceland,,easter+39,,,,,,,,Uppstigningardagur,,,,WHITE,,,,,,,
+whitsun_eve,iceland,,easter+48,,,,,,,,Aðfangadagskvöld hvítasunnu,,,,RED,,,,,,,
+pentecost,iceland,,easter+49,,,,,,,,Hvítasunnudagur,,,,RED,,,,,,,
+whit_monday,iceland,,easter+50,,,,,,,,Annar hvítasunnudagur,,,,RED,,,,,,,
+# kirkjan.is gives red for Trinity Sunday.,,,,,,,,,,,,,,,,,,,,,,
+trinity,iceland,,easter+56,,,,,,,,Þrenningarhátíð,,,,RED,,,,,,,
+after_trinity,iceland,,,easter+63,next_start-15,sun,1,,,,{number}. sunnudagur eftir þrenningarhátíð,,,,,,,,,,,
+"# Reformation Day: 31 October, kept on the last Sunday in October.  When the",,,,,,,,,,,,,,,,,,,,,,
+"# 31st is not a Sunday, that Sunday keeps its number after Trinity, with the",,,,,,,,,,,,,,,,,,,,,,
+# day's name beneath it and red in its lower half.,,,,,,,,,,,,,,,,,,,,,,
+reformation,iceland,date ne 10-31 & date lt next_start-14,sun<=10-31,,,,easter+56,,,,{number}. sunnudagur eftir þrenningarhátíð,,Siðbótardagurinn,,,RED,,,,TRUE,,{number}. sunnudagur eftir þrenningarhátíð - Siðbótardagurinn (síðasti sunnudagur í október)
+all_saints,iceland,date lt next_start-14,sun#1:11,,,,,,,,Allra heilagra messa,,,,WHITE,,,,,TRUE,,
+mission,iceland,date lt next_start-14,sun#2:11,,,,,,,,Kristniboðsdagurinn,,,,RED,,,,,TRUE,,
+second_last,iceland,,next_start-14,,,,,,,,Næst síðasti sunnudagur kirkjuársins,,,,,,,,,TRUE,,
+last_sunday,iceland,,next_start-7,,,,,,,,Síðasti sunnudagur kirkjuársins,,,,,,,,,TRUE,,Síðasti sunnudagur kirkjuársins (Eilífðarsunnudagur)
+advent,estonia,,,start,start+27,sun,1,,,,Advendiaja {number}. pühapäev,,,,WHITE|PURPLE|PURPLE|PURPLE,,,,,,,
+christmas_eve,estonia,,12-24,,,,,,,,Jõuluõhtu,,,,WHITE,,,,,,,
+christmas,estonia,,12-25,,,,,,,,Esimene jõulupüha,,,,WHITE,,,,,,,Esimene jõulupüha (Kristuse sündimise püha)
+christmas_2,estonia,,12-26,,,,,,,,Teine jõulupüha,,,,WHITE,,,,,,,Teine jõulupüha (tehvanipäev)
+"# Jõuluaja 1. pühapäev (Holy Family) and 2. pühapäev, as e-kirik.eelk.ee names them",,,,,,,,,,,,,,,,,,,,,,
+"# (29 December 2024, 5 January 2025, 4 January 2026).",,,,,,,,,,,,,,,,,,,,,,
+holy_family,estonia,date lt 01-06 & date ne 12-28,sun>12-26,,,,,,,,Jõuluaja 1. pühapäev,,,,WHITE,,,,,,,Jõuluaja 1. pühapäev (Püha Perekonna pühapäev)
+after_christmas_2,estonia,date lt 01-06 & (sun>12-26) le 12-31,sun>=01-02,,,,,,,,Jõuluaja 2. pühapäev,,,,WHITE,,,,,,,
+new_years_eve,estonia,,12-31,,,,,,,,Vana-aastaõhtu,,,,WHITE,,,,,,,
+new_year,estonia,,01-01,,,,,,,,Uusaastapäev,,,,WHITE,,,,,,,
+epiphany,estonia,,01-06,,,,,,,,Kolmekuningapäev,,,,WHITE,,,,,,,Kolmekuningapäev ehk Kristuse ilmumise püha
+baptism,estonia,,sun>01-06,,,,,,,,Kristuse ristimise püha,,,,WHITE,,,,,TRUE,,Kristuse ristimise püha (1. pühapäev pärast ilmumispüha)
+after_epiphany,estonia,,,01-07,easter-64,sun,1,,,,{number}. pühapäev pärast ilmumispüha,,,,,,,,,,,
+septuagesima,estonia,,easter-63,,,,,,,,3. pühapäev enne paastuaega,,,Septuagesima,,,,,,,,
+sexagesima,estonia,,easter-56,,,,,,,,2. pühapäev enne paastuaega,,,Sexagesima,,,,,,,,
+estomihi,estonia,,easter-49,,,,,,,,Pühapäev enne paastuaega,,,Estomihi,,,,,,,,
+ash_wednesday,estonia,,easter-46,,,,,,,,Tuhkapäev,,,,PURPLE,,,,,,,Tuhkapäev ja palvepäev
+lent,estonia,,,easter-42,easter-14,sun,1,,,,Paastuaja {number}. pühapäev,,,Invocavit|Reminiscere|Oculi|Laetare|Judica,,,,,,,,
+palm_sunday,estonia,,easter-7,,,,,,,,Palmipuudepüha,,,,PURPLE,,,,,,,
+maundy_thursday,estonia,,easter-3,,,,,,,,Suur neljapäev,,,,PURPLE; white,,,,,,,
+good_friday,estonia,,easter-2,,,,,,,,Suur reede,,,,BLACK,,,,,,,
+holy_saturday,estonia,,easter-1,,,,,,,,Vaikne laupäev,,,,BLACK; red,,,,,,,
+easter,estonia,,easter,,,,,,,,Kristuse ülestõusmise püha,,,,WHITE,,,,,,,Kristuse ülestõusmise püha (esimene ülestõusmispüha)
+easter_monday,estonia,,easter+1,,,,,,,,Teine ülestõusmispüha,,,,WHITE,,,,,,,
+after_easter,estonia,,,easter+7,easter+42,sun,2,,,,Ülestõusmisaja {number}. pühapäev,,,Quasimodogeniti|Misericordias Domini|Jubilate|Cantate|Rogate|Exaudi,,,,,,,,Ülestõusmisaja {number}. pühapäev (Valge pühapäev)||||Ülestõusmisaja {number}. pühapäev (palvepühapäev)|
+ascension,estonia,,easter+39,,,,,,,,Kristuse taevaminemise püha,,,,WHITE,,,,,,,
+pentecost,estonia,,easter+49,,,,,,,,Nelipüha,,,,RED,,,,,,,
+trinity,estonia,,easter+56,,,,,,,,Kolmainupüha,,,,WHITE,,,,,,,
+after_pentecost,estonia,,,easter+63,next_start-15,sun,2,,,,{number}. pühapäev pärast nelipüha,,,,,,,,,,,
+apostles,estonia,,easter+91,,,,,,,,Apostlite pühapäev,,,,RED,,,,,TRUE,,Apostlite pühapäev (6. pühapäev pärast nelipüha)
+transfiguration,estonia,,easter+105,,,,,,,,Issanda muutmise püha,,,,WHITE,,,,,TRUE,,Issanda muutmise ehk kirgastamispüha (8. pühapäev pärast nelipüha)
+"# Some fixed days take the Sunday they fall on, as the church's own calendar",,,,,,,,,,,,,,,,,,,,,,
+"# keeps them: Holy Innocents (28 December 2025), Candlemas (2 February 2025,",,,,,,,,,,,,,,,,,,,,,,
+"# 2020), St John's Day (24 June 2018), Michaelmas (29 September 2024, 2019),",,,,,,,,,,,,,,,,,,,,,,
+# Reformation Day (31 October 2021) and All Souls (2 November 2025).  The,,,,,,,,,,,,,,,,,,,,,,
+# apostles' days do not.,,,,,,,,,,,,,,,,,,,,,,
+innocents_sun,estonia,date wd sun,12-28,,,,,,,,Süütalastepäev,,,,,,,,,TRUE,,
+candlemas_sun,estonia,date wd sun,02-02,,,,,,,,Küünlapäev,,,,WHITE,,,,,TRUE,,Issanda templisse toomise püha (küünlapäev)
+st_john_sun,estonia,date wd sun & date ne easter+91,06-24,,,,,,,,Jaanipäev,,,,WHITE,,,,,TRUE,,Jaanipäev (Ristija Johannese sünnipäev)
+michael_sun,estonia,date wd sun,09-29,,,,,,,,Mihklipäev,,,,WHITE,,,,,TRUE,,Peaingel Miikaeli ja kõikide inglite püha (mihklipäev)
+reformation_sun,estonia,date wd sun & date lt next_start-14,10-31,,,,,,,,Usupuhastuspüha,,,,RED,,,,,TRUE,,
+all_souls_sun,estonia,date wd sun & date lt next_start-14,11-02,,,,,,,,Hingedepäev,,,,WHITE; black,,,,,TRUE,,
+harvest,estonia,,sun#2:10,,,,,,,,Lõikustänupüha,,,,,,,,,TRUE,,
+mission,estonia,date lt next_start-14,sun#4:10,,,,,,,,Misjonipüha,,,,,,,,,TRUE,,
+watching,estonia,,next_start-14,,,,,,,,Valvamispühapäev,,,,,,,,,TRUE,,
+eternity,estonia,,next_start-7,,,,,,,,Igavikupühapäev,,,,WHITE,,,,,TRUE,,Igavikupühapäev (Kuningas Kristuse püha)
+advent,latvia,,,start,start+27,sun,1,,,,Adventa {name} svētdiena,pirmā|otrā|trešā|ceturtā,,,PURPLE,,,,,,,
+christmas_eve,latvia,,12-24,,,,,,,,Ziemassvētku vakars,,,,WHITE,,,,,,,"Ziemassvētku vakars, Kristus piedzimšanas svētvakars"
+christmas,latvia,,12-25,,,,,,,,Pirmie Ziemassvētki,,,,WHITE,,,,,,,"Kristus piedzimšanas svētki, Pirmie Ziemassvētki"
+christmas_2,latvia,,12-26,,,,,,,,Otrie Ziemassvētki,,,,WHITE,,,,,,,"Otrie Ziemassvētki, diakona un martīra Stefana diena"
+after_christmas,latvia,date le 12-31,sun>12-26,,,,,,,,Svētdiena pēc Ziemassvētkiem,,,,WHITE,,,,,,,
+new_years_eve,latvia,,12-31,,,,,,,,Vecgada diena,,,,WHITE,,,,,,,
+new_year,latvia,,01-01,,,,,,,,Jaungada diena,,,,WHITE,,,,,,,"Jaungada diena, Jēzus vārda došanas diena"
+after_christmas_2,latvia,date lt 01-06,sun>=01-02,,,,,,,,Otrā svētdiena pēc Ziemassvētkiem,,,,WHITE,,,,,,,
+epiphany,latvia,,01-06,,,,,,,,Zvaigznes diena,,,,WHITE,,,,,,,"Zvaigznes diena, Epifānija"
+after_epiphany,latvia,,,01-07,easter-64,sun,1,,,,{name},Svētdiena pēc Zvaigznes dienas|Otrā svētdiena pēc Zvaigznes dienas|Trešā svētdiena pēc Zvaigznes dienas|Ceturtā svētdiena pēc Zvaigznes dienas|Piektā svētdiena pēc Zvaigznes dienas|Sestā svētdiena pēc Zvaigznes dienas,,,,,,,,,,
+septuagesima,latvia,,easter-63,,,,,,,,Septuagesima,,,,,,,,,,,"Septuagesima, Trešā svētdiena pirms Gavēņa laika"
+sexagesima,latvia,,easter-56,,,,,,,,Sexagesima,,,,,,,,,,,"Sexagesima, Otrā svētdiena pirms Gavēņa laika"
+estomihi,latvia,,easter-49,,,,,,,,Esto mihi,,,,,,,,,,,"Esto mihi, svētdiena pirms Gavēņa laika"
+ash_wednesday,latvia,,easter-46,,,,,,,,Pelnu diena,,,,PURPLE,,,,,,,"Gavēņa un Ciešanu laika sākums, Pelnu diena"
+lent,latvia,,,easter-42,easter-21,sun,1,,,,Gavēņa laika {name} svētdiena,pirmā|otrā|trešā|ceturtā,,Invocabit|Reminiscere|Oculi|Laetare,,,,,,,,
+judica,latvia,,easter-14,,,,,,,,Ciešanu laika pirmā svētdiena,,,Judica,,,,,,,,
+palm_sunday,latvia,,easter-7,,,,,,,,Pūpolsvētdiena,,,,PURPLE,,,,,,,"Palmarum - Pūpolsvētdiena, Ciešanu laika otrā svētdiena"
+maundy_thursday,latvia,,easter-3,,,,,,,,Zaļā ceturtdiena,,,,WHITE,,,,,,,Viridium - Zaļā ceturtdiena
+good_friday,latvia,,easter-2,,,,,,,,Lielā piektdiena,,,,BLACK,,,,,,,
+holy_saturday,latvia,,easter-1,,,,,,,,Klusā sestdiena,,,,BLACK,,,,,,,
+easter,latvia,,easter,,,,,,,,Lieldienas,,,,WHITE,,,,,,,Kristus Augšāmcelšanās svētki - Lieldienas
+easter_monday,latvia,,easter+1,,,,,,,,Otrās Lieldienas,,,,WHITE,,,,,,,
+after_easter,latvia,,,easter+7,easter+42,sun,1,,,,{name},Baltā svētdiena|Trešā Lieldienu svētdiena|Ceturtā Lieldienu svētdiena|Piektā Lieldienu svētdiena|Sestā Lieldienu svētdiena|Septītā Lieldienu svētdiena,,Quasi modo geniti|Misericordia Domini|Jubilate|Cantate|Rogate|Exaudi,,,,,,,,
+ascension,latvia,,easter+39,,,,,,,,Debesbraukšanas diena,,,,WHITE,,,,,,,
+pentecost,latvia,,easter+49,,,,,,,,Vasarsvētki,,,,RED,,,,,,,Svētā Gara svētki - Vasarsvētki
+whit_monday,latvia,,easter+50,,,,,,,,Otrie Vasarsvētki,,,,RED,,,,,,,
+trinity,latvia,,easter+56,,,,,,,,Trīsvienības svētki,,,Trinitatis,WHITE,,,,,,,
+after_pentecost,latvia,,,easter+63,next_start-8,sun,2,,,,{name} svētdiena pēc Vasarsvētkiem,Otrā|Trešā|Ceturtā|Piektā|Sestā|Septītā|Astotā|Devītā|Desmitā|Vienpadsmitā|Divpadsmitā|Trīspadsmitā|Četrpadsmitā|Piecpadsmitā|Sešpadsmitā|Septiņpadsmitā|Astoņpadsmitā|Deviņpadsmitā|Divdesmitā|Divdesmit pirmā|Divdesmit otrā|Divdesmit trešā|Divdesmit ceturtā|Divdesmit piektā|Divdesmit sestā|Divdesmit septītā|Divdesmit astotā,,,,,,,,,,
+# Harvest festival on the first Sunday of October (3 October 2021).,,,,,,,,,,,,,,,,,,,,,,
+harvest,latvia,,sun#1:10,,,,,,,,Pļaujas svētki,,,,,,,,,TRUE,,
+eternity,latvia,,next_start-7,,,,,,,,Mūžības svētdiena,,,,WHITE,,,,,TRUE,,
+advent,hungary,,,start,start+27,sun,1,,,,Advent {name} vasárnapja,első|második|harmadik|negyedik,,,PURPLE,,,,,,,
+christmas_eve,hungary,,12-24,,,,,,,,Szenteste,,,,WHITE,,,,,,,
+christmas,hungary,,12-25,,,,,,,,Karácsony ünnepe,,,,WHITE,,,,,,,
+christmas_2,hungary,,12-26,,,,,,,,Karácsony második napja,,,,WHITE,,,,,,,
+after_christmas,hungary,date le 12-31,sun>12-26,,,,,,,,Karácsony utáni vasárnap,,,,WHITE,,,,,,,
+new_years_eve,hungary,,12-31,,,,,,,,Óév este,,,,WHITE,,,,,,,
+new_year,hungary,,01-01,,,,,,,,Újév,,,,WHITE,,,,,,,
+first_sunday,hungary,date lt 01-06,sun>=01-02,,,,,,,,Az esztendő első vasárnapja,,,,WHITE,,,,,,,
+epiphany,hungary,,01-06,,,,,,,,Vízkereszt,,,,WHITE,,,,,,,Vízkereszt (Epifánia) ünnepe
+last_epiphany,hungary,,easter-70,,,,,,,,Vízkereszt ünnepe utáni utolsó vasárnap,,,,WHITE,,,,,TRUE,,
+after_epiphany,hungary,,,01-07,easter-64,sun,1,,,,Vízkereszt ünnepe utáni {name} vasárnap,első|második|harmadik|negyedik|ötödik|hatodik,,,,,,,,,,
+septuagesima,hungary,,easter-63,,,,,,,,Hetvened vasárnap,,,Septuagesima,,,,,,,,
+sexagesima,hungary,,easter-56,,,,,,,,Hatvanad vasárnap,,,Sexagesima,,,,,,,,
+estomihi,hungary,,easter-49,,,,,,,,Ötvened vasárnap,,,Esto mihi,,,,,,,,
+lent,hungary,,,easter-42,easter-14,sun,1,,,,Böjt {name} vasárnapja,első|második|harmadik|negyedik|ötödik|hatodik,,Invocavit|Reminiscere|Okuli|Laetare|Judica,,,,,,,,
+palm_sunday,hungary,,easter-7,,,,,,,,Virágvasárnap,,,Palmarum,PURPLE,,,,,,,Böjt hatodik vasárnapja - Virágvasárnap
+maundy_thursday,hungary,,easter-3,,,,,,,,Nagycsütörtök,,,,WHITE,,,,,,,
+good_friday,hungary,,easter-2,,,,,,,,Nagypéntek,,,,BLACK,,,,,,,
+holy_saturday,hungary,,easter-1,,,,,,,,Nagyszombat,,,,BLACK,,,,,,,
+easter,hungary,,easter,,,,,,,,Húsvét ünnepe,,,,WHITE,,,,,,,
+easter_monday,hungary,,easter+1,,,,,,,,Húsvét második napja,,,,WHITE,,,,,,,
+after_easter,hungary,,,easter+7,easter+42,sun,1,,,,Húsvét utáni {name} vasárnap,első|második|harmadik|negyedik|ötödik|hatodik,,Quasi modo geniti|Misericordia|Jubilate|Cantate|Rogate|Exaudi,,,,,,,,Húsvét utáni első vasárnap (Fehérvasárnap)|Húsvét utáni második vasárnap (Pásztor vasárnapja)||||
+ascension,hungary,,easter+39,,,,,,,,Mennybemenetel ünnepe,,,,WHITE,,,,,,,
+pentecost,hungary,,easter+49,,,,,,,,Pünkösd ünnepe,,,,RED,,,,,,,
+whit_monday,hungary,,easter+50,,,,,,,,Pünkösd második napja,,,,RED,,,,,,,
+trinity,hungary,,easter+56,,,,,,,,Szentháromság ünnepe,,,,WHITE,,,,,,,
+after_trinity,hungary,,,easter+63,next_start-22,sun,1,,,,Szentháromság ünnepe utáni {number}. vasárnap,,,,,,,,,,,
+jerusalem,hungary,,easter+126,,,,,,,,Jeruzsálem pusztulásának emlékünnepe,,,,,,,,,TRUE,,Szentháromság ünnepe utáni 10. vasárnap - Jeruzsálem pusztulásának emlékünnepe
+judgment,hungary,,next_start-21,,,,,,,,Ítélet vasárnap,,,,,,,,,TRUE,,Az egyházi esztendő utolsó előtti vasárnapját megelőző vasárnap (Ítélet vasárnap)
+hope,hungary,,next_start-14,,,,,,,,Reménység vasárnap,,,,,,,,,TRUE,,Az egyházi esztendő utolsó előtti vasárnapja (Reménység vasárnap)
+eternal_life,hungary,,next_start-7,,,,,,,,Örök élet vasárnap,,,,,,,,,TRUE,,Az egyházi esztendő utolsó vasárnapja (Örök élet vasárnap)
+advent,slovakia,,,start,start+27,sun,1,,,,{number}. adventná nedeľa,,,,PURPLE,,,,,,,
+christmas_eve,slovakia,,12-24,,,,,,,,Štedrý večer,,,,WHITE,,,,,,,
+christmas,slovakia,,12-25,,,,,,,,1. slávnosť vianočná,,,,WHITE,,,,,,,1. slávnosť vianočná - Narodenie Krista
+christmas_2,slovakia,,12-26,,,,,,,,2. slávnosť vianočná,,,,WHITE,,,,,,,
+after_christmas,slovakia,date le 12-31,sun>12-26,,,,,,,,Nedeľa po Vianociach,,,,WHITE,,,,,,,
+new_years_eve,slovakia,,12-31,,,,,,,,Silvester,,,,WHITE,,,,,,,Závierka občianskeho roka - Silvester
+new_year,slovakia,,01-01,,,,,,,,Nový rok,,,,WHITE,,,,,,,
+after_new_year,slovakia,date lt 01-06,sun>=01-02,,,,,,,,Nedeľa po Novom roku,,,,WHITE,,,,,,,
+epiphany,slovakia,,01-06,,,,,,,,Zjavenie Krista Pána mudrcom,,,,WHITE,,,,,,,
+# The last Sunday after Epiphany is named so when there are fewer than five,,,,,,,,,,,,,,,,,,,,,,
+# (2026); with five or six they are all numbered (2025).,,,,,,,,,,,,,,,,,,,,,,
+last_epiphany,slovakia,easter-70 lt (sun>01-06)+28,easter-70,,,,,,,,Posledná nedeľa po Zjavení Pána,,,,WHITE,,,,,TRUE,,
+after_epiphany,slovakia,,,01-07,easter-64,sun,1,,,,{number}. nedeľa po Zjavení Pána,,,,,,,,,,,
+septuagesima,slovakia,,easter-63,,,,,,,,Nedeľa Deviatnik,,,Septuagesima,,,,,,,,
+sexagesima,slovakia,,easter-56,,,,,,,,Nedeľa po Deviatniku,,,Sexagesima,,,,,,,,
+estomihi,slovakia,,easter-49,,,,,,,,Predpôstna nedeľa,,,Estomihi,,,,,,,,
+lent,slovakia,,,easter-42,easter-21,sun,1,,,,{number}. nedeľa pôstna,,,Invocavit|Reminiscere|Oculi|Laetare,,,,,,,,
+judica,slovakia,,easter-14,,,,,,,,Smrtná nedeľa,,,Judica,,,,,,,,5. nedeľa pôstna - Smrtná
+palm_sunday,slovakia,,easter-7,,,,,,,,Kvetná nedeľa,,,Palmarum,PURPLE,,,,,,,6. nedeľa pôstna - Kvetná
+maundy_thursday,slovakia,,easter-3,,,,,,,,Zelený štvrtok,,,,WHITE,,,,,,,
+good_friday,slovakia,,easter-2,,,,,,,,Veľký piatok,,,,BLACK,,,,,,,
+easter,slovakia,,easter,,,,,,,,1. slávnosť veľkonočná,,,,WHITE,,,,,,,
+easter_monday,slovakia,,easter+1,,,,,,,,2. slávnosť veľkonočná,,,,WHITE,,,,,,,
+after_easter,slovakia,,,easter+7,easter+35,sun,1,,,,{number}. nedeľa po Veľkej noci,,,Quasimodogeniti|Misericordias Domini|Jubilate|Cantate|Rogate,,,,,,,,
+ascension,slovakia,,easter+39,,,,,,,,Vstúpenie Krista Pána na nebo,,,,WHITE,,,,,,,
+exaudi,slovakia,,easter+42,,,,,,,,Nedeľa po Vstúpení,,,Exaudi,,,,,,,,
+pentecost,slovakia,,easter+49,,,,,,,,1. slávnosť svätodušná,,,,RED,,,,,,,
+whit_monday,slovakia,,easter+50,,,,,,,,2. slávnosť svätodušná,,,,RED,,,,,,,
+trinity,slovakia,,easter+56,,,,,,,,Svätá Trojica,,,Sancta Trinitas,WHITE,,,,,,,Sviatok Svätej Trojice
+after_trinity,slovakia,,,easter+63,next_start-15,sun,1,,,,{number}. nedeľa po Svätej Trojici,,,,,,,,,,,
+penitence,slovakia,,easter+126,,,,,,,,Kajúca nedeľa,,,,,,,,,TRUE,,10. nedeľa po Svätej Trojici - Kajúca nedeľa (skaza Jeruzalema)
+second_last,slovakia,,next_start-14,,,,,,,,Predposledná nedeľa cirkevného roka,,,,,,,,,TRUE,,
+eternity,slovakia,,next_start-7,,,,,,,,Nedeľa večnosti,,,,WHITE,,,,,TRUE,,Posledná nedeľa cirkevného roka - Nedeľa večnosti
+advent,hkbp,,,start,start+27,sun,1,,,,Advent {roman},,,,PURPLE,,,,,,,
+christmas_eve,hkbp,,12-24,,,,,,,,Parpunguan Bodari,,,,WHITE,,,,,,,Parpunguan Bodari (Malam Natal)
+christmas,hkbp,,12-25,,,,,,,,Pesta Natal I,,,,WHITE,,,,,,,Pesta Parjolo Parningotan Ari Hatutubu ni Tuhan Jesus (Natal I)
+christmas_2,hkbp,,12-26,,,,,,,,Pesta Natal II,,,,WHITE,,,,,,,Pesta Paduahon Parningotan Ari Hatutubu ni Tuhan Jesus (Natal II)
+after_christmas,hkbp,date lt 12-31,sun>12-26,,,,,,,,Dung Ari Natal,,,,WHITE,,,,,,,Dung Ari Natal (Minggu Setelah Natal)
+new_years_eve,hkbp,,12-31,,,,,,,,Parpunguan Bodari Ujung Taon,,,,WHITE,,,,,,,Parpunguan Bodari Ujung Taon (Malam Akhir Tahun)
+new_year,hkbp,,01-01,,,,,,,,Taon na Imbaru,,,,WHITE,,,,,,,Taon na Imbaru (Tahun Baru)
+after_new_year,hkbp,date lt 01-06,sun>=01-02,,,,,,,,Dung Taon Baru,,,,WHITE,,,,,,,Dung Taon Baru (Minggu Setelah Tahun Baru)
+epiphany,hkbp,,01-06,,,,,,,,Epiphanias,,,,WHITE,,,,,,,Epiphanias (Hapapatar)
+after_epiphany,hkbp,,,01-07,easter-64,sun,1,,,,{roman} Dung Epiphanias,,,,WHITE,,,,,,,{roman} Dung Epiphanias (Minggu {roman} Setelah Epiphanias)
+septuagesima,hkbp,,easter-63,,,,,,,,Septuagesima,,,,GREEN,,,,,,,
+sexagesima,hkbp,,easter-56,,,,,,,,Sexagesima,,,,GREEN,,,,,,,
+estomihi,hkbp,,easter-49,,,,,,,,Estomihi,,,,GREEN,,,,,,,
+# Invocavit is green in the almanac (2025 and 2026); the Passion Sundays after it violet.,,,,,,,,,,,,,,,,,,,,,,
+lent,hkbp,,,easter-42,easter-14,sun,1,,,,{name},Invocavit|Reminiscere|Okuli|Letare|Judika,,,GREEN|PURPLE|PURPLE|PURPLE|PURPLE,,,,,,,
+palm_sunday,hkbp,,easter-7,,,,,,,,Palmarum,,,,PURPLE,,,,,,,
+# Good Friday is blue (Biru) in the almanac.,,,,,,,,,,,,,,,,,,,,,,
+good_friday,hkbp,,easter-2,,,,,,,,Jumat Agung,,,,BLUE,,,,,,,Parningotan Ari Hamamate ni Tuhan Jesus (Jumat Agung)
+easter,hkbp,,easter,,,,,,,,Paskah I,,,,WHITE,,,,,,,
+easter_monday,hkbp,,easter+1,,,,,,,,Paskah II,,,,WHITE,,,,,,,
+after_easter,hkbp,,,easter+7,easter+35,sun,1,,,,{name},Quasimodogeniti|Misericordias Domini|Jubilate|Kantate|Rogate,,,WHITE,,,,,,,
+ascension,hkbp,,easter+39,,,,,,,,Hananaek Tuhan Jesus,,,,WHITE,,,,,,,Pesta Parningotan Hari Hananaek Tuhan Jesus (Kenaikan Tuhan Yesus)
+exaudi,hkbp,,easter+42,,,,,,,,Exaudi,,,,WHITE,,,,,,,
+pentecost,hkbp,,easter+49,,,,,,,,Pentakosta I,,,,RED,,,,,,,
+whit_monday,hkbp,,easter+50,,,,,,,,Pentakosta II,,,,RED,,,,,,,
+"# Trinity Sunday is green in the almanac, like the Sundays after it.",,,,,,,,,,,,,,,,,,,,,,
+trinity,hkbp,,easter+56,,,,,,,,Trinitatis,,,,GREEN,,,,,,,
+after_trinity,hkbp,,,easter+63,next_start-8,sun,1,,,,{roman} Dung Trinitatis,,,,,,,,,,,{roman} Dung Trinitatis (Minggu {roman} Setelah Trinitatis)
+"# The last Sunday keeps its number, with its name beneath (23 November 2025).",,,,,,,,,,,,,,,,,,,,,,
+last_sunday,hkbp,,next_start-7,,,,easter+56,,,,{roman} Dung Trinitatis,,Ujung Taon Parhuriaon,,,,,,,TRUE,,{roman} Dung Trinitatis - Ujung Taon Parhuriaon (Minggu Akhir Tahun Gereja)
+advent,gkli,,,start,start+27,sun,1,,,,Advent {roman},,,,PURPLE,,,,,,,
+christmas_eve,gkli,,12-24,,,,,,,,Malam Natal,,,,WHITE,,,,,,,
+christmas,gkli,,12-25,,,,,,,,Natal I,,,,WHITE,,,,,,,
+christmas_2,gkli,,12-26,,,,,,,,Natal II,,,,WHITE,,,,,,,
+after_christmas,gkli,date le 12-31,sun>12-26,,,,,,,,Minggu Setelah Natal,,,,WHITE,,,,,,,
+new_years_eve,gkli,,12-31,,,,,,,,Malam Akhir Tahun,,,,WHITE,,,,,,,
+new_year,gkli,,01-01,,,,,,,,Tahun Baru,,,,WHITE,,,,,,,
+after_new_year,gkli,date lt 01-06,sun>=01-02,,,,,,,,Minggu Setelah Tahun Baru,,,,WHITE,,,,,,,
+epiphany,gkli,,01-06,,,,,,,,Epiphanias,,,,WHITE,,,,,,,
+after_epiphany,gkli,,,01-07,easter-64,sun,1,,,,Minggu {roman} Setelah Epiphanias,,,,WHITE,,,,,,,
+septuagesima,gkli,,easter-63,,,,,,,,Septuagesima,,,,GREEN,,,,,,,
+sexagesima,gkli,,easter-56,,,,,,,,Sexagesima,,,,GREEN,,,,,,,
+estomihi,gkli,,easter-49,,,,,,,,Estomihi,,,,GREEN,,,,,,,Estomihi/Quinquagesima
+ash_wednesday,gkli,,easter-46,,,,,,,,Rabu Abu,,,,PURPLE,,,,,,,
+lent,gkli,,,easter-42,easter-14,sun,1,,,,{name},Invocavit|Reminiscere|Okuli|Letare|Judika,,,PURPLE,,,,,,,{name} (Passion {roman})
+palm_sunday,gkli,,easter-7,,,,,,,,Palmarum,,,,RED,,,,,,,Palmarum (Maremare)
+maundy_thursday,gkli,,easter-3,,,,,,,,Kamis Putih,,,,,,,,,,,
+good_friday,gkli,,easter-2,,,,,,,,Jumat Agung,,,,BLACK,,,,,,,Jumat Agung (Ari Hamamate ni Tuhan Jesus)
+easter,gkli,,easter,,,,,,,,Paskah I,,,,WHITE,,,,,,,Paskah I (Ari Haheheon)
+easter_monday,gkli,,easter+1,,,,,,,,Paskah II,,,,WHITE,,,,,,,
+after_easter,gkli,,,easter+7,easter+35,sun,1,,,,{name},Quasimodogeniti|Misericordias Domini|Jubilate|Kantate|Rogate,,,WHITE,,,,,,,
+ascension,gkli,,easter+39,,,,,,,,Kenaikan Tuhan Yesus,,,,WHITE,,,,,,,Kenaikan Tuhan Yesus (Hananaek ni Tuhan Jesus)
+exaudi,gkli,,easter+42,,,,,,,,Exaudi,,,,WHITE,,,,,,,
+pentecost,gkli,,easter+49,,,,,,,,Pentakosta I,,,,RED,,,,,,,
+whit_monday,gkli,,easter+50,,,,,,,,Pentakosta II,,,,RED,,,,,,,
+trinity,gkli,,easter+56,,,,,,,,Trinitatis,,,,WHITE,,,,,,,
+after_trinity,gkli,,,easter+63,next_start-8,sun,1,,,,Minggu {roman} Setelah Trinitatis,,,,,,,,,,,
+last_sunday,gkli,,next_start-7,,,,,,,,Minggu Akhir Tahun Gereja,,,,BLACK,,,,,TRUE,,Minggu Akhir Tahun Gereja (peringatan orang-orang meninggal)
+advent,elct,,,start,start+27,sun,1,,,,Siku ya Bwana ya {number} katika Majilio,,,,PURPLE,,,,,,,
+christmas_eve,elct,,12-24,,,,,,,,Usiku Mtakatifu,,,,WHITE,,,,,,,
+christmas,elct,,12-25,,,,,,,,Kuzaliwa kwa Yesu Kristo,,,,WHITE,,,,,,,Siku ya kukumbuka kuzaliwa kwa Yesu Kristo
+martyrs,elct,,12-26,,,,,,,,Sikukuu ya Wafia Dini,,,,RED,,,,,,,
+after_christmas,elct,date lt 12-31,sun>12-26,,,,,,,,Siku ya Bwana ya 1 baada ya kuzaliwa Yesu Kristo,,,,WHITE,,,,,,,
+after_christmas_2,elct,date lt 01-06,sun>01-01,,,,,,,,Siku ya Bwana ya 2 baada ya kuzaliwa Yesu Kristo,,,,WHITE,,,,,,,
+new_years_eve,elct,,12-31,,,,,,,,Siku ya Mwisho wa Mwaka,,,,WHITE,,,,,,,
+new_year,elct,,01-01,,,,,,,,Siku ya Mwaka Mpya,,,,WHITE,,,,,,,Siku ya kwanza ya Mwaka Mpya
+epiphany,elct,,01-06,,,,,,,,Siku ya Ufunuo - Epifania,,,,WHITE,,,,,,,
+last_epiphany,elct,,easter-70,,,,,,,,Siku ya Bwana ya mwisho katika Majira ya Ufunuo,,,,WHITE,,,,,TRUE,,Siku ya Bwana ya mwisho katika Majira ya Ufunuo (Siku ya Kung'aa)
+after_epiphany,elct,,,01-07,easter-64,sun,1,,,,Siku ya Bwana ya {number} baada ya Ufunuo,,,,WHITE,,,,,,,
+septuagesima,elct,,easter-63,,,,,,,,Siku ya Bwana ya 9 kabla ya Pasaka,,,Septuagesima,GREEN,,,,,,,
+sexagesima,elct,,easter-56,,,,,,,,Siku ya Bwana ya 8 kabla ya Pasaka,,,Sexagesima,GREEN,,,,,,,
+estomihi,elct,,easter-49,,,,,,,,Siku ya Bwana ya 7 kabla ya Pasaka,,,Quinquagesima/Estomihi,GREEN,,,,,,,
+ash_wednesday,elct,,easter-46,,,,,,,,Siku ya Majivu,,,,PURPLE,,,,,,,
+"# The World Day of Prayer (first Friday in March), in the Kalenda ya Biblia 2014-2018.",,,,,,,,,,,,,,,,,,,,,,
+world_day_of_prayer,elct,,fri#1:03,,,,,,,,Siku ya Maombi ya Dunia,,,,PURPLE,,,,,,,
+lent,elct,,,easter-42,easter-14,sun,2,before,,,Siku ya Bwana ya {number} kabla ya Pasaka,,,Invocavit|Reminiscere|Okuli|Laetare|Yudika,PURPLE,,,,,,,
+palm_sunday,elct,,easter-7,,,,,,,,Siku ya Mitende,,,Palmarum,PURPLE,,,,,,,Siku ya Bwana ya mwisho kabla ya Pasaka (Siku ya Mitende)
+maundy_thursday,elct,,easter-3,,,,,,,,Alhamisi Kuu,,,,WHITE,,,,,,,
+good_friday,elct,,easter-2,,,,,,,,Ijumaa Kuu,,,,BLACK,,,,,,,Ijumaa Kuu: Siku ya kukumbuka kufa kwa Bwana Yesu
+easter,elct,,easter,,,,,,,,Pasaka,,,,WHITE,,,,,,,Siku ya kukumbuka kufufuka kwa Yesu Kristo (Pasaka)
+easter_monday,elct,,easter+1,,,,,,,,Jumatatu ya Pasaka,,,,WHITE,,,,,,,
+after_easter,elct,,,easter+7,easter+35,sun,1,,,,Siku ya Bwana ya {number} baada ya Pasaka,,,Quasimodogeniti|Misericordias Domini|Jubilate|Kantate|Rogate,WHITE,,,,,,,
+ascension,elct,,easter+39,,,,,,,,Siku ya Kupaa,,,,WHITE,,,,,,,Siku ya kukumbuka Kupaa kwake Kristo
+exaudi,elct,,easter+42,,,,,,,,Siku ya Bwana kabla ya Pentekoste,,,Exaudi,WHITE,,,,,,,
+pentecost,elct,,easter+49,,,,,,,,Pentekoste,,,,RED,,,,,,,Siku ya kukumbuka kushuka kwa Roho Mtakatifu (Pentekoste)
+whit_monday,elct,,easter+50,,,,,,,,Jumatatu ya Pentekoste,,,,RED,,,,,,,
+trinity,elct,,easter+56,,,,,,,,Siku ya Utatu Mtakatifu,,,,WHITE,,,,,,,
+after_trinity,elct,,,easter+63,next_start-22,sun,1,,,,Siku ya Bwana ya {number} baada ya Utatu,,,,,,,,,,,
+# Children's Day took the Sunday after Michaelmas in 2018 (30 September).,,,,,,,,,,,,,,,,,,,,,,
+children,elct,date lt next_start-21,sun>=09-29,,,,,,,,Sikukuu ya Watoto,,,,WHITE,,,,,TRUE,,
+reformation,elct,date lt next_start-21,sun<=10-31,,,,,,,,Matengenezo ya Kanisa,,,,RED,,,,,TRUE,,Siku kukumbuka Matengenezo ya Kanisa (Reformation)
+all_saints,elct,date lt next_start-21,sun#1:11,,,,,,,,Siku ya Watakatifu,,,,WHITE,,,,,TRUE,,
+before_advent,elct,,,next_start-21,next_start-14,sun,2,before,,,Siku ya Bwana ya {number} kabla ya Majilio,,,,,,,,,,,
+last_sunday,elct,,next_start-7,,,,,,,,Siku ya Bwana ya mwisho kabla ya Majilio,,,,,,,,,TRUE,,
+advent,flm,,,start,start+27,sun,1,,,,Alahady {roman} amin'ny Advento,,,,PURPLE,,,,,,,
+christmas,flm,,12-25,,,,,,,,Noely,,,,WHITE,,,,,,,
+after_christmas,flm,date le 12-31,sun>12-25,,,,,,,,Alahady manaraka ny Noely,,,,WHITE,,,,,,,
+"# The Epiphany Sunday is the first Sunday of January (1 January 2023, 2 January 2022).",,,,,,,,,,,,,,,,,,,,,,
+epiphany,flm,,sun>=01-01,,,,,,,,Alahadin'ny Epifania,,,,WHITE,,,,,TRUE,,
+after_epiphany,flm,,,@epiphany+7,easter-70,sun,1,,,,Alahady {roman} manaraka ny Epifania,,,,,,,,,,,
+# The nine Sundays before Easter are counted down to Palm Sunday (2022 onward).,,,,,,,,,,,,,,,,,,,,,,
+before_easter,flm,,,easter-63,easter-14,sun,2,before,,,Alahady {roman} mialoha ny Paska,,,,,,,,,,,
+palm_sunday,flm,,easter-7,,,,,,,,Alahadin'ny Sampan-drofia,,,,PURPLE,,,,,,,
+easter,flm,,easter,,,,,,,,Andro Paska I,,,,WHITE,,,,,,,
+easter_monday,flm,,easter+1,,,,,,,,Andro Paska II,,,,WHITE,,,,,,,
+after_easter,flm,,,easter+7,easter+42,sun,1,,,,Alahady {roman} manaraka ny Paska,,,,,,,,,,,
+ascension,flm,,easter+39,,,,,,,,Fiakarana,,,,WHITE,,,,,,,
+pentecost,flm,,easter+49,,,,,,,,Pentekosta I,,,,RED,,,,,,,
+whit_monday,flm,,easter+50,,,,,,,,Pentekosta II,,,,RED,,,,,,,
+trinity,flm,,easter+56,,,,,,,,Alahadin'ny Trinite,,,,WHITE,,,,,,,
+after_trinity,flm,,,easter+63,end,sun,1,,,,Alahady {roman} manaraka ny Trinite,,,,,,,,,,,

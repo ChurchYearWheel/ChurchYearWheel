@@ -1,0 +1,14 @@
+name,fill,text
+# ===========================================================================
+"# The Roman calendar's colors, laid over data/colors.csv.  Lighter than the"
+"# LCMS palette, after the parish wheel calendars this one was modeled on:"
+# the white seasons are drawn in a pale gold for Christmas and a deeper gold
+"# for Easter, so the two read apart on the wheel."
+# ===========================================================================
+VIOLET,#8e7cc3,#000000
+ROSE,#e8a0c0,#000000
+WHITE,#f6eaa7,#000000
+GOLD,#f0b848,#000000
+RED,#d8322c,#ffffff
+GREEN,#97c36c,#000000
+BLACK,#333333,#ffffff

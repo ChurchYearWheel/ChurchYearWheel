@@ -1,0 +1,9 @@
+id,date,name,full_name,rank,style,color_override,color_override_bottom,icon,icon_when,transfer,variant,when,action
+our_lady_of_fatima,,,Our Lady of Fatima,11,memorial,-,,,,,,,
+sts_charles_lwanga_and_companions,,,"Saints Charles Lwanga and companions, martyrs",8,feast_rank,RED,,,,,,,
+,08-05,Our Lady of Africa,,11,memorial,,,,,,,,
+st_augustine_of_hippo,,,"Saint Augustine of Hippo, bishop and doctor of the Church",8,feast_rank,WHITE,,,,,,,
+st_peter_claver,,,"Saint Peter Claver, priest",11,memorial,-,,,,,,,
+,(sun#-1:10)-1,Immaculate Heart of Mary,,4,solemnity,WHITE,,,,,,,
+st_therese_of_the_child_jesus,10-03,,"Saint Thérèse of the Child Jesus, virgin and doctor of the Church",8,feast_rank,WHITE,,,,,,,
+st_francis_xavier,,,"Saint Francis Xavier, priest",8,feast_rank,WHITE,,,,,,,

@@ -1,0 +1,291 @@
+day,offset,when,cycle,variant,title,kind,reading
+# ===========================================================================
+"# Christian Worship: Hymnal (2021), the Wisconsin Evangelical Lutheran"
+"# Synod: the one-year (historic) lectionary, as the Wartburg Project gives"
+# it, https://wartburgproject.org/resources/lectionaries/cw21/1year (read
+"# October 2026), with the Psalm of the Day from the hymnal's Psalm"
+"# Appointments (pp. xxxi-xxxiv; Psalm 119's sections as in cw21.csv)."
+"# Keyed by the days of data/RCLWorld/days.csv (variant wels-one-year): the"
+"# Sundays in Advent, after Christmas, after the Epiphany, in Lent, of Easter"
+# and after Trinity by their numbers; Monday to Wednesday of Holy Week by
+"# Easter.  The Wartburg Project lists the Sundays after Trinity to the"
+"# Twenty-Sixth and nothing for the Last Sunday of the Church Year, for which"
+"# the hymnal appoints Psalm 45: it is given the psalm alone.  A Sunday after"
+"# Trinity that the Last Sunday takes has no"
+"# readings of its own, and a long year's 27th has none.  The minor festivals,"
+"# New Year's Eve and Thanksgiving are cw21.csv's.  Used by the WELS One-year:"
+# data/RCLWorld/tradition.csv, `readings,cw21-1year cw21`.
+# ===========================================================================
+advent:1,,,,,,ot,Jeremiah 23:5–8
+advent:1,,,,,,psalm,Psalm 24
+advent:1,,,,,,epistle,Romans 13:11–14
+advent:1,,,,,,gospel,Matthew 21:1–9
+advent:2,,,,,,ot,Malachi 4:1–6
+advent:2,,,,,,psalm,Psalm 80
+advent:2,,,,,,epistle,Romans 15:4–13
+advent:2,,,,,,gospel,Luke 21:25–36
+advent:3,,,,,,ot,Isaiah 40:1–8
+advent:3,,,,,,psalm,Psalm 85
+advent:3,,,,,,epistle,1 Corinthians 4:1–5
+advent:3,,,,,,gospel,Matthew 11:2–10
+advent:4,,,,,,ot,Isaiah 40:9–11
+advent:4,,,,,,psalm,Psalm 19
+advent:4,,,,,,epistle,Philippians 4:4–7
+advent:4,,,,,,gospel,John 1:19–28
+christmas_eve,,,,,,ot,Isaiah 7:10–14
+christmas_eve,,,,,,psalm,Psalm 96
+christmas_eve,,,,,,epistle,Titus 2:11–14
+christmas_eve,,,,,,gospel,Luke 2:1–14
+christmas,,,,,,ot,Isaiah 9:2–7
+christmas,,,,,,psalm,Psalm 98
+christmas,,,,,,epistle,Hebrews 1:1–12
+christmas,,,,,,gospel,John 1:1–14
+after_christmas:1,,,,,,ot,Isaiah 11:1–5
+after_christmas:1,,,,,,psalm,Psalm 103
+after_christmas:1,,,,,,epistle,Galatians 4:1–7
+after_christmas:1,,,,,,gospel,Luke 2:33–40
+after_christmas:2,,,,,,ot,Genesis 46:1–7
+after_christmas:2,,,,,,psalm,Psalm 8
+after_christmas:2,,,,,,epistle,1 Peter 4:12–19
+after_christmas:2,,,,,,gospel,Matthew 2:13–23
+epiphany,,,,,,ot,Isaiah 60:1–6
+epiphany,,,,,,psalm,Psalm 72
+epiphany,,,,,,epistle,Ephesians 3:1–12
+epiphany,,,,,,gospel,Matthew 2:1–12
+after_epiphany:1,,,,,,ot,Ecclesiastes 12:1–7
+after_epiphany:1,,,,,,psalm,Psalm 100
+after_epiphany:1,,,,,,epistle,Romans 12:1–5
+after_epiphany:1,,,,,,gospel,Luke 2:41–52
+after_epiphany:2,,,,,,ot,Exodus 33:12–23
+after_epiphany:2,,,,,,psalm,Psalm 66
+after_epiphany:2,,,,,,epistle,Romans 12:6–16a
+after_epiphany:2,,,,,,gospel,John 2:1–11
+after_epiphany:3,,,,,,ot,2 Kings 5:1–15a
+after_epiphany:3,,,,,,psalm,Psalm 121
+after_epiphany:3,,,,,,epistle,Romans 12:16b–21
+after_epiphany:3,,,,,,gospel,Matthew 8:1–13
+after_epiphany:4,,,,,,ot,Exodus 14:21–31
+after_epiphany:4,,,,,,psalm,Psalm 62
+after_epiphany:4,,,,,,epistle,Romans 13:8–10
+after_epiphany:4,,,,,,gospel,Matthew 8:23–27
+after_epiphany:5,,,,,,ot,Jeremiah 17:5–10
+after_epiphany:5,,,,,,psalm,Psalm 65
+after_epiphany:5,,,,,,epistle,Colossians 3:12–17
+after_epiphany:5,,,,,,gospel,Matthew 13:24–30
+transfiguration,,,,,,ot,Exodus 34:29–35
+transfiguration,,,,,,psalm,Psalm 2
+transfiguration,,,,,,epistle,2 Peter 1:16–21
+transfiguration,,,,,,gospel,Matthew 17:1–9
+septuagesima,,,,,,ot,Jeremiah 9:23–24
+septuagesima,,,,,,psalm,Psalm 46
+septuagesima,,,,,,epistle,1 Corinthians 9:24–10:5
+septuagesima,,,,,,gospel,Matthew 20:1–16
+sexagesima,,,,,,ot,Isaiah 55:10–13
+sexagesima,,,,,,psalm,Psalm 1
+sexagesima,,,,,,epistle,2 Corinthians 11:19–12:9
+sexagesima,,,,,,gospel,Luke 8:4–15
+quinquagesima,,,,,,ot,Isaiah 42:5–9
+quinquagesima,,,,,,psalm,Psalm 31
+quinquagesima,,,,,,epistle,1 Corinthians 13:1–13
+quinquagesima,,,,,,gospel,Luke 18:31–43
+ash_wednesday,,,,,,ot,Joel 2:12–19
+ash_wednesday,,,,,,psalm,Psalm 51
+ash_wednesday,,,,,,epistle,1 John 1:5–9
+ash_wednesday,,,,,,gospel,Matthew 6:16–21
+lent:1,,,,,,ot,Genesis 3:1–19
+lent:1,,,,,,psalm,Psalm 91
+lent:1,,,,,,epistle,2 Corinthians 6:1–10
+lent:1,,,,,,gospel,Matthew 4:1–11
+lent:2,,,,,,ot,Genesis 32:22–32
+lent:2,,,,,,psalm,Psalm 25
+lent:2,,,,,,epistle,1 Thessalonians 4:1–7
+lent:2,,,,,,gospel,Matthew 15:21–28
+lent:3,,,,,,ot,Jeremiah 26:1–15
+lent:3,,,,,,psalm,Psalm 73
+lent:3,,,,,,epistle,Ephesians 5:1–9
+lent:3,,,,,,gospel,Luke 11:14–28
+lent:4,,,,,,ot,Isaiah 55:1–7
+lent:4,,,,,,psalm,Psalm 145
+lent:4,,,,,,epistle,Galatians 4:21–31
+lent:4,,,,,,gospel,John 6:1–15
+lent:5,,,,,,ot,Genesis 22:1–14
+lent:5,,,,,,psalm,Psalm 42
+lent:5,,,,,,epistle,Hebrews 9:11–15
+lent:5,,,,,,gospel,John 8:46–59
+palm_sunday,,,,,,ot,Zechariah 9:9–12
+palm_sunday,,,,,,psalm,Psalm 24
+palm_sunday,,,,,,epistle,Philippians 2:5–11
+palm_sunday,,,,,,gospel,Matthew 21:1–9
+easter-6,,,,,,ot,Isaiah 50:5–10
+easter-6,,,,,,psalm,Psalm 112
+easter-6,,,,,,epistle,1 Peter 2:21–24
+easter-6,,,,,,gospel,John 12:1–36
+easter-5,,,,,,ot,Jeremiah 11:18–20
+easter-5,,,,,,psalm,Psalm 69
+easter-5,,,,,,epistle,1 Timothy 6:12–14
+easter-5,,,,,,gospel,Mark 14:1–15:47
+easter-4,,,,,,ot,Isaiah 62:11–63:7
+easter-4,,,,,,psalm,Psalm 40
+easter-4,,,,,,epistle,Revelation 1:5b–7
+easter-4,,,,,,gospel,Luke 22:1–23:56
+maundy_thursday,,,,,,ot,Exodus 12:1–14
+maundy_thursday,,,,,,psalm,Psalm 116
+maundy_thursday,,,,,,epistle,1 Corinthians 11:23–32
+maundy_thursday,,,,,,gospel,John 13:1–15
+good_friday,,,,,,ot,Isaiah 52:13–53:12
+good_friday,,,,,,psalm,Psalm 22
+good_friday,,,,,,epistle,2 Corinthians 5:14–21
+good_friday,,,,,,gospel,John 18:1–19:42
+holy_saturday,,,,,,ot,Daniel 6:1–24
+holy_saturday,,,,,,psalm,Psalm 16
+holy_saturday,,,,,,epistle,1 Peter 3:17–22
+holy_saturday,,,,,,gospel,Matthew 27:57–66
+easter,,,,,Easter Dawn,ot,Isaiah 25:6–9
+easter,,,,,Easter Dawn,psalm,Psalm 118
+easter,,,,,Easter Dawn,epistle,1 Peter 1:3–9
+easter,,,,,Easter Dawn,gospel,John 20:1–18
+easter,,,,,,ot,Job 19:23–27
+easter,,,,,,psalm,Psalm 118
+easter,,,,,,epistle,1 Corinthians 5:6b–8
+easter,,,,,,gospel,Mark 16:1–8
+after_easter:2,,,,,,ot,Genesis 15:1–6
+after_easter:2,,,,,,psalm,Psalm 16
+after_easter:2,,,,,,epistle,1 John 5:4–12
+after_easter:2,,,,,,gospel,John 20:19–31
+after_easter:3,,,,,,ot,Ezekiel 34:11–16
+after_easter:3,,,,,,psalm,Psalm 23
+after_easter:3,,,,,,epistle,1 Peter 2:21–25
+after_easter:3,,,,,,gospel,John 10:11–16
+after_easter:4,,,,,,ot,Isaiah 40:25–31
+after_easter:4,,,,,,psalm,Psalm 30
+after_easter:4,,,,,,epistle,1 Peter 2:11–20
+after_easter:4,,,,,,gospel,John 16:16–22
+after_easter:5,,,,,,ot,Isaiah 12:1–6
+after_easter:5,,,,,,psalm,Psalm 98
+after_easter:5,,,,,,epistle,James 1:16–21
+after_easter:5,,,,,,gospel,John 16:5–15
+after_easter:6,,,,,,ot,Numbers 21:4–9
+after_easter:6,,,,,,psalm,Psalm 66
+after_easter:6,,,,,,epistle,James 1:22–27
+after_easter:6,,,,,,gospel,John 16:23–30
+ascension,,,,,,ot,2 Kings 2:5–15
+ascension,,,,,,psalm,Psalm 47
+ascension,,,,,,epistle,Acts 1:1–11
+ascension,,,,,,gospel,Mark 16:14–20
+after_easter:7,,,,,,ot,Ezekiel 36:22–28
+after_easter:7,,,,,,psalm,Psalm 27
+after_easter:7,,,,,,epistle,1 Peter 4:7–11
+after_easter:7,,,,,,gospel,John 15:26–16:4
+pentecost,,,,,,ot,Genesis 11:1–9
+pentecost,,,,,,psalm,Psalm 104
+pentecost,,,,,,epistle,Acts 2:1–21
+pentecost,,,,,,gospel,John 14:23–31
+trinity,,,,,,ot,Isaiah 6:1–8
+trinity,,,,,,psalm,Psalm 8
+trinity,,,,,,epistle,Romans 11:33–36
+trinity,,,,,,gospel,John 3:1–15
+after_trinity:1,,,,,,ot,Deuteronomy 6:4–13
+after_trinity:1,,,,,,psalm,Psalm 119:65–72
+after_trinity:1,,,,,,epistle,1 John 4:16–21
+after_trinity:1,,,,,,gospel,Luke 16:19–31
+after_trinity:2,,,,,,ot,Proverbs 9:1–10
+after_trinity:2,,,,,,psalm,Psalm 67
+after_trinity:2,,,,,,epistle,1 John 3:13–18
+after_trinity:2,,,,,,gospel,Luke 14:16–24
+after_trinity:3,,,,,,ot,Micah 7:18–20
+after_trinity:3,,,,,,psalm,Psalm 25
+after_trinity:3,,,,,,epistle,1 Peter 5:5–11
+after_trinity:3,,,,,,gospel,Luke 15:1–10
+after_trinity:4,,,,,,ot,Isaiah 58:6–12
+after_trinity:4,,,,,,psalm,Psalm 27
+after_trinity:4,,,,,,epistle,Romans 8:18–22
+after_trinity:4,,,,,,gospel,Luke 6:36–42
+after_trinity:5,,,,,,ot,Jeremiah 1:4–10
+after_trinity:5,,,,,,psalm,Psalm 85
+after_trinity:5,,,,,,epistle,1 Peter 3:8–15a
+after_trinity:5,,,,,,gospel,Luke 5:1–11
+after_trinity:6,,,,,,ot,Exodus 20:1–17
+after_trinity:6,,,,,,psalm,Psalm 146
+after_trinity:6,,,,,,epistle,Romans 6:3–11
+after_trinity:6,,,,,,gospel,Matthew 5:20–26
+after_trinity:7,,,,,,ot,Jeremiah 31:23–25
+after_trinity:7,,,,,,psalm,Psalm 47
+after_trinity:7,,,,,,epistle,Romans 6:19–23
+after_trinity:7,,,,,,gospel,Mark 8:1–9a
+after_trinity:8,,,,,,ot,Jeremiah 23:16–29
+after_trinity:8,,,,,,psalm,Psalm 1
+after_trinity:8,,,,,,epistle,Romans 8:12–17
+after_trinity:8,,,,,,gospel,Matthew 7:15–23
+after_trinity:9,,,,,,ot,Proverbs 16:1–9
+after_trinity:9,,,,,,psalm,Psalm 34
+after_trinity:9,,,,,,epistle,1 Corinthians 10:6–13
+after_trinity:9,,,,,,gospel,Luke 16:1–9
+after_trinity:10,,,,,,ot,Jeremiah 7:1–11
+after_trinity:10,,,,,,psalm,Psalm 51
+after_trinity:10,,,,,,epistle,1 Corinthians 12:1–11
+after_trinity:10,,,,,,gospel,Luke 19:41–48
+after_trinity:11,,,,,,ot,Daniel 9:15–19
+after_trinity:11,,,,,,psalm,Psalm 32
+after_trinity:11,,,,,,epistle,1 Corinthians 15:1–10
+after_trinity:11,,,,,,gospel,Luke 18:9–14
+after_trinity:12,,,,,,ot,Isaiah 29:17–24
+after_trinity:12,,,,,,psalm,Psalm 78
+after_trinity:12,,,,,,epistle,2 Corinthians 3:4–11
+after_trinity:12,,,,,,gospel,Mark 7:31–37
+after_trinity:13,,,,,,ot,Leviticus 19:9–18
+after_trinity:13,,,,,,psalm,Psalm 136
+after_trinity:13,,,,,,epistle,Galatians 3:15–22
+after_trinity:13,,,,,,gospel,Luke 10:23–37
+after_trinity:14,,,,,,ot,Deuteronomy 8:10–18
+after_trinity:14,,,,,,psalm,Psalm 84
+after_trinity:14,,,,,,epistle,Galatians 5:16–24
+after_trinity:14,,,,,,gospel,Luke 17:11–19
+after_trinity:15,,,,,,ot,1 Kings 17:8–16
+after_trinity:15,,,,,,psalm,Psalm 128
+after_trinity:15,,,,,,epistle,Galatians 5:25–6:10
+after_trinity:15,,,,,,gospel,Matthew 6:24–34
+after_trinity:16,,,,,,ot,1 Kings 17:17–24
+after_trinity:16,,,,,,psalm,Psalm 150
+after_trinity:16,,,,,,epistle,Ephesians 3:13–21
+after_trinity:16,,,,,,gospel,Luke 7:11–17
+after_trinity:17,,,,,,ot,Proverbs 25:6–14
+after_trinity:17,,,,,,psalm,Psalm 119:129–136
+after_trinity:17,,,,,,epistle,Ephesians 4:1–6
+after_trinity:17,,,,,,gospel,Luke 14:1–11
+after_trinity:18,,,,,,ot,Deuteronomy 10:12–21
+after_trinity:18,,,,,,psalm,Psalm 2
+after_trinity:18,,,,,,epistle,1 Corinthians 1:4–9
+after_trinity:18,,,,,,gospel,Matthew 22:34–46
+after_trinity:19,,,,,,ot,Isaiah 44:21–23
+after_trinity:19,,,,,,psalm,Psalm 32
+after_trinity:19,,,,,,epistle,Ephesians 4:22–28
+after_trinity:19,,,,,,gospel,Matthew 9:1–8
+after_trinity:20,,,,,,ot,Isaiah 55:1–9
+after_trinity:20,,,,,,psalm,Psalm 63
+after_trinity:20,,,,,,epistle,Ephesians 5:15–21
+after_trinity:20,,,,,,gospel,Matthew 22:1–14
+after_trinity:21,,,,,,ot,2 Samuel 7:18–29
+after_trinity:21,,,,,,psalm,Psalm 119:1–8
+after_trinity:21,,,,,,epistle,Ephesians 6:10–17
+after_trinity:21,,,,,,gospel,John 4:46–54
+after_trinity:22,,,,,,ot,Genesis 50:15–21
+after_trinity:22,,,,,,psalm,Psalm 130
+after_trinity:22,,,,,,epistle,Philippians 1:3–11
+after_trinity:22,,,,,,gospel,Matthew 18:22–35
+after_trinity:23,,,,,,ot,Proverbs 8:11–22
+after_trinity:23,,,,,,psalm,Psalm 85
+after_trinity:23,,,,,,epistle,Philippians 3:17–21
+after_trinity:23,,,,,,gospel,Matthew 22:15–22
+after_trinity:24,,,,,,ot,Isaiah 51:9–16
+after_trinity:24,,,,,,psalm,Psalm 4
+after_trinity:24,,,,,,epistle,Colossians 1:9–14
+after_trinity:24,,,,,,gospel,Matthew 9:18–26
+after_trinity:25,,,,,,ot,Isaiah 49:12–17
+after_trinity:25,,,,,,psalm,Psalm 31
+after_trinity:25,,,,,,epistle,1 Thessalonians 4:13–18
+after_trinity:25,,,,,,gospel,Matthew 24:15–28
+after_trinity:26,,,,,,ot,Daniel 7:9–14
+after_trinity:26,,,,,,psalm,Psalm 90
+after_trinity:26,,,,,,epistle,2 Thessalonians 1:3–10
+after_trinity:26,,,,,,gospel,Matthew 25:31–46
+last_sunday,,,,,,psalm,Psalm 45

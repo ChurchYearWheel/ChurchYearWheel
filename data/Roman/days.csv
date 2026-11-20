@@ -1,0 +1,42 @@
+id,variant,when,date,from,to,every,first,count,title,names,notes,latin,color,color_bottom,rank,style,icon,claims,yield,full_name
+# ===========================================================================
+"# The Proper of Time of the Roman Missal (the General Roman Calendar), as"
+"# rules.  `rank` is the day's place in the Table of Liturgical Days, 1 the"
+# highest: it decides what a saint's day falling on it gives way to.  A
+# national calendar may move a row by giving its id a new date (Epiphany,
+# the Ascension and Corpus Christi are kept on Sundays in many countries).
+# See docs/traditions.md.
+# ===========================================================================
+advent,,,,start,start+27,sun,1,,{ordinal} Sunday of Advent,,,,||ROSE|,,2,,,,,
+christmas_eve,,,12-24,,,,,,Christmas Eve,,,,,WHITE,9,,,,,Christmas Eve (the Vigil Mass of the Nativity in the evening)
+christmas,,,12-25,,,,,,Nativity of the Lord,,,,WHITE,,2,,obligation,,,The Nativity of the Lord (Christmas)
+"# The Holy Family: the Sunday within the octave, or 30 December when there is none."
+holy_family,,date le 12-31,sun>12-25,,,,,,Holy Family,,,,WHITE,,5,,,TRUE,,"The Holy Family of Jesus, Mary and Joseph"
+holy_family_30,,(sun>12-25) gt 12-31,12-30,,,,,,Holy Family,,,,WHITE,,5,,,TRUE,,"The Holy Family of Jesus, Mary and Joseph"
+christmas_2,,date lt @epiphany,sun>=01-02,,,,,,Second Sunday after Christmas,,,,,,6,,,TRUE,,
+epiphany,,,01-06,,,,,,Epiphany of the Lord,,,,WHITE,,2,,obligation,TRUE,,The Epiphany of the Lord
+# The Sunday after 6 January; when the Epiphany is itself kept on 7 or 8
+"# January, the Monday after it."
+baptism,,,"max(sun>01-06, @epiphany+1)",,,,,,Baptism of the Lord,,,,WHITE,,5,,,TRUE,,The Baptism of the Lord
+ordinary_1,,,,@baptism+1,@ash_wednesday-1,sun,2,,{ordinal} Sunday in Ordinary Time,,,,,,6,,,,,
+ash_wednesday,,,easter-46,,,,,,Ash Wednesday,,,,VIOLET,,2,,fast,,,
+lent,,,,@ash_wednesday,@palm_sunday-1,sun,1,,{ordinal} Sunday of Lent,,,,|||ROSE|,,2,,,,,
+# The Fridays of Lent are days of abstinence; a solemnity lifts it.
+lent_fridays,,,,@ash_wednesday+2,@palm_sunday-2,fri,,,,,,,,,,,abstinence,,4,
+palm_sunday,,,easter-7,,,,,,Palm Sunday,,,,RED,,2,,,,,Palm Sunday of the Passion of the Lord
+holy_week,,,,easter-6,easter-4,day,1,,{name} of Holy Week,Monday|Tuesday|Wednesday,,,,,2,,,,,
+holy_thursday,,,easter-3,,,,,,Holy Thursday,,,,VIOLET,WHITE,1,,,,,Holy Thursday (the Evening Mass of the Lord's Supper begins the Paschal Triduum)
+good_friday,,,easter-2,,,,,,Good Friday,,,,RED,,1,,fast,,,Good Friday of the Passion of the Lord
+holy_saturday,,,easter-1,,,,,,Holy Saturday,,,,RED,GOLD,1,,,,,Holy Saturday (the Easter Vigil in the Holy Night)
+easter,,,easter,,,,,,Easter Sunday,,,,GOLD,,1,,,,,Easter Sunday of the Resurrection of the Lord
+easter_octave,,,,easter+1,easter+6,day,1,,Easter {name},Monday|Tuesday|Wednesday|Thursday|Friday|Saturday,,,,,2,,,,,{name} within the Octave of Easter
+after_easter,,,,easter+1,@pentecost-1,sun,2,,{ordinal} Sunday of Easter,,Divine Mercy Sunday|||||,,,,2,,,,,
+ascension,,,easter+39,,,,,,Ascension of the Lord,,,,GOLD,,2,,obligation,TRUE,,The Ascension of the Lord
+pentecost,,,easter+49,,,,,,Pentecost Sunday,,,,RED,,2,,,,,
+trinity,,,easter+56,,,,,,Most Holy Trinity,,,,WHITE,,3,,,TRUE,,The Most Holy Trinity
+corpus_christi,,,easter+60,,,,,,Corpus Christi,,,,WHITE,,3,,obligation,TRUE,,The Most Holy Body and Blood of Christ (Corpus Christi)
+sacred_heart,,,easter+68,,,,,,Most Sacred Heart of Jesus,,,,WHITE,,3,,,,,The Most Sacred Heart of Jesus
+"# The Sundays after Pentecost count back from the Thirty-fourth, which is"
+# Christ the King.
+ordinary_2,,,,@pentecost+1,next_start-1,sun,34,down,{ordinal} Sunday in Ordinary Time,,,,,,6,,,,,
+christ_the_king,,,next_start-7,,,,,,Christ the King,,,,WHITE,,3,,,TRUE,,"Our Lord Jesus Christ, King of the Universe"

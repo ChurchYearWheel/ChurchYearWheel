@@ -1,0 +1,86 @@
+day,offset,when,cycle,variant,title,kind,reading
+# ===========================================================================
+"# The Epistles and Gospels of the 1859 calendar (Mayes's translation, its two columns), for"
+"# its feasts; it gives none for the Sundays.  A third citation, to the left of the Epistle, is"
+"# given as a lesson; a second line of citations under a day, as alternatives (""or"")."
+"# Citations as printed, book names spelled out (Sirach 51:1-38 is numbered as in Luther's Bible;"
+"# the RSV's chapter has 30 verses).  Bible references beside a saint's name are left in full_name."
+"# The book's commons for martyrs, confessors and virgins (Mt. 5:1-12 ... ) are not tied to days."
+# ===========================================================================
+new_year,,,,1859,,epistle,Galatians 3:23–29
+new_year,,,,1859,,gospel,Luke 2:21
+epiphany,,,,1859,,epistle,Isaiah 60:1–6
+epiphany,,,,1859,,gospel,Matthew 2:1–12
+01-21,,,,1859,"Agnes, Virgin, 13 year-old Martyr at Rome",epistle,Sirach 51:1–38
+01-21,,,,1859,"Agnes, Virgin, 13 year-old Martyr at Rome",gospel,Matthew 25:1–13
+01-25,,,,1859,Conversion of St. Paul,epistle,Acts 9:1–22
+01-25,,,,1859,Conversion of St. Paul,gospel,Matthew 19:27–30
+02-02,,,,1859,Purification of Mary,epistle,Malachi 3:1–4 or Romans 13:8–10
+02-02,,,,1859,Purification of Mary,gospel,Luke 2:22–32 or Matthew 8:23–27
+02-05,,,,1859,"Agatha, Virgin, Martyr at Catanea in Sicilia",epistle,Sirach 51:1–38
+02-05,,,,1859,"Agatha, Virgin, Martyr at Catanea in Sicilia",gospel,Matthew 19:1–12
+02-24,,,,1859,"Matthias, Apostle",epistle,Acts 1:15–26
+02-24,,,,1859,"Matthias, Apostle",gospel,Matthew 11:25–30
+03-19,,,,1859,"Joseph, foster father of Jesus",epistle,Sirach 34:1–20
+03-19,,,,1859,"Joseph, foster father of Jesus",gospel,Matthew 1:18–25
+03-25,,,,1859,The Annunciation,epistle,Isaiah 7:10–15
+03-25,,,,1859,The Annunciation,gospel,Luke 1:26–38
+04-25,,,,1859,"Mark, evangelist",epistle,Ezekiel 1:1–12
+05-01,,,,1859,"Philip and James, Apostles",epistle,Ephesians 2:19–22
+05-01,,,,1859,"Philip and James, Apostles",gospel,John 14:1–14
+05-03,,,,1859,Inventio sanctae crucis. The Discovery of the Holy Cross,epistle,Colossians 2:1–9
+05-03,,,,1859,Inventio sanctae crucis. The Discovery of the Holy Cross,gospel,John 3:11–18
+06-24,,,,1859,Nativity of John the Baptizer,epistle,Isaiah 40:1–5
+06-24,,,,1859,Nativity of John the Baptizer,gospel,Luke 1:57–80
+06-29,,,,1859,"Peter and Paul, Apostles",epistle,1 John 3:13–18 or Acts 12:1–11
+06-29,,,,1859,"Peter and Paul, Apostles",gospel,Luke 14:16–24 or Matthew 16:13–20
+07-02,,,,1859,The Visitation,epistle,Isaiah 11:1–5
+07-02,,,,1859,The Visitation,gospel,Luke 1:39–59
+07-22,,,,1859,Mary Magdalene,lesson,Proverbs 31:10–31
+07-22,,,,1859,Mary Magdalene,epistle,1 Timothy 1:15–17
+07-22,,,,1859,Mary Magdalene,gospel,Luke 7:36–50
+07-25,,,,1859,"James the Elder, Apostle",epistle,Romans 8:28–39
+07-25,,,,1859,"James the Elder, Apostle",gospel,Matthew 20:20–23
+08-06,,,,1859,The Transfiguration of Christ,epistle,2 Peter 1:15–18
+08-10,,,,1859,"Laurence, Archdeacon of Rome, Martyr",lesson,Sirach 51:1–38
+08-10,,,,1859,"Laurence, Archdeacon of Rome, Martyr",epistle,2 Corinthians 9:6–10
+08-10,,,,1859,"Laurence, Archdeacon of Rome, Martyr",gospel,John 12:24–26
+08-15,,,,1859,"The Dormition of Mary, (Mary's death)",gospel,Luke 10:38–42
+08-24,,,,1859,"Bartholomew, Apostle",lesson,2 Corinthians 4:7–10
+08-24,,,,1859,"Bartholomew, Apostle",epistle,Ephesians 2:19–20
+08-24,,,,1859,"Bartholomew, Apostle",gospel,Luke 22:24–30
+08-29,,,,1859,Beheading of John the Baptist,epistle,James 1:1–12
+08-29,,,,1859,Beheading of John the Baptist,gospel,Mark 6:17–29
+09-08,,,,1859,Nativity of Mary,epistle,Proverbs 8:22–35
+09-08,,,,1859,Nativity of Mary,gospel,Matthew 1:1–16
+09-14,,,,1859,Exaltation of the Holy Cross,epistle,Philippians 2:4–11
+09-21,,,,1859,"Matthew, Apostle",lesson,Ephesians 4:7–14
+09-21,,,,1859,"Matthew, Apostle",epistle,1 Corinthians 12:4–11
+09-21,,,,1859,"Matthew, Apostle",gospel,Matthew 9:9–13
+09-29,,,,1859,"Michael, Archangel",epistle,Revelation 12:7–12
+09-29,,,,1859,"Michael, Archangel",gospel,Matthew 18:1–11
+10-28,,,,1859,"Simon and Jude, Apostles",epistle,1 Peter 1:3–9
+10-28,,,,1859,"Simon and Jude, Apostles",gospel,John 15:17–21
+11-01,,,,1859,All Saints,epistle,Revelation 7:2–12
+11-01,,,,1859,All Saints,gospel,Matthew 5:1–12
+11-02,,,,1859,All Souls,epistle,1 Corinthians 15:51–58
+11-02,,,,1859,All Souls,gospel,John 5:25–30
+11-30,,,,1859,"Andrew, Apostle",epistle,Romans 10:8–18
+11-30,,,,1859,"Andrew, Apostle",gospel,Matthew 4:18–22
+12-08,,,,1859,The Conception of Mary,epistle,Proverbs 8:22–35
+12-08,,,,1859,The Conception of Mary,gospel,Matthew 1:1–16
+12-13,,,,1859,"Lucia of Syracuse, Virgin, Martyr",epistle,1 Corinthians 7:25–40
+12-13,,,,1859,"Lucia of Syracuse, Virgin, Martyr",gospel,Matthew 13:44–46
+12-21,,,,1859,"Thomas, Apostle",epistle,Ephesians 1:3–6
+12-21,,,,1859,"Thomas, Apostle",gospel,John 20:24–29
+12-24,,,,1859,"Adam and Eve, our first parents",epistle,Romans 1:1–4
+12-24,,,,1859,"Adam and Eve, our first parents",gospel,Matthew 1:18–25
+christmas,,,,1859,,epistle,Titus 2:11–14
+christmas,,,,1859,,gospel,Luke 2:1–14
+12-26,,,,1859,"Stephen, the first martyr",lesson,Acts 6:8–15
+12-26,,,,1859,"Stephen, the first martyr",epistle,Titus 3:4–7 or Acts 7:55–60
+12-26,,,,1859,"Stephen, the first martyr",gospel,Luke 2:15–20 or Matthew 23:34–39
+12-27,,,,1859,"John, Apostle",epistle,Hebrews 1:1–12 or 1 John 1:1–10
+12-27,,,,1859,"John, Apostle",gospel,John 1:1–14 or John 21:15–24
+12-28,,,,1859,The Innocent Children,epistle,Revelation 14:1–5
+12-28,,,,1859,The Innocent Children,gospel,Matthew 2:13–23

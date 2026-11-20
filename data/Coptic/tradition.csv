@@ -1,0 +1,12 @@
+setting,value,variant
+# ===========================================================================,,
+"# The Coptic Orthodox Church.  Its vestments are white all year; in Holy Week",,
+"# the church is hung in black and the icons veiled, so the wheel is white with",,
+"# a black Holy Week (St-Takla.org, ""Tonya"").",,
+# ===========================================================================,,
+year_start,coptic(01-01),
+paschalion_default,julian,
+center_art,coptic_cross,
+"# The Katameros (readings.csv): the Liturgy's readings by their Coptic names.",,
+reading_labels,epistle=Pauline Epistle; catholic=Catholic Epistle; acts=Acts (Praxis); prophecy=Prophecy; ot=Old Testament,
+bible_version,NKJV,

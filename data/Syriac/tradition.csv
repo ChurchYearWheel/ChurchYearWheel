@@ -1,0 +1,13 @@
+setting,value,variant
+# ===========================================================================,,
+# The Syriac Orthodox Church keeps the fixed feasts on the Gregorian calendar,,
+"# and Easter by the Julian paschalion, as the Orthodox do; the Malankara churches",,
+# in India adopted the Gregorian calendar in 1953 and keep the Western Easter.,,
+# ===========================================================================,,
+year_start,sun<12-25-49,
+paschalion_default,julian,syriac
+paschalion_default,gregorian,malankara
+center_art,syriac_cross,
+"# readings.csv: the Malankara lectionary (Vespers and Matins Gospels, the lessons before the Qurbana and its readings) and the Syriac Orthodox one (Scripture Readings, New Jersey 2000).",,
+reading_labels,ot=Old Testament; acts=Acts; catholic=Catholic Epistle; epistle=Pauline Epistle,malankara
+reading_labels,ot=Old Testament; acts=Acts; catholic=Catholic Epistle; epistle=Pauline Epistle,syriac

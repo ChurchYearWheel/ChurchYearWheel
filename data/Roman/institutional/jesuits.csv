@@ -1,0 +1,41 @@
+id,date,name,full_name,rank,style,color_override,color_override_bottom,icon,icon_when,transfer,variant,when,action,link
+holy_name_of_jesus,,,"Most Holy Name of Jesus, Titular Feast of the Society of Jesus",4,solemnity,WHITE,,,,,,,,
+,01-19,St. John Ogilvie and Companions,"Saint John Ogilvie, priest; Saints Stephen Pongrácz, Melchior Grodiziecki, priests, and Mark of Krizevci, Canon of Esztergom; Blessed Ignatius de Azevedo, priest, and companions; Blessed James Salès, priest, and William Saultemouche, religious, martyrs",12,optional_memorial,,,,,,,,,
+,02-04,St. John de Britto and Companions,"Saint John de Britto, priest; Blessed Rudolph Acquaviva, priest, and companions, martyrs",12,optional_memorial,,,,,,,,,
+sts_paul_miki_and_companions,,,"Saint Paul Miki, religious, and companions; Blessed Charles Spinola, Sebastian Kimura, priests, and companions, martyrs",10,memorial,-,,,,,,,,
+,02-15,St. Claude La Colombière,"Saint Claude La Colombière, priest",11,memorial,,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-claude-la-colombiere/
+st_joseph,,,"Saint Joseph, Spouse of the Blessed Virgin Mary, Patron of the Society of Jesus",4,solemnity,WHITE,,,,,,,,
+,04-22,"Mary, Mother of the Society of Jesus","The Blessed Virgin Mary, Mother of the Society of Jesus",8,feast_rank,WHITE,,,,,,,,
+,04-27,St. Peter Canisius,"Saint Peter Canisius, priest and Doctor of the Church",11,memorial,,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-peter-canisius/
+,05-04,St. José María Rubio,"Saint José María Rubio, priest",12,optional_memorial,,,,,,,,,
+,05-08,Bl. John Sullivan,"Blessed John Sullivan, priest",12,optional_memorial,,,,,,,,,
+,05-16,St. Andrew Bobola,"Saint Andrew Bobola, priest and martyr",12,optional_memorial,,,,,,,,,
+,05-24,Our Lady of the Way,,12,optional_memorial,,,,,,,,,
+,06-08,St. James Berthieu,"Saint James Berthieu, priest and martyr",11,memorial,,,,,,,,,
+,06-09,St. Joseph of Anchieta,"Saint Joseph of Anchieta, priest",12,optional_memorial,,,,,,,,,
+st_aloysius_gonzaga,,,"Saint Aloysius Gonzaga, religious",10,memorial,-,,,,,,,,
+,07-02,"Sts. Bernardine Realino, John Francis Régis, Francis Jerome; Bl. Julian Maunoir, Anthony Baldinucci, Tiburcio Arnáiz Muñoz and Johann Philipp Jeningen","Saints Bernardine Realino, John Francis Régis, and Francis Jerome; Blessed Julian Maunoir, Anthony Baldinucci, Tiburcio Arnáiz Muñoz, and Johann Philipp Jeningen, priests",12,optional_memorial,,,,,,,,,
+,07-09,Sts. Leo Ignatius Mangin and Mary Zhu Wu and Companions,"Saints Leo Ignatius Mangin, priest, Mary Zhu Wu, and companions, martyrs",11,memorial,,,,,,,,,
+st_ignatius_of_loyola,,,"Saint Ignatius of Loyola, priest and founder of the Society of Jesus",4,solemnity,WHITE,,,,,,,,
+,08-02,St. Peter Faber,"Saint Peter Faber, priest",12,optional_memorial,,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-peter-favre/
+,08-18,St. Alberto Hurtado Cruchaga,"Saint Alberto Hurtado Cruchaga, priest",11,memorial,,,,,,,,,
+,09-02,Bl. Eduard Profittlich and Companions,"Blessed Eduard Profittlich, bishop; Blessed James Bonnaud, priest, and companions; Blessed Joseph Imbert and John Nicolas Cordier, priests; Blessed Thomas Sitjar, priest, and companions; Blessed John Fausti, priest, and companions; Blessed Victor Dillard, priest, martyrs",12,optional_memorial,,,,,,,,,
+st_peter_claver,,,"Saint Peter Claver, priest",11,memorial,-,,,,,,,,
+,09-10,Bl. Francis Gárate Aranguren,"Blessed Francis Gárate Aranguren, religious",12,optional_memorial,,,,,,,,,
+st_robert_bellarmine,,,"Saint Robert Bellarmine, bishop and Doctor of the Church",11,memorial,-,,,,,,,,
+,10-03,St. Francis Borgia,"Saint Francis Borgia, priest",11,memorial,,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-francis-borgia/
+,10-12,Bl. John Beyzym,"Blessed John Beyzym, priest",11,memorial,,,,,,,,,
+,10-19,Sts. John de Brébeuf and Isaac Jogues and Companions,"Saints John de Brébeuf, Isaac Jogues, priests, and companions, martyrs",11,memorial,,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saints-isaac-jogues-john-de-brebeuf-and-companions/
+,10-21,Bl. Diego Luis de San Vitores,"Blessed Diego Luis de San Vitores, priest, and Saint Pedro Calungsod, martyrs",12,optional_memorial,,,,,,,,,
+,10-30,Bl. Dominic Collins,"Blessed Dominic Collins, religious and martyr",12,optional_memorial,,,,,,,,,
+,10-31,St. Alphonsus Rodriguez,"Saint Alphonsus Rodriguez, religious",11,memorial,,,,,,,,,
+,11-03,Bl. Rupert Mayer,"Blessed Rupert Mayer, priest",12,optional_memorial,,,,,,,,,
+,11-05,All Saints of the Society of Jesus,,8,feast_rank,WHITE,,,,,,,,
+,11-13,St. Stanislaus Kostka,"Saint Stanislaus Kostka, religious",11,memorial,,,,,,,,,
+,11-14,St. Joseph Pignatelli,"Saint Joseph Pignatelli, priest",11,memorial,,,,,,,,,
+,11-16,"Sts. Roch González, Alphonsus Rodríguez and John del Castillo","Saints Roch González, Alphonsus Rodríguez, and John del Castillo, priests; Blessed Juan Antonio Solinas, priest, martyrs",12,optional_memorial,,,,,,,,,
+,11-23,Bl. Miguel Agustín Pro and Victor Emilio Moscoso Cárdenas and Companions,"Blessed Miguel Agustín Pro and Victor Emilio Moscoso Cárdenas, priests; Blessed Rutilio Grande García, priest, and companions, martyrs",12,optional_memorial,,,,,,,,,
+,11-26,St. John Berchmans,"Saint John Berchmans, religious",11,memorial,,,,,,,,,
+,11-29,Bl. Bernardo Francisco de Hoyos de Seña,"Blessed Bernardo Francisco de Hoyos de Seña, priest",12,optional_memorial,,,,,,,,,
+,12-01,Sts. Edmund Campion and Robert Southwell and Companions,"Saints Edmund Campion, Robert Southwell, priests, and companions, martyrs",11,memorial,,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-edmund-campion/
+st_francis_xavier,,,"Saint Francis Xavier, priest",8,feast_rank,WHITE,,,,,,,,

@@ -1,0 +1,9 @@
+id,date,name,full_name,rank,style,color_override,color_override_bottom,icon,icon_when,transfer,variant,when,action
+,02-03,Bl. Iustus Takayama Ukon,"Blessed Iustus Takayama Ukon, martyr",11,memorial,,,,,,,,
+sts_paul_miki_and_companions,02-05,,"Saints Paul Miki and companions, martyrs",8,feast_rank,RED,,,,,,,
+st_agatha,02-06,,"Saint Agatha, virgin and martyr",10,memorial,-,,,,,,,
+,03-17,Our Lady of the Discovery of the Hidden Christians,,8,feast_rank,WHITE,,,,,,,
+,07-01,St. Peter Kibe and Companions,"Saint Peter Kibe, priest and companions, martyrs",11,memorial,,,,,,,,
+,09-10,205 Bl. Martyrs of Japan,205 Blessed Martyrs of Japan,11,memorial,,,,,,,,
+,09-28,St. Thomas Rokuzayemon and Companions,"Saint Thomas Rokuzayemon, priest and companions, martyrs",11,memorial,,,,,,,,
+st_francis_xavier,,,"Saint Francis Xavier, priest",8,feast_rank,WHITE,,,,,,,

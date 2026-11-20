@@ -1,0 +1,10 @@
+id,date,name,full_name,rank,style,color_override,color_override_bottom,icon,icon_when,transfer,variant,when,action,link
+,02-09,St. Miguel Febres Cordero,"Saint Miguel Febres Cordero, religious",8,feast_rank,WHITE,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-miguel-febres-cordero/
+,02-27,Bl. Caridad Brader,Blessed Caridad Brader,12,optional_memorial,,,,,,,,,
+,04-20,Our Lady of Sorrows of El Colegio,,8,feast_rank,WHITE,,,,,,,,
+,05-19,St. María Bernarda Bütler,"Saint María Bernarda Bütler, virgin",11,memorial,,,,,,,,,
+st_rose_of_lima,,,"Saint Rose of Lima, virgin",8,feast_rank,WHITE,,,,,,,,
+,09-24,Our Lady of Mercy,,12,optional_memorial,,,,,,,,,
+,12-10,St. Narcisa de Jesús,"Saint Narcisa de Jesús, virgin",12,optional_memorial,,,,,,,,,
+guadalupe,,,Our Lady of Guadalupe,8,feast_rank,WHITE,,,,,,,,
+,easter+67,Christ the Eternal High Priest,"Our Lord Jesus Christ, the Eternal High Priest",8,feast_rank,WHITE,,,,,,,,

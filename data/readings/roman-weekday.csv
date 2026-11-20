@@ -1,0 +1,1599 @@
+day,offset,when,cycle,variant,title,kind,reading
+# ===========================================================================
+# The Roman Lectionary for Mass: the weekdays (Monday to Saturday) of
+"# Advent, Christmas Time, Lent, Easter Time and Ordinary Time, as the"
+# Lectionary for Mass for use in the dioceses of the United States (second
+"# typical edition, 2002) gives them, from Felix Just's tables at"
+# https://catholic-resources.org/Lectionary/ (2002USL-Weekdays-
+"# AdventChristmas, -Lent, -Easter, -OT-I and -OT-II; read October 2026)."
+"# Sundays, solemnities, feasts, Ash Wednesday, Holy Week and the Octave of"
+# Easter are in roman.csv.  Verses follow the New American Bible; a psalm's
+"# stanzas are joined where they run on, as in roman.csv."
+# Ordinary Time has a two-year cycle for the first reading and psalm:
+"# cycle I in odd-numbered years, II in even (Year II for the weeks of 2026",
+"# the church year from Advent 2025): `reading_cycle,abc; I II 2024`.  The"
+"# Gospels, and every season but Ordinary Time, are the same each year;"
+"# rows marked A, B or C are the Lectionary's other reading for that"
+"# Sunday year (Advent 1 Monday, Lent 5 Monday, Easter 4 Monday, Ordinary"
+# Time Week 18 Monday and Tuesday).
+"# The optional Masses of the third, fourth and fifth weeks of Lent (Lect. 236,"
+"# 243 and 250, the Gospels of the Samaritan woman, the man born blind and"
+"# Lazarus) ""may be used on any day of this week, especially in Years B and"
+"# C"": each weekday of those weeks has them as a second set.",
+# Keys: Advent by its Sundays (the third week only before 17 December);
+"# 17-24 December, 29-31 December (not 30 December when it is the Holy"
+# Family) and 2-7 January by date until the Epiphany (none on a Sunday);
+# the weekdays after the Epiphany by weekday when it is kept on a Sunday
+"# (as in the United States), by date (7-12 January) when it is not, until"
+# the Baptism; the days after Ash Wednesday and the weeks of Lent by their
+# Sundays; the weeks of Easter 2-7 by days from Easter (the Thursday of the
+# sixth week not where the Ascension is kept on it); Ordinary Time Weeks
+"# 1-9 from the Sunday of the Baptism (Week 1 begins the day after it, so on"
+# Tuesday when the Baptism is on Monday) until Ash Wednesday; and after
+"# Pentecost the weeks counted back from Christ the King, the 34th Sunday"
+"# (next_start-7), from the Monday after Pentecost, as the Lectionary"
+# directs.  The Lent weekday Masses that may be used in any week (Lect.
+"# 236, 243, 250) and the Proper of Saints are not given; a saint's day"
+# with readings of its own in roman.csv is listed beside the weekday's.
+"# Kinds: ot (the First Reading, from either Testament, as roman.csv labels"
+"# it), psalm (with canticles), gospel.  Citations as printed except: Ps"
+# 80:2ac+3b and the like keep their letters; Esther C:12 (the Greek
+# addition) and Tobit 13 (Vulgate numbering) as printed; misprints in the
+# table as read corrected to the Lectionary's verses: Year II Week 1 Tue 1
+"# Sam 1:9-20, Wed 1 Sam 3:19-20, Week 5 Sat Ps 106:19-20, Week 7 Thu Ps"
+"# 49:19-20, Sat Jas 5:13-20, Week 8 Mon Ps 111:9+10c, Wed Ps 147:19-20, Week"
+"# 16 Tue Mic 7:18-20, Week 22 Sat Ps 145:19-20, Week 24 Fri 1 Cor 15:12-20",
+"# Week 30 Thu Eph 6:10-20, Week 32 Thu Phlm 7-20 (each read as ""-22"";"
+"# Ps 111 read ""9,+10c"");"
+# Advent 2 Sat Matt 17:10-13 (a footnote mark run into the verse).
+"# For the General Roman Calendar: `readings,roman roman-weekday`."
+# ===========================================================================
+advent:1,1,,A,,Monday of the First Week of Advent,ot,Isaiah 4:2–6
+advent:1,1,,B,,Monday of the First Week of Advent,ot,Isaiah 2:1–5
+advent:1,1,,C,,Monday of the First Week of Advent,ot,Isaiah 2:1–5
+advent:1,1,,,,Monday of the First Week of Advent,psalm,Psalm 122:1–9
+advent:1,1,,,,Monday of the First Week of Advent,gospel,Matthew 8:5–11
+advent:1,2,,,,Tuesday of the First Week of Advent,ot,Isaiah 11:1–10
+advent:1,2,,,,Tuesday of the First Week of Advent,psalm,"Psalm 72:1–2, 7–8, 12–13, 17"
+advent:1,2,,,,Tuesday of the First Week of Advent,gospel,Luke 10:21–24
+advent:1,3,,,,Wednesday of the First Week of Advent,ot,Isaiah 25:6–10a
+advent:1,3,,,,Wednesday of the First Week of Advent,psalm,Psalm 23:1–6
+advent:1,3,,,,Wednesday of the First Week of Advent,gospel,Matthew 15:29–37
+advent:1,4,,,,Thursday of the First Week of Advent,ot,Isaiah 26:1–6
+advent:1,4,,,,Thursday of the First Week of Advent,psalm,"Psalm 118:1, 8–9, 19–21, 25–27a"
+advent:1,4,,,,Thursday of the First Week of Advent,gospel,"Matthew 7:21, 24–27"
+advent:1,5,,,,Friday of the First Week of Advent,ot,Isaiah 29:17–24
+advent:1,5,,,,Friday of the First Week of Advent,psalm,"Psalm 27:1, 4, 13–14"
+advent:1,5,,,,Friday of the First Week of Advent,gospel,Matthew 9:27–31
+advent:1,6,,,,Saturday of the First Week of Advent,ot,"Isaiah 30:19–21, 23–26"
+advent:1,6,,,,Saturday of the First Week of Advent,psalm,Psalm 147:1–6
+advent:1,6,,,,Saturday of the First Week of Advent,gospel,"Matthew 9:35–10:1, 5a, 6–8"
+advent:2,1,,,,Monday of the Second Week of Advent,ot,Isaiah 35:1–10
+advent:2,1,,,,Monday of the Second Week of Advent,psalm,"Psalm 85:9ab, 10–14"
+advent:2,1,,,,Monday of the Second Week of Advent,gospel,Luke 5:17–26
+advent:2,2,,,,Tuesday of the Second Week of Advent,ot,Isaiah 40:1–11
+advent:2,2,,,,Tuesday of the Second Week of Advent,psalm,"Psalm 96:1–3, 10ac, 11–13"
+advent:2,2,,,,Tuesday of the Second Week of Advent,gospel,Matthew 18:12–14
+advent:2,3,,,,Wednesday of the Second Week of Advent,ot,Isaiah 40:25–31
+advent:2,3,,,,Wednesday of the Second Week of Advent,psalm,"Psalm 103:1–4, 8, 10"
+advent:2,3,,,,Wednesday of the Second Week of Advent,gospel,Matthew 11:28–30
+advent:2,4,,,,Thursday of the Second Week of Advent,ot,Isaiah 41:13–20
+advent:2,4,,,,Thursday of the Second Week of Advent,psalm,"Psalm 145:1, 9–13ab"
+advent:2,4,,,,Thursday of the Second Week of Advent,gospel,Matthew 11:11–15
+advent:2,5,,,,Friday of the Second Week of Advent,ot,Isaiah 48:17–19
+advent:2,5,,,,Friday of the Second Week of Advent,psalm,"Psalm 1:1–4, 6"
+advent:2,5,,,,Friday of the Second Week of Advent,gospel,Matthew 11:16–19
+advent:2,6,,,,Saturday of the Second Week of Advent,ot,"Sirach 48:1–4, 9–11"
+advent:2,6,,,,Saturday of the Second Week of Advent,psalm,"Psalm 80:2ac, 3b, 15–16, 18–19"
+advent:2,6,,,,Saturday of the Second Week of Advent,gospel,"Matthew 17:9a, 10–13"
+advent:3,1,date lt 12-17,,,Monday of the Third Week of Advent,ot,"Numbers 24:2–7, 15–17a"
+advent:3,1,date lt 12-17,,,Monday of the Third Week of Advent,psalm,"Psalm 25:4–5ab, 6, 7bc, 8–9"
+advent:3,1,date lt 12-17,,,Monday of the Third Week of Advent,gospel,Matthew 21:23–27
+advent:3,2,date lt 12-17,,,Tuesday of the Third Week of Advent,ot,"Zephaniah 3:1–2, 9–13"
+advent:3,2,date lt 12-17,,,Tuesday of the Third Week of Advent,psalm,"Psalm 34:2–3, 6–7, 17–19, 23"
+advent:3,2,date lt 12-17,,,Tuesday of the Third Week of Advent,gospel,Matthew 21:28–32
+advent:3,3,date lt 12-17,,,Wednesday of the Third Week of Advent,ot,"Isaiah 45:6c–8, 18, 21c–25"
+advent:3,3,date lt 12-17,,,Wednesday of the Third Week of Advent,psalm,"Psalm 85:9ab, 10–14"
+advent:3,3,date lt 12-17,,,Wednesday of the Third Week of Advent,gospel,Luke 7:18b–23
+advent:3,4,date lt 12-17,,,Thursday of the Third Week of Advent,ot,Isaiah 54:1–10
+advent:3,4,date lt 12-17,,,Thursday of the Third Week of Advent,psalm,"Psalm 30:2, 4–6, 11–12a, 13b"
+advent:3,4,date lt 12-17,,,Thursday of the Third Week of Advent,gospel,Luke 7:24–30
+advent:3,5,date lt 12-17,,,Friday of the Third Week of Advent,ot,"Isaiah 56:1–3a, 6–8"
+advent:3,5,date lt 12-17,,,Friday of the Third Week of Advent,psalm,"Psalm 67:2–3, 5, 7–8"
+advent:3,5,date lt 12-17,,,Friday of the Third Week of Advent,gospel,John 5:33–36
+12-17,,date nwd sun,,,December 17,ot,"Genesis 49:2, 8–10"
+12-17,,date nwd sun,,,December 17,psalm,"Psalm 72:1–4ab, 7–8, 17"
+12-17,,date nwd sun,,,December 17,gospel,Matthew 1:1–17
+12-18,,date nwd sun,,,December 18,ot,Jeremiah 23:5–8
+12-18,,date nwd sun,,,December 18,psalm,"Psalm 72:1–2, 12–13, 18–19"
+12-18,,date nwd sun,,,December 18,gospel,Matthew 1:18–24
+12-19,,date nwd sun,,,December 19,ot,"Judges 13:2–7, 24–25a"
+12-19,,date nwd sun,,,December 19,psalm,"Psalm 71:3–4a, 5–6ab, 16–17"
+12-19,,date nwd sun,,,December 19,gospel,Luke 1:5–25
+12-20,,date nwd sun,,,December 20,ot,Isaiah 7:10–14
+12-20,,date nwd sun,,,December 20,psalm,"Psalm 24:1–4ab, 5–6"
+12-20,,date nwd sun,,,December 20,gospel,Luke 1:26–38
+12-21,,date nwd sun,,,December 21,ot,Song of Songs 2:8–14 or Zephaniah 3:14–18a
+12-21,,date nwd sun,,,December 21,psalm,"Psalm 33:2–3, 11–12, 20–21"
+12-21,,date nwd sun,,,December 21,gospel,Luke 1:39–45
+12-22,,date nwd sun,,,December 22,ot,1 Samuel 1:24–28
+12-22,,date nwd sun,,,December 22,psalm,"1 Samuel 2:1, 4–8abcd"
+12-22,,date nwd sun,,,December 22,gospel,Luke 1:46–56
+12-23,,date nwd sun,,,December 23,ot,"Malachi 3:1–4, 23–24"
+12-23,,date nwd sun,,,December 23,psalm,"Psalm 25:4–5ab, 8–10, 14"
+12-23,,date nwd sun,,,December 23,gospel,Luke 1:57–66
+12-24,,date nwd sun,,,December 24,ot,"2 Samuel 7:1–5, 8b–12, 14a, 16"
+12-24,,date nwd sun,,,December 24,psalm,"Psalm 89:2–5, 27, 29"
+12-24,,date nwd sun,,,December 24,gospel,Luke 1:67–79
+12-29,,date nwd sun,,,December 29,ot,1 John 2:3–11
+12-29,,date nwd sun,,,December 29,psalm,"Psalm 96:1–3, 5b–6"
+12-29,,date nwd sun,,,December 29,gospel,Luke 2:22–35
+12-30,,date nwd sun & (sun>12-25) le 12-31,,,December 30,ot,1 John 2:12–17
+12-30,,date nwd sun & (sun>12-25) le 12-31,,,December 30,psalm,Psalm 96:7–10
+12-30,,date nwd sun & (sun>12-25) le 12-31,,,December 30,gospel,Luke 2:36–40
+12-31,,date nwd sun,,,December 31,ot,1 John 2:18–21
+12-31,,date nwd sun,,,December 31,psalm,"Psalm 96:1–2, 11–13"
+12-31,,date nwd sun,,,December 31,gospel,John 1:1–18
+01-02,,date nwd sun & date lt @epiphany,,,January 2,ot,1 John 2:22–28
+01-02,,date nwd sun & date lt @epiphany,,,January 2,psalm,Psalm 98:1–4
+01-02,,date nwd sun & date lt @epiphany,,,January 2,gospel,John 1:19–28
+01-03,,date nwd sun & date lt @epiphany,,,January 3,ot,1 John 2:29–3:6
+01-03,,date nwd sun & date lt @epiphany,,,January 3,psalm,"Psalm 98:1, 3cd–6"
+01-03,,date nwd sun & date lt @epiphany,,,January 3,gospel,John 1:29–34
+01-04,,date nwd sun & date lt @epiphany,,,January 4,ot,1 John 3:7–10
+01-04,,date nwd sun & date lt @epiphany,,,January 4,psalm,"Psalm 98:1, 7–9"
+01-04,,date nwd sun & date lt @epiphany,,,January 4,gospel,John 1:35–42
+01-05,,date nwd sun & date lt @epiphany,,,January 5,ot,1 John 3:11–21
+01-05,,date nwd sun & date lt @epiphany,,,January 5,psalm,Psalm 100:1b–5
+01-05,,date nwd sun & date lt @epiphany,,,January 5,gospel,John 1:43–51
+01-06,,date nwd sun & date lt @epiphany,,,January 6,ot,1 John 5:5–13
+01-06,,date nwd sun & date lt @epiphany,,,January 6,psalm,"Psalm 147:12–15, 19–20"
+01-06,,date nwd sun & date lt @epiphany,,,January 6,gospel,"Mark 1:7–11 or Luke 3:23–38 or Luke 3:23, 31–34, 36, 38"
+01-07,,date nwd sun & date lt @epiphany,,,January 7,ot,1 John 5:14–21
+01-07,,date nwd sun & date lt @epiphany,,,January 7,psalm,"Psalm 149:1–6a, 9b"
+01-07,,date nwd sun & date lt @epiphany,,,January 7,gospel,John 2:1–11
+@epiphany,1,@epiphany wd sun & date lt @baptism,,,Monday after Epiphany,ot,1 John 3:22–4:6
+@epiphany,1,@epiphany wd sun & date lt @baptism,,,Monday after Epiphany,psalm,"Psalm 2:7bc–8, 10–12a"
+@epiphany,1,@epiphany wd sun & date lt @baptism,,,Monday after Epiphany,gospel,"Matthew 4:12–17, 23–25"
+01-07,,@epiphany nwd sun & date nwd sun & date lt @baptism,,,January 7,ot,1 John 3:22–4:6
+01-07,,@epiphany nwd sun & date nwd sun & date lt @baptism,,,January 7,psalm,"Psalm 2:7bc–8, 10–12a"
+01-07,,@epiphany nwd sun & date nwd sun & date lt @baptism,,,January 7,gospel,"Matthew 4:12–17, 23–25"
+@epiphany,2,@epiphany wd sun & date lt @baptism,,,Tuesday after Epiphany,ot,1 John 4:7–10
+@epiphany,2,@epiphany wd sun & date lt @baptism,,,Tuesday after Epiphany,psalm,"Psalm 72:1–4, 7–8"
+@epiphany,2,@epiphany wd sun & date lt @baptism,,,Tuesday after Epiphany,gospel,Mark 6:34–44
+01-08,,@epiphany nwd sun & date nwd sun & date lt @baptism,,,January 8,ot,1 John 4:7–10
+01-08,,@epiphany nwd sun & date nwd sun & date lt @baptism,,,January 8,psalm,"Psalm 72:1–4, 7–8"
+01-08,,@epiphany nwd sun & date nwd sun & date lt @baptism,,,January 8,gospel,Mark 6:34–44
+@epiphany,3,@epiphany wd sun & date lt @baptism,,,Wednesday after Epiphany,ot,1 John 4:11–18
+@epiphany,3,@epiphany wd sun & date lt @baptism,,,Wednesday after Epiphany,psalm,"Psalm 72:1–2, 10, 12–13"
+@epiphany,3,@epiphany wd sun & date lt @baptism,,,Wednesday after Epiphany,gospel,Mark 6:45–52
+01-09,,@epiphany nwd sun & date nwd sun & date lt @baptism,,,January 9,ot,1 John 4:11–18
+01-09,,@epiphany nwd sun & date nwd sun & date lt @baptism,,,January 9,psalm,"Psalm 72:1–2, 10, 12–13"
+01-09,,@epiphany nwd sun & date nwd sun & date lt @baptism,,,January 9,gospel,Mark 6:45–52
+@epiphany,4,@epiphany wd sun & date lt @baptism,,,Thursday after Epiphany,ot,1 John 4:19–5:4
+@epiphany,4,@epiphany wd sun & date lt @baptism,,,Thursday after Epiphany,psalm,"Psalm 72:1–2, 14, 15bc, 17"
+@epiphany,4,@epiphany wd sun & date lt @baptism,,,Thursday after Epiphany,gospel,Luke 4:14–22a
+01-10,,@epiphany nwd sun & date nwd sun & date lt @baptism,,,January 10,ot,1 John 4:19–5:4
+01-10,,@epiphany nwd sun & date nwd sun & date lt @baptism,,,January 10,psalm,"Psalm 72:1–2, 14, 15bc, 17"
+01-10,,@epiphany nwd sun & date nwd sun & date lt @baptism,,,January 10,gospel,Luke 4:14–22a
+@epiphany,5,@epiphany wd sun & date lt @baptism,,,Friday after Epiphany,ot,1 John 5:5–13
+@epiphany,5,@epiphany wd sun & date lt @baptism,,,Friday after Epiphany,psalm,"Psalm 147:12–15, 19–20"
+@epiphany,5,@epiphany wd sun & date lt @baptism,,,Friday after Epiphany,gospel,Luke 5:12–16
+01-11,,@epiphany nwd sun & date nwd sun & date lt @baptism,,,January 11,ot,1 John 5:5–13
+01-11,,@epiphany nwd sun & date nwd sun & date lt @baptism,,,January 11,psalm,"Psalm 147:12–15, 19–20"
+01-11,,@epiphany nwd sun & date nwd sun & date lt @baptism,,,January 11,gospel,Luke 5:12–16
+@epiphany,6,@epiphany wd sun & date lt @baptism,,,Saturday after Epiphany,ot,1 John 5:14–21
+@epiphany,6,@epiphany wd sun & date lt @baptism,,,Saturday after Epiphany,psalm,"Psalm 149:1–6a, 9b"
+@epiphany,6,@epiphany wd sun & date lt @baptism,,,Saturday after Epiphany,gospel,John 3:22–30
+01-12,,@epiphany nwd sun & date nwd sun & date lt @baptism,,,January 12,ot,1 John 5:14–21
+01-12,,@epiphany nwd sun & date nwd sun & date lt @baptism,,,January 12,psalm,"Psalm 149:1–6a, 9b"
+01-12,,@epiphany nwd sun & date nwd sun & date lt @baptism,,,January 12,gospel,John 3:22–30
+ash_wednesday,1,,,,Thursday after Ash Wednesday,ot,Deuteronomy 30:15–20
+ash_wednesday,1,,,,Thursday after Ash Wednesday,psalm,"Psalm 1:1–4, 6"
+ash_wednesday,1,,,,Thursday after Ash Wednesday,gospel,Luke 9:22–25
+ash_wednesday,2,,,,Friday after Ash Wednesday,ot,Isaiah 58:1–9a
+ash_wednesday,2,,,,Friday after Ash Wednesday,psalm,"Psalm 51:3–6ab, 18–19"
+ash_wednesday,2,,,,Friday after Ash Wednesday,gospel,Matthew 9:14–15
+ash_wednesday,3,,,,Saturday after Ash Wednesday,ot,Isaiah 58:9b–14
+ash_wednesday,3,,,,Saturday after Ash Wednesday,psalm,Psalm 86:1–6
+ash_wednesday,3,,,,Saturday after Ash Wednesday,gospel,Luke 5:27–32
+lent:1,1,,,,Monday of the First Week of Lent,ot,"Leviticus 19:1–2, 11–18"
+lent:1,1,,,,Monday of the First Week of Lent,psalm,"Psalm 19:8–10, 15"
+lent:1,1,,,,Monday of the First Week of Lent,gospel,Matthew 25:31–46
+lent:1,2,,,,Tuesday of the First Week of Lent,ot,Isaiah 55:10–11
+lent:1,2,,,,Tuesday of the First Week of Lent,psalm,"Psalm 34:4–7, 16–19"
+lent:1,2,,,,Tuesday of the First Week of Lent,gospel,Matthew 6:7–15
+lent:1,3,,,,Wednesday of the First Week of Lent,ot,Jonah 3:1–10
+lent:1,3,,,,Wednesday of the First Week of Lent,psalm,"Psalm 51:3–4, 12–13, 18–19"
+lent:1,3,,,,Wednesday of the First Week of Lent,gospel,Luke 11:29–32
+lent:1,4,,,,Thursday of the First Week of Lent,ot,"Esther C:12, 14–16, 23–25"
+lent:1,4,,,,Thursday of the First Week of Lent,psalm,"Psalm 138:1–3, 7c–8"
+lent:1,4,,,,Thursday of the First Week of Lent,gospel,Matthew 7:7–12
+lent:1,5,,,,Friday of the First Week of Lent,ot,Ezekiel 18:21–28
+lent:1,5,,,,Friday of the First Week of Lent,psalm,Psalm 130:1–8
+lent:1,5,,,,Friday of the First Week of Lent,gospel,Matthew 5:20–26
+lent:1,6,,,,Saturday of the First Week of Lent,ot,Deuteronomy 26:16–19
+lent:1,6,,,,Saturday of the First Week of Lent,psalm,"Psalm 119:1–2, 4–5, 7–8"
+lent:1,6,,,,Saturday of the First Week of Lent,gospel,Matthew 5:43–48
+lent:2,1,,,,Monday of the Second Week of Lent,ot,Daniel 9:4b–10
+lent:2,1,,,,Monday of the Second Week of Lent,psalm,"Psalm 78:8–9, 11, 13"
+lent:2,1,,,,Monday of the Second Week of Lent,gospel,Luke 6:36–38
+lent:2,2,,,,Tuesday of the Second Week of Lent,ot,"Isaiah 1:10, 16–20"
+lent:2,2,,,,Tuesday of the Second Week of Lent,psalm,"Psalm 50:8–9, 16bc–17, 21, 23"
+lent:2,2,,,,Tuesday of the Second Week of Lent,gospel,Matthew 23:1–12
+lent:2,3,,,,Wednesday of the Second Week of Lent,ot,Jeremiah 18:18–20
+lent:2,3,,,,Wednesday of the Second Week of Lent,psalm,"Psalm 31:5–6, 14–16"
+lent:2,3,,,,Wednesday of the Second Week of Lent,gospel,Matthew 20:17–28
+lent:2,4,,,,Thursday of the Second Week of Lent,ot,Jeremiah 17:5–10
+lent:2,4,,,,Thursday of the Second Week of Lent,psalm,"Psalm 1:1–4, 6"
+lent:2,4,,,,Thursday of the Second Week of Lent,gospel,Luke 16:19–31
+lent:2,5,,,,Friday of the Second Week of Lent,ot,"Genesis 37:3–4, 12–13a, 17b–28a"
+lent:2,5,,,,Friday of the Second Week of Lent,psalm,Psalm 105:16–21
+lent:2,5,,,,Friday of the Second Week of Lent,gospel,"Matthew 21:33–43, 45–46"
+lent:2,6,,,,Saturday of the Second Week of Lent,ot,"Micah 7:14–15, 18–20"
+lent:2,6,,,,Saturday of the Second Week of Lent,psalm,"Psalm 103:1–4, 9–12"
+lent:2,6,,,,Saturday of the Second Week of Lent,gospel,"Luke 15:1–3, 11–32"
+lent:3,1,,,,Monday of the Third Week of Lent,ot,2 Kings 5:1–15a
+lent:3,1,,,,Monday of the Third Week of Lent,psalm,Psalm 42:2–3; 43:3–4
+lent:3,1,,,,Monday of the Third Week of Lent,gospel,Luke 4:24–30
+lent:3,2,,,,Tuesday of the Third Week of Lent,ot,"Daniel 3:25, 34–43"
+lent:3,2,,,,Tuesday of the Third Week of Lent,psalm,"Psalm 25:4–5ab, 6, 7bc, 8–9"
+lent:3,2,,,,Tuesday of the Third Week of Lent,gospel,Matthew 18:21–35
+lent:3,3,,,,Wednesday of the Third Week of Lent,ot,"Deuteronomy 4:1, 5–9"
+lent:3,3,,,,Wednesday of the Third Week of Lent,psalm,"Psalm 147:12–13, 15–16, 19–20"
+lent:3,3,,,,Wednesday of the Third Week of Lent,gospel,Matthew 5:17–19
+lent:3,4,,,,Thursday of the Third Week of Lent,ot,Jeremiah 7:23–28
+lent:3,4,,,,Thursday of the Third Week of Lent,psalm,"Psalm 95:1–2, 6–9"
+lent:3,4,,,,Thursday of the Third Week of Lent,gospel,Luke 11:14–23
+lent:3,5,,,,Friday of the Third Week of Lent,ot,Hosea 14:2–10
+lent:3,5,,,,Friday of the Third Week of Lent,psalm,"Psalm 81:6c–11ab, 14, 17"
+lent:3,5,,,,Friday of the Third Week of Lent,gospel,Mark 12:28b–34
+lent:3,6,,,,Saturday of the Third Week of Lent,ot,Hosea 6:1–6
+lent:3,6,,,,Saturday of the Third Week of Lent,psalm,"Psalm 51:3–4, 18–21ab"
+lent:3,6,,,,Saturday of the Third Week of Lent,gospel,Luke 18:9–14
+lent:3,1,,,,Optional Mass for the Third Week of Lent,ot,Exodus 17:1–7
+lent:3,1,,,,Optional Mass for the Third Week of Lent,psalm,"Psalm 95:1–2, 6–7ab, 7c–9"
+lent:3,1,,,,Optional Mass for the Third Week of Lent,gospel,John 4:5–42
+lent:3,2,,,,Optional Mass for the Third Week of Lent,ot,Exodus 17:1–7
+lent:3,2,,,,Optional Mass for the Third Week of Lent,psalm,"Psalm 95:1–2, 6–7ab, 7c–9"
+lent:3,2,,,,Optional Mass for the Third Week of Lent,gospel,John 4:5–42
+lent:3,3,,,,Optional Mass for the Third Week of Lent,ot,Exodus 17:1–7
+lent:3,3,,,,Optional Mass for the Third Week of Lent,psalm,"Psalm 95:1–2, 6–7ab, 7c–9"
+lent:3,3,,,,Optional Mass for the Third Week of Lent,gospel,John 4:5–42
+lent:3,4,,,,Optional Mass for the Third Week of Lent,ot,Exodus 17:1–7
+lent:3,4,,,,Optional Mass for the Third Week of Lent,psalm,"Psalm 95:1–2, 6–7ab, 7c–9"
+lent:3,4,,,,Optional Mass for the Third Week of Lent,gospel,John 4:5–42
+lent:3,5,,,,Optional Mass for the Third Week of Lent,ot,Exodus 17:1–7
+lent:3,5,,,,Optional Mass for the Third Week of Lent,psalm,"Psalm 95:1–2, 6–7ab, 7c–9"
+lent:3,5,,,,Optional Mass for the Third Week of Lent,gospel,John 4:5–42
+lent:3,6,,,,Optional Mass for the Third Week of Lent,ot,Exodus 17:1–7
+lent:3,6,,,,Optional Mass for the Third Week of Lent,psalm,"Psalm 95:1–2, 6–7ab, 7c–9"
+lent:3,6,,,,Optional Mass for the Third Week of Lent,gospel,John 4:5–42
+lent:4,1,,,,Monday of the Fourth Week of Lent,ot,Isaiah 65:17–21
+lent:4,1,,,,Monday of the Fourth Week of Lent,psalm,"Psalm 30:2, 4–6, 11–12a, 13b"
+lent:4,1,,,,Monday of the Fourth Week of Lent,gospel,John 4:43–54
+lent:4,2,,,,Tuesday of the Fourth Week of Lent,ot,"Ezekiel 47:1–9, 12"
+lent:4,2,,,,Tuesday of the Fourth Week of Lent,psalm,"Psalm 46:2–3, 5–6, 8–9"
+lent:4,2,,,,Tuesday of the Fourth Week of Lent,gospel,"John 5:1–3a, 5–16"
+lent:4,3,,,,Wednesday of the Fourth Week of Lent,ot,Isaiah 49:8–15
+lent:4,3,,,,Wednesday of the Fourth Week of Lent,psalm,"Psalm 145:8–9, 13cd–14, 17–18"
+lent:4,3,,,,Wednesday of the Fourth Week of Lent,gospel,John 5:17–30
+lent:4,4,,,,Thursday of the Fourth Week of Lent,ot,Exodus 32:7–14
+lent:4,4,,,,Thursday of the Fourth Week of Lent,psalm,Psalm 106:19–23
+lent:4,4,,,,Thursday of the Fourth Week of Lent,gospel,John 5:31–47
+lent:4,5,,,,Friday of the Fourth Week of Lent,ot,"Wisdom 2:1a, 12–22"
+lent:4,5,,,,Friday of the Fourth Week of Lent,psalm,"Psalm 34:17–21, 23"
+lent:4,5,,,,Friday of the Fourth Week of Lent,gospel,"John 7:1–2, 10, 25–30"
+lent:4,6,,,,Saturday of the Fourth Week of Lent,ot,Jeremiah 11:18–20
+lent:4,6,,,,Saturday of the Fourth Week of Lent,psalm,"Psalm 7:2–3, 9bc–12"
+lent:4,6,,,,Saturday of the Fourth Week of Lent,gospel,John 7:40–53
+lent:4,1,,,,Optional Mass for the Fourth Week of Lent,ot,Micah 7:7–9
+lent:4,1,,,,Optional Mass for the Fourth Week of Lent,psalm,"Psalm 27:1, 7–8a, 8b–9abc, 13–14"
+lent:4,1,,,,Optional Mass for the Fourth Week of Lent,gospel,John 9:1–41
+lent:4,2,,,,Optional Mass for the Fourth Week of Lent,ot,Micah 7:7–9
+lent:4,2,,,,Optional Mass for the Fourth Week of Lent,psalm,"Psalm 27:1, 7–8a, 8b–9abc, 13–14"
+lent:4,2,,,,Optional Mass for the Fourth Week of Lent,gospel,John 9:1–41
+lent:4,3,,,,Optional Mass for the Fourth Week of Lent,ot,Micah 7:7–9
+lent:4,3,,,,Optional Mass for the Fourth Week of Lent,psalm,"Psalm 27:1, 7–8a, 8b–9abc, 13–14"
+lent:4,3,,,,Optional Mass for the Fourth Week of Lent,gospel,John 9:1–41
+lent:4,4,,,,Optional Mass for the Fourth Week of Lent,ot,Micah 7:7–9
+lent:4,4,,,,Optional Mass for the Fourth Week of Lent,psalm,"Psalm 27:1, 7–8a, 8b–9abc, 13–14"
+lent:4,4,,,,Optional Mass for the Fourth Week of Lent,gospel,John 9:1–41
+lent:4,5,,,,Optional Mass for the Fourth Week of Lent,ot,Micah 7:7–9
+lent:4,5,,,,Optional Mass for the Fourth Week of Lent,psalm,"Psalm 27:1, 7–8a, 8b–9abc, 13–14"
+lent:4,5,,,,Optional Mass for the Fourth Week of Lent,gospel,John 9:1–41
+lent:4,6,,,,Optional Mass for the Fourth Week of Lent,ot,Micah 7:7–9
+lent:4,6,,,,Optional Mass for the Fourth Week of Lent,psalm,"Psalm 27:1, 7–8a, 8b–9abc, 13–14"
+lent:4,6,,,,Optional Mass for the Fourth Week of Lent,gospel,John 9:1–41
+lent:5,1,,,,Monday of the Fifth Week of Lent,ot,"Daniel 13:1–9, 15–17, 19–30, 33–62 or Daniel 13:41c–62"
+lent:5,1,,,,Monday of the Fifth Week of Lent,psalm,Psalm 23:1–6
+lent:5,1,,A,,Monday of the Fifth Week of Lent,gospel,John 8:1–11
+lent:5,1,,B,,Monday of the Fifth Week of Lent,gospel,John 8:1–11
+lent:5,1,,C,,Monday of the Fifth Week of Lent,gospel,John 8:12–20
+lent:5,2,,,,Tuesday of the Fifth Week of Lent,ot,Numbers 21:4–9
+lent:5,2,,,,Tuesday of the Fifth Week of Lent,psalm,"Psalm 102:2–3, 16–21"
+lent:5,2,,,,Tuesday of the Fifth Week of Lent,gospel,John 8:21–30
+lent:5,3,,,,Wednesday of the Fifth Week of Lent,ot,"Daniel 3:14–20, 91–92, 95"
+lent:5,3,,,,Wednesday of the Fifth Week of Lent,psalm,Daniel 3:52–56
+lent:5,3,,,,Wednesday of the Fifth Week of Lent,gospel,John 8:31–42
+lent:5,4,,,,Thursday of the Fifth Week of Lent,ot,Genesis 17:3–9
+lent:5,4,,,,Thursday of the Fifth Week of Lent,psalm,Psalm 105:4–9
+lent:5,4,,,,Thursday of the Fifth Week of Lent,gospel,John 8:51–59
+lent:5,5,,,,Friday of the Fifth Week of Lent,ot,Jeremiah 20:10–13
+lent:5,5,,,,Friday of the Fifth Week of Lent,psalm,Psalm 18:2–7
+lent:5,5,,,,Friday of the Fifth Week of Lent,gospel,John 10:31–42
+lent:5,6,,,,Saturday of the Fifth Week of Lent,ot,Ezekiel 37:21–28
+lent:5,6,,,,Saturday of the Fifth Week of Lent,psalm,"Jeremiah 31:10–12abcd, 13"
+lent:5,6,,,,Saturday of the Fifth Week of Lent,gospel,John 11:45–56
+lent:5,1,,,,Optional Mass for the Fifth Week of Lent,ot,"2 Kings 4:18b–21, 32–37"
+lent:5,1,,,,Optional Mass for the Fifth Week of Lent,psalm,"Psalm 17:1, 6–7, 8b, 15"
+lent:5,1,,,,Optional Mass for the Fifth Week of Lent,gospel,John 11:1–45
+lent:5,2,,,,Optional Mass for the Fifth Week of Lent,ot,"2 Kings 4:18b–21, 32–37"
+lent:5,2,,,,Optional Mass for the Fifth Week of Lent,psalm,"Psalm 17:1, 6–7, 8b, 15"
+lent:5,2,,,,Optional Mass for the Fifth Week of Lent,gospel,John 11:1–45
+lent:5,3,,,,Optional Mass for the Fifth Week of Lent,ot,"2 Kings 4:18b–21, 32–37"
+lent:5,3,,,,Optional Mass for the Fifth Week of Lent,psalm,"Psalm 17:1, 6–7, 8b, 15"
+lent:5,3,,,,Optional Mass for the Fifth Week of Lent,gospel,John 11:1–45
+lent:5,4,,,,Optional Mass for the Fifth Week of Lent,ot,"2 Kings 4:18b–21, 32–37"
+lent:5,4,,,,Optional Mass for the Fifth Week of Lent,psalm,"Psalm 17:1, 6–7, 8b, 15"
+lent:5,4,,,,Optional Mass for the Fifth Week of Lent,gospel,John 11:1–45
+lent:5,5,,,,Optional Mass for the Fifth Week of Lent,ot,"2 Kings 4:18b–21, 32–37"
+lent:5,5,,,,Optional Mass for the Fifth Week of Lent,psalm,"Psalm 17:1, 6–7, 8b, 15"
+lent:5,5,,,,Optional Mass for the Fifth Week of Lent,gospel,John 11:1–45
+lent:5,6,,,,Optional Mass for the Fifth Week of Lent,ot,"2 Kings 4:18b–21, 32–37"
+lent:5,6,,,,Optional Mass for the Fifth Week of Lent,psalm,"Psalm 17:1, 6–7, 8b, 15"
+lent:5,6,,,,Optional Mass for the Fifth Week of Lent,gospel,John 11:1–45
+easter,8,,,,Monday of the Second Week of Easter,ot,Acts 4:23–31
+easter,8,,,,Monday of the Second Week of Easter,psalm,Psalm 2:1–9
+easter,8,,,,Monday of the Second Week of Easter,gospel,John 3:1–8
+easter,9,,,,Tuesday of the Second Week of Easter,ot,Acts 4:32–37
+easter,9,,,,Tuesday of the Second Week of Easter,psalm,"Psalm 93:1–2, 5"
+easter,9,,,,Tuesday of the Second Week of Easter,gospel,John 3:7b–15
+easter,10,,,,Wednesday of the Second Week of Easter,ot,Acts 5:17–26
+easter,10,,,,Wednesday of the Second Week of Easter,psalm,Psalm 34:2–9
+easter,10,,,,Wednesday of the Second Week of Easter,gospel,John 3:16–21
+easter,11,,,,Thursday of the Second Week of Easter,ot,Acts 5:27–33
+easter,11,,,,Thursday of the Second Week of Easter,psalm,"Psalm 34:2, 9, 17–20"
+easter,11,,,,Thursday of the Second Week of Easter,gospel,John 3:31–36
+easter,12,,,,Friday of the Second Week of Easter,ot,Acts 5:34–42
+easter,12,,,,Friday of the Second Week of Easter,psalm,"Psalm 27:1, 4, 13–14"
+easter,12,,,,Friday of the Second Week of Easter,gospel,John 6:1–15
+easter,13,,,,Saturday of the Second Week of Easter,ot,Acts 6:1–7
+easter,13,,,,Saturday of the Second Week of Easter,psalm,"Psalm 33:1–2, 4–5, 18–19"
+easter,13,,,,Saturday of the Second Week of Easter,gospel,John 6:16–21
+easter,15,,,,Monday of the Third Week of Easter,ot,Acts 6:8–15
+easter,15,,,,Monday of the Third Week of Easter,psalm,"Psalm 119:23–24, 26–27, 29–30"
+easter,15,,,,Monday of the Third Week of Easter,gospel,John 6:22–29
+easter,16,,,,Tuesday of the Third Week of Easter,ot,Acts 7:51–8:1a
+easter,16,,,,Tuesday of the Third Week of Easter,psalm,"Psalm 31:3cd–4, 6, 7b, 8a, 17, 21ab"
+easter,16,,,,Tuesday of the Third Week of Easter,gospel,John 6:30–35
+easter,17,,,,Wednesday of the Third Week of Easter,ot,Acts 8:1b–8
+easter,17,,,,Wednesday of the Third Week of Easter,psalm,"Psalm 66:1–3a, 4–7a"
+easter,17,,,,Wednesday of the Third Week of Easter,gospel,John 6:35–40
+easter,18,,,,Thursday of the Third Week of Easter,ot,Acts 8:26–40
+easter,18,,,,Thursday of the Third Week of Easter,psalm,"Psalm 66:8–9, 16–17, 20"
+easter,18,,,,Thursday of the Third Week of Easter,gospel,John 6:44–51
+easter,19,,,,Friday of the Third Week of Easter,ot,Acts 9:1–20
+easter,19,,,,Friday of the Third Week of Easter,psalm,Psalm 117:1–2
+easter,19,,,,Friday of the Third Week of Easter,gospel,John 6:52–59
+easter,20,,,,Saturday of the Third Week of Easter,ot,Acts 9:31–42
+easter,20,,,,Saturday of the Third Week of Easter,psalm,Psalm 116:12–17
+easter,20,,,,Saturday of the Third Week of Easter,gospel,John 6:60–69
+easter,22,,,,Monday of the Fourth Week of Easter,ot,Acts 11:1–18
+easter,22,,,,Monday of the Fourth Week of Easter,psalm,Psalm 42:2–3; 43:3–4
+easter,22,,A,,Monday of the Fourth Week of Easter,gospel,John 10:11–18
+easter,22,,B,,Monday of the Fourth Week of Easter,gospel,John 10:1–10
+easter,22,,C,,Monday of the Fourth Week of Easter,gospel,John 10:1–10
+easter,23,,,,Tuesday of the Fourth Week of Easter,ot,Acts 11:19–26
+easter,23,,,,Tuesday of the Fourth Week of Easter,psalm,Psalm 87:1b–7
+easter,23,,,,Tuesday of the Fourth Week of Easter,gospel,John 10:22–30
+easter,24,,,,Wednesday of the Fourth Week of Easter,ot,Acts 12:24–13:5a
+easter,24,,,,Wednesday of the Fourth Week of Easter,psalm,"Psalm 67:2–3, 5–6, 8"
+easter,24,,,,Wednesday of the Fourth Week of Easter,gospel,John 12:44–50
+easter,25,,,,Thursday of the Fourth Week of Easter,ot,Acts 13:13–25
+easter,25,,,,Thursday of the Fourth Week of Easter,psalm,"Psalm 89:2–3, 21–22, 25, 27"
+easter,25,,,,Thursday of the Fourth Week of Easter,gospel,John 13:16–20
+easter,26,,,,Friday of the Fourth Week of Easter,ot,Acts 13:26–33
+easter,26,,,,Friday of the Fourth Week of Easter,psalm,Psalm 2:6–11ab
+easter,26,,,,Friday of the Fourth Week of Easter,gospel,John 14:1–6
+easter,27,,,,Saturday of the Fourth Week of Easter,ot,Acts 13:44–52
+easter,27,,,,Saturday of the Fourth Week of Easter,psalm,Psalm 98:1–4
+easter,27,,,,Saturday of the Fourth Week of Easter,gospel,John 14:7–14
+easter,29,,,,Monday of the Fifth Week of Easter,ot,Acts 14:5–18
+easter,29,,,,Monday of the Fifth Week of Easter,psalm,"Psalm 115:1–4, 15–16"
+easter,29,,,,Monday of the Fifth Week of Easter,gospel,John 14:21–26
+easter,30,,,,Tuesday of the Fifth Week of Easter,ot,Acts 14:19–28
+easter,30,,,,Tuesday of the Fifth Week of Easter,psalm,"Psalm 145:10–13ab, 21"
+easter,30,,,,Tuesday of the Fifth Week of Easter,gospel,John 14:27–31a
+easter,31,,,,Wednesday of the Fifth Week of Easter,ot,Acts 15:1–6
+easter,31,,,,Wednesday of the Fifth Week of Easter,psalm,Psalm 122:1–5
+easter,31,,,,Wednesday of the Fifth Week of Easter,gospel,John 15:1–8
+easter,32,,,,Thursday of the Fifth Week of Easter,ot,Acts 15:7–21
+easter,32,,,,Thursday of the Fifth Week of Easter,psalm,"Psalm 96:1–3, 10"
+easter,32,,,,Thursday of the Fifth Week of Easter,gospel,John 15:9–11
+easter,33,,,,Friday of the Fifth Week of Easter,ot,Acts 15:22–31
+easter,33,,,,Friday of the Fifth Week of Easter,psalm,"Psalm 57:8–10, 12"
+easter,33,,,,Friday of the Fifth Week of Easter,gospel,John 15:12–17
+easter,34,,,,Saturday of the Fifth Week of Easter,ot,Acts 16:1–10
+easter,34,,,,Saturday of the Fifth Week of Easter,psalm,"Psalm 100:1b–3, 5"
+easter,34,,,,Saturday of the Fifth Week of Easter,gospel,John 15:18–21
+easter,36,,,,Monday of the Sixth Week of Easter,ot,Acts 16:11–15
+easter,36,,,,Monday of the Sixth Week of Easter,psalm,"Psalm 149:1b–6a, 9b"
+easter,36,,,,Monday of the Sixth Week of Easter,gospel,John 15:26–16:4a
+easter,37,,,,Tuesday of the Sixth Week of Easter,ot,Acts 16:22–34
+easter,37,,,,Tuesday of the Sixth Week of Easter,psalm,"Psalm 138:1–3, 7c–8"
+easter,37,,,,Tuesday of the Sixth Week of Easter,gospel,John 16:5–11
+easter,38,,,,Wednesday of the Sixth Week of Easter,ot,"Acts 17:15, 22–18:1"
+easter,38,,,,Wednesday of the Sixth Week of Easter,psalm,"Psalm 148:1–2, 11–14"
+easter,38,,,,Wednesday of the Sixth Week of Easter,gospel,John 16:12–15
+easter,39,date ne @ascension,,,Thursday of the Sixth Week of Easter,ot,Acts 18:1–8
+easter,39,date ne @ascension,,,Thursday of the Sixth Week of Easter,psalm,Psalm 98:1–4
+easter,39,date ne @ascension,,,Thursday of the Sixth Week of Easter,gospel,John 16:16–20
+easter,40,,,,Friday of the Sixth Week of Easter,ot,Acts 18:9–18
+easter,40,,,,Friday of the Sixth Week of Easter,psalm,Psalm 47:2–7
+easter,40,,,,Friday of the Sixth Week of Easter,gospel,John 16:20–23
+easter,41,,,,Saturday of the Sixth Week of Easter,ot,Acts 18:23–28
+easter,41,,,,Saturday of the Sixth Week of Easter,psalm,"Psalm 47:2–3, 8–10"
+easter,41,,,,Saturday of the Sixth Week of Easter,gospel,John 16:23b–28
+easter,43,,,,Monday of the Seventh Week of Easter,ot,Acts 19:1–8
+easter,43,,,,Monday of the Seventh Week of Easter,psalm,"Psalm 68:2–3ab, 4–5acd, 6–7ab"
+easter,43,,,,Monday of the Seventh Week of Easter,gospel,John 16:29–33
+easter,44,,,,Tuesday of the Seventh Week of Easter,ot,Acts 20:17–27
+easter,44,,,,Tuesday of the Seventh Week of Easter,psalm,"Psalm 68:10–11, 20–21"
+easter,44,,,,Tuesday of the Seventh Week of Easter,gospel,John 17:1–11a
+easter,45,,,,Wednesday of the Seventh Week of Easter,ot,Acts 20:28–38
+easter,45,,,,Wednesday of the Seventh Week of Easter,psalm,"Psalm 68:29–30, 33–36ab"
+easter,45,,,,Wednesday of the Seventh Week of Easter,gospel,John 17:11b–19
+easter,46,,,,Thursday of the Seventh Week of Easter,ot,Acts 22:30; 23:6–11
+easter,46,,,,Thursday of the Seventh Week of Easter,psalm,"Psalm 16:1–2a, 5, 7–11"
+easter,46,,,,Thursday of the Seventh Week of Easter,gospel,John 17:20–26
+easter,47,,,,Friday of the Seventh Week of Easter,ot,Acts 25:13b–21
+easter,47,,,,Friday of the Seventh Week of Easter,psalm,"Psalm 103:1–2, 11–12, 19–20ab"
+easter,47,,,,Friday of the Seventh Week of Easter,gospel,John 21:15–19
+easter,48,,,,Saturday of the Seventh Week of Easter,ot,"Acts 28:16–20, 30–31"
+easter,48,,,,Saturday of the Seventh Week of Easter,psalm,"Psalm 11:4–5, 7"
+easter,48,,,,Saturday of the Seventh Week of Easter,gospel,John 21:20–25
+sun<=@baptism,1,date gt @baptism & date lt @ash_wednesday,I,,Monday of the First Week in Ordinary Time,ot,Hebrews 1:1–6
+sun<=@baptism,1,date gt @baptism & date lt @ash_wednesday,II,,Monday of the First Week in Ordinary Time,ot,1 Samuel 1:1–8
+sun<=@baptism,1,date gt @baptism & date lt @ash_wednesday,I,,Monday of the First Week in Ordinary Time,psalm,"Psalm 97:1, 2b, 6, 7c, 9"
+sun<=@baptism,1,date gt @baptism & date lt @ash_wednesday,II,,Monday of the First Week in Ordinary Time,psalm,Psalm 116:12–19
+sun<=@baptism,1,date gt @baptism & date lt @ash_wednesday,,,Monday of the First Week in Ordinary Time,gospel,Mark 1:14–20
+sun<=@baptism,2,date gt @baptism & date lt @ash_wednesday,I,,Tuesday of the First Week in Ordinary Time,ot,Hebrews 2:5–12
+sun<=@baptism,2,date gt @baptism & date lt @ash_wednesday,II,,Tuesday of the First Week in Ordinary Time,ot,1 Samuel 1:9–20
+sun<=@baptism,2,date gt @baptism & date lt @ash_wednesday,I,,Tuesday of the First Week in Ordinary Time,psalm,"Psalm 8:2ab, 5–9"
+sun<=@baptism,2,date gt @baptism & date lt @ash_wednesday,II,,Tuesday of the First Week in Ordinary Time,psalm,"1 Samuel 2:1, 4–8abcd"
+sun<=@baptism,2,date gt @baptism & date lt @ash_wednesday,,,Tuesday of the First Week in Ordinary Time,gospel,Mark 1:21–28
+sun<=@baptism,3,date gt @baptism & date lt @ash_wednesday,I,,Wednesday of the First Week in Ordinary Time,ot,Hebrews 2:14–18
+sun<=@baptism,3,date gt @baptism & date lt @ash_wednesday,II,,Wednesday of the First Week in Ordinary Time,ot,"1 Samuel 3:1–10, 19–20"
+sun<=@baptism,3,date gt @baptism & date lt @ash_wednesday,I,,Wednesday of the First Week in Ordinary Time,psalm,"Psalm 105:1–4, 6–9"
+sun<=@baptism,3,date gt @baptism & date lt @ash_wednesday,II,,Wednesday of the First Week in Ordinary Time,psalm,"Psalm 40:2, 5, 7–10"
+sun<=@baptism,3,date gt @baptism & date lt @ash_wednesday,,,Wednesday of the First Week in Ordinary Time,gospel,Mark 1:29–39
+sun<=@baptism,4,date gt @baptism & date lt @ash_wednesday,I,,Thursday of the First Week in Ordinary Time,ot,Hebrews 3:7–14
+sun<=@baptism,4,date gt @baptism & date lt @ash_wednesday,II,,Thursday of the First Week in Ordinary Time,ot,1 Samuel 4:1–11
+sun<=@baptism,4,date gt @baptism & date lt @ash_wednesday,I,,Thursday of the First Week in Ordinary Time,psalm,"Psalm 95:6–7c, 8–11"
+sun<=@baptism,4,date gt @baptism & date lt @ash_wednesday,II,,Thursday of the First Week in Ordinary Time,psalm,"Psalm 44:10–11, 14–15, 24–25"
+sun<=@baptism,4,date gt @baptism & date lt @ash_wednesday,,,Thursday of the First Week in Ordinary Time,gospel,Mark 1:40–45
+sun<=@baptism,5,date gt @baptism & date lt @ash_wednesday,I,,Friday of the First Week in Ordinary Time,ot,"Hebrews 4:1–5, 11"
+sun<=@baptism,5,date gt @baptism & date lt @ash_wednesday,II,,Friday of the First Week in Ordinary Time,ot,"1 Samuel 8:4–7, 10–22a"
+sun<=@baptism,5,date gt @baptism & date lt @ash_wednesday,I,,Friday of the First Week in Ordinary Time,psalm,"Psalm 78:3, 4bc, 6c–8"
+sun<=@baptism,5,date gt @baptism & date lt @ash_wednesday,II,,Friday of the First Week in Ordinary Time,psalm,Psalm 89:16–19
+sun<=@baptism,5,date gt @baptism & date lt @ash_wednesday,,,Friday of the First Week in Ordinary Time,gospel,Mark 2:1–12
+sun<=@baptism,6,date gt @baptism & date lt @ash_wednesday,I,,Saturday of the First Week in Ordinary Time,ot,Hebrews 4:12–16
+sun<=@baptism,6,date gt @baptism & date lt @ash_wednesday,II,,Saturday of the First Week in Ordinary Time,ot,"1 Samuel 9:1–4, 17–19; 10:1"
+sun<=@baptism,6,date gt @baptism & date lt @ash_wednesday,I,,Saturday of the First Week in Ordinary Time,psalm,"Psalm 19:8–10, 15"
+sun<=@baptism,6,date gt @baptism & date lt @ash_wednesday,II,,Saturday of the First Week in Ordinary Time,psalm,Psalm 21:2–7
+sun<=@baptism,6,date gt @baptism & date lt @ash_wednesday,,,Saturday of the First Week in Ordinary Time,gospel,Mark 2:13–17
+sun<=@baptism,8,date gt @baptism & date lt @ash_wednesday,I,,Monday of the Second Week in Ordinary Time,ot,Hebrews 5:1–10
+sun<=@baptism,8,date gt @baptism & date lt @ash_wednesday,II,,Monday of the Second Week in Ordinary Time,ot,1 Samuel 15:16–23
+sun<=@baptism,8,date gt @baptism & date lt @ash_wednesday,I,,Monday of the Second Week in Ordinary Time,psalm,Psalm 110:1–4
+sun<=@baptism,8,date gt @baptism & date lt @ash_wednesday,II,,Monday of the Second Week in Ordinary Time,psalm,"Psalm 50:8–9, 16bc–17, 21, 23"
+sun<=@baptism,8,date gt @baptism & date lt @ash_wednesday,,,Monday of the Second Week in Ordinary Time,gospel,Mark 2:18–22
+sun<=@baptism,9,date gt @baptism & date lt @ash_wednesday,I,,Tuesday of the Second Week in Ordinary Time,ot,Hebrews 6:10–20
+sun<=@baptism,9,date gt @baptism & date lt @ash_wednesday,II,,Tuesday of the Second Week in Ordinary Time,ot,1 Samuel 16:1–13
+sun<=@baptism,9,date gt @baptism & date lt @ash_wednesday,I,,Tuesday of the Second Week in Ordinary Time,psalm,"Psalm 111:1–2, 4–5, 9, 10c"
+sun<=@baptism,9,date gt @baptism & date lt @ash_wednesday,II,,Tuesday of the Second Week in Ordinary Time,psalm,"Psalm 89:20–22, 27–28"
+sun<=@baptism,9,date gt @baptism & date lt @ash_wednesday,,,Tuesday of the Second Week in Ordinary Time,gospel,Mark 2:23–28
+sun<=@baptism,10,date gt @baptism & date lt @ash_wednesday,I,,Wednesday of the Second Week in Ordinary Time,ot,"Hebrews 7:1–3, 15–17"
+sun<=@baptism,10,date gt @baptism & date lt @ash_wednesday,II,,Wednesday of the Second Week in Ordinary Time,ot,"1 Samuel 17:32–33, 37, 40–51"
+sun<=@baptism,10,date gt @baptism & date lt @ash_wednesday,I,,Wednesday of the Second Week in Ordinary Time,psalm,Psalm 110:1–4
+sun<=@baptism,10,date gt @baptism & date lt @ash_wednesday,II,,Wednesday of the Second Week in Ordinary Time,psalm,"Psalm 144:1b, 2, 9–10"
+sun<=@baptism,10,date gt @baptism & date lt @ash_wednesday,,,Wednesday of the Second Week in Ordinary Time,gospel,Mark 3:1–6
+sun<=@baptism,11,date gt @baptism & date lt @ash_wednesday,I,,Thursday of the Second Week in Ordinary Time,ot,Hebrews 7:25–8:6
+sun<=@baptism,11,date gt @baptism & date lt @ash_wednesday,II,,Thursday of the Second Week in Ordinary Time,ot,1 Samuel 18:6–9; 19:1–7
+sun<=@baptism,11,date gt @baptism & date lt @ash_wednesday,I,,Thursday of the Second Week in Ordinary Time,psalm,"Psalm 40:7–10, 17"
+sun<=@baptism,11,date gt @baptism & date lt @ash_wednesday,II,,Thursday of the Second Week in Ordinary Time,psalm,"Psalm 56:2–3, 9–13"
+sun<=@baptism,11,date gt @baptism & date lt @ash_wednesday,,,Thursday of the Second Week in Ordinary Time,gospel,Mark 3:7–12
+sun<=@baptism,12,date gt @baptism & date lt @ash_wednesday,I,,Friday of the Second Week in Ordinary Time,ot,Hebrews 8:6–13
+sun<=@baptism,12,date gt @baptism & date lt @ash_wednesday,II,,Friday of the Second Week in Ordinary Time,ot,1 Samuel 24:3–21
+sun<=@baptism,12,date gt @baptism & date lt @ash_wednesday,I,,Friday of the Second Week in Ordinary Time,psalm,"Psalm 85:8, 10–14"
+sun<=@baptism,12,date gt @baptism & date lt @ash_wednesday,II,,Friday of the Second Week in Ordinary Time,psalm,"Psalm 57:2–4, 6, 11"
+sun<=@baptism,12,date gt @baptism & date lt @ash_wednesday,,,Friday of the Second Week in Ordinary Time,gospel,Mark 3:13–19
+sun<=@baptism,13,date gt @baptism & date lt @ash_wednesday,I,,Saturday of the Second Week in Ordinary Time,ot,"Hebrews 9:2–3, 11–14"
+sun<=@baptism,13,date gt @baptism & date lt @ash_wednesday,II,,Saturday of the Second Week in Ordinary Time,ot,"2 Samuel 1:1–4, 11–12, 19, 23–27"
+sun<=@baptism,13,date gt @baptism & date lt @ash_wednesday,I,,Saturday of the Second Week in Ordinary Time,psalm,"Psalm 47:2–3, 6–9"
+sun<=@baptism,13,date gt @baptism & date lt @ash_wednesday,II,,Saturday of the Second Week in Ordinary Time,psalm,"Psalm 80:2–3, 5–7"
+sun<=@baptism,13,date gt @baptism & date lt @ash_wednesday,,,Saturday of the Second Week in Ordinary Time,gospel,Mark 3:20–21
+sun<=@baptism,15,date gt @baptism & date lt @ash_wednesday,I,,Monday of the Third Week in Ordinary Time,ot,"Hebrews 9:15, 24–28"
+sun<=@baptism,15,date gt @baptism & date lt @ash_wednesday,II,,Monday of the Third Week in Ordinary Time,ot,"2 Samuel 5:1–7, 10"
+sun<=@baptism,15,date gt @baptism & date lt @ash_wednesday,I,,Monday of the Third Week in Ordinary Time,psalm,Psalm 98:1–6
+sun<=@baptism,15,date gt @baptism & date lt @ash_wednesday,II,,Monday of the Third Week in Ordinary Time,psalm,"Psalm 89:20–22, 25–26"
+sun<=@baptism,15,date gt @baptism & date lt @ash_wednesday,,,Monday of the Third Week in Ordinary Time,gospel,Mark 3:22–30
+sun<=@baptism,16,date gt @baptism & date lt @ash_wednesday,I,,Tuesday of the Third Week in Ordinary Time,ot,Hebrews 10:1–10
+sun<=@baptism,16,date gt @baptism & date lt @ash_wednesday,II,,Tuesday of the Third Week in Ordinary Time,ot,"2 Samuel 6:12b–15, 17–19"
+sun<=@baptism,16,date gt @baptism & date lt @ash_wednesday,I,,Tuesday of the Third Week in Ordinary Time,psalm,"Psalm 40:2, 4ab, 7–8a, 10–11"
+sun<=@baptism,16,date gt @baptism & date lt @ash_wednesday,II,,Tuesday of the Third Week in Ordinary Time,psalm,Psalm 24:7–10
+sun<=@baptism,16,date gt @baptism & date lt @ash_wednesday,,,Tuesday of the Third Week in Ordinary Time,gospel,Mark 3:31–35
+sun<=@baptism,17,date gt @baptism & date lt @ash_wednesday,I,,Wednesday of the Third Week in Ordinary Time,ot,Hebrews 10:11–18
+sun<=@baptism,17,date gt @baptism & date lt @ash_wednesday,II,,Wednesday of the Third Week in Ordinary Time,ot,2 Samuel 7:4–17
+sun<=@baptism,17,date gt @baptism & date lt @ash_wednesday,I,,Wednesday of the Third Week in Ordinary Time,psalm,Psalm 110:1–4
+sun<=@baptism,17,date gt @baptism & date lt @ash_wednesday,II,,Wednesday of the Third Week in Ordinary Time,psalm,"Psalm 89:4–5, 27–30"
+sun<=@baptism,17,date gt @baptism & date lt @ash_wednesday,,,Wednesday of the Third Week in Ordinary Time,gospel,Mark 4:1–20
+sun<=@baptism,18,date gt @baptism & date lt @ash_wednesday,I,,Thursday of the Third Week in Ordinary Time,ot,Hebrews 10:19–25
+sun<=@baptism,18,date gt @baptism & date lt @ash_wednesday,II,,Thursday of the Third Week in Ordinary Time,ot,"2 Samuel 7:18–19, 24–29"
+sun<=@baptism,18,date gt @baptism & date lt @ash_wednesday,I,,Thursday of the Third Week in Ordinary Time,psalm,"Psalm 24:1–4ab, 5–6"
+sun<=@baptism,18,date gt @baptism & date lt @ash_wednesday,II,,Thursday of the Third Week in Ordinary Time,psalm,"Psalm 132:1–5, 11–14"
+sun<=@baptism,18,date gt @baptism & date lt @ash_wednesday,,,Thursday of the Third Week in Ordinary Time,gospel,Mark 4:21–25
+sun<=@baptism,19,date gt @baptism & date lt @ash_wednesday,I,,Friday of the Third Week in Ordinary Time,ot,Hebrews 10:32–39
+sun<=@baptism,19,date gt @baptism & date lt @ash_wednesday,II,,Friday of the Third Week in Ordinary Time,ot,"2 Samuel 11:1–4a, 5–10a, 13–17"
+sun<=@baptism,19,date gt @baptism & date lt @ash_wednesday,I,,Friday of the Third Week in Ordinary Time,psalm,"Psalm 37:3–6, 23–24, 39–40"
+sun<=@baptism,19,date gt @baptism & date lt @ash_wednesday,II,,Friday of the Third Week in Ordinary Time,psalm,"Psalm 51:3–7, 10–11"
+sun<=@baptism,19,date gt @baptism & date lt @ash_wednesday,,,Friday of the Third Week in Ordinary Time,gospel,Mark 4:26–34
+sun<=@baptism,20,date gt @baptism & date lt @ash_wednesday,I,,Saturday of the Third Week in Ordinary Time,ot,"Hebrews 11:1–2, 8–19"
+sun<=@baptism,20,date gt @baptism & date lt @ash_wednesday,II,,Saturday of the Third Week in Ordinary Time,ot,"2 Samuel 12:1–7a, 10–17"
+sun<=@baptism,20,date gt @baptism & date lt @ash_wednesday,I,,Saturday of the Third Week in Ordinary Time,psalm,Luke 1:69–75
+sun<=@baptism,20,date gt @baptism & date lt @ash_wednesday,II,,Saturday of the Third Week in Ordinary Time,psalm,Psalm 51:12–17
+sun<=@baptism,20,date gt @baptism & date lt @ash_wednesday,,,Saturday of the Third Week in Ordinary Time,gospel,Mark 4:35–41
+sun<=@baptism,22,date gt @baptism & date lt @ash_wednesday,I,,Monday of the Fourth Week in Ordinary Time,ot,Hebrews 11:32–40
+sun<=@baptism,22,date gt @baptism & date lt @ash_wednesday,II,,Monday of the Fourth Week in Ordinary Time,ot,"2 Samuel 15:13–14, 30; 16:5–13"
+sun<=@baptism,22,date gt @baptism & date lt @ash_wednesday,I,,Monday of the Fourth Week in Ordinary Time,psalm,Psalm 31:20–24
+sun<=@baptism,22,date gt @baptism & date lt @ash_wednesday,II,,Monday of the Fourth Week in Ordinary Time,psalm,Psalm 3:2–7
+sun<=@baptism,22,date gt @baptism & date lt @ash_wednesday,,,Monday of the Fourth Week in Ordinary Time,gospel,Mark 5:1–20
+sun<=@baptism,23,date gt @baptism & date lt @ash_wednesday,I,,Tuesday of the Fourth Week in Ordinary Time,ot,Hebrews 12:1–4
+sun<=@baptism,23,date gt @baptism & date lt @ash_wednesday,II,,Tuesday of the Fourth Week in Ordinary Time,ot,"2 Samuel 18:9–10, 14b, 24–25a, 30–19:3"
+sun<=@baptism,23,date gt @baptism & date lt @ash_wednesday,I,,Tuesday of the Fourth Week in Ordinary Time,psalm,"Psalm 22:26b–28, 30–32"
+sun<=@baptism,23,date gt @baptism & date lt @ash_wednesday,II,,Tuesday of the Fourth Week in Ordinary Time,psalm,Psalm 86:1–6
+sun<=@baptism,23,date gt @baptism & date lt @ash_wednesday,,,Tuesday of the Fourth Week in Ordinary Time,gospel,Mark 5:21–43
+sun<=@baptism,24,date gt @baptism & date lt @ash_wednesday,I,,Wednesday of the Fourth Week in Ordinary Time,ot,"Hebrews 12:4–7, 11–15"
+sun<=@baptism,24,date gt @baptism & date lt @ash_wednesday,II,,Wednesday of the Fourth Week in Ordinary Time,ot,"2 Samuel 24:2, 9–17"
+sun<=@baptism,24,date gt @baptism & date lt @ash_wednesday,I,,Wednesday of the Fourth Week in Ordinary Time,psalm,"Psalm 103:1–2, 13–14, 17–18a"
+sun<=@baptism,24,date gt @baptism & date lt @ash_wednesday,II,,Wednesday of the Fourth Week in Ordinary Time,psalm,"Psalm 32:1–2, 5–7"
+sun<=@baptism,24,date gt @baptism & date lt @ash_wednesday,,,Wednesday of the Fourth Week in Ordinary Time,gospel,Mark 6:1–6
+sun<=@baptism,25,date gt @baptism & date lt @ash_wednesday,I,,Thursday of the Fourth Week in Ordinary Time,ot,"Hebrews 12:18–19, 21–24"
+sun<=@baptism,25,date gt @baptism & date lt @ash_wednesday,II,,Thursday of the Fourth Week in Ordinary Time,ot,"1 Kings 2:1–4, 10–12"
+sun<=@baptism,25,date gt @baptism & date lt @ash_wednesday,I,,Thursday of the Fourth Week in Ordinary Time,psalm,"Psalm 48:2–4, 9–11"
+sun<=@baptism,25,date gt @baptism & date lt @ash_wednesday,II,,Thursday of the Fourth Week in Ordinary Time,psalm,"1 Chronicles 29:10bcd, 11ab, 11d–12bcd"
+sun<=@baptism,25,date gt @baptism & date lt @ash_wednesday,,,Thursday of the Fourth Week in Ordinary Time,gospel,Mark 6:7–13
+sun<=@baptism,26,date gt @baptism & date lt @ash_wednesday,I,,Friday of the Fourth Week in Ordinary Time,ot,Hebrews 13:1–8
+sun<=@baptism,26,date gt @baptism & date lt @ash_wednesday,II,,Friday of the Fourth Week in Ordinary Time,ot,Sirach 47:2–11
+sun<=@baptism,26,date gt @baptism & date lt @ash_wednesday,I,,Friday of the Fourth Week in Ordinary Time,psalm,"Psalm 27:1, 3, 5, 8b–9abc"
+sun<=@baptism,26,date gt @baptism & date lt @ash_wednesday,II,,Friday of the Fourth Week in Ordinary Time,psalm,"Psalm 18:31, 47, 50–51"
+sun<=@baptism,26,date gt @baptism & date lt @ash_wednesday,,,Friday of the Fourth Week in Ordinary Time,gospel,Mark 6:14–29
+sun<=@baptism,27,date gt @baptism & date lt @ash_wednesday,I,,Saturday of the Fourth Week in Ordinary Time,ot,"Hebrews 13:15–17, 20–21"
+sun<=@baptism,27,date gt @baptism & date lt @ash_wednesday,II,,Saturday of the Fourth Week in Ordinary Time,ot,1 Kings 3:4–13
+sun<=@baptism,27,date gt @baptism & date lt @ash_wednesday,I,,Saturday of the Fourth Week in Ordinary Time,psalm,Psalm 23:1–6
+sun<=@baptism,27,date gt @baptism & date lt @ash_wednesday,II,,Saturday of the Fourth Week in Ordinary Time,psalm,Psalm 119:9–14
+sun<=@baptism,27,date gt @baptism & date lt @ash_wednesday,,,Saturday of the Fourth Week in Ordinary Time,gospel,Mark 6:30–34
+sun<=@baptism,29,date gt @baptism & date lt @ash_wednesday,I,,Monday of the Fifth Week in Ordinary Time,ot,Genesis 1:1–19
+sun<=@baptism,29,date gt @baptism & date lt @ash_wednesday,II,,Monday of the Fifth Week in Ordinary Time,ot,"1 Kings 8:1–7, 9–13"
+sun<=@baptism,29,date gt @baptism & date lt @ash_wednesday,I,,Monday of the Fifth Week in Ordinary Time,psalm,"Psalm 104:1–2a, 5–6, 10, 12, 24, 35c"
+sun<=@baptism,29,date gt @baptism & date lt @ash_wednesday,II,,Monday of the Fifth Week in Ordinary Time,psalm,Psalm 132:6–10
+sun<=@baptism,29,date gt @baptism & date lt @ash_wednesday,,,Monday of the Fifth Week in Ordinary Time,gospel,Mark 6:53–56
+sun<=@baptism,30,date gt @baptism & date lt @ash_wednesday,I,,Tuesday of the Fifth Week in Ordinary Time,ot,Genesis 1:20–2:4a
+sun<=@baptism,30,date gt @baptism & date lt @ash_wednesday,II,,Tuesday of the Fifth Week in Ordinary Time,ot,"1 Kings 8:22–23, 27–30"
+sun<=@baptism,30,date gt @baptism & date lt @ash_wednesday,I,,Tuesday of the Fifth Week in Ordinary Time,psalm,Psalm 8:4–9
+sun<=@baptism,30,date gt @baptism & date lt @ash_wednesday,II,,Tuesday of the Fifth Week in Ordinary Time,psalm,"Psalm 84:3–5, 10–11"
+sun<=@baptism,30,date gt @baptism & date lt @ash_wednesday,,,Tuesday of the Fifth Week in Ordinary Time,gospel,Mark 7:1–13
+sun<=@baptism,31,date gt @baptism & date lt @ash_wednesday,I,,Wednesday of the Fifth Week in Ordinary Time,ot,"Genesis 2:4b–9, 15–17"
+sun<=@baptism,31,date gt @baptism & date lt @ash_wednesday,II,,Wednesday of the Fifth Week in Ordinary Time,ot,1 Kings 10:1–10
+sun<=@baptism,31,date gt @baptism & date lt @ash_wednesday,I,,Wednesday of the Fifth Week in Ordinary Time,psalm,"Psalm 104:1–2a, 27–28, 29bc–30"
+sun<=@baptism,31,date gt @baptism & date lt @ash_wednesday,II,,Wednesday of the Fifth Week in Ordinary Time,psalm,"Psalm 37:5–6, 30–31, 39–40"
+sun<=@baptism,31,date gt @baptism & date lt @ash_wednesday,,,Wednesday of the Fifth Week in Ordinary Time,gospel,Mark 7:14–23
+sun<=@baptism,32,date gt @baptism & date lt @ash_wednesday,I,,Thursday of the Fifth Week in Ordinary Time,ot,Genesis 2:18–25
+sun<=@baptism,32,date gt @baptism & date lt @ash_wednesday,II,,Thursday of the Fifth Week in Ordinary Time,ot,1 Kings 11:4–13
+sun<=@baptism,32,date gt @baptism & date lt @ash_wednesday,I,,Thursday of the Fifth Week in Ordinary Time,psalm,Psalm 128:1–5
+sun<=@baptism,32,date gt @baptism & date lt @ash_wednesday,II,,Thursday of the Fifth Week in Ordinary Time,psalm,"Psalm 106:3–4, 35–37, 40"
+sun<=@baptism,32,date gt @baptism & date lt @ash_wednesday,,,Thursday of the Fifth Week in Ordinary Time,gospel,Mark 7:24–30
+sun<=@baptism,33,date gt @baptism & date lt @ash_wednesday,I,,Friday of the Fifth Week in Ordinary Time,ot,Genesis 3:1–8
+sun<=@baptism,33,date gt @baptism & date lt @ash_wednesday,II,,Friday of the Fifth Week in Ordinary Time,ot,1 Kings 11:29–32; 12:19
+sun<=@baptism,33,date gt @baptism & date lt @ash_wednesday,I,,Friday of the Fifth Week in Ordinary Time,psalm,"Psalm 32:1–2, 5–7"
+sun<=@baptism,33,date gt @baptism & date lt @ash_wednesday,II,,Friday of the Fifth Week in Ordinary Time,psalm,"Psalm 81:10–11ab, 12–15"
+sun<=@baptism,33,date gt @baptism & date lt @ash_wednesday,,,Friday of the Fifth Week in Ordinary Time,gospel,Mark 7:31–37
+sun<=@baptism,34,date gt @baptism & date lt @ash_wednesday,I,,Saturday of the Fifth Week in Ordinary Time,ot,Genesis 3:9–24
+sun<=@baptism,34,date gt @baptism & date lt @ash_wednesday,II,,Saturday of the Fifth Week in Ordinary Time,ot,1 Kings 12:26–32; 13:33–34
+sun<=@baptism,34,date gt @baptism & date lt @ash_wednesday,I,,Saturday of the Fifth Week in Ordinary Time,psalm,"Psalm 90:2–4abc, 5–6, 12–13"
+sun<=@baptism,34,date gt @baptism & date lt @ash_wednesday,II,,Saturday of the Fifth Week in Ordinary Time,psalm,"Psalm 106:6–7ab, 19–22"
+sun<=@baptism,34,date gt @baptism & date lt @ash_wednesday,,,Saturday of the Fifth Week in Ordinary Time,gospel,Mark 8:1–10
+sun<=@baptism,36,date gt @baptism & date lt @ash_wednesday,I,,Monday of the Sixth Week in Ordinary Time,ot,"Genesis 4:1–15, 25"
+sun<=@baptism,36,date gt @baptism & date lt @ash_wednesday,II,,Monday of the Sixth Week in Ordinary Time,ot,James 1:1–11
+sun<=@baptism,36,date gt @baptism & date lt @ash_wednesday,I,,Monday of the Sixth Week in Ordinary Time,psalm,"Psalm 50:1, 8, 16bc–17, 20–21"
+sun<=@baptism,36,date gt @baptism & date lt @ash_wednesday,II,,Monday of the Sixth Week in Ordinary Time,psalm,"Psalm 119:67–68, 71–72, 75–76"
+sun<=@baptism,36,date gt @baptism & date lt @ash_wednesday,,,Monday of the Sixth Week in Ordinary Time,gospel,Mark 8:11–13
+next_start,-202,date gt @pentecost,I,,Monday of the Sixth Week in Ordinary Time,ot,"Genesis 4:1–15, 25"
+next_start,-202,date gt @pentecost,II,,Monday of the Sixth Week in Ordinary Time,ot,James 1:1–11
+next_start,-202,date gt @pentecost,I,,Monday of the Sixth Week in Ordinary Time,psalm,"Psalm 50:1, 8, 16bc–17, 20–21"
+next_start,-202,date gt @pentecost,II,,Monday of the Sixth Week in Ordinary Time,psalm,"Psalm 119:67–68, 71–72, 75–76"
+next_start,-202,date gt @pentecost,,,Monday of the Sixth Week in Ordinary Time,gospel,Mark 8:11–13
+sun<=@baptism,37,date gt @baptism & date lt @ash_wednesday,I,,Tuesday of the Sixth Week in Ordinary Time,ot,"Genesis 6:5–8; 7:1–5, 10"
+sun<=@baptism,37,date gt @baptism & date lt @ash_wednesday,II,,Tuesday of the Sixth Week in Ordinary Time,ot,James 1:12–18
+sun<=@baptism,37,date gt @baptism & date lt @ash_wednesday,I,,Tuesday of the Sixth Week in Ordinary Time,psalm,"Psalm 29:1a, 2–4, 3b, 9c–10"
+sun<=@baptism,37,date gt @baptism & date lt @ash_wednesday,II,,Tuesday of the Sixth Week in Ordinary Time,psalm,"Psalm 94:12–13a, 14–15, 18–19"
+sun<=@baptism,37,date gt @baptism & date lt @ash_wednesday,,,Tuesday of the Sixth Week in Ordinary Time,gospel,Mark 8:14–21
+next_start,-201,date gt @pentecost,I,,Tuesday of the Sixth Week in Ordinary Time,ot,"Genesis 6:5–8; 7:1–5, 10"
+next_start,-201,date gt @pentecost,II,,Tuesday of the Sixth Week in Ordinary Time,ot,James 1:12–18
+next_start,-201,date gt @pentecost,I,,Tuesday of the Sixth Week in Ordinary Time,psalm,"Psalm 29:1a, 2–4, 3b, 9c–10"
+next_start,-201,date gt @pentecost,II,,Tuesday of the Sixth Week in Ordinary Time,psalm,"Psalm 94:12–13a, 14–15, 18–19"
+next_start,-201,date gt @pentecost,,,Tuesday of the Sixth Week in Ordinary Time,gospel,Mark 8:14–21
+sun<=@baptism,38,date gt @baptism & date lt @ash_wednesday,I,,Wednesday of the Sixth Week in Ordinary Time,ot,"Genesis 8:6–13, 20–22"
+sun<=@baptism,38,date gt @baptism & date lt @ash_wednesday,II,,Wednesday of the Sixth Week in Ordinary Time,ot,James 1:19–27
+sun<=@baptism,38,date gt @baptism & date lt @ash_wednesday,I,,Wednesday of the Sixth Week in Ordinary Time,psalm,"Psalm 116:12–15, 18–19"
+sun<=@baptism,38,date gt @baptism & date lt @ash_wednesday,II,,Wednesday of the Sixth Week in Ordinary Time,psalm,"Psalm 15:2–4ab, 5"
+sun<=@baptism,38,date gt @baptism & date lt @ash_wednesday,,,Wednesday of the Sixth Week in Ordinary Time,gospel,Mark 8:22–26
+next_start,-200,date gt @pentecost,I,,Wednesday of the Sixth Week in Ordinary Time,ot,"Genesis 8:6–13, 20–22"
+next_start,-200,date gt @pentecost,II,,Wednesday of the Sixth Week in Ordinary Time,ot,James 1:19–27
+next_start,-200,date gt @pentecost,I,,Wednesday of the Sixth Week in Ordinary Time,psalm,"Psalm 116:12–15, 18–19"
+next_start,-200,date gt @pentecost,II,,Wednesday of the Sixth Week in Ordinary Time,psalm,"Psalm 15:2–4ab, 5"
+next_start,-200,date gt @pentecost,,,Wednesday of the Sixth Week in Ordinary Time,gospel,Mark 8:22–26
+sun<=@baptism,39,date gt @baptism & date lt @ash_wednesday,I,,Thursday of the Sixth Week in Ordinary Time,ot,Genesis 9:1–13
+sun<=@baptism,39,date gt @baptism & date lt @ash_wednesday,II,,Thursday of the Sixth Week in Ordinary Time,ot,James 2:1–9
+sun<=@baptism,39,date gt @baptism & date lt @ash_wednesday,I,,Thursday of the Sixth Week in Ordinary Time,psalm,"Psalm 102:16–21, 29, 22–23"
+sun<=@baptism,39,date gt @baptism & date lt @ash_wednesday,II,,Thursday of the Sixth Week in Ordinary Time,psalm,Psalm 34:2–7
+sun<=@baptism,39,date gt @baptism & date lt @ash_wednesday,,,Thursday of the Sixth Week in Ordinary Time,gospel,Mark 8:27–33
+next_start,-199,date gt @pentecost,I,,Thursday of the Sixth Week in Ordinary Time,ot,Genesis 9:1–13
+next_start,-199,date gt @pentecost,II,,Thursday of the Sixth Week in Ordinary Time,ot,James 2:1–9
+next_start,-199,date gt @pentecost,I,,Thursday of the Sixth Week in Ordinary Time,psalm,"Psalm 102:16–21, 29, 22–23"
+next_start,-199,date gt @pentecost,II,,Thursday of the Sixth Week in Ordinary Time,psalm,Psalm 34:2–7
+next_start,-199,date gt @pentecost,,,Thursday of the Sixth Week in Ordinary Time,gospel,Mark 8:27–33
+sun<=@baptism,40,date gt @baptism & date lt @ash_wednesday,I,,Friday of the Sixth Week in Ordinary Time,ot,Genesis 11:1–9
+sun<=@baptism,40,date gt @baptism & date lt @ash_wednesday,II,,Friday of the Sixth Week in Ordinary Time,ot,"James 2:14–24, 26"
+sun<=@baptism,40,date gt @baptism & date lt @ash_wednesday,I,,Friday of the Sixth Week in Ordinary Time,psalm,Psalm 33:10–15
+sun<=@baptism,40,date gt @baptism & date lt @ash_wednesday,II,,Friday of the Sixth Week in Ordinary Time,psalm,Psalm 112:1–6
+sun<=@baptism,40,date gt @baptism & date lt @ash_wednesday,,,Friday of the Sixth Week in Ordinary Time,gospel,Mark 8:34–9:1
+next_start,-198,date gt @pentecost,I,,Friday of the Sixth Week in Ordinary Time,ot,Genesis 11:1–9
+next_start,-198,date gt @pentecost,II,,Friday of the Sixth Week in Ordinary Time,ot,"James 2:14–24, 26"
+next_start,-198,date gt @pentecost,I,,Friday of the Sixth Week in Ordinary Time,psalm,Psalm 33:10–15
+next_start,-198,date gt @pentecost,II,,Friday of the Sixth Week in Ordinary Time,psalm,Psalm 112:1–6
+next_start,-198,date gt @pentecost,,,Friday of the Sixth Week in Ordinary Time,gospel,Mark 8:34–9:1
+sun<=@baptism,41,date gt @baptism & date lt @ash_wednesday,I,,Saturday of the Sixth Week in Ordinary Time,ot,Hebrews 11:1–7
+sun<=@baptism,41,date gt @baptism & date lt @ash_wednesday,II,,Saturday of the Sixth Week in Ordinary Time,ot,James 3:1–10
+sun<=@baptism,41,date gt @baptism & date lt @ash_wednesday,I,,Saturday of the Sixth Week in Ordinary Time,psalm,"Psalm 145:2–5, 10–11"
+sun<=@baptism,41,date gt @baptism & date lt @ash_wednesday,II,,Saturday of the Sixth Week in Ordinary Time,psalm,"Psalm 12:2–5, 7–8"
+sun<=@baptism,41,date gt @baptism & date lt @ash_wednesday,,,Saturday of the Sixth Week in Ordinary Time,gospel,Mark 9:2–13
+next_start,-197,date gt @pentecost,I,,Saturday of the Sixth Week in Ordinary Time,ot,Hebrews 11:1–7
+next_start,-197,date gt @pentecost,II,,Saturday of the Sixth Week in Ordinary Time,ot,James 3:1–10
+next_start,-197,date gt @pentecost,I,,Saturday of the Sixth Week in Ordinary Time,psalm,"Psalm 145:2–5, 10–11"
+next_start,-197,date gt @pentecost,II,,Saturday of the Sixth Week in Ordinary Time,psalm,"Psalm 12:2–5, 7–8"
+next_start,-197,date gt @pentecost,,,Saturday of the Sixth Week in Ordinary Time,gospel,Mark 9:2–13
+sun<=@baptism,43,date gt @baptism & date lt @ash_wednesday,I,,Monday of the Seventh Week in Ordinary Time,ot,Sirach 1:1–10
+sun<=@baptism,43,date gt @baptism & date lt @ash_wednesday,II,,Monday of the Seventh Week in Ordinary Time,ot,James 3:13–18
+sun<=@baptism,43,date gt @baptism & date lt @ash_wednesday,I,,Monday of the Seventh Week in Ordinary Time,psalm,"Psalm 93:1–2, 5"
+sun<=@baptism,43,date gt @baptism & date lt @ash_wednesday,II,,Monday of the Seventh Week in Ordinary Time,psalm,"Psalm 19:8–10, 15"
+sun<=@baptism,43,date gt @baptism & date lt @ash_wednesday,,,Monday of the Seventh Week in Ordinary Time,gospel,Mark 9:14–29
+next_start,-195,date gt @pentecost,I,,Monday of the Seventh Week in Ordinary Time,ot,Sirach 1:1–10
+next_start,-195,date gt @pentecost,II,,Monday of the Seventh Week in Ordinary Time,ot,James 3:13–18
+next_start,-195,date gt @pentecost,I,,Monday of the Seventh Week in Ordinary Time,psalm,"Psalm 93:1–2, 5"
+next_start,-195,date gt @pentecost,II,,Monday of the Seventh Week in Ordinary Time,psalm,"Psalm 19:8–10, 15"
+next_start,-195,date gt @pentecost,,,Monday of the Seventh Week in Ordinary Time,gospel,Mark 9:14–29
+sun<=@baptism,44,date gt @baptism & date lt @ash_wednesday,I,,Tuesday of the Seventh Week in Ordinary Time,ot,Sirach 2:1–11
+sun<=@baptism,44,date gt @baptism & date lt @ash_wednesday,II,,Tuesday of the Seventh Week in Ordinary Time,ot,James 4:1–10
+sun<=@baptism,44,date gt @baptism & date lt @ash_wednesday,I,,Tuesday of the Seventh Week in Ordinary Time,psalm,"Psalm 37:3–4, 18–19, 27–28, 39–40"
+sun<=@baptism,44,date gt @baptism & date lt @ash_wednesday,II,,Tuesday of the Seventh Week in Ordinary Time,psalm,"Psalm 55:7–11a, 23"
+sun<=@baptism,44,date gt @baptism & date lt @ash_wednesday,,,Tuesday of the Seventh Week in Ordinary Time,gospel,Mark 9:30–37
+next_start,-194,date gt @pentecost,I,,Tuesday of the Seventh Week in Ordinary Time,ot,Sirach 2:1–11
+next_start,-194,date gt @pentecost,II,,Tuesday of the Seventh Week in Ordinary Time,ot,James 4:1–10
+next_start,-194,date gt @pentecost,I,,Tuesday of the Seventh Week in Ordinary Time,psalm,"Psalm 37:3–4, 18–19, 27–28, 39–40"
+next_start,-194,date gt @pentecost,II,,Tuesday of the Seventh Week in Ordinary Time,psalm,"Psalm 55:7–11a, 23"
+next_start,-194,date gt @pentecost,,,Tuesday of the Seventh Week in Ordinary Time,gospel,Mark 9:30–37
+sun<=@baptism,45,date gt @baptism & date lt @ash_wednesday,I,,Wednesday of the Seventh Week in Ordinary Time,ot,Sirach 4:11–19
+sun<=@baptism,45,date gt @baptism & date lt @ash_wednesday,II,,Wednesday of the Seventh Week in Ordinary Time,ot,James 4:13–17
+sun<=@baptism,45,date gt @baptism & date lt @ash_wednesday,I,,Wednesday of the Seventh Week in Ordinary Time,psalm,"Psalm 119:165, 168, 171–172, 174–175"
+sun<=@baptism,45,date gt @baptism & date lt @ash_wednesday,II,,Wednesday of the Seventh Week in Ordinary Time,psalm,"Psalm 49:2–3, 6–11"
+sun<=@baptism,45,date gt @baptism & date lt @ash_wednesday,,,Wednesday of the Seventh Week in Ordinary Time,gospel,Mark 9:38–40
+next_start,-193,date gt @pentecost,I,,Wednesday of the Seventh Week in Ordinary Time,ot,Sirach 4:11–19
+next_start,-193,date gt @pentecost,II,,Wednesday of the Seventh Week in Ordinary Time,ot,James 4:13–17
+next_start,-193,date gt @pentecost,I,,Wednesday of the Seventh Week in Ordinary Time,psalm,"Psalm 119:165, 168, 171–172, 174–175"
+next_start,-193,date gt @pentecost,II,,Wednesday of the Seventh Week in Ordinary Time,psalm,"Psalm 49:2–3, 6–11"
+next_start,-193,date gt @pentecost,,,Wednesday of the Seventh Week in Ordinary Time,gospel,Mark 9:38–40
+sun<=@baptism,46,date gt @baptism & date lt @ash_wednesday,I,,Thursday of the Seventh Week in Ordinary Time,ot,Sirach 5:1–8
+sun<=@baptism,46,date gt @baptism & date lt @ash_wednesday,II,,Thursday of the Seventh Week in Ordinary Time,ot,James 5:1–6
+sun<=@baptism,46,date gt @baptism & date lt @ash_wednesday,I,,Thursday of the Seventh Week in Ordinary Time,psalm,"Psalm 1:1–4, 6"
+sun<=@baptism,46,date gt @baptism & date lt @ash_wednesday,II,,Thursday of the Seventh Week in Ordinary Time,psalm,Psalm 49:14–20
+sun<=@baptism,46,date gt @baptism & date lt @ash_wednesday,,,Thursday of the Seventh Week in Ordinary Time,gospel,Mark 9:41–50
+next_start,-192,date gt @pentecost,I,,Thursday of the Seventh Week in Ordinary Time,ot,Sirach 5:1–8
+next_start,-192,date gt @pentecost,II,,Thursday of the Seventh Week in Ordinary Time,ot,James 5:1–6
+next_start,-192,date gt @pentecost,I,,Thursday of the Seventh Week in Ordinary Time,psalm,"Psalm 1:1–4, 6"
+next_start,-192,date gt @pentecost,II,,Thursday of the Seventh Week in Ordinary Time,psalm,Psalm 49:14–20
+next_start,-192,date gt @pentecost,,,Thursday of the Seventh Week in Ordinary Time,gospel,Mark 9:41–50
+sun<=@baptism,47,date gt @baptism & date lt @ash_wednesday,I,,Friday of the Seventh Week in Ordinary Time,ot,Sirach 6:5–17
+sun<=@baptism,47,date gt @baptism & date lt @ash_wednesday,II,,Friday of the Seventh Week in Ordinary Time,ot,James 5:9–12
+sun<=@baptism,47,date gt @baptism & date lt @ash_wednesday,I,,Friday of the Seventh Week in Ordinary Time,psalm,"Psalm 119:12, 16, 18, 27, 34–35"
+sun<=@baptism,47,date gt @baptism & date lt @ash_wednesday,II,,Friday of the Seventh Week in Ordinary Time,psalm,"Psalm 103:1–4, 8–9, 11–12"
+sun<=@baptism,47,date gt @baptism & date lt @ash_wednesday,,,Friday of the Seventh Week in Ordinary Time,gospel,Mark 10:1–12
+next_start,-191,date gt @pentecost,I,,Friday of the Seventh Week in Ordinary Time,ot,Sirach 6:5–17
+next_start,-191,date gt @pentecost,II,,Friday of the Seventh Week in Ordinary Time,ot,James 5:9–12
+next_start,-191,date gt @pentecost,I,,Friday of the Seventh Week in Ordinary Time,psalm,"Psalm 119:12, 16, 18, 27, 34–35"
+next_start,-191,date gt @pentecost,II,,Friday of the Seventh Week in Ordinary Time,psalm,"Psalm 103:1–4, 8–9, 11–12"
+next_start,-191,date gt @pentecost,,,Friday of the Seventh Week in Ordinary Time,gospel,Mark 10:1–12
+sun<=@baptism,48,date gt @baptism & date lt @ash_wednesday,I,,Saturday of the Seventh Week in Ordinary Time,ot,Sirach 17:1–15
+sun<=@baptism,48,date gt @baptism & date lt @ash_wednesday,II,,Saturday of the Seventh Week in Ordinary Time,ot,James 5:13–20
+sun<=@baptism,48,date gt @baptism & date lt @ash_wednesday,I,,Saturday of the Seventh Week in Ordinary Time,psalm,Psalm 103:13–18a
+sun<=@baptism,48,date gt @baptism & date lt @ash_wednesday,II,,Saturday of the Seventh Week in Ordinary Time,psalm,"Psalm 141:1–3, 8"
+sun<=@baptism,48,date gt @baptism & date lt @ash_wednesday,,,Saturday of the Seventh Week in Ordinary Time,gospel,Mark 10:13–16
+next_start,-190,date gt @pentecost,I,,Saturday of the Seventh Week in Ordinary Time,ot,Sirach 17:1–15
+next_start,-190,date gt @pentecost,II,,Saturday of the Seventh Week in Ordinary Time,ot,James 5:13–20
+next_start,-190,date gt @pentecost,I,,Saturday of the Seventh Week in Ordinary Time,psalm,Psalm 103:13–18a
+next_start,-190,date gt @pentecost,II,,Saturday of the Seventh Week in Ordinary Time,psalm,"Psalm 141:1–3, 8"
+next_start,-190,date gt @pentecost,,,Saturday of the Seventh Week in Ordinary Time,gospel,Mark 10:13–16
+sun<=@baptism,50,date gt @baptism & date lt @ash_wednesday,I,,Monday of the Eighth Week in Ordinary Time,ot,Sirach 17:20–24
+sun<=@baptism,50,date gt @baptism & date lt @ash_wednesday,II,,Monday of the Eighth Week in Ordinary Time,ot,1 Peter 1:3–9
+sun<=@baptism,50,date gt @baptism & date lt @ash_wednesday,I,,Monday of the Eighth Week in Ordinary Time,psalm,"Psalm 32:1–2, 5–7"
+sun<=@baptism,50,date gt @baptism & date lt @ash_wednesday,II,,Monday of the Eighth Week in Ordinary Time,psalm,"Psalm 111:1–2, 5–6, 9, 10c"
+sun<=@baptism,50,date gt @baptism & date lt @ash_wednesday,,,Monday of the Eighth Week in Ordinary Time,gospel,Mark 10:17–27
+next_start,-188,date gt @pentecost,I,,Monday of the Eighth Week in Ordinary Time,ot,Sirach 17:20–24
+next_start,-188,date gt @pentecost,II,,Monday of the Eighth Week in Ordinary Time,ot,1 Peter 1:3–9
+next_start,-188,date gt @pentecost,I,,Monday of the Eighth Week in Ordinary Time,psalm,"Psalm 32:1–2, 5–7"
+next_start,-188,date gt @pentecost,II,,Monday of the Eighth Week in Ordinary Time,psalm,"Psalm 111:1–2, 5–6, 9, 10c"
+next_start,-188,date gt @pentecost,,,Monday of the Eighth Week in Ordinary Time,gospel,Mark 10:17–27
+sun<=@baptism,51,date gt @baptism & date lt @ash_wednesday,I,,Tuesday of the Eighth Week in Ordinary Time,ot,Sirach 35:1–12
+sun<=@baptism,51,date gt @baptism & date lt @ash_wednesday,II,,Tuesday of the Eighth Week in Ordinary Time,ot,1 Peter 1:10–16
+sun<=@baptism,51,date gt @baptism & date lt @ash_wednesday,I,,Tuesday of the Eighth Week in Ordinary Time,psalm,"Psalm 50:5–8, 14, 23"
+sun<=@baptism,51,date gt @baptism & date lt @ash_wednesday,II,,Tuesday of the Eighth Week in Ordinary Time,psalm,Psalm 98:1–4
+sun<=@baptism,51,date gt @baptism & date lt @ash_wednesday,,,Tuesday of the Eighth Week in Ordinary Time,gospel,Mark 10:28–31
+next_start,-187,date gt @pentecost,I,,Tuesday of the Eighth Week in Ordinary Time,ot,Sirach 35:1–12
+next_start,-187,date gt @pentecost,II,,Tuesday of the Eighth Week in Ordinary Time,ot,1 Peter 1:10–16
+next_start,-187,date gt @pentecost,I,,Tuesday of the Eighth Week in Ordinary Time,psalm,"Psalm 50:5–8, 14, 23"
+next_start,-187,date gt @pentecost,II,,Tuesday of the Eighth Week in Ordinary Time,psalm,Psalm 98:1–4
+next_start,-187,date gt @pentecost,,,Tuesday of the Eighth Week in Ordinary Time,gospel,Mark 10:28–31
+sun<=@baptism,52,date gt @baptism & date lt @ash_wednesday,I,,Wednesday of the Eighth Week in Ordinary Time,ot,"Sirach 36:1, 4–5a, 10–17"
+sun<=@baptism,52,date gt @baptism & date lt @ash_wednesday,II,,Wednesday of the Eighth Week in Ordinary Time,ot,1 Peter 1:18–25
+sun<=@baptism,52,date gt @baptism & date lt @ash_wednesday,I,,Wednesday of the Eighth Week in Ordinary Time,psalm,"Psalm 79:8–9, 11, 13"
+sun<=@baptism,52,date gt @baptism & date lt @ash_wednesday,II,,Wednesday of the Eighth Week in Ordinary Time,psalm,"Psalm 147:12–15, 19–20"
+sun<=@baptism,52,date gt @baptism & date lt @ash_wednesday,,,Wednesday of the Eighth Week in Ordinary Time,gospel,Mark 10:32–45
+next_start,-186,date gt @pentecost,I,,Wednesday of the Eighth Week in Ordinary Time,ot,"Sirach 36:1, 4–5a, 10–17"
+next_start,-186,date gt @pentecost,II,,Wednesday of the Eighth Week in Ordinary Time,ot,1 Peter 1:18–25
+next_start,-186,date gt @pentecost,I,,Wednesday of the Eighth Week in Ordinary Time,psalm,"Psalm 79:8–9, 11, 13"
+next_start,-186,date gt @pentecost,II,,Wednesday of the Eighth Week in Ordinary Time,psalm,"Psalm 147:12–15, 19–20"
+next_start,-186,date gt @pentecost,,,Wednesday of the Eighth Week in Ordinary Time,gospel,Mark 10:32–45
+sun<=@baptism,53,date gt @baptism & date lt @ash_wednesday,I,,Thursday of the Eighth Week in Ordinary Time,ot,Sirach 42:15–25
+sun<=@baptism,53,date gt @baptism & date lt @ash_wednesday,II,,Thursday of the Eighth Week in Ordinary Time,ot,"1 Peter 2:2–5, 9–12"
+sun<=@baptism,53,date gt @baptism & date lt @ash_wednesday,I,,Thursday of the Eighth Week in Ordinary Time,psalm,Psalm 33:2–9
+sun<=@baptism,53,date gt @baptism & date lt @ash_wednesday,II,,Thursday of the Eighth Week in Ordinary Time,psalm,Psalm 100:2–5
+sun<=@baptism,53,date gt @baptism & date lt @ash_wednesday,,,Thursday of the Eighth Week in Ordinary Time,gospel,Mark 10:46–52
+next_start,-185,date gt @pentecost,I,,Thursday of the Eighth Week in Ordinary Time,ot,Sirach 42:15–25
+next_start,-185,date gt @pentecost,II,,Thursday of the Eighth Week in Ordinary Time,ot,"1 Peter 2:2–5, 9–12"
+next_start,-185,date gt @pentecost,I,,Thursday of the Eighth Week in Ordinary Time,psalm,Psalm 33:2–9
+next_start,-185,date gt @pentecost,II,,Thursday of the Eighth Week in Ordinary Time,psalm,Psalm 100:2–5
+next_start,-185,date gt @pentecost,,,Thursday of the Eighth Week in Ordinary Time,gospel,Mark 10:46–52
+sun<=@baptism,54,date gt @baptism & date lt @ash_wednesday,I,,Friday of the Eighth Week in Ordinary Time,ot,"Sirach 44:1, 9–13"
+sun<=@baptism,54,date gt @baptism & date lt @ash_wednesday,II,,Friday of the Eighth Week in Ordinary Time,ot,1 Peter 4:7–13
+sun<=@baptism,54,date gt @baptism & date lt @ash_wednesday,I,,Friday of the Eighth Week in Ordinary Time,psalm,"Psalm 149:1b–6a, 9b"
+sun<=@baptism,54,date gt @baptism & date lt @ash_wednesday,II,,Friday of the Eighth Week in Ordinary Time,psalm,Psalm 96:10–13
+sun<=@baptism,54,date gt @baptism & date lt @ash_wednesday,,,Friday of the Eighth Week in Ordinary Time,gospel,Mark 11:11–26
+next_start,-184,date gt @pentecost,I,,Friday of the Eighth Week in Ordinary Time,ot,"Sirach 44:1, 9–13"
+next_start,-184,date gt @pentecost,II,,Friday of the Eighth Week in Ordinary Time,ot,1 Peter 4:7–13
+next_start,-184,date gt @pentecost,I,,Friday of the Eighth Week in Ordinary Time,psalm,"Psalm 149:1b–6a, 9b"
+next_start,-184,date gt @pentecost,II,,Friday of the Eighth Week in Ordinary Time,psalm,Psalm 96:10–13
+next_start,-184,date gt @pentecost,,,Friday of the Eighth Week in Ordinary Time,gospel,Mark 11:11–26
+sun<=@baptism,55,date gt @baptism & date lt @ash_wednesday,I,,Saturday of the Eighth Week in Ordinary Time,ot,Sirach 51:12cd–20
+sun<=@baptism,55,date gt @baptism & date lt @ash_wednesday,II,,Saturday of the Eighth Week in Ordinary Time,ot,"Jude 17, 20b–25"
+sun<=@baptism,55,date gt @baptism & date lt @ash_wednesday,I,,Saturday of the Eighth Week in Ordinary Time,psalm,Psalm 19:8–11
+sun<=@baptism,55,date gt @baptism & date lt @ash_wednesday,II,,Saturday of the Eighth Week in Ordinary Time,psalm,Psalm 63:2–6
+sun<=@baptism,55,date gt @baptism & date lt @ash_wednesday,,,Saturday of the Eighth Week in Ordinary Time,gospel,Mark 11:27–33
+next_start,-183,date gt @pentecost,I,,Saturday of the Eighth Week in Ordinary Time,ot,Sirach 51:12cd–20
+next_start,-183,date gt @pentecost,II,,Saturday of the Eighth Week in Ordinary Time,ot,"Jude 17, 20b–25"
+next_start,-183,date gt @pentecost,I,,Saturday of the Eighth Week in Ordinary Time,psalm,Psalm 19:8–11
+next_start,-183,date gt @pentecost,II,,Saturday of the Eighth Week in Ordinary Time,psalm,Psalm 63:2–6
+next_start,-183,date gt @pentecost,,,Saturday of the Eighth Week in Ordinary Time,gospel,Mark 11:27–33
+sun<=@baptism,57,date gt @baptism & date lt @ash_wednesday,I,,Monday of the Ninth Week in Ordinary Time,ot,Tobit 1:3; 2:1a–8
+sun<=@baptism,57,date gt @baptism & date lt @ash_wednesday,II,,Monday of the Ninth Week in Ordinary Time,ot,2 Peter 1:2–7
+sun<=@baptism,57,date gt @baptism & date lt @ash_wednesday,I,,Monday of the Ninth Week in Ordinary Time,psalm,"Psalm 112:1b–2, 3b–6"
+sun<=@baptism,57,date gt @baptism & date lt @ash_wednesday,II,,Monday of the Ninth Week in Ordinary Time,psalm,"Psalm 91:1–2, 14–16"
+sun<=@baptism,57,date gt @baptism & date lt @ash_wednesday,,,Monday of the Ninth Week in Ordinary Time,gospel,Mark 12:1–12
+next_start,-181,date gt @pentecost,I,,Monday of the Ninth Week in Ordinary Time,ot,Tobit 1:3; 2:1a–8
+next_start,-181,date gt @pentecost,II,,Monday of the Ninth Week in Ordinary Time,ot,2 Peter 1:2–7
+next_start,-181,date gt @pentecost,I,,Monday of the Ninth Week in Ordinary Time,psalm,"Psalm 112:1b–2, 3b–6"
+next_start,-181,date gt @pentecost,II,,Monday of the Ninth Week in Ordinary Time,psalm,"Psalm 91:1–2, 14–16"
+next_start,-181,date gt @pentecost,,,Monday of the Ninth Week in Ordinary Time,gospel,Mark 12:1–12
+sun<=@baptism,58,date gt @baptism & date lt @ash_wednesday,I,,Tuesday of the Ninth Week in Ordinary Time,ot,Tobit 2:9–14
+sun<=@baptism,58,date gt @baptism & date lt @ash_wednesday,II,,Tuesday of the Ninth Week in Ordinary Time,ot,"2 Peter 3:12–15a, 17–18"
+sun<=@baptism,58,date gt @baptism & date lt @ash_wednesday,I,,Tuesday of the Ninth Week in Ordinary Time,psalm,"Psalm 112:1–2, 7–9"
+sun<=@baptism,58,date gt @baptism & date lt @ash_wednesday,II,,Tuesday of the Ninth Week in Ordinary Time,psalm,"Psalm 90:2–4, 10, 14, 16"
+sun<=@baptism,58,date gt @baptism & date lt @ash_wednesday,,,Tuesday of the Ninth Week in Ordinary Time,gospel,Mark 12:13–17
+next_start,-180,date gt @pentecost,I,,Tuesday of the Ninth Week in Ordinary Time,ot,Tobit 2:9–14
+next_start,-180,date gt @pentecost,II,,Tuesday of the Ninth Week in Ordinary Time,ot,"2 Peter 3:12–15a, 17–18"
+next_start,-180,date gt @pentecost,I,,Tuesday of the Ninth Week in Ordinary Time,psalm,"Psalm 112:1–2, 7–9"
+next_start,-180,date gt @pentecost,II,,Tuesday of the Ninth Week in Ordinary Time,psalm,"Psalm 90:2–4, 10, 14, 16"
+next_start,-180,date gt @pentecost,,,Tuesday of the Ninth Week in Ordinary Time,gospel,Mark 12:13–17
+sun<=@baptism,59,date gt @baptism & date lt @ash_wednesday,I,,Wednesday of the Ninth Week in Ordinary Time,ot,"Tobit 3:1–11a, 16–17a"
+sun<=@baptism,59,date gt @baptism & date lt @ash_wednesday,II,,Wednesday of the Ninth Week in Ordinary Time,ot,"2 Timothy 1:1–3, 6–12"
+sun<=@baptism,59,date gt @baptism & date lt @ash_wednesday,I,,Wednesday of the Ninth Week in Ordinary Time,psalm,"Psalm 25:2–5ab, 6, 7bc, 8–9"
+sun<=@baptism,59,date gt @baptism & date lt @ash_wednesday,II,,Wednesday of the Ninth Week in Ordinary Time,psalm,Psalm 123:1b–2cdef
+sun<=@baptism,59,date gt @baptism & date lt @ash_wednesday,,,Wednesday of the Ninth Week in Ordinary Time,gospel,Mark 12:18–27
+next_start,-179,date gt @pentecost,I,,Wednesday of the Ninth Week in Ordinary Time,ot,"Tobit 3:1–11a, 16–17a"
+next_start,-179,date gt @pentecost,II,,Wednesday of the Ninth Week in Ordinary Time,ot,"2 Timothy 1:1–3, 6–12"
+next_start,-179,date gt @pentecost,I,,Wednesday of the Ninth Week in Ordinary Time,psalm,"Psalm 25:2–5ab, 6, 7bc, 8–9"
+next_start,-179,date gt @pentecost,II,,Wednesday of the Ninth Week in Ordinary Time,psalm,Psalm 123:1b–2cdef
+next_start,-179,date gt @pentecost,,,Wednesday of the Ninth Week in Ordinary Time,gospel,Mark 12:18–27
+sun<=@baptism,60,date gt @baptism & date lt @ash_wednesday,I,,Thursday of the Ninth Week in Ordinary Time,ot,"Tobit 6:10–11; 7:1bcde, 9–17; 8:4–9a"
+sun<=@baptism,60,date gt @baptism & date lt @ash_wednesday,II,,Thursday of the Ninth Week in Ordinary Time,ot,2 Timothy 2:8–15
+sun<=@baptism,60,date gt @baptism & date lt @ash_wednesday,I,,Thursday of the Ninth Week in Ordinary Time,psalm,Psalm 128:1–5
+sun<=@baptism,60,date gt @baptism & date lt @ash_wednesday,II,,Thursday of the Ninth Week in Ordinary Time,psalm,"Psalm 25:4–5ab, 8–10, 14"
+sun<=@baptism,60,date gt @baptism & date lt @ash_wednesday,,,Thursday of the Ninth Week in Ordinary Time,gospel,Mark 12:28b–34
+next_start,-178,date gt @pentecost,I,,Thursday of the Ninth Week in Ordinary Time,ot,"Tobit 6:10–11; 7:1bcde, 9–17; 8:4–9a"
+next_start,-178,date gt @pentecost,II,,Thursday of the Ninth Week in Ordinary Time,ot,2 Timothy 2:8–15
+next_start,-178,date gt @pentecost,I,,Thursday of the Ninth Week in Ordinary Time,psalm,Psalm 128:1–5
+next_start,-178,date gt @pentecost,II,,Thursday of the Ninth Week in Ordinary Time,psalm,"Psalm 25:4–5ab, 8–10, 14"
+next_start,-178,date gt @pentecost,,,Thursday of the Ninth Week in Ordinary Time,gospel,Mark 12:28b–34
+sun<=@baptism,61,date gt @baptism & date lt @ash_wednesday,I,,Friday of the Ninth Week in Ordinary Time,ot,Tobit 11:5–17
+sun<=@baptism,61,date gt @baptism & date lt @ash_wednesday,II,,Friday of the Ninth Week in Ordinary Time,ot,2 Timothy 3:10–17
+sun<=@baptism,61,date gt @baptism & date lt @ash_wednesday,I,,Friday of the Ninth Week in Ordinary Time,psalm,"Psalm 146:1b–2, 6c–10"
+sun<=@baptism,61,date gt @baptism & date lt @ash_wednesday,II,,Friday of the Ninth Week in Ordinary Time,psalm,"Psalm 119:157, 160–161, 165–166, 168"
+sun<=@baptism,61,date gt @baptism & date lt @ash_wednesday,,,Friday of the Ninth Week in Ordinary Time,gospel,Mark 12:35–37
+next_start,-177,date gt @pentecost,I,,Friday of the Ninth Week in Ordinary Time,ot,Tobit 11:5–17
+next_start,-177,date gt @pentecost,II,,Friday of the Ninth Week in Ordinary Time,ot,2 Timothy 3:10–17
+next_start,-177,date gt @pentecost,I,,Friday of the Ninth Week in Ordinary Time,psalm,"Psalm 146:1b–2, 6c–10"
+next_start,-177,date gt @pentecost,II,,Friday of the Ninth Week in Ordinary Time,psalm,"Psalm 119:157, 160–161, 165–166, 168"
+next_start,-177,date gt @pentecost,,,Friday of the Ninth Week in Ordinary Time,gospel,Mark 12:35–37
+sun<=@baptism,62,date gt @baptism & date lt @ash_wednesday,I,,Saturday of the Ninth Week in Ordinary Time,ot,"Tobit 12:1, 5–15, 20"
+sun<=@baptism,62,date gt @baptism & date lt @ash_wednesday,II,,Saturday of the Ninth Week in Ordinary Time,ot,2 Timothy 4:1–8
+sun<=@baptism,62,date gt @baptism & date lt @ash_wednesday,I,,Saturday of the Ninth Week in Ordinary Time,psalm,"Tobit 13:2, 6–7, 10"
+sun<=@baptism,62,date gt @baptism & date lt @ash_wednesday,II,,Saturday of the Ninth Week in Ordinary Time,psalm,"Psalm 71:8–9, 14–15ab, 16–17, 22"
+sun<=@baptism,62,date gt @baptism & date lt @ash_wednesday,,,Saturday of the Ninth Week in Ordinary Time,gospel,Mark 12:38–44
+next_start,-176,date gt @pentecost,I,,Saturday of the Ninth Week in Ordinary Time,ot,"Tobit 12:1, 5–15, 20"
+next_start,-176,date gt @pentecost,II,,Saturday of the Ninth Week in Ordinary Time,ot,2 Timothy 4:1–8
+next_start,-176,date gt @pentecost,I,,Saturday of the Ninth Week in Ordinary Time,psalm,"Tobit 13:2, 6–7, 10"
+next_start,-176,date gt @pentecost,II,,Saturday of the Ninth Week in Ordinary Time,psalm,"Psalm 71:8–9, 14–15ab, 16–17, 22"
+next_start,-176,date gt @pentecost,,,Saturday of the Ninth Week in Ordinary Time,gospel,Mark 12:38–44
+next_start,-174,date gt @pentecost,I,,Monday of the Tenth Week in Ordinary Time,ot,2 Corinthians 1:1–7
+next_start,-174,date gt @pentecost,II,,Monday of the Tenth Week in Ordinary Time,ot,1 Kings 17:1–6
+next_start,-174,date gt @pentecost,I,,Monday of the Tenth Week in Ordinary Time,psalm,Psalm 34:2–9
+next_start,-174,date gt @pentecost,II,,Monday of the Tenth Week in Ordinary Time,psalm,Psalm 121:1bc–8
+next_start,-174,date gt @pentecost,,,Monday of the Tenth Week in Ordinary Time,gospel,Matthew 5:1–12
+next_start,-173,date gt @pentecost,I,,Tuesday of the Tenth Week in Ordinary Time,ot,2 Corinthians 1:18–22
+next_start,-173,date gt @pentecost,II,,Tuesday of the Tenth Week in Ordinary Time,ot,1 Kings 17:7–16
+next_start,-173,date gt @pentecost,I,,Tuesday of the Tenth Week in Ordinary Time,psalm,"Psalm 119:129–133, 135"
+next_start,-173,date gt @pentecost,II,,Tuesday of the Tenth Week in Ordinary Time,psalm,"Psalm 4:2–5, 7b–8"
+next_start,-173,date gt @pentecost,,,Tuesday of the Tenth Week in Ordinary Time,gospel,Matthew 5:13–16
+next_start,-172,date gt @pentecost,I,,Wednesday of the Tenth Week in Ordinary Time,ot,2 Corinthians 3:4–11
+next_start,-172,date gt @pentecost,II,,Wednesday of the Tenth Week in Ordinary Time,ot,1 Kings 18:20–39
+next_start,-172,date gt @pentecost,I,,Wednesday of the Tenth Week in Ordinary Time,psalm,Psalm 99:5–9
+next_start,-172,date gt @pentecost,II,,Wednesday of the Tenth Week in Ordinary Time,psalm,"Psalm 16:1–2ab, 4–5ab, 8, 11"
+next_start,-172,date gt @pentecost,,,Wednesday of the Tenth Week in Ordinary Time,gospel,Matthew 5:17–19
+next_start,-171,date gt @pentecost,I,,Thursday of the Tenth Week in Ordinary Time,ot,"2 Corinthians 3:15–4:1, 3–6"
+next_start,-171,date gt @pentecost,II,,Thursday of the Tenth Week in Ordinary Time,ot,1 Kings 18:41–46
+next_start,-171,date gt @pentecost,I,,Thursday of the Tenth Week in Ordinary Time,psalm,"Psalm 85:9ab, 10–14"
+next_start,-171,date gt @pentecost,II,,Thursday of the Tenth Week in Ordinary Time,psalm,Psalm 65:10–13
+next_start,-171,date gt @pentecost,,,Thursday of the Tenth Week in Ordinary Time,gospel,Matthew 5:20–26
+next_start,-170,date gt @pentecost,I,,Friday of the Tenth Week in Ordinary Time,ot,2 Corinthians 4:7–15
+next_start,-170,date gt @pentecost,II,,Friday of the Tenth Week in Ordinary Time,ot,"1 Kings 19:9a, 11–16"
+next_start,-170,date gt @pentecost,I,,Friday of the Tenth Week in Ordinary Time,psalm,"Psalm 116:10–11, 15–18"
+next_start,-170,date gt @pentecost,II,,Friday of the Tenth Week in Ordinary Time,psalm,"Psalm 27:7–9abc, 13–14"
+next_start,-170,date gt @pentecost,,,Friday of the Tenth Week in Ordinary Time,gospel,Matthew 5:27–32
+next_start,-169,date gt @pentecost,I,,Saturday of the Tenth Week in Ordinary Time,ot,2 Corinthians 5:14–21
+next_start,-169,date gt @pentecost,II,,Saturday of the Tenth Week in Ordinary Time,ot,1 Kings 19:19–21
+next_start,-169,date gt @pentecost,I,,Saturday of the Tenth Week in Ordinary Time,psalm,"Psalm 103:1–4, 9–12"
+next_start,-169,date gt @pentecost,II,,Saturday of the Tenth Week in Ordinary Time,psalm,"Psalm 16:1b–2a, 5, 7–10"
+next_start,-169,date gt @pentecost,,,Saturday of the Tenth Week in Ordinary Time,gospel,Matthew 5:33–37
+next_start,-167,date gt @pentecost,I,,Monday of the Eleventh Week in Ordinary Time,ot,2 Corinthians 6:1–10
+next_start,-167,date gt @pentecost,II,,Monday of the Eleventh Week in Ordinary Time,ot,1 Kings 21:1–16
+next_start,-167,date gt @pentecost,I,,Monday of the Eleventh Week in Ordinary Time,psalm,"Psalm 98:1, 2b–4"
+next_start,-167,date gt @pentecost,II,,Monday of the Eleventh Week in Ordinary Time,psalm,"Psalm 5:2–3ab, 4b–7"
+next_start,-167,date gt @pentecost,,,Monday of the Eleventh Week in Ordinary Time,gospel,Matthew 5:38–42
+next_start,-166,date gt @pentecost,I,,Tuesday of the Eleventh Week in Ordinary Time,ot,2 Corinthians 8:1–9
+next_start,-166,date gt @pentecost,II,,Tuesday of the Eleventh Week in Ordinary Time,ot,1 Kings 21:17–29
+next_start,-166,date gt @pentecost,I,,Tuesday of the Eleventh Week in Ordinary Time,psalm,"Psalm 146:2, 5–9a"
+next_start,-166,date gt @pentecost,II,,Tuesday of the Eleventh Week in Ordinary Time,psalm,"Psalm 51:3–6ab, 11, 16"
+next_start,-166,date gt @pentecost,,,Tuesday of the Eleventh Week in Ordinary Time,gospel,Matthew 5:43–48
+next_start,-165,date gt @pentecost,I,,Wednesday of the Eleventh Week in Ordinary Time,ot,2 Corinthians 9:6–11
+next_start,-165,date gt @pentecost,II,,Wednesday of the Eleventh Week in Ordinary Time,ot,"2 Kings 2:1, 6–14"
+next_start,-165,date gt @pentecost,I,,Wednesday of the Eleventh Week in Ordinary Time,psalm,"Psalm 112:1bc–4, 9"
+next_start,-165,date gt @pentecost,II,,Wednesday of the Eleventh Week in Ordinary Time,psalm,"Psalm 31:20–21, 24"
+next_start,-165,date gt @pentecost,,,Wednesday of the Eleventh Week in Ordinary Time,gospel,"Matthew 6:1–6, 16–18"
+next_start,-164,date gt @pentecost,I,,Thursday of the Eleventh Week in Ordinary Time,ot,2 Corinthians 11:1–11
+next_start,-164,date gt @pentecost,II,,Thursday of the Eleventh Week in Ordinary Time,ot,Sirach 48:1–14
+next_start,-164,date gt @pentecost,I,,Thursday of the Eleventh Week in Ordinary Time,psalm,"Psalm 111:1b–4, 7–8"
+next_start,-164,date gt @pentecost,II,,Thursday of the Eleventh Week in Ordinary Time,psalm,Psalm 97:1–7
+next_start,-164,date gt @pentecost,,,Thursday of the Eleventh Week in Ordinary Time,gospel,Matthew 6:7–15
+next_start,-163,date gt @pentecost,I,,Friday of the Eleventh Week in Ordinary Time,ot,"2 Corinthians 11:18, 21–30"
+next_start,-163,date gt @pentecost,II,,Friday of the Eleventh Week in Ordinary Time,ot,"2 Kings 11:1–4, 9–18, 20"
+next_start,-163,date gt @pentecost,I,,Friday of the Eleventh Week in Ordinary Time,psalm,Psalm 34:2–7
+next_start,-163,date gt @pentecost,II,,Friday of the Eleventh Week in Ordinary Time,psalm,"Psalm 132:11–14, 17–18"
+next_start,-163,date gt @pentecost,,,Friday of the Eleventh Week in Ordinary Time,gospel,Matthew 6:19–23
+next_start,-162,date gt @pentecost,I,,Saturday of the Eleventh Week in Ordinary Time,ot,2 Corinthians 12:1–10
+next_start,-162,date gt @pentecost,II,,Saturday of the Eleventh Week in Ordinary Time,ot,2 Chronicles 24:17–25
+next_start,-162,date gt @pentecost,I,,Saturday of the Eleventh Week in Ordinary Time,psalm,Psalm 34:8–13
+next_start,-162,date gt @pentecost,II,,Saturday of the Eleventh Week in Ordinary Time,psalm,"Psalm 89:4–5, 29–34"
+next_start,-162,date gt @pentecost,,,Saturday of the Eleventh Week in Ordinary Time,gospel,Matthew 6:24–34
+next_start,-160,date gt @pentecost,I,,Monday of the Twelfth Week in Ordinary Time,ot,Genesis 12:1–9
+next_start,-160,date gt @pentecost,II,,Monday of the Twelfth Week in Ordinary Time,ot,"2 Kings 17:5–8, 13–15a, 18"
+next_start,-160,date gt @pentecost,I,,Monday of the Twelfth Week in Ordinary Time,psalm,"Psalm 33:12–13, 18–20, 22"
+next_start,-160,date gt @pentecost,II,,Monday of the Twelfth Week in Ordinary Time,psalm,"Psalm 60:3–5, 12–13"
+next_start,-160,date gt @pentecost,,,Monday of the Twelfth Week in Ordinary Time,gospel,Matthew 7:1–5
+next_start,-159,date gt @pentecost,I,,Tuesday of the Twelfth Week in Ordinary Time,ot,"Genesis 13:2, 5–18"
+next_start,-159,date gt @pentecost,II,,Tuesday of the Twelfth Week in Ordinary Time,ot,"2 Kings 19:9b–11, 14–21, 31–35a, 36"
+next_start,-159,date gt @pentecost,I,,Tuesday of the Twelfth Week in Ordinary Time,psalm,"Psalm 15:2–4ab, 5"
+next_start,-159,date gt @pentecost,II,,Tuesday of the Twelfth Week in Ordinary Time,psalm,"Psalm 48:2–4, 10–11"
+next_start,-159,date gt @pentecost,,,Tuesday of the Twelfth Week in Ordinary Time,gospel,"Matthew 7:6, 12–14"
+next_start,-158,date gt @pentecost,I,,Wednesday of the Twelfth Week in Ordinary Time,ot,"Genesis 15:1–12, 17–18"
+next_start,-158,date gt @pentecost,II,,Wednesday of the Twelfth Week in Ordinary Time,ot,2 Kings 22:8–13; 23:1–3
+next_start,-158,date gt @pentecost,I,,Wednesday of the Twelfth Week in Ordinary Time,psalm,"Psalm 105:1–4, 6–9"
+next_start,-158,date gt @pentecost,II,,Wednesday of the Twelfth Week in Ordinary Time,psalm,"Psalm 119:33–37, 40"
+next_start,-158,date gt @pentecost,,,Wednesday of the Twelfth Week in Ordinary Time,gospel,Matthew 7:15–20
+next_start,-157,date gt @pentecost,I,,Thursday of the Twelfth Week in Ordinary Time,ot,"Genesis 16:1–12, 15–16 or Genesis 16:6b–12, 15–16"
+next_start,-157,date gt @pentecost,II,,Thursday of the Twelfth Week in Ordinary Time,ot,2 Kings 24:8–17
+next_start,-157,date gt @pentecost,I,,Thursday of the Twelfth Week in Ordinary Time,psalm,Psalm 106:1b–5
+next_start,-157,date gt @pentecost,II,,Thursday of the Twelfth Week in Ordinary Time,psalm,"Psalm 79:1b–5, 8–9"
+next_start,-157,date gt @pentecost,,,Thursday of the Twelfth Week in Ordinary Time,gospel,Matthew 7:21–29
+next_start,-156,date gt @pentecost,I,,Friday of the Twelfth Week in Ordinary Time,ot,"Genesis 17:1, 9–10, 15–22"
+next_start,-156,date gt @pentecost,II,,Friday of the Twelfth Week in Ordinary Time,ot,2 Kings 25:1–12
+next_start,-156,date gt @pentecost,I,,Friday of the Twelfth Week in Ordinary Time,psalm,Psalm 128:1–5
+next_start,-156,date gt @pentecost,II,,Friday of the Twelfth Week in Ordinary Time,psalm,Psalm 137:1–6
+next_start,-156,date gt @pentecost,,,Friday of the Twelfth Week in Ordinary Time,gospel,Matthew 8:1–4
+next_start,-155,date gt @pentecost,I,,Saturday of the Twelfth Week in Ordinary Time,ot,Genesis 18:1–15
+next_start,-155,date gt @pentecost,II,,Saturday of the Twelfth Week in Ordinary Time,ot,"Lamentations 2:2, 10–14, 18–19"
+next_start,-155,date gt @pentecost,I,,Saturday of the Twelfth Week in Ordinary Time,psalm,"Luke 1:46–50, 53–55"
+next_start,-155,date gt @pentecost,II,,Saturday of the Twelfth Week in Ordinary Time,psalm,"Psalm 74:1b–7, 20–21"
+next_start,-155,date gt @pentecost,,,Saturday of the Twelfth Week in Ordinary Time,gospel,Matthew 8:5–17
+next_start,-153,date gt @pentecost,I,,Monday of the Thirteenth Week in Ordinary Time,ot,Genesis 18:16–33
+next_start,-153,date gt @pentecost,II,,Monday of the Thirteenth Week in Ordinary Time,ot,"Amos 2:6–10, 13–16"
+next_start,-153,date gt @pentecost,I,,Monday of the Thirteenth Week in Ordinary Time,psalm,"Psalm 103:1b–4, 8–11"
+next_start,-153,date gt @pentecost,II,,Monday of the Thirteenth Week in Ordinary Time,psalm,Psalm 50:16bc–23
+next_start,-153,date gt @pentecost,,,Monday of the Thirteenth Week in Ordinary Time,gospel,Matthew 8:18–22
+next_start,-152,date gt @pentecost,I,,Tuesday of the Thirteenth Week in Ordinary Time,ot,Genesis 19:15–29
+next_start,-152,date gt @pentecost,II,,Tuesday of the Thirteenth Week in Ordinary Time,ot,Amos 3:1–8; 4:11–12
+next_start,-152,date gt @pentecost,I,,Tuesday of the Thirteenth Week in Ordinary Time,psalm,"Psalm 26:2–3, 9–12"
+next_start,-152,date gt @pentecost,II,,Tuesday of the Thirteenth Week in Ordinary Time,psalm,Psalm 5:4b–8
+next_start,-152,date gt @pentecost,,,Tuesday of the Thirteenth Week in Ordinary Time,gospel,Matthew 8:23–27
+next_start,-151,date gt @pentecost,I,,Wednesday of the Thirteenth Week in Ordinary Time,ot,"Genesis 21:5, 8–20a"
+next_start,-151,date gt @pentecost,II,,Wednesday of the Thirteenth Week in Ordinary Time,ot,"Amos 5:14–15, 21–24"
+next_start,-151,date gt @pentecost,I,,Wednesday of the Thirteenth Week in Ordinary Time,psalm,"Psalm 34:7–8, 10–13"
+next_start,-151,date gt @pentecost,II,,Wednesday of the Thirteenth Week in Ordinary Time,psalm,"Psalm 50:7–13, 16bc–17"
+next_start,-151,date gt @pentecost,,,Wednesday of the Thirteenth Week in Ordinary Time,gospel,Matthew 8:28–34
+next_start,-150,date gt @pentecost,I,,Thursday of the Thirteenth Week in Ordinary Time,ot,Genesis 22:1b–19
+next_start,-150,date gt @pentecost,II,,Thursday of the Thirteenth Week in Ordinary Time,ot,Amos 7:10–17
+next_start,-150,date gt @pentecost,I,,Thursday of the Thirteenth Week in Ordinary Time,psalm,"Psalm 115:1–6, 8–9"
+next_start,-150,date gt @pentecost,II,,Thursday of the Thirteenth Week in Ordinary Time,psalm,Psalm 19:8–11
+next_start,-150,date gt @pentecost,,,Thursday of the Thirteenth Week in Ordinary Time,gospel,Matthew 9:1–8
+next_start,-149,date gt @pentecost,I,,Friday of the Thirteenth Week in Ordinary Time,ot,"Genesis 23:1–4, 19; 24:1–8, 62–67"
+next_start,-149,date gt @pentecost,II,,Friday of the Thirteenth Week in Ordinary Time,ot,"Amos 8:4–6, 9–12"
+next_start,-149,date gt @pentecost,I,,Friday of the Thirteenth Week in Ordinary Time,psalm,Psalm 106:1b–5
+next_start,-149,date gt @pentecost,II,,Friday of the Thirteenth Week in Ordinary Time,psalm,"Psalm 119:2, 10, 20, 30, 40, 131"
+next_start,-149,date gt @pentecost,,,Friday of the Thirteenth Week in Ordinary Time,gospel,Matthew 9:9–13
+next_start,-148,date gt @pentecost,I,,Saturday of the Thirteenth Week in Ordinary Time,ot,"Genesis 27:1–5, 15–29"
+next_start,-148,date gt @pentecost,II,,Saturday of the Thirteenth Week in Ordinary Time,ot,Amos 9:11–15
+next_start,-148,date gt @pentecost,I,,Saturday of the Thirteenth Week in Ordinary Time,psalm,Psalm 135:1b–6
+next_start,-148,date gt @pentecost,II,,Saturday of the Thirteenth Week in Ordinary Time,psalm,"Psalm 85:9ab, 10–14"
+next_start,-148,date gt @pentecost,,,Saturday of the Thirteenth Week in Ordinary Time,gospel,Matthew 9:14–17
+next_start,-146,date gt @pentecost,I,,Monday of the Fourteenth Week in Ordinary Time,ot,Genesis 28:10–22a
+next_start,-146,date gt @pentecost,II,,Monday of the Fourteenth Week in Ordinary Time,ot,"Hosea 2:16, 17c–18, 21–22"
+next_start,-146,date gt @pentecost,I,,Monday of the Fourteenth Week in Ordinary Time,psalm,"Psalm 91:1–4, 14–15ab"
+next_start,-146,date gt @pentecost,II,,Monday of the Fourteenth Week in Ordinary Time,psalm,Psalm 145:2–9
+next_start,-146,date gt @pentecost,,,Monday of the Fourteenth Week in Ordinary Time,gospel,Matthew 9:18–26
+next_start,-145,date gt @pentecost,I,,Tuesday of the Fourteenth Week in Ordinary Time,ot,Genesis 32:23–33
+next_start,-145,date gt @pentecost,II,,Tuesday of the Fourteenth Week in Ordinary Time,ot,"Hosea 8:4–7, 11–13"
+next_start,-145,date gt @pentecost,I,,Tuesday of the Fourteenth Week in Ordinary Time,psalm,"Psalm 17:1b, 2–3, 6–7ab, 8b, 15"
+next_start,-145,date gt @pentecost,II,,Tuesday of the Fourteenth Week in Ordinary Time,psalm,"Psalm 115:3–7ab, 8–10"
+next_start,-145,date gt @pentecost,,,Tuesday of the Fourteenth Week in Ordinary Time,gospel,Matthew 9:32–38
+next_start,-144,date gt @pentecost,I,,Wednesday of the Fourteenth Week in Ordinary Time,ot,"Genesis 41:55–57; 42:5–7a, 17–24a"
+next_start,-144,date gt @pentecost,II,,Wednesday of the Fourteenth Week in Ordinary Time,ot,"Hosea 10:1–3, 7–8, 12"
+next_start,-144,date gt @pentecost,I,,Wednesday of the Fourteenth Week in Ordinary Time,psalm,"Psalm 33:2–3, 10–11, 18–19"
+next_start,-144,date gt @pentecost,II,,Wednesday of the Fourteenth Week in Ordinary Time,psalm,Psalm 105:2–7
+next_start,-144,date gt @pentecost,,,Wednesday of the Fourteenth Week in Ordinary Time,gospel,Matthew 10:1–7
+next_start,-143,date gt @pentecost,I,,Thursday of the Fourteenth Week in Ordinary Time,ot,"Genesis 44:18–21, 23b–29; 45:1–5"
+next_start,-143,date gt @pentecost,II,,Thursday of the Fourteenth Week in Ordinary Time,ot,"Hosea 11:1–4, 8e–9"
+next_start,-143,date gt @pentecost,I,,Thursday of the Fourteenth Week in Ordinary Time,psalm,Psalm 105:16–21
+next_start,-143,date gt @pentecost,II,,Thursday of the Fourteenth Week in Ordinary Time,psalm,"Psalm 80:2ac, 3b, 15–16"
+next_start,-143,date gt @pentecost,,,Thursday of the Fourteenth Week in Ordinary Time,gospel,Matthew 10:7–15
+next_start,-142,date gt @pentecost,I,,Friday of the Fourteenth Week in Ordinary Time,ot,"Genesis 46:1–7, 28–30"
+next_start,-142,date gt @pentecost,II,,Friday of the Fourteenth Week in Ordinary Time,ot,Hosea 14:2–10
+next_start,-142,date gt @pentecost,I,,Friday of the Fourteenth Week in Ordinary Time,psalm,"Psalm 37:3–4, 18–19, 27–28, 39–40"
+next_start,-142,date gt @pentecost,II,,Friday of the Fourteenth Week in Ordinary Time,psalm,"Psalm 51:3–4, 8–9, 12–14, 17"
+next_start,-142,date gt @pentecost,,,Friday of the Fourteenth Week in Ordinary Time,gospel,Matthew 10:16–23
+next_start,-141,date gt @pentecost,I,,Saturday of the Fourteenth Week in Ordinary Time,ot,Genesis 49:29–32; 50:15–26a
+next_start,-141,date gt @pentecost,II,,Saturday of the Fourteenth Week in Ordinary Time,ot,Isaiah 6:1–8
+next_start,-141,date gt @pentecost,I,,Saturday of the Fourteenth Week in Ordinary Time,psalm,"Psalm 105:1–4, 6–7"
+next_start,-141,date gt @pentecost,II,,Saturday of the Fourteenth Week in Ordinary Time,psalm,"Psalm 93:1–2, 5"
+next_start,-141,date gt @pentecost,,,Saturday of the Fourteenth Week in Ordinary Time,gospel,Matthew 10:24–33
+next_start,-139,date gt @pentecost,I,,Monday of the Fifteenth Week in Ordinary Time,ot,"Exodus 1:8–14, 22"
+next_start,-139,date gt @pentecost,II,,Monday of the Fifteenth Week in Ordinary Time,ot,Isaiah 1:10–17
+next_start,-139,date gt @pentecost,I,,Monday of the Fifteenth Week in Ordinary Time,psalm,Psalm 124:1b–8
+next_start,-139,date gt @pentecost,II,,Monday of the Fifteenth Week in Ordinary Time,psalm,"Psalm 50:8–9, 16bc–17, 21, 23"
+next_start,-139,date gt @pentecost,,,Monday of the Fifteenth Week in Ordinary Time,gospel,Matthew 10:34–11:1
+next_start,-138,date gt @pentecost,I,,Tuesday of the Fifteenth Week in Ordinary Time,ot,Exodus 2:1–15a
+next_start,-138,date gt @pentecost,II,,Tuesday of the Fifteenth Week in Ordinary Time,ot,Isaiah 7:1–9
+next_start,-138,date gt @pentecost,I,,Tuesday of the Fifteenth Week in Ordinary Time,psalm,"Psalm 69:3, 14, 30–31, 33–34"
+next_start,-138,date gt @pentecost,II,,Tuesday of the Fifteenth Week in Ordinary Time,psalm,Psalm 48:2–8
+next_start,-138,date gt @pentecost,,,Tuesday of the Fifteenth Week in Ordinary Time,gospel,Matthew 11:20–24
+next_start,-137,date gt @pentecost,I,,Wednesday of the Fifteenth Week in Ordinary Time,ot,"Exodus 3:1–6, 9–12"
+next_start,-137,date gt @pentecost,II,,Wednesday of the Fifteenth Week in Ordinary Time,ot,"Isaiah 10:5–7, 13b–16"
+next_start,-137,date gt @pentecost,I,,Wednesday of the Fifteenth Week in Ordinary Time,psalm,"Psalm 103:1b–4, 6–7"
+next_start,-137,date gt @pentecost,II,,Wednesday of the Fifteenth Week in Ordinary Time,psalm,"Psalm 94:5–10, 14–15"
+next_start,-137,date gt @pentecost,,,Wednesday of the Fifteenth Week in Ordinary Time,gospel,Matthew 11:25–27
+next_start,-136,date gt @pentecost,I,,Thursday of the Fifteenth Week in Ordinary Time,ot,Exodus 3:13–20
+next_start,-136,date gt @pentecost,II,,Thursday of the Fifteenth Week in Ordinary Time,ot,"Isaiah 26:7–9, 12, 16–19"
+next_start,-136,date gt @pentecost,I,,Thursday of the Fifteenth Week in Ordinary Time,psalm,"Psalm 105:1, 5, 8–9, 24–27"
+next_start,-136,date gt @pentecost,II,,Thursday of the Fifteenth Week in Ordinary Time,psalm,"Psalm 102:13–14ab, 15–21"
+next_start,-136,date gt @pentecost,,,Thursday of the Fifteenth Week in Ordinary Time,gospel,Matthew 11:28–30
+next_start,-135,date gt @pentecost,I,,Friday of the Fifteenth Week in Ordinary Time,ot,Exodus 11:10–12:14
+next_start,-135,date gt @pentecost,II,,Friday of the Fifteenth Week in Ordinary Time,ot,"Isaiah 38:1–6, 21–22, 7–8"
+next_start,-135,date gt @pentecost,I,,Friday of the Fifteenth Week in Ordinary Time,psalm,"Psalm 116:12–13, 15, 16bc, 17–18"
+next_start,-135,date gt @pentecost,II,,Friday of the Fifteenth Week in Ordinary Time,psalm,"Isaiah 38:10–12abcd, 16"
+next_start,-135,date gt @pentecost,,,Friday of the Fifteenth Week in Ordinary Time,gospel,Matthew 12:1–8
+next_start,-134,date gt @pentecost,I,,Saturday of the Fifteenth Week in Ordinary Time,ot,Exodus 12:37–42
+next_start,-134,date gt @pentecost,II,,Saturday of the Fifteenth Week in Ordinary Time,ot,Micah 2:1–5
+next_start,-134,date gt @pentecost,I,,Saturday of the Fifteenth Week in Ordinary Time,psalm,"Psalm 136:1, 23–24, 10–15"
+next_start,-134,date gt @pentecost,II,,Saturday of the Fifteenth Week in Ordinary Time,psalm,"Psalm 10:1–4, 7–8, 14"
+next_start,-134,date gt @pentecost,,,Saturday of the Fifteenth Week in Ordinary Time,gospel,Matthew 12:14–21
+next_start,-132,date gt @pentecost,I,,Monday of the Sixteenth Week in Ordinary Time,ot,Exodus 14:5–18
+next_start,-132,date gt @pentecost,II,,Monday of the Sixteenth Week in Ordinary Time,ot,"Micah 6:1–4, 6–8"
+next_start,-132,date gt @pentecost,I,,Monday of the Sixteenth Week in Ordinary Time,psalm,Exodus 15:1bc–6
+next_start,-132,date gt @pentecost,II,,Monday of the Sixteenth Week in Ordinary Time,psalm,"Psalm 50:5–6, 8–9, 16bc–17, 21, 23"
+next_start,-132,date gt @pentecost,,,Monday of the Sixteenth Week in Ordinary Time,gospel,Matthew 12:38–42
+next_start,-131,date gt @pentecost,I,,Tuesday of the Sixteenth Week in Ordinary Time,ot,Exodus 14:21–15:1
+next_start,-131,date gt @pentecost,II,,Tuesday of the Sixteenth Week in Ordinary Time,ot,"Micah 7:14–15, 18–20"
+next_start,-131,date gt @pentecost,I,,Tuesday of the Sixteenth Week in Ordinary Time,psalm,"Exodus 15:8–10, 12, 17"
+next_start,-131,date gt @pentecost,II,,Tuesday of the Sixteenth Week in Ordinary Time,psalm,Psalm 85:2–8
+next_start,-131,date gt @pentecost,,,Tuesday of the Sixteenth Week in Ordinary Time,gospel,Matthew 12:46–50
+next_start,-130,date gt @pentecost,I,,Wednesday of the Sixteenth Week in Ordinary Time,ot,"Exodus 16:1–5, 9–15"
+next_start,-130,date gt @pentecost,II,,Wednesday of the Sixteenth Week in Ordinary Time,ot,"Jeremiah 1:1, 4–10"
+next_start,-130,date gt @pentecost,I,,Wednesday of the Sixteenth Week in Ordinary Time,psalm,"Psalm 78:18–19, 23–28"
+next_start,-130,date gt @pentecost,II,,Wednesday of the Sixteenth Week in Ordinary Time,psalm,"Psalm 71:1–4a, 5–6ab, 15, 17"
+next_start,-130,date gt @pentecost,,,Wednesday of the Sixteenth Week in Ordinary Time,gospel,Matthew 13:1–9
+next_start,-129,date gt @pentecost,I,,Thursday of the Sixteenth Week in Ordinary Time,ot,"Exodus 19:1–2, 9–11, 16–20b"
+next_start,-129,date gt @pentecost,II,,Thursday of the Sixteenth Week in Ordinary Time,ot,"Jeremiah 2:1–3, 7–8, 12–13"
+next_start,-129,date gt @pentecost,I,,Thursday of the Sixteenth Week in Ordinary Time,psalm,Daniel 3:52–56
+next_start,-129,date gt @pentecost,II,,Thursday of the Sixteenth Week in Ordinary Time,psalm,"Psalm 36:6–7ab, 8–11"
+next_start,-129,date gt @pentecost,,,Thursday of the Sixteenth Week in Ordinary Time,gospel,Matthew 13:10–17
+next_start,-128,date gt @pentecost,I,,Friday of the Sixteenth Week in Ordinary Time,ot,Exodus 20:1–17
+next_start,-128,date gt @pentecost,II,,Friday of the Sixteenth Week in Ordinary Time,ot,Jeremiah 3:14–17
+next_start,-128,date gt @pentecost,I,,Friday of the Sixteenth Week in Ordinary Time,psalm,Psalm 19:8–11
+next_start,-128,date gt @pentecost,II,,Friday of the Sixteenth Week in Ordinary Time,psalm,"Jeremiah 31:10–12abcd, 13"
+next_start,-128,date gt @pentecost,,,Friday of the Sixteenth Week in Ordinary Time,gospel,Matthew 13:18–23
+next_start,-127,date gt @pentecost,I,,Saturday of the Sixteenth Week in Ordinary Time,ot,Exodus 24:3–8
+next_start,-127,date gt @pentecost,II,,Saturday of the Sixteenth Week in Ordinary Time,ot,Jeremiah 7:1–11
+next_start,-127,date gt @pentecost,I,,Saturday of the Sixteenth Week in Ordinary Time,psalm,"Psalm 50:1b–2, 5–6, 14–15"
+next_start,-127,date gt @pentecost,II,,Saturday of the Sixteenth Week in Ordinary Time,psalm,"Psalm 84:3–6a, 8a, 11"
+next_start,-127,date gt @pentecost,,,Saturday of the Sixteenth Week in Ordinary Time,gospel,Matthew 13:24–30
+next_start,-125,date gt @pentecost,I,,Monday of the Seventeenth Week in Ordinary Time,ot,"Exodus 32:15–24, 30–34"
+next_start,-125,date gt @pentecost,II,,Monday of the Seventeenth Week in Ordinary Time,ot,Jeremiah 13:1–11
+next_start,-125,date gt @pentecost,I,,Monday of the Seventeenth Week in Ordinary Time,psalm,Psalm 106:19–23
+next_start,-125,date gt @pentecost,II,,Monday of the Seventeenth Week in Ordinary Time,psalm,Deuteronomy 32:18–21
+next_start,-125,date gt @pentecost,,,Monday of the Seventeenth Week in Ordinary Time,gospel,Matthew 13:31–35
+next_start,-124,date gt @pentecost,I,,Tuesday of the Seventeenth Week in Ordinary Time,ot,"Exodus 33:7–11; 34:5b–9, 28"
+next_start,-124,date gt @pentecost,II,,Tuesday of the Seventeenth Week in Ordinary Time,ot,Jeremiah 14:17–22
+next_start,-124,date gt @pentecost,I,,Tuesday of the Seventeenth Week in Ordinary Time,psalm,Psalm 103:6–13
+next_start,-124,date gt @pentecost,II,,Tuesday of the Seventeenth Week in Ordinary Time,psalm,"Psalm 79:8–9, 11, 13"
+next_start,-124,date gt @pentecost,,,Tuesday of the Seventeenth Week in Ordinary Time,gospel,Matthew 13:36–43
+next_start,-123,date gt @pentecost,I,,Wednesday of the Seventeenth Week in Ordinary Time,ot,Exodus 34:29–35
+next_start,-123,date gt @pentecost,II,,Wednesday of the Seventeenth Week in Ordinary Time,ot,"Jeremiah 15:10, 16–21"
+next_start,-123,date gt @pentecost,I,,Wednesday of the Seventeenth Week in Ordinary Time,psalm,"Psalm 99:5–7, 9"
+next_start,-123,date gt @pentecost,II,,Wednesday of the Seventeenth Week in Ordinary Time,psalm,"Psalm 59:2–4, 10–11, 17–18"
+next_start,-123,date gt @pentecost,,,Wednesday of the Seventeenth Week in Ordinary Time,gospel,Matthew 13:44–46
+next_start,-122,date gt @pentecost,I,,Thursday of the Seventeenth Week in Ordinary Time,ot,"Exodus 40:16–21, 34–38"
+next_start,-122,date gt @pentecost,II,,Thursday of the Seventeenth Week in Ordinary Time,ot,Jeremiah 18:1–6
+next_start,-122,date gt @pentecost,I,,Thursday of the Seventeenth Week in Ordinary Time,psalm,"Psalm 84:3–6a, 8a, 11"
+next_start,-122,date gt @pentecost,II,,Thursday of the Seventeenth Week in Ordinary Time,psalm,Psalm 146:1b–6ab
+next_start,-122,date gt @pentecost,,,Thursday of the Seventeenth Week in Ordinary Time,gospel,Matthew 13:47–53
+next_start,-121,date gt @pentecost,I,,Friday of the Seventeenth Week in Ordinary Time,ot,"Leviticus 23:1, 4–11, 15–16, 27, 34b–37"
+next_start,-121,date gt @pentecost,II,,Friday of the Seventeenth Week in Ordinary Time,ot,Jeremiah 26:1–9
+next_start,-121,date gt @pentecost,I,,Friday of the Seventeenth Week in Ordinary Time,psalm,"Psalm 81:3–6ab, 10–11ab"
+next_start,-121,date gt @pentecost,II,,Friday of the Seventeenth Week in Ordinary Time,psalm,"Psalm 69:5, 8–10, 14"
+next_start,-121,date gt @pentecost,,,Friday of the Seventeenth Week in Ordinary Time,gospel,Matthew 13:54–58
+next_start,-120,date gt @pentecost,I,,Saturday of the Seventeenth Week in Ordinary Time,ot,"Leviticus 25:1, 8–17"
+next_start,-120,date gt @pentecost,II,,Saturday of the Seventeenth Week in Ordinary Time,ot,"Jeremiah 26:11–16, 24"
+next_start,-120,date gt @pentecost,I,,Saturday of the Seventeenth Week in Ordinary Time,psalm,"Psalm 67:2–3, 5, 7–8"
+next_start,-120,date gt @pentecost,II,,Saturday of the Seventeenth Week in Ordinary Time,psalm,"Psalm 69:15–16, 30–31, 33–34"
+next_start,-120,date gt @pentecost,,,Saturday of the Seventeenth Week in Ordinary Time,gospel,Matthew 14:1–12
+next_start,-118,date gt @pentecost,I,,Monday of the Eighteenth Week in Ordinary Time,ot,Numbers 11:4b–15
+next_start,-118,date gt @pentecost,II,,Monday of the Eighteenth Week in Ordinary Time,ot,Jeremiah 28:1–17
+next_start,-118,date gt @pentecost,I,,Monday of the Eighteenth Week in Ordinary Time,psalm,Psalm 81:12–17
+next_start,-118,date gt @pentecost,II,,Monday of the Eighteenth Week in Ordinary Time,psalm,"Psalm 119:29, 43, 79–80, 95, 102"
+next_start,-118,date gt @pentecost,A,,Monday of the Eighteenth Week in Ordinary Time,gospel,Matthew 14:22–36
+next_start,-118,date gt @pentecost,B,,Monday of the Eighteenth Week in Ordinary Time,gospel,Matthew 14:13–21
+next_start,-118,date gt @pentecost,C,,Monday of the Eighteenth Week in Ordinary Time,gospel,Matthew 14:13–21
+next_start,-117,date gt @pentecost,I,,Tuesday of the Eighteenth Week in Ordinary Time,ot,Numbers 12:1–13
+next_start,-117,date gt @pentecost,II,,Tuesday of the Eighteenth Week in Ordinary Time,ot,"Jeremiah 30:1–2, 12–15, 18–22"
+next_start,-117,date gt @pentecost,I,,Tuesday of the Eighteenth Week in Ordinary Time,psalm,"Psalm 51:3–7, 12–13"
+next_start,-117,date gt @pentecost,II,,Tuesday of the Eighteenth Week in Ordinary Time,psalm,"Psalm 102:16–21, 29, 22–23"
+next_start,-117,date gt @pentecost,A,,Tuesday of the Eighteenth Week in Ordinary Time,gospel,"Matthew 15:1–2, 10–14"
+next_start,-117,date gt @pentecost,B,,Tuesday of the Eighteenth Week in Ordinary Time,gospel,Matthew 14:22–36
+next_start,-117,date gt @pentecost,C,,Tuesday of the Eighteenth Week in Ordinary Time,gospel,Matthew 14:22–36
+next_start,-116,date gt @pentecost,I,,Wednesday of the Eighteenth Week in Ordinary Time,ot,"Numbers 13:1–2, 25–14:1, 26a–29a, 34–35"
+next_start,-116,date gt @pentecost,II,,Wednesday of the Eighteenth Week in Ordinary Time,ot,Jeremiah 31:1–7
+next_start,-116,date gt @pentecost,I,,Wednesday of the Eighteenth Week in Ordinary Time,psalm,"Psalm 106:6–7ab, 13–14, 21–23"
+next_start,-116,date gt @pentecost,II,,Wednesday of the Eighteenth Week in Ordinary Time,psalm,"Jeremiah 31:10–12ab, 13"
+next_start,-116,date gt @pentecost,,,Wednesday of the Eighteenth Week in Ordinary Time,gospel,Matthew 15:21–28
+next_start,-115,date gt @pentecost,I,,Thursday of the Eighteenth Week in Ordinary Time,ot,Numbers 20:1–13
+next_start,-115,date gt @pentecost,II,,Thursday of the Eighteenth Week in Ordinary Time,ot,Jeremiah 31:31–34
+next_start,-115,date gt @pentecost,I,,Thursday of the Eighteenth Week in Ordinary Time,psalm,"Psalm 95:1–2, 6–9"
+next_start,-115,date gt @pentecost,II,,Thursday of the Eighteenth Week in Ordinary Time,psalm,"Psalm 51:12–15, 18–19"
+next_start,-115,date gt @pentecost,,,Thursday of the Eighteenth Week in Ordinary Time,gospel,Matthew 16:13–23
+next_start,-114,date gt @pentecost,I,,Friday of the Eighteenth Week in Ordinary Time,ot,Deuteronomy 4:32–40
+next_start,-114,date gt @pentecost,II,,Friday of the Eighteenth Week in Ordinary Time,ot,"Nahum 2:1, 3; 3:1–3, 6–7"
+next_start,-114,date gt @pentecost,I,,Friday of the Eighteenth Week in Ordinary Time,psalm,"Psalm 77:12–16, 21"
+next_start,-114,date gt @pentecost,II,,Friday of the Eighteenth Week in Ordinary Time,psalm,"Deuteronomy 32:35cd–36ab, 39abcd, 41"
+next_start,-114,date gt @pentecost,,,Friday of the Eighteenth Week in Ordinary Time,gospel,Matthew 16:24–28
+next_start,-113,date gt @pentecost,I,,Saturday of the Eighteenth Week in Ordinary Time,ot,Deuteronomy 6:4–13
+next_start,-113,date gt @pentecost,II,,Saturday of the Eighteenth Week in Ordinary Time,ot,Habakkuk 1:12–2:4
+next_start,-113,date gt @pentecost,I,,Saturday of the Eighteenth Week in Ordinary Time,psalm,"Psalm 18:2–4, 47, 51"
+next_start,-113,date gt @pentecost,II,,Saturday of the Eighteenth Week in Ordinary Time,psalm,Psalm 9:8–13
+next_start,-113,date gt @pentecost,,,Saturday of the Eighteenth Week in Ordinary Time,gospel,Matthew 17:14–20
+next_start,-111,date gt @pentecost,I,,Monday of the Nineteenth Week in Ordinary Time,ot,Deuteronomy 10:12–22
+next_start,-111,date gt @pentecost,II,,Monday of the Nineteenth Week in Ordinary Time,ot,"Ezekiel 1:2–5, 24–28c"
+next_start,-111,date gt @pentecost,I,,Monday of the Nineteenth Week in Ordinary Time,psalm,"Psalm 147:12–15, 19–20"
+next_start,-111,date gt @pentecost,II,,Monday of the Nineteenth Week in Ordinary Time,psalm,"Psalm 148:1–2, 11–14"
+next_start,-111,date gt @pentecost,,,Monday of the Nineteenth Week in Ordinary Time,gospel,Matthew 17:22–27
+next_start,-110,date gt @pentecost,I,,Tuesday of the Nineteenth Week in Ordinary Time,ot,Deuteronomy 31:1–8
+next_start,-110,date gt @pentecost,II,,Tuesday of the Nineteenth Week in Ordinary Time,ot,Ezekiel 2:8–3:4
+next_start,-110,date gt @pentecost,I,,Tuesday of the Nineteenth Week in Ordinary Time,psalm,"Deuteronomy 32:3–4ab, 7–9, 12"
+next_start,-110,date gt @pentecost,II,,Tuesday of the Nineteenth Week in Ordinary Time,psalm,"Psalm 119:14, 24, 72, 103, 111, 131"
+next_start,-110,date gt @pentecost,,,Tuesday of the Nineteenth Week in Ordinary Time,gospel,"Matthew 18:1–5, 10, 12–14"
+next_start,-109,date gt @pentecost,I,,Wednesday of the Nineteenth Week in Ordinary Time,ot,Deuteronomy 34:1–12
+next_start,-109,date gt @pentecost,II,,Wednesday of the Nineteenth Week in Ordinary Time,ot,Ezekiel 9:1–7; 10:18–22
+next_start,-109,date gt @pentecost,I,,Wednesday of the Nineteenth Week in Ordinary Time,psalm,"Psalm 66:1–3a, 5, 8, 16–17"
+next_start,-109,date gt @pentecost,II,,Wednesday of the Nineteenth Week in Ordinary Time,psalm,Psalm 113:1–6
+next_start,-109,date gt @pentecost,,,Wednesday of the Nineteenth Week in Ordinary Time,gospel,Matthew 18:15–20
+next_start,-108,date gt @pentecost,I,,Thursday of the Nineteenth Week in Ordinary Time,ot,"Joshua 3:7–10a, 11, 13–17"
+next_start,-108,date gt @pentecost,II,,Thursday of the Nineteenth Week in Ordinary Time,ot,Ezekiel 12:1–12
+next_start,-108,date gt @pentecost,I,,Thursday of the Nineteenth Week in Ordinary Time,psalm,Psalm 114:1–6
+next_start,-108,date gt @pentecost,II,,Thursday of the Nineteenth Week in Ordinary Time,psalm,"Psalm 78:56–59, 61–62"
+next_start,-108,date gt @pentecost,,,Thursday of the Nineteenth Week in Ordinary Time,gospel,Matthew 18:21–19:1
+next_start,-107,date gt @pentecost,I,,Friday of the Nineteenth Week in Ordinary Time,ot,Joshua 24:1–13
+next_start,-107,date gt @pentecost,II,,Friday of the Nineteenth Week in Ordinary Time,ot,"Ezekiel 16:1–15, 60, 63 or Ezekiel 16:59–63"
+next_start,-107,date gt @pentecost,I,,Friday of the Nineteenth Week in Ordinary Time,psalm,"Psalm 136:1–3, 16–18, 21–22, 24"
+next_start,-107,date gt @pentecost,II,,Friday of the Nineteenth Week in Ordinary Time,psalm,"Isaiah 12:2–3, 4bcd, 5–6"
+next_start,-107,date gt @pentecost,,,Friday of the Nineteenth Week in Ordinary Time,gospel,Matthew 19:3–12
+next_start,-106,date gt @pentecost,I,,Saturday of the Nineteenth Week in Ordinary Time,ot,Joshua 24:14–29
+next_start,-106,date gt @pentecost,II,,Saturday of the Nineteenth Week in Ordinary Time,ot,"Ezekiel 18:1–10, 13b, 30–32"
+next_start,-106,date gt @pentecost,I,,Saturday of the Nineteenth Week in Ordinary Time,psalm,"Psalm 16:1–2a, 5, 7–8, 11"
+next_start,-106,date gt @pentecost,II,,Saturday of the Nineteenth Week in Ordinary Time,psalm,"Psalm 51:12–15, 18–19"
+next_start,-106,date gt @pentecost,,,Saturday of the Nineteenth Week in Ordinary Time,gospel,Matthew 19:13–15
+next_start,-104,date gt @pentecost,I,,Monday of the Twentieth Week in Ordinary Time,ot,Judges 2:11–19
+next_start,-104,date gt @pentecost,II,,Monday of the Twentieth Week in Ordinary Time,ot,Ezekiel 24:15–23
+next_start,-104,date gt @pentecost,I,,Monday of the Twentieth Week in Ordinary Time,psalm,"Psalm 106:34–37, 39–40, 43ab, 44"
+next_start,-104,date gt @pentecost,II,,Monday of the Twentieth Week in Ordinary Time,psalm,Deuteronomy 32:18–21
+next_start,-104,date gt @pentecost,,,Monday of the Twentieth Week in Ordinary Time,gospel,Matthew 19:16–22
+next_start,-103,date gt @pentecost,I,,Tuesday of the Twentieth Week in Ordinary Time,ot,Judges 6:11–24a
+next_start,-103,date gt @pentecost,II,,Tuesday of the Twentieth Week in Ordinary Time,ot,Ezekiel 28:1–10
+next_start,-103,date gt @pentecost,I,,Tuesday of the Twentieth Week in Ordinary Time,psalm,"Psalm 85:9, 11–14"
+next_start,-103,date gt @pentecost,II,,Tuesday of the Twentieth Week in Ordinary Time,psalm,"Deuteronomy 32:26–28, 30, 35cd–36ab"
+next_start,-103,date gt @pentecost,,,Tuesday of the Twentieth Week in Ordinary Time,gospel,Matthew 19:23–30
+next_start,-102,date gt @pentecost,I,,Wednesday of the Twentieth Week in Ordinary Time,ot,Judges 9:6–15
+next_start,-102,date gt @pentecost,II,,Wednesday of the Twentieth Week in Ordinary Time,ot,Ezekiel 34:1–11
+next_start,-102,date gt @pentecost,I,,Wednesday of the Twentieth Week in Ordinary Time,psalm,Psalm 21:2–7
+next_start,-102,date gt @pentecost,II,,Wednesday of the Twentieth Week in Ordinary Time,psalm,Psalm 23:1–6
+next_start,-102,date gt @pentecost,,,Wednesday of the Twentieth Week in Ordinary Time,gospel,Matthew 20:1–16
+next_start,-101,date gt @pentecost,I,,Thursday of the Twentieth Week in Ordinary Time,ot,Judges 11:29–39a
+next_start,-101,date gt @pentecost,II,,Thursday of the Twentieth Week in Ordinary Time,ot,Ezekiel 36:23–28
+next_start,-101,date gt @pentecost,I,,Thursday of the Twentieth Week in Ordinary Time,psalm,"Psalm 40:5, 7–10"
+next_start,-101,date gt @pentecost,II,,Thursday of the Twentieth Week in Ordinary Time,psalm,"Psalm 51:12–15, 18–19"
+next_start,-101,date gt @pentecost,,,Thursday of the Twentieth Week in Ordinary Time,gospel,Matthew 22:1–14
+next_start,-100,date gt @pentecost,I,,Friday of the Twentieth Week in Ordinary Time,ot,"Ruth 1:1, 3–6, 14b–16, 22"
+next_start,-100,date gt @pentecost,II,,Friday of the Twentieth Week in Ordinary Time,ot,Ezekiel 37:1–14
+next_start,-100,date gt @pentecost,I,,Friday of the Twentieth Week in Ordinary Time,psalm,Psalm 146:5–10
+next_start,-100,date gt @pentecost,II,,Friday of the Twentieth Week in Ordinary Time,psalm,Psalm 107:2–9
+next_start,-100,date gt @pentecost,,,Friday of the Twentieth Week in Ordinary Time,gospel,Matthew 22:34–40
+next_start,-99,date gt @pentecost,I,,Saturday of the Twentieth Week in Ordinary Time,ot,"Ruth 2:1–3, 8–11; 4:13–17"
+next_start,-99,date gt @pentecost,II,,Saturday of the Twentieth Week in Ordinary Time,ot,Ezekiel 43:1–7ab
+next_start,-99,date gt @pentecost,I,,Saturday of the Twentieth Week in Ordinary Time,psalm,Psalm 128:1b–5
+next_start,-99,date gt @pentecost,II,,Saturday of the Twentieth Week in Ordinary Time,psalm,"Psalm 85:9ab, 10–14"
+next_start,-99,date gt @pentecost,,,Saturday of the Twentieth Week in Ordinary Time,gospel,Matthew 23:1–12
+next_start,-97,date gt @pentecost,I,,Monday of the Twenty-first Week in Ordinary Time,ot,"1 Thessalonians 1:1–5, 8b–10"
+next_start,-97,date gt @pentecost,II,,Monday of the Twenty-first Week in Ordinary Time,ot,"2 Thessalonians 1:1–5, 11–12"
+next_start,-97,date gt @pentecost,I,,Monday of the Twenty-first Week in Ordinary Time,psalm,"Psalm 149:1b–6a, 9b"
+next_start,-97,date gt @pentecost,II,,Monday of the Twenty-first Week in Ordinary Time,psalm,Psalm 96:1–5
+next_start,-97,date gt @pentecost,,,Monday of the Twenty-first Week in Ordinary Time,gospel,Matthew 23:13–22
+next_start,-96,date gt @pentecost,I,,Tuesday of the Twenty-first Week in Ordinary Time,ot,1 Thessalonians 2:1–8
+next_start,-96,date gt @pentecost,II,,Tuesday of the Twenty-first Week in Ordinary Time,ot,"2 Thessalonians 2:1–3a, 14–17"
+next_start,-96,date gt @pentecost,I,,Tuesday of the Twenty-first Week in Ordinary Time,psalm,Psalm 139:1–6
+next_start,-96,date gt @pentecost,II,,Tuesday of the Twenty-first Week in Ordinary Time,psalm,Psalm 96:10–13
+next_start,-96,date gt @pentecost,,,Tuesday of the Twenty-first Week in Ordinary Time,gospel,Matthew 23:23–26
+next_start,-95,date gt @pentecost,I,,Wednesday of the Twenty-first Week in Ordinary Time,ot,1 Thessalonians 2:9–13
+next_start,-95,date gt @pentecost,II,,Wednesday of the Twenty-first Week in Ordinary Time,ot,"2 Thessalonians 3:6–10, 16–18"
+next_start,-95,date gt @pentecost,I,,Wednesday of the Twenty-first Week in Ordinary Time,psalm,Psalm 139:7–12ab
+next_start,-95,date gt @pentecost,II,,Wednesday of the Twenty-first Week in Ordinary Time,psalm,"Psalm 128:1–2, 4–5"
+next_start,-95,date gt @pentecost,,,Wednesday of the Twenty-first Week in Ordinary Time,gospel,Matthew 23:27–32
+next_start,-94,date gt @pentecost,I,,Thursday of the Twenty-first Week in Ordinary Time,ot,1 Thessalonians 3:7–13
+next_start,-94,date gt @pentecost,II,,Thursday of the Twenty-first Week in Ordinary Time,ot,1 Corinthians 1:1–9
+next_start,-94,date gt @pentecost,I,,Thursday of the Twenty-first Week in Ordinary Time,psalm,"Psalm 90:3–4, 12–14, 17"
+next_start,-94,date gt @pentecost,II,,Thursday of the Twenty-first Week in Ordinary Time,psalm,Psalm 145:2–7
+next_start,-94,date gt @pentecost,,,Thursday of the Twenty-first Week in Ordinary Time,gospel,Matthew 24:42–51
+next_start,-93,date gt @pentecost,I,,Friday of the Twenty-first Week in Ordinary Time,ot,1 Thessalonians 4:1–8
+next_start,-93,date gt @pentecost,II,,Friday of the Twenty-first Week in Ordinary Time,ot,1 Corinthians 1:17–25
+next_start,-93,date gt @pentecost,I,,Friday of the Twenty-first Week in Ordinary Time,psalm,"Psalm 97:1, 2b, 5–6, 10–12"
+next_start,-93,date gt @pentecost,II,,Friday of the Twenty-first Week in Ordinary Time,psalm,"Psalm 33:1–2, 4–5, 10–11"
+next_start,-93,date gt @pentecost,,,Friday of the Twenty-first Week in Ordinary Time,gospel,Matthew 25:1–13
+next_start,-92,date gt @pentecost,I,,Saturday of the Twenty-first Week in Ordinary Time,ot,1 Thessalonians 4:9–11
+next_start,-92,date gt @pentecost,II,,Saturday of the Twenty-first Week in Ordinary Time,ot,1 Corinthians 1:26–31
+next_start,-92,date gt @pentecost,I,,Saturday of the Twenty-first Week in Ordinary Time,psalm,"Psalm 98:1, 7–9"
+next_start,-92,date gt @pentecost,II,,Saturday of the Twenty-first Week in Ordinary Time,psalm,"Psalm 33:12–13, 18–21"
+next_start,-92,date gt @pentecost,,,Saturday of the Twenty-first Week in Ordinary Time,gospel,Matthew 25:14–30
+next_start,-90,date gt @pentecost,I,,Monday of the Twenty-second Week in Ordinary Time,ot,1 Thessalonians 4:13–18
+next_start,-90,date gt @pentecost,II,,Monday of the Twenty-second Week in Ordinary Time,ot,1 Corinthians 2:1–5
+next_start,-90,date gt @pentecost,I,,Monday of the Twenty-second Week in Ordinary Time,psalm,"Psalm 96:1, 3–5, 11–13"
+next_start,-90,date gt @pentecost,II,,Monday of the Twenty-second Week in Ordinary Time,psalm,Psalm 119:97–102
+next_start,-90,date gt @pentecost,,,Monday of the Twenty-second Week in Ordinary Time,gospel,Luke 4:16–30
+next_start,-89,date gt @pentecost,I,,Tuesday of the Twenty-second Week in Ordinary Time,ot,"1 Thessalonians 5:1–6, 9–11"
+next_start,-89,date gt @pentecost,II,,Tuesday of the Twenty-second Week in Ordinary Time,ot,1 Corinthians 2:10b–16
+next_start,-89,date gt @pentecost,I,,Tuesday of the Twenty-second Week in Ordinary Time,psalm,"Psalm 27:1, 4, 13–14"
+next_start,-89,date gt @pentecost,II,,Tuesday of the Twenty-second Week in Ordinary Time,psalm,Psalm 145:8–14
+next_start,-89,date gt @pentecost,,,Tuesday of the Twenty-second Week in Ordinary Time,gospel,Luke 4:31–37
+next_start,-88,date gt @pentecost,I,,Wednesday of the Twenty-second Week in Ordinary Time,ot,Colossians 1:1–8
+next_start,-88,date gt @pentecost,II,,Wednesday of the Twenty-second Week in Ordinary Time,ot,1 Corinthians 3:1–9
+next_start,-88,date gt @pentecost,I,,Wednesday of the Twenty-second Week in Ordinary Time,psalm,Psalm 52:10–11
+next_start,-88,date gt @pentecost,II,,Wednesday of the Twenty-second Week in Ordinary Time,psalm,"Psalm 33:12–15, 20–21"
+next_start,-88,date gt @pentecost,,,Wednesday of the Twenty-second Week in Ordinary Time,gospel,Luke 4:38–44
+next_start,-87,date gt @pentecost,I,,Thursday of the Twenty-second Week in Ordinary Time,ot,Colossians 1:9–14
+next_start,-87,date gt @pentecost,II,,Thursday of the Twenty-second Week in Ordinary Time,ot,1 Corinthians 3:18–23
+next_start,-87,date gt @pentecost,I,,Thursday of the Twenty-second Week in Ordinary Time,psalm,Psalm 98:2–6
+next_start,-87,date gt @pentecost,II,,Thursday of the Twenty-second Week in Ordinary Time,psalm,"Psalm 24:1bc–4ab, 5–6"
+next_start,-87,date gt @pentecost,,,Thursday of the Twenty-second Week in Ordinary Time,gospel,Luke 5:1–11
+next_start,-86,date gt @pentecost,I,,Friday of the Twenty-second Week in Ordinary Time,ot,Colossians 1:15–20
+next_start,-86,date gt @pentecost,II,,Friday of the Twenty-second Week in Ordinary Time,ot,1 Corinthians 4:1–5
+next_start,-86,date gt @pentecost,I,,Friday of the Twenty-second Week in Ordinary Time,psalm,Psalm 100:1b–5
+next_start,-86,date gt @pentecost,II,,Friday of the Twenty-second Week in Ordinary Time,psalm,"Psalm 37:3–6, 27–28, 39–40"
+next_start,-86,date gt @pentecost,,,Friday of the Twenty-second Week in Ordinary Time,gospel,Luke 5:33–39
+next_start,-85,date gt @pentecost,I,,Saturday of the Twenty-second Week in Ordinary Time,ot,Colossians 1:21–23
+next_start,-85,date gt @pentecost,II,,Saturday of the Twenty-second Week in Ordinary Time,ot,1 Corinthians 4:6b–15
+next_start,-85,date gt @pentecost,I,,Saturday of the Twenty-second Week in Ordinary Time,psalm,"Psalm 54:3–4, 6, 8"
+next_start,-85,date gt @pentecost,II,,Saturday of the Twenty-second Week in Ordinary Time,psalm,Psalm 145:17–21
+next_start,-85,date gt @pentecost,,,Saturday of the Twenty-second Week in Ordinary Time,gospel,Luke 6:1–5
+next_start,-83,date gt @pentecost,I,,Monday of the Twenty-third Week in Ordinary Time,ot,Colossians 1:24–2:3
+next_start,-83,date gt @pentecost,II,,Monday of the Twenty-third Week in Ordinary Time,ot,1 Corinthians 5:1–8
+next_start,-83,date gt @pentecost,I,,Monday of the Twenty-third Week in Ordinary Time,psalm,"Psalm 62:6–7, 9"
+next_start,-83,date gt @pentecost,II,,Monday of the Twenty-third Week in Ordinary Time,psalm,"Psalm 5:5–7, 12"
+next_start,-83,date gt @pentecost,,,Monday of the Twenty-third Week in Ordinary Time,gospel,Luke 6:6–11
+next_start,-82,date gt @pentecost,I,,Tuesday of the Twenty-third Week in Ordinary Time,ot,Colossians 2:6–15
+next_start,-82,date gt @pentecost,II,,Tuesday of the Twenty-third Week in Ordinary Time,ot,1 Corinthians 6:1–11
+next_start,-82,date gt @pentecost,I,,Tuesday of the Twenty-third Week in Ordinary Time,psalm,"Psalm 145:1b–2, 8–11"
+next_start,-82,date gt @pentecost,II,,Tuesday of the Twenty-third Week in Ordinary Time,psalm,"Psalm 149:1b–6a, 9b"
+next_start,-82,date gt @pentecost,,,Tuesday of the Twenty-third Week in Ordinary Time,gospel,Luke 6:12–19
+next_start,-81,date gt @pentecost,I,,Wednesday of the Twenty-third Week in Ordinary Time,ot,Colossians 3:1–11
+next_start,-81,date gt @pentecost,II,,Wednesday of the Twenty-third Week in Ordinary Time,ot,1 Corinthians 7:25–31
+next_start,-81,date gt @pentecost,I,,Wednesday of the Twenty-third Week in Ordinary Time,psalm,"Psalm 145:2–3, 10–13ab"
+next_start,-81,date gt @pentecost,II,,Wednesday of the Twenty-third Week in Ordinary Time,psalm,"Psalm 45:11–12, 14–17"
+next_start,-81,date gt @pentecost,,,Wednesday of the Twenty-third Week in Ordinary Time,gospel,Luke 6:20–26
+next_start,-80,date gt @pentecost,I,,Thursday of the Twenty-third Week in Ordinary Time,ot,Colossians 3:12–17
+next_start,-80,date gt @pentecost,II,,Thursday of the Twenty-third Week in Ordinary Time,ot,"1 Corinthians 8:1b–7, 11–13"
+next_start,-80,date gt @pentecost,I,,Thursday of the Twenty-third Week in Ordinary Time,psalm,Psalm 150:1b–6
+next_start,-80,date gt @pentecost,II,,Thursday of the Twenty-third Week in Ordinary Time,psalm,"Psalm 139:1b–3, 13–14ab, 23–24"
+next_start,-80,date gt @pentecost,,,Thursday of the Twenty-third Week in Ordinary Time,gospel,Luke 6:27–38
+next_start,-79,date gt @pentecost,I,,Friday of the Twenty-third Week in Ordinary Time,ot,"1 Timothy 1:1–2, 12–14"
+next_start,-79,date gt @pentecost,II,,Friday of the Twenty-third Week in Ordinary Time,ot,"1 Corinthians 9:16–19, 22b–27"
+next_start,-79,date gt @pentecost,I,,Friday of the Twenty-third Week in Ordinary Time,psalm,"Psalm 16:1b–2a, 5, 7–8, 11"
+next_start,-79,date gt @pentecost,II,,Friday of the Twenty-third Week in Ordinary Time,psalm,"Psalm 84:3–6, 12"
+next_start,-79,date gt @pentecost,,,Friday of the Twenty-third Week in Ordinary Time,gospel,Luke 6:39–42
+next_start,-78,date gt @pentecost,I,,Saturday of the Twenty-third Week in Ordinary Time,ot,1 Timothy 1:15–17
+next_start,-78,date gt @pentecost,II,,Saturday of the Twenty-third Week in Ordinary Time,ot,1 Corinthians 10:14–22
+next_start,-78,date gt @pentecost,I,,Saturday of the Twenty-third Week in Ordinary Time,psalm,"Psalm 113:1b–5a, 6–7"
+next_start,-78,date gt @pentecost,II,,Saturday of the Twenty-third Week in Ordinary Time,psalm,"Psalm 116:12–13, 17–18"
+next_start,-78,date gt @pentecost,,,Saturday of the Twenty-third Week in Ordinary Time,gospel,Luke 6:43–49
+next_start,-76,date gt @pentecost,I,,Monday of the Twenty-fourth Week in Ordinary Time,ot,1 Timothy 2:1–8
+next_start,-76,date gt @pentecost,II,,Monday of the Twenty-fourth Week in Ordinary Time,ot,"1 Corinthians 11:17–26, 33"
+next_start,-76,date gt @pentecost,I,,Monday of the Twenty-fourth Week in Ordinary Time,psalm,"Psalm 28:2, 7–9"
+next_start,-76,date gt @pentecost,II,,Monday of the Twenty-fourth Week in Ordinary Time,psalm,"Psalm 40:7–10, 17"
+next_start,-76,date gt @pentecost,,,Monday of the Twenty-fourth Week in Ordinary Time,gospel,Luke 7:1–10
+next_start,-75,date gt @pentecost,I,,Tuesday of the Twenty-fourth Week in Ordinary Time,ot,1 Timothy 3:1–13
+next_start,-75,date gt @pentecost,II,,Tuesday of the Twenty-fourth Week in Ordinary Time,ot,"1 Corinthians 12:12–14, 27–31a"
+next_start,-75,date gt @pentecost,I,,Tuesday of the Twenty-fourth Week in Ordinary Time,psalm,"Psalm 101:1b–3ab, 5–6"
+next_start,-75,date gt @pentecost,II,,Tuesday of the Twenty-fourth Week in Ordinary Time,psalm,Psalm 100:1b–5
+next_start,-75,date gt @pentecost,,,Tuesday of the Twenty-fourth Week in Ordinary Time,gospel,Luke 7:11–17
+next_start,-74,date gt @pentecost,I,,Wednesday of the Twenty-fourth Week in Ordinary Time,ot,1 Timothy 3:14–16
+next_start,-74,date gt @pentecost,II,,Wednesday of the Twenty-fourth Week in Ordinary Time,ot,1 Corinthians 12:31–13:13
+next_start,-74,date gt @pentecost,I,,Wednesday of the Twenty-fourth Week in Ordinary Time,psalm,Psalm 111:1–6
+next_start,-74,date gt @pentecost,II,,Wednesday of the Twenty-fourth Week in Ordinary Time,psalm,"Psalm 33:2–5, 12, 22"
+next_start,-74,date gt @pentecost,,,Wednesday of the Twenty-fourth Week in Ordinary Time,gospel,Luke 7:31–35
+next_start,-73,date gt @pentecost,I,,Thursday of the Twenty-fourth Week in Ordinary Time,ot,1 Timothy 4:12–16
+next_start,-73,date gt @pentecost,II,,Thursday of the Twenty-fourth Week in Ordinary Time,ot,1 Corinthians 15:1–11
+next_start,-73,date gt @pentecost,I,,Thursday of the Twenty-fourth Week in Ordinary Time,psalm,Psalm 111:7–10
+next_start,-73,date gt @pentecost,II,,Thursday of the Twenty-fourth Week in Ordinary Time,psalm,"Psalm 118:1b–2, 16ab, 17, 28"
+next_start,-73,date gt @pentecost,,,Thursday of the Twenty-fourth Week in Ordinary Time,gospel,Luke 7:36–50
+next_start,-72,date gt @pentecost,I,,Friday of the Twenty-fourth Week in Ordinary Time,ot,1 Timothy 6:2c–12
+next_start,-72,date gt @pentecost,II,,Friday of the Twenty-fourth Week in Ordinary Time,ot,1 Corinthians 15:12–20
+next_start,-72,date gt @pentecost,I,,Friday of the Twenty-fourth Week in Ordinary Time,psalm,"Psalm 49:6–10, 17–20"
+next_start,-72,date gt @pentecost,II,,Friday of the Twenty-fourth Week in Ordinary Time,psalm,"Psalm 17:1bcd, 6–7, 8b, 15"
+next_start,-72,date gt @pentecost,,,Friday of the Twenty-fourth Week in Ordinary Time,gospel,Luke 8:1–3
+next_start,-71,date gt @pentecost,I,,Saturday of the Twenty-fourth Week in Ordinary Time,ot,1 Timothy 6:13–16
+next_start,-71,date gt @pentecost,II,,Saturday of the Twenty-fourth Week in Ordinary Time,ot,"1 Corinthians 15:35–37, 42–49"
+next_start,-71,date gt @pentecost,I,,Saturday of the Twenty-fourth Week in Ordinary Time,psalm,Psalm 100:1b–5
+next_start,-71,date gt @pentecost,II,,Saturday of the Twenty-fourth Week in Ordinary Time,psalm,Psalm 56:10c–14
+next_start,-71,date gt @pentecost,,,Saturday of the Twenty-fourth Week in Ordinary Time,gospel,Luke 8:4–15
+next_start,-69,date gt @pentecost,I,,Monday of the Twenty-fifth Week in Ordinary Time,ot,Ezra 1:1–6
+next_start,-69,date gt @pentecost,II,,Monday of the Twenty-fifth Week in Ordinary Time,ot,Proverbs 3:27–34
+next_start,-69,date gt @pentecost,I,,Monday of the Twenty-fifth Week in Ordinary Time,psalm,Psalm 126:1b–6
+next_start,-69,date gt @pentecost,II,,Monday of the Twenty-fifth Week in Ordinary Time,psalm,"Psalm 15:2–4ab, 5"
+next_start,-69,date gt @pentecost,,,Monday of the Twenty-fifth Week in Ordinary Time,gospel,Luke 8:16–18
+next_start,-68,date gt @pentecost,I,,Tuesday of the Twenty-fifth Week in Ordinary Time,ot,"Ezra 6:7–8, 12b, 14–20"
+next_start,-68,date gt @pentecost,II,,Tuesday of the Twenty-fifth Week in Ordinary Time,ot,"Proverbs 21:1–6, 10–13"
+next_start,-68,date gt @pentecost,I,,Tuesday of the Twenty-fifth Week in Ordinary Time,psalm,Psalm 122:1–5
+next_start,-68,date gt @pentecost,II,,Tuesday of the Twenty-fifth Week in Ordinary Time,psalm,"Psalm 119:1, 27, 30, 34–35, 44"
+next_start,-68,date gt @pentecost,,,Tuesday of the Twenty-fifth Week in Ordinary Time,gospel,Luke 8:19–21
+next_start,-67,date gt @pentecost,I,,Wednesday of the Twenty-fifth Week in Ordinary Time,ot,Ezra 9:5–9
+next_start,-67,date gt @pentecost,II,,Wednesday of the Twenty-fifth Week in Ordinary Time,ot,Proverbs 30:5–9
+next_start,-67,date gt @pentecost,I,,Wednesday of the Twenty-fifth Week in Ordinary Time,psalm,"Tobit 13:2–4a, 6–7, 10"
+next_start,-67,date gt @pentecost,II,,Wednesday of the Twenty-fifth Week in Ordinary Time,psalm,"Psalm 119:29, 72, 89, 101, 104, 163"
+next_start,-67,date gt @pentecost,,,Wednesday of the Twenty-fifth Week in Ordinary Time,gospel,Luke 9:1–6
+next_start,-66,date gt @pentecost,I,,Thursday of the Twenty-fifth Week in Ordinary Time,ot,Haggai 1:1–8
+next_start,-66,date gt @pentecost,II,,Thursday of the Twenty-fifth Week in Ordinary Time,ot,Ecclesiastes 1:2–11
+next_start,-66,date gt @pentecost,I,,Thursday of the Twenty-fifth Week in Ordinary Time,psalm,"Psalm 149:1b–6a, 9b"
+next_start,-66,date gt @pentecost,II,,Thursday of the Twenty-fifth Week in Ordinary Time,psalm,"Psalm 90:3–6, 12–14, 17bc"
+next_start,-66,date gt @pentecost,,,Thursday of the Twenty-fifth Week in Ordinary Time,gospel,Luke 9:7–9
+next_start,-65,date gt @pentecost,I,,Friday of the Twenty-fifth Week in Ordinary Time,ot,Haggai 2:1–9
+next_start,-65,date gt @pentecost,II,,Friday of the Twenty-fifth Week in Ordinary Time,ot,Ecclesiastes 3:1–11
+next_start,-65,date gt @pentecost,I,,Friday of the Twenty-fifth Week in Ordinary Time,psalm,Psalm 43:1–4
+next_start,-65,date gt @pentecost,II,,Friday of the Twenty-fifth Week in Ordinary Time,psalm,"Psalm 144:1b, 2abc, 3–4"
+next_start,-65,date gt @pentecost,,,Friday of the Twenty-fifth Week in Ordinary Time,gospel,Luke 9:18–22
+next_start,-64,date gt @pentecost,I,,Saturday of the Twenty-fifth Week in Ordinary Time,ot,"Zechariah 2:5–9, 14–15a"
+next_start,-64,date gt @pentecost,II,,Saturday of the Twenty-fifth Week in Ordinary Time,ot,Ecclesiastes 11:9–12:8
+next_start,-64,date gt @pentecost,I,,Saturday of the Twenty-fifth Week in Ordinary Time,psalm,"Jeremiah 31:10–12ab, 13"
+next_start,-64,date gt @pentecost,II,,Saturday of the Twenty-fifth Week in Ordinary Time,psalm,"Psalm 90:3–6, 12–14, 17"
+next_start,-64,date gt @pentecost,,,Saturday of the Twenty-fifth Week in Ordinary Time,gospel,Luke 9:43b–45
+next_start,-62,date gt @pentecost,I,,Monday of the Twenty-sixth Week in Ordinary Time,ot,Zechariah 8:1–8
+next_start,-62,date gt @pentecost,II,,Monday of the Twenty-sixth Week in Ordinary Time,ot,Job 1:6–22
+next_start,-62,date gt @pentecost,I,,Monday of the Twenty-sixth Week in Ordinary Time,psalm,"Psalm 102:16–21, 29, 22–23"
+next_start,-62,date gt @pentecost,II,,Monday of the Twenty-sixth Week in Ordinary Time,psalm,"Psalm 17:1bcd, 2–3, 6–7"
+next_start,-62,date gt @pentecost,,,Monday of the Twenty-sixth Week in Ordinary Time,gospel,Luke 9:46–50
+next_start,-61,date gt @pentecost,I,,Tuesday of the Twenty-sixth Week in Ordinary Time,ot,Zechariah 8:20–23
+next_start,-61,date gt @pentecost,II,,Tuesday of the Twenty-sixth Week in Ordinary Time,ot,"Job 3:1–3, 11–17, 20–23"
+next_start,-61,date gt @pentecost,I,,Tuesday of the Twenty-sixth Week in Ordinary Time,psalm,Psalm 87:1b–7
+next_start,-61,date gt @pentecost,II,,Tuesday of the Twenty-sixth Week in Ordinary Time,psalm,Psalm 88:2–8
+next_start,-61,date gt @pentecost,,,Tuesday of the Twenty-sixth Week in Ordinary Time,gospel,Luke 9:51–56
+next_start,-60,date gt @pentecost,I,,Wednesday of the Twenty-sixth Week in Ordinary Time,ot,Nehemiah 2:1–8
+next_start,-60,date gt @pentecost,II,,Wednesday of the Twenty-sixth Week in Ordinary Time,ot,"Job 9:1–12, 14–16"
+next_start,-60,date gt @pentecost,I,,Wednesday of the Twenty-sixth Week in Ordinary Time,psalm,Psalm 137:1–6
+next_start,-60,date gt @pentecost,II,,Wednesday of the Twenty-sixth Week in Ordinary Time,psalm,Psalm 88:10bc–15
+next_start,-60,date gt @pentecost,,,Wednesday of the Twenty-sixth Week in Ordinary Time,gospel,Luke 9:57–62
+next_start,-59,date gt @pentecost,I,,Thursday of the Twenty-sixth Week in Ordinary Time,ot,"Nehemiah 8:1–4a, 5–6, 7b–12"
+next_start,-59,date gt @pentecost,II,,Thursday of the Twenty-sixth Week in Ordinary Time,ot,Job 19:21–27
+next_start,-59,date gt @pentecost,I,,Thursday of the Twenty-sixth Week in Ordinary Time,psalm,Psalm 19:8–11
+next_start,-59,date gt @pentecost,II,,Thursday of the Twenty-sixth Week in Ordinary Time,psalm,"Psalm 27:7–9abc, 13–14"
+next_start,-59,date gt @pentecost,,,Thursday of the Twenty-sixth Week in Ordinary Time,gospel,Luke 10:1–12
+next_start,-58,date gt @pentecost,I,,Friday of the Twenty-sixth Week in Ordinary Time,ot,Baruch 1:15–22
+next_start,-58,date gt @pentecost,II,,Friday of the Twenty-sixth Week in Ordinary Time,ot,"Job 38:1, 12–21; 40:3–5"
+next_start,-58,date gt @pentecost,I,,Friday of the Twenty-sixth Week in Ordinary Time,psalm,"Psalm 79:1b–5, 8–9"
+next_start,-58,date gt @pentecost,II,,Friday of the Twenty-sixth Week in Ordinary Time,psalm,"Psalm 139:1–3, 7–10, 13–14ab"
+next_start,-58,date gt @pentecost,,,Friday of the Twenty-sixth Week in Ordinary Time,gospel,Luke 10:13–16
+next_start,-57,date gt @pentecost,I,,Saturday of the Twenty-sixth Week in Ordinary Time,ot,"Baruch 4:5–12, 27–29"
+next_start,-57,date gt @pentecost,II,,Saturday of the Twenty-sixth Week in Ordinary Time,ot,"Job 42:1–3, 5–6, 12–17"
+next_start,-57,date gt @pentecost,I,,Saturday of the Twenty-sixth Week in Ordinary Time,psalm,Psalm 69:33–37
+next_start,-57,date gt @pentecost,II,,Saturday of the Twenty-sixth Week in Ordinary Time,psalm,"Psalm 119:66, 71, 75, 91, 125, 130"
+next_start,-57,date gt @pentecost,,,Saturday of the Twenty-sixth Week in Ordinary Time,gospel,Luke 10:17–24
+next_start,-55,date gt @pentecost,I,,Monday of the Twenty-seventh Week in Ordinary Time,ot,"Jonah 1:1–2:2, 11"
+next_start,-55,date gt @pentecost,II,,Monday of the Twenty-seventh Week in Ordinary Time,ot,Galatians 1:6–12
+next_start,-55,date gt @pentecost,I,,Monday of the Twenty-seventh Week in Ordinary Time,psalm,"Jonah 2:3–5, 8"
+next_start,-55,date gt @pentecost,II,,Monday of the Twenty-seventh Week in Ordinary Time,psalm,"Psalm 111:1b–2, 7–9, 10c"
+next_start,-55,date gt @pentecost,,,Monday of the Twenty-seventh Week in Ordinary Time,gospel,Luke 10:25–37
+next_start,-54,date gt @pentecost,I,,Tuesday of the Twenty-seventh Week in Ordinary Time,ot,Jonah 3:1–10
+next_start,-54,date gt @pentecost,II,,Tuesday of the Twenty-seventh Week in Ordinary Time,ot,Galatians 1:13–24
+next_start,-54,date gt @pentecost,I,,Tuesday of the Twenty-seventh Week in Ordinary Time,psalm,"Psalm 130:1b–4ab, 7–8"
+next_start,-54,date gt @pentecost,II,,Tuesday of the Twenty-seventh Week in Ordinary Time,psalm,"Psalm 139:1b–3, 13–15"
+next_start,-54,date gt @pentecost,,,Tuesday of the Twenty-seventh Week in Ordinary Time,gospel,Luke 10:38–42
+next_start,-53,date gt @pentecost,I,,Wednesday of the Twenty-seventh Week in Ordinary Time,ot,Jonah 4:1–11
+next_start,-53,date gt @pentecost,II,,Wednesday of the Twenty-seventh Week in Ordinary Time,ot,"Galatians 2:1–2, 7–14"
+next_start,-53,date gt @pentecost,I,,Wednesday of the Twenty-seventh Week in Ordinary Time,psalm,"Psalm 86:3–6, 9–10"
+next_start,-53,date gt @pentecost,II,,Wednesday of the Twenty-seventh Week in Ordinary Time,psalm,"Psalm 117:1bc, 2"
+next_start,-53,date gt @pentecost,,,Wednesday of the Twenty-seventh Week in Ordinary Time,gospel,Luke 11:1–4
+next_start,-52,date gt @pentecost,I,,Thursday of the Twenty-seventh Week in Ordinary Time,ot,Malachi 3:13–20b
+next_start,-52,date gt @pentecost,II,,Thursday of the Twenty-seventh Week in Ordinary Time,ot,Galatians 3:1–5
+next_start,-52,date gt @pentecost,I,,Thursday of the Twenty-seventh Week in Ordinary Time,psalm,"Psalm 1:1–4, 6"
+next_start,-52,date gt @pentecost,II,,Thursday of the Twenty-seventh Week in Ordinary Time,psalm,Luke 1:69–75
+next_start,-52,date gt @pentecost,,,Thursday of the Twenty-seventh Week in Ordinary Time,gospel,Luke 11:5–13
+next_start,-51,date gt @pentecost,I,,Friday of the Twenty-seventh Week in Ordinary Time,ot,Joel 1:13–15; 2:1–2
+next_start,-51,date gt @pentecost,II,,Friday of the Twenty-seventh Week in Ordinary Time,ot,Galatians 3:7–14
+next_start,-51,date gt @pentecost,I,,Friday of the Twenty-seventh Week in Ordinary Time,psalm,"Psalm 9:2–3, 6, 16, 8–9"
+next_start,-51,date gt @pentecost,II,,Friday of the Twenty-seventh Week in Ordinary Time,psalm,Psalm 111:1b–6
+next_start,-51,date gt @pentecost,,,Friday of the Twenty-seventh Week in Ordinary Time,gospel,Luke 11:15–26
+next_start,-50,date gt @pentecost,I,,Saturday of the Twenty-seventh Week in Ordinary Time,ot,Joel 4:12–21
+next_start,-50,date gt @pentecost,II,,Saturday of the Twenty-seventh Week in Ordinary Time,ot,Galatians 3:22–29
+next_start,-50,date gt @pentecost,I,,Saturday of the Twenty-seventh Week in Ordinary Time,psalm,"Psalm 97:1–2, 5–6, 11–12"
+next_start,-50,date gt @pentecost,II,,Saturday of the Twenty-seventh Week in Ordinary Time,psalm,Psalm 105:2–7
+next_start,-50,date gt @pentecost,,,Saturday of the Twenty-seventh Week in Ordinary Time,gospel,Luke 11:27–28
+next_start,-48,date gt @pentecost,I,,Monday of the Twenty-eighth Week in Ordinary Time,ot,Romans 1:1–7
+next_start,-48,date gt @pentecost,II,,Monday of the Twenty-eighth Week in Ordinary Time,ot,"Galatians 4:22–24, 26–27, 31–5:1"
+next_start,-48,date gt @pentecost,I,,Monday of the Twenty-eighth Week in Ordinary Time,psalm,"Psalm 98:1bcde, 2–4"
+next_start,-48,date gt @pentecost,II,,Monday of the Twenty-eighth Week in Ordinary Time,psalm,"Psalm 113:1b–5a, 6–7"
+next_start,-48,date gt @pentecost,,,Monday of the Twenty-eighth Week in Ordinary Time,gospel,Luke 11:29–32
+next_start,-47,date gt @pentecost,I,,Tuesday of the Twenty-eighth Week in Ordinary Time,ot,Romans 1:16–25
+next_start,-47,date gt @pentecost,II,,Tuesday of the Twenty-eighth Week in Ordinary Time,ot,Galatians 5:1–6
+next_start,-47,date gt @pentecost,I,,Tuesday of the Twenty-eighth Week in Ordinary Time,psalm,Psalm 19:2–5
+next_start,-47,date gt @pentecost,II,,Tuesday of the Twenty-eighth Week in Ordinary Time,psalm,"Psalm 119:41, 43–45, 47–48"
+next_start,-47,date gt @pentecost,,,Tuesday of the Twenty-eighth Week in Ordinary Time,gospel,Luke 11:37–41
+next_start,-46,date gt @pentecost,I,,Wednesday of the Twenty-eighth Week in Ordinary Time,ot,Romans 2:1–11
+next_start,-46,date gt @pentecost,II,,Wednesday of the Twenty-eighth Week in Ordinary Time,ot,Galatians 5:18–25
+next_start,-46,date gt @pentecost,I,,Wednesday of the Twenty-eighth Week in Ordinary Time,psalm,"Psalm 62:2–3, 6–7, 9"
+next_start,-46,date gt @pentecost,II,,Wednesday of the Twenty-eighth Week in Ordinary Time,psalm,"Psalm 1:1–4, 6"
+next_start,-46,date gt @pentecost,,,Wednesday of the Twenty-eighth Week in Ordinary Time,gospel,Luke 11:42–46
+next_start,-45,date gt @pentecost,I,,Thursday of the Twenty-eighth Week in Ordinary Time,ot,Romans 3:21–30
+next_start,-45,date gt @pentecost,II,,Thursday of the Twenty-eighth Week in Ordinary Time,ot,Ephesians 1:1–10
+next_start,-45,date gt @pentecost,I,,Thursday of the Twenty-eighth Week in Ordinary Time,psalm,Psalm 130:1b–6ab
+next_start,-45,date gt @pentecost,II,,Thursday of the Twenty-eighth Week in Ordinary Time,psalm,Psalm 98:1–6
+next_start,-45,date gt @pentecost,,,Thursday of the Twenty-eighth Week in Ordinary Time,gospel,Luke 11:47–54
+next_start,-44,date gt @pentecost,I,,Friday of the Twenty-eighth Week in Ordinary Time,ot,Romans 4:1–8
+next_start,-44,date gt @pentecost,II,,Friday of the Twenty-eighth Week in Ordinary Time,ot,Ephesians 1:11–14
+next_start,-44,date gt @pentecost,I,,Friday of the Twenty-eighth Week in Ordinary Time,psalm,"Psalm 32:1b–2, 5, 11"
+next_start,-44,date gt @pentecost,II,,Friday of the Twenty-eighth Week in Ordinary Time,psalm,"Psalm 33:1–2, 4–5, 12–13"
+next_start,-44,date gt @pentecost,,,Friday of the Twenty-eighth Week in Ordinary Time,gospel,Luke 12:1–7
+next_start,-43,date gt @pentecost,I,,Saturday of the Twenty-eighth Week in Ordinary Time,ot,"Romans 4:13, 16–18"
+next_start,-43,date gt @pentecost,II,,Saturday of the Twenty-eighth Week in Ordinary Time,ot,Ephesians 1:15–23
+next_start,-43,date gt @pentecost,I,,Saturday of the Twenty-eighth Week in Ordinary Time,psalm,"Psalm 105:6–9, 42–43"
+next_start,-43,date gt @pentecost,II,,Saturday of the Twenty-eighth Week in Ordinary Time,psalm,"Psalm 8:2–3ab, 4–7"
+next_start,-43,date gt @pentecost,,,Saturday of the Twenty-eighth Week in Ordinary Time,gospel,Luke 12:8–12
+next_start,-41,date gt @pentecost,I,,Monday of the Twenty-ninth Week in Ordinary Time,ot,Romans 4:20–25
+next_start,-41,date gt @pentecost,II,,Monday of the Twenty-ninth Week in Ordinary Time,ot,Ephesians 2:1–10
+next_start,-41,date gt @pentecost,I,,Monday of the Twenty-ninth Week in Ordinary Time,psalm,Luke 1:69–75
+next_start,-41,date gt @pentecost,II,,Monday of the Twenty-ninth Week in Ordinary Time,psalm,Psalm 100:1b–5
+next_start,-41,date gt @pentecost,,,Monday of the Twenty-ninth Week in Ordinary Time,gospel,Luke 12:13–21
+next_start,-40,date gt @pentecost,I,,Tuesday of the Twenty-ninth Week in Ordinary Time,ot,"Romans 5:12, 15b, 17–19, 20b–21"
+next_start,-40,date gt @pentecost,II,,Tuesday of the Twenty-ninth Week in Ordinary Time,ot,Ephesians 2:12–22
+next_start,-40,date gt @pentecost,I,,Tuesday of the Twenty-ninth Week in Ordinary Time,psalm,"Psalm 40:7–10, 17"
+next_start,-40,date gt @pentecost,II,,Tuesday of the Twenty-ninth Week in Ordinary Time,psalm,"Psalm 85:9ab, 10–14"
+next_start,-40,date gt @pentecost,,,Tuesday of the Twenty-ninth Week in Ordinary Time,gospel,Luke 12:35–38
+next_start,-39,date gt @pentecost,I,,Wednesday of the Twenty-ninth Week in Ordinary Time,ot,Romans 6:12–18
+next_start,-39,date gt @pentecost,II,,Wednesday of the Twenty-ninth Week in Ordinary Time,ot,Ephesians 3:2–12
+next_start,-39,date gt @pentecost,I,,Wednesday of the Twenty-ninth Week in Ordinary Time,psalm,Psalm 124:1b–8
+next_start,-39,date gt @pentecost,II,,Wednesday of the Twenty-ninth Week in Ordinary Time,psalm,"Isaiah 12:2–3, 4bcd, 5–6"
+next_start,-39,date gt @pentecost,,,Wednesday of the Twenty-ninth Week in Ordinary Time,gospel,Luke 12:39–48
+next_start,-38,date gt @pentecost,I,,Thursday of the Twenty-ninth Week in Ordinary Time,ot,Romans 6:19–23
+next_start,-38,date gt @pentecost,II,,Thursday of the Twenty-ninth Week in Ordinary Time,ot,Ephesians 3:14–21
+next_start,-38,date gt @pentecost,I,,Thursday of the Twenty-ninth Week in Ordinary Time,psalm,"Psalm 1:1–4, 6"
+next_start,-38,date gt @pentecost,II,,Thursday of the Twenty-ninth Week in Ordinary Time,psalm,"Psalm 33:1–2, 4–5, 11–12, 18–19"
+next_start,-38,date gt @pentecost,,,Thursday of the Twenty-ninth Week in Ordinary Time,gospel,Luke 12:49–53
+next_start,-37,date gt @pentecost,I,,Friday of the Twenty-ninth Week in Ordinary Time,ot,Romans 7:18–25a
+next_start,-37,date gt @pentecost,II,,Friday of the Twenty-ninth Week in Ordinary Time,ot,Ephesians 4:1–6
+next_start,-37,date gt @pentecost,I,,Friday of the Twenty-ninth Week in Ordinary Time,psalm,"Psalm 119:66, 68, 76–77, 93–94"
+next_start,-37,date gt @pentecost,II,,Friday of the Twenty-ninth Week in Ordinary Time,psalm,"Psalm 24:1–4ab, 5–6"
+next_start,-37,date gt @pentecost,,,Friday of the Twenty-ninth Week in Ordinary Time,gospel,Luke 12:54–59
+next_start,-36,date gt @pentecost,I,,Saturday of the Twenty-ninth Week in Ordinary Time,ot,Romans 8:1–11
+next_start,-36,date gt @pentecost,II,,Saturday of the Twenty-ninth Week in Ordinary Time,ot,Ephesians 4:7–16
+next_start,-36,date gt @pentecost,I,,Saturday of the Twenty-ninth Week in Ordinary Time,psalm,"Psalm 24:1b–4ab, 5–6"
+next_start,-36,date gt @pentecost,II,,Saturday of the Twenty-ninth Week in Ordinary Time,psalm,Psalm 122:1–5
+next_start,-36,date gt @pentecost,,,Saturday of the Twenty-ninth Week in Ordinary Time,gospel,Luke 13:1–9
+next_start,-34,date gt @pentecost,I,,Monday of the Thirty Week in Ordinary Time,ot,Romans 8:12–17
+next_start,-34,date gt @pentecost,II,,Monday of the Thirty Week in Ordinary Time,ot,Ephesians 4:32–5:8
+next_start,-34,date gt @pentecost,I,,Monday of the Thirty Week in Ordinary Time,psalm,"Psalm 68:2, 4, 6–7ab, 20–21"
+next_start,-34,date gt @pentecost,II,,Monday of the Thirty Week in Ordinary Time,psalm,"Psalm 1:1–4, 6"
+next_start,-34,date gt @pentecost,,,Monday of the Thirty Week in Ordinary Time,gospel,Luke 13:10–17
+next_start,-33,date gt @pentecost,I,,Tuesday of the Thirty Week in Ordinary Time,ot,Romans 8:18–25
+next_start,-33,date gt @pentecost,II,,Tuesday of the Thirty Week in Ordinary Time,ot,Ephesians 5:21–33
+next_start,-33,date gt @pentecost,I,,Tuesday of the Thirty Week in Ordinary Time,psalm,Psalm 126:1b–6
+next_start,-33,date gt @pentecost,II,,Tuesday of the Thirty Week in Ordinary Time,psalm,Psalm 128:1–5
+next_start,-33,date gt @pentecost,,,Tuesday of the Thirty Week in Ordinary Time,gospel,Luke 13:18–21
+next_start,-32,date gt @pentecost,I,,Wednesday of the Thirty Week in Ordinary Time,ot,Romans 8:26–30
+next_start,-32,date gt @pentecost,II,,Wednesday of the Thirty Week in Ordinary Time,ot,Ephesians 6:1–9
+next_start,-32,date gt @pentecost,I,,Wednesday of the Thirty Week in Ordinary Time,psalm,Psalm 13:4–6
+next_start,-32,date gt @pentecost,II,,Wednesday of the Thirty Week in Ordinary Time,psalm,Psalm 145:10–14
+next_start,-32,date gt @pentecost,,,Wednesday of the Thirty Week in Ordinary Time,gospel,Luke 13:22–30
+next_start,-31,date gt @pentecost,I,,Thursday of the Thirty Week in Ordinary Time,ot,Romans 8:31b–39
+next_start,-31,date gt @pentecost,II,,Thursday of the Thirty Week in Ordinary Time,ot,Ephesians 6:10–20
+next_start,-31,date gt @pentecost,I,,Thursday of the Thirty Week in Ordinary Time,psalm,"Psalm 109:21–22, 26–27, 30–31"
+next_start,-31,date gt @pentecost,II,,Thursday of the Thirty Week in Ordinary Time,psalm,"Psalm 144:1b, 2, 9–10"
+next_start,-31,date gt @pentecost,,,Thursday of the Thirty Week in Ordinary Time,gospel,Luke 13:31–35
+next_start,-30,date gt @pentecost,I,,Friday of the Thirty Week in Ordinary Time,ot,Romans 9:1–5
+next_start,-30,date gt @pentecost,II,,Friday of the Thirty Week in Ordinary Time,ot,Philippians 1:1–11
+next_start,-30,date gt @pentecost,I,,Friday of the Thirty Week in Ordinary Time,psalm,"Psalm 147:12–15, 19–20"
+next_start,-30,date gt @pentecost,II,,Friday of the Thirty Week in Ordinary Time,psalm,Psalm 111:1–6
+next_start,-30,date gt @pentecost,,,Friday of the Thirty Week in Ordinary Time,gospel,Luke 14:1–6
+next_start,-29,date gt @pentecost,I,,Saturday of the Thirty Week in Ordinary Time,ot,"Romans 11:1–2a, 11–12, 25–29"
+next_start,-29,date gt @pentecost,II,,Saturday of the Thirty Week in Ordinary Time,ot,Philippians 1:18b–26
+next_start,-29,date gt @pentecost,I,,Saturday of the Thirty Week in Ordinary Time,psalm,"Psalm 94:12–13a, 14–15, 17–18"
+next_start,-29,date gt @pentecost,II,,Saturday of the Thirty Week in Ordinary Time,psalm,"Psalm 42:2–3, 5cdef"
+next_start,-29,date gt @pentecost,,,Saturday of the Thirty Week in Ordinary Time,gospel,"Luke 14:1, 7–11"
+next_start,-27,date gt @pentecost,I,,Monday of the Thirty-first Week in Ordinary Time,ot,Romans 11:29–36
+next_start,-27,date gt @pentecost,II,,Monday of the Thirty-first Week in Ordinary Time,ot,Philippians 2:1–4
+next_start,-27,date gt @pentecost,I,,Monday of the Thirty-first Week in Ordinary Time,psalm,"Psalm 69:30–31, 33–34, 36–37"
+next_start,-27,date gt @pentecost,II,,Monday of the Thirty-first Week in Ordinary Time,psalm,"Psalm 131:1bcde, 2–3"
+next_start,-27,date gt @pentecost,,,Monday of the Thirty-first Week in Ordinary Time,gospel,Luke 14:12–14
+next_start,-26,date gt @pentecost,I,,Tuesday of the Thirty-first Week in Ordinary Time,ot,Romans 12:5–16ab
+next_start,-26,date gt @pentecost,II,,Tuesday of the Thirty-first Week in Ordinary Time,ot,Philippians 2:5–11
+next_start,-26,date gt @pentecost,I,,Tuesday of the Thirty-first Week in Ordinary Time,psalm,"Psalm 131:1bcde, 2–3"
+next_start,-26,date gt @pentecost,II,,Tuesday of the Thirty-first Week in Ordinary Time,psalm,"Psalm 22:26b–30ab, 30e, 31–32"
+next_start,-26,date gt @pentecost,,,Tuesday of the Thirty-first Week in Ordinary Time,gospel,Luke 14:15–24
+next_start,-25,date gt @pentecost,I,,Wednesday of the Thirty-first Week in Ordinary Time,ot,Romans 13:8–10
+next_start,-25,date gt @pentecost,II,,Wednesday of the Thirty-first Week in Ordinary Time,ot,Philippians 2:12–18
+next_start,-25,date gt @pentecost,I,,Wednesday of the Thirty-first Week in Ordinary Time,psalm,"Psalm 112:1b–2, 4–5, 9"
+next_start,-25,date gt @pentecost,II,,Wednesday of the Thirty-first Week in Ordinary Time,psalm,"Psalm 27:1, 4, 13–14"
+next_start,-25,date gt @pentecost,,,Wednesday of the Thirty-first Week in Ordinary Time,gospel,Luke 14:25–33
+next_start,-24,date gt @pentecost,I,,Thursday of the Thirty-first Week in Ordinary Time,ot,Romans 14:7–12
+next_start,-24,date gt @pentecost,II,,Thursday of the Thirty-first Week in Ordinary Time,ot,Philippians 3:3–8a
+next_start,-24,date gt @pentecost,I,,Thursday of the Thirty-first Week in Ordinary Time,psalm,"Psalm 27:1bcde, 4, 13–14"
+next_start,-24,date gt @pentecost,II,,Thursday of the Thirty-first Week in Ordinary Time,psalm,Psalm 105:2–7
+next_start,-24,date gt @pentecost,,,Thursday of the Thirty-first Week in Ordinary Time,gospel,Luke 15:1–10
+next_start,-23,date gt @pentecost,I,,Friday of the Thirty-first Week in Ordinary Time,ot,Romans 15:14–21
+next_start,-23,date gt @pentecost,II,,Friday of the Thirty-first Week in Ordinary Time,ot,Philippians 3:17–4:1
+next_start,-23,date gt @pentecost,I,,Friday of the Thirty-first Week in Ordinary Time,psalm,Psalm 98:1–4
+next_start,-23,date gt @pentecost,II,,Friday of the Thirty-first Week in Ordinary Time,psalm,Psalm 122:1–5
+next_start,-23,date gt @pentecost,,,Friday of the Thirty-first Week in Ordinary Time,gospel,Luke 16:1–8
+next_start,-22,date gt @pentecost,I,,Saturday of the Thirty-first Week in Ordinary Time,ot,"Romans 16:3–9, 16, 22–27"
+next_start,-22,date gt @pentecost,II,,Saturday of the Thirty-first Week in Ordinary Time,ot,Philippians 4:10–19
+next_start,-22,date gt @pentecost,I,,Saturday of the Thirty-first Week in Ordinary Time,psalm,"Psalm 145:2–5, 10–11"
+next_start,-22,date gt @pentecost,II,,Saturday of the Thirty-first Week in Ordinary Time,psalm,"Psalm 112:1b–2, 5–6, 8a, 9"
+next_start,-22,date gt @pentecost,,,Saturday of the Thirty-first Week in Ordinary Time,gospel,Luke 16:9–15
+next_start,-20,date gt @pentecost,I,,Monday of the Thirty-second Week in Ordinary Time,ot,Wisdom 1:1–7
+next_start,-20,date gt @pentecost,II,,Monday of the Thirty-second Week in Ordinary Time,ot,Titus 1:1–9
+next_start,-20,date gt @pentecost,I,,Monday of the Thirty-second Week in Ordinary Time,psalm,Psalm 139:1b–10
+next_start,-20,date gt @pentecost,II,,Monday of the Thirty-second Week in Ordinary Time,psalm,"Psalm 24:1b–4ab, 5–6"
+next_start,-20,date gt @pentecost,,,Monday of the Thirty-second Week in Ordinary Time,gospel,Luke 17:1–6
+next_start,-19,date gt @pentecost,I,,Tuesday of the Thirty-second Week in Ordinary Time,ot,Wisdom 2:23–3:9
+next_start,-19,date gt @pentecost,II,,Tuesday of the Thirty-second Week in Ordinary Time,ot,"Titus 2:1–8, 11–14"
+next_start,-19,date gt @pentecost,I,,Tuesday of the Thirty-second Week in Ordinary Time,psalm,"Psalm 34:2–3, 16–19"
+next_start,-19,date gt @pentecost,II,,Tuesday of the Thirty-second Week in Ordinary Time,psalm,"Psalm 37:3–4, 18, 23, 27, 29"
+next_start,-19,date gt @pentecost,,,Tuesday of the Thirty-second Week in Ordinary Time,gospel,Luke 17:7–10
+next_start,-18,date gt @pentecost,I,,Wednesday of the Thirty-second Week in Ordinary Time,ot,Wisdom 6:1–11
+next_start,-18,date gt @pentecost,II,,Wednesday of the Thirty-second Week in Ordinary Time,ot,Titus 3:1–7
+next_start,-18,date gt @pentecost,I,,Wednesday of the Thirty-second Week in Ordinary Time,psalm,"Psalm 82:3–4, 6–7"
+next_start,-18,date gt @pentecost,II,,Wednesday of the Thirty-second Week in Ordinary Time,psalm,Psalm 23:1b–6
+next_start,-18,date gt @pentecost,,,Wednesday of the Thirty-second Week in Ordinary Time,gospel,Luke 17:11–19
+next_start,-17,date gt @pentecost,I,,Thursday of the Thirty-second Week in Ordinary Time,ot,Wisdom 7:22b–8:1
+next_start,-17,date gt @pentecost,II,,Thursday of the Thirty-second Week in Ordinary Time,ot,Philemon 7–20
+next_start,-17,date gt @pentecost,I,,Thursday of the Thirty-second Week in Ordinary Time,psalm,"Psalm 119:89–91, 130, 135, 175"
+next_start,-17,date gt @pentecost,II,,Thursday of the Thirty-second Week in Ordinary Time,psalm,Psalm 146:7–10
+next_start,-17,date gt @pentecost,,,Thursday of the Thirty-second Week in Ordinary Time,gospel,Luke 17:20–25
+next_start,-16,date gt @pentecost,I,,Friday of the Thirty-second Week in Ordinary Time,ot,Wisdom 13:1–9
+next_start,-16,date gt @pentecost,II,,Friday of the Thirty-second Week in Ordinary Time,ot,2 John 4–9
+next_start,-16,date gt @pentecost,I,,Friday of the Thirty-second Week in Ordinary Time,psalm,Psalm 19:2–5ab
+next_start,-16,date gt @pentecost,II,,Friday of the Thirty-second Week in Ordinary Time,psalm,"Psalm 119:1–2, 10–11, 17–18"
+next_start,-16,date gt @pentecost,,,Friday of the Thirty-second Week in Ordinary Time,gospel,Luke 17:26–37
+next_start,-15,date gt @pentecost,I,,Saturday of the Thirty-second Week in Ordinary Time,ot,Wisdom 18:14–16; 19:6–9
+next_start,-15,date gt @pentecost,II,,Saturday of the Thirty-second Week in Ordinary Time,ot,3 John 5–8
+next_start,-15,date gt @pentecost,I,,Saturday of the Thirty-second Week in Ordinary Time,psalm,"Psalm 105:2–3, 36–37, 42–43"
+next_start,-15,date gt @pentecost,II,,Saturday of the Thirty-second Week in Ordinary Time,psalm,Psalm 112:1–6
+next_start,-15,date gt @pentecost,,,Saturday of the Thirty-second Week in Ordinary Time,gospel,Luke 18:1–8
+next_start,-13,date gt @pentecost,I,,Monday of the Thirty-third Week in Ordinary Time,ot,"1 Maccabees 1:10–15, 41–43, 54–57, 62–63"
+next_start,-13,date gt @pentecost,II,,Monday of the Thirty-third Week in Ordinary Time,ot,Revelation 1:1–4; 2:1–5
+next_start,-13,date gt @pentecost,I,,Monday of the Thirty-third Week in Ordinary Time,psalm,"Psalm 119:53, 61, 134, 150, 155, 158"
+next_start,-13,date gt @pentecost,II,,Monday of the Thirty-third Week in Ordinary Time,psalm,"Psalm 1:1–4, 6"
+next_start,-13,date gt @pentecost,,,Monday of the Thirty-third Week in Ordinary Time,gospel,Luke 18:35–43
+next_start,-12,date gt @pentecost,I,,Tuesday of the Thirty-third Week in Ordinary Time,ot,2 Maccabees 6:18–31
+next_start,-12,date gt @pentecost,II,,Tuesday of the Thirty-third Week in Ordinary Time,ot,"Revelation 3:1–6, 14–22"
+next_start,-12,date gt @pentecost,I,,Tuesday of the Thirty-third Week in Ordinary Time,psalm,Psalm 3:2–7
+next_start,-12,date gt @pentecost,II,,Tuesday of the Thirty-third Week in Ordinary Time,psalm,"Psalm 15:2–4ab, 5"
+next_start,-12,date gt @pentecost,,,Tuesday of the Thirty-third Week in Ordinary Time,gospel,Luke 19:1–10
+next_start,-11,date gt @pentecost,I,,Wednesday of the Thirty-third Week in Ordinary Time,ot,"2 Maccabees 7:1, 20–31"
+next_start,-11,date gt @pentecost,II,,Wednesday of the Thirty-third Week in Ordinary Time,ot,Revelation 4:1–11
+next_start,-11,date gt @pentecost,I,,Wednesday of the Thirty-third Week in Ordinary Time,psalm,"Psalm 17:1bcd, 5–6, 8b, 15"
+next_start,-11,date gt @pentecost,II,,Wednesday of the Thirty-third Week in Ordinary Time,psalm,Psalm 150:1b–6
+next_start,-11,date gt @pentecost,,,Wednesday of the Thirty-third Week in Ordinary Time,gospel,Luke 19:11–28
+next_start,-10,date gt @pentecost,I,,Thursday of the Thirty-third Week in Ordinary Time,ot,1 Maccabees 2:15–29
+next_start,-10,date gt @pentecost,II,,Thursday of the Thirty-third Week in Ordinary Time,ot,Revelation 5:1–10
+next_start,-10,date gt @pentecost,I,,Thursday of the Thirty-third Week in Ordinary Time,psalm,"Psalm 50:1b–2, 5–6, 14–15"
+next_start,-10,date gt @pentecost,II,,Thursday of the Thirty-third Week in Ordinary Time,psalm,"Psalm 149:1b–6a, 9b"
+next_start,-10,date gt @pentecost,,,Thursday of the Thirty-third Week in Ordinary Time,gospel,Luke 19:41–44
+next_start,-9,date gt @pentecost,I,,Friday of the Thirty-third Week in Ordinary Time,ot,"1 Maccabees 4:36–37, 52–59"
+next_start,-9,date gt @pentecost,II,,Friday of the Thirty-third Week in Ordinary Time,ot,Revelation 10:8–11
+next_start,-9,date gt @pentecost,I,,Friday of the Thirty-third Week in Ordinary Time,psalm,"1 Chronicles 29:10bcd, 11–12bcd"
+next_start,-9,date gt @pentecost,II,,Friday of the Thirty-third Week in Ordinary Time,psalm,"Psalm 119:14, 24, 72, 103, 111, 131"
+next_start,-9,date gt @pentecost,,,Friday of the Thirty-third Week in Ordinary Time,gospel,Luke 19:45–48
+next_start,-8,date gt @pentecost,I,,Saturday of the Thirty-third Week in Ordinary Time,ot,1 Maccabees 6:1–13
+next_start,-8,date gt @pentecost,II,,Saturday of the Thirty-third Week in Ordinary Time,ot,Revelation 11:4–12
+next_start,-8,date gt @pentecost,I,,Saturday of the Thirty-third Week in Ordinary Time,psalm,"Psalm 9:2–4, 6, 16, 19"
+next_start,-8,date gt @pentecost,II,,Saturday of the Thirty-third Week in Ordinary Time,psalm,"Psalm 144:1–2, 9–10"
+next_start,-8,date gt @pentecost,,,Saturday of the Thirty-third Week in Ordinary Time,gospel,Luke 20:27–40
+next_start,-6,date gt @pentecost,I,,Monday of the Thirty-fourth Week in Ordinary Time,ot,"Daniel 1:1–6, 8–20"
+next_start,-6,date gt @pentecost,II,,Monday of the Thirty-fourth Week in Ordinary Time,ot,"Revelation 14:1–3, 4b–5"
+next_start,-6,date gt @pentecost,I,,Monday of the Thirty-fourth Week in Ordinary Time,psalm,Daniel 3:52–56
+next_start,-6,date gt @pentecost,II,,Monday of the Thirty-fourth Week in Ordinary Time,psalm,"Psalm 24:1bc–4ab, 5–6"
+next_start,-6,date gt @pentecost,,,Monday of the Thirty-fourth Week in Ordinary Time,gospel,Luke 21:1–4
+next_start,-5,date gt @pentecost,I,,Tuesday of the Thirty-fourth Week in Ordinary Time,ot,Daniel 2:31–45
+next_start,-5,date gt @pentecost,II,,Tuesday of the Thirty-fourth Week in Ordinary Time,ot,Revelation 14:14–19
+next_start,-5,date gt @pentecost,I,,Tuesday of the Thirty-fourth Week in Ordinary Time,psalm,Daniel 3:57–61
+next_start,-5,date gt @pentecost,II,,Tuesday of the Thirty-fourth Week in Ordinary Time,psalm,Psalm 96:10–13
+next_start,-5,date gt @pentecost,,,Tuesday of the Thirty-fourth Week in Ordinary Time,gospel,Luke 21:5–11
+next_start,-4,date gt @pentecost,I,,Wednesday of the Thirty-fourth Week in Ordinary Time,ot,"Daniel 5:1–6, 13–14, 16–17, 23–28"
+next_start,-4,date gt @pentecost,II,,Wednesday of the Thirty-fourth Week in Ordinary Time,ot,Revelation 15:1–4
+next_start,-4,date gt @pentecost,I,,Wednesday of the Thirty-fourth Week in Ordinary Time,psalm,Daniel 3:62–67
+next_start,-4,date gt @pentecost,II,,Wednesday of the Thirty-fourth Week in Ordinary Time,psalm,"Psalm 98:1–3ab, 7–9"
+next_start,-4,date gt @pentecost,,,Wednesday of the Thirty-fourth Week in Ordinary Time,gospel,Luke 21:12–19
+next_start,-3,date gt @pentecost,I,,Thursday of the Thirty-fourth Week in Ordinary Time,ot,Daniel 6:12–28
+next_start,-3,date gt @pentecost,II,,Thursday of the Thirty-fourth Week in Ordinary Time,ot,"Revelation 18:1–2, 21–23; 19:1–3, 9a"
+next_start,-3,date gt @pentecost,I,,Thursday of the Thirty-fourth Week in Ordinary Time,psalm,Daniel 3:68–74
+next_start,-3,date gt @pentecost,II,,Thursday of the Thirty-fourth Week in Ordinary Time,psalm,Psalm 100:1b–5
+next_start,-3,date gt @pentecost,,,Thursday of the Thirty-fourth Week in Ordinary Time,gospel,Luke 21:20–28
+next_start,-2,date gt @pentecost,I,,Friday of the Thirty-fourth Week in Ordinary Time,ot,Daniel 7:2–14
+next_start,-2,date gt @pentecost,II,,Friday of the Thirty-fourth Week in Ordinary Time,ot,"Revelation 20:1–4, 11–21:2"
+next_start,-2,date gt @pentecost,I,,Friday of the Thirty-fourth Week in Ordinary Time,psalm,Daniel 3:75–81
+next_start,-2,date gt @pentecost,II,,Friday of the Thirty-fourth Week in Ordinary Time,psalm,"Psalm 84:3–6a, 8a"
+next_start,-2,date gt @pentecost,,,Friday of the Thirty-fourth Week in Ordinary Time,gospel,Luke 21:29–33
+next_start,-1,date gt @pentecost,I,,Saturday of the Thirty-fourth Week in Ordinary Time,ot,Daniel 7:15–27
+next_start,-1,date gt @pentecost,II,,Saturday of the Thirty-fourth Week in Ordinary Time,ot,Revelation 22:1–7
+next_start,-1,date gt @pentecost,I,,Saturday of the Thirty-fourth Week in Ordinary Time,psalm,Daniel 3:82–87
+next_start,-1,date gt @pentecost,II,,Saturday of the Thirty-fourth Week in Ordinary Time,psalm,Psalm 95:1–7ab
+next_start,-1,date gt @pentecost,,,Saturday of the Thirty-fourth Week in Ordinary Time,gospel,Luke 21:34–36

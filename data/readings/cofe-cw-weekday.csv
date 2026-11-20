@@ -1,0 +1,1766 @@
+day,offset,when,cycle,variant,title,kind,reading
+# ===========================================================================
+# The Church of England's Daily Eucharistic Lectionary: Table 6 of the
+"# Common Worship Weekday Lectionary (2005, second impression 2010), read"
+# from the Church of England's PDF (October 2026).  A two-year cycle in
+"# Ordinary Time: cycle 1 and 2 (Year 1 begins with Advent 2026, 2028 ...;"
+"# 2025-26 is Year 2, as the table of lectionary years 2020-2045 gives it);"
+# rows with no cycle are the same in both years.  Advent 1 Monday's first
+# reading follows the Sunday year (A; B and C).  For the Common Worship
+"# calendar: `readings,cofe-cw cofe-cw-weekday` and `reading_cycle,abc; 1 2 2000`."
+# Keys: Advent and Lent by their Sundays (Advent 3 only before 17 Dec);
+"# 17-23 Dec, 29-31 Dec and 2-5 Jan by date (not on a Sunday; 24 Dec is the"
+# Christmas Eve service in cw.csv); 7-12 Jan until the Baptism; DEL Weeks
+# 1-9 from the Monday after the Baptism (the Sunday after 6 January) until
+# Ash Wednesday; the days after Ash Wednesday; the weeks of Easter (none
+# on Ascension Day); and after Pentecost the weeks by the dates of their
+# Sundays ("Wk beg 10-14 May" = the week of the Sunday 8-14 May) through
+# DEL Week 34.  Holy Week has no weekday provision (cw.csv gives it).  The
+"# readings that may replace the day's in the third, fourth and fifth weeks"
+"# of Lent are a set of their own, ""(alternative)""."
+"# Kinds by book: ot (Old Testament and Apocrypha), nt, psalm (with"
+"# canticles), gospel.  ""end"" (Isaiah 4:2-end) is kept as printed: the"
+# source gives no verse.  Misprints corrected from the parallel entry
+"# (DEL Weeks 6-9 are printed twice, before Lent and after Pentecost) or the"
+"# other year's column: Ps 6.31-6 (63.1-6), Mt 18.1-5.10 (18.1-5, 10)",
+"# Lk 14, 15-24, Mk 12; .28-34, ""Ps 116; 10-15"" and like semicolons inside"
+"# one reference, Rev 3.1-6, 14-31 (14-end), 1 Cor 12.31b-13.end (13.13)",
+"# Ezk 37.21-end (21-28).  ""Is 38.1-6, 21-22, 7-8 [sic]"" is kept in the"
+# printed order.  Small differences between the two printings of DEL
+# Weeks 7-9 (Mk 9.41-end / 41-50; James 4.13-end / 13-17; Ecclus
+"# 42.15-end / 15-25; Ecclus 51.12-20 / 12b-20a; Jude 17, 20-25 / 20-end;"
+"# Tob 1.1-2 / 1.1, 2) follow each printing."
+# ===========================================================================
+start,1,,A,,Daily Eucharistic Lectionary,ot,Isaiah 4:2–end
+start,1,,B,,Daily Eucharistic Lectionary,ot,Isaiah 2:1–5
+start,1,,C,,Daily Eucharistic Lectionary,ot,Isaiah 2:1–5
+start,1,,,,Daily Eucharistic Lectionary,psalm,Psalm 122
+start,1,,,,Daily Eucharistic Lectionary,gospel,Matthew 8:5–11
+start,2,,,,Daily Eucharistic Lectionary,ot,Isaiah 11:1–10
+start,2,,,,Daily Eucharistic Lectionary,psalm,"Psalm 72:1–4, 18–19"
+start,2,,,,Daily Eucharistic Lectionary,gospel,Luke 10:21–24
+start,3,,,,Daily Eucharistic Lectionary,ot,Isaiah 25:6–10a
+start,3,,,,Daily Eucharistic Lectionary,psalm,Psalm 23
+start,3,,,,Daily Eucharistic Lectionary,gospel,Matthew 15:29–37
+start,4,,,,Daily Eucharistic Lectionary,ot,Isaiah 26:1–6
+start,4,,,,Daily Eucharistic Lectionary,psalm,Psalm 118:18–27a
+start,4,,,,Daily Eucharistic Lectionary,gospel,"Matthew 7:21, 24–27"
+start,5,,,,Daily Eucharistic Lectionary,ot,Isaiah 29:17–end
+start,5,,,,Daily Eucharistic Lectionary,psalm,"Psalm 27:1–4, 16–17"
+start,5,,,,Daily Eucharistic Lectionary,gospel,Matthew 9:27–31
+start,6,,,,Daily Eucharistic Lectionary,ot,"Isaiah 30:19–21, 23–26"
+start,6,,,,Daily Eucharistic Lectionary,psalm,Psalm 146:4–9
+start,6,,,,Daily Eucharistic Lectionary,gospel,"Matthew 9:35–10:1, 6–8"
+start+7,1,,,,Daily Eucharistic Lectionary,ot,Isaiah 35
+start+7,1,,,,Daily Eucharistic Lectionary,psalm,Psalm 85:7–end
+start+7,1,,,,Daily Eucharistic Lectionary,gospel,Luke 5:17–26
+start+7,2,,,,Daily Eucharistic Lectionary,ot,Isaiah 40:1–11
+start+7,2,,,,Daily Eucharistic Lectionary,psalm,"Psalm 96:1, 10–end"
+start+7,2,,,,Daily Eucharistic Lectionary,gospel,Matthew 18:12–14
+start+7,3,,,,Daily Eucharistic Lectionary,ot,Isaiah 40:25–end
+start+7,3,,,,Daily Eucharistic Lectionary,psalm,Psalm 103:8–13
+start+7,3,,,,Daily Eucharistic Lectionary,gospel,Matthew 11:28–end
+start+7,4,,,,Daily Eucharistic Lectionary,ot,Isaiah 41:13–20
+start+7,4,,,,Daily Eucharistic Lectionary,psalm,"Psalm 145:1, 8–13"
+start+7,4,,,,Daily Eucharistic Lectionary,gospel,Matthew 11:11–15
+start+7,5,,,,Daily Eucharistic Lectionary,ot,Isaiah 48:17–19
+start+7,5,,,,Daily Eucharistic Lectionary,psalm,Psalm 1
+start+7,5,,,,Daily Eucharistic Lectionary,gospel,Matthew 11:16–19
+start+7,6,,,,Daily Eucharistic Lectionary,ot,"Ecclesiasticus 48:1–4, 9–11 or 2 Kings 2:9–12"
+start+7,6,,,,Daily Eucharistic Lectionary,psalm,"Psalm 80:1–4, 18–19"
+start+7,6,,,,Daily Eucharistic Lectionary,gospel,Matthew 17:10–13
+start+14,1,date lt 12-17,,,Daily Eucharistic Lectionary,ot,"Numbers 24:2–7, 15–17"
+start+14,1,date lt 12-17,,,Daily Eucharistic Lectionary,psalm,Psalm 25:3–8
+start+14,1,date lt 12-17,,,Daily Eucharistic Lectionary,gospel,Matthew 21:23–27
+start+14,2,date lt 12-17,,,Daily Eucharistic Lectionary,ot,"Zephaniah 3:1–2, 9–13"
+start+14,2,date lt 12-17,,,Daily Eucharistic Lectionary,psalm,"Psalm 34:1–6, 21–22"
+start+14,2,date lt 12-17,,,Daily Eucharistic Lectionary,gospel,Matthew 21:28–32
+start+14,3,date lt 12-17,,,Daily Eucharistic Lectionary,ot,"Isaiah 45:6b–8, 18, 21b–end"
+start+14,3,date lt 12-17,,,Daily Eucharistic Lectionary,psalm,Psalm 85:7–end
+start+14,3,date lt 12-17,,,Daily Eucharistic Lectionary,gospel,Luke 7:18b–23
+start+14,4,date lt 12-17,,,Daily Eucharistic Lectionary,ot,Isaiah 54:1–10
+start+14,4,date lt 12-17,,,Daily Eucharistic Lectionary,psalm,"Psalm 30:1–5, 11–end"
+start+14,4,date lt 12-17,,,Daily Eucharistic Lectionary,gospel,Luke 7:24–30
+start+14,5,date lt 12-17,,,Daily Eucharistic Lectionary,ot,"Isaiah 56:1–3a, 6–8"
+start+14,5,date lt 12-17,,,Daily Eucharistic Lectionary,psalm,Psalm 67
+start+14,5,date lt 12-17,,,Daily Eucharistic Lectionary,gospel,John 5:33–36
+12-17,,date nwd sun,,,Daily Eucharistic Lectionary,ot,"Genesis 49:2, 8–10"
+12-17,,date nwd sun,,,Daily Eucharistic Lectionary,psalm,"Psalm 72:1–5, 18–19"
+12-17,,date nwd sun,,,Daily Eucharistic Lectionary,gospel,Matthew 1:1–17
+12-18,,date nwd sun,,,Daily Eucharistic Lectionary,ot,Jeremiah 23:5–8
+12-18,,date nwd sun,,,Daily Eucharistic Lectionary,psalm,"Psalm 72:1–2, 12–13, 18–end"
+12-18,,date nwd sun,,,Daily Eucharistic Lectionary,gospel,Matthew 1:18–24
+12-19,,date nwd sun,,,Daily Eucharistic Lectionary,ot,"Judges 13:2–7, 24–end"
+12-19,,date nwd sun,,,Daily Eucharistic Lectionary,psalm,Psalm 71:3–8
+12-19,,date nwd sun,,,Daily Eucharistic Lectionary,gospel,Luke 1:5–25
+12-20,,date nwd sun,,,Daily Eucharistic Lectionary,ot,Isaiah 7:10–14
+12-20,,date nwd sun,,,Daily Eucharistic Lectionary,psalm,Psalm 24:1–6
+12-20,,date nwd sun,,,Daily Eucharistic Lectionary,gospel,Luke 1:26–38
+12-21,,date nwd sun,,,Daily Eucharistic Lectionary,ot,Zephaniah 3:14–18
+12-21,,date nwd sun,,,Daily Eucharistic Lectionary,psalm,"Psalm 33:1–4, 11–12, 20–end"
+12-21,,date nwd sun,,,Daily Eucharistic Lectionary,gospel,Luke 1:39–45
+12-22,,date nwd sun,,,Daily Eucharistic Lectionary,ot,1 Samuel 1:24–end
+12-22,,date nwd sun,,,Daily Eucharistic Lectionary,psalm,Psalm 113
+12-22,,date nwd sun,,,Daily Eucharistic Lectionary,gospel,Luke 1:46–56
+12-23,,date nwd sun,,,Daily Eucharistic Lectionary,ot,Malachi 3:1–4; 4:5–end
+12-23,,date nwd sun,,,Daily Eucharistic Lectionary,psalm,Psalm 25:3–9
+12-23,,date nwd sun,,,Daily Eucharistic Lectionary,gospel,Luke 1:57–66
+12-29,,date nwd sun,,,Daily Eucharistic Lectionary,nt,1 John 2:3–11
+12-29,,date nwd sun,,,Daily Eucharistic Lectionary,psalm,Psalm 96:1–4
+12-29,,date nwd sun,,,Daily Eucharistic Lectionary,gospel,Luke 2:22–35
+12-30,,date nwd sun,,,Daily Eucharistic Lectionary,nt,1 John 2:12–17
+12-30,,date nwd sun,,,Daily Eucharistic Lectionary,psalm,Psalm 96:7–10
+12-30,,date nwd sun,,,Daily Eucharistic Lectionary,gospel,Luke 2:36–40
+12-31,,date nwd sun,,,Daily Eucharistic Lectionary,nt,1 John 2:18–21
+12-31,,date nwd sun,,,Daily Eucharistic Lectionary,psalm,"Psalm 96:1, 11–end"
+12-31,,date nwd sun,,,Daily Eucharistic Lectionary,gospel,John 1:1–18
+01-02,,date nwd sun,,,Daily Eucharistic Lectionary,nt,1 John 2:22–28
+01-02,,date nwd sun,,,Daily Eucharistic Lectionary,psalm,Psalm 98:1–4
+01-02,,date nwd sun,,,Daily Eucharistic Lectionary,gospel,John 1:19–28
+01-03,,date nwd sun,,,Daily Eucharistic Lectionary,nt,1 John 2:29–3:6
+01-03,,date nwd sun,,,Daily Eucharistic Lectionary,psalm,Psalm 98:2–7
+01-03,,date nwd sun,,,Daily Eucharistic Lectionary,gospel,John 1:29–34
+01-04,,date nwd sun,,,Daily Eucharistic Lectionary,nt,1 John 3:7–10
+01-04,,date nwd sun,,,Daily Eucharistic Lectionary,psalm,"Psalm 98:1, 8–end"
+01-04,,date nwd sun,,,Daily Eucharistic Lectionary,gospel,John 1:35–42
+01-05,,date nwd sun,,,Daily Eucharistic Lectionary,nt,1 John 3:11–21
+01-05,,date nwd sun,,,Daily Eucharistic Lectionary,psalm,Psalm 100
+01-05,,date nwd sun,,,Daily Eucharistic Lectionary,gospel,John 1:43–end
+01-07,,date nwd sun & date lt sun>01-06,,,Daily Eucharistic Lectionary,nt,1 John 3:22–4:6
+01-07,,date nwd sun & date lt sun>01-06,,,Daily Eucharistic Lectionary,psalm,Psalm 2:7–end
+01-07,,date nwd sun & date lt sun>01-06,,,Daily Eucharistic Lectionary,gospel,"Matthew 4:12–17, 23–end"
+01-08,,date nwd sun & date lt sun>01-06,,,Daily Eucharistic Lectionary,nt,1 John 4:7–10
+01-08,,date nwd sun & date lt sun>01-06,,,Daily Eucharistic Lectionary,psalm,Psalm 72:1–8
+01-08,,date nwd sun & date lt sun>01-06,,,Daily Eucharistic Lectionary,gospel,Mark 6:34–44
+01-09,,date nwd sun & date lt sun>01-06,,,Daily Eucharistic Lectionary,nt,1 John 4:11–18
+01-09,,date nwd sun & date lt sun>01-06,,,Daily Eucharistic Lectionary,psalm,"Psalm 72:1, 10–13"
+01-09,,date nwd sun & date lt sun>01-06,,,Daily Eucharistic Lectionary,gospel,Mark 6:45–52
+01-10,,date nwd sun & date lt sun>01-06,,,Daily Eucharistic Lectionary,nt,1 John 4:19–5:4
+01-10,,date nwd sun & date lt sun>01-06,,,Daily Eucharistic Lectionary,psalm,"Psalm 72:1, 17–end"
+01-10,,date nwd sun & date lt sun>01-06,,,Daily Eucharistic Lectionary,gospel,Luke 4:14–22
+01-11,,date nwd sun & date lt sun>01-06,,,Daily Eucharistic Lectionary,nt,1 John 5:5–13
+01-11,,date nwd sun & date lt sun>01-06,,,Daily Eucharistic Lectionary,psalm,Psalm 147:13–end
+01-11,,date nwd sun & date lt sun>01-06,,,Daily Eucharistic Lectionary,gospel,Luke 5:12–16
+01-12,,date nwd sun & date lt sun>01-06,,,Daily Eucharistic Lectionary,nt,1 John 5:14–end
+01-12,,date nwd sun & date lt sun>01-06,,,Daily Eucharistic Lectionary,psalm,Psalm 149:1–5
+01-12,,date nwd sun & date lt sun>01-06,,,Daily Eucharistic Lectionary,gospel,John 3:22–30
+sun>01-06,1,date lt easter-46,1,,Daily Eucharistic Lectionary,nt,Hebrews 1:1–6
+sun>01-06,1,date lt easter-46,1,,Daily Eucharistic Lectionary,psalm,"Psalm 97:1–2, 6–10"
+sun>01-06,1,date lt easter-46,1,,Daily Eucharistic Lectionary,gospel,Mark 1:14–20
+sun>01-06,1,date lt easter-46,2,,Daily Eucharistic Lectionary,ot,1 Samuel 1:1–8
+sun>01-06,1,date lt easter-46,2,,Daily Eucharistic Lectionary,psalm,Psalm 116:10–15
+sun>01-06,1,date lt easter-46,2,,Daily Eucharistic Lectionary,gospel,Mark 1:14–20
+sun>01-06,2,date lt easter-46,1,,Daily Eucharistic Lectionary,nt,Hebrews 2:5–12
+sun>01-06,2,date lt easter-46,1,,Daily Eucharistic Lectionary,psalm,Psalm 8
+sun>01-06,2,date lt easter-46,1,,Daily Eucharistic Lectionary,gospel,Mark 1:21–28
+sun>01-06,2,date lt easter-46,2,,Daily Eucharistic Lectionary,ot,1 Samuel 1:9–20
+sun>01-06,2,date lt easter-46,2,,Daily Eucharistic Lectionary,psalm,"Canticle: 1 Samuel 2:1, 4–8 or Canticle: Magnificat"
+sun>01-06,2,date lt easter-46,2,,Daily Eucharistic Lectionary,gospel,Mark 1:21–28
+sun>01-06,3,date lt easter-46,1,,Daily Eucharistic Lectionary,nt,Hebrews 2:14–end
+sun>01-06,3,date lt easter-46,1,,Daily Eucharistic Lectionary,psalm,Psalm 105:1–9
+sun>01-06,3,date lt easter-46,1,,Daily Eucharistic Lectionary,gospel,Mark 1:29–39
+sun>01-06,3,date lt easter-46,2,,Daily Eucharistic Lectionary,ot,"1 Samuel 3:1–10, 19–20"
+sun>01-06,3,date lt easter-46,2,,Daily Eucharistic Lectionary,psalm,"Psalm 40:1–4, 7–10"
+sun>01-06,3,date lt easter-46,2,,Daily Eucharistic Lectionary,gospel,Mark 1:29–39
+sun>01-06,4,date lt easter-46,1,,Daily Eucharistic Lectionary,nt,Hebrews 3:7–14
+sun>01-06,4,date lt easter-46,1,,Daily Eucharistic Lectionary,psalm,"Psalm 95:1, 8–end"
+sun>01-06,4,date lt easter-46,1,,Daily Eucharistic Lectionary,gospel,Mark 1:40–end
+sun>01-06,4,date lt easter-46,2,,Daily Eucharistic Lectionary,ot,1 Samuel 4:1–11
+sun>01-06,4,date lt easter-46,2,,Daily Eucharistic Lectionary,psalm,"Psalm 44:10–15, 24–25"
+sun>01-06,4,date lt easter-46,2,,Daily Eucharistic Lectionary,gospel,Mark 1:40–end
+sun>01-06,5,date lt easter-46,1,,Daily Eucharistic Lectionary,nt,"Hebrews 4:1–5, 11"
+sun>01-06,5,date lt easter-46,1,,Daily Eucharistic Lectionary,psalm,Psalm 78:3–8
+sun>01-06,5,date lt easter-46,1,,Daily Eucharistic Lectionary,gospel,Mark 2:1–12
+sun>01-06,5,date lt easter-46,2,,Daily Eucharistic Lectionary,ot,"1 Samuel 8:4–7, 10–end"
+sun>01-06,5,date lt easter-46,2,,Daily Eucharistic Lectionary,psalm,Psalm 89:15–18
+sun>01-06,5,date lt easter-46,2,,Daily Eucharistic Lectionary,gospel,Mark 2:1–12
+sun>01-06,6,date lt easter-46,1,,Daily Eucharistic Lectionary,nt,Hebrews 4:12–end
+sun>01-06,6,date lt easter-46,1,,Daily Eucharistic Lectionary,psalm,Psalm 19:7–end
+sun>01-06,6,date lt easter-46,1,,Daily Eucharistic Lectionary,gospel,Mark 2:13–17
+sun>01-06,6,date lt easter-46,2,,Daily Eucharistic Lectionary,ot,"1 Samuel 9:1–4, 17–19; 10:1a"
+sun>01-06,6,date lt easter-46,2,,Daily Eucharistic Lectionary,psalm,Psalm 21:1–6
+sun>01-06,6,date lt easter-46,2,,Daily Eucharistic Lectionary,gospel,Mark 2:13–17
+sun>01-06+7,1,date lt easter-46,1,,Daily Eucharistic Lectionary,nt,Hebrews 5:1–10
+sun>01-06+7,1,date lt easter-46,1,,Daily Eucharistic Lectionary,psalm,Psalm 110:1–4
+sun>01-06+7,1,date lt easter-46,1,,Daily Eucharistic Lectionary,gospel,Mark 2:18–22
+sun>01-06+7,1,date lt easter-46,2,,Daily Eucharistic Lectionary,ot,1 Samuel 15:16–23
+sun>01-06+7,1,date lt easter-46,2,,Daily Eucharistic Lectionary,psalm,"Psalm 50:8–10, 16–17, 24"
+sun>01-06+7,1,date lt easter-46,2,,Daily Eucharistic Lectionary,gospel,Mark 2:18–22
+sun>01-06+7,2,date lt easter-46,1,,Daily Eucharistic Lectionary,nt,Hebrews 6:10–end
+sun>01-06+7,2,date lt easter-46,1,,Daily Eucharistic Lectionary,psalm,Psalm 111
+sun>01-06+7,2,date lt easter-46,1,,Daily Eucharistic Lectionary,gospel,Mark 2:23–end
+sun>01-06+7,2,date lt easter-46,2,,Daily Eucharistic Lectionary,ot,1 Samuel 16:1–13
+sun>01-06+7,2,date lt easter-46,2,,Daily Eucharistic Lectionary,psalm,Psalm 89:19–27
+sun>01-06+7,2,date lt easter-46,2,,Daily Eucharistic Lectionary,gospel,Mark 2:23–end
+sun>01-06+7,3,date lt easter-46,1,,Daily Eucharistic Lectionary,nt,"Hebrews 7:1–3, 15–17"
+sun>01-06+7,3,date lt easter-46,1,,Daily Eucharistic Lectionary,psalm,Psalm 110:1–4
+sun>01-06+7,3,date lt easter-46,1,,Daily Eucharistic Lectionary,gospel,Mark 3:1–6
+sun>01-06+7,3,date lt easter-46,2,,Daily Eucharistic Lectionary,ot,"1 Samuel 17:32–33, 37, 40–51"
+sun>01-06+7,3,date lt easter-46,2,,Daily Eucharistic Lectionary,psalm,"Psalm 144:1–2, 9–10"
+sun>01-06+7,3,date lt easter-46,2,,Daily Eucharistic Lectionary,gospel,Mark 3:1–6
+sun>01-06+7,4,date lt easter-46,1,,Daily Eucharistic Lectionary,nt,Hebrews 7:25–8:6
+sun>01-06+7,4,date lt easter-46,1,,Daily Eucharistic Lectionary,psalm,"Psalm 40:7–10, 17–end"
+sun>01-06+7,4,date lt easter-46,1,,Daily Eucharistic Lectionary,gospel,Mark 3:7–12
+sun>01-06+7,4,date lt easter-46,2,,Daily Eucharistic Lectionary,ot,1 Samuel 18:6–9; 19:1–7
+sun>01-06+7,4,date lt easter-46,2,,Daily Eucharistic Lectionary,psalm,"Psalm 56:1–2, 8–end"
+sun>01-06+7,4,date lt easter-46,2,,Daily Eucharistic Lectionary,gospel,Mark 3:7–12
+sun>01-06+7,5,date lt easter-46,1,,Daily Eucharistic Lectionary,nt,Hebrews 8:6–end
+sun>01-06+7,5,date lt easter-46,1,,Daily Eucharistic Lectionary,psalm,Psalm 85:7–end
+sun>01-06+7,5,date lt easter-46,1,,Daily Eucharistic Lectionary,gospel,Mark 3:13–19
+sun>01-06+7,5,date lt easter-46,2,,Daily Eucharistic Lectionary,ot,1 Samuel 24:3–22a
+sun>01-06+7,5,date lt easter-46,2,,Daily Eucharistic Lectionary,psalm,"Psalm 57:1–2, 8–end"
+sun>01-06+7,5,date lt easter-46,2,,Daily Eucharistic Lectionary,gospel,Mark 3:13–19
+sun>01-06+7,6,date lt easter-46,1,,Daily Eucharistic Lectionary,nt,"Hebrews 9:2–3, 11–14"
+sun>01-06+7,6,date lt easter-46,1,,Daily Eucharistic Lectionary,psalm,Psalm 47:1–8
+sun>01-06+7,6,date lt easter-46,1,,Daily Eucharistic Lectionary,gospel,Mark 3:20–21
+sun>01-06+7,6,date lt easter-46,2,,Daily Eucharistic Lectionary,ot,"2 Samuel 1:1–4, 11–12, 17–19, 23–end"
+sun>01-06+7,6,date lt easter-46,2,,Daily Eucharistic Lectionary,psalm,Psalm 80:1–6
+sun>01-06+7,6,date lt easter-46,2,,Daily Eucharistic Lectionary,gospel,Mark 3:20–21
+sun>01-06+14,1,date lt easter-46,1,,Daily Eucharistic Lectionary,nt,"Hebrews 9:15, 24–end"
+sun>01-06+14,1,date lt easter-46,1,,Daily Eucharistic Lectionary,psalm,Psalm 98:1–7
+sun>01-06+14,1,date lt easter-46,1,,Daily Eucharistic Lectionary,gospel,Mark 3:22–30
+sun>01-06+14,1,date lt easter-46,2,,Daily Eucharistic Lectionary,ot,"2 Samuel 5:1–7, 10"
+sun>01-06+14,1,date lt easter-46,2,,Daily Eucharistic Lectionary,psalm,Psalm 89:19–27
+sun>01-06+14,1,date lt easter-46,2,,Daily Eucharistic Lectionary,gospel,Mark 3:22–30
+sun>01-06+14,2,date lt easter-46,1,,Daily Eucharistic Lectionary,nt,Hebrews 10:1–10
+sun>01-06+14,2,date lt easter-46,1,,Daily Eucharistic Lectionary,psalm,"Psalm 40:1–4, 7–10"
+sun>01-06+14,2,date lt easter-46,1,,Daily Eucharistic Lectionary,gospel,Mark 3:31–35
+sun>01-06+14,2,date lt easter-46,2,,Daily Eucharistic Lectionary,ot,"2 Samuel 6:12–15, 17–19"
+sun>01-06+14,2,date lt easter-46,2,,Daily Eucharistic Lectionary,psalm,Psalm 24:7–end
+sun>01-06+14,2,date lt easter-46,2,,Daily Eucharistic Lectionary,gospel,Mark 3:31–end
+sun>01-06+14,3,date lt easter-46,1,,Daily Eucharistic Lectionary,nt,Hebrews 10:11–18
+sun>01-06+14,3,date lt easter-46,1,,Daily Eucharistic Lectionary,psalm,Psalm 110:1–4
+sun>01-06+14,3,date lt easter-46,1,,Daily Eucharistic Lectionary,gospel,Mark 4:1–20
+sun>01-06+14,3,date lt easter-46,2,,Daily Eucharistic Lectionary,ot,2 Samuel 7:4–17
+sun>01-06+14,3,date lt easter-46,2,,Daily Eucharistic Lectionary,psalm,Psalm 89:19–27
+sun>01-06+14,3,date lt easter-46,2,,Daily Eucharistic Lectionary,gospel,Mark 4:1–20
+sun>01-06+14,4,date lt easter-46,1,,Daily Eucharistic Lectionary,nt,Hebrews 10:19–25
+sun>01-06+14,4,date lt easter-46,1,,Daily Eucharistic Lectionary,psalm,Psalm 24:1–6
+sun>01-06+14,4,date lt easter-46,1,,Daily Eucharistic Lectionary,gospel,Mark 4:21–25
+sun>01-06+14,4,date lt easter-46,2,,Daily Eucharistic Lectionary,ot,"2 Samuel 7:18–19, 24–end"
+sun>01-06+14,4,date lt easter-46,2,,Daily Eucharistic Lectionary,psalm,"Psalm 132:1–5, 11–15"
+sun>01-06+14,4,date lt easter-46,2,,Daily Eucharistic Lectionary,gospel,Mark 4:21–25
+sun>01-06+14,5,date lt easter-46,1,,Daily Eucharistic Lectionary,nt,Hebrews 10:32–end
+sun>01-06+14,5,date lt easter-46,1,,Daily Eucharistic Lectionary,psalm,"Psalm 37:3–6, 40–end"
+sun>01-06+14,5,date lt easter-46,1,,Daily Eucharistic Lectionary,gospel,Mark 4:26–34
+sun>01-06+14,5,date lt easter-46,2,,Daily Eucharistic Lectionary,ot,"2 Samuel 11:1–10, 13–17"
+sun>01-06+14,5,date lt easter-46,2,,Daily Eucharistic Lectionary,psalm,"Psalm 51:1–6, 9"
+sun>01-06+14,5,date lt easter-46,2,,Daily Eucharistic Lectionary,gospel,Mark 4:26–34
+sun>01-06+14,6,date lt easter-46,1,,Daily Eucharistic Lectionary,nt,"Hebrews 11:1–2, 8–19"
+sun>01-06+14,6,date lt easter-46,1,,Daily Eucharistic Lectionary,psalm,Canticle: Luke 1:69–73
+sun>01-06+14,6,date lt easter-46,1,,Daily Eucharistic Lectionary,gospel,Mark 4:35–end
+sun>01-06+14,6,date lt easter-46,2,,Daily Eucharistic Lectionary,ot,"2 Samuel 12:1–7, 10–17"
+sun>01-06+14,6,date lt easter-46,2,,Daily Eucharistic Lectionary,psalm,Psalm 51:11–16
+sun>01-06+14,6,date lt easter-46,2,,Daily Eucharistic Lectionary,gospel,Mark 4:35–end
+sun>01-06+21,1,date lt easter-46,1,,Daily Eucharistic Lectionary,nt,Hebrews 11:32–end
+sun>01-06+21,1,date lt easter-46,1,,Daily Eucharistic Lectionary,psalm,Psalm 31:19–end
+sun>01-06+21,1,date lt easter-46,1,,Daily Eucharistic Lectionary,gospel,Mark 5:1–20
+sun>01-06+21,1,date lt easter-46,2,,Daily Eucharistic Lectionary,ot,"2 Samuel 15:13–14, 30; 16:5–13"
+sun>01-06+21,1,date lt easter-46,2,,Daily Eucharistic Lectionary,psalm,Psalm 3
+sun>01-06+21,1,date lt easter-46,2,,Daily Eucharistic Lectionary,gospel,Mark 5:1–20
+sun>01-06+21,2,date lt easter-46,1,,Daily Eucharistic Lectionary,nt,Hebrews 12:1–4
+sun>01-06+21,2,date lt easter-46,1,,Daily Eucharistic Lectionary,psalm,Psalm 22:25b–end
+sun>01-06+21,2,date lt easter-46,1,,Daily Eucharistic Lectionary,gospel,Mark 5:21–43
+sun>01-06+21,2,date lt easter-46,2,,Daily Eucharistic Lectionary,ot,"2 Samuel 18:9–10, 14, 24–25, 30–19:3"
+sun>01-06+21,2,date lt easter-46,2,,Daily Eucharistic Lectionary,psalm,Psalm 86:1–6
+sun>01-06+21,2,date lt easter-46,2,,Daily Eucharistic Lectionary,gospel,Mark 5:21–end
+sun>01-06+21,3,date lt easter-46,1,,Daily Eucharistic Lectionary,nt,"Hebrews 12:4–7, 11–15"
+sun>01-06+21,3,date lt easter-46,1,,Daily Eucharistic Lectionary,psalm,"Psalm 103:1–2, 13–18"
+sun>01-06+21,3,date lt easter-46,1,,Daily Eucharistic Lectionary,gospel,Mark 6:1–6
+sun>01-06+21,3,date lt easter-46,2,,Daily Eucharistic Lectionary,ot,"2 Samuel 24:2, 9–17"
+sun>01-06+21,3,date lt easter-46,2,,Daily Eucharistic Lectionary,psalm,Psalm 32:1–8
+sun>01-06+21,3,date lt easter-46,2,,Daily Eucharistic Lectionary,gospel,Mark 6:1–6a
+sun>01-06+21,4,date lt easter-46,1,,Daily Eucharistic Lectionary,nt,"Hebrews 12:18–19, 21–24"
+sun>01-06+21,4,date lt easter-46,1,,Daily Eucharistic Lectionary,psalm,"Psalm 48:1–3, 8–10"
+sun>01-06+21,4,date lt easter-46,1,,Daily Eucharistic Lectionary,gospel,Mark 6:7–13
+sun>01-06+21,4,date lt easter-46,2,,Daily Eucharistic Lectionary,ot,"1 Kings 2:1–4, 10–12"
+sun>01-06+21,4,date lt easter-46,2,,Daily Eucharistic Lectionary,psalm,Canticle: 1 Chronicles 29:10–12 or Psalm 145:1–5
+sun>01-06+21,4,date lt easter-46,2,,Daily Eucharistic Lectionary,gospel,Mark 6:7–13
+sun>01-06+21,5,date lt easter-46,1,,Daily Eucharistic Lectionary,nt,Hebrews 13:1–8
+sun>01-06+21,5,date lt easter-46,1,,Daily Eucharistic Lectionary,psalm,"Psalm 27:1–6, 9–12"
+sun>01-06+21,5,date lt easter-46,1,,Daily Eucharistic Lectionary,gospel,Mark 6:14–29
+sun>01-06+21,5,date lt easter-46,2,,Daily Eucharistic Lectionary,ot,Ecclesiasticus 47:2–11
+sun>01-06+21,5,date lt easter-46,2,,Daily Eucharistic Lectionary,psalm,"Psalm 18:31–36, 50–end"
+sun>01-06+21,5,date lt easter-46,2,,Daily Eucharistic Lectionary,gospel,Mark 6:14–29
+sun>01-06+21,6,date lt easter-46,1,,Daily Eucharistic Lectionary,nt,"Hebrews 13:15–17, 20–21"
+sun>01-06+21,6,date lt easter-46,1,,Daily Eucharistic Lectionary,psalm,Psalm 23
+sun>01-06+21,6,date lt easter-46,1,,Daily Eucharistic Lectionary,gospel,Mark 6:30–34
+sun>01-06+21,6,date lt easter-46,2,,Daily Eucharistic Lectionary,ot,1 Kings 3:4–13
+sun>01-06+21,6,date lt easter-46,2,,Daily Eucharistic Lectionary,psalm,Psalm 119:9–16
+sun>01-06+21,6,date lt easter-46,2,,Daily Eucharistic Lectionary,gospel,Mark 6:30–34
+sun>01-06+28,1,date lt easter-46,1,,Daily Eucharistic Lectionary,ot,Genesis 1:1–19
+sun>01-06+28,1,date lt easter-46,1,,Daily Eucharistic Lectionary,psalm,"Psalm 104:1, 2, 6–13, 26"
+sun>01-06+28,1,date lt easter-46,1,,Daily Eucharistic Lectionary,gospel,Mark 6:53–end
+sun>01-06+28,1,date lt easter-46,2,,Daily Eucharistic Lectionary,ot,"1 Kings 8:1–7, 9–13"
+sun>01-06+28,1,date lt easter-46,2,,Daily Eucharistic Lectionary,psalm,Psalm 132:1–9
+sun>01-06+28,1,date lt easter-46,2,,Daily Eucharistic Lectionary,gospel,Mark 6:53–end
+sun>01-06+28,2,date lt easter-46,1,,Daily Eucharistic Lectionary,ot,Genesis 1:20–2:4a
+sun>01-06+28,2,date lt easter-46,1,,Daily Eucharistic Lectionary,psalm,Psalm 8
+sun>01-06+28,2,date lt easter-46,1,,Daily Eucharistic Lectionary,gospel,Mark 7:1–13
+sun>01-06+28,2,date lt easter-46,2,,Daily Eucharistic Lectionary,ot,"1 Kings 8:22–23, 27–30"
+sun>01-06+28,2,date lt easter-46,2,,Daily Eucharistic Lectionary,psalm,Psalm 84:1–10
+sun>01-06+28,2,date lt easter-46,2,,Daily Eucharistic Lectionary,gospel,Mark 7:1–13
+sun>01-06+28,3,date lt easter-46,1,,Daily Eucharistic Lectionary,ot,"Genesis 2:4b–9, 15–17"
+sun>01-06+28,3,date lt easter-46,1,,Daily Eucharistic Lectionary,psalm,"Psalm 104:11–12, 29–32"
+sun>01-06+28,3,date lt easter-46,1,,Daily Eucharistic Lectionary,gospel,Mark 7:14–23
+sun>01-06+28,3,date lt easter-46,2,,Daily Eucharistic Lectionary,ot,1 Kings 10:1–10
+sun>01-06+28,3,date lt easter-46,2,,Daily Eucharistic Lectionary,psalm,"Psalm 37:3–6, 30–32"
+sun>01-06+28,3,date lt easter-46,2,,Daily Eucharistic Lectionary,gospel,Mark 7:14–23
+sun>01-06+28,4,date lt easter-46,1,,Daily Eucharistic Lectionary,ot,Genesis 2:18–end
+sun>01-06+28,4,date lt easter-46,1,,Daily Eucharistic Lectionary,psalm,Psalm 128
+sun>01-06+28,4,date lt easter-46,1,,Daily Eucharistic Lectionary,gospel,Mark 7:24–30
+sun>01-06+28,4,date lt easter-46,2,,Daily Eucharistic Lectionary,ot,1 Kings 11:4–13
+sun>01-06+28,4,date lt easter-46,2,,Daily Eucharistic Lectionary,psalm,"Psalm 106:3, 35–41"
+sun>01-06+28,4,date lt easter-46,2,,Daily Eucharistic Lectionary,gospel,Mark 7:24–30
+sun>01-06+28,5,date lt easter-46,1,,Daily Eucharistic Lectionary,ot,Genesis 3:1–8
+sun>01-06+28,5,date lt easter-46,1,,Daily Eucharistic Lectionary,psalm,Psalm 32:1–8
+sun>01-06+28,5,date lt easter-46,1,,Daily Eucharistic Lectionary,gospel,Mark 7:31–end
+sun>01-06+28,5,date lt easter-46,2,,Daily Eucharistic Lectionary,ot,1 Kings 11:29–32; 12:19
+sun>01-06+28,5,date lt easter-46,2,,Daily Eucharistic Lectionary,psalm,Psalm 81:8–14
+sun>01-06+28,5,date lt easter-46,2,,Daily Eucharistic Lectionary,gospel,Mark 7:31–end
+sun>01-06+28,6,date lt easter-46,1,,Daily Eucharistic Lectionary,ot,Genesis 3:9–end
+sun>01-06+28,6,date lt easter-46,1,,Daily Eucharistic Lectionary,psalm,Psalm 90:1–12
+sun>01-06+28,6,date lt easter-46,1,,Daily Eucharistic Lectionary,gospel,Mark 8:1–10
+sun>01-06+28,6,date lt easter-46,2,,Daily Eucharistic Lectionary,ot,1 Kings 12:26–32; 13:33–end
+sun>01-06+28,6,date lt easter-46,2,,Daily Eucharistic Lectionary,psalm,"Psalm 106:6–7, 20–23"
+sun>01-06+28,6,date lt easter-46,2,,Daily Eucharistic Lectionary,gospel,Mark 8:1–10
+sun>01-06+35,1,date lt easter-46,1,,Daily Eucharistic Lectionary,ot,"Genesis 4:1–15, 25"
+sun>01-06+35,1,date lt easter-46,1,,Daily Eucharistic Lectionary,psalm,"Psalm 50:1, 8, 16–end"
+sun>01-06+35,1,date lt easter-46,1,,Daily Eucharistic Lectionary,gospel,Mark 8:11–13
+sun>01-06+35,1,date lt easter-46,2,,Daily Eucharistic Lectionary,nt,James 1:1–11
+sun>01-06+35,1,date lt easter-46,2,,Daily Eucharistic Lectionary,psalm,Psalm 119:65–72
+sun>01-06+35,1,date lt easter-46,2,,Daily Eucharistic Lectionary,gospel,Mark 8:11–13
+sun>01-06+35,2,date lt easter-46,1,,Daily Eucharistic Lectionary,ot,"Genesis 6:5–8; 7:1–5, 10"
+sun>01-06+35,2,date lt easter-46,1,,Daily Eucharistic Lectionary,psalm,Psalm 29
+sun>01-06+35,2,date lt easter-46,1,,Daily Eucharistic Lectionary,gospel,Mark 8:14–21
+sun>01-06+35,2,date lt easter-46,2,,Daily Eucharistic Lectionary,nt,James 1:12–18
+sun>01-06+35,2,date lt easter-46,2,,Daily Eucharistic Lectionary,psalm,Psalm 94:12–18
+sun>01-06+35,2,date lt easter-46,2,,Daily Eucharistic Lectionary,gospel,Mark 8:14–21
+sun>01-06+35,3,date lt easter-46,1,,Daily Eucharistic Lectionary,ot,"Genesis 8:6–13, 20–end"
+sun>01-06+35,3,date lt easter-46,1,,Daily Eucharistic Lectionary,psalm,Psalm 116:10–end
+sun>01-06+35,3,date lt easter-46,1,,Daily Eucharistic Lectionary,gospel,Mark 8:22–26
+sun>01-06+35,3,date lt easter-46,2,,Daily Eucharistic Lectionary,nt,James 1:19–end
+sun>01-06+35,3,date lt easter-46,2,,Daily Eucharistic Lectionary,psalm,Psalm 15
+sun>01-06+35,3,date lt easter-46,2,,Daily Eucharistic Lectionary,gospel,Mark 8:22–26
+sun>01-06+35,4,date lt easter-46,1,,Daily Eucharistic Lectionary,ot,Genesis 9:1–13
+sun>01-06+35,4,date lt easter-46,1,,Daily Eucharistic Lectionary,psalm,Psalm 102:16–23
+sun>01-06+35,4,date lt easter-46,1,,Daily Eucharistic Lectionary,gospel,Mark 8:27–33
+sun>01-06+35,4,date lt easter-46,2,,Daily Eucharistic Lectionary,nt,James 2:1–9
+sun>01-06+35,4,date lt easter-46,2,,Daily Eucharistic Lectionary,psalm,Psalm 34:1–7
+sun>01-06+35,4,date lt easter-46,2,,Daily Eucharistic Lectionary,gospel,Mark 8:27–33
+sun>01-06+35,5,date lt easter-46,1,,Daily Eucharistic Lectionary,ot,Genesis 11:1–9
+sun>01-06+35,5,date lt easter-46,1,,Daily Eucharistic Lectionary,psalm,Psalm 33:10–15
+sun>01-06+35,5,date lt easter-46,1,,Daily Eucharistic Lectionary,gospel,Mark 8:34–9:1
+sun>01-06+35,5,date lt easter-46,2,,Daily Eucharistic Lectionary,nt,"James 2:14–24, 26"
+sun>01-06+35,5,date lt easter-46,2,,Daily Eucharistic Lectionary,psalm,Psalm 112
+sun>01-06+35,5,date lt easter-46,2,,Daily Eucharistic Lectionary,gospel,Mark 8:34–9:1
+sun>01-06+35,6,date lt easter-46,1,,Daily Eucharistic Lectionary,nt,Hebrews 11:1–7
+sun>01-06+35,6,date lt easter-46,1,,Daily Eucharistic Lectionary,psalm,Psalm 145:1–10
+sun>01-06+35,6,date lt easter-46,1,,Daily Eucharistic Lectionary,gospel,Mark 9:2–13
+sun>01-06+35,6,date lt easter-46,2,,Daily Eucharistic Lectionary,nt,James 3:1–10
+sun>01-06+35,6,date lt easter-46,2,,Daily Eucharistic Lectionary,psalm,Psalm 12:1–7
+sun>01-06+35,6,date lt easter-46,2,,Daily Eucharistic Lectionary,gospel,Mark 9:2–13
+sun>01-06+42,1,date lt easter-46,1,,Daily Eucharistic Lectionary,ot,Ecclesiasticus 1:1–10 or James 1:1–11
+sun>01-06+42,1,date lt easter-46,1,,Daily Eucharistic Lectionary,psalm,Psalm 93 or Psalm 119:65–72
+sun>01-06+42,1,date lt easter-46,1,,Daily Eucharistic Lectionary,gospel,Mark 9:14–29
+sun>01-06+42,1,date lt easter-46,2,,Daily Eucharistic Lectionary,nt,James 3:13–end
+sun>01-06+42,1,date lt easter-46,2,,Daily Eucharistic Lectionary,psalm,Psalm 19:7–end
+sun>01-06+42,1,date lt easter-46,2,,Daily Eucharistic Lectionary,gospel,Mark 9:14–29
+sun>01-06+42,2,date lt easter-46,1,,Daily Eucharistic Lectionary,ot,Ecclesiasticus 2:1–11 or James 1:12–18
+sun>01-06+42,2,date lt easter-46,1,,Daily Eucharistic Lectionary,psalm,"Psalm 37:3–6, 27–28 or Psalm 94:12–18"
+sun>01-06+42,2,date lt easter-46,1,,Daily Eucharistic Lectionary,gospel,Mark 9:30–37
+sun>01-06+42,2,date lt easter-46,2,,Daily Eucharistic Lectionary,nt,James 4:1–10
+sun>01-06+42,2,date lt easter-46,2,,Daily Eucharistic Lectionary,psalm,"Psalm 55:7–9, 24"
+sun>01-06+42,2,date lt easter-46,2,,Daily Eucharistic Lectionary,gospel,Mark 9:30–37
+sun>01-06+42,3,date lt easter-46,1,,Daily Eucharistic Lectionary,ot,Ecclesiasticus 4:11–19 or James 1:19–end
+sun>01-06+42,3,date lt easter-46,1,,Daily Eucharistic Lectionary,psalm,Psalm 119:161–168 or Psalm 15
+sun>01-06+42,3,date lt easter-46,1,,Daily Eucharistic Lectionary,gospel,Mark 9:38–40
+sun>01-06+42,3,date lt easter-46,2,,Daily Eucharistic Lectionary,nt,James 4:13–end
+sun>01-06+42,3,date lt easter-46,2,,Daily Eucharistic Lectionary,psalm,"Psalm 49:1–2, 5–10"
+sun>01-06+42,3,date lt easter-46,2,,Daily Eucharistic Lectionary,gospel,Mark 9:38–40
+sun>01-06+42,4,date lt easter-46,1,,Daily Eucharistic Lectionary,ot,Ecclesiasticus 5:1–8 or James 2:1–9
+sun>01-06+42,4,date lt easter-46,1,,Daily Eucharistic Lectionary,psalm,Psalm 1 or Psalm 34:1–7
+sun>01-06+42,4,date lt easter-46,1,,Daily Eucharistic Lectionary,gospel,Mark 9:41–end
+sun>01-06+42,4,date lt easter-46,2,,Daily Eucharistic Lectionary,nt,James 5:1–6
+sun>01-06+42,4,date lt easter-46,2,,Daily Eucharistic Lectionary,psalm,Psalm 49:12–20
+sun>01-06+42,4,date lt easter-46,2,,Daily Eucharistic Lectionary,gospel,Mark 9:41–end
+sun>01-06+42,5,date lt easter-46,1,,Daily Eucharistic Lectionary,ot,"Ecclesiasticus 6:5–17 or James 2:14–24, 26"
+sun>01-06+42,5,date lt easter-46,1,,Daily Eucharistic Lectionary,psalm,Psalm 119:19–24 or Psalm 112
+sun>01-06+42,5,date lt easter-46,1,,Daily Eucharistic Lectionary,gospel,Mark 10:1–12
+sun>01-06+42,5,date lt easter-46,2,,Daily Eucharistic Lectionary,nt,James 5:9–12
+sun>01-06+42,5,date lt easter-46,2,,Daily Eucharistic Lectionary,psalm,"Psalm 103:1–4, 8–13"
+sun>01-06+42,5,date lt easter-46,2,,Daily Eucharistic Lectionary,gospel,Mark 10:1–12
+sun>01-06+42,6,date lt easter-46,1,,Daily Eucharistic Lectionary,ot,Ecclesiasticus 17:1–15 or James 3:1–10
+sun>01-06+42,6,date lt easter-46,1,,Daily Eucharistic Lectionary,psalm,Psalm 103:13–18 or Psalm 12:1–7
+sun>01-06+42,6,date lt easter-46,1,,Daily Eucharistic Lectionary,gospel,Mark 10:13–16
+sun>01-06+42,6,date lt easter-46,2,,Daily Eucharistic Lectionary,nt,James 5:13–end
+sun>01-06+42,6,date lt easter-46,2,,Daily Eucharistic Lectionary,psalm,Psalm 141:1–4
+sun>01-06+42,6,date lt easter-46,2,,Daily Eucharistic Lectionary,gospel,Mark 10:13–16
+sun>01-06+49,1,date lt easter-46,1,,Daily Eucharistic Lectionary,ot,Ecclesiasticus 17:24–29 or James 3:13–end
+sun>01-06+49,1,date lt easter-46,1,,Daily Eucharistic Lectionary,psalm,Psalm 32:1–8 or Psalm 19:7–end
+sun>01-06+49,1,date lt easter-46,1,,Daily Eucharistic Lectionary,gospel,Mark 10:17–27
+sun>01-06+49,1,date lt easter-46,2,,Daily Eucharistic Lectionary,nt,1 Peter 1:3–9
+sun>01-06+49,1,date lt easter-46,2,,Daily Eucharistic Lectionary,psalm,Psalm 111
+sun>01-06+49,1,date lt easter-46,2,,Daily Eucharistic Lectionary,gospel,Mark 10:17–27
+sun>01-06+49,2,date lt easter-46,1,,Daily Eucharistic Lectionary,ot,Ecclesiasticus 35:1–12 or James 4:1–10
+sun>01-06+49,2,date lt easter-46,1,,Daily Eucharistic Lectionary,psalm,"Psalm 50:1–6 or Psalm 55:7–9, 24"
+sun>01-06+49,2,date lt easter-46,1,,Daily Eucharistic Lectionary,gospel,Mark 10:28–31
+sun>01-06+49,2,date lt easter-46,2,,Daily Eucharistic Lectionary,nt,1 Peter 1:10–16
+sun>01-06+49,2,date lt easter-46,2,,Daily Eucharistic Lectionary,psalm,Psalm 98:1–5
+sun>01-06+49,2,date lt easter-46,2,,Daily Eucharistic Lectionary,gospel,Mark 10:28–31
+sun>01-06+49,3,date lt easter-46,1,,Daily Eucharistic Lectionary,ot,"Ecclesiasticus 36:1–2, 4–5, 10–17 or James 4:13–end"
+sun>01-06+49,3,date lt easter-46,1,,Daily Eucharistic Lectionary,psalm,"Psalm 79:8–9, 12, 14 or Psalm 49:1–2, 5–10"
+sun>01-06+49,3,date lt easter-46,1,,Daily Eucharistic Lectionary,gospel,Mark 10:32–45
+sun>01-06+49,3,date lt easter-46,2,,Daily Eucharistic Lectionary,nt,1 Peter 1:18–end
+sun>01-06+49,3,date lt easter-46,2,,Daily Eucharistic Lectionary,psalm,Psalm 147:13–end
+sun>01-06+49,3,date lt easter-46,2,,Daily Eucharistic Lectionary,gospel,Mark 10:32–45
+sun>01-06+49,4,date lt easter-46,1,,Daily Eucharistic Lectionary,ot,Ecclesiasticus 42:15–end or James 5:1–6
+sun>01-06+49,4,date lt easter-46,1,,Daily Eucharistic Lectionary,psalm,Psalm 33:1–9 or Psalm 49:12–20
+sun>01-06+49,4,date lt easter-46,1,,Daily Eucharistic Lectionary,gospel,Mark 10:46–end
+sun>01-06+49,4,date lt easter-46,2,,Daily Eucharistic Lectionary,nt,"1 Peter 2:2–5, 9–12"
+sun>01-06+49,4,date lt easter-46,2,,Daily Eucharistic Lectionary,psalm,Psalm 100
+sun>01-06+49,4,date lt easter-46,2,,Daily Eucharistic Lectionary,gospel,Mark 10:46–end
+sun>01-06+49,5,date lt easter-46,1,,Daily Eucharistic Lectionary,ot,"Ecclesiasticus 44:1, 9–13 or James 5:9–12"
+sun>01-06+49,5,date lt easter-46,1,,Daily Eucharistic Lectionary,psalm,"Psalm 149:1–5 or Psalm 103:1–4, 8–13"
+sun>01-06+49,5,date lt easter-46,1,,Daily Eucharistic Lectionary,gospel,Mark 11:11–26
+sun>01-06+49,5,date lt easter-46,2,,Daily Eucharistic Lectionary,nt,1 Peter 4:7–13
+sun>01-06+49,5,date lt easter-46,2,,Daily Eucharistic Lectionary,psalm,Psalm 96:10–end
+sun>01-06+49,5,date lt easter-46,2,,Daily Eucharistic Lectionary,gospel,Mark 11:11–26
+sun>01-06+49,6,date lt easter-46,1,,Daily Eucharistic Lectionary,ot,Ecclesiasticus 51:12–20 or James 5:13–end
+sun>01-06+49,6,date lt easter-46,1,,Daily Eucharistic Lectionary,psalm,Psalm 19:7–end or Psalm 141:1–4
+sun>01-06+49,6,date lt easter-46,1,,Daily Eucharistic Lectionary,gospel,Mark 11:27–end
+sun>01-06+49,6,date lt easter-46,2,,Daily Eucharistic Lectionary,nt,"Jude 17, 20–25"
+sun>01-06+49,6,date lt easter-46,2,,Daily Eucharistic Lectionary,psalm,Psalm 63:1–6
+sun>01-06+49,6,date lt easter-46,2,,Daily Eucharistic Lectionary,gospel,Mark 11:27–end
+sun>01-06+56,1,date lt easter-46,1,,Daily Eucharistic Lectionary,ot,Tobit 1:1–2; 2:1–8 or 1 Peter 1:3–9
+sun>01-06+56,1,date lt easter-46,1,,Daily Eucharistic Lectionary,psalm,Psalm 15 or Psalm 111
+sun>01-06+56,1,date lt easter-46,1,,Daily Eucharistic Lectionary,gospel,Mark 12:1–12
+sun>01-06+56,1,date lt easter-46,2,,Daily Eucharistic Lectionary,nt,2 Peter 1:2–7
+sun>01-06+56,1,date lt easter-46,2,,Daily Eucharistic Lectionary,psalm,"Psalm 91:1–2, 14–end"
+sun>01-06+56,1,date lt easter-46,2,,Daily Eucharistic Lectionary,gospel,Mark 12:1–12
+sun>01-06+56,2,date lt easter-46,1,,Daily Eucharistic Lectionary,ot,Tobit 2:9–end or 1 Peter 1:10–16
+sun>01-06+56,2,date lt easter-46,1,,Daily Eucharistic Lectionary,psalm,Psalm 112 or Psalm 98:1–5
+sun>01-06+56,2,date lt easter-46,1,,Daily Eucharistic Lectionary,gospel,Mark 12:13–17
+sun>01-06+56,2,date lt easter-46,2,,Daily Eucharistic Lectionary,nt,"2 Peter 3:11–15a, 17–end"
+sun>01-06+56,2,date lt easter-46,2,,Daily Eucharistic Lectionary,psalm,"Psalm 90:1–4, 10, 14, 16"
+sun>01-06+56,2,date lt easter-46,2,,Daily Eucharistic Lectionary,gospel,Mark 12:13–17
+easter-46,1,,,,Daily Eucharistic Lectionary,ot,Deuteronomy 30:15–end
+easter-46,1,,,,Daily Eucharistic Lectionary,psalm,Psalm 1
+easter-46,1,,,,Daily Eucharistic Lectionary,gospel,Luke 9:22–25
+easter-46,2,,,,Daily Eucharistic Lectionary,ot,Isaiah 58:1–9a
+easter-46,2,,,,Daily Eucharistic Lectionary,psalm,"Psalm 51:1–5, 17–18"
+easter-46,2,,,,Daily Eucharistic Lectionary,gospel,Matthew 9:14–15
+easter-46,3,,,,Daily Eucharistic Lectionary,ot,Isaiah 58:9b–end
+easter-46,3,,,,Daily Eucharistic Lectionary,psalm,Psalm 86:1–7
+easter-46,3,,,,Daily Eucharistic Lectionary,gospel,Luke 5:27–32
+easter-42,1,,,,Daily Eucharistic Lectionary,ot,"Leviticus 19:1–2, 11–18"
+easter-42,1,,,,Daily Eucharistic Lectionary,psalm,Psalm 19:7–end
+easter-42,1,,,,Daily Eucharistic Lectionary,gospel,Matthew 25:31–end
+easter-42,2,,,,Daily Eucharistic Lectionary,ot,Isaiah 55:10–11
+easter-42,2,,,,Daily Eucharistic Lectionary,psalm,"Psalm 34:4–6, 21–22"
+easter-42,2,,,,Daily Eucharistic Lectionary,gospel,Matthew 6:7–15
+easter-42,3,,,,Daily Eucharistic Lectionary,ot,Jonah 3
+easter-42,3,,,,Daily Eucharistic Lectionary,psalm,"Psalm 51:1–5, 17–18"
+easter-42,3,,,,Daily Eucharistic Lectionary,gospel,Luke 11:29–32
+easter-42,4,,,,Daily Eucharistic Lectionary,ot,"Esther 14:1–5, 12–14 or Isaiah 55:6–9"
+easter-42,4,,,,Daily Eucharistic Lectionary,psalm,Psalm 138
+easter-42,4,,,,Daily Eucharistic Lectionary,gospel,Matthew 7:7–12
+easter-42,5,,,,Daily Eucharistic Lectionary,ot,Ezekiel 18:21–28
+easter-42,5,,,,Daily Eucharistic Lectionary,psalm,Psalm 130
+easter-42,5,,,,Daily Eucharistic Lectionary,gospel,Matthew 5:20–26
+easter-42,6,,,,Daily Eucharistic Lectionary,ot,Deuteronomy 26:16–end
+easter-42,6,,,,Daily Eucharistic Lectionary,psalm,Psalm 119:1–8
+easter-42,6,,,,Daily Eucharistic Lectionary,gospel,Matthew 5:43–end
+easter-35,1,,,,Daily Eucharistic Lectionary,ot,Daniel 9:4–10
+easter-35,1,,,,Daily Eucharistic Lectionary,psalm,"Psalm 79:8–9, 12, 14"
+easter-35,1,,,,Daily Eucharistic Lectionary,gospel,Luke 6:36–38
+easter-35,2,,,,Daily Eucharistic Lectionary,ot,"Isaiah 1:10, 16–20"
+easter-35,2,,,,Daily Eucharistic Lectionary,psalm,"Psalm 50:8, 16–end"
+easter-35,2,,,,Daily Eucharistic Lectionary,gospel,Matthew 23:1–12
+easter-35,3,,,,Daily Eucharistic Lectionary,ot,Jeremiah 18:18–20
+easter-35,3,,,,Daily Eucharistic Lectionary,psalm,"Psalm 31:4–5, 14–18"
+easter-35,3,,,,Daily Eucharistic Lectionary,gospel,Matthew 20:17–28
+easter-35,4,,,,Daily Eucharistic Lectionary,ot,Jeremiah 17:5–10
+easter-35,4,,,,Daily Eucharistic Lectionary,psalm,Psalm 1
+easter-35,4,,,,Daily Eucharistic Lectionary,gospel,Luke 16:19–end
+easter-35,5,,,,Daily Eucharistic Lectionary,ot,"Genesis 37:3–4, 12–13, 17–28"
+easter-35,5,,,,Daily Eucharistic Lectionary,psalm,Psalm 105:16–22
+easter-35,5,,,,Daily Eucharistic Lectionary,gospel,"Matthew 21:33–43, 45–46"
+easter-35,6,,,,Daily Eucharistic Lectionary,ot,"Micah 7:14–15, 18–20"
+easter-35,6,,,,Daily Eucharistic Lectionary,psalm,"Psalm 103:1–4, 9–12"
+easter-35,6,,,,Daily Eucharistic Lectionary,gospel,"Luke 15:1–3, 11–end"
+easter-28,1,,,,Daily Eucharistic Lectionary,ot,2 Kings 5:1–15
+easter-28,1,,,,Daily Eucharistic Lectionary,psalm,Psalm 42:1–2; 43:1–4
+easter-28,1,,,,Daily Eucharistic Lectionary,gospel,Luke 4:24–30
+easter-28,2,,,,Daily Eucharistic Lectionary,ot,"Song of the Three 2, 11–20 or Daniel 2:20–23"
+easter-28,2,,,,Daily Eucharistic Lectionary,psalm,Psalm 25:3–10
+easter-28,2,,,,Daily Eucharistic Lectionary,gospel,Matthew 18:21–end
+easter-28,3,,,,Daily Eucharistic Lectionary,ot,"Deuteronomy 4:1, 5–9"
+easter-28,3,,,,Daily Eucharistic Lectionary,psalm,Psalm 147:13–end
+easter-28,3,,,,Daily Eucharistic Lectionary,gospel,Matthew 5:17–19
+easter-28,4,,,,Daily Eucharistic Lectionary,ot,Jeremiah 7:23–28
+easter-28,4,,,,Daily Eucharistic Lectionary,psalm,"Psalm 95:1–2, 6–end"
+easter-28,4,,,,Daily Eucharistic Lectionary,gospel,Luke 11:14–23
+easter-28,5,,,,Daily Eucharistic Lectionary,ot,Hosea 14
+easter-28,5,,,,Daily Eucharistic Lectionary,psalm,"Psalm 81:6–10, 13, 16"
+easter-28,5,,,,Daily Eucharistic Lectionary,gospel,Mark 12:28–34
+easter-28,6,,,,Daily Eucharistic Lectionary,ot,Hosea 5:15–6:6
+easter-28,6,,,,Daily Eucharistic Lectionary,psalm,"Psalm 51:1–2, 17–end"
+easter-28,6,,,,Daily Eucharistic Lectionary,gospel,Luke 18:9–14
+easter-21,1,,,,Daily Eucharistic Lectionary,ot,Isaiah 65:17–21
+easter-21,1,,,,Daily Eucharistic Lectionary,psalm,"Psalm 30:1–5, 8, 11–end"
+easter-21,1,,,,Daily Eucharistic Lectionary,gospel,John 4:43–end
+easter-21,2,,,,Daily Eucharistic Lectionary,ot,"Ezekiel 47:1–9, 12"
+easter-21,2,,,,Daily Eucharistic Lectionary,psalm,Psalm 46:1–8
+easter-21,2,,,,Daily Eucharistic Lectionary,gospel,"John 5:1–3, 5–16"
+easter-21,3,,,,Daily Eucharistic Lectionary,ot,Isaiah 49:8–15
+easter-21,3,,,,Daily Eucharistic Lectionary,psalm,Psalm 145:8–18
+easter-21,3,,,,Daily Eucharistic Lectionary,gospel,John 5:17–30
+easter-21,4,,,,Daily Eucharistic Lectionary,ot,Exodus 32:7–14
+easter-21,4,,,,Daily Eucharistic Lectionary,psalm,Psalm 106:19–23
+easter-21,4,,,,Daily Eucharistic Lectionary,gospel,John 5:31–end
+easter-21,5,,,,Daily Eucharistic Lectionary,ot,"Wisdom of Solomon 2:1, 12–22 or Jeremiah 26:8–11"
+easter-21,5,,,,Daily Eucharistic Lectionary,psalm,Psalm 34:15–end
+easter-21,5,,,,Daily Eucharistic Lectionary,gospel,"John 7:1–2, 10, 25–30"
+easter-21,6,,,,Daily Eucharistic Lectionary,ot,Jeremiah 11:18–20
+easter-21,6,,,,Daily Eucharistic Lectionary,psalm,"Psalm 7:1–2, 8–10"
+easter-21,6,,,,Daily Eucharistic Lectionary,gospel,John 7:40–52
+easter-14,1,,,,Daily Eucharistic Lectionary,ot,"Susanna 1–9, 15–17, 19–30, 33–62 or Susanna 41b–62 or Joshua 2:1–14"
+easter-14,1,,,,Daily Eucharistic Lectionary,psalm,Psalm 23
+easter-14,1,,,,Daily Eucharistic Lectionary,gospel,John 8:1–11
+easter-14,2,,,,Daily Eucharistic Lectionary,ot,Numbers 21:4–9
+easter-14,2,,,,Daily Eucharistic Lectionary,psalm,"Psalm 102:1–3, 16–23"
+easter-14,2,,,,Daily Eucharistic Lectionary,gospel,John 8:21–30
+easter-14,3,,,,Daily Eucharistic Lectionary,ot,"Daniel 3:14–20, 24–25, 28"
+easter-14,3,,,,Daily Eucharistic Lectionary,psalm,Canticle: Bless the Lord
+easter-14,3,,,,Daily Eucharistic Lectionary,gospel,John 8:31–42
+easter-14,4,,,,Daily Eucharistic Lectionary,ot,Genesis 17:3–9
+easter-14,4,,,,Daily Eucharistic Lectionary,psalm,Psalm 105:4–9
+easter-14,4,,,,Daily Eucharistic Lectionary,gospel,John 8:51–end
+easter-14,5,,,,Daily Eucharistic Lectionary,ot,Jeremiah 20:10–13
+easter-14,5,,,,Daily Eucharistic Lectionary,psalm,Psalm 18:1–6
+easter-14,5,,,,Daily Eucharistic Lectionary,gospel,John 10:31–end
+easter-14,6,,,,Daily Eucharistic Lectionary,ot,Ezekiel 37:21–28
+easter-14,6,,,,Daily Eucharistic Lectionary,psalm,Canticle: Jeremiah 31:10–13 or Psalm 121
+easter-14,6,,,,Daily Eucharistic Lectionary,gospel,John 11:45–end
+easter,1,,,,Daily Eucharistic Lectionary,nt,"Acts 2:14, 22–32"
+easter,1,,,,Daily Eucharistic Lectionary,psalm,"Psalm 16:1–2, 6–end"
+easter,1,,,,Daily Eucharistic Lectionary,gospel,Matthew 28:8–15
+easter,2,,,,Daily Eucharistic Lectionary,nt,Acts 2:36–41
+easter,2,,,,Daily Eucharistic Lectionary,psalm,"Psalm 33:4–5, 18–end"
+easter,2,,,,Daily Eucharistic Lectionary,gospel,John 20:11–18
+easter,3,,,,Daily Eucharistic Lectionary,nt,Acts 3:1–10
+easter,3,,,,Daily Eucharistic Lectionary,psalm,Psalm 105:1–9
+easter,3,,,,Daily Eucharistic Lectionary,gospel,Luke 24:13–35
+easter,4,,,,Daily Eucharistic Lectionary,nt,Acts 3:11–end
+easter,4,,,,Daily Eucharistic Lectionary,psalm,Psalm 8
+easter,4,,,,Daily Eucharistic Lectionary,gospel,Luke 24:35–48
+easter,5,,,,Daily Eucharistic Lectionary,nt,Acts 4:1–12
+easter,5,,,,Daily Eucharistic Lectionary,psalm,"Psalm 118:1–4, 22–26"
+easter,5,,,,Daily Eucharistic Lectionary,gospel,John 21:1–14
+easter,6,,,,Daily Eucharistic Lectionary,nt,Acts 4:13–21
+easter,6,,,,Daily Eucharistic Lectionary,psalm,"Psalm 118:1–4, 14–21"
+easter,6,,,,Daily Eucharistic Lectionary,gospel,Mark 16:9–15
+easter+7,1,,,,Daily Eucharistic Lectionary,nt,Acts 4:23–31
+easter+7,1,,,,Daily Eucharistic Lectionary,psalm,Psalm 2:1–9
+easter+7,1,,,,Daily Eucharistic Lectionary,gospel,John 3:1–8
+easter+7,2,,,,Daily Eucharistic Lectionary,nt,Acts 4:32–end
+easter+7,2,,,,Daily Eucharistic Lectionary,psalm,Psalm 93
+easter+7,2,,,,Daily Eucharistic Lectionary,gospel,John 3:7–15
+easter+7,3,,,,Daily Eucharistic Lectionary,nt,Acts 5:17–26
+easter+7,3,,,,Daily Eucharistic Lectionary,psalm,Psalm 34:1–8
+easter+7,3,,,,Daily Eucharistic Lectionary,gospel,John 3:16–21
+easter+7,4,,,,Daily Eucharistic Lectionary,nt,Acts 5:27–33
+easter+7,4,,,,Daily Eucharistic Lectionary,psalm,"Psalm 34:1, 15–end"
+easter+7,4,,,,Daily Eucharistic Lectionary,gospel,John 3:31–end
+easter+7,5,,,,Daily Eucharistic Lectionary,nt,Acts 5:34–42
+easter+7,5,,,,Daily Eucharistic Lectionary,psalm,"Psalm 27:1–5, 16–17"
+easter+7,5,,,,Daily Eucharistic Lectionary,gospel,John 6:1–15
+easter+7,6,,,,Daily Eucharistic Lectionary,nt,Acts 6:1–7
+easter+7,6,,,,Daily Eucharistic Lectionary,psalm,"Psalm 33:1–5, 18–19"
+easter+7,6,,,,Daily Eucharistic Lectionary,gospel,John 6:16–21
+easter+14,1,,,,Daily Eucharistic Lectionary,nt,Acts 6:8–15
+easter+14,1,,,,Daily Eucharistic Lectionary,psalm,Psalm 119:17–24
+easter+14,1,,,,Daily Eucharistic Lectionary,gospel,John 6:22–29
+easter+14,2,,,,Daily Eucharistic Lectionary,nt,Acts 7:51–8:1a
+easter+14,2,,,,Daily Eucharistic Lectionary,psalm,"Psalm 31:1–5, 16"
+easter+14,2,,,,Daily Eucharistic Lectionary,gospel,John 6:30–35
+easter+14,3,,,,Daily Eucharistic Lectionary,nt,Acts 8:1b–8
+easter+14,3,,,,Daily Eucharistic Lectionary,psalm,Psalm 66:1–6
+easter+14,3,,,,Daily Eucharistic Lectionary,gospel,John 6:35–40
+easter+14,4,,,,Daily Eucharistic Lectionary,nt,Acts 8:26–end
+easter+14,4,,,,Daily Eucharistic Lectionary,psalm,"Psalm 66:7–8, 14–end"
+easter+14,4,,,,Daily Eucharistic Lectionary,gospel,John 6:44–51
+easter+14,5,,,,Daily Eucharistic Lectionary,nt,Acts 9:1–20
+easter+14,5,,,,Daily Eucharistic Lectionary,psalm,Psalm 117
+easter+14,5,,,,Daily Eucharistic Lectionary,gospel,John 6:52–59
+easter+14,6,,,,Daily Eucharistic Lectionary,nt,Acts 9:31–42
+easter+14,6,,,,Daily Eucharistic Lectionary,psalm,Psalm 116:10–15
+easter+14,6,,,,Daily Eucharistic Lectionary,gospel,John 6:60–69
+easter+21,1,,,,Daily Eucharistic Lectionary,nt,Acts 11:1–18
+easter+21,1,,,,Daily Eucharistic Lectionary,psalm,Psalm 42:1–2; 43:1–4
+easter+21,1,,,,Daily Eucharistic Lectionary,gospel,John 10:1–10 or John 10:11–18
+easter+21,2,,,,Daily Eucharistic Lectionary,nt,Acts 11:19–26
+easter+21,2,,,,Daily Eucharistic Lectionary,psalm,Psalm 87
+easter+21,2,,,,Daily Eucharistic Lectionary,gospel,John 10:22–30
+easter+21,3,,,,Daily Eucharistic Lectionary,nt,Acts 12:24–13:5
+easter+21,3,,,,Daily Eucharistic Lectionary,psalm,Psalm 67
+easter+21,3,,,,Daily Eucharistic Lectionary,gospel,John 12:44–end
+easter+21,4,,,,Daily Eucharistic Lectionary,nt,Acts 13:13–25
+easter+21,4,,,,Daily Eucharistic Lectionary,psalm,"Psalm 89:1–2, 20–26"
+easter+21,4,,,,Daily Eucharistic Lectionary,gospel,John 13:16–20
+easter+21,5,,,,Daily Eucharistic Lectionary,nt,Acts 13:26–33
+easter+21,5,,,,Daily Eucharistic Lectionary,psalm,Psalm 2
+easter+21,5,,,,Daily Eucharistic Lectionary,gospel,John 14:1–6
+easter+21,6,,,,Daily Eucharistic Lectionary,nt,Acts 13:44–end
+easter+21,6,,,,Daily Eucharistic Lectionary,psalm,Psalm 98:1–5
+easter+21,6,,,,Daily Eucharistic Lectionary,gospel,John 14:7–14
+easter+28,1,,,,Daily Eucharistic Lectionary,nt,Acts 14:5–18
+easter+28,1,,,,Daily Eucharistic Lectionary,psalm,"Psalm 118:1–3, 14–15"
+easter+28,1,,,,Daily Eucharistic Lectionary,gospel,John 14:21–26
+easter+28,2,,,,Daily Eucharistic Lectionary,nt,Acts 14:19–end
+easter+28,2,,,,Daily Eucharistic Lectionary,psalm,Psalm 145:10–end
+easter+28,2,,,,Daily Eucharistic Lectionary,gospel,John 14:27–end
+easter+28,3,,,,Daily Eucharistic Lectionary,nt,Acts 15:1–6
+easter+28,3,,,,Daily Eucharistic Lectionary,psalm,Psalm 122:1–5
+easter+28,3,,,,Daily Eucharistic Lectionary,gospel,John 15:1–8
+easter+28,4,,,,Daily Eucharistic Lectionary,nt,Acts 15:7–21
+easter+28,4,,,,Daily Eucharistic Lectionary,psalm,"Psalm 96:1–3, 7–10"
+easter+28,4,,,,Daily Eucharistic Lectionary,gospel,John 15:9–11
+easter+28,5,,,,Daily Eucharistic Lectionary,nt,Acts 15:22–31
+easter+28,5,,,,Daily Eucharistic Lectionary,psalm,Psalm 57:8–end
+easter+28,5,,,,Daily Eucharistic Lectionary,gospel,John 15:12–17
+easter+28,6,,,,Daily Eucharistic Lectionary,nt,Acts 16:1–10
+easter+28,6,,,,Daily Eucharistic Lectionary,psalm,Psalm 100
+easter+28,6,,,,Daily Eucharistic Lectionary,gospel,John 15:18–21
+easter+35,1,,,,Daily Eucharistic Lectionary,nt,Acts 16:11–15
+easter+35,1,,,,Daily Eucharistic Lectionary,psalm,Psalm 149:1–5
+easter+35,1,,,,Daily Eucharistic Lectionary,gospel,John 15:26–16:4
+easter+35,2,,,,Daily Eucharistic Lectionary,nt,Acts 16:22–34
+easter+35,2,,,,Daily Eucharistic Lectionary,psalm,Psalm 138
+easter+35,2,,,,Daily Eucharistic Lectionary,gospel,John 16:5–11
+easter+35,3,,,,Daily Eucharistic Lectionary,nt,"Acts 17:15, 22–18:1"
+easter+35,3,,,,Daily Eucharistic Lectionary,psalm,"Psalm 148:1–2, 11–end"
+easter+35,3,,,,Daily Eucharistic Lectionary,gospel,John 16:12–15
+easter+35,5,,,,Daily Eucharistic Lectionary,nt,Acts 18:9–18
+easter+35,5,,,,Daily Eucharistic Lectionary,psalm,Psalm 47:1–6
+easter+35,5,,,,Daily Eucharistic Lectionary,gospel,John 16:20–23
+easter+35,6,,,,Daily Eucharistic Lectionary,nt,Acts 18:22–end
+easter+35,6,,,,Daily Eucharistic Lectionary,psalm,"Psalm 47:1–2, 7–end"
+easter+35,6,,,,Daily Eucharistic Lectionary,gospel,John 16:23–28
+easter+42,1,,,,Daily Eucharistic Lectionary,nt,Acts 19:1–8
+easter+42,1,,,,Daily Eucharistic Lectionary,psalm,Psalm 68:1–6
+easter+42,1,,,,Daily Eucharistic Lectionary,gospel,John 16:29–end
+easter+42,2,,,,Daily Eucharistic Lectionary,nt,Acts 20:17–27
+easter+42,2,,,,Daily Eucharistic Lectionary,psalm,"Psalm 68:9–10, 18–19"
+easter+42,2,,,,Daily Eucharistic Lectionary,gospel,John 17:1–11
+easter+42,3,,,,Daily Eucharistic Lectionary,nt,Acts 20:28–end
+easter+42,3,,,,Daily Eucharistic Lectionary,psalm,"Psalm 68:27–28, 32–end"
+easter+42,3,,,,Daily Eucharistic Lectionary,gospel,John 17:11–19
+easter+42,4,,,,Daily Eucharistic Lectionary,nt,Acts 22:30; 23:6–11
+easter+42,4,,,,Daily Eucharistic Lectionary,psalm,"Psalm 16:1, 5–end"
+easter+42,4,,,,Daily Eucharistic Lectionary,gospel,John 17:20–end
+easter+42,5,,,,Daily Eucharistic Lectionary,nt,Acts 25:13–21
+easter+42,5,,,,Daily Eucharistic Lectionary,psalm,"Psalm 103:1–2, 11–12, 19–20"
+easter+42,5,,,,Daily Eucharistic Lectionary,gospel,John 21:15–19
+easter+42,6,,,,Daily Eucharistic Lectionary,nt,"Acts 28:16–20, 30–end"
+easter+42,6,,,,Daily Eucharistic Lectionary,psalm,Psalm 11:4–end
+easter+42,6,,,,Daily Eucharistic Lectionary,gospel,John 21:20–end
+sun>=05-08,1,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,"Genesis 4:1–15, 25"
+sun>=05-08,1,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,"Psalm 50:1, 8, 16–end"
+sun>=05-08,1,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Mark 8:11–13
+sun>=05-08,1,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,James 1:1–11
+sun>=05-08,1,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 119:65–72
+sun>=05-08,1,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Mark 8:11–13
+sun>=05-08,2,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,"Genesis 6:5–8; 7:1–5, 10"
+sun>=05-08,2,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 29
+sun>=05-08,2,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Mark 8:14–21
+sun>=05-08,2,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,James 1:12–18
+sun>=05-08,2,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 94:12–18
+sun>=05-08,2,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Mark 8:14–21
+sun>=05-08,3,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,"Genesis 8:6–13, 20–end"
+sun>=05-08,3,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 116:10–end
+sun>=05-08,3,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Mark 8:22–26
+sun>=05-08,3,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,James 1:19–end
+sun>=05-08,3,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 15
+sun>=05-08,3,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Mark 8:22–26
+sun>=05-08,4,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Genesis 9:1–13
+sun>=05-08,4,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 102:16–23
+sun>=05-08,4,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Mark 8:27–33
+sun>=05-08,4,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,James 2:1–9
+sun>=05-08,4,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 34:1–7
+sun>=05-08,4,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Mark 8:27–33
+sun>=05-08,5,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Genesis 11:1–9
+sun>=05-08,5,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 33:10–15
+sun>=05-08,5,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Mark 8:34–9:1
+sun>=05-08,5,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,"James 2:14–24, 26"
+sun>=05-08,5,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 112
+sun>=05-08,5,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Mark 8:34–9:1
+sun>=05-08,6,date gt easter+49,1,,Daily Eucharistic Lectionary,nt,Hebrews 11:1–7
+sun>=05-08,6,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 145:1–10
+sun>=05-08,6,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Mark 9:2–13
+sun>=05-08,6,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,James 3:1–10
+sun>=05-08,6,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 12:1–7
+sun>=05-08,6,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Mark 9:2–13
+sun>=05-15,1,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Ecclesiasticus 1:1–10 or James 1:1–11
+sun>=05-15,1,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 93 or Psalm 119:65–72
+sun>=05-15,1,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Mark 9:14–29
+sun>=05-15,1,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,James 3:13–end
+sun>=05-15,1,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 19:7–end
+sun>=05-15,1,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Mark 9:14–29
+sun>=05-15,2,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Ecclesiasticus 2:1–11 or James 1:12–18
+sun>=05-15,2,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,"Psalm 37:3–6, 27–28 or Psalm 94:12–18"
+sun>=05-15,2,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Mark 9:30–37
+sun>=05-15,2,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,James 4:1–10
+sun>=05-15,2,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,"Psalm 55:7–9, 24"
+sun>=05-15,2,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Mark 9:30–37
+sun>=05-15,3,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Ecclesiasticus 4:11–19 or James 1:19–end
+sun>=05-15,3,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 119:161–168 or Psalm 15
+sun>=05-15,3,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Mark 9:38–40
+sun>=05-15,3,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,James 4:13–end
+sun>=05-15,3,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,"Psalm 49:1–2, 5–10"
+sun>=05-15,3,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Mark 9:38–40
+sun>=05-15,4,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Ecclesiasticus 5:1–8 or James 2:1–9
+sun>=05-15,4,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 1 or Psalm 34:1–7
+sun>=05-15,4,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Mark 9:41–end
+sun>=05-15,4,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,James 5:1–6
+sun>=05-15,4,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 49:12–20
+sun>=05-15,4,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Mark 9:41–50
+sun>=05-15,5,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,"Ecclesiasticus 6:5–17 or James 2:14–24, 26"
+sun>=05-15,5,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 119:19–24 or Psalm 112
+sun>=05-15,5,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Mark 10:1–12
+sun>=05-15,5,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,James 5:9–12
+sun>=05-15,5,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,"Psalm 103:1–4, 8–13"
+sun>=05-15,5,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Mark 10:1–12
+sun>=05-15,6,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Ecclesiasticus 17:1–15 or James 3:1–10
+sun>=05-15,6,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 103:13–18 or Psalm 12:1–7
+sun>=05-15,6,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Mark 10:13–16
+sun>=05-15,6,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,James 5:13–end
+sun>=05-15,6,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 141:1–4
+sun>=05-15,6,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Mark 10:13–16
+sun>=05-22,1,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Ecclesiasticus 17:24–29 or James 3:13–end
+sun>=05-22,1,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 32:1–8 or Psalm 19:7–end
+sun>=05-22,1,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Mark 10:17–27
+sun>=05-22,1,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,1 Peter 1:3–9
+sun>=05-22,1,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 111
+sun>=05-22,1,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Mark 10:17–27
+sun>=05-22,2,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Ecclesiasticus 35:1–12 or James 4:1–10
+sun>=05-22,2,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,"Psalm 50:1–6 or Psalm 55:7–9, 24"
+sun>=05-22,2,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Mark 10:28–31
+sun>=05-22,2,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,1 Peter 1:10–16
+sun>=05-22,2,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 98:1–5
+sun>=05-22,2,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Mark 10:28–31
+sun>=05-22,3,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,"Ecclesiasticus 36:1–2, 4–5, 10–17 or James 4:13–17"
+sun>=05-22,3,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,"Psalm 79:8–9, 12, 14 or Psalm 49:1–2, 5–10"
+sun>=05-22,3,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Mark 10:32–45
+sun>=05-22,3,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,1 Peter 1:18–end
+sun>=05-22,3,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 147:13–end
+sun>=05-22,3,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Mark 10:32–45
+sun>=05-22,4,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Ecclesiasticus 42:15–25 or James 5:1–6
+sun>=05-22,4,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 33:1–9 or Psalm 49:12–20
+sun>=05-22,4,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Mark 10:46–end
+sun>=05-22,4,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,"1 Peter 2:2–5, 9–12"
+sun>=05-22,4,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 100
+sun>=05-22,4,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Mark 10:46–end
+sun>=05-22,5,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,"Ecclesiasticus 44:1, 9–13 or James 5:9–12"
+sun>=05-22,5,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,"Psalm 149:1–5 or Psalm 103:1–4, 8–13"
+sun>=05-22,5,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Mark 11:11–26
+sun>=05-22,5,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,1 Peter 4:7–13
+sun>=05-22,5,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 96:10–end
+sun>=05-22,5,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Mark 11:11–26
+sun>=05-22,6,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Ecclesiasticus 51:12b–20a or James 5:13–end
+sun>=05-22,6,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 19:7–end or Psalm 141:1–4
+sun>=05-22,6,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Mark 11:27–end
+sun>=05-22,6,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,"Jude 17, 20–end"
+sun>=05-22,6,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 63:1–6
+sun>=05-22,6,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Mark 11:27–end
+sun>=05-29,1,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,"Tobit 1:1, 2; 2:1–8 or 1 Peter 1:3–9"
+sun>=05-29,1,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 15 or Psalm 111
+sun>=05-29,1,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Mark 12:1–12
+sun>=05-29,1,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,2 Peter 1:2–7
+sun>=05-29,1,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,"Psalm 91:1–2, 14–end"
+sun>=05-29,1,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Mark 12:1–12
+sun>=05-29,2,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Tobit 2:9–end or 1 Peter 1:10–16
+sun>=05-29,2,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 112 or Psalm 98:1–5
+sun>=05-29,2,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Mark 12:13–17
+sun>=05-29,2,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,"2 Peter 3:11–15a, 17–end"
+sun>=05-29,2,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,"Psalm 90:1–4, 10, 14, 16"
+sun>=05-29,2,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Mark 12:13–17
+sun>=05-29,3,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,"Tobit 3:1–11, 16–end or 1 Peter 1:18–25"
+sun>=05-29,3,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 25:1–8 or Psalm 147:13–end
+sun>=05-29,3,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Mark 12:18–27
+sun>=05-29,3,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,"2 Timothy 1:1–3, 6–12"
+sun>=05-29,3,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 123
+sun>=05-29,3,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Mark 12:18–27
+sun>=05-29,4,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,"Tobit 6:10–11; 7:1–15; 8:4–8 or 1 Peter 2:2–5, 9–12"
+sun>=05-29,4,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 128 or Psalm 100
+sun>=05-29,4,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Mark 12:28–34
+sun>=05-29,4,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,2 Timothy 2:8–15
+sun>=05-29,4,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 25:4–12
+sun>=05-29,4,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Mark 12:28–34
+sun>=05-29,5,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Tobit 11:5–15 or 1 Peter 4:7–13
+sun>=05-29,5,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 146 or Psalm 96:10–end
+sun>=05-29,5,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Mark 12:35–37
+sun>=05-29,5,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,2 Timothy 3:10–end
+sun>=05-29,5,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 119:161–168
+sun>=05-29,5,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Mark 12:35–37
+sun>=05-29,6,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,"Tobit 12:1, 5–15, 20a or Jude 17, 20–25"
+sun>=05-29,6,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,"Psalm 103:1, 8–13 or Psalm 63:1–6"
+sun>=05-29,6,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Mark 12:38–end
+sun>=05-29,6,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,2 Timothy 4:1–8
+sun>=05-29,6,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 71:7–16
+sun>=05-29,6,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Mark 12:38–end
+sun>=06-05,1,date gt easter+49,1,,Daily Eucharistic Lectionary,nt,2 Corinthians 1:1–7
+sun>=06-05,1,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 34:1–8
+sun>=06-05,1,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 5:1–12
+sun>=06-05,1,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,1 Kings 17:1–6
+sun>=06-05,1,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 121
+sun>=06-05,1,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 5:1–12
+sun>=06-05,2,date gt easter+49,1,,Daily Eucharistic Lectionary,nt,2 Corinthians 1:18–22
+sun>=06-05,2,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 119:129–136
+sun>=06-05,2,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 5:13–16
+sun>=06-05,2,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,1 Kings 17:7–16
+sun>=06-05,2,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 4
+sun>=06-05,2,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 5:13–16
+sun>=06-05,3,date gt easter+49,1,,Daily Eucharistic Lectionary,nt,2 Corinthians 3:4–11
+sun>=06-05,3,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 78:1–4
+sun>=06-05,3,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 5:17–19
+sun>=06-05,3,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,1 Kings 18:20–39
+sun>=06-05,3,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,"Psalm 16:1, 6–end"
+sun>=06-05,3,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 5:17–19
+sun>=06-05,4,date gt easter+49,1,,Daily Eucharistic Lectionary,nt,"2 Corinthians 3:15–4:1, 3–6"
+sun>=06-05,4,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 78:36–40
+sun>=06-05,4,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 5:20–26
+sun>=06-05,4,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,1 Kings 18:41–end
+sun>=06-05,4,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 65:8–end
+sun>=06-05,4,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 5:20–26
+sun>=06-05,5,date gt easter+49,1,,Daily Eucharistic Lectionary,nt,2 Corinthians 4:7–15
+sun>=06-05,5,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 99
+sun>=06-05,5,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 5:27–32
+sun>=06-05,5,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,"1 Kings 19:9, 11–16"
+sun>=06-05,5,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 27:8–16
+sun>=06-05,5,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 5:27–32
+sun>=06-05,6,date gt easter+49,1,,Daily Eucharistic Lectionary,nt,2 Corinthians 5:14–end
+sun>=06-05,6,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 103:1–12
+sun>=06-05,6,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 5:33–37
+sun>=06-05,6,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,1 Kings 19:19–end
+sun>=06-05,6,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 16:1–7
+sun>=06-05,6,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 5:33–37
+sun>=06-12,1,date gt easter+49,1,,Daily Eucharistic Lectionary,nt,2 Corinthians 6:1–10
+sun>=06-12,1,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 98
+sun>=06-12,1,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 5:38–42
+sun>=06-12,1,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,1 Kings 21:1–16
+sun>=06-12,1,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 5:1–5
+sun>=06-12,1,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 5:38–42
+sun>=06-12,2,date gt easter+49,1,,Daily Eucharistic Lectionary,nt,2 Corinthians 8:1–9
+sun>=06-12,2,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 146
+sun>=06-12,2,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 5:43–end
+sun>=06-12,2,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,1 Kings 21:17–end
+sun>=06-12,2,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 51:1–9
+sun>=06-12,2,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 5:43–end
+sun>=06-12,3,date gt easter+49,1,,Daily Eucharistic Lectionary,nt,2 Corinthians 9:6–11
+sun>=06-12,3,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 112
+sun>=06-12,3,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,"Matthew 6:1–6, 16–18"
+sun>=06-12,3,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,"2 Kings 2:1, 6–14"
+sun>=06-12,3,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 31:21–end
+sun>=06-12,3,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,"Matthew 6:1–6, 16–18"
+sun>=06-12,4,date gt easter+49,1,,Daily Eucharistic Lectionary,nt,2 Corinthians 11:1–11
+sun>=06-12,4,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 111
+sun>=06-12,4,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 6:7–15
+sun>=06-12,4,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,Ecclesiasticus 48:1–14 or Isaiah 63:7–9
+sun>=06-12,4,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 97:1–8
+sun>=06-12,4,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 6:7–15
+sun>=06-12,5,date gt easter+49,1,,Daily Eucharistic Lectionary,nt,"2 Corinthians 11:18, 21b–30"
+sun>=06-12,5,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 34:1–6
+sun>=06-12,5,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 6:19–23
+sun>=06-12,5,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,"2 Kings 11:1–4, 9–18, 20"
+sun>=06-12,5,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,"Psalm 132:1–5, 11–13"
+sun>=06-12,5,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 6:19–23
+sun>=06-12,6,date gt easter+49,1,,Daily Eucharistic Lectionary,nt,2 Corinthians 12:1–10
+sun>=06-12,6,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 89:20–33
+sun>=06-12,6,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 6:24–end
+sun>=06-12,6,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,2 Chronicles 24:17–25
+sun>=06-12,6,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 89:25–33
+sun>=06-12,6,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 6:24–end
+sun>=06-19,1,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Genesis 12:1–9
+sun>=06-19,1,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 33:12–end
+sun>=06-19,1,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 7:1–5
+sun>=06-19,1,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,"2 Kings 17:5–8, 13–15, 18"
+sun>=06-19,1,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,"Psalm 60:1–5, 11–end"
+sun>=06-19,1,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 7:1–5
+sun>=06-19,2,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,"Genesis 13:2, 5–end"
+sun>=06-19,2,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 15
+sun>=06-19,2,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,"Matthew 7:6, 12–14"
+sun>=06-19,2,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,"2 Kings 19:9b–11, 14–21, 31–36"
+sun>=06-19,2,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,"Psalm 48:1–2, 8–end"
+sun>=06-19,2,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,"Matthew 7:6, 12–14"
+sun>=06-19,3,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,"Genesis 15:1–12, 17–18"
+sun>=06-19,3,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 105:1–9
+sun>=06-19,3,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 7:15–20
+sun>=06-19,3,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,2 Kings 22:8–13; 23:1–3
+sun>=06-19,3,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 119:33–40
+sun>=06-19,3,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 7:15–20
+sun>=06-19,4,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,"Genesis 16:1–12, 15–16"
+sun>=06-19,4,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 106:1–5
+sun>=06-19,4,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 7:21–end
+sun>=06-19,4,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,2 Kings 24:8–17
+sun>=06-19,4,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,"Psalm 79:1–9, 12"
+sun>=06-19,4,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 7:21–end
+sun>=06-19,5,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,"Genesis 17:1, 9–10, 15–22"
+sun>=06-19,5,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 128
+sun>=06-19,5,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 8:1–4
+sun>=06-19,5,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,2 Kings 25:1–12
+sun>=06-19,5,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 137:1–6
+sun>=06-19,5,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 8:1–4
+sun>=06-19,6,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Genesis 18:1–15
+sun>=06-19,6,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Canticle: Luke 1:46b–55
+sun>=06-19,6,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 8:5–17
+sun>=06-19,6,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,"Lamentations 2:2, 10–14, 18–19"
+sun>=06-19,6,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,"Psalm 74:1–3, 21–end"
+sun>=06-19,6,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 8:5–17
+sun>=06-26,1,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Genesis 18:16–end
+sun>=06-26,1,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 103:6–17
+sun>=06-26,1,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 8:18–22
+sun>=06-26,1,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,"Amos 2:6–10, 13–end"
+sun>=06-26,1,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 50:16–23
+sun>=06-26,1,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 8:18–22
+sun>=06-26,2,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Genesis 19:15–29
+sun>=06-26,2,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 26
+sun>=06-26,2,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 8:23–27
+sun>=06-26,2,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,Amos 3:1–8; 4:11–12
+sun>=06-26,2,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 5:8–end
+sun>=06-26,2,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 8:23–27
+sun>=06-26,3,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,"Genesis 21:5, 8–20"
+sun>=06-26,3,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 34:1–12
+sun>=06-26,3,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 8:28–end
+sun>=06-26,3,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,"Amos 5:14–15, 21–24"
+sun>=06-26,3,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 50:7–14
+sun>=06-26,3,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 8:28–end
+sun>=06-26,4,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Genesis 22:1–19
+sun>=06-26,4,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 116:1–7
+sun>=06-26,4,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 9:1–8
+sun>=06-26,4,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,Amos 7:10–end
+sun>=06-26,4,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 19:7–10
+sun>=06-26,4,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 9:1–8
+sun>=06-26,5,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,"Genesis 23:1–4, 19; 24:1–8, 62–end"
+sun>=06-26,5,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 106:1–5
+sun>=06-26,5,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 9:9–13
+sun>=06-26,5,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,"Amos 8:4–6, 9–12"
+sun>=06-26,5,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 119:1–8
+sun>=06-26,5,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 9:9–13
+sun>=06-26,6,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,"Genesis 27:1–5a, 15–29"
+sun>=06-26,6,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 135:1–6
+sun>=06-26,6,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 9:14–17
+sun>=06-26,6,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,Amos 9:11–end
+sun>=06-26,6,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 85:8–end
+sun>=06-26,6,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 9:14–17
+sun>=07-03,1,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Genesis 28:10–end
+sun>=07-03,1,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 91:1–10
+sun>=07-03,1,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 9:18–26
+sun>=07-03,1,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,"Hosea 2:14–16, 19–20"
+sun>=07-03,1,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 145:2–9
+sun>=07-03,1,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 9:18–26
+sun>=07-03,2,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Genesis 32:22–end
+sun>=07-03,2,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 17:1–8
+sun>=07-03,2,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 9:32–end
+sun>=07-03,2,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,"Hosea 8:4–7, 11–13"
+sun>=07-03,2,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 103:8–12
+sun>=07-03,2,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 9:32–end
+sun>=07-03,3,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,"Genesis 41:55–end; 42:5–7, 17–end"
+sun>=07-03,3,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,"Psalm 33:1–4, 18–end"
+sun>=07-03,3,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 10:1–7
+sun>=07-03,3,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,"Hosea 10:1–3, 7–8, 12"
+sun>=07-03,3,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 115:3–10
+sun>=07-03,3,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 10:1–7
+sun>=07-03,4,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,"Genesis 44:18–21, 23–29; 45:1–5"
+sun>=07-03,4,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 105:11–17
+sun>=07-03,4,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 10:7–15
+sun>=07-03,4,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,"Hosea 11:1, 3–4, 8–9"
+sun>=07-03,4,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 105:1–7
+sun>=07-03,4,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 10:7–15
+sun>=07-03,5,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,"Genesis 46:1–7, 28–30"
+sun>=07-03,5,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,"Psalm 37:3–6, 27–28"
+sun>=07-03,5,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 10:16–23
+sun>=07-03,5,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,Hosea 14:2–end
+sun>=07-03,5,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 80:1–7
+sun>=07-03,5,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 10:16–23
+sun>=07-03,6,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Genesis 49:29–end; 50:15–25
+sun>=07-03,6,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 105:1–7
+sun>=07-03,6,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 10:24–33
+sun>=07-03,6,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,Isaiah 6:1–8
+sun>=07-03,6,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 51:1–7
+sun>=07-03,6,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 10:24–33
+sun>=07-10,1,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,"Exodus 1:8–14, 22"
+sun>=07-10,1,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 124
+sun>=07-10,1,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 10:34–11:1
+sun>=07-10,1,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,Isaiah 1:11–17
+sun>=07-10,1,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 50:7–15
+sun>=07-10,1,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 10:34–11:1
+sun>=07-10,2,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Exodus 2:1–15
+sun>=07-10,2,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,"Psalm 69:1–2, 31–end"
+sun>=07-10,2,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 11:20–24
+sun>=07-10,2,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,Isaiah 7:1–9
+sun>=07-10,2,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 48:1–7
+sun>=07-10,2,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 11:20–24
+sun>=07-10,3,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,"Exodus 3:1–6, 9–12"
+sun>=07-10,3,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 103:1–7
+sun>=07-10,3,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 11:25–27
+sun>=07-10,3,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,"Isaiah 10:5–7, 13–16"
+sun>=07-10,3,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 94:5–11
+sun>=07-10,3,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 11:25–27
+sun>=07-10,4,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Exodus 3:13–20
+sun>=07-10,4,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,"Psalm 105:1–2, 23"
+sun>=07-10,4,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 11:28–end
+sun>=07-10,4,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,"Isaiah 26:7–9, 16–19"
+sun>=07-10,4,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 102:14–21
+sun>=07-10,4,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 11:28–end
+sun>=07-10,5,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Exodus 11:10–12:14
+sun>=07-10,5,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 116:10–end
+sun>=07-10,5,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 12:1–8
+sun>=07-10,5,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,"Isaiah 38:1–6, 21–22, 7–8"
+sun>=07-10,5,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Canticle: Isaiah 38:10–16 or Psalm 32:1–8
+sun>=07-10,5,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 12:1–8
+sun>=07-10,6,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Exodus 12:37–42
+sun>=07-10,6,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,"Psalm 136:1–4, 10–15"
+sun>=07-10,6,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 12:14–21
+sun>=07-10,6,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,Micah 2:1–5
+sun>=07-10,6,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,"Psalm 10:1–5a, 12"
+sun>=07-10,6,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 12:14–21
+sun>=07-17,1,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Exodus 14:5–18
+sun>=07-17,1,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,"Psalm 136:1–4, 10–15 or Canticle: Exodus 15:1–6"
+sun>=07-17,1,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 12:38–42
+sun>=07-17,1,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,"Micah 6:1–4, 6–8"
+sun>=07-17,1,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,"Psalm 50:3–7, 14"
+sun>=07-17,1,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 12:38–42
+sun>=07-17,2,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Exodus 14:21–15:1
+sun>=07-17,2,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,"Psalm 105:37–44 or Canticle: Exodus 15:8–10, 12, 17"
+sun>=07-17,2,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 12:46–end
+sun>=07-17,2,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,"Micah 7:14–15, 18–20"
+sun>=07-17,2,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 85:1–7
+sun>=07-17,2,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 12:46–end
+sun>=07-17,3,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,"Exodus 16:1–5, 9–15"
+sun>=07-17,3,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 78:17–31
+sun>=07-17,3,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 13:1–9
+sun>=07-17,3,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,"Jeremiah 1:1, 4–10"
+sun>=07-17,3,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 70
+sun>=07-17,3,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 13:1–9
+sun>=07-17,4,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,"Exodus 19:1–2, 9–11, 16–20"
+sun>=07-17,4,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Canticle: Bless the Lord
+sun>=07-17,4,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 13:10–17
+sun>=07-17,4,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,"Jeremiah 2:1–3, 7–8, 12–13"
+sun>=07-17,4,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 36:5–10
+sun>=07-17,4,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 13:10–17
+sun>=07-17,5,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Exodus 20:1–17
+sun>=07-17,5,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 19:7–11
+sun>=07-17,5,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 13:18–23
+sun>=07-17,5,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,Jeremiah 3:14–17
+sun>=07-17,5,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 23 or Canticle: Jeremiah 31:10–13
+sun>=07-17,5,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 13:18–23
+sun>=07-17,6,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Exodus 24:3–8
+sun>=07-17,6,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,"Psalm 50:1–6, 14–15"
+sun>=07-17,6,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 13:24–30
+sun>=07-17,6,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,Jeremiah 7:1–11
+sun>=07-17,6,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 84:1–6
+sun>=07-17,6,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 13:24–30
+sun>=07-24,1,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,"Exodus 32:15–24, 30–34"
+sun>=07-24,1,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 106:19–23
+sun>=07-24,1,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 13:31–35
+sun>=07-24,1,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,Jeremiah 13:1–11
+sun>=07-24,1,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 82 or Deuteronomy 32:18–21
+sun>=07-24,1,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 13:31–35
+sun>=07-24,2,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,"Exodus 33:7–11; 34:5–9, 28"
+sun>=07-24,2,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 103:8–12
+sun>=07-24,2,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 13:36–43
+sun>=07-24,2,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,Jeremiah 14:17–end
+sun>=07-24,2,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 79:8–end
+sun>=07-24,2,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 13:36–43
+sun>=07-24,3,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Exodus 34:29–end
+sun>=07-24,3,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 99
+sun>=07-24,3,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 13:44–46
+sun>=07-24,3,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,"Jeremiah 15:10, 16–end"
+sun>=07-24,3,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,"Psalm 59:1–4, 18–end"
+sun>=07-24,3,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 13:44–46
+sun>=07-24,4,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,"Exodus 40:16–21, 34–end"
+sun>=07-24,4,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 84:1–6
+sun>=07-24,4,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 13:47–53
+sun>=07-24,4,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,Jeremiah 18:1–6
+sun>=07-24,4,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 146:1–5
+sun>=07-24,4,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 13:47–53
+sun>=07-24,5,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,"Leviticus 23:1, 4–11, 15–16, 27, 34–37"
+sun>=07-24,5,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 81:1–8
+sun>=07-24,5,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 13:54–end
+sun>=07-24,5,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,Jeremiah 26:1–9
+sun>=07-24,5,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 69:4–10
+sun>=07-24,5,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 13:54–end
+sun>=07-24,6,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,"Leviticus 25:1, 8–17"
+sun>=07-24,6,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 67
+sun>=07-24,6,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 14:1–12
+sun>=07-24,6,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,"Jeremiah 26:11–16, 24"
+sun>=07-24,6,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 69:14–20
+sun>=07-24,6,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 14:1–12
+sun>=07-31,1,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Numbers 11:4–15
+sun>=07-31,1,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 81:11–end
+sun>=07-31,1,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 14:13–21 or Matthew 14:22–end
+sun>=07-31,1,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,Jeremiah 28
+sun>=07-31,1,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 119:89–96
+sun>=07-31,1,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 14:13–21 or Matthew 14:22–end
+sun>=07-31,2,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Numbers 12:1–13
+sun>=07-31,2,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 51:1–8
+sun>=07-31,2,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,"Matthew 14:22–end or Matthew 15:1–2, 10–14"
+sun>=07-31,2,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,"Jeremiah 30:1–2, 12–15, 18–22"
+sun>=07-31,2,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 102:16–21
+sun>=07-31,2,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,"Matthew 14:22–end or Matthew 15:1–2, 10–14"
+sun>=07-31,3,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,"Numbers 13:1–2, 25–14:1, 26–35"
+sun>=07-31,3,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 106:14–24
+sun>=07-31,3,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 15:21–28
+sun>=07-31,3,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,Jeremiah 31:1–7
+sun>=07-31,3,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 121
+sun>=07-31,3,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 15:21–28
+sun>=07-31,4,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Numbers 20:1–13
+sun>=07-31,4,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,"Psalm 95:1, 8–end"
+sun>=07-31,4,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 16:13–23
+sun>=07-31,4,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,Jeremiah 31:31–34
+sun>=07-31,4,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 51:11–18
+sun>=07-31,4,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 16:13–23
+sun>=07-31,5,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Deuteronomy 4:32–40
+sun>=07-31,5,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 77:11–end
+sun>=07-31,5,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 16:24–end
+sun>=07-31,5,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,"Nahum 2:1, 3; 3:1–3, 6–7"
+sun>=07-31,5,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,"Psalm 137:1–6 or Deuteronomy 32:35–36, 39, 41"
+sun>=07-31,5,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 16:24–28
+sun>=07-31,6,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Deuteronomy 6:4–13
+sun>=07-31,6,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,"Psalm 18:1–2, 48–end"
+sun>=07-31,6,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 17:14–20
+sun>=07-31,6,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,Habakkuk 1:12–2:4
+sun>=07-31,6,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 9:7–11
+sun>=07-31,6,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 17:14–20
+sun>=08-07,1,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Deuteronomy 10:12–end
+sun>=08-07,1,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 147:13–end
+sun>=08-07,1,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 17:22–end
+sun>=08-07,1,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,"Ezekiel 1:2–5, 24–end"
+sun>=08-07,1,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,"Psalm 148:1–4, 12–13"
+sun>=08-07,1,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 17:22–end
+sun>=08-07,2,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Deuteronomy 31:1–8
+sun>=08-07,2,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,"Psalm 107:1–3, 42–end or Canticle: Deuteronomy 32:3–4, 7–9"
+sun>=08-07,2,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,"Matthew 18:1–5, 10, 12–14"
+sun>=08-07,2,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,Ezekiel 2:8–3:4
+sun>=08-07,2,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 119:65–72
+sun>=08-07,2,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,"Matthew 18:1–5, 10, 12–14"
+sun>=08-07,3,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Deuteronomy 34
+sun>=08-07,3,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 66:14–end
+sun>=08-07,3,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 18:15–20
+sun>=08-07,3,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,Ezekiel 9:1–7; 10:18–22
+sun>=08-07,3,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 113
+sun>=08-07,3,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 18:15–20
+sun>=08-07,4,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,"Joshua 3:7–11, 13–17"
+sun>=08-07,4,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 114
+sun>=08-07,4,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 18:21–19:1
+sun>=08-07,4,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,Ezekiel 12:1–12
+sun>=08-07,4,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 78:58–64
+sun>=08-07,4,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 18:21–19:1
+sun>=08-07,5,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Joshua 24:1–13
+sun>=08-07,5,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,"Psalm 136:1–3, 16–22"
+sun>=08-07,5,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 19:3–12
+sun>=08-07,5,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,"Ezekiel 16:1–15, 60–end"
+sun>=08-07,5,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 118:14–18 or Canticle: Song of Deliverance
+sun>=08-07,5,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 19:3–12
+sun>=08-07,6,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Joshua 24:14–29
+sun>=08-07,6,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,"Psalm 16:1, 5–end"
+sun>=08-07,6,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 19:13–15
+sun>=08-07,6,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,"Ezekiel 18:1–11a, 13b, 30, 32"
+sun>=08-07,6,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,"Psalm 51:1–3, 15–17"
+sun>=08-07,6,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 19:13–15
+sun>=08-14,1,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Judges 2:11–19
+sun>=08-14,1,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 106:34–42
+sun>=08-14,1,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 19:16–22
+sun>=08-14,1,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,Ezekiel 24:15–24
+sun>=08-14,1,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 78:1–8
+sun>=08-14,1,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 19:16–22
+sun>=08-14,2,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Judges 6:11–24
+sun>=08-14,2,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 85:8–end
+sun>=08-14,2,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 19:23–end
+sun>=08-14,2,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,Ezekiel 28:1–10
+sun>=08-14,2,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,"Psalm 107:1–3, 40, 43"
+sun>=08-14,2,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 19:23–end
+sun>=08-14,3,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Judges 9:6–15
+sun>=08-14,3,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 21:1–6
+sun>=08-14,3,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 20:1–16
+sun>=08-14,3,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,Ezekiel 34:1–11
+sun>=08-14,3,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 23
+sun>=08-14,3,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 20:1–16
+sun>=08-14,4,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Judges 11:29–end
+sun>=08-14,4,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 40:4–11
+sun>=08-14,4,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 22:1–14
+sun>=08-14,4,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,Ezekiel 36:23–28
+sun>=08-14,4,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 51:7–12
+sun>=08-14,4,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 22:1–14
+sun>=08-14,5,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,"Ruth 1:1, 3–6, 14–16, 22"
+sun>=08-14,5,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 146
+sun>=08-14,5,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 22:34–40
+sun>=08-14,5,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,Ezekiel 37:1–14
+sun>=08-14,5,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 107:1–8
+sun>=08-14,5,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 22:34–40
+sun>=08-14,6,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,"Ruth 2:1–3, 8–11; 4:13–17"
+sun>=08-14,6,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 128
+sun>=08-14,6,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 23:1–12
+sun>=08-14,6,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,Ezekiel 43:1–7
+sun>=08-14,6,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 85:7–end
+sun>=08-14,6,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 23:1–12
+sun>=08-21,1,date gt easter+49,1,,Daily Eucharistic Lectionary,nt,"1 Thessalonians 1:1–5, 8–end"
+sun>=08-21,1,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 149:1–5
+sun>=08-21,1,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 23:13–22
+sun>=08-21,1,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,"2 Thessalonians 1:1–5, 11–end"
+sun>=08-21,1,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 39:1–9
+sun>=08-21,1,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 23:13–22
+sun>=08-21,2,date gt easter+49,1,,Daily Eucharistic Lectionary,nt,1 Thessalonians 2:1–8
+sun>=08-21,2,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 139:1–9
+sun>=08-21,2,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 23:23–26
+sun>=08-21,2,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,"2 Thessalonians 2:1–3a, 14–end"
+sun>=08-21,2,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 98
+sun>=08-21,2,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 23:23–26
+sun>=08-21,3,date gt easter+49,1,,Daily Eucharistic Lectionary,nt,1 Thessalonians 2:9–13
+sun>=08-21,3,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 126
+sun>=08-21,3,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 23:27–32
+sun>=08-21,3,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,"2 Thessalonians 3:6–10, 16–end"
+sun>=08-21,3,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 128
+sun>=08-21,3,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 23:27–32
+sun>=08-21,4,date gt easter+49,1,,Daily Eucharistic Lectionary,nt,1 Thessalonians 3:7–end
+sun>=08-21,4,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 90:13–end
+sun>=08-21,4,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 24:42–end
+sun>=08-21,4,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,1 Corinthians 1:1–9
+sun>=08-21,4,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 145:1–7
+sun>=08-21,4,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 24:42–end
+sun>=08-21,5,date gt easter+49,1,,Daily Eucharistic Lectionary,nt,1 Thessalonians 4:1–8
+sun>=08-21,5,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 97
+sun>=08-21,5,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 25:1–13
+sun>=08-21,5,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,1 Corinthians 1:17–25
+sun>=08-21,5,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 33:6–12
+sun>=08-21,5,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 25:1–13
+sun>=08-21,6,date gt easter+49,1,,Daily Eucharistic Lectionary,nt,1 Thessalonians 4:9–12
+sun>=08-21,6,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,"Psalm 98:1–2, 8–end"
+sun>=08-21,6,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Matthew 25:14–30
+sun>=08-21,6,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,1 Corinthians 1:26–end
+sun>=08-21,6,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,"Psalm 33:12–15, 20–end"
+sun>=08-21,6,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Matthew 25:14–30
+sun>=08-28,1,date gt easter+49,1,,Daily Eucharistic Lectionary,nt,1 Thessalonians 4:13–end
+sun>=08-28,1,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 96
+sun>=08-28,1,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 4:16–30
+sun>=08-28,1,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,1 Corinthians 2:1–5
+sun>=08-28,1,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 33:12–21
+sun>=08-28,1,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 4:16–30
+sun>=08-28,2,date gt easter+49,1,,Daily Eucharistic Lectionary,nt,"1 Thessalonians 5:1–6, 9–11"
+sun>=08-28,2,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 27:1–8
+sun>=08-28,2,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 4:31–37
+sun>=08-28,2,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,1 Corinthians 2:10b–end
+sun>=08-28,2,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 145:10–17
+sun>=08-28,2,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 4:31–37
+sun>=08-28,3,date gt easter+49,1,,Daily Eucharistic Lectionary,nt,Colossians 1:1–8
+sun>=08-28,3,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 34:11–18
+sun>=08-28,3,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 4:38–end
+sun>=08-28,3,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,1 Corinthians 3:1–9
+sun>=08-28,3,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 62
+sun>=08-28,3,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 4:38–end
+sun>=08-28,4,date gt easter+49,1,,Daily Eucharistic Lectionary,nt,Colossians 1:9–14
+sun>=08-28,4,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 98:1–5
+sun>=08-28,4,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 5:1–11
+sun>=08-28,4,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,1 Corinthians 3:18–end
+sun>=08-28,4,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 24:1–6
+sun>=08-28,4,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 5:1–11
+sun>=08-28,5,date gt easter+49,1,,Daily Eucharistic Lectionary,nt,Colossians 1:15–20
+sun>=08-28,5,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 89:19b–28
+sun>=08-28,5,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 5:33–end
+sun>=08-28,5,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,1 Corinthians 4:1–5
+sun>=08-28,5,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 37:3–8
+sun>=08-28,5,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 5:33–end
+sun>=08-28,6,date gt easter+49,1,,Daily Eucharistic Lectionary,nt,Colossians 1:21–23
+sun>=08-28,6,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 117
+sun>=08-28,6,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 6:1–5
+sun>=08-28,6,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,1 Corinthians 4:6–15
+sun>=08-28,6,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 145:18–end
+sun>=08-28,6,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 6:1–5
+sun>=09-04,1,date gt easter+49,1,,Daily Eucharistic Lectionary,nt,Colossians 1:24–2:3
+sun>=09-04,1,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 62:1–7
+sun>=09-04,1,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 6:6–11
+sun>=09-04,1,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,1 Corinthians 5:1–8
+sun>=09-04,1,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 5:5–9a
+sun>=09-04,1,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 6:6–11
+sun>=09-04,2,date gt easter+49,1,,Daily Eucharistic Lectionary,nt,Colossians 2:6–15
+sun>=09-04,2,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 8
+sun>=09-04,2,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 6:12–19
+sun>=09-04,2,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,1 Corinthians 6:1–11
+sun>=09-04,2,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 149:1–5
+sun>=09-04,2,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 6:12–19
+sun>=09-04,3,date gt easter+49,1,,Daily Eucharistic Lectionary,nt,Colossians 3:1–11
+sun>=09-04,3,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 15
+sun>=09-04,3,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 6:20–26
+sun>=09-04,3,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,1 Corinthians 7:25–31
+sun>=09-04,3,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 45:11–end
+sun>=09-04,3,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 6:20–26
+sun>=09-04,4,date gt easter+49,1,,Daily Eucharistic Lectionary,nt,Colossians 3:12–17
+sun>=09-04,4,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 149:1–5
+sun>=09-04,4,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 6:27–38
+sun>=09-04,4,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,"1 Corinthians 8:1–7, 11–end"
+sun>=09-04,4,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 139:1–9
+sun>=09-04,4,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 6:27–38
+sun>=09-04,5,date gt easter+49,1,,Daily Eucharistic Lectionary,nt,"1 Timothy 1:1–2, 12–14"
+sun>=09-04,5,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 16
+sun>=09-04,5,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 6:39–42
+sun>=09-04,5,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,"1 Corinthians 9:16–19, 22–end"
+sun>=09-04,5,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 84:1–6
+sun>=09-04,5,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 6:39–42
+sun>=09-04,6,date gt easter+49,1,,Daily Eucharistic Lectionary,nt,1 Timothy 1:15–17
+sun>=09-04,6,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 113
+sun>=09-04,6,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 6:43–end
+sun>=09-04,6,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,1 Corinthians 10:14–22
+sun>=09-04,6,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 116:10–end
+sun>=09-04,6,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 6:43–end
+sun>=09-11,1,date gt easter+49,1,,Daily Eucharistic Lectionary,nt,1 Timothy 2:1–8
+sun>=09-11,1,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 28
+sun>=09-11,1,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 7:1–10
+sun>=09-11,1,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,"1 Corinthians 11:17–26, 33"
+sun>=09-11,1,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 40:7–11
+sun>=09-11,1,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 7:1–10
+sun>=09-11,2,date gt easter+49,1,,Daily Eucharistic Lectionary,nt,1 Timothy 3:1–13
+sun>=09-11,2,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 101
+sun>=09-11,2,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 7:11–17
+sun>=09-11,2,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,"1 Corinthians 12:12–14, 27–end"
+sun>=09-11,2,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 100
+sun>=09-11,2,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 7:11–17
+sun>=09-11,3,date gt easter+49,1,,Daily Eucharistic Lectionary,nt,1 Timothy 3:14–end
+sun>=09-11,3,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 111:1–5
+sun>=09-11,3,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 7:31–35
+sun>=09-11,3,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,1 Corinthians 12:31b–13:13
+sun>=09-11,3,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 33:1–12
+sun>=09-11,3,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 7:31–35
+sun>=09-11,4,date gt easter+49,1,,Daily Eucharistic Lectionary,nt,1 Timothy 4:12–end
+sun>=09-11,4,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 111:6–end
+sun>=09-11,4,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 7:36–end
+sun>=09-11,4,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,1 Corinthians 15:1–11
+sun>=09-11,4,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,"Psalm 118:1–2, 17–20"
+sun>=09-11,4,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 7:36–end
+sun>=09-11,5,date gt easter+49,1,,Daily Eucharistic Lectionary,nt,1 Timothy 6:2b–12
+sun>=09-11,5,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 49:1–9
+sun>=09-11,5,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 8:1–3
+sun>=09-11,5,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,1 Corinthians 15:12–20
+sun>=09-11,5,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 17:1–8
+sun>=09-11,5,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 8:1–3
+sun>=09-11,6,date gt easter+49,1,,Daily Eucharistic Lectionary,nt,1 Timothy 6:13–16
+sun>=09-11,6,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 100
+sun>=09-11,6,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 8:4–15
+sun>=09-11,6,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,"1 Corinthians 15:35–37, 42–49"
+sun>=09-11,6,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 30:1–5
+sun>=09-11,6,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 8:4–15
+sun>=09-18,1,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Ezra 1:1–6
+sun>=09-18,1,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 126
+sun>=09-18,1,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 8:16–18
+sun>=09-18,1,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,Proverbs 3:27–34
+sun>=09-18,1,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 15
+sun>=09-18,1,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 8:16–18
+sun>=09-18,2,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,"Ezra 6:7–8, 12, 14–20"
+sun>=09-18,2,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 124
+sun>=09-18,2,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 8:19–21
+sun>=09-18,2,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,"Proverbs 21:1–6, 10–13"
+sun>=09-18,2,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 119:1–8
+sun>=09-18,2,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 8:19–21
+sun>=09-18,3,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Ezra 9:5–9
+sun>=09-18,3,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Canticle: Song of Tobit or Psalm 103:1–6
+sun>=09-18,3,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 9:1–6
+sun>=09-18,3,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,Proverbs 30:5–9
+sun>=09-18,3,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 119:105–112
+sun>=09-18,3,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 9:1–6
+sun>=09-18,4,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Haggai 1:1–8
+sun>=09-18,4,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 149:1–5
+sun>=09-18,4,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 9:7–9
+sun>=09-18,4,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,Ecclesiastes 1:2–11
+sun>=09-18,4,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 90:1–6
+sun>=09-18,4,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 9:7–9
+sun>=09-18,5,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Haggai 1:15b–2:9
+sun>=09-18,5,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 43
+sun>=09-18,5,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 9:18–22
+sun>=09-18,5,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,Ecclesiastes 3:1–11
+sun>=09-18,5,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 144:1–4
+sun>=09-18,5,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 9:18–22
+sun>=09-18,6,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,"Zechariah 2:1–5, 10–11"
+sun>=09-18,6,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 125 or Canticle: Jeremiah 31:10–13
+sun>=09-18,6,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 9:43b–45
+sun>=09-18,6,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,Ecclesiastes 11:9–12:8
+sun>=09-18,6,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,"Psalm 90:1–2, 12–end"
+sun>=09-18,6,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 9:43b–45
+sun>=09-25,1,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Zechariah 8:1–8
+sun>=09-25,1,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 102:12–22
+sun>=09-25,1,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 9:46–50
+sun>=09-25,1,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,Job 1:6–end
+sun>=09-25,1,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 17:1–11
+sun>=09-25,1,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 9:46–50
+sun>=09-25,2,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Zechariah 8:20–end
+sun>=09-25,2,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 87
+sun>=09-25,2,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 9:51–56
+sun>=09-25,2,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,"Job 3:1–3, 11–17, 20–23"
+sun>=09-25,2,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 88:14–19
+sun>=09-25,2,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 9:51–56
+sun>=09-25,3,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Nehemiah 2:1–8
+sun>=09-25,3,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 137:1–6
+sun>=09-25,3,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 9:57–end
+sun>=09-25,3,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,"Job 9:1–12, 14–16"
+sun>=09-25,3,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,"Psalm 88:1–6, 11"
+sun>=09-25,3,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 9:57–end
+sun>=09-25,4,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Nehemiah 8:1–12
+sun>=09-25,4,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 19:7–11
+sun>=09-25,4,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 10:1–12
+sun>=09-25,4,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,Job 19:21–27a
+sun>=09-25,4,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 27:13–16
+sun>=09-25,4,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 10:1–12
+sun>=09-25,5,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Baruch 1:15–end or Deuteronomy 31:7–13
+sun>=09-25,5,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 79:1–9
+sun>=09-25,5,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 10:13–16
+sun>=09-25,5,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,"Job 38:1, 12–21; 40:3–5"
+sun>=09-25,5,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 139:6–11
+sun>=09-25,5,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 10:13–16
+sun>=09-25,6,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,"Baruch 4:5–12, 27–29 or Joshua 22:1–6"
+sun>=09-25,6,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 69:33–37
+sun>=09-25,6,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 10:17–24
+sun>=09-25,6,date gt easter+49,2,,Daily Eucharistic Lectionary,ot,"Job 42:1–3, 6, 12–end"
+sun>=09-25,6,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 119:169–end
+sun>=09-25,6,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 10:17–24
+sun>=10-02,1,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,"Jonah 1:1–2:2, 10"
+sun>=10-02,1,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,"Canticle: Jonah 2:2–4, 7 or Psalm 69:1–6"
+sun>=10-02,1,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 10:25–37
+sun>=10-02,1,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,Galatians 1:6–12
+sun>=10-02,1,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 111:1–6
+sun>=10-02,1,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 10:25–37
+sun>=10-02,2,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Jonah 3
+sun>=10-02,2,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 130
+sun>=10-02,2,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 10:38–end
+sun>=10-02,2,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,Galatians 1:13–end
+sun>=10-02,2,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 139:1–9
+sun>=10-02,2,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 10:38–end
+sun>=10-02,3,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Jonah 4
+sun>=10-02,3,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 86:1–9
+sun>=10-02,3,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 11:1–4
+sun>=10-02,3,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,"Galatians 2:1–2, 7–14"
+sun>=10-02,3,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 117
+sun>=10-02,3,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 11:1–4
+sun>=10-02,4,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Malachi 3:13–4:2a
+sun>=10-02,4,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 1
+sun>=10-02,4,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 11:5–13
+sun>=10-02,4,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,Galatians 3:1–5
+sun>=10-02,4,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Canticle: Benedictus
+sun>=10-02,4,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 11:5–13
+sun>=10-02,5,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Joel 1:13–15; 2:1–2
+sun>=10-02,5,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 9:1–7
+sun>=10-02,5,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 11:15–26
+sun>=10-02,5,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,Galatians 3:7–14
+sun>=10-02,5,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 111:4–end
+sun>=10-02,5,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 11:15–26
+sun>=10-02,6,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Joel 3:12–end
+sun>=10-02,6,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,"Psalm 97:1, 8–end"
+sun>=10-02,6,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 11:27–28
+sun>=10-02,6,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,Galatians 3:22–end
+sun>=10-02,6,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 105:1–7
+sun>=10-02,6,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 11:27–28
+sun>=10-09,1,date gt easter+49,1,,Daily Eucharistic Lectionary,nt,Romans 1:1–7
+sun>=10-09,1,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 98
+sun>=10-09,1,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 11:29–32
+sun>=10-09,1,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,"Galatians 4:21–24, 26–27, 31; 5:1"
+sun>=10-09,1,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 113
+sun>=10-09,1,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 11:29–32
+sun>=10-09,2,date gt easter+49,1,,Daily Eucharistic Lectionary,nt,Romans 1:16–25
+sun>=10-09,2,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 19:1–4
+sun>=10-09,2,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 11:37–41
+sun>=10-09,2,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,Galatians 5:1–6
+sun>=10-09,2,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 119:41–48
+sun>=10-09,2,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 11:37–41
+sun>=10-09,3,date gt easter+49,1,,Daily Eucharistic Lectionary,nt,Romans 2:1–11
+sun>=10-09,3,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 62:1–8
+sun>=10-09,3,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 11:42–46
+sun>=10-09,3,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,Galatians 5:18–end
+sun>=10-09,3,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 1
+sun>=10-09,3,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 11:42–46
+sun>=10-09,4,date gt easter+49,1,,Daily Eucharistic Lectionary,nt,Romans 3:21–30
+sun>=10-09,4,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 130
+sun>=10-09,4,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 11:47–end
+sun>=10-09,4,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,Ephesians 1:1–10
+sun>=10-09,4,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 98:1–4
+sun>=10-09,4,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 11:47–end
+sun>=10-09,5,date gt easter+49,1,,Daily Eucharistic Lectionary,nt,Romans 4:1–8
+sun>=10-09,5,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 32
+sun>=10-09,5,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 12:1–7
+sun>=10-09,5,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,Ephesians 1:11–14
+sun>=10-09,5,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,"Psalm 33:1–6, 12"
+sun>=10-09,5,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 12:1–7
+sun>=10-09,6,date gt easter+49,1,,Daily Eucharistic Lectionary,nt,"Romans 4:13, 16–18"
+sun>=10-09,6,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,"Psalm 105:6–10, 41–44"
+sun>=10-09,6,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 12:8–12
+sun>=10-09,6,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,Ephesians 1:15–end
+sun>=10-09,6,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 8
+sun>=10-09,6,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 12:8–12
+sun>=10-16,1,date gt easter+49,1,,Daily Eucharistic Lectionary,nt,Romans 4:20–end
+sun>=10-16,1,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Canticle: Benedictus 1–6
+sun>=10-16,1,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 12:13–21
+sun>=10-16,1,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,Ephesians 2:1–10
+sun>=10-16,1,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 100
+sun>=10-16,1,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 12:13–21
+sun>=10-16,2,date gt easter+49,1,,Daily Eucharistic Lectionary,nt,"Romans 5:12, 15, 17–end"
+sun>=10-16,2,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 40:7–12
+sun>=10-16,2,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 12:35–38
+sun>=10-16,2,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,Ephesians 2:12–end
+sun>=10-16,2,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 85:7–end
+sun>=10-16,2,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 12:35–38
+sun>=10-16,3,date gt easter+49,1,,Daily Eucharistic Lectionary,nt,Romans 6:12–18
+sun>=10-16,3,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 124
+sun>=10-16,3,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 12:39–48
+sun>=10-16,3,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,Ephesians 3:2–12
+sun>=10-16,3,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 98
+sun>=10-16,3,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 12:39–48
+sun>=10-16,4,date gt easter+49,1,,Daily Eucharistic Lectionary,nt,Romans 6:19–end
+sun>=10-16,4,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 1
+sun>=10-16,4,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 12:49–53
+sun>=10-16,4,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,Ephesians 3:14–end
+sun>=10-16,4,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 33:1–6
+sun>=10-16,4,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 12:49–53
+sun>=10-16,5,date gt easter+49,1,,Daily Eucharistic Lectionary,nt,Romans 7:18–end
+sun>=10-16,5,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 119:33–40
+sun>=10-16,5,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 12:54–end
+sun>=10-16,5,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,Ephesians 4:1–6
+sun>=10-16,5,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 24:1–6
+sun>=10-16,5,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 12:54–end
+sun>=10-16,6,date gt easter+49,1,,Daily Eucharistic Lectionary,nt,Romans 8:1–11
+sun>=10-16,6,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 24:1–6
+sun>=10-16,6,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 13:1–9
+sun>=10-16,6,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,Ephesians 4:7–16
+sun>=10-16,6,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 122
+sun>=10-16,6,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 13:1–9
+sun>=10-23,1,date gt easter+49,1,,Daily Eucharistic Lectionary,nt,Romans 8:12–17
+sun>=10-23,1,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,"Psalm 68:1–6, 19"
+sun>=10-23,1,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 13:10–17
+sun>=10-23,1,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,Ephesians 4:32–5:8
+sun>=10-23,1,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 1
+sun>=10-23,1,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 13:10–17
+sun>=10-23,2,date gt easter+49,1,,Daily Eucharistic Lectionary,nt,Romans 8:18–25
+sun>=10-23,2,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 126
+sun>=10-23,2,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 13:18–21
+sun>=10-23,2,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,Ephesians 5:21–end
+sun>=10-23,2,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 128
+sun>=10-23,2,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 13:18–21
+sun>=10-23,3,date gt easter+49,1,,Daily Eucharistic Lectionary,nt,Romans 8:26–30
+sun>=10-23,3,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 13
+sun>=10-23,3,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 13:22–30
+sun>=10-23,3,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,Ephesians 6:1–9
+sun>=10-23,3,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 145:10–20
+sun>=10-23,3,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 13:22–30
+sun>=10-23,4,date gt easter+49,1,,Daily Eucharistic Lectionary,nt,Romans 8:31–end
+sun>=10-23,4,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,"Psalm 109:20–26, 29–30"
+sun>=10-23,4,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 13:31–end
+sun>=10-23,4,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,Ephesians 6:10–20
+sun>=10-23,4,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,"Psalm 144:1–2, 9–11"
+sun>=10-23,4,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 13:31–end
+sun>=10-23,5,date gt easter+49,1,,Daily Eucharistic Lectionary,nt,Romans 9:1–5
+sun>=10-23,5,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 147:13–end
+sun>=10-23,5,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 14:1–6
+sun>=10-23,5,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,Philippians 1:1–11
+sun>=10-23,5,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 111
+sun>=10-23,5,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 14:1–6
+sun>=10-23,6,date gt easter+49,1,,Daily Eucharistic Lectionary,nt,"Romans 11:1–2, 11–12, 25–29"
+sun>=10-23,6,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 94:14–19
+sun>=10-23,6,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,"Luke 14:1, 7–11"
+sun>=10-23,6,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,Philippians 1:18–26
+sun>=10-23,6,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 42:1–7
+sun>=10-23,6,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,"Luke 14:1, 7–11"
+sun>=10-30,1,date gt easter+49,1,,Daily Eucharistic Lectionary,nt,Romans 11:29–end
+sun>=10-30,1,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 69:31–37
+sun>=10-30,1,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 14:12–14
+sun>=10-30,1,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,Philippians 2:1–4
+sun>=10-30,1,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 131
+sun>=10-30,1,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 14:12–14
+sun>=10-30,2,date gt easter+49,1,,Daily Eucharistic Lectionary,nt,Romans 12:5–16
+sun>=10-30,2,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 131
+sun>=10-30,2,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 14:15–24
+sun>=10-30,2,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,Philippians 2:5–11
+sun>=10-30,2,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 22:22–27
+sun>=10-30,2,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 14:15–24
+sun>=10-30,3,date gt easter+49,1,,Daily Eucharistic Lectionary,nt,Romans 13:8–10
+sun>=10-30,3,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 112
+sun>=10-30,3,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 14:25–33
+sun>=10-30,3,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,Philippians 2:12–18
+sun>=10-30,3,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 27:1–5
+sun>=10-30,3,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 14:25–33
+sun>=10-30,4,date gt easter+49,1,,Daily Eucharistic Lectionary,nt,Romans 14:7–12
+sun>=10-30,4,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 27:14–end
+sun>=10-30,4,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 15:1–10
+sun>=10-30,4,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,Philippians 3:3–8a
+sun>=10-30,4,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 105:1–7
+sun>=10-30,4,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 15:1–10
+sun>=10-30,5,date gt easter+49,1,,Daily Eucharistic Lectionary,nt,Romans 15:14–21
+sun>=10-30,5,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 98
+sun>=10-30,5,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 16:1–8
+sun>=10-30,5,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,Philippians 3:17–4:1
+sun>=10-30,5,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 122
+sun>=10-30,5,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 16:1–8
+sun>=10-30,6,date gt easter+49,1,,Daily Eucharistic Lectionary,nt,"Romans 16:3–9, 16, 22–end"
+sun>=10-30,6,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 145:1–7
+sun>=10-30,6,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 16:9–15
+sun>=10-30,6,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,Philippians 4:10–19
+sun>=10-30,6,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 112
+sun>=10-30,6,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 16:9–15
+sun>=11-06,1,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Wisdom of Solomon 1:1–7 or Titus 1:1–9
+sun>=11-06,1,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 139:1–9 or Psalm 24:1–6
+sun>=11-06,1,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 17:1–6
+sun>=11-06,1,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,Titus 1:1–9
+sun>=11-06,1,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 24:1–6
+sun>=11-06,1,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 17:1–6
+sun>=11-06,2,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,"Wisdom of Solomon 2:23–3:9 or Titus 2:1–8, 11–14"
+sun>=11-06,2,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,"Psalm 34:1–6 or Psalm 37:3–5, 30–32"
+sun>=11-06,2,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 17:7–10
+sun>=11-06,2,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,"Titus 2:1–8, 11–14"
+sun>=11-06,2,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,"Psalm 37:3–5, 30–32"
+sun>=11-06,2,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 17:7–10
+sun>=11-06,3,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Wisdom of Solomon 6:1–11 or Titus 3:1–7
+sun>=11-06,3,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 82 or Psalm 23
+sun>=11-06,3,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 17:11–19
+sun>=11-06,3,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,Titus 3:1–7
+sun>=11-06,3,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 23
+sun>=11-06,3,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 17:11–19
+sun>=11-06,4,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Wisdom of Solomon 7:22–8:1 or Philemon 7–20
+sun>=11-06,4,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 119:89–96 or Psalm 146:4–end
+sun>=11-06,4,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 17:20–25
+sun>=11-06,4,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,Philemon 7–20
+sun>=11-06,4,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 146:4–end
+sun>=11-06,4,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 17:20–25
+sun>=11-06,5,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Wisdom of Solomon 13:1–9 or 2 John 4–9
+sun>=11-06,5,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 19:1–4 or Psalm 119:1–8
+sun>=11-06,5,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 17:26–end
+sun>=11-06,5,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,2 John 4–9
+sun>=11-06,5,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 119:1–8
+sun>=11-06,5,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 17:26–end
+sun>=11-06,6,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Wisdom of Solomon 18:14–16; 19:6–9 or 3 John 5–8
+sun>=11-06,6,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,"Psalm 105:1–5, 35–42 or Psalm 112"
+sun>=11-06,6,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 18:1–8
+sun>=11-06,6,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,3 John 5–8
+sun>=11-06,6,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 112
+sun>=11-06,6,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 18:1–8
+sun>=11-13,1,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,"1 Maccabees 1:10–15, 41–43, 54–57, 62–64 or Revelation 1:1–4; 2:1–5"
+sun>=11-13,1,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 79:1–5 or Psalm 1
+sun>=11-13,1,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 18:35–end
+sun>=11-13,1,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,Revelation 1:1–4; 2:1–5
+sun>=11-13,1,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 1
+sun>=11-13,1,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 18:35–end
+sun>=11-13,2,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,"2 Maccabees 6:18–end or Revelation 3:1–6, 14–end"
+sun>=11-13,2,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 11 or Psalm 15
+sun>=11-13,2,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 19:1–10
+sun>=11-13,2,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,"Revelation 3:1–6, 14–end"
+sun>=11-13,2,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 15
+sun>=11-13,2,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 19:1–10
+sun>=11-13,3,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,"2 Maccabees 7:1, 20–31 or Revelation 4"
+sun>=11-13,3,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 116:10–end or Psalm 150
+sun>=11-13,3,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 19:11–28
+sun>=11-13,3,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,Revelation 4
+sun>=11-13,3,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 150
+sun>=11-13,3,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 19:11–28
+sun>=11-13,4,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,1 Maccabees 2:15–29 or Revelation 5:1–10
+sun>=11-13,4,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 129 or Psalm 149:1–5
+sun>=11-13,4,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 19:41–44
+sun>=11-13,4,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,Revelation 5:1–10
+sun>=11-13,4,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 149:1–5
+sun>=11-13,4,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 19:41–44
+sun>=11-13,5,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,"1 Maccabees 4:36–37, 52–59 or Revelation 10:8–11"
+sun>=11-13,5,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 122 or Psalm 119:65–72
+sun>=11-13,5,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 19:45–48
+sun>=11-13,5,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,Revelation 10:8–end
+sun>=11-13,5,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 119:65–72
+sun>=11-13,5,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 19:45–end
+sun>=11-13,6,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,1 Maccabees 6:1–13 or Revelation 11:4–12
+sun>=11-13,6,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Psalm 124 or Psalm 144:1–9
+sun>=11-13,6,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 20:27–40
+sun>=11-13,6,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,Revelation 11:4–12
+sun>=11-13,6,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 144:1–9
+sun>=11-13,6,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 20:27–40
+sun>=11-20,1,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,"Daniel 1:1–6, 8–20"
+sun>=11-20,1,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Canticle: Bless the Lord
+sun>=11-20,1,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 21:1–4
+sun>=11-20,1,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,Revelation 14:1–5
+sun>=11-20,1,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 24:1–6
+sun>=11-20,1,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 21:1–4
+sun>=11-20,2,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Daniel 2:31–45
+sun>=11-20,2,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Canticle: Benedicite 1–3
+sun>=11-20,2,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 21:5–11
+sun>=11-20,2,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,Revelation 14:14–19
+sun>=11-20,2,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 96
+sun>=11-20,2,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 21:5–11
+sun>=11-20,3,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,"Daniel 5:1–6, 13–14, 16–17, 23–28"
+sun>=11-20,3,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Canticle: Benedicite 4–5
+sun>=11-20,3,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 21:12–19
+sun>=11-20,3,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,Revelation 15:1–4
+sun>=11-20,3,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 98
+sun>=11-20,3,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 21:12–19
+sun>=11-20,4,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Daniel 6:12–end
+sun>=11-20,4,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Canticle: Benedicite 6–8a
+sun>=11-20,4,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 21:20–28
+sun>=11-20,4,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,"Revelation 18:1–2, 21–23; 19:1–3, 9"
+sun>=11-20,4,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 100
+sun>=11-20,4,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 21:20–28
+sun>=11-20,5,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Daniel 7:2–14
+sun>=11-20,5,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Canticle: Benedicite 8b–10a
+sun>=11-20,5,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 21:29–33
+sun>=11-20,5,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,"Revelation 20:1–4, 11–21:2"
+sun>=11-20,5,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 84:1–6
+sun>=11-20,5,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 21:29–33
+sun>=11-20,6,date gt easter+49,1,,Daily Eucharistic Lectionary,ot,Daniel 7:15–27
+sun>=11-20,6,date gt easter+49,1,,Daily Eucharistic Lectionary,psalm,Canticle: Benedicite 10b–end
+sun>=11-20,6,date gt easter+49,1,,Daily Eucharistic Lectionary,gospel,Luke 21:34–36
+sun>=11-20,6,date gt easter+49,2,,Daily Eucharistic Lectionary,nt,Revelation 22:1–7
+sun>=11-20,6,date gt easter+49,2,,Daily Eucharistic Lectionary,psalm,Psalm 95:1–7
+sun>=11-20,6,date gt easter+49,2,,Daily Eucharistic Lectionary,gospel,Luke 21:34–36
+easter-28,1,,,,Daily Eucharistic Lectionary (alternative),ot,Exodus 17:1–7
+easter-28,1,,,,Daily Eucharistic Lectionary (alternative),psalm,"Psalm 95:1–2, 6–end"
+easter-28,1,,,,Daily Eucharistic Lectionary (alternative),gospel,John 4:5–42
+easter-28,2,,,,Daily Eucharistic Lectionary (alternative),ot,Exodus 17:1–7
+easter-28,2,,,,Daily Eucharistic Lectionary (alternative),psalm,"Psalm 95:1–2, 6–end"
+easter-28,2,,,,Daily Eucharistic Lectionary (alternative),gospel,John 4:5–42
+easter-28,3,,,,Daily Eucharistic Lectionary (alternative),ot,Exodus 17:1–7
+easter-28,3,,,,Daily Eucharistic Lectionary (alternative),psalm,"Psalm 95:1–2, 6–end"
+easter-28,3,,,,Daily Eucharistic Lectionary (alternative),gospel,John 4:5–42
+easter-28,4,,,,Daily Eucharistic Lectionary (alternative),ot,Exodus 17:1–7
+easter-28,4,,,,Daily Eucharistic Lectionary (alternative),psalm,"Psalm 95:1–2, 6–end"
+easter-28,4,,,,Daily Eucharistic Lectionary (alternative),gospel,John 4:5–42
+easter-28,5,,,,Daily Eucharistic Lectionary (alternative),ot,Exodus 17:1–7
+easter-28,5,,,,Daily Eucharistic Lectionary (alternative),psalm,"Psalm 95:1–2, 6–end"
+easter-28,5,,,,Daily Eucharistic Lectionary (alternative),gospel,John 4:5–42
+easter-28,6,,,,Daily Eucharistic Lectionary (alternative),ot,Exodus 17:1–7
+easter-28,6,,,,Daily Eucharistic Lectionary (alternative),psalm,"Psalm 95:1–2, 6–end"
+easter-28,6,,,,Daily Eucharistic Lectionary (alternative),gospel,John 4:5–42
+easter-21,1,,,,Daily Eucharistic Lectionary (alternative),ot,Micah 7:7–9
+easter-21,1,,,,Daily Eucharistic Lectionary (alternative),psalm,"Psalm 27:1, 9–10, 16–17"
+easter-21,1,,,,Daily Eucharistic Lectionary (alternative),gospel,John 9
+easter-21,2,,,,Daily Eucharistic Lectionary (alternative),ot,Micah 7:7–9
+easter-21,2,,,,Daily Eucharistic Lectionary (alternative),psalm,"Psalm 27:1, 9–10, 16–17"
+easter-21,2,,,,Daily Eucharistic Lectionary (alternative),gospel,John 9
+easter-21,3,,,,Daily Eucharistic Lectionary (alternative),ot,Micah 7:7–9
+easter-21,3,,,,Daily Eucharistic Lectionary (alternative),psalm,"Psalm 27:1, 9–10, 16–17"
+easter-21,3,,,,Daily Eucharistic Lectionary (alternative),gospel,John 9
+easter-21,4,,,,Daily Eucharistic Lectionary (alternative),ot,Micah 7:7–9
+easter-21,4,,,,Daily Eucharistic Lectionary (alternative),psalm,"Psalm 27:1, 9–10, 16–17"
+easter-21,4,,,,Daily Eucharistic Lectionary (alternative),gospel,John 9
+easter-21,5,,,,Daily Eucharistic Lectionary (alternative),ot,Micah 7:7–9
+easter-21,5,,,,Daily Eucharistic Lectionary (alternative),psalm,"Psalm 27:1, 9–10, 16–17"
+easter-21,5,,,,Daily Eucharistic Lectionary (alternative),gospel,John 9
+easter-21,6,,,,Daily Eucharistic Lectionary (alternative),ot,Micah 7:7–9
+easter-21,6,,,,Daily Eucharistic Lectionary (alternative),psalm,"Psalm 27:1, 9–10, 16–17"
+easter-21,6,,,,Daily Eucharistic Lectionary (alternative),gospel,John 9
+easter-14,1,,,,Daily Eucharistic Lectionary (alternative),ot,"2 Kings 4:18–21, 32–37"
+easter-14,1,,,,Daily Eucharistic Lectionary (alternative),psalm,"Psalm 17:1–8, 16"
+easter-14,1,,,,Daily Eucharistic Lectionary (alternative),gospel,John 11:1–45
+easter-14,2,,,,Daily Eucharistic Lectionary (alternative),ot,"2 Kings 4:18–21, 32–37"
+easter-14,2,,,,Daily Eucharistic Lectionary (alternative),psalm,"Psalm 17:1–8, 16"
+easter-14,2,,,,Daily Eucharistic Lectionary (alternative),gospel,John 11:1–45
+easter-14,3,,,,Daily Eucharistic Lectionary (alternative),ot,"2 Kings 4:18–21, 32–37"
+easter-14,3,,,,Daily Eucharistic Lectionary (alternative),psalm,"Psalm 17:1–8, 16"
+easter-14,3,,,,Daily Eucharistic Lectionary (alternative),gospel,John 11:1–45
+easter-14,4,,,,Daily Eucharistic Lectionary (alternative),ot,"2 Kings 4:18–21, 32–37"
+easter-14,4,,,,Daily Eucharistic Lectionary (alternative),psalm,"Psalm 17:1–8, 16"
+easter-14,4,,,,Daily Eucharistic Lectionary (alternative),gospel,John 11:1–45
+easter-14,5,,,,Daily Eucharistic Lectionary (alternative),ot,"2 Kings 4:18–21, 32–37"
+easter-14,5,,,,Daily Eucharistic Lectionary (alternative),psalm,"Psalm 17:1–8, 16"
+easter-14,5,,,,Daily Eucharistic Lectionary (alternative),gospel,John 11:1–45
+easter-14,6,,,,Daily Eucharistic Lectionary (alternative),ot,"2 Kings 4:18–21, 32–37"
+easter-14,6,,,,Daily Eucharistic Lectionary (alternative),psalm,"Psalm 17:1–8, 16"
+easter-14,6,,,,Daily Eucharistic Lectionary (alternative),gospel,John 11:1–45

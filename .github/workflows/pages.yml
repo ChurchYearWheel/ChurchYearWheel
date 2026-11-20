@@ -1,0 +1,57 @@
+# Builds the web page from this repository and publishes it with GitHub Pages,
+# on every push to main (and by hand, from the Actions tab).  The built page is
+# not kept in the repository: this makes it fresh each time.
+#
+# To turn it on: Settings -> Pages -> Build and deployment -> Source:
+# "GitHub Actions".  The page is then at https://<owner>.github.io/<repository>/
+name: Publish the web page
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# One publish at a time; a newer push replaces one still waiting.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # Only Python's standard library is needed, and the runner has Python.
+      - name: Freeze the tables from data/
+        run: python3 web/export_data.py
+
+      # The page draws with a JavaScript port of the Python drawing; stop here
+      # if the two no longer agree (Node is on the runner too).
+      - name: Check the two renderers agree
+        run: python3 web/verify.py
+
+      - name: Build the page
+        run: |
+          mkdir -p _site
+          python3 church_year.py --out _site/index.html
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

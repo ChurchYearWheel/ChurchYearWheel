@@ -1,0 +1,7 @@
+setting,value,variant
+# ===========================================================================,,
+# The Ethiopian and Eritrean Orthodox Tewahedo Churches.,,
+# ===========================================================================,,
+year_start,ethiopian(01-01),
+paschalion_default,julian,
+center_art,ethiopian_cross,

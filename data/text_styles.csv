@@ -1,0 +1,7 @@
+style,font_family,font_size,font_weight,font_style,font_variant,min_font_size,max_lines,orientation,fill
+day_number,sans-serif,12,bold,normal,normal,7,1,tangential,
+month_day_label,sans-serif,12,bold,normal,normal,7,1,tangential,
+first_day_label,sans-serif,10.8,bold,normal,normal,7,2,tangential,
+sunday_title,sans-serif,10.45,bold,normal,normal,5,6,tangential,
+weekday_title,serif,9.5,normal,normal,small-caps,5,6,tangential,
+feast,serif,10,normal,italic,normal,5,6,tangential,

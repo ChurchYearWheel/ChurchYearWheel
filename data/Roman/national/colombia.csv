@@ -1,0 +1,22 @@
+id,date,name,full_name,rank,style,color_override,color_override_bottom,icon,icon_when,transfer,variant,when,action,link
+st_turibius_of_mogrovejo,,,"Saint Turibius of Mogrovejo, bishop",11,memorial,-,,,,,,,,
+sts_philip_and_james,,,Exaltation of the Holy Cross,7,feast_rank,RED,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/triumph-of-the-cross/
+sts_philip_and_james,05-04,,"Saints Philip and James, apostles",7,feast_rank,RED,,,,,,,,
+,05-19,St. Maria Bernarda Bütler,"Saint Maria Bernarda Bütler, virgin",12,optional_memorial,,,,,,,,,
+,05-26,St. Mariana de Jesús de Paredes y Flores,"Saint Mariana de Jesús de Paredes y Flores, virgin",11,memorial,,,,,,,,,
+st_philip_neri,05-28,,"Saint Philip Neri, priest",10,memorial,-,,,,,,,,
+,06-26,St. Josemaría Escrivá de Balaguer,"Saint Josemaría Escrivá de Balaguer, priest",12,optional_memorial,,,,,,,,,
+,07-09,Our Lady of the Rosary of Chiquinquirá,"Our Lady of the Rosary of Chiquinquirá, Patroness of Colombia",8,feast_rank,WHITE,,,,,,,,
+st_augustine_zhao_rong_and_companions,07-10,,"Saints Augustine Zhao Rong and companions, martyrs",12,optional_memorial,-,,,,,,,,
+our_lady_of_mount_carmel,,,Our Lady of Mount Carmel,11,memorial,-,,,,,,,,
+,08-17,St. Beatriz of Silva,"Saint Beatriz of Silva, virgin",12,optional_memorial,,,,,,,,,
+,08-19,St. Ezekiel Moreno,"Saint Ezekiel Moreno, bishop",12,optional_memorial,,,,,,,,,
+st_rose_of_lima,08-30,,"Saint Rose of Lima, virgin",8,feast_rank,WHITE,,,,,,,,
+,08-26,St. Teresa of Jesus Jornet e Ibars,"Saint Teresa of Jesus Jornet e Ibars, virgin",11,memorial,,,,,,,,,
+st_peter_claver,,,"Saint Peter Claver, priest",11,memorial,-,,,,,,,,
+,09-26,St. Paul VI,"Saint Paul VI, pope",12,optional_memorial,,,,,,,,,https://www.loyolapress.com/catholic-resources/scripture-and-tradition/church-leadership/pope-paul-vi/
+,10-09,St. Louis Bertrand,"Saint Louis Bertrand, priest",11,memorial,,,,,,,,,
+,10-21,St. Laura Montoya of St. Catherine of Siena,"Saint Laura Montoya of Saint Catherine of Siena, virgin",11,memorial,,,,,,,,,
+st_martin_de_porres,,,"Saint Martin de Porres, religious",11,memorial,-,,,,,,,,
+guadalupe,,,Our Lady of Guadalupe,8,feast_rank,WHITE,,,,,,,,
+,easter+67,Christ the Eternal High Priest,"Our Lord Jesus Christ, the Eternal High Priest",8,feast_rank,WHITE,,,,,,,,

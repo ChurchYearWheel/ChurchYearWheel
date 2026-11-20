@@ -1,0 +1,1277 @@
+day,offset,when,cycle,variant,title,kind,reading
+# ===========================================================================
+# The readings of the Evangelical Lutheran Synod (Evangelical Lutheran
+"# Hymnary): the three-year series (variant three-year, cycles A, B and C)",
+# the historic one-year series (variant one-year) and the saints' days
+"# (both), from the ELS's own Google calendars ""ELS 3-year"", ""ELS Historic"""
+# and "ELS Saint Days" (exported October 2026; dated 2015-2029).
+"# Each Sunday's propers are those the calendars give under its name, the"
+# version given most often where they differ; propers given as an
+# alternative on a day ("- OR -") are read under their own names (the
+"# Twenty-third and Twenty-fourth Sundays after Trinity, Quinquagesima ...)."
+"# The three-year Sundays after Pentecost are keyed by Proper, by the same"
+# date ranges as Lutheran Service Book.  Reformation and All Saints follow
+# the Saint Days calendar's current appointment in both series.
+# Uncertain: one-year Easter Day 2027 gives Isaiah 25:6-9 / Psalm 16 /
+# 1 Corinthians 15:1-11 (the three-year Year B readings); the calendars'
+# usual Isaiah 52:13-15 / Psalm 118 / 1 Corinthians 5:6-8 is kept.
+"# Days the 3-year calendar never reached (Christmas Eve and Day, the"
+"# Epiphany, the Sixth to Eighth Sundays after the Epiphany, Thanksgiving and"
+"# early Propers) are taken from Lutheran Service Book, whose series the ELS"
+"# keeps (data/readings/lsb.csv); they are listed apart below, as are the"
+# one-year Fifth Sunday after the Epiphany and Thanksgiving.
+# Evident misprints corrected: Advent 1 C Jeremiah 33:14-16 (printed 33:1-16),
+"# Proper 16 C Hebrews 12:4-24 (25-29) (printed 12:4-29), Advent 4 C"
+# Luke 1:39-45 (46-56) (printed 45-56).  Differences from LSB that look
+"# deliberate are kept (Epiphany 5 C Psalm 136, Proper 4 B Psalm 28 ...)."
+"# Saint days without readings in the calendar (St. Chrysostom, the"
+# Reformers' commemorations ...) have none here.
+# ===========================================================================
+# --------------------------------------------------- three-year series
+01-01,,,,three-year,Circumcision and Name of Jesus,ot,Numbers 6:22–27
+01-01,,,,three-year,Circumcision and Name of Jesus,psalm,Psalm 8
+01-01,,,,three-year,Circumcision and Name of Jesus,epistle,Romans 1:1–7 or Philippians 2:9–13
+01-01,,,,three-year,Circumcision and Name of Jesus,gospel,Luke 2:21
+02-02,,,,three-year,Purification of Mary and Presentation of Our Lord,ot,1 Samuel 1:21–28
+02-02,,,,three-year,Purification of Mary and Presentation of Our Lord,psalm,Psalm 84
+02-02,,,,three-year,Purification of Mary and Presentation of Our Lord,epistle,Hebrews 2:14–18
+02-02,,,,three-year,Purification of Mary and Presentation of Our Lord,gospel,Luke 2:22–40
+03-25,,,,three-year,Annunciation of Our Lord,ot,Isaiah 7:10–14; 8:10c
+03-25,,,,three-year,Annunciation of Our Lord,psalm,Psalm 45
+03-25,,,,three-year,Annunciation of Our Lord,epistle,1 Timothy 3:16
+03-25,,,,three-year,Annunciation of Our Lord,gospel,Luke 1:25–38
+05-31,,,,three-year,The Visitation,ot,Isaiah 11:1–5
+05-31,,,,three-year,The Visitation,psalm,Psalm 138
+05-31,,,,three-year,The Visitation,epistle,Romans 12:9–16
+05-31,,,,three-year,The Visitation,gospel,Luke 1:39–47
+09-29,,,,three-year,St. Michael and All Angels,ot,Daniel 10:10–14; 12:1–3
+09-29,,,,three-year,St. Michael and All Angels,psalm,Psalm 103:1–22
+09-29,,,,three-year,St. Michael and All Angels,epistle,Revelation 12:7–12
+09-29,,,,three-year,St. Michael and All Angels,gospel,Luke 10:17–20
+12-31,,,,three-year,New Year's Eve,ot,Isaiah 51:1–6
+12-31,,,,three-year,New Year's Eve,psalm,Psalm 8
+12-31,,,,three-year,New Year's Eve,epistle,Romans 8:31–39
+12-31,,,,three-year,New Year's Eve,gospel,Matthew 1:18–21
+advent:1,,,A,three-year,,ot,Isaiah 2:1–5
+advent:1,,,A,three-year,,psalm,Psalm 122
+advent:1,,,A,three-year,,epistle,Romans 13:(8–10) 11–14
+advent:1,,,A,three-year,,gospel,Matthew 21:1–11 or Matthew 24:36–44
+advent:1,,,B,three-year,,ot,Isaiah 64:1–9
+advent:1,,,B,three-year,,psalm,Psalm 80:1–7
+advent:1,,,B,three-year,,epistle,1 Corinthians 1:3–9
+advent:1,,,B,three-year,,gospel,Mark 11:1–10 or Mark 13:24–37
+advent:1,,,C,three-year,,ot,Jeremiah 33:14–16
+advent:1,,,C,three-year,,psalm,Psalm 25:1–10
+advent:1,,,C,three-year,,epistle,1 Thessalonians 3:9–13
+advent:1,,,C,three-year,,gospel,Luke 19:28–40 or Luke 21:25–36
+advent:2,,,A,three-year,,ot,Isaiah 11:1–10
+advent:2,,,A,three-year,,psalm,Psalm 72:1–7
+advent:2,,,A,three-year,,epistle,Romans 15:4–13
+advent:2,,,A,three-year,,gospel,Matthew 3:1–12
+advent:2,,,B,three-year,,ot,Isaiah 40:1–11
+advent:2,,,B,three-year,,psalm,Psalm 85
+advent:2,,,B,three-year,,epistle,2 Peter 3:8–14
+advent:2,,,B,three-year,,gospel,Mark 1:1–8
+advent:2,,,C,three-year,,ot,Malachi 3:1–7b
+advent:2,,,C,three-year,,psalm,Psalm 66:1–12
+advent:2,,,C,three-year,,epistle,Philippians 1:2–11
+advent:2,,,C,three-year,,gospel,Luke 3:1–14 (15–20)
+advent:4,,,A,three-year,,ot,Isaiah 7:10–17
+advent:4,,,A,three-year,,psalm,Psalm 24
+advent:4,,,A,three-year,,epistle,Romans 1:1–7
+advent:4,,,A,three-year,,gospel,Matthew 1:18–25
+advent:4,,,B,three-year,,ot,"2 Samuel 7:1–11, 16"
+advent:4,,,B,three-year,,psalm,Psalm 89:1–5 (19–29)
+advent:4,,,B,three-year,,epistle,Romans 16:25–27
+advent:4,,,B,three-year,,gospel,Luke 1:26–38
+advent:4,,,C,three-year,,ot,Micah 5:2–5a
+advent:4,,,C,three-year,,psalm,Psalm 80:1–7
+advent:4,,,C,three-year,,epistle,Hebrews 10:5–10
+advent:4,,,C,three-year,,gospel,Luke 1:39–45 (46–56)
+after_christmas:1,,,A,three-year,,ot,Isaiah 63:7–14
+after_christmas:1,,,A,three-year,,psalm,Psalm 111
+after_christmas:1,,,A,three-year,,epistle,Galatians 4:4–7
+after_christmas:1,,,A,three-year,,gospel,Matthew 2:13–23
+after_christmas:1,,,B,three-year,,ot,Isaiah 61:10–62:3
+after_christmas:1,,,B,three-year,,psalm,Psalm 111
+after_christmas:1,,,B,three-year,,epistle,Galatians 4:4–7
+after_christmas:1,,,B,three-year,,gospel,Luke 2:22–40
+after_christmas:1,,,C,three-year,,ot,"Exodus 13:1–3a, 11–15"
+after_christmas:1,,,C,three-year,,psalm,Psalm 111
+after_christmas:1,,,C,three-year,,epistle,Colossians 3:12–17
+after_christmas:1,,,C,three-year,,gospel,Luke 2:22–40
+after_christmas:2,,,A,three-year,,ot,1 Kings 3:4–15
+after_christmas:2,,,A,three-year,,psalm,Psalm 119:97–104
+after_christmas:2,,,A,three-year,,epistle,Ephesians 1:3–14
+after_christmas:2,,,A,three-year,,gospel,Luke 2:40–52
+after_christmas:2,,,B,three-year,,ot,1 Kings 3:4–15
+after_christmas:2,,,B,three-year,,psalm,Psalm 119:97–104
+after_christmas:2,,,B,three-year,,epistle,Ephesians 1:3–14
+after_christmas:2,,,B,three-year,,gospel,Luke 2:40–52
+after_christmas:2,,,C,three-year,,ot,1 Kings 3:4–15
+after_christmas:2,,,C,three-year,,psalm,Psalm 119:97–104
+after_christmas:2,,,C,three-year,,epistle,Ephesians 1:3–14
+after_christmas:2,,,C,three-year,,gospel,Luke 2:40–52
+after_easter:2,,,A,three-year,,ot,Acts 5:29–42
+after_easter:2,,,A,three-year,,psalm,Psalm 148
+after_easter:2,,,A,three-year,,epistle,1 Peter 1:3–9
+after_easter:2,,,A,three-year,,gospel,John 20:19–31
+after_easter:2,,,B,three-year,,ot,Acts 4:32–35
+after_easter:2,,,B,three-year,,psalm,Psalm 148
+after_easter:2,,,B,three-year,,epistle,1 John 1:1–2:2
+after_easter:2,,,B,three-year,,gospel,John 20:19–31
+after_easter:2,,,C,three-year,,ot,Acts 5:12–20 (21–32)
+after_easter:2,,,C,three-year,,psalm,Psalm 148
+after_easter:2,,,C,three-year,,epistle,Revelation 1:4–18
+after_easter:2,,,C,three-year,,gospel,John 20:19–31
+after_easter:3,,,A,three-year,,ot,"Acts 2:14a, 36–41"
+after_easter:3,,,A,three-year,,psalm,Psalm 116:1–14
+after_easter:3,,,A,three-year,,epistle,1 Peter 1:17–25
+after_easter:3,,,A,three-year,,gospel,Luke 24:13–35
+after_easter:3,,,B,three-year,,ot,Acts 3:11–21
+after_easter:3,,,B,three-year,,psalm,Psalm 4
+after_easter:3,,,B,three-year,,epistle,1 John 3:1–7
+after_easter:3,,,B,three-year,,gospel,Luke 24:36–49
+after_easter:3,,,C,three-year,,ot,Acts 9:1–22
+after_easter:3,,,C,three-year,,psalm,Psalm 30
+after_easter:3,,,C,three-year,,epistle,Revelation 5:(1–7) 8–14
+after_easter:3,,,C,three-year,,gospel,John 21:1–14 (15–19)
+after_easter:4,,,A,three-year,,ot,Acts 2:42–47
+after_easter:4,,,A,three-year,,psalm,Psalm 23
+after_easter:4,,,A,three-year,,epistle,1 Peter 2:19–25
+after_easter:4,,,A,three-year,,gospel,John 10:1–10
+after_easter:4,,,B,three-year,,ot,Acts 4:1–12
+after_easter:4,,,B,three-year,,psalm,Psalm 23
+after_easter:4,,,B,three-year,,epistle,1 John 3:16–24
+after_easter:4,,,B,three-year,,gospel,John 10:11–18
+after_easter:4,,,C,three-year,,ot,Acts 20:17–35
+after_easter:4,,,C,three-year,,psalm,Psalm 23
+after_easter:4,,,C,three-year,,epistle,Revelation 7:9–17
+after_easter:4,,,C,three-year,,gospel,John 10:22–30
+after_easter:5,,,A,three-year,,ot,"Acts 6:1–9; 7:2a, 51–60"
+after_easter:5,,,A,three-year,,psalm,Psalm 146
+after_easter:5,,,A,three-year,,epistle,1 Peter 2:2–10
+after_easter:5,,,A,three-year,,gospel,John 14:1–14
+after_easter:5,,,B,three-year,,ot,Acts 8:26–40
+after_easter:5,,,B,three-year,,psalm,Psalm 150
+after_easter:5,,,B,three-year,,epistle,1 John 4:1–11 (12–21)
+after_easter:5,,,B,three-year,,gospel,John 15:1–8
+after_easter:5,,,C,three-year,,ot,Acts 11:1–18
+after_easter:5,,,C,three-year,,psalm,Psalm 148
+after_easter:5,,,C,three-year,,epistle,Revelation 21:1–7
+after_easter:5,,,C,three-year,,gospel,John 16:12–22 or John 13:31–35
+after_easter:6,,,A,three-year,,ot,Acts 17:16–31
+after_easter:6,,,A,three-year,,psalm,Psalm 66:8–20
+after_easter:6,,,A,three-year,,epistle,1 Peter 3:13–22
+after_easter:6,,,A,three-year,,gospel,John 14:15–21
+after_easter:6,,,B,three-year,,ot,Acts 10:34–48
+after_easter:6,,,B,three-year,,psalm,Psalm 98
+after_easter:6,,,B,three-year,,epistle,1 John 5:1–8
+after_easter:6,,,B,three-year,,gospel,John 15:9–17
+after_easter:6,,,C,three-year,,ot,Acts 16:9–15
+after_easter:6,,,C,three-year,,psalm,Psalm 67
+after_easter:6,,,C,three-year,,epistle,"Revelation 21:9–14, 21–27"
+after_easter:6,,,C,three-year,,gospel,John 16:23–33 or John 5:1–9
+after_easter:7,,,A,three-year,,ot,Acts 1:12–26
+after_easter:7,,,A,three-year,,psalm,Psalm 68:1–10
+after_easter:7,,,A,three-year,,epistle,1 Peter 4:12–19; 5:6–11
+after_easter:7,,,A,three-year,,gospel,John 17:1–11
+after_easter:7,,,B,three-year,,ot,Acts 1:12–26
+after_easter:7,,,B,three-year,,psalm,Psalm 1
+after_easter:7,,,B,three-year,,epistle,1 John 5:9–15
+after_easter:7,,,B,three-year,,gospel,John 17:11b–19
+after_easter:7,,,C,three-year,,ot,Acts 1:12–26
+after_easter:7,,,C,three-year,,psalm,Psalm 133
+after_easter:7,,,C,three-year,,epistle,Revelation 22:1–6 (7–11) 12–20
+after_easter:7,,,C,three-year,,gospel,John 17:20–26
+after_epiphany:2,,,A,three-year,,ot,Isaiah 49:1–7
+after_epiphany:2,,,A,three-year,,psalm,Psalm 40:1–11
+after_epiphany:2,,,A,three-year,,epistle,1 Corinthians 1:1–9
+after_epiphany:2,,,A,three-year,,gospel,John 1:29–42a
+after_epiphany:2,,,B,three-year,,ot,1 Samuel 3:1–10 (11–20)
+after_epiphany:2,,,B,three-year,,psalm,Psalm 139:1–10
+after_epiphany:2,,,B,three-year,,epistle,1 Corinthians 6:12–20
+after_epiphany:2,,,B,three-year,,gospel,John 1:43–51
+after_epiphany:2,,,C,three-year,,ot,Isaiah 62:1–5
+after_epiphany:2,,,C,three-year,,psalm,Psalm 128
+after_epiphany:2,,,C,three-year,,epistle,1 Corinthians 12:1–11
+after_epiphany:2,,,C,three-year,,gospel,John 2:1–11
+after_epiphany:3,,,A,three-year,,ot,Isaiah 9:1–4
+after_epiphany:3,,,A,three-year,,psalm,Psalm 27:1–9 (10–14)
+after_epiphany:3,,,A,three-year,,epistle,1 Corinthians 1:10–18
+after_epiphany:3,,,A,three-year,,gospel,Matthew 4:12–25
+after_epiphany:3,,,B,three-year,,ot,"Jonah 3:1–5, 10"
+after_epiphany:3,,,B,three-year,,psalm,Psalm 62
+after_epiphany:3,,,B,three-year,,epistle,1 Corinthians 7:29–31 (32–35)
+after_epiphany:3,,,B,three-year,,gospel,Mark 1:14–20
+after_epiphany:3,,,C,three-year,,ot,"Nehemiah 8:1–3, 5–6, 8–10"
+after_epiphany:3,,,C,three-year,,psalm,Psalm 19:(1–6) 7–14
+after_epiphany:3,,,C,three-year,,epistle,1 Corinthians 12:12–31a
+after_epiphany:3,,,C,three-year,,gospel,Luke 4:16–30
+after_epiphany:4,,,A,three-year,,ot,Micah 6:1–8
+after_epiphany:4,,,A,three-year,,psalm,Psalm 15
+after_epiphany:4,,,A,three-year,,epistle,1 Corinthians 1:18–31
+after_epiphany:4,,,A,three-year,,gospel,Matthew 5:1–12
+after_epiphany:4,,,B,three-year,,ot,Deuteronomy 18:15–20
+after_epiphany:4,,,B,three-year,,psalm,Psalm 111
+after_epiphany:4,,,B,three-year,,epistle,1 Corinthians 8:1–13
+after_epiphany:4,,,B,three-year,,gospel,Mark 1:21–28
+after_epiphany:4,,,C,three-year,,ot,Jeremiah 1:4–10 (17–19)
+after_epiphany:4,,,C,three-year,,psalm,Psalm 71:1–6 (7–11)
+after_epiphany:4,,,C,three-year,,epistle,1 Corinthians 12:31b–13:13
+after_epiphany:4,,,C,three-year,,gospel,Luke 4:31–44
+after_epiphany:5,,,A,three-year,,ot,Isaiah 58:3–9a
+after_epiphany:5,,,A,three-year,,psalm,Psalm 112:1–9
+after_epiphany:5,,,A,three-year,,epistle,1 Corinthians 2:1–12 (13–16)
+after_epiphany:5,,,A,three-year,,gospel,Matthew 5:13–20
+after_epiphany:5,,,B,three-year,,ot,Isaiah 40:21–31
+after_epiphany:5,,,B,three-year,,psalm,Psalm 147:1–11
+after_epiphany:5,,,B,three-year,,epistle,1 Corinthians 9:16–27
+after_epiphany:5,,,B,three-year,,gospel,Mark 1:29–39
+after_epiphany:5,,,C,three-year,,ot,Isaiah 6:1–8 (9–13)
+after_epiphany:5,,,C,three-year,,psalm,Psalm 136
+after_epiphany:5,,,C,three-year,,epistle,1 Corinthians 14:12b–20
+after_epiphany:5,,,C,three-year,,gospel,Luke 5:1–11
+after_epiphany:6,,,A,three-year,,ot,Deuteronomy 30:15–20
+after_epiphany:6,,,A,three-year,,psalm,Psalm 119:1–8
+after_epiphany:6,,,A,three-year,,epistle,1 Corinthians 3:1–9
+after_epiphany:6,,,A,three-year,,gospel,Matthew 5:21–37
+after_epiphany:6,,,C,three-year,,ot,Jeremiah 17:5–8
+after_epiphany:6,,,C,three-year,,psalm,Psalm 1
+after_epiphany:6,,,C,three-year,,epistle,1 Corinthians 15:(1–11) 12–20
+after_epiphany:6,,,C,three-year,,gospel,Luke 6:17–26
+after_epiphany:7,,,A,three-year,,ot,"Leviticus 19:1–2, 9–18"
+after_epiphany:7,,,A,three-year,,psalm,Psalm 119:33–40
+after_epiphany:7,,,A,three-year,,epistle,1 Corinthians 3:10–23
+after_epiphany:7,,,A,three-year,,gospel,Matthew 5:38–48
+after_epiphany:7,,,C,three-year,,ot,Genesis 45:3–15
+after_epiphany:7,,,C,three-year,,psalm,Psalm 103:1–13
+after_epiphany:7,,,C,three-year,,epistle,"1 Corinthians 15:21–26, 30–42"
+after_epiphany:7,,,C,three-year,,gospel,Luke 6:27–38
+ascension,,,A,three-year,,ot,Acts 1:1–11
+ascension,,,A,three-year,,psalm,Psalm 47
+ascension,,,A,three-year,,epistle,Ephesians 1:15–23
+ascension,,,A,three-year,,gospel,Luke 24:44–53
+ascension,,,B,three-year,,ot,Acts 1:1–11
+ascension,,,B,three-year,,psalm,Psalm 47
+ascension,,,B,three-year,,epistle,Ephesians 1:15–23
+ascension,,,B,three-year,,gospel,Luke 24:44–53
+ascension,,,C,three-year,,ot,Acts 1:1–11
+ascension,,,C,three-year,,psalm,Psalm 47
+ascension,,,C,three-year,,epistle,Ephesians 1:15–23
+ascension,,,C,three-year,,gospel,Luke 24:44–53
+ash_wednesday,,,A,three-year,,ot,Joel 2:12–19
+ash_wednesday,,,A,three-year,,psalm,Psalm 51:1–13 (14–19)
+ash_wednesday,,,A,three-year,,epistle,2 Corinthians 5:20b–6:10
+ash_wednesday,,,A,three-year,,gospel,"Matthew 6:1–6, 16–21"
+ash_wednesday,,,B,three-year,,ot,Joel 2:12–19
+ash_wednesday,,,B,three-year,,psalm,Psalm 51:1–13 (14–19)
+ash_wednesday,,,B,three-year,,epistle,2 Corinthians 5:20b–6:10
+ash_wednesday,,,B,three-year,,gospel,"Matthew 6:1–6, 16–21"
+ash_wednesday,,,C,three-year,,ot,Joel 2:12–19
+ash_wednesday,,,C,three-year,,psalm,Psalm 51:1–13 (14–19)
+ash_wednesday,,,C,three-year,,epistle,2 Corinthians 5:20–6:10
+ash_wednesday,,,C,three-year,,gospel,"Matthew 6:1–6, 16–21"
+baptism,,,A,three-year,,ot,Isaiah 42:1–9
+baptism,,,A,three-year,,psalm,Psalm 29
+baptism,,,A,three-year,,epistle,Romans 6:1–11
+baptism,,,A,three-year,,gospel,Matthew 3:13–17
+baptism,,,B,three-year,,ot,Genesis 1:1–5
+baptism,,,B,three-year,,psalm,Psalm 29
+baptism,,,B,three-year,,epistle,Romans 6:1–11
+baptism,,,B,three-year,,gospel,Mark 1:4–11
+baptism,,,C,three-year,,ot,Isaiah 43:1–7
+baptism,,,C,three-year,,psalm,Psalm 29
+baptism,,,C,three-year,,epistle,Romans 6:1–11
+baptism,,,C,three-year,,gospel,Luke 3:15–22
+easter,,,A,three-year,,ot,Acts 10:34–43
+easter,,,A,three-year,,psalm,Psalm 16
+easter,,,A,three-year,,epistle,Colossians 3:1–4
+easter,,,A,three-year,,gospel,Matthew 28:1–10
+easter,,,B,three-year,,ot,Isaiah 25:6–9
+easter,,,B,three-year,,psalm,Psalm 16
+easter,,,B,three-year,,epistle,1 Corinthians 15:1–11
+easter,,,B,three-year,,gospel,Mark 16:1–8
+easter,,,C,three-year,,ot,Isaiah 65:17–25
+easter,,,C,three-year,,psalm,Psalm 118:15–29
+easter,,,C,three-year,,epistle,1 Corinthians 15:19–26
+easter,,,C,three-year,,gospel,Luke 24:1–12
+gaudete,,,A,three-year,,ot,Isaiah 35:1–10
+gaudete,,,A,three-year,,psalm,Psalm 146
+gaudete,,,A,three-year,,epistle,James 5:7–11
+gaudete,,,A,three-year,,gospel,Matthew 11:2–15
+gaudete,,,B,three-year,,ot,"Isaiah 61:1–4, 8–11"
+gaudete,,,B,three-year,,psalm,Psalm 126
+gaudete,,,B,three-year,,epistle,1 Thessalonians 5:16–24
+gaudete,,,B,three-year,,gospel,"John 1:6–8, 19–28"
+gaudete,,,C,three-year,,ot,Zephaniah 3:14–20
+gaudete,,,C,three-year,,psalm,Psalm 85
+gaudete,,,C,three-year,,epistle,Philippians 4:4–7
+gaudete,,,C,three-year,,gospel,Luke 7:18–28 (29–35)
+good_friday,,,A,three-year,,ot,Isaiah 52:13–53:12
+good_friday,,,A,three-year,,psalm,Psalm 22
+good_friday,,,A,three-year,,epistle,Hebrews 4:14–16; 5:7–9
+good_friday,,,A,three-year,,gospel,John 18:1–19:42 or John 19:17–30
+good_friday,,,B,three-year,,ot,Isaiah 52:13–53:12
+good_friday,,,B,three-year,,psalm,Psalm 22
+good_friday,,,B,three-year,,epistle,Hebrews 4:14–16; 5:7–9
+good_friday,,,B,three-year,,gospel,John 18:1–19:42 or John 19:17–30
+good_friday,,,C,three-year,,ot,Isaiah 52:13–53:12
+good_friday,,,C,three-year,,psalm,Psalm 22
+good_friday,,,C,three-year,,epistle,Hebrews 4:14–16; 5:7–9
+good_friday,,,C,three-year,,gospel,John 18:1–19:42 or John 19:17–30
+holy_saturday,,,A,three-year,,ot,Daniel 6:1–24
+holy_saturday,,,A,three-year,,epistle,1 Peter 4:1–8
+holy_saturday,,,A,three-year,,gospel,Matthew 27:57–66
+holy_saturday,,,B,three-year,,ot,Daniel 6:1–24
+holy_saturday,,,B,three-year,,epistle,1 Peter 4:1–8
+holy_saturday,,,B,three-year,,gospel,Matthew 27:57–66
+holy_saturday,,,C,three-year,,ot,Daniel 6:1–24
+holy_saturday,,,C,three-year,,epistle,1 Peter 4:1–8
+holy_saturday,,,C,three-year,,gospel,Matthew 27:57–66
+laetare,,,A,three-year,,ot,Isaiah 42:14–21
+laetare,,,A,three-year,,psalm,Psalm 142
+laetare,,,A,three-year,,epistle,Ephesians 5:8–14
+laetare,,,A,three-year,,gospel,John 9:1–41
+laetare,,,B,three-year,,ot,Numbers 21:4–9
+laetare,,,B,three-year,,psalm,Psalm 107:1–9
+laetare,,,B,three-year,,epistle,Ephesians 2:1–10
+laetare,,,B,three-year,,gospel,John 3:14–21
+laetare,,,C,three-year,,ot,Isaiah 12:1–6
+laetare,,,C,three-year,,psalm,Psalm 32
+laetare,,,C,three-year,,epistle,2 Corinthians 5:16–21
+laetare,,,C,three-year,,gospel,"Luke 15:1–3, 11–32"
+last_sunday,,,A,three-year,,ot,"Ezekiel 34:11–16, 20–24"
+last_sunday,,,A,three-year,,psalm,Psalm 95:1–7a
+last_sunday,,,A,three-year,,epistle,1 Corinthians 15:20–28
+last_sunday,,,A,three-year,,gospel,Matthew 25:31–46
+last_sunday,,,B,three-year,,ot,"Isaiah 51:4–6 or Daniel 7:9–10, 13–14"
+last_sunday,,,B,three-year,,psalm,Psalm 93
+last_sunday,,,B,three-year,,epistle,Jude 20–25 or Revelation 1:4b–8
+last_sunday,,,B,three-year,,gospel,Mark 13:24–37 or John 18:33–37
+last_sunday,,,C,three-year,,ot,Malachi 3:13–18
+last_sunday,,,C,three-year,,psalm,Psalm 46
+last_sunday,,,C,three-year,,epistle,Colossians 1:13–20
+last_sunday,,,C,three-year,,gospel,Luke 23:27–43
+lent:1,,,A,three-year,,ot,Genesis 3:1–21
+lent:1,,,A,three-year,,psalm,Psalm 32:1–7
+lent:1,,,A,three-year,,epistle,Romans 5:12–19
+lent:1,,,A,three-year,,gospel,Matthew 4:1–11
+lent:1,,,B,three-year,,ot,Genesis 22:1–18
+lent:1,,,B,three-year,,psalm,Psalm 25:1–10
+lent:1,,,B,three-year,,epistle,James 1:12–18
+lent:1,,,B,three-year,,gospel,Mark 1:9–15
+lent:1,,,C,three-year,,ot,Deuteronomy 26:1–11
+lent:1,,,C,three-year,,psalm,Psalm 91:1–13
+lent:1,,,C,three-year,,epistle,Romans 10:8b–13
+lent:1,,,C,three-year,,gospel,Luke 4:1–13
+lent:2,,,A,three-year,,ot,Genesis 12:1–9
+lent:2,,,A,three-year,,psalm,Psalm 121
+lent:2,,,A,three-year,,epistle,"Romans 4:1–8, 13–17"
+lent:2,,,A,three-year,,gospel,John 3:1–17
+lent:2,,,B,three-year,,ot,"Genesis 17:1–7, 15–16"
+lent:2,,,B,three-year,,psalm,Psalm 22:23–31
+lent:2,,,B,three-year,,epistle,Romans 5:1–11
+lent:2,,,B,three-year,,gospel,Mark 8:27–38
+lent:2,,,C,three-year,,ot,Jeremiah 26:8–15
+lent:2,,,C,three-year,,psalm,Psalm 4
+lent:2,,,C,three-year,,epistle,Philippians 3:17–4:1
+lent:2,,,C,three-year,,gospel,Luke 13:31–35
+lent:3,,,A,three-year,,ot,Exodus 17:1–7
+lent:3,,,A,three-year,,psalm,Psalm 95:1–9
+lent:3,,,A,three-year,,epistle,Romans 5:1–8
+lent:3,,,A,three-year,,gospel,"John 4:5–26 (27–30, 39–42)"
+lent:3,,,B,three-year,,ot,Exodus 20:1–17
+lent:3,,,B,three-year,,psalm,Psalm 19
+lent:3,,,B,three-year,,epistle,1 Corinthians 1:18–31
+lent:3,,,B,three-year,,gospel,John 2:13–22 (23–25)
+lent:3,,,C,three-year,,ot,Ezekiel 33:7–20
+lent:3,,,C,three-year,,psalm,Psalm 85
+lent:3,,,C,three-year,,epistle,1 Corinthians 10:1–13
+lent:3,,,C,three-year,,gospel,Luke 13:1–9
+lent:5,,,A,three-year,,ot,Ezekiel 37:1–14
+lent:5,,,A,three-year,,psalm,Psalm 130
+lent:5,,,A,three-year,,epistle,Romans 8:1–11
+lent:5,,,A,three-year,,gospel,John 11:1–45 (46–53)
+lent:5,,,B,three-year,,ot,Jeremiah 31:31–34
+lent:5,,,B,three-year,,psalm,Psalm 119:9–16
+lent:5,,,B,three-year,,epistle,Hebrews 5:1–10
+lent:5,,,B,three-year,,gospel,Mark 10:(32–34) 35–45
+lent:5,,,C,three-year,,ot,Isaiah 43:16–21
+lent:5,,,C,three-year,,psalm,Psalm 126
+lent:5,,,C,three-year,,epistle,Philippians 3:(4b–7) 8–14
+lent:5,,,C,three-year,,gospel,Luke 20:9–20
+maundy_thursday,,,A,three-year,,ot,Exodus 24:3–11
+maundy_thursday,,,A,three-year,,psalm,Psalm 116:12–19
+maundy_thursday,,,A,three-year,,epistle,Hebrews 9:11–22
+maundy_thursday,,,A,three-year,,gospel,Matthew 26:17–30
+maundy_thursday,,,B,three-year,,ot,Exodus 24:3–11
+maundy_thursday,,,B,three-year,,psalm,Psalm 116:12–19
+maundy_thursday,,,B,three-year,,epistle,1 Corinthians 10:16–17
+maundy_thursday,,,B,three-year,,gospel,Mark 14:12–26
+maundy_thursday,,,C,three-year,,ot,Jeremiah 31:31–34
+maundy_thursday,,,C,three-year,,psalm,Psalm 116:12–19
+maundy_thursday,,,C,three-year,,epistle,Hebrews 10:15–25
+maundy_thursday,,,C,three-year,,gospel,Luke 22:7–20
+palm_sunday,,,A,three-year,,ot,Isaiah 50:4–9a
+palm_sunday,,,A,three-year,,psalm,Psalm 118:19–29
+palm_sunday,,,A,three-year,,epistle,Philippians 2:5–11
+palm_sunday,,,A,three-year,,gospel,Matthew 26:1–27:66 or Matthew 27:11–66 or John 12:20–43
+palm_sunday,,,B,three-year,,ot,Zechariah 9:9–12
+palm_sunday,,,B,three-year,,psalm,Psalm 118:19–29
+palm_sunday,,,B,three-year,,epistle,Philippians 2:5–11
+palm_sunday,,,B,three-year,,gospel,Mark 14:1–15:47 or Mark 15:1–47 or John 12:20–43
+palm_sunday,,,C,three-year,,ot,Deuteronomy 32:36–39
+palm_sunday,,,C,three-year,,psalm,Psalm 118:19–29 or Psalm 31:9–16
+palm_sunday,,,C,three-year,,epistle,Philippians 2:5–11
+palm_sunday,,,C,three-year,,gospel,Luke 22:1–23:56 or Luke 23:1–56 or John 12:20–43
+pentecost,,,A,three-year,,ot,Numbers 11:24–30
+pentecost,,,A,three-year,,psalm,Psalm 25:1–15
+pentecost,,,A,three-year,,epistle,Acts 2:1–21
+pentecost,,,A,three-year,,gospel,John 7:37–39
+pentecost,,,B,three-year,,ot,Ezekiel 37:1–14
+pentecost,,,B,three-year,,psalm,Psalm 139:1–12 (13–16)
+pentecost,,,B,three-year,,epistle,Acts 2:1–21
+pentecost,,,B,three-year,,gospel,John 15:26–27; 16:4b–15
+pentecost,,,C,three-year,,ot,Genesis 11:1–9
+pentecost,,,C,three-year,,psalm,Psalm 143
+pentecost,,,C,three-year,,epistle,Acts 2:1–21
+pentecost,,,C,three-year,,gospel,John 14:23–31
+sun>=05-29,,date le 06-04 & date gt @trinity & date lt @last_sunday,B,three-year,,ot,Deuteronomy 5:12–15
+sun>=05-29,,date le 06-04 & date gt @trinity & date lt @last_sunday,B,three-year,,psalm,Psalm 28
+sun>=05-29,,date le 06-04 & date gt @trinity & date lt @last_sunday,B,three-year,,epistle,2 Corinthians 4:5–12
+sun>=05-29,,date le 06-04 & date gt @trinity & date lt @last_sunday,B,three-year,,gospel,Mark 2:23–28 (3:1–6)
+sun>=05-29,,date le 06-04 & date gt @trinity & date lt @last_sunday,C,three-year,,ot,"1 Kings 8:22–24, 27–29, 41–43"
+sun>=05-29,,date le 06-04 & date gt @trinity & date lt @last_sunday,C,three-year,,psalm,Psalm 96:1–9
+sun>=05-29,,date le 06-04 & date gt @trinity & date lt @last_sunday,C,three-year,,epistle,Galatians 1:1–12
+sun>=05-29,,date le 06-04 & date gt @trinity & date lt @last_sunday,C,three-year,,gospel,Luke 7:1–10
+sun>=06-05,,date le 06-11 & date gt @trinity & date lt @last_sunday,B,three-year,,ot,Genesis 3:8–15
+sun>=06-05,,date le 06-11 & date gt @trinity & date lt @last_sunday,B,three-year,,psalm,Psalm 130
+sun>=06-05,,date le 06-11 & date gt @trinity & date lt @last_sunday,B,three-year,,epistle,2 Corinthians 4:13–5:1
+sun>=06-05,,date le 06-11 & date gt @trinity & date lt @last_sunday,B,three-year,,gospel,Mark 3:20–35
+sun>=06-05,,date le 06-11 & date gt @trinity & date lt @last_sunday,C,three-year,,ot,1 Kings 17:17–24
+sun>=06-05,,date le 06-11 & date gt @trinity & date lt @last_sunday,C,three-year,,psalm,Psalm 30
+sun>=06-05,,date le 06-11 & date gt @trinity & date lt @last_sunday,C,three-year,,epistle,Galatians 1:11–24
+sun>=06-05,,date le 06-11 & date gt @trinity & date lt @last_sunday,C,three-year,,gospel,Luke 7:11–17
+sun>=06-12,,date le 06-18 & date gt @trinity & date lt @last_sunday,A,three-year,,ot,Exodus 19:2–8
+sun>=06-12,,date le 06-18 & date gt @trinity & date lt @last_sunday,A,three-year,,psalm,Psalm 100
+sun>=06-12,,date le 06-18 & date gt @trinity & date lt @last_sunday,A,three-year,,epistle,Romans 5:6–15
+sun>=06-12,,date le 06-18 & date gt @trinity & date lt @last_sunday,A,three-year,,gospel,Matthew 9:35–10:8 (9–20)
+sun>=06-12,,date le 06-18 & date gt @trinity & date lt @last_sunday,B,three-year,,ot,Ezekiel 17:22–24
+sun>=06-12,,date le 06-18 & date gt @trinity & date lt @last_sunday,B,three-year,,psalm,Psalm 1
+sun>=06-12,,date le 06-18 & date gt @trinity & date lt @last_sunday,B,three-year,,epistle,2 Corinthians 5:1–10 (11–17)
+sun>=06-12,,date le 06-18 & date gt @trinity & date lt @last_sunday,B,three-year,,gospel,Mark 4:26–34
+sun>=06-12,,date le 06-18 & date gt @trinity & date lt @last_sunday,C,three-year,,ot,"2 Samuel 11:26–12:10, 13–14"
+sun>=06-12,,date le 06-18 & date gt @trinity & date lt @last_sunday,C,three-year,,psalm,Psalm 32:1–7
+sun>=06-12,,date le 06-18 & date gt @trinity & date lt @last_sunday,C,three-year,,epistle,Galatians 2:15–21; 3:10–14
+sun>=06-12,,date le 06-18 & date gt @trinity & date lt @last_sunday,C,three-year,,gospel,Luke 7:36–8:3
+sun>=06-19,,date le 06-25 & date gt @trinity & date lt @last_sunday,A,three-year,,ot,Jeremiah 20:7–13
+sun>=06-19,,date le 06-25 & date gt @trinity & date lt @last_sunday,A,three-year,,psalm,Psalm 91:1–10 (11–16)
+sun>=06-19,,date le 06-25 & date gt @trinity & date lt @last_sunday,A,three-year,,epistle,Romans 6:12–23
+sun>=06-19,,date le 06-25 & date gt @trinity & date lt @last_sunday,A,three-year,,gospel,"Matthew 10:5a, 21–33"
+sun>=06-19,,date le 06-25 & date gt @trinity & date lt @last_sunday,B,three-year,,ot,Job 38:1–11
+sun>=06-19,,date le 06-25 & date gt @trinity & date lt @last_sunday,B,three-year,,psalm,Psalm 124
+sun>=06-19,,date le 06-25 & date gt @trinity & date lt @last_sunday,B,three-year,,epistle,2 Corinthians 6:1–13
+sun>=06-19,,date le 06-25 & date gt @trinity & date lt @last_sunday,B,three-year,,gospel,Mark 4:35–41
+sun>=06-19,,date le 06-25 & date gt @trinity & date lt @last_sunday,C,three-year,,ot,Isaiah 65:1–9
+sun>=06-19,,date le 06-25 & date gt @trinity & date lt @last_sunday,C,three-year,,psalm,Psalm 3
+sun>=06-19,,date le 06-25 & date gt @trinity & date lt @last_sunday,C,three-year,,epistle,Galatians 3:23–4:7
+sun>=06-19,,date le 06-25 & date gt @trinity & date lt @last_sunday,C,three-year,,gospel,Luke 8:26–39
+sun>=06-26,,date le 07-02 & date gt @trinity & date lt @last_sunday,A,three-year,,ot,Jeremiah 28:5–9
+sun>=06-26,,date le 07-02 & date gt @trinity & date lt @last_sunday,A,three-year,,psalm,Psalm 119:153–160
+sun>=06-26,,date le 07-02 & date gt @trinity & date lt @last_sunday,A,three-year,,epistle,Romans 7:1–13
+sun>=06-26,,date le 07-02 & date gt @trinity & date lt @last_sunday,A,three-year,,gospel,Matthew 10:34–42
+sun>=06-26,,date le 07-02 & date gt @trinity & date lt @last_sunday,B,three-year,,ot,Lamentations 3:22–33
+sun>=06-26,,date le 07-02 & date gt @trinity & date lt @last_sunday,B,three-year,,psalm,Psalm 30
+sun>=06-26,,date le 07-02 & date gt @trinity & date lt @last_sunday,B,three-year,,epistle,"2 Corinthians 8:1–9, 13–15"
+sun>=06-26,,date le 07-02 & date gt @trinity & date lt @last_sunday,B,three-year,,gospel,Mark 5:21–43
+sun>=06-26,,date le 07-02 & date gt @trinity & date lt @last_sunday,C,three-year,,ot,1 Kings 19:9b–21
+sun>=06-26,,date le 07-02 & date gt @trinity & date lt @last_sunday,C,three-year,,psalm,Psalm 16
+sun>=06-26,,date le 07-02 & date gt @trinity & date lt @last_sunday,C,three-year,,epistle,"Galatians 5:1, 13–25"
+sun>=06-26,,date le 07-02 & date gt @trinity & date lt @last_sunday,C,three-year,,gospel,Luke 9:51–62
+sun>=07-03,,date le 07-09 & date gt @trinity & date lt @last_sunday,A,three-year,,ot,Zechariah 9:9–12
+sun>=07-03,,date le 07-09 & date gt @trinity & date lt @last_sunday,A,three-year,,psalm,Psalm 145:1–14
+sun>=07-03,,date le 07-09 & date gt @trinity & date lt @last_sunday,A,three-year,,epistle,Romans 7:14–25a
+sun>=07-03,,date le 07-09 & date gt @trinity & date lt @last_sunday,A,three-year,,gospel,Matthew 11:25–30
+sun>=07-03,,date le 07-09 & date gt @trinity & date lt @last_sunday,B,three-year,,ot,Ezekiel 2:1–5
+sun>=07-03,,date le 07-09 & date gt @trinity & date lt @last_sunday,B,three-year,,psalm,Psalm 123
+sun>=07-03,,date le 07-09 & date gt @trinity & date lt @last_sunday,B,three-year,,epistle,2 Corinthians 12:1–10
+sun>=07-03,,date le 07-09 & date gt @trinity & date lt @last_sunday,B,three-year,,gospel,Mark 6:1–13
+sun>=07-03,,date le 07-09 & date gt @trinity & date lt @last_sunday,C,three-year,,ot,Isaiah 66:10–14
+sun>=07-03,,date le 07-09 & date gt @trinity & date lt @last_sunday,C,three-year,,psalm,Psalm 66:1–7
+sun>=07-03,,date le 07-09 & date gt @trinity & date lt @last_sunday,C,three-year,,epistle,"Galatians 6:1–10, 14–18"
+sun>=07-03,,date le 07-09 & date gt @trinity & date lt @last_sunday,C,three-year,,gospel,Luke 10:1–20
+sun>=07-10,,date le 07-16 & date gt @trinity & date lt @last_sunday,A,three-year,,ot,Isaiah 55:10–13
+sun>=07-10,,date le 07-16 & date gt @trinity & date lt @last_sunday,A,three-year,,psalm,Psalm 65:(1–8) 9–13
+sun>=07-10,,date le 07-16 & date gt @trinity & date lt @last_sunday,A,three-year,,epistle,Romans 8:12–17
+sun>=07-10,,date le 07-16 & date gt @trinity & date lt @last_sunday,A,three-year,,gospel,"Matthew 13:1–9, 18–23"
+sun>=07-10,,date le 07-16 & date gt @trinity & date lt @last_sunday,B,three-year,,ot,Amos 7:7–15
+sun>=07-10,,date le 07-16 & date gt @trinity & date lt @last_sunday,B,three-year,,psalm,Psalm 85:(1–7) 8–13
+sun>=07-10,,date le 07-16 & date gt @trinity & date lt @last_sunday,B,three-year,,epistle,Ephesians 1:3–14
+sun>=07-10,,date le 07-16 & date gt @trinity & date lt @last_sunday,B,three-year,,gospel,Mark 6:14–29
+sun>=07-10,,date le 07-16 & date gt @trinity & date lt @last_sunday,C,three-year,,ot,Leviticus 18:(1–5) 19:9–18
+sun>=07-10,,date le 07-16 & date gt @trinity & date lt @last_sunday,C,three-year,,psalm,Psalm 41
+sun>=07-10,,date le 07-16 & date gt @trinity & date lt @last_sunday,C,three-year,,epistle,Colossians 1:1–14
+sun>=07-10,,date le 07-16 & date gt @trinity & date lt @last_sunday,C,three-year,,gospel,Luke 10:25–37
+sun>=07-17,,date le 07-23 & date gt @trinity & date lt @last_sunday,A,three-year,,ot,Isaiah 44:6–8
+sun>=07-17,,date le 07-23 & date gt @trinity & date lt @last_sunday,A,three-year,,psalm,Psalm 119:57–64
+sun>=07-17,,date le 07-23 & date gt @trinity & date lt @last_sunday,A,three-year,,epistle,Romans 8:18–27
+sun>=07-17,,date le 07-23 & date gt @trinity & date lt @last_sunday,A,three-year,,gospel,"Matthew 13:24–30, 36–43"
+sun>=07-17,,date le 07-23 & date gt @trinity & date lt @last_sunday,B,three-year,,ot,Jeremiah 23:1–6
+sun>=07-17,,date le 07-23 & date gt @trinity & date lt @last_sunday,B,three-year,,psalm,Psalm 23
+sun>=07-17,,date le 07-23 & date gt @trinity & date lt @last_sunday,B,three-year,,epistle,Ephesians 2:11–22
+sun>=07-17,,date le 07-23 & date gt @trinity & date lt @last_sunday,B,three-year,,gospel,Mark 6:30–44
+sun>=07-17,,date le 07-23 & date gt @trinity & date lt @last_sunday,C,three-year,,ot,Genesis 18:1–10a (10b–14)
+sun>=07-17,,date le 07-23 & date gt @trinity & date lt @last_sunday,C,three-year,,psalm,Psalm 27:(1–6) 7–14
+sun>=07-17,,date le 07-23 & date gt @trinity & date lt @last_sunday,C,three-year,,epistle,Colossians 1:21–29
+sun>=07-17,,date le 07-23 & date gt @trinity & date lt @last_sunday,C,three-year,,gospel,Luke 10:38–42
+sun>=07-24,,date le 07-30 & date gt @trinity & date lt @last_sunday,A,three-year,,ot,Deuteronomy 7:6–9
+sun>=07-24,,date le 07-30 & date gt @trinity & date lt @last_sunday,A,three-year,,psalm,Psalm 125
+sun>=07-24,,date le 07-30 & date gt @trinity & date lt @last_sunday,A,three-year,,epistle,Romans 8:28–39
+sun>=07-24,,date le 07-30 & date gt @trinity & date lt @last_sunday,A,three-year,,gospel,Matthew 13:44–52
+sun>=07-24,,date le 07-30 & date gt @trinity & date lt @last_sunday,B,three-year,,ot,Genesis 9:8–17
+sun>=07-24,,date le 07-30 & date gt @trinity & date lt @last_sunday,B,three-year,,psalm,Psalm 136:1–9
+sun>=07-24,,date le 07-30 & date gt @trinity & date lt @last_sunday,B,three-year,,epistle,Ephesians 3:14–21
+sun>=07-24,,date le 07-30 & date gt @trinity & date lt @last_sunday,B,three-year,,gospel,Mark 6:45–56
+sun>=07-24,,date le 07-30 & date gt @trinity & date lt @last_sunday,C,three-year,,ot,Genesis 18:(17–19) 20–33
+sun>=07-24,,date le 07-30 & date gt @trinity & date lt @last_sunday,C,three-year,,psalm,Psalm 138
+sun>=07-24,,date le 07-30 & date gt @trinity & date lt @last_sunday,C,three-year,,epistle,Colossians 2:6–15 (16–19)
+sun>=07-24,,date le 07-30 & date gt @trinity & date lt @last_sunday,C,three-year,,gospel,Luke 11:1–13
+sun>=07-31,,date le 08-06 & date gt @trinity & date lt @last_sunday,A,three-year,,ot,Isaiah 55:1–5
+sun>=07-31,,date le 08-06 & date gt @trinity & date lt @last_sunday,A,three-year,,psalm,Psalm 136:1–9 (23–26)
+sun>=07-31,,date le 08-06 & date gt @trinity & date lt @last_sunday,A,three-year,,epistle,Romans 9:1–5 (6–13)
+sun>=07-31,,date le 08-06 & date gt @trinity & date lt @last_sunday,A,three-year,,gospel,Matthew 14:13–21
+sun>=07-31,,date le 08-06 & date gt @trinity & date lt @last_sunday,B,three-year,,ot,Exodus 16:2–15
+sun>=07-31,,date le 08-06 & date gt @trinity & date lt @last_sunday,B,three-year,,psalm,Psalm 145:10–21
+sun>=07-31,,date le 08-06 & date gt @trinity & date lt @last_sunday,B,three-year,,epistle,Ephesians 4:1–16
+sun>=07-31,,date le 08-06 & date gt @trinity & date lt @last_sunday,B,three-year,,gospel,John 6:22–35
+sun>=07-31,,date le 08-06 & date gt @trinity & date lt @last_sunday,C,three-year,,ot,"Ecclesiastes 1:2, 12–14; 2:18–26"
+sun>=07-31,,date le 08-06 & date gt @trinity & date lt @last_sunday,C,three-year,,psalm,Psalm 100
+sun>=07-31,,date le 08-06 & date gt @trinity & date lt @last_sunday,C,three-year,,epistle,Colossians 3:1–11
+sun>=07-31,,date le 08-06 & date gt @trinity & date lt @last_sunday,C,three-year,,gospel,Luke 12:13–21
+sun>=08-07,,date le 08-13 & date gt @trinity & date lt @last_sunday,A,three-year,,ot,Job 38:4–18
+sun>=08-07,,date le 08-13 & date gt @trinity & date lt @last_sunday,A,three-year,,psalm,Psalm 18:1–6 (7–16)
+sun>=08-07,,date le 08-13 & date gt @trinity & date lt @last_sunday,A,three-year,,epistle,Romans 10:5–17
+sun>=08-07,,date le 08-13 & date gt @trinity & date lt @last_sunday,A,three-year,,gospel,Matthew 14:22–33
+sun>=08-07,,date le 08-13 & date gt @trinity & date lt @last_sunday,B,three-year,,ot,1 Kings 19:1–8
+sun>=08-07,,date le 08-13 & date gt @trinity & date lt @last_sunday,B,three-year,,psalm,Psalm 34:1–8
+sun>=08-07,,date le 08-13 & date gt @trinity & date lt @last_sunday,B,three-year,,epistle,Ephesians 4:17–5:2
+sun>=08-07,,date le 08-13 & date gt @trinity & date lt @last_sunday,B,three-year,,gospel,John 6:35–51
+sun>=08-07,,date le 08-13 & date gt @trinity & date lt @last_sunday,C,three-year,,ot,Genesis 15:1–6
+sun>=08-07,,date le 08-13 & date gt @trinity & date lt @last_sunday,C,three-year,,psalm,Psalm 33:12–22
+sun>=08-07,,date le 08-13 & date gt @trinity & date lt @last_sunday,C,three-year,,epistle,Hebrews 11:1–16
+sun>=08-07,,date le 08-13 & date gt @trinity & date lt @last_sunday,C,three-year,,gospel,Luke 12:22–34
+sun>=08-14,,date le 08-20 & date gt @trinity & date lt @last_sunday,A,three-year,,ot,"Isaiah 56:1, 6–8"
+sun>=08-14,,date le 08-20 & date gt @trinity & date lt @last_sunday,A,three-year,,psalm,Psalm 67
+sun>=08-14,,date le 08-20 & date gt @trinity & date lt @last_sunday,A,three-year,,epistle,"Romans 11:1–2a, 13–15, 28–32"
+sun>=08-14,,date le 08-20 & date gt @trinity & date lt @last_sunday,A,three-year,,gospel,Matthew 15:21–28
+sun>=08-14,,date le 08-20 & date gt @trinity & date lt @last_sunday,B,three-year,,ot,Proverbs 9:1–10
+sun>=08-14,,date le 08-20 & date gt @trinity & date lt @last_sunday,B,three-year,,psalm,Psalm 34:12–22
+sun>=08-14,,date le 08-20 & date gt @trinity & date lt @last_sunday,B,three-year,,epistle,Ephesians 5:6–21
+sun>=08-14,,date le 08-20 & date gt @trinity & date lt @last_sunday,B,three-year,,gospel,John 6:51–69
+sun>=08-14,,date le 08-20 & date gt @trinity & date lt @last_sunday,C,three-year,,ot,Jeremiah 23:16–29
+sun>=08-14,,date le 08-20 & date gt @trinity & date lt @last_sunday,C,three-year,,psalm,Psalm 119:81–88
+sun>=08-14,,date le 08-20 & date gt @trinity & date lt @last_sunday,C,three-year,,epistle,Hebrews 11:17–31 (32–40); 12:1–3
+sun>=08-14,,date le 08-20 & date gt @trinity & date lt @last_sunday,C,three-year,,gospel,Luke 12:49–53 (54–56)
+sun>=08-21,,date le 08-27 & date gt @trinity & date lt @last_sunday,A,three-year,,ot,Isaiah 51:1–6
+sun>=08-21,,date le 08-27 & date gt @trinity & date lt @last_sunday,A,three-year,,psalm,Psalm 138
+sun>=08-21,,date le 08-27 & date gt @trinity & date lt @last_sunday,A,three-year,,epistle,Romans 11:33–12:8
+sun>=08-21,,date le 08-27 & date gt @trinity & date lt @last_sunday,A,three-year,,gospel,Matthew 16:13–20
+sun>=08-21,,date le 08-27 & date gt @trinity & date lt @last_sunday,B,three-year,,ot,Isaiah 29:11–19
+sun>=08-21,,date le 08-27 & date gt @trinity & date lt @last_sunday,B,three-year,,psalm,Psalm 14
+sun>=08-21,,date le 08-27 & date gt @trinity & date lt @last_sunday,B,three-year,,epistle,Ephesians 5:22–33
+sun>=08-21,,date le 08-27 & date gt @trinity & date lt @last_sunday,B,three-year,,gospel,Mark 7:1–13
+sun>=08-21,,date le 08-27 & date gt @trinity & date lt @last_sunday,C,three-year,,ot,Isaiah 66:18–23
+sun>=08-21,,date le 08-27 & date gt @trinity & date lt @last_sunday,C,three-year,,psalm,Psalm 50:1–15
+sun>=08-21,,date le 08-27 & date gt @trinity & date lt @last_sunday,C,three-year,,epistle,Hebrews 12:4–24 (25–29)
+sun>=08-21,,date le 08-27 & date gt @trinity & date lt @last_sunday,C,three-year,,gospel,Luke 13:22–30
+sun>=08-28,,date le 09-03 & date gt @trinity & date lt @last_sunday,A,three-year,,ot,Jeremiah 15:15–21
+sun>=08-28,,date le 09-03 & date gt @trinity & date lt @last_sunday,A,three-year,,psalm,Psalm 26
+sun>=08-28,,date le 09-03 & date gt @trinity & date lt @last_sunday,A,three-year,,epistle,Romans 12:9–21
+sun>=08-28,,date le 09-03 & date gt @trinity & date lt @last_sunday,A,three-year,,gospel,Matthew 16:21–28
+sun>=08-28,,date le 09-03 & date gt @trinity & date lt @last_sunday,B,three-year,,ot,"Deuteronomy 4:1–2, 6–9"
+sun>=08-28,,date le 09-03 & date gt @trinity & date lt @last_sunday,B,three-year,,psalm,Psalm 119:129–136
+sun>=08-28,,date le 09-03 & date gt @trinity & date lt @last_sunday,B,three-year,,epistle,Ephesians 6:10–20
+sun>=08-28,,date le 09-03 & date gt @trinity & date lt @last_sunday,B,three-year,,gospel,Mark 7:14–23
+sun>=08-28,,date le 09-03 & date gt @trinity & date lt @last_sunday,C,three-year,,ot,Proverbs 25:2–10
+sun>=08-28,,date le 09-03 & date gt @trinity & date lt @last_sunday,C,three-year,,psalm,Psalm 131
+sun>=08-28,,date le 09-03 & date gt @trinity & date lt @last_sunday,C,three-year,,epistle,Hebrews 13:1–17
+sun>=08-28,,date le 09-03 & date gt @trinity & date lt @last_sunday,C,three-year,,gospel,Luke 14:1–14
+sun>=09-04,,date le 09-10 & date gt @trinity & date lt @last_sunday,A,three-year,,ot,Ezekiel 33:7–9
+sun>=09-04,,date le 09-10 & date gt @trinity & date lt @last_sunday,A,three-year,,psalm,Psalm 32:1–7
+sun>=09-04,,date le 09-10 & date gt @trinity & date lt @last_sunday,A,three-year,,epistle,Romans 13:1–10
+sun>=09-04,,date le 09-10 & date gt @trinity & date lt @last_sunday,A,three-year,,gospel,Matthew 18:1–20
+sun>=09-04,,date le 09-10 & date gt @trinity & date lt @last_sunday,B,three-year,,ot,Isaiah 35:4–7a
+sun>=09-04,,date le 09-10 & date gt @trinity & date lt @last_sunday,B,three-year,,psalm,Psalm 146
+sun>=09-04,,date le 09-10 & date gt @trinity & date lt @last_sunday,B,three-year,,epistle,"James 2:1–10, 14–18"
+sun>=09-04,,date le 09-10 & date gt @trinity & date lt @last_sunday,B,three-year,,gospel,Mark 7:(24–30) 31–37
+sun>=09-04,,date le 09-10 & date gt @trinity & date lt @last_sunday,C,three-year,,ot,Deuteronomy 30:15–20
+sun>=09-04,,date le 09-10 & date gt @trinity & date lt @last_sunday,C,three-year,,psalm,Psalm 1
+sun>=09-04,,date le 09-10 & date gt @trinity & date lt @last_sunday,C,three-year,,epistle,Philemon 1–21
+sun>=09-04,,date le 09-10 & date gt @trinity & date lt @last_sunday,C,three-year,,gospel,Luke 14:25–35
+sun>=09-11,,date le 09-17 & date gt @trinity & date lt @last_sunday,A,three-year,,ot,Genesis 50:15–21
+sun>=09-11,,date le 09-17 & date gt @trinity & date lt @last_sunday,A,three-year,,psalm,Psalm 103:1–12
+sun>=09-11,,date le 09-17 & date gt @trinity & date lt @last_sunday,A,three-year,,epistle,Romans 14:1–12
+sun>=09-11,,date le 09-17 & date gt @trinity & date lt @last_sunday,A,three-year,,gospel,Matthew 18:21–35
+sun>=09-11,,date le 09-17 & date gt @trinity & date lt @last_sunday,B,three-year,,ot,Isaiah 50:4–10
+sun>=09-11,,date le 09-17 & date gt @trinity & date lt @last_sunday,B,three-year,,psalm,Psalm 116:1–9
+sun>=09-11,,date le 09-17 & date gt @trinity & date lt @last_sunday,B,three-year,,epistle,James 3:1–12
+sun>=09-11,,date le 09-17 & date gt @trinity & date lt @last_sunday,B,three-year,,gospel,Mark 9:14–29
+sun>=09-11,,date le 09-17 & date gt @trinity & date lt @last_sunday,C,three-year,,ot,Ezekiel 34:11–24
+sun>=09-11,,date le 09-17 & date gt @trinity & date lt @last_sunday,C,three-year,,psalm,Psalm 119:169–176
+sun>=09-11,,date le 09-17 & date gt @trinity & date lt @last_sunday,C,three-year,,epistle,1 Timothy 1:(5–11) 12–17
+sun>=09-11,,date le 09-17 & date gt @trinity & date lt @last_sunday,C,three-year,,gospel,Luke 15:1–10
+sun>=09-18,,date le 09-24 & date gt @trinity & date lt @last_sunday,A,three-year,,ot,Isaiah 55:6–9
+sun>=09-18,,date le 09-24 & date gt @trinity & date lt @last_sunday,A,three-year,,psalm,Psalm 27:1–9
+sun>=09-18,,date le 09-24 & date gt @trinity & date lt @last_sunday,A,three-year,,epistle,"Philippians 1:12–14, 19–30"
+sun>=09-18,,date le 09-24 & date gt @trinity & date lt @last_sunday,A,three-year,,gospel,Matthew 20:1–16
+sun>=09-18,,date le 09-24 & date gt @trinity & date lt @last_sunday,B,three-year,,ot,Jeremiah 11:18–20
+sun>=09-18,,date le 09-24 & date gt @trinity & date lt @last_sunday,B,three-year,,psalm,Psalm 54
+sun>=09-18,,date le 09-24 & date gt @trinity & date lt @last_sunday,B,three-year,,epistle,James 3:13–4:10
+sun>=09-18,,date le 09-24 & date gt @trinity & date lt @last_sunday,B,three-year,,gospel,Mark 9:30–37
+sun>=09-18,,date le 09-24 & date gt @trinity & date lt @last_sunday,C,three-year,,ot,Amos 8:4–7
+sun>=09-18,,date le 09-24 & date gt @trinity & date lt @last_sunday,C,three-year,,psalm,Psalm 113
+sun>=09-18,,date le 09-24 & date gt @trinity & date lt @last_sunday,C,three-year,,epistle,1 Timothy 2:1–15
+sun>=09-18,,date le 09-24 & date gt @trinity & date lt @last_sunday,C,three-year,,gospel,Luke 16:1–15
+sun>=09-25,,date le 10-01 & date gt @trinity & date lt @last_sunday,A,three-year,,ot,"Ezekiel 18:1–4, 25–32"
+sun>=09-25,,date le 10-01 & date gt @trinity & date lt @last_sunday,A,three-year,,psalm,Psalm 25:1–10
+sun>=09-25,,date le 10-01 & date gt @trinity & date lt @last_sunday,A,three-year,,epistle,Philippians 2:1–4 (5–13) 14–18
+sun>=09-25,,date le 10-01 & date gt @trinity & date lt @last_sunday,A,three-year,,gospel,Matthew 21:23–27 (28–32)
+sun>=09-25,,date le 10-01 & date gt @trinity & date lt @last_sunday,B,three-year,,ot,"Numbers 11:4–6, 10–16, 24–29"
+sun>=09-25,,date le 10-01 & date gt @trinity & date lt @last_sunday,B,three-year,,psalm,Psalm 104:27–35
+sun>=09-25,,date le 10-01 & date gt @trinity & date lt @last_sunday,B,three-year,,epistle,James 5:(1–12) 13–20
+sun>=09-25,,date le 10-01 & date gt @trinity & date lt @last_sunday,B,three-year,,gospel,Mark 9:38–50
+sun>=09-25,,date le 10-01 & date gt @trinity & date lt @last_sunday,C,three-year,,ot,Amos 6:1–7
+sun>=09-25,,date le 10-01 & date gt @trinity & date lt @last_sunday,C,three-year,,psalm,Psalm 146
+sun>=09-25,,date le 10-01 & date gt @trinity & date lt @last_sunday,C,three-year,,epistle,1 Timothy 3:1–13 or 1 Timothy 6:6–19
+sun>=09-25,,date le 10-01 & date gt @trinity & date lt @last_sunday,C,three-year,,gospel,Luke 16:19–31
+sun>=10-02,,date le 10-08 & date gt @trinity & date lt @last_sunday,A,three-year,,ot,Isaiah 5:1–7
+sun>=10-02,,date le 10-08 & date gt @trinity & date lt @last_sunday,A,three-year,,psalm,Psalm 80:7–19
+sun>=10-02,,date le 10-08 & date gt @trinity & date lt @last_sunday,A,three-year,,epistle,Philippians 3:4b–14
+sun>=10-02,,date le 10-08 & date gt @trinity & date lt @last_sunday,A,three-year,,gospel,Matthew 21:33–46
+sun>=10-02,,date le 10-08 & date gt @trinity & date lt @last_sunday,B,three-year,,ot,Genesis 2:18–25
+sun>=10-02,,date le 10-08 & date gt @trinity & date lt @last_sunday,B,three-year,,psalm,Psalm 128
+sun>=10-02,,date le 10-08 & date gt @trinity & date lt @last_sunday,B,three-year,,epistle,Hebrews 2:1–13 (14–18)
+sun>=10-02,,date le 10-08 & date gt @trinity & date lt @last_sunday,B,three-year,,gospel,Mark 10:2–16
+sun>=10-02,,date le 10-08 & date gt @trinity & date lt @last_sunday,C,three-year,,ot,Habakkuk 1:1–4; 2:1–4
+sun>=10-02,,date le 10-08 & date gt @trinity & date lt @last_sunday,C,three-year,,psalm,Psalm 62
+sun>=10-02,,date le 10-08 & date gt @trinity & date lt @last_sunday,C,three-year,,epistle,2 Timothy 1:1–14
+sun>=10-02,,date le 10-08 & date gt @trinity & date lt @last_sunday,C,three-year,,gospel,Luke 17:1–10
+sun>=10-09,,date le 10-15 & date gt @trinity & date lt @last_sunday,A,three-year,,ot,Isaiah 25:6–9
+sun>=10-09,,date le 10-15 & date gt @trinity & date lt @last_sunday,A,three-year,,psalm,Psalm 23
+sun>=10-09,,date le 10-15 & date gt @trinity & date lt @last_sunday,A,three-year,,epistle,Philippians 4:4–13
+sun>=10-09,,date le 10-15 & date gt @trinity & date lt @last_sunday,A,three-year,,gospel,Matthew 22:1–14
+sun>=10-09,,date le 10-15 & date gt @trinity & date lt @last_sunday,B,three-year,,ot,"Amos 5:6–7, 10–15"
+sun>=10-09,,date le 10-15 & date gt @trinity & date lt @last_sunday,B,three-year,,psalm,Psalm 90:12–17
+sun>=10-09,,date le 10-15 & date gt @trinity & date lt @last_sunday,B,three-year,,epistle,Hebrews 3:12–19
+sun>=10-09,,date le 10-15 & date gt @trinity & date lt @last_sunday,B,three-year,,gospel,Mark 10:17–22
+sun>=10-09,,date le 10-15 & date gt @trinity & date lt @last_sunday,C,three-year,,ot,Ruth 1:1–19a
+sun>=10-09,,date le 10-15 & date gt @trinity & date lt @last_sunday,C,three-year,,psalm,Psalm 111
+sun>=10-09,,date le 10-15 & date gt @trinity & date lt @last_sunday,C,three-year,,epistle,2 Timothy 2:1–13
+sun>=10-09,,date le 10-15 & date gt @trinity & date lt @last_sunday,C,three-year,,gospel,Luke 17:11–19
+sun>=10-16,,date le 10-22 & date gt @trinity & date lt @last_sunday,A,three-year,,ot,Isaiah 45:1–7
+sun>=10-16,,date le 10-22 & date gt @trinity & date lt @last_sunday,A,three-year,,psalm,Psalm 96:1–9 (10–13)
+sun>=10-16,,date le 10-22 & date gt @trinity & date lt @last_sunday,A,three-year,,epistle,1 Thessalonians 1:1–10
+sun>=10-16,,date le 10-22 & date gt @trinity & date lt @last_sunday,A,three-year,,gospel,Matthew 22:15–22
+sun>=10-16,,date le 10-22 & date gt @trinity & date lt @last_sunday,B,three-year,,ot,Ecclesiastes 5:10–20
+sun>=10-16,,date le 10-22 & date gt @trinity & date lt @last_sunday,B,three-year,,psalm,Psalm 119:9–16
+sun>=10-16,,date le 10-22 & date gt @trinity & date lt @last_sunday,B,three-year,,epistle,Hebrews 4:1–13 (14–16)
+sun>=10-16,,date le 10-22 & date gt @trinity & date lt @last_sunday,B,three-year,,gospel,Mark 10:23–31
+sun>=10-16,,date le 10-22 & date gt @trinity & date lt @last_sunday,C,three-year,,ot,Genesis 32:22–30
+sun>=10-16,,date le 10-22 & date gt @trinity & date lt @last_sunday,C,three-year,,psalm,Psalm 121
+sun>=10-16,,date le 10-22 & date gt @trinity & date lt @last_sunday,C,three-year,,epistle,2 Timothy 3:14–4:5
+sun>=10-16,,date le 10-22 & date gt @trinity & date lt @last_sunday,C,three-year,,gospel,Luke 18:1–8
+sun>=10-23,,date le 10-29 & date gt @trinity & date lt @last_sunday,B,three-year,,ot,Jeremiah 31:7–9
+sun>=10-23,,date le 10-29 & date gt @trinity & date lt @last_sunday,B,three-year,,psalm,Psalm 126
+sun>=10-23,,date le 10-29 & date gt @trinity & date lt @last_sunday,B,three-year,,epistle,Hebrews 7:23–28
+sun>=10-23,,date le 10-29 & date gt @trinity & date lt @last_sunday,B,three-year,,gospel,Mark 10:46–52
+sun>=10-23,,date le 10-29 & date gt @trinity & date lt @last_sunday,C,three-year,,ot,Genesis 4:1–15
+sun>=10-23,,date le 10-29 & date gt @trinity & date lt @last_sunday,C,three-year,,psalm,Psalm 5
+sun>=10-23,,date le 10-29 & date gt @trinity & date lt @last_sunday,C,three-year,,epistle,"2 Timothy 4:6–8, 16–18"
+sun>=10-23,,date le 10-29 & date gt @trinity & date lt @last_sunday,C,three-year,,gospel,Luke 18:9–17
+sun>=11-06,,date le 11-12 & date gt @trinity & date lt @last_sunday,A,three-year,,ot,Amos 5:18–24
+sun>=11-06,,date le 11-12 & date gt @trinity & date lt @last_sunday,A,three-year,,psalm,Psalm 70
+sun>=11-06,,date le 11-12 & date gt @trinity & date lt @last_sunday,A,three-year,,epistle,1 Thessalonians 4:13–18
+sun>=11-06,,date le 11-12 & date gt @trinity & date lt @last_sunday,A,three-year,,gospel,Matthew 25:1–13
+sun>=11-06,,date le 11-12 & date gt @trinity & date lt @last_sunday,B,three-year,,ot,1 Kings 17:8–16
+sun>=11-06,,date le 11-12 & date gt @trinity & date lt @last_sunday,B,three-year,,psalm,Psalm 146
+sun>=11-06,,date le 11-12 & date gt @trinity & date lt @last_sunday,B,three-year,,epistle,Hebrews 9:24–28
+sun>=11-06,,date le 11-12 & date gt @trinity & date lt @last_sunday,B,three-year,,gospel,Mark 12:38–44
+sun>=11-06,,date le 11-12 & date gt @trinity & date lt @last_sunday,C,three-year,,ot,Exodus 3:1–15
+sun>=11-06,,date le 11-12 & date gt @trinity & date lt @last_sunday,C,three-year,,psalm,Psalm 148
+sun>=11-06,,date le 11-12 & date gt @trinity & date lt @last_sunday,C,three-year,,epistle,"2 Thessalonians 2:1–8, 13–17"
+sun>=11-06,,date le 11-12 & date gt @trinity & date lt @last_sunday,C,three-year,,gospel,Luke 20:27–40
+sun>=11-13,,date le 11-19 & date gt @trinity & date lt @last_sunday,A,three-year,,ot,Zephaniah 1:7–16
+sun>=11-13,,date le 11-19 & date gt @trinity & date lt @last_sunday,A,three-year,,psalm,Psalm 90:1–12
+sun>=11-13,,date le 11-19 & date gt @trinity & date lt @last_sunday,A,three-year,,epistle,1 Thessalonians 5:1–11
+sun>=11-13,,date le 11-19 & date gt @trinity & date lt @last_sunday,A,three-year,,gospel,Matthew 25:14–30
+sun>=11-13,,date le 11-19 & date gt @trinity & date lt @last_sunday,B,three-year,,ot,Daniel 12:1–3
+sun>=11-13,,date le 11-19 & date gt @trinity & date lt @last_sunday,B,three-year,,psalm,Psalm 16
+sun>=11-13,,date le 11-19 & date gt @trinity & date lt @last_sunday,B,three-year,,epistle,Hebrews 10:11–25
+sun>=11-13,,date le 11-19 & date gt @trinity & date lt @last_sunday,B,three-year,,gospel,Mark 13:1–13
+sun>=11-13,,date le 11-19 & date gt @trinity & date lt @last_sunday,C,three-year,,ot,Malachi 4:1–6
+sun>=11-13,,date le 11-19 & date gt @trinity & date lt @last_sunday,C,three-year,,psalm,Psalm 98
+sun>=11-13,,date le 11-19 & date gt @trinity & date lt @last_sunday,C,three-year,,epistle,2 Thessalonians 3:1–5 (6–13)
+sun>=11-13,,date le 11-19 & date gt @trinity & date lt @last_sunday,C,three-year,,gospel,Luke 21:5–28 (29–36)
+transfiguration,,,A,three-year,,ot,Exodus 24:8–18
+transfiguration,,,A,three-year,,psalm,Psalm 2:6–12
+transfiguration,,,A,three-year,,epistle,2 Peter 1:16–21
+transfiguration,,,A,three-year,,gospel,Matthew 17:1–9
+transfiguration,,,B,three-year,,ot,2 Kings 2:1–12 or Exodus 34:29–35
+transfiguration,,,B,three-year,,psalm,Psalm 50:1–6
+transfiguration,,,B,three-year,,epistle,2 Corinthians 3:12–13 (14–18); 4:1–6
+transfiguration,,,B,three-year,,gospel,Mark 9:2–9
+transfiguration,,,C,three-year,,ot,Deuteronomy 34:1–12
+transfiguration,,,C,three-year,,psalm,Psalm 99
+transfiguration,,,C,three-year,,epistle,Hebrews 3:1–6
+transfiguration,,,C,three-year,,gospel,Luke 9:28–36
+trinity,,,A,three-year,,ot,Genesis 1:1–2:4a
+trinity,,,A,three-year,,psalm,Psalm 8
+trinity,,,A,three-year,,epistle,"Acts 2:14a, 22–36"
+trinity,,,A,three-year,,gospel,Matthew 28:16–20
+trinity,,,B,three-year,,ot,Isaiah 6:1–8
+trinity,,,B,three-year,,psalm,Psalm 29
+trinity,,,B,three-year,,epistle,"Acts 2:14a, 22–36"
+trinity,,,B,three-year,,gospel,John 3:1–17
+trinity,,,C,three-year,,ot,"Proverbs 8:1–4, 22–31"
+trinity,,,C,three-year,,psalm,Psalm 8
+trinity,,,C,three-year,,epistle,"Acts 2:14a, 22–36"
+trinity,,,C,three-year,,gospel,John 8:48–59
+reformation,,,,three-year,,ot,Revelation 14:6–7 or 2 Chronicles 29:12–19
+reformation,,,,three-year,,psalm,Psalm 46
+reformation,,,,three-year,,epistle,Romans 3:19–28
+reformation,,,,three-year,,gospel,Matthew 11:12–15
+reformation_day,,,,three-year,,ot,Revelation 14:6–7 or 2 Chronicles 29:12–19
+reformation_day,,,,three-year,,psalm,Psalm 46
+reformation_day,,,,three-year,,epistle,Romans 3:19–28
+reformation_day,,,,three-year,,gospel,Matthew 11:12–15
+all_saints,,,,three-year,,ot,Isaiah 25:6–9
+all_saints,,,,three-year,,psalm,Psalm 33
+all_saints,,,,three-year,,epistle,Revelation 7:2–12 (13–17)
+all_saints,,,,three-year,,gospel,Matthew 5:1–12
+all_saints_day,,,,three-year,,ot,Isaiah 25:6–9
+all_saints_day,,,,three-year,,psalm,Psalm 33
+all_saints_day,,,,three-year,,epistle,Revelation 7:2–12 (13–17)
+all_saints_day,,,,three-year,,gospel,Matthew 5:1–12
+"# ------------------------ three-year: not in the calendar, from LSB"
+sun>=05-24,,date le 05-28 & date gt @trinity & date lt @last_sunday,A,three-year,,ot,Isaiah 49:8–16a
+sun>=05-24,,date le 05-28 & date gt @trinity & date lt @last_sunday,A,three-year,,psalm,Psalm 115:(1–8) 9–18
+sun>=05-24,,date le 05-28 & date gt @trinity & date lt @last_sunday,A,three-year,,epistle,Romans 1:8–17
+sun>=05-24,,date le 05-28 & date gt @trinity & date lt @last_sunday,A,three-year,,gospel,Matthew 6:24–34
+sun>=05-29,,date le 06-04 & date gt @trinity & date lt @last_sunday,A,three-year,,ot,"Deuteronomy 11:18–21, 26–28"
+sun>=05-29,,date le 06-04 & date gt @trinity & date lt @last_sunday,A,three-year,,psalm,Psalm 4
+sun>=05-29,,date le 06-04 & date gt @trinity & date lt @last_sunday,A,three-year,,epistle,Romans 3:21–28
+sun>=05-29,,date le 06-04 & date gt @trinity & date lt @last_sunday,A,three-year,,gospel,Matthew 7:15–29
+sun>=06-05,,date le 06-11 & date gt @trinity & date lt @last_sunday,A,three-year,,ot,Hosea 5:15–6:6
+sun>=06-05,,date le 06-11 & date gt @trinity & date lt @last_sunday,A,three-year,,psalm,Psalm 119:65–72
+sun>=06-05,,date le 06-11 & date gt @trinity & date lt @last_sunday,A,three-year,,epistle,Romans 4:13–25
+sun>=06-05,,date le 06-11 & date gt @trinity & date lt @last_sunday,A,three-year,,gospel,Matthew 9:9–13
+sun>=10-23,,date le 10-29 & date gt @trinity & date lt @last_sunday,A,three-year,,ot,"Leviticus 19:1–2, 15–18"
+sun>=10-23,,date le 10-29 & date gt @trinity & date lt @last_sunday,A,three-year,,psalm,Psalm 1
+sun>=10-23,,date le 10-29 & date gt @trinity & date lt @last_sunday,A,three-year,,epistle,1 Thessalonians 2:1–13
+sun>=10-23,,date le 10-29 & date gt @trinity & date lt @last_sunday,A,three-year,,gospel,Matthew 22:34–46
+sun>=10-30,,date le 11-05 & date gt @trinity & date lt @last_sunday,A,three-year,,ot,Micah 3:5–12
+sun>=10-30,,date le 11-05 & date gt @trinity & date lt @last_sunday,A,three-year,,psalm,Psalm 43
+sun>=10-30,,date le 11-05 & date gt @trinity & date lt @last_sunday,A,three-year,,epistle,1 Thessalonians 4:1–12
+sun>=10-30,,date le 11-05 & date gt @trinity & date lt @last_sunday,A,three-year,,gospel,Matthew 23:1–12
+sun>=05-24,,date le 05-28 & date gt @trinity & date lt @last_sunday,B,three-year,,ot,Hosea 2:14–20
+sun>=05-24,,date le 05-28 & date gt @trinity & date lt @last_sunday,B,three-year,,psalm,Psalm 103:1–13
+sun>=05-24,,date le 05-28 & date gt @trinity & date lt @last_sunday,B,three-year,,epistle,"Acts 2:14a, 36–47"
+sun>=05-24,,date le 05-28 & date gt @trinity & date lt @last_sunday,B,three-year,,gospel,Mark 2:(13–17) 18–22
+sun>=10-30,,date le 11-05 & date gt @trinity & date lt @last_sunday,B,three-year,,ot,Deuteronomy 6:1–9
+sun>=10-30,,date le 11-05 & date gt @trinity & date lt @last_sunday,B,three-year,,psalm,Psalm 119:1–8
+sun>=10-30,,date le 11-05 & date gt @trinity & date lt @last_sunday,B,three-year,,epistle,Hebrews 9:11–14 (15–22)
+sun>=10-30,,date le 11-05 & date gt @trinity & date lt @last_sunday,B,three-year,,gospel,Mark 12:28–37
+sun>=05-24,,date le 05-28 & date gt @trinity & date lt @last_sunday,C,three-year,,ot,Genesis 50:15–21
+sun>=05-24,,date le 05-28 & date gt @trinity & date lt @last_sunday,C,three-year,,psalm,Psalm 112:1–9
+sun>=05-24,,date le 05-28 & date gt @trinity & date lt @last_sunday,C,three-year,,epistle,"Acts 2:14a, 36–47"
+sun>=05-24,,date le 05-28 & date gt @trinity & date lt @last_sunday,C,three-year,,gospel,Luke 6:(20–26) 27–42
+sun>=10-30,,date le 11-05 & date gt @trinity & date lt @last_sunday,C,three-year,,ot,Isaiah 1:10–18
+sun>=10-30,,date le 11-05 & date gt @trinity & date lt @last_sunday,C,three-year,,psalm,Psalm 130
+sun>=10-30,,date le 11-05 & date gt @trinity & date lt @last_sunday,C,three-year,,epistle,2 Thessalonians 1:1–5 (6–10) 11–12
+sun>=10-30,,date le 11-05 & date gt @trinity & date lt @last_sunday,C,three-year,,gospel,Luke 19:1–10
+christmas_eve,,,A,three-year,,ot,Isaiah 7:10–14
+christmas_eve,,,A,three-year,,psalm,Psalm 110:1–4
+christmas_eve,,,A,three-year,,epistle,1 John 4:7–16
+christmas_eve,,,A,three-year,,gospel,Matthew 1:18–25
+christmas,,,A,three-year,,ot,Isaiah 52:7–10
+christmas,,,A,three-year,,psalm,Psalm 2
+christmas,,,A,three-year,,epistle,Hebrews 1:1–6 (7–12)
+christmas,,,A,three-year,,gospel,John 1:1–14 (15–18)
+epiphany,,,A,three-year,,ot,Isaiah 60:1–6
+epiphany,,,A,three-year,,psalm,Psalm 72:1–11 (12–15)
+epiphany,,,A,three-year,,epistle,Ephesians 3:1–12
+epiphany,,,A,three-year,,gospel,Matthew 2:1–12
+thanksgiving,,,A,three-year,,ot,Deuteronomy 8:1–10
+thanksgiving,,,A,three-year,,psalm,Psalm 67
+thanksgiving,,,A,three-year,,epistle,Philippians 4:6–20 or 1 Timothy 2:1–4
+thanksgiving,,,A,three-year,,gospel,Luke 17:11–19
+christmas_eve,,,B,three-year,,ot,Isaiah 7:10–14
+christmas_eve,,,B,three-year,,psalm,Psalm 110:1–4
+christmas_eve,,,B,three-year,,epistle,1 John 4:7–16
+christmas_eve,,,B,three-year,,gospel,Matthew 1:18–25
+christmas,,,B,three-year,,ot,Isaiah 52:7–10
+christmas,,,B,three-year,,psalm,Psalm 2
+christmas,,,B,three-year,,epistle,Hebrews 1:1–6 (7–12)
+christmas,,,B,three-year,,gospel,John 1:1–14 (15–18)
+epiphany,,,B,three-year,,ot,Isaiah 60:1–6
+epiphany,,,B,three-year,,psalm,Psalm 72:1–11 (12–15)
+epiphany,,,B,three-year,,epistle,Ephesians 3:1–12
+epiphany,,,B,three-year,,gospel,Matthew 2:1–12
+thanksgiving,,,B,three-year,,ot,Deuteronomy 8:1–10
+thanksgiving,,,B,three-year,,psalm,Psalm 67
+thanksgiving,,,B,three-year,,epistle,Philippians 4:6–20 or 1 Timothy 2:1–4
+thanksgiving,,,B,three-year,,gospel,Luke 17:11–19
+christmas_eve,,,C,three-year,,ot,Isaiah 7:10–14
+christmas_eve,,,C,three-year,,psalm,Psalm 110:1–4
+christmas_eve,,,C,three-year,,epistle,1 John 4:7–16
+christmas_eve,,,C,three-year,,gospel,Matthew 1:18–25
+christmas,,,C,three-year,,ot,Isaiah 52:7–10
+christmas,,,C,three-year,,psalm,Psalm 2
+christmas,,,C,three-year,,epistle,Hebrews 1:1–6 (7–12)
+christmas,,,C,three-year,,gospel,John 1:1–14 (15–18)
+epiphany,,,C,three-year,,ot,Isaiah 60:1–6
+epiphany,,,C,three-year,,psalm,Psalm 72:1–11 (12–15)
+epiphany,,,C,three-year,,epistle,Ephesians 3:1–12
+epiphany,,,C,three-year,,gospel,Matthew 2:1–12
+thanksgiving,,,C,three-year,,ot,Deuteronomy 8:1–10
+thanksgiving,,,C,three-year,,psalm,Psalm 67
+thanksgiving,,,C,three-year,,epistle,Philippians 4:6–20 or 1 Timothy 2:1–4
+thanksgiving,,,C,three-year,,gospel,Luke 17:11–19
+after_epiphany:6,,,B,three-year,,ot,2 Kings 5:1–14
+after_epiphany:6,,,B,three-year,,psalm,Psalm 30
+after_epiphany:6,,,B,three-year,,epistle,1 Corinthians 10:(19–30) 31–11:1
+after_epiphany:6,,,B,three-year,,gospel,Mark 1:40–45
+after_epiphany:7,,,B,three-year,,ot,Isaiah 43:18–25
+after_epiphany:7,,,B,three-year,,psalm,Psalm 41
+after_epiphany:7,,,B,three-year,,epistle,2 Corinthians 1:18–22
+after_epiphany:7,,,B,three-year,,gospel,Mark 2:1–12
+after_epiphany:8,,,A,three-year,,ot,Isaiah 49:8–16a
+after_epiphany:8,,,A,three-year,,psalm,Psalm 115:(1–8) 9–18
+after_epiphany:8,,,A,three-year,,epistle,1 Corinthians 4:1–13
+after_epiphany:8,,,A,three-year,,gospel,Matthew 6:24–34
+after_epiphany:8,,,C,three-year,,ot,Jeremiah 7:1–7 (8–15)
+after_epiphany:8,,,C,three-year,,psalm,Psalm 92
+after_epiphany:8,,,C,three-year,,epistle,1 Corinthians 15:42–52 (53–58)
+after_epiphany:8,,,C,three-year,,gospel,Luke 6:39–49
+after_epiphany:8,,,B,three-year,,ot,Hosea 2:14–20
+after_epiphany:8,,,B,three-year,,psalm,Psalm 103:1–13
+after_epiphany:8,,,B,three-year,,epistle,2 Corinthians 2:12–3:6
+after_epiphany:8,,,B,three-year,,gospel,Mark 2:(13–17) 18–22
+# ------------------------------------------------- one-year (historic)
+01-01,,,,one-year,Circumcision and Name of Jesus,ot,Isaiah 55:1–13
+01-01,,,,one-year,Circumcision and Name of Jesus,psalm,Psalm 8
+01-01,,,,one-year,Circumcision and Name of Jesus,epistle,Galatians 3:23–29
+01-01,,,,one-year,Circumcision and Name of Jesus,gospel,Luke 2:21
+02-02,,,,one-year,Purification of Mary and Presentation of Our Lord,ot,Malachi 3:1–4
+02-02,,,,one-year,Purification of Mary and Presentation of Our Lord,psalm,Psalm 84
+02-02,,,,one-year,Purification of Mary and Presentation of Our Lord,epistle,Hebrews 2:14–18
+02-02,,,,one-year,Purification of Mary and Presentation of Our Lord,gospel,Luke 2:22–40
+03-25,,,,one-year,Annunciation of Our Lord,ot,Isaiah 7:10–15
+03-25,,,,one-year,Annunciation of Our Lord,psalm,Psalm 40
+03-25,,,,one-year,Annunciation of Our Lord,epistle,Hebrews 10:4–10
+03-25,,,,one-year,Annunciation of Our Lord,gospel,Luke 1:26–38
+06-25,,,,one-year,Presentation of the Augsburg Confession,ot,Nehemiah 8:1–10
+06-25,,,,one-year,Presentation of the Augsburg Confession,psalm,Psalm 119:41–48
+06-25,,,,one-year,Presentation of the Augsburg Confession,epistle,1 Timothy 6:11–16
+06-25,,,,one-year,Presentation of the Augsburg Confession,gospel,Matthew 10:26b–33
+07-02,,,,one-year,The Visitation,ot,Song of Solomon 2:8–14
+07-02,,,,one-year,The Visitation,psalm,Psalm 113
+07-02,,,,one-year,The Visitation,epistle,Colossians 3:12–17 or Romans 12:9–16
+07-02,,,,one-year,The Visitation,gospel,Luke 1:39–45 (46–56)
+09-29,,,,one-year,St. Michael and All Angels,ot,Genesis 28:10–22
+09-29,,,,one-year,St. Michael and All Angels,psalm,Psalm 103
+09-29,,,,one-year,St. Michael and All Angels,epistle,Revelation 12:7–12
+09-29,,,,one-year,St. Michael and All Angels,gospel,Matthew 18:1–11
+12-31,,,,one-year,Eve of the Circumcision and Name of Jesus,ot,Isaiah 63:7–18
+12-31,,,,one-year,Eve of the Circumcision and Name of Jesus,psalm,Psalm 90
+12-31,,,,one-year,Eve of the Circumcision and Name of Jesus,epistle,1 Peter 1:22–25
+12-31,,,,one-year,Eve of the Circumcision and Name of Jesus,gospel,Luke 13:6–9
+advent:1,,,,one-year,,ot,Jeremiah 33:14–18
+advent:1,,,,one-year,,psalm,Psalm 25
+advent:1,,,,one-year,,epistle,Romans 13:11–14
+advent:1,,,,one-year,,gospel,Matthew 21:1–9
+advent:2,,,,one-year,,ot,Micah 4:1–7
+advent:2,,,,one-year,,psalm,Psalm 80
+advent:2,,,,one-year,,epistle,Romans 15:4–13
+advent:2,,,,one-year,,gospel,Luke 21:25–36
+advent:4,,,,one-year,,ot,Isaiah 40:1–8
+advent:4,,,,one-year,,psalm,Psalm 19
+advent:4,,,,one-year,,epistle,Philippians 4:4–7
+advent:4,,,,one-year,,gospel,John 1:19–28
+after_christmas:1,,,,one-year,,ot,Isaiah 11:1–5
+after_christmas:1,,,,one-year,,psalm,Psalm 93
+after_christmas:1,,,,one-year,,epistle,Galatians 4:1–7
+after_christmas:1,,,,one-year,,gospel,Luke 2:33–40
+after_christmas:2,,,,one-year,,ot,Isaiah 42:1–9
+after_christmas:2,,,,one-year,,psalm,Psalm 106
+after_christmas:2,,,,one-year,,epistle,1 Peter 4:12–19
+after_christmas:2,,,,one-year,,gospel,Matthew 2:13–23
+after_easter:2,,,,one-year,,ot,Job 19:25–27
+after_easter:2,,,,one-year,,psalm,Psalm 81
+after_easter:2,,,,one-year,,epistle,1 John 5:4–12
+after_easter:2,,,,one-year,,gospel,John 20:19–31
+after_easter:3,,,,one-year,,ot,Ezekiel 34:11–16
+after_easter:3,,,,one-year,,psalm,Psalm 33
+after_easter:3,,,,one-year,,epistle,1 Peter 2:21–25
+after_easter:3,,,,one-year,,gospel,John 10:11–16
+after_easter:4,,,,one-year,,ot,Lamentations 3:18–26
+after_easter:4,,,,one-year,,psalm,Psalm 66
+after_easter:4,,,,one-year,,epistle,1 Peter 2:11–20
+after_easter:4,,,,one-year,,gospel,John 16:16–23
+after_easter:5,,,,one-year,,ot,Isaiah 12:1–6
+after_easter:5,,,,one-year,,psalm,Psalm 98
+after_easter:5,,,,one-year,,epistle,James 1:16–21
+after_easter:5,,,,one-year,,gospel,John 16:5–15
+after_easter:6,,,,one-year,,ot,Jeremiah 29:11–14
+after_easter:6,,,,one-year,,psalm,Psalm 124
+after_easter:6,,,,one-year,,epistle,James 1:22–27
+after_easter:6,,,,one-year,,gospel,John 16:23–30
+after_epiphany:1,,,,one-year,,ot,Isaiah 61:1–3
+after_epiphany:1,,,,one-year,,psalm,Psalm 100
+after_epiphany:1,,,,one-year,,epistle,Romans 12:1–5
+after_epiphany:1,,,,one-year,,gospel,Luke 2:41–52
+after_epiphany:2,,,,one-year,,ot,Deuteronomy 18:15–19
+after_epiphany:2,,,,one-year,,psalm,Psalm 66
+after_epiphany:2,,,,one-year,,epistle,Romans 12:6–16
+after_epiphany:2,,,,one-year,,gospel,John 2:1–11
+after_epiphany:3,,,,one-year,,ot,Jeremiah 33:6–9
+after_epiphany:3,,,,one-year,,psalm,Psalm 97
+after_epiphany:3,,,,one-year,,epistle,Romans 12:16–21
+after_epiphany:3,,,,one-year,,gospel,Matthew 8:1–13
+after_epiphany:4,,,,one-year,,ot,Isaiah 43:1–3
+after_epiphany:4,,,,one-year,,psalm,Psalm 102
+after_epiphany:4,,,,one-year,,epistle,Romans 13:8–10
+after_epiphany:4,,,,one-year,,gospel,Matthew 8:23–27
+after_trinity:1,,,,one-year,,ot,Jeremiah 9:23–24
+after_trinity:1,,,,one-year,,psalm,Psalm 13
+after_trinity:1,,,,one-year,,epistle,1 John 4:16–21
+after_trinity:1,,,,one-year,,gospel,Luke 16:19–31
+after_trinity:10,,,,one-year,,ot,Jeremiah 7:1–7
+after_trinity:10,,,,one-year,,psalm,Psalm 55
+after_trinity:10,,,,one-year,,epistle,1 Corinthians 12:1–11
+after_trinity:10,,,,one-year,,gospel,Luke 19:41–48
+after_trinity:11,,,,one-year,,ot,2 Samuel 22:21–29
+after_trinity:11,,,,one-year,,psalm,Psalm 68
+after_trinity:11,,,,one-year,,epistle,1 Corinthians 15:1–10
+after_trinity:11,,,,one-year,,gospel,Luke 18:9–14
+after_trinity:12,,,,one-year,,ot,Isaiah 29:18–19
+after_trinity:12,,,,one-year,,psalm,Psalm 70
+after_trinity:12,,,,one-year,,epistle,2 Corinthians 3:4–11
+after_trinity:12,,,,one-year,,gospel,Mark 7:31–37
+after_trinity:13,,,,one-year,,ot,Leviticus 18:1–5
+after_trinity:13,,,,one-year,,psalm,Psalm 74
+after_trinity:13,,,,one-year,,epistle,Galatians 3:15–22
+after_trinity:13,,,,one-year,,gospel,Luke 10:23–37
+after_trinity:14,,,,one-year,,ot,Jeremiah 17:13–14
+after_trinity:14,,,,one-year,,psalm,"Psalm 92, 65"
+after_trinity:14,,,,one-year,,epistle,Galatians 5:16–24
+after_trinity:14,,,,one-year,,gospel,Luke 17:11–19
+after_trinity:15,,,,one-year,,ot,Deuteronomy 6:4–7
+after_trinity:15,,,,one-year,,psalm,"Psalm 86, 108"
+after_trinity:15,,,,one-year,,epistle,Galatians 5:25–6:10
+after_trinity:15,,,,one-year,,gospel,Matthew 6:24–34
+after_trinity:16,,,,one-year,,ot,Deuteronomy 32:39–40
+after_trinity:16,,,,one-year,,psalm,"Psalm 102, 115"
+after_trinity:16,,,,one-year,,epistle,Ephesians 3:13–21
+after_trinity:16,,,,one-year,,gospel,Luke 7:11–17
+after_trinity:17,,,,one-year,,ot,1 Samuel 2:1–10
+after_trinity:17,,,,one-year,,psalm,Psalm 119:124ff.
+after_trinity:17,,,,one-year,,epistle,Ephesians 4:1–6
+after_trinity:17,,,,one-year,,gospel,Luke 14:1–11
+after_trinity:18,,,,one-year,,ot,Deuteronomy 10:12–21
+after_trinity:18,,,,one-year,,psalm,"Psalm 117, 122"
+after_trinity:18,,,,one-year,,epistle,1 Corinthians 1:4–9
+after_trinity:18,,,,one-year,,gospel,Matthew 22:34–46
+after_trinity:19,,,,one-year,,ot,Isaiah 44:21–23
+after_trinity:19,,,,one-year,,psalm,"Psalm 35, 78"
+after_trinity:19,,,,one-year,,epistle,Ephesians 4:22–28
+after_trinity:19,,,,one-year,,gospel,Matthew 9:1–8
+after_trinity:2,,,,one-year,,ot,Isaiah 25:6–9
+after_trinity:2,,,,one-year,,psalm,Psalm 120
+after_trinity:2,,,,one-year,,epistle,1 John 3:13–18
+after_trinity:2,,,,one-year,,gospel,Luke 14:16–24
+after_trinity:20,,,,one-year,,ot,Isaiah 65:1–2
+after_trinity:20,,,,one-year,,psalm,Psalm 115
+after_trinity:20,,,,one-year,,epistle,Ephesians 5:15–21
+after_trinity:20,,,,one-year,,gospel,Matthew 22:1–14
+after_trinity:21,,,,one-year,,ot,Hosea 13:14
+after_trinity:21,,,,one-year,,psalm,Psalm 119:1–8
+after_trinity:21,,,,one-year,,epistle,Ephesians 6:10–17
+after_trinity:21,,,,one-year,,gospel,John 4:46–54
+after_trinity:22,,,,one-year,,ot,Deuteronomy 7:9–11
+after_trinity:22,,,,one-year,,psalm,Psalm 147
+after_trinity:22,,,,one-year,,epistle,Philippians 1:3–11
+after_trinity:22,,,,one-year,,gospel,Matthew 18:23–35
+after_trinity:23,,,,one-year,,ot,Isaiah 32:1–8
+after_trinity:23,,,,one-year,,psalm,"Psalm 85, 115"
+after_trinity:23,,,,one-year,,epistle,Philippians 3:17–21
+after_trinity:23,,,,one-year,,gospel,Matthew 22:15–22
+after_trinity:24,,,,one-year,,ot,Isaiah 51:9–16
+after_trinity:24,,,,one-year,,psalm,"Psalm 36, 56"
+after_trinity:24,,,,one-year,,epistle,Colossians 1:9–14
+after_trinity:24,,,,one-year,,gospel,Matthew 9:18–26
+after_trinity:3,,,,one-year,,ot,Micah 7:18–20
+after_trinity:3,,,,one-year,,psalm,Psalm 25
+after_trinity:3,,,,one-year,,epistle,1 Peter 5:6–11
+after_trinity:3,,,,one-year,,gospel,Luke 15:1–10
+after_trinity:4,,,,one-year,,ot,Isaiah 58:6–12
+after_trinity:4,,,,one-year,,psalm,Psalm 79
+after_trinity:4,,,,one-year,,epistle,Romans 8:18–23
+after_trinity:4,,,,one-year,,gospel,Luke 6:36–42
+after_trinity:5,,,,one-year,,ot,Jeremiah 16:14–21
+after_trinity:5,,,,one-year,,psalm,Psalm 21
+after_trinity:5,,,,one-year,,epistle,1 Peter 3:8–15
+after_trinity:5,,,,one-year,,gospel,Luke 5:1–11
+after_trinity:6,,,,one-year,,ot,Exodus 20:1–17
+after_trinity:6,,,,one-year,,psalm,Psalm 28
+after_trinity:6,,,,one-year,,epistle,Romans 6:3–11
+after_trinity:6,,,,one-year,,gospel,Matthew 5:20–26
+after_trinity:7,,,,one-year,,ot,Jeremiah 31:23–25
+after_trinity:7,,,,one-year,,psalm,Psalm 34
+after_trinity:7,,,,one-year,,epistle,Romans 6:19–23
+after_trinity:7,,,,one-year,,gospel,Mark 8:1–9
+after_trinity:8,,,,one-year,,ot,Jeremiah 15:19–21
+after_trinity:8,,,,one-year,,psalm,Psalm 48
+after_trinity:8,,,,one-year,,epistle,Romans 8:12–17
+after_trinity:8,,,,one-year,,gospel,Matthew 7:15–23
+after_trinity:9,,,,one-year,,ot,1 Chronicles 29:10–13
+after_trinity:9,,,,one-year,,psalm,Psalm 54
+after_trinity:9,,,,one-year,,epistle,1 Corinthians 10:6–13
+after_trinity:9,,,,one-year,,gospel,Luke 16:1–9
+all_saints,,,,one-year,,ot,Isaiah 25:6–9
+all_saints,,,,one-year,,psalm,Psalm 33
+all_saints,,,,one-year,,epistle,Revelation 7:2–12 (13–17)
+all_saints,,,,one-year,,gospel,Matthew 5:1–12
+ascension,,,,one-year,,ot,Isaiah 57:15
+ascension,,,,one-year,,psalm,Psalm 47
+ascension,,,,one-year,,epistle,Acts 1:1–11
+ascension,,,,one-year,,gospel,Mark 16:14–20
+ash_wednesday,,,,one-year,,ot,Joel 2:12–19
+ash_wednesday,,,,one-year,,psalm,Psalm 51
+ash_wednesday,,,,one-year,,epistle,2 Corinthians 5:20–6:10
+ash_wednesday,,,,one-year,,gospel,Matthew 6:16–21
+baptism,,,,one-year,,ot,Isaiah 42:1–7
+baptism,,,,one-year,,psalm,Psalm 89
+baptism,,,,one-year,,epistle,1 Peter 3:18–22
+baptism,,,,one-year,,gospel,Matthew 3:13–17
+baptism,,,,one-year,Quinquagesima,ot,Isaiah 35:3–7
+baptism,,,,one-year,Quinquagesima,psalm,Psalm 31
+baptism,,,,one-year,Quinquagesima,epistle,1 Corinthians 13:1–13
+baptism,,,,one-year,Quinquagesima,gospel,Luke 18:31–43
+christmas,,,,one-year,,ot,Isaiah 9:2–7
+christmas,,,,one-year,,psalm,Psalm 98
+christmas,,,,one-year,,epistle,Hebrews 1:1–12
+christmas,,,,one-year,,gospel,John 1:1–14
+christmas_eve,,,,one-year,,ot,Isaiah 7:10–14
+christmas_eve,,,,one-year,,psalm,Psalm 2
+christmas_eve,,,,one-year,,epistle,Titus 2:11–14
+christmas_eve,,,,one-year,,gospel,Luke 2:1–14
+easter,,,,one-year,,ot,Isaiah 52:13–15
+easter,,,,one-year,,psalm,Psalm 118
+easter,,,,one-year,,epistle,1 Corinthians 5:6–8
+easter,,,,one-year,,gospel,Mark 16:1–8
+epiphany,,,,one-year,,ot,Isaiah 60:1–6
+epiphany,,,,one-year,,psalm,Psalm 72
+epiphany,,,,one-year,,epistle,Romans 3:23–31
+epiphany,,,,one-year,,gospel,Matthew 2:1–12
+exaudi,,,,one-year,,ot,Ezekiel 36:25–27
+exaudi,,,,one-year,,psalm,Psalm 27
+exaudi,,,,one-year,,epistle,1 Peter 4:7–11
+exaudi,,,,one-year,,gospel,John 15:26–16:4
+gaudete,,,,one-year,,ot,Malachi 3:1–6
+gaudete,,,,one-year,,psalm,Psalm 85
+gaudete,,,,one-year,,epistle,1 Corinthians 4:1–5
+gaudete,,,,one-year,,gospel,Matthew 11:2–10
+good_friday,,,,one-year,,ot,Isaiah 52:13–53:12
+good_friday,,,,one-year,,psalm,Psalm 22
+good_friday,,,,one-year,,epistle,Hebrews 10:1–25
+good_friday,,,,one-year,,gospel,John 18:1–19:42
+holy_saturday,,,,one-year,,ot,Job 14:1–14
+holy_saturday,,,,one-year,,psalm,Psalm 130
+holy_saturday,,,,one-year,,epistle,1 Peter 4:1–8
+holy_saturday,,,,one-year,,gospel,Matthew 27:57–66
+laetare,,,,one-year,,ot,Isaiah 49:8–13
+laetare,,,,one-year,,psalm,Psalm 125
+laetare,,,,one-year,,epistle,Galatians 4:21–31
+laetare,,,,one-year,,gospel,John 6:1–15
+last_sunday,,,,one-year,,ot,Isaiah 65:17–19
+last_sunday,,,,one-year,,psalm,Psalm 45
+last_sunday,,,,one-year,,epistle,1 Thessalonians 5:1–11
+last_sunday,,,,one-year,,gospel,Matthew 25:1–13
+lent:1,,,,one-year,,ot,Genesis 3:1–24
+lent:1,,,,one-year,,psalm,Psalm 91
+lent:1,,,,one-year,,epistle,2 Corinthians 6:1–10
+lent:1,,,,one-year,,gospel,Matthew 4:1–11
+lent:2,,,,one-year,,ot,Isaiah 45:20–25
+lent:2,,,,one-year,,psalm,Psalm 25
+lent:2,,,,one-year,,epistle,1 Thessalonians 4:1–7
+lent:2,,,,one-year,,gospel,Matthew 15:21–28
+lent:3,,,,one-year,,ot,2 Samuel 22:1–7
+lent:3,,,,one-year,,psalm,Psalm 123
+lent:3,,,,one-year,,epistle,Ephesians 5:1–9
+lent:3,,,,one-year,,gospel,Luke 11:14–28
+lent:5,,,,one-year,,ot,Genesis 12:1–3
+lent:5,,,,one-year,,psalm,Psalm 43
+lent:5,,,,one-year,,epistle,Hebrews 9:11–15
+lent:5,,,,one-year,,gospel,John 8:46–59
+maundy_thursday,,,,one-year,,ot,Exodus 12:1–14
+maundy_thursday,,,,one-year,,psalm,Psalm 67
+maundy_thursday,,,,one-year,,epistle,1 Corinthians 11:23–32
+maundy_thursday,,,,one-year,,gospel,Luke 22:14–20 or St. John 13:1–15
+michaelmas,,,,one-year,,ot,Genesis 28:10–22
+michaelmas,,,,one-year,,psalm,Psalm 103
+michaelmas,,,,one-year,,epistle,Revelation 12:7–12
+michaelmas,,,,one-year,,gospel,Matthew 18:1–11
+palm_sunday,,,,one-year,,ot,Zechariah 9:9–10
+palm_sunday,,,,one-year,,psalm,Psalm 22
+palm_sunday,,,,one-year,,epistle,Philippians 2:5–11
+palm_sunday,,,,one-year,,gospel,Matthew 21:1–9
+pentecost,,,,one-year,,ot,Joel 2:28–32
+pentecost,,,,one-year,,psalm,Psalm 104
+pentecost,,,,one-year,,epistle,Acts 2:1–13
+pentecost,,,,one-year,,gospel,John 14:23–31
+reformation,,,,one-year,,ot,Revelation 14:6–7 or 2 Chronicles 29:12–19
+reformation,,,,one-year,,psalm,Psalm 46
+reformation,,,,one-year,,epistle,Romans 3:19–28
+reformation,,,,one-year,,gospel,Matthew 11:12–15
+second_last_sunday,,,,one-year,,ot,Isaiah 40:9–11
+second_last_sunday,,,,one-year,,psalm,Psalm 50
+second_last_sunday,,,,one-year,,epistle,2 Thessalonians 1:3–10
+second_last_sunday,,,,one-year,,gospel,Matthew 25:31–46
+septuagesima,,,,one-year,,ot,Jeremiah 1:4–10
+septuagesima,,,,one-year,,psalm,Psalm 18
+septuagesima,,,,one-year,,epistle,1 Corinthians 9:24–10:5
+septuagesima,,,,one-year,,gospel,Matthew 20:1–16
+sexagesima,,,,one-year,,ot,Isaiah 55:10–13
+sexagesima,,,,one-year,,psalm,Psalm 44
+sexagesima,,,,one-year,,epistle,2 Corinthians 11:19–12:9
+sexagesima,,,,one-year,,gospel,Luke 8:4–15
+third_last_sunday,,,,one-year,,ot,Isaiah 49:12–17
+third_last_sunday,,,,one-year,,psalm,Psalm 74
+third_last_sunday,,,,one-year,,epistle,1 Thessalonians 4:13–18
+third_last_sunday,,,,one-year,,gospel,Matthew 24:15–28
+transfiguration,,,,one-year,,ot,Isaiah 61:10–11
+transfiguration,,,,one-year,,psalm,Psalm 84
+transfiguration,,,,one-year,,epistle,2 Peter 1:16–21
+transfiguration,,,,one-year,,gospel,Matthew 17:1–9
+trinity,,,,one-year,,ot,Ezekiel 18:30–32
+trinity,,,,one-year,,psalm,Psalm 8
+trinity,,,,one-year,,epistle,Romans 11:33–36
+trinity,,,,one-year,,gospel,John 3:1–15
+reformation_day,,,,one-year,,ot,Revelation 14:6–7 or 2 Chronicles 29:12–19
+reformation_day,,,,one-year,,psalm,Psalm 46
+reformation_day,,,,one-year,,epistle,Romans 3:19–28
+reformation_day,,,,one-year,,gospel,Matthew 11:12–15
+all_saints_day,,,,one-year,,ot,Isaiah 25:6–9
+all_saints_day,,,,one-year,,psalm,Psalm 33
+all_saints_day,,,,one-year,,epistle,Revelation 7:2–12 (13–17)
+all_saints_day,,,,one-year,,gospel,Matthew 5:1–12
+"# ---------------------------- one-year: not in the calendar, from LSB"
+after_epiphany:5,,,,one-year,,ot,Genesis 18:20–33
+after_epiphany:5,,,,one-year,,psalm,Psalm 80:1–7
+after_epiphany:5,,,,one-year,,epistle,Colossians 3:12–17
+after_epiphany:5,,,,one-year,,gospel,Matthew 13:24–30 (36–43)
+thanksgiving,,,,one-year,,ot,Deuteronomy 8:1–10
+thanksgiving,,,,one-year,,psalm,Psalm 67
+thanksgiving,,,,one-year,,epistle,Philippians 4:6–20 or 1 Timothy 2:1–4
+thanksgiving,,,,one-year,,gospel,Luke 17:11–19
+# ---------------------------------------------------------- saints' days
+01-24,,,,,St. Timothy,ot,Acts 16:1–5
+01-24,,,,,St. Timothy,epistle,2 Timothy 4:1–8
+01-24,,,,,St. Timothy,gospel,Luke 10:16–20
+01-25,,,,,Conversion of St. Paul,ot,Exodus 3:1–14
+01-25,,,,,Conversion of St. Paul,epistle,Acts 9:1–22
+01-25,,,,,Conversion of St. Paul,gospel,Matthew 19:27–30
+01-26,,,,,St. Titus,ot,Acts 20:28–35
+01-26,,,,,St. Titus,epistle,Titus 1:1–9
+01-26,,,,,St. Titus,gospel,Luke 10:1–9
+02-22,,,,,Confession of St. Peter,ot,Acts 4:8–12
+02-22,,,,,Confession of St. Peter,epistle,1 Peter 1:1–7
+02-22,,,,,Confession of St. Peter,gospel,Matthew 16:13–19
+02-24,,,,,St. Matthias,ot,1 Samuel 16:1–13
+02-24,,,,,St. Matthias,epistle,Acts 1:15–26
+02-24,,,,,St. Matthias,gospel,Matthew 11:25–30
+03-19,,,,,St. Joseph,ot,2 Samuel 7:4–16 or Wisdom 10:10b–14
+03-19,,,,,St. Joseph,epistle,Romans 4:13–18
+03-19,,,,,St. Joseph,gospel,Matthew 1:18b–25
+04-25,,,,,St. Mark,ot,Isaiah 52:7–10 or Wisdom 5:1–5
+04-25,,,,,St. Mark,epistle,Revelation 4:1–10a
+04-25,,,,,St. Mark,gospel,John 15:1–7
+05-01,,,,,St. Philip and St. James,ot,Isaiah 30:18–21 or Wisdom 5:1–5
+05-01,,,,,St. Philip and St. James,epistle,Ephesians 2:19–22
+05-01,,,,,St. Philip and St. James,gospel,John 14:1–14
+06-11,,,,,St. Barnabas,ot,Isaiah 42:5–12
+06-11,,,,,St. Barnabas,epistle,Acts 13:44–52
+06-11,,,,,St. Barnabas,gospel,Luke 10:1–7a
+06-24,,,,,Nativity of St. John the Baptist,ot,"Isaiah 49:1–3, 5a, 6b, 7b"
+06-24,,,,,Nativity of St. John the Baptist,epistle,Acts 13:13–26 or Acts 19:1–7
+06-24,,,,,Nativity of St. John the Baptist,gospel,Luke 1:57–68
+06-25,,,,three-year,Presentation of the Augsburg Confession,ot,Nehemiah 8:1–10
+06-25,,,,three-year,Presentation of the Augsburg Confession,psalm,Psalm 119:41–48
+06-25,,,,three-year,Presentation of the Augsburg Confession,epistle,1 Timothy 6:11–16
+06-25,,,,three-year,Presentation of the Augsburg Confession,gospel,Matthew 10:26b–33
+06-29,,,,,St. Peter and St. Paul,ot,Acts 12:1–11
+06-29,,,,,St. Peter and St. Paul,epistle,Galatians 2:1–10
+06-29,,,,,St. Peter and St. Paul,gospel,Matthew 16:13–19
+07-22,,,,,St. Mary Magdalene,ot,Proverbs 31:10–31
+07-22,,,,,St. Mary Magdalene,epistle,Romans 5:18–21 or Acts 13:26–31
+07-22,,,,,St. Mary Magdalene,gospel,"Luke 7:36–50* or John 20:1–2, 10–18"
+07-25,,,,,St. James the Elder,ot,"Acts 11:27–12:5 or Sirach 44:23a, c; 45:1, 2b–3a, 4, 5b, 6a, 7a, c"
+07-25,,,,,St. James the Elder,epistle,Romans 8:28–39
+07-25,,,,,St. James the Elder,gospel,Matthew 20:20–28
+08-15,,,,,St. Mary,ot,Isaiah 61:7–11
+08-15,,,,,St. Mary,epistle,Galatians 4:4–7
+08-15,,,,,St. Mary,gospel,Luke 1:46–55
+08-24,,,,,St. Bartholomew,ot,Proverbs 3:1–8
+08-24,,,,,St. Bartholomew,epistle,2 Corinthians 4:7–10
+08-24,,,,,St. Bartholomew,gospel,Luke 22:24–30 or John 1:43–51
+08-29,,,,,Martyrdom of St. John the Baptist,ot,"Revelation 6:9–11 or Sirach 49:1–3, 7; 50:6–7a"
+08-29,,,,,Martyrdom of St. John the Baptist,epistle,Hebrews 11:36–39a
+08-29,,,,,Martyrdom of St. John the Baptist,gospel,Mark 6:17–29
+09-14,,,,,Holy Cross Day,ot,Numbers 21:4–9
+09-14,,,,,Holy Cross Day,epistle,Philippians 2:5–11
+09-14,,,,,Holy Cross Day,gospel,John 12:32–36a
+09-21,,,,,St. Matthew,ot,Ezekiel 2:8–3:11
+09-21,,,,,St. Matthew,epistle,Ephesians 4:7–13
+09-21,,,,,St. Matthew,gospel,Matthew 9:9–13
+10-14,,,,,Norwegian Synod Founders' Day,ot,Jeremiah 6:13–16
+10-14,,,,,Norwegian Synod Founders' Day,psalm,Psalm 78 (esp. v. 19)
+10-14,,,,,Norwegian Synod Founders' Day,epistle,Ephesians 1:3–14
+10-14,,,,,Norwegian Synod Founders' Day,gospel,Matthew 7:24–29 or Luke 10:38–42
+10-18,,,,,St. Luke,ot,Ezekiel 1:10–14
+10-18,,,,,St. Luke,epistle,2 Timothy 4:1–8
+10-18,,,,,St. Luke,gospel,Luke 10:1–7a
+10-23,,,,,St. James of Jerusalem,ot,Acts 15:12–22a
+10-23,,,,,St. James of Jerusalem,epistle,James 1:1–12
+10-23,,,,,St. James of Jerusalem,gospel,Matthew 13:54–58
+10-28,,,,,St. Simon and St. Jude,ot,Jeremiah 26:12–16
+10-28,,,,,St. Simon and St. Jude,epistle,1 Peter 1:3–9
+10-28,,,,,St. Simon and St. Jude,gospel,John 15:17–21
+10-31,,date nwd sun,,,Reformation Day,ot,Revelation 14:6–7 or 2 Chronicles 29:12–19
+10-31,,date nwd sun,,,Reformation Day,psalm,Psalm 46
+10-31,,date nwd sun,,,Reformation Day,epistle,Romans 3:19–28
+10-31,,date nwd sun,,,Reformation Day,gospel,Matthew 11:12–15
+11-01,,date nwd sun,,,All Saints' Day,ot,Isaiah 25:6–9
+11-01,,date nwd sun,,,All Saints' Day,psalm,Psalm 33
+11-01,,date nwd sun,,,All Saints' Day,epistle,Revelation 7:2–12 (13–17)
+11-01,,date nwd sun,,,All Saints' Day,gospel,Matthew 5:1–12
+11-11,,,,,Martin of Tours,ot,Isaiah 32:1–8
+11-11,,,,,Martin of Tours,psalm,"Psalm 85, 115"
+11-11,,,,,Martin of Tours,epistle,Philippians 3:17–21
+11-11,,,,,Martin of Tours,gospel,Matthew 22:15–22
+11-30,,,,,St. Andrew,ot,Ezekiel 3:16–21
+11-30,,,,,St. Andrew,epistle,Romans 10:10–18
+11-30,,,,,St. Andrew,gospel,Matthew 4:18–22
+12-21,,,,,St. Thomas,ot,Judges 6:36–40
+12-21,,,,,St. Thomas,epistle,Ephesians 1:3–8a
+12-21,,,,,St. Thomas,gospel,John 20:24–29
+12-26,,,,,St. Stephen,ot,2 Chronicles 24:17–22
+12-26,,,,,St. Stephen,epistle,Acts 6:8–10; 7:54–60
+12-26,,,,,St. Stephen,gospel,Matthew 23:34–39
+12-27,,,,,St. John,ot,"Revelation 1:1–6 or Sirach 15:1–2a, 3–6"
+12-27,,,,,St. John,epistle,1 John 1:1–2:2
+12-27,,,,,St. John,gospel,John 21:19b–24
+12-28,,,,,Holy Innocents,ot,Exodus 1:8–22 or Jeremiah 31:15–17
+12-28,,,,,Holy Innocents,epistle,Revelation 14:1–5
+12-28,,,,,Holy Innocents,gospel,Matthew 2:13b–18

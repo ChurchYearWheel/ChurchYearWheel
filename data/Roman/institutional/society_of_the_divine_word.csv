@@ -1,0 +1,8 @@
+id,date,name,full_name,rank,style,color_override,color_override_bottom,icon,icon_when,transfer,variant,when,action
+,01-15,St. Arnold Janssen,"Saint Arnold Janssen, priest and founder",4,solemnity,WHITE,,,,,,,
+,01-29,St. Joseph Freinademetz,"Saint Joseph Freinademetz, priest",11,memorial,,,,,,,,
+annunciation,,,"Annunciation of the Lord, Titular Feast of the Society",4,solemnity,WHITE,,,,,,,
+,easter+69,Immaculate Heart of Mary,,8,feast_rank,WHITE,,,,,,,
+,06-12,"Bls. Louis Mzyk, Stanislaus Kubista, Aloysius Liguda and Gregory Frackowak","Blesseds Louis Mzyk, Stanislaus Kubista and Aloysius Liguda, priests and Gregory Frackowak, religious, martyrs",12,optional_memorial,,,,,,,,
+nativity_of_mary,,,"Birth of the Blessed Virgin Mary, Patroness of the Society",4,solemnity,WHITE,,,,,,,
+,11-28,Bl. Maria Helena Stollenwerk,Blessed Maria Helena Stollenwerk,12,optional_memorial,,,,,,,,

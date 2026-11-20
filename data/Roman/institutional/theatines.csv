@@ -1,0 +1,8 @@
+id,date,name,full_name,rank,style,color_override,color_override_bottom,icon,icon_when,transfer,variant,when,action
+,01-04,St. Giuseppe Maria Tomasi,"Saint Giuseppe Maria Tomasi, priest",8,feast_rank,WHITE,,,,,,,
+,05-08,"Our Lady, Immaculate Mother",,8,feast_rank,WHITE,,,,,,,
+,06-16,Bl. Paolo Burali,"Blessed Paolo Burali, bishop",11,memorial,,,,,,,,
+st_cajetan,,,"Saint Cajetan, priest and founder",4,solemnity,WHITE,,,,,,,
+holy_cross,,,Exaltation of the Holy Cross,4,solemnity,RED,,,,,,,
+,11-10,St. Andrew Avellino,"Saint Andrew Avellino, priest",8,feast_rank,WHITE,,,,,,,
+,12-12,Bl. John Marinonio,"Blessed John Marinonio, priest",11,memorial,,,,,,,,

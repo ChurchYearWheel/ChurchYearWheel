@@ -1,0 +1,8 @@
+id,date,name,full_name,rank,style,color_override,color_override_bottom,icon,icon_when,transfer,variant,when,action,link
+,02-03,St. Blase,"Saint Blase, bishop and martyr",8,feast_rank,RED,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-blase/
+our_lady_of_mount_carmel,,,Our Lady of Mount Carmel,12,optional_memorial,-,,,,,,,,
+st_rose_of_lima,,,"Saint Rose of Lima, virgin",8,feast_rank,WHITE,,,,,,,,
+,11-17,"Sts. Roque González, Alfonso Rodríguez and Juan del Castillo","Saints Roque González, Alfonso Rodríguez, and Juan del Castillo, priests and martyrs",4,solemnity,RED,,,,,,,,
+st_elizabeth_of_hungary,11-19,,"Saint Elizabeth of Hungary, religious",10,memorial,-,,,,,,,,
+guadalupe,,,Our Lady of Guadalupe,8,feast_rank,WHITE,,,,,,,,
+,easter+53,Christ the Eternal High Priest,"Our Lord Jesus Christ, the Eternal High Priest",8,feast_rank,WHITE,,,,,,,,

@@ -1,0 +1,9 @@
+name,fill,text
+# ===========================================================================,,
+# The colors of the RCA's calendar with liturgical colors (Reformed Church,,
+"# Press), over the shared palette.",,
+# ===========================================================================,,
+PURPLE,#a990dd,#000000
+GREEN,#74c043,#000000
+RED,#f04b23,#000000
+NONE,#ffffff/#bfbfbf,#000000

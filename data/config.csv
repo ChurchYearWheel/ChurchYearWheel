@@ -1,0 +1,141 @@
+setting,value
+# ===========================================================================
+# THIS FILE WINS.  Every row here overrides the matching default built into
+"# church_year_image.py, so change settings HERE, not in the script's SETTING_SPEC."
+# Delete a row (or leave its value blank) to fall back to the script default.
+# Rows starting with # are ignored.
+# ===========================================================================
+# ---------------------------------------------------------------- the year --
+church_year_start,2026-11-29
+church_year_end,2027-11-27
+output_filename,church_year_2026-27_calendar.svg
+center_svg,auto
+artwork_credit,auto
+"# The web page: what shows under the wheel (full, credit or none) and which"
+"# churches it offers (blank for all; keys, tradition names or lcms-* prefixes)."
+page_footer,none
+"# The magnification the web page opens at, centered on the day it opens on: 1 (the whole wheel) to 6 (blank: 1). A link's zoom= wins."
+page_zoom,3
+"# Text on mid-tone colors (either black or white reads): as-set, dark-reds"
+"# (black on the reds only), dark or light."
+mid_text,as-set
+page_churches,
+"# Settings the page leaves out, keeping each church's own (calendar, easter",
+"# artwork, reds; blank for none)."
+page_fixed,
+"# The Readings boxes checked when the page opens: all (blank), none, the kinds to"
+"# check (day,feasts) or to leave unchecked (-daily,-office)."
+page_readings,
+"# Rings the page opens with turned off (halves,seasons ...), colors it opens with changed"
+"# (PURPLE-7a1f7a,ring.gold-c9a227 ...), and where readings open (biblegateway or youversion; blank: by device)."
+page_hide,
+page_colors,
+page_bible_site,
+"# The mark after each set of readings that searches Word to Worship for worship songs"
+"# on them: on, off (the box unchecked) or none (no box at all; blank: on)."
+page_hymnary,
+page_word_to_worship,
+"# How the day's readings are shown when there are several sets: tabs (one set at a"
+"# time) or columns (all of them, the later ones in a column on the left). Both,"
+"# comma-separated, offers the other in Settings, the first opening (blank: tabs,columns)."
+page_readings_layout,
+"# The page the web page's Help button opens (blank: no button): the user guide, as the project publishes it."
+page_help,https://github.com/ChurchYearWheel/ChurchYearWheel/blob/main/docs/user-guide.md
+"# The feedback form the page's Feedback link opens (blank: no link). The day's"
+"# link, date and church are added as ?link=&date=&church= (or fill {link}, {date}"
+"# and {church} where the address names them)."
+page_feedback,https://tally.so/r/rDygeo
+"# The page's links: all, none, or bible (each reading, and each set together) and"
+"# feasts (each commemoration's page). Without bible there is no Bible or Open in."
+page_links,
+"# Whether the page offers Download... (the wheel as SVG and PNG, and its lists)"
+"# and Make a page... (a page like itself), under Share: TRUE or FALSE (blank: TRUE)."
+page_download,
+page_make_page,
+page_edit,
+"# Whether the page's arrow keys go on into the next church year at the year's end (TRUE) or round the year on the wheel (FALSE, or blank). Settings has a box for it."
+page_arrows_next_year,
+"# Whether the page looks for a picture beside it (center.svg, or .png .jpg .jpeg .webp .gif) to offer in the middle: TRUE or FALSE (blank: FALSE). Off, it asks for no files."
+page_local_art,
+"# The Bible versions the page offers: codes (ESV, KJV ...), languages (english",
+"# de, sv ...) or own (each church's own, no menu); one version hides the menu;"
+# blank for all.
+page_bibles,
+deduplicate_day_labels,TRUE
+feast_detail,all
+calendar,gregorian
+paschalion,
+lectionary,lcms-three-year
+subcalendars,
+latin_names,FALSE
+festival_half_end,auto
+feast_repeat,all
+"# Precedence: where the day outranks a saint's day that falls on it, so the"
+# day keeps the top of the cell and the feast's color takes the lower half.
+# Sundays and named days in these seasons:
+feast_yield_seasons,ADVENT LENT HOLY_WEEK EASTER POST_EASTER PRE_PENTECOST
+"# Every day in these, and in the week after each (Easter week):"
+feast_yield_every_day,HOLY_WEEK
+# 'none' turns either off.
+# ------------------------------------------------------------------ png export -
+png_output,TRUE
+png_filename,
+png_width,5000
+png_background,none
+png_renderer,auto
+# -------------------------------------------------------------------- canvas -
+width,2100
+height,2100
+background_fill,none
+start_angle,180
+# ------------------------------------------------------------------ week ring -
+day_bands,7
+week_starts_on,6
+day_stroke,#000000
+day_stroke_width,0.4
+empty_cell_fill,#f0f0f0
+empty_cell_stroke,#c0c0c0
+year_seam_fill,auto
+year_line,FALSE
+year_line_width,4
+# ----------------------------------------------------------------------- fonts -
+font_family_serif,"Times New Roman, Liberation Serif, Nimbus Roman, Times, serif"
+font_family_sans,"Arial, Liberation Sans, Nimbus Sans, Helvetica, sans-serif"
+line_height_factor,1.0
+text_width_fudge,1.0
+small_caps_ratio,0.8
+small_caps_synthetic,TRUE
+# ------------------------------------------------------------- day cell layout -
+day_number_vertical_ratio,0.18
+day_number_horizontal_ratio,0.05
+cell_padding,1.5
+text_fill_ratio,0.94
+radial_clearance,0.74
+day_number_gap,2.5
+top_label_reserve,0.34
+split_share_min,0.34
+split_share_max,0.66
+color_split_max,0.70
+color_split_gain,0.15
+# -------------------------------------------------------------------- auto-fit -
+autofit,TRUE
+autofit_allow_grow,FALSE
+autofit_max_scale,1.0
+autofit_step,0.25
+text_orientation,tangential
+radial_min_line_saving,2
+# ---------------------------------------------------------------- ring labels -
+curved_text_vertical_offset,-0.35
+ring_label_arc_usage,0.95
+ring_label_autofit,TRUE
+ring_label_radial_fallback,TRUE
+ring_label_min_font_size,6
+ring_label_hide_if_unfit,FALSE
+ring_label_spill,TRUE
+ring_label_uniform,seasons
+month_label_largest_only,TRUE
+ring_subtitle_ratio,0.78
+# the separator is quoted so its trailing space survives
+ring_subtitle_separator,": "
+# ----------------------------------------------------------------- reporting --
+warn_below_font_size,6

@@ -1,0 +1,37 @@
+id,date,name,full_name,rank,style,color_override,color_override_bottom,icon,icon_when,transfer,variant,when,action,link
+,01-09,St. Eulogius of Córdoba,"Saint Eulogius of Córdoba, bishop",12,optional_memorial,,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-eulogius-of-cordoba/
+,01-20,Sts. Fructuosus and Augurius and Eulogius,"Saints Fructuosus, bishop, and Augurius and Eulogius, deacons, martyrs",12,optional_memorial,,,,,,,,,
+st_vincent,,,"Saint Vincent, deacon and martyr",11,memorial,-,,,,,,,,
+,01-23,St. Ildephonsus of Toledo,"Saint Ildephonsus of Toledo, bishop",11,memorial,,,,,,,,,
+,02-14,"Sts. Cyril, Methodius and Patrons of Europe","Saints Cyril, monk, and Methodius, bishop, Patrons of Europe",8,feast_rank,WHITE,,,,,,,,
+,04-13,St. Hermenegild,"Saint Hermenegild, martyr",12,optional_memorial,,,,,,,,,
+,04-24,St. Peter of St. Joseph de Betancur,"Saint Peter of Saint Joseph de Betancur, missionary",11,memorial,,,,,,,,,
+,04-26,St. Isidore of Seville,"Saint Isidore of Seville, bishop and Doctor of the Church",8,feast_rank,WHITE,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-isidore-of-seville/
+st_catherine_of_siena,,,"Saint Catherine of Siena, virgin and Doctor of the Church, Patron of Europe",8,feast_rank,WHITE,,,,,,,,
+st_john_of_avila,,,"Saint John of Avila, priest and Doctor of the Church",11,memorial,-,,,,,,,,
+,05-15,St. Isidore the Farmer,Saint Isidore the Farmer,11,memorial,,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-isidore-the-farmer/
+,05-17,St. Paschal Baylon,Saint Paschal Baylon,12,optional_memorial,,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-paschal-baylon/
+,05-22,St. Joaquina Vedruna,Saint Joaquina Vedruna,12,optional_memorial,,,,,,,,,
+,05-30,St. Ferdinand,Saint Ferdinand,12,optional_memorial,,,,,,,,,
+,06-09,St. José de Anchieta,"Saint José de Anchieta, missionary",11,memorial,,,,,,,,,
+,06-15,St. María Micaela of the Bl. Sacrament,"Saint María Micaela of the Blessed Sacrament, virgin",12,optional_memorial,,,,,,,,,
+,06-26,St. Pelagius,"Saint Pelagius, martyr",12,optional_memorial,,,,,,,,,
+st_benedict,,,"Saint Benedict, abbot, Patron of Europe",8,feast_rank,WHITE,,,,,,,,
+our_lady_of_mount_carmel,,,Our Lady of Mount Carmel,11,memorial,-,,,,,,,,
+st_bridget,,,"Saint Bridget, religious, Patron of Europe",8,feast_rank,WHITE,,,,,,,,
+st_james,,,"Saint James, apostle, Patron of Spain",4,solemnity,RED,,,,,,,,
+st_teresa_benedicta_of_the_cross,,,"Saint Teresa Benedicta of the Cross, virgin and martyr, Patron of Europe",8,feast_rank,RED,,,,,,,,
+,08-19,St. Ezequiel Moreno,"Saint Ezequiel Moreno, bishop",12,optional_memorial,,,,,,,,,
+,08-26,St. Teresa of Jesus Jornet e Ibars,"Saint Teresa of Jesus Jornet e Ibars, virgin",11,memorial,,,,,,,,,
+,09-24,Our Lady of Mercy,,12,optional_memorial,,,,,,,,,
+,10-03,St. Francis Borgia,"Saint Francis Borgia, priest",12,optional_memorial,,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-francis-borgia/
+,10-10,St. Thomas of Villanova,"Saint Thomas of Villanova, bishop",12,optional_memorial,,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-thomas-of-villanova/
+,10-11,St. Soledad Torres Acosta,"Saint Soledad Torres Acosta, virgin",12,optional_memorial,,,,,,,,,
+,10-12,Our Lady of the Pillar,,8,feast_rank,WHITE,,,,,,,,
+st_teresa_of_jesus,,,"Saint Teresa of Jesus, virgin and Doctor of the Church",8,feast_rank,WHITE,,,,,,,,
+,10-19,St. Peter of Alcántara,"Saint Peter of Alcántara, priest",12,optional_memorial,,,,,,,,,
+st_anthony_mary_claret,,,"Saint Anthony Mary Claret, bishop",11,memorial,-,,,,,,,,
+,11-13,St. Leander,"Saint Leander, bishop",12,optional_memorial,,,,,,,,,
+,12-10,St. Eulalia of Mérida,"Saint Eulalia of Mérida, virgin and martyr",12,optional_memorial,,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-eulalia-of-merida/
+st_john_of_the_cross,,,"Saint John of the Cross, Doctor of the Church",10,memorial,-,,,,,,,,
+,easter+53,Christ the Eternal High Priest,"Jesus Christ, the Eternal High Priest",8,feast_rank,WHITE,,,,,,,,

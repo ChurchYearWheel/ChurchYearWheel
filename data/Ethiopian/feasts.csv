@@ -1,0 +1,13 @@
+id,date,name,full_name,color_override,color_override_bottom,style,variant,when
+# ===========================================================================,,,,,,,,
+"# Saints' days, by their Ethiopian dates.",,,,,,,,
+# ===========================================================================,,,,,,,,
+e0312,ethiopian(03-12),St Michael,Archangel Michael (12 Hidar),,,,,
+e0419,ethiopian(04-19),St Gabriel,Archangel Gabriel (19 Tahsas),,,,,
+e0521,ethiopian(05-21),Aster'eyo Mariam,The Dormition of the Virgin Mary (21 Tir),,,,,
+e0616,ethiopian(06-16),Kidane Mehret,Kidane Mehret: the Covenant of Mercy (16 Yekatit),,,,,
+e0823,ethiopian(08-23),St George,Kidus Giyorgis (23 Miyazya),,,,,
+e0901,ethiopian(09-01),Lideta Maryam,The Nativity of the Virgin Mary (1 Ginbot),,,,,
+e1012,ethiopian(10-12),St Michael,Archangel Michael (12 Sene),,,,,
+e1119,ethiopian(11-19),St Gabriel,Archangel Gabriel (19 Hamle),,,,,
+e1224,ethiopian(12-24),Abune Teklehaymanot,St Tekle Haymanot (24 Nehase),,,,,

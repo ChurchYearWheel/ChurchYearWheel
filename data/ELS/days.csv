@@ -1,0 +1,56 @@
+id,variant,when,date,from,to,every,first,count,title,names,notes,latin,color,color_bottom,rank,style,icon,claims,yield,full_name
+# ===========================================================================
+"# The principal days of the ELS year (Evangelical Lutheran Hymnary), as"
+# day; a row with `from` and `to` is a run of Sundays (or `every` other day),
+# numbered from `first`.  See docs/traditions.md for the date language.
+# ===========================================================================
+advent,,,,start,start+27,sun,1,,{ordinal} Sunday in Advent,,,Ad Te Levavi|Populus Zion|Gaudete|Rorate Coeli,,,,,,,,
+gaudete,,,start+14,,,,,,Third Sunday in Advent,,,Gaudete,ROSE,,,,,TRUE,,
+christmas_eve,,,12-24,,,,,,Christmas Eve,,,,,WHITE,,,,,,
+christmas,,,12-25,,,,,,Nativity of Our Lord,,,,GOLD,,,,,,,
+after_christmas,,,,@christmas+1,@epiphany-1,sun,1,,{ordinal} Sunday after Christmas,,,,,,,,,,,
+epiphany,,,01-06,,,,,,Epiphany of Our Lord,,,,WHITE,,,,,,,
+baptism,three-year,date lt @transfiguration,sun>@epiphany,,,,,,Baptism of Our Lord,,,,WHITE,,,,,TRUE,,
+# The ELS one-year series keeps the Baptism on Quinquagesima.
+baptism,one-year,,easter-49,,,,,,Baptism of Our Lord,,,,WHITE,,,,,,,
+# The three-year series keeps the Transfiguration on the Sunday before Ash
+"# Wednesday; the one-year on the last Sunday after the Epiphany, before"
+# Septuagesima.
+transfiguration,three-year,date gt @epiphany,easter-49,,,,,,The Transfiguration of Our Lord,,,,WHITE,,,,,TRUE,,
+transfiguration,one-year,date gt @epiphany+14,easter-70,,,,,,The Transfiguration of Our Lord,,,,WHITE,,,,,TRUE,,
+after_epiphany,three-year,,,@epiphany+1,@transfiguration,sun,1,,{ordinal} Sunday after Epiphany,,,,,,,,,,,
+after_epiphany,one-year,,,@epiphany+1,easter-64,sun,1,,{ordinal} Sunday after Epiphany,,,,,,,,,,,
+septuagesima,one-year,,easter-63,,,,,,Septuagesima,,,,GREEN,PURPLE,,,,,,
+sexagesima,one-year,,easter-56,,,,,,Sexagesima,,,,GREEN,PURPLE,,,,,,
+ash_wednesday,,,easter-46,,,,,,Ash Wednesday,,,,PURPLE,BLACK,,,,,,
+lent,,,,@ash_wednesday,@palm_sunday-1,sun,1,,{ordinal} Sunday in Lent,,,Invocavit|Reminiscere|Oculi|Laetare|Judica,,,,,,,,
+laetare,,,easter-21,,,,,,Fourth Sunday in Lent,,,Laetare,ROSE,,,,,TRUE,,
+palm_sunday,,,easter-7,,,,,,Palm Sunday,,,Palmarum,PURPLE,SCARLET,,,,,,
+maundy_thursday,,,easter-3,,,,,,Holy (Maundy) Thursday,,,,PURPLE,WHITE,,,,,,
+good_friday,,,easter-2,,,,,,Good Friday,,,,BLACK,,,,,,,
+holy_saturday,,,easter-1,,,,,,Holy Saturday,,,,WHITE,,,,,,,
+easter,,,easter,,,,,,The Resurrection of Our Lord,,,,GOLD,,,,,,,
+after_easter,,,,easter+1,@pentecost-1,sun,2,,{ordinal} Sunday of Easter,,,Quasimodo Geniti|Misericordias Domini|Jubilate|Cantate|Rogate|Exaudi,,,,,,,,
+ascension,,,easter+39,,,,,,The Ascension of Our Lord,,,,,,,,,,,
+exaudi,one-year,,easter+42,,,,,,Sunday after the Ascension,,,Exaudi,,,,,,TRUE,,
+pentecost,,,easter+49,,,,,,Pentecost,,,,RED,,,,,,,
+trinity,,,easter+56,,,,,,Trinity,,,,WHITE,,,,,,,
+# The one-year series counts from Trinity and starts at one; the three-year
+"# counts from Pentecost, with Trinity itself standing as the first."
+after_trinity,one-year,,,@trinity+1,@last_sunday,sun,1,,{ordinal} Sunday after Trinity,,,,,,,,,,,
+after_pentecost,three-year,,,@trinity+1,@last_sunday,sun,2,,{ordinal} Sunday after Pentecost,,,,,,,,,,,
+"# Reformation Day is kept on the Sunday on or before 31 October, and is"
+# "observed" only when it has actually moved: then the cell is red over the
+# green of the Sunday it displaces.  All Saints' is kept on the first Sunday
+"# in November, white whatever the season."
+reformation,,date ne 10-31,sun<=10-31,,,,,,Reformation Sunday,,,,RED,,,,,TRUE,,
+reformation_day,,date eq 10-31,sun<=10-31,,,,,,Reformation Day,,,,RED,,,,,TRUE,,
+all_saints,,date ne 11-01,sun#1:11,,,,,,All Saints Sunday,,,,WHITE,,,,,TRUE,,
+all_saints_day,,date eq 11-01,sun#1:11,,,,,,All Saints' Day,,,,WHITE,,,,,TRUE,,
+"# St. Michael takes the Sunday it falls on, and the year ends with the"
+"# third-last, second-last and last Sundays (All Saints' wins the third-last)."
+michaelmas,one-year,date wd sun,09-29,,,,,,St. Michael and All Angels,,,,WHITE,,,,,TRUE,,
+third_last_sunday,one-year,date ne sun#1:11,next_start-21,,,,,,Third-Last Sunday of the Church Year,,,,,,,,,TRUE,,
+second_last_sunday,one-year,,next_start-14,,,,,,Second-Last Sunday of the Church Year,,,,,,,,,TRUE,,
+last_sunday,,,next_start-7,,,,,,Last Sunday of the Church Year,,,,WHITE,,,,,TRUE,,
+thanksgiving,,,thu#4:11,,,,,,Thanksgiving,,,,WHITE,,,,,,,

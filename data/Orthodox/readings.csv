@@ -1,0 +1,1823 @@
+day,offset,when,cycle,variant,title,kind,reading
+# ===========================================================================
+# The Byzantine readings at the Divine Liturgy: the Epistle and Gospel of
+"# every Sunday, of the days of the Triodion and Pentecostarion that have"
+"# their own (with the Old Testament lessons of Holy Week), and of the great"
+"# feasts, as the Orthodox Church in America appoints them in its monthly"
+"# lectionaries (https://www.oca.org/readings/monthly, read October 2026 for"
+# September 2024 to December 2046).
+# The Sundays after Pentecost are rules: the Epistle goes by the Sunday's
+"# number, the Gospel by the number until the Sunday after the Exaltation and"
+"# by the weeks of Luke after it, the Sundays before the Forefathers taking"
+# the Ten Lepers and the Rich Young Ruler; checked against all 567 ordinary
+# Sundays of those years.  The Sundays between Theophany and Zacchaeus
+"# follow the year's own order (the OCA's, 2024-25 to 2045-46: the Revised"
+"# Julian calendar with the Orthodox Pascha, as the UGCC keeps it); the"
+"# Ruthenian calendar, with the Gregorian Pascha, counts them back from Zacchaeus (below)."
+# The special Sundays and the feasts are titled sets beside the Sunday's.
+"# The cycle column is the year the church year begins (reading_cycle,year)."
+# ===========================================================================
+easter,56,,,,,epistle,Hebrews 11:33–12:2
+easter,56,,,,,gospel,"Matthew 10:32–33, 37–38, 19:27–30"
+easter,63,,,,,epistle,Romans 2:10–16
+easter,63,,,,,gospel,Matthew 4:18–23
+easter,70,,,,,epistle,Romans 5:1–10
+easter,70,,,,,gospel,Matthew 6:22–33
+easter,77,,,,,epistle,Romans 6:18–23
+easter,77,,,,,gospel,Matthew 8:5–13
+easter,84,,,,,epistle,Romans 10:1–10
+easter,84,,,,,gospel,Matthew 8:28–9:1
+easter,91,,,,,epistle,Romans 12:6–14
+easter,91,,,,,gospel,Matthew 9:1–8
+easter,98,,,,,epistle,Romans 15:1–7
+easter,98,,,,,gospel,Matthew 9:27–35
+easter,105,,,,,epistle,1 Corinthians 1:10–18
+easter,105,,,,,gospel,Matthew 14:14–22
+easter,112,,,,,epistle,1 Corinthians 3:9–17
+easter,112,,,,,gospel,Matthew 14:22–34
+easter,119,,,,,epistle,1 Corinthians 4:9–16
+easter,119,,,,,gospel,Matthew 17:14–23
+easter,126,,,,,epistle,1 Corinthians 9:2–12
+easter,126,,,,,gospel,Matthew 18:23–35
+easter,133,,,,,epistle,1 Corinthians 15:1–11
+easter,133,,,,,gospel,Matthew 19:16–26
+easter,140,,,,,epistle,1 Corinthians 16:13–24
+easter,140,,,,,gospel,Matthew 21:33–42
+easter,147,,,,,epistle,2 Corinthians 1:21–2:4
+easter,147,,,,,gospel,Matthew 22:1–14
+easter,154,,,,,epistle,2 Corinthians 4:6–15
+easter,154,,,,,gospel,Matthew 22:35–46
+easter,161,,,,,epistle,2 Corinthians 6:1–10
+easter,161,,,,,gospel,Matthew 25:14–30
+easter,168,,,,,epistle,2 Corinthians 6:16–7:1
+easter,168,,,,,gospel,Matthew 15:21–28
+prev_easter,119,date lt sun>=12-11,,,,epistle,1 Corinthians 4:9–16
+prev_easter,119,date le sun>09-14,,,,gospel,Matthew 17:14–23
+prev_easter,126,date lt sun>=12-11,,,,epistle,1 Corinthians 9:2–12
+prev_easter,126,date le sun>09-14,,,,gospel,Matthew 18:23–35
+prev_easter,133,date lt sun>=12-11,,,,epistle,1 Corinthians 15:1–11
+prev_easter,133,date le sun>09-14,,,,gospel,Matthew 19:16–26
+prev_easter,140,date lt sun>=12-11,,,,epistle,1 Corinthians 16:13–24
+prev_easter,140,date le sun>09-14,,,,gospel,Matthew 21:33–42
+prev_easter,147,date lt sun>=12-11,,,,epistle,2 Corinthians 1:21–2:4
+prev_easter,147,date le sun>09-14,,,,gospel,Matthew 22:1–14
+prev_easter,154,date lt sun>=12-11,,,,epistle,2 Corinthians 4:6–15
+prev_easter,154,date le sun>09-14,,,,gospel,Matthew 22:35–46
+prev_easter,161,date lt sun>=12-11,,,,epistle,2 Corinthians 6:1–10
+prev_easter,161,date le sun>09-14,,,,gospel,Matthew 25:14–30
+prev_easter,168,date lt sun>=12-11,,,,epistle,2 Corinthians 6:16–7:1
+prev_easter,168,date le sun>09-14,,,,gospel,Matthew 15:21–28
+prev_easter,175,date lt sun>=12-11,,,,epistle,2 Corinthians 9:6–11
+prev_easter,182,date lt sun>=12-11,,,,epistle,2 Corinthians 11:31–12:9
+prev_easter,189,date lt sun>=12-11,,,,epistle,Galatians 1:11–19
+prev_easter,196,date lt sun>=12-11,,,,epistle,Galatians 2:16–20
+prev_easter,203,date lt sun>=12-11,,,,epistle,Galatians 6:11–18
+prev_easter,210,date lt sun>=12-11,,,,epistle,Ephesians 2:4–10
+prev_easter,217,date lt sun>=12-11,,,,epistle,Ephesians 2:14–22
+prev_easter,224,date lt sun>=12-11,,,,epistle,Ephesians 4:1–6
+prev_easter,231,date lt sun>=12-11,,,,epistle,Ephesians 5:9–19
+prev_easter,238,date lt sun>=12-11,,,,epistle,Ephesians 6:10–17
+prev_easter,245,date lt sun>=12-11,,,,epistle,Colossians 1:12–18
+sun>09-14,7,,,,,gospel,Luke 5:1–11
+sun>09-14,14,,,,,gospel,Luke 6:31–36
+sun>09-14,21,,,,,gospel,Luke 7:11–16
+sun>09-14,28,,,,,gospel,Luke 8:5–15
+sun>09-14,35,,,,,gospel,Luke 16:19–31
+sun>09-14,42,,,,,gospel,Luke 8:26–39
+sun>09-14,49,,,,,gospel,Luke 8:41–56
+sun>09-14,56,,,,,gospel,Luke 10:25–37
+sun>09-14,63,,,,,gospel,Luke 12:16–21
+sun>09-14,70,,,,,gospel,Luke 13:10–17
+sun>=12-11,-7,,,,,gospel,Luke 17:12–19
+sun>=12-11,-14,date ge (sun>09-14)+77,,,,gospel,Luke 18:18–27
+01-19,,,2024,eastern-orthodox ugcc,,epistle,Colossians 3:12–16
+01-19,,,2024,eastern-orthodox ugcc,,gospel,Luke 18:35–43
+01-26,,,2024,eastern-orthodox ugcc,,epistle,1 Timothy 1:15–17
+01-26,,,2024,eastern-orthodox ugcc,,gospel,Matthew 15:21–28
+01-18,,,2025,eastern-orthodox ugcc,,epistle,1 Timothy 1:15–17
+01-18,,,2025,eastern-orthodox ugcc,,gospel,Luke 18:35–43
+01-17,,,2026,eastern-orthodox ugcc,,epistle,Colossians 1:12–18
+01-17,,,2026,eastern-orthodox ugcc,,gospel,Luke 18:18–27
+01-24,,,2026,eastern-orthodox ugcc,,epistle,Colossians 3:4–11
+01-24,,,2026,eastern-orthodox ugcc,,gospel,Luke 18:35–43
+01-31,,,2026,eastern-orthodox ugcc,,epistle,Colossians 3:12–16
+01-31,,,2026,eastern-orthodox ugcc,,gospel,Matthew 25:14–30
+02-07,,,2026,eastern-orthodox ugcc,,epistle,1 Timothy 1:15–17
+02-07,,,2026,eastern-orthodox ugcc,,gospel,Matthew 15:21–28
+01-16,,,2027,eastern-orthodox ugcc,,epistle,Colossians 3:12–16
+01-16,,,2027,eastern-orthodox ugcc,,gospel,Luke 18:18–27
+01-23,,,2027,eastern-orthodox ugcc,,epistle,1 Timothy 1:15–17
+01-23,,,2027,eastern-orthodox ugcc,,gospel,Luke 18:35–43
+01-14,,,2028,eastern-orthodox ugcc,,epistle,1 Timothy 1:15–17
+01-14,,,2028,eastern-orthodox ugcc,,gospel,Luke 18:35–43
+01-20,,,2029,eastern-orthodox ugcc,,epistle,Colossians 3:4–11
+01-20,,,2029,eastern-orthodox ugcc,,gospel,Luke 18:35–43
+01-27,,,2029,eastern-orthodox ugcc,,epistle,Colossians 3:12–16
+01-27,,,2029,eastern-orthodox ugcc,,gospel,Matthew 25:14–30
+02-03,,,2029,eastern-orthodox ugcc,,epistle,1 Timothy 1:15–17
+02-03,,,2029,eastern-orthodox ugcc,,gospel,Matthew 15:21–28
+01-19,,,2030,eastern-orthodox ugcc,,epistle,1 Timothy 1:15–17
+01-19,,,2030,eastern-orthodox ugcc,,gospel,Luke 18:35–43
+01-18,,,2031,eastern-orthodox ugcc,,epistle,Colossians 1:12–18
+01-18,,,2031,eastern-orthodox ugcc,,gospel,Luke 18:18–27
+01-25,,,2031,eastern-orthodox ugcc,,epistle,Colossians 3:4–11
+01-25,,,2031,eastern-orthodox ugcc,,gospel,Luke 18:35–43
+02-01,,,2031,eastern-orthodox ugcc,,epistle,Colossians 3:12–16
+02-01,,,2031,eastern-orthodox ugcc,,gospel,Matthew 25:14–30
+02-08,,,2031,eastern-orthodox ugcc,,epistle,1 Timothy 1:15–17
+02-08,,,2031,eastern-orthodox ugcc,,gospel,Matthew 15:21–28
+01-16,,,2032,eastern-orthodox ugcc,,epistle,Colossians 3:12–16
+01-16,,,2032,eastern-orthodox ugcc,,gospel,Luke 18:18–27
+01-23,,,2032,eastern-orthodox ugcc,,epistle,1 Timothy 1:15–17
+01-23,,,2032,eastern-orthodox ugcc,,gospel,Luke 18:35–43
+01-30,,,2032,eastern-orthodox ugcc,,epistle,1 Timothy 1:15–17
+01-30,,,2032,eastern-orthodox ugcc,,gospel,Matthew 15:21–28
+01-15,,,2033,eastern-orthodox ugcc,,epistle,1 Timothy 1:15–17
+01-15,,,2033,eastern-orthodox ugcc,,gospel,Luke 18:35–43
+01-14,,,2034,eastern-orthodox ugcc,,epistle,Colossians 1:12–18
+01-14,,,2034,eastern-orthodox ugcc,,gospel,Luke 18:35–43
+01-21,,,2034,eastern-orthodox ugcc,,epistle,Colossians 3:4–11
+01-21,,,2034,eastern-orthodox ugcc,,gospel,Matthew 22:35–46
+01-28,,,2034,eastern-orthodox ugcc,,epistle,Colossians 3:12–16
+01-28,,,2034,eastern-orthodox ugcc,,gospel,Matthew 25:14–30
+02-04,,,2034,eastern-orthodox ugcc,,epistle,1 Timothy 1:15–17
+02-04,,,2034,eastern-orthodox ugcc,,gospel,Matthew 15:21–28
+01-20,,,2035,eastern-orthodox ugcc,,epistle,1 Timothy 1:15–17
+01-20,,,2035,eastern-orthodox ugcc,,gospel,Luke 18:35–43
+01-27,,,2035,eastern-orthodox ugcc,,epistle,1 Timothy 1:15–17
+01-27,,,2035,eastern-orthodox ugcc,,gospel,Matthew 15:21–28
+01-17,,,2037,eastern-orthodox ugcc,,epistle,Colossians 3:4–11
+01-17,,,2037,eastern-orthodox ugcc,,gospel,Luke 18:18–27
+01-24,,,2037,eastern-orthodox ugcc,,epistle,Colossians 3:12–16
+01-24,,,2037,eastern-orthodox ugcc,,gospel,Luke 18:35–43
+01-31,,,2037,eastern-orthodox ugcc,,epistle,1 Timothy 1:15–17
+01-31,,,2037,eastern-orthodox ugcc,,gospel,Matthew 15:21–28
+01-16,,,2038,eastern-orthodox ugcc,,epistle,1 Timothy 1:15–17
+01-16,,,2038,eastern-orthodox ugcc,,gospel,Luke 18:18–27
+01-23,,,2038,eastern-orthodox ugcc,,epistle,1 Timothy 1:15–17
+01-23,,,2038,eastern-orthodox ugcc,,gospel,Luke 18:35–43
+01-15,,,2039,eastern-orthodox ugcc,,epistle,Ephesians 6:10–17
+01-15,,,2039,eastern-orthodox ugcc,,gospel,Luke 18:18–27
+01-22,,,2039,eastern-orthodox ugcc,,epistle,Colossians 1:12–18
+01-22,,,2039,eastern-orthodox ugcc,,gospel,Luke 18:35–43
+01-29,,,2039,eastern-orthodox ugcc,,epistle,Colossians 3:4–11
+01-29,,,2039,eastern-orthodox ugcc,,gospel,Matthew 22:35–46
+02-05,,,2039,eastern-orthodox ugcc,,epistle,Colossians 3:12–16
+02-05,,,2039,eastern-orthodox ugcc,,gospel,Matthew 25:14–30
+02-12,,,2039,eastern-orthodox ugcc,,epistle,1 Timothy 1:15–17
+02-12,,,2039,eastern-orthodox ugcc,,gospel,Matthew 15:21–28
+01-20,,,2040,eastern-orthodox ugcc,,epistle,Colossians 3:12–16
+01-20,,,2040,eastern-orthodox ugcc,,gospel,Luke 18:35–43
+01-27,,,2040,eastern-orthodox ugcc,,epistle,1 Timothy 1:15–17
+01-27,,,2040,eastern-orthodox ugcc,,gospel,Matthew 15:21–28
+01-19,,,2041,eastern-orthodox ugcc,,epistle,1 Timothy 1:15–17
+01-19,,,2041,eastern-orthodox ugcc,,gospel,Luke 18:35–43
+01-18,,,2042,eastern-orthodox ugcc,,epistle,Colossians 1:12–18
+01-18,,,2042,eastern-orthodox ugcc,,gospel,Luke 18:18–27
+01-25,,,2042,eastern-orthodox ugcc,,epistle,Colossians 3:4–11
+01-25,,,2042,eastern-orthodox ugcc,,gospel,Luke 18:35–43
+02-01,,,2042,eastern-orthodox ugcc,,epistle,Colossians 3:12–16
+02-01,,,2042,eastern-orthodox ugcc,,gospel,Matthew 25:14–30
+02-08,,,2042,eastern-orthodox ugcc,,epistle,1 Timothy 1:15–17
+02-08,,,2042,eastern-orthodox ugcc,,gospel,Matthew 15:21–28
+01-17,,,2043,eastern-orthodox ugcc,,epistle,Colossians 3:12–16
+01-17,,,2043,eastern-orthodox ugcc,,gospel,Luke 18:18–27
+01-24,,,2043,eastern-orthodox ugcc,,epistle,1 Timothy 1:15–17
+01-24,,,2043,eastern-orthodox ugcc,,gospel,Luke 18:35–43
+01-31,,,2043,eastern-orthodox ugcc,,epistle,1 Timothy 1:15–17
+01-31,,,2043,eastern-orthodox ugcc,,gospel,Matthew 15:21–28
+01-15,,,2044,eastern-orthodox ugcc,,epistle,1 Timothy 1:15–17
+01-15,,,2044,eastern-orthodox ugcc,,gospel,Luke 18:35–43
+01-14,,,2045,eastern-orthodox ugcc,,epistle,Colossians 1:12–18
+01-14,,,2045,eastern-orthodox ugcc,,gospel,Luke 18:35–43
+01-21,,,2045,eastern-orthodox ugcc,,epistle,Colossians 3:4–11
+01-21,,,2045,eastern-orthodox ugcc,,gospel,Matthew 22:35–46
+01-28,,,2045,eastern-orthodox ugcc,,epistle,Colossians 3:12–16
+01-28,,,2045,eastern-orthodox ugcc,,gospel,Matthew 25:14–30
+02-04,,,2045,eastern-orthodox ugcc,,epistle,1 Timothy 1:15–17
+02-04,,,2045,eastern-orthodox ugcc,,gospel,Matthew 15:21–28
+"# The Ruthenian Sundays between the Sunday after Theophany and Zacchaeus: ""after"
+"# the conclusion of the feast of Theophany you stop counting up from Pascha last year"
+"# and start counting down to Pascha this coming year"" (ByzCath, Lectionary of the"
+"# Byzantine Church, note 3, https://byzcath.org/index.php/bible/10-byzantine-lectionary,"
+"# read November 2026): the Sunday before Zacchaeus (the 32nd) is the 31st, the one"
+"# before it the 30th, then the 29th, with the Slavic Gospels of its table (the"
+"# Gregorian Pascha leaves at most three such Sundays).  The 29th's Epistle is"
+"# Colossians 3:4-11, as the OCA reads it (the table prints the 30th's, 3:12-16)."
+easter,-84,date gt sun>01-06,,ruthenian,,epistle,1 Timothy 1:15–17
+easter,-84,date gt sun>01-06,,ruthenian,,gospel,Luke 18:35–43
+easter,-91,date gt sun>01-06,,ruthenian,,epistle,Colossians 3:12–16
+easter,-91,date gt sun>01-06,,ruthenian,,gospel,Luke 18:18–27
+easter,-98,date gt sun>01-06,,ruthenian,,epistle,Colossians 3:4–11
+easter,-98,date gt sun>01-06,,ruthenian,,gospel,Luke 17:12–19
+easter,-77,date ne 01-06,,,,epistle,1 Timothy 4:9–15
+easter,-77,date ne 01-06,,,,gospel,Luke 19:1–10
+easter,-70,,,,,epistle,2 Timothy 3:10–15
+easter,-70,,,,,gospel,Luke 18:10–14
+easter,-63,,,,,epistle,1 Corinthians 6:12–20
+easter,-63,,,,,gospel,Luke 15:11–32
+easter,-57,,,,,epistle,1 Thessalonians 4:13–17
+easter,-57,,,,,gospel,John 5:24–30
+easter,-56,,,,,epistle,1 Corinthians 8:8–9:2
+easter,-56,,,,,gospel,Matthew 25:31–46
+easter,-49,,,,,epistle,Romans 13:11–14:4
+easter,-49,,,,,gospel,Matthew 6:14–21
+easter,-48,,,,,ot,Isaiah 1:1–20
+easter,-48,,,,,ot,Genesis 1:1–13
+easter,-48,,,,,ot,Proverbs 1:1–20
+easter,-43,,,,,epistle,Hebrews 1:1–12
+easter,-43,,,,,gospel,Mark 2:23–3:5
+easter,-42,,,,,epistle,"Hebrews 11:24–26, 32–12:2"
+easter,-42,,,,,gospel,John 1:43–51
+easter,-35,,,,,epistle,Hebrews 1:10–2:3
+easter,-35,,,,,gospel,Mark 2:1–12
+easter,-28,,,,,epistle,Hebrews 4:14–5:6
+easter,-28,,,,,gospel,Mark 8:34–9:1
+easter,-21,,,,,epistle,Hebrews 6:13–20
+easter,-21,,,,,gospel,Mark 9:17–31
+easter,-14,,,,,epistle,Hebrews 9:11–14
+easter,-14,,,,,gospel,Mark 10:32–45
+easter,-8,,,,,epistle,Hebrews 12:28–13:8
+easter,-8,,,,,gospel,John 11:1–45
+easter,-7,,,,,epistle,Philippians 4:4–9
+easter,-7,,,,,gospel,John 12:1–18
+easter,-6,,,,,ot,Ezekiel 1:1–20
+easter,-6,,,,,ot,Exodus 1:1–20
+easter,-6,,,,,ot,Job 1:1–12
+easter,-5,,,,,ot,Ezekiel 1:21–28
+easter,-5,,,,,ot,Exodus 2:5–10
+easter,-5,,,,,ot,Job 1:13–22
+easter,-4,,,,,ot,Ezekiel 2:3–3:3
+easter,-4,,,,,ot,Exodus 2:11–22
+easter,-4,,,,,ot,Job 2:1–10
+easter,-3,,,,,ot,Exodus 19:10–19
+easter,-3,,,,,ot,Job 38:1–23; 42:1–5
+easter,-3,,,,,ot,Isaiah 50:4–11
+easter,-3,,,,,epistle,1 Corinthians 11:23–32
+easter,-3,,,,,gospel,Matthew 26:2–20; John 13:3–17; Matthew 26:21–39; Luke 22:43–45; Matthew 26:40–27:2
+easter,-2,,,,,ot,Exodus 33:11–23
+easter,-2,,,,,ot,Job 42:12–17
+easter,-2,,,,,ot,Isaiah 52:13–54:1
+easter,-2,,,,,epistle,1 Corinthians 1:18–2:2
+easter,-2,,,,,gospel,Matthew 27:1–38; Luke 23:39–43; Matthew 27:39–54; John 19:31–37; Matthew 27:55–61
+easter,-1,,,,,epistle,Romans 6:3–11
+easter,-1,,,,,gospel,Matthew 28:1–20
+easter,-1,,,,Matins,ot,Ezekiel 37:1–14
+easter,-1,,,,Matins,epistle,1 Corinthians 5:6–8; Galatians 3:13–14
+easter,-1,,,,Matins,gospel,Matthew 27:62–66
+easter,0,,,,,epistle,Acts 1:1–8
+easter,0,,,,,gospel,John 1:1–17
+easter,1,,,,,epistle,"Acts 1:12–17, 21–26"
+easter,1,,,,,gospel,John 1:18–28
+easter,5,,,,,epistle,Philippians 2:5–11
+easter,5,,,,,gospel,Luke 10:38–42; 11:27–28
+easter,7,,,,,epistle,Acts 5:12–20
+easter,7,,,,,gospel,John 20:19–31
+easter,14,,,,,epistle,Acts 6:1–7
+easter,14,,,,,gospel,Mark 15:43–16:8
+easter,21,,,,,epistle,Acts 9:32–42
+easter,21,,,,,gospel,John 5:1–15
+easter,24,,,,,epistle,Acts 14:6–18
+easter,24,,,,,gospel,John 7:14–30
+easter,28,,,,,epistle,"Acts 11:19–26, 29–30"
+easter,28,,,,,gospel,John 4:5–42
+easter,35,,,,,epistle,Acts 16:16–34
+easter,35,,,,,gospel,John 9:1–38
+easter,39,,,,,epistle,Acts 1:1–12
+easter,39,,,,,gospel,Luke 24:36–53
+easter,42,,,,,epistle,"Acts 20:16–18, 28–36"
+easter,42,,,,,gospel,John 17:1–13
+easter,48,,,,,epistle,1 Thessalonians 4:13–17
+easter,48,,,,,gospel,John 5:24–30
+easter,49,,,,,epistle,Acts 2:1–11
+easter,49,,,,,gospel,"John 7:37–52, 8:12"
+easter,50,,,,,epistle,Ephesians 5:9–19
+easter,50,,,,,gospel,Matthew 18:10–20
+before_exaltation,,,,,Before the Exaltation,epistle,Galatians 6:11–18
+before_exaltation,,,,,Before the Exaltation,gospel,John 3:13–17
+after_exaltation,,,,,After the Exaltation,epistle,Galatians 2:16–20
+after_exaltation,,,,,After the Exaltation,gospel,Mark 8:34–9:1
+fathers_seventh,,,,,Of the Fathers,epistle,Hebrews 13:7–16
+fathers_seventh,,,,,Of the Fathers,gospel,John 17:1–13
+forefathers,,,,,,epistle,Colossians 3:4–11
+forefathers,,,,,,gospel,Luke 14:16–24
+holy_fathers,,,,,,epistle,"Hebrews 11:9–10, 17–23, 32–40"
+holy_fathers,,,,,,gospel,Matthew 1:1–25
+after_nativity,,,,,,epistle,Galatians 1:11–19
+after_nativity,,,,,,gospel,Matthew 2:13–23
+before_theophany,,,,,,epistle,2 Timothy 4:5–8
+before_theophany,,,,,,gospel,Mark 1:1–8
+after_theophany,,,,,,epistle,Ephesians 4:7–13
+after_theophany,,,,,,gospel,Matthew 4:12–17
+fathers_fourth,,,,,Of the Fathers,epistle,Hebrews 13:7–16
+fathers_fourth,,,,,Of the Fathers,gospel,John 17:1–13
+09-01,,,,,Church New Year,epistle,1 Timothy 2:1–7
+09-01,,,,,Church New Year,gospel,Luke 4:16–22
+09-08,,,,,Nativity of the Theotokos,epistle,Philippians 2:5–11
+09-08,,,,,Nativity of the Theotokos,gospel,Luke 10:38–42; 11:27–28
+10-01,,,,,Protection of the Theotokos,epistle,Hebrews 9:1–7
+10-01,,,,,Protection of the Theotokos,gospel,Luke 10:38–42; 11:27–28
+11-08,,,,,Synaxis of the Archangels,epistle,Hebrews 2:2–10
+11-08,,,,,Synaxis of the Archangels,gospel,Luke 10:16–21
+11-21,,,,,Entry of the Theotokos,epistle,Hebrews 9:1–7
+11-21,,,,,Entry of the Theotokos,gospel,Luke 10:38–42; 11:27–28
+12-06,,,,,Nicholas the Wonderworker,epistle,Hebrews 13:17–21
+12-06,,,,,Nicholas the Wonderworker,gospel,Luke 6:17–23
+12-25,,,,,Nativity of Christ,epistle,Galatians 4:4–7
+12-25,,,,,Nativity of Christ,gospel,Matthew 2:1–12
+12-26,,,,,Synaxis of the Theotokos,epistle,Hebrews 2:11–18
+12-26,,,,,Synaxis of the Theotokos,gospel,Matthew 2:13–23
+01-01,,,,,Circumcision,epistle,Colossians 2:8–12
+01-01,,,,,Circumcision,gospel,"Luke 2:20–21, 40–52"
+01-07,,,,,Synaxis of John the Baptist,epistle,Acts 19:1–8
+01-07,,,,,Synaxis of John the Baptist,gospel,John 1:29–34
+02-02,,,,,Meeting of the Lord,epistle,Hebrews 7:7–17
+02-02,,,,,Meeting of the Lord,gospel,Luke 2:22–40
+03-25,,,,,Annunciation,epistle,Hebrews 2:11–18
+03-25,,,,,Annunciation,gospel,Luke 1:24–38
+06-24,,,,,Nativity of the Forerunner,epistle,Romans 13:11–14:4
+06-24,,,,,Nativity of the Forerunner,gospel,"Luke 1:1–25, 57–68, 76, 80"
+06-29,,,,,Peter and Paul,epistle,2 Corinthians 11:21–12:9
+06-29,,,,,Peter and Paul,gospel,Matthew 16:13–19
+08-06,,,,,Transfiguration,epistle,2 Peter 1:10–19
+08-06,,,,,Transfiguration,gospel,Matthew 17:1–9
+08-15,,,,,Dormition of the Theotokos,epistle,Philippians 2:5–11
+08-15,,,,,Dormition of the Theotokos,gospel,Luke 10:38–42; 11:27–28
+08-29,,,,,Beheading of the Forerunner,epistle,Acts 13:25–33
+08-29,,,,,Beheading of the Forerunner,gospel,Mark 6:14–30
+09-14,,,,,Exaltation of the Cross,epistle,1 Corinthians 1:18–24
+09-14,,,,,Exaltation of the Cross,gospel,"John 19:6–11, 13–20, 25–28, 30–35"
+01-06,,,,,Theophany,epistle,Titus 2:11–14; 3:4–7
+01-06,,,,,Theophany,gospel,Matthew 3:13–17
+12-24,,,,,Eve of the Nativity,epistle,Hebrews 1:1–12
+12-24,,,,,Eve of the Nativity,gospel,Luke 2:1–20
+01-05,,,,,Eve of Theophany,epistle,1 Corinthians 9:19–27
+01-05,,,,,Eve of Theophany,gospel,Luke 3:1–18
+# ===========================================================================
+"# The weekdays, and the saints of the Menaion.  The Liturgy Epistle and"
+"# Gospel of every weekday, as the Orthodox Church in America appoints them in"
+"# its monthly lectionaries (https://www.oca.org/readings/monthly, read"
+"# October 2026 for September 2024 to February 2027, with January 2029",
+"# January 2030 and September 2037), written as rules:"
+# - the weekdays of the Triodion (from the week after Zacchaeus) and of the
+#   Pentecostarion by Pascha; the Lenten weekdays have the Old Testament
+"#   lessons of the Sixth Hour and Vespers, as the OCA lists them;"
+# - the Epistle after Pentecost by the week (the week after the nth Sunday
+"#   after Pentecost is week n+1), counted on to the 32nd week and, in a long"
+"#   year, counted back from the week after Zacchaeus (the 33rd) after it;"
+# - the Gospel by the weeks of Matthew until the Sunday after the
+"#   Exaltation (the 17th week reads the 15th of Luke), then by the weeks of"
+"#   Luke, counted on until the Sunday on or before Theophany and counted back"
+#   from the week after Zacchaeus (the 16th of Luke) after it;
+"# - no weekday readings on the Nativity, the Synaxis of the Theotokos",
+"#   Theophany and the Saturday before Theophany, nor on 1 January when it"
+#   takes the Sunday before Theophany.
+# Checked against all 792 weekdays of those months: the rules give the
+# OCA's readings on 790; on 31 October 2024 and 2026 the monthly page as read
+# shows only St John Kochurov's readings (left as they are).  The rules hold
+"# for the Ruthenian church's Gregorian Pascha as well, being kept by Pascha",
+"# Pentecost, the Exaltation and Theophany.  The saints' and feasts' sets are"
+"# the OCA's, by date (titled with the feasts.csv name where there is one; the"
+# OCA's American saints for the Orthodox only); the Gospels of Matins are below.
+# ===========================================================================
+"# --- Weekdays of the Triodion and the Pentecostarion, by Pascha (Lenten weekdays: the Old Testament lessons of Vespers and the Sixth Hour) ---"
+easter,-76,,,,,epistle,1 Peter 2:21–3:9
+easter,-76,,,,,gospel,Mark 12:13–17
+easter,-75,,,,,epistle,1 Peter 3:10–22
+easter,-75,,,,,gospel,Mark 12:18–27
+easter,-74,,,,,epistle,1 Peter 4:1–11
+easter,-74,,,,,gospel,Mark 12:28–37
+easter,-73,,,,,epistle,1 Peter 4:12–5:5
+easter,-73,,,,,gospel,Mark 12:38–44
+easter,-72,,,,,epistle,2 Peter 1:1–10
+easter,-72,,,,,gospel,Mark 13:1–8
+easter,-71,,,,,epistle,2 Timothy 2:11–19
+easter,-71,,,,,gospel,Luke 18:2–8
+easter,-69,,,,,epistle,2 Peter 1:20–2:9
+easter,-69,,,,,gospel,Mark 13:9–13
+easter,-68,,,,,epistle,2 Peter 2:9–22
+easter,-68,,,,,gospel,Mark 13:14–23
+easter,-67,,,,,epistle,2 Peter 3:1–18
+easter,-67,,,,,gospel,Mark 13:24–31
+easter,-66,,,,,epistle,1 John 1:8–2:6
+easter,-66,,,,,gospel,Mark 13:31–14:2
+easter,-65,,,,,epistle,1 John 2:7–17
+easter,-65,,,,,gospel,Mark 14:3–9
+easter,-64,,,,,epistle,2 Timothy 3:1–9
+easter,-64,,,,,gospel,Luke 20:46–21:4
+easter,-62,,,,,epistle,1 John 2:18–3:10
+easter,-62,,,,,gospel,Mark 11:1–11
+easter,-61,,,,,epistle,1 John 3:11–20
+easter,-61,,,,,gospel,Mark 14:10–42
+easter,-60,,,,,epistle,1 John 3:21–4:6
+easter,-60,,,,,gospel,Mark 14:43–15:1
+easter,-59,,,,,epistle,1 John 4:20–5:21
+easter,-59,,,,,gospel,Mark 15:1–15
+easter,-58,,,,,epistle,2 John 1:1–13
+easter,-58,,,,,gospel,"Mark 15:22–25, 33–41"
+easter,-57,,,,Weekday,epistle,1 Corinthians 10:23–28
+easter,-57,,,,Weekday,gospel,"Luke 21:8–9, 25–27, 33–36"
+easter,-55,,,,,epistle,3 John 1:1–15
+easter,-55,,,,,gospel,"Luke 19:29–40, 22:7–39"
+easter,-54,,,,,epistle,Jude 1:1–10
+easter,-54,,,,,gospel,"Luke 22:39–42, 45–23:1"
+easter,-53,,,,,ot,Joel 2:12–26
+easter,-53,,,,,ot,Joel 3:12–21
+easter,-52,,,,,epistle,Jude 1:11–25
+easter,-52,,,,,gospel,"Luke 23:2–34, 44–56"
+easter,-51,,,,,ot,Zechariah 8:7–17
+easter,-51,,,,,ot,Zechariah 8:19–23
+easter,-50,,,,,epistle,"Romans 14:19–23, 16:25–27"
+easter,-50,,,,,gospel,Matthew 6:1–13
+easter,-47,,,,,ot,Isaiah 1:19–2:4
+easter,-47,,,,,ot,Genesis 1:14–23
+easter,-47,,,,,ot,Proverbs 1:20–33
+easter,-46,,,,,ot,Isaiah 2:3–11
+easter,-46,,,,,ot,Genesis 1:24–2:3
+easter,-46,,,,,ot,Proverbs 2:1–22
+easter,-45,,,,,ot,Isaiah 2:11–21
+easter,-45,,,,,ot,Genesis 2:4–19
+easter,-45,,,,,ot,Proverbs 3:1–18
+easter,-44,,,,,ot,Isaiah 3:1–15
+easter,-44,,,,,ot,Genesis 2:20–3:20
+easter,-44,,,,,ot,Proverbs 3:19–34
+easter,-41,,,,,ot,Isaiah 4:2–5:7
+easter,-41,,,,,ot,Genesis 3:21–4:7
+easter,-41,,,,,ot,Proverbs 3:34–4:22
+easter,-40,,,,,ot,Isaiah 5:7–16
+easter,-40,,,,,ot,Genesis 4:8–15
+easter,-40,,,,,ot,Proverbs 5:1–15
+easter,-39,,,,,ot,Isaiah 5:16–25
+easter,-39,,,,,ot,Genesis 4:16–26
+easter,-39,,,,,ot,Proverbs 5:15–6:3
+easter,-38,,,,,ot,Isaiah 6:1–12
+easter,-38,,,,,ot,Genesis 5:1–24
+easter,-38,,,,,ot,Proverbs 6:3–20
+easter,-37,,,,,ot,Isaiah 7:1–15
+easter,-37,,,,,ot,Genesis 5:32–6:8
+easter,-37,,,,,ot,Proverbs 6:20–7:1
+easter,-36,,,,,epistle,Hebrews 3:12–16
+easter,-36,,,,,gospel,Mark 1:35–44
+easter,-34,,,,,ot,Isaiah 8:13–9:7
+easter,-34,,,,,ot,Genesis 6:9–22
+easter,-34,,,,,ot,Proverbs 8:1–21
+easter,-33,,,,,ot,Isaiah 9:9–10:4
+easter,-33,,,,,ot,Genesis 7:1–15
+easter,-33,,,,,ot,Proverbs 8:32–9:11
+easter,-32,,,,,ot,Isaiah 10:12–20
+easter,-32,,,,,ot,Genesis 7:6–9
+easter,-32,,,,,ot,Proverbs 9:12–18
+easter,-31,,,,,ot,Isaiah 11:10–12:2
+easter,-31,,,,,ot,Genesis 7:11–8:3
+easter,-31,,,,,ot,Proverbs 10:1–22
+easter,-30,,,,,ot,Isaiah 13:2–13
+easter,-30,,,,,ot,Genesis 8:4–21
+easter,-30,,,,,ot,Proverbs 10:31–11:12
+easter,-29,,,,,epistle,Hebrews 10:32–38
+easter,-29,,,,,gospel,Mark 2:14–17
+easter,-27,,,,,ot,Isaiah 14:24–32
+easter,-27,,,,,ot,Genesis 8:21–9:7
+easter,-27,,,,,ot,Proverbs 11:19–12:6
+easter,-26,,,,,ot,Isaiah 25:1–9
+easter,-26,,,,,ot,Genesis 9:8–17
+easter,-26,,,,,ot,Proverbs 12:8–22
+easter,-25,,,,,ot,Isaiah 26:21–27:9
+easter,-25,,,,,ot,Genesis 9:18–10:1
+easter,-25,,,,,ot,Proverbs 12:23–13:9
+easter,-24,,,,,ot,Isaiah 28:14–22
+easter,-24,,,,,ot,Genesis 10:32–11:9
+easter,-24,,,,,ot,Proverbs 13:19–14:6
+easter,-23,,,,,ot,Isaiah 29:13–23
+easter,-23,,,,,ot,Genesis 12:1–7
+easter,-23,,,,,ot,Proverbs 14:15–26
+easter,-22,,,,,epistle,Hebrews 6:9–12
+easter,-22,,,,,gospel,Mark 7:31–37
+easter,-20,,,,,ot,Isaiah 37:33–38:6
+easter,-20,,,,,ot,Genesis 13:12–18
+easter,-20,,,,,ot,Proverbs 14:27–15:4
+easter,-19,,,,,ot,Isaiah 40:18–31
+easter,-19,,,,,ot,Genesis 15:1–15
+easter,-19,,,,,ot,Proverbs 15:7–19
+easter,-18,,,,,ot,Isaiah 41:4–14
+easter,-18,,,,,ot,Genesis 17:1–9
+easter,-18,,,,,ot,Proverbs 15:20–16:9
+easter,-17,,,,,ot,Isaiah 42:5–16
+easter,-17,,,,,ot,Genesis 18:20–33
+easter,-17,,,,,ot,Proverbs 16:17–17:17
+easter,-16,,,,,ot,Isaiah 45:11–17
+easter,-16,,,,,ot,Genesis 22:1–18
+easter,-16,,,,,ot,Proverbs 17:17–18:5
+easter,-15,,,,,epistle,Hebrews 9:24–28
+easter,-15,,,,,gospel,Mark 8:27–31
+easter,-13,,,,,ot,Isaiah 48:17–49:4
+easter,-13,,,,,ot,Genesis 27:1–41
+easter,-13,,,,,ot,Proverbs 19:16–25
+easter,-12,,,,,ot,Isaiah 49:6–10
+easter,-12,,,,,ot,Genesis 31:3–16
+easter,-12,,,,,ot,Proverbs 21:3–21
+easter,-11,,,,,ot,Isaiah 58:1–11
+easter,-11,,,,,ot,"Genesis 43:26–31, 45:1–16"
+easter,-11,,,,,ot,Proverbs 21:23–22:4
+easter,-10,,,,,ot,Isaiah 65:8–16
+easter,-10,,,,,ot,Genesis 46:1–7
+easter,-10,,,,,ot,Proverbs 23:15–24:5
+easter,-9,,,,,ot,Isaiah 66:10–24
+easter,-9,,,,,ot,Genesis 49:33–50:26
+easter,-9,,,,,ot,Proverbs 31:8–31
+easter,2,,,,,epistle,Acts 2:14–21
+easter,2,,,,,gospel,Luke 24:12–35
+easter,3,,,,,epistle,Acts 2:22–36
+easter,3,,,,,gospel,John 1:35–51
+easter,4,,,,,epistle,Acts 2:38–43
+easter,4,,,,,gospel,John 3:1–15
+easter,5,,,,Bright Friday,epistle,Acts 3:1–8
+easter,5,,,,Bright Friday,gospel,John 2:12–22
+easter,6,,,,,epistle,Acts 3:11–16
+easter,6,,,,,gospel,John 3:22–33
+easter,8,,,,,epistle,Acts 3:19–26
+easter,8,,,,,gospel,John 2:1–11
+easter,9,,,,,epistle,Acts 4:1–10
+easter,9,,,,,gospel,John 3:16–21
+easter,10,,,,,epistle,Acts 4:13–22
+easter,10,,,,,gospel,John 5:17–24
+easter,11,,,,,epistle,Acts 4:23–31
+easter,11,,,,,gospel,John 5:24–30
+easter,12,,,,,epistle,Acts 5:1–11
+easter,12,,,,,gospel,John 5:30–6:2
+easter,13,,,,,epistle,Acts 5:21–33
+easter,13,,,,,gospel,John 6:14–27
+easter,15,,,,,epistle,"Acts 6:8–7:5, 47–60"
+easter,15,,,,,gospel,John 4:46–54
+easter,16,,,,,epistle,Acts 8:5–17
+easter,16,,,,,gospel,John 6:27–33
+easter,17,,,,,epistle,Acts 8:18–25
+easter,17,,,,,gospel,John 6:35–39
+easter,18,,,,,epistle,Acts 8:26–39
+easter,18,,,,,gospel,John 6:40–44
+easter,19,,,,,epistle,Acts 8:40–9:19
+easter,19,,,,,gospel,John 6:48–54
+easter,20,,,,,epistle,Acts 9:20–31
+easter,20,,,,,gospel,John 15:17–16:2
+easter,22,,,,,epistle,Acts 10:1–16
+easter,22,,,,,gospel,John 6:56–69
+easter,23,,,,,epistle,Acts 10:21–33
+easter,23,,,,,gospel,John 7:1–13
+easter,25,,,,,epistle,Acts 10:34–43
+easter,25,,,,,gospel,John 8:12–20
+easter,26,,,,,epistle,Acts 10:44–11:10
+easter,26,,,,,gospel,John 8:21–30
+easter,27,,,,,epistle,Acts 12:1–11
+easter,27,,,,,gospel,John 8:31–42
+easter,29,,,,,epistle,Acts 12:12–17
+easter,29,,,,,gospel,John 8:42–51
+easter,30,,,,,epistle,Acts 12:25–13:12
+easter,30,,,,,gospel,John 8:51–59
+easter,31,,,,,epistle,Acts 13:13–24
+easter,31,,,,,gospel,John 6:5–14
+easter,32,,,,,epistle,Acts 14:20–27
+easter,32,,,,,gospel,John 9:39–10:9
+easter,33,,,,,epistle,Acts 15:5–34
+easter,33,,,,,gospel,John 10:17–28
+easter,34,,,,,epistle,Acts 15:35–41
+easter,34,,,,,gospel,John 10:27–38
+easter,36,,,,,epistle,Acts 17:1–15
+easter,36,,,,,gospel,John 11:47–57
+easter,37,,,,,epistle,Acts 17:19–28
+easter,37,,,,,gospel,John 12:19–36
+easter,38,,,,,epistle,Acts 18:22–28
+easter,38,,,,,gospel,John 12:36–47
+easter,40,,,,,epistle,Acts 19:1–8
+easter,40,,,,,gospel,John 14:1–11
+easter,41,,,,,epistle,Acts 20:7–12
+easter,41,,,,,gospel,John 14:10–21
+easter,43,,,,,epistle,Acts 21:8–14
+easter,43,,,,,gospel,John 14:27–15:7
+easter,44,,,,,epistle,Acts 21:26–32
+easter,44,,,,,gospel,John 16:2–13
+easter,45,,,,,epistle,Acts 23:1–11
+easter,45,,,,,gospel,John 16:15–23
+easter,46,,,,,epistle,Acts 25:13–19
+easter,46,,,,,gospel,John 16:23–33
+easter,47,,,,,epistle,Acts 27:1–44
+easter,47,,,,,gospel,John 17:18–26
+easter,48,,,,Weekday,epistle,Acts 28:1–31
+easter,48,,,,Weekday,gospel,John 21:15–25
+easter,51,,,,,epistle,"Romans 1:1–7, 13–17"
+easter,51,,,,,gospel,Matthew 4:25–5:13
+easter,52,,,,,epistle,Romans 1:18–27
+easter,52,,,,,gospel,Matthew 5:20–26
+easter,53,,,,,epistle,Romans 1:28–2:9
+easter,53,,,,,gospel,Matthew 5:27–32
+easter,54,,,,,epistle,Romans 2:14–29
+easter,54,,,,,gospel,Matthew 5:33–41
+easter,55,,,,,epistle,Romans 1:7–12
+easter,55,,,,,gospel,Matthew 5:42–48
+easter,-6,,,,,gospel,Matthew 24:3–35
+easter,-5,,,,,gospel,Matthew 24:36–26:2
+easter,-4,,,,,gospel,Matthew 26:6–16
+"# --- The weekday Epistle after Pentecost, week by week (the week after the nth Sunday after Pentecost is week n+1) ---"
+"# In June to August, counted from this year's Pentecost:"
+easter,57,,,,,epistle,Romans 2:28–3:18
+easter,58,,,,,epistle,Romans 4:4–12
+easter,59,,,,,epistle,Romans 4:13–25
+easter,60,,,,,epistle,Romans 5:10–16
+easter,61,,,,,epistle,Romans 5:17–6:2
+easter,62,,,,,epistle,Romans 3:19–26
+easter,64,,,,,epistle,Romans 7:1–13
+easter,65,,,,,epistle,Romans 7:14–8:2
+easter,66,,,,,epistle,Romans 8:2–13
+easter,67,,,,,epistle,Romans 8:22–27
+easter,68,,,,,epistle,Romans 9:6–19
+easter,69,,,,,epistle,Romans 3:28–4:3
+easter,71,,,,,epistle,Romans 9:18–33
+easter,72,,,,,epistle,Romans 10:11–11:2
+easter,73,,,,,epistle,Romans 11:2–12
+easter,74,,,,,epistle,Romans 11:13–24
+easter,75,,,,,epistle,Romans 11:25–36
+easter,76,,,,,epistle,Romans 6:11–17
+easter,78,,,,,epistle,"Romans 12:4–5, 15–21"
+easter,79,,,,,epistle,Romans 14:9–18
+easter,80,,,,,epistle,Romans 15:7–16
+easter,81,,,,,epistle,Romans 15:17–29
+easter,82,,,,,epistle,Romans 16:1–16
+easter,83,,,,,epistle,Romans 8:14–21
+easter,85,,,,,epistle,Romans 16:17–24
+easter,86,,,,,epistle,1 Corinthians 1:1–9
+easter,87,,,,,epistle,1 Corinthians 2:9–3:8
+easter,88,,,,,epistle,1 Corinthians 3:18–23
+easter,89,,,,,epistle,1 Corinthians 4:5–8
+easter,90,,,,,epistle,Romans 9:1–5
+easter,92,,,,,epistle,1 Corinthians 5:9–6:11
+easter,93,,,,,epistle,1 Corinthians 6:20–7:12
+easter,94,,,,,epistle,1 Corinthians 7:12–24
+easter,95,,,,,epistle,1 Corinthians 7:24–35
+easter,96,,,,,epistle,1 Corinthians 7:35–8:7
+easter,97,,,,,epistle,Romans 12:1–3
+easter,99,,,,,epistle,1 Corinthians 9:13–18
+easter,100,,,,,epistle,1 Corinthians 10:5–12
+easter,101,,,,,epistle,1 Corinthians 10:12–22
+easter,102,,,,,epistle,1 Corinthians 10:28–11:7
+easter,103,,,,,epistle,1 Corinthians 11:8–22
+easter,104,,,,,epistle,Romans 13:1–10
+easter,106,,,,,epistle,1 Corinthians 11:31–12:6
+easter,107,,,,,epistle,1 Corinthians 12:12–26
+easter,108,,,,,epistle,1 Corinthians 13:4–14:5
+easter,109,,,,,epistle,1 Corinthians 14:6–19
+easter,110,,,,,epistle,1 Corinthians 14:26–40
+easter,111,,,,,epistle,Romans 14:6–9
+easter,113,,,,,epistle,1 Corinthians 15:12–19
+easter,114,,,,,epistle,1 Corinthians 15:29–38
+easter,115,,,,,epistle,1 Corinthians 16:4–12
+easter,116,,,,,epistle,2 Corinthians 1:1–7
+easter,117,,,,,epistle,2 Corinthians 1:12–20
+easter,118,,,,,epistle,Romans 15:30–33
+easter,120,,,,,epistle,2 Corinthians 2:4–15
+easter,121,,,,,epistle,2 Corinthians 2:14–3:3
+easter,122,,,,,epistle,2 Corinthians 3:4–11
+easter,123,,,,,epistle,2 Corinthians 4:1–6
+easter,124,,,,,epistle,2 Corinthians 4:13–18
+easter,125,,,,,epistle,1 Corinthians 1:3–9
+easter,127,,,,,epistle,2 Corinthians 5:10–15
+easter,128,,,,,epistle,2 Corinthians 5:15–21
+easter,129,,,,,epistle,2 Corinthians 6:11–16
+easter,130,,,,,epistle,2 Corinthians 7:1–10
+easter,131,,,,,epistle,2 Corinthians 7:10–16
+easter,132,,,,,epistle,1 Corinthians 1:26–29
+easter,134,,,,,epistle,2 Corinthians 8:7–15
+easter,135,,,,,epistle,2 Corinthians 8:16–9:5
+easter,136,,,,,epistle,2 Corinthians 9:12–10:7
+easter,137,,,,,epistle,2 Corinthians 10:7–18
+easter,138,,,,,epistle,2 Corinthians 11:5–21
+easter,139,,,,,epistle,1 Corinthians 2:6–9
+easter,141,,,,,epistle,2 Corinthians 12:10–19
+easter,142,,,,,epistle,2 Corinthians 12:20–13:2
+easter,143,,,,,epistle,2 Corinthians 13:3–14
+easter,144,,,,,epistle,"Galatians 1:1–10, 20–2:5"
+easter,145,,,,,epistle,Galatians 2:6–10
+easter,146,,,,,epistle,1 Corinthians 4:1–5
+easter,148,,,,,epistle,Galatians 2:11–16
+easter,149,,,,,epistle,Galatians 2:21–3:7
+easter,150,,,,,epistle,Galatians 3:15–22
+easter,151,,,,,epistle,Galatians 3:23–4:5
+easter,152,,,,,epistle,Galatians 4:8–21
+easter,153,,,,,epistle,1 Corinthians 4:17–5:5
+easter,155,,,,,epistle,Galatians 4:28–5:10
+"# From September, counted on from last year's Pentecost to the 32nd week, then (in a long year) counted back from the week after Zacchaeus:"
+prev_easter,110,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,1 Corinthians 14:26–40
+prev_easter,111,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Romans 14:6–9
+prev_easter,113,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,1 Corinthians 15:12–19
+prev_easter,114,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,1 Corinthians 15:29–38
+prev_easter,115,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,1 Corinthians 16:4–12
+prev_easter,116,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,2 Corinthians 1:1–7
+prev_easter,117,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,2 Corinthians 1:12–20
+prev_easter,118,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Romans 15:30–33
+prev_easter,120,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,2 Corinthians 2:4–15
+prev_easter,121,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,2 Corinthians 2:14–3:3
+prev_easter,122,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,2 Corinthians 3:4–11
+prev_easter,123,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,2 Corinthians 4:1–6
+prev_easter,124,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,2 Corinthians 4:13–18
+prev_easter,125,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,1 Corinthians 1:3–9
+prev_easter,127,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,2 Corinthians 5:10–15
+prev_easter,128,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,2 Corinthians 5:15–21
+prev_easter,129,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,2 Corinthians 6:11–16
+prev_easter,130,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,2 Corinthians 7:1–10
+prev_easter,131,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,2 Corinthians 7:10–16
+prev_easter,132,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,1 Corinthians 1:26–29
+prev_easter,134,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,2 Corinthians 8:7–15
+prev_easter,135,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,2 Corinthians 8:16–9:5
+prev_easter,136,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,2 Corinthians 9:12–10:7
+prev_easter,137,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,2 Corinthians 10:7–18
+prev_easter,138,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,2 Corinthians 11:5–21
+prev_easter,139,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,1 Corinthians 2:6–9
+prev_easter,141,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,2 Corinthians 12:10–19
+prev_easter,142,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,2 Corinthians 12:20–13:2
+prev_easter,143,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,2 Corinthians 13:3–14
+prev_easter,144,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,"Galatians 1:1–10, 20–2:5"
+prev_easter,145,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Galatians 2:6–10
+prev_easter,146,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,1 Corinthians 4:1–5
+prev_easter,148,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Galatians 2:11–16
+prev_easter,149,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Galatians 2:21–3:7
+prev_easter,150,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Galatians 3:15–22
+prev_easter,151,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Galatians 3:23–4:5
+prev_easter,152,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Galatians 4:8–21
+prev_easter,153,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,1 Corinthians 4:17–5:5
+prev_easter,155,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Galatians 4:28–5:10
+prev_easter,156,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Galatians 5:11–21
+prev_easter,157,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Galatians 6:2–10
+prev_easter,158,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Ephesians 1:1–9
+prev_easter,159,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Ephesians 1:7–17
+prev_easter,160,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,1 Corinthians 10:23–28
+prev_easter,162,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Ephesians 1:22–2:3
+prev_easter,163,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Ephesians 2:19–3:7
+prev_easter,164,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Ephesians 3:8–21
+prev_easter,165,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Ephesians 4:14–19
+prev_easter,166,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Ephesians 4:17–25
+prev_easter,167,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,1 Corinthians 14:20–25
+prev_easter,169,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Ephesians 4:25–32
+prev_easter,170,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Ephesians 5:20–26
+prev_easter,171,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Ephesians 5:25–33
+prev_easter,172,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Ephesians 5:33–6:9
+prev_easter,173,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Ephesians 6:18–24
+prev_easter,174,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,1 Corinthians 15:39–45
+prev_easter,176,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Philippians 1:1–7
+prev_easter,177,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Philippians 1:8–14
+prev_easter,178,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Philippians 1:12–20
+prev_easter,179,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Philippians 1:20–27
+prev_easter,180,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Philippians 1:27–2:4
+prev_easter,181,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,1 Corinthians 15:58–16:3
+prev_easter,183,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Philippians 2:12–16
+prev_easter,184,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Philippians 2:17–23
+prev_easter,185,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Philippians 2:24–30
+prev_easter,186,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Philippians 3:1–8
+prev_easter,187,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Philippians 3:8–19
+prev_easter,188,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,2 Corinthians 1:8–11
+prev_easter,190,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Philippians 4:10–23
+prev_easter,191,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,"Colossians 1:1–2, 7–11"
+prev_easter,192,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Colossians 1:18–23
+prev_easter,193,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Colossians 1:24–29
+prev_easter,194,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Colossians 2:1–7
+prev_easter,195,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,2 Corinthians 3:12–18
+prev_easter,197,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Colossians 2:13–20
+prev_easter,198,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Colossians 2:20–3:3
+prev_easter,199,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Colossians 3:17–4:1
+prev_easter,200,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Colossians 4:2–9
+prev_easter,201,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Colossians 4:10–18
+prev_easter,202,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,2 Corinthians 5:1–10
+prev_easter,204,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,1 Thessalonians 1:1–5
+prev_easter,205,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,1 Thessalonians 1:6–10
+prev_easter,206,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,1 Thessalonians 2:1–8
+prev_easter,207,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,1 Thessalonians 2:9–14
+prev_easter,208,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,1 Thessalonians 2:14–19
+prev_easter,209,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,2 Corinthians 8:1–5
+prev_easter,211,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,1 Thessalonians 2:20–3:8
+prev_easter,212,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,1 Thessalonians 3:9–13
+prev_easter,213,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,1 Thessalonians 4:1–12
+prev_easter,214,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,1 Thessalonians 5:1–8
+prev_easter,215,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,"1 Thessalonians 5:9–13, 24–28"
+prev_easter,216,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,2 Corinthians 11:1–6
+prev_easter,218,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,2 Thessalonians 1:1–10
+prev_easter,219,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,2 Thessalonians 1:10–2:2
+prev_easter,220,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,2 Thessalonians 2:1–12
+prev_easter,221,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,2 Thessalonians 2:13–3:5
+prev_easter,222,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,2 Thessalonians 3:6–18
+prev_easter,223,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Galatians 1:3–10
+prev_easter,225,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,1 Timothy 1:1–7
+prev_easter,226,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,1 Timothy 1:8–14
+prev_easter,227,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,"1 Timothy 1:18–20, 2:8–15"
+prev_easter,228,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,1 Timothy 3:1–13
+prev_easter,229,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,"1 Timothy 4:4–8, 16"
+prev_easter,230,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Galatians 3:8–12
+prev_easter,232,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,1 Timothy 5:1–10
+prev_easter,233,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,1 Timothy 5:11–21
+prev_easter,234,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,1 Timothy 5:22–6:11
+prev_easter,235,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,1 Timothy 6:17–21
+prev_easter,236,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,"2 Timothy 1:1–2, 8–18"
+prev_easter,237,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Galatians 5:22–6:2
+prev_easter,239,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,2 Timothy 2:20–26
+prev_easter,240,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,2 Timothy 3:16–4:4
+prev_easter,241,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,2 Timothy 4:9–22
+prev_easter,242,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Titus 1:5–2:1
+prev_easter,243,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Titus 1:15–2:10
+prev_easter,244,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Ephesians 1:16–23
+prev_easter,246,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,"Hebrews 3:5–11, 17–19"
+prev_easter,247,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Hebrews 4:1–13
+prev_easter,248,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Hebrews 5:11–6:8
+prev_easter,249,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Hebrews 7:1–6
+prev_easter,250,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Hebrews 7:18–25
+prev_easter,251,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Ephesians 2:11–13
+prev_easter,253,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Hebrews 8:7–13
+prev_easter,254,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,"Hebrews 9:8–10, 15–23"
+prev_easter,255,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Hebrews 10:1–18
+prev_easter,256,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Hebrews 10:35–11:7
+prev_easter,257,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,"Hebrews 11:8, 11–16"
+prev_easter,258,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Ephesians 5:1–8
+prev_easter,260,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,"Hebrews 11:17–23, 27–31"
+prev_easter,261,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,"Hebrews 12:25–26, 13:22–25"
+prev_easter,262,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,James 1:1–18
+prev_easter,263,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,James 1:19–27
+prev_easter,264,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,James 2:1–13
+prev_easter,265,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Colossians 1:3–6
+prev_easter,267,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,James 2:14–26
+prev_easter,268,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,James 3:1–10
+prev_easter,269,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,James 3:11–4:6
+prev_easter,270,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,James 4:7–5:9
+prev_easter,271,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,"1 Peter 1:1–2, 10–12, 2:6–10"
+prev_easter,272,"date lt prev_easter+274&date lt easter-77&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,1 Thessalonians 5:14–23
+easter,-111,"date ge prev_easter+274&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,2 Timothy 2:20–26
+easter,-110,"date ge prev_easter+274&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,2 Timothy 3:16–4:4
+easter,-109,"date ge prev_easter+274&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,2 Timothy 4:9–22
+easter,-108,"date ge prev_easter+274&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Titus 1:5–2:1
+easter,-107,"date ge prev_easter+274&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Titus 1:15–2:10
+easter,-106,"date ge prev_easter+274&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Ephesians 1:16–23
+easter,-104,"date ge prev_easter+274&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,"Hebrews 3:5–11, 17–19"
+easter,-103,"date ge prev_easter+274&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Hebrews 4:1–13
+easter,-102,"date ge prev_easter+274&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Hebrews 5:11–6:8
+easter,-101,"date ge prev_easter+274&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Hebrews 7:1–6
+easter,-100,"date ge prev_easter+274&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Hebrews 7:18–25
+easter,-99,"date ge prev_easter+274&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Ephesians 2:11–13
+easter,-97,"date ge prev_easter+274&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Hebrews 8:7–13
+easter,-96,"date ge prev_easter+274&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,"Hebrews 9:8–10, 15–23"
+easter,-95,"date ge prev_easter+274&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Hebrews 10:1–18
+easter,-94,"date ge prev_easter+274&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Hebrews 10:35–11:7
+easter,-93,"date ge prev_easter+274&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,"Hebrews 11:8, 11–16"
+easter,-92,"date ge prev_easter+274&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Ephesians 5:1–8
+easter,-90,"date ge prev_easter+274&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,"Hebrews 11:17–23, 27–31"
+easter,-89,"date ge prev_easter+274&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,"Hebrews 12:25–26, 13:22–25"
+easter,-88,"date ge prev_easter+274&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,James 1:1–18
+easter,-87,"date ge prev_easter+274&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,James 1:19–27
+easter,-86,"date ge prev_easter+274&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,James 2:1–13
+easter,-85,"date ge prev_easter+274&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,Colossians 1:3–6
+easter,-83,"date ge prev_easter+274&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,James 2:14–26
+easter,-82,"date ge prev_easter+274&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,James 3:1–10
+easter,-81,"date ge prev_easter+274&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,James 3:11–4:6
+easter,-80,"date ge prev_easter+274&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,James 4:7–5:9
+easter,-79,"date ge prev_easter+274&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,"1 Peter 1:1–2, 10–12, 2:6–10"
+easter,-78,"date ge prev_easter+274&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,epistle,1 Thessalonians 5:14–23
+# --- The weekday Gospel: Matthew from Pentecost to the Sunday after the Exaltation (the 17th week reads the 15th of Luke) ---
+easter,57,,,,,gospel,"Matthew 6:31–34, 7:9–11"
+easter,58,,,,,gospel,Matthew 7:15–21
+easter,59,,,,,gospel,Matthew 7:21–23
+easter,60,,,,,gospel,Matthew 8:23–27
+easter,61,,,,,gospel,Matthew 9:14–17
+easter,62,,,,,gospel,Matthew 7:1–8
+easter,64,,,,,gospel,Matthew 9:36–10:8
+easter,65,,,,,gospel,Matthew 10:9–15
+easter,66,,,,,gospel,Matthew 10:16–22
+easter,67,,,,,gospel,Matthew 10:23–31
+easter,68,,,,,gospel,"Matthew 10:32–36, 11:1"
+easter,69,,,,,gospel,Matthew 7:24–8:4
+easter,71,,,,,gospel,Matthew 11:2–15
+easter,72,,,,,gospel,Matthew 11:16–20
+easter,73,,,,,gospel,Matthew 11:20–26
+easter,74,,,,,gospel,Matthew 11:27–30
+easter,75,,,,,gospel,Matthew 12:1–8
+easter,76,,,,,gospel,Matthew 8:14–23
+easter,78,,,,,gospel,Matthew 12:9–13
+easter,79,,,,,gospel,"Matthew 12:14–16, 22–30"
+easter,80,,,,,gospel,Matthew 12:38–45
+easter,81,,,,,gospel,Matthew 12:46–13:3
+easter,82,,,,,gospel,Matthew 13:4–9
+easter,83,,,,,gospel,Matthew 9:9–13
+easter,85,,,,,gospel,Matthew 13:10–23
+easter,86,,,,,gospel,Matthew 13:24–30
+easter,87,,,,,gospel,Matthew 13:31–36
+easter,88,,,,,gospel,Matthew 13:36–43
+easter,89,,,,,gospel,Matthew 13:44–54
+easter,90,,,,,gospel,Matthew 9:18–26
+easter,92,,,,,gospel,Matthew 13:54–58
+easter,93,,,,,gospel,Matthew 14:1–13
+easter,94,,,,,gospel,Matthew 14:35–15:11
+easter,95,,,,,gospel,Matthew 15:12–21
+easter,96,,,,,gospel,Matthew 15:29–31
+easter,97,,,,,gospel,Matthew 10:37–11:1
+easter,99,,,,,gospel,Matthew 16:1–6
+easter,100,,,,,gospel,Matthew 16:6–12
+easter,101,,,,,gospel,Matthew 16:20–24
+easter,102,,,,,gospel,Matthew 16:24–28
+easter,103,,,,,gospel,Matthew 17:10–18
+easter,104,,,,,gospel,Matthew 12:30–37
+easter,106,,,,,gospel,Matthew 18:1–11
+easter,107,,,,,gospel,"Matthew 18:18–22, 19:1–2, 13–15"
+easter,108,,,,,gospel,Matthew 20:1–16
+easter,109,,,,,gospel,Matthew 20:17–28
+easter,110,,,,,gospel,"Matthew 21:12–14, 17–20"
+easter,111,,,,,gospel,Matthew 15:32–39
+easter,113,,,,,gospel,Matthew 21:18–22
+easter,114,,,,,gospel,Matthew 21:23–27
+easter,115,,,,,gospel,Matthew 21:28–32
+easter,116,,,,,gospel,Matthew 21:43–46
+easter,117,,,,,gospel,Matthew 22:23–33
+easter,118,,,,,gospel,Matthew 17:24–18:4
+easter,120,,,,,gospel,Matthew 23:13–22
+easter,121,,,,,gospel,Matthew 23:23–28
+easter,122,,,,,gospel,Matthew 23:29–39
+easter,123,,,,,gospel,Matthew 24:13–28
+easter,124,,,,,gospel,"Matthew 24:27–33, 42–51"
+easter,125,,,,,gospel,Matthew 19:3–12
+easter,127,,,,,gospel,Mark 1:9–15
+easter,128,,,,,gospel,Mark 1:16–22
+easter,129,,,,,gospel,Mark 1:23–28
+easter,130,,,,,gospel,Mark 1:29–35
+easter,131,,,,,gospel,Mark 2:18–22
+easter,132,,,,,gospel,Matthew 20:29–34
+easter,134,,,,,gospel,Mark 3:6–12
+easter,135,,,,,gospel,Mark 3:13–19
+easter,136,,,,,gospel,Mark 3:20–27
+easter,137,,,,,gospel,Mark 3:28–35
+easter,138,,,,,gospel,Mark 4:1–9
+easter,139,,,,,gospel,Matthew 22:15–22
+easter,141,,,,,gospel,Mark 4:10–23
+easter,142,,,,,gospel,Mark 4:24–34
+easter,143,,,,,gospel,Mark 4:35–41
+easter,144,,,,,gospel,Mark 5:1–20
+easter,145,,,,,gospel,"Mark 5:22–24, 35–6:1"
+easter,146,,,,,gospel,Matthew 23:1–12
+easter,148,,,,,gospel,Mark 5:24–34
+easter,149,,,,,gospel,Mark 6:1–7
+easter,150,,,,,gospel,Mark 6:7–13
+easter,151,,,,,gospel,Mark 6:30–45
+easter,152,,,,,gospel,Mark 6:45–53
+easter,153,,,,,gospel,Matthew 24:1–13
+easter,155,,,,,gospel,Mark 6:54–7:8
+prev_easter,110,"date le sun>09-14&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,"Matthew 21:12–14, 17–20"
+prev_easter,111,"date le sun>09-14&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Matthew 15:32–39
+prev_easter,113,"date le sun>09-14&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Matthew 21:18–22
+prev_easter,114,"date le sun>09-14&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Matthew 21:23–27
+prev_easter,115,"date le sun>09-14&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Matthew 21:28–32
+prev_easter,116,"date le sun>09-14&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Matthew 21:43–46
+prev_easter,117,"date le sun>09-14&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Matthew 22:23–33
+prev_easter,118,"date le sun>09-14&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Matthew 17:24–18:4
+prev_easter,120,"date le sun>09-14&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Matthew 23:13–22
+prev_easter,121,"date le sun>09-14&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Matthew 23:23–28
+prev_easter,122,"date le sun>09-14&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Matthew 23:29–39
+prev_easter,123,"date le sun>09-14&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Matthew 24:13–28
+prev_easter,124,"date le sun>09-14&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,"Matthew 24:27–33, 42–51"
+prev_easter,125,"date le sun>09-14&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Matthew 19:3–12
+prev_easter,127,"date le sun>09-14&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 1:9–15
+prev_easter,128,"date le sun>09-14&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 1:16–22
+prev_easter,129,"date le sun>09-14&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 1:23–28
+prev_easter,130,"date le sun>09-14&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 1:29–35
+prev_easter,131,"date le sun>09-14&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 2:18–22
+prev_easter,132,"date le sun>09-14&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Matthew 20:29–34
+prev_easter,134,"date le sun>09-14&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 3:6–12
+prev_easter,135,"date le sun>09-14&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 3:13–19
+prev_easter,136,"date le sun>09-14&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 3:20–27
+prev_easter,137,"date le sun>09-14&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 3:28–35
+prev_easter,138,"date le sun>09-14&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 4:1–9
+prev_easter,139,"date le sun>09-14&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Matthew 22:15–22
+prev_easter,141,"date le sun>09-14&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 4:10–23
+prev_easter,142,"date le sun>09-14&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 4:24–34
+prev_easter,143,"date le sun>09-14&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 4:35–41
+prev_easter,144,"date le sun>09-14&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 5:1–20
+prev_easter,145,"date le sun>09-14&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,"Mark 5:22–24, 35–6:1"
+prev_easter,146,"date le sun>09-14&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Matthew 23:1–12
+prev_easter,148,"date le sun>09-14&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 5:24–34
+prev_easter,149,"date le sun>09-14&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 6:1–7
+prev_easter,150,"date le sun>09-14&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 6:7–13
+prev_easter,151,"date le sun>09-14&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 6:30–45
+prev_easter,152,"date le sun>09-14&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 6:45–53
+prev_easter,153,"date le sun>09-14&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Matthew 24:1–13
+prev_easter,155,"date le sun>09-14&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 6:54–7:8
+prev_easter,156,"date le sun>09-14&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 7:5–16
+prev_easter,157,"date le sun>09-14&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 7:14–24
+prev_easter,158,"date le sun>09-14&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 7:24–30
+prev_easter,159,"date le sun>09-14&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 8:1–10
+prev_easter,160,"date le sun>09-14&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Matthew 24:34–44
+prev_easter,162,"date le sun>09-14&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 10:46–52
+prev_easter,163,"date le sun>09-14&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 11:11–23
+prev_easter,164,"date le sun>09-14&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 11:22–26
+prev_easter,165,"date le sun>09-14&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 11:27–33
+prev_easter,166,"date le sun>09-14&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 12:1–12
+prev_easter,167,"date le sun>09-14&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Matthew 25:1–13
+"# Luke, from the Monday after the Sunday after the Exaltation, counted on until the Sunday on or before Theophany:"
+sun>09-14,1,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 3:19–22
+sun>09-14,2,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 3:23–4:1
+sun>09-14,3,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 4:1–15
+sun>09-14,4,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 4:16–22
+sun>09-14,5,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 4:22–30
+sun>09-14,6,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 4:31–36
+sun>09-14,8,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 4:37–44
+sun>09-14,9,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 5:12–16
+sun>09-14,10,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 5:33–39
+sun>09-14,11,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 6:12–19
+sun>09-14,12,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 6:17–23
+sun>09-14,13,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 5:17–26
+sun>09-14,15,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 6:24–30
+sun>09-14,16,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 6:37–45
+sun>09-14,17,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 6:46–7:1
+sun>09-14,18,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 7:17–30
+sun>09-14,19,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 7:31–35
+sun>09-14,20,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 5:27–32
+sun>09-14,22,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 7:36–50
+sun>09-14,23,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 8:1–3
+sun>09-14,24,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 8:22–25
+sun>09-14,25,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 9:7–11
+sun>09-14,26,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 9:12–18
+sun>09-14,27,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 6:1–10
+sun>09-14,29,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 9:18–22
+sun>09-14,30,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 9:23–27
+sun>09-14,31,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 9:44–50
+sun>09-14,32,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 9:49–56
+sun>09-14,33,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 10:1–15
+sun>09-14,34,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 7:1–10
+sun>09-14,36,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 10:22–24
+sun>09-14,37,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 11:1–10
+sun>09-14,38,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 11:9–13
+sun>09-14,39,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 11:14–23
+sun>09-14,40,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 11:23–26
+sun>09-14,41,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 8:16–21
+sun>09-14,43,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 11:29–33
+sun>09-14,44,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 11:34–41
+sun>09-14,45,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 11:42–46
+sun>09-14,46,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 11:47–12:1
+sun>09-14,47,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 12:2–12
+sun>09-14,48,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 9:1–6
+sun>09-14,50,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,"Luke 12:13–15, 22–31"
+sun>09-14,51,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 12:42–48
+sun>09-14,52,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 12:48–59
+sun>09-14,53,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 13:1–9
+sun>09-14,54,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 13:31–35
+sun>09-14,55,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 9:37–43
+sun>09-14,57,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 14:12–15
+sun>09-14,58,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 14:25–35
+sun>09-14,59,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 15:1–10
+sun>09-14,60,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 16:1–9
+sun>09-14,61,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,"Luke 16:15–18, 17:1–4"
+sun>09-14,62,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 9:57–62
+sun>09-14,64,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 17:20–25
+sun>09-14,65,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 17:26–37
+sun>09-14,66,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,"Luke 18:15–17, 26–30"
+sun>09-14,67,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 18:31–34
+sun>09-14,68,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 19:12–28
+sun>09-14,69,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 10:19–21
+sun>09-14,71,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 19:37–44
+sun>09-14,72,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 19:45–48
+sun>09-14,73,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 20:1–8
+sun>09-14,74,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 20:9–18
+sun>09-14,75,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 20:19–26
+sun>09-14,76,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 12:32–40
+sun>09-14,78,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 20:27–44
+sun>09-14,79,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 21:12–19
+sun>09-14,80,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,"Luke 21:5–7, 10–11, 20–24"
+sun>09-14,81,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 21:28–33
+sun>09-14,82,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 21:37–22:8
+sun>09-14,83,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 13:18–29
+sun>09-14,85,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 8:11–21
+sun>09-14,86,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 8:22–26
+sun>09-14,87,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 8:30–34
+sun>09-14,88,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 9:10–16
+sun>09-14,89,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 9:33–41
+sun>09-14,90,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 14:1–11
+sun>09-14,92,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 9:42–10:1
+sun>09-14,93,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 10:2–12
+sun>09-14,94,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 10:11–16
+sun>09-14,95,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 10:17–27
+sun>09-14,96,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 10:23–32
+sun>09-14,97,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 16:10–15
+sun>09-14,99,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 10:46–52
+sun>09-14,100,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 11:11–23
+sun>09-14,101,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 11:22–26
+sun>09-14,102,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 11:27–33
+sun>09-14,103,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 12:1–12
+sun>09-14,104,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 17:3–10
+sun>09-14,106,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 12:13–17
+sun>09-14,107,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 12:18–27
+sun>09-14,108,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 12:28–37
+sun>09-14,109,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 12:38–44
+sun>09-14,110,"date lt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 13:1–8
+"# after it, counted back from the week after Zacchaeus (the 16th of Luke): the jump back"
+easter,-118,"date gt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 17:20–25
+easter,-117,"date gt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 17:26–37
+easter,-116,"date gt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,"Luke 18:15–17, 26–30"
+easter,-115,"date gt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 18:31–34
+easter,-114,"date gt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 19:12–28
+easter,-113,"date gt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 10:19–21
+easter,-111,"date gt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 19:37–44
+easter,-110,"date gt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 19:45–48
+easter,-109,"date gt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 20:1–8
+easter,-108,"date gt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 20:9–18
+easter,-107,"date gt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 20:19–26
+easter,-106,"date gt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 12:32–40
+easter,-104,"date gt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 20:27–44
+easter,-103,"date gt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 21:12–19
+easter,-102,"date gt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,"Luke 21:5–7, 10–11, 20–24"
+easter,-101,"date gt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 21:28–33
+easter,-100,"date gt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 21:37–22:8
+easter,-99,"date gt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 13:18–29
+easter,-97,"date gt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 8:11–21
+easter,-96,"date gt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 8:22–26
+easter,-95,"date gt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 8:30–34
+easter,-94,"date gt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 9:10–16
+easter,-93,"date gt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 9:33–41
+easter,-92,"date gt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 14:1–11
+easter,-90,"date gt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 9:42–10:1
+easter,-89,"date gt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 10:2–12
+easter,-88,"date gt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 10:11–16
+easter,-87,"date gt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 10:17–27
+easter,-86,"date gt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 10:23–32
+easter,-85,"date gt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 16:10–15
+easter,-83,"date gt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 10:46–52
+easter,-82,"date gt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 11:11–23
+easter,-81,"date gt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 11:22–26
+easter,-80,"date gt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 11:27–33
+easter,-79,"date gt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Mark 12:1–12
+easter,-78,"date gt sun<=01-06&date ne 12-25&date ne 12-26&date ne 01-06&date ne sat<01-06&date ne max(sun<01-06,01-01)",,,,gospel,Luke 17:3–10
+"# --- The Saturdays before and after the Exaltation, the Nativity and Theophany; the Sunday before Theophany kept on 1 January when it would fall in December ---"
+sat<09-14,,,,,Saturday before the Exaltation,epistle,1 Corinthians 2:6–9
+sat<09-14,,,,,Saturday before the Exaltation,gospel,Matthew 10:37–11:1
+sat>09-14,,,,,Saturday after the Exaltation,epistle,1 Corinthians 1:26–29
+sat>09-14,,,,,Saturday after the Exaltation,gospel,John 8:21–30
+sat<12-25,,,,,Saturday before the Nativity,epistle,Galatians 3:8–12
+sat<12-25,,,,,Saturday before the Nativity,gospel,Luke 13:18–29
+sat>12-25,,,,,Saturday after the Nativity,epistle,1 Timothy 6:11–16
+sat>12-25,,,,,Saturday after the Nativity,gospel,Matthew 12:15–21
+sat<01-06,,,,,Saturday before Theophany,epistle,1 Timothy 3:14–4:5
+sat<01-06,,,,,Saturday before Theophany,gospel,Matthew 3:1–11
+sat>01-06,,,,,Saturday after Theophany,epistle,Ephesians 6:10–17
+sat>01-06,,,,,Saturday after Theophany,gospel,Matthew 4:1–11
+01-01,,(sun<01-06) lt 01-01,,,Sunday before Theophany,epistle,2 Timothy 4:5–8
+01-01,,(sun<01-06) lt 01-01,,,Sunday before Theophany,gospel,Mark 1:1–8
+# --- Saints and feasts of the Menaion that the OCA gives readings for (beside the day's own); the OCA's American saints for the Orthodox only ---
+09-01,,,,,Symeon the Stylite,epistle,Colossians 3:12–16
+09-01,,,,,Symeon the Stylite,gospel,Matthew 11:27–30
+09-12,,,,,Leave-taking of the Nativity of the Theotokos,epistle,Philippians 2:5–11
+09-12,,,,,Leave-taking of the Nativity of the Theotokos,gospel,Luke 10:38–42; 11:27–28
+09-13,,,,,Dedication of the Church of the Resurrection,epistle,Hebrews 3:1–4
+09-13,,,,,Dedication of the Church of the Resurrection,gospel,Matthew 16:13–18
+09-23,,,,,Conception of the Forerunner,epistle,Galatians 4:22–31
+09-23,,,,,Conception of the Forerunner,gospel,Luke 1:5–25
+09-24,,,,eastern-orthodox,Juvenaly and Peter the Aleut,epistle,Romans 8:28–39
+09-24,,,,eastern-orthodox,Juvenaly and Peter the Aleut,gospel,Luke 21:12–19
+09-25,,,,,Sergius of Radonezh,epistle,Galatians 5:22–6:2
+09-25,,,,,Sergius of Radonezh,gospel,Luke 6:17–23
+09-26,,,,,Repose of John the Theologian,epistle,1 John 4:12–19
+09-26,,,,,Repose of John the Theologian,gospel,John 19:25–27; 21:24–25
+09-28,,,,,Chariton the Confessor,epistle,2 Corinthians 4:6–15
+09-28,,,,,Chariton the Confessor,gospel,Luke 6:17–23
+10-06,,,,eastern-orthodox,Innocent of Alaska,epistle,Hebrews 7:26–8:2
+10-06,,,,eastern-orthodox,Innocent of Alaska,gospel,John 10:9–16
+10-09,,,,eastern-orthodox,Tikhon of Moscow,epistle,Hebrews 7:26–8:2
+10-09,,,,eastern-orthodox,Tikhon of Moscow,gospel,John 10:9–16
+10-18,,,,,Luke the Evangelist,epistle,"Colossians 4:5–9, 14, 18"
+10-18,,,,,Luke the Evangelist,gospel,Luke 10:16–21
+10-23,,,,,"James, Brother of the Lord",epistle,Galatians 1:11–19
+10-23,,,,,"James, Brother of the Lord",gospel,Matthew 13:54–58
+10-26,,,,,The Great Earthquake at Constantinople,epistle,"Hebrews 12:6–13, 25–27"
+10-26,,,,,The Great Earthquake at Constantinople,gospel,Matthew 8:23–27
+10-26,,,,,Demetrios the Myrrh-streamer,epistle,2 Timothy 2:1–10
+10-26,,,,,Demetrios the Myrrh-streamer,gospel,John 15:17–16:2
+11-13,,,,,John Chrysostom,epistle,Hebrews 7:26–8:2
+11-13,,,,,John Chrysostom,gospel,John 10:9–16
+11-14,,,,,Philip the Apostle,epistle,1 Corinthians 4:9–16
+11-14,,,,,Philip the Apostle,gospel,John 1:43–51
+11-16,,,,,Matthew the Evangelist,epistle,1 Corinthians 4:9–16
+11-16,,,,,Matthew the Evangelist,gospel,Matthew 9:9–13
+11-23,,,,,Alexander Nevsky,epistle,Galatians 5:22–6:2
+11-23,,,,,Alexander Nevsky,gospel,Matthew 11:27–30
+11-25,,,,,Leave-taking of the Entry of the Theotokos,epistle,Hebrews 9:1–7
+11-25,,,,,Leave-taking of the Entry of the Theotokos,gospel,Luke 10:38–42; 11:27–28
+11-30,,,,,Andrew the First-called,epistle,1 Corinthians 4:9–16
+11-30,,,,,Andrew the First-called,gospel,John 1:35–51
+12-04,,,,eastern-orthodox,Alexander Hotovitzky,epistle,Hebrews 13:7–16
+12-04,,,,eastern-orthodox,Alexander Hotovitzky,gospel,Luke 12:32–40
+12-05,,,,,Sabbas the Sanctified,epistle,Galatians 5:22–6:2
+12-05,,,,,Sabbas the Sanctified,gospel,Matthew 11:27–30
+12-09,,,,,Conception by Anna,epistle,Galatians 4:22–31
+12-09,,,,,Conception by Anna,gospel,Luke 8:16–21
+12-13,,,,eastern-orthodox,Herman of Alaska,epistle,Galatians 5:22–6:2
+12-13,,,,eastern-orthodox,Herman of Alaska,gospel,Luke 6:17–23
+12-27,,,,,Stephen the First Martyr,epistle,"Acts 6:8–15; 7:1–5, 47–60"
+12-27,,,,,Stephen the First Martyr,gospel,Matthew 21:33–42
+01-01,,,,,Basil the Great,epistle,Hebrews 7:26–8:2
+01-01,,,,,Basil the Great,gospel,Luke 6:17–23
+01-02,,,,,Seraphim of Sarov,epistle,Galatians 5:22–6:2
+01-02,,,,,Seraphim of Sarov,gospel,Luke 6:17–23
+01-11,,,,,Theodosius the Great,epistle,2 Corinthians 4:6–15
+01-11,,,,,Theodosius the Great,gospel,Matthew 11:27–30
+01-17,,,,,Anthony the Great,epistle,Hebrews 13:17–21
+01-17,,,,,Anthony the Great,gospel,Luke 6:17–23
+01-20,,,,,Euthymius the Great,epistle,Hebrews 13:17–21
+01-20,,,,,Euthymius the Great,gospel,Luke 6:17–23
+01-25,,,,,Gregory the Theologian,epistle,1 Corinthians 12:7–11
+01-25,,,,,Gregory the Theologian,gospel,John 10:9–16
+01-27,,,,,Relics of John Chrysostom,epistle,Hebrews 7:26–8:2
+01-27,,,,,Relics of John Chrysostom,gospel,John 10:9–16
+01-30,,,,,Three Holy Hierarchs,epistle,Hebrews 13:7–16
+01-30,,,,,Three Holy Hierarchs,gospel,Matthew 5:14–19
+02-09,,,,,Leave-taking of the Meeting of the Lord,epistle,Hebrews 7:7–17
+02-09,,,,,Leave-taking of the Meeting of the Lord,gospel,Luke 2:22–40
+02-24,,,,,Finding of the Forerunner's Head,epistle,2 Corinthians 4:6–15
+02-24,,,,,Finding of the Forerunner's Head,gospel,Matthew 11:2–15
+02-27,,,,eastern-orthodox,Raphael of Brooklyn,epistle,Hebrews 13:17–21
+02-27,,,,eastern-orthodox,Raphael of Brooklyn,gospel,John 10:9–16
+03-09,,,,,Forty Martyrs of Sebaste,epistle,Hebrews 12:1–10
+03-09,,,,,Forty Martyrs of Sebaste,gospel,Matthew 20:1–16
+03-26,,,,,Leave-taking of the Annunciation,epistle,Hebrews 2:11–18
+03-26,,,,,Leave-taking of the Annunciation,gospel,Luke 1:24–38
+03-31,,,,eastern-orthodox,Innocent of Alaska,epistle,Hebrews 7:26–8:2
+03-31,,,,eastern-orthodox,Innocent of Alaska,gospel,John 10:9–16
+04-07,,,,eastern-orthodox,Tikhon of Moscow,epistle,Hebrews 7:26–8:2
+04-07,,,,eastern-orthodox,Tikhon of Moscow,gospel,John 10:9–16
+04-23,,,,,George the Great-martyr,epistle,Acts 12:1–11
+04-23,,,,,George the Great-martyr,gospel,John 15:17–16:2
+04-25,,,,,Mark the Evangelist,epistle,1 Peter 5:6–14
+04-25,,,,,Mark the Evangelist,gospel,Mark 6:7–13
+04-30,,,,,James the Apostle,epistle,Acts 12:1–11
+04-30,,,,,James the Apostle,gospel,Luke 5:1–11
+05-03,,,,,Theodosius of the Kiev Caves,epistle,Hebrews 13:7–16
+05-03,,,,,Theodosius of the Kiev Caves,gospel,Matthew 11:27–30
+05-07,,,,eastern-orthodox,Alexis Toth,epistle,Galatians 1:11–19
+05-07,,,,eastern-orthodox,Alexis Toth,gospel,John 10:1–9
+05-08,,,,,John the Theologian,epistle,1 John 1:1–7
+05-08,,,,,John the Theologian,gospel,John 19:25–27; 21:24–25
+05-10,,,,,Simon the Zealot,epistle,1 Corinthians 4:9–16
+05-10,,,,,Simon the Zealot,gospel,Matthew 13:54–58
+05-11,,,,,Cyril and Methodius,epistle,Hebrews 7:26–8:2
+05-11,,,,,Cyril and Methodius,gospel,Matthew 5:14–19
+05-21,,,,,Constantine and Helen,epistle,"Acts 26:1–5, 12–20"
+05-21,,,,,Constantine and Helen,gospel,John 10:1–9
+05-25,,,,,Third Finding of the Forerunner's Head,epistle,2 Corinthians 4:6–15
+05-25,,,,,Third Finding of the Forerunner's Head,gospel,Matthew 11:2–15
+06-11,,,,,Bartholomew and Barnabas,epistle,"Acts 11:19–26, 29–30"
+06-11,,,,,Bartholomew and Barnabas,gospel,Luke 10:16–21
+06-19,,,,,"Jude, Brother of the Lord",epistle,Jude 1:1–10
+06-19,,,,,"Jude, Brother of the Lord",gospel,John 14:21–24
+06-30,,,,,Synaxis of the Twelve Apostles,epistle,1 Corinthians 4:9–16
+06-30,,,,,Synaxis of the Twelve Apostles,gospel,Mark 3:13–19
+07-05,,,,,Athanasius of Athos,epistle,Galatians 5:22–6:2
+07-05,,,,,Athanasius of Athos,gospel,Luke 6:17–23
+07-10,,,,,Anthony of the Kiev Caves,epistle,Galatians 5:22–6:2
+07-10,,,,,Anthony of the Kiev Caves,gospel,Matthew 4:25–5:12
+07-15,,,,,Volodymyr the Great,epistle,Galatians 1:11–19
+07-15,,,,,Volodymyr the Great,gospel,John 10:1–9
+07-19,,,,,Relics of Seraphim of Sarov,epistle,Galatians 5:22–6:2
+07-19,,,,,Relics of Seraphim of Sarov,gospel,Luke 6:17–23
+07-20,,,,,Elijah the Prophet,epistle,James 5:10–20
+07-20,,,,,Elijah the Prophet,gospel,Luke 4:22–30
+07-24,,,,,Boris and Gleb,epistle,Romans 8:28–39
+07-24,,,,,Boris and Gleb,gospel,John 15:17–16:2
+07-25,,,,,Dormition of Anna,epistle,Galatians 4:22–31
+07-25,,,,,Dormition of Anna,gospel,Luke 8:16–21
+07-26,,,,eastern-orthodox,Jacob Netsvetov,epistle,Philippians 3:7–14
+07-26,,,,eastern-orthodox,Jacob Netsvetov,gospel,"Mark 10:29–31, 42–45"
+07-27,,,,,Panteleimon,epistle,2 Timothy 2:1–10
+07-27,,,,,Panteleimon,gospel,John 15:17–16:2
+08-01,,,,,Procession of the Cross,epistle,1 Corinthians 1:18–24
+08-01,,,,,Procession of the Cross,gospel,"John 19:6–11, 13–20, 25–28, 30–35"
+08-01,,,,,Maccabean Martyrs,epistle,Hebrews 11:33–12:2
+08-01,,,,,Maccabean Martyrs,gospel,Matthew 10:32–36; 11:1
+08-09,,,,eastern-orthodox,Herman of Alaska,epistle,Galatians 5:22–6:2
+08-09,,,,eastern-orthodox,Herman of Alaska,gospel,Luke 6:17–23
+08-13,,,,,Tikhon of Zadonsk,epistle,Hebrews 7:26–8:2
+08-13,,,,,Tikhon of Zadonsk,gospel,Matthew 5:14–19
+08-16,,,,,Image Not Made by Hands,epistle,Colossians 1:12–18
+08-16,,,,,Image Not Made by Hands,gospel,Luke 9:51–56; 10:22–24
+08-23,,,,,Leave-taking of the Dormition,epistle,Philippians 2:5–11
+08-23,,,,,Leave-taking of the Dormition,gospel,Luke 10:38–42; 11:27–28
+08-28,,,,,Moses the Black,epistle,Galatians 5:22–6:2
+08-28,,,,,Moses the Black,gospel,Luke 6:17–23
+easter,-50,,,,Venerable Fathers,epistle,Galatians 5:22–6:2
+easter,-50,,,,Venerable Fathers,gospel,Matthew 11:27–30
+easter,-43,,,,Theodore the Tyro,epistle,2 Timothy 2:1–10
+easter,-43,,,,Theodore the Tyro,gospel,John 15:17–16:2
+easter,-36,,,,Saturday of Souls,epistle,1 Thessalonians 4:13–17
+easter,-36,,,,Saturday of Souls,gospel,John 5:24–30
+easter,-35,,,,Gregory Palamas,epistle,Hebrews 7:26–8:2
+easter,-35,,,,Gregory Palamas,gospel,John 10:9–16
+easter,-29,,,,Saturday of Souls,epistle,1 Thessalonians 4:13–17
+easter,-29,,,,Saturday of Souls,gospel,John 5:24–30
+easter,-22,,,,Saturday of Souls,epistle,1 Corinthians 15:47–57
+easter,-22,,,,Saturday of Souls,gospel,John 5:24–30
+easter,-21,,,,John Climacus,epistle,Ephesians 5:9–19
+easter,-21,,,,John Climacus,gospel,Matthew 4:25–5:12
+easter,-15,,,,Akathist Saturday,epistle,Hebrews 9:1–7
+easter,-15,,,,Akathist Saturday,gospel,Luke 10:38–42; 11:27–28
+easter,-14,,,,Mary of Egypt,epistle,Galatians 3:23–29
+easter,-14,,,,Mary of Egypt,gospel,Luke 7:36–50
+easter,48,,,,Saturday of Souls (alternative),epistle,1 Corinthians 15:47–57
+easter,48,,,,Saturday of Souls (alternative),gospel,John 6:35–39
+easter,63,,,eastern-orthodox,All Saints of North America,epistle,Hebrews 11:33–12:2
+easter,63,,,eastern-orthodox,All Saints of North America,gospel,Matthew 4:25–5:12
+sat<10-26,,,,eastern-orthodox,Saturday of Souls,epistle,1 Thessalonians 4:13–17
+sat<10-26,,,,eastern-orthodox,Saturday of Souls,gospel,John 5:24–30
+# ===========================================================================
+"# The Gospel of Matins, as the Orthodox Church in America appoints it in its"
+"# daily lectionary (https://www.oca.org/readings/daily, read October 2026:"
+"# the Sundays of 2025-26 and of the feasts that fell on Sundays 2022-30, and"
+"# the saints' days on a weekday of 2024-27).  On Sunday one of the eleven"
+"# Resurrection Gospels, in turn from the Sunday of All Saints (the first)"
+"# to the fifth Sunday of Lent, and on the Sundays of Pascha those the"
+# Pentecostarion appoints (the 1st on Thomas Sunday, the 3rd, 4th, 7th, 8th
+"# and 10th after it); on one of the Twelve Great Feasts that falls on a"
+"# Sunday the feast's Gospel is read in its place, on any other feast or"
+"# saint's day the Sunday's.  The Matins of Holy Week are by anticipation the"
+"# evening before; that of Holy Saturday is with the day's readings above."
+"# The saints are those the OCA gives a Matins Gospel for (their Vespers"
+"# lessons are below).  Paschal Matins and Mid-Pentecost have none."
+# ===========================================================================
+# --- Holy Week and the Pentecostarion ---
+easter,-7,,,,Matins,gospel,"Matthew 21:1–11, 15–17"
+easter,-6,,,,Matins,gospel,Matthew 21:18–43
+easter,-5,,,,Matins,gospel,Matthew 22:15–23:39
+easter,-4,,,,Matins,gospel,John 12:17–50
+easter,-3,,,,Matins,gospel,Luke 22:1–39
+easter,-2,,,,Matins: the Twelve Passion Gospels,gospel,John 13:31–18:1
+easter,-2,,,,Matins: the Twelve Passion Gospels,gospel,John 18:1–28
+easter,-2,,,,Matins: the Twelve Passion Gospels,gospel,Matthew 26:57–75
+easter,-2,,,,Matins: the Twelve Passion Gospels,gospel,John 18:28–19:16
+easter,-2,,,,Matins: the Twelve Passion Gospels,gospel,Matthew 27:3–32
+easter,-2,,,,Matins: the Twelve Passion Gospels,gospel,Mark 15:16–32
+easter,-2,,,,Matins: the Twelve Passion Gospels,gospel,Matthew 27:33–54
+easter,-2,,,,Matins: the Twelve Passion Gospels,gospel,Luke 23:32–49
+easter,-2,,,,Matins: the Twelve Passion Gospels,gospel,John 19:25–37
+easter,-2,,,,Matins: the Twelve Passion Gospels,gospel,Mark 15:43–47
+easter,-2,,,,Matins: the Twelve Passion Gospels,gospel,John 19:38–42
+easter,-2,,,,Matins: the Twelve Passion Gospels,gospel,Matthew 27:62–66
+easter,7,,,,Matins: Resurrection Gospel 1,gospel,Matthew 28:16–20
+easter,14,,,,Matins: Resurrection Gospel 3,gospel,Mark 16:9–20
+easter,21,,,,Matins: Resurrection Gospel 4,gospel,Luke 24:1–12
+easter,28,,,,Matins: Resurrection Gospel 7,gospel,John 20:1–10
+easter,35,,,,Matins: Resurrection Gospel 8,gospel,John 20:11–18
+easter,42,,,,Matins: Resurrection Gospel 10,gospel,John 21:1–14
+easter,39,,,,Matins,gospel,Mark 16:9–20
+easter,49,,,,Matins,gospel,John 20:19–23
+# --- The Sunday Resurrection Gospels: the Sundays after Pentecost, counted on through the Triodion to the fifth Sunday of Lent ---
+easter,56,date ne 09-08 & date ne 09-14 & date ne 11-21 & date ne 12-25 & date ne 01-06 & date ne 02-02 & date ne 03-25 & date ne 08-06 & date ne 08-15,,,Matins: Resurrection Gospel 1,gospel,Matthew 28:16–20
+easter,63,date ne 09-08 & date ne 09-14 & date ne 11-21 & date ne 12-25 & date ne 01-06 & date ne 02-02 & date ne 03-25 & date ne 08-06 & date ne 08-15,,,Matins: Resurrection Gospel 2,gospel,Mark 16:1–8
+easter,70,date ne 09-08 & date ne 09-14 & date ne 11-21 & date ne 12-25 & date ne 01-06 & date ne 02-02 & date ne 03-25 & date ne 08-06 & date ne 08-15,,,Matins: Resurrection Gospel 3,gospel,Mark 16:9–20
+easter,77,date ne 09-08 & date ne 09-14 & date ne 11-21 & date ne 12-25 & date ne 01-06 & date ne 02-02 & date ne 03-25 & date ne 08-06 & date ne 08-15,,,Matins: Resurrection Gospel 4,gospel,Luke 24:1–12
+easter,84,date ne 09-08 & date ne 09-14 & date ne 11-21 & date ne 12-25 & date ne 01-06 & date ne 02-02 & date ne 03-25 & date ne 08-06 & date ne 08-15,,,Matins: Resurrection Gospel 5,gospel,Luke 24:12–35
+easter,91,date ne 09-08 & date ne 09-14 & date ne 11-21 & date ne 12-25 & date ne 01-06 & date ne 02-02 & date ne 03-25 & date ne 08-06 & date ne 08-15,,,Matins: Resurrection Gospel 6,gospel,Luke 24:36–53
+easter,98,date ne 09-08 & date ne 09-14 & date ne 11-21 & date ne 12-25 & date ne 01-06 & date ne 02-02 & date ne 03-25 & date ne 08-06 & date ne 08-15,,,Matins: Resurrection Gospel 7,gospel,John 20:1–10
+easter,105,date ne 09-08 & date ne 09-14 & date ne 11-21 & date ne 12-25 & date ne 01-06 & date ne 02-02 & date ne 03-25 & date ne 08-06 & date ne 08-15,,,Matins: Resurrection Gospel 8,gospel,John 20:11–18
+easter,112,date ne 09-08 & date ne 09-14 & date ne 11-21 & date ne 12-25 & date ne 01-06 & date ne 02-02 & date ne 03-25 & date ne 08-06 & date ne 08-15,,,Matins: Resurrection Gospel 9,gospel,John 20:19–31
+easter,119,date ne 09-08 & date ne 09-14 & date ne 11-21 & date ne 12-25 & date ne 01-06 & date ne 02-02 & date ne 03-25 & date ne 08-06 & date ne 08-15,,,Matins: Resurrection Gospel 10,gospel,John 21:1–14
+easter,126,date ne 09-08 & date ne 09-14 & date ne 11-21 & date ne 12-25 & date ne 01-06 & date ne 02-02 & date ne 03-25 & date ne 08-06 & date ne 08-15,,,Matins: Resurrection Gospel 11,gospel,John 21:15–25
+easter,133,date ne 09-08 & date ne 09-14 & date ne 11-21 & date ne 12-25 & date ne 01-06 & date ne 02-02 & date ne 03-25 & date ne 08-06 & date ne 08-15,,,Matins: Resurrection Gospel 1,gospel,Matthew 28:16–20
+easter,140,date ne 09-08 & date ne 09-14 & date ne 11-21 & date ne 12-25 & date ne 01-06 & date ne 02-02 & date ne 03-25 & date ne 08-06 & date ne 08-15,,,Matins: Resurrection Gospel 2,gospel,Mark 16:1–8
+easter,147,date ne 09-08 & date ne 09-14 & date ne 11-21 & date ne 12-25 & date ne 01-06 & date ne 02-02 & date ne 03-25 & date ne 08-06 & date ne 08-15,,,Matins: Resurrection Gospel 3,gospel,Mark 16:9–20
+easter,154,date ne 09-08 & date ne 09-14 & date ne 11-21 & date ne 12-25 & date ne 01-06 & date ne 02-02 & date ne 03-25 & date ne 08-06 & date ne 08-15,,,Matins: Resurrection Gospel 4,gospel,Luke 24:1–12
+easter,161,date ne 09-08 & date ne 09-14 & date ne 11-21 & date ne 12-25 & date ne 01-06 & date ne 02-02 & date ne 03-25 & date ne 08-06 & date ne 08-15,,,Matins: Resurrection Gospel 5,gospel,Luke 24:12–35
+easter,168,date ne 09-08 & date ne 09-14 & date ne 11-21 & date ne 12-25 & date ne 01-06 & date ne 02-02 & date ne 03-25 & date ne 08-06 & date ne 08-15,,,Matins: Resurrection Gospel 6,gospel,Luke 24:36–53
+prev_easter,119,date lt easter-7 & date ne 09-08 & date ne 09-14 & date ne 11-21 & date ne 12-25 & date ne 01-06 & date ne 02-02 & date ne 03-25 & date ne 08-06 & date ne 08-15,,,Matins: Resurrection Gospel 10,gospel,John 21:1–14
+prev_easter,126,date lt easter-7 & date ne 09-08 & date ne 09-14 & date ne 11-21 & date ne 12-25 & date ne 01-06 & date ne 02-02 & date ne 03-25 & date ne 08-06 & date ne 08-15,,,Matins: Resurrection Gospel 11,gospel,John 21:15–25
+prev_easter,133,date lt easter-7 & date ne 09-08 & date ne 09-14 & date ne 11-21 & date ne 12-25 & date ne 01-06 & date ne 02-02 & date ne 03-25 & date ne 08-06 & date ne 08-15,,,Matins: Resurrection Gospel 1,gospel,Matthew 28:16–20
+prev_easter,140,date lt easter-7 & date ne 09-08 & date ne 09-14 & date ne 11-21 & date ne 12-25 & date ne 01-06 & date ne 02-02 & date ne 03-25 & date ne 08-06 & date ne 08-15,,,Matins: Resurrection Gospel 2,gospel,Mark 16:1–8
+prev_easter,147,date lt easter-7 & date ne 09-08 & date ne 09-14 & date ne 11-21 & date ne 12-25 & date ne 01-06 & date ne 02-02 & date ne 03-25 & date ne 08-06 & date ne 08-15,,,Matins: Resurrection Gospel 3,gospel,Mark 16:9–20
+prev_easter,154,date lt easter-7 & date ne 09-08 & date ne 09-14 & date ne 11-21 & date ne 12-25 & date ne 01-06 & date ne 02-02 & date ne 03-25 & date ne 08-06 & date ne 08-15,,,Matins: Resurrection Gospel 4,gospel,Luke 24:1–12
+prev_easter,161,date lt easter-7 & date ne 09-08 & date ne 09-14 & date ne 11-21 & date ne 12-25 & date ne 01-06 & date ne 02-02 & date ne 03-25 & date ne 08-06 & date ne 08-15,,,Matins: Resurrection Gospel 5,gospel,Luke 24:12–35
+prev_easter,168,date lt easter-7 & date ne 09-08 & date ne 09-14 & date ne 11-21 & date ne 12-25 & date ne 01-06 & date ne 02-02 & date ne 03-25 & date ne 08-06 & date ne 08-15,,,Matins: Resurrection Gospel 6,gospel,Luke 24:36–53
+prev_easter,175,date lt easter-7 & date ne 09-08 & date ne 09-14 & date ne 11-21 & date ne 12-25 & date ne 01-06 & date ne 02-02 & date ne 03-25 & date ne 08-06 & date ne 08-15,,,Matins: Resurrection Gospel 7,gospel,John 20:1–10
+prev_easter,182,date lt easter-7 & date ne 09-08 & date ne 09-14 & date ne 11-21 & date ne 12-25 & date ne 01-06 & date ne 02-02 & date ne 03-25 & date ne 08-06 & date ne 08-15,,,Matins: Resurrection Gospel 8,gospel,John 20:11–18
+prev_easter,189,date lt easter-7 & date ne 09-08 & date ne 09-14 & date ne 11-21 & date ne 12-25 & date ne 01-06 & date ne 02-02 & date ne 03-25 & date ne 08-06 & date ne 08-15,,,Matins: Resurrection Gospel 9,gospel,John 20:19–31
+prev_easter,196,date lt easter-7 & date ne 09-08 & date ne 09-14 & date ne 11-21 & date ne 12-25 & date ne 01-06 & date ne 02-02 & date ne 03-25 & date ne 08-06 & date ne 08-15,,,Matins: Resurrection Gospel 10,gospel,John 21:1–14
+prev_easter,203,date lt easter-7 & date ne 09-08 & date ne 09-14 & date ne 11-21 & date ne 12-25 & date ne 01-06 & date ne 02-02 & date ne 03-25 & date ne 08-06 & date ne 08-15,,,Matins: Resurrection Gospel 11,gospel,John 21:15–25
+prev_easter,210,date lt easter-7 & date ne 09-08 & date ne 09-14 & date ne 11-21 & date ne 12-25 & date ne 01-06 & date ne 02-02 & date ne 03-25 & date ne 08-06 & date ne 08-15,,,Matins: Resurrection Gospel 1,gospel,Matthew 28:16–20
+prev_easter,217,date lt easter-7 & date ne 09-08 & date ne 09-14 & date ne 11-21 & date ne 12-25 & date ne 01-06 & date ne 02-02 & date ne 03-25 & date ne 08-06 & date ne 08-15,,,Matins: Resurrection Gospel 2,gospel,Mark 16:1–8
+prev_easter,224,date lt easter-7 & date ne 09-08 & date ne 09-14 & date ne 11-21 & date ne 12-25 & date ne 01-06 & date ne 02-02 & date ne 03-25 & date ne 08-06 & date ne 08-15,,,Matins: Resurrection Gospel 3,gospel,Mark 16:9–20
+prev_easter,231,date lt easter-7 & date ne 09-08 & date ne 09-14 & date ne 11-21 & date ne 12-25 & date ne 01-06 & date ne 02-02 & date ne 03-25 & date ne 08-06 & date ne 08-15,,,Matins: Resurrection Gospel 4,gospel,Luke 24:1–12
+prev_easter,238,date lt easter-7 & date ne 09-08 & date ne 09-14 & date ne 11-21 & date ne 12-25 & date ne 01-06 & date ne 02-02 & date ne 03-25 & date ne 08-06 & date ne 08-15,,,Matins: Resurrection Gospel 5,gospel,Luke 24:12–35
+prev_easter,245,date lt easter-7 & date ne 09-08 & date ne 09-14 & date ne 11-21 & date ne 12-25 & date ne 01-06 & date ne 02-02 & date ne 03-25 & date ne 08-06 & date ne 08-15,,,Matins: Resurrection Gospel 6,gospel,Luke 24:36–53
+prev_easter,252,date lt easter-7 & date ne 09-08 & date ne 09-14 & date ne 11-21 & date ne 12-25 & date ne 01-06 & date ne 02-02 & date ne 03-25 & date ne 08-06 & date ne 08-15,,,Matins: Resurrection Gospel 7,gospel,John 20:1–10
+prev_easter,259,date lt easter-7 & date ne 09-08 & date ne 09-14 & date ne 11-21 & date ne 12-25 & date ne 01-06 & date ne 02-02 & date ne 03-25 & date ne 08-06 & date ne 08-15,,,Matins: Resurrection Gospel 8,gospel,John 20:11–18
+prev_easter,266,date lt easter-7 & date ne 09-08 & date ne 09-14 & date ne 11-21 & date ne 12-25 & date ne 01-06 & date ne 02-02 & date ne 03-25 & date ne 08-06 & date ne 08-15,,,Matins: Resurrection Gospel 9,gospel,John 20:19–31
+prev_easter,273,date lt easter-7 & date ne 09-08 & date ne 09-14 & date ne 11-21 & date ne 12-25 & date ne 01-06 & date ne 02-02 & date ne 03-25 & date ne 08-06 & date ne 08-15,,,Matins: Resurrection Gospel 10,gospel,John 21:1–14
+prev_easter,280,date lt easter-7 & date ne 09-08 & date ne 09-14 & date ne 11-21 & date ne 12-25 & date ne 01-06 & date ne 02-02 & date ne 03-25 & date ne 08-06 & date ne 08-15,,,Matins: Resurrection Gospel 11,gospel,John 21:15–25
+prev_easter,287,date lt easter-7 & date ne 09-08 & date ne 09-14 & date ne 11-21 & date ne 12-25 & date ne 01-06 & date ne 02-02 & date ne 03-25 & date ne 08-06 & date ne 08-15,,,Matins: Resurrection Gospel 1,gospel,Matthew 28:16–20
+prev_easter,294,date lt easter-7 & date ne 09-08 & date ne 09-14 & date ne 11-21 & date ne 12-25 & date ne 01-06 & date ne 02-02 & date ne 03-25 & date ne 08-06 & date ne 08-15,,,Matins: Resurrection Gospel 2,gospel,Mark 16:1–8
+prev_easter,301,date lt easter-7 & date ne 09-08 & date ne 09-14 & date ne 11-21 & date ne 12-25 & date ne 01-06 & date ne 02-02 & date ne 03-25 & date ne 08-06 & date ne 08-15,,,Matins: Resurrection Gospel 3,gospel,Mark 16:9–20
+prev_easter,308,date lt easter-7 & date ne 09-08 & date ne 09-14 & date ne 11-21 & date ne 12-25 & date ne 01-06 & date ne 02-02 & date ne 03-25 & date ne 08-06 & date ne 08-15,,,Matins: Resurrection Gospel 4,gospel,Luke 24:1–12
+prev_easter,315,date lt easter-7 & date ne 09-08 & date ne 09-14 & date ne 11-21 & date ne 12-25 & date ne 01-06 & date ne 02-02 & date ne 03-25 & date ne 08-06 & date ne 08-15,,,Matins: Resurrection Gospel 5,gospel,Luke 24:12–35
+prev_easter,322,date lt easter-7 & date ne 09-08 & date ne 09-14 & date ne 11-21 & date ne 12-25 & date ne 01-06 & date ne 02-02 & date ne 03-25 & date ne 08-06 & date ne 08-15,,,Matins: Resurrection Gospel 6,gospel,Luke 24:36–53
+prev_easter,329,date lt easter-7 & date ne 09-08 & date ne 09-14 & date ne 11-21 & date ne 12-25 & date ne 01-06 & date ne 02-02 & date ne 03-25 & date ne 08-06 & date ne 08-15,,,Matins: Resurrection Gospel 7,gospel,John 20:1–10
+prev_easter,336,date lt easter-7 & date ne 09-08 & date ne 09-14 & date ne 11-21 & date ne 12-25 & date ne 01-06 & date ne 02-02 & date ne 03-25 & date ne 08-06 & date ne 08-15,,,Matins: Resurrection Gospel 8,gospel,John 20:11–18
+prev_easter,343,date lt easter-7 & date ne 09-08 & date ne 09-14 & date ne 11-21 & date ne 12-25 & date ne 01-06 & date ne 02-02 & date ne 03-25 & date ne 08-06 & date ne 08-15,,,Matins: Resurrection Gospel 9,gospel,John 20:19–31
+prev_easter,350,date lt easter-7 & date ne 09-08 & date ne 09-14 & date ne 11-21 & date ne 12-25 & date ne 01-06 & date ne 02-02 & date ne 03-25 & date ne 08-06 & date ne 08-15,,,Matins: Resurrection Gospel 10,gospel,John 21:1–14
+prev_easter,357,date lt easter-7 & date ne 09-08 & date ne 09-14 & date ne 11-21 & date ne 12-25 & date ne 01-06 & date ne 02-02 & date ne 03-25 & date ne 08-06 & date ne 08-15,,,Matins: Resurrection Gospel 11,gospel,John 21:15–25
+prev_easter,364,date lt easter-7 & date ne 09-08 & date ne 09-14 & date ne 11-21 & date ne 12-25 & date ne 01-06 & date ne 02-02 & date ne 03-25 & date ne 08-06 & date ne 08-15,,,Matins: Resurrection Gospel 1,gospel,Matthew 28:16–20
+prev_easter,371,date lt easter-7 & date ne 09-08 & date ne 09-14 & date ne 11-21 & date ne 12-25 & date ne 01-06 & date ne 02-02 & date ne 03-25 & date ne 08-06 & date ne 08-15,,,Matins: Resurrection Gospel 2,gospel,Mark 16:1–8
+prev_easter,378,date lt easter-7 & date ne 09-08 & date ne 09-14 & date ne 11-21 & date ne 12-25 & date ne 01-06 & date ne 02-02 & date ne 03-25 & date ne 08-06 & date ne 08-15,,,Matins: Resurrection Gospel 3,gospel,Mark 16:9–20
+prev_easter,385,date lt easter-7 & date ne 09-08 & date ne 09-14 & date ne 11-21 & date ne 12-25 & date ne 01-06 & date ne 02-02 & date ne 03-25 & date ne 08-06 & date ne 08-15,,,Matins: Resurrection Gospel 4,gospel,Luke 24:1–12
+prev_easter,392,date lt easter-7 & date ne 09-08 & date ne 09-14 & date ne 11-21 & date ne 12-25 & date ne 01-06 & date ne 02-02 & date ne 03-25 & date ne 08-06 & date ne 08-15,,,Matins: Resurrection Gospel 5,gospel,Luke 24:12–35
+prev_easter,399,date lt easter-7 & date ne 09-08 & date ne 09-14 & date ne 11-21 & date ne 12-25 & date ne 01-06 & date ne 02-02 & date ne 03-25 & date ne 08-06 & date ne 08-15,,,Matins: Resurrection Gospel 6,gospel,Luke 24:36–53
+# --- The Twelve Great Feasts (in place of the Sunday's Gospel when one is a Sunday) ---
+09-08,,,,,Nativity of the Theotokos: Matins,gospel,"Luke 1:39–49, 56"
+09-14,,,,,Exaltation of the Cross: Matins,gospel,John 12:28–36
+11-21,,,,,Entry of the Theotokos: Matins,gospel,"Luke 1:39–49, 56"
+12-25,,,,,Nativity of Christ: Matins,gospel,Matthew 1:18–25
+01-06,,,,,Theophany: Matins,gospel,Mark 1:9–11
+02-02,,,,,Meeting of the Lord: Matins,gospel,Luke 2:25–32
+03-25,,,,,Annunciation: Matins,gospel,"Luke 1:39–49, 56"
+08-06,,,,,Transfiguration: Matins,gospel,Luke 9:28–36
+08-15,,,,,Dormition of the Theotokos: Matins,gospel,"Luke 1:39–49, 56"
+# --- The greater saints and feasts of the Menaion: not on a Sunday (the Resurrection Gospel is read) or on the Ascension, nor in Holy and Bright Weeks (two rows, before and after them) ---
+01-01,,date nwd sun & date ne easter+39,,,Basil the Great: Matins,gospel,John 10:9–16
+01-02,,date nwd sun & date ne easter+39,,,Seraphim of Sarov: Matins,gospel,Matthew 11:27–30
+01-11,,date nwd sun & date ne easter+39,,,Theodosius the Great: Matins,gospel,Luke 6:17–23
+01-17,,date nwd sun & date ne easter+39,,,Anthony the Great: Matins,gospel,Matthew 11:27–30
+01-20,,date nwd sun & date ne easter+39,,,Euthymius the Great: Matins,gospel,Matthew 11:27–30
+01-25,,date nwd sun & date ne easter+39,,,Gregory the Theologian: Matins,gospel,John 10:1–9
+01-27,,date nwd sun & date ne easter+39,,,Relics of John Chrysostom: Matins,gospel,John 10:1–9
+01-30,,date nwd sun & date ne easter+39,,,Three Holy Hierarchs: Matins,gospel,John 10:9–16
+02-24,,date nwd sun & date ne easter+39,,,Finding of the Forerunner's Head: Matins,gospel,Luke 7:17–30
+02-27,,date nwd sun & date ne easter+39,,eastern-orthodox,Raphael of Brooklyn: Matins,gospel,John 10:1–9
+03-09,,date nwd sun & date ne easter+39,,,Forty Martyrs of Sebaste: Matins,gospel,Luke 21:12–19
+04-23,,date nwd sun & date ne easter+39 & date lt easter-6,,,George the Great-martyr: Matins,gospel,Luke 12:2–12
+04-23,,date nwd sun & date ne easter+39 & date gt easter+6,,,George the Great-martyr: Matins,gospel,Luke 12:2–12
+04-25,,date nwd sun & date ne easter+39 & date lt easter-6,,,Mark the Evangelist: Matins,gospel,Luke 10:1–15
+04-25,,date nwd sun & date ne easter+39 & date gt easter+6,,,Mark the Evangelist: Matins,gospel,Luke 10:1–15
+04-30,,date nwd sun & date ne easter+39 & date lt easter-6,,,James the Apostle: Matins,gospel,John 21:15–25
+04-30,,date nwd sun & date ne easter+39 & date gt easter+6,,,James the Apostle: Matins,gospel,John 21:15–25
+05-03,,date nwd sun & date ne easter+39 & date lt easter-6,,,Theodosius of the Kiev Caves: Matins,gospel,Luke 6:17–23
+05-03,,date nwd sun & date ne easter+39 & date gt easter+6,,,Theodosius of the Kiev Caves: Matins,gospel,Luke 6:17–23
+05-07,,date nwd sun & date ne easter+39 & date lt easter-6,,eastern-orthodox,Alexis Toth: Matins,gospel,John 10:9–16
+05-07,,date nwd sun & date ne easter+39 & date gt easter+6,,eastern-orthodox,Alexis Toth: Matins,gospel,John 10:9–16
+05-08,,date nwd sun & date ne easter+39 & date lt easter-6,,,John the Theologian: Matins,gospel,John 21:15–25
+05-08,,date nwd sun & date ne easter+39 & date gt easter+6,,,John the Theologian: Matins,gospel,John 21:15–25
+05-10,,date nwd sun & date ne easter+39 & date lt easter-6,,,Simon the Zealot: Matins,gospel,John 21:15–25
+05-10,,date nwd sun & date ne easter+39 & date gt easter+6,,,Simon the Zealot: Matins,gospel,John 21:15–25
+05-11,,date nwd sun & date ne easter+39 & date lt easter-6,,,Cyril and Methodius: Matins,gospel,John 10:1–9
+05-11,,date nwd sun & date ne easter+39 & date gt easter+6,,,Cyril and Methodius: Matins,gospel,John 10:1–9
+05-21,,date nwd sun & date ne easter+39,,,Constantine and Helen: Matins,gospel,John 10:9–16
+05-25,,date nwd sun & date ne easter+39,,,Third Finding of the Forerunner's Head: Matins,gospel,Luke 7:17–30
+06-11,,date nwd sun & date ne easter+39,,,Bartholomew and Barnabas: Matins,gospel,John 21:15–25
+06-19,,date nwd sun & date ne easter+39,,,"Jude, Brother of the Lord: Matins",gospel,John 21:15–25
+06-24,,date nwd sun & date ne easter+39,,,Nativity of the Forerunner: Matins,gospel,"Luke 1:24–25, 57–68, 76, 80"
+06-29,,date nwd sun & date ne easter+39,,,Peter and Paul: Matins,gospel,John 21:15–25
+07-05,,date nwd sun & date ne easter+39,,,Athanasius of Athos: Matins,gospel,Matthew 11:27–30
+07-10,,date nwd sun & date ne easter+39,,,Anthony of the Kiev Caves: Matins,gospel,Matthew 11:27–30
+07-15,,date nwd sun & date ne easter+39,,,Volodymyr the Great: Matins,gospel,John 10:9–16
+07-19,,date nwd sun & date ne easter+39,,,Relics of Seraphim of Sarov: Matins,gospel,Matthew 11:27–30
+07-20,,date nwd sun & date ne easter+39,,,Elijah the Prophet: Matins,gospel,Luke 4:22–30
+07-24,,date nwd sun & date ne easter+39,,,Boris and Gleb: Matins,gospel,Luke 21:12–19
+07-26,,date nwd sun & date ne easter+39,,eastern-orthodox,Jacob Netsvetov: Matins,gospel,John 10:9–16
+08-09,,date nwd sun & date ne easter+39,,eastern-orthodox,Herman of Alaska: Matins,gospel,Matthew 11:27–30
+08-13,,date nwd sun & date ne easter+39,,,Tikhon of Zadonsk: Matins,gospel,John 10:9–16
+08-28,,date nwd sun & date ne easter+39,,,Moses the Black: Matins,gospel,Matthew 11:27–30
+08-29,,date nwd sun & date ne easter+39,,,Beheading of the Forerunner: Matins,gospel,Matthew 14:1–13
+09-24,,date nwd sun & date ne easter+39,,eastern-orthodox,Juvenaly and Peter the Aleut: Matins,gospel,Luke 12:2–12
+09-25,,date nwd sun & date ne easter+39,,,Sergius of Radonezh: Matins,gospel,Matthew 11:27–30
+09-26,,date nwd sun & date ne easter+39,,,Repose of John the Theologian: Matins,gospel,John 21:15–25
+09-28,,date nwd sun & date ne easter+39,,,Chariton the Confessor: Matins,gospel,Matthew 4:25–5:12
+10-01,,date nwd sun & date ne easter+39,,,Protection of the Theotokos: Matins,gospel,"Luke 1:39–49, 56"
+10-06,,date nwd sun & date ne easter+39,,eastern-orthodox,Innocent of Alaska: Matins,gospel,John 10:1–9
+10-09,,date nwd sun & date ne easter+39,,eastern-orthodox,Tikhon of Moscow: Matins,gospel,John 10:1–9
+10-18,,date nwd sun & date ne easter+39,,,Luke the Evangelist: Matins,gospel,John 21:15–25
+10-26,,date nwd sun & date ne easter+39,,,Demetrios the Myrrh-streamer: Matins,gospel,Matthew 10:16–22
+11-08,,date nwd sun & date ne easter+39,,,Synaxis of the Archangels: Matins,gospel,"Matthew 13:24–30, 36–43"
+11-13,,date nwd sun & date ne easter+39,,,John Chrysostom: Matins,gospel,John 10:1–9
+11-16,,date nwd sun & date ne easter+39,,,Matthew the Evangelist: Matins,gospel,John 21:15–25
+11-30,,date nwd sun & date ne easter+39,,,Andrew the First-called: Matins,gospel,Matthew 4:18–23
+12-05,,date nwd sun & date ne easter+39,,,Sabbas the Sanctified: Matins,gospel,Luke 6:17–23
+12-06,,date nwd sun & date ne easter+39,,,Nicholas the Wonderworker: Matins,gospel,John 10:9–16
+12-13,,date nwd sun & date ne easter+39,,eastern-orthodox,Herman of Alaska: Matins,gospel,Matthew 11:27–30
+# ===========================================================================
+"# The other lessons of the services, as the Orthodox Church in America"
+"# appoints them in its daily lectionary (https://www.oca.org/readings/daily,"
+"# read October 2026): the lessons of Vespers on the eves of the great feasts"
+"# and of the saints that have them, listed on the feast's own day (Vespers is"
+"# sung the evening before); the Royal Hours, the Vespers and the Great"
+"# Blessing of Water on the eves of the Nativity and Theophany (on 24 December"
+"# and 5 January: the OCA moves them when the eve is a Saturday or Sunday,"
+"# which is not shown here); and the Holy Week lessons the Liturgy readings"
+"# above leave out.  The OCA's composite lessons, drawn from several chapters"
+# without their verses printed, are given by chapter with "(selected verses)".
+"# Kings are numbered as in English Bibles (the OCA's 3 [1] Kings is 1 Kings)."
+# ===========================================================================
+# --- Holy Week: the Sixth Hour and the Washing of the Feet on Great Thursday, the Royal Hours of Great Friday, the Vespers of Great Saturday ---
+easter,-3,,,,Sixth Hour: Lessons,ot,"Jeremiah 11:18–12:5, 9–11, 14–15"
+easter,-3,,,,Washing of the Feet: Lessons,gospel,John 13:1–11
+easter,-3,,,,Washing of the Feet: Lessons,gospel,John 13:12–17
+easter,-2,,,,Royal Hours: Lessons of the First Hour,ot,Zechariah 11:10–13
+easter,-2,,,,Royal Hours: Lessons of the First Hour,epistle,Galatians 6:14–18
+easter,-2,,,,Royal Hours: Lessons of the First Hour,gospel,Matthew 27:1–56
+easter,-2,,,,Royal Hours: Lessons of the Third Hour,ot,Isaiah 50:4–11
+easter,-2,,,,Royal Hours: Lessons of the Third Hour,epistle,Romans 5:6–11
+easter,-2,,,,Royal Hours: Lessons of the Third Hour,gospel,Mark 15:16–41
+easter,-2,,,,Royal Hours: Lessons of the Sixth Hour,ot,Isaiah 52:13–54:1
+easter,-2,,,,Royal Hours: Lessons of the Sixth Hour,epistle,Hebrews 2:11–18
+easter,-2,,,,Royal Hours: Lessons of the Sixth Hour,gospel,Luke 23:32–49
+easter,-2,,,,Royal Hours: Lessons of the Ninth Hour,ot,"Jeremiah 11:18–12:5, 9–11, 14–15"
+easter,-2,,,,Royal Hours: Lessons of the Ninth Hour,epistle,Hebrews 10:19–31
+easter,-2,,,,Royal Hours: Lessons of the Ninth Hour,gospel,John 18:28–19:37
+easter,-1,,,,Vespers,ot,Genesis 1:1–13
+easter,-1,,,,Vespers,ot,Isaiah 60:1–16
+easter,-1,,,,Vespers,ot,Exodus 12:1–11
+easter,-1,,,,Vespers,ot,Jonah 1:1–4:11
+easter,-1,,,,Vespers,ot,Joshua 5:10–15
+easter,-1,,,,Vespers,ot,Exodus 13:20–15:19
+easter,-1,,,,Vespers,ot,Zephaniah 3:8–15
+easter,-1,,,,Vespers,ot,1 Kings 17:8–24
+easter,-1,,,,Vespers,ot,Isaiah 61:10–62:5
+easter,-1,,,,Vespers,ot,Genesis 22:1–18
+easter,-1,,,,Vespers,ot,Isaiah 61:1–9
+easter,-1,,,,Vespers,ot,2 Kings 4:8–37
+easter,-1,,,,Vespers,ot,Isaiah 63:11–64:5
+easter,-1,,,,Vespers,ot,Jeremiah 31:31–34
+easter,-1,,,,Vespers,ot,Daniel 3:1–23; Song of the Three 1–66
+# --- Vespers of the movable feasts ---
+easter,-7,,,,Vespers,ot,"Genesis 49:1–2, 8–12"
+easter,-7,,,,Vespers,ot,Zephaniah 3:14–19
+easter,-7,,,,Vespers,ot,Zechariah 9:9–15
+easter,24,,,,Vespers,ot,"Micah 4:2–3, 5; 6:2–5, 8; 5:4–5"
+easter,24,,,,Vespers,ot,Isaiah 55:1; 12:3–4; 55:2–13
+easter,24,,,,Vespers,ot,Proverbs 9:1–11
+easter,39,,,,Vespers,ot,Isaiah 2:2–3
+easter,39,,,,Vespers,ot,"Isaiah 62:10–63:3, 7–9"
+easter,39,,,,Vespers,ot,"Zechariah 14:1, 4, 8–11"
+easter,42,,,,Vespers,ot,Genesis 14:14–20
+easter,42,,,,Vespers,ot,"Deuteronomy 1:8–11, 15–17"
+easter,42,,,,Vespers,ot,Deuteronomy 10:14–21
+easter,49,,,,Vespers,ot,"Numbers 11:16–17, 24–29"
+easter,49,,,,Vespers,ot,Joel 2:23–32
+easter,49,,,,Vespers,ot,Ezekiel 36:24–28
+easter,56,,,,Vespers,ot,Isaiah 43:9–14
+easter,56,,,,Vespers,ot,Wisdom 3:1–9
+easter,56,,,,Vespers,ot,Wisdom 5:15–6:3
+# --- The Eves of the Nativity and Theophany: the Royal Hours, Vespers and the Great Blessing of Water ---
+12-24,,,,,Royal Hours: Lessons of the First Hour,ot,Micah 5:2–4
+12-24,,,,,Royal Hours: Lessons of the First Hour,epistle,Hebrews 1:1–12
+12-24,,,,,Royal Hours: Lessons of the First Hour,gospel,Matthew 1:18–25
+12-24,,,,,Royal Hours: Lessons of the Third Hour,ot,Baruch 3:35–4:4
+12-24,,,,,Royal Hours: Lessons of the Third Hour,epistle,Galatians 3:23–29
+12-24,,,,,Royal Hours: Lessons of the Third Hour,gospel,Luke 2:1–20
+12-24,,,,,Royal Hours: Lessons of the Sixth Hour,ot,"Isaiah 7:10–16; 8:1–4, 9–10"
+12-24,,,,,Royal Hours: Lessons of the Sixth Hour,epistle,Hebrews 1:10–2:3
+12-24,,,,,Royal Hours: Lessons of the Sixth Hour,gospel,Matthew 2:1–12
+12-24,,,,,Royal Hours: Lessons of the Ninth Hour,ot,Isaiah 9:6–7
+12-24,,,,,Royal Hours: Lessons of the Ninth Hour,epistle,Hebrews 2:11–18
+12-24,,,,,Royal Hours: Lessons of the Ninth Hour,gospel,Matthew 2:13–23
+12-24,,,,,Eve of the Nativity: Vespers,ot,Genesis 1:1–13
+12-24,,,,,Eve of the Nativity: Vespers,ot,"Numbers 24:2–3, 5–9, 17–18"
+12-24,,,,,Eve of the Nativity: Vespers,ot,Micah 4:6–7; 5:2–4
+12-24,,,,,Eve of the Nativity: Vespers,ot,Isaiah 11:1–10
+12-24,,,,,Eve of the Nativity: Vespers,ot,Baruch 3:35–4:4
+12-24,,,,,Eve of the Nativity: Vespers,ot,"Daniel 2:31–36, 44–45"
+12-24,,,,,Eve of the Nativity: Vespers,ot,Isaiah 9:6–7
+12-24,,,,,Eve of the Nativity: Vespers,ot,"Isaiah 7:10–16; 8:1–4, 9–10"
+01-05,,,,,Royal Hours: Lessons of the First Hour,ot,Isaiah 35:1–10
+01-05,,,,,Royal Hours: Lessons of the First Hour,epistle,Acts 13:25–33
+01-05,,,,,Royal Hours: Lessons of the First Hour,gospel,Matthew 3:1–11
+01-05,,,,,Royal Hours: Lessons of the Third Hour,ot,Isaiah 1:16–20
+01-05,,,,,Royal Hours: Lessons of the Third Hour,epistle,Acts 19:1–8
+01-05,,,,,Royal Hours: Lessons of the Third Hour,gospel,Mark 1:1–8
+01-05,,,,,Royal Hours: Lessons of the Sixth Hour,ot,Isaiah 12:3–6
+01-05,,,,,Royal Hours: Lessons of the Sixth Hour,epistle,Romans 6:3–11
+01-05,,,,,Royal Hours: Lessons of the Sixth Hour,gospel,Mark 1:9–15
+01-05,,,,,Royal Hours: Lessons of the Ninth Hour,ot,Isaiah 49:8–15
+01-05,,,,,Royal Hours: Lessons of the Ninth Hour,epistle,Titus 2:11–14; 3:4–7
+01-05,,,,,Royal Hours: Lessons of the Ninth Hour,gospel,Matthew 3:13–17
+01-05,,,,,Eve of Theophany: Vespers,ot,Genesis 1:1–13
+01-05,,,,,Eve of Theophany: Vespers,ot,"Exodus 14:15–18, 21–23, 27–29"
+01-05,,,,,Eve of Theophany: Vespers,ot,Exodus 15:22–16:1
+01-05,,,,,Eve of Theophany: Vespers,ot,"Joshua 3:7–8, 15–17"
+01-05,,,,,Eve of Theophany: Vespers,ot,2 Kings 2:6–14
+01-05,,,,,Eve of Theophany: Vespers,ot,2 Kings 5:9–14
+01-05,,,,,Eve of Theophany: Vespers,ot,Isaiah 1:16–20
+01-05,,,,,Eve of Theophany: Vespers,ot,Genesis 32:1–10
+01-05,,,,,Eve of Theophany: Vespers,ot,Exodus 2:5–10
+01-05,,,,,Eve of Theophany: Vespers,ot,Judges 6:36–40
+01-05,,,,,Eve of Theophany: Vespers,ot,1 Kings 18:30–39
+01-05,,,,,Eve of Theophany: Vespers,ot,2 Kings 2:19–22
+01-05,,,,,Eve of Theophany: Vespers,ot,Isaiah 49:8–15
+01-05,,,,,Great Blessing of Water: Lessons,ot,Isaiah 35:1–10
+01-05,,,,,Great Blessing of Water: Lessons,ot,Isaiah 55:1–13
+01-05,,,,,Great Blessing of Water: Lessons,ot,Isaiah 12:3–6
+01-05,,,,,Great Blessing of Water: Lessons,epistle,1 Corinthians 10:1–4
+01-05,,,,,Great Blessing of Water: Lessons,gospel,Mark 1:9–11
+01-06,,,,,Great Blessing of Water: Lessons,ot,Isaiah 35:1–10
+01-06,,,,,Great Blessing of Water: Lessons,ot,Isaiah 55:1–13
+01-06,,,,,Great Blessing of Water: Lessons,ot,Isaiah 12:3–6
+01-06,,,,,Great Blessing of Water: Lessons,epistle,1 Corinthians 10:1–4
+01-06,,,,,Great Blessing of Water: Lessons,gospel,Mark 1:9–11
+# --- Vespers of the Twelve Great Feasts (sung the evening before) ---
+09-08,,,,,Nativity of the Theotokos: Vespers,ot,Genesis 28:10–17
+09-08,,,,,Nativity of the Theotokos: Vespers,ot,Ezekiel 43:27–44:4
+09-08,,,,,Nativity of the Theotokos: Vespers,ot,Proverbs 9:1–11
+09-14,,,,,Exaltation of the Cross: Vespers,ot,Exodus 15:22–16:1
+09-14,,,,,Exaltation of the Cross: Vespers,ot,Proverbs 3:11–18
+09-14,,,,,Exaltation of the Cross: Vespers,ot,Isaiah 60:11–16
+11-21,,,,,Entry of the Theotokos: Vespers,ot,Exodus 40 (selected verses)
+11-21,,,,,Entry of the Theotokos: Vespers,ot,1 Kings 7; 8 (selected verses)
+11-21,,,,,Entry of the Theotokos: Vespers,ot,Ezekiel 43:27–44:4
+02-02,,,,,Meeting of the Lord: Vespers,ot,Exodus 12; 13; Numbers 8; Leviticus 12 (selected verses)
+02-02,,,,,Meeting of the Lord: Vespers,ot,Isaiah 6:1–12
+02-02,,,,,Meeting of the Lord: Vespers,ot,"Isaiah 19:1, 3–5, 12, 16, 19–21"
+03-25,,,,,Annunciation: Vespers,ot,Exodus 3:1–8
+03-25,,,,,Annunciation: Vespers,ot,Proverbs 8:22–30
+08-06,,,,,Transfiguration: Vespers,ot,Exodus 24:12–18
+08-06,,,,,Transfiguration: Vespers,ot,"Exodus 33:11–23; 34:4–6, 8"
+08-06,,,,,Transfiguration: Vespers,ot,"1 Kings 19:3–9, 11–13, 15–16"
+08-15,,,,,Dormition of the Theotokos: Vespers,ot,Genesis 28:10–17
+08-15,,,,,Dormition of the Theotokos: Vespers,ot,Ezekiel 43:27–44:4
+08-15,,,,,Dormition of the Theotokos: Vespers,ot,Proverbs 9:1–11
+# --- Vespers of the saints and feasts of the Menaion: not on the Ascension, nor in Holy and Bright Weeks (two rows, before and after them) ---
+09-01,,date ne easter+39,,,Church New Year: Vespers,ot,Isaiah 61:1–9
+09-01,,date ne easter+39,,,Church New Year: Vespers,ot,Leviticus 26 (selected verses)
+09-01,,date ne easter+39,,,Church New Year: Vespers,ot,Wisdom 4:7–15
+09-13,,date ne easter+39,,,Dedication of the Church of the Resurrection: Vespers,ot,"1 Kings 8:22–23, 27–30"
+09-13,,date ne easter+39,,,Dedication of the Church of the Resurrection: Vespers,ot,Proverbs 3:19–34
+09-13,,date ne easter+39,,,Dedication of the Church of the Resurrection: Vespers,ot,Proverbs 9:1–11
+09-24,,date ne easter+39,,eastern-orthodox,Juvenaly and Peter the Aleut: Vespers,ot,Isaiah 43:9–14
+09-24,,date ne easter+39,,eastern-orthodox,Juvenaly and Peter the Aleut: Vespers,ot,Wisdom 3:1–9
+09-24,,date ne easter+39,,eastern-orthodox,Juvenaly and Peter the Aleut: Vespers,ot,Wisdom 5:15–6:3
+09-25,,date ne easter+39,,,Sergius of Radonezh: Vespers,ot,Proverbs 10; 3; 8 (selected verses)
+09-25,,date ne easter+39,,,Sergius of Radonezh: Vespers,ot,Proverbs 10:31–11:12
+09-25,,date ne easter+39,,,Sergius of Radonezh: Vespers,ot,Wisdom 3:1–9
+09-26,,date ne easter+39,,,Repose of John the Theologian: Vespers,epistle,1 John 3:21–4:6
+09-26,,date ne easter+39,,,Repose of John the Theologian: Vespers,epistle,1 John 4:11–16
+09-26,,date ne easter+39,,,Repose of John the Theologian: Vespers,epistle,1 John 4:20–5:5
+09-28,,date ne easter+39,,,Chariton the Confessor: Vespers,ot,Wisdom 5:15–6:3
+09-28,,date ne easter+39,,,Chariton the Confessor: Vespers,ot,Wisdom 3:1–9
+09-28,,date ne easter+39,,,Chariton the Confessor: Vespers,ot,Wisdom 4:7–15
+10-01,,date ne easter+39,,,Protection of the Theotokos: Vespers,ot,Genesis 28:10–17
+10-01,,date ne easter+39,,,Protection of the Theotokos: Vespers,ot,Ezekiel 43:27–44:4
+10-01,,date ne easter+39,,,Protection of the Theotokos: Vespers,ot,Proverbs 9:1–11
+10-06,,date ne easter+39,,eastern-orthodox,Innocent of Alaska: Vespers,ot,Proverbs 10; 3; 8 (selected verses)
+10-06,,date ne easter+39,,eastern-orthodox,Innocent of Alaska: Vespers,ot,Wisdom 4; 5 (selected verses)
+10-06,,date ne easter+39,,eastern-orthodox,Innocent of Alaska: Vespers,ot,Proverbs 10; Wisdom 6; 7; 8; 9 (selected verses)
+10-09,,date ne easter+39,,eastern-orthodox,Tikhon of Moscow: Vespers,ot,Wisdom 3:1–9
+10-09,,date ne easter+39,,eastern-orthodox,Tikhon of Moscow: Vespers,ot,Wisdom 5:15–6:3
+10-09,,date ne easter+39,,eastern-orthodox,Tikhon of Moscow: Vespers,ot,Wisdom 4:7–15
+10-18,,date ne easter+39,,,Luke the Evangelist: Vespers,epistle,1 John 1:1–7
+10-18,,date ne easter+39,,,Luke the Evangelist: Vespers,epistle,James 1:1–12
+10-18,,date ne easter+39,,,Luke the Evangelist: Vespers,epistle,"Jude 1:1–7, 17–25"
+10-26,,date ne easter+39,,,Demetrios the Myrrh-streamer: Vespers,ot,"Isaiah 63:15–64:5, 8–9"
+10-26,,date ne easter+39,,,Demetrios the Myrrh-streamer: Vespers,ot,Jeremiah 2:2–12
+10-26,,date ne easter+39,,,Demetrios the Myrrh-streamer: Vespers,ot,Wisdom 4:7–15
+11-08,,date ne easter+39,,,Synaxis of the Archangels: Vespers,ot,Joshua 5:13–15
+11-08,,date ne easter+39,,,Synaxis of the Archangels: Vespers,ot,"Judges 6:2, 7, 11–24"
+11-08,,date ne easter+39,,,Synaxis of the Archangels: Vespers,ot,Isaiah 14:7–20
+11-13,,date ne easter+39,,,John Chrysostom: Vespers,ot,Proverbs 10; 3; 8 (selected verses)
+11-13,,date ne easter+39,,,John Chrysostom: Vespers,ot,Proverbs 10; Wisdom 6; 7; 8; 9 (selected verses)
+11-13,,date ne easter+39,,,John Chrysostom: Vespers,ot,Wisdom 4; 6; 7; 2 (selected verses)
+11-16,,date ne easter+39,,,Matthew the Evangelist: Vespers,epistle,1 Peter 1:1–2:6
+11-16,,date ne easter+39,,,Matthew the Evangelist: Vespers,epistle,1 Peter 2:21–3:9
+11-16,,date ne easter+39,,,Matthew the Evangelist: Vespers,epistle,1 Peter 4:1–11
+11-30,,date ne easter+39,,,Andrew the First-called: Vespers,epistle,1 Peter 1:1–2:6
+11-30,,date ne easter+39,,,Andrew the First-called: Vespers,epistle,1 Peter 2:21–3:9
+11-30,,date ne easter+39,,,Andrew the First-called: Vespers,epistle,1 Peter 4:1–11
+12-05,,date ne easter+39,,,Sabbas the Sanctified: Vespers,ot,Wisdom 3:1–9
+12-05,,date ne easter+39,,,Sabbas the Sanctified: Vespers,ot,Wisdom 5:15–6:3
+12-05,,date ne easter+39,,,Sabbas the Sanctified: Vespers,ot,Wisdom 4:7–15
+12-06,,date ne easter+39,,,Nicholas the Wonderworker: Vespers,ot,Proverbs 10; 3; 8 (selected verses)
+12-06,,date ne easter+39,,,Nicholas the Wonderworker: Vespers,ot,Proverbs 10:31–11:12
+12-06,,date ne easter+39,,,Nicholas the Wonderworker: Vespers,ot,Wisdom 4:7–15
+12-13,,date ne easter+39,,eastern-orthodox,Herman of Alaska: Vespers,ot,Wisdom 3:1–9
+12-13,,date ne easter+39,,eastern-orthodox,Herman of Alaska: Vespers,ot,Wisdom 5:15–6:3
+12-13,,date ne easter+39,,eastern-orthodox,Herman of Alaska: Vespers,ot,Wisdom 4:7–15
+01-01,,date ne easter+39,,,Circumcision: Vespers,ot,"Genesis 17:1–2, 4–12, 14"
+01-01,,date ne easter+39,,,Circumcision: Vespers,ot,Proverbs 8:22–30
+01-01,,date ne easter+39,,,Circumcision: Vespers,ot,Proverbs 10:31–11:12
+01-02,,date ne easter+39,,,Seraphim of Sarov: Vespers,ot,Wisdom 3:1–9
+01-02,,date ne easter+39,,,Seraphim of Sarov: Vespers,ot,Wisdom 5:15–6:3
+01-02,,date ne easter+39,,,Seraphim of Sarov: Vespers,ot,Wisdom 4:7–15
+01-11,,date ne easter+39,,,Theodosius the Great: Vespers,ot,Wisdom 3:1–9
+01-11,,date ne easter+39,,,Theodosius the Great: Vespers,ot,Wisdom 5:15–6:3
+01-11,,date ne easter+39,,,Theodosius the Great: Vespers,ot,Wisdom 4:7–15
+01-17,,date ne easter+39,,,Anthony the Great: Vespers,ot,Wisdom 5:15–6:3
+01-17,,date ne easter+39,,,Anthony the Great: Vespers,ot,Wisdom 3:1–9
+01-17,,date ne easter+39,,,Anthony the Great: Vespers,ot,Wisdom 4:7–15
+01-20,,date ne easter+39,,,Euthymius the Great: Vespers,ot,Wisdom 5:15–6:3
+01-20,,date ne easter+39,,,Euthymius the Great: Vespers,ot,Wisdom 3:1–9
+01-20,,date ne easter+39,,,Euthymius the Great: Vespers,ot,Wisdom 4:7–15
+01-25,,date ne easter+39,,,Gregory the Theologian: Vespers,ot,Proverbs 10; 3; 8 (selected verses)
+01-25,,date ne easter+39,,,Gregory the Theologian: Vespers,ot,Proverbs 10; Wisdom 6; 7; 8; 9 (selected verses)
+01-25,,date ne easter+39,,,Gregory the Theologian: Vespers,ot,Wisdom 4:7–15
+01-27,,date ne easter+39,,,Relics of John Chrysostom: Vespers,ot,Proverbs 10; 3; 8 (selected verses)
+01-27,,date ne easter+39,,,Relics of John Chrysostom: Vespers,ot,Proverbs 10; Wisdom 6; 7; 8; 9 (selected verses)
+01-27,,date ne easter+39,,,Relics of John Chrysostom: Vespers,ot,Wisdom 4; 6; 7; 2 (selected verses)
+01-30,,date ne easter+39,,,Three Holy Hierarchs: Vespers,ot,"Deuteronomy 1:8–11, 15–17"
+01-30,,date ne easter+39,,,Three Holy Hierarchs: Vespers,ot,Deuteronomy 10:14–21
+01-30,,date ne easter+39,,,Three Holy Hierarchs: Vespers,ot,Wisdom 3:1–9
+02-24,,date ne easter+39,,,Finding of the Forerunner's Head: Vespers,ot,Isaiah 40; 41; 45; 48; 54 (selected verses)
+02-24,,date ne easter+39,,,Finding of the Forerunner's Head: Vespers,ot,Malachi 3; 4 (selected verses)
+02-24,,date ne easter+39,,,Finding of the Forerunner's Head: Vespers,ot,Wisdom 4; 5 (selected verses)
+02-27,,date ne easter+39,,eastern-orthodox,Raphael of Brooklyn: Vespers,ot,Proverbs 10; 3; 8 (selected verses)
+02-27,,date ne easter+39,,eastern-orthodox,Raphael of Brooklyn: Vespers,ot,Proverbs 10:31–11:12
+02-27,,date ne easter+39,,eastern-orthodox,Raphael of Brooklyn: Vespers,ot,Wisdom 4:7–15
+03-09,,date ne easter+39,,,Forty Martyrs of Sebaste: Vespers,ot,Isaiah 43:9–14
+03-09,,date ne easter+39,,,Forty Martyrs of Sebaste: Vespers,ot,Wisdom 3:1–9
+03-09,,date ne easter+39,,,Forty Martyrs of Sebaste: Vespers,ot,Wisdom 5:15–6:3
+04-23,,date ne easter+39 & date lt easter-6,,,George the Great-martyr: Vespers,ot,Isaiah 43:9–14
+04-23,,date ne easter+39 & date lt easter-6,,,George the Great-martyr: Vespers,ot,Wisdom 3:1–9
+04-23,,date ne easter+39 & date lt easter-6,,,George the Great-martyr: Vespers,ot,Wisdom 4:7–15
+04-23,,date ne easter+39 & date gt easter+6,,,George the Great-martyr: Vespers,ot,Isaiah 43:9–14
+04-23,,date ne easter+39 & date gt easter+6,,,George the Great-martyr: Vespers,ot,Wisdom 3:1–9
+04-23,,date ne easter+39 & date gt easter+6,,,George the Great-martyr: Vespers,ot,Wisdom 4:7–15
+04-25,,date ne easter+39 & date lt easter-6,,,Mark the Evangelist: Vespers,epistle,James 1:1–12
+04-25,,date ne easter+39 & date lt easter-6,,,Mark the Evangelist: Vespers,epistle,James 1:13–27
+04-25,,date ne easter+39 & date lt easter-6,,,Mark the Evangelist: Vespers,epistle,James 2:1–13
+04-25,,date ne easter+39 & date gt easter+6,,,Mark the Evangelist: Vespers,epistle,James 1:1–12
+04-25,,date ne easter+39 & date gt easter+6,,,Mark the Evangelist: Vespers,epistle,James 1:13–27
+04-25,,date ne easter+39 & date gt easter+6,,,Mark the Evangelist: Vespers,epistle,James 2:1–13
+04-30,,date ne easter+39 & date lt easter-6,,,James the Apostle: Vespers,epistle,James 1:1–12
+04-30,,date ne easter+39 & date lt easter-6,,,James the Apostle: Vespers,epistle,James 1:13–27
+04-30,,date ne easter+39 & date lt easter-6,,,James the Apostle: Vespers,epistle,James 2:1–13
+04-30,,date ne easter+39 & date gt easter+6,,,James the Apostle: Vespers,epistle,James 1:1–12
+04-30,,date ne easter+39 & date gt easter+6,,,James the Apostle: Vespers,epistle,James 1:13–27
+04-30,,date ne easter+39 & date gt easter+6,,,James the Apostle: Vespers,epistle,James 2:1–13
+05-03,,date ne easter+39 & date lt easter-6,,,Theodosius of the Kiev Caves: Vespers,ot,Wisdom 5:15–6:3
+05-03,,date ne easter+39 & date lt easter-6,,,Theodosius of the Kiev Caves: Vespers,ot,Wisdom 3:1–9
+05-03,,date ne easter+39 & date lt easter-6,,,Theodosius of the Kiev Caves: Vespers,ot,Wisdom 4:7–15
+05-03,,date ne easter+39 & date gt easter+6,,,Theodosius of the Kiev Caves: Vespers,ot,Wisdom 5:15–6:3
+05-03,,date ne easter+39 & date gt easter+6,,,Theodosius of the Kiev Caves: Vespers,ot,Wisdom 3:1–9
+05-03,,date ne easter+39 & date gt easter+6,,,Theodosius of the Kiev Caves: Vespers,ot,Wisdom 4:7–15
+05-07,,date ne easter+39 & date lt easter-6,,eastern-orthodox,Alexis Toth: Vespers,ot,Proverbs 10; 3; 8 (selected verses)
+05-07,,date ne easter+39 & date lt easter-6,,eastern-orthodox,Alexis Toth: Vespers,ot,Proverbs 10; Wisdom 6; 7; 8; 9 (selected verses)
+05-07,,date ne easter+39 & date lt easter-6,,eastern-orthodox,Alexis Toth: Vespers,ot,Wisdom 4; 6; 7; 2 (selected verses)
+05-07,,date ne easter+39 & date gt easter+6,,eastern-orthodox,Alexis Toth: Vespers,ot,Proverbs 10; 3; 8 (selected verses)
+05-07,,date ne easter+39 & date gt easter+6,,eastern-orthodox,Alexis Toth: Vespers,ot,Proverbs 10; Wisdom 6; 7; 8; 9 (selected verses)
+05-07,,date ne easter+39 & date gt easter+6,,eastern-orthodox,Alexis Toth: Vespers,ot,Wisdom 4; 6; 7; 2 (selected verses)
+05-08,,date ne easter+39 & date lt easter-6,,,John the Theologian: Vespers,epistle,1 John 3:21–4:6
+05-08,,date ne easter+39 & date lt easter-6,,,John the Theologian: Vespers,epistle,1 John 4:11–16
+05-08,,date ne easter+39 & date lt easter-6,,,John the Theologian: Vespers,epistle,1 John 4:20–5:5
+05-08,,date ne easter+39 & date gt easter+6,,,John the Theologian: Vespers,epistle,1 John 3:21–4:6
+05-08,,date ne easter+39 & date gt easter+6,,,John the Theologian: Vespers,epistle,1 John 4:11–16
+05-08,,date ne easter+39 & date gt easter+6,,,John the Theologian: Vespers,epistle,1 John 4:20–5:5
+05-10,,date ne easter+39 & date lt easter-6,,,Simon the Zealot: Vespers,epistle,1 John 3:21–4:6
+05-10,,date ne easter+39 & date lt easter-6,,,Simon the Zealot: Vespers,epistle,1 John 4:11–16
+05-10,,date ne easter+39 & date lt easter-6,,,Simon the Zealot: Vespers,epistle,1 John 4:20–5:5
+05-10,,date ne easter+39 & date gt easter+6,,,Simon the Zealot: Vespers,epistle,1 John 3:21–4:6
+05-10,,date ne easter+39 & date gt easter+6,,,Simon the Zealot: Vespers,epistle,1 John 4:11–16
+05-10,,date ne easter+39 & date gt easter+6,,,Simon the Zealot: Vespers,epistle,1 John 4:20–5:5
+05-11,,date ne easter+39 & date lt easter-6,,,Cyril and Methodius: Vespers,ot,Proverbs 10; 3; 8 (selected verses)
+05-11,,date ne easter+39 & date lt easter-6,,,Cyril and Methodius: Vespers,ot,Proverbs 10:31–11:12
+05-11,,date ne easter+39 & date lt easter-6,,,Cyril and Methodius: Vespers,ot,Wisdom 4:7–15
+05-11,,date ne easter+39 & date gt easter+6,,,Cyril and Methodius: Vespers,ot,Proverbs 10; 3; 8 (selected verses)
+05-11,,date ne easter+39 & date gt easter+6,,,Cyril and Methodius: Vespers,ot,Proverbs 10:31–11:12
+05-11,,date ne easter+39 & date gt easter+6,,,Cyril and Methodius: Vespers,ot,Wisdom 4:7–15
+05-21,,date ne easter+39,,,Constantine and Helen: Vespers,ot,"1 Kings 8:22–23, 27–30"
+05-21,,date ne easter+39,,,Constantine and Helen: Vespers,ot,Isaiah 61:10–62:5
+05-21,,date ne easter+39,,,Constantine and Helen: Vespers,ot,Isaiah 60:1–16
+05-25,,date ne easter+39,,,Third Finding of the Forerunner's Head: Vespers,ot,Isaiah 40; 41; 45; 48; 54 (selected verses)
+05-25,,date ne easter+39,,,Third Finding of the Forerunner's Head: Vespers,ot,Malachi 3; 4 (selected verses)
+05-25,,date ne easter+39,,,Third Finding of the Forerunner's Head: Vespers,ot,Wisdom 4; 5 (selected verses)
+06-11,,date ne easter+39,,,Bartholomew and Barnabas: Vespers,epistle,1 Peter 1:3–9
+06-11,,date ne easter+39,,,Bartholomew and Barnabas: Vespers,epistle,1 Peter 1:13–19
+06-11,,date ne easter+39,,,Bartholomew and Barnabas: Vespers,epistle,1 Peter 2:11–24
+06-19,,date ne easter+39,,,"Jude, Brother of the Lord: Vespers",epistle,Jude 1:1–10
+06-19,,date ne easter+39,,,"Jude, Brother of the Lord: Vespers",epistle,Jude 1:11–16
+06-19,,date ne easter+39,,,"Jude, Brother of the Lord: Vespers",epistle,Jude 1:17–25
+06-24,,date ne easter+39,,,Nativity of the Forerunner: Vespers,ot,"Genesis 17:15–17, 19; 18:11–14; 21:1–8"
+06-24,,date ne easter+39,,,Nativity of the Forerunner: Vespers,ot,"Judges 13:2–8, 13–14, 17–18, 21"
+06-24,,date ne easter+39,,,Nativity of the Forerunner: Vespers,ot,Isaiah 40; 41; 45; 48; 54 (selected verses)
+06-29,,date ne easter+39,,,Peter and Paul: Vespers,epistle,1 Peter 1:3–9
+06-29,,date ne easter+39,,,Peter and Paul: Vespers,epistle,1 Peter 1:13–19
+06-29,,date ne easter+39,,,Peter and Paul: Vespers,epistle,1 Peter 2:11–24
+06-30,,date ne easter+39,,,Synaxis of the Twelve Apostles: Vespers,ot,Isaiah 43:9–14
+06-30,,date ne easter+39,,,Synaxis of the Twelve Apostles: Vespers,ot,Wisdom 3:1–9
+06-30,,date ne easter+39,,,Synaxis of the Twelve Apostles: Vespers,ot,Wisdom 5:15–6:3
+07-05,,date ne easter+39,,,Athanasius of Athos: Vespers,ot,Wisdom 3:1–9
+07-05,,date ne easter+39,,,Athanasius of Athos: Vespers,ot,Wisdom 5:15–6:3
+07-05,,date ne easter+39,,,Athanasius of Athos: Vespers,ot,Wisdom 4:7–15
+07-10,,date ne easter+39,,,Anthony of the Kiev Caves: Vespers,ot,Wisdom 3:1–9
+07-10,,date ne easter+39,,,Anthony of the Kiev Caves: Vespers,ot,Wisdom 5:15–6:3
+07-10,,date ne easter+39,,,Anthony of the Kiev Caves: Vespers,ot,Wisdom 4:7–15
+07-15,,date ne easter+39,,,Volodymyr the Great: Vespers,ot,"1 Kings 8:22–23, 27–30"
+07-15,,date ne easter+39,,,Volodymyr the Great: Vespers,ot,Isaiah 61:10–62:5
+07-15,,date ne easter+39,,,Volodymyr the Great: Vespers,ot,Isaiah 60:1–16
+07-19,,date ne easter+39,,,Relics of Seraphim of Sarov: Vespers,ot,Wisdom 3:1–9
+07-19,,date ne easter+39,,,Relics of Seraphim of Sarov: Vespers,ot,Wisdom 5:15–6:3
+07-19,,date ne easter+39,,,Relics of Seraphim of Sarov: Vespers,ot,Wisdom 4:7–15
+07-20,,date ne easter+39,,,Elijah the Prophet: Vespers,ot,1 Kings 17:1–23
+07-20,,date ne easter+39,,,Elijah the Prophet: Vespers,ot,1 Kings 18; 19 (selected verses)
+07-20,,date ne easter+39,,,Elijah the Prophet: Vespers,ot,"1 Kings 19:19–21; 2 Kings 2:1, 6–14"
+07-24,,date ne easter+39,,,Boris and Gleb: Vespers,ot,Isaiah 43:9–14
+07-24,,date ne easter+39,,,Boris and Gleb: Vespers,ot,Wisdom 3:1–9
+07-24,,date ne easter+39,,,Boris and Gleb: Vespers,ot,Wisdom 4:7–15
+07-26,,date ne easter+39,,eastern-orthodox,Jacob Netsvetov: Vespers,ot,Wisdom 5:15–6:3
+07-26,,date ne easter+39,,eastern-orthodox,Jacob Netsvetov: Vespers,epistle,1 John 4:1–6
+07-26,,date ne easter+39,,eastern-orthodox,Jacob Netsvetov: Vespers,epistle,1 John 4:20–5:5
+08-09,,date ne easter+39,,eastern-orthodox,Herman of Alaska: Vespers,ot,Wisdom 3:1–9
+08-09,,date ne easter+39,,eastern-orthodox,Herman of Alaska: Vespers,ot,Wisdom 5:15–6:3
+08-09,,date ne easter+39,,eastern-orthodox,Herman of Alaska: Vespers,ot,Wisdom 4:7–15
+08-13,,date ne easter+39,,,Tikhon of Zadonsk: Vespers,ot,Proverbs 10; 3; 8 (selected verses)
+08-13,,date ne easter+39,,,Tikhon of Zadonsk: Vespers,ot,Proverbs 10:31–11:12
+08-13,,date ne easter+39,,,Tikhon of Zadonsk: Vespers,ot,Wisdom 4:7–15
+08-28,,date ne easter+39,,,Moses the Black: Vespers,ot,Wisdom 3:1–9
+08-28,,date ne easter+39,,,Moses the Black: Vespers,ot,Wisdom 5:15–6:3
+08-28,,date ne easter+39,,,Moses the Black: Vespers,ot,Wisdom 4:7–15
+08-29,,date ne easter+39,,,Beheading of the Forerunner: Vespers,ot,Isaiah 40; 41; 45; 48; 54 (selected verses)
+08-29,,date ne easter+39,,,Beheading of the Forerunner: Vespers,ot,Malachi 3; 4 (selected verses)
+08-29,,date ne easter+39,,,Beheading of the Forerunner: Vespers,ot,Wisdom 4; 5 (selected verses)

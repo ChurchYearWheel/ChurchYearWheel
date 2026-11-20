@@ -1,0 +1,13 @@
+id,date,name,full_name,rank,style,color_override,color_override_bottom,icon,icon_when,transfer,variant,when,action
+,01-13,St. Kentigern,Saint Kentigern,11,memorial,,,,,,,,
+sts_cyril_and_methodius,,,"Saints Cyril, Monk and Methodius",8,feast_rank,WHITE,,,,,,,
+,03-10,St. John Ogilvie,Saint John Ogilvie,8,feast_rank,WHITE,,,,,,,
+st_patrick,,,Saint Patrick,8,feast_rank,WHITE,,,,,,,
+st_catherine_of_siena,,,Saint Catherine of Siena,8,feast_rank,WHITE,,,,,,,
+,06-09,St. Columba,Saint Columba,11,memorial,,,,,,,,
+st_benedict,,,Saint Benedict,8,feast_rank,WHITE,,,,,,,
+,07-23,St. Birgitta,Saint Birgitta,8,feast_rank,WHITE,,,,,,,
+st_teresa_benedicta_of_the_cross,,,Saint Teresa Benedicta of the Cross (Edith Stein),8,feast_rank,RED,,,,,,,
+,09-16,St. Ninian,Saint Ninian,11,memorial,,,,,,,,
+st_margaret_of_scotland,,,Saint Margaret of Scotland,8,feast_rank,WHITE,,,,,,,
+st_andrew,,,Saint Andrew the Apostle,4,solemnity,RED,,,,,,,

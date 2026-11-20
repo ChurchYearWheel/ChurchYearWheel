@@ -1,0 +1,60 @@
+id,variant,when,date,from,to,every,first,count,first2,count2,title,names,notes,latin,color,color_bottom,rank,style,icon,claims,yield,full_name
+# ===========================================================================,,,,,,,,,,,,,,,,,,,,,,
+# The year of the Armenian Apostolic Church: the five Tabernacle feasts,,,,,,,,,,,,,,,,,,,,,,
+"# (Theophany, Easter, Transfiguration, Assumption and the Exaltation of the",,,,,,,,,,,,,,,,,,,,,,
+"# Cross), each with its Sundays after, and the many feasts kept on a set weekday",,,,,,,,,,,,,,,,,,,,,,
+# counted from them.,,,,,,,,,,,,,,,,,,,,,,
+# ===========================================================================,,,,,,,,,,,,,,,,,,,,,,
+"# The year begins with Advent (Hisnak) on its First Sunday, the Sunday nearest",,,,,,,,,,,,,,,,,,,,,,
+# 25 November; its fifty days of fasting begin the Monday after the Sunday,,,,,,,,,,,,,,,,,,,,,,
+# nearest 18 November and end with the Nativity and Theophany on 6 January.,,,,,,,,,,,,,,,,,,,,,,
+# The Sundays after the Nativity are counted from its octave (the Armenian,,,,,,,,,,,,,,,,,,,,,,
+# Prelacy's lectionary).,,,,,,,,,,,,,,,,,,,,,,
+advent,,,,start,01-05,sun,1,,,,{ordinal} Sunday of Advent,,,,,,,,,,,
+theophany_eve,,,01-05,,,,,,,,Eve of the Nativity,,,,,,,,,,,Eve of the Nativity and Theophany (Khtum)
+theophany,,,01-06,,,,,,,,Nativity and Theophany,,,,WHITE,,,,,TRUE,,The Nativity and Theophany of our Lord Jesus Christ (Astvatsahaytnutyun)
+theophany_dead,,,01-07,,,,,,,,Remembrance of the Dead,,,,,,,,,,,
+naming,,,01-13,,,,,,,,Naming of the Lord,,,,,,,,,,,The Naming of our Lord Jesus Christ
+after_nativity,,,,@theophany+8,easter-56,sun,1,,,,{ordinal} Sunday after Nativity,,,,,,,,,,,
+catechumens,,,easter-69,,,,,,,,Fast of the Catechumens,,,,,,,,,,,"Fast of the Catechumens (Arajavorats), Monday to Friday"
+sarkis,,,easter-64,,,,,,,,St Sarkis the Warrior,,,,,,,,,,,"St Sarkis the Warrior, his son Martiros and his fourteen soldiers"
+vartanants,,,easter-52,,,,,,,,Vartanants,,,,RED,,,,,,,St Vartan Mamikonian and his companions (Vartanants)
+barekendan,,,easter-49,,,,,,,,Great Barekendan,,,,,,,,,TRUE,,Great Barekendan (Poon Barekendan): the eve of Great Lent
+lent_begins,,,easter-48,,,,,,,,Great Lent begins,,,,,,,,,,,
+expulsion,,,easter-42,,,,,,,,Sunday of the Expulsion,,,,,,,,,TRUE,,Second Sunday of Great Lent: the Expulsion (Artaksman)
+prodigal,,,easter-35,,,,,,,,Sunday of the Prodigal Son,,,,,,,,,TRUE,,Third Sunday of Great Lent: the Prodigal Son (Anarakn)
+steward,,,easter-28,,,,,,,,Sunday of the Steward,,,,,,,,,TRUE,,Fourth Sunday of Great Lent: the Steward (Tntesn)
+judge,,,easter-21,,,,,,,,Sunday of the Judge,,,,,,,,,TRUE,,Fifth Sunday of Great Lent: the Judge (Datavori)
+advent_lent,,,easter-14,,,,,,,,Sunday of the Advent,,,,,,,,,TRUE,,Sixth Sunday of Great Lent: the Coming (Galstyan)
+lazarus,,,easter-8,,,,,,,,Lazarus Saturday,,,,,,,,,,,
+palm_sunday,,,easter-7,,,,,,,,Palm Sunday,,,,WHITE,,,,,TRUE,,Palm Sunday (Tsaghkazard)
+holy_thursday,,,easter-3,,,,,,,,Holy Thursday,,,,,,,,,,,Holy Thursday: the Last Supper
+holy_friday,,,easter-2,,,,,,,,Holy Friday,,,,,,,,,,,
+easter_eve,,,easter-1,,,,,,,,Holy Saturday,,,,BLACK,WHITE,,,,,,Holy Saturday: the Eve of the Resurrection (Jrakalouyts)
+easter,,,easter,,,,,,,,Easter,,,,WHITE,,,,,TRUE,,Resurrection of our Lord Jesus Christ (Zatik)
+easter_dead,,,easter+1,,,,,,,,Remembrance of the Dead,,,,,,,,,,,
+new_sunday,,,easter+7,,,,,,,,New Sunday,,,,,,,,,TRUE,,New Sunday (Nor Kiraki)
+green_sunday,,,easter+14,,,,,,,,Green Sunday,,,,,,,,,TRUE,,Sunday of the World Church (Kanach Kiraki)
+red_sunday,,,easter+21,,,,,,,,Red Sunday,,,,,,,,,TRUE,,Red Sunday (Karmir Kiraki)
+eastertide,,,,easter+28,easter+35,sun,5,,,,{ordinal} Sunday of Eastertide,,,,,,,,,,,
+ascension,,,easter+39,,,,,,,,Ascension,,,,WHITE,,,,,,,Ascension of our Lord (Hambardzum)
+second_palm,,,easter+42,,,,,,,,Second Palm Sunday,,,,,,,,,TRUE,,
+pentecost,,,easter+49,,,,,,,,Pentecost,,,,WHITE,,,,,TRUE,,Pentecost: the Descent of the Holy Spirit (Hogegalust)
+gregory_pit,,,easter+62,,,,,,,,St Gregory: Deliverance from the Pit,,,,,,,,,,,St Gregory the Illuminator: Deliverance from the Pit
+etchmiadzin,,,easter+63,,,,,,,,Holy Etchmiadzin,,,,,,,,,TRUE,,Feast of the Consecration of Holy Etchmiadzin (Shoghakat)
+after_pentecost,,,,easter+56,easter+97,sun,1,,,,{ordinal} Sunday after Pentecost,,,,,,,,,,,
+gregory_relics,,,easter+76,,,,,,,,St Gregory: Discovery of the Relics,,,,,,,,,,,St Gregory the Illuminator: Discovery of his Relics
+translators_summer,,,easter+81,,,,,,,,Sts Sahak and Mesrop,,,,,,,,,,,The Holy Translators Sahak and Mesrop
+transfiguration,,,easter+98,,,,,,,,Transfiguration,,,,WHITE,,,,,TRUE,,Transfiguration of our Lord (Vardavar)
+transfiguration_dead,,,easter+99,,,,,,,,Remembrance of the Dead,,,,,,,,,,,
+thaddeus,,,easter+104,,,,,,,,Sts Thaddeus and Sandukht,,,,,,,,,,,"St Thaddeus, Apostle of Armenia, and St Sandukht the Virgin"
+after_transfiguration,,,,easter+105,@assumption-1,sun,2,,,,{ordinal} Sunday after Transfiguration,,,,,,,,,,,
+assumption,,,sun>=08-12,,,,,,,,Assumption,,,,WHITE,,,,,TRUE,,Assumption of the Holy Mother of God (Verapokhum); blessing of grapes
+assumption_dead,,,@assumption+1,,,,,,,,Remembrance of the Dead,,,,,,,,,,,
+after_assumption,,,,@assumption+1,@exaltation-1,sun,1,,,,{ordinal} Sunday after the Assumption,,,,,,,,,,,
+exaltation,,,sun>=09-11,,,,,,,,Exaltation of the Cross,,,,WHITE,,,,,TRUE,,Exaltation of the Holy Cross (Khachverats)
+exaltation_dead,,,@exaltation+1,,,,,,,,Remembrance of the Dead,,,,,,,,,,,
+varak,,,@exaltation+14,,,,,,,,Holy Cross of Varak,,,,,,,,,TRUE,,
+discovery_cross,,,sun>=10-23,,,,,,,,Discovery of the Holy Cross,,,,,,,,,TRUE,,Discovery of the Holy Cross (Gyut Khach)
+translators,,,sat#2:10,,,,,,,,Holy Translators,,,,,,,,,,,"The Holy Translators: Mesrop, Yeghishe, Movses Khorenatsi, David, Gregory of Narek, Nerses Shnorhali"
+after_cross,,,,@exaltation+1,end,sun,2,,,,{ordinal} Sunday after the Holy Cross,,,,,,,,,,,

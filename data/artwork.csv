@@ -1,0 +1,36 @@
+key,label,file,title,author,license,license_url,source_url,changes,attribution,scale
+# ===========================================================================
+# The pictures the middle of the wheel can hold.  config.csv's center_svg
+"# names one by key (or `auto`, for the tradition's own, from its"
+"# tradition.csv), and the page offers them all in its Artwork menu.  Each"
+"# one's author, license and source are shown with it; see artwork/CREDITS.md."
+# `attribution` = required: the license asks for credit wherever the picture
+"# is shown, so the drawing carries it too (see artwork_credit in config.csv)."
+"# `owner`: a church's own emblem, credited to the church; a church using its"
+# own emblem may leave the credit off (page_footer = none).
+"# `scale` sizes a picture inside the circle (blank = 1, filling its width or"
+# height).  Each is set so the picture's farthest point reaches 92% of the way
+# to the month ring; the round seals (blank) fill the circle exactly.
+# ===========================================================================
+lutherrose,Luther rose,artwork/Luther_Rose.svg,"Luther rose: the black cross in a red heart on a white rose, in a sky-blue field within a gold ring",drawn for this project,CC0 1.0,https://creativecommons.org/publicdomain/zero/1.0/,,drawn from geometry (tools/make_emblems.py),,
+orthodox_cross,Orthodox cross,artwork/Orthodox_Cross_Roundel.svg,"Russian Orthodox cross, in gold on a purple sunburst",Ariane Schmidt; roundel for this project,Public domain,https://commons.wikimedia.org/wiki/File:OrthodoxCross.svg,https://commons.wikimedia.org/wiki/File:OrthodoxCross.svg,"editor metadata removed, viewBox added, coordinates rounded; foot's ends cut upright; set in gold on a sunburst within a gold ring (tools/make_emblems.py, from artwork/sources/OrthodoxCross.svg)",,
+armenian_cross,Armenian cross,artwork/Armenian_Cross_Roundel.svg,"Armenian Cross (emblem of belief for U.S. VA headstones), in gold on a red-orange sunburst",U.S. Department of Veterans Affairs; roundel for this project,Public domain,https://commons.wikimedia.org/wiki/File:USVA_headstone_emblem_Armenian_Cross.svg,https://commons.wikimedia.org/wiki/File:USVA_headstone_emblem_Armenian_Cross.svg,"editor metadata removed; set in gold on a sunburst within a gold ring (tools/make_emblems.py, from artwork/sources/Armenian_Cross.svg)",,
+syriac_cross,Syriac cross,artwork/Syriac_Cross_Roundel.svg,"Western Syriac Cross, in gold on a burgundy sunburst",Rafy; roundel for this project,Public domain,https://commons.wikimedia.org/wiki/File:Western_Syriac_Cross.svg,https://commons.wikimedia.org/wiki/File:Western_Syriac_Cross.svg,"path made absolute and rounded to whole units; set in gold on a sunburst within a gold ring (tools/make_emblems.py, from artwork/sources/Western_Syriac_Cross.svg)",,
+coptic_cross,Coptic cross,artwork/Coptic_Cross_Roundel.svg,"Coptic cross, in gold on a blue sunburst",drawn for this project,Public domain,,,"set in gold on a sunburst within a gold ring (tools/make_emblems.py, from artwork/sources/Coptic_Cross.svg)",,
+ethiopian_cross,Ethiopian cross,artwork/Ethiopian_Cross_Roundel.svg,"Ethiopian-style cross, in gold and red on a green sunburst",drawn for this project,Public domain,,,"set in gold on a sunburst within a gold ring (tools/make_emblems.py, from artwork/sources/Ethiopian_Cross.svg)",,
+chalice,Chalice and host,artwork/Chalice_and_Host_Roundel.svg,The chalice and the host of the Eucharist,drawn for this project,CC0 1.0,https://creativecommons.org/publicdomain/zero/1.0/,,drawn from geometry (tools/make_emblems.py),,
+chi_rho,Chi-Rho,artwork/Chi_Rho_Roundel.svg,"Chi-Rho, the first two letters of Christ in Greek, in gold on a red sunburst",drawn for this project,CC0 1.0,https://creativecommons.org/publicdomain/zero/1.0/,,drawn from geometry (tools/make_emblems.py),,
+celtic_cross,Celtic cross,artwork/Celtic_Cross_Roundel.svg,"A Celtic cross standing on a green hill before the rising sun",drawn for this project,CC0 1.0,https://creativecommons.org/publicdomain/zero/1.0/,,drawn from geometry (tools/make_emblems.py),,
+canterbury_cross,Canterbury cross,artwork/Canterbury_Cross_Roundel.svg,"Canterbury cross, after the Saxon brooch found at Canterbury, in gold and red on blue",drawn for this project,CC0 1.0,https://creativecommons.org/publicdomain/zero/1.0/,,drawn from geometry (tools/make_emblems.py),,
+burning_bush,Burning bush,artwork/Burning_Bush_Roundel.svg,The burning bush that was not consumed (Exodus 3),drawn for this project,CC0 1.0,https://creativecommons.org/publicdomain/zero/1.0/,,drawn from geometry (tools/make_emblems.py),,
+moravian_star,Moravian star,artwork/Moravian_Star_Roundel.svg,"A Moravian star, the many-pointed Advent star, on a night sky",drawn for this project,CC0 1.0,https://creativecommons.org/publicdomain/zero/1.0/,,drawn from geometry (tools/make_emblems.py),,
+season_advent_1,Advent: one candle lit,artwork/Season_Advent_1.svg,"The Advent wreath, one candle lit",drawn for this project,CC0 1.0,https://creativecommons.org/publicdomain/zero/1.0/,,drawn from geometry (tools/make_emblems.py),,
+season_advent_2,Advent: two candles lit,artwork/Season_Advent_2.svg,"The Advent wreath, two candles lit",drawn for this project,CC0 1.0,https://creativecommons.org/publicdomain/zero/1.0/,,drawn from geometry (tools/make_emblems.py),,
+season_advent_3,Advent: three candles lit,artwork/Season_Advent_3.svg,"The Advent wreath, three candles lit",drawn for this project,CC0 1.0,https://creativecommons.org/publicdomain/zero/1.0/,,drawn from geometry (tools/make_emblems.py),,
+season_advent_4,Advent: four candles lit,artwork/Season_Advent_4.svg,"The Advent wreath, four candles lit",drawn for this project,CC0 1.0,https://creativecommons.org/publicdomain/zero/1.0/,,drawn from geometry (tools/make_emblems.py),,
+season_christmas,Christmas: the manger,artwork/Season_Christmas.svg,The manger under the star,drawn for this project,CC0 1.0,https://creativecommons.org/publicdomain/zero/1.0/,,drawn from geometry (tools/make_emblems.py),,
+season_epiphany,Epiphany: the star and crowns,artwork/Season_Epiphany.svg,The star and the three crowns of the wise men,drawn for this project,CC0 1.0,https://creativecommons.org/publicdomain/zero/1.0/,,drawn from geometry (tools/make_emblems.py),,
+season_lent,Lent: the cross and thorns,artwork/Season_Lent.svg,The cross and the crown of thorns,drawn for this project,CC0 1.0,https://creativecommons.org/publicdomain/zero/1.0/,,drawn from geometry (tools/make_emblems.py),,
+season_holy_week,Holy Week: three crosses,artwork/Season_Holy_Week.svg,The three crosses on the hill,drawn for this project,CC0 1.0,https://creativecommons.org/publicdomain/zero/1.0/,,drawn from geometry (tools/make_emblems.py),,
+season_easter,Easter: the empty tomb,artwork/Season_Easter.svg,"The empty tomb at sunrise, the stone rolled away",drawn for this project,CC0 1.0,https://creativecommons.org/publicdomain/zero/1.0/,,drawn from geometry (tools/make_emblems.py),,
+season_pentecost,Pentecost: the dove and flames,artwork/Season_Pentecost.svg,"The dove descending, and the tongues of fire",drawn for this project,CC0 1.0,https://creativecommons.org/publicdomain/zero/1.0/,,drawn from geometry (tools/make_emblems.py),,

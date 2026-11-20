@@ -1,0 +1,8 @@
+name,fill,text
+# ===========================================================================,,
+"# The colors of the PC(USA)'s liturgical color calendars, over the shared palette.",,
+# ===========================================================================,,
+PURPLE,#8e44ad,#ffffff
+GREEN,#3cae49,#000000
+RED,#d7191c,#ffffff
+NONE,#ffffff/#bfbfbf,#000000

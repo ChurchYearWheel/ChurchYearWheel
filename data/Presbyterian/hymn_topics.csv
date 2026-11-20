@@ -1,0 +1,50 @@
+day,variant,when,hymnal,topic,subtopic,numbers
+# ===========================================================================
+# Glory to God (2013): its "Christian Year" topic and its "Jesus Christ"
+"# sections, for the hymn marks after the day's name."
+"# day: a days.csv id (a run's Sundays, or one with :n), a feast's id, a month and day,"
+"# or a date rule; when: a further condition, as readings.csv's.  topic and subtopic"
+"# are the hymnal's own words in Hymnary.org's index (hymnary.org/browse/topics/<code>),"
+"# exactly, misspellings and all: the mark opens that topic's list there.  {abc} in"
+"# either is the year of the three-year lectionary (A, B or C)."
+# See docs/traditions.md (hymn_topics.csv).
+# ===========================================================================
+advent,,,GG2013,Christian Year,Advent,
+christmas_eve,,,GG2013,Christian Year,Nativity/Christmas,
+christmas,,,GG2013,Christian Year,Nativity/Christmas,
+after_christmas,,,GG2013,Christian Year,Nativity/Christmas,
+epiphany,,,GG2013,Christian Year,Epiphany,
+baptism,,,GG2013,Christian Year,Baptism of Jesus,
+after_epiphany,,,GG2013,Christian Year,Epiphany,
+transfiguration,,,GG2013,Christian Year,Transfiguration,
+ash_wednesday,,,GG2013,Christian Year,Ash Wednesday,
+lent,,,GG2013,Christian Year,Lent,
+palm_sunday,,,GG2013,Christian Year,Palm Sunday,
+maundy_thursday,,,GG2013,Christian Year,Maundy Thursday,
+good_friday,,,GG2013,Christian Year,Good Friday,
+holy_saturday,,,GG2013,Christian Year,Easter Vigil,
+easter,,,GG2013,Christian Year,Easter,
+after_easter,,,GG2013,Christian Year,Easter,
+ascension,,,GG2013,Christian Year,Ascension,
+pentecost,,,GG2013,Christian Year,Pentecost,
+trinity,,,GG2013,Christian Year,Trinity,
+11-01,,,GG2013,Christian Year,All Saints,
+christ_the_king,,,GG2013,Christian Year,Reign of Christ,
+advent,,,GG2013,Jesus Christ,Advent,
+christmas_eve,,,GG2013,Jesus Christ,Birth,
+christmas,,,GG2013,Jesus Christ,Birth,
+after_christmas,,,GG2013,Jesus Christ,Birth,
+epiphany,,,GG2013,Jesus Christ,Birth,
+after_epiphany,,,GG2013,Jesus Christ,Life,
+palm_sunday,,,GG2013,Jesus Christ,Passion and Death,
+easter-6,,,GG2013,Jesus Christ,Passion and Death,
+easter-5,,,GG2013,Jesus Christ,Passion and Death,
+easter-4,,,GG2013,Jesus Christ,Passion and Death,
+good_friday,,,GG2013,Jesus Christ,Passion and Death,
+easter,,,GG2013,Jesus Christ,Resurrection,
+after_easter,,,GG2013,Jesus Christ,Resurrection,
+ascension,,,GG2013,Jesus Christ,Ascension and Reign,
+christ_the_king,,,GG2013,Jesus Christ,Ascension and Reign,
+maundy_thursday,,,GG2013,Lord's Supper,,
+thu#4:11,,,GG2013,Thanksgiving,,
+baptism,,,GG2013,Baptism,,

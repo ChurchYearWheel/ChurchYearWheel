@@ -1,0 +1,39 @@
+id,date,name,full_name,rank,style,color_override,color_override_bottom,icon,icon_when,transfer,variant,when,action,from,to,every,first,count,title,claims,link
+# ===========================================================================
+"# The Personal Ordinariate of Our Lady of Walsingham (England, Wales and"
+"# Scotland), from Wikipedia's article on the ordinariate: the calendar of"
+"# England (or Wales) with these additions and changes, and the Sundays named"
+# as the Anglican patrimony names them in Divine Worship: the Missal.
+# ===========================================================================
+ordinary_1,,,,,,,,,,,,,,,easter-64,,,,{ordinal} Sunday after Epiphany,,
+septuagesima,easter-63,,"The Sunday called Septuagesima, or the Third Sunday before Lent",6,,,,,,,,,,,,,,,Septuagesima,TRUE,
+sexagesima,easter-56,,"The Sunday called Sexagesima, or the Second Sunday before Lent",6,,,,,,,,,,,,,,,Sexagesima,TRUE,
+quinquagesima,easter-49,,"The Sunday called Quinquagesima, or the Sunday next before Lent",6,,,,,,,,,,,,,,,Quinquagesima,TRUE,
+ordinary_2,,,,,,,,,,,,,,@trinity+1,,,1,-,{ordinal} Sunday after Trinity,,
+,01-12,St. Benedict Biscop,"Saint Benedict Biscop, abbot",12,optional_memorial,,,,,,,,,,,,,,,,
+,01-13,St. Kentigern,"Saint Kentigern (Mungo), bishop",12,optional_memorial,,,,,,,,,,,,,,,,
+,02-01,St. Brigid of Kildare,"Saint Brigid of Kildare, abbess",12,optional_memorial,,,,,,,,,,,,,,,,
+,02-04,St. Gilbert of Sempringham,"Saint Gilbert of Sempringham, religious",12,optional_memorial,,,,,,,,,,,,,,,,
+,03-05,St. Piran,"Saint Piran, abbot",12,optional_memorial,,,,,,,,,,,,,,,,
+,04-16,St. Magnus of Orkney,"Saint Magnus of Orkney, martyr",12,optional_memorial,,,,,,,,,,,,,,,,
+,04-19,St. Alphege,"Saint Alphege, bishop and martyr",12,optional_memorial,,,,,,,,,,,,,,,,
+,04-24,St. Mellitus,"Saint Mellitus, bishop",12,optional_memorial,,,,,,,,,,,,,,,,
+,05-06,St. John the Apostle in Eastertide,Saint John the Apostle in Eastertide,12,optional_memorial,,,,,,,,,,,,,,,,
+,05-21,St. Helena or St. Godric of Finchale,"Saint Helena or Saint Godric of Finchale, religious",12,optional_memorial,,,,,,,,,,,,,,,,
+,05-23,St. Petroc,"Saint Petroc, abbot",12,optional_memorial,,,,,,,,,,,,,,,,
+,05-24,St. Aldhelm,"Saint Aldhelm, bishop",12,optional_memorial,,,,,,,,,,,,,,,,
+,07-15,St. Swithun,"Saint Swithun, bishop",12,optional_memorial,,,,,,,,,,,,,,,,
+,07-16,St. Osmund,"Saint Osmund, bishop",12,optional_memorial,,,,,,,,,,,,,,,,
+,07-20,St. Margaret of Antioch,"Saint Margaret of Antioch, martyr",12,optional_memorial,,,,,,,,,,,,,,,,
+,08-05,St. Oswald,"Saint Oswald, martyr",12,optional_memorial,,,,,,,,,,,,,,,,
+,09-17,St. Ninian or St. Edith of Wilton,"Saint Ninian, bishop, or Saint Edith of Wilton, religious",12,optional_memorial,,,,,,,,,,,,,,,,
+,09-24,Our Lady of Walsingham,"Our Lady of Walsingham, Patroness of the Ordinariate",4,solemnity,WHITE,,,,,,,,,,,,,,,
+,10-03,St. Thomas of Hereford,"Saint Thomas of Hereford, bishop",12,optional_memorial,,,,,,,,,,,,,,,,
+st_denis_and_companions,10-08,,"Saint Denis and companions, martyrs (8 October in the Ordinariate)",,,,,,,,,,,,,,,,,,
+st_john_leonardi,10-08,,"Saint John Leonardi, priest (8 October in the Ordinariate)",,,,,,,,,,,,,,,,,,
+st_john_henry_newman,,,"Saint John Henry Newman, priest and Doctor of the Church, patron of the Ordinariate",8,feast_rank,WHITE,,,,,,,,,,,,,,,
+,10-11,St. Ethelburga,"Saint Ethelburga, abbess",12,optional_memorial,,,,,,,,,,,,,,,,
+,10-19,St. Frideswide,"Saint Frideswide, abbess",12,optional_memorial,,,,,,,,,,,,,,,,
+,11-08,All Saints of England,,8,feast_rank,WHITE,,,,,,,,,,,,,,,
+,11-20,St. Edmund,"Saint Edmund, martyr",12,optional_memorial,,,,,,,,,,,,,,,,
+,12-01,St. Edmund Campion,"Saint Edmund Campion, priest and martyr",11,memorial,,,,,,,,,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-edmund-campion/

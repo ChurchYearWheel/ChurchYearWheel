@@ -1,0 +1,8 @@
+id,date,name,full_name,rank,style,color_override,color_override_bottom,icon,icon_when,transfer,variant,when,action
+st_josephine_bakhita,,,"Saint Josephine Bakhita, virgin",11,memorial,-,,,,,,,
+,sat#-1:05,Our Lady of the Sacred Heart,,11,memorial,,,,,,,,
+st_peter_claver,,,"Saint Peter Claver, priest and Patron of the Order",4,solemnity,WHITE,,,,,,,
+st_therese_of_the_child_jesus,,,"Saint Thérèse of the Child Jesus, virgin and doctor of the Church, Patroness of Missions",8,feast_rank,WHITE,,,,,,,
+,10-10,St. Daniel Comboni,"Saint Daniel Comboni, bishop and Founder of the Order",4,solemnity,WHITE,,,,,,,
+,10-20,Bl. Daudi Okelo and Jildo Irwa,"Blessed Daudi Okelo and Jildo Irwa, martyrs",12,optional_memorial,,,,,,,,
+st_francis_xavier,,,"Saint Francis Xavier, priest, Patron of Missions",8,feast_rank,WHITE,,,,,,,

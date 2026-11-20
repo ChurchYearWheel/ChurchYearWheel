@@ -1,0 +1,12 @@
+id,date,name,full_name,color_override,color_override_bottom,style,variant,when
+# ===========================================================================,,,,,,,,
+# The feasts the Armenian Church keeps on fixed dates.  Most of its saints',,,,,,,,
+"# days move each year to a weekday that is not a fast day, so they are not",,,,,,,,
+# listed here.,,,,,,,,
+# ===========================================================================,,,,,,,,
+,02-14,Presentation of the Lord,Presentation of our Lord to the Temple (Tyarnyndaraj),WHITE,,,,
+,04-07,Annunciation,Annunciation of the Holy Virgin Mary,WHITE,,,,
+,04-24,Holy Martyrs of the Genocide,Remembrance of the Holy Martyrs of the Armenian Genocide,,RED,,,
+,09-08,Nativity of the Holy Mother of God,,,WHITE,,,
+,11-21,Presentation of the Holy Mother of God,Presentation of the Holy Mother of God to the Temple,,WHITE,,,
+,12-09,Conception of the Holy Virgin,Conception of the Holy Virgin Mary by St Anna,,,,,

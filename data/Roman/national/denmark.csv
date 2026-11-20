@@ -1,0 +1,18 @@
+id,date,name,full_name,rank,style,color_override,color_override_bottom,icon,icon_when,transfer,variant,when,action,link
+,01-07,St. Canute,"Saint Canute, martyr",12,optional_memorial,,,,,,,,,
+,01-19,St. Henry,"Saint Henry, bishop and martyr",11,memorial,,,,,,,,,
+st_ansgar,01-31,,"Saint Ansgar, bishop",4,solemnity,WHITE,,,,,,,,
+st_john_bosco,02-01,,"Saint John Bosco, priest",10,memorial,-,,,,,,,,
+sts_cyril_and_methodius,,,"Saints Cyril, monk and Methodius, bishop",8,feast_rank,WHITE,,,,,,,,
+st_catherine_of_siena,,,"Saint Catherine of Siena, virgin and doctor of the Church",8,feast_rank,WHITE,,,,,,,,
+,05-18,St. Eric IX,"Saint Eric IX, martyr",11,memorial,,,,,,,,,
+,06-16,St. William of Æbelholt,"Saint William of Æbelholt, abbot",11,memorial,,,,,,,,,
+,07-10,St. Canute,"Saint Canute, martyr",11,memorial,,,,,,,,,
+st_benedict,,,"Saint Benedict, abbot",8,feast_rank,WHITE,,,,,,,,
+,07-12,St. Kjeld of Viborg,"Saint Kjeld of Viborg, priest",12,optional_memorial,,,,,,,,,
+,07-23,St. Brigitta,"Saint Brigitta, religious",8,feast_rank,WHITE,,,,,,,,
+,07-29,St. Olaf,"Saint Olaf, martyr",11,memorial,,,,,,,,,
+st_teresa_benedicta_of_the_cross,,,"Saint Teresa Benedicta of the Cross, virgin and martyr",8,feast_rank,RED,,,,,,,,
+,10-30,St. Theodgar of Vestervig,"Saint Theodgar of Vestervig, priest",12,optional_memorial,,,,,,,,,
+,11-07,St. Willibrord,"Saint Willibrord, bishop",11,memorial,,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-willibrord/
+,easter+53,Christ the Eternal High Priest,"Our Lord Jesus Christ, the Eternal High Priest",8,feast_rank,WHITE,,,,,,,,

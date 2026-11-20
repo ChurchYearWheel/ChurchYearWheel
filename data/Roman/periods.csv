@@ -1,0 +1,28 @@
+kind,name,start,end,season,color,subtitle,scale,variant,when,rank_weekday,rank_sunday
+# ===========================================================================
+# The seasons of the Roman calendar.  `rank_weekday` and `rank_sunday` place
+# the season's ordinary days in the Table of Liturgical Days: the weekdays of
+"# Lent and of 17-24 December, and the days of the Christmas octave, are"
+"# privileged (9), so an obligatory memorial on one becomes a commemoration."
+"# Label rows (a name, no season) name the ring; color rows (a season, no"
+# name) color the days.  See docs/traditions.md.
+# ===========================================================================
+season,Advent,start,12-24,,,,,,,,
+season,,start,12-16,ADVENT,,,,,,13,2
+season,,12-17,12-24,ADVENT,,,,,,9,2
+season,Christmas Time,12-25,@baptism,,,,,,,,
+season,,12-25,01-01,CHRISTMAS,,,,,,9,6
+season,,01-02,@baptism,CHRISTMAS,,,,,,13,6
+season,Ordinary Time,@baptism+1,@ash_wednesday-1,ORDINARY,,,,,,13,6
+season,Lent,@ash_wednesday,easter-4,LENT,,,,,,9,2
+season,Triduum,easter-3,easter-1,TRIDUUM,,,,,,1,1
+season,Easter Time,easter,@pentecost,EASTER,,,,,,13,2
+season,Ordinary Time,@pentecost+1,end,ORDINARY,,,,,,13,6
+"# The cycles, on the outer ring: the Christmas and Easter cycles, and the"
+# thirty-three or thirty-four weeks of Ordinary Time between and after them.
+broad,CHRISTMAS CYCLE,start,@baptism,,,,,,,,
+broad,EASTER CYCLE,@ash_wednesday,@pentecost,,,,,,,,
+half,CHRISTMAS CYCLE,start,@baptism,,,,,,,,
+half,ORDINARY TIME,@baptism+1,@ash_wednesday-1,,,,,,,,
+half,EASTER CYCLE,@ash_wednesday,@pentecost,,,,,,,,
+half,ORDINARY TIME,@pentecost+1,end,,,,,,,,

@@ -1,0 +1,16 @@
+id,date,name,full_name,rank,style,color_override,color_override_bottom,icon,icon_when,transfer,variant,when,action,link
+,04-19,Our Lady of Verdun,,12,optional_memorial,,,,,,,,,
+,04-27,St. Turibius of Mogrovejo,"Saint Turibius of Mogrovejo, bishop",11,memorial,,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-turibius-of-mongrovejo/
+,05-08,Our Lady of Luján,,12,optional_memorial,,,,,,,,,
+,05-15,St. Isidore the Laborer,Saint Isidore the Laborer,12,optional_memorial,,,,,,,,,
+,05-24,"Mary, Help of Christians",,12,optional_memorial,,,,,,,,,
+our_lady_of_mount_carmel,,,Our Lady of Mount Carmel,11,memorial,-,,,,,,,,
+,08-09,Bl. Maria Francisca Rubato,"Blessed Maria Francisca Rubato, virgin",12,optional_memorial,,,,,,,,,
+st_rose_of_lima,08-30,,"Saint Rose of Lima, virgin",8,feast_rank,WHITE,,,,,,,,
+,09-10,Bl. Dolores Aguiar-Mella y Díaz and Bl. Consuelo Aguiar-Mella y Díaz,"Blessed Dolores Aguiar-Mella y Díaz and Blessed Consuelo Aguiar-Mella y Díaz, companions and martyrs",12,optional_memorial,,,,,,,,,
+,09-24,Our Lady of Mercy,,12,optional_memorial,,,,,,,,,
+,11-08,Our Lady of the Thirty-Three,"Our Lady of the Thirty-Three, Patroness of Uruguay",4,solemnity,WHITE,,,,,,,,
+,11-17,"Sts. Roque González, Alfonso Rodríguez and Juan del Castillo","Saints Roque González, Alfonso Rodríguez, and Juan del Castillo, priests and martyrs",4,solemnity,RED,,,,,,,,
+st_elizabeth_of_hungary,11-19,,Saint Elizabeth of Hungary,10,memorial,-,,,,,,,,
+guadalupe,,,Our Lady of Guadalupe,8,feast_rank,WHITE,,,,,,,,
+,easter+53,Christ the Eternal High Priest,"Our Lord Jesus Christ, the Eternal High Priest",8,feast_rank,WHITE,,,,,,,,

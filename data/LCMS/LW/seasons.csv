@@ -1,0 +1,11 @@
+season,color
+"# Lutheran Worship's suggested colors (the first, where it gives two)."
+ADVENT,PURPLE; blue
+CHRISTMAS,WHITE
+EPIPHANY,GREEN
+LENT,PURPLE
+HOLY_WEEK,SCARLET; purple
+EASTER,WHITE
+PENTECOST,GREEN
+SEASON_AFTER_PENTECOST,GREEN
+DEFAULT,WHITE

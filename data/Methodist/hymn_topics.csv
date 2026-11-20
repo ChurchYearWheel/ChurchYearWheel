@@ -1,0 +1,40 @@
+day,variant,when,hymnal,topic,subtopic,numbers
+# ===========================================================================
+"# The United Methodist Hymnal (1989): its ""Christian Year"" topic, for the"
+# hymn marks after the day's name.
+"# day: a days.csv id (a run's Sundays, or one with :n), a feast's id, a month and day,"
+"# or a date rule; when: a further condition, as readings.csv's.  topic and subtopic"
+"# are the hymnal's own words in Hymnary.org's index (hymnary.org/browse/topics/<code>),"
+"# exactly, misspellings and all: the mark opens that topic's list there.  {abc} in"
+"# either is the year of the three-year lectionary (A, B or C)."
+# See docs/traditions.md (hymn_topics.csv).
+# ===========================================================================
+advent,,,UMH,Christian Year,Advent,
+christmas_eve,,,UMH,Christian Year,Christmas,
+christmas,,,UMH,Christian Year,Christmas,
+after_christmas,,,UMH,Christian Year,Christmas,
+12-31,,,UMH,Christian Year,New Year,
+01-01,,,UMH,Christian Year,New Year,
+epiphany,,,UMH,Christian Year,Epiphany,
+baptism,,,UMH,Christian Year,Baptism of the Lord,
+after_epiphany,,,UMH,Christian Year,Epiphany,
+transfiguration,,,UMH,Christian Year,Transfiguration,
+ash_wednesday,,,UMH,Christian Year,Ash Wednesday,
+lent,,,UMH,Christian Year,Lent,
+palm_sunday,,,UMH,Christian Year,Passion/Palm Sunday,
+easter-6,,,UMH,Christian Year,Holy Week,
+easter-5,,,UMH,Christian Year,Holy Week,
+easter-4,,,UMH,Christian Year,Holy Week,
+maundy_thursday,,,UMH,Christian Year,Holy Thursday,
+good_friday,,,UMH,Christian Year,Holy Week,
+holy_saturday,,,UMH,Christian Year,Easter Vigil,
+easter,,,UMH,Christian Year,Easter,
+after_easter,,,UMH,Christian Year,Easter,
+ascension,,,UMH,Christian Year,Ascension,
+pentecost,,,UMH,Christian Year,Pentecost,
+trinity,,,UMH,Christian Year,Trinity Sunday,
+all_saints,,,UMH,Christian Year,All Saints Day,
+11-01,,,UMH,Christian Year,All Saints Day,
+christ_the_king,,,UMH,Christian Year,Christ the King,
+thu#4:11,,,UMH,Christian Year,Thanksgiving Day,
+05-24,,,UMH,Aldersgate,,

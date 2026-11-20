@@ -1,0 +1,964 @@
+date,name,color_override,color_override_bottom,font_size_override,max_chars_override,vertical_offset,variant,full_name,link
+# ===========================================================================
+"# Wilhelm Loehe's calendars of saints, one name or more for every day of the year, as translated by"
+"# Benjamin T. G. Mayes (October 2001): variant 1859, ""The Sanctoral Calendar of Wilhelm Loehe"" (Haus-,"
+"# Schul- und Kirchenbuch für Christen des lutherischen Bekenntnisses, Zweiter Theil, Stuttgart 1859,"
+"# pp. 114-140; loehe_kirchenbuch.pdf); variant 1868, ""The Sanctoral Calendar of Wilhelm Loehe's"
+"# Martyrologium"" (Martyrologium. Zur Erklärung der herkömmlichen Kalendernamen, Nürnberg 1868;"
+"# loehe_martyrologium.pdf), which Loehe corrected and cut to about one name a day."
+"# full_name is the entry as Mayes gives it, its abbreviations spelled out (his key: Ab. = Abbot,"
+"# Ap. = Apostle, B. = Bishop, C. = Confessor, D. = Deacon, M. = Martyr, P. = Presbyter, V. = Virgin,"
+"# W. = Widow; doubled, plural); name, for the wheel, leaves out its dates and the Bible references"
+"# to read about the saint.  1 January (the Circumcision), 6 January (the Epiphany) and 25 December"
+"# (the Nativity) are days.csv's.  Feasts of the Lord and of Mary that the 1859 book heads with Latin"
+"# names are principal (white), the apostles' and evangelists' days and St. Michael's festivals, in"
+"# the Common Service Book's colors as for ELHB; Loehe gives no colors."
+"# 24 February: St. Matthias (in leap years 25 February, the 1859 book notes; kept on the 24th here)."
+"# Links (as for the LCMS): CPH's post for the day where LSB keeps the saint, else a Wikipedia article"
+"# (the Wikipedia calendars of saints, Lutheran, Anglican and the General Roman Calendar of 1954),"
+"# else a Wikipedia search for the name and its place."
+# ===========================================================================
+01-02,Abel,,,,,,1868,"Abel. Gen. 4:1,2,8",https://en.wikipedia.org/w/index.php?search=Abel
+01-02,Seth,,,,,,1868,Seth. Gen. 4:25,https://en.wikipedia.org/w/index.php?search=Seth
+01-03,Enoch,,,,,,1868,Enoch. Gen. 5:18-24,https://en.wikipedia.org/w/index.php?search=Enoch
+01-04,Abednego,,,,,,1868,Abednego. Dan. 1:7,https://en.wikipedia.org/w/index.php?search=Abednego
+01-04,"Titus, Disciple of St. Paul, Bishop of Crete",,,,,,1868,"Titus, Disciple of St. Paul, Bishop of Crete. † 105",https://en.wikipedia.org/w/index.php?search=Titus%20St.%20Paul
+01-05,"Simeon, Prophet",,,,,,1868,"Simeon, Prophet. Lk. 2:25-36",https://en.wikipedia.org/w/index.php?search=Simeon
+01-07,"Lucian, Presbyter in Antioch, Martyr",,,,,,1868,"Lucian, Presbyter in Antioch, Martyr 312",https://en.wikipedia.org/w/index.php?search=Lucian%20Antioch
+01-08,"Severin, Apostle of Noricum",,,,,,1868,"Severin, Apostle of Noricum, † 481",https://en.wikipedia.org/w/index.php?search=Severin%20Noricum
+01-09,"Julian the hospitable and Basilissa, his wife, Martyrs",,,,,,1868,"Julian the hospitable and Basilissa, his wife, Martyrs 313",https://en.wikipedia.org/w/index.php?search=Julian%20the%20hospitable%20and%20Basilissa
+01-10,"Paul of Thebes, first hermit",,,,,,1868,"Paul of Thebes, first hermit, † 340",https://en.wikipedia.org/w/index.php?search=Paul%20of%20Thebes
+01-11,"Hyginus, Bishop of Rome, Martyr",,,,,,1868,"Hyginus, Bishop of Rome, Martyr 139-142",https://en.wikipedia.org/wiki/Pope_Hyginus
+01-12,"Arcadius, Martyr at Caesarea in Mauretania",,,,,,1868,"Arcadius, Martyr at Caesarea in Mauretania, 3rd c",https://en.wikipedia.org/w/index.php?search=Arcadius%20Caesarea
+01-13,"Hilary, Bishop of Poitiers",,,,,,1868,"Hilary, Bishop of Poitiers, † 368",https://en.wikipedia.org/wiki/Hilary_of_Poitiers
+01-14,"Felix of Nola, Presbyter, Confessor",,,,,,1868,"Felix of Nola, Presbyter, Confessor, † 256",https://en.wikipedia.org/wiki/Felix_of_Nola
+01-15,"Maurus, Abbot at Glanfeuil",,,,,,1868,"Maurus, Abbot at Glanfeuil, † 584",https://en.wikipedia.org/wiki/Saint_Maurus
+01-16,"Marcellus, Bishop of Rome, Martyr",,,,,,1868,"Marcellus, Bishop of Rome, Martyr 310",https://en.wikipedia.org/w/index.php?search=Marcellus%20Rome
+01-17,"Antonius the Great, hermit in the Thebais",,,,,,1868,"Antonius the Great, hermit in the Thebais, † 356",https://en.wikipedia.org/w/index.php?search=Antonius%20the%20Great
+01-18,"Prisca, Virgin, Martyr at Rome",,,,,,1868,"Prisca, Virgin, Martyr at Rome, 275",https://en.wikipedia.org/wiki/Saint_Prisca
+01-19,Sara,,,,,,1868,"Sara, 2000 B.C",https://en.wikipedia.org/w/index.php?search=Sara
+01-20,"Fabian, Bishop at Rome, Martyr",,,,,,1868,"Fabian, Bishop at Rome, Martyr 249",https://en.wikipedia.org/wiki/Pope_Fabian
+01-20,"Sebastian, captain, Martyr at Rome",,,,,,1868,"Sebastian, captain, Martyr at Rome, c. 288",https://en.wikipedia.org/wiki/Saint_Sebastian
+01-21,"Agnes, Virgin, Martyr at Rome",,,,,,1868,"Agnes, Virgin, Martyr at Rome, 304",https://en.wikipedia.org/wiki/Saint_Agnes
+01-22,"Vincentius, Deacon at Saragossa, Martyr",,,,,,1868,"Vincentius, Deacon at Saragossa, Martyr 304",https://en.wikipedia.org/w/index.php?search=Vincentius%20Saragossa
+01-23,"Emerentiana, Virgin, Martyr in Rome",,,,,,1868,"Emerentiana, Virgin, Martyr in Rome 304",https://en.wikipedia.org/wiki/Emerentiana
+01-24,"Timothy, St. Paul's disciple, Bishop of Ephesus, Martyr",,,,,,1868,"Timothy, St. Paul's disciple, Bishop of Ephesus, Martyr 97",https://blog.cph.org/read/church-year/st-timothy
+01-25,Conversion of Paul,,WHITE,,,,1868,"Conversion of Paul, 34. Acts 6-9",https://blog.cph.org/read/church-year/conversion-st-paul
+01-26,"Polycarp, Bishop of Smyrna, Martyr",,,,,,1868,"Polycarp, Bishop of Smyrna, Martyr 166",https://en.wikipedia.org/wiki/Polycarp
+01-26,"Paula, Widow of Rome",,,,,,1868,"Paula, Widow of Rome, † 404",https://en.wikipedia.org/w/index.php?search=Paula%20Rome
+01-27,"John Chrysostom, Patriarch of Constantinople, Martyr",,,,,,1868,"John Chrysostom, Patriarch of Constantinople, Martyr 407",https://blog.cph.org/read/church-year/commemoration/john-chrysostom
+01-28,Charlemagne,,,,,,1868,"Charlemagne, † 814",https://en.wikipedia.org/w/index.php?search=Charlemagne
+01-29,"Valerius, Bishop of Trier, disciple of Peter",,,,,,1868,,https://en.wikipedia.org/w/index.php?search=Valerius%20Trier
+01-29,"Francis of Sales, Bishop of Genf",,,,,,1868,"Francis of Sales, Bishop of Genf, † 1622",https://en.wikipedia.org/w/index.php?search=Francis%20of%20Sales%20Genf
+01-30,"Aldegundis, Virgin, Abbess at Maubeuge",,,,,,1868,"Aldegundis, Virgin, Abbess at Maubeuge, † 680",https://en.wikipedia.org/w/index.php?search=Aldegundis%20Maubeuge
+01-31,"Vigilius, Bishop of Trent, Martyr",,,,,,1868,"Vigilius, Bishop of Trent, Martyr 410",https://en.wikipedia.org/w/index.php?search=Vigilius%20Trent
+02-01,"Brigitta, Virgin, Abbess in Ireland",,,,,,1868,"Brigitta, Virgin, Abbess in Ireland, 6th c",https://en.wikipedia.org/w/index.php?search=Brigitta%20Ireland
+02-02,Purification of Mary,WHITE,,,,,1868,,https://en.wikipedia.org/w/index.php?search=Purification%20of%20Mary
+02-03,"Blasius, Bishop of Sebaste, Martyr",,,,,,1868,"Blasius, Bishop of Sebaste, Martyr 316",https://en.wikipedia.org/w/index.php?search=Blasius%20Sebaste
+02-03,"Ansgar, Bishop of Bremen",,,,,,1868,"Ansgar, Bishop of Bremen, † 865",https://en.wikipedia.org/wiki/Ansgar
+02-04,"Rhabaus Maurus, Archbishop of Mainz",,,,,,1868,"Rhabaus Maurus, Archbishop of Mainz, † 856",https://en.wikipedia.org/w/index.php?search=Rhabaus%20Maurus%20Mainz
+02-05,"Agatha, Virgin, Martyr at Catanea",,,,,,1868,"Agatha, Virgin, Martyr at Catanea † 251",https://en.wikipedia.org/wiki/Saint_Agatha
+02-06,"Dorothea, Virgin, Martyr at Caesarea in Cappadocia",,,,,,1868,"Dorothea, Virgin, Martyr at Caesarea in Cappadocia, 287",https://en.wikipedia.org/w/index.php?search=Dorothea%20Caesarea
+02-07,"Richard, king, father of Walpurgis",,,,,,1868,"Richard, king, father of Walpurgis, † at Lucca in Italy around 722",https://en.wikipedia.org/w/index.php?search=Richard%20Walpurgis
+02-08,"Solomon, king of Israel",,,,,,1868,"Solomon, king of Israel, 1000 B.C",https://en.wikipedia.org/w/index.php?search=Solomon%20Israel
+02-09,"Apollonia, well-known Virgin at Alexandria, Martyr",,,,,,1868,"Apollonia, well-known Virgin at Alexandria, Martyr 249",https://en.wikipedia.org/wiki/Saint_Apollonia
+02-10,"Scholastica, Virgin, sister of Benedict of Nursia, Abbess",,,,,,1868,"Scholastica, Virgin, sister of Benedict of Nursia, Abbess, † 543",https://en.wikipedia.org/wiki/Scholastica
+02-11,"Euphrosyne, Virgin",,,,,,1868,"Euphrosyne, Virgin, 470",https://en.wikipedia.org/w/index.php?search=Euphrosyne
+02-12,"Eulalia of Barcelona, Virgin, Martyr",,,,,,1868,"Eulalia of Barcelona, Virgin, Martyr 290",https://en.wikipedia.org/w/index.php?search=Eulalia%20of%20Barcelona
+02-12,"Eulalia of Merida, Virgin, Martyr",,,,,,1868,,https://en.wikipedia.org/w/index.php?search=Eulalia%20of%20Merida
+02-13,"Agabus, Prophet, Acts",,,,,,1868,"Agabus, Prophet, Acts 11:28; 21:10ff",https://en.wikipedia.org/w/index.php?search=Agabus
+02-13,"Polyeuctus, captain, Martyr",,,,,,1868,"Polyeuctus, captain, Martyr 250",https://en.wikipedia.org/w/index.php?search=Polyeuctus
+02-14,"Cyril and Methodius, Apostles of the Slavs",,,,,,1868,"Cyril and Methodius, Apostles of the Slavs, 9th c",https://en.wikipedia.org/wiki/Saints_Cyril_and_Methodius
+02-15,"Faustinus and Jovita, Martyrs at Brescia",,,,,,1868,"Faustinus and Jovita, Martyrs at Brescia, 121",https://en.wikipedia.org/wiki/Faustinus_and_Jovita
+02-16,"Onesimus, disciple and helper of Paul, Martyr at Rome",,,,,,1868,"Onesimus, disciple and helper of Paul, Martyr at Rome, 95",https://en.wikipedia.org/wiki/Onesimus
+02-17,"Flavian, Patriarch of Constantinople, Martyr",,,,,,1868,"Flavian, Patriarch of Constantinople, Martyr 449",https://en.wikipedia.org/w/index.php?search=Flavian%20Constantinople
+02-18,"Simeon, Bishop of Jerusalem, relative of the Lord, Martyr",,,,,,1868,"Simeon, Bishop of Jerusalem, relative of the Lord, Martyr 107",https://en.wikipedia.org/wiki/Simeon_of_Jerusalem
+02-18,"Martin Luther, ecclesiae Doctor, confessor",,,,,,1868,"Martin Luther, ecclesiae Doctor, confessor, † 1546",https://blog.cph.org/read/church-year/commemoration/martin-luther
+02-19,"Gabinus, Presbyter, Martyr",,,,,,1868,"Gabinus, Presbyter, Martyr 296",https://en.wikipedia.org/w/index.php?search=Gabinus
+02-20,"Tyrannion, Bishop of Tyre, Martyr",,,,,,1868,"Tyrannion, Bishop of Tyre, Martyr 310",https://en.wikipedia.org/w/index.php?search=Tyrannion%20Tyre
+02-21,"Pipin of Landen, major-domo of Austrasia",,,,,,1868,"Pipin of Landen, major-domo of Austrasia † 640",https://en.wikipedia.org/w/index.php?search=Pipin%20of%20Landen%20Austrasia
+02-22,St. Peter's Chair at Antioch in Syria,,,,,,1868,"St. Peter's Chair at Antioch in Syria, 33",https://en.wikipedia.org/w/index.php?search=Saint%20Peter%27s%20Chair%20at%20Antioch%20in%20Syria
+02-23,"Serenus the Gardener, Martyr at Sirmium",,,,,,1868,"Serenus the Gardener, Martyr at Sirmium, 307",https://en.wikipedia.org/w/index.php?search=Serenus%20the%20Gardener%20Sirmium
+02-24,"Matthias, Apostle",,RED,,,,1868,,https://blog.cph.org/read/church-year/st-matthias-apostle
+02-25,"Victorin and his companions, Martyrs",,,,,,1868,"Victorin and his companions, Martyrs 284",https://en.wikipedia.org/w/index.php?search=Victorin
+02-26,"Nestor, Bishop at Sida in Pamphylia, Martyr",,,,,,1868,"Nestor, Bishop at Sida in Pamphylia, Martyr 250",https://en.wikipedia.org/w/index.php?search=Nestor%20Sida
+02-27,"Gelasius, actor, Martyr",,,,,,1868,"Gelasius, actor, Martyr 297",https://en.wikipedia.org/w/index.php?search=Gelasius
+02-28,The Nursing Martyers who died caring for the sick during the Plague at Alexandria,,,,,,1868,"The Nursing Martyers who died caring for the sick during the Plague at Alexandria, 261-63",https://en.wikipedia.org/w/index.php?search=The%20Nursing%20Martyers%20who%20died%20caring%20for%20the%20sick%20during%20the%20Plague%20at%20Alexandria
+03-01,"Swidbert, Apostle of Friesen",,,,,,1868,"Swidbert, Apostle of Friesen, † 713",https://en.wikipedia.org/w/index.php?search=Swidbert%20Friesen
+03-02,"Simplicius, Bishop of Rome",,,,,,1868,"Simplicius, Bishop of Rome, † 483",https://en.wikipedia.org/w/index.php?search=Simplicius%20Rome
+03-03,"Kunigunde, empress",,,,,,1868,"Kunigunde, empress, † 1040",https://en.wikipedia.org/w/index.php?search=Kunigunde
+03-04,"Lucius, Bishop of Rome, Martyr",,,,,,1868,"Lucius, Bishop of Rome, Martyr 253",https://en.wikipedia.org/w/index.php?search=Lucius%20Rome
+03-05,"Eusebius of Cremona, Abbot at Bethlehem",,,,,,1868,"Eusebius of Cremona, Abbot at Bethlehem, 5th c",https://en.wikipedia.org/w/index.php?search=Eusebius%20of%20Cremona%20Bethlehem
+03-06,"Fridolin, Abbot at St. Hilaire",,,,,,1868,"Fridolin, Abbot at St. Hilaire, † 538",https://en.wikipedia.org/w/index.php?search=Fridolin%20St.%20Hilaire
+03-07,"Perpetua and Felicitas, Martyrs at Carthage",,,,,,1868,"Perpetua and Felicitas, Martyrs at Carthage, 203",https://blog.cph.org/read/church-year/commemoration/perpetua-felicitas
+03-07,Thomas Aquinas,,,,,,1868,"Thomas Aquinas, † 1275",https://en.wikipedia.org/wiki/Thomas_Aquinas
+03-08,"Philemon the Flute Player, Martyr",,,,,,1868,"Philemon the Flute Player, Martyr 311",https://en.wikipedia.org/w/index.php?search=Philemon%20the%20Flute%20Player
+03-09,"The Forty Knights, Martyrs at Sebaste in Little Armenia",,,,,,1868,"The Forty Knights, Martyrs at Sebaste in Little Armenia 320",https://en.wikipedia.org/w/index.php?search=The%20Forty%20Knights%20Sebaste
+03-10,"Caius and Alexander, Martyrs at Apamea in Phrygia",,,,,,1868,"Caius and Alexander, Martyrs at Apamea in Phrygia 279",https://en.wikipedia.org/w/index.php?search=Caius%20and%20Alexander%20Apamea
+03-11,"Eulogius, priest at Cordova, Martyr",,,,,,1868,"Eulogius, priest at Cordova, Martyr 859",https://en.wikipedia.org/w/index.php?search=Eulogius%20Cordova
+03-12,"Gregory the Great, Bishop of Rome",,,,,,1868,"Gregory the Great, Bishop of Rome † 604",https://en.wikipedia.org/wiki/Pope_Gregory_I
+03-13,"Euphrasia, virgin in Egypt",,,,,,1868,"Euphrasia, virgin in Egypt, † 410",https://en.wikipedia.org/w/index.php?search=Euphrasia%20Egypt
+03-14,"Mathildis, wife of Henry I., empress",,,,,,1868,"Mathildis, wife of Henry I., empress, † 968",https://en.wikipedia.org/w/index.php?search=Mathildis%20Henry
+03-15,"Longinus, the soldier who pierced the side of the Lord, Martyr",,,,,,1868,,https://en.wikipedia.org/w/index.php?search=Longinus
+03-16,"Heribert, Archbishop of Cologne",,,,,,1868,"Heribert, Archbishop of Cologne, † 1022",https://en.wikipedia.org/w/index.php?search=Heribert%20Cologne
+03-17,"Gertrude, Virgin, Abbess of Rivelles in Brabant",,,,,,1868,"Gertrude, Virgin, Abbess of Rivelles in Brabant, † 659",https://en.wikipedia.org/w/index.php?search=Gertrude%20Rivelles
+03-18,"Alexander, Bishop of Jerusalem, Martyr",,,,,,1868,"Alexander, Bishop of Jerusalem, Martyr 251",https://en.wikipedia.org/w/index.php?search=Alexander%20Jerusalem
+03-19,"Joseph, foster father of Jesus",,,,,,1868,,https://blog.cph.org/read/church-year/st-joseph-guardian-of-jesus
+03-20,"Archippus, relative of St. Paul",,,,,,1868,"Archippus, relative of St. Paul. Col. 4:17",https://en.wikipedia.org/w/index.php?search=Archippus%20St.%20Paul
+03-21,"Benedict of Nursia, Abbot at Monte Casion",,,,,,1868,"Benedict of Nursia, Abbot at Monte Casion, † 543",https://en.wikipedia.org/wiki/Benedict_of_Nursia
+03-22,"Nicolaus of the Flüe, hermit in Unterwalden",,,,,,1868,"Nicolaus of the Flüe, hermit in Unterwalden, † 1487",https://en.wikipedia.org/w/index.php?search=Nicolaus%20of%20the%20Fl%C3%BCe%20Unterwalden
+03-23,"Victorian, Proconsul of Carthage, Martyr",,,,,,1868,"Victorian, Proconsul of Carthage, Martyr 484",https://en.wikipedia.org/w/index.php?search=Victorian%20Carthage
+03-24,"Gabriel, Archangel",,,,,,1868,,https://en.wikipedia.org/wiki/Gabriel
+03-25,Mary's Annunciation,WHITE,,,,,1868,,https://en.wikipedia.org/w/index.php?search=Mary%27s%20Annunciation
+03-25,"Dismas, the thief at the right hand",,,,,,1868,,https://en.wikipedia.org/w/index.php?search=Dismas
+03-26,"Liudger, Bishop of Muenster",,,,,,1868,"Liudger, Bishop of Muenster, † 809",https://en.wikipedia.org/w/index.php?search=Liudger%20Muenster
+03-27,"Rupertus, Apostle of the Bavarians",,,,,,1868,"Rupertus, Apostle of the Bavarians, † 550",https://en.wikipedia.org/w/index.php?search=Rupertus
+03-28,"Malchus and his companions, Martyrs",,,,,,1868,"Malchus and his companions, Martyrs 260",https://en.wikipedia.org/w/index.php?search=Malchus
+03-29,"Eustasius, Abbot Apostle of the Bavarians",,,,,,1868,"Eustasius, Abbot Apostle of the Bavarians, † 628",https://en.wikipedia.org/w/index.php?search=Eustasius
+03-30,"Guido, Abbot at Pomposa",,,,,,1868,"Guido, Abbot at Pomposa, † 1046",https://en.wikipedia.org/w/index.php?search=Guido%20Pomposa
+03-31,"Amos, Prophet",,,,,,1868,"Amos, Prophet, 838-759 B.C",https://en.wikipedia.org/w/index.php?search=Amos
+04-01,"Hugo, Bishop of Grenoble",,,,,,1868,"Hugo, Bishop of Grenoble, † 1132",https://en.wikipedia.org/w/index.php?search=Hugo%20Grenoble
+04-02,"Theodosia, Virgin on Tyre, Martyr at Caesarea Palestine",,,,,,1868,"Theodosia, Virgin on Tyre, Martyr at Caesarea Palestine, † 308",https://en.wikipedia.org/w/index.php?search=Theodosia%20Caesarea%20Palestine
+04-03,"Agape, Chionia, Irene, Virgins, Martyrs at Thessalonia",,,,,,1868,"Agape, Chionia, Irene, Virgins, Martyrs at Thessalonia, 304",https://en.wikipedia.org/w/index.php?search=Agape%20Thessalonia
+04-04,"Ambrose, Bishop of Milan",,,,,,1868,"Ambrose, Bishop of Milan, † 397",https://en.wikipedia.org/wiki/Ambrose
+04-05,The Martyrs killed in the church on Easter Day by King Genserich,,,,,,1868,"The Martyrs killed in the church on Easter Day by King Genserich, 459",https://en.wikipedia.org/w/index.php?search=The%20Martyrs%20killed%20in%20the%20church%20on%20Easter%20Day%20by%20King%20Genserich
+04-06,"Coelestine, Bishop of Rome",,,,,,1868,"Coelestine, Bishop of Rome, † 432",https://en.wikipedia.org/w/index.php?search=Coelestine%20Rome
+04-07,"Hegesippus, church historian",,,,,,1868,"Hegesippus, church historian, † 180 at Jerusalem",https://en.wikipedia.org/w/index.php?search=Hegesippus
+04-08,"Dionysius, Bishop of Corinth",,,,,,1868,"Dionysius, Bishop of Corinth, † 170",https://en.wikipedia.org/w/index.php?search=Dionysius%20Corinth
+04-09,"Mary Clopas, sister of the Mother of God",,,,,,1868,"Mary Clopas, sister of the Mother of God, Jn. 19:25",https://en.wikipedia.org/w/index.php?search=Mary%20Clopas%20God
+04-10,"Daniel, prophet",,,,,,1868,"Daniel, prophet, 606-536 B.C",https://en.wikipedia.org/w/index.php?search=Daniel
+04-11,"Antipas, the faithful witness at Pergamum",,,,,,1868,"Antipas, the faithful witness at Pergamum, Rev. 2:13",https://en.wikipedia.org/w/index.php?search=Antipas%20Pergamum
+04-12,"Julius, Bishop of Rom",,,,,,1868,"Julius, Bishop of Rom, † 352",https://en.wikipedia.org/w/index.php?search=Julius%20Rom
+04-12,"Sabas the Goth, Martyr",,,,,,1868,"Sabas the Goth, Martyr 372",https://en.wikipedia.org/w/index.php?search=Sabas%20the%20Goth
+04-13,"Hermenegild, prince, Martyr",,,,,,1868,"Hermenegild, prince, Martyr 586",https://en.wikipedia.org/wiki/Hermenegild
+04-14,"Tiburtius and Valerianus, Martyrs at Rome",,,,,,1868,"Tiburtius and Valerianus, Martyrs at Rome 229",https://en.wikipedia.org/w/index.php?search=Tiburtius%20and%20Valerianus%20Rome
+04-15,"Anastasia and Basilissa, Martyrs under Nero",,,,,,1868,"Anastasia and Basilissa, Martyrs under Nero 66",https://en.wikipedia.org/w/index.php?search=Anastasia%20and%20Basilissa
+04-16,"Aaron, high priest, brother of Moses",,,,,,1868,,https://en.wikipedia.org/w/index.php?search=Aaron%20Moses
+04-17,"Anicet, Bishop of Rome, Martyr",,,,,,1868,"Anicet, Bishop of Rome, Martyr 173",https://en.wikipedia.org/w/index.php?search=Anicet%20Rome
+04-18,"Wicterp, Bishop of Augsburg",,,,,,1868,"Wicterp, Bishop of Augsburg, 8th c",https://en.wikipedia.org/w/index.php?search=Wicterp%20Augsburg
+04-19,"Timon, one of the",,,,,,1868,"Timon, one of the 7 deacons at Jerusalem. Acts 6:5",https://en.wikipedia.org/w/index.php?search=Timon
+04-20,"Sulpicius and Servilianus, Martyrs at Rome",,,,,,1868,"Sulpicius and Servilianus, Martyrs at Rome 117",https://en.wikipedia.org/w/index.php?search=Sulpicius%20and%20Servilianus%20Rome
+04-21,"Anselm of Canterbury, Archbishop",,,,,,1868,"Anselm of Canterbury, Archbishop † 1109",https://blog.cph.org/read/church-year/commemoration/anselm-canterbury-theologian
+04-22,"Soter and Caius, Bishops Martyrs at Rome",,,,,,1868,"Soter and Caius, Bishops Martyrs at Rome 177 and 296",https://en.wikipedia.org/w/index.php?search=Soter%20and%20Caius%20Rome
+04-23,"George, Martyr",,,,,,1868,"George, Martyr appr. 303",https://en.wikipedia.org/wiki/Saint_George
+04-23,"Adalbert, Bishop of Prague, Martyr",,,,,,1868,"Adalbert, Bishop of Prague, Martyr 997",https://en.wikipedia.org/w/index.php?search=Adalbert%20Prague
+04-24,"Egbert, priest",,,,,,1868,"Egbert, priest, † 729",https://en.wikipedia.org/w/index.php?search=Egbert
+04-25,"Mark, evangelist",,,,,,1868,"Mark, evangelist, 68",https://blog.cph.org/read/church-year/st-mark-evangelist
+04-26,"Cletus, Bishop of Rome",,,,,,1868,"Cletus, Bishop of Rome 89",https://en.wikipedia.org/wiki/Pope_Anacletus
+04-27,"Anastasius, Bishop of Rome",,,,,,1868,"Anastasius, Bishop of Rome, † 401",https://en.wikipedia.org/w/index.php?search=Anastasius%20Rome
+04-28,"Vitalis of Ravenna, Martyr",,,,,,1868,"Vitalis of Ravenna, Martyr 62",https://en.wikipedia.org/wiki/Vitalis_of_Milan
+04-29,"Tychicus and Asia, disciples of St. Paul",,,,,,1868,"Tychicus and Asia, disciples of St. Paul. Acts 20:4",https://en.wikipedia.org/w/index.php?search=Tychicus%20and%20Asia%20St.%20Paul
+04-30,"Eutropius, Bishop of Saintes, Martyr middle of the",,,,,,1868,"Eutropius, Bishop of Saintes, Martyr middle of the 3rd c",https://en.wikipedia.org/w/index.php?search=Eutropius%20Saintes
+05-01,"Philip and James, Apostles",,RED,,,,1868,,https://blog.cph.org/read/church-year/philip-james
+05-01,"Walburgis, Virgin, Abbess",,,,,,1868,"Walburgis, Virgin, Abbess, † 779",https://en.wikipedia.org/w/index.php?search=Walburgis
+05-02,"Athanasius, Patriarch of Alexandria",,,,,,1868,"Athanasius, Patriarch of Alexandria, † 373",https://en.wikipedia.org/wiki/Athanasius_of_Alexandria
+05-03,The Discovery of the Cross,,,,,,1868,The Discovery of the Cross. 329,https://en.wikipedia.org/w/index.php?search=The%20Discovery%20of%20the%20Cross
+05-04,"Monica, Widow, mother of St. Augustine",,,,,,1868,"Monica, Widow, mother of St. Augustine, † 387",https://en.wikipedia.org/wiki/Monica_of_Hippo
+05-05,"Gotthard, Bishop of Hildesheim",,,,,,1868,"Gotthard, Bishop of Hildesheim, † 1039",https://en.wikipedia.org/w/index.php?search=Gotthard%20Hildesheim
+05-06,John before the Latin Gate,,,,,,1868,"John before the Latin Gate, 95",https://en.wikipedia.org/w/index.php?search=John%20before%20the%20Latin%20Gate
+05-07,"Flavia Domitilla, Virgin, Martyr in Rome under Trajan",,,,,,1868,"Flavia Domitilla, Virgin, Martyr in Rome under Trajan 100",https://en.wikipedia.org/w/index.php?search=Flavia%20Domitilla%20Rome
+05-08,"Victor the Moor, Martyr at Milan",,,,,,1868,"Victor the Moor, Martyr at Milan, 303",https://en.wikipedia.org/w/index.php?search=Victor%20the%20Moor%20Milan
+05-09,Hermas,,,,,,1868,"Hermas, Rom. 16:14",https://en.wikipedia.org/w/index.php?search=Hermas
+05-09,"Gregory of Nazianzen, Patriarch of Constantinople",,,,,,1868,"Gregory of Nazianzen, Patriarch of Constantinople 389",https://en.wikipedia.org/wiki/Gregory_of_Nazianzus
+05-10,"Comgall, Abbot at Bangor",,,,,,1868,"Comgall, Abbot at Bangor, † 601",https://en.wikipedia.org/w/index.php?search=Comgall%20Bangor
+05-11,"Gangolph, Martyr in Burgund",,,,,,1868,"Gangolph, Martyr in Burgund, 760",https://en.wikipedia.org/w/index.php?search=Gangolph%20Burgund
+05-12,"Pancratius, Martyr at Rome",,,,,,1868,"Pancratius, Martyr at Rome 304",https://en.wikipedia.org/w/index.php?search=Pancratius%20Rome
+05-13,"Servatius, Bishop of Nongern",,,,,,1868,"Servatius, Bishop of Nongern, † 384",https://en.wikipedia.org/w/index.php?search=Servatius%20Nongern
+05-14,"Pachomius, Abbot in upper Thebais",,,,,,1868,"Pachomius, Abbot in upper Thebais, † 348",https://en.wikipedia.org/w/index.php?search=Pachomius
+05-15,"Rupert, Confessor in Mainz",,,,,,1868,"Rupert, Confessor in Mainz, 9th c",https://en.wikipedia.org/w/index.php?search=Rupert%20Mainz
+05-15,"Dympna, Virgin, Martyr in Gheel in Brabant",,,,,,1868,"Dympna, Virgin, Martyr in Gheel in Brabant, 7th c",https://en.wikipedia.org/w/index.php?search=Dympna%20Gheel
+05-16,"Pereginus, Bishop of Auxerre, Martyr",,,,,,1868,"Pereginus, Bishop of Auxerre, Martyr appr. 304",https://en.wikipedia.org/w/index.php?search=Pereginus%20Auxerre
+05-17,"Possidius, Bishop of Calama in Numidia",,,,,,1868,"Possidius, Bishop of Calama in Numidia 430",https://en.wikipedia.org/w/index.php?search=Possidius%20Calama
+05-18,"Theodotus, Schenkwirth, and their companions, Martyrs",,,,,,1868,"Theodotus, Schenkwirth, and their companions, Martyrs 303",https://en.wikipedia.org/w/index.php?search=Theodotus
+05-19,"Pudentiana, Virgin at Rome",,,,,,1868,"Pudentiana, Virgin at Rome, 1st c",https://en.wikipedia.org/wiki/Pudentiana
+05-20,"Ivo, Bishop of Chartres",,,,,,1868,"Ivo, Bishop of Chartres, † 1115",https://en.wikipedia.org/w/index.php?search=Ivo%20Chartres
+05-21,"Hospitius, hermit",,,,,,1868,"Hospitius, hermit, 681",https://en.wikipedia.org/w/index.php?search=Hospitius
+05-22,"Helena, Empress",,,,,,1868,"Helena, Empress, † 328",https://en.wikipedia.org/wiki/Helena_of_Constantinople
+05-23,"Desiderius, Bishop of Vienne, Martyr",,,,,,1868,"Desiderius, Bishop of Vienne, Martyr 608/12",https://en.wikipedia.org/w/index.php?search=Desiderius%20Vienne
+05-23,"Desiderius, Bishop of Langers, Martyr",,,,,,1868,"Desiderius, Bishop of Langers, Martyr 262 or 411",https://en.wikipedia.org/w/index.php?search=Desiderius%20Langers
+05-24,"Esther, Queen. Menaen, prophet. Acts",,,,,,1868,"Esther, Queen. Menaen, prophet. Acts 13:1. Vincent of Lerins, † 450. Johanna, Lk. 8:3; 24:10",https://blog.cph.org/read/church-year/commemoration/esther
+05-25,"Urban, Bishop of Rome, Martyr",,,,,,1868,"Urban, Bishop of Rome, Martyr 231",https://en.wikipedia.org/w/index.php?search=Urban%20Rome
+05-26,"Quadratus, Bishop of Athens, disciple of the Apostles, apologist",,,,,,1868,"Quadratus, Bishop of Athens, disciple of the Apostles, apologist, † 126",https://en.wikipedia.org/w/index.php?search=Quadratus%20Athens
+05-27,"The Venerable Bede, Presbyter",,,,,,1868,"The Venerable Bede, Presbyter, May 26, 735",https://en.wikipedia.org/wiki/Bede
+05-28,"Germanus, Bishop of Paris",,,,,,1868,"Germanus, Bishop of Paris, † 576",https://en.wikipedia.org/w/index.php?search=Germanus%20Paris
+05-29,"Cyrillus, boy, Martyr",,,,,,1868,"Cyrillus, boy, Martyr 250/60",https://en.wikipedia.org/w/index.php?search=Cyrillus
+05-30,"Felix, Bishop of Rome, Martyr",,,,,,1868,"Felix, Bishop of Rome, Martyr 274",https://en.wikipedia.org/w/index.php?search=Felix%20Rome
+05-31,"Petronella, Virgin, disciple of the apostles",,,,,,1868,,https://en.wikipedia.org/w/index.php?search=Petronella
+06-01,Justin Martyr,,,,,,1868,"Justin Martyr, 167",https://blog.cph.org/read/church-year/commemoration/justin-martyr
+06-01,"Pamphilus, Presbyter, Martyr",,,,,,1868,"Pamphilus, Presbyter, Martyr 309",https://en.wikipedia.org/w/index.php?search=Pamphilus
+06-02,"Blandina, Virgin, Martyr in Lyon",,,,,,1868,"Blandina, Virgin, Martyr in Lyon 177",https://en.wikipedia.org/w/index.php?search=Blandina%20Lyon
+06-02,"Erasmus, Bishop, Confessor",,,,,,1868,"Erasmus, Bishop, Confessor, † 303",https://en.wikipedia.org/wiki/Erasmus_of_Formiae
+06-03,"Caecilius, Presbyter at Carthage",,,,,,1868,"Caecilius, Presbyter at Carthage 211",https://en.wikipedia.org/w/index.php?search=Caecilius%20Carthage
+06-04,"Quirinus, Bishop of Syscia in Pannonia, Martyr",,,,,,1868,"Quirinus, Bishop of Syscia in Pannonia, Martyr 304",https://en.wikipedia.org/w/index.php?search=Quirinus%20Syscia
+06-05,"Boniface, Archbishop of Mainz, Martyr",,,,,,1868,"Boniface, Archbishop of Mainz, Martyr 755",https://en.wikipedia.org/wiki/Saint_Boniface
+06-06,"Philip, deacon",,,,,,1868,"Philip, deacon, Acts 6",https://blog.cph.org/read/church-year/commemoration/philip-the-deacon
+06-07,"Paul, Bishop of Constantinople, Martyr",,,,,,1868,"Paul, Bishop of Constantinople, Martyr 350",https://en.wikipedia.org/w/index.php?search=Paul%20Constantinople
+06-07,"Deocar, Abbot at Herrieden",,,,,,1868,"Deocar, Abbot at Herrieden, † 850",https://en.wikipedia.org/w/index.php?search=Deocar%20Herrieden
+06-08,"William, Archbishop of York",,,,,,1868,"William, Archbishop of York, 1154",https://en.wikipedia.org/w/index.php?search=William%20York
+06-09,"Primus and Felicianus, Martyrs at Rome",,,,,,1868,"Primus and Felicianus, Martyrs at Rome, 286",https://en.wikipedia.org/w/index.php?search=Primus%20and%20Felicianus%20Rome
+06-10,"Landerich, Bishop of Paris",,,,,,1868,"Landerich, Bishop of Paris 650",https://en.wikipedia.org/w/index.php?search=Landerich%20Paris
+06-11,"Barnabas, Apostle, Martyr",,,,,,1868,"Barnabas, Apostle, Martyr 70",https://blog.cph.org/read/church-year/st-barnabas-apostle-acts
+06-12,"Onuphrius, hermit in the Thebais",,,,,,1868,"Onuphrius, hermit in the Thebais 404",https://en.wikipedia.org/w/index.php?search=Onuphrius
+06-12,"Basilides and companions, Martyrs at Rome",,,,,,1868,"Basilides and companions, Martyrs at Rome 303",https://en.wikipedia.org/w/index.php?search=Basilides%20Rome
+06-13,Tobias,,,,,,1868,"Tobias, 722 B.C",https://en.wikipedia.org/w/index.php?search=Tobias
+06-14,"Elisha, prophet",,,,,,1868,"Elisha, prophet, 840 B.C",https://blog.cph.org/read/church-year/commemoration/elisha
+06-15,"Vitus, Modestus, and Crescentia, Martyrs in Lucania",,,,,,1868,"Vitus, Modestus, and Crescentia, Martyrs in Lucania, 4th c","https://en.wikipedia.org/wiki/Vitus,_Modestus,_and_Crescentia"
+06-16,"Julitta, Quirinus, Martyrs",,,,,,1868,"Julitta, Quirinus, Martyrs 304",https://en.wikipedia.org/w/index.php?search=Julitta
+06-17,"Mamuold, Abbot at Regensburg",,,,,,1868,"Mamuold, Abbot at Regensburg, † 1001",https://en.wikipedia.org/w/index.php?search=Mamuold%20Regensburg
+06-18,"Marcus and Marcellianus, Martyrs at Rome",,,,,,1868,"Marcus and Marcellianus, Martyrs at Rome, 286",https://en.wikipedia.org/w/index.php?search=Marcus%20and%20Marcellianus%20Rome
+06-19,"Gervasius and Protasius, Martyrs in the",,,,,,1868,"Gervasius and Protasius, Martyrs in the 1st c",https://en.wikipedia.org/w/index.php?search=Gervasius%20and%20Protasius
+06-20,"Pudens, senator",,,,,,1868,"Pudens, senator, 2nd c",https://en.wikipedia.org/w/index.php?search=Pudens
+06-21,"Albanus, Martyr",,,,,,1868,"Albanus, Martyr 286/303. Albanus, Martyr 404",https://en.wikipedia.org/w/index.php?search=Albanus
+06-22,"Paulinus, Bishop of Nola",,,,,,1868,"Paulinus, Bishop of Nola, † 431",https://en.wikipedia.org/wiki/Paulinus_of_Nola
+06-23,"Basil the Great, Archbishop of Caesarea",,,,,,1868,"Basil the Great, Archbishop of Caesarea, † 379",https://en.wikipedia.org/w/index.php?search=Basil%20the%20Great%20Caesarea
+06-24,John the Baptizer,,WHITE,,,,1868,"John the Baptizer, 24:6",https://en.wikipedia.org/w/index.php?search=John%20the%20Baptizer
+06-25,Sosipater,,,,,,1868,"Sosipater, Rom. 16:21",https://en.wikipedia.org/w/index.php?search=Sosipater
+06-25,Prosper of Aquitaine,,,,,,1868,"Prosper of Aquitaine, 463",https://en.wikipedia.org/w/index.php?search=Prosper%20of%20Aquitaine
+06-26,"Jeremiah, prophet",,,,,,1868,"Jeremiah, prophet, 629-580 B.C",https://blog.cph.org/read/church-year/commemoration/jeremiah
+06-27,Crescens,,,,,,1868,"Crescens, 2 Tim. 4:10",https://en.wikipedia.org/w/index.php?search=Crescens
+06-28,"Leo the Great, Bishop of Rome",,,,,,1868,"Leo the Great, Bishop of Rome, † 461",https://en.wikipedia.org/w/index.php?search=Leo%20the%20Great%20Rome
+06-29,"Peter and Paul, Apostles, Martyrs",,RED,,,,1868,"Peter and Paul, Apostles, Martyrs 67",https://blog.cph.org/read/church-year/feast-of-st-peter-and-st-paul
+06-30,Commemoration of St. Paul,,,,,,1868,,https://en.wikipedia.org/w/index.php?search=Commemoration%20of%20St.%20Paul
+07-01,"Theobald, hermit near Vicenza",,,,,,1868,"Theobald, hermit near Vicenza, 1066",https://en.wikipedia.org/w/index.php?search=Theobald
+07-02,The Visitation of Mary,WHITE,,,,,1868,,https://blog.cph.org/read/church-year/the-visitation
+07-02,"Otto, Bishop of Bamberg",,,,,,1868,"Otto, Bishop of Bamberg, † 1139",https://en.wikipedia.org/w/index.php?search=Otto%20Bamberg
+07-03,"Cornelius, captain",,,,,,1868,"Cornelius, captain, Acts 10",https://en.wikipedia.org/w/index.php?search=Cornelius
+07-04,"Ulrich, Bishop of Augsburg",,,,,,1868,"Ulrich, Bishop of Augsburg, † 973",https://en.wikipedia.org/w/index.php?search=Ulrich%20Augsburg
+07-05,"Haggai, prophet",,,,,,1868,"Haggai, prophet, 520 B.C",https://en.wikipedia.org/w/index.php?search=Haggai
+07-06,"Isaiah, prophet",,,,,,1868,"Isaiah, prophet, 759-699 B.C",https://blog.cph.org/read/church-year/commemoration/isaiah
+07-07,"Willibald, Bishop of Eichstaett",,,,,,1868,"Willibald, Bishop of Eichstaett, † 786",https://en.wikipedia.org/w/index.php?search=Willibald%20Eichstaett
+07-08,Aquila and Priscilla,,,,,,1868,"Aquila and Priscilla, 52",https://en.wikipedia.org/w/index.php?search=Aquila%20and%20Priscilla
+07-08,"Kilian, Bishop of Wuerzburg, Martyr",,,,,,1868,"Kilian, Bishop of Wuerzburg, Martyr 688/89",https://en.wikipedia.org/w/index.php?search=Kilian%20Wuerzburg
+07-09,"Ephraem the Syrian, Deacon",,,,,,1868,"Ephraem the Syrian, Deacon, 378/79",https://en.wikipedia.org/w/index.php?search=Ephraem%20the%20Syrian
+07-10,"The Seven Sons of St. Felicitas, Martyrs at Rome",,,,,,1868,"The Seven Sons of St. Felicitas, Martyrs at Rome 150",https://en.wikipedia.org/w/index.php?search=The%20Seven%20Sons%20of%20St.%20Felicitas%20Rome
+07-11,"Pius, Bishop of Rome, Martyr",,,,,,1868,"Pius, Bishop of Rome, Martyr 150",https://en.wikipedia.org/w/index.php?search=Pius%20Rome
+07-12,"Henry II., Emporer",,,,,,1868,"Henry II., Emporer, † 1024","https://en.wikipedia.org/wiki/Henry_II,_Holy_Roman_Emperor"
+07-13,"Margaretha, Virgin, Martyr at Antioch",,,,,,1868,"Margaretha, Virgin, Martyr at Antioch, 275",https://en.wikipedia.org/w/index.php?search=Margaretha%20Antioch
+07-14,"John Bonaventura, Bishop",,,,,,1868,"John Bonaventura, Bishop, † 1274",https://en.wikipedia.org/w/index.php?search=John%20Bonaventura
+07-15,"Stilla, Virgin, of Abenberg",,,,,,1868,"Stilla, Virgin, of Abenberg, 1158. The Division of the Holy Apostles. Gumbert, Abbot of Ansbach, † 790",https://en.wikipedia.org/w/index.php?search=Stilla%20Abenberg
+07-16,"Ruth, the Moabitess",,,,,,1868,,https://blog.cph.org/read/church-year/commemoration/ruth
+07-17,"Marcellina, Virgin",,,,,,1868,"Marcellina, Virgin, † appr. 397",https://en.wikipedia.org/w/index.php?search=Marcellina
+07-18,"Radegundis, Virgin, servant girl",,,,,,1868,"Radegundis, Virgin, servant girl, 13th c",https://en.wikipedia.org/w/index.php?search=Radegundis
+07-19,"Macrina, Virgin",,,,,,1868,"Macrina, Virgin, † 379",https://en.wikipedia.org/wiki/Macrina_the_Younger
+07-20,"Elijah, prophet",,,,,,1868,"Elijah, prophet, 900 B.C",https://blog.cph.org/read/church-year/commemoration/elijah
+07-20,Vincent of St. Paula,,,,,,1868,"Vincent of St. Paula, † 1660",https://en.wikipedia.org/w/index.php?search=Vincent%20of%20St.%20Paula
+07-21,"Praxedis, Virgin",,,,,,1868,"Praxedis, Virgin, 129",https://en.wikipedia.org/w/index.php?search=Praxedis
+07-22,Mary Magdalene,,,,,,1868,,https://blog.cph.org/read/church-year/mary-magdalene-john-20
+07-23,"Apollinaris, Bishop of Ravenna, Martyr",,,,,,1868,"Apollinaris, Bishop of Ravenna, Martyr appr. 69",https://en.wikipedia.org/wiki/Apollinaris_of_Ravenna
+07-24,"Christina, Virgin, Martyr",,,,,,1868,"Christina, Virgin, Martyr, beginning of the 3rd c",https://en.wikipedia.org/wiki/Saint_Christina_of_Bolsena
+07-25,"James the Elder, Apostle, Martyr",,RED,,,,1868,"James the Elder, Apostle, Martyr 44. Acts 12:1-2",https://blog.cph.org/read/church-year/st-james-the-elder-apostle
+07-26,"Anna, grandmother of Jesus",,,,,,1868,,https://en.wikipedia.org/w/index.php?search=Anna%20Jesus
+07-27,"The Seven Sleepers, Martyrs",,,,,,1868,"The Seven Sleepers, Martyrs 250",https://en.wikipedia.org/w/index.php?search=The%20Seven%20Sleepers
+07-27,"Martha, sister of Lazarus",,,,,,1868,,https://en.wikipedia.org/wiki/Martha
+07-28,"Pataleon, physician, Martyr",,,,,,1868,"Pataleon, physician, Martyr 303",https://en.wikipedia.org/w/index.php?search=Pataleon
+07-29,Lazarus,,,,,,1868,"Lazarus, Jn. 11",https://en.wikipedia.org/w/index.php?search=Lazarus
+07-30,"Abdon and Sennen, Martyrs at Rome",,,,,,1868,"Abdon and Sennen, Martyrs at Rome 250",https://en.wikipedia.org/wiki/Abdon_and_Sennen
+07-31,"Germanus, Bishop of Auxerre",,,,,,1868,"Germanus, Bishop of Auxerre, † 448",https://en.wikipedia.org/w/index.php?search=Germanus%20Auxerre
+08-01,St. Peter's Chains,,,,,,1868,,https://en.wikipedia.org/w/index.php?search=Saint%20Peter%27s%20Chains
+08-02,"Stephan, Bishop of Rome, Martyr",,,,,,1868,"Stephan, Bishop of Rome, Martyr 257",https://en.wikipedia.org/w/index.php?search=Stephan%20Rome
+08-03,Nicodemus,,,,,,1868,"Nicodemus, Jn. 3",https://en.wikipedia.org/w/index.php?search=Nicodemus
+08-03,Gamaliel,,,,,,1868,"Gamaliel, Acts 5:34",https://en.wikipedia.org/w/index.php?search=Gamaliel
+08-03,Lydia,,,,,,1868,"Lydia, Acts 16:14",https://en.wikipedia.org/w/index.php?search=Lydia
+08-04,"Dominic, founder of a monastic order",,,,,,1868,"Dominic, founder of a monastic order, † 1221",https://en.wikipedia.org/wiki/Saint_Dominic
+08-05,"Nonna, mother of St. Gregory of Nazianzen",,,,,,1868,"Nonna, mother of St. Gregory of Nazianzen, 4th c",https://en.wikipedia.org/w/index.php?search=Nonna%20St.%20Gregory
+08-05,"Oswald, king, Martyr",,,,,,1868,"Oswald, king, Martyr 642",https://en.wikipedia.org/wiki/Oswald_of_Northumbria
+08-06,The Transfiguration of Christ,,,,,,1868,,https://en.wikipedia.org/w/index.php?search=The%20Transfiguration%20of%20Christ
+08-07,"Afra, Martyr at Augsburg",,,,,,1868,"Afra, Martyr at Augsburg 304",https://en.wikipedia.org/w/index.php?search=Afra%20Augsburg
+08-08,"Cyriacus, Largus, and Smaragdus, Martyrs",,,,,,1868,"Cyriacus, Largus, and Smaragdus, Martyrs, 303",https://en.wikipedia.org/wiki/Cyriacus
+08-09,"Romanus, Martyr at Rome",,,,,,1868,"Romanus, Martyr at Rome 258",https://en.wikipedia.org/wiki/Romanus_Ostiarius
+08-10,"Laurence, Archdeacon, Martyr at Rome",,,,,,1868,"Laurence, Archdeacon, Martyr at Rome 258",https://en.wikipedia.org/wiki/Lawrence_of_Rome
+08-11,"Tiburtius, Martyr at Rome",,,,,,1868,"Tiburtius, Martyr at Rome 286",https://en.wikipedia.org/wiki/Saint_Tiburtius
+08-12,"Clara of Assisi, Abbess",,,,,,1868,"Clara of Assisi, Abbess, † 1253",https://en.wikipedia.org/w/index.php?search=Clara%20of%20Assisi
+08-13,"Cassianus, Martyr",,,,,,1868,"Cassianus, Martyr 362",https://en.wikipedia.org/wiki/Cassian_of_Imola
+08-14,"Athanasia, Widow Abbess at Timia",,,,,,1868,"Athanasia, Widow Abbess at Timia, 860",https://en.wikipedia.org/w/index.php?search=Athanasia%20Timia
+08-15,The Home-Going of Mary,,,,,,1868,,https://en.wikipedia.org/w/index.php?search=The%20Home-Going%20of%20Mary
+08-16,"Isaac, patriarch",,,,,,1868,,https://blog.cph.org/read/church-year/commemoration/isaac
+08-16,"Rochus of Montpellier, Confessor",,,,,,1868,"Rochus of Montpellier, Confessor, end of the 14th c",https://en.wikipedia.org/w/index.php?search=Rochus%20of%20Montpellier
+08-17,"Liberatus and his companions, Martyrs",,,,,,1868,"Liberatus and his companions, Martyrs 483",https://en.wikipedia.org/w/index.php?search=Liberatus
+08-18,"Agapitus, Martyr",,,,,,1868,"Agapitus, Martyr 273",https://en.wikipedia.org/wiki/Agapitus_of_Palestrina
+08-19,"Gebald, hermit near Nuernberg",,,,,,1868,"Gebald, hermit near Nuernberg, 8th or 11th c",https://en.wikipedia.org/w/index.php?search=Gebald
+08-20,Bernard of Clairvaux,,,,,,1868,"Bernard of Clairvaux, † 1153",https://en.wikipedia.org/wiki/Bernard_of_Clairvaux
+08-21,"Bonosus and Maximilianus, soldiers, Martyrs",,,,,,1868,"Bonosus and Maximilianus, soldiers, Martyrs 363",https://en.wikipedia.org/w/index.php?search=Bonosus%20and%20Maximilianus
+08-22,"Symphorian of Autun, Martyr",,,,,,1868,"Symphorian of Autun, Martyr appr. 178",https://en.wikipedia.org/w/index.php?search=Symphorian%20of%20Autun
+08-23,Zachaeus,,,,,,1868,"Zachaeus, Lk. 19",https://en.wikipedia.org/w/index.php?search=Zachaeus
+08-23,"Zachaeus IV., Bishop of Jerusalem",,,,,,1868,,https://en.wikipedia.org/w/index.php?search=Zachaeus%20IV.%20Jerusalem
+08-24,"Bartholomew, Apostle",,RED,,,,1868,,https://blog.cph.org/read/church-year/bartholomew-apostle
+08-24,The Martyrs of Utica,,,,,,1868,The Martyrs of Utica 385,https://en.wikipedia.org/w/index.php?search=The%20Martyrs%20of%20Utica
+08-25,"Louis, king of France",,,,,,1868,"Louis, king of France, † 1270",https://en.wikipedia.org/wiki/Louis_IX_of_France
+08-26,"Samuel, prophet",,,,,,1868,"Samuel, prophet, 1096 B.C",https://en.wikipedia.org/wiki/Samuel_(Bible)
+08-27,"Caesarius, Bishop of Arles",,,,,,1868,"Caesarius, Bishop of Arles, † 542",https://en.wikipedia.org/w/index.php?search=Caesarius%20Arles
+08-28,"Aurelius Augustine, Bishop of Hippo",,,,,,1868,"Aurelius Augustine, Bishop of Hippo, † 430",https://en.wikipedia.org/wiki/Augustine_of_Hippo
+08-29,Beheading of John the Baptist,,,,,,1868,,https://en.wikipedia.org/wiki/Beheading_of_John_the_Baptist
+08-30,Rebecca,,,,,,1868,,https://en.wikipedia.org/w/index.php?search=Rebecca
+08-30,"Felix, Presbyter, and Adauctus, Martyrs at Rome under Diocletian",,,,,,1868,,https://en.wikipedia.org/w/index.php?search=Felix%20Rome
+08-31,"Isabella, Virgin",,,,,,1868,"Isabella, Virgin † 1270",https://en.wikipedia.org/w/index.php?search=Isabella
+09-01,"Aegidius, Abbot",,,,,,1868,"Aegidius, Abbot, appr. 715",https://en.wikipedia.org/w/index.php?search=Aegidius
+09-01,"Aegidius, monk",,,,,,1868,"Aegidius, monk 1203",https://en.wikipedia.org/w/index.php?search=Aegidius
+09-02,"Stephan, king of Hungary",,,,,,1868,"Stephan, king of Hungary, † 1038",https://en.wikipedia.org/w/index.php?search=Stephan%20Hungary
+09-03,"Phoebe, deaconess at Cenchreae",,,,,,1868,"Phoebe, deaconess at Cenchreae, appr. 58. Rom. 16:1",https://en.wikipedia.org/wiki/Phoebe_(biblical_figure)
+09-04,"Moses, prophet",,,,,,1868,"Moses, prophet, 1500 B.C",https://blog.cph.org/read/church-year/commemoration/moses
+09-05,"Marinus, Deacon",,,,,,1868,"Marinus, Deacon, end of 4th c",https://en.wikipedia.org/w/index.php?search=Marinus
+09-06,Onesiphorus,,,,,,1868,"Onesiphorus, 2 Tim. 1:16",https://en.wikipedia.org/w/index.php?search=Onesiphorus
+09-06,"Magnus, Apostle of Algaeu",,,,,,1868,"Magnus, Apostle of Algaeu 665",https://en.wikipedia.org/w/index.php?search=Magnus%20Algaeu
+09-07,"Regina, Virgin, Martyr in Burgundy",,,,,,1868,"Regina, Virgin, Martyr in Burgundy, 251",https://en.wikipedia.org/w/index.php?search=Regina%20Burgundy
+09-08,Nativity of Mary,,,,,,1868,,https://en.wikipedia.org/wiki/Nativity_of_Mary
+09-08,"Corbinian, Bishop, Apostle in Bavaria",,,,,,1868,"Corbinian, Bishop, Apostle in Bavaria, † 730",https://en.wikipedia.org/w/index.php?search=Corbinian%20Bavaria
+09-09,"Gorgonius, Dorotheus and Peter, Martyrs at Rome",,,,,,1868,"Gorgonius, Dorotheus and Peter, Martyrs at Rome 304",https://en.wikipedia.org/wiki/Gorgonius
+09-10,"Pulcheria, Empress, Virgin",,,,,,1868,"Pulcheria, Empress, Virgin, † 453",https://en.wikipedia.org/w/index.php?search=Pulcheria
+09-11,"Paphnutius, Bishop of Thebais",,,,,,1868,"Paphnutius, Bishop of Thebais 335",https://en.wikipedia.org/w/index.php?search=Paphnutius%20Thebais
+09-12,Guido of Anderlecht,,,,,,1868,"Guido of Anderlecht, † 1012",https://en.wikipedia.org/w/index.php?search=Guido%20of%20Anderlecht
+09-13,"Amatus, Bishop of Sitten in Wallis",,,,,,1868,"Amatus, Bishop of Sitten in Wallis, 690",https://en.wikipedia.org/w/index.php?search=Amatus%20Sitten
+09-14,Exaltation of the Cross,,,,,,1868,"Exaltation of the Cross, 629",https://en.wikipedia.org/w/index.php?search=Exaltation%20of%20the%20Cross
+09-15,"Nicetas, Martyr",,,,,,1868,"Nicetas, Martyr 372",https://en.wikipedia.org/w/index.php?search=Nicetas
+09-16,"Euphemia, Virgin, Martyr at Chalcedon",,,,,,1868,"Euphemia, Virgin, Martyr at Chalcedon, 307",https://en.wikipedia.org/wiki/Euphemia
+09-16,"Cyprian, Bishop of Carthage, Martyr",,,,,,1868,"Cyprian, Bishop of Carthage, Martyr 258",https://en.wikipedia.org/wiki/Cyprian
+09-17,"Hildegard, Abbess of St. Ruppert near Bingen",,,,,,1868,"Hildegard, Abbess of St. Ruppert near Bingen, † 1179",https://en.wikipedia.org/wiki/Hildegard_of_Bingen
+09-18,"Richardis, Empress",,,,,,1868,"Richardis, Empress, † 893",https://en.wikipedia.org/w/index.php?search=Richardis
+09-19,"Januarius, Bishop of Benevento, Martyr",,,,,,1868,"Januarius, Bishop of Benevento, Martyr 305",https://en.wikipedia.org/wiki/Januarius
+09-20,"Fausta, Virgin, Martyr and Evilasius, Martyr at Cyzicum",,,,,,1868,"Fausta, Virgin, Martyr and Evilasius, Martyr at Cyzicum, 305-11",https://en.wikipedia.org/w/index.php?search=Fausta%20Cyzicum
+09-21,"Matthew, Apostle",,RED,,,,1868,,https://blog.cph.org/read/church-year/feast-st-matthew
+09-22,"Emmeran, Bishop, Apostle in Bavaria, Martyr",,,,,,1868,"Emmeran, Bishop, Apostle in Bavaria, Martyr 652",https://en.wikipedia.org/w/index.php?search=Emmeran%20Bavaria
+09-23,"Thecla, disciple of St. Paul, Virgin, Martyr",,,,,,1868,"Thecla, disciple of St. Paul, Virgin, Martyr, 1st c",https://en.wikipedia.org/wiki/Thecla
+09-24,"Gerhard, Bishop, Martyr in Hungary",,,,,,1868,"Gerhard, Bishop, Martyr in Hungary, † 1046",https://en.wikipedia.org/w/index.php?search=Gerhard%20Hungary
+09-25,Cleopas,,,,,,1868,"Cleopas, Lk. 24:18",https://en.wikipedia.org/w/index.php?search=Cleopas
+09-26,Cyprian the Sorcerer,,,,,,1868,,https://en.wikipedia.org/w/index.php?search=Cyprian%20the%20Sorcerer
+09-26,"Justina, Virgin, Martyrs [sic] at Antioch",,,,,,1868,"Justina, Virgin, Martyrs [sic] at Antioch, 304",https://en.wikipedia.org/w/index.php?search=Justina%20Antioch
+09-27,"Cosmas and Damian, physicians, Martyrs",,,,,,1868,"Cosmas and Damian, physicians, Martyrs, appr. 303",https://en.wikipedia.org/wiki/Cosmas_and_Damian
+09-28,"Lioba, Virgin, Abbess",,,,,,1868,"Lioba, Virgin, Abbess 779",https://en.wikipedia.org/w/index.php?search=Lioba
+09-28,"Eustochium, Virgin",,,,,,1868,"Eustochium, Virgin, 419",https://en.wikipedia.org/w/index.php?search=Eustochium
+09-29,"Michael, Archangel",,WHITE,,,,1868,,https://en.wikipedia.org/w/index.php?search=Michael
+09-30,"Jerome, Presbyter",,,,,,1868,"Jerome, Presbyter, † 419",https://blog.cph.org/read/church-year/commemoration/jerome-translator-of-holy-scripture
+10-01,"Remigius, Bishop of Rheims, Apostle of Franconia",,,,,,1868,"Remigius, Bishop of Rheims, Apostle of Franconia, 533",https://en.wikipedia.org/wiki/Saint_Remigius
+10-02,"Leodegar, Bishop of Autun, Martyr",,,,,,1868,"Leodegar, Bishop of Autun, Martyr 678",https://en.wikipedia.org/w/index.php?search=Leodegar%20Autun
+10-03,Jairus,,,,,,1868,"Jairus, Mt. 9:18",https://en.wikipedia.org/w/index.php?search=Jairus
+10-04,"Francis of Assisi, founder of a monastic order",,,,,,1868,"Francis of Assisi, founder of a monastic order, † 1226",https://en.wikipedia.org/wiki/Francis_of_Assisi
+10-05,"Placidus of Subiaco, Abbot at Monte Cassino, Martyr",,,,,,1868,"Placidus of Subiaco, Abbot at Monte Cassino, Martyr 546",https://en.wikipedia.org/w/index.php?search=Placidus%20of%20Subiaco%20Monte%20Cassino
+10-06,"Fides, Virgin of Agen, and her companions, Martyrs",,,,,,1868,"Fides, Virgin of Agen, and her companions, Martyrs appr. 287",https://en.wikipedia.org/w/index.php?search=Fides%20Agen
+10-07,"Justina, Virgin, Martyr at Padua",,,,,,1868,"Justina, Virgin, Martyr at Padua, 304",https://en.wikipedia.org/w/index.php?search=Justina%20Padua
+10-08,"Pelagia, penitent of Antioch",,,,,,1868,"Pelagia, penitent of Antioch, 5th c",https://en.wikipedia.org/w/index.php?search=Pelagia%20Antioch
+10-09,"Dionysius the Areopagite, Martyr",,,,,,1868,"Dionysius the Areopagite, Martyr, Acts 17:34",https://en.wikipedia.org/w/index.php?search=Dionysius%20the%20Areopagite
+10-10,"Gideon, Judges",,,,,,1868,"Gideon, Judges 6-8",https://en.wikipedia.org/w/index.php?search=Gideon
+10-10,"Gereon of Cologne, Martyr",,,,,,1868,"Gereon of Cologne, Martyr 259",https://en.wikipedia.org/w/index.php?search=Gereon%20of%20Cologne
+10-11,"Burkhard, Bishop of Wuerzburg",,,,,,1868,"Burkhard, Bishop of Wuerzburg, † 754",https://en.wikipedia.org/w/index.php?search=Burkhard%20Wuerzburg
+10-12,"Miximilian, Bishop Martyr",,,,,,1868,"Miximilian, Bishop Martyr 284",https://en.wikipedia.org/w/index.php?search=Miximilian
+10-13,"Colomann, Martyr in Austria",,,,,,1868,"Colomann, Martyr in Austria 1012",https://en.wikipedia.org/w/index.php?search=Colomann%20Austria
+10-14,"Calixtus, Bishop Martyr",,,,,,1868,"Calixtus, Bishop Martyr 222",https://en.wikipedia.org/w/index.php?search=Calixtus
+10-15,"Teresa [of Avila], Virgin",,,,,,1868,"Teresa [of Avila], Virgin † 1582",https://en.wikipedia.org/wiki/Teresa_of_Ávila
+10-16,"Gallus, Abbot of St. Gallen",,,,,,1868,"Gallus, Abbot of St. Gallen, † appr. 646",https://en.wikipedia.org/w/index.php?search=Gallus%20St.%20Gallen
+10-17,"Hedwig, duchess of Poland",,,,,,1868,"Hedwig, duchess of Poland, † 1243",https://en.wikipedia.org/wiki/Hedwig_of_Andechs
+10-18,"Luke, physician, evangelist",,,,,,1868,"Luke, physician, evangelist, Col. 4:14",https://blog.cph.org/read/church-year/luke-the-evangelist
+10-19,"Ptolemaeus and Lucius, Martyrs at Rome",,,,,,1868,"Ptolemaeus and Lucius, Martyrs at Rome, 166",https://en.wikipedia.org/w/index.php?search=Ptolemaeus%20and%20Lucius%20Rome
+10-20,"Wendelin, Abbot",,,,,,1868,"Wendelin, Abbot 1015",https://en.wikipedia.org/w/index.php?search=Wendelin
+10-21,"Ursula with her companions, Virgins, Martyrs",,,,,,1868,"Ursula with her companions, Virgins, Martyrs, 453",https://en.wikipedia.org/w/index.php?search=Ursula%20with%20her%20companions
+10-22,"Cordula, Virgin, Martyr",,,,,,1868,"Cordula, Virgin, Martyr, 453",https://en.wikipedia.org/w/index.php?search=Cordula
+10-23,"Severin, Bishop of Cologne",,,,,,1868,"Severin, Bishop of Cologne, 403",https://en.wikipedia.org/w/index.php?search=Severin%20Cologne
+10-23,"Severin, Bishop of Bordeaux",,,,,,1868,"Severin, Bishop of Bordeaux 404",https://en.wikipedia.org/w/index.php?search=Severin%20Bordeaux
+10-24,"Raphael, Archangel",,,,,,1868,,https://en.wikipedia.org/wiki/Raphael_(archangel)
+10-25,"Chrysanthus and Daria, Martyrs at Rome",,,,,,1868,"Chrysanthus and Daria, Martyrs at Rome 257",https://en.wikipedia.org/wiki/Saints_Chrysanthus_and_Daria
+10-26,"Amandus, Bishop at Strasbourg",,,,,,1868,"Amandus, Bishop at Strasbourg, 354",https://en.wikipedia.org/w/index.php?search=Amandus%20Strasbourg
+10-26,"Amandus, Bishop at Bordeaux",,,,,,1868,"Amandus, Bishop at Bordeaux 431",https://en.wikipedia.org/w/index.php?search=Amandus%20Bordeaux
+10-27,"Frumentius and Aedesius, Apostles of Ethiopia",,,,,,1868,"Frumentius and Aedesius, Apostles of Ethiopia, 4th c",https://en.wikipedia.org/w/index.php?search=Frumentius%20and%20Aedesius%20Ethiopia
+10-28,"Simon and Jude, Apostles",,RED,,,,1868,,https://blog.cph.org/read/church-year/simon-jude-apostles-john-15
+10-29,"Narcissus, Bishop of Gerona in Spain, Martyr",,,,,,1868,"Narcissus, Bishop of Gerona in Spain, Martyr 307",https://en.wikipedia.org/w/index.php?search=Narcissus%20Gerona
+10-29,"Narcissus, Bishop of Jerusalem",,,,,,1868,"Narcissus, Bishop of Jerusalem, 195",https://en.wikipedia.org/w/index.php?search=Narcissus%20Jerusalem
+10-30,"Marcellus, captain, Martyr in Spain",,,,,,1868,"Marcellus, captain, Martyr in Spain, 298",https://en.wikipedia.org/w/index.php?search=Marcellus%20Spain
+10-31,"Wolfgang, Bishop at Regensburg",,,,,,1868,"Wolfgang, Bishop at Regensburg, † 994",https://en.wikipedia.org/w/index.php?search=Wolfgang%20Regensburg
+11-01,All Saints,,WHITE,,,,1868,,https://blog.cph.org/read/church-year/all-saints-day-nagel
+11-02,All Souls,,,,,,1868,,https://en.wikipedia.org/wiki/All_Souls'_Day
+11-02,"Victorin, Bishop Martyr",,,,,,1868,"Victorin, Bishop Martyr 304",https://en.wikipedia.org/w/index.php?search=Victorin
+11-03,"Pirmin, Apostle of Westrich",,,,,,1868,"Pirmin, Apostle of Westrich 754",https://en.wikipedia.org/w/index.php?search=Pirmin%20Westrich
+11-04,"Vitalis and Agricola, Martyrs at Bologna",,,,,,1868,"Vitalis and Agricola, Martyrs at Bologna 304",https://en.wikipedia.org/w/index.php?search=Vitalis%20and%20Agricola%20Bologna
+11-05,"Berthilla, Abbess of Chelles",,,,,,1868,"Berthilla, Abbess of Chelles, 692",https://en.wikipedia.org/w/index.php?search=Berthilla%20Chelles
+11-06,"Leonhard, hermit, Confessor",,,,,,1868,"Leonhard, hermit, Confessor 559",https://en.wikipedia.org/w/index.php?search=Leonhard
+11-07,"Willibrord, Apostle of Frisia",,,,,,1868,"Willibrord, Apostle of Frisia 738",https://en.wikipedia.org/wiki/Willibrord
+11-08,"The Four Crowned Martyrs, at Rome",,,,,,1868,"The Four Crowned Martyrs, at Rome 304",https://en.wikipedia.org/wiki/Four_Crowned_Martyrs
+11-09,"Theodorus Tyro, Martyr",,,,,,1868,"Theodorus Tyro, Martyr 306",https://en.wikipedia.org/w/index.php?search=Theodorus%20Tyro
+11-10,"Florentia, Martyr",,,,,,1868,"Florentia, Martyr 354",https://en.wikipedia.org/w/index.php?search=Florentia
+11-11,"Martin, Bishop of Tours",,,,,,1868,"Martin, Bishop of Tours, † 400",https://en.wikipedia.org/wiki/Martin_of_Tours
+11-12,"Jonah, prophet",,,,,,1868,"Jonah, prophet, 838-797 B.C",https://en.wikipedia.org/wiki/Jonah
+11-13,"Briccius, Bishop of Tours",,,,,,1868,"Briccius, Bishop of Tours 444",https://en.wikipedia.org/w/index.php?search=Briccius%20Tours
+11-14,"Livin, Bishop from Scottland, Martyr",,,,,,1868,"Livin, Bishop from Scottland, Martyr 659",https://en.wikipedia.org/w/index.php?search=Livin
+11-14,"Livin, Pr",,,,,,1868,"Livin, Pr., † 8th c",https://en.wikipedia.org/w/index.php?search=Livin
+11-15,"Desiderius, Bishop of Cahors",,,,,,1868,"Desiderius, Bishop of Cahors, † 654",https://en.wikipedia.org/w/index.php?search=Desiderius%20Cahors
+11-15,"Albertus Magnus, Bishop",,,,,,1868,"Albertus Magnus, Bishop, † 1280",https://en.wikipedia.org/w/index.php?search=Albertus%20Magnus
+11-16,"Othmar, Abbot of St. Gallen",,,,,,1868,"Othmar, Abbot of St. Gallen, 759",https://en.wikipedia.org/w/index.php?search=Othmar%20St.%20Gallen
+11-17,"Dionysius, Bishop of Alexandria",,,,,,1868,"Dionysius, Bishop of Alexandria, † 265",https://en.wikipedia.org/w/index.php?search=Dionysius%20Alexandria
+11-18,"Gregory the Wonder-worker, Bishop",,,,,,1868,"Gregory the Wonder-worker, Bishop † 270",https://en.wikipedia.org/w/index.php?search=Gregory%20the%20Wonder-worker
+11-19,"Elisabeth, landgravine of Thuringia",,,,,,1868,"Elisabeth, landgravine of Thuringia, † 1231",https://en.wikipedia.org/wiki/Elisabeth_of_Hungary
+11-20,"Pontianus, Bishop of Rome, Martyr",,,,,,1868,"Pontianus, Bishop of Rome, Martyr 235",https://en.wikipedia.org/w/index.php?search=Pontianus%20Rome
+11-21,"Columbanus, Abbot of Bobbio",,,,,,1868,"Columbanus, Abbot of Bobbio, † 615",https://en.wikipedia.org/w/index.php?search=Columbanus%20Bobbio
+11-22,"Caecilia, Virgin, Martyr in the first",,,,,,1868,"Caecilia, Virgin, Martyr in the first 3 centuries",https://en.wikipedia.org/w/index.php?search=Caecilia
+11-23,"Clemens, Bishop of Rome, Martyr",,,,,,1868,"Clemens, Bishop of Rome, Martyr 100",https://en.wikipedia.org/w/index.php?search=Clemens%20Rome
+11-24,"Chrysogonus, Martyr",,,,,,1868,"Chrysogonus, Martyr 303",https://en.wikipedia.org/w/index.php?search=Chrysogonus
+11-25,"Katharina, Virgin, Martyr",,,,,,1868,"Katharina, Virgin, Martyr 306",https://en.wikipedia.org/w/index.php?search=Katharina
+11-26,"Konrad, Bishop of Constance",,,,,,1868,"Konrad, Bishop of Constance, † 976",https://en.wikipedia.org/w/index.php?search=Konrad%20Constance
+11-27,"Virgilius, Bishop of Salzburg",,,,,,1868,"Virgilius, Bishop of Salzburg, † 780",https://en.wikipedia.org/w/index.php?search=Virgilius%20Salzburg
+11-28,"Guenther, Bishop of Regensburg",,,,,,1868,"Guenther, Bishop of Regensburg, † 938",https://en.wikipedia.org/w/index.php?search=Guenther%20Regensburg
+11-29,"Saturninus, Bishop of Toulouse, Martyr",,,,,,1868,"Saturninus, Bishop of Toulouse, Martyr 250",https://en.wikipedia.org/w/index.php?search=Saturninus%20Toulouse
+11-30,"Andrew, Apostle",,RED,,,,1868,,https://blog.cph.org/read/church-year/st-andrew-apostle
+12-01,"Eligius, Bishop",,,,,,1868,"Eligius, Bishop, † 659",https://en.wikipedia.org/w/index.php?search=Eligius
+12-02,"Bibiana, Virgin, Martyr at Rome",,,,,,1868,"Bibiana, Virgin, Martyr at Rome, 363",https://en.wikipedia.org/wiki/Saint_Bibiana
+12-03,"Sola, Abbot at Solenhofen",,,,,,1868,"Sola, Abbot at Solenhofen 760",https://en.wikipedia.org/w/index.php?search=Sola%20Solenhofen
+12-04,"Barbara, Virgin, Martyr",,,,,,1868,"Barbara, Virgin, Martyr 235",https://en.wikipedia.org/w/index.php?search=Barbara
+12-05,"Crispina, Martyr in Africa",,,,,,1868,"Crispina, Martyr in Africa, 304",https://en.wikipedia.org/w/index.php?search=Crispina%20Africa
+12-06,"Nicolaus, Bishop of Myra",,,,,,1868,"Nicolaus, Bishop of Myra, † 352",https://en.wikipedia.org/w/index.php?search=Nicolaus%20Myra
+12-07,"Agathon, soldier, Martyr",,,,,,1868,"Agathon, soldier, Martyr 250",https://en.wikipedia.org/w/index.php?search=Agathon
+12-08,"Apollos, assistant of St. Paul",,,,,,1868,,https://en.wikipedia.org/w/index.php?search=Apollos%20St.%20Paul
+12-09,"Joachim, father of the Virgin Mary",,,,,,1868,,https://en.wikipedia.org/w/index.php?search=Joachim
+12-09,"Gorgonia, Widow",,,,,,1868,"Gorgonia, Widow, † 369",https://en.wikipedia.org/w/index.php?search=Gorgonia
+12-10,"Melchiades, Bishop of Rome",,,,,,1868,"Melchiades, Bishop of Rome 314",https://en.wikipedia.org/w/index.php?search=Melchiades%20Rome
+12-11,"Damasus, Bishop of Rome",,,,,,1868,"Damasus, Bishop of Rome 384",https://en.wikipedia.org/w/index.php?search=Damasus%20Rome
+12-12,"Epimachus and Alexander, Martyrs",,,,,,1868,"Epimachus and Alexander, Martyrs 250",https://en.wikipedia.org/w/index.php?search=Epimachus%20and%20Alexander
+12-13,"Lucia, Virgin, Martyr of Syracuse",,,,,,1868,"Lucia, Virgin, Martyr of Syracuse 304",https://blog.cph.org/read/church-year/commemoration/lucia-martyr
+12-13,"Odilia,Virgin, Abbess",,,,,,1868,"Odilia,Virgin, Abbess, † 720",https://en.wikipedia.org/w/index.php?search=Odilia
+12-14,"Spiridion, Bishop on Cyprus",,,,,,1868,"Spiridion, Bishop on Cyprus, 348",https://en.wikipedia.org/w/index.php?search=Spiridion
+12-15,"Ignatius, Bishop of Antioch, Martyr",,,,,,1868,"Ignatius, Bishop of Antioch, Martyr 116",https://en.wikipedia.org/w/index.php?search=Ignatius%20Antioch
+12-16,"Adelheid, Empress",,,,,,1868,"Adelheid, Empress, † 999",https://en.wikipedia.org/w/index.php?search=Adelheid
+12-17,"Olympias, Widow, Deaconness",,,,,,1868,"Olympias, Widow, Deaconness, † 410",https://en.wikipedia.org/w/index.php?search=Olympias
+12-18,"Wunibald, Abbot at Heidenheim",,,,,,1868,"Wunibald, Abbot at Heidenheim, † 760",https://en.wikipedia.org/w/index.php?search=Wunibald%20Heidenheim
+12-19,"Abraham, patriarch",,,,,,1868,"Abraham, patriarch, 2000 B.C",https://en.wikipedia.org/w/index.php?search=Abraham
+12-20,"Ammon, Zenon, and other Confessors",,,,,,1868,"Ammon, Zenon, and other Confessors, 250",https://en.wikipedia.org/w/index.php?search=Ammon
+12-21,"Thomas, Apostle",,RED,,,,1868,,https://blog.cph.org/read/church-year/st-thomas-apostle
+12-22,"Ischyrion, Martyr in Egypt",,,,,,1868,"Ischyrion, Martyr in Egypt 253",https://en.wikipedia.org/w/index.php?search=Ischyrion%20Egypt
+12-23,"Servulus, beggar at Rome",,,,,,1868,"Servulus, beggar at Rome 590",https://en.wikipedia.org/w/index.php?search=Servulus%20Rome
+12-24,Adam and Eve,,,,,,1868,,https://blog.cph.org/read/church-year/commemoration/adam-and-eve
+12-26,"Stephen, Archmartyr",,RED,,,,1868,,https://blog.cph.org/read/church-year/st-stephen-martyr
+12-27,"John, Apostle",,WHITE,,,,1868,"John, Apostle 100 A. Deacon",https://blog.cph.org/read/church-year/st-john-apostle-evangelist
+12-28,The Innocent Children,,RED,,,,1868,,https://en.wikipedia.org/w/index.php?search=The%20Innocent%20Children
+12-29,"Jonathan, David's friend",,,,,,1868,,https://en.wikipedia.org/w/index.php?search=Jonathan
+12-30,"David, king of Israel",,,,,,1868,"David, king of Israel, 1050 B.C",https://blog.cph.org/read/church-year/commemoration/david
+12-31,"Sylvester, Bishop of Rome",,,,,,1868,"Sylvester, Bishop of Rome, † 335",https://en.wikipedia.org/w/index.php?search=Sylvester%20Rome
+01-02,Abel,,,,,,1859,"Abel. Gen. 4:1,2,8",https://en.wikipedia.org/w/index.php?search=Abel
+01-02,Seth,,,,,,1859,Seth. Gen. 4:25,https://en.wikipedia.org/w/index.php?search=Seth
+01-03,Enoch,,,,,,1859,Enoch. Gen. 5:18-24,https://en.wikipedia.org/w/index.php?search=Enoch
+01-04,Abednego and his friends,,,,,,1859,Abednego and his friends. Dan. 3,https://en.wikipedia.org/w/index.php?search=Abednego%20and%20his%20friends
+01-04,"Titus, Bishop of Crete, Disciple of the Apostles",,,,,,1859,"Titus, Bishop of Crete, Disciple of the Apostles. Gal. 2:3; Tit. 1:5; 2Cor. 7:6-7",https://en.wikipedia.org/w/index.php?search=Titus%20Crete
+01-05,"Simeon, Prophet",,,,,,1859,"Simeon, Prophet. Lk. 2:25-36",https://en.wikipedia.org/w/index.php?search=Simeon
+01-05,Simeon the Stylite,,,,,,1859,"Simeon the Stylite, † Sept. 2, 459",https://en.wikipedia.org/w/index.php?search=Simeon%20the%20Stylite
+01-07,"Lucian, Presbyter in Antioch, Martyr",,,,,,1859,"Lucian, Presbyter in Antioch, Martyr 312",https://en.wikipedia.org/w/index.php?search=Lucian%20Antioch
+01-07,Raimund of Pennaforte in Spain,,,,,,1859,"Raimund of Pennaforte in Spain, †Jan.. 6, 1275",https://en.wikipedia.org/w/index.php?search=Raimund%20of%20Pennaforte%20in%20Spain
+01-08,"Severin, Missionary in Bavaria",,,,,,1859,"Severin, Missionary in Bavaria, †481",https://en.wikipedia.org/w/index.php?search=Severin%20Bavaria
+01-08,"Erhard, Abbot of Regensburg",,,,,,1859,"Erhard, Abbot of Regensburg, †750",https://en.wikipedia.org/w/index.php?search=Erhard%20Regensburg
+01-09,"Julian the hospitable and Basilissa, his wife, and their companions, Martyrs",,,,,,1859,"Julian the hospitable and Basilissa, his wife, and their companions, Martyrs 313 (?)",https://en.wikipedia.org/w/index.php?search=Julian%20the%20hospitable%20and%20Basilissa
+01-10,"Paul, hermit at Thebais in Egypt",,,,,,1859,"Paul, hermit at Thebais in Egypt, †340",https://en.wikipedia.org/w/index.php?search=Paul%20Thebais
+01-11,"Hyginus, Bishop of Rome, Martyr",,,,,,1859,"Hyginus, Bishop of Rome, Martyr (?), 142",https://en.wikipedia.org/wiki/Pope_Hyginus
+01-12,"Arcadius, Martyr at Caesarea in Maurentania",,,,,,1859,"Arcadius, Martyr at Caesarea in Maurentania, 3rd c",https://en.wikipedia.org/w/index.php?search=Arcadius%20Caesarea
+01-12,"Rheinhold, monk, Martyr",,,,,,1859,"Rheinhold, monk, Martyr, after Charlemagne, from whom he may have descended",https://en.wikipedia.org/w/index.php?search=Rheinhold
+01-13,"Hilary, Bishop of Poitiers",,,,,,1859,"Hilary, Bishop of Poitiers, †Jan. 14, 368/69",https://en.wikipedia.org/wiki/Hilary_of_Poitiers
+01-14,"Felix, Presbyter of Nola, Confessor",,,,,,1859,"Felix, Presbyter of Nola, Confessor, †256",https://en.wikipedia.org/wiki/Felix_of_Nola
+01-15,"Maurus, Abbot at Glanfel in Anjou",,,,,,1859,"Maurus, Abbot at Glanfel in Anjou, †584",https://en.wikipedia.org/wiki/Saint_Maurus
+01-16,"Marcellus, Bishop of Rome",,,,,,1859,"Marcellus, Bishop of Rome, †310",https://en.wikipedia.org/w/index.php?search=Marcellus%20Rome
+01-17,"Antonius, hermit",,,,,,1859,"Antonius, hermit, †356 (361)",https://en.wikipedia.org/w/index.php?search=Antonius
+01-18,"Prisca, Virgin, Martyr at Rome",,,,,,1859,"Prisca, Virgin, Martyr at Rome, †275",https://en.wikipedia.org/wiki/Saint_Prisca
+01-19,"Sara, Abraham's wife",,,,,,1859,"Sara, Abraham's wife, 2000 B.C",https://en.wikipedia.org/w/index.php?search=Sara
+01-19,"Maris and Martha, married couple from Persia, Martyrs at Rome",,,,,,1859,"Maris and Martha, married couple from Persia, Martyrs at Rome 270",https://en.wikipedia.org/w/index.php?search=Maris%20and%20Martha%20Rome
+01-20,"Fabian, Bishop at Rome, Martyr",,,,,,1859,"Fabian, Bishop at Rome, Martyr 249",https://en.wikipedia.org/wiki/Pope_Fabian
+01-20,"Sebastian, captain of the Praetorian Guard at Rome, Martyr",,,,,,1859,"Sebastian, captain of the Praetorian Guard at Rome, Martyr 287/88",https://en.wikipedia.org/wiki/Saint_Sebastian
+01-21,"Fructuosus, Bishop of Tarragona, and his deacons Augurius and Eulogius, Martyrs",,,,,,1859,"Fructuosus, Bishop of Tarragona, and his deacons Augurius and Eulogius, Martyrs 259",https://en.wikipedia.org/w/index.php?search=Fructuosus%20Tarragona
+01-21,"Agnes, Virgin, 13 year-old Martyr at Rome",,,,,,1859,"Agnes, Virgin, 13 year-old Martyr at Rome, 304/05",https://en.wikipedia.org/wiki/Saint_Agnes
+01-22,"Vincentius, Deacon at Saragossa, Martyr at Valencia",,,,,,1859,"Vincentius, Deacon at Saragossa, Martyr at Valencia 304",https://en.wikipedia.org/w/index.php?search=Vincentius%20Saragossa
+01-22,"Anastasius, Persian monk, Martyr",,,,,,1859,"Anastasius, Persian monk, Martyr 628",https://en.wikipedia.org/wiki/Anastasius_of_Persia
+01-23,"Emerentiana, Virgin, Martyr in Rome",,,,,,1859,"Emerentiana, Virgin, Martyr in Rome 304",https://en.wikipedia.org/wiki/Emerentiana
+01-24,"Timothy, Evangelist, Bishop of Ephesus, Martyr",,,,,,1859,"Timothy, Evangelist, Bishop of Ephesus, Martyr 97",https://blog.cph.org/read/church-year/st-timothy
+01-24,"Babylas, Bishop of Antioch, Martyr",,,,,,1859,"Babylas, Bishop of Antioch, Martyr 250",https://en.wikipedia.org/w/index.php?search=Babylas%20Antioch
+01-25,Conversion of St. Paul,,WHITE,,,,1859,"Conversion of St. Paul, 34",https://blog.cph.org/read/church-year/conversion-st-paul
+01-25,"Juventin and Maximin, captains of the personal guard of Emporer Julian the Apostate, Martyrs",,,,,,1859,"Juventin and Maximin, captains of the personal guard of Emporer Julian the Apostate, Martyrs 363",https://en.wikipedia.org/w/index.php?search=Juventin%20and%20Maximin%20Emporer%20Julian
+01-26,"Polycarp, Bishop of Smyrna, Martyr",,,,,,1859,"Polycarp, Bishop of Smyrna, Martyr 166",https://en.wikipedia.org/wiki/Polycarp
+01-26,"Paula, Widow of Rome",,,,,,1859,"Paula, Widow of Rome, †in Bethlehem 404",https://en.wikipedia.org/w/index.php?search=Paula%20Rome
+01-27,"John Chrysostom, Patriarch of Constantinople",,,,,,1859,"John Chrysostom, Patriarch of Constantinople, †Sep. 14, 407",https://blog.cph.org/read/church-year/commemoration/john-chrysostom
+01-28,"Charlemagne, king of the Franks, Roman Emporer",,,,,,1859,"Charlemagne, king of the Franks, Roman Emporer, †814",https://en.wikipedia.org/w/index.php?search=Charlemagne
+01-29,"Valerius, second Bishop of Trier",,,,,,1859,"Valerius, second Bishop of Trier, †toward the end of the 3rd c",https://en.wikipedia.org/w/index.php?search=Valerius%20Trier
+01-29,"Sulpicius Severus, disciple of Martin of Tours",,,,,,1859,"Sulpicius Severus, disciple of Martin of Tours, † approximately 410",https://en.wikipedia.org/w/index.php?search=Sulpicius%20Severus%20Martin
+01-30,"Aldegundis, Abbess at Maubeuge an der Sambre",,,,,,1859,"Aldegundis, Abbess at Maubeuge an der Sambre, †680",https://en.wikipedia.org/w/index.php?search=Aldegundis%20Maubeuge
+01-31,"Vigilius, Bishop of Trent, Martyr",,,,,,1859,"Vigilius, Bishop of Trent, Martyr 410",https://en.wikipedia.org/w/index.php?search=Vigilius%20Trent
+02-01,"Brigitta, Virgin, Abbess in Ireland",,,,,,1859,"Brigitta, Virgin, Abbess in Ireland, beginning of the 6th c",https://en.wikipedia.org/w/index.php?search=Brigitta%20Ireland
+02-02,Purification of Mary,WHITE,,,,,1859,PURIFICATIONIS MARIAE. Purification of Mary,https://en.wikipedia.org/w/index.php?search=Purification%20of%20Mary
+02-03,"Blasius, Bishop of Sebaste in Armenia, Martyr",,,,,,1859,"Blasius, Bishop of Sebaste in Armenia, Martyr appr. 316",https://en.wikipedia.org/w/index.php?search=Blasius%20Sebaste
+02-03,"Anschar, Bishop of Hamburg",,,,,,1859,"Anschar, Bishop of Hamburg, † at Bremen 864",https://en.wikipedia.org/w/index.php?search=Anschar%20Hamburg
+02-04,"Rhabaus Maurus, Archbishop of Mainz",,,,,,1859,"Rhabaus Maurus, Archbishop of Mainz, †856",https://en.wikipedia.org/w/index.php?search=Rhabaus%20Maurus%20Mainz
+02-05,"Agatha, Virgin, Martyr at Catanea in Sicilia",,,,,,1859,"Agatha, Virgin, Martyr at Catanea in Sicilia †251",https://en.wikipedia.org/wiki/Saint_Agatha
+02-06,"Dorothea, Virgin, Martyr at Caesarea in Cappadocia",,,,,,1859,"Dorothea, Virgin, Martyr at Caesarea in Cappadocia, †appr. 280",https://en.wikipedia.org/w/index.php?search=Dorothea%20Caesarea
+02-07,"Richard, king of West Saxony in England, father of Wunibald, Willibald and Walpurgis",,,,,,1859,"Richard, king of West Saxony in England, father of Wunibald, Willibald and Walpurgis, † at Lucca in Italy around 722",https://en.wikipedia.org/w/index.php?search=Richard%20West%20Saxony
+02-08,"Solomon, king of Israel",,,,,,1859,"Solomon, king of Israel, appr. 1000 B.C",https://en.wikipedia.org/w/index.php?search=Solomon%20Israel
+02-09,"Apollonia, well-known Virgin at Alexandria, Martyr",,,,,,1859,"Apollonia, well-known Virgin at Alexandria, Martyr 249",https://en.wikipedia.org/wiki/Saint_Apollonia
+02-10,"Soteris, Virgin, relative of St. Ambrose at Milan",,,,,,1859,"Soteris, Virgin, relative of St. Ambrose at Milan, † 4th c",https://en.wikipedia.org/w/index.php?search=Soteris%20St.%20Ambrose
+02-10,"Scholastica, Virgin, sister of Benedict of Nursia, Abbess at Plombariola",,,,,,1859,"Scholastica, Virgin, sister of Benedict of Nursia, Abbess at Plombariola, † 543",https://en.wikipedia.org/wiki/Scholastica
+02-11,"Euphrosyne, Virgin of Alexandria",,,,,,1859,"Euphrosyne, Virgin of Alexandria, 5th c",https://en.wikipedia.org/w/index.php?search=Euphrosyne%20Alexandria
+02-12,"Eullalia of Barcelona, Virgin, Martyr under Diocletian",,,,,,1859,"Eullalia of Barcelona, Virgin, Martyr under Diocletian 290",https://en.wikipedia.org/w/index.php?search=Eullalia%20of%20Barcelona
+02-12,"Meletius, Patriarch of Antioch",,,,,,1859,"Meletius, Patriarch of Antioch, † 381",https://en.wikipedia.org/w/index.php?search=Meletius%20Antioch
+02-13,"Polyeuctus, captain in Little Armenia, Martyr",,,,,,1859,"Polyeuctus, captain in Little Armenia, Martyr 250/57",https://en.wikipedia.org/w/index.php?search=Polyeuctus%20Little%20Armenia
+02-13,"Martinian, hermit at Athens",,,,,,1859,"Martinian, hermit at Athens, beginning of 5th c",https://en.wikipedia.org/w/index.php?search=Martinian%20Athens
+02-14,"Valentine, Presbyter at Rome, Martyr",,,,,,1859,"Valentine, Presbyter at Rome, Martyr 270",https://blog.cph.org/read/church-year/commemoration/st-valentine-martyr
+02-14,"Maro, Abbot in Syria",,,,,,1859,"Maro, Abbot in Syria, † 433",https://en.wikipedia.org/w/index.php?search=Maro%20Syria
+02-14,"Cyril and Methodius, Apostles of the Moravians and Bohemians",,,,,,1859,"Cyril and Methodius, Apostles of the Moravians and Bohemians, 9th c",https://en.wikipedia.org/wiki/Saints_Cyril_and_Methodius
+02-15,"Faustinus and Jovita, brothers at Brescia in Lombard, Martyrs",,,,,,1859,"Faustinus and Jovita, brothers at Brescia in Lombard, Martyrs 121",https://en.wikipedia.org/wiki/Faustinus_and_Jovita
+02-16,"Onesimus, disciple of the apostles, Martyr under Domitian",,,,,,1859,"Onesimus, disciple of the apostles, Martyr under Domitian 95",https://en.wikipedia.org/wiki/Onesimus
+02-16,"Elijah, Jeremiah, Isaiah, Samuel, Daniel and other Martyrs at Caesarea in Palestine",,,,,,1859,"Elijah, Jeremiah, Isaiah, Samuel, Daniel and other Martyrs at Caesarea in Palestine, † 309",https://en.wikipedia.org/w/index.php?search=Elijah%20Caesarea
+02-16,"Juliana, Virgin, Martyr in Nicomedia",,,,,,1859,"Juliana, Virgin, Martyr in Nicomedia, beginning of 4th c",https://en.wikipedia.org/w/index.php?search=Juliana%20Nicomedia
+02-17,"Theodul and Julian, Martyrs at Caesarea in Palestine",,,,,,1859,"Theodul and Julian, Martyrs at Caesarea in Palestine, † 121",https://en.wikipedia.org/w/index.php?search=Theodul%20and%20Julian%20Caesarea
+02-17,"Flavian, Patriarch of Constantinople, Martyr",,,,,,1859,"Flavian, Patriarch of Constantinople, Martyr, † at the mistreatments of the ""Robber Synod"" of Ephesus at Hypaepas in Lydia 449",https://en.wikipedia.org/w/index.php?search=Flavian%20Constantinople
+02-18,"Simeon, Bishop of Jerusalem, relative of the Lord, Martyr",,,,,,1859,"Simeon, Bishop of Jerusalem, relative of the Lord, Martyr 107",https://en.wikipedia.org/wiki/Simeon_of_Jerusalem
+02-18,"Martin Luther, ecclesiae doctor, confessor",,,,,,1859,,https://blog.cph.org/read/church-year/commemoration/martin-luther
+02-19,"Auxibus, Bishop of Soloe in Cyprus",,,,,,1859,"Auxibus, Bishop of Soloe in Cyprus, † 102/03",https://en.wikipedia.org/w/index.php?search=Auxibus%20Soloe
+02-19,"Gabinus, father of the martyr Susanna at Rome, Presbyter, Martyr",,,,,,1859,"Gabinus, father of the martyr Susanna at Rome, Presbyter, Martyr 296",https://en.wikipedia.org/w/index.php?search=Gabinus%20Rome
+02-19,"Conrad, hermit in Sicilia",,,,,,1859,"Conrad, hermit in Sicilia, † 1351",https://en.wikipedia.org/w/index.php?search=Conrad%20Sicilia
+02-20,"Tyrannion, Bishop of Tyre, Martyr",,,,,,1859,"Tyrannion, Bishop of Tyre, Martyr 310",https://en.wikipedia.org/w/index.php?search=Tyrannion%20Tyre
+02-20,"Sadoth, Bishop of Seleucia and Ctesiphon, and their 128 companions, Martyrs",,,,,,1859,"Sadoth, Bishop of Seleucia and Ctesiphon, and their 128 companions, Martyrs 342",https://en.wikipedia.org/w/index.php?search=Sadoth%20Seleucia
+02-20,"Eucherius, Bishop of Orleans",,,,,,1859,"Eucherius, Bishop of Orleans, † in the cloister of St. Tron near Mastricht 743",https://en.wikipedia.org/w/index.php?search=Eucherius%20Orleans
+02-21,Mauritius and the Thebaian Legion,,,,,,1859,"Mauritius and the Thebaian Legion, 286",https://en.wikipedia.org/w/index.php?search=Mauritius%20and%20the%20Thebaian%20Legion
+02-21,Pipin of Landen,,,,,,1859,"Pipin of Landen, † 640",https://en.wikipedia.org/w/index.php?search=Pipin%20of%20Landen
+02-22,St. Peter's Chair in Antioch,,,,,,1859,,https://en.wikipedia.org/w/index.php?search=Saint%20Peter%27s%20Chair%20in%20Antioch
+02-22,"Papias, Bishop of Hierapolis in Phrygia",,,,,,1859,"Papias, Bishop of Hierapolis in Phrygia, 2nd c",https://en.wikipedia.org/w/index.php?search=Papias%20Hierapolis
+02-23,"Serenus the Gardener, Martyr at Sirmium in Pannonia",,,,,,1859,"Serenus the Gardener, Martyr at Sirmium in Pannonia, † 307",https://en.wikipedia.org/w/index.php?search=Serenus%20the%20Gardener%20Sirmium
+02-23,"Willigis, Archbishop and Prince at Mainz",,,,,,1859,"Willigis, Archbishop and Prince at Mainz † 1011",https://en.wikipedia.org/w/index.php?search=Willigis%20Mainz
+02-24,"Matthias, Apostle",,RED,,,,1859,"MATTHIAE AP. Matthias, Apostle (in leap years, Feb. 25)",https://blog.cph.org/read/church-year/st-matthias-apostle
+02-24,"Montanus and his companions, disciples of Cyprian of Cathage, Martyrs at Carthage",,,,,,1859,"Montanus and his companions, disciples of Cyprian of Cathage, Martyrs at Carthage 259",https://en.wikipedia.org/w/index.php?search=Montanus%20Cyprian
+02-24,"Ethelbert, king of Kent",,,,,,1859,"Ethelbert, king of Kent, † 616",https://en.wikipedia.org/w/index.php?search=Ethelbert%20Kent
+02-25,"Victorin and his companions, Martyrs at Diospolis in Thebais",,,,,,1859,"Victorin and his companions, Martyrs at Diospolis in Thebais, 284",https://en.wikipedia.org/w/index.php?search=Victorin%20Diospolis
+02-26,"Nestor, Bishop at Sida in Pamphylia, Martyr",,,,,,1859,"Nestor, Bishop at Sida in Pamphylia, Martyr 250",https://en.wikipedia.org/w/index.php?search=Nestor%20Sida
+02-26,"Alexander, Patriarch of Alexandria",,,,,,1859,"Alexander, Patriarch of Alexandria, † 326",https://en.wikipedia.org/w/index.php?search=Alexander%20Alexandria
+02-27,"Julian the Elder, and his servant Chronion, and Besas, a soldier, Martyrs at Alexandria",,,,,,1859,"Julian the Elder, and his servant Chronion, and Besas, a soldier, Martyrs at Alexandria 250",https://en.wikipedia.org/w/index.php?search=Julian%20the%20Elder%20Alexandria
+02-27,"Gelasius, at first an actor, then Martyr",,,,,,1859,"Gelasius, at first an actor, then Martyr 297",https://en.wikipedia.org/w/index.php?search=Gelasius
+02-27,"Leander, Bishop of Seville",,,,,,1859,"Leander, Bishop of Seville 596",https://en.wikipedia.org/w/index.php?search=Leander%20Seville
+02-28,The Martyers during the Plague at Alexandria,,,,,,1859,The Martyers during the Plague at Alexandria 261-63,https://en.wikipedia.org/w/index.php?search=The%20Martyers%20during%20the%20Plague%20at%20Alexandria
+02-28,"Romanus and Lupicinus, founders of the cloister of the Jura Mountains",,,,,,1859,"Romanus and Lupicinus, founders of the cloister of the Jura Mountains 460 and 480",https://en.wikipedia.org/w/index.php?search=Romanus%20and%20Lupicinus
+02-29,"Oswald, Archbishop of York",,,,,,1859,"Oswald, Archbishop of York, † 992",https://en.wikipedia.org/w/index.php?search=Oswald%20York
+03-01,"Albinus, Bishop of Angers",,,,,,1859,"Albinus, Bishop of Angers, † 549",https://en.wikipedia.org/w/index.php?search=Albinus%20Angers
+03-01,"Swidbert, Apostle of Friesland",,,,,,1859,"Swidbert, Apostle of Friesland, † at Kaisersweerth 713",https://en.wikipedia.org/w/index.php?search=Swidbert%20Friesland
+03-02,"Simplicius, Bishop of Rome, Martyr, buried",,,,,,1859,"Simplicius, Bishop of Rome, Martyr, buried 483",https://en.wikipedia.org/w/index.php?search=Simplicius%20Rome
+03-03,"Kunigunde, empress",,,,,,1859,"Kunigunde, empress, † 1040",https://en.wikipedia.org/w/index.php?search=Kunigunde
+03-04,"Lucius, Bishop of Rome, Martyr",,,,,,1859,"Lucius, Bishop of Rome, Martyr 253",https://en.wikipedia.org/w/index.php?search=Lucius%20Rome
+03-04,"Hadrian, Bishop of St. Andrews, Martyr",,,,,,1859,"Hadrian, Bishop of St. Andrews, Martyr 874",https://en.wikipedia.org/w/index.php?search=Hadrian%20St.%20Andrews
+03-05,"Hadrian and Eubul, Martyrs at Caesarea in Palestine",,,,,,1859,"Hadrian and Eubul, Martyrs at Caesarea in Palestine, † March 5 and 7, 309",https://en.wikipedia.org/w/index.php?search=Hadrian%20and%20Eubul%20Caesarea
+03-05,"Eusebius of Cremona, Abbot at Bethlehem, disciple and successor of St. Jerome",,,,,,1859,"Eusebius of Cremona, Abbot at Bethlehem, disciple and successor of St. Jerome, † first half 5th c",https://en.wikipedia.org/w/index.php?search=Eusebius%20of%20Cremona%20Bethlehem
+03-06,"Fridolin, Abbot at Saeckingen, Apostel of the Alemans",,,,,,1859,"Fridolin, Abbot at Saeckingen, Apostel of the Alemans, † 538",https://en.wikipedia.org/w/index.php?search=Fridolin%20Saeckingen
+03-07,"Perpetua and Felicitas, Martyrs at Carthage",,,,,,1859,"Perpetua and Felicitas, Martyrs at Carthage, 203",https://blog.cph.org/read/church-year/commemoration/perpetua-felicitas
+03-07,"Thomas Aquinas, doctor angelicus",,,,,,1859,"Thomas Aquinas, doctor angelicus, † 1274",https://en.wikipedia.org/wiki/Thomas_Aquinas
+03-08,"Philemon the Flute Player, Apollonius the hermit, and other martyrs at Alexandria",,,,,,1859,"Philemon the Flute Player, Apollonius the hermit, and other martyrs at Alexandria, 311",https://en.wikipedia.org/w/index.php?search=Philemon%20the%20Flute%20Player%20Alexandria
+03-09,"The Forty Knights, Martyrs at Sebaste in Little Armenia",,,,,,1859,"The Forty Knights, Martyrs at Sebaste in Little Armenia 316",https://en.wikipedia.org/w/index.php?search=The%20Forty%20Knights%20Sebaste
+03-10,"Alexander and Caius, Martyrs at Apamea in Phrygia",,,,,,1859,"Alexander and Caius, Martyrs at Apamea in Phrygia 279",https://en.wikipedia.org/w/index.php?search=Alexander%20and%20Caius%20Apamea
+03-11,"Gumbert, Abbot at Ansbach",,,,,,1859,"Gumbert, Abbot at Ansbach, appr. 800",https://en.wikipedia.org/w/index.php?search=Gumbert%20Ansbach
+03-11,"Eulogius, Presbyter at Cordova, Martyr",,,,,,1859,"Eulogius, Presbyter at Cordova, Martyr 859",https://en.wikipedia.org/w/index.php?search=Eulogius%20Cordova
+03-12,"Gregory the Great, Bishop of Rome",,,,,,1859,"Gregory the Great, Bishop of Rome 604",https://en.wikipedia.org/wiki/Pope_Gregory_I
+03-13,"Euphrasia, Virgin",,,,,,1859,"Euphrasia, Virgin 410",https://en.wikipedia.org/w/index.php?search=Euphrasia
+03-13,"Nicephorus, Patriarch at Constantinople",,,,,,1859,"Nicephorus, Patriarch at Constantinople, † June 2, 828",https://en.wikipedia.org/w/index.php?search=Nicephorus%20Constantinople
+03-14,"Mathildis, wife of Henry I., king of the Germans",,,,,,1859,"Mathildis, wife of Henry I., king of the Germans, † 968",https://en.wikipedia.org/w/index.php?search=Mathildis%20Henry
+03-15,"Zacharias, Bishop of Rome",,,,,,1859,"Zacharias, Bishop of Rome, † 752",https://en.wikipedia.org/w/index.php?search=Zacharias%20Rome
+03-16,"Julian Cilicia, Martyr under Diocletian",,,,,,1859,,https://en.wikipedia.org/w/index.php?search=Julian%20Cilicia
+03-16,"Heribert, Archbishop of Cologne",,,,,,1859,"Heribert, Archbishop of Cologne, † 1022",https://en.wikipedia.org/w/index.php?search=Heribert%20Cologne
+03-17,"Patrick, Apostle of Ireland",,,,,,1859,"Patrick, Apostle of Ireland, 464",https://blog.cph.org/read/church-year/commemoration/st-patrick-missonary-to-ireland
+03-17,"Gertrude, Abbess of Rivelles",,,,,,1859,"Gertrude, Abbess of Rivelles, † 659",https://en.wikipedia.org/w/index.php?search=Gertrude%20Rivelles
+03-18,"Alexander, Bishop of Jerusalem, Martyr",,,,,,1859,"Alexander, Bishop of Jerusalem, Martyr 251",https://en.wikipedia.org/w/index.php?search=Alexander%20Jerusalem
+03-18,"Cyril, Archbishop of Jerusalem",,,,,,1859,"Cyril, Archbishop of Jerusalem, † 386",https://en.wikipedia.org/wiki/Cyril_of_Jerusalem
+03-19,"Joseph, foster father of Jesus",,,,,,1859,,https://blog.cph.org/read/church-year/st-joseph-guardian-of-jesus
+03-20,"Wulfram, Archbishop of Sens",,,,,,1859,"Wulfram, Archbishop of Sens, † 720",https://en.wikipedia.org/w/index.php?search=Wulfram%20Sens
+03-21,"Benedict of Nursia, founder of a monastic order",,,,,,1859,"Benedict of Nursia, founder of a monastic order, † 543",https://en.wikipedia.org/wiki/Benedict_of_Nursia
+03-22,"Deogratias, Bishop of Cathage",,,,,,1859,"Deogratias, Bishop of Cathage, † 457",https://en.wikipedia.org/w/index.php?search=Deogratias%20Cathage
+03-22,"Nicolaus v. d. Flüe, hermit in Unterwalden",,,,,,1859,"Nicolaus v. d. Flüe, hermit in Unterwalden, 1487",https://en.wikipedia.org/w/index.php?search=Nicolaus%20v.%20d.%20Fl%C3%BCe%20Unterwalden
+03-23,"Victorianus, Proconsul of Carthage, and his companions, Martyrs",,,,,,1859,"Victorianus, Proconsul of Carthage, and his companions, Martyrs 484",https://en.wikipedia.org/w/index.php?search=Victorianus%20Carthage
+03-24,"Gabriel, Archangel. Dan",,,,,,1859,"Gabriel, Archangel. Dan. 8:16; 9:21-22; Lk. 1:19, 26",https://en.wikipedia.org/w/index.php?search=Gabriel
+03-25,The Annunciation,WHITE,,,,,1859,ANNUNCIATIONIS BEATAE MARIAE. The Annunciation,https://en.wikipedia.org/w/index.php?search=The%20Annunciation
+03-25,"Dismas, the penitent thief",,,,,,1859,"Dismas, the penitent thief. Lk. 23:40-42",https://en.wikipedia.org/w/index.php?search=Dismas
+03-26,"Liudger, Bishop of Muenster, Apostle of the Saxons",,,,,,1859,"Liudger, Bishop of Muenster, Apostle of the Saxons, 809",https://en.wikipedia.org/w/index.php?search=Liudger%20Muenster
+03-27,"Rupertus, Bishop of Salzburg, Apostle of the Bavarians",,,,,,1859,"Rupertus, Bishop of Salzburg, Apostle of the Bavarians, 718",https://en.wikipedia.org/w/index.php?search=Rupertus%20Salzburg
+03-28,"Malchus, Priscus, and Alexander, Martyrs at Caesarea in Palestine",,,,,,1859,"Malchus, Priscus, and Alexander, Martyrs at Caesarea in Palestine, 260",https://en.wikipedia.org/w/index.php?search=Malchus%20Caesarea
+03-29,"Eustasius, Abbot at Luxeuil in the Franche-Comté, Apostle of the Bavarians",,,,,,1859,"Eustasius, Abbot at Luxeuil in the Franche-Comté, Apostle of the Bavarians, † 628",https://en.wikipedia.org/w/index.php?search=Eustasius%20Luxeuil
+03-30,"Guido or Wido, Abbot at Pomposa in Italy",,,,,,1859,"Guido or Wido, Abbot at Pomposa in Italy 1046",https://en.wikipedia.org/w/index.php?search=Guido%20or%20Wido%20Pomposa
+03-31,"Amos, Prophet",,,,,,1859,"Amos, Prophet, 838-759 B.C",https://en.wikipedia.org/w/index.php?search=Amos
+03-31,"Acacius or Achatus, Bishop at Antioch in Asia, Confessor",,,,,,1859,"Acacius or Achatus, Bishop at Antioch in Asia, Confessor 250/51",https://en.wikipedia.org/w/index.php?search=Acacius%20or%20Achatus%20Antioch
+04-01,"Hugo, Bishop of Grenoble",,,,,,1859,"Hugo, Bishop of Grenoble, † 1132",https://en.wikipedia.org/w/index.php?search=Hugo%20Grenoble
+04-02,"Appian of Lycia, Martyr at Caesarea in Palestine",,,,,,1859,"Appian of Lycia, Martyr at Caesarea in Palestine, † at age 20 in 306",https://en.wikipedia.org/w/index.php?search=Appian%20of%20Lycia%20Caesarea
+04-02,"Theodosia, Virgin, Martyr at Caesarea in Palestine",,,,,,1859,"Theodosia, Virgin, Martyr at Caesarea in Palestine, † at age 18 in 308",https://en.wikipedia.org/w/index.php?search=Theodosia%20Caesarea
+04-03,"Agape, Chionia, Irene, sisters at Thessalonia, and their companions, Martyrs",,,,,,1859,"Agape, Chionia, Irene, sisters at Thessalonia, and their companions, Martyrs April 3 and 5, 304",https://en.wikipedia.org/w/index.php?search=Agape%20Thessalonia
+04-04,"Ambrose, Bishop of Milan",,,,,,1859,"Ambrose, Bishop of Milan, 397",https://en.wikipedia.org/wiki/Ambrose
+04-04,"Isidore, Archbishop of Seville",,,,,,1859,"Isidore, Archbishop of Seville, 636",https://en.wikipedia.org/wiki/Isidore_of_Seville
+04-05,The Martyrs on Easter Day under the Vandals in Africa,,,,,,1859,"The Martyrs on Easter Day under the Vandals in Africa, 459",https://en.wikipedia.org/w/index.php?search=The%20Martyrs%20on%20Easter%20Day%20under%20the%20Vandals%20in%20Africa
+04-06,"Irenaeus, Bishop of Lyon, Martyr",,,,,,1859,"Irenaeus, Bishop of Lyon, Martyr 202",https://en.wikipedia.org/w/index.php?search=Irenaeus%20Lyon
+04-06,The,,,,,,1859,"The 120 Martyrs from Adiabene in Persia, 344",https://en.wikipedia.org/w/index.php?search=The
+04-06,"Coelestine, Bishop of Rome",,,,,,1859,"Coelestine, Bishop of Rome, 432",https://en.wikipedia.org/w/index.php?search=Coelestine%20Rome
+04-07,"Egesippus, church historian",,,,,,1859,"Egesippus, church historian, † 180 at Jerusalem",https://en.wikipedia.org/w/index.php?search=Egesippus
+04-07,"Aphraates, hermit in Syria",,,,,,1859,"Aphraates, hermit in Syria, 4th c",https://en.wikipedia.org/w/index.php?search=Aphraates%20Syria
+04-08,"Dionysius, Bishop of Corinth",,,,,,1859,"Dionysius, Bishop of Corinth, 2nd c",https://en.wikipedia.org/w/index.php?search=Dionysius%20Corinth
+04-09,Mary Clopas,,,,,,1859,"Mary Clopas, Jn. 19:25",https://en.wikipedia.org/w/index.php?search=Mary%20Clopas
+04-09,Mary of Egypt,,,,,,1859,"Mary of Egypt, 5th c",https://en.wikipedia.org/wiki/Mary_of_Egypt
+04-10,"Daniel, prophet",,,,,,1859,"Daniel, prophet, 666-536 B.C",https://en.wikipedia.org/w/index.php?search=Daniel
+04-10,"Fulbert, Bishop of Chartres",,,,,,1859,"Fulbert, Bishop of Chartres, 1029",https://en.wikipedia.org/w/index.php?search=Fulbert%20Chartres
+04-10,"Mechtildis, Abbess, Virgin",,,,,,1859,"Mechtildis, Abbess, Virgin † at Diessen, March 29, 1300",https://en.wikipedia.org/w/index.php?search=Mechtildis
+04-11,"Julius, Bishop of Rome",,,,,,1859,"Julius, Bishop of Rome, 352",https://en.wikipedia.org/w/index.php?search=Julius%20Rome
+04-12,"Sabas the Goth, Martyr",,,,,,1859,"Sabas the Goth, Martyr 372",https://en.wikipedia.org/w/index.php?search=Sabas%20the%20Goth
+04-12,"Zeno, Bishop of Verona",,,,,,1859,"Zeno, Bishop of Verona, 380",https://en.wikipedia.org/w/index.php?search=Zeno%20Verona
+04-13,"Hermenegild, Visigothic princess, Martyr in Spain",,,,,,1859,"Hermenegild, Visigothic princess, Martyr in Spain, 586",https://en.wikipedia.org/wiki/Hermenegild
+04-13,"Ida, countess of Boulogne, mother of Gottfried of Bouillon, Widow",,,,,,1859,"Ida, countess of Boulogne, mother of Gottfried of Bouillon, Widow, 1113",https://en.wikipedia.org/w/index.php?search=Ida%20Boulogne
+04-14,"Tiburtius and Valerianus, Martyrs",,,,,,1859,"Tiburtius and Valerianus, Martyrs 229",https://en.wikipedia.org/w/index.php?search=Tiburtius%20and%20Valerianus
+04-15,"Anastasia and Basilissa, Martyrs under Nero",,,,,,1859,,https://en.wikipedia.org/w/index.php?search=Anastasia%20and%20Basilissa
+04-16,"Aaron, high priest",,,,,,1859,,https://en.wikipedia.org/w/index.php?search=Aaron
+04-16,The,,,,,,1859,"The 18 Martyrs of Saragossa, and the holy Virgin and Martyr Enkratides, 304",https://en.wikipedia.org/w/index.php?search=The
+04-16,"Turibius, Bishop of Astorga in Galizien",,,,,,1859,"Turibius, Bishop of Astorga in Galizien, † 460",https://en.wikipedia.org/w/index.php?search=Turibius%20Astorga
+04-17,"Anicet, Bishop of Rome, Martyr",,,,,,1859,"Anicet, Bishop of Rome, Martyr 173",https://en.wikipedia.org/w/index.php?search=Anicet%20Rome
+04-17,"Simeon, Bishop of Seleucia and Stesiphon, with his companions, Martyrs",,,,,,1859,"Simeon, Bishop of Seleucia and Stesiphon, with his companions, Martyrs 341",https://en.wikipedia.org/w/index.php?search=Simeon%20Seleucia
+04-18,"Wicterp, Bishop of Augsburg",,,,,,1859,"Wicterp, Bishop of Augsburg, 2nd half of the 8th c",https://en.wikipedia.org/w/index.php?search=Wicterp%20Augsburg
+04-19,"Hermogenes, Martyr",,,,,,1859,"Hermogenes, Martyr, 1st c",https://en.wikipedia.org/w/index.php?search=Hermogenes
+04-19,"Philippus Melancthon, doctor Germaniae",,,,,,1859,"Philippus Melancthon, doctor Germaniae, 1560",https://en.wikipedia.org/w/index.php?search=Philippus%20Melancthon
+04-20,"Sulpicius, Martyr",,,,,,1859,"Sulpicius, Martyr around 117",https://en.wikipedia.org/w/index.php?search=Sulpicius
+04-21,"Anselm of Canterbury, Archbishop",,,,,,1859,"Anselm of Canterbury, Archbishop 1109",https://blog.cph.org/read/church-year/commemoration/anselm-canterbury-theologian
+04-22,"Soter and Caius, Bishops of Rome, Martyrs",,,,,,1859,"Soter and Caius, Bishops of Rome, Martyrs 177 and 296",https://en.wikipedia.org/w/index.php?search=Soter%20and%20Caius%20Rome
+04-23,"George, Martyr",,,,,,1859,"George, Martyr appr. 303",https://en.wikipedia.org/wiki/Saint_George
+04-24,"Adalbert, Bishop of Prague, Martyr",,,,,,1859,"Adalbert, Bishop of Prague, Martyr 997",https://en.wikipedia.org/w/index.php?search=Adalbert%20Prague
+04-25,"Mark, evangelist",,,,,,1859,"Mark, evangelist, † 68",https://blog.cph.org/read/church-year/st-mark-evangelist
+04-26,"Anacletus (Cletus) and Marcellinus, Bishops of Rome",,,,,,1859,"Anacletus (Cletus) and Marcellinus, Bishops of Rome, 89 and 304",https://en.wikipedia.org/w/index.php?search=Anacletus%20%28Cletus%29%20and%20Marcellinus%20Rome
+04-26,"Paschalius Radbertus, Abbot at Corbie",,,,,,1859,"Paschalius Radbertus, Abbot at Corbie, 865",https://en.wikipedia.org/w/index.php?search=Paschalius%20Radbertus%20Corbie
+04-26,St. William and his son Peregrinus,,,,,,1859,"St. William and his son Peregrinus, 12th c",https://en.wikipedia.org/w/index.php?search=Saint%20William%20and%20his%20son%20Peregrinus
+04-27,"Anastatius, Bishop of Rome",,,,,,1859,"Anastatius, Bishop of Rome, 401",https://en.wikipedia.org/w/index.php?search=Anastatius%20Rome
+04-28,"Vitalis of Milan, Martyr",,,,,,1859,"Vitalis of Milan, Martyr 62",https://en.wikipedia.org/wiki/Vitalis_of_Milan
+04-28,"Didymus and Theodora, Martyrs",,,,,,1859,"Didymus and Theodora, Martyrs 304 at Alexandria",https://en.wikipedia.org/w/index.php?search=Didymus%20and%20Theodora
+04-28,"Pollio, lector, and his companions, Martyrs in Pannonia",,,,,,1859,"Pollio, lector, and his companions, Martyrs in Pannonia, 304",https://en.wikipedia.org/w/index.php?search=Pollio%20Pannonia
+04-29,"Tychicus, disciple of the apostles",,,,,,1859,"Tychicus, disciple of the apostles. Acts 20:4; Eph. 6:21-22",https://en.wikipedia.org/w/index.php?search=Tychicus
+04-29,"Robert, Abbot of Molesme, founder of the Cistercian order",,,,,,1859,"Robert, Abbot of Molesme, founder of the Cistercian order, 1210",https://en.wikipedia.org/w/index.php?search=Robert%20Molesme
+04-30,"Eutropius, first Bishop of Saintes, Martyr",,,,,,1859,"Eutropius, first Bishop of Saintes, Martyr 3rd c",https://en.wikipedia.org/w/index.php?search=Eutropius%20Saintes
+04-30,"Swidbert or Schwibrecht the Younger, first Bishop in Verden",,,,,,1859,"Swidbert or Schwibrecht the Younger, first Bishop in Verden, 807",https://en.wikipedia.org/w/index.php?search=Swidbert%20or%20Schwibrecht%20the%20Younger%20Verden
+05-01,"Philip and James, Apostles",,RED,,,,1859,"PHILIPPI ET JACOBI APP. Philip and James, Apostles",https://blog.cph.org/read/church-year/philip-james
+05-01,"Walpurgis, Abbess at Heidenheim",,,,,,1859,"Walpurgis, Abbess at Heidenheim, † Feb. 25, 780",https://en.wikipedia.org/w/index.php?search=Walpurgis%20Heidenheim
+05-02,"Athanasius, Patriarch of Alexandria",,,,,,1859,"Athanasius, Patriarch of Alexandria, 373",https://en.wikipedia.org/wiki/Athanasius_of_Alexandria
+05-02,"Sigismund, king of Burgundy",,,,,,1859,"Sigismund, king of Burgundy, 524",https://en.wikipedia.org/w/index.php?search=Sigismund%20Burgundy
+05-03,Inventio sanctae crucis. The Discovery of the Holy Cross,,,,,,1859,Inventio sanctae crucis. The Discovery of the Holy Cross. 326. Col. 2:1-9,https://en.wikipedia.org/w/index.php?search=Inventio%20sanctae%20crucis.%20The%20Discovery%20of%20the%20Holy%20Cross
+05-04,"Florian, warrior, Martyr",,,,,,1859,"Florian, warrior, Martyr 304",https://en.wikipedia.org/w/index.php?search=Florian
+05-04,"Monica, Widow, mother of St. Augustine",,,,,,1859,"Monica, Widow, mother of St. Augustine, 387",https://en.wikipedia.org/wiki/Monica_of_Hippo
+05-05,"Gotthard, Bishop of Hildesheim",,,,,,1859,"Gotthard, Bishop of Hildesheim, 1038",https://en.wikipedia.org/w/index.php?search=Gotthard%20Hildesheim
+05-06,John before the Latin Gate,,,,,,1859,"John before the Latin Gate, 95",https://en.wikipedia.org/w/index.php?search=John%20before%20the%20Latin%20Gate
+05-07,"Benedict II., B of Rome",,,,,,1859,"Benedict II., B of Rome, † 685",https://en.wikipedia.org/w/index.php?search=Benedict%20II.%20Rome
+05-08,"Victor the Moor, Martyr at Milan",,,,,,1859,"Victor the Moor, Martyr at Milan, 303",https://en.wikipedia.org/w/index.php?search=Victor%20the%20Moor%20Milan
+05-08,"Stanislaus Coska, Bishop of Krakau",,,,,,1859,"Stanislaus Coska, Bishop of Krakau, 1095",https://en.wikipedia.org/w/index.php?search=Stanislaus%20Coska%20Krakau
+05-09,"Gregory of Nazianzen, Bishop",,,,,,1859,"Gregory of Nazianzen, Bishop, 389",https://en.wikipedia.org/wiki/Gregory_of_Nazianzus
+05-10,"Epimachus and Gordian, Martyrs",,,,,,1859,"Epimachus and Gordian, Martyrs 250 and 362",https://en.wikipedia.org/w/index.php?search=Epimachus%20and%20Gordian
+05-10,"Comgall, Abbot at Bangor",,,,,,1859,"Comgall, Abbot at Bangor, † 601",https://en.wikipedia.org/w/index.php?search=Comgall%20Bangor
+05-11,"Mamertus, Bishop of Vienne",,,,,,1859,"Mamertus, Bishop of Vienne, 477",https://en.wikipedia.org/w/index.php?search=Mamertus%20Vienne
+05-11,"Gangolph, Martyr in Burgund",,,,,,1859,"Gangolph, Martyr in Burgund, 760",https://en.wikipedia.org/w/index.php?search=Gangolph%20Burgund
+05-12,"Nereus, Achilleus, and Flavia Domitilla, Martyrs under Trajan",,,,,,1859,,"https://en.wikipedia.org/wiki/Nereus,_Achilleus,_Domitilla_and_Pancratius"
+05-12,"Pancratius, Martyr at age",,,,,,1859,"Pancratius, Martyr at age 14, in 304",https://en.wikipedia.org/w/index.php?search=Pancratius
+05-13,The Martyrs of Alexandria in Egypt under the Arians,,,,,,1859,"The Martyrs of Alexandria in Egypt under the Arians, 373",https://en.wikipedia.org/w/index.php?search=The%20Martyrs%20of%20Alexandria%20in%20Egypt%20under%20the%20Arians
+05-13,"Servatius, Bishop of Mastricht",,,,,,1859,"Servatius, Bishop of Mastricht, 384",https://en.wikipedia.org/w/index.php?search=Servatius%20Mastricht
+05-14,"Pachomius, Abbot on the Nile island Tabennae",,,,,,1859,"Pachomius, Abbot on the Nile island Tabennae, 348",https://en.wikipedia.org/w/index.php?search=Pachomius
+05-15,"Sophia, Martyr, mother of Fides, Spes and Charitas",,,,,,1859,"Sophia, Martyr, mother of Fides, Spes and Charitas, 120",https://en.wikipedia.org/w/index.php?search=Sophia%20Fides
+05-15,"St. Peter of Lampsacus, Andrew, and their companions, Martyrs",,,,,,1859,"St. Peter of Lampsacus, Andrew, and their companions, Martyrs, 250",https://en.wikipedia.org/w/index.php?search=Saint%20Peter%20of%20Lampsacus
+05-16,"Pereginus, Bishop of Auxerre, Martyr",,,,,,1859,"Pereginus, Bishop of Auxerre, Martyr 304",https://en.wikipedia.org/w/index.php?search=Pereginus%20Auxerre
+05-16,The,,,,,,1859,"The 44 Martyrs of St. Sabas in Palestine, 614",https://en.wikipedia.org/w/index.php?search=The
+05-17,"Possidius, Bishop of Calama in Numidia, disciple of St. Augustine",,,,,,1859,"Possidius, Bishop of Calama in Numidia, disciple of St. Augustine, † (?)",https://en.wikipedia.org/w/index.php?search=Possidius%20Calama
+05-18,"Theodotus, Schenkwirth, and",,,,,,1859,"Theodotus, Schenkwirth, and 7 virgins, their companions, Martyrs 303",https://en.wikipedia.org/w/index.php?search=Theodotus
+05-18,"Erich, king of Sweden, Martyr",,,,,,1859,"Erich, king of Sweden, Martyr 1151",https://en.wikipedia.org/w/index.php?search=Erich%20Sweden
+05-19,"Pudentiana, sister of St. Praxedes, Virgin, Martyr",,,,,,1859,"Pudentiana, sister of St. Praxedes, Virgin, Martyr, 1st c",https://en.wikipedia.org/wiki/Pudentiana
+05-20,"Ivo, Bishop of Chartres",,,,,,1859,"Ivo, Bishop of Chartres, † Dec. 23, 1115",https://en.wikipedia.org/w/index.php?search=Ivo%20Chartres
+05-21,"Prudens, Martyr",,,,,,1859,"Prudens, Martyr 300",https://en.wikipedia.org/w/index.php?search=Prudens
+05-22,"Helena, Empress",,,,,,1859,"Helena, Empress, 326",https://en.wikipedia.org/wiki/Helena_of_Constantinople
+05-23,"Desiderius, Bishop of Langers, Martyr",,,,,,1859,"Desiderius, Bishop of Langers, Martyr 411",https://en.wikipedia.org/w/index.php?search=Desiderius%20Langers
+05-23,"Desiderius, Bishop of Vienne, Martyr",,,,,,1859,"Desiderius, Bishop of Vienne, Martyr 612",https://en.wikipedia.org/w/index.php?search=Desiderius%20Vienne
+05-24,"Esther, Queen, (See the book of Esther",,,,,,1859,"Esther, Queen, (See the book of Esther 4:16)",https://blog.cph.org/read/church-year/commemoration/esther
+05-25,"Urbanus, Bishop at Rome, Martyr",,,,,,1859,"Urbanus, Bishop at Rome, Martyr 231",https://en.wikipedia.org/w/index.php?search=Urbanus%20Rome
+05-26,"The Venerable Bede, Presbyter",,,,,,1859,"The Venerable Bede, Presbyter, 735",https://en.wikipedia.org/wiki/Bede
+05-27,"Lucianus, Presbyter, Martyr",,,,,,1859,"Lucianus, Presbyter, Martyr 238",https://en.wikipedia.org/w/index.php?search=Lucianus
+05-28,"Germanus, Bishop of Paris",,,,,,1859,"Germanus, Bishop of Paris, 576",https://en.wikipedia.org/w/index.php?search=Germanus%20Paris
+05-29,"The boy Cyryllus, Martyr at Caesarea in Cappadocia under Decius or Valerian",,,,,,1859,,https://en.wikipedia.org/w/index.php?search=The%20boy%20Cyryllus%20Caesarea
+05-29,"St. Conon and his son, Martyrs at Iconium",,,,,,1859,"St. Conon and his son, Martyrs at Iconium, 275",https://en.wikipedia.org/w/index.php?search=Saint%20Conon%20and%20his%20son%20Iconium
+05-29,"Maximinus, Bishop of Trier",,,,,,1859,"Maximinus, Bishop of Trier, 349",https://en.wikipedia.org/w/index.php?search=Maximinus%20Trier
+05-29,"Sisinnius, Martyrius, and Alexander, Martyrs in Tyrol",,,,,,1859,"Sisinnius, Martyrius, and Alexander, Martyrs in Tyrol, 397",https://en.wikipedia.org/w/index.php?search=Sisinnius%20Tyrol
+05-30,"Felix, Bishop of Rome, Martyr",,,,,,1859,"Felix, Bishop of Rome, Martyr 274",https://en.wikipedia.org/w/index.php?search=Felix%20Rome
+05-31,"Petronilla, Virgin, daughter of the holy apostle Peter",,,,,,1859,"Petronilla, Virgin, daughter of the holy apostle Peter, 1st c",https://en.wikipedia.org/wiki/Saint_Petronilla
+05-31,"Cantius, Cantianus, and Cantianilla, Martyrs",,,,,,1859,"Cantius, Cantianus, and Cantianilla, Martyrs 304",https://en.wikipedia.org/w/index.php?search=Cantius
+06-01,Nicodemus,,,,,,1859,"Nicodemus, Jn. 3",https://en.wikipedia.org/w/index.php?search=Nicodemus
+06-01,Justin Martyr,,,,,,1859,"Justin Martyr, 167",https://blog.cph.org/read/church-year/commemoration/justin-martyr
+06-02,"Pothinus, Sanctus, Attalus, Blandina and the other martyrs of Lyon",,,,,,1859,"Pothinus, Sanctus, Attalus, Blandina and the other martyrs of Lyon, 177",https://en.wikipedia.org/w/index.php?search=Pothinus%20Lyon
+06-03,"Erasmus, Bishop of Antioch, Martyr",,,,,,1859,"Erasmus, Bishop of Antioch, Martyr 303",https://en.wikipedia.org/wiki/Erasmus_of_Formiae
+06-04,"Quirinus, Bishop of Siccia in Pannonia, Martyr",,,,,,1859,"Quirinus, Bishop of Siccia in Pannonia, Martyr 304",https://en.wikipedia.org/w/index.php?search=Quirinus%20Siccia
+06-05,"Boniface, Archbishop at Mainz, Martyr",,,,,,1859,"Boniface, Archbishop at Mainz, Martyr 755",https://en.wikipedia.org/wiki/Saint_Boniface
+06-06,"Philip, one of the first seven deacons of Jerusalem",,,,,,1859,,https://en.wikipedia.org/w/index.php?search=Philip%20Jerusalem
+06-06,"Norbert, Archbishop of Magdeburg",,,,,,1859,"Norbert, Archbishop of Magdeburg, 1134",https://en.wikipedia.org/wiki/Norbert_of_Xanten
+06-07,"Paul, Bishop of Constantinople, Martyr",,,,,,1859,"Paul, Bishop of Constantinople, Martyr 350",https://en.wikipedia.org/w/index.php?search=Paul%20Constantinople
+06-07,"Paul, Bishop of Sinnirita, and Vincentius, Bishop of Vigita, in the African province of Leugitana, from",,,,,,1859,"Paul, Bishop of Sinnirita, and Vincentius, Bishop of Vigita, in the African province of Leugitana, from 164 the only Bishops left in the Vandal persecution",https://en.wikipedia.org/w/index.php?search=Paul%20Sinnirita
+06-08,"Medardus, B.. of Noyon",,,,,,1859,"Medardus, B.. of Noyon, 545",https://en.wikipedia.org/w/index.php?search=Medardus%20Noyon
+06-08,"William, Archbishop of York",,,,,,1859,"William, Archbishop of York, 1154",https://en.wikipedia.org/w/index.php?search=William%20York
+06-09,"Primus and Felicianus, brothers, Martyrs at Rome",,,,,,1859,"Primus and Felicianus, brothers, Martyrs at Rome, 286/87",https://en.wikipedia.org/w/index.php?search=Primus%20and%20Felicianus%20Rome
+06-10,"Onuphrius, hermit in Thebais",,,,,,1859,"Onuphrius, hermit in Thebais, 400",https://en.wikipedia.org/w/index.php?search=Onuphrius%20Thebais
+06-11,"Barnabas, Apostle, Martyr",,,,,,1859,"Barnabas, Apostle, Martyr 70. Acts 13:14",https://blog.cph.org/read/church-year/st-barnabas-apostle-acts
+06-12,"Basilides, Quirinus, Nabor, and Nazarius, warriors in the army of Maxentius, Martyrs at Rome",,,,,,1859,"Basilides, Quirinus, Nabor, and Nazarius, warriors in the army of Maxentius, Martyrs at Rome, 303",https://en.wikipedia.org/w/index.php?search=Basilides%20Maxentius
+06-13,Tobias. (See the apocryphal book of Tobit),,,,,,1859,,https://en.wikipedia.org/w/index.php?search=Tobias.%20%28See%20the%20apocryphal%20book%20of%20Tobit%29
+06-13,"Triphyllius, Bishop on Cyprus",,,,,,1859,"Triphyllius, Bishop on Cyprus, † 370 (?)",https://en.wikipedia.org/w/index.php?search=Triphyllius
+06-13,"Gerhard, Martyr of Clairvaux",,,,,,1859,"Gerhard, Martyr of Clairvaux, † 1138",https://en.wikipedia.org/w/index.php?search=Gerhard%20Clairvaux
+06-14,"Elisha, prophet",,,,,,1859,"Elisha, prophet, 2 Kings 2:9",https://blog.cph.org/read/church-year/commemoration/elisha
+06-15,"Vitus, Modestus, and Crescentia, Martyrs in Lucania",,,,,,1859,"Vitus, Modestus, and Crescentia, Martyrs in Lucania, beginning of the 4th c","https://en.wikipedia.org/wiki/Vitus,_Modestus,_and_Crescentia"
+06-16,"Aureus, Bishop of Mayence, and Justina, Virgin, siblings, Martyrs",,,,,,1859,"Aureus, Bishop of Mayence, and Justina, Virgin, siblings, Martyrs 451",https://en.wikipedia.org/w/index.php?search=Aureus%20Mayence
+06-17,"Volkmar, Bishop at Utrecht",,,,,,1859,"Volkmar, Bishop at Utrecht, 990",https://en.wikipedia.org/w/index.php?search=Volkmar%20Utrecht
+06-18,"Marcus and Marcellian, brothers, Martyrs at Rome",,,,,,1859,"Marcus and Marcellian, brothers, Martyrs at Rome, 286",https://en.wikipedia.org/w/index.php?search=Marcus%20and%20Marcellian%20Rome
+06-19,"Gervasius and Protasius, sons of Vitalis and Valeria, Martyrs at Milan",,,,,,1859,"Gervasius and Protasius, sons of Vitalis and Valeria, Martyrs at Milan, 296",https://en.wikipedia.org/w/index.php?search=Gervasius%20and%20Protasius%20Vitalis
+06-20,"Silverius, Bishop of Rome, Martyr",,,,,,1859,"Silverius, Bishop of Rome, Martyr 538",https://en.wikipedia.org/wiki/Pope_Silverius
+06-21,"Albanus of Verulam, Martyr",,,,,,1859,"Albanus of Verulam, Martyr 286/303",https://en.wikipedia.org/w/index.php?search=Albanus%20of%20Verulam
+06-22,Achatius and the,,,,,,1859,"Achatius and the 10,000 Martyrs, 118",https://en.wikipedia.org/w/index.php?search=Achatius%20and%20the
+06-22,"Paulinus, Bishop of Nola",,,,,,1859,"Paulinus, Bishop of Nola, 431",https://en.wikipedia.org/wiki/Paulinus_of_Nola
+06-23,"Basil, Archbishop of Caesarea in Cappadocia",,,,,,1859,"Basil, Archbishop of Caesarea in Cappadocia, 378",https://en.wikipedia.org/w/index.php?search=Basil%20Caesarea
+06-24,Nativity of John the Baptizer,,WHITE,,,,1859,,https://en.wikipedia.org/w/index.php?search=Nativity%20of%20John%20the%20Baptizer
+06-25,Eulogius of Edessa,,,,,,1859,"Eulogius of Edessa, 370",https://en.wikipedia.org/w/index.php?search=Eulogius%20of%20Edessa
+06-25,Prosper of Aquitaine,,,,,,1859,"Prosper of Aquitaine, 463",https://en.wikipedia.org/w/index.php?search=Prosper%20of%20Aquitaine
+06-26,"Jeremiah, prophet",,,,,,1859,"Jeremiah, prophet, 629-580 B.C",https://blog.cph.org/read/church-year/commemoration/jeremiah
+06-27,"The Seven Sleepers, Martyrs",,,,,,1859,"The Seven Sleepers, Martyrs, 250",https://en.wikipedia.org/w/index.php?search=The%20Seven%20Sleepers
+06-28,"Leo the Great, Bishop of Rome",,,,,,1859,"Leo the Great, Bishop of Rome, 461",https://en.wikipedia.org/w/index.php?search=Leo%20the%20Great%20Rome
+06-29,"Peter and Paul, Apostles",,RED,,,,1859,"PETRI ET PAULI APP. Peter and Paul, Apostles, 67",https://blog.cph.org/read/church-year/feast-of-st-peter-and-st-paul
+06-30,Commemoration of St. Paul,,,,,,1859,,https://en.wikipedia.org/w/index.php?search=Commemoration%20of%20St.%20Paul
+07-01,"Theobald, hermit in the desert of Salanigo near Vicenza",,,,,,1859,"Theobald, hermit in the desert of Salanigo near Vicenza, 1066",https://en.wikipedia.org/w/index.php?search=Theobald%20Salanigo
+07-02,The Visitation,WHITE,,,,,1859,"VISITATIONIS BEATAE MARIAE DEIPARAE, The Visitation. Isa 11:1-5",https://blog.cph.org/read/church-year/the-visitation
+07-02,"Otto, Bishop of Bamberg",,,,,,1859,"Otto, Bishop of Bamberg, 1139",https://en.wikipedia.org/w/index.php?search=Otto%20Bamberg
+07-03,"Cornelius, captain",,,,,,1859,"Cornelius, captain, Acts 10",https://en.wikipedia.org/w/index.php?search=Cornelius
+07-04,"Ulrich, Bishop of Augsburg",,,,,,1859,"Ulrich, Bishop of Augsburg, 973",https://en.wikipedia.org/w/index.php?search=Ulrich%20Augsburg
+07-05,"Haggai, prophet",,,,,,1859,"Haggai, prophet, 520 B.C",https://en.wikipedia.org/w/index.php?search=Haggai
+07-05,"Domitius, hermit, Martyr in Syria",,,,,,1859,"Domitius, hermit, Martyr in Syria, 363",https://en.wikipedia.org/w/index.php?search=Domitius%20Syria
+07-06,"Isaiah, prophet",,,,,,1859,"Isaiah, prophet, 759-699 B.C",https://blog.cph.org/read/church-year/commemoration/isaiah
+07-06,"Goar, hermit in the diocese of Trier",,,,,,1859,"Goar, hermit in the diocese of Trier, 575",https://en.wikipedia.org/w/index.php?search=Goar%20Trier
+07-07,"Wilibald, Bishop of Eichstaedt",,,,,,1859,"Wilibald, Bishop of Eichstaedt, 786",https://en.wikipedia.org/w/index.php?search=Wilibald%20Eichstaedt
+07-08,"Kilian, Bishop of Wuerzburg, Martyr",,,,,,1859,"Kilian, Bishop of Wuerzburg, Martyr 689",https://en.wikipedia.org/w/index.php?search=Kilian%20Wuerzburg
+07-09,"Ephraem the Syrian, Deacon",,,,,,1859,"Ephraem the Syrian, Deacon, 378",https://en.wikipedia.org/w/index.php?search=Ephraem%20the%20Syrian
+07-10,"The Seven Brothers, sons of St. Felicitas at Rome",,,,,,1859,"The Seven Brothers, sons of St. Felicitas at Rome, 150/60",https://en.wikipedia.org/w/index.php?search=The%20Seven%20Brothers%20St.%20Felicitas
+07-11,"Pius, Bishop of Rome, Martyr",,,,,,1859,"Pius, Bishop of Rome, Martyr 150",https://en.wikipedia.org/w/index.php?search=Pius%20Rome
+07-12,"Henry II., Emporer",,,,,,1859,"Henry II., Emporer, 1024","https://en.wikipedia.org/wiki/Henry_II,_Holy_Roman_Emperor"
+07-13,"Margaretha, Virgin, Martyr at Antioch in Pisidia",,,,,,1859,"Margaretha, Virgin, Martyr at Antioch in Pisidia, 275",https://en.wikipedia.org/w/index.php?search=Margaretha%20Antioch
+07-14,"John Bonaventura, Bishop of Albano",,,,,,1859,"John Bonaventura, Bishop of Albano, 1274",https://en.wikipedia.org/w/index.php?search=John%20Bonaventura%20Albano
+07-15,The Division of the Holy Apostles,,,,,,1859,,https://en.wikipedia.org/wiki/Dispersion_of_the_Apostles
+07-16,"Ruth, Moabitess. (See the book of Ruth.)",,,,,,1859,,https://blog.cph.org/read/church-year/commemoration/ruth
+07-16,"Eustathius, Bishop of Antioch",,,,,,1859,"Eustathius, Bishop of Antioch, 338",https://en.wikipedia.org/w/index.php?search=Eustathius%20Antioch
+07-17,"Alexius, Confessor",,,,,,1859,"Alexius, Confessor, 5th c",https://en.wikipedia.org/wiki/Alexius_(saint)
+07-17,Speratus and his Eleven Companions from Scillita in Numidia,,,,,,1859,"Speratus and his Eleven Companions from Scillita in Numidia, 200",https://en.wikipedia.org/w/index.php?search=Speratus%20and%20his%20Eleven%20Companions%20from%20Scillita%20in%20Numidia
+07-17,"Marcellina, Virgin, sister of St. Ambrose",,,,,,1859,,https://en.wikipedia.org/w/index.php?search=Marcellina%20St.%20Ambrose
+07-18,"Symphorosa and her Seven Sons, Martyrs",,,,,,1859,"Symphorosa and her Seven Sons, Martyrs 120",https://en.wikipedia.org/wiki/Symphorosa
+07-18,Maternus,,,,,,1859,"Maternus, 130",https://en.wikipedia.org/w/index.php?search=Maternus
+07-18,"Radegundis, Virgin, servant at Wellenburg, diocese of Augsburg",,,,,,1859,"Radegundis, Virgin, servant at Wellenburg, diocese of Augsburg, 13th c",https://en.wikipedia.org/w/index.php?search=Radegundis%20Wellenburg
+07-19,"Rufina and Secunda, sisters, Virgins, Martyrs",,,,,,1859,"Rufina and Secunda, sisters, Virgins, Martyrs, 260",https://en.wikipedia.org/w/index.php?search=Rufina%20and%20Secunda
+07-19,"Vincent of Paula, founder of the Mission Preachers and the Merciful Sisters",,,,,,1859,"Vincent of Paula, founder of the Mission Preachers and the Merciful Sisters, 1660",https://en.wikipedia.org/w/index.php?search=Vincent%20of%20Paula
+07-20,"Elijah, prophet",,,,,,1859,"Elijah, prophet, 900 B.C",https://blog.cph.org/read/church-year/commemoration/elijah
+07-20,Joseph Barsabas Justus,,,,,,1859,"Joseph Barsabas Justus, Acts 1:20",https://en.wikipedia.org/w/index.php?search=Joseph%20Barsabas%20Justus
+07-20,"Justa and Rufina, Martyrs in Spain",,,,,,1859,"Justa and Rufina, Martyrs in Spain, 304",https://en.wikipedia.org/w/index.php?search=Justa%20and%20Rufina%20Spain
+07-21,"Praxedes, Virgin, daughter of St. Pudens, sister of St. Pudentiana",,,,,,1859,"Praxedes, Virgin, daughter of St. Pudens, sister of St. Pudentiana, 1st c",https://en.wikipedia.org/wiki/Praxedes
+07-22,Mary Magdalene,,,,,,1859,"Mary Magdalene, 66",https://blog.cph.org/read/church-year/mary-magdalene-john-20
+07-23,"Apollinaris, Bishop of Ravenna, Martyr",,,,,,1859,"Apollinaris, Bishop of Ravenna, Martyr 69",https://en.wikipedia.org/wiki/Apollinaris_of_Ravenna
+07-24,"Christina, Virgin at Tyre in Tuscany, Martyr at age",,,,,,1859,"Christina, Virgin at Tyre in Tuscany, Martyr at age 12, in 300/30",https://en.wikipedia.org/wiki/Saint_Christina_of_Bolsena
+07-25,"James the Elder, Apostle",,RED,,,,1859,"JACOBI MAJORIS AP., James the Elder, Apostle, 44. Acts 12:1-2",https://blog.cph.org/read/church-year/st-james-the-elder-apostle
+07-26,"Anna, grandmother of the Lord, sister of Elisabeth mother of John the Baptist",,,,,,1859,,https://en.wikipedia.org/w/index.php?search=Anna%20Elisabeth
+07-27,"Martha, sister of Lazarus and his sister Mary",,,,,,1859,,https://en.wikipedia.org/wiki/Martha
+07-28,"Pataleon, physician, Martyr",,,,,,1859,"Pataleon, physician, Martyr 300",https://en.wikipedia.org/w/index.php?search=Pataleon
+07-29,"Beatrix and Faustinus and Simplicius, their brother, Martyrs",,,,,,1859,"Beatrix and Faustinus and Simplicius, their brother, Martyrs 303",https://en.wikipedia.org/w/index.php?search=Beatrix%20and%20Faustinus%20and%20Simplicius
+07-29,Lazarus,,,,,,1859,"Lazarus, Jn. 11",https://en.wikipedia.org/w/index.php?search=Lazarus
+07-30,"Abdon and Sennen, Martyrs",,,,,,1859,"Abdon and Sennen, Martyrs 253",https://en.wikipedia.org/wiki/Abdon_and_Sennen
+07-31,"Germanus, Bishop of Auxerre",,,,,,1859,"Germanus, Bishop of Auxerre, 448",https://en.wikipedia.org/w/index.php?search=Germanus%20Auxerre
+08-01,The Seven Maccabean Brothers,,,,,,1859,"The Seven Maccabean Brothers, 2 Macc. 7",https://en.wikipedia.org/w/index.php?search=The%20Seven%20Maccabean%20Brothers
+08-01,St. Peter's Chains,,,,,,1859,"St. Peter's Chains, Acts 12:1-19",https://en.wikipedia.org/w/index.php?search=Saint%20Peter%27s%20Chains
+08-01,"Fides, Spes, and Charitas, Martyrs",,,,,,1859,"Fides, Spes, and Charitas, Martyrs 137",https://en.wikipedia.org/w/index.php?search=Fides
+08-02,"Stephan, Bishop of Rome, Martyr",,,,,,1859,"Stephan, Bishop of Rome, Martyr 257",https://en.wikipedia.org/w/index.php?search=Stephan%20Rome
+08-03,"Gamaliel, and the Legend of the Discovery of Stephen the Archmartyr",,,,,,1859,"Gamaliel, and the Legend of the Discovery of Stephen the Archmartyr, 415",https://en.wikipedia.org/w/index.php?search=Gamaliel%20Stephen
+08-04,"Dominicus, Confessor, founder of a monastic order",,,,,,1859,"Dominicus, Confessor, founder of a monastic order, 1221",https://en.wikipedia.org/w/index.php?search=Dominicus
+08-05,"Oswald, king of England, Martyr",,,,,,1859,"Oswald, king of England, Martyr 642",https://en.wikipedia.org/wiki/Oswald_of_Northumbria
+08-06,The Transfiguration of Christ,,,,,,1859,The Transfiguration of Christ. Mt. 17:1-8,https://en.wikipedia.org/w/index.php?search=The%20Transfiguration%20of%20Christ
+08-06,"Sixtus, Bishop of Rome, predecessor of St. Laurence",,,,,,1859,"Sixtus, Bishop of Rome, predecessor of St. Laurence, 258",https://en.wikipedia.org/w/index.php?search=Sixtus%20Rome
+08-07,"Afra and her companions, Martyrs",,,,,,1859,"Afra and her companions, Martyrs, 304",https://en.wikipedia.org/w/index.php?search=Afra
+08-08,"Cyriacus, Largus, and Smaragdus, Martyrs",,,,,,1859,"Cyriacus, Largus, and Smaragdus, Martyrs, 303",https://en.wikipedia.org/wiki/Cyriacus
+08-09,"Romanus, soldier, Martyr",,,,,,1859,"Romanus, soldier, Martyr, 258",https://en.wikipedia.org/wiki/Romanus_Ostiarius
+08-10,"Laurence, Archdeacon of Rome, Martyr",,,,,,1859,"Laurence, Archdeacon of Rome, Martyr 258",https://en.wikipedia.org/wiki/Lawrence_of_Rome
+08-11,"Tiburtius, Martyr at Rome, and his father Chromatius",,,,,,1859,"Tiburtius, Martyr at Rome, and his father Chromatius, 286",https://en.wikipedia.org/wiki/Saint_Tiburtius
+08-12,"Clara, Abbess",,,,,,1859,"Clara, Abbess, 1253",https://en.wikipedia.org/w/index.php?search=Clara
+08-13,"Cassianus, Martyr at Imola",,,,,,1859,"Cassianus, Martyr at Imola, between 249 and 259",https://en.wikipedia.org/wiki/Cassian_of_Imola
+08-13,"Hippolytus, Presbyter, Martyr at Porto or Ostia",,,,,,1859,"Hippolytus, Presbyter, Martyr at Porto or Ostia, 252",https://en.wikipedia.org/wiki/Hippolytus_of_Rome
+08-13,"Hippolytus, warrior, and Columbia, Martyrs",,,,,,1859,"Hippolytus, warrior, and Columbia, Martyrs 258",https://en.wikipedia.org/w/index.php?search=Hippolytus
+08-14,"Eusebius, Presbyter, Martyr",,,,,,1859,"Eusebius, Presbyter, Martyr, 303 or end of 3rd c",https://en.wikipedia.org/wiki/Eusebius_of_Rome
+08-14,"Athanasia, Widow Abbess at Timia",,,,,,1859,"Athanasia, Widow Abbess at Timia, 860",https://en.wikipedia.org/w/index.php?search=Athanasia%20Timia
+08-14,"Benno, Bishop in Metz",,,,,,1859,"Benno, Bishop in Metz, 940",https://en.wikipedia.org/w/index.php?search=Benno%20Metz
+08-15,"The Dormition of Mary, (Mary's death)",,,,,,1859,"The Dormition of Mary, (Mary's death), 47",https://en.wikipedia.org/w/index.php?search=The%20Dormition%20of%20Mary
+08-15,"Alypius, Bishop of Tagaste, disciple of Augustine",,,,,,1859,"Alypius, Bishop of Tagaste, disciple of Augustine, † (?)",https://en.wikipedia.org/w/index.php?search=Alypius%20Tagaste
+08-16,"Isaac, patriarch",,,,,,1859,,https://blog.cph.org/read/church-year/commemoration/isaac
+08-16,"Simplician, Bishop of Milan",,,,,,1859,"Simplician, Bishop of Milan, 400",https://en.wikipedia.org/w/index.php?search=Simplician%20Milan
+08-16,"Rochus at Montpellier, Confessor",,,,,,1859,"Rochus at Montpellier, Confessor, † 1327",https://en.wikipedia.org/w/index.php?search=Rochus%20at%20Montpellier
+08-17,"Liberatus, Abbot, and his companions, Martyrs in Africa",,,,,,1859,"Liberatus, Abbot, and his companions, Martyrs in Africa, 483",https://en.wikipedia.org/w/index.php?search=Liberatus%20Africa
+08-18,"Agapitus, Bishop of Praeneste, Martyr",,,,,,1859,"Agapitus, Bishop of Praeneste, Martyr 273",https://en.wikipedia.org/wiki/Agapitus_of_Palestrina
+08-19,"Gebald, hermit near Nuernberg",,,,,,1859,"Gebald, hermit near Nuernberg, 801",https://en.wikipedia.org/w/index.php?search=Gebald
+08-20,"Bernard of Clairvaux, Abbot",,,,,,1859,"Bernard of Clairvaux, Abbot 1153",https://en.wikipedia.org/wiki/Bernard_of_Clairvaux
+08-21,"Anastasia, matron, Martyr",,,,,,1859,"Anastasia, matron, Martyr 280",https://en.wikipedia.org/w/index.php?search=Anastasia
+08-21,"Bonosus and Maximilianus, captains, Martyrs",,,,,,1859,"Bonosus and Maximilianus, captains, Martyrs 363",https://en.wikipedia.org/w/index.php?search=Bonosus%20and%20Maximilianus
+08-22,"Symphorian, Martyr at Autun",,,,,,1859,"Symphorian, Martyr at Autun, 178",https://en.wikipedia.org/w/index.php?search=Symphorian%20Autun
+08-23,Zachaeus,,,,,,1859,"Zachaeus, Lk. 19",https://en.wikipedia.org/w/index.php?search=Zachaeus
+08-23,"Claudius, Asterius, Neon, Donina and Theonilla, Martyrs in Cilicia",,,,,,1859,"Claudius, Asterius, Neon, Donina and Theonilla, Martyrs in Cilicia, 285",https://en.wikipedia.org/w/index.php?search=Claudius%20Cilicia
+08-24,"Bartholomew, Apostle",,RED,,,,1859,"BARTHOLOMAEI AP. Bartholomew, Apostle",https://blog.cph.org/read/church-year/bartholomew-apostle
+08-24,"The Martyrs of Utica, called the ""White Mass,""",,,,,,1859,"The Martyrs of Utica, called the ""White Mass,"" 385",https://en.wikipedia.org/w/index.php?search=The%20Martyrs%20of%20Utica
+08-25,"Louis, king of France",,,,,,1859,"Louis, king of France, 1270",https://en.wikipedia.org/wiki/Louis_IX_of_France
+08-26,"Samuel, prophet",,,,,,1859,"Samuel, prophet, 1096 B.C",https://en.wikipedia.org/wiki/Samuel_(Bible)
+08-26,"Genesius, formerly an actor, Martyr at Rome",,,,,,1859,"Genesius, formerly an actor, Martyr at Rome, 286 or 303",https://en.wikipedia.org/w/index.php?search=Genesius%20Rome
+08-27,"Caesarius, Bishop of Arles",,,,,,1859,"Caesarius, Bishop of Arles, 542",https://en.wikipedia.org/w/index.php?search=Caesarius%20Arles
+08-27,"Gebhard II., Bishop of Constance",,,,,,1859,"Gebhard II., Bishop of Constance, 995/96",https://en.wikipedia.org/w/index.php?search=Gebhard%20II.%20Constance
+08-28,"Augustine, Bishop of Hippo",,,,,,1859,"Augustine, Bishop of Hippo, 430",https://en.wikipedia.org/wiki/Augustine_of_Hippo
+08-29,Beheading of John the Baptist,,,,,,1859,"Beheading of John the Baptist, Mt. 14:1-12",https://en.wikipedia.org/wiki/Beheading_of_John_the_Baptist
+08-29,"Sabina, Widow in Umbria, and her servant Seraphia, Martyrs",,,,,,1859,"Sabina, Widow in Umbria, and her servant Seraphia, Martyrs between 117 and 138",https://en.wikipedia.org/wiki/Sabina_(saint)
+08-30,Rebecca,,,,,,1859,"Rebecca, Gen. 24",https://en.wikipedia.org/w/index.php?search=Rebecca
+08-30,"Felix, Presbyter at Rome, and Adauctus, Martyrs at Rome",,,,,,1859,,https://en.wikipedia.org/w/index.php?search=Felix%20Rome
+08-31,"Paulinus, Bishop of Trier",,,,,,1859,"Paulinus, Bishop of Trier, † 363",https://en.wikipedia.org/w/index.php?search=Paulinus%20Trier
+09-01,"Aegidius, Abbot",,,,,,1859,"Aegidius, Abbot, 715",https://en.wikipedia.org/w/index.php?search=Aegidius
+09-02,"Absalom, Archbishop of Lunden in Denmark",,,,,,1859,"Absalom, Archbishop of Lunden in Denmark, 12th c",https://en.wikipedia.org/w/index.php?search=Absalom%20Lunden
+09-03,"Phoebe, deaconess of Cenchreae",,,,,,1859,"Phoebe, deaconess of Cenchreae, Rom. 16:1-2",https://en.wikipedia.org/wiki/Phoebe_(biblical_figure)
+09-03,"Mansuestus, Bishop of Toul in Lothringen",,,,,,1859,"Mansuestus, Bishop of Toul in Lothringen, 4th c",https://en.wikipedia.org/w/index.php?search=Mansuestus%20Toul
+09-04,"Moses, prophet",,,,,,1859,"Moses, prophet, 1500 B.C",https://blog.cph.org/read/church-year/commemoration/moses
+09-05,The Eighty Martyrs of Constantinople under Valens,,,,,,1859,"The Eighty Martyrs of Constantinople under Valens, 370",https://en.wikipedia.org/w/index.php?search=The%20Eighty%20Martyrs%20of%20Constantinople%20under%20Valens
+09-05,"Marinus, Deacon",,,,,,1859,"Marinus, Deacon, end of 4th c",https://en.wikipedia.org/w/index.php?search=Marinus
+09-06,"Onesiphorus, disciple of Paul",,,,,,1859,"Onesiphorus, disciple of Paul, 2 Tim. 1:16",https://en.wikipedia.org/w/index.php?search=Onesiphorus%20Paul
+09-07,"Regina, Virgin, Martyr in Burgundy",,,,,,1859,"Regina, Virgin, Martyr in Burgundy, 251",https://en.wikipedia.org/w/index.php?search=Regina%20Burgundy
+09-08,Nativity of Mary,,,,,,1859,,https://en.wikipedia.org/wiki/Nativity_of_Mary
+09-08,"Corbinian, Bishop of Freising",,,,,,1859,"Corbinian, Bishop of Freising, 730",https://en.wikipedia.org/w/index.php?search=Corbinian%20Freising
+09-09,"Gorgonius and Dorotheus with their companions, Martyrs",,,,,,1859,"Gorgonius and Dorotheus with their companions, Martyrs 304",https://en.wikipedia.org/w/index.php?search=Gorgonius%20and%20Dorotheus%20with%20their%20companions
+09-10,"St. Nemesian and his companions, Martyrs and Confessors in Numidia, under Valerian",,,,,,1859,,https://en.wikipedia.org/w/index.php?search=Saint%20Nemesian%20Numidia
+09-10,"Pulcheria, Empress",,,,,,1859,"Pulcheria, Empress, 453",https://en.wikipedia.org/w/index.php?search=Pulcheria
+09-11,"Protus and Jacynthus, brothers, Martyrs at Rome",,,,,,1859,"Protus and Jacynthus, brothers, Martyrs at Rome, 256",https://en.wikipedia.org/w/index.php?search=Protus%20and%20Jacynthus%20Rome
+09-12,"Syrus, Bishop at Pavia",,,,,,1859,"Syrus, Bishop at Pavia, 330",https://en.wikipedia.org/w/index.php?search=Syrus%20Pavia
+09-13,"Eulogius, patriarch of Alexandria",,,,,,1859,"Eulogius, patriarch of Alexandria, 608",https://en.wikipedia.org/w/index.php?search=Eulogius%20Alexandria
+09-13,"Amatus, Bishop of Sitten in Wallis",,,,,,1859,"Amatus, Bishop of Sitten in Wallis, 690",https://en.wikipedia.org/w/index.php?search=Amatus%20Sitten
+09-14,Exaltation of the Holy Cross,,,,,,1859,"Exaltation of the Holy Cross, 628",https://en.wikipedia.org/w/index.php?search=Exaltation%20of%20the%20Holy%20Cross
+09-15,"Nicomedes, Presbyter at Rom, Martyr",,,,,,1859,"Nicomedes, Presbyter at Rom, Martyr 90",https://en.wikipedia.org/wiki/Saint_Nicomedes
+09-15,"Nicetas, Martyr under the Ostrogoths",,,,,,1859,"Nicetas, Martyr under the Ostrogoths, 372",https://en.wikipedia.org/w/index.php?search=Nicetas
+09-16,"Euphemia, Virgin, Martyr at Chalcedon",,,,,,1859,"Euphemia, Virgin, Martyr at Chalcedon, 307",https://en.wikipedia.org/wiki/Euphemia
+09-17,"Lambert, Bishop of Mastricht, Martyr",,,,,,1859,"Lambert, Bishop of Mastricht, Martyr 708",https://en.wikipedia.org/w/index.php?search=Lambert%20Mastricht
+09-17,"Hildegard, Abbess of the cloister of St. Rupert near Bingen",,,,,,1859,"Hildegard, Abbess of the cloister of St. Rupert near Bingen, † 307",https://en.wikipedia.org/wiki/Hildegard_of_Bingen
+09-18,"Methodius, Bishop of Tyre, Martyr",,,,,,1859,"Methodius, Bishop of Tyre, Martyr 311/12",https://en.wikipedia.org/w/index.php?search=Methodius%20Tyre
+09-18,"Richardis, Empress",,,,,,1859,"Richardis, Empress, 893/94",https://en.wikipedia.org/w/index.php?search=Richardis
+09-19,"Januarius, Bishop of Benevento, and his companions, Martyrs",,,,,,1859,"Januarius, Bishop of Benevento, and his companions, Martyrs 305",https://en.wikipedia.org/wiki/Januarius
+09-20,"Eustachius, his wife and his two sons, Martyrs at Rome under Hadrian",,,,,,1859,,https://en.wikipedia.org/w/index.php?search=Eustachius%20Rome
+09-20,"Fausta, Virgin of Cyzicus, Martyr",,,,,,1859,"Fausta, Virgin of Cyzicus, Martyr 300",https://en.wikipedia.org/w/index.php?search=Fausta%20Cyzicus
+09-21,"Matthew, Apostle",,RED,,,,1859,"MATTHAEI AP. Matthew, Apostle",https://blog.cph.org/read/church-year/feast-st-matthew
+09-22,"Mauritius the Moor, leader of the Thebaian Legion, Martyr",,,,,,1859,"Mauritius the Moor, leader of the Thebaian Legion, Martyr 287",https://en.wikipedia.org/w/index.php?search=Mauritius%20the%20Moor
+09-22,"Emmeran, Bishop from France, Martyr at Helfendorf in the Munich-Freising diocese",,,,,,1859,"Emmeran, Bishop from France, Martyr at Helfendorf in the Munich-Freising diocese, 652",https://en.wikipedia.org/w/index.php?search=Emmeran%20Helfendorf
+09-23,"Linus, Bishop at Rome, Martyr",,,,,,1859,"Linus, Bishop at Rome, Martyr 76",https://en.wikipedia.org/wiki/Pope_Linus
+09-23,"Thecla, Virgin, Martyr",,,,,,1859,"Thecla, Virgin, Martyr, 1st c",https://en.wikipedia.org/wiki/Thecla
+09-24,"Andochius, Presbyter, Thyrsus, Andeol, disciple of Polycarp, and Felix, Martyrs at Sauliieu near Autun",,,,,,1859,"Andochius, Presbyter, Thyrsus, Andeol, disciple of Polycarp, and Felix, Martyrs at Sauliieu near Autun, end of 2nd c",https://en.wikipedia.org/w/index.php?search=Andochius%20Polycarp
+09-24,"Gerhard, Bishop of Chanad in Hungaria, Martyr",,,,,,1859,"Gerhard, Bishop of Chanad in Hungaria, Martyr 1046",https://en.wikipedia.org/w/index.php?search=Gerhard%20Chanad
+09-25,Cleopas,,,,,,1859,"Cleopas, Lk. 24:18",https://en.wikipedia.org/w/index.php?search=Cleopas
+09-25,"Firmin, Bishop of Amiens, Martyr",,,,,,1859,"Firmin, Bishop of Amiens, Martyr 287",https://en.wikipedia.org/w/index.php?search=Firmin%20Amiens
+09-26,"Cyprian, Bishop of Carthage, Martyr",,,,,,1859,"Cyprian, Bishop of Carthage, Martyr 258",https://en.wikipedia.org/wiki/Cyprian
+09-26,"Cyprian and Justina, Martyrs at Nicomedia",,,,,,1859,"Cyprian and Justina, Martyrs at Nicomedia, 304",https://en.wikipedia.org/wiki/Cyprian_and_Justina
+09-27,"Cosmas and Damian, physicians, Martyrs in Cilicia",,,,,,1859,"Cosmas and Damian, physicians, Martyrs in Cilicia, 303",https://en.wikipedia.org/wiki/Cosmas_and_Damian
+09-28,"Eustochium, Virgin",,,,,,1859,"Eustochium, Virgin 419",https://en.wikipedia.org/w/index.php?search=Eustochium
+09-28,"Lioba, Abbess of Bishofsheim",,,,,,1859,"Lioba, Abbess of Bishofsheim, 779",https://en.wikipedia.org/w/index.php?search=Lioba%20Bishofsheim
+09-28,"Wenzeslaus, duke of Bohemia, Martyr",,,,,,1859,"Wenzeslaus, duke of Bohemia, Martyr 938",https://en.wikipedia.org/w/index.php?search=Wenzeslaus%20Bohemia
+09-29,"Michael, Archangel",,WHITE,,,,1859,"MICHAELIS ARCHANGELI, Michael, Archangel",https://en.wikipedia.org/w/index.php?search=Michael
+09-30,"Jerome, Presbyter",,,,,,1859,"Jerome, Presbyter, 420",https://blog.cph.org/read/church-year/commemoration/jerome-translator-of-holy-scripture
+10-01,"Remigius, Bishop of Rheims",,,,,,1859,"Remigius, Bishop of Rheims, 533",https://en.wikipedia.org/wiki/Saint_Remigius
+10-02,"Leodegar, Bishop of Autun, Martyr",,,,,,1859,"Leodegar, Bishop of Autun, Martyr 678",https://en.wikipedia.org/w/index.php?search=Leodegar%20Autun
+10-03,Jairus,,,,,,1859,"Jairus, Mt. 9:18",https://en.wikipedia.org/w/index.php?search=Jairus
+10-03,"The Two Ewalds, the black and the white, Martyrs",,,,,,1859,"The Two Ewalds, the black and the white, Martyrs 695",https://en.wikipedia.org/w/index.php?search=The%20Two%20Ewalds
+10-04,"Francis of Assisi, founder of a monastic order",,,,,,1859,"Francis of Assisi, founder of a monastic order, 1226",https://en.wikipedia.org/wiki/Francis_of_Assisi
+10-05,"Placidus, Abbot in Cicilia, and his companions, Martyrs",,,,,,1859,"Placidus, Abbot in Cicilia, and his companions, Martyrs 546",https://en.wikipedia.org/w/index.php?search=Placidus%20Cicilia
+10-06,"Fides, Martyr, and her companions, in Agen, under Diocletian",,,,,,1859,,https://en.wikipedia.org/w/index.php?search=Fides%20Agen
+10-07,"Justina, Martyr at Padua",,,,,,1859,"Justina, Martyr at Padua, 304",https://en.wikipedia.org/w/index.php?search=Justina%20Padua
+10-07,"Marcus, Bishop of Rome",,,,,,1859,"Marcus, Bishop of Rome, 336",https://en.wikipedia.org/w/index.php?search=Marcus%20Rome
+10-08,"Pelagia, penitent of Antioch",,,,,,1859,"Pelagia, penitent of Antioch, 5th c",https://en.wikipedia.org/w/index.php?search=Pelagia%20Antioch
+10-08,"Brigitta, Widow",,,,,,1859,"Brigitta, Widow, † July 23, 1373",https://en.wikipedia.org/w/index.php?search=Brigitta
+10-09,"Dionysius the Areopagite, Martyr",,,,,,1859,"Dionysius the Areopagite, Martyr, Acts 17:34",https://en.wikipedia.org/w/index.php?search=Dionysius%20the%20Areopagite
+10-09,"Dionysius, Martyr",,,,,,1859,"Dionysius, Martyr, 272",https://en.wikipedia.org/w/index.php?search=Dionysius
+10-10,"Gideon, Judges",,,,,,1859,"Gideon, Judges 6-8",https://en.wikipedia.org/w/index.php?search=Gideon
+10-10,"Gereon and his companions, Martyrs under Maximian",,,,,,1859,,https://en.wikipedia.org/w/index.php?search=Gereon
+10-11,"Burkhard, Bishop of Wuerzburg",,,,,,1859,"Burkhard, Bishop of Wuerzburg, 791",https://en.wikipedia.org/w/index.php?search=Burkhard%20Wuerzburg
+10-12,"Miximilianus, Bishop of Lorch, Martyr",,,,,,1859,"Miximilianus, Bishop of Lorch, Martyr 284",https://en.wikipedia.org/w/index.php?search=Miximilianus%20Lorch
+10-13,"Coloman, Missionary in Bavaria",,,,,,1859,"Coloman, Missionary in Bavaria, 710",https://en.wikipedia.org/w/index.php?search=Coloman%20Bavaria
+10-14,"Calixtus, Bishop of Rome, Martyr",,,,,,1859,"Calixtus, Bishop of Rome, Martyr 224",https://en.wikipedia.org/w/index.php?search=Calixtus%20Rome
+10-15,"Theresia, Virgin",,,,,,1859,"Theresia, Virgin 1582",https://en.wikipedia.org/w/index.php?search=Theresia
+10-16,"Gallus, Abbot of St. Gallen",,,,,,1859,"Gallus, Abbot of St. Gallen, 630",https://en.wikipedia.org/w/index.php?search=Gallus%20St.%20Gallen
+10-17,"Hedwig, duchess of Poland",,,,,,1859,"Hedwig, duchess of Poland, 1243",https://en.wikipedia.org/wiki/Hedwig_of_Andechs
+10-18,"Luke, physician, evangelist",,,,,,1859,"Luke, physician, evangelist, Col. 4:14",https://blog.cph.org/read/church-year/luke-the-evangelist
+10-19,"Ptolemaeus and Lucius, Martyrs at Rome",,,,,,1859,"Ptolemaeus and Lucius, Martyrs at Rome, 166",https://en.wikipedia.org/w/index.php?search=Ptolemaeus%20and%20Lucius%20Rome
+10-20,"Wendelin, Abbot of Tholey, diocese of Trier",,,,,,1859,"Wendelin, Abbot of Tholey, diocese of Trier, 1015",https://en.wikipedia.org/w/index.php?search=Wendelin%20Tholey
+10-21,"Hilarion, Abbot on Cyprus",,,,,,1859,"Hilarion, Abbot on Cyprus, 371",https://en.wikipedia.org/wiki/Hilarion
+10-21,"Ursula with her companions, Virgins, Martyrs, mid-5th c",,,,,,1859,,https://en.wikipedia.org/w/index.php?search=Ursula%20with%20her%20companions
+10-22,"Cordula, Virgin, Martyr, companion of St. Ursula",,,,,,1859,,https://en.wikipedia.org/w/index.php?search=Cordula%20St.%20Ursula
+10-23,"Severin, Bishop of Cologne",,,,,,1859,"Severin, Bishop of Cologne, 403",https://en.wikipedia.org/w/index.php?search=Severin%20Cologne
+10-24,"Raphael, Archangel",,,,,,1859,,https://en.wikipedia.org/wiki/Raphael_(archangel)
+10-24,"Salome, Mt",,,,,,1859,"Salome, Mt. 27:55-56; Mk. 15:40; 16:1; Jn. 19:20",https://en.wikipedia.org/w/index.php?search=Salome
+10-24,"Proclus, Archbishop of Constantinople",,,,,,1859,"Proclus, Archbishop of Constantinople, 447",https://en.wikipedia.org/w/index.php?search=Proclus%20Constantinople
+10-25,"Chrysanthus and Daria, Martyrs at Rome under Valerian or Numerian",,,,,,1859,,https://en.wikipedia.org/wiki/Saints_Chrysanthus_and_Daria
+10-25,"Crispinus and Crispianus, Martyrs at Soissons",,,,,,1859,"Crispinus and Crispianus, Martyrs at Soissons, 287",https://en.wikipedia.org/w/index.php?search=Crispinus%20and%20Crispianus%20Soissons
+10-26,"Amandus, Bishop at Utrecht, then at Strasbourg",,,,,,1859,"Amandus, Bishop at Utrecht, then at Strasbourg, 344",https://en.wikipedia.org/w/index.php?search=Amandus%20Utrecht
+10-27,"Frumentius and Aedesius, missionaries in Abessynia",,,,,,1859,"Frumentius and Aedesius, missionaries in Abessynia, 4th c",https://en.wikipedia.org/w/index.php?search=Frumentius%20and%20Aedesius%20Abessynia
+10-28,"Simon and Jude, Apostles",,RED,,,,1859,"SIMONIS ET JUDAE APP., Simon and Jude, Apostles",https://blog.cph.org/read/church-year/simon-jude-apostles-john-15
+10-29,"Narcissus, Bishop of Jerusalem",,,,,,1859,"Narcissus, Bishop of Jerusalem, 2nd c",https://en.wikipedia.org/w/index.php?search=Narcissus%20Jerusalem
+10-29,"Narcissus, Bishop of Gerona in Spain, Martyr",,,,,,1859,"Narcissus, Bishop of Gerona in Spain, Martyr 306/07",https://en.wikipedia.org/w/index.php?search=Narcissus%20Gerona
+10-30,"Marcellus, captain, Martyr at Tanger in Africa",,,,,,1859,"Marcellus, captain, Martyr at Tanger in Africa, 298",https://en.wikipedia.org/w/index.php?search=Marcellus%20Tanger
+10-30,The Sixteen Thousand Martyrs,,,,,,1859,"The Sixteen Thousand Martyrs, 397",https://en.wikipedia.org/w/index.php?search=The%20Sixteen%20Thousand%20Martyrs
+10-31,"Quintin, Martyr in Gallia",,,,,,1859,"Quintin, Martyr in Gallia, 287",https://en.wikipedia.org/w/index.php?search=Quintin%20Gallia
+10-31,"Wolfgang, Bishop of Regensburg",,,,,,1859,"Wolfgang, Bishop of Regensburg, 994",https://en.wikipedia.org/w/index.php?search=Wolfgang%20Regensburg
+11-01,All Saints,,WHITE,,,,1859,,https://blog.cph.org/read/church-year/all-saints-day-nagel
+11-02,All Souls,,,,,,1859,,https://en.wikipedia.org/wiki/All_Souls'_Day
+11-03,"Pirmin, Apostle of Westrich",,,,,,1859,"Pirmin, Apostle of Westrich, 754",https://en.wikipedia.org/w/index.php?search=Pirmin%20Westrich
+11-04,"Vitalis the Slave, and his master, Agricola, Martyrs at Bologna",,,,,,1859,"Vitalis the Slave, and his master, Agricola, Martyrs at Bologna, 304",https://en.wikipedia.org/w/index.php?search=Vitalis%20the%20Slave%20Bologna
+11-04,"Emmerich, Hangarian prince, Confessor",,,,,,1859,"Emmerich, Hangarian prince, Confessor, 1030",https://en.wikipedia.org/w/index.php?search=Emmerich
+11-05,"Berthilla, Abbess at Chelles",,,,,,1859,"Berthilla, Abbess at Chelles, 692",https://en.wikipedia.org/w/index.php?search=Berthilla%20Chelles
+11-06,"Leonhard, hermit near Limoges, Confessor",,,,,,1859,"Leonhard, hermit near Limoges, Confessor, 559",https://en.wikipedia.org/w/index.php?search=Leonhard
+11-07,"Willibrord, Bishop of Utrecht",,,,,,1859,"Willibrord, Bishop of Utrecht, 738",https://en.wikipedia.org/wiki/Willibrord
+11-08,"The Four Crowned Martyrs, brothers, Martyrs at Rome",,,,,,1859,"The Four Crowned Martyrs, brothers, Martyrs at Rome, 304",https://en.wikipedia.org/wiki/Four_Crowned_Martyrs
+11-09,"Theodor Tyro, Martyr at Amasea in Pontus",,,,,,1859,"Theodor Tyro, Martyr at Amasea in Pontus, 287 (?)",https://en.wikipedia.org/w/index.php?search=Theodor%20Tyro%20Amasea
+11-10,"Tryphon and Respicius, Martyrs in Bithynia",,,,,,1859,"Tryphon and Respicius, Martyrs in Bithynia, 250",https://en.wikipedia.org/w/index.php?search=Tryphon%20and%20Respicius%20Bithynia
+11-10,"Tiberius, Modestus, and Florentia, Martyrs under Diocletian and Maximinian",,,,,,1859,,https://en.wikipedia.org/w/index.php?search=Tiberius
+11-11,"Martin, Bishop of Tours",,,,,,1859,"Martin, Bishop of Tours, 400",https://en.wikipedia.org/wiki/Martin_of_Tours
+11-12,"Jonah, prophet",,,,,,1859,"Jonah, prophet, 838-797 B.C",https://en.wikipedia.org/wiki/Jonah
+11-12,"Nilus, hermit on Sinai",,,,,,1859,"Nilus, hermit on Sinai, † under Marcian",https://en.wikipedia.org/w/index.php?search=Nilus
+11-13,"Briccius, Bishop of Tours",,,,,,1859,"Briccius, Bishop of Tours, 444",https://en.wikipedia.org/w/index.php?search=Briccius%20Tours
+11-13,"Homobonus, merchant at Cremona",,,,,,1859,"Homobonus, merchant at Cremona, 1197",https://en.wikipedia.org/w/index.php?search=Homobonus%20Cremona
+11-14,"Livinius, Bishop from Scottland, Martyr",,,,,,1859,"Livinius, Bishop from Scottland, Martyr 659",https://en.wikipedia.org/w/index.php?search=Livinius
+11-15,"Desiderius, Bishop of Cahors",,,,,,1859,"Desiderius, Bishop of Cahors, 654",https://en.wikipedia.org/w/index.php?search=Desiderius%20Cahors
+11-15,"Leopold, margrave of Austria",,,,,,1859,"Leopold, margrave of Austria, 1136",https://en.wikipedia.org/w/index.php?search=Leopold%20Austria
+11-16,"Othmar, Abbot of St. Gallen",,,,,,1859,"Othmar, Abbot of St. Gallen, 759",https://en.wikipedia.org/w/index.php?search=Othmar%20St.%20Gallen
+11-17,"Dionysius, Bishop of Alexandria",,,,,,1859,"Dionysius, Bishop of Alexandria, † 265",https://en.wikipedia.org/w/index.php?search=Dionysius%20Alexandria
+11-17,"Hugo, Bishop of Lincoln",,,,,,1859,"Hugo, Bishop of Lincoln, † 1200",https://en.wikipedia.org/w/index.php?search=Hugo%20Lincoln
+11-18,"Gregory Thaumaturgus, Bishop of Neocaesarea",,,,,,1859,"Gregory Thaumaturgus, Bishop of Neocaesarea, 270",https://en.wikipedia.org/wiki/Gregory_Thaumaturgus
+11-18,"Odo, Abbot of Cluny",,,,,,1859,"Odo, Abbot of Cluny, 942",https://en.wikipedia.org/w/index.php?search=Odo%20Cluny
+11-19,"Elisabeth, landgravine of Thuringia",,,,,,1859,"Elisabeth, landgravine of Thuringia, 1231",https://en.wikipedia.org/wiki/Elisabeth_of_Hungary
+11-20,"Pontian, Bishop of Rome, Martyr",,,,,,1859,"Pontian, Bishop of Rome, Martyr appr. 250",https://en.wikipedia.org/w/index.php?search=Pontian%20Rome
+11-20,"Bernward, Bishop of Hildesheim",,,,,,1859,"Bernward, Bishop of Hildesheim, 1021",https://en.wikipedia.org/w/index.php?search=Bernward%20Hildesheim
+11-21,The Presentation of Mary,,,,,,1859,,https://en.wikipedia.org/w/index.php?search=The%20Presentation%20of%20Mary
+11-21,"Columbanus, Abbot",,,,,,1859,"Columbanus, Abbot , 615",https://en.wikipedia.org/w/index.php?search=Columbanus
+11-22,"Philemon and Apphia, Philemon",,,,,,1859,"Philemon and Apphia, Philemon 1-4",https://en.wikipedia.org/w/index.php?search=Philemon%20and%20Apphia
+11-22,"Caecilia, Virgin, Martyr",,,,,,1859,"Caecilia, Virgin, Martyr between 176 and 230",https://en.wikipedia.org/w/index.php?search=Caecilia
+11-23,"Clemens, Bishop of Rome, Martyr",,,,,,1859,"Clemens, Bishop of Rome, Martyr 100",https://en.wikipedia.org/w/index.php?search=Clemens%20Rome
+11-23,"Felicitas, Martyr at Rome, mother of the Seven Brothers",,,,,,1859,"Felicitas, Martyr at Rome, mother of the Seven Brothers, 150/60. (See July 10.)",https://en.wikipedia.org/w/index.php?search=Felicitas%20Rome
+11-24,"Chrysogon, Martyr at Aquileia",,,,,,1859,"Chrysogon, Martyr at Aquileia, 303",https://en.wikipedia.org/w/index.php?search=Chrysogon%20Aquileia
+11-25,"Katharina, Virgin, Martyr at Alexandria",,,,,,1859,"Katharina, Virgin, Martyr at Alexandria, 304",https://en.wikipedia.org/w/index.php?search=Katharina%20Alexandria
+11-26,"Konrad, Bishop of Constance",,,,,,1859,"Konrad, Bishop of Constance, 976",https://en.wikipedia.org/w/index.php?search=Konrad%20Constance
+11-27,"Virgilius, Bishop of Salzburg",,,,,,1859,"Virgilius, Bishop of Salzburg, 780",https://en.wikipedia.org/w/index.php?search=Virgilius%20Salzburg
+11-28,"Guenther, Bishop of Regensburg",,,,,,1859,"Guenther, Bishop of Regensburg, 938",https://en.wikipedia.org/w/index.php?search=Guenther%20Regensburg
+11-29,"Saturninus, Bishop of Toulouse, Martyr",,,,,,1859,"Saturninus, Bishop of Toulouse, Martyr 250",https://en.wikipedia.org/w/index.php?search=Saturninus%20Toulouse
+11-30,"Andrew, Apostle",,RED,,,,1859,"ANDREAE AP. Andrew, Apostle",https://blog.cph.org/read/church-year/st-andrew-apostle
+12-01,"Eligius, Bishop of Noyon",,,,,,1859,"Eligius, Bishop of Noyon, 659",https://en.wikipedia.org/w/index.php?search=Eligius%20Noyon
+12-02,"Bibiana, Virgin, Martyr at Rome",,,,,,1859,"Bibiana, Virgin, Martyr at Rome, 363",https://en.wikipedia.org/wiki/Saint_Bibiana
+12-03,"Lucius, king in Great Britain",,,,,,1859,"Lucius, king in Great Britain, 2nd c",https://en.wikipedia.org/w/index.php?search=Lucius%20Great%20Britain
+12-03,"Sola, Abbot at Solenhofen",,,,,,1859,"Sola, Abbot at Solenhofen, 760",https://en.wikipedia.org/w/index.php?search=Sola%20Solenhofen
+12-04,"Barbara, Virgin, Martyr",,,,,,1859,"Barbara, Virgin, Martyr, 306. (?)",https://en.wikipedia.org/w/index.php?search=Barbara
+12-05,"Crispina, Martyr in Africa",,,,,,1859,"Crispina, Martyr in Africa, 304",https://en.wikipedia.org/w/index.php?search=Crispina%20Africa
+12-05,"Sabas, Abbot in Palestine",,,,,,1859,"Sabas, Abbot in Palestine, 532",https://en.wikipedia.org/w/index.php?search=Sabas%20Palestine
+12-06,"Nicolaus, Bishop of Myra in Lycia, Confessor",,,,,,1859,"Nicolaus, Bishop of Myra in Lycia, Confessor, 352",https://en.wikipedia.org/w/index.php?search=Nicolaus%20Myra
+12-07,"Agathon, warrior, Martyr under Decius",,,,,,1859,,https://en.wikipedia.org/w/index.php?search=Agathon
+12-08,The Conception of Mary,,,,,,1859,,https://en.wikipedia.org/w/index.php?search=The%20Conception%20of%20Mary
+12-09,"Joachim, father of the Virgin Mary",,,,,,1859,,https://en.wikipedia.org/w/index.php?search=Joachim
+12-09,"Leocadia, Virgin, Martyr in Spain under Diocletian",,,,,,1859,,https://en.wikipedia.org/w/index.php?search=Leocadia%20Spain
+12-10,"Melchiades, Bishop of Rome",,,,,,1859,"Melchiades, Bishop of Rome, 314",https://en.wikipedia.org/w/index.php?search=Melchiades%20Rome
+12-11,"Damasus, Bishop of Rome",,,,,,1859,"Damasus, Bishop of Rome, 384",https://en.wikipedia.org/w/index.php?search=Damasus%20Rome
+12-12,"Epimachus and Alexander, Martyrs at Alexandria",,,,,,1859,"Epimachus and Alexander, Martyrs at Alexandria, 250",https://en.wikipedia.org/w/index.php?search=Epimachus%20and%20Alexander%20Alexandria
+12-13,"Lucia of Syracuse, Virgin, Martyr",,,,,,1859,"Lucia of Syracuse, Virgin, Martyr, 304",https://blog.cph.org/read/church-year/commemoration/lucia-martyr
+12-13,"Ottillia,Virgin, Abbess of Hohenburg",,,,,,1859,"Ottillia,Virgin, Abbess of Hohenburg, 720",https://en.wikipedia.org/w/index.php?search=Ottillia%20Hohenburg
+12-14,"Spiridion, Bishop of Trimythonte on Cyprus",,,,,,1859,"Spiridion, Bishop of Trimythonte on Cyprus, 348",https://en.wikipedia.org/w/index.php?search=Spiridion%20Trimythonte
+12-14,"Nicasius, Bishop of Rheims, Martyr",,,,,,1859,"Nicasius, Bishop of Rheims, Martyr, 5th c",https://en.wikipedia.org/w/index.php?search=Nicasius%20Rheims
+12-15,"Ignatius, Bishop of Antioch, Martyr",,,,,,1859,"Ignatius, Bishop of Antioch, Martyr 116",https://en.wikipedia.org/w/index.php?search=Ignatius%20Antioch
+12-15,The Christian Woman (Christiana) imprisoned in Iberia under Constantine,,,,,,1859,,https://en.wikipedia.org/w/index.php?search=The%20Christian%20Woman%20%28Christiana%29%20imprisoned%20in%20Iberia%20under%20Constantine
+12-16,"Adelheid, Empress",,,,,,1859,"Adelheid, Empress, 999",https://en.wikipedia.org/w/index.php?search=Adelheid
+12-17,"Olympias, Widow, Deaconness, at Constantinople",,,,,,1859,"Olympias, Widow, Deaconness, at Constantinople, 410",https://en.wikipedia.org/w/index.php?search=Olympias%20Constantinople
+12-17,Abbot Sturm of Fulda,,,,,,1859,"Abbot Sturm of Fulda, 779",https://en.wikipedia.org/w/index.php?search=Abbot%20Sturm%20of%20Fulda
+12-18,"Wunibald, Abbot of Heidenheim",,,,,,1859,"Wunibald, Abbot of Heidenheim, 760",https://en.wikipedia.org/w/index.php?search=Wunibald%20Heidenheim
+12-19,"Abraham, patriarch",,,,,,1859,,https://en.wikipedia.org/w/index.php?search=Abraham
+12-19,"Karlmann, duke of the Franks, then monk of Monte Cassino",,,,,,1859,"Karlmann, duke of the Franks, then monk of Monte Cassino, 755",https://en.wikipedia.org/w/index.php?search=Karlmann%20Monte%20Cassino
+12-20,"Ammon and Zenon, soldiers under Decius",,,,,,1859,"Ammon and Zenon, soldiers under Decius, 249",https://en.wikipedia.org/w/index.php?search=Ammon%20and%20Zenon
+12-21,"Thomas, Apostle",,RED,,,,1859,"THOMAE AP. Thomas, Apostle",https://blog.cph.org/read/church-year/st-thomas-apostle
+12-22,"Ischyrion, Martyr in Egypt",,,,,,1859,"Ischyrion, Martyr in Egypt, 253",https://en.wikipedia.org/w/index.php?search=Ischyrion%20Egypt
+12-23,"Servulus, beggar",,,,,,1859,"Servulus, beggar, 590",https://en.wikipedia.org/w/index.php?search=Servulus
+12-23,The Ten Martyrs of Crete,,,,,,1859,"The Ten Martyrs of Crete, 250",https://en.wikipedia.org/w/index.php?search=The%20Ten%20Martyrs%20of%20Crete
+12-23,"Dagobert II., kong of Austrasia, Martyr",,,,,,1859,"Dagobert II., kong of Austrasia, Martyr 679",https://en.wikipedia.org/w/index.php?search=Dagobert%20II.%20Austrasia
+12-24,"Adam and Eve, our first parents",,,,,,1859,,https://blog.cph.org/read/church-year/commemoration/adam-and-eve
+12-26,"Stephen, the first martyr",,RED,,,,1859,"STEPHANI, PROTOMARTYRIS. Stephen, the first martyr",https://blog.cph.org/read/church-year/st-stephen-martyr
+12-27,"John, Apostle",,WHITE,,,,1859,"JOHANNIS AP. John, Apostle",https://blog.cph.org/read/church-year/st-john-apostle-evangelist
+12-28,The Innocent Children,,RED,,,,1859,,https://en.wikipedia.org/w/index.php?search=The%20Innocent%20Children
+12-29,"Jonathan, David's friend",,,,,,1859,,https://en.wikipedia.org/w/index.php?search=Jonathan
+12-30,"David, king of Israel",,,,,,1859,"David, king of Israel, 1050 B.C",https://blog.cph.org/read/church-year/commemoration/david
+12-31,"Sylvester, Bishop of Rome",,,,,,1859,"Sylvester, Bishop of Rome, 335",https://en.wikipedia.org/w/index.php?search=Sylvester%20Rome

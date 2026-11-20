@@ -1,0 +1,39 @@
+date,name,color_override,color_override_bottom,font_size_override,max_chars_override,vertical_offset,variant,full_name,link
+"# The minor festivals, with Lutheran Worship's colors.  The festivals of Christ",,
+# St. Michael and All Saints color the whole day; the rest the lower half.
+11-30,St. Andrew,,RED,,,,,"St. Andrew, Apostle",https://blog.cph.org/read/church-year/st-andrew-apostle
+12-21,St. Thomas,,RED,,,,,"St. Thomas, Apostle",https://blog.cph.org/read/church-year/st-thomas-apostle
+12-26,St. Stephen,,RED,,,,,"St. Stephen, The First Martyr",https://blog.cph.org/read/church-year/st-stephen-martyr
+12-27,St. John,,WHITE,,,,,"St. John, Apostle and Evangelist",https://blog.cph.org/read/church-year/st-john-apostle-evangelist
+12-28,The Holy Innocents,,RED,,,,,"The Holy Innocents, Martyrs",https://blog.cph.org/read/church-year/holy-innocents
+12-31,New Year's Eve,WHITE,,,,,,New Year's Eve (Eve of the Name of Jesus),https://blog.cph.org/read/church-year/new-years-eve
+01-01,New Year's Day (the Circumcision of Our Lord),WHITE,,,,,,,https://blog.cph.org/read/church-year/circumcision-name-of-jesus
+01-18,The Confession of St. Peter,,WHITE,,,,,,https://blog.cph.org/read/church-year/confession-st-peter
+01-24,St. Timothy,,WHITE,,,,,"St. Timothy, Pastor and Confessor",https://blog.cph.org/read/church-year/st-timothy
+01-25,The Conversion of St. Paul,,WHITE,,,,,,https://blog.cph.org/read/church-year/conversion-st-paul
+01-26,St. Titus,,WHITE,,,,,"St. Titus, Pastor and Confessor",https://blog.cph.org/read/church-year/st-titus
+02-02,The Presentation of Our Lord,WHITE,,,,,,,https://blog.cph.org/read/church-year/purification-presentation
+02-18,Martin Luther,,WHITE,,,,,"Martin Luther, Doctor and Confessor",https://blog.cph.org/read/church-year/commemoration/martin-luther
+02-24,St. Matthias,,RED,,,,,"St. Matthias, Apostle",https://blog.cph.org/read/church-year/st-matthias-apostle
+03-25,The Annunciation of Our Lord,WHITE,,,,,,,https://blog.cph.org/read/church-year/annunciation-name-of-jesus
+04-25,St. Mark,,RED,,,,,"St. Mark, Evangelist",https://blog.cph.org/read/church-year/st-mark-evangelist
+05-01,St. Philip and St. James,,RED,,,,,"St. Philip and St. James, Apostles",https://blog.cph.org/read/church-year/philip-james
+05-07,C. F. W. Walther,,WHITE,,,,,"C. F. W. Walther, Doctor",https://blog.cph.org/read/church-year/commemoration/c-f-w-walther
+05-31,The Visitation,WHITE,,,,,,,https://blog.cph.org/read/church-year/the-visitation
+06-11,St. Barnabas,,RED,,,,,"St. Barnabas, Apostle",https://blog.cph.org/read/church-year/st-barnabas-apostle-acts
+06-24,The Nativity of St. John the Baptist,WHITE,,,,,,,https://blog.cph.org/read/church-year/nativity-of-st-john-the-baptist-luke-1
+06-25,Presentation of the Augsburg Confession,,WHITE,,,,,,https://blog.cph.org/read/church-year/commemoration/presentation-of-the-augsburg-confession
+06-29,St. Peter and St. Paul,,RED,,,,,"St. Peter and St. Paul, Apostles",https://blog.cph.org/read/church-year/feast-of-st-peter-and-st-paul
+07-22,St. Mary Magdalene,,WHITE,,,,,,https://blog.cph.org/read/church-year/mary-magdalene-john-20
+07-25,St. James the Elder,,RED,,,,,"St. James the Elder, Apostle",https://blog.cph.org/read/church-year/st-james-the-elder-apostle
+08-10,St. Laurence,,RED,,,,,"St. Laurence, Martyr",https://blog.cph.org/read/church-year/commemoration/lawrence-deacon-martyr
+08-15,"St. Mary, Mother of Our Lord",,WHITE,,,,,,https://blog.cph.org/read/church-year/mary-mother-of-our-lord
+08-24,St. Bartholomew,,RED,,,,,"St. Bartholomew, Apostle",https://blog.cph.org/read/church-year/bartholomew-apostle
+09-14,Holy Cross Day,,RED,,,,,,https://blog.cph.org/read/church-year/holy-cross-day
+09-21,St. Matthew,,RED,,,,,"St. Matthew, Apostle and Evangelist",https://blog.cph.org/read/church-year/feast-st-matthew
+09-29,St. Michael and All Angels,WHITE,,,,,,,https://blog.cph.org/read/church-year/st-michael-and-all-angels-daniel-12
+10-18,St. Luke,,RED,,,,,"St. Luke, Evangelist",https://blog.cph.org/read/church-year/luke-the-evangelist
+10-28,St. Simon and St. Jude,,RED,,,,,"St. Simon and St. Jude, Apostles",https://blog.cph.org/read/church-year/simon-jude-apostles-john-15
+10-31,Reformation Day,,RED,,,,,,https://blog.cph.org/read/church-year/reformation-day
+11-01,All Saints' Day,WHITE,,,,,,,https://blog.cph.org/read/church-year/all-saints-day-nagel
+11-02,Commemoration of the Faithful Departed,,WHITE,,,,,,https://en.wikipedia.org/wiki/All_Souls'_Day

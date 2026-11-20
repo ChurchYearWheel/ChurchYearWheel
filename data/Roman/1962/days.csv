@@ -1,0 +1,67 @@
+id,variant,when,date,from,to,every,first,count,first2,count2,title,names,notes,latin,color,color_bottom,rank,style,icon,claims,yield,full_name
+# ===========================================================================,,,,,,,,,,,,,,,,,,,,,,
+"# The temporal cycle of the 1962 Missal: Advent, Christmastide with its octave,",,,,,,,,,,,,,,,,,,,,,,
+"# the Sundays after Epiphany, Septuagesima, Lent and Passiontide, Paschaltide,",,,,,,,,,,,,,,,,,,,,,,
+"# Pentecost with its octave, and the Sundays after Pentecost, with the Ember",,,,,,,,,,,,,,,,,,,,,,
+# and Rogation days.  `rank` follows the 1960 classes, mapped by the project.,,,,,,,,,,,,,,,,,,,,,,
+# ===========================================================================,,,,,,,,,,,,,,,,,,,,,,
+# Advent.  The Ember days follow the third Sunday.,,,,,,,,,,,,,,,,,,,,,,
+advent,,,,start,start+27,sun,1,,,,{ordinal} Sunday of Advent,,,Ad te levavi|Populus Sion|Gaudete|Rorate,||ROSE|,,2,,,,,
+ember_advent_wed,,,start+17,,,,,,,,Ember Wednesday of Advent,,,,,,9,,,,,
+ember_advent_fri,,,start+19,,,,,,,,Ember Friday of Advent,,,,,,9,,,,,
+ember_advent_sat,,,start+20,,,,,,,,Ember Saturday of Advent,,,,,,9,,,,,
+# Christmastide.,,,,,,,,,,,,,,,,,,,,,,
+christmas_eve,,,12-24,,,,,,,,Vigil of the Nativity,,,,VIOLET,,2,,,TRUE,,The Vigil of the Nativity of our Lord
+christmas,,,12-25,,,,,,,,Nativity of the Lord,,,,WHITE,,2,,obligation,,,The Nativity of our Lord Jesus Christ
+octave_sunday,,date le 12-31,sun>12-25,,,,,,,,Sunday within the Octave of Christmas,,,,,,6,,,TRUE,,
+octave_days,,,,12-29,12-31,day,5,,,,{name} Day within the Octave of the Nativity,Fifth|Sixth|Seventh,,,,,9,,,,,
+octave_day,,,01-01,,,,,,,,Octave Day of the Nativity,,,,WHITE,,2,,obligation,,,The Octave Day of the Nativity of our Lord
+holy_name,,date lt 01-06,sun>=01-02,,,,,,,,Holy Name of Jesus,,,,WHITE,,5,,,TRUE,,The Most Holy Name of Jesus
+holy_name_2,,(sun>=01-02) ge 01-06,01-02,,,,,,,,Holy Name of Jesus,,,,WHITE,,5,,,,,The Most Holy Name of Jesus
+epiphany,,,01-06,,,,,,,,Epiphany of the Lord,,,,WHITE,,2,,obligation,TRUE,,The Epiphany of our Lord Jesus Christ
+holy_family,,,sun>01-06,,,,,,,,Holy Family,,,,WHITE,,5,,,TRUE,,"The Most Holy Family of Jesus, Mary and Joseph (the First Sunday after the Epiphany)"
+baptism,,date ne @holy_family,01-13,,,,,,,,Baptism of the Lord,,,,WHITE,,5,,,,,The Commemoration of the Baptism of our Lord
+after_epiphany,,,,@holy_family+7,easter-64,sun,2,,,,{ordinal} Sunday after Epiphany,,,,,,6,,,,,
+"# Septuagesima, Lent and Passiontide.",,,,,,,,,,,,,,,,,,,,,,
+septuagesima,,,easter-63,,,,,,,,Septuagesima Sunday,,,Circumdederunt me,,,6,,,,,
+sexagesima,,,easter-56,,,,,,,,Sexagesima Sunday,,,Exsurge,,,6,,,,,
+quinquagesima,,,easter-49,,,,,,,,Quinquagesima Sunday,,,Esto mihi,,,6,,,,,
+ash_wednesday,,,easter-46,,,,,,,,Ash Wednesday,,,,,,2,,fast,,,
+lent,,,,easter-42,easter-21,sun,1,,,,{ordinal} Sunday of Lent,,,Invocabit|Reminiscere|Oculi|Laetare,|||ROSE,,2,,,,,
+ember_lent_wed,,,easter-39,,,,,,,,Ember Wednesday of Lent,,,,,,9,,,,,
+ember_lent_fri,,,easter-37,,,,,,,,Ember Friday of Lent,,,,,,9,,,,,
+ember_lent_sat,,,easter-36,,,,,,,,Ember Saturday of Lent,,,,,,9,,,,,
+passion_sunday,,,easter-14,,,,,,,,Passion Sunday,,,Judica,,,2,,,,,The First Sunday of Passiontide
+palm_sunday,,,easter-7,,,,,,,,Palm Sunday,,,,,,2,,,,,"The Second Sunday of Passiontide, or Palm Sunday"
+holy_week,,,,easter-6,easter-4,day,1,,,,{name} of Holy Week,Monday|Tuesday|Wednesday,,,,,2,,,,,
+holy_thursday,,,easter-3,,,,,,,,Maundy Thursday,,,,WHITE,,1,,,,,Thursday of the Lord's Supper
+good_friday,,,easter-2,,,,,,,,Good Friday,,,,BLACK,,1,,fast,,,Good Friday of the Passion and Death of the Lord
+holy_saturday,,,easter-1,,,,,,,,Holy Saturday,,,,VIOLET,WHITE,1,,,,,Holy Saturday (the Easter Vigil)
+# Paschaltide.,,,,,,,,,,,,,,,,,,,,,,
+easter,,,easter,,,,,,,,Easter Sunday,,,Resurrexi,WHITE,,1,,,,,Easter Sunday of the Resurrection of the Lord
+easter_octave,,,,easter+1,easter+6,day,1,,,,Easter {name},Monday|Tuesday|Wednesday|Thursday|Friday|Saturday,,,,,2,,,,,
+low_sunday,,,easter+7,,,,,,,,Low Sunday,,,Quasimodo,,,2,,,,,Low Sunday (the Octave Day of Easter)
+after_easter,,,,easter+14,easter+35,sun,2,,,,{ordinal} Sunday after Easter,,,Misericordia|Jubilate|Cantate|Vocem jucunditatis,,,6,,,,,
+rogation,,,,easter+36,easter+38,day,1,,,,Rogation {name},Monday|Tuesday|Wednesday,,,VIOLET,,13,,,,,The Lesser Litanies: Rogation {name}
+ascension,,,easter+39,,,,,,,,Ascension of the Lord,,,,WHITE,,2,,obligation,,,
+after_ascension,,,easter+42,,,,,,,,Sunday after the Ascension,,,Exaudi,,,6,,,,,
+pentecost_vigil,,,easter+48,,,,,,,,Vigil of Pentecost,,,,RED,,2,,,,,
+"# Pentecost and its octave, with its Ember days.",,,,,,,,,,,,,,,,,,,,,,
+pentecost,,,easter+49,,,,,,,,Pentecost Sunday,,,,RED,,1,,,,,
+pentecost_octave,,,,easter+50,easter+55,day,1,,,,{name} in the Octave of Pentecost,Monday|Tuesday|Ember Wednesday|Thursday|Ember Friday|Ember Saturday,,,,,2,,,,,
+trinity,,,easter+56,,,,,,,,Most Holy Trinity,,,,WHITE,,2,,,TRUE,,The Most Holy Trinity (the First Sunday after Pentecost)
+corpus_christi,,,easter+60,,,,,,,,Corpus Christi,,,,WHITE,,3,,obligation,,,The Feast of the Most Holy Body of Christ
+sacred_heart,,,easter+68,,,,,,,,Most Sacred Heart of Jesus,,,,WHITE,,3,,,,,
+# The Sundays after Pentecost.  The Twenty-fourth is always the last;,,,,,,,,,,,,,,,,,,,,,,
+"# when there are more, the Sundays left over after Epiphany come before it.",,,,,,,,,,,,,,,,,,,,,,
+after_pentecost,,,,easter+63,"min(easter+210, next_start-14)",sun,2,,,,{ordinal} Sunday after Pentecost,,,,,,6,,,,,
+resumed_epiphany,,,,easter+217,next_start-14,sun,6,down,,,{ordinal} Sunday after Epiphany,,,,,,6,,,,,"{ordinal} Sunday after Epiphany, resumed after Pentecost"
+last_pentecost,,,next_start-7,,,,,,,,Twenty-fourth Sunday after Pentecost,,,,,,6,,,TRUE,,The Twenty-fourth and Last Sunday after Pentecost
+ember_sept_wed,,,sun#3:09+3,,,,,,,,Ember Wednesday of September,,,,,,9,,,,,
+ember_sept_fri,,,sun#3:09+5,,,,,,,,Ember Friday of September,,,,,,9,,,,,
+ember_sept_sat,,,sun#3:09+6,,,,,,,,Ember Saturday of September,,,,,,9,,,,,
+christ_the_king,,,sun#-1:10,,,,,,,,Christ the King,,,,WHITE,,3,,,TRUE,,Our Lord Jesus Christ the King
+all_souls,,date nwd sun,11-02,,,,,,,,All Souls' Day,,,,BLACK,,3,,,,,The Commemoration of All the Faithful Departed
+all_souls_3,,(11-02) wd sun,11-03,,,,,,,,All Souls' Day,,,,BLACK,,3,,,,,The Commemoration of All the Faithful Departed
+# Abstinence on the Fridays of Lent: the 1983 Code applies to the 1962 books (Universae Ecclesiae n. 27).,,,,,,,,,,,,,,,,,,,,,,
+lent_fridays,,,,@ash_wednesday+2,@palm_sunday-2,fri,,,,,,,,,,,,,abstinence,,4,

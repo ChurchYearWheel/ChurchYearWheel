@@ -1,0 +1,13 @@
+id,date,name,full_name,rank,style,color_override,color_override_bottom,icon,icon_when,transfer,variant,when,action
+,01-20,Conversion of St. John of God,Conversion of Saint John of God,11,memorial,,,,,,,,
+,02-12,Bl. José Olallo Valdés,"Blessed José Olallo Valdés, religious",12,optional_memorial,,,,,,,,
+st_john_of_god,,,"Saint John of God, religious and founder",4,solemnity,WHITE,,,,,,,
+,04-24,St. Benedict Menni,"Saint Benedict Menni, priest",11,memorial,,,,,,,,
+,04-26,Our Lady of Good Counsel,,12,optional_memorial,,,,,,,,
+,05-01,St. Richard Pampuri,"Saint Richard Pampuri, religious",11,memorial,,,,,,,,
+,06-03,St. Juan Grande Román,"Saint Juan Grande Román, religious",11,memorial,,,,,,,,
+,06-10,Bl. Joseph Kugler,"Blessed Joseph Kugler, religious",12,optional_memorial,,,,,,,,
+st_augustine_of_hippo,,,"Saint Augustine of Hippo, bishop and Doctor of the Church",8,feast_rank,WHITE,,,,,,,
+,10-25,Bl. Braulio María Corres and Companions,"Blessed Braulio María Corres and companions, martyrs",11,memorial,,,,,,,,
+,11-17,Patronage of Our Lady over the Hospitaller Order,,4,solemnity,WHITE,,,,,,,
+,11-28,Translation of the Relics of St. John of God,Translation of the Relics of Saint John of God,12,optional_memorial,,,,,,,,

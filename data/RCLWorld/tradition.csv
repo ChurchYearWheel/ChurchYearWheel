@@ -1,0 +1,35 @@
+setting,value,variant
+# ===========================================================================,,
+# Churches of the Revised Common Lectionary beyond the original five.,,
+# ===========================================================================,,
+year_start,sun<12-25-21,
+center_art,lutherrose,wels lca wels-one-year
+center_art,celtic_cross,scotland
+center_art,moravian_star,moravian
+center_art,chi_rho,methodist-gb
+"# readings: the Revised Common Lectionary (data/readings), Year A from Advent 2025.",,
+readings,rcl rcl-daily,lca methodist-gb scotland
+readings,rcl rcl-us rcl-daily,moravian
+reading_cycle,abc,lca methodist-gb scotland moravian wels
+"# WELS: Christian Worship (2021), with its own names for the readings.",,
+readings,cw21 cw93 cw93-supp,wels
+"# WELS One-year: the hymnal's one-year series (cw21-1year.csv) with the minor festivals and occasions of cw21.csv; the Sundays' Latin names shown unless the page or new_year.py turns them off.",,
+readings,cw21-1year cw21,wels-one-year
+latin_names_available,TRUE,wels-one-year
+latin_names_default,TRUE,wels-one-year
+reading_labels,ot=First Reading; epistle=Second Reading,wels wels-one-year
+# The Bible version the page opens readings in (bible_version).,,
+bible_version,EHV,wels wels-one-year
+bible_version,NRSVA,methodist-gb scotland
+bible_version,NRSVUE,moravian lca
+"# Hymnary.org's code for each church's hymnal, whose scripture index the page's Hymn search searches (hymnary.org/hymnal/<code>): WELS Christian Worship: Hymnal (2021); the Methodist Church in Britain, Singing the Faith (2011); the Moravian Church, Moravian Book of Worship (1995); the Church of Scotland, Church Hymnary, fourth edition (2005); the LCA, Together in Song (1999), the ecumenical Australian Hymn Book II.",,
+hymnary_hymnal,CWH2021,wels wels-one-year
+hymnary_hymnal_name,Christian Worship: Hymnal (2021),wels wels-one-year
+hymnary_hymnal,StF2011,methodist-gb
+hymnary_hymnal_name,Singing the Faith (2011),methodist-gb
+hymnary_hymnal,Mor1995,moravian
+hymnary_hymnal_name,Moravian Book of Worship (1995),moravian
+hymnary_hymnal,CH4,scotland
+hymnary_hymnal_name,Church Hymnary (4th ed.),scotland
+hymnary_hymnal,TIS1999,lca
+hymnary_hymnal_name,Together in Song (1999),lca

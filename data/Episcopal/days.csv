@@ -1,0 +1,29 @@
+id,variant,when,date,from,to,every,first,count,first2,count2,title,names,notes,latin,color,color_bottom,rank,style,icon,claims,yield,full_name
+# ===========================================================================,,,,,,,,,,,,,,,,,,,,,,
+# The principal days of the Episcopal Church's year (Book of Common Prayer,,,,,,,,,,,,,,,,,,,,,,
+"# 1979), as rules.  The Sundays after Pentecost carry their Proper, counted",,,,,,,,,,,,,,,,,,,,,,
+# back from Christ the King (Proper 29).  See docs/traditions.md.,,,,,,,,,,,,,,,,,,,,,,
+# ===========================================================================,,,,,,,,,,,,,,,,,,,,,,
+advent,,,,start,start+27,sun,1,,,,{ordinal} Sunday of Advent,,,,,,,,,,,
+christmas_eve,,,12-24,,,,,,,,Christmas Eve,,,,,WHITE,,,,,,
+christmas,,,12-25,,,,,,,,Christmas Day,,,,,,,,,,,The Nativity of Our Lord Jesus Christ: Christmas Day
+after_christmas,,,,@christmas+1,@epiphany-1,sun,1,,,,{ordinal} Sunday after Christmas,,,,,,,,,,,The {ordinal} Sunday after Christmas Day
+epiphany,,,01-06,,,,,,,,The Epiphany,,,,WHITE,,,,,,,The Epiphany of Our Lord Jesus Christ
+baptism,,,sun>@epiphany,,,,,,,,Baptism of Our Lord,,,,WHITE,,,,,TRUE,,The First Sunday after the Epiphany: The Baptism of Our Lord
+after_epiphany,,,,@epiphany+1,@transfiguration,sun,1,,,,{ordinal} Sunday after the Epiphany,,,,,,,,,,,
+transfiguration,,,easter-49,,,,,,,,Last Sunday after the Epiphany,,,,WHITE,,,,,TRUE,,The Last Sunday after the Epiphany (the Transfiguration)
+ash_wednesday,,,easter-46,,,,,,,,Ash Wednesday,,,,PURPLE,,,,,,,
+lent,,,,@ash_wednesday,@palm_sunday-1,sun,1,,,,{ordinal} Sunday in Lent,,,,,,,,,,,
+palm_sunday,,,easter-7,,,,,,,,Palm Sunday,,,,,,,,,,,The Sunday of the Passion: Palm Sunday
+maundy_thursday,,,easter-3,,,,,,,,Maundy Thursday,,,,WHITE,,,,,,,
+good_friday,,,easter-2,,,,,,,,Good Friday,,,,NONE,,,,,,,
+holy_saturday,,,easter-1,,,,,,,,Holy Saturday,,,,NONE,,,,,,,
+easter,,,easter,,,,,,,,Easter Day,,,,WHITE,,,,,,,"The Sunday of the Resurrection, or Easter Day"
+after_easter,,,,easter+1,@pentecost-1,sun,2,,,,{ordinal} Sunday of Easter,,,,,,,,,,,
+ascension,,,easter+39,,,,,,,,Ascension Day,,,,WHITE,,,,,,,
+pentecost,,,easter+49,,,,,,,,Day of Pentecost,,,,RED,,,,,,,
+trinity,,,easter+56,,,,,,,,Trinity Sunday,,,,WHITE,,,,,,,The First Sunday after Pentecost: Trinity Sunday
+after_pentecost,,,,@trinity+1,end,sun,2,,29,down,{ordinal} Sunday after Pentecost,,Proper {number2},,,,,,,,,The {ordinal} Sunday after Pentecost: Proper {number2}
+# All Saints' Day may be kept on the Sunday after 1 November as well.,,,,,,,,,,,,,,,,,,,,,,
+all_saints,,date ne 11-01,sun>10-31,,,,,,,,All Saints' Sunday,,,,WHITE,,,,,TRUE,,
+christ_the_king,,,next_start-7,,,,,,,,Christ the King,,,,WHITE,,,,,TRUE,,The Last Sunday after Pentecost: Christ the King (Proper 29)

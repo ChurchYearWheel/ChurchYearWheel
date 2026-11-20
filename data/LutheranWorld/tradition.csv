@@ -1,0 +1,43 @@
+setting,value,variant
+# ===========================================================================,,
+"# Lutheran churches of Europe, Indonesia and Madagascar.  Each church is a",,
+# variant of this folder.,,
+# ===========================================================================,,
+year_start,sun<12-25-21,
+center_art,lutherrose,
+# readings.csv: the German order's sermon texts run in six series; series I began with Advent 2018.,,
+reading_cycle,I II III IV V VI 2018,ekd poland
+# The Bible version the page opens readings in (bible_version).,,
+bible_version,LUTH1545,ekd
+# Poland opens in English: Bible Gateway has the Polish Bibles only for the New Testament.,,
+# Iceland's three text series (textaraðir A-C): A from Advent 2024.,,
+reading_cycle,A B C 2024,iceland
+bible_version,ICELAND,iceland
+bible_version,KAR,hungary
+# GKLI's almanac quotes the Indonesian of the Alkitab Terjemahan Baru (LAI); Bible Gateway does not carry it, so it opens at Bible.com.,,
+bible_version,TB,gkli
+# HKBP's online almanac gives its Indonesian texts from the Terjemahan Baru and names it (TB).,,
+bible_version,TB,hkbp
+# Estonia reads the Finnish texts in three series: the second from Advent 2025.,,
+reading_cycle,I II III 2024,estonia
+reading_order,psalm | ot | epistle | gospel,estonia
+# GKLI reads the three-year series of Lutheran Service Book: Year A from Advent 2025.,,
+reading_cycle,abc,gkli
+reading_labels,ot=First Reading; epistle=Second Reading,gkli
+# Hungary calls its Old Testament lesson the Prophecy (Prófécia).,,
+reading_labels,ot=Prophecy,hungary
+# HKBP chooses each year's texts (cycle = the year the church year begins); its sermon text is the Evangelium.,,
+reading_cycle,year,hkbp
+reading_labels,epistle=Epistel; gospel=Evangelium,hkbp
+# ELCT prints each year's texts in its Bible calendar (2014-2018 are here).,,
+reading_cycle,year,elct
+reading_labels,reading=Reading,elct
+# Latvia: the one-year series every year and an RCL-like three-year series (Year A from Advent 2025).,,
+reading_cycle,abc,latvia
+reading_labels,procession=Procession,latvia
+"# The verse numbering the readings are cited in, where it is the Hebrew one the church's Bible still uses (hebrew: every book; else the books): links translate it for Bible sites (docs/versification.md).",,
+verse_numbering,hebrew,ekd poland iceland hungary estonia latvia
+verse_numbering,Psalms Joel,slovakia
+verse_numbering,Psalms Isaiah Joel Micah,hkbp
+# The page names no weekdays from their Sundays (weekday_titles): the calendars' names are not in English.,,
+weekday_titles,none,

@@ -1,0 +1,10 @@
+setting,value,variant
+# ===========================================================================,,
+"# The Armenian Apostolic Church, on the Gregorian calendar with the Gregorian",,
+# Easter.  (The Armenian Patriarchate of Jerusalem keeps the Julian calendar:,,
+# choose it on the page.),,
+# ===========================================================================,,
+year_start,sun>=11-22,
+center_art,armenian_cross,
+"# readings.csv: the Prelacy's daily readings for 2025-27.",,
+reading_labels,ot=Old Testament; acts=Acts; epistle=Epistle,

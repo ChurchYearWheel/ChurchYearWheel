@@ -1,0 +1,7 @@
+id,date,name,full_name,rank,style,color_override,color_override_bottom,icon,icon_when,transfer,variant,when,action
+,05-10,Bl. Enrico Rebuschini,"Blessed Enrico Rebuschini, priest",11,memorial,,,,,,,,
+,05-22,Bl. Maria Domenica Brun Barbantini,"Blessed Maria Domenica Brun Barbantini, religious",12,optional_memorial,,,,,,,,
+st_camillus_de_lellis,,,"Saint Camillus de Lellis, priest and founder",4,solemnity,WHITE,,,,,,,
+,09-26,Bl. Luigi Tezza,"Blessed Luigi Tezza, priest",11,memorial,,,,,,,,
+,10-16,Bl. Giuseppina Vannini,"Blessed Giuseppina Vannini, virgin",12,optional_memorial,,,,,,,,
+,11-16,"Our Lady, Health of the Sick",,8,feast_rank,WHITE,,,,,,,

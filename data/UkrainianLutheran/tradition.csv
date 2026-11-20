@@ -1,0 +1,11 @@
+setting,value,variant
+# ===========================================================================,,
+"# The Ukrainian Lutheran Church, on the Revised Julian calendar since 2018 with",,
+"# Easter by the Julian paschalion, as the Orthodox churches of the New Calendar",,
+# keep it.,,
+# ===========================================================================,,
+year_start,sun<12-25-21,
+calendar,revised-julian,
+paschalion_default,julian,
+festival_half_end_auto,pentecost-week,
+center_art,lutherrose,

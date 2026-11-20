@@ -1,0 +1,11 @@
+kind,name,start,end,season
+season,Advent,start,12-24,ADVENT
+season,Christmas,12-25,01-05,CHRISTMAS
+season,Epiphany,01-06,easter-47,EPIPHANY
+season,Lent,easter-46,easter-1,LENT
+season,Easter,easter,easter+48,EASTER
+season,Pentecost,easter+49,easter+55,PENTECOST
+season,After Pentecost,easter+56,end,AFTER_PENTECOST
+half,CHRISTMAS,start,easter-47
+half,EASTER,easter-46,easter+49
+half,THE CHURCH,easter+50,end

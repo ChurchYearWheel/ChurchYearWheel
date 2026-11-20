@@ -1,0 +1,7 @@
+id,date,name,full_name,color_override,color_override_bottom,style,variant,when
+# ===========================================================================,,,,,,,,
+"# The Nordic churches keep their holy days in days.csv, as the Sundays they fall",,,,,,,,
+# on; only fixed observances that are not Sundays are here.,,,,,,,,
+# ===========================================================================,,,,,,,,
+"# Norway: St Olav's Day (Olsok), red.",,,,,,,,
+,07-29,Olsok,Olavsdagen (Olsok),,RED,,norway,

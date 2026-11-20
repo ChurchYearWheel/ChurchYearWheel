@@ -1,0 +1,20 @@
+kind,name,start,end,season,color,subtitle,scale,variant,when,rank_weekday,rank_sunday
+"# Seasons, with the rank of their Sundays and weekdays.",,,,,,,,,,,
+season,Advent,start,12-16,ADVENT,,,,,,13,2
+season,,12-17,12-24,ADVENT,,,,,,9,2
+season,Christmastide,12-25,01-01,CHRISTMAS,,,,,,9,6
+season,,01-02,01-13,CHRISTMAS,,,,,,13,6
+season,Time after Epiphany,01-14,easter-64,AFTER_EPIPHANY,,,,,,13,6
+season,Septuagesima,easter-63,easter-47,SEPTUAGESIMA,,,,,,13,6
+season,Lent,easter-46,easter-15,LENT,,,,,,9,2
+season,Passiontide,easter-14,easter-1,LENT,,,,,,9,2
+season,Paschaltide,easter,easter+48,EASTER,,,,,,13,6
+season,Octave of Pentecost,easter+49,easter+55,PENTECOST,,,,,,2,2
+season,Time after Pentecost,easter+56,end,AFTER_PENTECOST,,,,,,13,6
+"# The cycles, on the outer rings.",,,,,,,,,,,
+broad,CHRISTMAS CYCLE,start,01-13,,,,,,,,
+broad,EASTER CYCLE,easter-63,easter+55,,,,,,,,
+half,CHRISTMAS CYCLE,start,01-13,,,,,,,,
+half,TIME AFTER EPIPHANY,01-14,easter-64,,,,,,,,
+half,EASTER CYCLE,easter-63,easter+55,,,,,,,,
+half,TIME AFTER PENTECOST,easter+56,end,,,,,,,,

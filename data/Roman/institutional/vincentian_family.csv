@@ -1,0 +1,24 @@
+id,date,name,full_name,rank,style,color_override,color_override_bottom,icon,icon_when,transfer,variant,when,action,link
+,01-04,St. Elizabeth Anne Seton,"Saint Elizabeth Anne Seton, religious",11,memorial,,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-elizabeth-ann-seton/
+,01-07,Bl. Lindalva Justo de Oliveira,"Blessed Lindalva Justo de Oliveira, virgin and martyr",12,optional_memorial,,,,,,,,,
+conversion_of_st_paul,,,"The Conversion of Saint Paul, anniversary of the Institution of the Congregation of Missions",7,feast_rank,WHITE,,,,,,,,
+,02-01,Bls. Marie-Anne Vaillot and Otilia Baumgarten,"Blesseds Marie-Anne Vaillot and Otilia Baumgarten, virgins and martyrs",12,optional_memorial,,,,,,,,,
+,02-03,Bl. Josephine Nicoli,"Blessed Josephine Nicoli, virgin",12,optional_memorial,,,,,,,,,
+,02-07,Bl. Rosalia Rendu,"Blessed Rosalia Rendu, virgin",12,optional_memorial,,,,,,,,,
+,04-26,Translation of the Relics of St. Vincent de Paul,Translation of the Relics of Saint Vincent de Paul,12,optional_memorial,,,,,,,,,
+,05-09,St. Louise de Marillac,"Saint Louise de Marillac, religious and cofounder",4,solemnity,WHITE,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-louise-de-marillac/
+,05-23,St. Joanna Antide Thouret,"Saint Joanna Antide Thouret, virgin",12,optional_memorial,,,,,,,,,
+,05-30,Bl. Martha Mary Wiecka,"Blessed Martha Mary Wiecka, virgin",12,optional_memorial,,,,,,,,,
+,06-26,Blessed Mary Magdalene Fontaine and Companions,"Blessed Mary Magdalene Fontaine and companions, virgins and martyrs",12,optional_memorial,,,,,,,,,
+,07-09,Sts. Francis Regis Clet and Augustine Zhao Rong and Companions,"Saints Francis Regis Clet, Augustine Zhao Rong, priests and companions, martyrs",11,memorial,,,,,,,,,
+st_peter_chrysologus,07-28,,"Saint Peter Chrysologus, bishop and Doctor of the Church",12,optional_memorial,-,,,,,,,,
+,07-30,St. Justin de Jacobis,"Saint Justin de Jacobis, bishop",11,memorial,,,,,,,,,
+,08-30,Bl. Ghebre Michael,"Blessed Ghebre Michael, priest and martyr",11,memorial,,,,,,,,,
+,09-02,Bls. Louis Joseph François and Companions,"Blesseds Louis Joseph François and companions, priests and martyrs",12,optional_memorial,,,,,,,,,
+,09-09,Bl. Frederic Ozanam,Blessed Frederic Ozanam,12,optional_memorial,,,,,,,,,
+,09-11,St. John Gabriel Perboyre,"Saint John Gabriel Perboyre, priest and martyr",11,memorial,,,,,,,,,
+st_vincent_de_paul,,,"Saint Vincent de Paul, priest and founder",4,solemnity,WHITE,,,,,,,,
+,11-06,"Bls. Fortunata Velasco Tobar, Melchora Adoración Cortés Bueno and José Martínez Pérez and Companions","Blesseds Fortunata Velasco Tobar, priest, Melchora Adoración Cortés Bueno, José Martínez Pérez, virgins and companions, martyrs",12,optional_memorial,,,,,,,,,
+,11-27,Our Lady of the Miraculous Medal,,8,feast_rank,WHITE,,,,,,,,
+,11-28,St. Catherine Labouré,"Saint Catherine Labouré, virgin",11,memorial,,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-catherine-laboure/
+,12-10,Bl. Marco Antonio Durando,"Blessed Marco Antonio Durando, priest",12,optional_memorial,,,,,,,,,

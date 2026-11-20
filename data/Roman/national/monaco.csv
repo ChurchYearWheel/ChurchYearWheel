@@ -1,0 +1,10 @@
+id,date,name,full_name,rank,style,color_override,color_override_bottom,icon,icon_when,transfer,variant,when,action
+,01-16,St. Honoratus of Arles,"Saint Honoratus of Arles, bishop",11,memorial,,,,,,,,
+,01-27,St. Devota of Corsica,"Saint Devota of Corsica, virgin and martyr",4,solemnity,RED,,,,,,,
+,05-15,St. Pontius of Cimiez,"Saint Pontius of Cimiez, martyr",12,optional_memorial,,,,,,,,
+,05-21,St. Hospitius,"Saint Hospitius, hermit",12,optional_memorial,,,,,,,,
+,06-11,Dedication of the Cathedral of the Archdiocese of Monaco,,8,feast_rank,WHITE,,,,,,,
+st_barnabas,06-12,,"St. Barnabas, apostle",10,memorial,-,,,,,,,
+st_teresa_benedicta_of_the_cross,08-07,,"Saint Teresa Benedicta of the Cross, virgin and martyr",8,feast_rank,RED,,,,,,,
+,08-09,St. Romanus Ostiarus,"Saint Romanus Ostiarus, martyr",8,feast_rank,RED,,,,,,,
+,08-16,St. Roch of Montpellier,,11,memorial,,,,,,,,

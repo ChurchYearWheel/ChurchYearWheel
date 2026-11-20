@@ -1,0 +1,8 @@
+id,date,name,full_name,rank,style,color_override,color_override_bottom,icon,icon_when,transfer,variant,when,action
+,01-16,St. Joseph Vaz,"Saint Joseph Vaz, priest",12,optional_memorial,,,,,,,,
+,01-30,Bl. Sebastian Valfrè,"Blessed Sebastian Valfrè, priest",11,memorial,,,,,,,,
+st_philip_neri,,,"Saint Philip Neri, priest and founder",4,solemnity,WHITE,,,,,,,
+,08-30,Bl. Juvenal Ancina,"Blessed Juvenal Ancina, bishop",11,memorial,,,,,,,,
+,10-05,St. Luigi Scrosoppi,"Saint Luigi Scrosoppi, priest",11,memorial,,,,,,,,
+st_john_henry_newman,,,"Saint John Henry Newman, priest",12,optional_memorial,-,,,,,,,
+,12-15,Bl. Antonio Grassi,"Blessed Antonio Grassi, priest",12,optional_memorial,,,,,,,,

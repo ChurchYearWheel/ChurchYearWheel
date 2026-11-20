@@ -1,0 +1,1004 @@
+day,offset,when,cycle,variant,title,kind,reading
+# ===========================================================================
+"# Christian Worship: Hymnal (2021), the Wisconsin Evangelical Lutheran"
+"# Synod: the three-year lectionary (Years A, B and C; Year A begins with"
+"# Advent 2025), the minor festivals, and New Year's Eve and Thanksgiving Day"
+"# from its occasions (three sets each), as the Wartburg Project gives them",
+# https://wartburgproject.org/resources/lectionaries/cw21/ (read October
+"# 2026), with the Psalm of the Day from the hymnal's Psalm Appointments"
+"# (pp. xxxi-xxxiv, photographed by the maintainer from hymnary.org, October"
+"# 2026).  The hymnal names the psalm only; Psalm 119's sections (119A to"
+# 119E) are given with the verses of the settings of those numbers in
+"# Christian Worship: Psalter (hymnary.org): 1-8, 33-40, 65-72, 97-104,"
+"# 129-136.  Advent 1's alternative psalm goes with its alternative readings,"
+"# the Last Sunday's with Christ the King.  Where two readings are given for a place (Advent 1"
+"# A, the Last Sunday of the Church Year) they are joined with ""or""."
+# Reformation is on the WELS calendar's Reformation Sunday (the last Sunday
+# in October) and on 31 October; All Saints on its Sunday and 1 November.
+# The source prints Proper 10 A as "July 10-26" (read July 10-16).
+"# Used by the WELS calendar: data/RCLWorld/tradition.csv, `readings,cw21`."
+# From the church year 2021-22 on (`year ge 2021`); the years before use Christian
+"# Worship (1993), cw93.csv and cw93-supp.csv."
+# ===========================================================================
+start,,year ge 2021,A,,,ot,Isaiah 2:1–5
+start,,year ge 2021,A,,,psalm,Psalm 24 or Psalm 80
+start,,year ge 2021,A,,,epistle,Philippians 4:4–7 or Romans 13:11–14
+start,,year ge 2021,A,,,gospel,Matthew 21:1–11 or Matthew 24:36–44
+start+7,,year ge 2021,A,,,ot,Isaiah 11:1–10
+start+7,,year ge 2021,A,,,psalm,Psalm 130
+start+7,,year ge 2021,A,,,epistle,Romans 15:4–13
+start+7,,year ge 2021,A,,,gospel,Matthew 3:1–12
+start+14,,year ge 2021,A,,,ot,Isaiah 35:1–10
+start+14,,year ge 2021,A,,,psalm,Psalm 146
+start+14,,year ge 2021,A,,,epistle,James 5:7–11
+start+14,,year ge 2021,A,,,gospel,Matthew 11:2–11
+start+21,,year ge 2021,A,,,ot,Isaiah 7:10–14
+start+21,,year ge 2021,A,,,psalm,Psalm 89
+start+21,,year ge 2021,A,,,epistle,Romans 1:1–7
+start+21,,year ge 2021,A,,,gospel,Matthew 1:18–25
+12-24,,year ge 2021,A,,,ot,Micah 5:2–5a
+12-24,,year ge 2021,A,,,psalm,Psalm 96
+12-24,,year ge 2021,A,,,epistle,Titus 2:11–14
+12-24,,year ge 2021,A,,,gospel,Luke 2:1–20
+12-25,,year ge 2021,A,,,ot,Isaiah 52:7–10
+12-25,,year ge 2021,A,,,psalm,Psalm 98
+12-25,,year ge 2021,A,,,epistle,Hebrews 1:1–9
+12-25,,year ge 2021,A,,,gospel,John 1:1–14
+sun>12-25,,year ge 2021,A,,,ot,Isaiah 63:7–9
+sun>12-25,,year ge 2021,A,,,psalm,Psalm 2
+sun>12-25,,year ge 2021,A,,,epistle,Galatians 4:4–7
+sun>12-25,,year ge 2021,A,,,gospel,Matthew 2:13–23
+sun>01-01,,year ge 2021 & date lt 01-06,A,,,ot,Isaiah 61:10–62:3
+sun>01-01,,year ge 2021 & date lt 01-06,A,,,psalm,Psalm 148
+sun>01-01,,year ge 2021 & date lt 01-06,A,,,epistle,Ephesians 1:3–18
+sun>01-01,,year ge 2021 & date lt 01-06,A,,,gospel,John 1:14–18
+01-06,,year ge 2021,A,,,ot,Isaiah 60:1–6
+01-06,,year ge 2021,A,,,psalm,Psalm 72
+01-06,,year ge 2021,A,,,epistle,Ephesians 3:2–12
+01-06,,year ge 2021,A,,,gospel,Matthew 2:1–12
+sun>01-06,,year ge 2021,A,,,ot,Isaiah 42:1–7
+sun>01-06,,year ge 2021,A,,,psalm,Psalm 45
+sun>01-06,,year ge 2021,A,,,epistle,Acts 10:34–38
+sun>01-06,,year ge 2021,A,,,gospel,Matthew 3:13–17
+sun>01-06+7,,year ge 2021 & date lt easter-49,A,,,ot,Isaiah 49:1–6
+sun>01-06+7,,year ge 2021 & date lt easter-49,A,,,psalm,Psalm 40
+sun>01-06+7,,year ge 2021 & date lt easter-49,A,,,epistle,Colossians 2:6–15
+sun>01-06+7,,year ge 2021 & date lt easter-49,A,,,gospel,John 1:29–41
+sun>01-06+14,,year ge 2021 & date lt easter-49,A,,,ot,Isaiah 8:19–9:4
+sun>01-06+14,,year ge 2021 & date lt easter-49,A,,,psalm,Psalm 27
+sun>01-06+14,,year ge 2021 & date lt easter-49,A,,,epistle,1 John 2:3–11
+sun>01-06+14,,year ge 2021 & date lt easter-49,A,,,gospel,Matthew 4:12–23
+sun>01-06+21,,year ge 2021 & date lt easter-49,A,,,ot,Zephaniah 2:3; 3:11–13
+sun>01-06+21,,year ge 2021 & date lt easter-49,A,,,psalm,Psalm 1
+sun>01-06+21,,year ge 2021 & date lt easter-49,A,,,epistle,1 Corinthians 1:26–31
+sun>01-06+21,,year ge 2021 & date lt easter-49,A,,,gospel,Matthew 5:1–12
+sun>01-06+28,,year ge 2021 & date lt easter-49,A,,,ot,Exodus 19:1–8a
+sun>01-06+28,,year ge 2021 & date lt easter-49,A,,,psalm,Psalm 112
+sun>01-06+28,,year ge 2021 & date lt easter-49,A,,,epistle,1 Peter 2:9–12
+sun>01-06+28,,year ge 2021 & date lt easter-49,A,,,gospel,Matthew 5:13–20
+sun>01-06+35,,year ge 2021 & date lt easter-49,A,,,ot,"2 Samuel 11:1–17, 26–27"
+sun>01-06+35,,year ge 2021 & date lt easter-49,A,,,psalm,Psalm 119:1–8
+sun>01-06+35,,year ge 2021 & date lt easter-49,A,,,epistle,1 Thessalonians 4:1–12
+sun>01-06+35,,year ge 2021 & date lt easter-49,A,,,gospel,Matthew 5:21–37
+sun>01-06+42,,year ge 2021 & date lt easter-49,A,,,ot,1 Samuel 26:7–25
+sun>01-06+42,,year ge 2021 & date lt easter-49,A,,,psalm,Psalm 119:33–40
+sun>01-06+42,,year ge 2021 & date lt easter-49,A,,,epistle,Romans 12:9–21
+sun>01-06+42,,year ge 2021 & date lt easter-49,A,,,gospel,Matthew 5:38–48
+sun>01-06+49,,year ge 2021 & date lt easter-49,A,,,ot,Isaiah 49:13–18
+sun>01-06+49,,year ge 2021 & date lt easter-49,A,,,psalm,Psalm 62
+sun>01-06+49,,year ge 2021 & date lt easter-49,A,,,epistle,Philippians 4:8–20
+sun>01-06+49,,year ge 2021 & date lt easter-49,A,,,gospel,Matthew 6:24–34
+easter-49,,year ge 2021,A,,,ot,Exodus 24:9–18
+easter-49,,year ge 2021,A,,,psalm,Psalm 2
+easter-49,,year ge 2021,A,,,epistle,2 Peter 1:16–21
+easter-49,,year ge 2021,A,,,gospel,Matthew 17:1–9
+easter-46,,year ge 2021,A,,,ot,Isaiah 59:12–20
+easter-46,,year ge 2021,A,,,psalm,Psalm 51
+easter-46,,year ge 2021,A,,,epistle,2 Corinthians 7:8–13a
+easter-46,,year ge 2021,A,,,gospel,"Matthew 6:1–6, 16–21"
+easter-42,,year ge 2021,A,,,ot,Genesis 3:1–15
+easter-42,,year ge 2021,A,,,psalm,Psalm 46
+easter-42,,year ge 2021,A,,,epistle,Romans 5:12–19
+easter-42,,year ge 2021,A,,,gospel,Matthew 4:1–11
+easter-35,,year ge 2021,A,,,ot,Genesis 12:1–8
+easter-35,,year ge 2021,A,,,psalm,Psalm 121
+easter-35,,year ge 2021,A,,,epistle,"Romans 4:1–5, 13–17"
+easter-35,,year ge 2021,A,,,gospel,John 3:1–17
+easter-28,,year ge 2021,A,,,ot,Exodus 17:1–7
+easter-28,,year ge 2021,A,,,psalm,Psalm 95
+easter-28,,year ge 2021,A,,,epistle,Romans 5:1–8
+easter-28,,year ge 2021,A,,,gospel,John 4:5–26
+easter-21,,year ge 2021,A,,,ot,Isaiah 42:14–21
+easter-21,,year ge 2021,A,,,psalm,Psalm 27
+easter-21,,year ge 2021,A,,,epistle,Ephesians 5:8–14
+easter-21,,year ge 2021,A,,,gospel,"John 9:1–7, 13–17, 34–39"
+easter-14,,year ge 2021,A,,,ot,2 Kings 4:17–37
+easter-14,,year ge 2021,A,,,psalm,Psalm 130
+easter-14,,year ge 2021,A,,,epistle,Romans 8:11–19
+easter-14,,year ge 2021,A,,,gospel,"John 11:17–27, 38–45"
+easter-7,,year ge 2021,A,,,ot,Zechariah 9:9–10
+easter-7,,year ge 2021,A,,,psalm,Psalm 24
+easter-7,,year ge 2021,A,,,epistle,Philippians 2:5–11
+easter-7,,year ge 2021,A,,,gospel,Matthew 21:1–11
+easter-7,,year ge 2021,A,,Sunday of the Passion,psalm,Psalm 31
+easter-7,,year ge 2021,A,,Sunday of the Passion,gospel,Matthew 26:1–27:66
+easter-3,,year ge 2021,A,,,ot,Exodus 24:1–11
+easter-3,,year ge 2021,A,,,psalm,Psalm 116
+easter-3,,year ge 2021,A,,,epistle,1 Corinthians 11:23–28
+easter-3,,year ge 2021,A,,,gospel,"John 13:1–15, 34"
+easter-2,,year ge 2021,A,,,ot,Isaiah 52:13–53:12
+easter-2,,year ge 2021,A,,,psalm,Psalm 22
+easter-2,,year ge 2021,A,,,epistle,Hebrews 4:14–16; 5:7–9
+easter-2,,year ge 2021,A,,,gospel,John 19:17–30
+easter,,year ge 2021,A,,Easter Dawn,ot,Isaiah 12:1–6
+easter,,year ge 2021,A,,Easter Dawn,psalm,Psalm 30
+easter,,year ge 2021,A,,Easter Dawn,epistle,1 Corinthians 5:6b–8
+easter,,year ge 2021,A,,Easter Dawn,gospel,John 20:1–18
+easter,,year ge 2021,A,,,ot,Jonah 2:2–9
+easter,,year ge 2021,A,,,psalm,Psalm 118
+easter,,year ge 2021,A,,,epistle,1 Corinthians 15:1–11
+easter,,year ge 2021,A,,,gospel,Matthew 28:1–10
+easter+7,,year ge 2021,A,,,ot,"Acts 2:14a, 22–32"
+easter+7,,year ge 2021,A,,,psalm,Psalm 16
+easter+7,,year ge 2021,A,,,epistle,1 Peter 1:3–9
+easter+7,,year ge 2021,A,,,gospel,John 20:19–31
+easter+14,,year ge 2021,A,,,ot,"Acts 2:14a, 36–47"
+easter+14,,year ge 2021,A,,,psalm,Psalm 116
+easter+14,,year ge 2021,A,,,epistle,1 Peter 1:17–21
+easter+14,,year ge 2021,A,,,gospel,Luke 24:13–35
+easter+21,,year ge 2021,A,,,ot,Acts 2:42–47
+easter+21,,year ge 2021,A,,,psalm,Psalm 23
+easter+21,,year ge 2021,A,,,epistle,1 Peter 2:19–25
+easter+21,,year ge 2021,A,,,gospel,John 10:1–10
+easter+28,,year ge 2021,A,,,ot,Acts 4:8–12
+easter+28,,year ge 2021,A,,,psalm,Psalm 118
+easter+28,,year ge 2021,A,,,epistle,1 Peter 2:4–10
+easter+28,,year ge 2021,A,,,gospel,John 14:1–11
+easter+35,,year ge 2021,A,,,ot,Acts 17:22–31
+easter+35,,year ge 2021,A,,,psalm,Psalm 66
+easter+35,,year ge 2021,A,,,epistle,1 Peter 3:13–22
+easter+35,,year ge 2021,A,,,gospel,John 14:15–21
+easter+39,,year ge 2021,A,,,ot,Acts 1:1–11
+easter+39,,year ge 2021,A,,,psalm,Psalm 47
+easter+39,,year ge 2021,A,,,epistle,Ephesians 1:15–23
+easter+39,,year ge 2021,A,,,gospel,Luke 24:44–53
+easter+42,,year ge 2021,A,,,ot,Acts 1:12–26
+easter+42,,year ge 2021,A,,,psalm,Psalm 124
+easter+42,,year ge 2021,A,,,epistle,1 Peter 4:12–17; 5:6–11
+easter+42,,year ge 2021,A,,,gospel,John 17:1–11a
+easter+49,,year ge 2021,A,,,ot,Acts 2:1–21
+easter+49,,year ge 2021,A,,,psalm,Psalm 104
+easter+49,,year ge 2021,A,,,epistle,1 Corinthians 12:3–11
+easter+49,,year ge 2021,A,,,gospel,John 7:37–39
+easter+56,,year ge 2021,A,,,ot,Genesis 1:1–2:3
+easter+56,,year ge 2021,A,,,psalm,Psalm 8
+easter+56,,year ge 2021,A,,,epistle,2 Corinthians 13:11–14
+easter+56,,year ge 2021,A,,,gospel,Matthew 28:16–20
+sun>=05-24,,year ge 2021 & date le 05-28 & date gt easter+56,A,,,ot,Isaiah 49:13–18
+sun>=05-24,,year ge 2021 & date le 05-28 & date gt easter+56,A,,,psalm,Psalm 34
+sun>=05-24,,year ge 2021 & date le 05-28 & date gt easter+56,A,,,epistle,Philippians 4:8–20
+sun>=05-24,,year ge 2021 & date le 05-28 & date gt easter+56,A,,,gospel,Matthew 6:24–34
+sun>=05-29,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,ot,"Deuteronomy 11:18–21, 26–28"
+sun>=05-29,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,psalm,Psalm 1
+sun>=05-29,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,epistle,2 Peter 1:19–2:3
+sun>=05-29,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,gospel,Matthew 7:15–29
+sun>=06-05,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,ot,Exodus 3:1–15
+sun>=06-05,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,psalm,Psalm 119:65–72
+sun>=06-05,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,epistle,1 Timothy 1:12–17
+sun>=06-05,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,gospel,Matthew 9:9–13
+sun>=06-12,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,ot,Numbers 27:15–23
+sun>=06-12,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,psalm,Psalm 100
+sun>=06-12,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,epistle,1 Corinthians 4:1–7
+sun>=06-12,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,gospel,Matthew 9:35–10:8
+sun>=06-19,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,ot,Jeremiah 20:7–13
+sun>=06-19,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,psalm,Psalm 91
+sun>=06-19,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,epistle,2 Timothy 4:1–8
+sun>=06-19,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,gospel,"Matthew 10:5a, 21–33"
+sun>=06-26,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,ot,Exodus 32:15–29
+sun>=06-26,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,psalm,Psalm 27
+sun>=06-26,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,epistle,1 Timothy 6:11–16
+sun>=06-26,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,gospel,Matthew 10:34–42
+sun>=07-03,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,ot,Exodus 33:12–23
+sun>=07-03,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,psalm,Psalm 62
+sun>=07-03,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,epistle,Romans 7:15–25a
+sun>=07-03,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,gospel,Matthew 11:25–30
+sun>=07-10,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,ot,Isaiah 55:6–11
+sun>=07-10,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,psalm,Psalm 65
+sun>=07-10,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,epistle,1 Corinthians 3:5–11
+sun>=07-10,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,gospel,"Matthew 13:1–9, 18–23"
+sun>=07-17,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,ot,Isaiah 44:6–11
+sun>=07-17,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,psalm,Psalm 19
+sun>=07-17,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,epistle,Romans 1:18–25
+sun>=07-17,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,gospel,"Matthew 13:24–30, 36–43"
+sun>=07-24,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,ot,1 Kings 3:5–12
+sun>=07-24,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,psalm,Psalm 63
+sun>=07-24,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,epistle,1 Timothy 6:17–21
+sun>=07-24,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,gospel,Matthew 13:44–52
+sun>=07-31,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,ot,1 Kings 17:1–6
+sun>=07-31,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,psalm,Psalm 136
+sun>=07-31,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,epistle,Ephesians 1:3–8
+sun>=07-31,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,gospel,Matthew 14:13–21
+sun>=08-07,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,ot,1 Kings 19:9–18
+sun>=08-07,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,psalm,Psalm 73
+sun>=08-07,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,epistle,Romans 8:28–39
+sun>=08-07,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,gospel,Matthew 14:22–33
+sun>=08-14,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,ot,"Isaiah 56:1, 6–8"
+sun>=08-14,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,psalm,Psalm 67
+sun>=08-14,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,epistle,Ephesians 2:13–22
+sun>=08-14,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,gospel,Matthew 15:21–28
+sun>=08-21,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,ot,Exodus 34:5–9
+sun>=08-21,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,psalm,Psalm 138
+sun>=08-21,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,epistle,Romans 10:5–13
+sun>=08-21,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,gospel,Matthew 16:13–20
+sun>=08-28,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,ot,Jeremiah 15:15–21
+sun>=08-28,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,psalm,Psalm 31
+sun>=08-28,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,epistle,Romans 8:18–25
+sun>=08-28,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,gospel,Matthew 16:21–26
+sun>=09-04,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,ot,Ezekiel 33:7–11
+sun>=09-04,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,psalm,Psalm 32
+sun>=09-04,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,epistle,Galatians 2:11–16
+sun>=09-04,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,gospel,Matthew 18:15–20
+sun>=09-11,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,ot,Genesis 50:15–21
+sun>=09-11,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,psalm,Psalm 103
+sun>=09-11,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,epistle,Ephesians 4:29–5:2
+sun>=09-11,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,gospel,Matthew 18:21–35
+sun>=09-18,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,ot,Jonah 3:10–4:11
+sun>=09-18,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,psalm,Psalm 115
+sun>=09-18,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,epistle,Romans 9:6–16
+sun>=09-18,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,gospel,Matthew 20:1–16
+sun>=09-25,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,ot,"Ezekiel 18:1–4, 25–32"
+sun>=09-25,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,psalm,Psalm 25
+sun>=09-25,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,epistle,Philippians 2:1–11
+sun>=09-25,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,gospel,Matthew 21:23–32
+sun>=10-02,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,ot,Isaiah 5:1–7
+sun>=10-02,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,psalm,Psalm 80
+sun>=10-02,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,epistle,Philippians 3:12–21
+sun>=10-02,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,gospel,Matthew 21:33–46
+sun>=10-09,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,ot,Isaiah 25:6–9
+sun>=10-09,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,psalm,Psalm 84
+sun>=10-09,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,epistle,Romans 1:16–17
+sun>=10-09,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,gospel,Matthew 22:1–14
+sun>=10-16,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,ot,Daniel 1:3–21
+sun>=10-16,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,psalm,Psalm 96
+sun>=10-16,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,epistle,Romans 13:1–7
+sun>=10-16,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,gospel,Matthew 22:15–22
+sun>=10-23,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,ot,Genesis 4:1–16
+sun>=10-23,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,psalm,Psalm 1
+sun>=10-23,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,epistle,2 John 1–6
+sun>=10-23,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,gospel,Matthew 22:34–46
+sun>=10-30,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,ot,Micah 3:5–12
+sun>=10-30,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,psalm,Psalm 27
+sun>=10-30,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,epistle,1 Thessalonians 2:1–13
+sun>=10-30,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,gospel,Matthew 23:1–12
+sun>=11-06,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,ot,Isaiah 52:1–6
+sun>=11-06,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,psalm,Psalm 90
+sun>=11-06,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,epistle,1 Thessalonians 5:1–11
+sun>=11-06,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,gospel,Matthew 25:1–13
+sun>=11-13,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,ot,Isaiah 1:10–18
+sun>=11-13,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,psalm,Psalm 128
+sun>=11-13,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,epistle,Romans 12:1–8
+sun>=11-13,,year ge 2021 & date gt easter+56 & date lt next_start-7,A,,,gospel,Matthew 25:14–30
+next_start-7,,year ge 2021,A,,,ot,"Daniel 7:9–10, 13–14 or Ezekiel 34:11–16, 23–24"
+next_start-7,,year ge 2021,A,,,psalm,Psalm 95 or Psalm 23
+next_start-7,,year ge 2021,A,,,epistle,1 Thessalonians 4:13–18 or 1 Corinthians 15:20–28
+next_start-7,,year ge 2021,A,,,gospel,Matthew 25:31–46 or Matthew 27:27–31
+reformation,,year ge 2021,A,,Reformation,ot,"Daniel 6:10–12, 16–23"
+reformation,,year ge 2021,A,,Reformation,psalm,Psalm 46
+reformation,,year ge 2021,A,,Reformation,epistle,Romans 3:19–28
+reformation,,year ge 2021,A,,Reformation,gospel,Matthew 10:16–23
+10-31,,year ge 2021 & date nwd sun,A,,Reformation Day,ot,"Daniel 6:10–12, 16–23"
+10-31,,year ge 2021 & date nwd sun,A,,Reformation Day,psalm,Psalm 46
+10-31,,year ge 2021 & date nwd sun,A,,Reformation Day,epistle,Romans 3:19–28
+10-31,,year ge 2021 & date nwd sun,A,,Reformation Day,gospel,Matthew 10:16–23
+all_saints,,year ge 2021,A,,All Saints' Day,ot,Revelation 7:9–17
+all_saints,,year ge 2021,A,,All Saints' Day,psalm,Psalm 149
+all_saints,,year ge 2021,A,,All Saints' Day,epistle,1 John 3:1–3
+all_saints,,year ge 2021,A,,All Saints' Day,gospel,Matthew 5:1–12
+11-01,,year ge 2021 & date nwd sun,A,,All Saints' Day,ot,Revelation 7:9–17
+11-01,,year ge 2021 & date nwd sun,A,,All Saints' Day,psalm,Psalm 149
+11-01,,year ge 2021 & date nwd sun,A,,All Saints' Day,epistle,1 John 3:1–3
+11-01,,year ge 2021 & date nwd sun,A,,All Saints' Day,gospel,Matthew 5:1–12
+start,,year ge 2021,B,,,ot,Isaiah 64:1–9
+start,,year ge 2021,B,,,psalm,Psalm 24 or Psalm 80
+start,,year ge 2021,B,,,epistle,1 Corinthians 1:3–9
+start,,year ge 2021,B,,,gospel,Mark 11:1–10 or Mark 13:26–37
+start+7,,year ge 2021,B,,,ot,Isaiah 40:1–11
+start+7,,year ge 2021,B,,,psalm,Psalm 85
+start+7,,year ge 2021,B,,,epistle,2 Peter 3:8–14
+start+7,,year ge 2021,B,,,gospel,Mark 1:1–8
+start+14,,year ge 2021,B,,,ot,"Isaiah 61:1–3, 10–11"
+start+14,,year ge 2021,B,,,psalm,Psalm 71
+start+14,,year ge 2021,B,,,epistle,1 Thessalonians 5:16–24
+start+14,,year ge 2021,B,,,gospel,"John 1:6–8, 19–28"
+start+21,,year ge 2021,B,,,ot,2 Samuel 7:8–16
+start+21,,year ge 2021,B,,,psalm,Psalm 139
+start+21,,year ge 2021,B,,,epistle,Romans 16:25–27
+start+21,,year ge 2021,B,,,gospel,Luke 1:26–38
+12-24,,year ge 2021,B,,,ot,Isaiah 7:10–14
+12-24,,year ge 2021,B,,,psalm,Psalm 96
+12-24,,year ge 2021,B,,,epistle,Titus 3:4–7
+12-24,,year ge 2021,B,,,gospel,Luke 2:1–20
+12-25,,year ge 2021,B,,,ot,Micah 5:2–5a
+12-25,,year ge 2021,B,,,psalm,Psalm 98
+12-25,,year ge 2021,B,,,epistle,Galatians 4:4–7
+12-25,,year ge 2021,B,,,gospel,John 1:1–14
+sun>12-25,,year ge 2021,B,,,ot,1 Kings 8:6–13
+sun>12-25,,year ge 2021,B,,,psalm,Psalm 111
+sun>12-25,,year ge 2021,B,,,epistle,Colossians 3:12–17
+sun>12-25,,year ge 2021,B,,,gospel,Luke 2:25–40
+sun>01-01,,year ge 2021 & date lt 01-06,B,,,ot,Exodus 20:8–12
+sun>01-01,,year ge 2021 & date lt 01-06,B,,,psalm,Psalm 84
+sun>01-01,,year ge 2021 & date lt 01-06,B,,,epistle,Hebrews 2:10–18
+sun>01-01,,year ge 2021 & date lt 01-06,B,,,gospel,Luke 2:41–52
+01-06,,year ge 2021,B,,,ot,Numbers 24:15–17a
+01-06,,year ge 2021,B,,,psalm,Psalm 72
+01-06,,year ge 2021,B,,,epistle,"Romans 11:13–15, 28–32"
+01-06,,year ge 2021,B,,,gospel,Matthew 2:1–12
+sun>01-06,,year ge 2021,B,,,ot,Isaiah 49:1–6
+sun>01-06,,year ge 2021,B,,,psalm,Psalm 2
+sun>01-06,,year ge 2021,B,,,epistle,Romans 6:1–11
+sun>01-06,,year ge 2021,B,,,gospel,Mark 1:4–11
+sun>01-06+7,,year ge 2021 & date lt easter-49,B,,,ot,1 Samuel 3:1–10
+sun>01-06+7,,year ge 2021 & date lt easter-49,B,,,psalm,Psalm 139
+sun>01-06+7,,year ge 2021 & date lt easter-49,B,,,epistle,2 Thessalonians 2:13–17
+sun>01-06+7,,year ge 2021 & date lt easter-49,B,,,gospel,John 1:43–51
+sun>01-06+14,,year ge 2021 & date lt easter-49,B,,,ot,"Jonah 3:1–5, 10"
+sun>01-06+14,,year ge 2021 & date lt easter-49,B,,,psalm,Psalm 62
+sun>01-06+14,,year ge 2021 & date lt easter-49,B,,,epistle,2 Corinthians 5:14–21
+sun>01-06+14,,year ge 2021 & date lt easter-49,B,,,gospel,Mark 1:14–20
+sun>01-06+21,,year ge 2021 & date lt easter-49,B,,,ot,Deuteronomy 18:15–20
+sun>01-06+21,,year ge 2021 & date lt easter-49,B,,,psalm,Psalm 29
+sun>01-06+21,,year ge 2021 & date lt easter-49,B,,,epistle,Hebrews 3:1–6
+sun>01-06+21,,year ge 2021 & date lt easter-49,B,,,gospel,Mark 1:21–28
+sun>01-06+28,,year ge 2021 & date lt easter-49,B,,,ot,Isaiah 40:27–31
+sun>01-06+28,,year ge 2021 & date lt easter-49,B,,,psalm,Psalm 103
+sun>01-06+28,,year ge 2021 & date lt easter-49,B,,,epistle,1 Peter 5:6–11
+sun>01-06+28,,year ge 2021 & date lt easter-49,B,,,gospel,Mark 1:29–39
+sun>01-06+35,,year ge 2021 & date lt easter-49,B,,,ot,2 Kings 5:1–14
+sun>01-06+35,,year ge 2021 & date lt easter-49,B,,,psalm,Psalm 30
+sun>01-06+35,,year ge 2021 & date lt easter-49,B,,,epistle,2 Corinthians 1:3–7
+sun>01-06+35,,year ge 2021 & date lt easter-49,B,,,gospel,Mark 1:40–45
+sun>01-06+42,,year ge 2021 & date lt easter-49,B,,,ot,Isaiah 43:18–25
+sun>01-06+42,,year ge 2021 & date lt easter-49,B,,,psalm,Psalm 32
+sun>01-06+42,,year ge 2021 & date lt easter-49,B,,,epistle,2 Corinthians 1:18–22
+sun>01-06+42,,year ge 2021 & date lt easter-49,B,,,gospel,Mark 2:1–12
+sun>01-06+49,,year ge 2021 & date lt easter-49,B,,,ot,"Hosea 2:14–16, 19–20"
+sun>01-06+49,,year ge 2021 & date lt easter-49,B,,,psalm,Psalm 45
+sun>01-06+49,,year ge 2021 & date lt easter-49,B,,,epistle,Revelation 19:6–9
+sun>01-06+49,,year ge 2021 & date lt easter-49,B,,,gospel,Mark 2:18–22
+easter-49,,year ge 2021,B,,,ot,2 Kings 2:1–12a
+easter-49,,year ge 2021,B,,,psalm,Psalm 2
+easter-49,,year ge 2021,B,,,epistle,2 Corinthians 4:3–6
+easter-49,,year ge 2021,B,,,gospel,Mark 9:2–9
+easter-46,,year ge 2021,B,,,ot,Joel 2:12–19
+easter-46,,year ge 2021,B,,,psalm,Psalm 51
+easter-46,,year ge 2021,B,,,epistle,Revelation 3:1–3
+easter-46,,year ge 2021,B,,,gospel,Luke 12:13–21
+easter-42,,year ge 2021,B,,,ot,Genesis 22:1–18
+easter-42,,year ge 2021,B,,,psalm,Psalm 25
+easter-42,,year ge 2021,B,,,epistle,Romans 8:31–39
+easter-42,,year ge 2021,B,,,gospel,Mark 1:12–15
+easter-35,,year ge 2021,B,,,ot,Job 1:13–22
+easter-35,,year ge 2021,B,,,psalm,Psalm 22
+easter-35,,year ge 2021,B,,,epistle,Romans 5:1–11
+easter-35,,year ge 2021,B,,,gospel,Mark 8:31–38
+easter-28,,year ge 2021,B,,,ot,Exodus 20:1–17
+easter-28,,year ge 2021,B,,,psalm,Psalm 19
+easter-28,,year ge 2021,B,,,epistle,1 Corinthians 1:18–25
+easter-28,,year ge 2021,B,,,gospel,John 2:13–22
+easter-21,,year ge 2021,B,,,ot,Numbers 21:4–9
+easter-21,,year ge 2021,B,,,psalm,Psalm 32
+easter-21,,year ge 2021,B,,,epistle,Ephesians 2:1–10
+easter-21,,year ge 2021,B,,,gospel,John 3:14–21
+easter-14,,year ge 2021,B,,,ot,Isaiah 43:1–7
+easter-14,,year ge 2021,B,,,psalm,Psalm 121
+easter-14,,year ge 2021,B,,,epistle,Hebrews 5:7–9
+easter-14,,year ge 2021,B,,,gospel,John 12:20–33
+easter-7,,year ge 2021,B,,,ot,Zechariah 9:9–12
+easter-7,,year ge 2021,B,,,psalm,Psalm 24
+easter-7,,year ge 2021,B,,,epistle,Hebrews 12:1–3
+easter-7,,year ge 2021,B,,,gospel,Mark 11:1–10
+easter-7,,year ge 2021,B,,Sunday of the Passion,psalm,Psalm 69
+easter-7,,year ge 2021,B,,Sunday of the Passion,gospel,Mark 14:1–15:47
+easter-3,,year ge 2021,B,,,ot,Exodus 12:21–30
+easter-3,,year ge 2021,B,,,psalm,Psalm 116
+easter-3,,year ge 2021,B,,,epistle,1 Corinthians 10:16–17
+easter-3,,year ge 2021,B,,,gospel,Mark 14:12–26
+easter-2,,year ge 2021,B,,,ot,Isaiah 52:13–53:12
+easter-2,,year ge 2021,B,,,psalm,Psalm 22
+easter-2,,year ge 2021,B,,,epistle,Hebrews 7:26–28
+easter-2,,year ge 2021,B,,,gospel,John 19:17–30
+easter,,year ge 2021,B,,Easter Dawn,ot,Isaiah 25:6–9
+easter,,year ge 2021,B,,Easter Dawn,psalm,Psalm 30
+easter,,year ge 2021,B,,Easter Dawn,epistle,1 Corinthians 15:12–20
+easter,,year ge 2021,B,,Easter Dawn,gospel,John 20:1–18
+easter,,year ge 2021,B,,,ot,Job 19:23–27
+easter,,year ge 2021,B,,,psalm,Psalm 118
+easter,,year ge 2021,B,,,epistle,1 Corinthians 15:19–26
+easter,,year ge 2021,B,,,gospel,Mark 16:1–8
+easter+7,,year ge 2021,B,,,ot,Acts 18:1–11
+easter+7,,year ge 2021,B,,,psalm,Psalm 16
+easter+7,,year ge 2021,B,,,epistle,1 John 1:1–4
+easter+7,,year ge 2021,B,,,gospel,John 20:19–31
+easter+14,,year ge 2021,B,,,ot,Acts 3:11–20
+easter+14,,year ge 2021,B,,,psalm,Psalm 150
+easter+14,,year ge 2021,B,,,epistle,1 John 1:5–2:2
+easter+14,,year ge 2021,B,,,gospel,Luke 24:36–49
+easter+21,,year ge 2021,B,,,ot,Acts 20:28–32
+easter+21,,year ge 2021,B,,,psalm,Psalm 23
+easter+21,,year ge 2021,B,,,epistle,1 John 4:1–6
+easter+21,,year ge 2021,B,,,gospel,John 10:11–18
+easter+28,,year ge 2021,B,,,ot,Acts 4:32–37
+easter+28,,year ge 2021,B,,,psalm,Psalm 63
+easter+28,,year ge 2021,B,,,epistle,1 John 3:18–24
+easter+28,,year ge 2021,B,,,gospel,John 15:1–8
+easter+35,,year ge 2021,B,,,ot,Acts 9:36–42
+easter+35,,year ge 2021,B,,,psalm,Psalm 89
+easter+35,,year ge 2021,B,,,epistle,"1 John 4:7–11, 19–21"
+easter+35,,year ge 2021,B,,,gospel,John 15:9–17
+easter+39,,year ge 2021,B,,,ot,Acts 1:1–11
+easter+39,,year ge 2021,B,,,psalm,Psalm 47
+easter+39,,year ge 2021,B,,,epistle,Ephesians 4:7–16
+easter+39,,year ge 2021,B,,,gospel,Luke 24:44–53
+easter+42,,year ge 2021,B,,,ot,"Acts 6:1–9; 7:2a, 51–60"
+easter+42,,year ge 2021,B,,,psalm,Psalm 124
+easter+42,,year ge 2021,B,,,epistle,1 John 5:1–6
+easter+42,,year ge 2021,B,,,gospel,John 17:11b–19
+easter+49,,year ge 2021,B,,,ot,Ezekiel 37:1–14
+easter+49,,year ge 2021,B,,,psalm,Psalm 104
+easter+49,,year ge 2021,B,,,epistle,Acts 2:1–21
+easter+49,,year ge 2021,B,,,gospel,John 15:26–27; 16:4b–11
+easter+56,,year ge 2021,B,,,ot,Isaiah 6:1–8
+easter+56,,year ge 2021,B,,,psalm,Psalm 29
+easter+56,,year ge 2021,B,,,epistle,Romans 8:12–17
+easter+56,,year ge 2021,B,,,gospel,John 3:1–17
+sun>=05-24,,year ge 2021 & date le 05-28 & date gt easter+56,B,,,ot,"Hosea 2:14–16, 19–20"
+sun>=05-24,,year ge 2021 & date le 05-28 & date gt easter+56,B,,,psalm,Psalm 45
+sun>=05-24,,year ge 2021 & date le 05-28 & date gt easter+56,B,,,epistle,Revelation 19:6–9
+sun>=05-24,,year ge 2021 & date le 05-28 & date gt easter+56,B,,,gospel,Mark 2:18–22
+sun>=05-29,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,ot,Deuteronomy 5:12–15
+sun>=05-29,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,psalm,Psalm 62
+sun>=05-29,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,epistle,Colossians 2:13–17
+sun>=05-29,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,gospel,Mark 2:23–3:6
+sun>=06-05,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,ot,Genesis 3:8–15
+sun>=06-05,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,psalm,Psalm 130
+sun>=06-05,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,epistle,Revelation 20:1–6
+sun>=06-05,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,gospel,Mark 3:20–35
+sun>=06-12,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,ot,Ezekiel 17:22–24
+sun>=06-12,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,psalm,Psalm 1
+sun>=06-12,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,epistle,Colossians 1:3–8
+sun>=06-12,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,gospel,Mark 4:26–34
+sun>=06-19,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,ot,Job 38:1–11
+sun>=06-19,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,psalm,Psalm 42
+sun>=06-19,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,epistle,Acts 27:13–26
+sun>=06-19,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,gospel,Mark 4:35–41
+sun>=06-26,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,ot,Lamentations 3:22–33
+sun>=06-26,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,psalm,Psalm 30
+sun>=06-26,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,epistle,2 Corinthians 4:7–15
+sun>=06-26,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,gospel,"Mark 5:21–24a, 35–43"
+sun>=07-03,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,ot,Ezekiel 2:1–7
+sun>=07-03,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,psalm,Psalm 27
+sun>=07-03,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,epistle,2 Timothy 2:1–13
+sun>=07-03,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,gospel,Mark 6:1–6
+sun>=07-10,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,ot,Amos 7:10–15
+sun>=07-10,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,psalm,Psalm 78
+sun>=07-10,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,epistle,Titus 1:5–9
+sun>=07-10,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,gospel,Mark 6:7–13
+sun>=07-17,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,ot,Jeremiah 23:1–6
+sun>=07-17,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,psalm,Psalm 23
+sun>=07-17,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,epistle,"Hebrews 13:7–8, 17–21"
+sun>=07-17,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,gospel,Mark 6:30–34
+sun>=07-24,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,ot,Exodus 16:1–15
+sun>=07-24,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,psalm,Psalm 145
+sun>=07-24,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,epistle,2 Corinthians 9:8–11
+sun>=07-24,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,gospel,Mark 6:35–44
+sun>=07-31,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,ot,2 Kings 6:8–17
+sun>=07-31,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,psalm,Psalm 46
+sun>=07-31,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,epistle,"2 Timothy 4:6–8, 16–18"
+sun>=07-31,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,gospel,Mark 6:45–56
+sun>=08-07,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,ot,Exodus 16:15–31
+sun>=08-07,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,psalm,Psalm 34
+sun>=08-07,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,epistle,"1 Corinthians 10:1–5, 11–13"
+sun>=08-07,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,gospel,John 6:24–35
+sun>=08-14,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,ot,Proverbs 9:1–6
+sun>=08-14,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,psalm,Psalm 111
+sun>=08-14,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,epistle,1 Corinthians 2:6–16
+sun>=08-14,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,gospel,John 6:35–51
+sun>=08-21,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,ot,"Joshua 24:1–2, 14–18"
+sun>=08-21,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,psalm,Psalm 119:97–104
+sun>=08-21,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,epistle,Hebrews 11:24–28
+sun>=08-21,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,gospel,John 6:51–69
+sun>=08-28,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,ot,"Deuteronomy 4:1–2, 6–9"
+sun>=08-28,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,psalm,Psalm 119:129–136
+sun>=08-28,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,epistle,Romans 9:30–10:4
+sun>=08-28,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,gospel,"Mark 7:1–8, 14–15, 21–23"
+sun>=09-04,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,ot,Isaiah 35:4–7a
+sun>=09-04,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,psalm,Psalm 146
+sun>=09-04,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,epistle,Acts 3:1–10
+sun>=09-04,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,gospel,Mark 7:31–37
+sun>=09-11,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,ot,1 Kings 18:21–39
+sun>=09-11,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,psalm,Psalm 46
+sun>=09-11,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,epistle,Ephesians 6:10–18
+sun>=09-11,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,gospel,Mark 9:14–27
+sun>=09-18,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,ot,Numbers 12:1–15
+sun>=09-18,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,psalm,Psalm 115
+sun>=09-18,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,epistle,James 3:13–18
+sun>=09-18,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,gospel,Mark 9:30–37
+sun>=09-25,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,ot,"Numbers 11:4–6, 10–16, 24–29"
+sun>=09-25,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,psalm,Psalm 19
+sun>=09-25,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,epistle,James 4:7–12
+sun>=09-25,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,gospel,Mark 9:38–50
+sun>=10-02,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,ot,Genesis 2:18–25
+sun>=10-02,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,psalm,Psalm 127
+sun>=10-02,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,epistle,Ephesians 5:21–6:4
+sun>=10-02,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,gospel,Mark 10:2–16
+sun>=10-09,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,ot,2 Kings 5:14–27
+sun>=10-09,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,psalm,Psalm 90
+sun>=10-09,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,epistle,Hebrews 4:12–13
+sun>=10-09,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,gospel,Mark 10:17–27
+sun>=10-16,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,ot,Isaiah 53:10–12
+sun>=10-16,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,psalm,Psalm 62
+sun>=10-16,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,epistle,"1 Corinthians 9:7–12, 19–23"
+sun>=10-16,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,gospel,Mark 10:32–45
+sun>=10-23,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,ot,Jeremiah 31:7–9
+sun>=10-23,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,psalm,Psalm 4
+sun>=10-23,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,epistle,Revelation 3:14–22
+sun>=10-23,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,gospel,Mark 10:46–52
+sun>=10-30,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,ot,Deuteronomy 6:1–9
+sun>=10-30,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,psalm,Psalm 119:1–8
+sun>=10-30,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,epistle,Romans 13:8–14
+sun>=10-30,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,gospel,Mark 12:28–34
+sun>=11-06,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,ot,1 Kings 17:8–16
+sun>=11-06,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,psalm,Psalm 111
+sun>=11-06,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,epistle,2 Corinthians 8:1–9
+sun>=11-06,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,gospel,Mark 12:38–44
+sun>=11-13,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,ot,Daniel 12:1–3
+sun>=11-13,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,psalm,Psalm 16
+sun>=11-13,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,epistle,Hebrews 9:24–28
+sun>=11-13,,year ge 2021 & date gt easter+56 & date lt next_start-7,B,,,gospel,John 5:25–29
+next_start-7,,year ge 2021,B,,,ot,Isaiah 51:4–6 or Daniel 7:13–14
+next_start-7,,year ge 2021,B,,,psalm,Psalm 95
+next_start-7,,year ge 2021,B,,,epistle,Jude 20–25 or Revelation 1:4b–8
+next_start-7,,year ge 2021,B,,,gospel,Mark 13:26–37 or John 18:33–37
+reformation,,year ge 2021,B,,Reformation,ot,Daniel 3:16–28
+reformation,,year ge 2021,B,,Reformation,psalm,Psalm 46
+reformation,,year ge 2021,B,,Reformation,epistle,Revelation 14:6–7
+reformation,,year ge 2021,B,,Reformation,gospel,Mark 13:5–11
+10-31,,year ge 2021 & date nwd sun,B,,Reformation Day,ot,Daniel 3:16–28
+10-31,,year ge 2021 & date nwd sun,B,,Reformation Day,psalm,Psalm 46
+10-31,,year ge 2021 & date nwd sun,B,,Reformation Day,epistle,Revelation 14:6–7
+10-31,,year ge 2021 & date nwd sun,B,,Reformation Day,gospel,Mark 13:5–11
+all_saints,,year ge 2021,B,,All Saints' Day,ot,Isaiah 25:6–9
+all_saints,,year ge 2021,B,,All Saints' Day,psalm,Psalm 149
+all_saints,,year ge 2021,B,,All Saints' Day,epistle,Revelation 20:4–6
+all_saints,,year ge 2021,B,,All Saints' Day,gospel,John 11:32–44
+11-01,,year ge 2021 & date nwd sun,B,,All Saints' Day,ot,Isaiah 25:6–9
+11-01,,year ge 2021 & date nwd sun,B,,All Saints' Day,psalm,Psalm 149
+11-01,,year ge 2021 & date nwd sun,B,,All Saints' Day,epistle,Revelation 20:4–6
+11-01,,year ge 2021 & date nwd sun,B,,All Saints' Day,gospel,John 11:32–44
+start,,year ge 2021,C,,,ot,Jeremiah 33:14–16
+start,,year ge 2021,C,,,psalm,Psalm 24 or Psalm 25
+start,,year ge 2021,C,,,epistle,1 Thessalonians 3:9–13
+start,,year ge 2021,C,,,gospel,Luke 19:28–40 or Luke 21:25–36
+start+7,,year ge 2021,C,,,ot,Malachi 3:1–7b
+start+7,,year ge 2021,C,,,psalm,Psalm 66
+start+7,,year ge 2021,C,,,epistle,Philippians 1:3–11
+start+7,,year ge 2021,C,,,gospel,Luke 3:1–6
+start+14,,year ge 2021,C,,,ot,Zephaniah 3:14–17
+start+14,,year ge 2021,C,,,psalm,Psalm 130
+start+14,,year ge 2021,C,,,epistle,Philippians 4:4–7
+start+14,,year ge 2021,C,,,gospel,Luke 3:7–18
+start+21,,year ge 2021,C,,,ot,Micah 5:2–5a
+start+21,,year ge 2021,C,,,psalm,Psalm 85
+start+21,,year ge 2021,C,,,epistle,Hebrews 10:5–10
+start+21,,year ge 2021,C,,,gospel,Luke 1:39–55
+12-24,,year ge 2021,C,,,ot,Isaiah 9:2–7
+12-24,,year ge 2021,C,,,psalm,Psalm 96
+12-24,,year ge 2021,C,,,epistle,1 John 4:9–14
+12-24,,year ge 2021,C,,,gospel,Luke 2:1–20
+12-25,,year ge 2021,C,,,ot,Exodus 33:18–23; 34:5–7
+12-25,,year ge 2021,C,,,psalm,Psalm 98
+12-25,,year ge 2021,C,,,epistle,Romans 8:31–32
+12-25,,year ge 2021,C,,,gospel,John 1:1–18
+sun>12-25,,year ge 2021,C,,,ot,Isaiah 50:4–9
+sun>12-25,,year ge 2021,C,,,psalm,Psalm 84
+sun>12-25,,year ge 2021,C,,,epistle,Hebrews 2:10–18
+sun>12-25,,year ge 2021,C,,,gospel,Luke 2:41–52
+sun>01-01,,year ge 2021 & date lt 01-06,C,,,ot,Genesis 17:1–7
+sun>01-01,,year ge 2021 & date lt 01-06,C,,,psalm,Psalm 148
+sun>01-01,,year ge 2021 & date lt 01-06,C,,,epistle,Galatians 4:4–7
+sun>01-01,,year ge 2021 & date lt 01-06,C,,,gospel,Luke 1:68–75
+01-06,,year ge 2021,C,,,ot,1 Kings 10:1–9
+01-06,,year ge 2021,C,,,psalm,Psalm 72
+01-06,,year ge 2021,C,,,epistle,Acts 13:46–49
+01-06,,year ge 2021,C,,,gospel,Matthew 2:1–12
+sun>01-06,,year ge 2021,C,,,ot,1 Samuel 16:1–13
+sun>01-06,,year ge 2021,C,,,psalm,Psalm 2
+sun>01-06,,year ge 2021,C,,,epistle,Titus 3:4–7
+sun>01-06,,year ge 2021,C,,,gospel,"Luke 3:15–17, 21–22"
+sun>01-06+7,,year ge 2021 & date lt easter-49,C,,,ot,Isaiah 62:1–5
+sun>01-06+7,,year ge 2021 & date lt easter-49,C,,,psalm,Psalm 145
+sun>01-06+7,,year ge 2021 & date lt easter-49,C,,,epistle,Ephesians 3:14–21
+sun>01-06+7,,year ge 2021 & date lt easter-49,C,,,gospel,John 2:1–11
+sun>01-06+14,,year ge 2021 & date lt easter-49,C,,,ot,Isaiah 61:1–6
+sun>01-06+14,,year ge 2021 & date lt easter-49,C,,,psalm,Psalm 146
+sun>01-06+14,,year ge 2021 & date lt easter-49,C,,,epistle,Acts 4:23–31
+sun>01-06+14,,year ge 2021 & date lt easter-49,C,,,gospel,Luke 4:16–30
+sun>01-06+21,,year ge 2021 & date lt easter-49,C,,,ot,Jeremiah 1:4–10
+sun>01-06+21,,year ge 2021 & date lt easter-49,C,,,psalm,Psalm 71
+sun>01-06+21,,year ge 2021 & date lt easter-49,C,,,epistle,2 Timothy 3:14–4:5
+sun>01-06+21,,year ge 2021 & date lt easter-49,C,,,gospel,Luke 4:38–44
+sun>01-06+28,,year ge 2021 & date lt easter-49,C,,,ot,Isaiah 6:1–8
+sun>01-06+28,,year ge 2021 & date lt easter-49,C,,,psalm,Psalm 67
+sun>01-06+28,,year ge 2021 & date lt easter-49,C,,,epistle,Romans 10:12–17
+sun>01-06+28,,year ge 2021 & date lt easter-49,C,,,gospel,Luke 5:1–11
+sun>01-06+35,,year ge 2021 & date lt easter-49,C,,,ot,Jeremiah 17:5–8
+sun>01-06+35,,year ge 2021 & date lt easter-49,C,,,psalm,Psalm 1
+sun>01-06+35,,year ge 2021 & date lt easter-49,C,,,epistle,2 Corinthians 12:7b–10
+sun>01-06+35,,year ge 2021 & date lt easter-49,C,,,gospel,Luke 6:17–26
+sun>01-06+42,,year ge 2021 & date lt easter-49,C,,,ot,Genesis 45:3–15
+sun>01-06+42,,year ge 2021 & date lt easter-49,C,,,psalm,Psalm 103
+sun>01-06+42,,year ge 2021 & date lt easter-49,C,,,epistle,Romans 12:14–21
+sun>01-06+42,,year ge 2021 & date lt easter-49,C,,,gospel,Luke 6:27–38
+sun>01-06+49,,year ge 2021 & date lt easter-49,C,,,ot,Jeremiah 7:1–8
+sun>01-06+49,,year ge 2021 & date lt easter-49,C,,,psalm,Psalm 133
+sun>01-06+49,,year ge 2021 & date lt easter-49,C,,,epistle,James 1:17–27
+sun>01-06+49,,year ge 2021 & date lt easter-49,C,,,gospel,Luke 6:39–49
+easter-49,,year ge 2021,C,,,ot,Exodus 34:29–35
+easter-49,,year ge 2021,C,,,psalm,Psalm 2
+easter-49,,year ge 2021,C,,,epistle,2 Corinthians 3:7–18
+easter-49,,year ge 2021,C,,,gospel,Luke 9:28–36
+easter-46,,year ge 2021,C,,,ot,2 Samuel 12:1–13
+easter-46,,year ge 2021,C,,,psalm,Psalm 51
+easter-46,,year ge 2021,C,,,epistle,2 Corinthians 5:20–6:2
+easter-46,,year ge 2021,C,,,gospel,Luke 18:9–14
+easter-42,,year ge 2021,C,,,ot,"1 Samuel 17:4–11, 32–40, 45–49"
+easter-42,,year ge 2021,C,,,psalm,Psalm 91
+easter-42,,year ge 2021,C,,,epistle,Hebrews 4:14–16
+easter-42,,year ge 2021,C,,,gospel,Luke 4:1–13
+easter-35,,year ge 2021,C,,,ot,Jeremiah 26:8–15
+easter-35,,year ge 2021,C,,,psalm,Psalm 42
+easter-35,,year ge 2021,C,,,epistle,Philippians 3:17–4:1
+easter-35,,year ge 2021,C,,,gospel,Luke 13:31–35
+easter-28,,year ge 2021,C,,,ot,Exodus 3:1–15
+easter-28,,year ge 2021,C,,,psalm,Psalm 85
+easter-28,,year ge 2021,C,,,epistle,1 Corinthians 10:1–13
+easter-28,,year ge 2021,C,,,gospel,Luke 13:1–9
+easter-21,,year ge 2021,C,,,ot,Isaiah 12:1–6
+easter-21,,year ge 2021,C,,,psalm,Psalm 32
+easter-21,,year ge 2021,C,,,epistle,Romans 8:1–10
+easter-21,,year ge 2021,C,,,gospel,"Luke 15:1–3, 11–32"
+easter-14,,year ge 2021,C,,,ot,Isaiah 43:16–21
+easter-14,,year ge 2021,C,,,psalm,Psalm 73
+easter-14,,year ge 2021,C,,,epistle,Philippians 3:4b–14
+easter-14,,year ge 2021,C,,,gospel,Luke 20:9–19
+easter-7,,year ge 2021,C,,,ot,Isaiah 42:1–4
+easter-7,,year ge 2021,C,,,psalm,Psalm 24
+easter-7,,year ge 2021,C,,,epistle,Philippians 2:5–11
+easter-7,,year ge 2021,C,,,gospel,Luke 19:28–40
+easter-7,,year ge 2021,C,,Sunday of the Passion,psalm,Psalm 31
+easter-7,,year ge 2021,C,,Sunday of the Passion,gospel,Luke 22:1–23:56
+easter-3,,year ge 2021,C,,,ot,Jeremiah 31:31–34
+easter-3,,year ge 2021,C,,,psalm,Psalm 116
+easter-3,,year ge 2021,C,,,epistle,Hebrews 10:15–25
+easter-3,,year ge 2021,C,,,gospel,Luke 22:7–20
+easter-2,,year ge 2021,C,,,ot,Isaiah 52:13–53:12
+easter-2,,year ge 2021,C,,,psalm,Psalm 22
+easter-2,,year ge 2021,C,,,epistle,Galatians 3:10–13
+easter-2,,year ge 2021,C,,,gospel,John 19:17–30
+easter,,year ge 2021,C,,Easter Dawn,ot,Exodus 15:1–11
+easter,,year ge 2021,C,,Easter Dawn,psalm,Psalm 118
+easter,,year ge 2021,C,,Easter Dawn,epistle,Colossians 3:1–4
+easter,,year ge 2021,C,,Easter Dawn,gospel,John 20:1–18
+easter,,year ge 2021,C,,,ot,Isaiah 25:6–9
+easter,,year ge 2021,C,,,psalm,Psalm 16
+easter,,year ge 2021,C,,,epistle,1 Corinthians 15:51–57
+easter,,year ge 2021,C,,,gospel,Luke 24:1–12
+easter+7,,year ge 2021,C,,,ot,"Acts 5:12, 17–32"
+easter+7,,year ge 2021,C,,,psalm,Psalm 150
+easter+7,,year ge 2021,C,,,epistle,Revelation 1:4–18
+easter+7,,year ge 2021,C,,,gospel,John 20:19–31
+easter+14,,year ge 2021,C,,,ot,Acts 9:1–22
+easter+14,,year ge 2021,C,,,psalm,Psalm 30
+easter+14,,year ge 2021,C,,,epistle,Revelation 5:11–14
+easter+14,,year ge 2021,C,,,gospel,John 21:1–14
+easter+21,,year ge 2021,C,,,ot,"Acts 13:15–16a, 26–39"
+easter+21,,year ge 2021,C,,,psalm,Psalm 23
+easter+21,,year ge 2021,C,,,epistle,Revelation 7:9–17
+easter+21,,year ge 2021,C,,,gospel,John 10:22–30
+easter+28,,year ge 2021,C,,,ot,Acts 11:1–18
+easter+28,,year ge 2021,C,,,psalm,Psalm 145
+easter+28,,year ge 2021,C,,,epistle,1 Corinthians 13:1–13
+easter+28,,year ge 2021,C,,,gospel,John 13:31–35
+easter+35,,year ge 2021,C,,,ot,Acts 14:8–22
+easter+35,,year ge 2021,C,,,psalm,Psalm 65
+easter+35,,year ge 2021,C,,,epistle,Revelation 21:21–27
+easter+35,,year ge 2021,C,,,gospel,John 16:16–24
+easter+39,,year ge 2021,C,,,ot,Acts 1:1–11
+easter+39,,year ge 2021,C,,,psalm,Psalm 47
+easter+39,,year ge 2021,C,,,epistle,Revelation 19:11–16
+easter+39,,year ge 2021,C,,,gospel,Luke 24:44–53
+easter+42,,year ge 2021,C,,,ot,Acts 16:6–10
+easter+42,,year ge 2021,C,,,psalm,Psalm 133
+easter+42,,year ge 2021,C,,,epistle,"Revelation 22:12–17, 20"
+easter+42,,year ge 2021,C,,,gospel,John 17:20–26
+easter+49,,year ge 2021,C,,,ot,Genesis 11:1–9
+easter+49,,year ge 2021,C,,,psalm,Psalm 104
+easter+49,,year ge 2021,C,,,epistle,Acts 2:1–21
+easter+49,,year ge 2021,C,,,gospel,John 14:23–27
+easter+56,,year ge 2021,C,,,ot,Numbers 6:22–27
+easter+56,,year ge 2021,C,,,psalm,Psalm 8
+easter+56,,year ge 2021,C,,,epistle,Romans 5:1–5
+easter+56,,year ge 2021,C,,,gospel,John 16:12–15
+sun>=05-24,,year ge 2021 & date le 05-28 & date gt easter+56,C,,,ot,Jeremiah 7:1–8
+sun>=05-24,,year ge 2021 & date le 05-28 & date gt easter+56,C,,,psalm,Psalm 133
+sun>=05-24,,year ge 2021 & date le 05-28 & date gt easter+56,C,,,epistle,James 1:17–27
+sun>=05-24,,year ge 2021 & date le 05-28 & date gt easter+56,C,,,gospel,Luke 6:39–49
+sun>=05-29,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,ot,"1 Kings 8:22–24, 27–29, 41–43"
+sun>=05-29,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,psalm,Psalm 96
+sun>=05-29,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,epistle,Galatians 3:23–29
+sun>=05-29,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,gospel,Luke 7:1–10
+sun>=06-05,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,ot,1 Kings 17:17–24
+sun>=06-05,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,psalm,Psalm 116
+sun>=06-05,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,epistle,Philippians 1:18b–26
+sun>=06-05,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,gospel,Luke 7:11–17
+sun>=06-12,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,ot,Daniel 9:15–19
+sun>=06-12,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,psalm,Psalm 40
+sun>=06-12,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,epistle,1 Corinthians 6:9–20
+sun>=06-12,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,gospel,Luke 7:36–50
+sun>=06-19,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,ot,Isaiah 43:8–13
+sun>=06-19,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,psalm,Psalm 66
+sun>=06-19,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,epistle,2 Timothy 1:3–10
+sun>=06-19,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,gospel,Luke 8:26–39
+sun>=06-26,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,ot,1 Kings 19:19–21
+sun>=06-26,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,psalm,Psalm 62
+sun>=06-26,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,epistle,2 Corinthians 11:21b–30
+sun>=06-26,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,gospel,Luke 9:51–62
+sun>=07-03,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,ot,Ezekiel 2:9–3:11
+sun>=07-03,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,psalm,Psalm 67
+sun>=07-03,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,epistle,1 Peter 5:1–4
+sun>=07-03,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,gospel,"Luke 10:1–12, 16–20"
+sun>=07-10,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,ot,Ruth 1:1–19a
+sun>=07-10,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,psalm,Psalm 25
+sun>=07-10,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,epistle,"Galatians 5:1, 13–25"
+sun>=07-10,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,gospel,Luke 10:25–37
+sun>=07-17,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,ot,Genesis 18:1–14
+sun>=07-17,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,psalm,Psalm 119:33–40
+sun>=07-17,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,epistle,Colossians 1:1–14
+sun>=07-17,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,gospel,Luke 10:38–42
+sun>=07-24,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,ot,Genesis 18:20–32
+sun>=07-24,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,psalm,Psalm 138
+sun>=07-24,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,epistle,1 Timothy 2:1–7
+sun>=07-24,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,gospel,Luke 11:1–13
+sun>=07-31,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,ot,"Ecclesiastes 1:1–2, 12–14; 2:18–26"
+sun>=07-31,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,psalm,Psalm 90
+sun>=07-31,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,epistle,Colossians 3:1–11
+sun>=07-31,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,gospel,Luke 12:13–21
+sun>=08-07,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,ot,Genesis 15:1–6
+sun>=08-07,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,psalm,Psalm 121
+sun>=08-07,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,epistle,"Hebrews 11:1–3, 8–16"
+sun>=08-07,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,gospel,Luke 12:22–34
+sun>=08-14,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,ot,Jeremiah 23:23–29
+sun>=08-14,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,psalm,Psalm 4
+sun>=08-14,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,epistle,Hebrews 12:1–13
+sun>=08-14,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,gospel,Luke 12:49–53
+sun>=08-21,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,ot,Isaiah 66:18–24
+sun>=08-21,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,psalm,Psalm 103
+sun>=08-21,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,epistle,Hebrews 12:18–24
+sun>=08-21,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,gospel,Luke 13:22–30
+sun>=08-28,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,ot,Proverbs 25:6–7a
+sun>=08-28,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,psalm,Psalm 112
+sun>=08-28,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,epistle,James 2:1–13
+sun>=08-28,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,gospel,"Luke 14:1, 7–14"
+sun>=09-04,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,ot,Deuteronomy 30:15–20
+sun>=09-04,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,psalm,Psalm 1
+sun>=09-04,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,epistle,"Philemon 1, 7–21"
+sun>=09-04,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,gospel,Luke 14:25–35
+sun>=09-11,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,ot,Hosea 3:1–5
+sun>=09-11,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,psalm,Psalm 51
+sun>=09-11,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,epistle,2 Corinthians 2:5–11
+sun>=09-11,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,gospel,Luke 15:1–10
+sun>=09-18,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,ot,Ecclesiastes 5:10–20
+sun>=09-18,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,psalm,Psalm 128
+sun>=09-18,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,epistle,"1 Timothy 6:6–10, 17–19"
+sun>=09-18,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,gospel,Luke 16:1–13
+sun>=09-25,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,ot,Amos 6:1–7
+sun>=09-25,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,psalm,Psalm 146
+sun>=09-25,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,epistle,Hebrews 13:1–6
+sun>=09-25,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,gospel,Luke 16:19–31
+sun>=10-02,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,ot,"1 Chronicles 29:1–2, 10–18"
+sun>=10-02,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,psalm,Psalm 62
+sun>=10-02,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,epistle,"2 Thessalonians 1:1–5, 11–12"
+sun>=10-02,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,gospel,Luke 17:1–10
+sun>=10-09,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,ot,Genesis 8:15–22
+sun>=10-09,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,psalm,Psalm 111
+sun>=10-09,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,epistle,2 Corinthians 9:10–15
+sun>=10-09,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,gospel,Luke 17:11–19
+sun>=10-16,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,ot,Genesis 32:22–30
+sun>=10-16,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,psalm,Psalm 121
+sun>=10-16,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,epistle,1 John 5:13–15
+sun>=10-16,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,gospel,Luke 18:1–8
+sun>=10-23,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,ot,Deuteronomy 10:12–22
+sun>=10-23,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,psalm,Psalm 90
+sun>=10-23,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,epistle,1 John 2:15–17
+sun>=10-23,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,gospel,Luke 18:18–30
+sun>=10-30,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,ot,Micah 7:18–20
+sun>=10-30,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,psalm,Psalm 63
+sun>=10-30,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,epistle,Romans 5:6–11
+sun>=10-30,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,gospel,Luke 19:1–10
+sun>=11-06,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,ot,Isaiah 65:17–25
+sun>=11-06,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,psalm,Psalm 148
+sun>=11-06,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,epistle,Revelation 22:1–5
+sun>=11-06,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,gospel,Luke 20:27–38
+sun>=11-13,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,ot,Malachi 4:1–6
+sun>=11-13,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,psalm,Psalm 98
+sun>=11-13,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,epistle,2 Thessalonians 1:5–10
+sun>=11-13,,year ge 2021 & date gt easter+56 & date lt next_start-7,C,,,gospel,Luke 21:15–19
+next_start-7,,year ge 2021,C,,,ot,Habakkuk 1:1–3; 2:1–4 or Jeremiah 23:1–6
+next_start-7,,year ge 2021,C,,,psalm,Psalm 130 or Psalm 95
+next_start-7,,year ge 2021,C,,,epistle,Revelation 22:6–13 or Colossians 1:13–20
+next_start-7,,year ge 2021,C,,,gospel,Luke 12:35–40 or Luke 23:35–43
+reformation,,year ge 2021,C,,Reformation,ot,Jeremiah 31:31–34
+reformation,,year ge 2021,C,,Reformation,psalm,Psalm 46
+reformation,,year ge 2021,C,,Reformation,epistle,Galatians 5:1–6
+reformation,,year ge 2021,C,,Reformation,gospel,John 8:31–36
+10-31,,year ge 2021 & date nwd sun,C,,Reformation Day,ot,Jeremiah 31:31–34
+10-31,,year ge 2021 & date nwd sun,C,,Reformation Day,psalm,Psalm 46
+10-31,,year ge 2021 & date nwd sun,C,,Reformation Day,epistle,Galatians 5:1–6
+10-31,,year ge 2021 & date nwd sun,C,,Reformation Day,gospel,John 8:31–36
+all_saints,,year ge 2021,C,,All Saints' Day,ot,Revelation 21:1–6
+all_saints,,year ge 2021,C,,All Saints' Day,psalm,Psalm 149
+all_saints,,year ge 2021,C,,All Saints' Day,epistle,Hebrews 11:32–40
+all_saints,,year ge 2021,C,,All Saints' Day,gospel,Luke 6:20–23
+11-01,,year ge 2021 & date nwd sun,C,,All Saints' Day,ot,Revelation 21:1–6
+11-01,,year ge 2021 & date nwd sun,C,,All Saints' Day,psalm,Psalm 149
+11-01,,year ge 2021 & date nwd sun,C,,All Saints' Day,epistle,Hebrews 11:32–40
+11-01,,year ge 2021 & date nwd sun,C,,All Saints' Day,gospel,Luke 6:20–23
+11-30,,year ge 2021,,,"St. Andrew, Apostle",ot,Ezekiel 3:16–21
+11-30,,year ge 2021,,,"St. Andrew, Apostle",psalm,Psalm 66
+11-30,,year ge 2021,,,"St. Andrew, Apostle",epistle,Romans 10:10–18
+11-30,,year ge 2021,,,"St. Andrew, Apostle",gospel,John 1:35–42
+12-21,,year ge 2021,,,"St. Thomas, Apostle",ot,Judges 6:36–40
+12-21,,year ge 2021,,,"St. Thomas, Apostle",psalm,Psalm 25
+12-21,,year ge 2021,,,"St. Thomas, Apostle",epistle,Hebrews 10:35–11:1
+12-21,,year ge 2021,,,"St. Thomas, Apostle",gospel,John 20:24–29
+12-26,,year ge 2021,,,"St. Stephen, Deacon and Martyr",ot,Jeremiah 26:1–15
+12-26,,year ge 2021,,,"St. Stephen, Deacon and Martyr",psalm,Psalm 31
+12-26,,year ge 2021,,,"St. Stephen, Deacon and Martyr",epistle,"Acts 6:8–7:2a, 51–60"
+12-26,,year ge 2021,,,"St. Stephen, Deacon and Martyr",gospel,Matthew 23:34–39
+12-27,,year ge 2021,,,"St. John, Apostle and Evangelist",ot,Revelation 1:9–19
+12-27,,year ge 2021,,,"St. John, Apostle and Evangelist",psalm,Psalm 119:65–72
+12-27,,year ge 2021,,,"St. John, Apostle and Evangelist",epistle,1 John 1:1–2:2
+12-27,,year ge 2021,,,"St. John, Apostle and Evangelist",gospel,John 21:20–25
+12-28,,year ge 2021,,,Holy Innocents,ot,Jeremiah 31:15–17
+12-28,,year ge 2021,,,Holy Innocents,psalm,Psalm 130
+12-28,,year ge 2021,,,Holy Innocents,epistle,1 Peter 4:12–19
+12-28,,year ge 2021,,,Holy Innocents,gospel,Matthew 2:13–18
+01-01,,year ge 2021,,,Circumcision and Name of Jesus,ot,Numbers 6:22–27
+01-01,,year ge 2021,,,Circumcision and Name of Jesus,psalm,Psalm 8
+01-01,,year ge 2021,,,Circumcision and Name of Jesus,epistle,Galatians 3:23–29
+01-01,,year ge 2021,,,Circumcision and Name of Jesus,gospel,Luke 2:21
+01-18,,year ge 2021,,,Confession of St. Peter,ot,2 Peter 1:1–4
+01-18,,year ge 2021,,,Confession of St. Peter,psalm,Psalm 118
+01-18,,year ge 2021,,,Confession of St. Peter,epistle,Acts 4:8–13
+01-18,,year ge 2021,,,Confession of St. Peter,gospel,Matthew 16:13–19
+01-24,,year ge 2021,,,"St. Timothy, Pastor and Confessor",ot,Acts 16:1–5
+01-24,,year ge 2021,,,"St. Timothy, Pastor and Confessor",psalm,Psalm 71
+01-24,,year ge 2021,,,"St. Timothy, Pastor and Confessor",epistle,1 Timothy 6:11–16
+01-24,,year ge 2021,,,"St. Timothy, Pastor and Confessor",gospel,John 21:15–17
+01-25,,year ge 2021,,,Conversion of St. Paul,ot,Acts 9:1–22
+01-25,,year ge 2021,,,Conversion of St. Paul,psalm,Psalm 67
+01-25,,year ge 2021,,,Conversion of St. Paul,epistle,Galatians 1:11–24
+01-25,,year ge 2021,,,Conversion of St. Paul,gospel,Matthew 19:27–30
+01-26,,year ge 2021,,,"St. Titus, Pastor and Confessor",ot,Acts 20:28–35
+01-26,,year ge 2021,,,"St. Titus, Pastor and Confessor",psalm,Psalm 71
+01-26,,year ge 2021,,,"St. Titus, Pastor and Confessor",epistle,Titus 1:1–9
+01-26,,year ge 2021,,,"St. Titus, Pastor and Confessor",gospel,Luke 10:1–9
+02-02,,year ge 2021,,,Presentation of Our Lord,ot,1 Samuel 1:21–28
+02-02,,year ge 2021,,,Presentation of Our Lord,psalm,Psalm 84
+02-02,,year ge 2021,,,Presentation of Our Lord,epistle,Hebrews 2:14–18
+02-02,,year ge 2021,,,Presentation of Our Lord,gospel,Luke 2:22–40
+02-24,,year ge 2021,,,"St. Matthias, Apostle",ot,Acts 1:15–26
+02-24,,year ge 2021,,,"St. Matthias, Apostle",psalm,Psalm 133
+02-24,,year ge 2021,,,"St. Matthias, Apostle",epistle,1 John 2:15–17
+02-24,,year ge 2021,,,"St. Matthias, Apostle",gospel,Matthew 11:25–30
+03-19,,year ge 2021,,,"St. Joseph, Guardian of Our Lord",ot,"2 Samuel 7:4, 8–16"
+03-19,,year ge 2021,,,"St. Joseph, Guardian of Our Lord",psalm,Psalm 127
+03-19,,year ge 2021,,,"St. Joseph, Guardian of Our Lord",epistle,Romans 4:13–18
+03-19,,year ge 2021,,,"St. Joseph, Guardian of Our Lord",gospel,"Matthew 2:13–15, 19–23"
+03-25,,year ge 2021,,,Annunciation of Our Lord,ot,Isaiah 7:10–14
+03-25,,year ge 2021,,,Annunciation of Our Lord,psalm,Psalm 45
+03-25,,year ge 2021,,,Annunciation of Our Lord,epistle,Hebrews 10:5–10
+03-25,,year ge 2021,,,Annunciation of Our Lord,gospel,Luke 1:26–38
+04-25,,year ge 2021,,,"St. Mark, Evangelist",ot,Acts 15:36–41
+04-25,,year ge 2021,,,"St. Mark, Evangelist",psalm,Psalm 146
+04-25,,year ge 2021,,,"St. Mark, Evangelist",epistle,2 Timothy 4:5–18
+04-25,,year ge 2021,,,"St. Mark, Evangelist",gospel,Mark 8:27–38
+05-01,,year ge 2021,,,"St. Philip and St. James, Apostles",ot,Isaiah 30:18–21
+05-01,,year ge 2021,,,"St. Philip and St. James, Apostles",psalm,Psalm 78
+05-01,,year ge 2021,,,"St. Philip and St. James, Apostles",epistle,Ephesians 2:19–22
+05-01,,year ge 2021,,,"St. Philip and St. James, Apostles",gospel,John 14:1–14
+05-31,,year ge 2021,,,Visitation,ot,Isaiah 11:1–5
+05-31,,year ge 2021,,,Visitation,psalm,Psalm 139
+05-31,,year ge 2021,,,Visitation,epistle,Romans 12:9–16
+05-31,,year ge 2021,,,Visitation,gospel,Luke 1:39–45
+06-11,,year ge 2021,,,"St. Barnabas, Apostle",ot,Isaiah 42:5–12
+06-11,,year ge 2021,,,"St. Barnabas, Apostle",psalm,Psalm 112
+06-11,,year ge 2021,,,"St. Barnabas, Apostle",epistle,Acts 11:19–30; 13:1–3
+06-11,,year ge 2021,,,"St. Barnabas, Apostle",gospel,Mark 6:7–13
+06-24,,year ge 2021,,,Nativity of St. John the Baptist,ot,Isaiah 40:1–5
+06-24,,year ge 2021,,,Nativity of St. John the Baptist,psalm,Psalm 85
+06-24,,year ge 2021,,,Nativity of St. John the Baptist,epistle,Acts 13:13–26
+06-24,,year ge 2021,,,Nativity of St. John the Baptist,gospel,Luke 1:57–66
+06-25,,year ge 2021,,,Presentation of the Augsburg Confession,ot,Isaiah 55:6–11
+06-25,,year ge 2021,,,Presentation of the Augsburg Confession,psalm,Psalm 46
+06-25,,year ge 2021,,,Presentation of the Augsburg Confession,epistle,Romans 10:5–17
+06-25,,year ge 2021,,,Presentation of the Augsburg Confession,gospel,Matthew 10:32–39
+06-29,,year ge 2021,,,"St. Peter and St. Paul, Apostles",ot,Acts 15:1–12
+06-29,,year ge 2021,,,"St. Peter and St. Paul, Apostles",psalm,Psalm 31
+06-29,,year ge 2021,,,"St. Peter and St. Paul, Apostles",epistle,1 Corinthians 3:16–23
+06-29,,year ge 2021,,,"St. Peter and St. Paul, Apostles",gospel,Matthew 16:13–19
+07-22,,year ge 2021,,,St. Mary Magdalene,ot,Ruth 1:6–18
+07-22,,year ge 2021,,,St. Mary Magdalene,psalm,Psalm 73
+07-22,,year ge 2021,,,St. Mary Magdalene,epistle,Acts 13:26–31
+07-22,,year ge 2021,,,St. Mary Magdalene,gospel,"John 20:1–2, 10–18"
+07-25,,year ge 2021,,,"St. James the Elder, Apostle",ot,1 Kings 19:9–18
+07-25,,year ge 2021,,,"St. James the Elder, Apostle",psalm,Psalm 31
+07-25,,year ge 2021,,,"St. James the Elder, Apostle",epistle,Acts 11:27–12:3a
+07-25,,year ge 2021,,,"St. James the Elder, Apostle",gospel,Mark 10:35–45
+08-15,,year ge 2021,,,"St. Mary, Mother of Our Lord",ot,Isaiah 61:7–11
+08-15,,year ge 2021,,,"St. Mary, Mother of Our Lord",psalm,Psalm 45
+08-15,,year ge 2021,,,"St. Mary, Mother of Our Lord",epistle,Galatians 4:4–7
+08-15,,year ge 2021,,,"St. Mary, Mother of Our Lord",gospel,Luke 1:46–55
+08-24,,year ge 2021,,,"St. Bartholomew, Apostle",ot,Proverbs 3:1–8
+08-24,,year ge 2021,,,"St. Bartholomew, Apostle",psalm,Psalm 139
+08-24,,year ge 2021,,,"St. Bartholomew, Apostle",epistle,1 Timothy 3:1–7
+08-24,,year ge 2021,,,"St. Bartholomew, Apostle",gospel,John 1:43–51
+08-29,,year ge 2021,,,Martyrdom of St. John the Baptist,ot,Revelation 6:9–11
+08-29,,year ge 2021,,,Martyrdom of St. John the Baptist,psalm,Psalm 71
+08-29,,year ge 2021,,,Martyrdom of St. John the Baptist,epistle,Romans 6:1–5
+08-29,,year ge 2021,,,Martyrdom of St. John the Baptist,gospel,Mark 6:14–29
+09-21,,year ge 2021,,,"St. Matthew, Apostle and Evangelist",ot,Ezekiel 2:8–3:11
+09-21,,year ge 2021,,,"St. Matthew, Apostle and Evangelist",psalm,Psalm 119:33–40
+09-21,,year ge 2021,,,"St. Matthew, Apostle and Evangelist",epistle,Ephesians 2:4–10
+09-21,,year ge 2021,,,"St. Matthew, Apostle and Evangelist",gospel,Matthew 9:9–13
+09-29,,year ge 2021,,,St. Michael and All Angels,ot,2 Kings 6:8–17
+09-29,,year ge 2021,,,St. Michael and All Angels,psalm,Psalm 91
+09-29,,year ge 2021,,,St. Michael and All Angels,epistle,Revelation 12:7–12
+09-29,,year ge 2021,,,St. Michael and All Angels,gospel,Luke 10:17–20 or Matthew 18:1–10
+10-18,,year ge 2021,,,"St. Luke, Evangelist",ot,Acts 1:1–3
+10-18,,year ge 2021,,,"St. Luke, Evangelist",psalm,Psalm 139
+10-18,,year ge 2021,,,"St. Luke, Evangelist",epistle,2 Timothy 4:5–11
+10-18,,year ge 2021,,,"St. Luke, Evangelist",gospel,Luke 1:1–4; 24:44–53
+10-23,,year ge 2021,,,St. James of Jerusalem,ot,Acts 15:12–22a
+10-23,,year ge 2021,,,St. James of Jerusalem,psalm,Psalm 133
+10-23,,year ge 2021,,,St. James of Jerusalem,epistle,James 1:1–12
+10-23,,year ge 2021,,,St. James of Jerusalem,gospel,Matthew 13:54–58
+10-28,,year ge 2021,,,"St. Simon and St. Jude, Apostles",ot,Jeremiah 26:7–16
+10-28,,year ge 2021,,,"St. Simon and St. Jude, Apostles",psalm,Psalm 119:97–104
+10-28,,year ge 2021,,,"St. Simon and St. Jude, Apostles",epistle,1 Peter 1:3–9
+10-28,,year ge 2021,,,"St. Simon and St. Jude, Apostles",gospel,John 15:17–21
+12-31,,year ge 2021,,,New Year's Eve (Set 1),ot,Ecclesiastes 3:1–8
+12-31,,year ge 2021,,,New Year's Eve (Set 1),psalm,Psalm 90
+12-31,,year ge 2021,,,New Year's Eve (Set 1),epistle,"Hebrews 13:5–8, 14"
+12-31,,year ge 2021,,,New Year's Eve (Set 1),gospel,Matthew 25:1–13
+12-31,,year ge 2021,,,New Year's Eve (Set 2),ot,Isaiah 51:1–6
+12-31,,year ge 2021,,,New Year's Eve (Set 2),psalm,Psalm 90
+12-31,,year ge 2021,,,New Year's Eve (Set 2),epistle,James 4:13–17
+12-31,,year ge 2021,,,New Year's Eve (Set 2),gospel,Luke 12:13–21
+12-31,,year ge 2021,,,New Year's Eve (Set 3),ot,Ecclesiastes 12:1–7
+12-31,,year ge 2021,,,New Year's Eve (Set 3),psalm,Psalm 90
+12-31,,year ge 2021,,,New Year's Eve (Set 3),epistle,1 Peter 1:22–25
+12-31,,year ge 2021,,,New Year's Eve (Set 3),gospel,Luke 13:6–9
+thu#4:11,,year ge 2021,,,Thanksgiving Day (Set 1),ot,2 Samuel 7:18–22
+thu#4:11,,year ge 2021,,,Thanksgiving Day (Set 1),psalm,Psalm 100
+thu#4:11,,year ge 2021,,,Thanksgiving Day (Set 1),epistle,Philippians 4:4–9
+thu#4:11,,year ge 2021,,,Thanksgiving Day (Set 1),gospel,Luke 7:36–50
+thu#4:11,,year ge 2021,,,Thanksgiving Day (Set 2),ot,Deuteronomy 8:10–18
+thu#4:11,,year ge 2021,,,Thanksgiving Day (Set 2),psalm,Psalm 100
+thu#4:11,,year ge 2021,,,Thanksgiving Day (Set 2),epistle,Philippians 4:10–20
+thu#4:11,,year ge 2021,,,Thanksgiving Day (Set 2),gospel,Luke 17:11–19
+thu#4:11,,year ge 2021,,,Thanksgiving Day (Set 3),ot,Genesis 8:18–22
+thu#4:11,,year ge 2021,,,Thanksgiving Day (Set 3),psalm,Psalm 100
+thu#4:11,,year ge 2021,,,Thanksgiving Day (Set 3),epistle,James 1:16–18
+thu#4:11,,year ge 2021,,,Thanksgiving Day (Set 3),gospel,Luke 19:1–10

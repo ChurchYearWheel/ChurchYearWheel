@@ -1,0 +1,17 @@
+id,date,name,full_name,rank,style,color_override,color_override_bottom,icon,icon_when,transfer,variant,when,action,link
+,01-03,St. Genevieve,"Saint Genevieve, virgin",12,optional_memorial,,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-genevieve/
+,01-15,St. Remigius,"Saint Remigius, bishop",12,optional_memorial,,,,,,,,,
+sts_cyril_and_methodius,,,"Saints Cyril, monk and Methodius, bishop",8,feast_rank,WHITE,,,,,,,,
+,02-18,St. Bernadette Soubirous,"Saint Bernadette Soubirous, virgin",12,optional_memorial,,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-bernadette-soubirous-1844-1879/
+st_catherine_of_siena,,,"Saint Catherine of Siena, virgin and doctor of the Church",8,feast_rank,WHITE,,,,,,,,
+,05-19,St. Ivo,"Saint Ivo, priest",12,optional_memorial,,,,,,,,,
+,05-30,St. Joan of Arc,"Saint Joan of Arc, virgin, secondary patroness of France",11,memorial,,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-joan-of-arc-1412-1431/
+,06-02,St. Pothinus and Companions,"Saint Pothinus, bishop, Saint Blandina, virgin, and companions, martyrs",12,optional_memorial,,,,,,,,,
+,06-04,St. Clotilde,Saint Clotilde,12,optional_memorial,,,,,,,,,
+st_benedict,,,"Saint Benedict, abbot",8,feast_rank,WHITE,,,,,,,,
+,07-23,St. Brigitta,"Saint Brigitta, religious",8,feast_rank,WHITE,,,,,,,,
+st_teresa_benedicta_of_the_cross,,,"Saint Teresa Benedicta of the Cross, virgin and martyr",8,feast_rank,RED,,,,,,,,
+assumption,,,"Assumption of the Blessed Virgin Mary, principal patroness of France",4,solemnity,WHITE,,,,,,,,
+,08-26,St. Caesarius of Arles,"Saint Caesarius of Arles, bishop",12,optional_memorial,,,,,,,,,
+,09-19,Our Lady of La Salette,,12,optional_memorial,,,,,,,,,
+st_therese_of_the_child_jesus,,,"Saint Thérèse of the Child Jesus, virgin, secondary patroness of France",10,memorial,-,,,,,,,,

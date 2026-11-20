@@ -1,0 +1,8 @@
+style,font_family,font_size,font_weight,font_style,font_variant,min_font_size,max_lines,orientation,fill
+"# How each rank is set, after the parish calendars: solemnities in bold"
+"# small capitals, feasts in bold, memorials in roman, optional memorials in"
+# italics.
+solemnity,serif,10,bold,normal,small-caps,5,6,tangential,
+feast_rank,serif,10,bold,normal,normal,5,6,tangential,
+memorial,serif,10,normal,normal,normal,5,6,tangential,
+optional_memorial,serif,9.5,normal,italic,normal,5,6,tangential,

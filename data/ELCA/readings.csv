@@ -1,0 +1,198 @@
+day,offset,when,cycle,variant,title,kind,reading
+# ===========================================================================
+"# The ELCA keeps the Revised Common Lectionary (data/readings/rcl.csv, named"
+# in tradition.csv) as Evangelical Lutheran Worship (2006) prints it.  These
+"# rows are where ELW differs, checked against the ELCA's yearly lists of"
+# readings (cdn.elca.org/cdn/wp-content/uploads/: YearB_23-24_ALL.pdf,
+"# YearC_24-25ALL.pdf and yeara_25_26_all.pdf, read October 2026):"
+#   - the lesser festivals have their own readings;
+"#   - the Easter Vigil has twelve readings, and John 20 as its Gospel;"
+"#   - New Year's Eve (not New Year's Day), the Vigil of Pentecost, the week"
+#     after Easter and Reformation Day have propers;
+"#   - on Easter Day the Gospel of the year comes before John 20, and on the"
+#     Second Sunday in Lent of Year A John 3 is read alone;
+#   - after Pentecost the complementary series is printed first (the setting
+"#     reading_order), and the daily readings follow it alone."
+# Rows of kind `omit` drop the RCL's rows that these replace.  The psalm
+# refrains the lists give in parentheses are left out.
+# ===========================================================================
+,,,,,Daily Readings,omit,ot_s psalm_s
+# ------------------------------------------------- Sundays and principal days
+easter-35,,,A,,,omit,
+easter-35,,,A,,,ot,Genesis 12:1–4a
+easter-35,,,A,,,psalm,Psalm 121
+easter-35,,,A,,,epistle,"Romans 4:1–5, 13–17"
+easter-35,,,A,,,gospel,John 3:1–17
+easter-1,,,,,Easter Vigil,omit,
+easter-1,,,,,Easter Vigil,ot,Genesis 1:1–2:4a
+easter-1,,,,,Easter Vigil,psalm,"Psalm 136:1–9, 23–26"
+easter-1,,,,,Easter Vigil,ot,"Genesis 7:1–5, 11–18; 8:6–18; 9:8–13"
+easter-1,,,,,Easter Vigil,psalm,Psalm 46
+easter-1,,,,,Easter Vigil,ot,Genesis 22:1–18
+easter-1,,,,,Easter Vigil,psalm,Psalm 16
+easter-1,,,,,Easter Vigil,ot,Exodus 14:10–31; 15:20–21
+easter-1,,,,,Easter Vigil,psalm,"Exodus 15:1b–13, 17–18"
+easter-1,,,,,Easter Vigil,ot,Isaiah 55:1–11
+easter-1,,,,,Easter Vigil,psalm,Isaiah 12:2–6
+easter-1,,,,,Easter Vigil,ot,"Proverbs 8:1–8, 19–21; 9:4b–6 or Baruch 3:9–15, 32–4:4"
+easter-1,,,,,Easter Vigil,psalm,Psalm 19
+easter-1,,,,,Easter Vigil,ot,Ezekiel 36:24–28
+easter-1,,,,,Easter Vigil,psalm,Psalms 42 and 43
+easter-1,,,,,Easter Vigil,ot,Ezekiel 37:1–14
+easter-1,,,,,Easter Vigil,psalm,Psalm 143
+easter-1,,,,,Easter Vigil,ot,Zephaniah 3:14–20
+easter-1,,,,,Easter Vigil,psalm,Psalm 98
+easter-1,,,,,Easter Vigil,ot,Jonah 1:1–2:1
+easter-1,,,,,Easter Vigil,psalm,Jonah 2:2–3 (4–6) 7–9
+easter-1,,,,,Easter Vigil,ot,"Isaiah 61:1–4, 9–11"
+easter-1,,,,,Easter Vigil,psalm,"Deuteronomy 32:1–4, 7, 36a, 43a"
+easter-1,,,,,Easter Vigil,ot,Daniel 3:1–29
+easter-1,,,,,Easter Vigil,psalm,Song of the Three Young Men 35–65
+easter-1,,,,,Easter Vigil,epistle,Romans 6:3–11
+easter-1,,,,,Easter Vigil,gospel,John 20:1–18
+easter,,,,,,omit,
+easter,,,A,,,ot,Acts 10:34–43 or Jeremiah 31:1–6
+easter,,,A,,,psalm,"Psalm 118:1–2, 14–24"
+easter,,,A,,,epistle,Colossians 3:1–4 or Acts 10:34–43
+easter,,,A,,,gospel,Matthew 28:1–10 or John 20:1–18
+easter,,,B,,,ot,Acts 10:34–43 or Isaiah 25:6–9
+easter,,,B,,,psalm,"Psalm 118:1–2, 14–24"
+easter,,,B,,,epistle,1 Corinthians 15:1–11 or Acts 10:34–43
+easter,,,B,,,gospel,Mark 16:1–8 or John 20:1–18
+easter,,,C,,,ot,Acts 10:34–43 or Isaiah 65:17–25
+easter,,,C,,,psalm,"Psalm 118:1–2, 14–24"
+easter,,,C,,,epistle,1 Corinthians 15:19–26 or Acts 10:34–43
+easter,,,C,,,gospel,Luke 24:1–12 or John 20:1–18
+easter+1,,,,,Week of Easter,ot,Daniel 12:1–3
+easter+1,,,,,Week of Easter,psalm,Psalm 16:8–11
+easter+1,,,,,Week of Easter,epistle,"Acts 2:14, 22b–32"
+easter+1,,,,,Week of Easter,gospel,Matthew 28:9–15a
+easter+48,,,,,Vigil of Pentecost,ot,Exodus 19:1–9 or Acts 2:1–11
+easter+48,,,,,Vigil of Pentecost,psalm,Psalm 33:12–22 or Psalm 130
+easter+48,,,,,Vigil of Pentecost,epistle,"Romans 8:14–17, 22–27"
+easter+48,,,,,Vigil of Pentecost,gospel,John 7:37–39
+# ------------------------------------------- festivals and lesser festivals
+11-30,,,,,"Andrew, Apostle",ot,Ezekiel 3:16–21
+11-30,,,,,"Andrew, Apostle",psalm,Psalm 19:1–6
+11-30,,,,,"Andrew, Apostle",epistle,Romans 10:10–18
+11-30,,,,,"Andrew, Apostle",gospel,John 1:35–42
+12-26,,,,,"Stephen, Deacon and Martyr",ot,2 Chronicles 24:17–22
+12-26,,,,,"Stephen, Deacon and Martyr",psalm,"Psalm 17:1–9, 15"
+12-26,,,,,"Stephen, Deacon and Martyr",epistle,"Acts 6:8–7:2a, 51–60"
+12-26,,,,,"Stephen, Deacon and Martyr",gospel,Matthew 23:34–39
+12-27,,,,,"John, Apostle and Evangelist",ot,"Genesis 1:1–5, 26–31"
+12-27,,,,,"John, Apostle and Evangelist",psalm,Psalm 116:12–19
+12-27,,,,,"John, Apostle and Evangelist",epistle,1 John 1:1–2:2
+12-27,,,,,"John, Apostle and Evangelist",gospel,John 21:20–25
+12-28,,,,,"The Holy Innocents, Martyrs",ot,Jeremiah 31:15–17
+12-28,,,,,"The Holy Innocents, Martyrs",psalm,Psalm 124
+12-28,,,,,"The Holy Innocents, Martyrs",epistle,1 Peter 4:12–19
+12-28,,,,,"The Holy Innocents, Martyrs",gospel,Matthew 2:13–18
+12-31,,,,,New Year's Eve,ot,Ecclesiastes 3:1–13
+12-31,,,,,New Year's Eve,psalm,Psalm 8
+12-31,,,,,New Year's Eve,epistle,Revelation 21:1–6a
+12-31,,,,,New Year's Eve,gospel,Matthew 25:31–46
+01-01,,,,,New Year's Day,omit,
+01-01,,,,,Holy Name of Jesus,omit,
+01-01,,,,,Name of Jesus,ot,Numbers 6:22–27
+01-01,,,,,Name of Jesus,psalm,Psalm 8
+01-01,,,,,Name of Jesus,epistle,Galatians 4:4–7 or Philippians 2:5–11
+01-01,,,,,Name of Jesus,gospel,Luke 2:15–21
+01-18,,,,,Confession of Peter,ot,Acts 4:8–13
+01-18,,,,,Confession of Peter,psalm,"Psalm 18:1–6, 16–19"
+01-18,,,,,Confession of Peter,epistle,1 Corinthians 10:1–5
+01-18,,,,,Confession of Peter,gospel,Matthew 16:13–19
+01-25,,,,,Conversion of Paul,ot,Acts 9:1–22
+01-25,,,,,Conversion of Paul,psalm,Psalm 67
+01-25,,,,,Conversion of Paul,epistle,Galatians 1:11–24
+01-25,,,,,Conversion of Paul,gospel,Luke 21:10–19
+02-02,,,,,Presentation of the Lord,omit,
+02-02,,,,,Presentation of Our Lord,ot,Malachi 3:1–4
+02-02,,,,,Presentation of Our Lord,psalm,Psalm 84 or Psalm 24:7–10
+02-02,,,,,Presentation of Our Lord,epistle,Hebrews 2:14–18
+02-02,,,,,Presentation of Our Lord,gospel,Luke 2:22–40
+03-19,,,,,"Joseph, Guardian of Jesus",ot,"2 Samuel 7:4, 8–16"
+03-19,,,,,"Joseph, Guardian of Jesus",psalm,Psalm 89:1–29
+03-19,,,,,"Joseph, Guardian of Jesus",epistle,Romans 4:13–18
+03-19,,,,,"Joseph, Guardian of Jesus",gospel,"Matthew 1:16, 18–21, 24a"
+03-25,,,,,Annunciation of the Lord,omit,
+03-25,,,,,Annunciation of Our Lord,ot,Isaiah 7:10–14
+03-25,,,,,Annunciation of Our Lord,psalm,Psalm 45 or Psalm 40:5–10
+03-25,,,,,Annunciation of Our Lord,epistle,Hebrews 10:4–10
+03-25,,,,,Annunciation of Our Lord,gospel,Luke 1:26–38
+04-25,,,,,"Mark, Evangelist",ot,Isaiah 52:7–10
+04-25,,,,,"Mark, Evangelist",psalm,Psalm 57
+04-25,,,,,"Mark, Evangelist",epistle,"2 Timothy 4:6–11, 18"
+04-25,,,,,"Mark, Evangelist",gospel,Mark 1:1–15
+05-01,,,,,"Philip and James, Apostles",ot,Isaiah 30:18–21
+05-01,,,,,"Philip and James, Apostles",psalm,"Psalm 44:1–3, 20–26"
+05-01,,,,,"Philip and James, Apostles",epistle,2 Corinthians 4:1–6
+05-01,,,,,"Philip and James, Apostles",gospel,John 14:8–14
+05-14,,,,,"Matthias, Apostle",ot,Isaiah 66:1–2
+05-14,,,,,"Matthias, Apostle",psalm,Psalm 56
+05-14,,,,,"Matthias, Apostle",epistle,Acts 1:15–26
+05-14,,,,,"Matthias, Apostle",gospel,Luke 6:12–16
+05-31,,,,,Visitation of Mary to Elizabeth,omit,
+05-31,,,,,Visit of Mary to Elizabeth,ot,1 Samuel 2:1–10
+05-31,,,,,Visit of Mary to Elizabeth,psalm,Psalm 113
+05-31,,,,,Visit of Mary to Elizabeth,epistle,Romans 12:9–16b
+05-31,,,,,Visit of Mary to Elizabeth,gospel,Luke 1:39–57
+06-11,,,,,"Barnabas, Apostle",ot,Isaiah 42:5–12
+06-11,,,,,"Barnabas, Apostle",psalm,Psalm 112
+06-11,,,,,"Barnabas, Apostle",epistle,Acts 11:19–30; 13:1–3
+06-11,,,,,"Barnabas, Apostle",gospel,Matthew 10:7–16
+06-24,,,,,John the Baptist,ot,Malachi 3:1–4
+06-24,,,,,John the Baptist,psalm,Psalm 141
+06-24,,,,,John the Baptist,epistle,Acts 13:13–26
+06-24,,,,,John the Baptist,gospel,Luke 1:57–67 (68–80)
+06-29,,,,,"Peter and Paul, Apostles",ot,Acts 12:1–11
+06-29,,,,,"Peter and Paul, Apostles",psalm,"Psalm 87:1–3, 5–7"
+06-29,,,,,"Peter and Paul, Apostles",epistle,"2 Timothy 4:6–8, 17–18"
+06-29,,,,,"Peter and Paul, Apostles",gospel,John 21:15–19
+07-03,,,,,"Thomas, Apostle",ot,Judges 6:36–40
+07-03,,,,,"Thomas, Apostle",psalm,"Psalm 136:1–4, 23–26"
+07-03,,,,,"Thomas, Apostle",epistle,Ephesians 4:11–16
+07-03,,,,,"Thomas, Apostle",gospel,John 14:1–7
+07-22,,,,,"Mary Magdalene, Apostle",ot,Ruth 1:6–18 or Exodus 2:1–10
+07-22,,,,,"Mary Magdalene, Apostle",psalm,Psalm 73:23–28
+07-22,,,,,"Mary Magdalene, Apostle",epistle,Acts 13:26–33a
+07-22,,,,,"Mary Magdalene, Apostle",gospel,"John 20:1–2, 11–18"
+07-25,,,,,"James, Apostle",ot,1 Kings 19:9–18
+07-25,,,,,"James, Apostle",psalm,Psalm 7:1–10
+07-25,,,,,"James, Apostle",epistle,Acts 11:27–12:3a
+07-25,,,,,"James, Apostle",gospel,Mark 10:35–45
+08-15,,,,,"Mary, Mother of Our Lord",ot,Isaiah 61:7–11
+08-15,,,,,"Mary, Mother of Our Lord",psalm,Psalm 34:1–9
+08-15,,,,,"Mary, Mother of Our Lord",epistle,Galatians 4:4–7
+08-15,,,,,"Mary, Mother of Our Lord",gospel,Luke 1:46–55
+08-24,,,,,"Bartholomew, Apostle",ot,Exodus 19:1–6
+08-24,,,,,"Bartholomew, Apostle",psalm,Psalm 12
+08-24,,,,,"Bartholomew, Apostle",epistle,1 Corinthians 12:27–31a
+08-24,,,,,"Bartholomew, Apostle",gospel,John 1:43–51
+09-14,,,,,Holy Cross,omit,
+09-14,,,,,Holy Cross Day,ot,Numbers 21:4b–9
+09-14,,,,,Holy Cross Day,psalm,"Psalm 98:1–4 or Psalm 78:1–2, 34–38"
+09-14,,,,,Holy Cross Day,epistle,1 Corinthians 1:18–24
+09-14,,,,,Holy Cross Day,gospel,John 3:13–17
+09-21,,,,,"Matthew, Apostle and Evangelist",ot,Ezekiel 2:8–3:11
+09-21,,,,,"Matthew, Apostle and Evangelist",psalm,Psalm 119:33–40
+09-21,,,,,"Matthew, Apostle and Evangelist",epistle,Ephesians 2:4–10
+09-21,,,,,"Matthew, Apostle and Evangelist",gospel,Matthew 9:9–13
+09-29,,,,,Michael and All Angels,ot,Daniel 10:10–14; 12:1–3
+09-29,,,,,Michael and All Angels,psalm,"Psalm 103:1–5, 20–22"
+09-29,,,,,Michael and All Angels,epistle,Revelation 12:7–12
+09-29,,,,,Michael and All Angels,gospel,Luke 10:17–20
+10-18,,,,,"Luke, Evangelist",ot,Isaiah 43:8–13 or Isaiah 35:5–8
+10-18,,,,,"Luke, Evangelist",psalm,Psalm 124
+10-18,,,,,"Luke, Evangelist",epistle,2 Timothy 4:5–11
+10-18,,,,,"Luke, Evangelist",gospel,Luke 1:1–4; 24:44–53
+10-28,,,,,"Simon and Jude, Apostles",ot,Jeremiah 26:(1–6) 7–16
+10-28,,,,,"Simon and Jude, Apostles",psalm,Psalm 11
+10-28,,,,,"Simon and Jude, Apostles",epistle,1 John 4:1–6
+10-28,,,,,"Simon and Jude, Apostles",gospel,John 14:21–27
+10-31,,,,,Reformation Day,ot,Jeremiah 31:31–34
+10-31,,,,,Reformation Day,psalm,Psalm 46
+10-31,,,,,Reformation Day,epistle,Romans 3:19–28
+10-31,,,,,Reformation Day,gospel,John 8:31–36
+11-01,,,B,,All Saints' Day,omit,ot
+11-01,,,B,,All Saints' Day,ot,Isaiah 25:6–9

@@ -1,0 +1,2132 @@
+day,offset,when,cycle,variant,title,kind,reading
+# ===========================================================================
+"# The lectionary of the Malankara Orthodox Syrian Church (variant malankara),"
+"# as St. George Indian Orthodox Church, Melbourne, keeps it in its Lectionary"
+"# Guide: https://sgiocmelbourne.org.au/lectionary-koodosh, .../lectionary-great-lent,"
+# .../lectionary-kyomtho and .../lectionary-special-occasions (read October 2026).
+"# Each Sunday and feast has its Gospel at Vespers (Ramsho, the evening before"
+"# in the Church's reckoning, listed on the day) and at Matins (Sapro), the"
+"# lessons before the Holy Qurbana (Old Testament, read as ""ot"") and the"
+"# Qurbana's Acts or Catholic Epistle, Pauline Epistle and Gospel.  The"
+"# weekdays of the Great Fast and the Fast of Nineveh have their morning"
+"# lessons; Holy Week its Midnight Office and the hours.  The Sundays after"
+"# Pentecost run to the Transfiguration, then the Sundays after it and after"
+"# Shunoyo to the Cross.  The occasional services (sacraments, ordinations,"
+"# burial) and the commons of saints have no date and are left out.  Printing"
+# errors corrected or left out are in docs/source-errors.csv.
+# ===========================================================================
+qudosh_idto,,,,malankara,Vespers,gospel,Mark 8:27–33
+qudosh_idto,,,,malankara,Matins,gospel,John 21:15–22
+qudosh_idto,,,,malankara,,ot,Exodus 33:7–11
+qudosh_idto,,,,malankara,,ot,Exodus 40:17–38
+qudosh_idto,,,,malankara,,ot,Isaiah 6:1–8
+qudosh_idto,,,,malankara,,catholic,1 Peter 2:1–12
+qudosh_idto,,,,malankara,,epistle,1 Corinthians 3:16–17; 6:15–20
+qudosh_idto,,,,malankara,,gospel,Matthew 16:13–23
+hudosh_idto,,,,malankara,Vespers,gospel,Luke 19:47–20:8
+hudosh_idto,,,,malankara,Matins,gospel,Mark 12:41–44
+hudosh_idto,,,,malankara,,ot,Exodus 33:7–11
+hudosh_idto,,,,malankara,,ot,1 Kings 8:22–40
+hudosh_idto,,,,malankara,,ot,Isaiah 55:1–13
+hudosh_idto,,,,malankara,,acts,Acts 7:44–53 or Revelation 3:14–22
+hudosh_idto,,,,malankara,,epistle,Hebrews 9:1–14
+hudosh_idto,,,,malankara,,gospel,John 10:22–38
+annunciation_zechariah,,,,malankara,Vespers,gospel,Matthew 19:3–12
+annunciation_zechariah,,,,malankara,Matins,gospel,Luke 10:38–42
+annunciation_zechariah,,,,malankara,,ot,Genesis 2:18–25
+annunciation_zechariah,,,,malankara,,ot,Genesis 17:15–22
+annunciation_zechariah,,,,malankara,,ot,Numbers 8:13–20
+annunciation_zechariah,,,,malankara,,ot,Ruth 1:11–18
+annunciation_zechariah,,,,malankara,,ot,1 Samuel 1:9–17
+annunciation_zechariah,,,,malankara,,ot,Psalm 133:1–3
+annunciation_zechariah,,,,malankara,,ot,Isaiah 41:8–15
+annunciation_zechariah,,,,malankara,,catholic,2 Peter 1:1–15
+annunciation_zechariah,,,,malankara,,epistle,Ephesians 5:21–6:4
+annunciation_zechariah,,,,malankara,,gospel,Luke 1:5–25
+annunciation_mary,,,,malankara,Vespers,gospel,Luke 8:16–21
+annunciation_mary,,,,malankara,Matins,gospel,Mark 3:31–35
+annunciation_mary,,,,malankara,,ot,Genesis 28:10–22
+annunciation_mary,,,,malankara,,ot,Judges 13:2–14
+annunciation_mary,,,,malankara,,ot,Zechariah 2:10–13; 4:1–7; 8:3
+annunciation_mary,,,,malankara,,ot,Isaiah 63:15–64:5
+annunciation_mary,,,,malankara,,catholic,1 John 3:2–17
+annunciation_mary,,,,malankara,,epistle,Galatians 4:1–7
+annunciation_mary,,,,malankara,,epistle,Hebrews 2:14–18
+annunciation_mary,,,,malankara,,gospel,Luke 1:26–38
+visitation,,,,malankara,Vespers,gospel,Luke 8:1–3
+visitation,,,,malankara,Matins,gospel,Luke 10:38–42
+visitation,,,,malankara,,ot,Genesis 1:24–31; 24:15–38
+visitation,,,,malankara,,ot,Judges 4:4–16
+visitation,,,,malankara,,ot,1 Samuel 25:1–35
+visitation,,,,malankara,,ot,2 Kings 5:1–5
+visitation,,,,malankara,,ot,Esther 4:1–17
+visitation,,,,malankara,,ot,Proverbs 14:1; 19:14; 31:10–31
+visitation,,,,malankara,,catholic,1 Peter 3:1–7
+visitation,,,,malankara,,epistle,1 Timothy 2:9–15; 3:11–13
+visitation,,,,malankara,,gospel,Luke 1:39–56
+birth_baptist,,,,malankara,Vespers,gospel,Mark 10:13–16
+birth_baptist,,,,malankara,Matins,gospel,Matthew 11:11–19
+birth_baptist,,,,malankara,,ot,Genesis 21:1–21
+birth_baptist,,,,malankara,,ot,Exodus 2:1–10
+birth_baptist,,,,malankara,,ot,1 Samuel 1:20–28; 2:18–26
+birth_baptist,,,,malankara,,ot,Psalm 127:1–5
+birth_baptist,,,,malankara,,ot,Isaiah 62:1–12
+birth_baptist,,,,malankara,,catholic,1 John 3:1–3
+birth_baptist,,,,malankara,,epistle,Ephesians 6:1–4
+birth_baptist,,,,malankara,,epistle,Colossians 3:20–21
+birth_baptist,,,,malankara,,gospel,Luke 1:57–80
+revelation_joseph,,,,malankara,Vespers,gospel,John 6:30–46
+revelation_joseph,,,,malankara,Matins,gospel,John 6:30–46
+revelation_joseph,,,,malankara,,ot,Genesis 13:1–11
+revelation_joseph,,,,malankara,,ot,Isaiah 1:2–9
+revelation_joseph,,,,malankara,,catholic,1 Peter 2:11–17
+revelation_joseph,,,,malankara,,epistle,Galatians 1:11–24
+revelation_joseph,,,,malankara,,gospel,Matthew 1:18–25
+genealogy,,,,malankara,Vespers,gospel,Matthew 1:1–18
+genealogy,,,,malankara,Matins,gospel,John 1:1–18
+genealogy,,,,malankara,,ot,Genesis 46:8–27
+genealogy,,,,malankara,,ot,1 Kings 9:3–7
+genealogy,,,,malankara,,ot,Isaiah 7:14–15; 11:1–9
+genealogy,,,,malankara,,acts,Acts 3:16–26
+genealogy,,,,malankara,,epistle,Romans 4:13–25
+genealogy,,,,malankara,,epistle,Galatians 4:18–20
+genealogy,,,,malankara,,gospel,Luke 3:23–38
+nativity,,,,malankara,Vespers,gospel,John 1:1–18
+nativity,,,,malankara,Service of the Fire,epistle,Hebrews 1:1–12
+nativity,,,,malankara,Service of the Fire,gospel,Luke 2:1–14
+nativity,,,,malankara,Matins,gospel,Luke 2:15–20
+nativity,,,,malankara,,ot,Genesis 21:1–8
+nativity,,,,malankara,,ot,Micah 5:1–4
+nativity,,,,malankara,,ot,Isaiah 9:1–7
+nativity,,,,malankara,,catholic,1 John 1:1–10
+nativity,,,,malankara,,epistle,Galatians 3:23–4:7
+nativity,,,,malankara,,gospel,Matthew 2:1–12
+praise_mother,,,,malankara,Vespers,gospel,Luke 2:15–20
+praise_mother,,,,malankara,Matins,gospel,Luke 11:23–32
+praise_mother,,,,malankara,,ot,Exodus 3:1–10
+praise_mother,,,,malankara,,ot,Ezekiel 44:1–12
+praise_mother,,,,malankara,,acts,Acts 7:30–43
+praise_mother,,,,malankara,,epistle,Romans 1:1–10
+praise_mother,,,,malankara,,gospel,Luke 8:16–21
+12-27,,,,malankara,Massacre of the Infants: Vespers,gospel,Matthew 2:13–18
+12-27,,,,malankara,Massacre of the Infants: Matins,gospel,Mark 6:1–6
+12-27,,,,malankara,Massacre of the Infants,ot,Exodus 1:1–22
+12-27,,,,malankara,Massacre of the Infants,ot,Jeremiah 31:15–20
+12-27,,,,malankara,Massacre of the Infants,ot,Isaiah 60:8–14
+12-27,,,,malankara,Massacre of the Infants,acts,Acts 7:11–29
+12-27,,,,malankara,Massacre of the Infants,epistle,Romans 15:1–7
+12-27,,,,malankara,Massacre of the Infants,gospel,Matthew 2:13–18
+after_nativity:1,,,,malankara,Vespers,gospel,Matthew 10:16–23
+after_nativity:1,,,,malankara,Matins,gospel,John 15:18–21
+after_nativity:1,,,,malankara,,ot,Genesis 37:13–28
+after_nativity:1,,,,malankara,,ot,Zechariah 8:3–8
+after_nativity:1,,,,malankara,,ot,Isaiah 5:20–30
+after_nativity:1,,,,malankara,,acts,Acts 16:6–10
+after_nativity:1,,,,malankara,,epistle,1 Corinthians 10:1–13
+after_nativity:1,,,,malankara,,gospel,"Matthew 2:9–15, 19–23"
+circumcision,,,,malankara,Vespers,gospel,Luke 13:6–9
+circumcision,,,,malankara,Matins,gospel,John 9:4–7
+circumcision,,,,malankara,,ot,Genesis 12:1–9
+circumcision,,,,malankara,,ot,Deuteronomy 10:12–11:1
+circumcision,,,,malankara,,ot,Ezekiel 18:21–24
+circumcision,,,,malankara,,catholic,1 John 3:13–18
+circumcision,,,,malankara,,epistle,Romans 2:28–3:8
+circumcision,,,,malankara,,gospel,Luke 2:21
+circumcision,,,,malankara,,gospel,John 15:5–19
+after_nativity:2,,,,malankara,Vespers,gospel,John 1:35–42
+after_nativity:2,,,,malankara,Matins,gospel,John 1:43–51
+after_nativity:2,,,,malankara,,ot,Genesis 37:1–11
+after_nativity:2,,,,malankara,,ot,1 Samuel 2:18–21
+after_nativity:2,,,,malankara,,ot,Isaiah 26:1–12
+after_nativity:2,,,,malankara,,catholic,1 John 3:21–24
+after_nativity:2,,,,malankara,,epistle,Hebrews 11:23–31
+after_nativity:2,,,,malankara,,gospel,Luke 2:40–52
+denho,,,,malankara,Vespers,gospel,Mark 1:1–11
+denho,,,,malankara,Matins,gospel,Matthew 3:1–17
+denho,,,,malankara,,ot,Genesis 24:10–20
+denho,,,,malankara,,ot,2 Kings 3:19–25
+denho,,,,malankara,,ot,Ezekiel 47:1–12
+denho,,,,malankara,,ot,Isaiah 12:1–6
+denho,,,,malankara,,acts,Acts 19:1–7
+denho,,,,malankara,,epistle,Titus 2:11–3:9
+denho,,,,malankara,,gospel,Luke 3:7–22
+denho,,,,malankara,Blessing of the Water,acts,Acts 8:35–40
+denho,,,,malankara,Blessing of the Water,epistle,Hebrews 10:15–25
+denho,,,,malankara,Blessing of the Water,gospel,John 4:1–42
+baptist,,,,malankara,Vespers,gospel,"Luke 3:1–14, 19–20"
+baptist,,,,malankara,Matins,gospel,Mark 6:14–29
+baptist,,,,malankara,,ot,Genesis 4:1–15
+baptist,,,,malankara,,ot,Jeremiah 37:11–21
+baptist,,,,malankara,,ot,Isaiah 40:3–8; 41:8–13
+baptist,,,,malankara,,catholic,1 Peter 3:12–17
+baptist,,,,malankara,,epistle,Romans 8:35–39
+baptist,,,,malankara,,gospel,Matthew 14:1–12
+01-08,,,,malankara,St Stephen: Vespers,gospel,Mark 12:1–12
+01-08,,,,malankara,St Stephen: Matins,gospel,John 8:34–59
+01-08,,,,malankara,St Stephen,ot,Genesis 4:1–15
+01-08,,,,malankara,St Stephen,ot,Isaiah 37:8–20
+01-08,,,,malankara,St Stephen,ot,Sirach 50:1–2
+01-08,,,,malankara,St Stephen,acts,Acts 7:51–8:2
+01-08,,,,malankara,St Stephen,epistle,Romans 8:35–39
+01-08,,,,malankara,St Stephen,gospel,Matthew 23:34–39
+after_denho:1,,date lt easter-63,,malankara,Vespers,gospel,Mark 1:14–34
+after_denho:1,,date lt easter-63,,malankara,Matins,gospel,John 1:18–28
+after_denho:1,,date lt easter-63,,malankara,,ot,Genesis 25:19–34; 30:36–31:2
+after_denho:1,,date lt easter-63,,malankara,,ot,2 Kings 5:1–14
+after_denho:1,,date lt easter-63,,malankara,,ot,Isaiah 49:7–13
+after_denho:1,,date lt easter-63,,malankara,,acts,Acts 2:37–47
+after_denho:1,,date lt easter-63,,malankara,,epistle,Ephesians 1:3–14
+after_denho:1,,date lt easter-63,,malankara,,gospel,Matthew 4:12–22
+after_denho:2,,date lt easter-63,,malankara,Vespers,gospel,John 1:26–34
+after_denho:2,,date lt easter-63,,malankara,Matins,gospel,John 1:35–42
+after_denho:2,,date lt easter-63,,malankara,,ot,Leviticus 22:26–33
+after_denho:2,,date lt easter-63,,malankara,,ot,Proverbs 9:1–9
+after_denho:2,,date lt easter-63,,malankara,,ot,Isaiah 51:1–8
+after_denho:2,,date lt easter-63,,malankara,,catholic,1 Peter 3:7–15
+after_denho:2,,date lt easter-63,,malankara,,epistle,Hebrews 1:1; 2:4
+after_denho:2,,date lt easter-63,,malankara,,gospel,John 1:43–51
+after_denho:3,,date lt easter-63,,malankara,Vespers,gospel,John 3:22–4:3
+after_denho:3,,date lt easter-63,,malankara,Matins,gospel,John 5:30–47
+after_denho:3,,date lt easter-63,,malankara,,ot,2 Kings 2:19–22
+after_denho:3,,date lt easter-63,,malankara,,ot,Joel 2:21–32
+after_denho:3,,date lt easter-63,,malankara,,ot,Jeremiah 31:1–12
+after_denho:3,,date lt easter-63,,malankara,,acts,Acts 17:16–34
+after_denho:3,,date lt easter-63,,malankara,,epistle,1 Corinthians 3:16–4:5
+after_denho:3,,date lt easter-63,,malankara,,gospel,John 3:1–12
+after_denho:4,,date lt easter-63,,malankara,Vespers,gospel,Luke 7:18–23
+after_denho:4,,date lt easter-63,,malankara,Matins,gospel,Mark 12:28–37
+after_denho:4,,date lt easter-63,,malankara,,ot,Genesis 2:4–17
+after_denho:4,,date lt easter-63,,malankara,,ot,Deuteronomy 18:9–16
+after_denho:4,,date lt easter-63,,malankara,,ot,Isaiah 40:27–31
+after_denho:4,,date lt easter-63,,malankara,,acts,Acts 18:1–4; 20:33–35
+after_denho:4,,date lt easter-63,,malankara,,catholic,James 5:1–14
+after_denho:4,,date lt easter-63,,malankara,,epistle,1 Corinthians 12:12–27
+after_denho:4,,date lt easter-63,,malankara,,epistle,1 Thessalonians 4:9–12
+after_denho:4,,date lt easter-63,,malankara,,epistle,2 Thessalonians 3:6–15
+after_denho:4,,date lt easter-63,,malankara,,gospel,Mark 6:1–6
+after_denho:5,,date lt easter-63,,malankara,Vespers,gospel,Matthew 11:1–15
+after_denho:5,,date lt easter-63,,malankara,Matins,gospel,Luke 5:1–11
+after_denho:5,,date lt easter-63,,malankara,,ot,Genesis 9:12–17
+after_denho:5,,date lt easter-63,,malankara,,ot,Psalm 29:1–11
+after_denho:5,,date lt easter-63,,malankara,,ot,Isaiah 41:8–20
+after_denho:5,,date lt easter-63,,malankara,,acts,Acts 9:10–21
+after_denho:5,,date lt easter-63,,malankara,,epistle,2 Corinthians 4:1–6
+after_denho:5,,date lt easter-63,,malankara,,gospel,Mark 1:12–20
+02-02,,,,malankara,Presentation of the Lord: Vespers,gospel,Luke 2:22–40
+02-02,,,,malankara,Presentation of the Lord: Matins,gospel,Luke 2:22–40
+02-02,,,,malankara,Presentation of the Lord,ot,Leviticus 12:1–8; 19:30–37
+02-02,,,,malankara,Presentation of the Lord,ot,Proverbs 6:20–24; 23:22–26
+02-02,,,,malankara,Presentation of the Lord,ot,Isaiah 11:1–10
+02-02,,,,malankara,Presentation of the Lord,acts,Acts 24:10–23
+02-02,,,,malankara,Presentation of the Lord,epistle,Ephesians 3:13–21; 6:1–4
+02-02,,,,malankara,Presentation of the Lord,gospel,Luke 2:22–40
+02-03,,,,malankara,All Departed Holy Fathers: Vespers,gospel,Luke 13:22–30
+02-03,,,,malankara,All Departed Holy Fathers: Matins,gospel,Matthew 5:1–20
+02-03,,,,malankara,All Departed Holy Fathers,ot,Genesis 39:11–23
+02-03,,,,malankara,All Departed Holy Fathers,ot,Lamentations 3:1–21
+02-03,,,,malankara,All Departed Holy Fathers,catholic,James 1:12–21
+02-03,,,,malankara,All Departed Holy Fathers,epistle,2 Timothy 3:10–15
+02-03,,,,malankara,All Departed Holy Fathers,gospel,Luke 6:20–31
+easter-69,,,,malankara,Vespers,gospel,Matthew 12:31–41
+easter-69,,,,malankara,Matins,ot,Numbers 5:5–10
+easter-69,,,,malankara,Matins,ot,Jonah 1:1–17
+easter-69,,,,malankara,Matins,ot,Isaiah 19:17–22
+easter-69,,,,malankara,Matins,acts,Acts 13:6–12
+easter-69,,,,malankara,Matins,epistle,Colossians 1:3–13
+easter-69,,,,malankara,Matins,gospel,Matthew 7:1–12
+easter-68,,,,malankara,Vespers,gospel,Luke 4:24–32
+easter-68,,,,malankara,Matins,ot,Exodus 22:28–30
+easter-68,,,,malankara,Matins,ot,Micah 1:1–16
+easter-68,,,,malankara,Matins,ot,Jonah 2:1–10
+easter-68,,,,malankara,Matins,ot,Nahum 1:1–14
+easter-68,,,,malankara,Matins,ot,Isaiah 57:13–19
+easter-68,,,,malankara,Matins,acts,Acts 8:9–25
+easter-68,,,,malankara,Matins,epistle,Romans 1:18–32
+easter-68,,,,malankara,Matins,gospel,Matthew 24:36–46
+easter-67,,,,malankara,Vespers,gospel,"Luke 11:5–13, 29–32"
+easter-67,,,,malankara,Matins,ot,Exodus 23:1–9
+easter-67,,,,malankara,Matins,ot,Zephaniah 1:11–2:4
+easter-67,,,,malankara,Matins,ot,Jonah 3:1–10
+easter-67,,,,malankara,Matins,ot,Isaiah 41:17–26
+easter-67,,,,malankara,Matins,catholic,James 1:13–27
+easter-67,,,,malankara,Matins,epistle,Romans 15:24–33
+easter-67,,,,malankara,Matins,gospel,Luke 11:27–36
+easter-67,,,,malankara,,catholic,2 Peter 2:1–18
+easter-67,,,,malankara,,epistle,1 Thessalonians 5:12–24
+easter-67,,,,malankara,,gospel,Matthew 12:38–50
+easter-66,,,,malankara,,ot,Genesis 18:23–33
+easter-66,,,,malankara,,ot,Joshua 7:6–20
+easter-66,,,,malankara,,ot,Jonah 4:1–11
+easter-66,,,,malankara,,catholic,James 4:7–17
+easter-66,,,,malankara,,epistle,Ephesians 5:3–21
+easter-66,,,,malankara,,gospel,Luke 12:54–13:9
+easter-63,,,,malankara,Vespers,gospel,Matthew 25:13–30
+easter-63,,,,malankara,Matins,gospel,Luke 19:11–28
+easter-63,,,,malankara,,ot,Numbers 20:23–29
+easter-63,,,,malankara,,ot,Deuteronomy 34:1–8
+easter-63,,,,malankara,,ot,Isaiah 65:13–20
+easter-63,,,,malankara,,acts,Acts 20:26–38
+easter-63,,,,malankara,,epistle,1 Thessalonians 4:13–5:11
+easter-63,,,,malankara,,gospel,Matthew 24:42–51
+easter-56,,,,malankara,Vespers,gospel,Matthew 25:31–46
+easter-56,,,,malankara,Matins,gospel,John 5:19–29
+easter-56,,,,malankara,,ot,Genesis 49:33–50:13
+easter-56,,,,malankara,,ot,Ezekiel 34:1–14
+easter-56,,,,malankara,,ot,Isaiah 38:10–20
+easter-56,,,,malankara,,ot,2 Maccabees 12:38–45
+easter-56,,,,malankara,,catholic,James 3:1–12
+easter-56,,,,malankara,,epistle,1 Corinthians 15:20–28
+easter-56,,,,malankara,,gospel,Luke 12:32–48
+kothne,,,,malankara,Vespers,gospel,John 3:1–6
+kothne,,,,malankara,Matins,gospel,Luke 16:1–18
+kothne,,,,malankara,,ot,Exodus 20:1–21
+kothne,,,,malankara,,ot,Joel 2:12–20
+kothne,,,,malankara,,ot,Isaiah 58:5–14
+kothne,,,,malankara,,acts,Acts 11:19–26
+kothne,,,,malankara,,acts,Revelation 2:1–7
+kothne,,,,malankara,,epistle,Colossians 3:1–17
+kothne,,,,malankara,,gospel,John 2:1–11
+easter-48,,,,malankara,Matins,ot,Genesis 1:1–12
+easter-48,,,,malankara,Matins,ot,Wisdom 7:7–24
+easter-48,,,,malankara,Matins,ot,Isaiah 29:15–24
+easter-48,,,,malankara,Matins,catholic,James 1:2–12
+easter-48,,,,malankara,Matins,epistle,Romans 1:18–25
+easter-48,,,,malankara,Matins,gospel,Matthew 4:1–11
+easter-48,,,,malankara,Shubkono,catholic,1 John 4:11–20
+easter-48,,,,malankara,Shubkono,epistle,1 Corinthians 13:1–13
+easter-48,,,,malankara,Shubkono,gospel,Matthew 18:18–35
+easter-47,,,,malankara,Vespers,gospel,Luke 4:1–15
+easter-47,,,,malankara,Matins,ot,Exodus 32:30–35
+easter-47,,,,malankara,Matins,ot,Hosea 14:1–9
+easter-47,,,,malankara,Matins,ot,Isaiah 30:1–4
+easter-47,,,,malankara,Matins,catholic,James 1:12–27
+easter-47,,,,malankara,Matins,epistle,Ephesians 4:32–5:21
+easter-47,,,,malankara,Matins,gospel,Matthew 6:1–6
+easter-46,,,,malankara,Vespers,gospel,Matthew 6:19–24
+easter-46,,,,malankara,Vespers,gospel,Luke 16:14–18
+easter-46,,,,malankara,Matins,ot,Genesis 1:14–18
+easter-46,,,,malankara,Matins,ot,Isaiah 13:6–13
+easter-46,,,,malankara,Matins,catholic,James 2:1–13
+easter-46,,,,malankara,Matins,epistle,Romans 2:7–24
+easter-46,,,,malankara,Matins,gospel,Matthew 6:25–34
+easter-45,,,,malankara,Vespers,gospel,Matthew 7:1–12
+easter-45,,,,malankara,Matins,ot,Exodus 22:5–6
+easter-45,,,,malankara,Matins,ot,1 Kings 18:16–24
+easter-45,,,,malankara,Matins,ot,2 Kings 17:7–23
+easter-45,,,,malankara,Matins,ot,Isaiah 36:1–7; 37:1–7
+easter-45,,,,malankara,Matins,catholic,James 2:14–26
+easter-45,,,,malankara,Matins,epistle,Romans 2:28–3:8
+easter-45,,,,malankara,Matins,gospel,Matthew 7:13–27
+easter-44,,,,malankara,Vespers,gospel,Matthew 5:17–26
+easter-44,,,,malankara,Matins,ot,Ezekiel 18:20–32
+easter-44,,,,malankara,Matins,ot,Hosea 4:1–11
+easter-44,,,,malankara,Matins,ot,Deuteronomy 6:1–13
+easter-44,,,,malankara,Matins,ot,Isaiah 1:1–9
+easter-44,,,,malankara,Matins,catholic,James 3:13–4:5
+easter-44,,,,malankara,Matins,epistle,Romans 3:9–26
+easter-44,,,,malankara,Matins,gospel,Matthew 5:27–37
+easter-43,,,,malankara,Vespers,gospel,Matthew 10:24–38
+easter-43,,,,malankara,Matins,gospel,John 15:17–16:3
+easter-43,,,,malankara,,ot,Genesis 2:4–17
+easter-43,,,,malankara,,ot,Zechariah 7:8–14
+easter-43,,,,malankara,,ot,Isaiah 1:24–31
+easter-43,,,,malankara,,acts,Acts 12:1–24
+easter-43,,,,malankara,,epistle,Romans 12:10–21
+easter-43,,,,malankara,,gospel,John 4:46–54
+leper,,,,malankara,Vespers,gospel,Mark 1:32–45
+leper,,,,malankara,Matins,gospel,Mark 9:14–29
+leper,,,,malankara,,ot,Genesis 7:6–24
+leper,,,,malankara,,ot,2 Kings 5:1–14
+leper,,,,malankara,,ot,Isaiah 33:2–9
+leper,,,,malankara,,ot,Jeremiah 50:4–7; 15:15–21
+leper,,,,malankara,,acts,Acts 5:12–16; 19:8–12
+leper,,,,malankara,,acts,Acts 9:22–31
+leper,,,,malankara,,epistle,Romans 3:27–4:5
+leper,,,,malankara,,gospel,Luke 5:12–16; 4:40–41
+easter-41,,,,malankara,Matins,ot,Genesis 35:1–5
+easter-41,,,,malankara,Matins,ot,2 Samuel 16:5–12
+easter-41,,,,malankara,Matins,ot,Hosea 2:21–3:5
+easter-41,,,,malankara,Matins,catholic,James 4:7–5:6
+easter-41,,,,malankara,Matins,epistle,1 Timothy 2:1–15
+easter-41,,,,malankara,Matins,gospel,Luke 6:27–36
+easter-40,,,,malankara,Vespers,gospel,Luke 6:37–49
+easter-40,,,,malankara,Matins,ot,Exodus 16:15–27
+easter-40,,,,malankara,Matins,acts,Acts 10:25–33
+easter-40,,,,malankara,Matins,epistle,2 Corinthians 6:1–11
+easter-40,,,,malankara,Matins,gospel,Mark 4:21–34
+easter-39,,,,malankara,Vespers,gospel,Matthew 18:1–11
+easter-39,,,,malankara,Matins,ot,Exodus 34:1–17
+easter-39,,,,malankara,Matins,ot,Proverbs 7:1–11
+easter-39,,,,malankara,Matins,ot,Zechariah 8:1–8
+easter-39,,,,malankara,Matins,catholic,2 John 1–13
+easter-39,,,,malankara,Matins,epistle,1 Corinthians 8:1–13
+easter-39,,,,malankara,Matins,gospel,Luke 11:1–13
+easter-38,,,,malankara,Vespers,gospel,Luke 16:1–13
+easter-38,,,,malankara,Matins,ot,Numbers 16:1–10
+easter-38,,,,malankara,Matins,acts,Acts 10:34–48
+easter-38,,,,malankara,Matins,epistle,1 Corinthians 9:1–12
+easter-38,,,,malankara,Matins,gospel,Luke 18:1–8
+easter-38,,,,malankara,Matins,gospel,Matthew 18:18–22
+easter-37,,,,malankara,Vespers,gospel,Matthew 16:21–28
+easter-37,,,,malankara,Matins,ot,Exodus 21:20–27
+easter-37,,,,malankara,Matins,ot,Job 25:1–6
+easter-37,,,,malankara,Matins,acts,Acts 11:1–18
+easter-37,,,,malankara,Matins,epistle,Romans 1:16–25
+easter-37,,,,malankara,Matins,gospel,Matthew 5:38–48
+easter-36,,,,malankara,,ot,Deuteronomy 30:1–7
+easter-36,,,,malankara,,ot,Isaiah 35:1–10
+easter-36,,,,malankara,,acts,Acts 13:37–52
+easter-36,,,,malankara,,epistle,2 Corinthians 8:1–9
+easter-36,,,,malankara,,gospel,Mark 1:21–31
+paralytic,,,,malankara,Vespers,gospel,Luke 5:17–26
+paralytic,,,,malankara,Matins,gospel,John 5:1–18
+paralytic,,,,malankara,,ot,Ezekiel 34:1–16
+paralytic,,,,malankara,,ot,Exodus 4:10–17
+paralytic,,,,malankara,,ot,2 Kings 2:1–11
+paralytic,,,,malankara,,ot,Isaiah 5:20–25
+paralytic,,,,malankara,,acts,Acts 5:12–16; 19:8–12
+paralytic,,,,malankara,,epistle,Romans 5:1–11
+paralytic,,,,malankara,,epistle,2 Corinthians 12:7–10
+paralytic,,,,malankara,,gospel,Mark 2:1–12
+easter-34,,,,malankara,Matins,ot,Genesis 18:20–33
+easter-34,,,,malankara,Matins,ot,Judges 6:11–21
+easter-34,,,,malankara,Matins,acts,Acts 28:1–10
+easter-34,,,,malankara,Matins,acts,Revelation 2:1–7
+easter-34,,,,malankara,Matins,epistle,1 Timothy 6:1–12
+easter-34,,,,malankara,Matins,gospel,Mark 2:13–22
+easter-33,,,,malankara,Vespers,gospel,Mark 10:17–27
+easter-33,,,,malankara,Matins,ot,Exodus 20:1–19
+easter-33,,,,malankara,Matins,ot,Job 31:1–15
+easter-33,,,,malankara,Matins,ot,Proverbs 3:1–12
+easter-33,,,,malankara,Matins,catholic,James 1:27–2:13
+easter-33,,,,malankara,Matins,epistle,Ephesians 2:1–18
+easter-33,,,,malankara,Matins,gospel,Mark 4:1–20
+easter-32,,,,malankara,Vespers,gospel,"Luke 9:44–50, 57–62"
+easter-32,,,,malankara,Matins,ot,Leviticus 25:35–46
+easter-32,,,,malankara,Matins,ot,1 Samuel 9:18–27
+easter-32,,,,malankara,Matins,ot,Isaiah 65:16–25
+easter-32,,,,malankara,Matins,acts,Acts 13:1–3
+easter-32,,,,malankara,Matins,epistle,Ephesians 6:1–9
+easter-32,,,,malankara,Matins,gospel,Luke 12:32–40
+easter-31,,,,malankara,Vespers,gospel,Luke 13:18–30
+easter-31,,,,malankara,Matins,ot,Numbers 12:1–10
+easter-31,,,,malankara,Matins,ot,2 Chronicles 26:16–21
+easter-31,,,,malankara,Matins,ot,Micah 6:1–8
+easter-31,,,,malankara,Matins,catholic,James 4:1–17
+easter-31,,,,malankara,Matins,epistle,Philippians 1:1–11
+easter-31,,,,malankara,Matins,gospel,Mark 9:30–42
+easter-30,,,,malankara,Vespers,gospel,Matthew 6:5–15
+easter-30,,,,malankara,Matins,ot,Deuteronomy 8:1–20
+easter-30,,,,malankara,Matins,ot,Isaiah 1:10–20
+easter-30,,,,malankara,Matins,catholic,1 Peter 3:7–15
+easter-30,,,,malankara,Matins,epistle,Romans 2:2–13
+easter-30,,,,malankara,Matins,gospel,Luke 18:9–17
+easter-29,,,,malankara,,ot,Exodus 16:1–10
+easter-29,,,,malankara,,ot,2 Kings 4:38–44
+easter-29,,,,malankara,,ot,Hosea 2:18–23
+easter-29,,,,malankara,,catholic,1 Peter 2:1–10
+easter-29,,,,malankara,,epistle,Philippians 2:12–30
+easter-29,,,,malankara,,gospel,Mark 8:1–10
+canaanite,,,,malankara,Vespers,gospel,Mark 7:24–37
+canaanite,,,,malankara,Matins,gospel,Luke 7:1–10
+canaanite,,,,malankara,,ot,1 Samuel 7:10–17
+canaanite,,,,malankara,,ot,Numbers 17:1–8
+canaanite,,,,malankara,,ot,Isaiah 56:1–7
+canaanite,,,,malankara,,acts,Acts 4:1–12
+canaanite,,,,malankara,,epistle,Romans 7:14–25
+canaanite,,,,malankara,,gospel,Matthew 15:21–31
+easter-27,,,,malankara,Matins,ot,Leviticus 16:1–17
+easter-27,,,,malankara,Matins,ot,Amos 6:1–9
+easter-27,,,,malankara,Matins,acts,Acts 14:19–15:3
+easter-27,,,,malankara,Matins,epistle,2 Corinthians 11:1–15
+easter-27,,,,malankara,Matins,gospel,Mark 12:35–44
+easter-26,,,,malankara,Vespers,gospel,Matthew 20:1–16
+easter-26,,,,malankara,Matins,ot,Numbers 28:1–8
+easter-26,,,,malankara,Matins,ot,1 Samuel 21:1–9
+easter-26,,,,malankara,Matins,acts,Acts 14:8–22
+easter-26,,,,malankara,Matins,epistle,1 Corinthians 16:13–24
+easter-26,,,,malankara,Matins,gospel,Matthew 11:25–12:8
+mid_lent,,,,malankara,Vespers,gospel,Matthew 17:22–27
+mid_lent,,,,malankara,Matins,gospel,John 3:13–21
+mid_lent,,,,malankara,,ot,Numbers 21:4–9
+mid_lent,,,,malankara,,ot,Psalm 34:1–9
+mid_lent,,,,malankara,,ot,Zechariah 12:6–14
+mid_lent,,,,malankara,,acts,Acts 15:22–33
+mid_lent,,,,malankara,,epistle,2 Corinthians 9:1–15
+mid_lent,,,,malankara,,gospel,John 3:13–21
+easter-24,,,,malankara,Vespers,gospel,Luke 15:11–32
+easter-24,,,,malankara,Matins,ot,Deuteronomy 5:6–22
+easter-24,,,,malankara,Matins,ot,Psalm 41:1–3
+easter-24,,,,malankara,Matins,ot,Proverbs 22:1–12
+easter-24,,,,malankara,Matins,acts,Acts 15:35–40
+easter-24,,,,malankara,Matins,epistle,2 Corinthians 1:13–22
+easter-24,,,,malankara,Matins,gospel,Matthew 19:16–26
+easter-23,,,,malankara,Vespers,gospel,Luke 16:19–31
+easter-23,,,,malankara,Matins,ot,Leviticus 19:9–18
+easter-23,,,,malankara,Matins,ot,Daniel 9:1–11
+easter-23,,,,malankara,Matins,acts,Acts 16:1–7
+easter-23,,,,malankara,Matins,epistle,2 Corinthians 12:19–13:13
+easter-23,,,,malankara,Matins,gospel,Luke 17:1–10
+easter-22,,,,malankara,,ot,Genesis 18:1–15
+easter-22,,,,malankara,,ot,2 Samuel 9:1–8
+easter-22,,,,malankara,,acts,Acts 16:8–15
+easter-22,,,,malankara,,epistle,1 Corinthians 9:14–27
+easter-22,,,,malankara,,gospel,Luke 9:10–17
+bent_woman,,,,malankara,Vespers,gospel,Luke 10:25–37
+bent_woman,,,,malankara,Matins,gospel,Luke 7:11–17
+bent_woman,,,,malankara,,ot,Genesis 9:1–7
+bent_woman,,,,malankara,,ot,Jeremiah 51:1–9
+bent_woman,,,,malankara,,ot,Isaiah 50:1–5
+bent_woman,,,,malankara,,ot,Sirach 51:13–30
+bent_woman,,,,malankara,,catholic,1 Peter 3:8–16
+bent_woman,,,,malankara,,epistle,Romans 12:1–15
+bent_woman,,,,malankara,,gospel,Luke 13:10–17
+easter-20,,,,malankara,Matins,ot,Genesis 20:8–18
+easter-20,,,,malankara,Matins,ot,2 Kings 2:19–25
+easter-20,,,,malankara,Matins,acts,Acts 19:13–22
+easter-20,,,,malankara,Matins,epistle,Romans 9:14–21
+easter-20,,,,malankara,Matins,gospel,Luke 4:31–41
+easter-19,,,,malankara,Vespers,gospel,Mark 3:1–12
+easter-19,,,,malankara,Matins,ot,Exodus 14:21–31
+easter-19,,,,malankara,Matins,ot,Isaiah 40:12–24
+easter-19,,,,malankara,Matins,acts,Acts 18:18–28
+easter-19,,,,malankara,Matins,epistle,Romans 1:26–32
+easter-19,,,,malankara,Matins,gospel,Mark 5:1–20
+easter-18,,,,malankara,Vespers,gospel,Mark 6:30–46
+easter-18,,,,malankara,Matins,ot,Deuteronomy 31:16–23
+easter-18,,,,malankara,Matins,ot,Isaiah 41:8–17
+easter-18,,,,malankara,Matins,acts,Acts 5:1–6
+easter-18,,,,malankara,Matins,epistle,1 Corinthians 10:1–13
+easter-18,,,,malankara,Matins,gospel,Matthew 14:14–23
+easter-17,,,,malankara,Vespers,gospel,Matthew 14:23–36
+easter-17,,,,malankara,Matins,ot,Genesis 50:14–22
+easter-17,,,,malankara,Matins,ot,Isaiah 42:1–9
+easter-17,,,,malankara,Matins,acts,Acts 19:8–12
+easter-17,,,,malankara,Matins,epistle,Colossians 3:1–17
+easter-17,,,,malankara,Matins,gospel,Mark 6:47–56
+easter-16,,,,malankara,Vespers,gospel,Mark 5:21–43
+easter-16,,,,malankara,Matins,ot,Deuteronomy 27:16–28:8
+easter-16,,,,malankara,Matins,ot,2 Kings 4:32–37
+easter-16,,,,malankara,Matins,ot,Hosea 6:1–6
+easter-16,,,,malankara,Matins,acts,Acts 16:16–23
+easter-16,,,,malankara,Matins,epistle,1 Timothy 1:1–20
+easter-16,,,,malankara,Matins,gospel,Matthew 9:18–31
+easter-15,,,,malankara,,ot,Deuteronomy 27:16–28:8
+easter-15,,,,malankara,,ot,2 Kings 4:32–37
+easter-15,,,,malankara,,ot,Hosea 6:1–6
+easter-15,,,,malankara,,acts,Acts 5:33–42
+easter-15,,,,malankara,,epistle,1 Thessalonians 2:13–20
+easter-15,,,,malankara,,gospel,Luke 6:1–11
+blind,,,,malankara,Vespers,gospel,Mark 10:46–52
+blind,,,,malankara,Matins,gospel,Matthew 9:27–31
+blind,,,,malankara,,ot,Deuteronomy 25:13–16; 26:1–13
+blind,,,,malankara,,ot,Job 42:1–10
+blind,,,,malankara,,ot,Malachi 3:7–12
+blind,,,,malankara,,catholic,1 Peter 4:12–19
+blind,,,,malankara,,epistle,2 Corinthians 9:6–15
+blind,,,,malankara,,epistle,Ephesians 5:1–14
+blind,,,,malankara,,gospel,John 9:1–41
+easter-13,,,,malankara,Matins,ot,Genesis 49:8–12
+easter-13,,,,malankara,Matins,ot,1 Kings 17:10–16
+easter-13,,,,malankara,Matins,ot,Zechariah 9:9–14
+easter-13,,,,malankara,Matins,acts,Acts 2:37–47
+easter-13,,,,malankara,Matins,epistle,1 Thessalonians 4:1–12
+easter-13,,,,malankara,Matins,gospel,Luke 18:31–34; 19:1–10
+easter-12,,,,malankara,Vespers,gospel,Luke 9:18–27
+easter-12,,,,malankara,Matins,ot,Genesis 41:38–52
+easter-12,,,,malankara,Matins,ot,1 Samuel 17:34–51
+easter-12,,,,malankara,Matins,acts,Acts 21:1–14
+easter-12,,,,malankara,Matins,epistle,Romans 8:12–27
+easter-12,,,,malankara,Matins,gospel,Mark 10:32–45
+easter-11,,,,malankara,Vespers,gospel,Matthew 8:23–9:1
+easter-11,,,,malankara,Matins,ot,Genesis 46:1–7
+easter-11,,,,malankara,Matins,ot,Isaiah 63:7–19
+easter-11,,,,malankara,Matins,ot,Daniel 7:9–18
+easter-11,,,,malankara,Matins,acts,Acts 14:8–19
+easter-11,,,,malankara,Matins,epistle,Galatians 5:13–26
+easter-11,,,,malankara,Matins,gospel,Mark 4:35–41
+easter-10,,,,malankara,Vespers,gospel,Matthew 7:1–12
+easter-10,,,,malankara,Matins,ot,Exodus 15:19–21
+easter-10,,,,malankara,Matins,ot,Joshua 6:1–5
+easter-10,,,,malankara,Matins,ot,Isaiah 51:1–8
+easter-10,,,,malankara,Matins,acts,Acts 16:23–40
+easter-10,,,,malankara,Matins,epistle,2 Corinthians 6:1–10
+easter-10,,,,malankara,Matins,gospel,Mark 8:22–26
+easter-10,,,,malankara,Matins,gospel,Matthew 20:17–19
+fortieth_friday,,,,malankara,Vespers,gospel,Luke 4:1–13
+fortieth_friday,,,,malankara,Matins,gospel,Matthew 4:1–11
+fortieth_friday,,,,malankara,,ot,Deuteronomy 1:3–14
+fortieth_friday,,,,malankara,,ot,2 Samuel 24:18–25
+fortieth_friday,,,,malankara,,ot,Isaiah 58:1–8
+fortieth_friday,,,,malankara,,catholic,1 Peter 1:13–22
+fortieth_friday,,,,malankara,,epistle,Romans 13:11–14:9
+fortieth_friday,,,,malankara,,gospel,Matthew 4:1–11
+lazarus,,,,malankara,Vespers,gospel,Luke 10:38–42
+lazarus,,,,malankara,Matins,gospel,"John 11:1–8, 11–27"
+lazarus,,,,malankara,,ot,Leviticus 27:30–33
+lazarus,,,,malankara,,ot,Wisdom 11:22–12:5
+lazarus,,,,malankara,,ot,Isaiah 61:1–9
+lazarus,,,,malankara,,catholic,1 Peter 2:6–10
+lazarus,,,,malankara,,epistle,Ephesians 1:15–2:7
+lazarus,,,,malankara,,gospel,John 11:28–46
+03-09,,date wd sat|sun,,malankara,Forty Martyrs: Vespers,gospel,Matthew 10:16–33
+sat>03-09,,03-09 nwd sat|sun,,malankara,Forty Martyrs: Vespers,gospel,Matthew 10:16–33
+03-09,,date wd sat|sun,,malankara,Forty Martyrs: Matins,gospel,Luke 12:1–12
+sat>03-09,,03-09 nwd sat|sun,,malankara,Forty Martyrs: Matins,gospel,Luke 12:1–12
+03-09,,date wd sat|sun,,malankara,Forty Martyrs,ot,Genesis 4:3–12
+03-09,,date wd sat|sun,,malankara,Forty Martyrs,ot,Isaiah 30:1–4
+03-09,,date wd sat|sun,,malankara,Forty Martyrs,ot,Daniel 3:14–25
+sat>03-09,,03-09 nwd sat|sun,,malankara,Forty Martyrs,ot,Genesis 4:3–12
+sat>03-09,,03-09 nwd sat|sun,,malankara,Forty Martyrs,ot,Isaiah 30:1–4
+sat>03-09,,03-09 nwd sat|sun,,malankara,Forty Martyrs,ot,Daniel 3:14–25
+03-09,,date wd sat|sun,,malankara,Forty Martyrs,acts,Acts 4:19–33
+03-09,,date wd sat|sun,,malankara,Forty Martyrs,epistle,Romans 8:31–39
+03-09,,date wd sat|sun,,malankara,Forty Martyrs,gospel,Mark 8:34–38; 13:9–13
+sat>03-09,,03-09 nwd sat|sun,,malankara,Forty Martyrs,acts,Acts 4:19–33
+sat>03-09,,03-09 nwd sat|sun,,malankara,Forty Martyrs,epistle,Romans 8:31–39
+sat>03-09,,03-09 nwd sat|sun,,malankara,Forty Martyrs,gospel,Mark 8:34–38; 13:9–13
+03-25,,,,malankara,Annunciation: Vespers,gospel,Luke 8:16–21
+03-25,,,,malankara,Annunciation: Matins,gospel,Mark 3:31–35
+03-25,,,,malankara,Annunciation,ot,Deuteronomy 26:16–27:10
+03-25,,,,malankara,Annunciation,ot,Judges 13:2–14
+03-25,,,,malankara,Annunciation,ot,Zechariah 2:10–13; 4:1–7; 8:3
+03-25,,,,malankara,Annunciation,ot,Isaiah 63:15–64:5
+03-25,,,,malankara,Annunciation,catholic,1 John 3:2–17
+03-25,,,,malankara,Annunciation,epistle,Hebrews 6:13–7:10
+03-25,,,,malankara,Annunciation,gospel,Luke 1:26–38
+hosanna,,,,malankara,Vespers,gospel,Matthew 21:1–17
+hosanna,,,,malankara,Midnight Office,gospel,Mark 11:1–11
+hosanna,,,,malankara,Matins,gospel,Luke 19:28–44
+hosanna,,,,malankara,,ot,Genesis 49:8–15
+hosanna,,,,malankara,,ot,1 Samuel 2:18–26; 16:1
+hosanna,,,,malankara,,ot,Daniel 1:16–20
+hosanna,,,,malankara,,ot,Micah 4:1–5
+hosanna,,,,malankara,,ot,1 Kings 3:4–14
+hosanna,,,,malankara,,ot,Zephaniah 3:11–20
+hosanna,,,,malankara,,ot,Jeremiah 30:18–22
+hosanna,,,,malankara,,catholic,1 John 5:1–12
+hosanna,,,,malankara,,epistle,Romans 8:18–25
+hosanna,,,,malankara,,epistle,Ephesians 6:1–24
+hosanna,,,,malankara,,gospel,John 12:12–19
+hosanna,,,,malankara,Procession,gospel,Luke 19:28–40
+hosanna,,,,malankara,Procession,ot,Zechariah 9:9–12
+hosanna,,,,malankara,Procession,ot,Isaiah 51:9–11
+hosanna,,,,malankara,Procession,catholic,1 John 2:7–14
+hosanna,,,,malankara,Procession,epistle,Romans 11:13–24
+hosanna,,,,malankara,Procession,gospel,Mark 11:1–11
+easter-6,,,,malankara,Vespers,gospel,Luke 19:41–20:8
+easter-6,,,,malankara,Midnight Office,gospel,Matthew 21:33–46
+easter-6,,,,malankara,Midnight Office,gospel,Luke 14:12–24
+easter-6,,,,malankara,Midnight Office,gospel,Matthew 25:1–13
+easter-6,,,,malankara,Midnight Office,gospel,Matthew 22:1–14
+easter-6,,,,malankara,Matins and the Hours,ot,Genesis 3:1–21
+easter-6,,,,malankara,Matins and the Hours,ot,Judges 11:30–40
+easter-6,,,,malankara,Matins and the Hours,ot,Isaiah 28:5–13
+easter-6,,,,malankara,Matins and the Hours,acts,Acts 25:6–12
+easter-6,,,,malankara,Matins and the Hours,epistle,Hebrews 1:6–2:4
+easter-6,,,,malankara,Matins and the Hours,gospel,Matthew 21:23–32; 17:10–13
+easter-6,,,,malankara,Matins and the Hours,gospel,Matthew 19:1–12
+easter-6,,,,malankara,Matins and the Hours,gospel,Luke 9:43–45
+easter-6,,,,malankara,Matins and the Hours,gospel,Matthew 22:41–23:12
+easter-5,,,,malankara,Vespers,gospel,Matthew 22:15–33
+easter-5,,,,malankara,Midnight Office,gospel,Matthew 12:38–45
+easter-5,,,,malankara,Midnight Office,gospel,Luke 11:53–55
+easter-5,,,,malankara,Midnight Office,gospel,John 2:12–25; 3:13–21
+easter-5,,,,malankara,Midnight Office,gospel,John 5:30–6:4
+easter-5,,,,malankara,Matins and the Hours,ot,Deuteronomy 31:14–21
+easter-5,,,,malankara,Matins and the Hours,ot,Zephaniah 1:11–18
+easter-5,,,,malankara,Matins and the Hours,catholic,1 John 1:1–9
+easter-5,,,,malankara,Matins and the Hours,epistle,Hebrews 2:5–18
+easter-5,,,,malankara,Matins and the Hours,gospel,John 8:28–59
+easter-5,,,,malankara,Matins and the Hours,gospel,John 7:45–52; 8:12–20
+easter-5,,,,malankara,Matins and the Hours,gospel,Luke 11:37–54
+easter-5,,,,malankara,Matins and the Hours,gospel,John 6:30; 8:21–30
+easter-5,,,,malankara,Matins and the Hours,gospel,Matthew 23:13–39
+easter-4,,,,malankara,Vespers,gospel,"John 11:47–12:2, 9–11"
+easter-4,,,,malankara,Midnight Office,gospel,John 10:15–38
+easter-4,,,,malankara,Midnight Office,gospel,John 12:19–33
+easter-4,,,,malankara,Midnight Office,gospel,John 12:34–50
+easter-4,,,,malankara,Matins and the Hours,ot,Leviticus 6:24–7:7
+easter-4,,,,malankara,Matins and the Hours,ot,1 Samuel 16:1–13
+easter-4,,,,malankara,Matins and the Hours,ot,Isaiah 5:1–7
+easter-4,,,,malankara,Matins and the Hours,acts,Acts 19:21–41
+easter-4,,,,malankara,Matins and the Hours,epistle,Colossians 1:9–23
+easter-4,,,,malankara,Matins and the Hours,gospel,John 6:63–7:13
+easter-4,,,,malankara,Matins and the Hours,gospel,John 7:14–27
+easter-4,,,,malankara,Matins and the Hours,gospel,John 7:28–44
+easter-4,,,,malankara,Matins and the Hours,gospel,Luke 13:31–35
+pesaha,,,,malankara,Vespers,gospel,John 7:45–52; 8:12–20
+pesaha,,,,malankara,Midnight Office,gospel,Matthew 26:1–30
+pesaha,,,,malankara,Midnight Office,gospel,John 6:24–40
+pesaha,,,,malankara,Midnight Office,gospel,John 6:41–63
+pesaha,,,,malankara,Matins,gospel,Luke 22:1–13
+pesaha,,,,malankara,Matins,gospel,John 12:20–36
+pesaha,,,,malankara,Matins,gospel,Luke 7:36–50
+pesaha,,,,malankara,Matins,gospel,Mark 14:1–2
+pesaha,,,,malankara,,ot,Exodus 12:1–11
+pesaha,,,,malankara,,ot,Leviticus 16:3–10
+pesaha,,,,malankara,,ot,Ezekiel 45:18–25
+pesaha,,,,malankara,,acts,Acts 1:15–20
+pesaha,,,,malankara,,epistle,1 Corinthians 5:1–8; 11:23–34
+pesaha,,,,malankara,,gospel,Luke 22:14–30
+pesaha,,,,malankara,Washing of the Feet,gospel,Matthew 26:31–35
+pesaha,,,,malankara,Washing of the Feet,ot,Exodus 34:18–26
+pesaha,,,,malankara,Washing of the Feet,ot,2 Kings 23:21–25
+pesaha,,,,malankara,Washing of the Feet,ot,Isaiah 50:4–10
+pesaha,,,,malankara,Washing of the Feet,catholic,1 Peter 3:17–22
+pesaha,,,,malankara,Washing of the Feet,epistle,Hebrews 10:19–29
+pesaha,,,,malankara,Washing of the Feet,gospel,John 13:1–20
+good_friday,,,,malankara,Vespers,gospel,Luke 22:1–30
+good_friday,,,,malankara,Midnight Office,gospel,Matthew 26:31–46
+good_friday,,,,malankara,Midnight Office,gospel,Mark 14:27–52
+good_friday,,,,malankara,Midnight Office,gospel,Luke 22:31–62
+good_friday,,,,malankara,Matins and the Hours,ot,Leviticus 4:1–7; 16:3–34
+good_friday,,,,malankara,Matins and the Hours,ot,Numbers 19:1–11
+good_friday,,,,malankara,Matins and the Hours,acts,Acts 22:30–23:16
+good_friday,,,,malankara,Matins and the Hours,epistle,1 Corinthians 1:18–31
+good_friday,,,,malankara,Matins and the Hours,epistle,Hebrews 9:11–14
+good_friday,,,,malankara,Matins and the Hours,gospel,Matthew 27:3–10
+good_friday,,,,malankara,Matins and the Hours,gospel,Mark 15:1–10
+good_friday,,,,malankara,Matins and the Hours,gospel,Luke 22:63–71
+good_friday,,,,malankara,Matins and the Hours,gospel,Matthew 27:26–31
+good_friday,,,,malankara,Matins and the Hours,gospel,"Luke 23:2–3, 4–16, 23–25"
+good_friday,,,,malankara,Matins and the Hours,gospel,John 18:28–40
+good_friday,,,,malankara,Matins and the Hours,gospel,Mark 15:12–18
+good_friday,,,,malankara,Matins and the Hours,gospel,Luke 23:26–34
+good_friday,,,,malankara,Matins and the Hours,gospel,Matthew 27:34
+good_friday,,,,malankara,Matins and the Hours,gospel,John 19:23–24
+good_friday,,,,malankara,Matins and the Hours,gospel,"Matthew 27:36–37, 39–43"
+good_friday,,,,malankara,Matins and the Hours,gospel,Luke 23:39–45
+good_friday,,,,malankara,Matins and the Hours,gospel,John 19:25–27
+good_friday,,,,malankara,Matins and the Hours,gospel,"Matthew 27:55–56, 49"
+good_friday,,,,malankara,Matins and the Hours,gospel,Mark 15:33–41
+good_friday,,,,malankara,Matins and the Hours,gospel,Luke 23:44–49
+good_friday,,,,malankara,Matins and the Hours,gospel,John 19:23–30
+good_friday,,,,malankara,Matins and the Hours,ot,Genesis 22:1–14
+good_friday,,,,malankara,Matins and the Hours,ot,Exodus 17:8–14
+good_friday,,,,malankara,Matins and the Hours,ot,Isaiah 52:13–53:12
+good_friday,,,,malankara,Matins and the Hours,catholic,1 Peter 2:19–25
+good_friday,,,,malankara,Matins and the Hours,epistle,Galatians 2:20–3:14; 6:11–18
+good_friday,,,,malankara,Matins and the Hours,gospel,Luke 23:55–56
+good_friday,,,,malankara,Matins and the Hours,gospel,John 19:31–42
+holy_saturday,,,,malankara,Vespers,gospel,Matthew 27:6
+holy_saturday,,,,malankara,Vespers,gospel,Luke 23:55–56
+holy_saturday,,,,malankara,Vespers,gospel,John 19:31–42
+holy_saturday,,,,malankara,Matins,gospel,Matthew 27:62–66
+holy_saturday,,,,malankara,,ot,Genesis 8:1–12
+holy_saturday,,,,malankara,,ot,Zechariah 12:11–13:7
+holy_saturday,,,,malankara,,ot,Jeremiah 38:2–13
+holy_saturday,,,,malankara,,ot,Micah 7:8–13
+holy_saturday,,,,malankara,,catholic,1 Peter 3:13–22
+holy_saturday,,,,malankara,,epistle,Romans 6:1–14
+holy_saturday,,,,malankara,,gospel,Matthew 27:62–66
+holy_saturday,,,,malankara,Shubkono,catholic,1 John 4:11–21
+holy_saturday,,,,malankara,Shubkono,epistle,1 Corinthians 13:4–10
+holy_saturday,,,,malankara,Shubkono,gospel,Matthew 18:12–35
+easter,,,,malankara,Vespers,gospel,Mark 16:1–8
+easter,,,,malankara,Midnight Office,gospel,Luke 24:1–12
+easter,,,,malankara,Matins,gospel,John 20:1–18
+easter,,,,malankara,Celebration of the Cross,ot,Isaiah 60:17–22
+easter,,,,malankara,Celebration of the Cross,catholic,1 Peter 5:5–14
+easter,,,,malankara,Celebration of the Cross,epistle,Romans 16:1–16
+easter,,,,malankara,Celebration of the Cross,gospel,"John 14:27; 15:11–15, 17–19"
+easter,,,,malankara,,ot,Leviticus 23:26–32
+easter,,,,malankara,,ot,"Isaiah 60:1–7, 11–16; 61:10–62:5"
+easter,,,,malankara,,acts,Acts 2:22–36
+easter,,,,malankara,,epistle,1 Corinthians 15:1–19
+easter,,,,malankara,,gospel,Matthew 28:1–20
+easter+1,,,,malankara,Vespers,gospel,Luke 24:13–35
+easter+1,,,,malankara,Matins,gospel,Matthew 28:11–20
+easter+1,,,,malankara,,ot,Genesis 41:41–46
+easter+1,,,,malankara,,ot,Jeremiah 1:4–12
+easter+1,,,,malankara,,ot,Isaiah 40:9–15
+easter+1,,,,malankara,,catholic,1 Peter 5:1–8
+easter+1,,,,malankara,,epistle,Romans 6:12–23
+easter+1,,,,malankara,,gospel,John 2:18–25
+easter+2,,,,malankara,Vespers,gospel,Mark 15:37–47; 16:1–8
+easter+2,,,,malankara,Matins,gospel,Mark 16:9–18
+easter+2,,,,malankara,,ot,Exodus 14:26–31
+easter+2,,,,malankara,,ot,Joshua 6:6–21
+easter+2,,,,malankara,,ot,Wisdom 1:1–18
+easter+2,,,,malankara,,acts,Acts 13:26–39
+easter+2,,,,malankara,,epistle,Ephesians 6:10–20
+easter+2,,,,malankara,,gospel,Mark 8:11–21
+easter+3,,,,malankara,Vespers,gospel,Luke 23:46–56; 24:1–12
+easter+3,,,,malankara,Matins,gospel,Luke 24:13–35
+easter+3,,,,malankara,,ot,Exodus 40:1–16
+easter+3,,,,malankara,,ot,Joshua 2:1–6
+easter+3,,,,malankara,,ot,Isaiah 49:13–21
+easter+3,,,,malankara,,acts,Acts 4:8–21
+easter+3,,,,malankara,,epistle,Hebrews 3:1–13
+easter+3,,,,malankara,,gospel,Mark 8:27–33
+easter+4,,,,malankara,Vespers,gospel,John 19:30–20:2
+easter+4,,,,malankara,Matins,gospel,John 20:3–18
+easter+4,,,,malankara,,ot,Exodus 34:4–12
+easter+4,,,,malankara,,ot,Micah 4:1–7
+easter+4,,,,malankara,,ot,Zechariah 8:4–9
+easter+4,,,,malankara,,ot,Isaiah 37:8–17
+easter+4,,,,malankara,,catholic,1 John 5:13–21
+easter+4,,,,malankara,,epistle,Hebrews 11:3–6
+easter+4,,,,malankara,,gospel,Matthew 16:20–27
+confessors,,,,malankara,Vespers,gospel,John 20:18–23
+confessors,,,,malankara,Matins,gospel,Matthew 28:1–11
+confessors,,,,malankara,,ot,Deuteronomy 16:1–8
+confessors,,,,malankara,,ot,Joshua 8:30–33
+confessors,,,,malankara,,ot,Isaiah 54:1–8
+confessors,,,,malankara,,catholic,1 Peter 3:17–22
+confessors,,,,malankara,,epistle,Hebrews 11:32–40
+confessors,,,,malankara,,gospel,Mark 9:9–13
+easter+6,,,,malankara,Vespers,gospel,Luke 24:36–45
+easter+6,,,,malankara,Matins,gospel,Matthew 28:1–20
+easter+6,,,,malankara,,ot,Joshua 1:5–9
+easter+6,,,,malankara,,ot,Leviticus 25:1–7
+easter+6,,,,malankara,,ot,Isaiah 44:23–28
+easter+6,,,,malankara,,acts,Acts 26:19–25
+easter+6,,,,malankara,,epistle,Philippians 2:1–11
+easter+6,,,,malankara,,gospel,Matthew 22:23–33
+new_sunday,,,,malankara,Vespers,gospel,John 20:19–31
+new_sunday,,,,malankara,Matins,gospel,John 4:31–38
+new_sunday,,,,malankara,,ot,Genesis 41:41–46
+new_sunday,,,,malankara,,ot,Ecclesiastes 12:1–8
+new_sunday,,,,malankara,,ot,Jeremiah 1:4–12
+new_sunday,,,,malankara,,ot,Isaiah 40:9–15
+new_sunday,,,,malankara,,catholic,1 Peter 2:19–25
+new_sunday,,,,malankara,,epistle,2 Timothy 2:1–13
+new_sunday,,,,malankara,,gospel,John 20:19–31
+easter+14,,,,malankara,Vespers,gospel,John 21:15–25
+easter+14,,,,malankara,Matins,gospel,John 21:1–14
+easter+14,,,,malankara,,ot,Exodus 14:26–31
+easter+14,,,,malankara,,ot,Joshua 6:6–21
+easter+14,,,,malankara,,ot,Wisdom 1:1–8
+easter+14,,,,malankara,,acts,Acts 13:26–39
+easter+14,,,,malankara,,epistle,Ephesians 6:10–20
+easter+14,,,,malankara,,gospel,John 21:1–14
+easter+21,,,,malankara,Vespers,gospel,John 6:16–29
+easter+21,,,,malankara,Matins,gospel,Matthew 14:22–33
+easter+21,,,,malankara,,ot,Exodus 40:1–16
+easter+21,,,,malankara,,ot,Joshua 2:1–6
+easter+21,,,,malankara,,ot,Isaiah 49:13–21
+easter+21,,,,malankara,,acts,Acts 4:8–21
+easter+21,,,,malankara,,epistle,Hebrews 3:1–13
+easter+21,,,,malankara,,gospel,John 21:15–19
+easter+28,,,,malankara,Vespers,gospel,Luke 5:27–39
+easter+28,,,,malankara,Matins,gospel,John 6:47–58
+easter+28,,,,malankara,,ot,Exodus 34:4–12
+easter+28,,,,malankara,,ot,Micah 4:1–7
+easter+28,,,,malankara,,ot,Zechariah 8:4–9
+easter+28,,,,malankara,,ot,Isaiah 37:8–17
+easter+28,,,,malankara,,catholic,1 John 5:13–21
+easter+28,,,,malankara,,epistle,Hebrews 11:3–6
+easter+28,,,,malankara,,gospel,Luke 24:13–35
+easter+35,,,,malankara,Vespers,gospel,John 14:1–16
+easter+35,,,,malankara,Matins,gospel,John 16:16–30
+easter+35,,,,malankara,,ot,Deuteronomy 16:1–8
+easter+35,,,,malankara,,ot,Joshua 8:30–35
+easter+35,,,,malankara,,ot,Isaiah 54:1–8
+easter+35,,,,malankara,,catholic,1 Peter 3:17–22
+easter+35,,,,malankara,,epistle,Hebrews 11:32–40
+easter+35,,,,malankara,,gospel,Luke 9:51–62
+ascension,,,,malankara,Vespers,gospel,Mark 16:14–20
+ascension,,,,malankara,Matins,gospel,Luke 24:36–53
+ascension,,,,malankara,,ot,Deuteronomy 9:26–10:5
+ascension,,,,malankara,,ot,Jeremiah 31:31–34
+ascension,,,,malankara,,ot,2 Kings 2:9–15
+ascension,,,,malankara,,ot,Isaiah 48:20–49:4
+ascension,,,,malankara,,acts,Acts 1:4–11
+ascension,,,,malankara,,epistle,Ephesians 4:1–16
+ascension,,,,malankara,,gospel,Luke 24:36–53
+after_ascension,,,,malankara,Vespers,gospel,Matthew 19:16–30
+after_ascension,,,,malankara,Matins,gospel,Mark 10:17–22
+after_ascension,,,,malankara,,ot,Leviticus 25:1–13
+after_ascension,,,,malankara,,ot,Joshua 1:5–9
+after_ascension,,,,malankara,,ot,Isaiah 44:23–25
+after_ascension,,,,malankara,,acts,Acts 21:7–9
+after_ascension,,,,malankara,,epistle,"1 Corinthians 7:1–2, 25–34; 9:1–10"
+after_ascension,,,,malankara,,gospel,John 17:13–26
+pentecost,,,,malankara,Vespers,gospel,John 14:15–31
+pentecost,,,,malankara,Matins,gospel,John 15:20–25
+pentecost,,,,malankara,,ot,Numbers 11:16–35
+pentecost,,,,malankara,,ot,1 Samuel 10:9–15
+pentecost,,,,malankara,,ot,2 Kings 2:14–17
+pentecost,,,,malankara,,ot,Ezekiel 11:17–20; 36:25–27
+pentecost,,,,malankara,,ot,Isaiah 42:1–25
+pentecost,,,,malankara,,acts,Acts 2:1–13
+pentecost,,,,malankara,,epistle,Galatians 5:16–26
+pentecost,,,,malankara,,gospel,John 15:1–14
+pentecost,,,,malankara,Kneeling Service: First Part,ot,Genesis 11:1–9
+pentecost,,,,malankara,Kneeling Service: First Part,ot,2 Kings 2:14–17
+pentecost,,,,malankara,Kneeling Service: First Part,acts,Acts 19:1–7
+pentecost,,,,malankara,Kneeling Service: First Part,epistle,1 Corinthians 14:20–25
+pentecost,,,,malankara,Kneeling Service: First Part,gospel,John 14:1–17
+pentecost,,,,malankara,Kneeling Service: Second Part,ot,Ezekiel 37:1–14
+pentecost,,,,malankara,Kneeling Service: Second Part,ot,Joel 2:25–32
+pentecost,,,,malankara,Kneeling Service: Second Part,acts,Acts 10:34–48
+pentecost,,,,malankara,Kneeling Service: Second Part,epistle,1 Corinthians 12:12–27
+pentecost,,,,malankara,Kneeling Service: Second Part,gospel,John 14:25–31
+pentecost,,,,malankara,Kneeling Service: Third Part,ot,Judges 13:24–14:7
+pentecost,,,,malankara,Kneeling Service: Third Part,ot,Ezekiel 47:1–12
+pentecost,,,,malankara,Kneeling Service: Third Part,acts,Acts 2:1–21
+pentecost,,,,malankara,Kneeling Service: Third Part,epistle,1 Corinthians 14:20–33
+pentecost,,,,malankara,Kneeling Service: Third Part,gospel,John 16:1–15
+easter+54,,,,malankara,Vespers,gospel,Luke 22:24–30
+easter+54,,,,malankara,Matins,gospel,Matthew 9:36–10:15
+easter+54,,,,malankara,,ot,Genesis 12:1–9
+easter+54,,,,malankara,,ot,Psalm 1
+easter+54,,,,malankara,,ot,Isaiah 43:1–7
+easter+54,,,,malankara,,acts,Acts 3:1–20
+easter+54,,,,malankara,,epistle,1 Corinthians 12:28–13:10
+easter+54,,,,malankara,,gospel,Matthew 19:23–30
+easter+56,,date lt 08-06,,malankara,Vespers,gospel,Luke 8:4–15
+easter+56,,date lt 08-06,,malankara,Matins,gospel,Matthew 11:20–24
+easter+56,,date lt 08-06,,malankara,,ot,Genesis 41:38–40
+easter+56,,date lt 08-06,,malankara,,ot,Exodus 12:31–40
+easter+56,,date lt 08-06,,malankara,,ot,Joshua 5:9–12
+easter+56,,date lt 08-06,,malankara,,ot,Jeremiah 29:10–16
+easter+56,,date lt 08-06,,malankara,,acts,Acts 17:10–15
+easter+56,,date lt 08-06,,malankara,,epistle,2 Corinthians 5:14–6:10
+easter+56,,date lt 08-06,,malankara,,gospel,John 6:26–35
+easter+63,,date lt 08-06,,malankara,Vespers,gospel,Luke 6:12–23
+easter+63,,date lt 08-06,,malankara,Matins,gospel,Mark 3:7–19
+easter+63,,date lt 08-06,,malankara,,ot,Leviticus 19:1–8
+easter+63,,date lt 08-06,,malankara,,ot,2 Samuel 5:1–10
+easter+63,,date lt 08-06,,malankara,,ot,Daniel 6:25–28
+easter+63,,date lt 08-06,,malankara,,acts,Acts 4:23–31
+easter+63,,date lt 08-06,,malankara,,epistle,Ephesians 2:11–22
+easter+63,,date lt 08-06,,malankara,,gospel,Matthew 10:5–16
+easter+70,,date lt 08-06,,malankara,Vespers,gospel,Mark 6:4–13
+easter+70,,date lt 08-06,,malankara,Matins,gospel,Luke 9:1–11
+easter+70,,date lt 08-06,,malankara,,ot,Genesis 42:18–25
+easter+70,,date lt 08-06,,malankara,,ot,Jeremiah 3:1–5
+easter+70,,date lt 08-06,,malankara,,ot,Daniel 3:21–30
+easter+70,,date lt 08-06,,malankara,,acts,Acts 13:26–39
+easter+70,,date lt 08-06,,malankara,,epistle,Galatians 6:10–18
+easter+70,,date lt 08-06,,malankara,,gospel,John 6:35–46
+easter+77,,date lt 08-06,,malankara,Vespers,gospel,Matthew 14:14–23
+easter+77,,date lt 08-06,,malankara,Matins,gospel,Luke 10:17–24
+easter+77,,date lt 08-06,,malankara,,ot,Deuteronomy 33:23–29
+easter+77,,date lt 08-06,,malankara,,ot,Psalm 15
+easter+77,,date lt 08-06,,malankara,,ot,Isaiah 65:8–12
+easter+77,,date lt 08-06,,malankara,,acts,Acts 6:1–7
+easter+77,,date lt 08-06,,malankara,,epistle,1 Corinthians 16:14–22
+easter+77,,date lt 08-06,,malankara,,gospel,Luke 10:1–16
+easter+84,,date lt 08-06,,malankara,Vespers,gospel,Luke 9:10–17
+easter+84,,date lt 08-06,,malankara,Matins,gospel,Matthew 17:20–28
+easter+84,,date lt 08-06,,malankara,,ot,Exodus 23:14–19
+easter+84,,date lt 08-06,,malankara,,ot,Psalm 16
+easter+84,,date lt 08-06,,malankara,,ot,Isaiah 40:27–31
+easter+84,,date lt 08-06,,malankara,,acts,Acts 9:10–18
+easter+84,,date lt 08-06,,malankara,,epistle,2 Corinthians 5:14–20
+easter+84,,date lt 08-06,,malankara,,gospel,Luke 9:10–17
+easter+91,,date lt 08-06,,malankara,Vespers,gospel,Luke 17:1–10
+easter+91,,date lt 08-06,,malankara,Matins,gospel,Mark 6:30–52
+easter+91,,date lt 08-06,,malankara,,ot,Exodus 40:34–38
+easter+91,,date lt 08-06,,malankara,,ot,Psalm 20
+easter+91,,date lt 08-06,,malankara,,ot,Isaiah 14:22–27
+easter+91,,date lt 08-06,,malankara,,acts,Acts 1:15–20
+easter+91,,date lt 08-06,,malankara,,epistle,1 Corinthians 8:1–6
+easter+91,,date lt 08-06,,malankara,,gospel,Matthew 15:32–39
+easter+98,,date lt 08-06,,malankara,Vespers,gospel,Matthew 12:30–37
+easter+98,,date lt 08-06,,malankara,Matins,gospel,Matthew 12:38–50
+easter+98,,date lt 08-06,,malankara,,ot,Leviticus 16:29–34
+easter+98,,date lt 08-06,,malankara,,ot,Hosea 5:1–5
+easter+98,,date lt 08-06,,malankara,,ot,Isaiah 57:15–19
+easter+98,,date lt 08-06,,malankara,,acts,Acts 4:32–37
+easter+98,,date lt 08-06,,malankara,,epistle,Ephesians 2:11–22
+easter+98,,date lt 08-06,,malankara,,gospel,Mark 3:20–30
+easter+105,,date lt 08-06,,malankara,Vespers,gospel,Mark 4:1–23
+easter+105,,date lt 08-06,,malankara,Matins,gospel,Matthew 13:10–23
+easter+105,,date lt 08-06,,malankara,,ot,Exodus 3:9–15
+easter+105,,date lt 08-06,,malankara,,ot,Jeremiah 7:21–25
+easter+105,,date lt 08-06,,malankara,,ot,Isaiah 52:1–6
+easter+105,,date lt 08-06,,malankara,,catholic,1 Peter 2:4–10
+easter+105,,date lt 08-06,,malankara,,epistle,Hebrews 4:14–5:5
+easter+105,,date lt 08-06,,malankara,,gospel,John 6:47–59
+easter+112,,date lt 08-06,,malankara,Vespers,gospel,Matthew 13:24–35
+easter+112,,date lt 08-06,,malankara,Matins,gospel,Matthew 13:36–43
+easter+112,,date lt 08-06,,malankara,,ot,Psalm 22:1–21
+easter+112,,date lt 08-06,,malankara,,ot,Deuteronomy 4:1–6
+easter+112,,date lt 08-06,,malankara,,ot,Proverbs 13:1–7
+easter+112,,date lt 08-06,,malankara,,ot,Isaiah 24:1–5
+easter+112,,date lt 08-06,,malankara,,acts,Acts 28:11–22
+easter+112,,date lt 08-06,,malankara,,epistle,1 Corinthians 6:1–11
+easter+112,,date lt 08-06,,malankara,,gospel,Luke 14:7–11
+easter+119,,date lt 08-06,,malankara,Vespers,gospel,Luke 9:12–17
+easter+119,,date lt 08-06,,malankara,Matins,gospel,Matthew 16:13–20
+easter+119,,date lt 08-06,,malankara,,ot,Exodus 15:23–27
+easter+119,,date lt 08-06,,malankara,,ot,Job 42:7–17
+easter+119,,date lt 08-06,,malankara,,ot,Psalm 112:1–10
+easter+119,,date lt 08-06,,malankara,,acts,Acts 28:23–30
+easter+119,,date lt 08-06,,malankara,,epistle,Romans 10:5–21
+easter+119,,date lt 08-06,,malankara,,gospel,Matthew 18:1–11
+easter+126,,date lt 08-06,,malankara,Vespers,gospel,Matthew 18:15–35
+easter+126,,date lt 08-06,,malankara,Matins,gospel,Mark 9:33–50
+easter+126,,date lt 08-06,,malankara,,ot,Leviticus 19:13–18
+easter+126,,date lt 08-06,,malankara,,ot,Joshua 23:7–14
+easter+126,,date lt 08-06,,malankara,,ot,Malachi 4:1–6
+easter+126,,date lt 08-06,,malankara,,catholic,James 2:14–26
+easter+126,,date lt 08-06,,malankara,,epistle,1 Corinthians 14:34–39
+easter+126,,date lt 08-06,,malankara,,gospel,Mark 6:7–13
+easter+133,,date lt 08-06,,malankara,Vespers,gospel,Mark 9:33–50
+easter+133,,date lt 08-06,,malankara,,ot,Leviticus 17:1–7
+easter+133,,date lt 08-06,,malankara,,ot,Isaiah 65:1–7
+easter+133,,date lt 08-06,,malankara,,ot,Psalm 139
+easter+133,,date lt 08-06,,malankara,,catholic,James 2:14–26
+easter+133,,date lt 08-06,,malankara,,epistle,1 Corinthians 14:34–39
+easter+133,,date lt 08-06,,malankara,,gospel,John 17:13–26
+06-29,,,,malankara,Peter and Paul: Vespers,gospel,Matthew 16:13–20
+06-29,,,,malankara,Peter and Paul: Matins,gospel,John 21:15–25
+06-29,,,,malankara,Peter and Paul,ot,Genesis 12:1–9
+06-29,,,,malankara,Peter and Paul,ot,Daniel 1:8–21
+06-29,,,,malankara,Peter and Paul,ot,Isaiah 43:1–7
+06-29,,,,malankara,Peter and Paul,acts,Acts 1:12–14
+06-29,,,,malankara,Peter and Paul,epistle,1 Corinthians 12:28–13:10
+06-29,,,,malankara,Peter and Paul,gospel,Matthew 20:1–16
+06-30,,,,malankara,Twelve Apostles: Vespers,gospel,Matthew 9:36–10:5
+06-30,,,,malankara,Twelve Apostles: Matins,gospel,Matthew 10:11–15; 19:27–30
+06-30,,,,malankara,Twelve Apostles,ot,Genesis 12:1–9
+06-30,,,,malankara,Twelve Apostles,ot,Daniel 1:8–21
+06-30,,,,malankara,Twelve Apostles,ot,Isaiah 43:1–7
+06-30,,,,malankara,Twelve Apostles,acts,Acts 1:12–14
+06-30,,,,malankara,Twelve Apostles,epistle,1 Corinthians 12:28–13:10
+06-30,,,,malankara,Twelve Apostles,gospel,Luke 6:12–26
+07-03,,,,malankara,St Thomas the Apostle: Vespers,gospel,Luke 12:13–21
+07-03,,,,malankara,St Thomas the Apostle: Matins,gospel,Luke 12:48–59
+07-03,,,,malankara,St Thomas the Apostle,ot,Exodus 12:43–51
+07-03,,,,malankara,St Thomas the Apostle,ot,Job 23:1–7
+07-03,,,,malankara,St Thomas the Apostle,ot,Isaiah 52:1–15
+07-03,,,,malankara,St Thomas the Apostle,catholic,1 Peter 2:15–17
+07-03,,,,malankara,St Thomas the Apostle,epistle,1 Corinthians 6:9–11
+07-03,,,,malankara,St Thomas the Apostle,gospel,Matthew 5:21–26
+transfiguration,,,,malankara,Vespers,gospel,Matthew 16:27–17:13
+transfiguration,,,,malankara,Matins,gospel,Mark 8:38–9:13
+transfiguration,,,,malankara,,ot,Deuteronomy 16:13–17
+transfiguration,,,,malankara,,ot,Psalm 24
+transfiguration,,,,malankara,,ot,Isaiah 61:1–3
+transfiguration,,,,malankara,,catholic,1 John 2:23–3:1
+transfiguration,,,,malankara,,epistle,Romans 11:25–36
+transfiguration,,,,malankara,,gospel,Luke 9:27–36
+sun>08-06,,date lt 08-15,,malankara,First Sunday after the Transfiguration: Vespers,gospel,Mark 4:21–34
+sun>08-06,,date lt 08-15,,malankara,First Sunday after the Transfiguration: Matins,gospel,Matthew 13:44–52
+sun>08-06,,date lt 08-15,,malankara,First Sunday after the Transfiguration,ot,Deuteronomy 25:13–16
+sun>08-06,,date lt 08-15,,malankara,First Sunday after the Transfiguration,ot,Psalm 27
+sun>08-06,,date lt 08-15,,malankara,First Sunday after the Transfiguration,ot,Ezekiel 7:1–4
+sun>08-06,,date lt 08-15,,malankara,First Sunday after the Transfiguration,catholic,James 4:7–5:6
+sun>08-06,,date lt 08-15,,malankara,First Sunday after the Transfiguration,epistle,Philippians 4:8–20
+sun>08-06,,date lt 08-15,,malankara,First Sunday after the Transfiguration,gospel,Matthew 21:28–32
+sun>08-06,7,date lt 08-15,,malankara,Second Sunday after the Transfiguration: Vespers,gospel,Luke 14:15–24
+sun>08-06,7,date lt 08-15,,malankara,Second Sunday after the Transfiguration: Matins,gospel,Mark 10:28–34
+sun>08-06,7,date lt 08-15,,malankara,Second Sunday after the Transfiguration,ot,Exodus 23:20–27
+sun>08-06,7,date lt 08-15,,malankara,Second Sunday after the Transfiguration,ot,Psalm 29
+sun>08-06,7,date lt 08-15,,malankara,Second Sunday after the Transfiguration,ot,Hosea 11:1–9
+sun>08-06,7,date lt 08-15,,malankara,Second Sunday after the Transfiguration,catholic,1 Peter 5:1–11
+sun>08-06,7,date lt 08-15,,malankara,Second Sunday after the Transfiguration,epistle,1 Corinthians 10:1–13
+sun>08-06,7,date lt 08-15,,malankara,Second Sunday after the Transfiguration,gospel,"Luke 12:13–21, 35–44"
+shunoyo,,,,malankara,Vespers,gospel,Luke 1:39–56; 2:22–35
+shunoyo,,,,malankara,Matins,gospel,Luke 2:42–51
+shunoyo,,,,malankara,,ot,Exodus 3:1–6; 19:16–23
+shunoyo,,,,malankara,,ot,Ezekiel 44:1–3
+shunoyo,,,,malankara,,ot,Isaiah 45:11–19
+shunoyo,,,,malankara,,acts,Acts 1:12–14; 7:44–53
+shunoyo,,,,malankara,,epistle,Hebrews 9:3–12; 2:14–18
+shunoyo,,,,malankara,,gospel,Luke 11:22–28
+shunoyo,,,,malankara,,gospel,Matthew 12:46–50
+shunoyo,,,,malankara,,gospel,John 19:25–27
+sun>08-15,,date lt 09-14,,malankara,First Sunday after Shunoyo: Vespers,gospel,Luke 14:25–35
+sun>08-15,,date lt 09-14,,malankara,First Sunday after Shunoyo: Matins,gospel,Luke 15:1–10
+sun>08-15,,date lt 09-14,,malankara,First Sunday after Shunoyo,ot,Exodus 14:21–31
+sun>08-15,,date lt 09-14,,malankara,First Sunday after Shunoyo,ot,1 Samuel 8:4–9
+sun>08-15,,date lt 09-14,,malankara,First Sunday after Shunoyo,ot,Isaiah 43:1–5
+sun>08-15,,date lt 09-14,,malankara,First Sunday after Shunoyo,catholic,1 John 2:22–29
+sun>08-15,,date lt 09-14,,malankara,First Sunday after Shunoyo,epistle,Ephesians 6:10–17
+sun>08-15,,date lt 09-14,,malankara,First Sunday after Shunoyo,gospel,Luke 6:39–45
+sun>08-15,7,date lt 09-14,,malankara,Second Sunday after Shunoyo: Vespers,gospel,Luke 18:1–8
+sun>08-15,7,date lt 09-14,,malankara,Second Sunday after Shunoyo: Matins,gospel,Luke 18:9–17
+sun>08-15,7,date lt 09-14,,malankara,Second Sunday after Shunoyo,ot,Genesis 6:3–12
+sun>08-15,7,date lt 09-14,,malankara,Second Sunday after Shunoyo,ot,Ecclesiastes 7:1–7
+sun>08-15,7,date lt 09-14,,malankara,Second Sunday after Shunoyo,ot,Psalm 12:1–7
+sun>08-15,7,date lt 09-14,,malankara,Second Sunday after Shunoyo,catholic,2 Peter 3:8–14
+sun>08-15,7,date lt 09-14,,malankara,Second Sunday after Shunoyo,epistle,1 Thessalonians 5:1–11
+sun>08-15,7,date lt 09-14,,malankara,Second Sunday after Shunoyo,gospel,Luke 11:9–20
+sun>08-15,14,date lt 09-14,,malankara,Third Sunday after Shunoyo: Vespers,gospel,Matthew 19:1–12
+sun>08-15,14,date lt 09-14,,malankara,Third Sunday after Shunoyo: Matins,gospel,Luke 19:11–27
+sun>08-15,14,date lt 09-14,,malankara,Third Sunday after Shunoyo,ot,Exodus 24:12–18
+sun>08-15,14,date lt 09-14,,malankara,Third Sunday after Shunoyo,ot,1 Samuel 3:16–21
+sun>08-15,14,date lt 09-14,,malankara,Third Sunday after Shunoyo,ot,Ezekiel 18:21–24
+sun>08-15,14,date lt 09-14,,malankara,Third Sunday after Shunoyo,catholic,James 5:1–6
+sun>08-15,14,date lt 09-14,,malankara,Third Sunday after Shunoyo,epistle,2 Corinthians 10:1–7
+sun>08-15,14,date lt 09-14,,malankara,Third Sunday after Shunoyo,gospel,Matthew 17:22–27
+sun>08-15,21,date lt 09-14,,malankara,Fourth Sunday after Shunoyo: Vespers,gospel,Matthew 18:1–11
+sun>08-15,21,date lt 09-14,,malankara,Fourth Sunday after Shunoyo: Matins,gospel,Matthew 18:12–22
+sun>08-15,21,date lt 09-14,,malankara,Fourth Sunday after Shunoyo,ot,"Exodus 3:1–6, 11–14"
+sun>08-15,21,date lt 09-14,,malankara,Fourth Sunday after Shunoyo,ot,Job 1:1–5
+sun>08-15,21,date lt 09-14,,malankara,Fourth Sunday after Shunoyo,ot,Isaiah 1:15–20
+sun>08-15,21,date lt 09-14,,malankara,Fourth Sunday after Shunoyo,catholic,1 Peter 2:1–5
+sun>08-15,21,date lt 09-14,,malankara,Fourth Sunday after Shunoyo,epistle,1 Corinthians 3:16–23
+sun>08-15,21,date lt 09-14,,malankara,Fourth Sunday after Shunoyo,gospel,Matthew 5:38–48
+sun>08-15,28,date lt 09-14,,malankara,Fifth Sunday after Shunoyo: Vespers,gospel,Mark 7:1–13
+sun>08-15,28,date lt 09-14,,malankara,Fifth Sunday after Shunoyo: Matins,gospel,Mark 7:14–23
+sun>08-15,28,date lt 09-14,,malankara,Fifth Sunday after Shunoyo,ot,Leviticus 18:1–5
+sun>08-15,28,date lt 09-14,,malankara,Fifth Sunday after Shunoyo,ot,Joshua 22:1–6
+sun>08-15,28,date lt 09-14,,malankara,Fifth Sunday after Shunoyo,ot,Ezekiel 34:1–6
+sun>08-15,28,date lt 09-14,,malankara,Fifth Sunday after Shunoyo,acts,Acts 11:2–10
+sun>08-15,28,date lt 09-14,,malankara,Fifth Sunday after Shunoyo,epistle,Romans 2:28–3:8
+sun>08-15,28,date lt 09-14,,malankara,Fifth Sunday after Shunoyo,gospel,Luke 11:33–41
+sleebo,,,,malankara,Vespers,gospel,Matthew 24:1–35
+sleebo,,,,malankara,Matins,gospel,Mark 13:1–33
+sleebo,,,,malankara,,ot,Numbers 21:4–9
+sleebo,,,,malankara,,ot,1 Samuel 17:37–53
+sleebo,,,,malankara,,ot,Jeremiah 32:36–41
+sleebo,,,,malankara,,acts,Acts 13:26–39
+sleebo,,,,malankara,,epistle,Galatians 2:17–3:14
+sleebo,,,,malankara,,gospel,Luke 21:5–28
+after_cross:1,,,,malankara,Vespers,gospel,Luke 17:20–37
+after_cross:1,,,,malankara,Matins,gospel,Matthew 24:36–51
+after_cross:1,,,,malankara,,ot,Psalm 34
+after_cross:1,,,,malankara,,ot,Genesis 42:1–28
+after_cross:1,,,,malankara,,ot,Isaiah 1:10–20
+after_cross:1,,,,malankara,,acts,Acts 3:21–26
+after_cross:1,,,,malankara,,epistle,1 Corinthians 2:10–16
+after_cross:1,,,,malankara,,gospel,Mark 13:28–37
+after_cross:2,,,,malankara,Vespers,gospel,Matthew 14:34–15:11
+after_cross:2,,,,malankara,Matins,gospel,Matthew 15:12–20
+after_cross:2,,,,malankara,,ot,Genesis 42:9–17
+after_cross:2,,,,malankara,,ot,1 Kings 3:5–9
+after_cross:2,,,,malankara,,ot,Isaiah 48:12–16
+after_cross:2,,,,malankara,,acts,Acts 5:17–32
+after_cross:2,,,,malankara,,epistle,1 Corinthians 2:14–3:9
+after_cross:2,,,,malankara,,gospel,Matthew 16:5–12
+after_cross:3,,,,malankara,Vespers,gospel,Matthew 18:23–35
+after_cross:3,,,,malankara,Matins,gospel,Luke 16:1–13
+after_cross:3,,,,malankara,,ot,Genesis 42:18–35
+after_cross:3,,,,malankara,,ot,Proverbs 1:2–9
+after_cross:3,,,,malankara,,ot,Isaiah 48:12–16
+after_cross:3,,,,malankara,,acts,Acts 7:2–5
+after_cross:3,,,,malankara,,epistle,Romans 8:1–11
+after_cross:3,,,,malankara,,gospel,Mark 2:23–28
+after_cross:4,,,,malankara,Vespers,gospel,Mark 10:1–16
+after_cross:4,,,,malankara,Matins,gospel,Luke 9:37–45
+after_cross:4,,,,malankara,,ot,Numbers 29:35–40
+after_cross:4,,,,malankara,,ot,1 Kings 8:22–30
+after_cross:4,,,,malankara,,ot,Psalm 42
+after_cross:4,,,,malankara,,acts,Acts 21:17–26
+after_cross:4,,,,malankara,,epistle,1 Corinthians 1:21–29
+after_cross:4,,,,malankara,,gospel,Luke 16:9–18
+after_cross:5,,,,malankara,Vespers,gospel,Luke 20:27–40
+after_cross:5,,,,malankara,Matins,gospel,Matthew 22:34–44
+after_cross:5,,,,malankara,,ot,Leviticus 2:1–3
+after_cross:5,,,,malankara,,ot,Psalm 46
+after_cross:5,,,,malankara,,ot,Isaiah 40:27–31
+after_cross:5,,,,malankara,,acts,Acts 22:22–29
+after_cross:5,,,,malankara,,epistle,1 Timothy 6:13–21
+after_cross:5,,,,malankara,,gospel,Matthew 23:1–12
+after_cross:6,,,,malankara,Vespers,gospel,Matthew 19:13–26
+after_cross:6,,,,malankara,Matins,gospel,Mark 10:17–27
+after_cross:6,,,,malankara,,ot,Genesis 42:29–36
+after_cross:6,,,,malankara,,ot,Psalm 84
+after_cross:6,,,,malankara,,ot,Isaiah 43:16–25
+after_cross:6,,,,malankara,,acts,Acts 21:27–40
+after_cross:6,,,,malankara,,epistle,1 Corinthians 5:6–13
+after_cross:6,,,,malankara,,gospel,Luke 18:18–27
+after_cross:7,,,,malankara,Vespers,gospel,Luke 12:13–21
+after_cross:7,,,,malankara,Matins,gospel,Luke 12:48–59
+after_cross:7,,,,malankara,,ot,Exodus 12:43–51
+after_cross:7,,,,malankara,,ot,Job 23:1–7
+after_cross:7,,,,malankara,,ot,Isaiah 52:1–15
+after_cross:7,,,,malankara,,catholic,1 Peter 2:15–17
+after_cross:7,,,,malankara,,epistle,1 Corinthians 6:9–11
+after_cross:7,,,,malankara,,gospel,Matthew 5:21–26
+sun>06-30,,,,malankara,Mission Sunday,ot,Jonah 3:1–10
+sun>06-30,,,,malankara,Mission Sunday,ot,Ezekiel 37:1–14
+sun>06-30,,,,malankara,Mission Sunday,acts,Acts 1:2–8; 2:1–13
+sun>06-30,,,,malankara,Mission Sunday,epistle,Romans 10:13–21
+sun>06-30,,,,malankara,Mission Sunday,epistle,1 Corinthians 9:15–17
+sun>06-30,,,,malankara,Mission Sunday,gospel,Matthew 28:16–20
+# ===========================================================================
+"# The lectionary of the Syriac Orthodox Church of Antioch (variant syriac), from"
+"# Scripture Readings: Qeryone men kthobo qadisho (Archdiocese of the Syriac"
+"# Orthodox Church in the Eastern USA, New Jersey edition, 2000), a table per"
+"# day giving book and chapter and verse in English, Arabic and Syriac.  The"
+"# book does not say at which service each reading is read: the Old Testament"
+"# lessons, the Acts or Catholic Epistle and the Pauline Epistle come first and"
+"# the Gospels (usually three, of Vespers, Matins and the Qurbana) after, in"
+"# the book's order.  Holy Week has its services and hours, Pentecost the"
+"# three parts of the Kneeling Service.  The book numbers the Sundays from"
+"# Easter (New Sunday the first, Pentecost the seventh) to the 24th; any left"
+"# when the Cross comes give way to the Sundays after it.  The book puts St Stephen"
+"# after John the Baptist (7 January), so on 8 January.  The commons of saints,"
+"# the occasional services and the unassigned weekday readings are left out."
+# Printing errors corrected or left out are in docs/source-errors.csv.
+# ===========================================================================
+qudosh_idto,,,,syriac,,ot,Exodus 40:1–11
+qudosh_idto,,,,syriac,,ot,1 Kings 8:1–11
+qudosh_idto,,,,syriac,,ot,Ezekiel 43:21–31; 44:1–4
+qudosh_idto,,,,syriac,,acts,Acts 8:1–13
+qudosh_idto,,,,syriac,,epistle,Hebrews 8:1–13; 9:1–10
+qudosh_idto,,,,syriac,,gospel,Matthew 16:13–20
+qudosh_idto,,,,syriac,,gospel,John 10:22–38
+qudosh_idto,,,,syriac,,gospel,Mark 8:27–31
+hudosh_idto,,,,syriac,,ot,Exodus 31:18–32:6
+hudosh_idto,,,,syriac,,ot,1 Kings 8:22–30
+hudosh_idto,,,,syriac,,ot,Proverbs 3:19–34
+hudosh_idto,,,,syriac,,acts,Acts 2:22–36
+hudosh_idto,,,,syriac,,epistle,Galatians 1:11–24
+hudosh_idto,,,,syriac,,gospel,Mark 12:35–44
+hudosh_idto,,,,syriac,,gospel,John 21:15–22
+hudosh_idto,,,,syriac,,gospel,Luke 9:18–25
+annunciation_zechariah,,,,syriac,,ot,Genesis 15:1–18
+annunciation_zechariah,,,,syriac,,ot,Numbers 3:5–13
+annunciation_zechariah,,,,syriac,,ot,Proverbs 1:1–19
+annunciation_zechariah,,,,syriac,,ot,Isaiah 66:18–24
+annunciation_zechariah,,,,syriac,,acts,Acts 3:17–26
+annunciation_zechariah,,,,syriac,,epistle,Romans 9:6–21
+annunciation_zechariah,,,,syriac,,gospel,Luke 1:1–17
+annunciation_zechariah,,,,syriac,,gospel,Luke 1:18–25
+annunciation_zechariah,,,,syriac,,gospel,Luke 11:45–51
+annunciation_mary,,,,syriac,,ot,Genesis 2:15–25; 3:1–19
+annunciation_mary,,,,syriac,,ot,Proverbs 2:1–22
+annunciation_mary,,,,syriac,,ot,Isaiah 7:10–15; 8:1–4
+annunciation_mary,,,,syriac,,catholic,1 John 3:2–12
+annunciation_mary,,,,syriac,,epistle,Galatians 3:15–22
+annunciation_mary,,,,syriac,,gospel,Luke 1:26–38
+visitation,,,,syriac,,ot,Exodus 19:1–13
+visitation,,,,syriac,,ot,Isaiah 6:1–11
+visitation,,,,syriac,,ot,Jeremiah 11:2–8
+visitation,,,,syriac,,catholic,1 John 3:13–20
+visitation,,,,syriac,,epistle,Galatians 3:23–29
+visitation,,,,syriac,,epistle,Hebrews 8:1–13
+visitation,,,,syriac,,gospel,Luke 1:39–56
+visitation,,,,syriac,,gospel,Luke 10:38–42
+birth_baptist,,,,syriac,,ot,Exodus 24:1–18
+birth_baptist,,,,syriac,,ot,1 Samuel 1:1–18
+birth_baptist,,,,syriac,,gospel,Luke 1:26–38
+birth_baptist,,,,syriac,,ot,Ruth 4:13–22
+birth_baptist,,,,syriac,,ot,Isaiah 40:1–8
+birth_baptist,,,,syriac,,catholic,1 Peter 2:11–25
+birth_baptist,,,,syriac,,epistle,Galatians 4:19–31
+birth_baptist,,,,syriac,,gospel,Matthew 11:2–15
+revelation_joseph,,,,syriac,,ot,2 Samuel 22:1–15
+revelation_joseph,,,,syriac,,ot,Isaiah 56:1–7
+revelation_joseph,,,,syriac,,catholic,1 Peter 5:1–14
+revelation_joseph,,,,syriac,,epistle,Ephesians 2:19–22; 3:1–12
+revelation_joseph,,,,syriac,,gospel,Matthew 6:18–25
+genealogy,,,,syriac,,ot,Isaiah 59:20–21; 60:1–22
+genealogy,,,,syriac,,ot,Daniel 10:1–17
+genealogy,,,,syriac,,catholic,1 John 3:21–24; 4:7–10
+genealogy,,,,syriac,,epistle,Galatians 1:1–18
+genealogy,,,,syriac,,gospel,Matthew 1:1–18
+genealogy,,,,syriac,,gospel,Luke 3:23–38
+nativity,,,,syriac,,ot,Genesis 17:15–22
+nativity,,,,syriac,,ot,Proverbs 8:22–31
+nativity,,,,syriac,,ot,Isaiah 9:1–7
+nativity,,,,syriac,,ot,Micah 4:6–7; 5:1–7
+nativity,,,,syriac,,ot,Zechariah 2:10–13
+nativity,,,,syriac,,catholic,1 John 3:23–24; 4:1–10
+nativity,,,,syriac,,epistle,Hebrews 1:1–14; 2:1–4
+nativity,,,,syriac,,gospel,John 1:1–17
+nativity,,,,syriac,,gospel,Luke 2:1–10
+nativity,,,,syriac,,gospel,Matthew 2:1–12
+praise_mother,,,,syriac,,ot,Genesis 17:15–21
+praise_mother,,,,syriac,,ot,1 Kings 8:3–11
+praise_mother,,,,syriac,,ot,Ezekiel 43:1–4; 44:1–4
+praise_mother,,,,syriac,,acts,Acts 21:27–32
+praise_mother,,,,syriac,,epistle,Romans 1:1–12
+praise_mother,,,,syriac,,gospel,Luke 2:15–20
+praise_mother,,,,syriac,,gospel,Luke 11:23–32
+praise_mother,,,,syriac,,gospel,Luke 8:16–21
+12-27,,,,syriac,Martyrdom of the Children of Bethlehem,ot,Joshua 7:2–9
+12-27,,,,syriac,Martyrdom of the Children of Bethlehem,ot,Isaiah 19:1–4
+12-27,,,,syriac,Martyrdom of the Children of Bethlehem,ot,Jeremiah 31:15–32
+12-27,,,,syriac,Martyrdom of the Children of Bethlehem,acts,Acts 7:11–29
+12-27,,,,syriac,Martyrdom of the Children of Bethlehem,epistle,Hebrews 11:23–31
+12-27,,,,syriac,Martyrdom of the Children of Bethlehem,gospel,Matthew 2:13–18
+12-27,,,,syriac,Martyrdom of the Children of Bethlehem,gospel,Matthew 2:19–23
+12-27,,,,syriac,Martyrdom of the Children of Bethlehem,gospel,Mark 6:1–6
+after_nativity:1,,,,syriac,,ot,Isaiah 11:1–9
+after_nativity:1,,,,syriac,,ot,Daniel 2:31–36
+after_nativity:1,,,,syriac,,acts,Acts 8:14–24
+after_nativity:1,,,,syriac,,epistle,1 Corinthians 9:13–27
+after_nativity:1,,,,syriac,,gospel,Luke 2:40–52
+after_nativity:1,,,,syriac,,gospel,Luke 3:23–38
+circumcision,,,,syriac,,ot,Genesis 17:1–14
+circumcision,,,,syriac,,ot,1 Samuel 18:19–28
+circumcision,,,,syriac,,ot,Isaiah 65:8–16
+circumcision,,,,syriac,,acts,Acts 20:17–35
+circumcision,,,,syriac,,epistle,Galatians 5:1–12
+circumcision,,,,syriac,,gospel,John 10:1–16
+circumcision,,,,syriac,,gospel,Luke 2:21–24; 4:14–30
+circumcision,,,,syriac,,gospel,John 15:8–19
+after_nativity:2,,,,syriac,,ot,Judges 13:8–25
+after_nativity:2,,,,syriac,,ot,Job 19:21–29
+after_nativity:2,,,,syriac,,ot,Jeremiah 23:5–8
+after_nativity:2,,,,syriac,,catholic,1 John 1:1–10
+after_nativity:2,,,,syriac,,epistle,Romans 15:1–13
+after_nativity:2,,,,syriac,,gospel,John 1:14–18
+after_nativity:2,,,,syriac,,gospel,John 1:35–42
+after_nativity:2,,,,syriac,,gospel,Matthew 2:19–23
+denho,,,,syriac,,ot,Genesis 30:36–43
+denho,,,,syriac,,ot,Exodus 14:15–31
+denho,,,,syriac,,ot,Isaiah 35:1–10
+denho,,,,syriac,,catholic,1 John 5:1–13
+denho,,,,syriac,,gospel,Mark 1:1–11
+denho,,,,syriac,,gospel,Matthew 3:1–17
+denho,,,,syriac,,gospel,Luke 3:15–22
+denho,,,,syriac,Blessing of the Water,ot,Numbers 20:1–11
+denho,,,,syriac,Blessing of the Water,ot,2 Kings 2:19–25
+denho,,,,syriac,Blessing of the Water,ot,Isaiah 12:1–6
+denho,,,,syriac,Blessing of the Water,acts,Acts 8:25–40
+denho,,,,syriac,Blessing of the Water,epistle,Hebrews 10:15–25
+denho,,,,syriac,Blessing of the Water,gospel,John 4:4–42
+baptist,,,,syriac,,ot,Exodus 2:15–22
+baptist,,,,syriac,,ot,Isaiah 49:1–6
+baptist,,,,syriac,,acts,Acts 7:44–54
+baptist,,,,syriac,,epistle,Romans 8:28–39
+baptist,,,,syriac,,gospel,Luke 3:1–14
+baptist,,,,syriac,,gospel,Mark 6:14–29
+baptist,,,,syriac,,gospel,Matthew 14:1–12
+01-08,,,,syriac,Martyrdom of St Stephen,ot,Exodus 17:1–7
+01-08,,,,syriac,Martyrdom of St Stephen,ot,Micah 6:1–8
+01-08,,,,syriac,Martyrdom of St Stephen,acts,Acts 7:54–60; 8:1–2
+01-08,,,,syriac,Martyrdom of St Stephen,epistle,1 Corinthians 16:15–24
+01-08,,,,syriac,Martyrdom of St Stephen,gospel,Mark 12:1–12
+01-08,,,,syriac,Martyrdom of St Stephen,gospel,John 8:34–59
+01-08,,,,syriac,Martyrdom of St Stephen,gospel,Matthew 23:34–39
+after_denho:1,,date lt easter-63,,syriac,,ot,Exodus 14:6–14
+after_denho:1,,date lt easter-63,,syriac,,ot,Sirach 1:36–40; 2:1–15
+after_denho:1,,date lt easter-63,,syriac,,ot,Isaiah 1:16–20
+after_denho:1,,date lt easter-63,,syriac,,catholic,1 John 5:13–21
+after_denho:1,,date lt easter-63,,syriac,,epistle,Titus 2:11–15; 3:1–15
+after_denho:1,,date lt easter-63,,syriac,,gospel,Mark 1:14–34
+after_denho:1,,date lt easter-63,,syriac,,gospel,John 1:18–28
+after_denho:1,,date lt easter-63,,syriac,,gospel,Matthew 4:12–22
+after_denho:2,,date lt easter-63,,syriac,,ot,Exodus 13:17–22; 14:1–9
+after_denho:2,,date lt easter-63,,syriac,,ot,Joshua 3:9–17; 4:1–10
+after_denho:2,,date lt easter-63,,syriac,,ot,Isaiah 41:14–26
+after_denho:2,,date lt easter-63,,syriac,,catholic,1 John 1:1–10; 2:1–5
+after_denho:2,,date lt easter-63,,syriac,,epistle,1 Timothy 3:1–16; 4:1–8
+after_denho:2,,date lt easter-63,,syriac,,gospel,John 1:26–34
+after_denho:2,,date lt easter-63,,syriac,,gospel,John 1:35–42
+after_denho:2,,date lt easter-63,,syriac,,gospel,John 1:43–51
+after_denho:3,,date lt easter-63,,syriac,,ot,Exodus 19:10–15
+after_denho:3,,date lt easter-63,,syriac,,ot,Joshua 7:10–26
+after_denho:3,,date lt easter-63,,syriac,,ot,Jeremiah 47:2–7
+after_denho:3,,date lt easter-63,,syriac,,catholic,1 Peter 2:1–10
+after_denho:3,,date lt easter-63,,syriac,,epistle,2 Corinthians 4:1–6
+after_denho:3,,date lt easter-63,,syriac,,gospel,John 3:22–36; 4:1–3
+after_denho:3,,date lt easter-63,,syriac,,gospel,John 5:30–47
+after_denho:3,,date lt easter-63,,syriac,,gospel,John 3:1–12
+after_denho:4,,date lt easter-63,,syriac,,ot,Exodus 16:1–21
+after_denho:4,,date lt easter-63,,syriac,,ot,Proverbs 3:9–35
+after_denho:4,,date lt easter-63,,syriac,,ot,Isaiah 48:14–21
+after_denho:4,,date lt easter-63,,syriac,,acts,Acts 20:36–38; 21:7–14
+after_denho:4,,date lt easter-63,,syriac,,epistle,1 Corinthians 1:8–17
+after_denho:4,,date lt easter-63,,syriac,,gospel,Luke 7:18–35
+after_denho:4,,date lt easter-63,,syriac,,gospel,Mark 12:28–37
+after_denho:4,,date lt easter-63,,syriac,,gospel,Mark 6:1–6
+after_denho:5,,date lt easter-63,,syriac,,catholic,1 Peter 2:1–11
+after_denho:5,,date lt easter-63,,syriac,,epistle,1 Corinthians 16:1–12
+after_denho:5,,date lt easter-63,,syriac,,gospel,Matthew 11:1–15
+after_denho:5,,date lt easter-63,,syriac,,gospel,Luke 5:1–11
+after_denho:5,,date lt easter-63,,syriac,,gospel,Mark 1:12–20
+after_denho:6,,date lt easter-63,,syriac,,catholic,1 Peter 3:7–15
+after_denho:6,,date lt easter-63,,syriac,,epistle,2 Corinthians 8:9–24
+after_denho:6,,date lt easter-63,,syriac,,gospel,Matthew 4:12–25
+after_denho:6,,date lt easter-63,,syriac,,gospel,Mark 6:1–6
+01-15,,,,syriac,Feast of the Virgin Mary of the Sowing,ot,Genesis 28:1–19
+01-15,,,,syriac,Feast of the Virgin Mary of the Sowing,ot,Sirach 3:1–19
+01-15,,,,syriac,Feast of the Virgin Mary of the Sowing,ot,Isaiah 19:1–8
+01-15,,,,syriac,Feast of the Virgin Mary of the Sowing,acts,Acts 18:12–27
+01-15,,,,syriac,Feast of the Virgin Mary of the Sowing,epistle,Hebrews 7:1–17
+01-15,,,,syriac,Feast of the Virgin Mary of the Sowing,gospel,Matthew 13:1–9
+01-15,,,,syriac,Feast of the Virgin Mary of the Sowing,gospel,Matthew 23:10–13
+01-15,,,,syriac,Feast of the Virgin Mary of the Sowing,gospel,Matthew 12:30–37
+02-02,,,,syriac,,ot,Exodus 13:1–16
+02-02,,,,syriac,,ot,1 Samuel 15:10–17
+02-02,,,,syriac,,ot,Isaiah 11:1–10
+02-02,,,,syriac,,acts,Acts 18:1–11
+02-02,,,,syriac,,epistle,2 Timothy 2:15–26
+02-02,,,,syriac,,gospel,Luke 2:22–35
+02-02,,,,syriac,,gospel,Luke 2:36–40
+02-03,,,,syriac,Mor Barsaumo,ot,Exodus 32:11–34
+02-03,,,,syriac,Mor Barsaumo,acts,Acts 4:19–35
+02-03,,,,syriac,Mor Barsaumo,epistle,Romans 4:1–12
+02-03,,,,syriac,Mor Barsaumo,gospel,John 15:12–27
+01-17,,,,syriac,St Anthony the Great,acts,Acts 4:19–35
+01-17,,,,syriac,St Anthony the Great,epistle,1 Corinthians 1:12–17
+01-17,,,,syriac,St Anthony the Great,gospel,Matthew 5:1–16
+01-17,,,,syriac,St Anthony the Great,gospel,Luke 6:20–31
+01-17,,,,syriac,St Anthony the Great,gospel,Luke 13:22–30
+easter-69,,,,syriac,,ot,Genesis 18:20–33
+easter-69,,,,syriac,,ot,Joshua 8:18–29
+easter-69,,,,syriac,,ot,Zephaniah 2:9–15; 3:1–13
+easter-69,,,,syriac,,catholic,1 Peter 3:7–15
+easter-69,,,,syriac,,epistle,Hebrews 12:3–11
+easter-69,,,,syriac,,gospel,Matthew 12:31–41
+easter-68,,,,syriac,,ot,Genesis 19:1–14
+easter-68,,,,syriac,,ot,Nahum 3:5–19
+easter-68,,,,syriac,,ot,Isaiah 13:1–22
+easter-68,,,,syriac,,catholic,1 Peter 4:7–19
+easter-68,,,,syriac,,epistle,Romans 13:1–10
+easter-68,,,,syriac,,gospel,Luke 4:24–32
+easter-68,,,,syriac,,gospel,Luke 11:5–23
+easter-68,,,,syriac,,gospel,Matthew 24:36–46
+easter-67,,,,syriac,,ot,Genesis 19:14–30
+easter-67,,,,syriac,,ot,Judges 10:1–16
+easter-67,,,,syriac,,ot,Jonah 1:1–4:11
+easter-67,,,,syriac,,acts,Acts 18:23–28
+easter-67,,,,syriac,,epistle,1 Timothy 2:1–15
+easter-67,,,,syriac,,gospel,Luke 12:54–59
+easter-67,,,,syriac,,gospel,Luke 13:1–8
+easter-67,,,,syriac,,gospel,Luke 17:20–37
+severius,,,,syriac,,catholic,1 John 3:2–24
+severius,,,,syriac,,epistle,2 Timothy 3:10–17
+severius,,,,syriac,,gospel,John 7:37–44
+severius,,,,syriac,,gospel,Luke 8:16–21
+easter-63,,,,syriac,,ot,Deuteronomy 34:1–9
+easter-63,,,,syriac,,ot,Joshua 6:1–26
+easter-63,,,,syriac,,catholic,James 5:7–20
+easter-63,,,,syriac,,epistle,Hebrews 13:9–25
+easter-63,,,,syriac,,gospel,Matthew 25:13–30
+easter-63,,,,syriac,,gospel,Luke 19:11–27
+easter-63,,,,syriac,,gospel,Matthew 24:42–51
+easter-56,,,,syriac,,ot,Genesis 49:33–50:26
+easter-56,,,,syriac,,ot,1 Kings 2:1–14
+easter-56,,,,syriac,,ot,Ezekiel 37:1–14
+easter-56,,,,syriac,,acts,Acts 20:7–16
+easter-56,,,,syriac,,epistle,1 Thessalonians 4:13–18
+easter-56,,,,syriac,,gospel,Matthew 25:31–46
+easter-56,,,,syriac,,gospel,John 5:19–29
+easter-56,,,,syriac,,gospel,Luke 12:32–48
+kothne,,,,syriac,,ot,Genesis 2:21–25
+kothne,,,,syriac,,ot,Isaiah 58:5–14
+kothne,,,,syriac,,ot,Joel 1:1–11
+kothne,,,,syriac,,acts,Acts 9:1–19
+kothne,,,,syriac,,epistle,Romans 13:11–14:23
+kothne,,,,syriac,,gospel,John 2:1–11
+kothne,,,,syriac,,gospel,Luke 16:1–18
+kothne,,,,syriac,Reconciliation Service,catholic,1 John 4:11–21
+kothne,,,,syriac,Reconciliation Service,epistle,1 Corinthians 13:4–10
+kothne,,,,syriac,Reconciliation Service,gospel,Matthew 18:12–35
+easter-48,,,,syriac,,ot,Exodus 3:1–6
+easter-48,,,,syriac,,ot,Sirach 5:8–18
+easter-48,,,,syriac,,ot,Joel 1:13–20
+easter-48,,,,syriac,,acts,Acts 8:14–25
+easter-48,,,,syriac,,epistle,Romans 12:1–21
+easter-48,,,,syriac,,gospel,Matthew 4:1–11
+easter-48,,,,syriac,,gospel,Luke 4:1–13
+easter-47,,,,syriac,,ot,Genesis 11:1–9
+easter-47,,,,syriac,,ot,Sirach 6:13–32
+easter-47,,,,syriac,,ot,Zechariah 5:5–11; 6:1–8
+easter-47,,,,syriac,,acts,Acts 10:25–33
+easter-47,,,,syriac,,epistle,Galatians 5:13–26
+easter-47,,,,syriac,,gospel,Luke 4:1–13
+easter-47,,,,syriac,,gospel,Matthew 6:1–6
+easter-46,,,,syriac,,ot,Genesis 12:9–20
+easter-46,,,,syriac,,ot,2 Kings 21:11–18
+easter-46,,,,syriac,,ot,Zechariah 1:1–7
+easter-46,,,,syriac,,acts,Acts 10:34–43
+easter-46,,,,syriac,,epistle,1 Corinthians 7:1–24
+easter-46,,,,syriac,,gospel,Matthew 6:16–24
+easter-46,,,,syriac,,gospel,Luke 6:25–34
+easter-45,,,,syriac,,ot,Sirach 7:37–40; 8:1–16
+easter-45,,,,syriac,,ot,Joel 2:12–18
+easter-45,,,,syriac,,acts,Acts 11:2–18
+easter-45,,,,syriac,,epistle,1 Corinthians 6:12–20
+easter-45,,,,syriac,,gospel,Matthew 7:1–12
+easter-45,,,,syriac,,gospel,Matthew 7:13–27
+easter-44,,,,syriac,,ot,Genesis 12:18–20; 13:1–6
+easter-44,,,,syriac,,ot,Proverbs 6:1–11
+easter-44,,,,syriac,,ot,Amos 4:1–11
+easter-44,,,,syriac,,acts,Acts 11:19–30
+easter-44,,,,syriac,,epistle,2 Corinthians 6:12–18
+easter-44,,,,syriac,,gospel,Matthew 5:17–26
+easter-44,,,,syriac,,gospel,Matthew 5:27–37
+ephrem,,,,syriac,,ot,Genesis 14:17–24
+ephrem,,,,syriac,,ot,Sirach 42:15–26
+ephrem,,,,syriac,,ot,Isaiah 43:1–10
+ephrem,,,,syriac,,acts,Acts 12:1–17
+ephrem,,,,syriac,,epistle,Romans 5:12–21
+ephrem,,,,syriac,,gospel,Matthew 10:24–38
+ephrem,,,,syriac,,gospel,John 15:17–27
+ephrem,,,,syriac,,gospel,John 4:46–54
+leper,,,,syriac,,ot,Numbers 12:1–16
+leper,,,,syriac,,ot,Job 19:1–27
+leper,,,,syriac,,ot,Sirach 8:17–22
+leper,,,,syriac,,ot,Zechariah 7:1–14
+leper,,,,syriac,,acts,Acts 9:22–35
+leper,,,,syriac,,epistle,Romans 16:1–27
+leper,,,,syriac,,gospel,Mark 1:32–45
+leper,,,,syriac,,gospel,Matthew 7:28–8:13
+leper,,,,syriac,,gospel,Luke 5:12–16
+easter-41,,,,syriac,,ot,Genesis 15:9–18
+easter-41,,,,syriac,,ot,Proverbs 6:12–24
+easter-41,,,,syriac,,ot,Habakkuk 2:2–10
+easter-41,,,,syriac,,acts,Acts 12:18–24
+easter-41,,,,syriac,,epistle,Romans 1:1–12
+easter-41,,,,syriac,,gospel,Luke 6:27–36
+easter-40,,,,syriac,,ot,Genesis 18:9–19
+easter-40,,,,syriac,,ot,Proverbs 8:9–21
+easter-40,,,,syriac,,ot,Nahum 1:2–14
+easter-40,,,,syriac,,acts,Acts 9:10–21
+easter-40,,,,syriac,,epistle,Romans 1:24–2:2
+easter-40,,,,syriac,,gospel,Luke 6:37–49
+easter-40,,,,syriac,,gospel,Mark 4:21–34
+easter-39,,,,syriac,,ot,Genesis 21:1–13
+easter-39,,,,syriac,,ot,Sirach 10:1–23
+easter-39,,,,syriac,,ot,Malachi 3:6–18
+easter-39,,,,syriac,,acts,Acts 10:44–48
+easter-39,,,,syriac,,epistle,Romans 2:14–27
+easter-39,,,,syriac,,gospel,Matthew 18:1–11
+easter-39,,,,syriac,,gospel,Luke 11:1–13
+easter-38,,,,syriac,,ot,Genesis 32:13–31
+easter-38,,,,syriac,,ot,Sirach 10:24–34
+easter-38,,,,syriac,,ot,Ezekiel 22:18–26
+easter-38,,,,syriac,,acts,Acts 11:11–18
+easter-38,,,,syriac,,epistle,Romans 3:1–31
+easter-38,,,,syriac,,gospel,Luke 16:1–13
+easter-38,,,,syriac,,gospel,Luke 18:1–8
+easter-37,,,,syriac,,ot,Exodus 7:9–22
+easter-37,,,,syriac,,ot,Joshua 11:4–20
+easter-37,,,,syriac,,ot,Isaiah 5:20–25
+easter-37,,,,syriac,,acts,Acts 6:1–12
+easter-37,,,,syriac,,epistle,Romans 1:13–25
+easter-37,,,,syriac,,gospel,Matthew 16:21–28
+easter-37,,,,syriac,,gospel,Matthew 5:38–48
+easter-36,,,,syriac,,acts,Acts 15:35–41
+easter-36,,,,syriac,,epistle,Ephesians 5:15–21
+easter-36,,,,syriac,,gospel,Mark 1:21–28
+paralytic,,,,syriac,,ot,Exodus 8:15–32
+paralytic,,,,syriac,,ot,Job 12:1–14
+paralytic,,,,syriac,,ot,Proverbs 10:1–26
+paralytic,,,,syriac,,ot,Isaiah 58:1–10
+paralytic,,,,syriac,,acts,Acts 3:1–10
+paralytic,,,,syriac,,epistle,Ephesians 5:3–21
+paralytic,,,,syriac,,gospel,Luke 5:17–26
+paralytic,,,,syriac,,gospel,John 5:1–18
+paralytic,,,,syriac,,gospel,Mark 2:1–12
+easter-34,,,,syriac,,ot,Exodus 24:1–8
+easter-34,,,,syriac,,ot,Proverbs 10:27–32; 11:1–14
+easter-34,,,,syriac,,ot,Jeremiah 2:4–11
+easter-34,,,,syriac,,acts,Acts 10:1–8
+easter-34,,,,syriac,,epistle,Romans 4:13–25
+easter-34,,,,syriac,,gospel,Mark 2:13–22
+easter-33,,,,syriac,,ot,Genesis 30:12–21
+easter-33,,,,syriac,,ot,Proverbs 11:17–28
+easter-33,,,,syriac,,ot,Jeremiah 7:1–12
+easter-33,,,,syriac,,acts,Acts 10:1–24
+easter-33,,,,syriac,,epistle,Romans 9:22–29
+easter-33,,,,syriac,,gospel,Mark 10:17–27
+easter-33,,,,syriac,,gospel,Mark 10:28–42
+easter-32,,,,syriac,,ot,Genesis 24:1–35
+easter-32,,,,syriac,,ot,Zephaniah 1:1–18
+easter-32,,,,syriac,,acts,Acts 4:1–18
+easter-32,,,,syriac,,epistle,Romans 15:1–13
+easter-32,,,,syriac,,gospel,Luke 9:43–50
+easter-32,,,,syriac,,gospel,Luke 9:51–62
+easter-31,,,,syriac,,ot,Genesis 24:50–67
+easter-31,,,,syriac,,ot,Proverbs 12:9–18
+easter-31,,,,syriac,,ot,Jeremiah 18:1–15
+easter-31,,,,syriac,,acts,Acts 4:32–37
+easter-31,,,,syriac,,epistle,1 Corinthians 8:1–13
+easter-31,,,,syriac,,gospel,Luke 13:18–30
+easter-31,,,,syriac,,gospel,Mark 9:30–42
+easter-30,,,,syriac,,ot,Exodus 19:1–9
+easter-30,,,,syriac,,ot,Sirach 11:21–36
+easter-30,,,,syriac,,ot,Ezekiel 33:11–16
+easter-30,,,,syriac,,acts,Acts 7:1–10
+easter-30,,,,syriac,,epistle,Romans 5:1–11
+easter-30,,,,syriac,,gospel,Matthew 6:5–15
+easter-30,,,,syriac,,gospel,Luke 18:9–17
+easter-29,,,,syriac,,acts,Acts 10:1–8
+easter-29,,,,syriac,,epistle,2 Timothy 1:13–18
+easter-29,,,,syriac,,gospel,Mark 8:1–10
+canaanite,,,,syriac,,ot,Exodus 32:1–6
+canaanite,,,,syriac,,ot,Job 15:1–16
+canaanite,,,,syriac,,ot,Isaiah 29:13–24
+canaanite,,,,syriac,,acts,Acts 13:1–12
+canaanite,,,,syriac,,epistle,1 Thessalonians 5:12–28
+canaanite,,,,syriac,,gospel,Mark 7:24–37
+canaanite,,,,syriac,,gospel,Luke 13:10–17
+canaanite,,,,syriac,,gospel,Matthew 15:21–31
+easter-27,,,,syriac,,ot,Genesis 6:13–22
+easter-27,,,,syriac,,ot,Sirach 13:10–32
+easter-27,,,,syriac,,ot,Ezekiel 18:1–9
+easter-27,,,,syriac,,acts,Acts 28:11–22
+easter-27,,,,syriac,,epistle,Romans 10:5–21
+easter-27,,,,syriac,,gospel,Mark 12:35–44
+easter-26,,,,syriac,,ot,Genesis 7:1–9
+easter-26,,,,syriac,,ot,Sirach 14:1–10
+easter-26,,,,syriac,,ot,Isaiah 59:1–8
+easter-26,,,,syriac,,acts,Acts 9:36–43
+easter-26,,,,syriac,,epistle,1 Corinthians 9:13–27
+easter-26,,,,syriac,,gospel,Matthew 20:1–16
+easter-26,,,,syriac,,gospel,Matthew 11:25–12:8
+mid_lent,,,,syriac,,ot,Numbers 20:7–13
+mid_lent,,,,syriac,,ot,Proverbs 3:1–10
+mid_lent,,,,syriac,,ot,Isaiah 51:9–17
+mid_lent,,,,syriac,,acts,Acts 7:37–43
+mid_lent,,,,syriac,,epistle,2 Corinthians 9:1–14
+mid_lent,,,,syriac,,gospel,Matthew 17:22–27
+mid_lent,,,,syriac,,gospel,John 3:13–21
+easter-24,,,,syriac,,ot,Genesis 7:6–13
+easter-24,,,,syriac,,ot,Job 33:23–33
+easter-24,,,,syriac,,ot,Jeremiah 9:1–9
+easter-24,,,,syriac,,acts,Acts 14:20–28
+easter-24,,,,syriac,,epistle,2 Corinthians 11:1–15
+easter-24,,,,syriac,,gospel,Luke 15:11–32
+easter-24,,,,syriac,,gospel,Matthew 19:16–26
+easter-23,,,,syriac,,ot,Genesis 7:10–16
+easter-23,,,,syriac,,ot,Sirach 18:15–37
+easter-23,,,,syriac,,ot,Jeremiah 7:2–16
+easter-23,,,,syriac,,acts,Acts 2:37–47
+easter-23,,,,syriac,,epistle,2 Corinthians 13:1–14
+easter-23,,,,syriac,,gospel,Luke 16:19–31
+easter-23,,,,syriac,,gospel,Luke 17:1–10
+easter-22,,,,syriac,,acts,Acts 10:1–8
+easter-22,,,,syriac,,epistle,Romans 4:13–25
+easter-22,,,,syriac,,gospel,Luke 9:10–17
+03-09,,,,syriac,Forty Martyrs of Sebastia,ot,Exodus 34:1–10
+03-09,,,,syriac,Forty Martyrs of Sebastia,ot,Sirach 43:1–24
+03-09,,,,syriac,Forty Martyrs of Sebastia,ot,Micah 3:1–12
+03-09,,,,syriac,Forty Martyrs of Sebastia,catholic,James 1:1–12
+03-09,,,,syriac,Forty Martyrs of Sebastia,epistle,2 Corinthians 4:7–18
+03-09,,,,syriac,Forty Martyrs of Sebastia,gospel,Matthew 10:16–33
+03-09,,,,syriac,Forty Martyrs of Sebastia,gospel,Luke 12:1–12
+bent_woman,,,,syriac,,ot,Genesis 7:17–24
+bent_woman,,,,syriac,,ot,Isaiah 50:1–5
+bent_woman,,,,syriac,,ot,Ezekiel 18:1–17
+bent_woman,,,,syriac,,acts,Acts 16:16–34
+bent_woman,,,,syriac,,epistle,1 Timothy 6:1–12
+bent_woman,,,,syriac,,gospel,Luke 10:25–37
+bent_woman,,,,syriac,,gospel,Luke 7:1–10
+bent_woman,,,,syriac,,gospel,Luke 7:11–17
+easter-20,,,,syriac,,ot,Genesis 8:1–9
+easter-20,,,,syriac,,ot,Proverbs 13:14–25
+easter-20,,,,syriac,,ot,Daniel 9:11–14
+easter-20,,,,syriac,,catholic,James 1:13–21
+easter-20,,,,syriac,,epistle,1 Corinthians 16:13–24
+easter-20,,,,syriac,,gospel,Luke 4:31–41
+easter-19,,,,syriac,,ot,Genesis 8:10–19
+easter-19,,,,syriac,,ot,Daniel 9:15–19
+easter-19,,,,syriac,,acts,Acts 10:1–8
+easter-19,,,,syriac,,epistle,Romans 2:2–13
+easter-19,,,,syriac,,gospel,Mark 3:1–12
+easter-19,,,,syriac,,gospel,Mark 5:1–20
+easter-18,,,,syriac,,ot,Genesis 9:1–7
+easter-18,,,,syriac,,ot,Proverbs 14:14–35
+easter-18,,,,syriac,,acts,Acts 15:22–33
+easter-18,,,,syriac,,epistle,2 Corinthians 5:11–21
+easter-18,,,,syriac,,gospel,Mark 6:30–46
+easter-18,,,,syriac,,gospel,Matthew 14:14–23
+easter-17,,,,syriac,,ot,Genesis 17:1–8
+easter-17,,,,syriac,,ot,Sirach 19:1–25
+easter-17,,,,syriac,,ot,Isaiah 55:3–11
+easter-17,,,,syriac,,acts,Acts 15:35–41
+easter-17,,,,syriac,,epistle,1 Timothy 1:1–20
+easter-17,,,,syriac,,gospel,Matthew 14:24–36
+easter-17,,,,syriac,,gospel,Mark 6:46–56
+easter-16,,,,syriac,,ot,Genesis 20:1–7
+easter-16,,,,syriac,,ot,Sirach 19:26–38
+easter-16,,,,syriac,,ot,Jeremiah 44:9–14
+easter-16,,,,syriac,,acts,Acts 16:1–7
+easter-16,,,,syriac,,epistle,1 Thessalonians 1:1–10
+easter-16,,,,syriac,,gospel,Mark 5:21–43
+easter-16,,,,syriac,,gospel,Matthew 9:18–26
+easter-15,,,,syriac,,acts,Acts 12:1–17
+easter-15,,,,syriac,,epistle,2 Timothy 4:1–8
+easter-15,,,,syriac,,gospel,Luke 6:1–11
+blind,,,,syriac,,ot,Genesis 48:8–22
+blind,,,,syriac,,ot,2 Kings 17:7–20
+blind,,,,syriac,,ot,Daniel 3:7–30
+blind,,,,syriac,,acts,Acts 23:12–21
+blind,,,,syriac,,epistle,2 Corinthians 10:1–18
+blind,,,,syriac,,gospel,Mark 10:46–52
+blind,,,,syriac,,gospel,John 9:1–41
+blind,,,,syriac,,gospel,Matthew 20:29–34
+easter-13,,,,syriac,,ot,Leviticus 1:1–9
+easter-13,,,,syriac,,ot,Proverbs 15:7–28
+easter-13,,,,syriac,,ot,Malachi 1:1–11
+easter-13,,,,syriac,,acts,Acts 16:9–15
+easter-13,,,,syriac,,epistle,Romans 6:1–12
+easter-13,,,,syriac,,gospel,Luke 19:1–10
+easter-12,,,,syriac,,ot,Leviticus 20:1–8
+easter-12,,,,syriac,,ot,Proverbs 16:1–16
+easter-12,,,,syriac,,ot,Malachi 4:1–6
+easter-12,,,,syriac,,acts,Acts 21:15–26
+easter-12,,,,syriac,,epistle,Romans 8:12–27
+easter-12,,,,syriac,,gospel,Luke 9:18–27
+easter-12,,,,syriac,,gospel,Mark 10:32–42
+easter-11,,,,syriac,,ot,Leviticus 14:1–8
+easter-11,,,,syriac,,ot,Job 31:4–18
+easter-11,,,,syriac,,ot,Isaiah 44:21–28
+easter-11,,,,syriac,,acts,Acts 21:27–35
+easter-11,,,,syriac,,epistle,Philippians 3:13–21
+easter-11,,,,syriac,,gospel,Matthew 8:23–34
+easter-11,,,,syriac,,gospel,Mark 4:35–41
+easter-10,,,,syriac,,ot,Leviticus 26:14–26
+easter-10,,,,syriac,,ot,Job 31:19–30
+easter-10,,,,syriac,,ot,Zephaniah 3:14–20
+easter-10,,,,syriac,,acts,Acts 21:34–40
+easter-10,,,,syriac,,epistle,Galatians 2:11–16
+easter-10,,,,syriac,,gospel,Luke 4:33–41
+easter-10,,,,syriac,,gospel,Mark 7:31–37
+fortieth_friday,,,,syriac,,ot,Leviticus 25:1–7
+fortieth_friday,,,,syriac,,ot,Job 31:31–40
+fortieth_friday,,,,syriac,,ot,Isaiah 48:13–22
+fortieth_friday,,,,syriac,,acts,Acts 21:4–14
+fortieth_friday,,,,syriac,,epistle,Hebrews 12:12–27
+fortieth_friday,,,,syriac,,gospel,Luke 4:1–13
+fortieth_friday,,,,syriac,,gospel,Matthew 4:1–11
+lazarus,,,,syriac,,ot,Genesis 50:22–26
+lazarus,,,,syriac,,ot,2 Kings 4:32–37
+lazarus,,,,syriac,,acts,Acts 5:1–11
+lazarus,,,,syriac,,epistle,1 Timothy 6:13–22
+lazarus,,,,syriac,,gospel,John 11:1–27
+lazarus,,,,syriac,,gospel,John 11:28–46
+lazarus,,,,syriac,,gospel,Matthew 20:17–28
+hosanna,,,,syriac,,ot,Genesis 1:1–5
+hosanna,,,,syriac,,ot,Sirach 14:12–22
+hosanna,,,,syriac,,ot,Jeremiah 4:1–14
+hosanna,,,,syriac,,acts,Acts 7:30–36
+hosanna,,,,syriac,,epistle,Romans 10:5–21
+hosanna,,,,syriac,,gospel,Luke 19:28–40
+hosanna,,,,syriac,,gospel,Mark 11:1–26
+hosanna,,,,syriac,,gospel,John 12:12–19
+hosanna,,,,syriac,Blessing of the Branches,ot,Genesis 49:8–18
+hosanna,,,,syriac,Blessing of the Branches,ot,Zechariah 9:9–12
+hosanna,,,,syriac,Blessing of the Branches,ot,Isaiah 51:1–10
+hosanna,,,,syriac,Blessing of the Branches,catholic,1 John 2:7–17
+hosanna,,,,syriac,Blessing of the Branches,epistle,Romans 11:13–36
+hosanna,,,,syriac,Blessing of the Branches,gospel,Matthew 21:1–22
+hosanna,,,,syriac,Naheere,ot,Jeremiah 18:18–22
+hosanna,,,,syriac,Naheere,acts,Acts 3:22–26
+hosanna,,,,syriac,Naheere,epistle,Hebrews 6:12–20
+hosanna,,,,syriac,Naheere,gospel,Matthew 25:1–13
+easter-6,,,,syriac,Evening Prayer,gospel,Luke 19:41–48
+easter-6,,,,syriac,Midnight Office: First Kaumo,gospel,Luke 20:9–19
+easter-6,,,,syriac,Midnight Office: Second Kaumo,gospel,Luke 22:1–14
+easter-6,,,,syriac,Midnight Office: Third Kaumo,gospel,Luke 14:15–24
+easter-6,,,,syriac,Midnight Office: Third Kaumo,acts,Acts 23:12–22
+easter-6,,,,syriac,Morning Prayer,ot,Genesis 1:6–8
+easter-6,,,,syriac,Morning Prayer,ot,1 Kings 21:1–13
+easter-6,,,,syriac,Morning Prayer,ot,Isaiah 5:1–7
+easter-6,,,,syriac,Morning Prayer,acts,Acts 13:13–25
+easter-6,,,,syriac,Morning Prayer,epistle,Hebrews 11:1–7
+easter-6,,,,syriac,Morning Prayer,gospel,Matthew 21:23–32
+easter-6,,,,syriac,Third Hour,gospel,Luke 20:9–19
+easter-6,,,,syriac,Noon,gospel,Matthew 23:1–12
+easter-6,,,,syriac,Ninth Hour,gospel,Matthew 13:13–28
+easter-5,,,,syriac,Evening Prayer,gospel,Matthew 22:15–22
+easter-5,,,,syriac,Midnight Office: First Kaumo,gospel,John 10:17–40
+easter-5,,,,syriac,Midnight Office: Second Kaumo,gospel,John 2:12–25
+easter-5,,,,syriac,Midnight Office: Third Kaumo,gospel,Luke 20:20–26
+easter-5,,,,syriac,Midnight Office: Third Kaumo,acts,Acts 23:23–35
+easter-5,,,,syriac,Midnight Office: Third Kaumo,epistle,Hebrews 11:8–22
+easter-5,,,,syriac,Morning Prayer,ot,Genesis 1:9–13
+easter-5,,,,syriac,Morning Prayer,ot,Jeremiah 18:18–23
+easter-5,,,,syriac,Morning Prayer,ot,Isaiah 30:1–7
+easter-5,,,,syriac,Morning Prayer,acts,Acts 14:1–7
+easter-5,,,,syriac,Morning Prayer,epistle,Romans 11:1–12
+easter-5,,,,syriac,Morning Prayer,gospel,John 8:28–59
+easter-5,,,,syriac,Third Hour,gospel,John 7:14–27
+easter-5,,,,syriac,Noon,gospel,Luke 11:37–54
+easter-5,,,,syriac,Ninth Hour,gospel,Luke 13:31–35
+easter-4,,,,syriac,Evening Prayer,gospel,John 12:1–11
+easter-4,,,,syriac,Midnight Office: First Kaumo,gospel,John 10:15–38
+easter-4,,,,syriac,Midnight Office: Second Kaumo,gospel,John 12:19–33
+easter-4,,,,syriac,Midnight Office: Third Kaumo,gospel,John 12:34–50
+easter-4,,,,syriac,Midnight Office: Third Kaumo,acts,Acts 14:8–20
+easter-4,,,,syriac,Midnight Office: Third Kaumo,epistle,Philippians 2:1–11
+easter-4,,,,syriac,Morning Prayer,ot,Genesis 1:14–19
+easter-4,,,,syriac,Morning Prayer,ot,Psalm 2:1–12
+easter-4,,,,syriac,Morning Prayer,ot,Jeremiah 5:20–31
+easter-4,,,,syriac,Morning Prayer,acts,Acts 7:2–13
+easter-4,,,,syriac,Morning Prayer,epistle,Galatians 6:7–18
+easter-4,,,,syriac,Morning Prayer,gospel,John 7:1–13
+easter-4,,,,syriac,Third Hour,gospel,John 7:45–53
+easter-4,,,,syriac,Noon,gospel,John 7:28–39
+easter-4,,,,syriac,Ninth Hour,gospel,Luke 11:37–52
+pesaha,,,,syriac,Evening Prayer,gospel,John 8:12–20
+pesaha,,,,syriac,Midnight Office: First Kaumo,gospel,Mark 10:32–39
+pesaha,,,,syriac,Midnight Office: Second Kaumo,gospel,John 6:24–40
+pesaha,,,,syriac,Midnight Office: Third Kaumo,gospel,John 6:41–63
+pesaha,,,,syriac,Midnight Office: Third Kaumo,acts,Acts 15:4–12
+pesaha,,,,syriac,Midnight Office: Third Kaumo,epistle,1 Corinthians 11:23–34
+pesaha,,,,syriac,Passover Divine Liturgy,ot,Genesis 1:20–23
+pesaha,,,,syriac,Passover Divine Liturgy,ot,Exodus 12:43–50
+pesaha,,,,syriac,Passover Divine Liturgy,ot,Isaiah 24:16–23
+pesaha,,,,syriac,Passover Divine Liturgy,acts,Acts 1:15–25
+pesaha,,,,syriac,Passover Divine Liturgy,epistle,1 Corinthians 10:14–33
+pesaha,,,,syriac,Passover Divine Liturgy,gospel,Luke 22:1–22
+pesaha,,,,syriac,Third Hour,gospel,John 12:23–36
+pesaha,,,,syriac,Noon,gospel,Mark 14:1–9
+pesaha,,,,syriac,Ninth Hour,gospel,Matthew 26:17–30
+pesaha,,,,syriac,Washing the Feet,ot,Genesis 18:1–8
+pesaha,,,,syriac,Washing the Feet,ot,Exodus 30:17–21
+pesaha,,,,syriac,Washing the Feet,ot,Psalm 51:1–19
+pesaha,,,,syriac,Washing the Feet,catholic,1 Peter 3:17–22
+pesaha,,,,syriac,Washing the Feet,epistle,1 Corinthians 3:1–13
+pesaha,,,,syriac,Washing the Feet,gospel,John 13:1–20
+good_friday,,,,syriac,Evening Prayer,ot,Exodus 11:4–8
+good_friday,,,,syriac,Evening Prayer,ot,Zechariah 11:4–14
+good_friday,,,,syriac,Evening Prayer,ot,Jeremiah 26:7–10
+good_friday,,,,syriac,Evening Prayer,acts,Acts 23:1–35
+good_friday,,,,syriac,Evening Prayer,epistle,Hebrews 6:9–20
+good_friday,,,,syriac,Evening Prayer,gospel,Luke 22:1–30
+good_friday,,,,syriac,Midnight Office: First Kaumo,gospel,Mark 14:27–43
+good_friday,,,,syriac,Midnight Office: Second Kaumo,gospel,Mark 14:43–54
+good_friday,,,,syriac,Midnight Office: Third Kaumo,gospel,Mark 14:55–72
+good_friday,,,,syriac,Midnight Office: Third Kaumo,acts,Acts 27:1–8
+good_friday,,,,syriac,Midnight Office: Third Kaumo,epistle,Hebrews 9:11–16
+good_friday,,,,syriac,Morning Prayer,ot,Exodus 11:4–8
+good_friday,,,,syriac,Morning Prayer,ot,Zechariah 11:4–14
+good_friday,,,,syriac,Morning Prayer,ot,Jeremiah 26:7–10
+good_friday,,,,syriac,Morning Prayer,acts,Acts 23:1–22
+good_friday,,,,syriac,Morning Prayer,epistle,Hebrews 2:5–13
+good_friday,,,,syriac,Morning Prayer,gospel,Matthew 26:31–38
+good_friday,,,,syriac,Third Hour,ot,Exodus 10:21–23
+good_friday,,,,syriac,Third Hour,ot,Amos 8:4–10
+good_friday,,,,syriac,Third Hour,ot,Isaiah 50:1–9
+good_friday,,,,syriac,Third Hour,acts,Acts 25:1–12
+good_friday,,,,syriac,Third Hour,epistle,1 Corinthians 1:1–17
+good_friday,,,,syriac,Third Hour,gospel,Matthew 27:1–18
+good_friday,,,,syriac,Noon,ot,Genesis 22:1–10
+good_friday,,,,syriac,Noon,ot,Job 16:1–13
+good_friday,,,,syriac,Noon,ot,Wisdom 2:12–22
+good_friday,,,,syriac,Noon,acts,Acts 25:13–22
+good_friday,,,,syriac,Noon,epistle,Colossians 2:6–16
+good_friday,,,,syriac,Noon,gospel,Matthew 27:19–44
+good_friday,,,,syriac,Ninth Hour,ot,Genesis 4:2–12
+good_friday,,,,syriac,Ninth Hour,ot,Isaiah 53:7–12
+good_friday,,,,syriac,Ninth Hour,acts,Acts 26:1–7
+good_friday,,,,syriac,Ninth Hour,epistle,Hebrews 13:9–25
+good_friday,,,,syriac,Ninth Hour,gospel,Matthew 27:45–56
+good_friday,,,,syriac,Veneration of the Cross,ot,Genesis 22:10–18
+good_friday,,,,syriac,Veneration of the Cross,ot,Amos 8:7–10
+good_friday,,,,syriac,Veneration of the Cross,ot,Zechariah 13:1–9
+good_friday,,,,syriac,Veneration of the Cross,ot,Psalm 95:1–11
+good_friday,,,,syriac,Veneration of the Cross,acts,Acts 26:8–23
+good_friday,,,,syriac,Veneration of the Cross,epistle,1 Corinthians 1:18–25
+good_friday,,,,syriac,Veneration of the Cross,gospel,John 19:25–37
+good_friday,,,,syriac,Pre-Consecrated Liturgy,epistle,Hebrews 12:14–27
+holy_saturday,,,,syriac,,ot,Genesis 37:29–35
+holy_saturday,,,,syriac,,ot,Jonah 1:12–17
+holy_saturday,,,,syriac,,acts,Acts 2:22–36
+holy_saturday,,,,syriac,,epistle,2 Corinthians 1:1–7
+holy_saturday,,,,syriac,,gospel,Matthew 27:57–61
+holy_saturday,,,,syriac,,gospel,John 19:38–42
+holy_saturday,,,,syriac,,gospel,Matthew 27:62–66
+easter,,,,syriac,,ot,Isaiah 60:1–9
+easter,,,,syriac,,ot,Micah 7:8–10
+easter,,,,syriac,,acts,Acts 13:26–43
+easter,,,,syriac,,epistle,1 Corinthians 15:20–33
+easter,,,,syriac,,gospel,Matthew 28:1–20
+easter,,,,syriac,,gospel,Luke 24:1–12
+easter,,,,syriac,,gospel,John 20:1–18
+easter,,,,syriac,Service of Peace,ot,Isaiah 57:15–21
+easter,,,,syriac,Service of Peace,ot,Baruch 5:1–9
+easter,,,,syriac,Service of Peace,ot,Nahum 2:1–7
+easter,,,,syriac,Service of Peace,epistle,Romans 16:17–27
+easter,,,,syriac,Service of Peace,gospel,John 15:11–19
+easter+1,,,,syriac,,ot,Leviticus 11:1–28
+easter+1,,,,syriac,,ot,Isaiah 15:1–9
+easter+1,,,,syriac,,ot,Sirach 16:1–15
+easter+1,,,,syriac,,acts,Acts 3:11–26
+easter+1,,,,syriac,,epistle,Romans 5:1–11
+easter+1,,,,syriac,,gospel,Luke 24:13–35
+easter+1,,,,syriac,,gospel,Matthew 28:11–20
+easter+1,,,,syriac,,gospel,John 2:18–25
+easter+2,,,,syriac,,ot,Wisdom 1:1–16
+easter+2,,,,syriac,,ot,Isaiah 63:8–14
+easter+2,,,,syriac,,acts,Acts 4:32–37
+easter+2,,,,syriac,,epistle,Ephesians 6:10–20
+easter+2,,,,syriac,,gospel,Mark 16:1–8
+easter+2,,,,syriac,,gospel,Mark 16:9–20
+easter+2,,,,syriac,,gospel,Mark 8:11–21
+easter+3,,,,syriac,,epistle,Hebrews 5:11–14
+easter+3,,,,syriac,,gospel,Luke 23:46–56
+easter+3,,,,syriac,,gospel,Luke 24:1–11
+easter+3,,,,syriac,,gospel,Mark 8:27–32
+easter+4,,,,syriac,,epistle,Hebrews 3:14–19
+easter+4,,,,syriac,,gospel,John 19:30–42
+easter+4,,,,syriac,,gospel,John 20:3–18
+easter+4,,,,syriac,,gospel,Matthew 16:20–24
+confessors,,,,syriac,,epistle,Hebrews 11:32–40
+confessors,,,,syriac,,gospel,John 20:18–23
+confessors,,,,syriac,,gospel,Matthew 27:50–61
+confessors,,,,syriac,,gospel,Mark 9:9–15
+easter+6,,,,syriac,,epistle,Philippians 2:1–11
+easter+6,,,,syriac,,gospel,Luke 24:25–44
+easter+6,,,,syriac,,gospel,Matthew 28:9–20
+easter+6,,,,syriac,,gospel,Matthew 22:23–33
+new_sunday,,,,syriac,,ot,Numbers 5:6–10
+new_sunday,,,,syriac,,ot,Psalm 149:1–9
+new_sunday,,,,syriac,,ot,Isaiah 48:12–22
+new_sunday,,,,syriac,,catholic,1 Peter 1:13–25
+new_sunday,,,,syriac,,epistle,Ephesians 4:17–24
+new_sunday,,,,syriac,,gospel,Luke 20:19–25
+new_sunday,,,,syriac,,gospel,John 20:16–29
+easter+14,,,,syriac,,ot,Sirach 16:1–15
+easter+14,,,,syriac,,ot,Isaiah 25:1–8
+easter+14,,,,syriac,,acts,Acts 3:11–26
+easter+14,,,,syriac,,epistle,Ephesians 4:25–32
+easter+14,,,,syriac,,gospel,John 21:1–14
+easter+14,,,,syriac,,gospel,John 21:15–19
+easter+14,,,,syriac,,gospel,John 21:20–25
+easter+21,,,,syriac,,ot,Exodus 17:8–18
+easter+21,,,,syriac,,ot,Isaiah 49:8–14
+easter+21,,,,syriac,,acts,Acts 8:3–13
+easter+21,,,,syriac,,epistle,Hebrews 10:1–14
+easter+21,,,,syriac,,gospel,John 6:16–29
+easter+21,,,,syriac,,gospel,Matthew 14:22–33
+easter+21,,,,syriac,,gospel,John 4:31–38
+easter+28,,,,syriac,,ot,Exodus 1:1–14
+easter+28,,,,syriac,,ot,Habakkuk 3:2–16
+easter+28,,,,syriac,,acts,Acts 16:16–34
+easter+28,,,,syriac,,epistle,Ephesians 2:4–18
+easter+28,,,,syriac,,gospel,Luke 5:27–39
+easter+28,,,,syriac,,gospel,John 3:11–21
+easter+28,,,,syriac,,gospel,John 6:47–58
+easter+35,,,,syriac,,ot,Numbers 13:17–26
+easter+35,,,,syriac,,ot,Zechariah 8:6–17
+easter+35,,,,syriac,,acts,Acts 13:26–40
+easter+35,,,,syriac,,epistle,Colossians 1:21–29
+easter+35,,,,syriac,,gospel,John 14:1–14
+easter+35,,,,syriac,,gospel,John 16:16–30
+easter+35,,,,syriac,,gospel,Luke 9:51–62
+ascension,,,,syriac,,ot,Exodus 19:16–25
+ascension,,,,syriac,,ot,Psalm 18:1–15
+ascension,,,,syriac,,ot,Zechariah 13:2–6
+ascension,,,,syriac,,acts,Acts 1:1–4
+ascension,,,,syriac,,epistle,Ephesians 4:1–16
+ascension,,,,syriac,,gospel,Luke 24:36–53
+ascension,,,,syriac,,gospel,Mark 16:14–20
+after_ascension,,,,syriac,,ot,Deuteronomy 1:1–8
+after_ascension,,,,syriac,,ot,Sirach 22:6–23
+after_ascension,,,,syriac,,ot,Jeremiah 27:2–13
+after_ascension,,,,syriac,,acts,Acts 17:14–34
+after_ascension,,,,syriac,,epistle,Hebrews 4:1–13
+after_ascension,,,,syriac,,gospel,John 16:31–33
+after_ascension,,,,syriac,,gospel,John 17:1–12
+after_ascension,,,,syriac,,gospel,John 6:35–46
+pentecost,,,,syriac,,ot,Numbers 11:16–29
+pentecost,,,,syriac,,ot,Zechariah 12:8–14
+pentecost,,,,syriac,,acts,Acts 19:1–12
+pentecost,,,,syriac,,epistle,Ephesians 3:13–21
+pentecost,,,,syriac,,gospel,John 14:1–14
+pentecost,,,,syriac,,gospel,John 14:15–21
+pentecost,,,,syriac,,gospel,John 14:22–26
+pentecost,,,,syriac,Kneeling Service: First Part,ot,Genesis 11:1–9
+pentecost,,,,syriac,Kneeling Service: First Part,ot,Numbers 11:24–30
+pentecost,,,,syriac,Kneeling Service: First Part,ot,1 Samuel 10:9–18
+pentecost,,,,syriac,Kneeling Service: First Part,acts,Acts 1:1–8
+pentecost,,,,syriac,Kneeling Service: First Part,epistle,1 Corinthians 12:1–11
+pentecost,,,,syriac,Kneeling Service: First Part,gospel,John 14:1–17
+pentecost,,,,syriac,Kneeling Service: Second Part,ot,2 Kings 2:13–18
+pentecost,,,,syriac,Kneeling Service: Second Part,ot,Joel 2:25–32
+pentecost,,,,syriac,Kneeling Service: Second Part,acts,Acts 2:1–11
+pentecost,,,,syriac,Kneeling Service: Second Part,epistle,1 Corinthians 2:1–16
+pentecost,,,,syriac,Kneeling Service: Second Part,gospel,John 4:4–24
+pentecost,,,,syriac,Kneeling Service: Third Part,ot,Numbers 11:16–35
+pentecost,,,,syriac,Kneeling Service: Third Part,ot,Ezekiel 11:17–20
+pentecost,,,,syriac,Kneeling Service: Third Part,acts,Acts 2:12–41
+pentecost,,,,syriac,Kneeling Service: Third Part,epistle,1 Corinthians 14:26–33
+pentecost,,,,syriac,Kneeling Service: Third Part,gospel,John 16:1–15
+easter+54,,,,syriac,,acts,Acts 3:1–16
+easter+54,,,,syriac,,epistle,2 Corinthians 6:1–10
+easter+54,,,,syriac,,gospel,Matthew 19:23–30
+easter+54,,,,syriac,,gospel,Matthew 10:1–15
+easter+54,,,,syriac,,gospel,Luke 22:24–30
+easter+56,,date lt 09-14,,syriac,,ot,Numbers 10:1–10
+easter+56,,date lt 09-14,,syriac,,ot,Sirach 33:19–33
+easter+56,,date lt 09-14,,syriac,,acts,Acts 5:12–28
+easter+56,,date lt 09-14,,syriac,,epistle,Romans 6:1–14
+easter+56,,date lt 09-14,,syriac,,gospel,Luke 8:4–15
+easter+56,,date lt 09-14,,syriac,,gospel,Matthew 11:20–30
+easter+56,,date lt 09-14,,syriac,,gospel,John 6:26–35
+easter+63,,date lt 09-14,,syriac,,ot,Numbers 7:1–11
+easter+63,,date lt 09-14,,syriac,,ot,Ezekiel 37:15–28
+easter+63,,date lt 09-14,,syriac,,acts,Acts 19:1–12
+easter+63,,date lt 09-14,,syriac,,epistle,1 Corinthians 3:1–15
+easter+63,,date lt 09-14,,syriac,,gospel,Luke 6:12–26
+easter+63,,date lt 09-14,,syriac,,gospel,Mark 3:7–19
+easter+63,,date lt 09-14,,syriac,,gospel,Matthew 10:24–42
+easter+70,,date lt 09-14,,syriac,,ot,Numbers 4:1–16
+easter+70,,date lt 09-14,,syriac,,ot,Sirach 30:1–17
+easter+70,,date lt 09-14,,syriac,,ot,Jeremiah 10:1–10
+easter+70,,date lt 09-14,,syriac,,acts,Acts 19:13–22
+easter+70,,date lt 09-14,,syriac,,epistle,1 Corinthians 3:16–23
+easter+70,,date lt 09-14,,syriac,,gospel,Mark 6:4–13
+easter+70,,date lt 09-14,,syriac,,gospel,Luke 9:1–11
+easter+70,,date lt 09-14,,syriac,,gospel,John 6:35–46
+easter+77,,date lt 09-14,,syriac,,ot,Deuteronomy 8:6–18
+easter+77,,date lt 09-14,,syriac,,ot,Sirach 30:18–28
+easter+77,,date lt 09-14,,syriac,,ot,Jeremiah 7:23–34
+easter+77,,date lt 09-14,,syriac,,acts,Acts 19:30–41
+easter+77,,date lt 09-14,,syriac,,epistle,1 Corinthians 4:6–16
+easter+77,,date lt 09-14,,syriac,,gospel,Luke 10:1–16
+easter+77,,date lt 09-14,,syriac,,gospel,Luke 10:17–24
+easter+77,,date lt 09-14,,syriac,,gospel,Matthew 14:14–23
+easter+84,,date lt 09-14,,syriac,,ot,Deuteronomy 5:30–33
+easter+84,,date lt 09-14,,syriac,,ot,Jeremiah 9:7–16
+easter+84,,date lt 09-14,,syriac,,acts,Acts 26:24–32
+easter+84,,date lt 09-14,,syriac,,epistle,1 Corinthians 5:1–11
+easter+84,,date lt 09-14,,syriac,,gospel,Mark 9:3–41
+easter+84,,date lt 09-14,,syriac,,gospel,Matthew 20:17–28
+easter+84,,date lt 09-14,,syriac,,gospel,Luke 9:10–17
+easter+91,,date lt 09-14,,syriac,,ot,Deuteronomy 5:1–22
+easter+91,,date lt 09-14,,syriac,,ot,2 Kings 6:8–23
+easter+91,,date lt 09-14,,syriac,,ot,Jeremiah 9:7–16
+easter+91,,date lt 09-14,,syriac,,acts,Acts 27:9–26
+easter+91,,date lt 09-14,,syriac,,epistle,1 Corinthians 6:1–11
+easter+91,,date lt 09-14,,syriac,,gospel,Luke 17:1–10
+easter+91,,date lt 09-14,,syriac,,gospel,Mark 6:30–46
+easter+91,,date lt 09-14,,syriac,,gospel,Matthew 15:32–39
+easter+98,,date lt 09-14,,syriac,,ot,Numbers 25:1–9
+easter+98,,date lt 09-14,,syriac,,ot,Sirach 33:19–24
+easter+98,,date lt 09-14,,syriac,,ot,Isaiah 41:4–13
+easter+98,,date lt 09-14,,syriac,,acts,Acts 27:27–44
+easter+98,,date lt 09-14,,syriac,,epistle,1 Corinthians 14:34–40
+easter+98,,date lt 09-14,,syriac,,gospel,Matthew 12:30–37
+easter+98,,date lt 09-14,,syriac,,gospel,Matthew 12:38–50
+easter+98,,date lt 09-14,,syriac,,gospel,Mark 3:20–30
+easter+105,,date lt 09-14,,syriac,,ot,Numbers 16:20–35
+easter+105,,date lt 09-14,,syriac,,ot,Sirach 35:1–10
+easter+105,,date lt 09-14,,syriac,,ot,Isaiah 57:15–21
+easter+105,,date lt 09-14,,syriac,,acts,Acts 28:1–10
+easter+105,,date lt 09-14,,syriac,,epistle,Colossians 1:21–29
+easter+105,,date lt 09-14,,syriac,,gospel,Mark 4:1–20
+easter+105,,date lt 09-14,,syriac,,gospel,Matthew 13:10–23
+easter+105,,date lt 09-14,,syriac,,gospel,Mark 8:1–10
+easter+112,,date lt 09-14,,syriac,,acts,Acts 28:11–22
+easter+112,,date lt 09-14,,syriac,,epistle,1 Corinthians 3:1–15
+easter+112,,date lt 09-14,,syriac,,gospel,Matthew 13:24–35
+easter+112,,date lt 09-14,,syriac,,gospel,Matthew 13:36–43
+easter+112,,date lt 09-14,,syriac,,gospel,Luke 14:7–15
+easter+119,,date lt 09-14,,syriac,,acts,Acts 19:1–12
+easter+119,,date lt 09-14,,syriac,,epistle,Hebrews 3:1–13
+easter+119,,date lt 09-14,,syriac,,gospel,Mark 4:21–34
+easter+119,,date lt 09-14,,syriac,,gospel,Matthew 13:44–52
+easter+119,,date lt 09-14,,syriac,,gospel,Luke 14:15–24
+easter+126,,date lt 09-14,,syriac,,acts,Acts 19:13–22
+easter+126,,date lt 09-14,,syriac,,epistle,Hebrews 13:9–18
+easter+126,,date lt 09-14,,syriac,,gospel,Matthew 21:28–32
+easter+126,,date lt 09-14,,syriac,,gospel,Mark 10:28–38
+easter+126,,date lt 09-14,,syriac,,gospel,Mark 12:38–44
+easter+133,,date lt 09-14,,syriac,,catholic,James 5:7–13
+easter+133,,date lt 09-14,,syriac,,epistle,2 Corinthians 1:15–23
+easter+133,,date lt 09-14,,syriac,,gospel,Luke 10:1–16
+easter+133,,date lt 09-14,,syriac,,gospel,Luke 10:17–24
+easter+133,,date lt 09-14,,syriac,,gospel,Matthew 14:14–23
+easter+140,,date lt 09-14,,syriac,,ot,Genesis 42:9–14
+easter+140,,date lt 09-14,,syriac,,ot,2 Kings 3:5–17
+easter+140,,date lt 09-14,,syriac,,ot,Daniel 4:4–9
+easter+140,,date lt 09-14,,syriac,,catholic,2 Peter 3:1–13
+easter+140,,date lt 09-14,,syriac,,epistle,Romans 15:1–10
+easter+140,,date lt 09-14,,syriac,,gospel,Luke 14:25–35
+easter+140,,date lt 09-14,,syriac,,gospel,Luke 15:1–10
+easter+140,,date lt 09-14,,syriac,,gospel,Mark 10:35–45
+easter+147,,date lt 09-14,,syriac,,ot,Numbers 29:35–40
+easter+147,,date lt 09-14,,syriac,,ot,Jeremiah 31:1–19
+easter+147,,date lt 09-14,,syriac,,ot,Wisdom 1:2–9
+easter+147,,date lt 09-14,,syriac,,catholic,1 John 2:7–20
+easter+147,,date lt 09-14,,syriac,,epistle,1 Corinthians 9:1–12
+easter+147,,date lt 09-14,,syriac,,gospel,Luke 17:22–24
+easter+147,,date lt 09-14,,syriac,,gospel,Luke 18:1–8
+easter+147,,date lt 09-14,,syriac,,gospel,Luke 11:9–20
+easter+154,,date lt 09-14,,syriac,,acts,Acts 4:1–13
+easter+154,,date lt 09-14,,syriac,,epistle,1 Corinthians 7:25–34
+easter+154,,date lt 09-14,,syriac,,gospel,Matthew 19:1–12
+easter+154,,date lt 09-14,,syriac,,gospel,Luke 19:11–27
+easter+154,,date lt 09-14,,syriac,,gospel,Matthew 17:22–27
+easter+161,,date lt 09-14,,syriac,,acts,Acts 28:1–10
+easter+161,,date lt 09-14,,syriac,,epistle,2 Corinthians 11:16–33
+easter+161,,date lt 09-14,,syriac,,gospel,Matthew 18:1–11
+easter+161,,date lt 09-14,,syriac,,gospel,Matthew 18:12–22
+easter+161,,date lt 09-14,,syriac,,gospel,Mark 6:1–5
+easter+168,,date lt 09-14,,syriac,,acts,Acts 28:11–22
+easter+168,,date lt 09-14,,syriac,,epistle,Colossians 2:16–23
+easter+168,,date lt 09-14,,syriac,,gospel,Mark 7:1–13
+easter+168,,date lt 09-14,,syriac,,gospel,Mark 7:14–23
+easter+168,,date lt 09-14,,syriac,,gospel,Luke 11:33–44
+05-15,,,,syriac,Feast of the Virgin Mary for the Blessing of the Crops,acts,Acts 18:12–27
+05-15,,,,syriac,Feast of the Virgin Mary for the Blessing of the Crops,epistle,2 Corinthians 9:1–15
+05-15,,,,syriac,Feast of the Virgin Mary for the Blessing of the Crops,gospel,Mark 4:26–29
+05-15,,,,syriac,Feast of the Virgin Mary for the Blessing of the Crops,gospel,Matthew 23:10–13
+05-15,,,,syriac,Feast of the Virgin Mary for the Blessing of the Crops,gospel,Luke 6:1–5
+06-29,,,,syriac,,ot,Deuteronomy 27:11–26
+06-29,,,,syriac,,ot,Sirach 33:3–18
+06-29,,,,syriac,,ot,Isaiah 22:12–23
+06-29,,,,syriac,,catholic,James 2:14–26
+06-29,,,,syriac,,epistle,Philippians 1:12–30
+06-29,,,,syriac,,gospel,Matthew 18:21–35
+06-29,,,,syriac,,gospel,Matthew 20:1–16
+06-29,,,,syriac,,gospel,John 21:15–19
+06-30,,,,syriac,Feast of the Twelve Apostles,ot,Isaiah 43:1–14
+06-30,,,,syriac,Feast of the Twelve Apostles,acts,Acts 2:37–43
+06-30,,,,syriac,Feast of the Twelve Apostles,epistle,1 Corinthians 13:1–13
+06-30,,,,syriac,Feast of the Twelve Apostles,gospel,Matthew 10:1–15
+06-30,,,,syriac,Feast of the Twelve Apostles,gospel,Mark 3:7–19
+06-30,,,,syriac,Feast of the Twelve Apostles,gospel,Luke 2:12–26
+transfiguration,,,,syriac,,ot,Exodus 19:16–25
+transfiguration,,,,syriac,,ot,Deuteronomy 16:13–17
+transfiguration,,,,syriac,,ot,Zechariah 14:13–19
+transfiguration,,,,syriac,,catholic,2 Peter 2:1–22
+transfiguration,,,,syriac,,epistle,2 Corinthians 3:4–18
+transfiguration,,,,syriac,,gospel,Matthew 17:1–13
+transfiguration,,,,syriac,,gospel,Mark 9:1–13
+transfiguration,,,,syriac,,gospel,Luke 9:28–36
+shunoyo,,,,syriac,,ot,Genesis 35:16–20
+shunoyo,,,,syriac,,ot,Joshua 4:4–10
+shunoyo,,,,syriac,,ot,Judges 11:30–40
+shunoyo,,,,syriac,,ot,Psalm 45:1–17
+shunoyo,,,,syriac,,ot,Wisdom 1:2–9
+shunoyo,,,,syriac,,ot,Isaiah 45:14–19
+shunoyo,,,,syriac,,catholic,1 Peter 3:15–22
+shunoyo,,,,syriac,,epistle,Hebrews 9:3–12
+shunoyo,,,,syriac,,gospel,Matthew 12:46–50
+shunoyo,,,,syriac,,gospel,Luke 10:38–42
+shunoyo,,,,syriac,,gospel,John 19:25–27
+sleebo,,,,syriac,,ot,Genesis 48:13–20
+sleebo,,,,syriac,,ot,Exodus 17:8–16
+sleebo,,,,syriac,,ot,Sirach 39:30–41
+sleebo,,,,syriac,,ot,Psalm 46:1–11
+sleebo,,,,syriac,,acts,Acts 2:28–36
+sleebo,,,,syriac,,epistle,Galatians 3:1–16
+sleebo,,,,syriac,,gospel,Matthew 24:1–28
+sleebo,,,,syriac,,gospel,Mark 13:1–23
+sleebo,,,,syriac,,gospel,Luke 21:5–28
+after_cross:1,,,,syriac,,acts,Acts 13:26–41
+after_cross:1,,,,syriac,,epistle,2 Timothy 2:20–26
+after_cross:1,,,,syriac,,gospel,Luke 17:20–37
+after_cross:1,,,,syriac,,gospel,Matthew 24:36–50
+after_cross:1,,,,syriac,,gospel,Mark 13:32–36
+after_cross:2,,,,syriac,,acts,Acts 13:43–53
+after_cross:2,,,,syriac,,epistle,1 Corinthians 5:1–5
+after_cross:2,,,,syriac,,gospel,Matthew 15:1–11
+after_cross:2,,,,syriac,,gospel,Matthew 15:12–20
+after_cross:2,,,,syriac,,gospel,Matthew 16:5–12
+after_cross:3,,,,syriac,,acts,Acts 16:25–34
+after_cross:3,,,,syriac,,epistle,1 Corinthians 14:20–40
+after_cross:3,,,,syriac,,gospel,Matthew 18:23–35
+after_cross:3,,,,syriac,,gospel,Luke 16:1–12
+after_cross:3,,,,syriac,,gospel,Mark 2:23–28
+after_cross:4,,,,syriac,,acts,Acts 21:17–37
+after_cross:4,,,,syriac,,epistle,1 Corinthians 4:17–21
+after_cross:4,,,,syriac,,gospel,Mark 10:1–16
+after_cross:4,,,,syriac,,gospel,Luke 9:37–45
+after_cross:4,,,,syriac,,gospel,Matthew 12:5–16
+after_cross:5,,,,syriac,,acts,Acts 26:1–17
+after_cross:5,,,,syriac,,epistle,1 Timothy 2:1–15
+after_cross:5,,,,syriac,,gospel,Luke 20:27–40
+after_cross:5,,,,syriac,,gospel,Matthew 23:1–12
+after_cross:5,,,,syriac,,gospel,Luke 16:13–19
+after_cross:6,,,,syriac,,acts,Acts 18:1–11
+after_cross:6,,,,syriac,,epistle,1 Thessalonians 4:1–12
+after_cross:6,,,,syriac,,gospel,Matthew 19:13–30
+after_cross:6,,,,syriac,,gospel,Mark 10:17–27
+after_cross:6,,,,syriac,,gospel,Luke 18:18–30
+after_cross:7,,,,syriac,,acts,Acts 5:1–11
+after_cross:7,,,,syriac,,epistle,1 Timothy 3:1–15
+after_cross:7,,,,syriac,,gospel,Luke 12:13–31
+after_cross:7,,,,syriac,,gospel,Luke 12:49–59
+after_cross:7,,,,syriac,,gospel,Matthew 5:21–26

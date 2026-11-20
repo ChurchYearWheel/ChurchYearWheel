@@ -1,0 +1,7 @@
+id,date,name,full_name,rank,style,color_override,color_override_bottom,icon,icon_when,transfer,variant,when,action
+,01-13,Bl. Diego Luis de San Vitores,"Blessed Diego Luis de San Vitores, priest and martyr (Feast in Guam)",8,feast_rank,RED,,,,,,,
+,04-29,Dedication of the Cathedral at Agana,Dedication of the Cathedral at Agana (Feast at Guam),8,feast_rank,WHITE,,,,,,,
+st_joseph_the_worker,,,Saint Joseph the Worker (Memorial at Northern Marianas),11,memorial,-,,,,,,,
+our_lady_of_mount_carmel,,,Our Lady of Mount Carmel (Feast at Northern Marianas),8,feast_rank,WHITE,,,,,,,
+,thu#4:11,Day of Prayer for the Harvest and Fruits of the Earth,Day of Prayer for the Harvest and Fruits of the Earth (at Guam),12,optional_memorial,,,,,,,,
+,12-14,Dedication of the Cathedral at Chalan Kanoa,Dedication of the Cathedral at Chalan Kanoa (Feast at Northern Marianas),8,feast_rank,WHITE,,,,,,,

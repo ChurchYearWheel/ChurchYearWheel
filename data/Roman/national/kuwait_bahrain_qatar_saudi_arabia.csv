@@ -1,0 +1,5 @@
+id,date,name,full_name,rank,style,color_override,color_override_bottom,icon,icon_when,transfer,variant,when,action
+,(sun>@baptism)-1,Our Lady of Arabia,Our Lady of Arabia (can be transferred on Friday),8,feast_rank,WHITE,,,,,,,
+,06-27,Our Lady of Perpetual Help,,11,memorial,,,,,,,,
+st_teresa_of_calcutta,,,"Saint Teresa of Calcutta, religious",11,memorial,-,,,,,,,
+,10-24,St. Arethas and Companions,"Saint Arethas and companions, martyrs",11,memorial,,,,,,,,

@@ -1,0 +1,9 @@
+id,date,name,full_name,rank,style,color_override,color_override_bottom,icon,icon_when,transfer,variant,when,action
+,01-21,Our Lady of Altagracia,,11,memorial,,,,,,,,
+st_turibius_of_mogrovejo,,,"Saint Turibius of Mogrovejo, bishop",8,feast_rank,WHITE,,,,,,,
+,06-27,Our Lady of Perpetual Help,,4,solemnity,WHITE,,,,,,,
+,07-04,All Holy Popes,,11,memorial,,,,,,,,
+st_rose_of_lima,,,"Saint Rose of Lima, virgin",4,solemnity,WHITE,,,,,,,
+st_peter_claver,,,"Saint Peter Claver, priest",11,memorial,-,,,,,,,
+st_martin_de_porres,,,"Saint Martin de Porres, religious",11,memorial,-,,,,,,,
+guadalupe,,,Our Lady of Guadalupe,8,feast_rank,WHITE,,,,,,,

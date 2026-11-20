@@ -1,0 +1,7 @@
+setting,value,variant
+# ===========================================================================,,
+# The Maronite Church: the Gregorian calendar and the Western Easter.,,
+# ===========================================================================,,
+year_start,sun>=11-01,
+center_art,syriac_cross,
+"# readings.csv: the Epistle and Gospel of each day, from the Eparchy of Our Lady of Lebanon's Ordo.",,

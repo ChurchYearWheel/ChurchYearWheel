@@ -1,0 +1,81 @@
+key,label,tradition,church,series,series_menu,folder,variant,book,book_menu
+# ===========================================================================
+# What the page's menus offer.  Each row names a folder under data/ and,
+"# optionally, a variant within it.  The Tradition menu lists the `tradition`"
+"# values, the Church menu the churches of the one chosen, and a third menu"
+"# (named by `series_menu`) the `series` of that church, when it has any.  A"
+"# church with more than one `book` (the LCMS: LSB, LW, TLH, ELHB) gets a menu of"
+# them (named by `book_menu`) before the series.
+# `label` is the calendar's full name.
+# The menus list their entries alphabetically.
+# The first row of each tradition is the church it opens on; the rest follow
+"# by approximate size (members), largest first."
+# ===========================================================================
+anglican-common-worship,Common Worship (Church of England),Anglican,Church of England,Common Worship,Prayer book,Anglican,common-worship
+anglican-bcp-1662,BCP 1662 (Church of England),Anglican,Church of England,BCP 1662,Prayer book,Anglican,bcp-1662
+episcopal,BCP 1979 (Episcopal Church),Anglican,Episcopal Church (USA),BCP 1979,Prayer book,Episcopal,
+anglican-bcp-1928,BCP 1928 (Episcopal Church),Anglican,Episcopal Church (USA),BCP 1928,Prayer book,Anglican,bcp-1928
+anglican-bcp-1962,BCP 1962 (Anglican Church of Canada),Anglican,Anglican Church of Canada,BCP 1962,Prayer book,Anglican,bcp-1962
+anglican-acna-2019,ACNA 2019 (Anglican Church in North America),Anglican,ACNA (Anglican Church in North America),BCP 2019,Prayer book,Anglican,acna-2019
+anglican-ieab-2015,IEAB 2015 (Igreja Episcopal Anglicana do Brasil),Anglican,Igreja Episcopal Anglicana do Brasil (IEAB),LOC 2015,Prayer book,Anglican,ieab-2015
+anglican-wales-1984,BCP 1984 (Church in Wales),Anglican,Church in Wales,BCP 1984,Prayer book,Anglican,wales-1984
+anglican-rec-2005,REC 2005 (Reformed Episcopal Church),Anglican,Reformed Episcopal Church,BCP 2005,Prayer book,Anglican,rec-2005
+anglican-lusitana-1991,Igreja Lusitana 1991 (Portugal),Anglican,Igreja Lusitana (Portugal),LOC 1991,Prayer book,Anglican,lusitana-1991
+anglican-locb-2008,LOCb 2008 (Diocese Anglicana do Recife),Anglican,Diocese Anglicana do Recife,LOCb 2008,Prayer book,Anglican,locb-2008
+anglican-iab-2021,IAB 2021 (Igreja Anglicana no Brasil),Anglican,Igreja Anglicana no Brasil (IAB),LOC 2021,Prayer book,Anglican,iab-2021
+anglican-iecb-1987,IECB 1987 (Igreja Episcopal Carismática do Brasil),Anglican,Igreja Episcopal Carismática do Brasil (IECB),LOC 1987,Prayer book,Anglican,iecb-1987
+anglican-iarb-1662,IARB 1662 (Igreja Anglicana Reformada do Brasil),Anglican,Igreja Anglicana Reformada do Brasil (IARB),LOC 1662,Prayer book,Anglican,iarb-1662
+anglican-reb-2027,REB 2027 (Rede Episcopal Brasileira),Anglican,Rede Episcopal Brasileira (REB),LOC 2027,Prayer book,Anglican,reb-2027
+roman,Roman Catholic (General Roman Calendar),Catholic,Roman Catholic,General Roman Calendar,Missal,Roman,
+roman-1962,Roman Catholic 1962 (Extraordinary Form),Catholic,Roman Catholic,1962 (Extraordinary Form),Missal,Roman/1962,
+ambrosian,Ambrosian Rite (Archdiocese of Milan),Catholic,Ambrosian Rite (Archdiocese of Milan),,,Ambrosian,
+eastern-catholic-ugcc,Ukrainian Greek Catholic Church,Catholic,Ukrainian Greek Catholic Church,,,Orthodox,ugcc
+maronite,Maronite Catholic Church,Catholic,Maronite Catholic Church,,,Maronite,
+eastern-catholic-ruthenian,Byzantine Catholic Church (Ruthenian),Catholic,Byzantine Catholic Church (Ruthenian),,,Orthodox,ruthenian
+anglican-divine-worship-2021,Divine Worship 2021 (Personal Ordinariates),Catholic,Personal Ordinariates,Divine Worship 2021,Missal,Anglican,divine-worship-2021
+lcms-three-year,LCMS Three-year (LSB),Lutheran,LCMS (Lutheran Church–Missouri Synod),Three-year,Lectionary,LCMS/LSB,three-year,LSB (2006),Hymnal
+lcms-one-year,LCMS One-year (LSB),Lutheran,LCMS (Lutheran Church–Missouri Synod),One-year,Lectionary,LCMS/LSB,one-year,LSB (2006),Hymnal
+lcms-lw,LCMS (LW),Lutheran,LCMS (Lutheran Church–Missouri Synod),,,LCMS/LW,,LW (1982),Hymnal
+lcms-tlh-one-year,LCMS One-year (TLH),Lutheran,LCMS (Lutheran Church–Missouri Synod),,,LCMS/TLH,,TLH (1941),Hymnal
+lcms-elhb-one-year,LCMS One-year (ELHB),Lutheran,LCMS (Lutheran Church–Missouri Synod),,,LCMS/ELHB,,ELHB (1912),Hymnal
+lcms-loehe-1868,LCMS Loehe Martyrologium (1868),Lutheran,LCMS (Lutheran Church–Missouri Synod),,,LCMS/Loehe,1868,Loehe Martyrologium (1868),Hymnal
+lcms-loehe-1859,LCMS Loehe Kirchenbuch (1859),Lutheran,LCMS (Lutheran Church–Missouri Synod),,,LCMS/Loehe,1859,Loehe Kirchenbuch (1859),Hymnal
+lutheran-ekd,EKD (Evangelische Kirche in Deutschland),Lutheran,EKD (Evangelische Kirche in Deutschland),,,LutheranWorld,ekd
+lutheran-elct,KKKT (Evangelical Lutheran Church in Tanzania),Lutheran,KKKT (Evangelical Lutheran Church in Tanzania),,,LutheranWorld,elct
+lutheran-hkbp,"HKBP (Huria Kristen Batak Protestan, Indonesia)",Lutheran,"HKBP (Huria Kristen Batak Protestan, Indonesia)",,,LutheranWorld,hkbp
+lutheran-sweden,Svenska kyrkan (Church of Sweden),Lutheran,Svenska kyrkan (Church of Sweden),,,Nordic,sweden
+lutheran-denmark,Folkekirken (Evangelical Lutheran Church in Denmark),Lutheran,Folkekirken (Evangelical Lutheran Church in Denmark),,,Nordic,denmark
+lutheran-flm,Fiangonana Loterana Malagasy (Madagascar),Lutheran,Fiangonana Loterana Malagasy (Madagascar),,,LutheranWorld,flm
+lutheran-finland,Suomen ev.-lut. kirkko (Evangelical Lutheran Church of Finland),Lutheran,Suomen ev.-lut. kirkko (Evangelical Lutheran Church of Finland),,,Nordic,finland
+lutheran-norway,Den norske kirke (Church of Norway),Lutheran,Den norske kirke (Church of Norway),,,Nordic,norway
+elca,Evangelical Lutheran Church in America (ELW),Lutheran,ELCA (Evangelical Lutheran Church in America),,,ELCA,
+wels-three-year,WELS Three-year (Christian Worship 2021),Lutheran,WELS (Wisconsin Evangelical Lutheran Synod),Three-year,Lectionary,RCLWorld,wels
+wels-one-year,WELS One-year (Christian Worship 2021),Lutheran,WELS (Wisconsin Evangelical Lutheran Synod),One-year,Lectionary,RCLWorld,wels-one-year
+lutheran-slovakia,Evanjelická cirkev a. v. na Slovensku (Slovakia),Lutheran,Evanjelická cirkev a. v. na Slovensku (Slovakia),,,LutheranWorld,slovakia
+lutheran-austria,Evangelische Kirche A.B. in Österreich (Austria),Lutheran,Evangelische Kirche A.B. in Österreich (Austria),,,LutheranWorld,ekd
+lutheran-latvia,Latvijas Evaņģēliski luteriskā baznīca (Latvia),Lutheran,Latvijas Evaņģēliski luteriskā baznīca (Latvia),,,LutheranWorld,latvia
+lutheran-iceland,Þjóðkirkjan (Evangelical Lutheran Church of Iceland),Lutheran,Þjóðkirkjan (Evangelical Lutheran Church of Iceland),,,LutheranWorld,iceland
+lutheran-hungary,Magyarországi Evangélikus Egyház (Hungary),Lutheran,Magyarországi Evangélikus Egyház (Hungary),,,LutheranWorld,hungary
+lutheran-estonia,Eesti Evangeelne Luterlik Kirik (Estonia),Lutheran,Eesti Evangeelne Luterlik Kirik (Estonia),,,LutheranWorld,estonia
+lutheran-lca,Lutheran Church of Australia and New Zealand,Lutheran,LCA (Lutheran Church of Australia and New Zealand),,,RCLWorld,lca
+lutheran-poland,Kościół Ewangelicko-Augsburski (Poland),Lutheran,Kościół Ewangelicko-Augsburski (Poland),,,LutheranWorld,poland
+lcc-three-year,LCC Three-year (Lutheran Church–Canada),Lutheran,LCC (Lutheran Church–Canada),Three-year,Lectionary,LCC,three-year
+lcc-one-year,LCC One-year (Lutheran Church–Canada),Lutheran,LCC (Lutheran Church–Canada),One-year,Lectionary,LCC,one-year
+lutheran-gkli,GKLI (Gereja Kristen Luther Indonesia),Lutheran,GKLI (Gereja Kristen Luther Indonesia),,,LutheranWorld,gkli
+els-three-year,ELS Three-year (Evangelical Lutheran Synod),Lutheran,ELS (Evangelical Lutheran Synod),Three-year,Lectionary,ELS,three-year
+els-one-year,ELS One-year (Evangelical Lutheran Synod),Lutheran,ELS (Evangelical Lutheran Synod),One-year,Lectionary,ELS,one-year
+ukrainian-lutheran,Ukrainian Lutheran Church,Lutheran,Ukrainian Lutheran Church,,,UkrainianLutheran,
+methodist,United Methodist Church,Methodist,United Methodist Church,,,Methodist,
+methodist-gb,Methodist Church in Britain,Methodist,Methodist Church in Britain,,,RCLWorld,methodist-gb
+moravian,Moravian Church in America,Moravian,Moravian Church in America,,,RCLWorld,moravian
+eastern-orthodox,Eastern Orthodox,Orthodox,Eastern Orthodox,,,Orthodox,eastern-orthodox
+anglican-proposed-2025,Proposed BCP 2025 (Western Rite Orthodox),Orthodox,Western Rite Orthodox,Proposed BCP 2025,Prayer book,Anglican,proposed-2025
+oriental-ethiopian,Ethiopian and Eritrean Orthodox Tewahedo,Oriental Orthodox,Ethiopian and Eritrean Orthodox Tewahedo,,,Ethiopian,
+oriental-coptic,Coptic Orthodox Church,Oriental Orthodox,Coptic Orthodox Church,,,Coptic,
+oriental-armenian,Armenian Apostolic Church,Oriental Orthodox,Armenian Apostolic Church,,,Armenian,
+oriental-malankara,Malankara Orthodox Syrian Church,Oriental Orthodox,Malankara Orthodox Syrian Church,,,Syriac,malankara
+oriental-syriac,Syriac Orthodox Church of Antioch,Oriental Orthodox,Syriac Orthodox Church of Antioch,,,Syriac,syriac
+assyrian,Assyrian Church of the East,Church of the East,Assyrian Church of the East,,,Assyrian,
+presbyterian,Presbyterian Church (U.S.A.),Reformed and Presbyterian,Presbyterian Church (U.S.A.),,,Presbyterian,
+reformed,Reformed (RCA / CRC),Reformed and Presbyterian,Reformed (RCA / CRC),,,Reformed,
+scotland,Church of Scotland,Reformed and Presbyterian,Church of Scotland,,,RCLWorld,scotland

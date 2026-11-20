@@ -1,0 +1,3 @@
+month,font_size_override,vertical_offset,horizontal_offset
+# Escape hatch: leave blank unless a month label needs nudging.
+# 'first_day' is the row for the opening date of the church year.

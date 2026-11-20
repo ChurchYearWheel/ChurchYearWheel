@@ -1,0 +1,33 @@
+id,variant,when,date,from,to,every,first,count,first2,count2,title,names,notes,latin,color,color_bottom,rank,style,icon,claims,yield,full_name
+# ===========================================================================,,,,,,,,,,,,,,,,,,,,,,
+"# The year of the Assyrian Church of the East, in its weeks (shabu'e) from",,,,,,,,,,,,,,,,,,,,,,
+"# Subara, four Sundays before the Nativity.",,,,,,,,,,,,,,,,,,,,,,
+# ===========================================================================,,,,,,,,,,,,,,,,,,,,,,
+"# Subara: the Annunciation, four Sundays before the Nativity.",,,,,,,,,,,,,,,,,,,,,,
+subara,,,,start,12-24,sun,1,,,,{ordinal} Sunday of Subara,,,,,,,,,,,
+yalda,,,12-25,,,,,,,,Yalda,,,,WHITE,,,,,TRUE,,Yalda: the Nativity of Our Lord
+after_yalda,,,,12-26,01-05,sun,1,,,,{ordinal} Sunday after Yalda,,,,,,,,,,,
+circumcision,,,01-01,,,,,,,,Circumcision of Our Lord,,,,,,,,,,,
+denha,,,01-06,,,,,,,,Denha,,,,WHITE,,,,,TRUE,,Denha: the Epiphany (Baptism) of Our Lord
+after_denha,,,,01-07,easter-50,sun,1,,,,{ordinal} Sunday of Denha,,,,,,,,,,,
+ninevites,,,easter-69,,,,,,,,Rogation of the Ninevites,,,,VIOLET,,,,,,,"Ba'utha d'Ninwaye: the Rogation of the Ninevites, Monday to Wednesday"
+# The Great Fast (Sawma Rabba).,,,,,,,,,,,,,,,,,,,,,,
+sawma,,,,easter-49,easter-14,sun,1,,,,{ordinal} Sunday of the Great Fast,,,,,,,,,,,
+hosanna,,,easter-7,,,,,,,,Hosanna Sunday,,,,WHITE,,,,,TRUE,,
+passover,,,easter-3,,,,,,,,Thursday of the Passover,,,,WHITE,,,,,,,
+good_friday,,,easter-2,,,,,,,,Friday of the Passion,,,,BLACK,,,,,,,
+great_saturday,,,easter-1,,,,,,,,Great Saturday,,,,BLACK,WHITE,,,,,,
+# Qyamta: the Resurrection.,,,,,,,,,,,,,,,,,,,,,,
+easter,,,easter,,,,,,,,Qyamta,,,,WHITE,,,,,TRUE,,Qyamta: the Resurrection of Our Lord
+new_sunday,,,easter+7,,,,,,,,New Sunday,,,,,,,,,TRUE,,
+qyamta,,,,easter+14,easter+42,sun,3,,,,{ordinal} Sunday of the Resurrection,,,,,,,,,,,
+ascension,,,easter+39,,,,,,,,Ascension,,,,WHITE,,,,,,,Sulaqa: the Ascension of Our Lord
+"# Shlikhe (the Apostles), Qaita (Summer), Eliya and the Cross, Moses.",,,,,,,,,,,,,,,,,,,,,,
+pentecost,,,easter+49,,,,,,,,Pentecost,,,,RED,,,,,TRUE,,Pentecost: the first Sunday of the Apostles
+shlihe,,,,easter+56,easter+91,sun,2,,,,{ordinal} Sunday of the Apostles,,,,,,,,,,,
+qaita,,,,easter+98,"min(easter+147,sun<=09-12)-7",sun,1,,,,{ordinal} Sunday of Summer,,,,,,,,,,,
+eliya,,,,"min(easter+147,sun<=09-12)","min(easter+147,sun<=09-12)+42",sun,1,,,,{ordinal} Sunday of Elijah and the Cross,,,,,,,,,,,
+sliba,,,09-13,,,,,,,,Sliba,,,,RED,,,,,,,Sliba: the Feast of the Holy Cross
+moshe,,,,"min(easter+147,sun<=09-12)+49",next_start-29,sun,1,,,,{ordinal} Sunday of Moses,,,,,,,,,,,
+# The Hallowing of the Church: the last four Sundays of the year.,,,,,,,,,,,,,,,,,,,,,,
+hallowing,,,,next_start-28,next_start-7,sun,1,,,,{ordinal} Sunday of the Hallowing of the Church,,,,,,,,,,,

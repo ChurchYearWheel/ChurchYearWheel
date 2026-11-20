@@ -1,0 +1,18 @@
+id,date,name,full_name,color_override,color_override_bottom,style,variant,when,link
+# ===========================================================================,,,,,,,,,
+"# The festivals of the Book of Common Worship, and the PC(USA)'s observances",,,,,,,,,
+# and four special offerings (pcusa.org).,,,,,,,,,
+# ===========================================================================,,,,,,,,,
+"# Festivals, colored in the lower half of their cells.",,,,,,,,,
+,02-02,Presentation of the Lord,,,WHITE,,,,
+,03-25,Annunciation of the Lord,,,WHITE,,,,
+,05-31,Visitation of Mary to Elizabeth,,,WHITE,,,,
+,09-14,Holy Cross,,,RED,,,,http://www.satucket.com/lectionary/Holy_Cross.htm
+,11-01,All Saints' Day,,WHITE,,,,,https://en.wikipedia.org/wiki/All_Saints'_Day
+"# Days and special offerings of the church, which keep the season's color.",,,,,,,,,
+,easter-7,One Great Hour of Sharing,"One Great Hour of Sharing offering (Lent, especially Palm Sunday and Easter)",,,,,,
+,easter+49,Pentecost Offering,,,,,,,
+,sun#1:10,World Communion Sunday,World Communion Sunday; Peace & Global Witness Offering,,,,,,
+,sun<=10-31,Reformation Sunday,,,,,,,
+thanksgiving,thu#4:11,Day of Thanksgiving,,,,,,,
+,sun<12-25,Christmas Joy Offering,"Christmas Joy Offering (Advent, especially the Sunday before Christmas)",,,,,,

@@ -1,0 +1,15 @@
+id,date,name,full_name,rank,style,color_override,color_override_bottom,icon,icon_when,transfer,variant,when,action,link
+,01-14,Bl. Peter Donders,"Blessed Peter Donders, priest",12,optional_memorial,,,,,,,,,
+,01-15,St. Arnold Janssen,"Saint Arnold Janssen, priest",12,optional_memorial,,,,,,,,,
+sts_cyril_and_methodius,,,"Saints Cyril, monk and Methodius, bishop",8,feast_rank,WHITE,,,,,,,,
+st_catherine_of_siena,,,"Saint Catherine of Siena, virgin and doctor of the Church",8,feast_rank,WHITE,,,,,,,,
+,06-05,St. Boniface and Companions,"Saint Boniface, bishop and martyr, and companions, martyrs",11,memorial,,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-boniface/
+,06-14,St. Lidwina,"Saint Lidwina, virgin",8,feast_rank,WHITE,,,,,,,,
+,07-09,Martyrs of Gorkum,The Martyrs of Gorkum,8,feast_rank,RED,,,,,,,,
+st_benedict,,,"Saint Benedict, abbot",8,feast_rank,WHITE,,,,,,,,
+,07-23,St. Brigitta,"Saint Brigitta, religious",8,feast_rank,WHITE,,,,,,,,
+,07-27,St. Titus Brandsma,"Saint Titus Brandsma, priest and martyr",11,memorial,,,,,,,,,
+st_teresa_benedicta_of_the_cross,,,"Saint Teresa Benedicta of the Cross, virgin and martyr",8,feast_rank,RED,,,,,,,,
+,11-03,St. Hubert,"Saint Hubert, bishop",11,memorial,,,,,,,,,
+,11-06,Preachers of the Faith in Netherlands,The Preachers of the Faith in Netherlands,8,feast_rank,WHITE,,,,,,,,
+,11-07,St. Willibrord,"Saint Willibrord, bishop",4,solemnity,WHITE,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-willibrord/

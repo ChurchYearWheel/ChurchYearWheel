@@ -1,0 +1,134 @@
+id,date,name,full_name,color_override,color_override_bottom,style,variant,when,link
+# ===========================================================================,,,,,,,,,
+"# The fixed days of the ULC's 2016 calendar, on the Revised Julian calendar the",,,,,,,,,
+"# church has kept since 2018: its Julian dates moved back thirteen days, the",,,,,,,,,
+"# days it kept on civil dates (Luther, Cranach, Bach, the Reformation) left",,,,,,,,,
+"# where they were.  Red for martyrs, the Cross and the Reformation, as its",,,,,,,,,
+# color notes give them.,,,,,,,,,
+# ===========================================================================,,,,,,,,,
+,01-02,Й.К.В. Льое,"Wilhelm Löhe, pastor and theologian",,,,,,
+,01-03,Пророк Малахія,"Malachi, prophet",,,,,,
+,01-05,Пророк Михей,"Micah, prophet",,,,,,
+,01-09,Пророк Шемая,"Shemaiah, prophet",,,,,,
+,01-10,"Василь Великий, Григорій Богослов, Григорій Ниський","Basil the Great, Gregory the Theologian and Gregory of Nyssa",,,,,,https://en.wikipedia.org/wiki/Basil_of_Caesarea
+,01-14,Св. Ніна,"Nino, enlightener of Georgia",,,,,,
+,01-18,Віровизнання Св. Петра,The Confession of St Peter,,,,,,https://en.wikipedia.org/wiki/Confession_of_Peter
+,01-20,Св. Сарра,Sarah,,,,,,https://en.wikipedia.org/wiki/Sarah
+,01-22,День народної радості,Day of National Joy (the Unity of Ukraine),,,,,,
+,01-22,Св. Тимофій,"Timothy, pastor and confessor",,,,,,
+,01-25,Навернення Св. Павла,The Conversion of St Paul,,,,,,https://en.wikipedia.org/wiki/Conversion_of_Paul_the_Apostle
+,02-02,Стрітення Господнє,The Meeting (Presentation) of the Lord,WHITE,,,,,
+,02-06,Св. Ізраїль (Яків),"Jacob (Israel), patriarch",,,,,,
+,02-08,Пророк Захарія,"Zechariah, prophet",,,,,,https://en.wikipedia.org/wiki/Zechariah_(priest)
+,02-10,Св. Сила,"Silas, fellow worker of Peter and Paul",,,,,,https://en.wikipedia.org/wiki/Silas
+,02-13,Костянтин Острозький,Prince Konstanty Ostrogski,,,,,,
+,02-13,"Акила, Прискилла й Аполлос","Aquila, Priscilla and Apollos",,,,,,https://en.wikipedia.org/wiki/Aquila_(bible)
+,02-14,Св. Валентин,"Valentine, martyr",,,,,,https://en.wikipedia.org/wiki/Saint_Valentine
+,02-15,Филимон та Онисим,Philemon and Onesimus,,,,,,
+,02-18,Мартін Лютер,"Martin Luther, reformer",,WHITE,,,,https://en.wikipedia.org/wiki/Martin_Luther
+,02-23,Полікарп Смирнський,"Polycarp of Smyrna, pastor and confessor",,,,,,https://en.wikipedia.org/wiki/Polycarp
+,03-03,Матвій Флацій,Matthias Flacius Illyricus,,,,,,
+,03-07,Перпетуя і Фелісітата,"Perpetua and Felicity, martyrs",,,,,,http://www.satucket.com/lectionary/Perpetua.htm
+,03-17,Св. Патрік,"Patrick, missionary to Ireland",,,,,,https://en.wikipedia.org/wiki/Saint_Patrick
+,03-25,Благовіщення,The Annunciation,WHITE,,,,,http://www.satucket.com/lectionary/Annunciation.htm
+,03-31,Патріарх Йосип,"Joseph, patriarch",,,,,,https://en.wikipedia.org/wiki/Joseph_(Hebrew_Bible)
+,04-06,Лукас Кранах та Альбрехт Дюрер,"Lucas Cranach and Albrecht Dürer, artists",,,,,,
+,04-19,Филип Меланхтон,"Philipp Melanchthon, reformer",,,,,,
+,04-20,Йоганн Бугенгаген,"Johannes Bugenhagen, pastor",,,,,,https://en.wikipedia.org/wiki/Johannes_Bugenhagen
+,04-21,Ансельм Кентерберійський,Anselm of Canterbury,,,,,,
+,04-25,Євангеліст Марко,"Mark, evangelist",,,,,,https://en.wikipedia.org/wiki/Mark_the_Evangelist
+,05-01,Апостоли Пилип і Яків,"Philip and James, apostles",,,,,,https://en.wikipedia.org/wiki/Philip_the_Apostle
+,05-02,Афанасій Александрійський,Athanasius of Alexandria,,,,,,https://en.wikipedia.org/wiki/Athanasius_of_Alexandria
+,05-05,Фрідріх Мудрий,"Frederick the Wise, Christian ruler",,,,,,"https://en.wikipedia.org/wiki/Frederick_III,_Elector_of_Saxony"
+,05-07,К.Ф.В. Вальтер,"C. F. W. Walther, theologian",,,,,,
+,05-09,Св. Йов,Job,,,,,,https://en.wikipedia.org/wiki/Job_(Biblical_figure)
+,05-11,Кирило і Мефодій,"Cyril and Methodius, missionaries to the Slavs",,,,,,https://en.wikipedia.org/wiki/Cyril_and_Methodius
+,05-21,Костянтин та Олена,Constantine and his mother Helen,,,,,,
+,05-24,Св. Естер,Esther,,,,,,https://en.wikipedia.org/wiki/Esther
+,05-25,Теодор Ярчук,"Theodor Yarchuk, Ukrainian reformer, pastor and martyr",,RED,,,,
+,05-31,Відвідини Єлизавети,The Visitation,,,,,,
+,06-01,Юстин Мученик,Justin Martyr,,,,,,https://en.wikipedia.org/wiki/Justin_Martyr
+,06-05,Боніфацій Майнцький,"Boniface of Mainz, missionary",,,,,,
+,06-11,Св. Варнава,"Barnabas, apostle",,,,,,https://en.wikipedia.org/wiki/Barnabas
+,06-14,Пророк Єлисей,"Elisha, prophet",,,,,,
+,06-15,Пророк Амос,"Amos, prophet",,,,,,
+,06-24,Різдво Івана Христителя,The Nativity of John the Baptist,,WHITE,,,,https://en.wikipedia.org/wiki/Nativity_of_St._John_the_Baptist
+,06-25,День Віросповідань,The Nicene Creed and the Augsburg Confession,,WHITE,,,,
+,06-26,Пророк Єремія,"Jeremiah, prophet",,,,,,https://en.wikipedia.org/wiki/Jeremiah
+,06-27,Кирило Александрійський,Cyril of Alexandria,,,,,,
+,06-28,Іриней Ліонський,Irenaeus of Lyons,,,,,,https://en.wikipedia.org/wiki/Irenaeus
+,06-29,Свято апостольської ревності,Feast of Apostolic Zeal (Peter and Paul),,RED,,,,
+,07-04,Аскольд,"Askold, Christian ruler",,,,,,
+,07-06,Ян Гус,"Jan Hus, martyr",,RED,,,,https://en.wikipedia.org/wiki/Jan_Hus
+,07-06,Пророк Ісая,"Isaiah, prophet",,,,,,https://en.wikipedia.org/wiki/Isaiah
+,07-11,Св. Ольга,"Olga, Christian ruler",,,,,,
+,07-13,Архангел Гавриїл,The Archangel Gabriel,,,,,,
+,07-15,Володимир Великий,"Volodymyr the Great, enlightener of Rus'-Ukraine",,,,,,
+,07-16,Св. Рут,Ruth,,,,,,https://en.wikipedia.org/wiki/Book_of_Ruth
+,07-20,Пророк Ілля,"Elijah, prophet",,,,,,https://en.wikipedia.org/wiki/Elijah_(prophet)
+,07-21,Пророк Єзекіїль,"Ezekiel, prophet",,,,,,https://en.wikipedia.org/wiki/Book_of_Ezekiel
+,07-22,Марія Магдалина,Mary Magdalene,,,,,,https://en.wikipedia.org/wiki/Mary_Magdalene
+,07-28,Йоганн Себастьян Бах,"Johann Sebastian Bach, kantor",,,,,,https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+,07-29,"Марія, Марта і Лазар; Олаф","Mary, Martha and Lazarus; Olaf of Norway",,,,,,"https://en.wikipedia.org/wiki/Mary,_sister_of_Lazarus"
+,07-30,Роберт Барнс,"Robert Barnes, confessor and martyr",,,,,,https://en.wikipedia.org/wiki/Robert_Barnes_(martyr)
+,07-31,Йосип Ариматейський,Joseph of Arimathea,,,,,,https://en.wikipedia.org/wiki/Joseph_of_Arimathea
+,08-03,Жінки-мироносиці,"Joanna, Mary and Salome, myrrhbearers",,,,,,https://en.wikipedia.org/wiki/Saint_Joanna
+,08-06,Преображення Господнє,The Transfiguration of the Lord (thanksgiving for the harvest),WHITE,,,,,
+,08-09,Апостол Матій,"Matthias, apostle",,,,,,
+,08-10,Лаврентій,"Lawrence, deacon and martyr",,,,,,https://en.wikipedia.org/wiki/Lawrence_of_Rome
+,08-15,Діва Марія Богородиця,"St Mary, Mother of God",WHITE,,,,,https://en.wikipedia.org/wiki/Mary_(mother_of_Jesus)
+,08-16,Патріарх Ісак,"Isaac, patriarch",,,,,,https://en.wikipedia.org/wiki/Isaac
+,08-17,Йоганн Ґергард,"Johann Gerhard, theologian",,,,,,https://en.wikipedia.org/wiki/Johann_Gerhard
+,08-20,Бернард Клервоський; пророк Самуїл,"Bernard of Clairvaux; Samuel, prophet",,,,,,
+,08-24,Апостол Варфоломій,"Bartholomew, apostle",,,,,,https://en.wikipedia.org/wiki/Bartholomew_the_Apostle
+,08-25,Св. Тит,"Titus, pastor and confessor",,,,,,
+,08-27,Св. Моніка,"Monica, mother of Augustine",,,,,,https://en.wikipedia.org/wiki/Saint_Monica
+,08-28,Блаженний Августин,"Augustine of Hippo, pastor and theologian",,,,,,https://en.wikipedia.org/wiki/Augustine_of_Hippo
+,08-29,Мучеництво Івана Христителя,The Martyrdom of John the Baptist,,RED,,,,https://en.wikipedia.org/wiki/Beheading_of_John_the_Baptist
+,09-01,Ісус Навин,Joshua,,,,,,https://en.wikipedia.org/wiki/Joshua
+,09-02,Св. Ганна,Hannah,,,,,,https://en.wikipedia.org/wiki/Hannah_(Bible)
+,09-03,Григорій Великий,Gregory the Great,,,,,,https://en.wikipedia.org/wiki/Gregory_the_Great
+,09-04,Пророк Мойсей,"Moses, prophet",,,,,,https://en.wikipedia.org/wiki/Moses
+,09-05,Захарія та Єлизавета,Zechariah and Elizabeth,,,,,,
+,09-13,Корнилій,Cornelius the Centurion,,,,,,http://www.satucket.com/lectionary/Cornelius.htm
+,09-14,День Хреста Господнього,Day of the Holy Cross (the Victory of Christianity),,RED,,,,https://en.wikipedia.org/wiki/Feast_of_the_Cross
+,09-16,Кіпріан Карфагенський,"Cyprian of Carthage, pastor and martyr",,,,,,
+,09-22,Пророк Йона,"Jonah, prophet",,,,,,https://en.wikipedia.org/wiki/Jonah
+,09-29,Архистратиг Михаїл,St Michael and All Angels,,,,,,https://en.wikipedia.org/wiki/Michael_(archangel)
+,09-30,Св. Єронім,"Jerome, translator of Scripture",,,,,,https://en.wikipedia.org/wiki/Jerome
+,10-01,Господня Покрова,The Protection of the Theotokos,,,,,,
+,10-09,Патріарх Авраам,"Abraham, patriarch",,,,,,https://en.wikipedia.org/wiki/Abraham
+,10-11,Диякон Пилип,Philip the deacon,,,,,,https://en.wikipedia.org/wiki/Philip_the_Evangelist
+,10-17,Пророк Осія; Ігнатій Антіохійський,"Hosea, prophet; Ignatius of Antioch, martyr",,,,,,
+,10-18,Євангеліст Лука,"Luke, evangelist",,,,,,https://en.wikipedia.org/wiki/Luke_the_Evangelist
+,10-19,Пророк Йоіл,"Joel, prophet",,,,,,
+,10-25,"Доркас, Лідія і Фіва","Dorcas, Lydia and Phoebe, faithful women",,,,,,
+,10-26,"Ніколаї, Германн і Ґергардт","Philipp Nicolai, Johann Heermann and Paul Gerhardt, hymnwriters",,,,,,https://en.wikipedia.org/wiki/Philipp_Nicolai
+,10-27,Нестор Літописець,Nestor the Chronicler,,,,,,
+,10-28,Апостоли Симон і Юда,"Simon and Jude, apostles",,,,,,https://en.wikipedia.org/wiki/Simon_the_Zealot
+,10-31,День Реформації,Reformation Day (the Renewal of the Church),,RED,,,,
+,11-01,День Усіх Святих,All Saints' Day,,WHITE,,,,https://en.wikipedia.org/wiki/All_Saints'_Day
+,11-08,Йоганн фон Штаупіц,"Johann von Staupitz, Luther's confessor",,,,,,https://en.wikipedia.org/wiki/Johann_von_Staupitz
+,11-09,Мартін Хемніц,"Martin Chemnitz, pastor and confessor",,,,,,https://en.wikipedia.org/wiki/Martin_Chemnitz
+,11-11,Мартін Турський,Martin of Tours,,,,,,https://en.wikipedia.org/wiki/Martin_of_Tours
+,11-13,Іван Золотоустий,John Chrysostom,,,,,,https://en.wikipedia.org/wiki/John_Chrysostom
+,11-14,Імператор Юстиніан,"Justinian, Christian ruler and confessor",,,,,,
+,11-16,Апостол Матвій,"Matthew, apostle and evangelist",,,,,,
+,11-19,Пророк Овдій,"Obadiah, prophet",,,,,,
+,11-23,Климент Римський,"Clement of Rome, pastor and martyr",,,,,,https://en.wikipedia.org/wiki/Pope_Clement_I
+,11-26,Патріарх Ной,Noah,,,,,,
+,11-30,Андрій Первозванний,"Andrew the First-called, apostle",,RED,,,,
+,12-01,Пророк Наум,"Nahum, prophet",,,,,,
+,12-02,Пророк Авакум,"Habakkuk, prophet",,,,,,
+,12-03,Пророк Софонія,"Zephaniah, prophet",,,,,,
+,12-04,Св. Варвара; Іван Дамаскін,"Barbara, martyr; John of Damascus",,,,,,
+,12-06,Св. Миколай,Nicholas of Myra,,,,,,https://en.wikipedia.org/wiki/Saint_Nicholas
+,12-07,Амвросій Медіоланський,Ambrose of Milan,,,,,,https://en.wikipedia.org/wiki/Ambrose
+,12-16,Пророк Огій,"Haggai, prophet",,,,,,
+,12-17,Пророк Даниїл і три юнаки,Daniel and the Three Youths,,,,,,
+,12-19,Адам та Єва,Adam and Eve,,,,,,https://en.wikipedia.org/wiki/Adam
+,12-20,Катерина фон Бора-Лютер,Katharina von Bora Luther,,,,,,https://en.wikipedia.org/wiki/Katharina_von_Bora
+,12-21,Апостол Хома,"Thomas, apostle",,,,,,https://en.wikipedia.org/wiki/Thomas_the_Apostle
+,12-26,Віфлеємські немовлята,The Holy Innocents of Bethlehem,,,,,,
+,12-27,Первомученик Степан; апостол Іван,"Stephen, deacon and first martyr; John, apostle and evangelist",,RED,,,,
+,12-28,Йосип Обручник; цар Давид,"Joseph, guardian of Jesus; David, king",,,,,,

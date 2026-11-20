@@ -1,0 +1,31 @@
+day,variant,when,hymnal,topic,subtopic,numbers
+# ===========================================================================
+"# Lift Up Your Hearts (2013): its ""Church Year"" topic, for the hymn marks"
+# after the day's name.
+"# day: a days.csv id (a run's Sundays, or one with :n), a feast's id, a month and day,"
+"# or a date rule; when: a further condition, as readings.csv's.  topic and subtopic"
+"# are the hymnal's own words in Hymnary.org's index (hymnary.org/browse/topics/<code>),"
+"# exactly, misspellings and all: the mark opens that topic's list there.  {abc} in"
+"# either is the year of the three-year lectionary (A, B or C)."
+# See docs/traditions.md (hymn_topics.csv).
+# ===========================================================================
+advent,,,LUYH2013,Church Year,Advent,
+christmas_eve,,,LUYH2013,Church Year,Christmas,
+christmas,,,LUYH2013,Church Year,Christmas,
+after_christmas,,,LUYH2013,Church Year,Christmas,
+epiphany,,,LUYH2013,Church Year,Epiphany,
+baptism,,,LUYH2013,Church Year,Baptism of Our Lord,
+after_epiphany,,,LUYH2013,Church Year,Epiphany,
+transfiguration,,,LUYH2013,Church Year,Transfiguration,
+ash_wednesday,,,LUYH2013,Church Year,Ash Wednesday,
+lent,,,LUYH2013,Church Year,Lent,
+palm_sunday,,,LUYH2013,Church Year,Palm Sunday/Triumphal Entry,
+maundy_thursday,,,LUYH2013,Church Year,Maundy Thursday,
+good_friday,,,LUYH2013,Church Year,Good Friday,
+holy_saturday,,,LUYH2013,Church Year,Easter Vigil,
+easter,,,LUYH2013,Church Year,Easter/Season of Easter,
+after_easter,,,LUYH2013,Church Year,Easter/Season of Easter,
+ascension,,,LUYH2013,Church Year,Ascension,
+pentecost,,,LUYH2013,Church Year,Pentecost,
+trinity,,,LUYH2013,Church Year,Trinity Sunday,
+christ_the_king,,,LUYH2013,Church Year,Christ the King,

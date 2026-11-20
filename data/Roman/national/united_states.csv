@@ -1,0 +1,31 @@
+id,date,name,full_name,rank,style,color_override,color_override_bottom,icon,icon_when,transfer,variant,when,action,link
+,01-04,St. Elizabeth Ann Seton,"Saint Elizabeth Ann Seton, religious",11,memorial,,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-elizabeth-ann-seton/
+,01-05,St. John Neumann,"Saint John Neumann, bishop",11,memorial,,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-john-neumann/
+,01-06,St. André Bessette,"Saint André Bessette, religious",12,optional_memorial,,,,,,,,,
+,01-22,Day of Prayer for the Legal Protection of Unborn Children,Day of Prayer for the Legal Protection of Unborn Children (23 Jan when 22 Jan falls on a Sunday),12,optional_memorial,,,,,,,,,
+,01-23,St. Vincent or St. Marianne Cope,"Saint Vincent, deacon and martyr or Saint Marianne Cope, virgin",12,optional_memorial,,,,,,,,,
+,03-03,St. Katharine Drexel,"Saint Katharine Drexel, virgin",12,optional_memorial,,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-katharine-drexel/
+,05-10,St. Damien de Veuster,"Saint Damien de Veuster, priest",12,optional_memorial,,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-damien-martyr-of-molokai/
+,05-15,St. Isidore,Saint Isidore,12,optional_memorial,,,,,,,,,
+,07-01,St. Junípero Serra,"Saint Junípero Serra, priest",12,optional_memorial,,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/blessed-junipero-serra/
+st_elizabeth_of_portugal,07-05,,Saint Elizabeth of Portugal,12,optional_memorial,-,,,,,,,,
+,07-14,St. Kateri Tekakwitha,"Saint Kateri Tekakwitha, virgin",11,memorial,,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-kateri-tekakwitha/
+st_camillus_de_lellis,07-18,,"Saint Camillus de Lellis, priest",12,optional_memorial,-,,,,,,,,
+st_peter_claver,,,"Saint Peter Claver, priest",11,memorial,-,,,,,,,,
+,10-05,Bl. Francis Xavier Seelos,"Blessed Francis Xavier Seelos, priest",12,optional_memorial,,,,,,,,,
+,10-06,Bl. Marie-Rose Durocher,"Blessed Marie-Rose Durocher, virgin",12,optional_memorial,,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/blessed-marierose-durocher/
+,10-19,Sts. John de Brébeuf and Isaac Jogues and Companions,"Saints John de Brébeuf and Isaac Jogues, priests, and companions, martyrs",11,memorial,,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saints-isaac-jogues-john-de-brebeuf-and-companions/
+st_paul_of_the_cross,10-20,,"Saint Paul of the Cross, priest",12,optional_memorial,-,,,,,,,,
+,11-13,St. Frances Xavier Cabrini,"Saint Frances Xavier Cabrini, virgin",11,memorial,,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/st-frances-xavier-cabrini/
+,11-18,St. Rose Philippine Duchesne,"Saint Rose Philippine Duchesne, virgin",12,optional_memorial,,,,,,,,,
+,11-23,Bl. Miguel Agustín Pro,"Blessed Miguel Agustín Pro, priest and martyr",12,optional_memorial,,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/blessed-miguel-agustin-pro/
+guadalupe,,,Our Lady of Guadalupe,8,feast_rank,WHITE,,,,,,,,
+epiphany,sun>=01-02,,,,,,,-,,,,,,
+ascension,easter+42,,"The Ascension of the Lord (kept on the Seventh Sunday of Easter in most provinces; on Thursday in the provinces of Boston, Hartford, New York, Newark, Philadelphia and Omaha)",,,,,-,,,,,,
+corpus_christi,easter+63,,,,,,,-,,,,,,
+mary_mother_of_god,,,,,,,,obligation,date nwd sat|mon,,,,,
+assumption,,,,,,,,obligation,date nwd sat|mon,,,,,
+all_saints,,,,,,,,obligation,date nwd sat|mon,,,,,
+st_joseph,,,,,,,,-,,,,,,
+peter_and_paul,,,,,,,,-,,,,,,
+,thu#4:11,Thanksgiving Day,,12,optional_memorial,,,,,,,,,

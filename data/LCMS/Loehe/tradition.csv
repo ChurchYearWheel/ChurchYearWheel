@@ -1,0 +1,12 @@
+setting,value,variant
+# ===========================================================================,,
+# The sanctoral calendars of Wilhelm Loehe (1808-1872), pastor at Neuendettelsau,,
+"# whose missionaries helped found the LCMS: variant 1859 is the Calendarium sanctorum of his",,
+"# Haus-, Schul- und Kirchenbuch (1859), variant 1868 the corrected list of his Martyrologium (1868),",,
+"# both as translated by Benjamin T. G. Mayes (2001).  Any setting from config.csv may be given",,
+# here and wins over it.  See docs/traditions.md.,,
+# ===========================================================================,,
+year_start,sun<12-25-21,
+center_art,lutherrose,
+latin_names_available,TRUE,
+festival_half_end_auto,trinity-week,

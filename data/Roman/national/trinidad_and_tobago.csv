@@ -1,0 +1,8 @@
+id,date,name,full_name,rank,style,color_override,color_override_bottom,icon,icon_when,transfer,variant,when,action
+st_joseph_the_worker,,,Saint Joseph the Worker,8,feast_rank,WHITE,,,,,,,
+sts_joachim_and_anne,,,"Saints Joachim and Anne, Parents of the Blessed Virgin Mary",8,feast_rank,WHITE,,,,,,,
+st_jean_vianney,,,"Saint Jean Vianney, priest",8,feast_rank,WHITE,,,,,,,
+st_therese_of_the_child_jesus,,,"Saint Thérèse of the Child Jesus, virgin and doctor of the Church",8,feast_rank,WHITE,,,,,,,
+guadalupe,,,Our Lady of Guadalupe,8,feast_rank,WHITE,,,,,,,
+corpus_christi,easter+60,,,,,,,,,,,,
+,easter+69,Immaculate Heart of Mary,The Immaculate Heart of the Blessed Virgin Mary,8,feast_rank,WHITE,,,,,,,

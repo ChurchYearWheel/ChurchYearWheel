@@ -1,0 +1,22 @@
+id,date,name,full_name,rank,style,color_override,color_override_bottom,icon,icon_when,transfer,variant,when,action,link
+,02-05,St. Felipe de Jesús,"Saint Felipe de Jesús, priest and martyr",8,feast_rank,RED,,,,,,,,
+,02-25,Bl. Sebastián de Aparicio,"Blessed Sebastián de Aparicio, religious",12,optional_memorial,,,,,,,,,
+,04-27,St. María Guadalupe García Zavala,"Saint María Guadalupe García Zavala, virgin",12,optional_memorial,,,,,,,,,
+sts_philip_and_james,,,Exaltation of the Holy Cross,7,feast_rank,RED,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/triumph-of-the-cross/
+,05-04,St. Philip and St. James,"Saint Philip and Saint James, apostles",8,feast_rank,RED,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saints-philip-and-james/
+,05-15,St. Isidore the Laborer,Saint Isidore the Laborer,11,memorial,,,,,,,,,
+,05-16,St. John Nepomucene,"Saint John Nepomucene, priest and martyr",12,optional_memorial,,,,,,,,,
+,05-21,St. Cristóbal Magallanes and Companions,"Saint Cristóbal Magallanes and companions, martyrs",11,memorial,,,,,,,,,
+,06-27,Our Lady of Perpetual Help,,12,optional_memorial,,,,,,,,,
+,07-04,Our Lady of Refuge,,12,optional_memorial,,,,,,,,,
+,07-30,St. María de Jesús Sacramentado Venegas,"Saint María de Jesús Sacramentado Venegas, virgin",12,optional_memorial,,,,,,,,,
+,08-16,Bl. Bartolomé Días Laurel or Bl. Pedro de Zúñiga and Bl. Luis Flores,"Blessed Bartolomé Días Laurel, religious and martyr or Blessed Pedro de Zúñiga and Blessed Luis Flores, priests and martyrs",12,optional_memorial,,,,,,,,,
+,08-26,St. Junípero Serra,"Saint Junípero Serra, priest",12,optional_memorial,,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/blessed-junipero-serra/
+st_rose_of_lima,08-30,,"Saint Rose of Lima, virgin",8,feast_rank,WHITE,,,,,,,,
+,09-19,St. José Maria de Yermo,"Saint José Maria de Yermo, priest",12,optional_memorial,,,,,,,,,
+,09-24,Our Lady of Mercy,,11,memorial,,,,,,,,,
+,10-24,St. Rafael Guízar y Valencia,"Saint Rafael Guízar y Valencia, bishop",8,feast_rank,WHITE,,,,,,,,
+,11-23,Bl. Miguel Agustín Pro,"Blessed Miguel Agustín Pro, priest and martyr",12,optional_memorial,,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/blessed-miguel-agustin-pro/
+st_juan_diego,,,Saint Juan Diego,11,memorial,-,,,,,,,,
+guadalupe,,,Our Lady of Guadalupe,4,solemnity,WHITE,,,,,,,,
+,easter+53,Christ the Eternal High Priest,"Our Lord Jesus Christ, the Eternal High Priest",8,feast_rank,WHITE,,,,,,,,

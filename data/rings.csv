@@ -1,0 +1,7 @@
+order,key,kind,r_inner,r_outer,fill,stroke,stroke_width,source,font_size,font_family,font_weight,text_color,label_mode,inner_border_color,inner_border_width,enabled
+1,days,days,380,900,,,,,,,,,none,,,TRUE
+2,gold,band,1010,1050,#f4c00e,,,,,,,,none,#000000,7.5,TRUE
+3,halves,segments,940,1010,#e6c3f7,none,0,halves,42,sans-serif,900,#000000,auto,,,TRUE
+4,seasons,segments,900,940,#31ce9f,none,0,season_periods,24,sans-serif,bold,#000000,auto,,,TRUE
+5,months,segments,330,380,#31ce9f,none,0,months,18,sans-serif,800,#000000,auto,,,TRUE
+6,center,center,0,330,#ffffff,,,,,,,,none,,,TRUE

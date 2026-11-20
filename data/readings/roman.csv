@@ -1,0 +1,1254 @@
+day,offset,when,cycle,variant,title,kind,reading
+# ===========================================================================
+"# The Roman Lectionary for Mass: the Sundays, solemnities and feasts of"
+"# Years A, B and C (Year A begins with Advent 2025), with Ash Wednesday, Holy"
+"# Week and the Octave of Easter, as the Lectionary for Mass for use in the"
+"# dioceses of the United States (1998/2002) gives them, from Felix Just's"
+# tables at https://catholic-resources.org/Lectionary/1998USL.htm (read
+# October 2026).  Verses follow the New American Bible; a psalm's stanzas
+"# are joined where they run on (Psalm 122:1-2, 3-4a, 4b-5 -> 122:1-5)."
+# A Sunday in Ordinary Time is given under both runs of weeks (ordinary_1,
+"# before Lent, and ordinary_2, after Pentecost) since the 6th to 9th can fall"
+"# in either.  The feasts are named by their feasts.csv ids, so their readings"
+# follow them when they are transferred; the vigil Masses are the evening
+# before (offset -1).  Where the Lectionary gives Years B and C readings of
+"# their own as options (Holy Family, Baptism, Ascension, Pentecost) they"
+# follow the Year A reading after "or".  All Souls: the first of the
+# readings offered.
+# Shared by the General Roman Calendar (data/Roman) and Divine Worship
+"# (data/Anglican, variant divine-worship-2021), which name it with"
+"# `readings,roman`; Divine Worship's own changes are in data/Anglican/readings.csv."
+# ===========================================================================
+advent:1,,,A,,,ot,Isaiah 2:1–5
+advent:1,,,A,,,psalm,Psalm 122:1–9
+advent:1,,,A,,,epistle,Romans 13:11–14
+advent:1,,,A,,,gospel,Matthew 24:37–44
+advent:2,,,A,,,ot,Isaiah 11:1–10
+advent:2,,,A,,,psalm,"Psalm 72:1–2, 7–8, 12–13, 17"
+advent:2,,,A,,,epistle,Romans 15:4–9
+advent:2,,,A,,,gospel,Matthew 3:1–12
+advent:3,,,A,,,ot,"Isaiah 35:1–6a, 10"
+advent:3,,,A,,,psalm,Psalm 146:6c–10
+advent:3,,,A,,,epistle,James 5:7–10
+advent:3,,,A,,,gospel,Matthew 11:2–11
+advent:4,,,A,,,ot,Isaiah 7:10–14
+advent:4,,,A,,,psalm,Psalm 24:1–6
+advent:4,,,A,,,epistle,Romans 1:1–7
+advent:4,,,A,,,gospel,Matthew 1:18–24
+advent:1,,,B,,,ot,"Isaiah 63:16b–17, 19b; 64:2–7"
+advent:1,,,B,,,psalm,"Psalm 80:2–3, 15–16, 18–19"
+advent:1,,,B,,,epistle,1 Corinthians 1:3–9
+advent:1,,,B,,,gospel,Mark 13:33–37
+advent:2,,,B,,,ot,"Isaiah 40:1–5, 9–11"
+advent:2,,,B,,,psalm,"Psalm 85:9ab, 10–14"
+advent:2,,,B,,,epistle,2 Peter 3:8–14
+advent:2,,,B,,,gospel,Mark 1:1–8
+advent:3,,,B,,,ot,"Isaiah 61:1–2a, 10–11"
+advent:3,,,B,,,psalm,"Luke 1:46–50, 53–54"
+advent:3,,,B,,,epistle,1 Thessalonians 5:16–24
+advent:3,,,B,,,gospel,"John 1:6–8, 19–28"
+advent:4,,,B,,,ot,"2 Samuel 7:1–5, 8b–12, 14a, 16"
+advent:4,,,B,,,psalm,"Psalm 89:2–5, 27, 29"
+advent:4,,,B,,,epistle,Romans 16:25–27
+advent:4,,,B,,,gospel,Luke 1:26–38
+advent:1,,,C,,,ot,Jeremiah 33:14–16
+advent:1,,,C,,,psalm,"Psalm 25:4–5, 8–10, 14"
+advent:1,,,C,,,epistle,1 Thessalonians 3:12–4:2
+advent:1,,,C,,,gospel,"Luke 21:25–28, 34–36"
+advent:2,,,C,,,ot,Baruch 5:1–9
+advent:2,,,C,,,psalm,Psalm 126:1–6
+advent:2,,,C,,,epistle,"Philippians 1:4–6, 8–11"
+advent:2,,,C,,,gospel,Luke 3:1–6
+advent:3,,,C,,,ot,Zephaniah 3:14–18a
+advent:3,,,C,,,psalm,"Isaiah 12:2–3, 4bcd, 5–6"
+advent:3,,,C,,,epistle,Philippians 4:4–7
+advent:3,,,C,,,gospel,Luke 3:10–18
+advent:4,,,C,,,ot,Micah 5:1–4a
+advent:4,,,C,,,psalm,"Psalm 80:2–3, 15–16, 18–19"
+advent:4,,,C,,,epistle,Hebrews 10:5–10
+advent:4,,,C,,,gospel,Luke 1:39–45
+lent:1,,,A,,,ot,Genesis 2:7–9; 3:1–7
+lent:1,,,A,,,psalm,"Psalm 51:3–6, 12–14, 17"
+lent:1,,,A,,,epistle,"Romans 5:12–19 or Romans 5:12, 17–19"
+lent:1,,,A,,,gospel,Matthew 4:1–11
+lent:2,,,A,,,ot,Genesis 12:1–4a
+lent:2,,,A,,,psalm,"Psalm 33:4–5, 18–20, 22"
+lent:2,,,A,,,epistle,2 Timothy 1:8b–10
+lent:2,,,A,,,gospel,Matthew 17:1–9
+lent:3,,,A,,,ot,Exodus 17:3–7
+lent:3,,,A,,,psalm,"Psalm 95:1–2, 6–9"
+lent:3,,,A,,,epistle,"Romans 5:1–2, 5–8"
+lent:3,,,A,,,gospel,"John 4:5–42 or John 4:5–15, 19b–26, 39a, 40–42"
+lent:4,,,A,,,ot,"1 Samuel 16:1b, 6–7, 10–13a"
+lent:4,,,A,,,psalm,Psalm 23:1–6
+lent:4,,,A,,,epistle,Ephesians 5:8–14
+lent:4,,,A,,,gospel,"John 9:1–41 or John 9:1, 6–9, 13–17, 34–38"
+lent:5,,,A,,,ot,Ezekiel 37:12–14
+lent:5,,,A,,,psalm,Psalm 130:1–8
+lent:5,,,A,,,epistle,Romans 8:8–11
+lent:5,,,A,,,gospel,"John 11:1–45 or John 11:3–7, 17, 20–27, 33b–45"
+lent:1,,,B,,,ot,Genesis 9:8–15
+lent:1,,,B,,,psalm,Psalm 25:4–9
+lent:1,,,B,,,epistle,1 Peter 3:18–22
+lent:1,,,B,,,gospel,Mark 1:12–15
+lent:2,,,B,,,ot,"Genesis 22:1–2, 9a, 10–13, 15–18"
+lent:2,,,B,,,psalm,"Psalm 116:10, 15–19"
+lent:2,,,B,,,epistle,Romans 8:31b–34
+lent:2,,,B,,,gospel,Mark 9:2–10
+lent:3,,,B,,,ot,"Exodus 20:1–17 or Exodus 20:1–3, 7–8, 12–17"
+lent:3,,,B,,,psalm,Psalm 19:8–11
+lent:3,,,B,,,epistle,1 Corinthians 1:22–25
+lent:3,,,B,,,gospel,John 2:13–25
+lent:4,,,B,,,ot,"2 Chronicles 36:14–16, 19–23"
+lent:4,,,B,,,psalm,Psalm 137:1–6
+lent:4,,,B,,,epistle,Ephesians 2:4–10
+lent:4,,,B,,,gospel,John 3:14–21
+lent:5,,,B,,,ot,Jeremiah 31:31–34
+lent:5,,,B,,,psalm,"Psalm 51:3–4, 12–15"
+lent:5,,,B,,,epistle,Hebrews 5:7–9
+lent:5,,,B,,,gospel,John 12:20–33
+lent:1,,,C,,,ot,Deuteronomy 26:4–10
+lent:1,,,C,,,psalm,"Psalm 91:1–2, 10–15"
+lent:1,,,C,,,epistle,Romans 10:8–13
+lent:1,,,C,,,gospel,Luke 4:1–13
+lent:2,,,C,,,ot,"Genesis 15:5–12, 17–18"
+lent:2,,,C,,,psalm,"Psalm 27:1, 7–9, 13–14"
+lent:2,,,C,,,epistle,Philippians 3:17–4:1 or Philippians 3:20–4:1
+lent:2,,,C,,,gospel,Luke 9:28b–36
+lent:3,,,C,,,ot,"Exodus 3:1–8a, 13–15"
+lent:3,,,C,,,psalm,"Psalm 103:1–4, 6–8, 11"
+lent:3,,,C,,,epistle,"1 Corinthians 10:1–6, 10–12"
+lent:3,,,C,,,gospel,Luke 13:1–9
+lent:4,,,C,,,ot,"Joshua 5:9a, 10–12"
+lent:4,,,C,,,psalm,Psalm 34:2–7
+lent:4,,,C,,,epistle,2 Corinthians 5:17–21
+lent:4,,,C,,,gospel,"Luke 15:1–3, 11–32"
+lent:5,,,C,,,ot,Isaiah 43:16–21
+lent:5,,,C,,,psalm,Psalm 126:1–6
+lent:5,,,C,,,epistle,Philippians 3:8–14
+lent:5,,,C,,,gospel,John 8:1–11
+after_easter:2,,,A,,,ot,Acts 2:42–47
+after_easter:2,,,A,,,psalm,"Psalm 118:2–4, 13–15, 22–24"
+after_easter:2,,,A,,,epistle,1 Peter 1:3–9
+after_easter:2,,,A,,,gospel,John 20:19–31
+after_easter:3,,,A,,,ot,"Acts 2:14, 22–33"
+after_easter:3,,,A,,,psalm,"Psalm 16:1–2a, 5, 7–11"
+after_easter:3,,,A,,,epistle,1 Peter 1:17–21
+after_easter:3,,,A,,,gospel,Luke 24:13–35
+after_easter:4,,,A,,,ot,"Acts 2:14a, 36–41"
+after_easter:4,,,A,,,psalm,Psalm 23:1–6
+after_easter:4,,,A,,,epistle,1 Peter 2:20b–25
+after_easter:4,,,A,,,gospel,John 10:1–10
+after_easter:5,,,A,,,ot,Acts 6:1–7
+after_easter:5,,,A,,,psalm,"Psalm 33:1–2, 4–5, 18–19"
+after_easter:5,,,A,,,epistle,1 Peter 2:4–9
+after_easter:5,,,A,,,gospel,John 14:1–12
+after_easter:6,,,A,,,ot,"Acts 8:5–8, 14–17"
+after_easter:6,,,A,,,psalm,"Psalm 66:1–7, 16, 20"
+after_easter:6,,,A,,,epistle,1 Peter 3:15–18
+after_easter:6,,,A,,,gospel,John 14:15–21
+after_easter:7,,,A,,,ot,Acts 1:12–14
+after_easter:7,,,A,,,psalm,"Psalm 27:1, 4, 7–8"
+after_easter:7,,,A,,,epistle,1 Peter 4:13–16
+after_easter:7,,,A,,,gospel,John 17:1–11a
+after_easter:2,,,B,,,ot,Acts 4:32–35
+after_easter:2,,,B,,,psalm,"Psalm 118:2–4, 13–15, 22–24"
+after_easter:2,,,B,,,epistle,1 John 5:1–6
+after_easter:2,,,B,,,gospel,John 20:19–31
+after_easter:3,,,B,,,ot,"Acts 3:13–15, 17–19"
+after_easter:3,,,B,,,psalm,"Psalm 4:2, 4, 7–9"
+after_easter:3,,,B,,,epistle,1 John 2:1–5a
+after_easter:3,,,B,,,gospel,Luke 24:35–48
+after_easter:4,,,B,,,ot,Acts 4:8–12
+after_easter:4,,,B,,,psalm,"Psalm 118:1, 8–9, 21–23, 26, 21, 29"
+after_easter:4,,,B,,,epistle,1 John 3:1–2
+after_easter:4,,,B,,,gospel,John 10:11–18
+after_easter:5,,,B,,,ot,Acts 9:26–31
+after_easter:5,,,B,,,psalm,"Psalm 22:26–28, 30–32"
+after_easter:5,,,B,,,epistle,1 John 3:18–24
+after_easter:5,,,B,,,gospel,John 15:1–8
+after_easter:6,,,B,,,ot,"Acts 10:25–26, 34–35, 44–48"
+after_easter:6,,,B,,,psalm,Psalm 98:1–4
+after_easter:6,,,B,,,epistle,1 John 4:7–10
+after_easter:6,,,B,,,gospel,John 15:9–17
+after_easter:7,,,B,,,ot,"Acts 1:15–17, 20a, 20c–26"
+after_easter:7,,,B,,,psalm,"Psalm 103:1–2, 11–12, 19–20"
+after_easter:7,,,B,,,epistle,1 John 4:11–16
+after_easter:7,,,B,,,gospel,John 17:11b–19
+after_easter:2,,,C,,,ot,Acts 5:12–16
+after_easter:2,,,C,,,psalm,"Psalm 118:2–4, 13–15, 22–24"
+after_easter:2,,,C,,,epistle,"Revelation 1:9–11a, 12–13, 17–19"
+after_easter:2,,,C,,,gospel,John 20:19–31
+after_easter:3,,,C,,,ot,"Acts 5:27–32, 40b–41"
+after_easter:3,,,C,,,psalm,"Psalm 30:2, 4–6, 11–12a, 13b"
+after_easter:3,,,C,,,epistle,Revelation 5:11–14
+after_easter:3,,,C,,,gospel,John 21:1–19 or John 21:1–14
+after_easter:4,,,C,,,ot,"Acts 13:14, 43–52"
+after_easter:4,,,C,,,psalm,"Psalm 100:1–3, 5"
+after_easter:4,,,C,,,epistle,"Revelation 7:9, 14b–17"
+after_easter:4,,,C,,,gospel,John 10:27–30
+after_easter:5,,,C,,,ot,Acts 14:21–27
+after_easter:5,,,C,,,psalm,Psalm 145:8–13
+after_easter:5,,,C,,,epistle,Revelation 21:1–5a
+after_easter:5,,,C,,,gospel,"John 13:31–33a, 34–35"
+after_easter:6,,,C,,,ot,"Acts 15:1–2, 22–29"
+after_easter:6,,,C,,,psalm,"Psalm 67:2–3, 5–6, 8"
+after_easter:6,,,C,,,epistle,"Revelation 21:10–14, 22–23"
+after_easter:6,,,C,,,gospel,John 14:23–29
+after_easter:7,,,C,,,ot,Acts 7:55–60
+after_easter:7,,,C,,,psalm,"Psalm 97:1–2, 6–7, 9"
+after_easter:7,,,C,,,epistle,"Revelation 22:12–14, 16–17, 20"
+after_easter:7,,,C,,,gospel,John 17:20–26
+ordinary_1:2,,,A,,,ot,"Isaiah 49:3, 5–6"
+ordinary_1:2,,,A,,,psalm,"Psalm 40:2, 4, 7–10"
+ordinary_1:2,,,A,,,epistle,1 Corinthians 1:1–3
+ordinary_1:2,,,A,,,gospel,John 1:29–34
+ordinary_2:2,,,A,,,ot,"Isaiah 49:3, 5–6"
+ordinary_2:2,,,A,,,psalm,"Psalm 40:2, 4, 7–10"
+ordinary_2:2,,,A,,,epistle,1 Corinthians 1:1–3
+ordinary_2:2,,,A,,,gospel,John 1:29–34
+ordinary_1:3,,,A,,,ot,Isaiah 8:23b–9:3
+ordinary_1:3,,,A,,,psalm,"Psalm 27:1, 4, 13–14"
+ordinary_1:3,,,A,,,epistle,"1 Corinthians 1:10–13, 17"
+ordinary_1:3,,,A,,,gospel,Matthew 4:12–23 or Matthew 4:12–17
+ordinary_2:3,,,A,,,ot,Isaiah 8:23b–9:3
+ordinary_2:3,,,A,,,psalm,"Psalm 27:1, 4, 13–14"
+ordinary_2:3,,,A,,,epistle,"1 Corinthians 1:10–13, 17"
+ordinary_2:3,,,A,,,gospel,Matthew 4:12–23 or Matthew 4:12–17
+ordinary_1:4,,,A,,,ot,Zephaniah 2:3; 3:12–13
+ordinary_1:4,,,A,,,psalm,Psalm 146:6c–10
+ordinary_1:4,,,A,,,epistle,1 Corinthians 1:26–31
+ordinary_1:4,,,A,,,gospel,Matthew 5:1–12a
+ordinary_2:4,,,A,,,ot,Zephaniah 2:3; 3:12–13
+ordinary_2:4,,,A,,,psalm,Psalm 146:6c–10
+ordinary_2:4,,,A,,,epistle,1 Corinthians 1:26–31
+ordinary_2:4,,,A,,,gospel,Matthew 5:1–12a
+ordinary_1:5,,,A,,,ot,Isaiah 58:7–10
+ordinary_1:5,,,A,,,psalm,Psalm 112:4–9
+ordinary_1:5,,,A,,,epistle,1 Corinthians 2:1–5
+ordinary_1:5,,,A,,,gospel,Matthew 5:13–16
+ordinary_2:5,,,A,,,ot,Isaiah 58:7–10
+ordinary_2:5,,,A,,,psalm,Psalm 112:4–9
+ordinary_2:5,,,A,,,epistle,1 Corinthians 2:1–5
+ordinary_2:5,,,A,,,gospel,Matthew 5:13–16
+ordinary_1:6,,,A,,,ot,Sirach 15:16–21
+ordinary_1:6,,,A,,,psalm,"Psalm 119:1–2, 4–5, 17–18, 33–34"
+ordinary_1:6,,,A,,,epistle,1 Corinthians 2:6–10
+ordinary_1:6,,,A,,,gospel,"Matthew 5:17–37 or Matthew 5:20–22a, 27–28, 33–34a, 37"
+ordinary_2:6,,,A,,,ot,Sirach 15:16–21
+ordinary_2:6,,,A,,,psalm,"Psalm 119:1–2, 4–5, 17–18, 33–34"
+ordinary_2:6,,,A,,,epistle,1 Corinthians 2:6–10
+ordinary_2:6,,,A,,,gospel,"Matthew 5:17–37 or Matthew 5:20–22a, 27–28, 33–34a, 37"
+ordinary_1:7,,,A,,,ot,"Leviticus 19:1–2, 17–18"
+ordinary_1:7,,,A,,,psalm,"Psalm 103:1–4, 8, 10, 12–13"
+ordinary_1:7,,,A,,,epistle,1 Corinthians 3:16–23
+ordinary_1:7,,,A,,,gospel,Matthew 5:38–48
+ordinary_2:7,,,A,,,ot,"Leviticus 19:1–2, 17–18"
+ordinary_2:7,,,A,,,psalm,"Psalm 103:1–4, 8, 10, 12–13"
+ordinary_2:7,,,A,,,epistle,1 Corinthians 3:16–23
+ordinary_2:7,,,A,,,gospel,Matthew 5:38–48
+ordinary_1:8,,,A,,,ot,Isaiah 49:14–15
+ordinary_1:8,,,A,,,psalm,"Psalm 62:2–3, 6–9"
+ordinary_1:8,,,A,,,epistle,1 Corinthians 4:1–5
+ordinary_1:8,,,A,,,gospel,Matthew 6:24–34
+ordinary_2:8,,,A,,,ot,Isaiah 49:14–15
+ordinary_2:8,,,A,,,psalm,"Psalm 62:2–3, 6–9"
+ordinary_2:8,,,A,,,epistle,1 Corinthians 4:1–5
+ordinary_2:8,,,A,,,gospel,Matthew 6:24–34
+ordinary_1:9,,,A,,,ot,"Deuteronomy 11:18, 26–28, 32"
+ordinary_1:9,,,A,,,psalm,"Psalm 31:2–4, 17, 25"
+ordinary_1:9,,,A,,,epistle,"Romans 3:21–25, 28"
+ordinary_1:9,,,A,,,gospel,Matthew 7:21–27
+ordinary_2:9,,,A,,,ot,"Deuteronomy 11:18, 26–28, 32"
+ordinary_2:9,,,A,,,psalm,"Psalm 31:2–4, 17, 25"
+ordinary_2:9,,,A,,,epistle,"Romans 3:21–25, 28"
+ordinary_2:9,,,A,,,gospel,Matthew 7:21–27
+ordinary_1:10,,,A,,,ot,Hosea 6:3–6
+ordinary_1:10,,,A,,,psalm,"Psalm 50:1, 8, 12–15"
+ordinary_1:10,,,A,,,epistle,Romans 4:18–25
+ordinary_1:10,,,A,,,gospel,Matthew 9:9–13
+ordinary_2:10,,,A,,,ot,Hosea 6:3–6
+ordinary_2:10,,,A,,,psalm,"Psalm 50:1, 8, 12–15"
+ordinary_2:10,,,A,,,epistle,Romans 4:18–25
+ordinary_2:10,,,A,,,gospel,Matthew 9:9–13
+ordinary_1:11,,,A,,,ot,Exodus 19:2–6a
+ordinary_1:11,,,A,,,psalm,"Psalm 100:1–3, 5"
+ordinary_1:11,,,A,,,epistle,Romans 5:6–11
+ordinary_1:11,,,A,,,gospel,Matthew 9:36–10:8
+ordinary_2:11,,,A,,,ot,Exodus 19:2–6a
+ordinary_2:11,,,A,,,psalm,"Psalm 100:1–3, 5"
+ordinary_2:11,,,A,,,epistle,Romans 5:6–11
+ordinary_2:11,,,A,,,gospel,Matthew 9:36–10:8
+ordinary_1:12,,,A,,,ot,Jeremiah 20:10–13
+ordinary_1:12,,,A,,,psalm,"Psalm 69:8–10, 14, 17, 33–35"
+ordinary_1:12,,,A,,,epistle,Romans 5:12–15
+ordinary_1:12,,,A,,,gospel,Matthew 10:26–33
+ordinary_2:12,,,A,,,ot,Jeremiah 20:10–13
+ordinary_2:12,,,A,,,psalm,"Psalm 69:8–10, 14, 17, 33–35"
+ordinary_2:12,,,A,,,epistle,Romans 5:12–15
+ordinary_2:12,,,A,,,gospel,Matthew 10:26–33
+ordinary_1:13,,,A,,,ot,"2 Kings 4:8–11, 14–16a"
+ordinary_1:13,,,A,,,psalm,"Psalm 89:2–3, 16–19"
+ordinary_1:13,,,A,,,epistle,"Romans 6:3–4, 8–11"
+ordinary_1:13,,,A,,,gospel,Matthew 10:37–42
+ordinary_2:13,,,A,,,ot,"2 Kings 4:8–11, 14–16a"
+ordinary_2:13,,,A,,,psalm,"Psalm 89:2–3, 16–19"
+ordinary_2:13,,,A,,,epistle,"Romans 6:3–4, 8–11"
+ordinary_2:13,,,A,,,gospel,Matthew 10:37–42
+ordinary_1:14,,,A,,,ot,Zechariah 9:9–10
+ordinary_1:14,,,A,,,psalm,"Psalm 145:1–2, 8–11, 13–14"
+ordinary_1:14,,,A,,,epistle,"Romans 8:9, 11–13"
+ordinary_1:14,,,A,,,gospel,Matthew 11:25–30
+ordinary_2:14,,,A,,,ot,Zechariah 9:9–10
+ordinary_2:14,,,A,,,psalm,"Psalm 145:1–2, 8–11, 13–14"
+ordinary_2:14,,,A,,,epistle,"Romans 8:9, 11–13"
+ordinary_2:14,,,A,,,gospel,Matthew 11:25–30
+ordinary_1:15,,,A,,,ot,Isaiah 55:10–11
+ordinary_1:15,,,A,,,psalm,Psalm 65:10–14
+ordinary_1:15,,,A,,,epistle,Romans 8:18–23
+ordinary_1:15,,,A,,,gospel,Matthew 13:1–23 or Matthew 13:1–9
+ordinary_2:15,,,A,,,ot,Isaiah 55:10–11
+ordinary_2:15,,,A,,,psalm,Psalm 65:10–14
+ordinary_2:15,,,A,,,epistle,Romans 8:18–23
+ordinary_2:15,,,A,,,gospel,Matthew 13:1–23 or Matthew 13:1–9
+ordinary_1:16,,,A,,,ot,"Wisdom 12:13, 16–19"
+ordinary_1:16,,,A,,,psalm,"Psalm 86:5–6, 9–10, 15–16"
+ordinary_1:16,,,A,,,epistle,Romans 8:26–27
+ordinary_1:16,,,A,,,gospel,Matthew 13:24–43 or Matthew 13:24–30
+ordinary_2:16,,,A,,,ot,"Wisdom 12:13, 16–19"
+ordinary_2:16,,,A,,,psalm,"Psalm 86:5–6, 9–10, 15–16"
+ordinary_2:16,,,A,,,epistle,Romans 8:26–27
+ordinary_2:16,,,A,,,gospel,Matthew 13:24–43 or Matthew 13:24–30
+ordinary_1:17,,,A,,,ot,"1 Kings 3:5, 7–12"
+ordinary_1:17,,,A,,,psalm,"Psalm 119:57, 72, 76–77, 127–28, 129–30"
+ordinary_1:17,,,A,,,epistle,Romans 8:28–30
+ordinary_1:17,,,A,,,gospel,Matthew 13:44–52 or Matthew 13:44–46
+ordinary_2:17,,,A,,,ot,"1 Kings 3:5, 7–12"
+ordinary_2:17,,,A,,,psalm,"Psalm 119:57, 72, 76–77, 127–28, 129–30"
+ordinary_2:17,,,A,,,epistle,Romans 8:28–30
+ordinary_2:17,,,A,,,gospel,Matthew 13:44–52 or Matthew 13:44–46
+ordinary_1:18,,,A,,,ot,Isaiah 55:1–3
+ordinary_1:18,,,A,,,psalm,"Psalm 145:8–9, 15–18"
+ordinary_1:18,,,A,,,epistle,"Romans 8:35, 37–39"
+ordinary_1:18,,,A,,,gospel,Matthew 14:13–21
+ordinary_2:18,,,A,,,ot,Isaiah 55:1–3
+ordinary_2:18,,,A,,,psalm,"Psalm 145:8–9, 15–18"
+ordinary_2:18,,,A,,,epistle,"Romans 8:35, 37–39"
+ordinary_2:18,,,A,,,gospel,Matthew 14:13–21
+ordinary_1:19,,,A,,,ot,"1 Kings 19:9a, 11–13a"
+ordinary_1:19,,,A,,,psalm,"Psalm 85:9ab, 10–14"
+ordinary_1:19,,,A,,,epistle,Romans 9:1–5
+ordinary_1:19,,,A,,,gospel,Matthew 14:22–33
+ordinary_2:19,,,A,,,ot,"1 Kings 19:9a, 11–13a"
+ordinary_2:19,,,A,,,psalm,"Psalm 85:9ab, 10–14"
+ordinary_2:19,,,A,,,epistle,Romans 9:1–5
+ordinary_2:19,,,A,,,gospel,Matthew 14:22–33
+ordinary_1:20,,,A,,,ot,"Isaiah 56:1, 6–7"
+ordinary_1:20,,,A,,,psalm,"Psalm 67:2–3, 5–6, 8"
+ordinary_1:20,,,A,,,epistle,"Romans 11:13–15, 29–32"
+ordinary_1:20,,,A,,,gospel,Matthew 15:21–28
+ordinary_2:20,,,A,,,ot,"Isaiah 56:1, 6–7"
+ordinary_2:20,,,A,,,psalm,"Psalm 67:2–3, 5–6, 8"
+ordinary_2:20,,,A,,,epistle,"Romans 11:13–15, 29–32"
+ordinary_2:20,,,A,,,gospel,Matthew 15:21–28
+ordinary_1:21,,,A,,,ot,Isaiah 22:19–23
+ordinary_1:21,,,A,,,psalm,"Psalm 138:1–3, 6, 8"
+ordinary_1:21,,,A,,,epistle,Romans 11:33–36
+ordinary_1:21,,,A,,,gospel,Matthew 16:13–20
+ordinary_2:21,,,A,,,ot,Isaiah 22:19–23
+ordinary_2:21,,,A,,,psalm,"Psalm 138:1–3, 6, 8"
+ordinary_2:21,,,A,,,epistle,Romans 11:33–36
+ordinary_2:21,,,A,,,gospel,Matthew 16:13–20
+ordinary_1:22,,,A,,,ot,Jeremiah 20:7–9
+ordinary_1:22,,,A,,,psalm,"Psalm 63:2–6, 8–9"
+ordinary_1:22,,,A,,,epistle,Romans 12:1–2
+ordinary_1:22,,,A,,,gospel,Matthew 16:21–27
+ordinary_2:22,,,A,,,ot,Jeremiah 20:7–9
+ordinary_2:22,,,A,,,psalm,"Psalm 63:2–6, 8–9"
+ordinary_2:22,,,A,,,epistle,Romans 12:1–2
+ordinary_2:22,,,A,,,gospel,Matthew 16:21–27
+ordinary_1:23,,,A,,,ot,Ezekiel 33:7–9
+ordinary_1:23,,,A,,,psalm,"Psalm 95:1–2, 6–9"
+ordinary_1:23,,,A,,,epistle,Romans 13:8–10
+ordinary_1:23,,,A,,,gospel,Matthew 18:15–20
+ordinary_2:23,,,A,,,ot,Ezekiel 33:7–9
+ordinary_2:23,,,A,,,psalm,"Psalm 95:1–2, 6–9"
+ordinary_2:23,,,A,,,epistle,Romans 13:8–10
+ordinary_2:23,,,A,,,gospel,Matthew 18:15–20
+ordinary_1:24,,,A,,,ot,Sirach 27:30–28:7
+ordinary_1:24,,,A,,,psalm,"Psalm 103:1–4, 9–12"
+ordinary_1:24,,,A,,,epistle,Romans 14:7–9
+ordinary_1:24,,,A,,,gospel,Matthew 18:21–35
+ordinary_2:24,,,A,,,ot,Sirach 27:30–28:7
+ordinary_2:24,,,A,,,psalm,"Psalm 103:1–4, 9–12"
+ordinary_2:24,,,A,,,epistle,Romans 14:7–9
+ordinary_2:24,,,A,,,gospel,Matthew 18:21–35
+ordinary_1:25,,,A,,,ot,Isaiah 55:6–9
+ordinary_1:25,,,A,,,psalm,"Psalm 145:2–3, 8–9, 17–18"
+ordinary_1:25,,,A,,,epistle,"Philippians 1:20c–24, 27a"
+ordinary_1:25,,,A,,,gospel,Matthew 20:1–16a
+ordinary_2:25,,,A,,,ot,Isaiah 55:6–9
+ordinary_2:25,,,A,,,psalm,"Psalm 145:2–3, 8–9, 17–18"
+ordinary_2:25,,,A,,,epistle,"Philippians 1:20c–24, 27a"
+ordinary_2:25,,,A,,,gospel,Matthew 20:1–16a
+ordinary_1:26,,,A,,,ot,Ezekiel 18:25–28
+ordinary_1:26,,,A,,,psalm,Psalm 25:4–9
+ordinary_1:26,,,A,,,epistle,Philippians 2:1–11 or Philippians 2:1–5
+ordinary_1:26,,,A,,,gospel,Matthew 21:28–32
+ordinary_2:26,,,A,,,ot,Ezekiel 18:25–28
+ordinary_2:26,,,A,,,psalm,Psalm 25:4–9
+ordinary_2:26,,,A,,,epistle,Philippians 2:1–11 or Philippians 2:1–5
+ordinary_2:26,,,A,,,gospel,Matthew 21:28–32
+ordinary_1:27,,,A,,,ot,Isaiah 5:1–7
+ordinary_1:27,,,A,,,psalm,"Psalm 80:9, 12–16, 19–20"
+ordinary_1:27,,,A,,,epistle,Philippians 4:6–9
+ordinary_1:27,,,A,,,gospel,Matthew 21:33–43
+ordinary_2:27,,,A,,,ot,Isaiah 5:1–7
+ordinary_2:27,,,A,,,psalm,"Psalm 80:9, 12–16, 19–20"
+ordinary_2:27,,,A,,,epistle,Philippians 4:6–9
+ordinary_2:27,,,A,,,gospel,Matthew 21:33–43
+ordinary_1:28,,,A,,,ot,Isaiah 25:6–10a
+ordinary_1:28,,,A,,,psalm,Psalm 23:1–6
+ordinary_1:28,,,A,,,epistle,"Philippians 4:12–14, 19–20"
+ordinary_1:28,,,A,,,gospel,Matthew 22:1–14 or Matthew 22:1–10
+ordinary_2:28,,,A,,,ot,Isaiah 25:6–10a
+ordinary_2:28,,,A,,,psalm,Psalm 23:1–6
+ordinary_2:28,,,A,,,epistle,"Philippians 4:12–14, 19–20"
+ordinary_2:28,,,A,,,gospel,Matthew 22:1–14 or Matthew 22:1–10
+ordinary_1:29,,,A,,,ot,"Isaiah 45:1, 4–6"
+ordinary_1:29,,,A,,,psalm,"Psalm 96:1, 3–5, 7–10"
+ordinary_1:29,,,A,,,epistle,1 Thessalonians 1:1–5b
+ordinary_1:29,,,A,,,gospel,Matthew 22:15–21
+ordinary_2:29,,,A,,,ot,"Isaiah 45:1, 4–6"
+ordinary_2:29,,,A,,,psalm,"Psalm 96:1, 3–5, 7–10"
+ordinary_2:29,,,A,,,epistle,1 Thessalonians 1:1–5b
+ordinary_2:29,,,A,,,gospel,Matthew 22:15–21
+ordinary_1:30,,,A,,,ot,Exodus 22:20–26
+ordinary_1:30,,,A,,,psalm,"Psalm 18:2–4, 47, 51"
+ordinary_1:30,,,A,,,epistle,1 Thessalonians 1:5c–10
+ordinary_1:30,,,A,,,gospel,Matthew 22:34–40
+ordinary_2:30,,,A,,,ot,Exodus 22:20–26
+ordinary_2:30,,,A,,,psalm,"Psalm 18:2–4, 47, 51"
+ordinary_2:30,,,A,,,epistle,1 Thessalonians 1:5c–10
+ordinary_2:30,,,A,,,gospel,Matthew 22:34–40
+ordinary_1:31,,,A,,,ot,"Malachi 1:14b–2:2b, 8–10"
+ordinary_1:31,,,A,,,psalm,Psalm 131:1–3
+ordinary_1:31,,,A,,,epistle,"1 Thessalonians 2:7b–9, 13"
+ordinary_1:31,,,A,,,gospel,Matthew 23:1–12
+ordinary_2:31,,,A,,,ot,"Malachi 1:14b–2:2b, 8–10"
+ordinary_2:31,,,A,,,psalm,Psalm 131:1–3
+ordinary_2:31,,,A,,,epistle,"1 Thessalonians 2:7b–9, 13"
+ordinary_2:31,,,A,,,gospel,Matthew 23:1–12
+ordinary_1:32,,,A,,,ot,Wisdom 6:12–16
+ordinary_1:32,,,A,,,psalm,Psalm 63:2–8
+ordinary_1:32,,,A,,,epistle,1 Thessalonians 4:13–18 or 1 Thessalonians 4:13–14
+ordinary_1:32,,,A,,,gospel,Matthew 25:1–13
+ordinary_2:32,,,A,,,ot,Wisdom 6:12–16
+ordinary_2:32,,,A,,,psalm,Psalm 63:2–8
+ordinary_2:32,,,A,,,epistle,1 Thessalonians 4:13–18 or 1 Thessalonians 4:13–14
+ordinary_2:32,,,A,,,gospel,Matthew 25:1–13
+ordinary_1:33,,,A,,,ot,"Proverbs 31:10–13, 19–20, 30–31"
+ordinary_1:33,,,A,,,psalm,Psalm 128:1–5
+ordinary_1:33,,,A,,,epistle,1 Thessalonians 5:1–6
+ordinary_1:33,,,A,,,gospel,"Matthew 25:14–30 or Matthew 25:14–15, 19–21"
+ordinary_2:33,,,A,,,ot,"Proverbs 31:10–13, 19–20, 30–31"
+ordinary_2:33,,,A,,,psalm,Psalm 128:1–5
+ordinary_2:33,,,A,,,epistle,1 Thessalonians 5:1–6
+ordinary_2:33,,,A,,,gospel,"Matthew 25:14–30 or Matthew 25:14–15, 19–21"
+christ_the_king,,,A,,,ot,"Ezekiel 34:11–12, 15–17"
+christ_the_king,,,A,,,psalm,"Psalm 23:1–3, 5–6"
+christ_the_king,,,A,,,epistle,"1 Corinthians 15:20–26, 28"
+christ_the_king,,,A,,,gospel,Matthew 25:31–46
+ordinary_1:2,,,B,,,ot,"1 Samuel 3:3b–10, 19"
+ordinary_1:2,,,B,,,psalm,"Psalm 40:2, 4, 7–10"
+ordinary_1:2,,,B,,,epistle,"1 Corinthians 6:13c–15a, 17–20"
+ordinary_1:2,,,B,,,gospel,John 1:35–42
+ordinary_2:2,,,B,,,ot,"1 Samuel 3:3b–10, 19"
+ordinary_2:2,,,B,,,psalm,"Psalm 40:2, 4, 7–10"
+ordinary_2:2,,,B,,,epistle,"1 Corinthians 6:13c–15a, 17–20"
+ordinary_2:2,,,B,,,gospel,John 1:35–42
+ordinary_1:3,,,B,,,ot,"Jonah 3:1–5, 10"
+ordinary_1:3,,,B,,,psalm,Psalm 25:4–9
+ordinary_1:3,,,B,,,epistle,1 Corinthians 7:29–31
+ordinary_1:3,,,B,,,gospel,Mark 1:14–20
+ordinary_2:3,,,B,,,ot,"Jonah 3:1–5, 10"
+ordinary_2:3,,,B,,,psalm,Psalm 25:4–9
+ordinary_2:3,,,B,,,epistle,1 Corinthians 7:29–31
+ordinary_2:3,,,B,,,gospel,Mark 1:14–20
+ordinary_1:4,,,B,,,ot,Deuteronomy 18:15–20
+ordinary_1:4,,,B,,,psalm,"Psalm 95:1–2, 6–9"
+ordinary_1:4,,,B,,,epistle,1 Corinthians 7:32–35
+ordinary_1:4,,,B,,,gospel,Mark 1:21–28
+ordinary_2:4,,,B,,,ot,Deuteronomy 18:15–20
+ordinary_2:4,,,B,,,psalm,"Psalm 95:1–2, 6–9"
+ordinary_2:4,,,B,,,epistle,1 Corinthians 7:32–35
+ordinary_2:4,,,B,,,gospel,Mark 1:21–28
+ordinary_1:5,,,B,,,ot,"Job 7:1–4, 6–7"
+ordinary_1:5,,,B,,,psalm,Psalm 147:1–6
+ordinary_1:5,,,B,,,epistle,"1 Corinthians 9:16–19, 22–23"
+ordinary_1:5,,,B,,,gospel,Mark 1:29–39
+ordinary_2:5,,,B,,,ot,"Job 7:1–4, 6–7"
+ordinary_2:5,,,B,,,psalm,Psalm 147:1–6
+ordinary_2:5,,,B,,,epistle,"1 Corinthians 9:16–19, 22–23"
+ordinary_2:5,,,B,,,gospel,Mark 1:29–39
+ordinary_1:6,,,B,,,ot,"Leviticus 13:1–2, 44–46"
+ordinary_1:6,,,B,,,psalm,"Psalm 32:1–2, 5, 11"
+ordinary_1:6,,,B,,,epistle,1 Corinthians 10:31–11:1
+ordinary_1:6,,,B,,,gospel,Mark 1:40–45
+ordinary_2:6,,,B,,,ot,"Leviticus 13:1–2, 44–46"
+ordinary_2:6,,,B,,,psalm,"Psalm 32:1–2, 5, 11"
+ordinary_2:6,,,B,,,epistle,1 Corinthians 10:31–11:1
+ordinary_2:6,,,B,,,gospel,Mark 1:40–45
+ordinary_1:7,,,B,,,ot,"Isaiah 43:18–19, 21–22, 24b–25"
+ordinary_1:7,,,B,,,psalm,"Psalm 41:2–5, 13–14"
+ordinary_1:7,,,B,,,epistle,2 Corinthians 1:18–22
+ordinary_1:7,,,B,,,gospel,Mark 2:1–12
+ordinary_2:7,,,B,,,ot,"Isaiah 43:18–19, 21–22, 24b–25"
+ordinary_2:7,,,B,,,psalm,"Psalm 41:2–5, 13–14"
+ordinary_2:7,,,B,,,epistle,2 Corinthians 1:18–22
+ordinary_2:7,,,B,,,gospel,Mark 2:1–12
+ordinary_1:8,,,B,,,ot,"Hosea 2:16b, 17b, 21–22"
+ordinary_1:8,,,B,,,psalm,"Psalm 103:1–4, 8, 10, 12–13"
+ordinary_1:8,,,B,,,epistle,2 Corinthians 3:1b–6
+ordinary_1:8,,,B,,,gospel,Mark 2:18–22
+ordinary_2:8,,,B,,,ot,"Hosea 2:16b, 17b, 21–22"
+ordinary_2:8,,,B,,,psalm,"Psalm 103:1–4, 8, 10, 12–13"
+ordinary_2:8,,,B,,,epistle,2 Corinthians 3:1b–6
+ordinary_2:8,,,B,,,gospel,Mark 2:18–22
+ordinary_1:9,,,B,,,ot,Deuteronomy 5:12–15
+ordinary_1:9,,,B,,,psalm,"Psalm 81:3–8, 10–11"
+ordinary_1:9,,,B,,,epistle,2 Corinthians 4:6–11
+ordinary_1:9,,,B,,,gospel,Mark 2:23–3:6 or Mark 2:23–28
+ordinary_2:9,,,B,,,ot,Deuteronomy 5:12–15
+ordinary_2:9,,,B,,,psalm,"Psalm 81:3–8, 10–11"
+ordinary_2:9,,,B,,,epistle,2 Corinthians 4:6–11
+ordinary_2:9,,,B,,,gospel,Mark 2:23–3:6 or Mark 2:23–28
+ordinary_1:10,,,B,,,ot,Genesis 3:9–15
+ordinary_1:10,,,B,,,psalm,Psalm 130:1–8
+ordinary_1:10,,,B,,,epistle,2 Corinthians 4:13–5:1
+ordinary_1:10,,,B,,,gospel,Mark 3:20–35
+ordinary_2:10,,,B,,,ot,Genesis 3:9–15
+ordinary_2:10,,,B,,,psalm,Psalm 130:1–8
+ordinary_2:10,,,B,,,epistle,2 Corinthians 4:13–5:1
+ordinary_2:10,,,B,,,gospel,Mark 3:20–35
+ordinary_1:11,,,B,,,ot,Ezekiel 17:22–24
+ordinary_1:11,,,B,,,psalm,"Psalm 92:2–3, 13–16"
+ordinary_1:11,,,B,,,epistle,2 Corinthians 5:6–10
+ordinary_1:11,,,B,,,gospel,Mark 4:26–34
+ordinary_2:11,,,B,,,ot,Ezekiel 17:22–24
+ordinary_2:11,,,B,,,psalm,"Psalm 92:2–3, 13–16"
+ordinary_2:11,,,B,,,epistle,2 Corinthians 5:6–10
+ordinary_2:11,,,B,,,gospel,Mark 4:26–34
+ordinary_1:12,,,B,,,ot,"Job 38:1, 8–11"
+ordinary_1:12,,,B,,,psalm,"Psalm 107:23–26, 28–31"
+ordinary_1:12,,,B,,,epistle,2 Corinthians 5:14–17
+ordinary_1:12,,,B,,,gospel,Mark 4:35–41
+ordinary_2:12,,,B,,,ot,"Job 38:1, 8–11"
+ordinary_2:12,,,B,,,psalm,"Psalm 107:23–26, 28–31"
+ordinary_2:12,,,B,,,epistle,2 Corinthians 5:14–17
+ordinary_2:12,,,B,,,gospel,Mark 4:35–41
+ordinary_1:13,,,B,,,ot,Wisdom 1:13–15; 2:23–24
+ordinary_1:13,,,B,,,psalm,"Psalm 30:2, 4–6, 11–12a, 13b"
+ordinary_1:13,,,B,,,epistle,"2 Corinthians 8:7, 9, 13–15"
+ordinary_1:13,,,B,,,gospel,"Mark 5:21–43 or Mark 5:21–24, 35–43"
+ordinary_2:13,,,B,,,ot,Wisdom 1:13–15; 2:23–24
+ordinary_2:13,,,B,,,psalm,"Psalm 30:2, 4–6, 11–12a, 13b"
+ordinary_2:13,,,B,,,epistle,"2 Corinthians 8:7, 9, 13–15"
+ordinary_2:13,,,B,,,gospel,"Mark 5:21–43 or Mark 5:21–24, 35–43"
+ordinary_1:14,,,B,,,ot,Ezekiel 2:2–5
+ordinary_1:14,,,B,,,psalm,"Psalm 123:1–2bc, 3–4"
+ordinary_1:14,,,B,,,epistle,2 Corinthians 12:7–10
+ordinary_1:14,,,B,,,gospel,Mark 6:1–6
+ordinary_2:14,,,B,,,ot,Ezekiel 2:2–5
+ordinary_2:14,,,B,,,psalm,"Psalm 123:1–2bc, 3–4"
+ordinary_2:14,,,B,,,epistle,2 Corinthians 12:7–10
+ordinary_2:14,,,B,,,gospel,Mark 6:1–6
+ordinary_1:15,,,B,,,ot,Amos 7:12–15
+ordinary_1:15,,,B,,,psalm,"Psalm 85:9ab, 10–14"
+ordinary_1:15,,,B,,,epistle,Ephesians 1:3–14 or Ephesians 1:3–10
+ordinary_1:15,,,B,,,gospel,Mark 6:7–13
+ordinary_2:15,,,B,,,ot,Amos 7:12–15
+ordinary_2:15,,,B,,,psalm,"Psalm 85:9ab, 10–14"
+ordinary_2:15,,,B,,,epistle,Ephesians 1:3–14 or Ephesians 1:3–10
+ordinary_2:15,,,B,,,gospel,Mark 6:7–13
+ordinary_1:16,,,B,,,ot,Jeremiah 23:1–6
+ordinary_1:16,,,B,,,psalm,Psalm 23:1–6
+ordinary_1:16,,,B,,,epistle,Ephesians 2:13–18
+ordinary_1:16,,,B,,,gospel,Mark 6:30–34
+ordinary_2:16,,,B,,,ot,Jeremiah 23:1–6
+ordinary_2:16,,,B,,,psalm,Psalm 23:1–6
+ordinary_2:16,,,B,,,epistle,Ephesians 2:13–18
+ordinary_2:16,,,B,,,gospel,Mark 6:30–34
+ordinary_1:17,,,B,,,ot,2 Kings 4:42–44
+ordinary_1:17,,,B,,,psalm,"Psalm 145:10–11, 15–18"
+ordinary_1:17,,,B,,,epistle,Ephesians 4:1–6
+ordinary_1:17,,,B,,,gospel,John 6:1–15
+ordinary_2:17,,,B,,,ot,2 Kings 4:42–44
+ordinary_2:17,,,B,,,psalm,"Psalm 145:10–11, 15–18"
+ordinary_2:17,,,B,,,epistle,Ephesians 4:1–6
+ordinary_2:17,,,B,,,gospel,John 6:1–15
+ordinary_1:18,,,B,,,ot,"Exodus 16:2–4, 12–15"
+ordinary_1:18,,,B,,,psalm,"Psalm 78:3–4, 23–25, 54"
+ordinary_1:18,,,B,,,epistle,"Ephesians 4:17, 20–24"
+ordinary_1:18,,,B,,,gospel,John 6:24–35
+ordinary_2:18,,,B,,,ot,"Exodus 16:2–4, 12–15"
+ordinary_2:18,,,B,,,psalm,"Psalm 78:3–4, 23–25, 54"
+ordinary_2:18,,,B,,,epistle,"Ephesians 4:17, 20–24"
+ordinary_2:18,,,B,,,gospel,John 6:24–35
+ordinary_1:19,,,B,,,ot,1 Kings 19:4–8
+ordinary_1:19,,,B,,,psalm,Psalm 34:2–9
+ordinary_1:19,,,B,,,epistle,Ephesians 4:30–5:2
+ordinary_1:19,,,B,,,gospel,John 6:41–51
+ordinary_2:19,,,B,,,ot,1 Kings 19:4–8
+ordinary_2:19,,,B,,,psalm,Psalm 34:2–9
+ordinary_2:19,,,B,,,epistle,Ephesians 4:30–5:2
+ordinary_2:19,,,B,,,gospel,John 6:41–51
+ordinary_1:20,,,B,,,ot,Proverbs 9:1–6
+ordinary_1:20,,,B,,,psalm,Psalm 34:2–7
+ordinary_1:20,,,B,,,epistle,Ephesians 5:15–20
+ordinary_1:20,,,B,,,gospel,John 6:51–58
+ordinary_2:20,,,B,,,ot,Proverbs 9:1–6
+ordinary_2:20,,,B,,,psalm,Psalm 34:2–7
+ordinary_2:20,,,B,,,epistle,Ephesians 5:15–20
+ordinary_2:20,,,B,,,gospel,John 6:51–58
+ordinary_1:21,,,B,,,ot,"Joshua 24:1–2a, 15–17, 18b"
+ordinary_1:21,,,B,,,psalm,"Psalm 34:2–3, 16–21"
+ordinary_1:21,,,B,,,epistle,"Ephesians 5:21–32 or Ephesians 5:2a, 25–32"
+ordinary_1:21,,,B,,,gospel,John 6:60–69
+ordinary_2:21,,,B,,,ot,"Joshua 24:1–2a, 15–17, 18b"
+ordinary_2:21,,,B,,,psalm,"Psalm 34:2–3, 16–21"
+ordinary_2:21,,,B,,,epistle,"Ephesians 5:21–32 or Ephesians 5:2a, 25–32"
+ordinary_2:21,,,B,,,gospel,John 6:60–69
+ordinary_1:22,,,B,,,ot,"Deuteronomy 4:1–2, 6–8"
+ordinary_1:22,,,B,,,psalm,Psalm 15:2–5
+ordinary_1:22,,,B,,,epistle,"James 1:17–18, 21b–22, 27"
+ordinary_1:22,,,B,,,gospel,"Mark 7:1–8, 14–15, 21–23"
+ordinary_2:22,,,B,,,ot,"Deuteronomy 4:1–2, 6–8"
+ordinary_2:22,,,B,,,psalm,Psalm 15:2–5
+ordinary_2:22,,,B,,,epistle,"James 1:17–18, 21b–22, 27"
+ordinary_2:22,,,B,,,gospel,"Mark 7:1–8, 14–15, 21–23"
+ordinary_1:23,,,B,,,ot,Isaiah 35:4–7a
+ordinary_1:23,,,B,,,psalm,Psalm 146:6c–10
+ordinary_1:23,,,B,,,epistle,James 2:1–5
+ordinary_1:23,,,B,,,gospel,Mark 7:31–37
+ordinary_2:23,,,B,,,ot,Isaiah 35:4–7a
+ordinary_2:23,,,B,,,psalm,Psalm 146:6c–10
+ordinary_2:23,,,B,,,epistle,James 2:1–5
+ordinary_2:23,,,B,,,gospel,Mark 7:31–37
+ordinary_1:24,,,B,,,ot,Isaiah 50:4–9a
+ordinary_1:24,,,B,,,psalm,"Psalm 116:1–6, 8–9"
+ordinary_1:24,,,B,,,epistle,James 2:14–18
+ordinary_1:24,,,B,,,gospel,Mark 8:27–35
+ordinary_2:24,,,B,,,ot,Isaiah 50:4–9a
+ordinary_2:24,,,B,,,psalm,"Psalm 116:1–6, 8–9"
+ordinary_2:24,,,B,,,epistle,James 2:14–18
+ordinary_2:24,,,B,,,gospel,Mark 8:27–35
+ordinary_1:25,,,B,,,ot,"Wisdom 2:12, 17–20"
+ordinary_1:25,,,B,,,psalm,Psalm 54:3–8
+ordinary_1:25,,,B,,,epistle,James 3:16–4:3
+ordinary_1:25,,,B,,,gospel,Mark 9:30–37
+ordinary_2:25,,,B,,,ot,"Wisdom 2:12, 17–20"
+ordinary_2:25,,,B,,,psalm,Psalm 54:3–8
+ordinary_2:25,,,B,,,epistle,James 3:16–4:3
+ordinary_2:25,,,B,,,gospel,Mark 9:30–37
+ordinary_1:26,,,B,,,ot,Numbers 11:25–29
+ordinary_1:26,,,B,,,psalm,"Psalm 19:8, 10, 12–14"
+ordinary_1:26,,,B,,,epistle,James 5:1–6
+ordinary_1:26,,,B,,,gospel,"Mark 9:38–43, 45, 47–48"
+ordinary_2:26,,,B,,,ot,Numbers 11:25–29
+ordinary_2:26,,,B,,,psalm,"Psalm 19:8, 10, 12–14"
+ordinary_2:26,,,B,,,epistle,James 5:1–6
+ordinary_2:26,,,B,,,gospel,"Mark 9:38–43, 45, 47–48"
+ordinary_1:27,,,B,,,ot,Genesis 2:18–24
+ordinary_1:27,,,B,,,psalm,Psalm 128:1–6
+ordinary_1:27,,,B,,,epistle,Hebrews 2:9–11
+ordinary_1:27,,,B,,,gospel,Mark 10:2–16 or Mark 10:2–12
+ordinary_2:27,,,B,,,ot,Genesis 2:18–24
+ordinary_2:27,,,B,,,psalm,Psalm 128:1–6
+ordinary_2:27,,,B,,,epistle,Hebrews 2:9–11
+ordinary_2:27,,,B,,,gospel,Mark 10:2–16 or Mark 10:2–12
+ordinary_1:28,,,B,,,ot,Wisdom 7:7–11
+ordinary_1:28,,,B,,,psalm,Psalm 90:12–17
+ordinary_1:28,,,B,,,epistle,Hebrews 4:12–13
+ordinary_1:28,,,B,,,gospel,Mark 10:17–30 or Mark 10:17–27
+ordinary_2:28,,,B,,,ot,Wisdom 7:7–11
+ordinary_2:28,,,B,,,psalm,Psalm 90:12–17
+ordinary_2:28,,,B,,,epistle,Hebrews 4:12–13
+ordinary_2:28,,,B,,,gospel,Mark 10:17–30 or Mark 10:17–27
+ordinary_1:29,,,B,,,ot,Isaiah 53:10–11
+ordinary_1:29,,,B,,,psalm,"Psalm 33:4–5, 18–20, 22"
+ordinary_1:29,,,B,,,epistle,Hebrews 4:14–16
+ordinary_1:29,,,B,,,gospel,Mark 10:35–45 or Mark 10:42–45
+ordinary_2:29,,,B,,,ot,Isaiah 53:10–11
+ordinary_2:29,,,B,,,psalm,"Psalm 33:4–5, 18–20, 22"
+ordinary_2:29,,,B,,,epistle,Hebrews 4:14–16
+ordinary_2:29,,,B,,,gospel,Mark 10:35–45 or Mark 10:42–45
+ordinary_1:30,,,B,,,ot,Jeremiah 31:7–9
+ordinary_1:30,,,B,,,psalm,Psalm 126:1–6
+ordinary_1:30,,,B,,,epistle,Hebrews 5:1–6
+ordinary_1:30,,,B,,,gospel,Mark 10:46–52
+ordinary_2:30,,,B,,,ot,Jeremiah 31:7–9
+ordinary_2:30,,,B,,,psalm,Psalm 126:1–6
+ordinary_2:30,,,B,,,epistle,Hebrews 5:1–6
+ordinary_2:30,,,B,,,gospel,Mark 10:46–52
+ordinary_1:31,,,B,,,ot,Deuteronomy 6:2–6
+ordinary_1:31,,,B,,,psalm,"Psalm 18:2–4, 47, 51"
+ordinary_1:31,,,B,,,epistle,Hebrews 7:23–28
+ordinary_1:31,,,B,,,gospel,Mark 12:28b–34
+ordinary_2:31,,,B,,,ot,Deuteronomy 6:2–6
+ordinary_2:31,,,B,,,psalm,"Psalm 18:2–4, 47, 51"
+ordinary_2:31,,,B,,,epistle,Hebrews 7:23–28
+ordinary_2:31,,,B,,,gospel,Mark 12:28b–34
+ordinary_1:32,,,B,,,ot,1 Kings 17:10–16
+ordinary_1:32,,,B,,,psalm,Psalm 146:6c–10
+ordinary_1:32,,,B,,,epistle,Hebrews 9:24–28
+ordinary_1:32,,,B,,,gospel,Mark 12:38–44 or Mark 12:41–44
+ordinary_2:32,,,B,,,ot,1 Kings 17:10–16
+ordinary_2:32,,,B,,,psalm,Psalm 146:6c–10
+ordinary_2:32,,,B,,,epistle,Hebrews 9:24–28
+ordinary_2:32,,,B,,,gospel,Mark 12:38–44 or Mark 12:41–44
+ordinary_1:33,,,B,,,ot,Daniel 12:1–3
+ordinary_1:33,,,B,,,psalm,"Psalm 16:5, 8–11"
+ordinary_1:33,,,B,,,epistle,"Hebrews 10:11–14, 18"
+ordinary_1:33,,,B,,,gospel,Mark 13:24–32
+ordinary_2:33,,,B,,,ot,Daniel 12:1–3
+ordinary_2:33,,,B,,,psalm,"Psalm 16:5, 8–11"
+ordinary_2:33,,,B,,,epistle,"Hebrews 10:11–14, 18"
+ordinary_2:33,,,B,,,gospel,Mark 13:24–32
+christ_the_king,,,B,,,ot,Daniel 7:13–14
+christ_the_king,,,B,,,psalm,"Psalm 93:1a–2, 5"
+christ_the_king,,,B,,,epistle,Revelation 1:5–8
+christ_the_king,,,B,,,gospel,John 18:33b–37
+ordinary_1:2,,,C,,,ot,Isaiah 62:1–5
+ordinary_1:2,,,C,,,psalm,"Psalm 96:1–3, 7–10"
+ordinary_1:2,,,C,,,epistle,1 Corinthians 12:4–11
+ordinary_1:2,,,C,,,gospel,John 2:1–11
+ordinary_2:2,,,C,,,ot,Isaiah 62:1–5
+ordinary_2:2,,,C,,,psalm,"Psalm 96:1–3, 7–10"
+ordinary_2:2,,,C,,,epistle,1 Corinthians 12:4–11
+ordinary_2:2,,,C,,,gospel,John 2:1–11
+ordinary_1:3,,,C,,,ot,"Nehemiah 8:2–4a, 5–6, 8–10"
+ordinary_1:3,,,C,,,psalm,"Psalm 19:8–10, 15"
+ordinary_1:3,,,C,,,epistle,"1 Corinthians 12:12–30 or 1 Corinthians 12:12–14, 27"
+ordinary_1:3,,,C,,,gospel,Luke 1:1–4; 4:14–21
+ordinary_2:3,,,C,,,ot,"Nehemiah 8:2–4a, 5–6, 8–10"
+ordinary_2:3,,,C,,,psalm,"Psalm 19:8–10, 15"
+ordinary_2:3,,,C,,,epistle,"1 Corinthians 12:12–30 or 1 Corinthians 12:12–14, 27"
+ordinary_2:3,,,C,,,gospel,Luke 1:1–4; 4:14–21
+ordinary_1:4,,,C,,,ot,"Jeremiah 1:4–5, 17–19"
+ordinary_1:4,,,C,,,psalm,"Psalm 71:1–6, 15, 17"
+ordinary_1:4,,,C,,,epistle,1 Corinthians 12:31–13:13 or 1 Corinthians 13:4–13
+ordinary_1:4,,,C,,,gospel,Luke 4:21–30
+ordinary_2:4,,,C,,,ot,"Jeremiah 1:4–5, 17–19"
+ordinary_2:4,,,C,,,psalm,"Psalm 71:1–6, 15, 17"
+ordinary_2:4,,,C,,,epistle,1 Corinthians 12:31–13:13 or 1 Corinthians 13:4–13
+ordinary_2:4,,,C,,,gospel,Luke 4:21–30
+ordinary_1:5,,,C,,,ot,"Isaiah 6:1–2a, 3–8"
+ordinary_1:5,,,C,,,psalm,"Psalm 138:1–5, 7–8"
+ordinary_1:5,,,C,,,epistle,"1 Corinthians 15:1–11 or 1 Corinthians 15:3–8, 11"
+ordinary_1:5,,,C,,,gospel,Luke 5:1–11
+ordinary_2:5,,,C,,,ot,"Isaiah 6:1–2a, 3–8"
+ordinary_2:5,,,C,,,psalm,"Psalm 138:1–5, 7–8"
+ordinary_2:5,,,C,,,epistle,"1 Corinthians 15:1–11 or 1 Corinthians 15:3–8, 11"
+ordinary_2:5,,,C,,,gospel,Luke 5:1–11
+ordinary_1:6,,,C,,,ot,Jeremiah 17:5–8
+ordinary_1:6,,,C,,,psalm,"Psalm 1:1–4, 6"
+ordinary_1:6,,,C,,,epistle,"1 Corinthians 15:12, 16–20"
+ordinary_1:6,,,C,,,gospel,"Luke 6:17, 20–26"
+ordinary_2:6,,,C,,,ot,Jeremiah 17:5–8
+ordinary_2:6,,,C,,,psalm,"Psalm 1:1–4, 6"
+ordinary_2:6,,,C,,,epistle,"1 Corinthians 15:12, 16–20"
+ordinary_2:6,,,C,,,gospel,"Luke 6:17, 20–26"
+ordinary_1:7,,,C,,,ot,"1 Samuel 26:2, 7–9, 12–13, 22–23"
+ordinary_1:7,,,C,,,psalm,"Psalm 103:1–4, 8, 10, 12–13"
+ordinary_1:7,,,C,,,epistle,1 Corinthians 15:45–49
+ordinary_1:7,,,C,,,gospel,Luke 6:27–38
+ordinary_2:7,,,C,,,ot,"1 Samuel 26:2, 7–9, 12–13, 22–23"
+ordinary_2:7,,,C,,,psalm,"Psalm 103:1–4, 8, 10, 12–13"
+ordinary_2:7,,,C,,,epistle,1 Corinthians 15:45–49
+ordinary_2:7,,,C,,,gospel,Luke 6:27–38
+ordinary_1:8,,,C,,,ot,Sirach 27:5–8
+ordinary_1:8,,,C,,,psalm,"Psalm 92:2–3, 13–16"
+ordinary_1:8,,,C,,,epistle,1 Corinthians 15:54–58
+ordinary_1:8,,,C,,,gospel,Luke 6:39–45
+ordinary_2:8,,,C,,,ot,Sirach 27:5–8
+ordinary_2:8,,,C,,,psalm,"Psalm 92:2–3, 13–16"
+ordinary_2:8,,,C,,,epistle,1 Corinthians 15:54–58
+ordinary_2:8,,,C,,,gospel,Luke 6:39–45
+ordinary_1:9,,,C,,,ot,1 Kings 8:41–43
+ordinary_1:9,,,C,,,psalm,Psalm 117:1–2
+ordinary_1:9,,,C,,,epistle,"Galatians 1:1–2, 6–10"
+ordinary_1:9,,,C,,,gospel,Luke 7:1–10
+ordinary_2:9,,,C,,,ot,1 Kings 8:41–43
+ordinary_2:9,,,C,,,psalm,Psalm 117:1–2
+ordinary_2:9,,,C,,,epistle,"Galatians 1:1–2, 6–10"
+ordinary_2:9,,,C,,,gospel,Luke 7:1–10
+ordinary_1:10,,,C,,,ot,1 Kings 17:17–24
+ordinary_1:10,,,C,,,psalm,"Psalm 30:2, 4–6, 11–12a, 13b"
+ordinary_1:10,,,C,,,epistle,Galatians 1:11–19
+ordinary_1:10,,,C,,,gospel,Luke 7:11–17
+ordinary_2:10,,,C,,,ot,1 Kings 17:17–24
+ordinary_2:10,,,C,,,psalm,"Psalm 30:2, 4–6, 11–12a, 13b"
+ordinary_2:10,,,C,,,epistle,Galatians 1:11–19
+ordinary_2:10,,,C,,,gospel,Luke 7:11–17
+ordinary_1:11,,,C,,,ot,"2 Samuel 12:7–10, 13"
+ordinary_1:11,,,C,,,psalm,"Psalm 32:1–2, 5, 7, 11"
+ordinary_1:11,,,C,,,epistle,"Galatians 2:16, 19–21"
+ordinary_1:11,,,C,,,gospel,Luke 7:36–8:3 or Luke 7:36–50
+ordinary_2:11,,,C,,,ot,"2 Samuel 12:7–10, 13"
+ordinary_2:11,,,C,,,psalm,"Psalm 32:1–2, 5, 7, 11"
+ordinary_2:11,,,C,,,epistle,"Galatians 2:16, 19–21"
+ordinary_2:11,,,C,,,gospel,Luke 7:36–8:3 or Luke 7:36–50
+ordinary_1:12,,,C,,,ot,Zechariah 12:10–11; 13:1
+ordinary_1:12,,,C,,,psalm,"Psalm 63:2–6, 8–9"
+ordinary_1:12,,,C,,,epistle,Galatians 3:26–29
+ordinary_1:12,,,C,,,gospel,Luke 9:18–24
+ordinary_2:12,,,C,,,ot,Zechariah 12:10–11; 13:1
+ordinary_2:12,,,C,,,psalm,"Psalm 63:2–6, 8–9"
+ordinary_2:12,,,C,,,epistle,Galatians 3:26–29
+ordinary_2:12,,,C,,,gospel,Luke 9:18–24
+ordinary_1:13,,,C,,,ot,"1 Kings 19:16b, 19–21"
+ordinary_1:13,,,C,,,psalm,"Psalm 16:1–2a, 5, 7–11"
+ordinary_1:13,,,C,,,epistle,"Galatians 5:1, 13–18"
+ordinary_1:13,,,C,,,gospel,Luke 9:51–62
+ordinary_2:13,,,C,,,ot,"1 Kings 19:16b, 19–21"
+ordinary_2:13,,,C,,,psalm,"Psalm 16:1–2a, 5, 7–11"
+ordinary_2:13,,,C,,,epistle,"Galatians 5:1, 13–18"
+ordinary_2:13,,,C,,,gospel,Luke 9:51–62
+ordinary_1:14,,,C,,,ot,Isaiah 66:10–14c
+ordinary_1:14,,,C,,,psalm,"Psalm 66:1–7, 16, 20"
+ordinary_1:14,,,C,,,epistle,Galatians 6:14–18
+ordinary_1:14,,,C,,,gospel,"Luke 10:1–12, 17–20 or Luke 10:1–9"
+ordinary_2:14,,,C,,,ot,Isaiah 66:10–14c
+ordinary_2:14,,,C,,,psalm,"Psalm 66:1–7, 16, 20"
+ordinary_2:14,,,C,,,epistle,Galatians 6:14–18
+ordinary_2:14,,,C,,,gospel,"Luke 10:1–12, 17–20 or Luke 10:1–9"
+ordinary_1:15,,,C,,,ot,Deuteronomy 30:10–14
+ordinary_1:15,,,C,,,psalm,"Psalm 69:14, 17, 30–31, 33–34, 36a, 37 or Psalm 19:8–11"
+ordinary_1:15,,,C,,,epistle,Colossians 1:15–20
+ordinary_1:15,,,C,,,gospel,Luke 10:25–37
+ordinary_2:15,,,C,,,ot,Deuteronomy 30:10–14
+ordinary_2:15,,,C,,,psalm,"Psalm 69:14, 17, 30–31, 33–34, 36a, 37 or Psalm 19:8–11"
+ordinary_2:15,,,C,,,epistle,Colossians 1:15–20
+ordinary_2:15,,,C,,,gospel,Luke 10:25–37
+ordinary_1:16,,,C,,,ot,Genesis 18:1–10a
+ordinary_1:16,,,C,,,psalm,Psalm 15:2–5
+ordinary_1:16,,,C,,,epistle,Colossians 1:24–28
+ordinary_1:16,,,C,,,gospel,Luke 10:38–42
+ordinary_2:16,,,C,,,ot,Genesis 18:1–10a
+ordinary_2:16,,,C,,,psalm,Psalm 15:2–5
+ordinary_2:16,,,C,,,epistle,Colossians 1:24–28
+ordinary_2:16,,,C,,,gospel,Luke 10:38–42
+ordinary_1:17,,,C,,,ot,Genesis 18:20–32
+ordinary_1:17,,,C,,,psalm,"Psalm 138:1–3, 6–8"
+ordinary_1:17,,,C,,,epistle,Colossians 2:12–14
+ordinary_1:17,,,C,,,gospel,Luke 11:1–13
+ordinary_2:17,,,C,,,ot,Genesis 18:20–32
+ordinary_2:17,,,C,,,psalm,"Psalm 138:1–3, 6–8"
+ordinary_2:17,,,C,,,epistle,Colossians 2:12–14
+ordinary_2:17,,,C,,,gospel,Luke 11:1–13
+ordinary_1:18,,,C,,,ot,Ecclesiastes 1:2; 2:21–23
+ordinary_1:18,,,C,,,psalm,"Psalm 90:3–6, 12–14, 17"
+ordinary_1:18,,,C,,,epistle,"Colossians 3:1–5, 9–11"
+ordinary_1:18,,,C,,,gospel,Luke 12:13–21
+ordinary_2:18,,,C,,,ot,Ecclesiastes 1:2; 2:21–23
+ordinary_2:18,,,C,,,psalm,"Psalm 90:3–6, 12–14, 17"
+ordinary_2:18,,,C,,,epistle,"Colossians 3:1–5, 9–11"
+ordinary_2:18,,,C,,,gospel,Luke 12:13–21
+ordinary_1:19,,,C,,,ot,Wisdom 18:6–9
+ordinary_1:19,,,C,,,psalm,"Psalm 33:1, 12, 18–22"
+ordinary_1:19,,,C,,,epistle,"Hebrews 11:1–2, 8–19 or Hebrews 11:1–2, 8–12"
+ordinary_1:19,,,C,,,gospel,Luke 12:32–48 or Luke 12:35–40
+ordinary_2:19,,,C,,,ot,Wisdom 18:6–9
+ordinary_2:19,,,C,,,psalm,"Psalm 33:1, 12, 18–22"
+ordinary_2:19,,,C,,,epistle,"Hebrews 11:1–2, 8–19 or Hebrews 11:1–2, 8–12"
+ordinary_2:19,,,C,,,gospel,Luke 12:32–48 or Luke 12:35–40
+ordinary_1:20,,,C,,,ot,"Jeremiah 38:4–6, 8–10"
+ordinary_1:20,,,C,,,psalm,"Psalm 40:2–4, 18"
+ordinary_1:20,,,C,,,epistle,Hebrews 12:1–4
+ordinary_1:20,,,C,,,gospel,Luke 12:49–53
+ordinary_2:20,,,C,,,ot,"Jeremiah 38:4–6, 8–10"
+ordinary_2:20,,,C,,,psalm,"Psalm 40:2–4, 18"
+ordinary_2:20,,,C,,,epistle,Hebrews 12:1–4
+ordinary_2:20,,,C,,,gospel,Luke 12:49–53
+ordinary_1:21,,,C,,,ot,Isaiah 66:18–21
+ordinary_1:21,,,C,,,psalm,Psalm 117:1–2
+ordinary_1:21,,,C,,,epistle,"Hebrews 12:5–7, 11–13"
+ordinary_1:21,,,C,,,gospel,Luke 13:22–30
+ordinary_2:21,,,C,,,ot,Isaiah 66:18–21
+ordinary_2:21,,,C,,,psalm,Psalm 117:1–2
+ordinary_2:21,,,C,,,epistle,"Hebrews 12:5–7, 11–13"
+ordinary_2:21,,,C,,,gospel,Luke 13:22–30
+ordinary_1:22,,,C,,,ot,"Sirach 3:17–18, 20, 28–29"
+ordinary_1:22,,,C,,,psalm,"Psalm 68:4–7, 10–11"
+ordinary_1:22,,,C,,,epistle,"Hebrews 12:18–19, 22–24a"
+ordinary_1:22,,,C,,,gospel,"Luke 14:1, 7–14"
+ordinary_2:22,,,C,,,ot,"Sirach 3:17–18, 20, 28–29"
+ordinary_2:22,,,C,,,psalm,"Psalm 68:4–7, 10–11"
+ordinary_2:22,,,C,,,epistle,"Hebrews 12:18–19, 22–24a"
+ordinary_2:22,,,C,,,gospel,"Luke 14:1, 7–14"
+ordinary_1:23,,,C,,,ot,Wisdom 9:13–18b
+ordinary_1:23,,,C,,,psalm,"Psalm 90:3–6, 12–14, 17"
+ordinary_1:23,,,C,,,epistle,"Philemon 9–10, 12–17"
+ordinary_1:23,,,C,,,gospel,Luke 14:25–33
+ordinary_2:23,,,C,,,ot,Wisdom 9:13–18b
+ordinary_2:23,,,C,,,psalm,"Psalm 90:3–6, 12–14, 17"
+ordinary_2:23,,,C,,,epistle,"Philemon 9–10, 12–17"
+ordinary_2:23,,,C,,,gospel,Luke 14:25–33
+ordinary_1:24,,,C,,,ot,"Exodus 32:7–11, 13–14"
+ordinary_1:24,,,C,,,psalm,"Psalm 51:3–4, 12–13, 17, 19"
+ordinary_1:24,,,C,,,epistle,1 Timothy 1:12–17
+ordinary_1:24,,,C,,,gospel,Luke 15:1–32 or Luke 15:1–10
+ordinary_2:24,,,C,,,ot,"Exodus 32:7–11, 13–14"
+ordinary_2:24,,,C,,,psalm,"Psalm 51:3–4, 12–13, 17, 19"
+ordinary_2:24,,,C,,,epistle,1 Timothy 1:12–17
+ordinary_2:24,,,C,,,gospel,Luke 15:1–32 or Luke 15:1–10
+ordinary_1:25,,,C,,,ot,Amos 8:4–7
+ordinary_1:25,,,C,,,psalm,"Psalm 113:1–2, 4–8"
+ordinary_1:25,,,C,,,epistle,1 Timothy 2:1–8
+ordinary_1:25,,,C,,,gospel,Luke 16:1–13 or Luke 16:10–13
+ordinary_2:25,,,C,,,ot,Amos 8:4–7
+ordinary_2:25,,,C,,,psalm,"Psalm 113:1–2, 4–8"
+ordinary_2:25,,,C,,,epistle,1 Timothy 2:1–8
+ordinary_2:25,,,C,,,gospel,Luke 16:1–13 or Luke 16:10–13
+ordinary_1:26,,,C,,,ot,"Amos 6:1a, 4–7"
+ordinary_1:26,,,C,,,psalm,Psalm 146:6c–10
+ordinary_1:26,,,C,,,epistle,1 Timothy 6:11–16
+ordinary_1:26,,,C,,,gospel,Luke 16:19–31
+ordinary_2:26,,,C,,,ot,"Amos 6:1a, 4–7"
+ordinary_2:26,,,C,,,psalm,Psalm 146:6c–10
+ordinary_2:26,,,C,,,epistle,1 Timothy 6:11–16
+ordinary_2:26,,,C,,,gospel,Luke 16:19–31
+ordinary_1:27,,,C,,,ot,Habakkuk 1:2–3; 2:2–4
+ordinary_1:27,,,C,,,psalm,"Psalm 95:1–2, 6–9"
+ordinary_1:27,,,C,,,epistle,"2 Timothy 1:6–8, 13–14"
+ordinary_1:27,,,C,,,gospel,Luke 17:5–10
+ordinary_2:27,,,C,,,ot,Habakkuk 1:2–3; 2:2–4
+ordinary_2:27,,,C,,,psalm,"Psalm 95:1–2, 6–9"
+ordinary_2:27,,,C,,,epistle,"2 Timothy 1:6–8, 13–14"
+ordinary_2:27,,,C,,,gospel,Luke 17:5–10
+ordinary_1:28,,,C,,,ot,2 Kings 5:14–17
+ordinary_1:28,,,C,,,psalm,Psalm 98:1–4
+ordinary_1:28,,,C,,,epistle,2 Timothy 2:8–13
+ordinary_1:28,,,C,,,gospel,Luke 17:11–19
+ordinary_2:28,,,C,,,ot,2 Kings 5:14–17
+ordinary_2:28,,,C,,,psalm,Psalm 98:1–4
+ordinary_2:28,,,C,,,epistle,2 Timothy 2:8–13
+ordinary_2:28,,,C,,,gospel,Luke 17:11–19
+ordinary_1:29,,,C,,,ot,Exodus 17:8–13
+ordinary_1:29,,,C,,,psalm,Psalm 121:1–8
+ordinary_1:29,,,C,,,epistle,2 Timothy 3:14–4:2
+ordinary_1:29,,,C,,,gospel,Luke 18:1–8
+ordinary_2:29,,,C,,,ot,Exodus 17:8–13
+ordinary_2:29,,,C,,,psalm,Psalm 121:1–8
+ordinary_2:29,,,C,,,epistle,2 Timothy 3:14–4:2
+ordinary_2:29,,,C,,,gospel,Luke 18:1–8
+ordinary_1:30,,,C,,,ot,"Sirach 35:12–14, 16–18"
+ordinary_1:30,,,C,,,psalm,"Psalm 34:2–3, 17–19, 23"
+ordinary_1:30,,,C,,,epistle,"2 Timothy 4:6–8, 16–18"
+ordinary_1:30,,,C,,,gospel,Luke 18:9–14
+ordinary_2:30,,,C,,,ot,"Sirach 35:12–14, 16–18"
+ordinary_2:30,,,C,,,psalm,"Psalm 34:2–3, 17–19, 23"
+ordinary_2:30,,,C,,,epistle,"2 Timothy 4:6–8, 16–18"
+ordinary_2:30,,,C,,,gospel,Luke 18:9–14
+ordinary_1:31,,,C,,,ot,Wisdom 11:22–12:2
+ordinary_1:31,,,C,,,psalm,"Psalm 145:1–2, 8–11, 13b–14"
+ordinary_1:31,,,C,,,epistle,2 Thessalonians 1:11–2:2
+ordinary_1:31,,,C,,,gospel,Luke 19:1–10
+ordinary_2:31,,,C,,,ot,Wisdom 11:22–12:2
+ordinary_2:31,,,C,,,psalm,"Psalm 145:1–2, 8–11, 13b–14"
+ordinary_2:31,,,C,,,epistle,2 Thessalonians 1:11–2:2
+ordinary_2:31,,,C,,,gospel,Luke 19:1–10
+ordinary_1:32,,,C,,,ot,"2 Maccabees 7:1–2, 9–14"
+ordinary_1:32,,,C,,,psalm,"Psalm 17:1, 5–6, 8, 15"
+ordinary_1:32,,,C,,,epistle,2 Thessalonians 2:16–3:5
+ordinary_1:32,,,C,,,gospel,"Luke 20:27–38 or Luke 20:27, 34–38"
+ordinary_2:32,,,C,,,ot,"2 Maccabees 7:1–2, 9–14"
+ordinary_2:32,,,C,,,psalm,"Psalm 17:1, 5–6, 8, 15"
+ordinary_2:32,,,C,,,epistle,2 Thessalonians 2:16–3:5
+ordinary_2:32,,,C,,,gospel,"Luke 20:27–38 or Luke 20:27, 34–38"
+ordinary_1:33,,,C,,,ot,Malachi 3:19–20a
+ordinary_1:33,,,C,,,psalm,Psalm 98:5–9
+ordinary_1:33,,,C,,,epistle,2 Thessalonians 3:7–12
+ordinary_1:33,,,C,,,gospel,Luke 21:5–19
+ordinary_2:33,,,C,,,ot,Malachi 3:19–20a
+ordinary_2:33,,,C,,,psalm,Psalm 98:5–9
+ordinary_2:33,,,C,,,epistle,2 Thessalonians 3:7–12
+ordinary_2:33,,,C,,,gospel,Luke 21:5–19
+christ_the_king,,,C,,,ot,2 Samuel 5:1–3
+christ_the_king,,,C,,,psalm,Psalm 122:1–5
+christ_the_king,,,C,,,epistle,Colossians 1:12–20
+christ_the_king,,,C,,,gospel,Luke 23:35–43
+christmas_eve,,,,,Vigil Mass,ot,Isaiah 62:1–5
+christmas_eve,,,,,Vigil Mass,psalm,"Psalm 89:4–5, 16–17, 27, 29"
+christmas_eve,,,,,Vigil Mass,epistle,"Acts 13:16–17, 22–25"
+christmas_eve,,,,,Vigil Mass,gospel,Matthew 1:1–25 or Matthew 1:18–25
+christmas,,,,,,ot,Isaiah 52:7–10
+christmas,,,,,,psalm,Psalm 98:1–6
+christmas,,,,,,epistle,Hebrews 1:1–6
+christmas,,,,,,gospel,"John 1:1–18 or John 1:1–5, 9–14"
+christmas,,,,,Mass during the Night,ot,Isaiah 9:1–6
+christmas,,,,,Mass during the Night,psalm,"Psalm 96:1–3, 11–13"
+christmas,,,,,Mass during the Night,epistle,Titus 2:11–14
+christmas,,,,,Mass during the Night,gospel,Luke 2:1–14
+christmas,,,,,Mass at Dawn,ot,Isaiah 62:11–12
+christmas,,,,,Mass at Dawn,psalm,"Psalm 97:1, 6, 11–12"
+christmas,,,,,Mass at Dawn,epistle,Titus 3:4–7
+christmas,,,,,Mass at Dawn,gospel,Luke 2:15–20
+holy_family,,,A,,,ot,"Sirach 3:2–6, 12–14"
+holy_family,,,A,,,psalm,Psalm 128:1–5
+holy_family,,,A,,,epistle,Colossians 3:12–21 or Colossians 3:12–17
+holy_family,,,A,,,gospel,"Matthew 2:13–15, 19–23"
+holy_family,,,B,,,ot,"Sirach 3:2–6, 12–14 or Genesis 15:1–6; 21:1–3"
+holy_family,,,B,,,psalm,"Psalm 128:1–5 or Psalm 105:1–6, 8–9"
+holy_family,,,B,,,epistle,"Colossians 3:12–21 or Colossians 3:12–17 or Hebrews 11:8, 11–12, 17–19"
+holy_family,,,B,,,gospel,"Luke 2:22–40 or Luke 2:22, 39–40"
+holy_family,,,C,,,ot,"Sirach 3:2–6, 12–14 or 1 Samuel 1:20–22, 24–28"
+holy_family,,,C,,,psalm,"Psalm 128:1–5 or Psalm 84:2–3, 5–6, 9–10"
+holy_family,,,C,,,epistle,"Colossians 3:12–21 or Colossians 3:12–17 or 1 John 3:1–2, 21–24"
+holy_family,,,C,,,gospel,Luke 2:41–52
+holy_family_30,,,A,,,ot,"Sirach 3:2–6, 12–14"
+holy_family_30,,,A,,,psalm,Psalm 128:1–5
+holy_family_30,,,A,,,epistle,Colossians 3:12–21 or Colossians 3:12–17
+holy_family_30,,,A,,,gospel,"Matthew 2:13–15, 19–23"
+holy_family_30,,,B,,,ot,"Sirach 3:2–6, 12–14 or Genesis 15:1–6; 21:1–3"
+holy_family_30,,,B,,,psalm,"Psalm 128:1–5 or Psalm 105:1–6, 8–9"
+holy_family_30,,,B,,,epistle,"Colossians 3:12–21 or Colossians 3:12–17 or Hebrews 11:8, 11–12, 17–19"
+holy_family_30,,,B,,,gospel,"Luke 2:22–40 or Luke 2:22, 39–40"
+holy_family_30,,,C,,,ot,"Sirach 3:2–6, 12–14 or 1 Samuel 1:20–22, 24–28"
+holy_family_30,,,C,,,psalm,"Psalm 128:1–5 or Psalm 84:2–3, 5–6, 9–10"
+holy_family_30,,,C,,,epistle,"Colossians 3:12–21 or Colossians 3:12–17 or 1 John 3:1–2, 21–24"
+holy_family_30,,,C,,,gospel,Luke 2:41–52
+mary_mother_of_god,,,,,,ot,Numbers 6:22–27
+mary_mother_of_god,,,,,,psalm,"Psalm 67:2–3, 5–6, 8"
+mary_mother_of_god,,,,,,epistle,Galatians 4:4–7
+mary_mother_of_god,,,,,,gospel,Luke 2:16–21
+christmas_2,,,,,,ot,"Sirach 24:1–4, 12–16"
+christmas_2,,,,,,psalm,"Psalm 147:12–15, 19–20"
+christmas_2,,,,,,epistle,"Ephesians 1:3–6, 15–18"
+christmas_2,,,,,,gospel,"John 1:1–18 or John 1:1–5, 9–14"
+epiphany,,,,,,ot,Isaiah 60:1–6
+epiphany,,,,,,psalm,"Psalm 72:1–2, 7–8, 10–13"
+epiphany,,,,,,epistle,"Ephesians 3:2–3a, 5–6"
+epiphany,,,,,,gospel,Matthew 2:1–12
+baptism,,,A,,,ot,"Isaiah 42:1–4, 6–7"
+baptism,,,A,,,psalm,"Psalm 29:1–2, 3ac, 4, 3b, 9b–10"
+baptism,,,A,,,epistle,Acts 10:34–38
+baptism,,,A,,,gospel,Matthew 3:13–17
+baptism,,,B,,,ot,"Isaiah 42:1–4, 6–7 or Isaiah 55:1–11"
+baptism,,,B,,,psalm,"Psalm 29:1–2, 3ac, 4, 3b, 9b–10 or Isaiah 12:2–3, 4bcd, 5–6"
+baptism,,,B,,,epistle,Acts 10:34–38 or 1 John 5:1–9
+baptism,,,B,,,gospel,Mark 1:7–11
+baptism,,,C,,,ot,"Isaiah 42:1–4, 6–7 or Isaiah 40:1–5, 9–11"
+baptism,,,C,,,psalm,"Psalm 29:1–2, 3ac, 4, 3b, 9b–10 or Psalm 104:1b–4, 24–25, 27–28, 29b–30"
+baptism,,,C,,,epistle,Acts 10:34–38 or Titus 2:11–14; 3:4–7
+baptism,,,C,,,gospel,"Luke 3:15–16, 21–22"
+ash_wednesday,,,,,,ot,Joel 2:12–18
+ash_wednesday,,,,,,psalm,"Psalm 51:3–6ab, 12–14, 17"
+ash_wednesday,,,,,,epistle,2 Corinthians 5:20–6:2
+ash_wednesday,,,,,,gospel,"Matthew 6:1–6, 16–18"
+palm_sunday,,,A,,,procession,Matthew 21:1–11
+palm_sunday,,,B,,,procession,Mark 11:1–10 or John 12:12–16
+palm_sunday,,,C,,,procession,Luke 19:28–40
+palm_sunday,,,A,,,ot,Isaiah 50:4–7
+palm_sunday,,,A,,,psalm,"Psalm 22:8–9, 17–20, 23–24"
+palm_sunday,,,A,,,epistle,Philippians 2:6–11
+palm_sunday,,,A,,,gospel,Matthew 26:14–27:66 or Matthew 27:11–54
+palm_sunday,,,B,,,ot,Isaiah 50:4–7
+palm_sunday,,,B,,,psalm,"Psalm 22:8–9, 17–20, 23–24"
+palm_sunday,,,B,,,epistle,Philippians 2:6–11
+palm_sunday,,,B,,,gospel,Mark 14:1–15:47 or Mark 15:1–39
+palm_sunday,,,C,,,ot,Isaiah 50:4–7
+palm_sunday,,,C,,,psalm,"Psalm 22:8–9, 17–20, 23–24"
+palm_sunday,,,C,,,epistle,Philippians 2:6–11
+palm_sunday,,,C,,,gospel,Luke 22:14–23:56 or Luke 23:1–49
+holy_thursday,,,,,,ot,"Exodus 12:1–8, 11–14"
+holy_thursday,,,,,,psalm,"Psalm 116:12–13, 15–18"
+holy_thursday,,,,,,epistle,1 Corinthians 11:23–26
+holy_thursday,,,,,,gospel,John 13:1–15
+good_friday,,,,,,ot,Isaiah 52:13–53:12
+good_friday,,,,,,psalm,"Psalm 31:2, 6, 12–13, 15–17, 25"
+good_friday,,,,,,epistle,Hebrews 4:14–16; 5:7–9
+good_friday,,,,,,gospel,John 18:1–19:42
+holy_saturday,,,,,Easter Vigil,ot,"Genesis 1:1–2:2 or Genesis 1:1, 26–31a"
+holy_saturday,,,,,Easter Vigil,psalm,"Psalm 104:1–2, 5–6, 10, 12–14, 24, 35 or Psalm 33:4–7, 12–13, 20–22"
+holy_saturday,,,,,Easter Vigil,ot,"Genesis 22:1–18 or Genesis 22:1–2, 9a, 10–13, 15–18"
+holy_saturday,,,,,Easter Vigil,psalm,"Psalm 16:5, 8–11"
+holy_saturday,,,,,Easter Vigil,ot,Exodus 14:15–15:1
+holy_saturday,,,,,Easter Vigil,psalm,"Exodus 15:1–6, 17–18"
+holy_saturday,,,,,Easter Vigil,ot,Isaiah 54:5–14
+holy_saturday,,,,,Easter Vigil,psalm,"Psalm 30:2, 4–6, 11–12a, 13b"
+holy_saturday,,,,,Easter Vigil,ot,Isaiah 55:1–11
+holy_saturday,,,,,Easter Vigil,psalm,"Isaiah 12:2–3, 4bcd, 5–6"
+holy_saturday,,,,,Easter Vigil,ot,"Baruch 3:9–15, 32–4:4"
+holy_saturday,,,,,Easter Vigil,psalm,Psalm 19:8–11
+holy_saturday,,,,,Easter Vigil,ot,"Ezekiel 36:16–17a, 18–28"
+holy_saturday,,,,,Easter Vigil,psalm,"Psalm 42:3, 5; 43:3–4 or Psalm 51:12–15, 18–19"
+holy_saturday,,,,,Easter Vigil,epistle,Romans 6:3–11
+holy_saturday,,,,,Easter Vigil,psalm,"Psalm 118:1–2, 16–17, 22–23"
+holy_saturday,,,A,,Easter Vigil,gospel,Matthew 28:1–10
+holy_saturday,,,B,,Easter Vigil,gospel,Mark 16:1–7
+holy_saturday,,,C,,Easter Vigil,gospel,Luke 24:1–12
+easter,,,,,,ot,"Acts 10:34a, 37–43"
+easter,,,,,,psalm,"Psalm 118:1–2, 16–17, 22–23"
+easter,,,,,,epistle,Colossians 3:1–4 or 1 Corinthians 5:6b–8
+easter,,,,,,gospel,John 20:1–9 or Luke 24:13–35
+ascension,,,A,,,ot,Acts 1:1–11
+ascension,,,A,,,psalm,"Psalm 47:2–3, 6–9"
+ascension,,,A,,,epistle,Ephesians 1:17–23
+ascension,,,A,,,gospel,Matthew 28:16–20
+ascension,,,B,,,ot,Acts 1:1–11
+ascension,,,B,,,psalm,"Psalm 47:2–3, 6–9"
+ascension,,,B,,,epistle,"Ephesians 1:17–23 or Ephesians 4:1–13 or Ephesians 4:1–7, 11–13"
+ascension,,,B,,,gospel,Mark 16:15–20
+ascension,,,C,,,ot,Acts 1:1–11
+ascension,,,C,,,psalm,"Psalm 47:2–3, 6–9"
+ascension,,,C,,,epistle,Ephesians 1:17–23 or Hebrews 9:24–28; 10:19–23
+ascension,,,C,,,gospel,Luke 24:46–53
+easter+48,,,,,Vigil of Pentecost,ot,"Genesis 11:1–9 or Exodus 19:3–8a, 16–20b or Ezekiel 37:1–14 or Joel 3:1–5"
+easter+48,,,,,Vigil of Pentecost,psalm,"Psalm 104:1–2, 24, 35, 27–28, 29b–30"
+easter+48,,,,,Vigil of Pentecost,epistle,Romans 8:22–27
+easter+48,,,,,Vigil of Pentecost,gospel,John 7:37–39
+pentecost,,,A,,,ot,Acts 2:1–11
+pentecost,,,A,,,psalm,"Psalm 104:1, 24, 29–31, 34"
+pentecost,,,A,,,epistle,"1 Corinthians 12:3b–7, 12–13"
+pentecost,,,A,,,gospel,John 20:19–23
+pentecost,,,B,,,ot,Acts 2:1–11
+pentecost,,,B,,,psalm,"Psalm 104:1, 24, 29–31, 34"
+pentecost,,,B,,,epistle,"1 Corinthians 12:3b–7, 12–13 or Galatians 5:16–25"
+pentecost,,,B,,,gospel,John 20:19–23 or John 15:26–27; 16:12–15
+pentecost,,,C,,,ot,Acts 2:1–11
+pentecost,,,C,,,psalm,"Psalm 104:1, 24, 29–31, 34"
+pentecost,,,C,,,epistle,"1 Corinthians 12:3b–7, 12–13 or Romans 8:8–17"
+pentecost,,,C,,,gospel,"John 20:19–23 or John 14:15–16, 23b–26"
+trinity,,,A,,,ot,"Exodus 34:4b–6, 8–9"
+trinity,,,A,,,psalm,Daniel 3:52–55
+trinity,,,A,,,epistle,2 Corinthians 13:11–13
+trinity,,,A,,,gospel,John 3:16–18
+trinity,,,B,,,ot,"Deuteronomy 4:32–34, 39–40"
+trinity,,,B,,,psalm,"Psalm 33:4–6, 9, 18–20, 22"
+trinity,,,B,,,epistle,Romans 8:14–17
+trinity,,,B,,,gospel,Matthew 28:16–20
+trinity,,,C,,,ot,Proverbs 8:22–31
+trinity,,,C,,,psalm,Psalm 8:4–9
+trinity,,,C,,,epistle,Romans 5:1–5
+trinity,,,C,,,gospel,John 16:12–15
+corpus_christi,,,A,,,ot,"Deuteronomy 8:2–3, 14b–16a"
+corpus_christi,,,A,,,psalm,"Psalm 147:12–15, 19–20"
+corpus_christi,,,A,,,epistle,1 Corinthians 10:16–17
+corpus_christi,,,A,,,gospel,John 6:51–58
+corpus_christi,,,B,,,ot,Exodus 24:3–8
+corpus_christi,,,B,,,psalm,"Psalm 116:12–13, 15–18"
+corpus_christi,,,B,,,epistle,Hebrews 9:11–15
+corpus_christi,,,B,,,gospel,"Mark 14:12–16, 22–26"
+corpus_christi,,,C,,,ot,Genesis 14:18–20
+corpus_christi,,,C,,,psalm,Psalm 110:1–4
+corpus_christi,,,C,,,epistle,1 Corinthians 11:23–26
+corpus_christi,,,C,,,gospel,Luke 9:11b–17
+sacred_heart,,,A,,,ot,Deuteronomy 7:6–11
+sacred_heart,,,A,,,psalm,"Psalm 103:1–4, 6–8, 10"
+sacred_heart,,,A,,,epistle,1 John 4:7–16
+sacred_heart,,,A,,,gospel,Matthew 11:25–30
+sacred_heart,,,B,,,ot,"Hosea 11:1, 3–4, 8c–9"
+sacred_heart,,,B,,,psalm,"Isaiah 12:2–3, 4bcd, 5–6"
+sacred_heart,,,B,,,epistle,"Ephesians 3:8–12, 14–19"
+sacred_heart,,,B,,,gospel,John 19:31–37
+sacred_heart,,,C,,,ot,Ezekiel 34:11–16
+sacred_heart,,,C,,,psalm,Psalm 23:1–6
+sacred_heart,,,C,,,epistle,Romans 5:5b–11
+sacred_heart,,,C,,,gospel,Luke 15:3–7
+presentation,,,,,,ot,Malachi 3:1–4
+presentation,,,,,,psalm,Psalm 24:7–10
+presentation,,,,,,epistle,Hebrews 2:14–18
+presentation,,,,,,gospel,Luke 2:22–40 or Luke 2:22–32
+st_joseph,,,,,,ot,"2 Samuel 7:4–5a, 12–14a, 16"
+st_joseph,,,,,,psalm,"Psalm 89:2–5, 27, 29"
+st_joseph,,,,,,epistle,"Romans 4:13, 16–18, 22"
+st_joseph,,,,,,gospel,"Matthew 1:16, 18–21, 24a or Luke 2:41–51a"
+annunciation,,,,,,ot,Isaiah 7:10–14; 8:10
+annunciation,,,,,,psalm,Psalm 40:7–11
+annunciation,,,,,,epistle,Hebrews 10:4–10
+annunciation,,,,,,gospel,Luke 1:26–38
+nativity_of_john_the_baptist,-1,,,,Vigil Mass,ot,Jeremiah 1:4–10
+nativity_of_john_the_baptist,-1,,,,Vigil Mass,psalm,"Psalm 71:1–6, 15, 17"
+nativity_of_john_the_baptist,-1,,,,Vigil Mass,epistle,1 Peter 1:8–12
+nativity_of_john_the_baptist,-1,,,,Vigil Mass,gospel,Luke 1:5–17
+nativity_of_john_the_baptist,,,,,,ot,Isaiah 49:1–6
+nativity_of_john_the_baptist,,,,,,psalm,"Psalm 139:1–3, 13–15"
+nativity_of_john_the_baptist,,,,,,epistle,Acts 13:22–26
+nativity_of_john_the_baptist,,,,,,gospel,"Luke 1:57–66, 80"
+peter_and_paul,-1,,,,Vigil Mass,ot,Acts 3:1–10
+peter_and_paul,-1,,,,Vigil Mass,psalm,Psalm 19:2–5
+peter_and_paul,-1,,,,Vigil Mass,epistle,Galatians 1:11–20
+peter_and_paul,-1,,,,Vigil Mass,gospel,John 21:15–19
+peter_and_paul,,,,,,ot,Acts 12:1–11
+peter_and_paul,,,,,,psalm,Psalm 34:2–9
+peter_and_paul,,,,,,epistle,"2 Timothy 4:6–8, 17–18"
+peter_and_paul,,,,,,gospel,Matthew 16:13–19
+transfiguration,,,A,,,ot,"Daniel 7:9–10, 13–14"
+transfiguration,,,A,,,psalm,"Psalm 97:1–2, 5–6, 9"
+transfiguration,,,A,,,epistle,2 Peter 1:16–19
+transfiguration,,,A,,,gospel,Matthew 17:1–9
+transfiguration,,,B,,,ot,"Daniel 7:9–10, 13–14"
+transfiguration,,,B,,,psalm,"Psalm 97:1–2, 5–6, 9"
+transfiguration,,,B,,,epistle,2 Peter 1:16–19
+transfiguration,,,B,,,gospel,Mark 9:2–10
+transfiguration,,,C,,,ot,"Daniel 7:9–10, 13–14"
+transfiguration,,,C,,,psalm,"Psalm 97:1–2, 5–6, 9"
+transfiguration,,,C,,,epistle,2 Peter 1:16–19
+transfiguration,,,C,,,gospel,Luke 9:28b–36
+assumption,-1,,,,Vigil Mass,ot,"1 Chronicles 15:3–4, 15–16; 16:1–2"
+assumption,-1,,,,Vigil Mass,psalm,"Psalm 132:6–7, 9–10, 13–14"
+assumption,-1,,,,Vigil Mass,epistle,1 Corinthians 15:54b–57
+assumption,-1,,,,Vigil Mass,gospel,Luke 11:27–28
+assumption,,,,,,ot,"Revelation 11:19a; 12:1–6a, 10ab"
+assumption,,,,,,psalm,"Psalm 45:10–12, 16"
+assumption,,,,,,epistle,1 Corinthians 15:20–27
+assumption,,,,,,gospel,Luke 1:39–56
+holy_cross,,,,,,ot,Numbers 21:4b–9
+holy_cross,,,,,,psalm,"Psalm 78:1–2, 34–38"
+holy_cross,,,,,,epistle,Philippians 2:6–11
+holy_cross,,,,,,gospel,John 3:13–17
+all_saints,,,,,,ot,"Revelation 7:2–4, 9–14"
+all_saints,,,,,,psalm,Psalm 24:1–6
+all_saints,,,,,,epistle,1 John 3:1–3
+all_saints,,,,,,gospel,Matthew 5:1–12a
+all_souls,,,,,,ot,Wisdom 3:1–9
+all_souls,,,,,,psalm,Psalm 23:1–6
+all_souls,,,,,,epistle,Romans 5:5–11
+all_souls,,,,,,gospel,Matthew 5:1–12a
+lateran,,,,,,ot,"Ezekiel 47:1–2, 8–9, 12"
+lateran,,,,,,psalm,"Psalm 46:2–3, 5–6, 8–9"
+lateran,,,,,,epistle,"1 Corinthians 3:9c–11, 16–17"
+lateran,,,,,,gospel,John 2:13–22
+immaculate_conception,,,,,,ot,"Genesis 3:9–15, 20"
+immaculate_conception,,,,,,psalm,Psalm 98:1–4
+immaculate_conception,,,,,,epistle,"Ephesians 1:3–6, 11–12"
+immaculate_conception,,,,,,gospel,Luke 1:26–38
+holy_week:1,,,,,,ot,Isaiah 42:1–7
+holy_week:1,,,,,,psalm,"Psalm 27:1–3, 13–14"
+holy_week:1,,,,,,gospel,John 12:1–11
+holy_week:2,,,,,,ot,Isaiah 49:1–6
+holy_week:2,,,,,,psalm,"Psalm 71:1–4a, 5–6ab, 15, 17"
+holy_week:2,,,,,,gospel,"John 13:21–33, 36–38"
+holy_week:3,,,,,,ot,Isaiah 50:4–9a
+holy_week:3,,,,,,psalm,"Psalm 69:8–10, 21–22, 31, 33–34"
+holy_week:3,,,,,,gospel,Matthew 26:14–25
+easter_octave:1,,,,,,ot,"Acts 2:14, 22–32"
+easter_octave:1,,,,,,psalm,"Psalm 16:1–2a, 5, 7–11"
+easter_octave:1,,,,,,gospel,Matthew 28:8–15
+easter_octave:2,,,,,,ot,Acts 2:36–41
+easter_octave:2,,,,,,psalm,"Psalm 33:4–5, 18–20, 22"
+easter_octave:2,,,,,,gospel,John 20:11–18
+easter_octave:3,,,,,,ot,Acts 3:1–10
+easter_octave:3,,,,,,psalm,"Psalm 105:1–4, 6–9"
+easter_octave:3,,,,,,gospel,Luke 24:13–35
+easter_octave:4,,,,,,ot,Acts 3:11–26
+easter_octave:4,,,,,,psalm,"Psalm 8:2, 5–9"
+easter_octave:4,,,,,,gospel,Luke 24:35–48
+easter_octave:5,,,,,,ot,Acts 4:1–12
+easter_octave:5,,,,,,psalm,"Psalm 118:1–2, 4, 22–27"
+easter_octave:5,,,,,,gospel,John 21:1–14
+easter_octave:6,,,,,,ot,Acts 4:13–21
+easter_octave:6,,,,,,psalm,"Psalm 118:1, 14–21"
+easter_octave:6,,,,,,gospel,Mark 16:9–15 (summary of various appearance stories)

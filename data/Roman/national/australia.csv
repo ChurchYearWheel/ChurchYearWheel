@@ -1,0 +1,15 @@
+id,date,name,full_name,rank,style,color_override,color_override_bottom,icon,icon_when,transfer,variant,when,action,link
+sts_timothy_and_titus,01-27,,"Saints Timothy and Titus, bishops",12,optional_memorial,-,,,,,,,,
+st_patrick,,,"Saint Patrick, bishop",4,solemnity,WHITE,,,,,,,,
+st_mark,04-26,,"Saint Mark, evangelist",7,feast_rank,RED,,,,,,,,
+st_louis_grignion_de_montfort,04-27,,"Saint Louis Grignion de Montfort, priest",12,optional_memorial,-,,,,,,,,
+st_peter_chanel,,,"Saint Peter Chanel, martyr",11,memorial,-,,,,,,,,
+,05-24,"Our Lady, Help of Christians",,4,solemnity,WHITE,,,,,,,,
+,06-06,St. Marcellin Champagnat,"Saint Marcellin Champagnat, priest",12,optional_memorial,,,,,,,,,
+sts_john_fisher_and_thomas_more,,,"Saints John Fisher, bishop, and Thomas More, martyrs",11,memorial,-,,,,,,,,
+,07-07,St. Peter To Rot,"Saint Peter To Rot, martyr",12,optional_memorial,,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/blessed-peter-to-rot/
+st_dominic,08-03,,"Saint Dominic, priest",10,memorial,-,,,,,,,,
+,08-08,St. Mary of the Cross,"Saint Mary of the Cross, virgin",4,solemnity,RED,,,,,,,,
+epiphany,sun>=01-02,,,,,,,-,,,,,,
+ascension,easter+42,,,,,,,-,,,,,,
+corpus_christi,easter+63,,,,,,,-,,,,,,

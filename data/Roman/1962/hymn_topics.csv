@@ -1,0 +1,53 @@
+day,variant,when,hymnal,topic,subtopic,numbers
+# ===========================================================================
+"# Worship, fourth edition (2011): its topics for the seasons and the feasts"
+"# that the 1962 calendar shares with today's, for the hymn marks after the"
+# day's name.
+"# day: a days.csv id (a run's Sundays, or one with :n), a feast's id, a month and day,"
+"# or a date rule; when: a further condition, as readings.csv's.  topic and subtopic"
+"# are the hymnal's own words in Hymnary.org's index (hymnary.org/browse/topics/<code>),"
+"# exactly, misspellings and all: the mark opens that topic's list there.  {abc} in"
+"# either is the year of the three-year lectionary (A, B or C)."
+# See docs/traditions.md (hymn_topics.csv).
+# ===========================================================================
+advent,,,WORS2011,Advent,,
+advent:1,,,WORS2011,Advent I,,
+advent:2,,,WORS2011,Advent II,,
+advent:3,,,WORS2011,Advent III,,
+advent:4,,,WORS2011,Advent IV,,
+christmas_eve,,,WORS2011,Christmas,,
+christmas,,,WORS2011,Christmas,,
+01-01,,,WORS2011,New Year,,
+holy_family,,,WORS2011,Holy Family,,
+epiphany,,,WORS2011,Epiphany of the Lord,,
+baptism,,,WORS2011,Baptism of the Lord,,
+ash_wednesday,,,WORS2011,Lent,,
+lent,,,WORS2011,Lent,,
+lent:1,,,WORS2011,Lent I,,
+lent:2,,,WORS2011,Lent II,,
+lent:3,,,WORS2011,Lent III,,
+lent:4,,,WORS2011,Lent IV,,
+passion_sunday,,,WORS2011,Lent V,,
+palm_sunday,,,WORS2011,Palm Sunday,,
+holy_thursday,,,WORS2011,Holy Thursday,,
+good_friday,,,WORS2011,Good Friday,,
+easter,,,WORS2011,Easter,,
+easter_octave,,,WORS2011,Easter,,
+low_sunday,,,WORS2011,Easter,,
+after_easter,,,WORS2011,Easter,,
+ascension,,,WORS2011,Ascension of the Lord,,
+pentecost,,,WORS2011,Pentecost,,
+trinity,,,WORS2011,Trinity,,
+corpus_christi,,,WORS2011,Body and Blood of Christ,,
+sacred_heart,,,WORS2011,Sacred Heart of Jesus,,
+christ_the_king,,,WORS2011,Christ the King,,
+02-02,,,WORS2011,Presentation of the Lord,,
+03-19,,,WORS2011,"Joseph, Husband of Mary",,
+03-25,,,WORS2011,Annunciation of the Lord,,
+06-24,,,WORS2011,Nativity of John the Baptist,,
+06-29,,,WORS2011,"Peter and Paul, Apostles",,
+08-06,,,WORS2011,Transfiguration of the Lord,,
+08-15,,,WORS2011,Assumption of Mary,,
+09-14,,,WORS2011,Exaltation of the Holy Cross,,
+11-01,,,WORS2011,All Saints,,
+12-08,,,WORS2011,Immaculate Conception,,

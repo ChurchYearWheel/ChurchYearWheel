@@ -1,0 +1,278 @@
+day,offset,when,cycle,variant,title,kind,reading
+# ===========================================================================
+# The Assyrian Church of the East: the readings of the Sundays and the
+"# Lord's feasts (two lessons -- the Law, and the Prophets or the Acts -- the"
+"# Apostle and the Gospel), from the Assyrian Church of the East, Archdiocese"
+"# of Australia, New Zealand and Lebanon, ""2025 Lectionary"","
+"# https://www.assyrianchurch.org.au/lections (read October 2026), which says"
+"# it is ""not the complete lectionary"": Sundays and Lordly feasts only.  Its"
+# dated rows are put on the days of this calendar they name (the First
+"# Sunday of Epiphany, the Wednesday of mid-Lent ...); its dates are not"
+"# used, several being those of another year.  Corrected misprints are in"
+# docs/source-errors.csv.
+# ===========================================================================
+denha,,,,,,ot,Numbers 24:2–9; 15–end
+denha,,,,,,ot2,Isaiah 4:2–5; 11:1–5; 12:4–end
+denha,,,,,,epistle,Titus 2:11–3:7
+denha,,,,,,gospel,Matthew 3
+after_denha:1,,,,,,ot,Exodus 3:1–15
+after_denha:1,,,,,,ot2,Isaiah 44:21–45:4
+after_denha:1,,,,,,epistle,2 Timothy 3:1–15
+after_denha:1,,,,,,gospel,Luke 4:14–30
+after_denha:2,,,,,,ot,Numbers 10:29–11:10
+after_denha:2,,,,,,ot2,Isaiah 45:11–17
+after_denha:2,,,,,,epistle,Hebrews 3:1–13
+after_denha:2,,,,,,gospel,John 1:1–28
+after_denha:3,,,,,,ot,Numbers 11:11–20
+after_denha:3,,,,,,ot2,Isaiah 45:18–46:4
+after_denha:3,,,,,,epistle,Hebrews 3:14–4:10
+after_denha:3,,,,,,gospel,John 1:29–42
+after_denha:4,,,,,,ot,Numbers 11:23–end
+after_denha:4,,,,,,ot2,Isaiah 46:5–end
+after_denha:4,,,,,,epistle,Hebrews 7:18–end
+after_denha:4,,,,,,gospel,John 1:43–2:11
+after_denha:5,,,,,,ot,Deuteronomy 18:9–end
+after_denha:5,,,,,,ot2,Isaiah 48:12–20
+after_denha:5,,,,,,epistle,Hebrews 6:9–7:3
+after_denha:5,,,,,,gospel,John 3:1–21
+easter,-69,,,,,ot,Isaiah 63:17–64:12
+easter,-69,,,,,ot2,Amos 5:3–15
+easter,-69,,,,,ot2,Habakkuk 3
+easter,-69,,,,,epistle,1 Timothy 2:1–10
+easter,-69,,,,,gospel,Matthew 5:17–37
+easter,-68,,,,,ot,1 Samuel 7:3–9
+easter,-68,,,,,ot2,Isaiah 59:1–18
+easter,-68,,,,,epistle,Romans 12
+easter,-68,,,,,gospel,Luke 18:1–14
+easter,-67,,,,,ot,Joel 2:1–27
+easter,-67,,,,,ot2,Jonah 3
+easter,-67,,,,,epistle,Colossians 3:1–4:1
+easter,-67,,,,,gospel,Matthew 6:1–18
+easter,-66,,,,,ot,Isaiah 65:16–66:2
+easter,-66,,,,,ot2,Jeremiah 17:21–26
+easter,-66,,,,,epistle,Romans 10:1–13
+easter,-66,,,,,gospel,John 16:23–end
+after_denha:6,,,,,,ot,Deuteronomy 24:9–end
+after_denha:6,,,,,,ot2,Isaiah 63:7–16
+after_denha:6,,,,,,epistle,Hebrews 8:1–9:10
+after_denha:6,,,,,,gospel,John 3:22–4:3
+after_denha:7,,,,,,ot,Deuteronomy 14:2–15:4
+after_denha:7,,,,,,ot2,"Isaiah 42:5–9, 14–17"
+after_denha:7,,,,,,epistle,1 Timothy 6:9–end
+after_denha:7,,,,,,gospel,Matthew 7:28–8:13
+after_denha:8,,,,,,ot,Exodus 15:22–26
+after_denha:8,,,,,,ot2,Isaiah 44:23–45:7
+after_denha:8,,,,,,epistle,Ephesians 1:15–2:7
+after_denha:8,,,,,,gospel,Mark 1:1–11
+sawma:1,,,,,,ot,"Exodus 34:1–7, 27–end"
+sawma:1,,,,,,ot2,Isaiah 58:1–13
+sawma:1,,,,,,epistle,"Ephesians 4:17–5:4, 15–21"
+sawma:1,,,,,,gospel,Matthew 3:16–4:11
+sawma:2,,,,,,ot,Genesis 5:18–31
+sawma:2,,,,,,ot2,Joshua 4:15–end
+sawma:2,,,,,,epistle,Romans 5
+sawma:2,,,,,,gospel,Matthew 7:15–27
+sawma:3,,,,,,ot,Genesis 7
+sawma:3,,,,,,ot2,Joshua 5:13–6:5
+sawma:3,,,,,,epistle,Romans 7:14–24
+sawma:3,,,,,,gospel,Matthew 20:17–28
+sawma:4,,,,,,ot,Genesis 11
+sawma:4,,,,,,ot2,Joshua 6:27–7:15
+sawma:4,,,,,,epistle,Romans 8:12–27
+sawma:4,,,,,,gospel,Matthew 21:23–end
+easter,-25,,,,,ot,Genesis 13:8–end
+easter,-25,,,,,ot2,Joshua 8:18–29
+easter,-25,,,,,epistle,Romans 9:30–10:17
+easter,-25,,,,,gospel,John 6:51–69
+sawma:5,,,,,,ot,Genesis 16:1–17:27
+sawma:5,,,,,,ot2,Joshua 9:15–end
+sawma:5,,,,,,epistle,Romans 12
+sawma:5,,,,,,gospel,John 7:37–52; 8:12–20
+sawma:6,,,,,,ot,Genesis 19:1–26
+sawma:6,,,,,,ot2,Joshua 21:43–22:9
+sawma:6,,,,,,epistle,Romans 14:10–end
+sawma:6,,,,,,gospel,John 9:39–10:21
+hosanna,,,,,,ot,"Genesis 49:1–12, 22–26"
+hosanna,,,,,,ot2,"Zechariah 3:7–4:6, 11–end; 7:9–10; 8:4–5, 12–19; 9:9–12"
+hosanna,,,,,,epistle,Romans 11:13–24
+hosanna,,,,,,gospel,Matthew 20:29–21:22
+passover,,,,,,ot,Exodus 12:1–20
+passover,,,,,,ot2,"Zechariah 9:9–12; 11:4–5, 12–13; 12:9–end; 13:7–end"
+passover,,,,,,epistle,1 Corinthians 5:7–8; 10:15–17; 11:23–end
+passover,,,,,,gospel,"Matthew 26:1–6, 14–30"
+easter,,,,,,ot,Isaiah 60:1–7
+easter,,,,,,ot2,1 Samuel 2:1–10
+easter,,,,,,epistle,Romans 5:20–6:23
+easter,,,,,,gospel,John 20:1–18
+new_sunday,,,,,,ot,Isaiah 55:4–end
+new_sunday,,,,,,acts,Acts 4:32–5:5
+new_sunday,,,,,,epistle,Colossians 1:1–20
+new_sunday,,,,,,gospel,John 20:19–end
+qyamta:3,,,,,,ot,Isaiah 56:1–7
+qyamta:3,,,,,,acts,Acts 5:34–end
+qyamta:3,,,,,,epistle,Ephesians 1:1–14
+qyamta:3,,,,,,gospel,John 14:1–14
+qyamta:4,,,,,,ot,Isaiah 49:13–23
+qyamta:4,,,,,,acts,Acts 8:14–25
+qyamta:4,,,,,,epistle,Ephesians 1:15–2:5
+qyamta:4,,,,,,gospel,John 16:16–end
+qyamta:5,,,,,,ot,Isaiah 49:7–13
+qyamta:5,,,,,,acts,Acts 9:1–19
+qyamta:5,,,,,,epistle,Hebrews 10:19–36
+qyamta:5,,,,,,gospel,John 21:1–14
+qyamta:6,,,,,,ot,Isaiah 51:9–11; 52:7–12
+qyamta:6,,,,,,acts,Acts 10:1–16
+qyamta:6,,,,,,epistle,Ephesians 2:4–end
+qyamta:6,,,,,,gospel,John 17
+ascension,,,,,,ot,2 Kings 2:1–15
+ascension,,,,,,acts,Acts 1:1–14
+ascension,,,,,,epistle,1 Timothy 1:18–2:15; 3:14–end
+ascension,,,,,,gospel,Luke 24:36–end
+qyamta:7,,,,,,ot,Isaiah 6
+qyamta:7,,,,,,acts,Acts 1:15–end
+qyamta:7,,,,,,epistle,Philippians 1:27–2:11
+qyamta:7,,,,,,gospel,Mark 16:2–end
+pentecost,,,,,,ot,Exodus 19:1–9; 20:18–21
+pentecost,,,,,,acts,Acts 2:1–21
+pentecost,,,,,,epistle,1 Corinthians 12:1–27
+pentecost,,,,,,gospel,"John 14:15–17, 25–26; 15:26–16:15"
+shlihe:2,,,,,,ot,Joel 2:15–26
+shlihe:2,,,,,,acts,Acts 4:5–22
+shlihe:2,,,,,,epistle,1 Corinthians 5:6–6:11
+shlihe:2,,,,,,gospel,Luke 7:31–end
+shlihe:3,,,,,,ot,Deuteronomy 1:3–17
+shlihe:3,,,,,,ot2,Isaiah 1:1–9
+shlihe:3,,,,,,epistle,1 Corinthians 7:1–7
+shlihe:3,,,,,,gospel,Luke 10:23–end
+shlihe:4,,,,,,ot,Deuteronomy 1:16–33
+shlihe:4,,,,,,ot2,Isaiah 1:10–20
+shlihe:4,,,,,,epistle,1 Corinthians 9:13–end
+shlihe:4,,,,,,gospel,Luke 6:12–46
+shlihe:5,,,,,,ot,Deuteronomy 1:33–2:1
+shlihe:5,,,,,,ot2,Isaiah 1:21–end
+shlihe:5,,,,,,epistle,1 Corinthians 14:1–19
+shlihe:5,,,,,,gospel,Luke 12:16–34
+shlihe:6,,,,,,ot,Deuteronomy 4:1–9
+shlihe:6,,,,,,ot2,Isaiah 2:1–21
+shlihe:6,,,,,,epistle,1 Corinthians 10:14–32
+shlihe:6,,,,,,gospel,Luke 12:57–13:17
+shlihe:7,,,,,,ot,Deuteronomy 4:10–24
+shlihe:7,,,,,,ot2,Isaiah 5:8–25
+shlihe:7,,,,,,epistle,1 Corinthians 15:58–16:24
+shlihe:7,,,,,,gospel,Luke 13:22–end
+qaita:1,,,,,,ot,1 Kings 18:30–39 or Deuteronomy 4:25–31
+qaita:1,,,,,,acts,Acts 5:12–32 or Isaiah 2:23–3:15
+qaita:1,,,,,,epistle,2 Corinthians 1:8–14
+qaita:1,,,,,,gospel,Luke 14:1–14
+qaita:2,,,,,,ot,Deuteronomy 4:1–40
+qaita:2,,,,,,ot2,Isaiah 3:16–4:6
+qaita:2,,,,,,epistle,2 Corinthians 3:4–end
+qaita:2,,,,,,gospel,Luke 15:4–end
+qaita:3,,,,,,ot,Deuteronomy 5:1–16
+qaita:3,,,,,,ot2,Isaiah 5:1–7
+qaita:3,,,,,,epistle,2 Corinthians 7:1–11
+qaita:3,,,,,,gospel,John 9:1–38
+qaita:4,,,,,,ot,Deuteronomy 5:16–6:3
+qaita:4,,,,,,ot2,Isaiah 9:8–end
+qaita:4,,,,,,epistle,2 Corinthians 10
+qaita:4,,,,,,gospel,Mark 7:1–23
+qaita:5,,,,,,ot,Leviticus 23:9–22
+qaita:5,,,,,,ot2,Isaiah 28:14–22
+qaita:5,,,,,,epistle,2 Corinthians 12:14–13:14
+qaita:5,,,,,,gospel,Luke 16:19–17:10
+08-06,,,,,,ot,Exodus 19:1–9; 20:18–21
+08-06,,,,,,ot2,Isaiah 6
+08-06,,,,,,epistle,1 Timothy 1:18–2:15; 3:14–end or Hebrews 12:18–end
+08-06,,,,,,gospel,Matthew 16:24–17:9
+qaita:6,,,,,,ot,Leviticus 19:1–4; 9–14
+qaita:6,,,,,,ot2,Isaiah 29:13–end
+qaita:6,,,,,,epistle,1 Thessalonians 2:1–12
+qaita:6,,,,,,gospel,Luke 17:5–19
+qaita:7,,,,,,ot,Leviticus 19:15–18; 20:9–14
+qaita:7,,,,,,ot2,Isaiah 30:1–14
+qaita:7,,,,,,epistle,1 Thessalonians 2:14–3:13
+qaita:7,,,,,,gospel,Luke 18:2–14
+eliya:1,,,,,,ot,Deuteronomy 6:20–7:5
+eliya:1,,,,,,ot2,Isaiah 31
+eliya:1,,,,,,epistle,2 Thessalonians 1
+eliya:1,,,,,,gospel,Luke 18:35–19:10
+eliya:2,,,,,,ot,Deuteronomy 7:7–11
+eliya:2,,,,,,ot2,Isaiah 30:15–26
+eliya:2,,,,,,epistle,2 Thessalonians 2:15–3:18
+eliya:2,,,,,,gospel,Matthew 13:1–23
+eliya:3,,,,,,ot,Deuteronomy 7:12–end
+eliya:3,,,,,,ot2,Isaiah 32:1–33:6
+eliya:3,,,,,,epistle,Philippians 1:12–25
+eliya:3,,,,,,gospel,Matthew 13:24–43
+sliba,,,,,,ot,Isaiah 52:13–53:12
+sliba,,,,,,acts,Acts 2:14–36
+sliba,,,,,,epistle,1 Corinthians 1:18–end
+sliba,,,,,,gospel,Luke 24:13–35
+eliya:4,,,,,,ot,Deuteronomy 8:11–end
+eliya:4,,,,,,ot2,Isaiah 33:13–end
+eliya:4,,,,,,epistle,Philippians 1:27–2:11
+eliya:4,,,,,,gospel,Matthew 4:12–5:16
+eliya:5,,,,,,ot,Deuteronomy 9:1–8
+eliya:5,,,,,,ot2,Isaiah 25:1–8
+eliya:5,,,,,,epistle,Philippians 3:1–14
+eliya:5,,,,,,gospel,Matthew 17:14–end
+eliya:6,,,,,,ot,Deuteronomy 9:13–22
+eliya:6,,,,,,ot2,Isaiah 26:1–19
+eliya:6,,,,,,epistle,Philippians 4:4–end
+eliya:6,,,,,,gospel,Matthew 15:21–38
+eliya:7,,,,,,ot,Deuteronomy 10:12–end
+eliya:7,,,,,,ot2,Isaiah 28:23–29:12
+eliya:7,,,,,,epistle,1 Corinthians 14:26–end
+eliya:7,,,,,,gospel,Matthew 18:1–18
+moshe:1,,,,,,ot,Deuteronomy 11:1–12
+moshe:1,,,,,,ot2,Isaiah 40:1–17
+moshe:1,,,,,,epistle,2 Corinthians 1:23–2:16
+moshe:1,,,,,,gospel,Matthew 20:1–16
+moshe:2,,,,,,ot,Deuteronomy 11:13–12:1
+moshe:2,,,,,,ot2,Isaiah 40:18–41:7
+moshe:2,,,,,,epistle,Galatians 5:16–end
+moshe:2,,,,,,gospel,Luke 8:40–end
+moshe:3,,,,,,ot,Deuteronomy 12:1–25
+moshe:3,,,,,,ot2,Isaiah 41:8–20
+moshe:3,,,,,,epistle,Galatians 6:1–end
+moshe:3,,,,,,gospel,John 5:1–18
+hallowing:1,,,,,,ot,Exodus 40:17–end
+hallowing:1,,,,,,ot2,Isaiah 6
+hallowing:1,,,,,,epistle,1 Corinthians 12:28–13:13
+hallowing:1,,,,,,gospel,Matthew 16:13–19; 21:12–13
+hallowing:2,,,,,,ot,Exodus 39:32–40:16
+hallowing:2,,,,,,ot2,1 Kings 8:10–28
+hallowing:2,,,,,,epistle,Hebrews 8:1–9:4
+hallowing:2,,,,,,gospel,Matthew 12:1–13
+hallowing:3,,,,,,ot,Numbers 7:1–10; 9:15–20
+hallowing:3,,,,,,ot2,Isaiah 54:1–15
+hallowing:3,,,,,,epistle,Hebrews 9:5–15 or 1 Corinthians 2:10–3:23
+hallowing:3,,,,,,gospel,John 2:12–22
+hallowing:4,,,,,,ot,1 Kings 6:1–19
+hallowing:4,,,,,,ot2,Ezekiel 43:1–6; 44:1–5
+hallowing:4,,,,,,epistle,Hebrews 9:16–end
+hallowing:4,,,,,,gospel,Matthew 22:41–23:22
+subara:1,,,,,,ot,Genesis 17
+subara:1,,,,,,ot2,Isaiah 42:18–43:13
+subara:1,,,,,,epistle,Ephesians 5:21–6:9
+subara:1,,,,,,gospel,Luke 1:1–25
+subara:2,,,,,,ot,Numbers 22:9–23:1
+subara:2,,,,,,ot2,Isaiah 43:14–44:5
+subara:2,,,,,,epistle,Colossians 4:2–end
+subara:2,,,,,,gospel,Luke 1:26–56
+subara:3,,,,,,ot,Genesis 18:1–19
+subara:3,,,,,,ot2,Judges 13:2–24
+subara:3,,,,,,epistle,Ephesians 3
+subara:3,,,,,,gospel,Luke 1:57–end
+subara:4,,,,,,ot,Genesis 24:50–end
+subara:4,,,,,,ot2,1 Samuel 1:1–18
+subara:4,,,,,,epistle,Ephesians 5:5–20
+subara:4,,,,,,gospel,Matthew 1:18–end
+yalda,,,,,,ot,"Isaiah 7:10–15; 9:1–3, 6–7"
+yalda,,,,,,ot2,"Micah 4:1–3; 5:2–4, 7–9"
+yalda,,,,,,epistle,Galatians 3:15–4:6
+yalda,,,,,,gospel,Luke 2:1–20
+after_yalda:1,,,,,,ot,Genesis 21:1–21
+after_yalda:1,,,,,,ot2,1 Samuel 1:19–end
+after_yalda:1,,,,,,epistle,Galatians 4:18–5:1
+after_yalda:1,,,,,,gospel,Matthew 2

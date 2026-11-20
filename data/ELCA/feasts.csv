@@ -1,0 +1,145 @@
+id,date,name,full_name,color_override,color_override_bottom,style,variant,when,link
+# ===========================================================================,,,,,,,,,
+"# The ELCA's lesser festivals and commemorations, from Evangelical Lutheran",,,,,,,,,
+"# Worship (2006), with the commemorations added since.  Short names in the",,,,,,,,,
+"# cells, the whole name in the page's readout.",,,,,,,,,
+# ===========================================================================,,,,,,,,,
+"# Lesser festivals, colored in the lower half of their cells.",,,,,,,,,
+,10-31,Reformation Day,,,RED,,,,
+,11-01,All Saints' Day,,WHITE,,,,,https://en.wikipedia.org/wiki/All_Saints'_Day
+,01-01,Name of Jesus,,,WHITE,,,,
+,01-18,Confession of Peter,,,WHITE,,,,https://en.wikipedia.org/wiki/Confession_of_Peter
+,01-25,Conversion of Paul,,,WHITE,,,,https://en.wikipedia.org/wiki/Conversion_of_Paul_the_Apostle
+,02-02,Presentation of Our Lord,,,WHITE,,,,https://en.wikipedia.org/wiki/Candlemas
+,03-19,"Joseph, Guardian of Jesus",,,WHITE,,,,https://en.wikipedia.org/wiki/Saint_Joseph
+,03-25,Annunciation of Our Lord,,,WHITE,,,,https://en.wikipedia.org/wiki/Annunciation
+,04-25,"Mark, Evangelist",,,SCARLET; red,,,,https://en.wikipedia.org/wiki/Mark_the_Evangelist
+,05-01,"Philip and James, Apostles",,,SCARLET; red,,,,https://en.wikipedia.org/wiki/Philip_the_Apostle
+,05-14,"Matthias, Apostle",,,SCARLET; red,,,,https://en.wikipedia.org/wiki/Saint_Matthias
+,05-31,Visit of Mary to Elizabeth,,,WHITE,,,,
+,06-11,"Barnabas, Apostle",,,SCARLET; red,,,,https://en.wikipedia.org/wiki/Barnabas
+,06-24,John the Baptist,,,WHITE,,,,https://en.wikipedia.org/wiki/Nativity_of_Saint_John_the_Baptist
+,06-29,"Peter and Paul, Apostles",,,SCARLET; red,,,,https://en.wikipedia.org/wiki/Saint_Peter
+,07-03,"Thomas, Apostle",,,SCARLET; red,,,,https://en.wikipedia.org/wiki/Thomas_the_Apostle
+,07-22,"Mary Magdalene, Apostle",,,WHITE,,,,https://en.wikipedia.org/wiki/Mary_Magdalene
+,07-25,"James, Apostle",,,SCARLET; red,,,,"https://en.wikipedia.org/wiki/James,_son_of_Zebedee"
+,08-15,"Mary, Mother of Our Lord",,,WHITE,,,,https://en.wikipedia.org/wiki/Mary_(mother_of_Jesus)
+,08-24,"Bartholomew, Apostle",,,SCARLET; red,,,,https://en.wikipedia.org/wiki/Bartholomew_the_Apostle
+,09-14,Holy Cross Day,,,SCARLET; red,,,,https://en.wikipedia.org/wiki/Feast_of_the_Cross
+,09-21,"Matthew, Apostle and Evangelist",,,SCARLET; red,,,,https://en.wikipedia.org/wiki/Matthew_the_Evangelist
+,09-29,Michael and All Angels,,,WHITE,,,,https://en.wikipedia.org/wiki/Michael_(archangel)
+,10-18,"Luke, Evangelist",,,SCARLET; red,,,,https://en.wikipedia.org/wiki/Luke_the_Evangelist
+,10-23,James of Jerusalem,,,SCARLET; red,,,,"https://en.wikipedia.org/wiki/James,_brother_of_Jesus"
+,10-28,"Simon and Jude, Apostles",,,SCARLET; red,,,,https://en.wikipedia.org/wiki/Simon_the_Zealot
+,11-30,"Andrew, Apostle",,,SCARLET; red,,,,https://en.wikipedia.org/wiki/Saint_Andrew
+,12-26,"Stephen, Deacon and Martyr",,,SCARLET; red,,,,https://en.wikipedia.org/wiki/Saint_Stephen
+,12-27,"John, Apostle and Evangelist",,,WHITE,,,,https://en.wikipedia.org/wiki/John_the_Apostle
+,12-28,"The Holy Innocents, Martyrs",,,SCARLET; red,,,,https://en.wikipedia.org/wiki/Massacre_of_the_Innocents
+thanksgiving,thu#4:11,Day of Thanksgiving,,,,,,,
+"# Commemorations, which keep the season's color.",,,,,,,,,
+,01-02,Johann Konrad Wilhelm Loehe,"Johann Konrad Wilhelm Loehe, renewer of the church, 1872",,,,,,
+,01-14,Eivind Berggrav,"Eivind Berggrav, Bishop of Oslo, 1959",,,,,,https://en.wikipedia.org/wiki/Eivind_Berggrav
+,01-15,Martin Luther King Jr.,"Martin Luther King Jr., renewer of society, martyr, 1968",,,,,,https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.
+,01-17,Antony of Egypt,"Antony of Egypt, renewer of the church, c. 356; Pachomius, renewer of the church, 346",,,,,,https://en.wikipedia.org/wiki/Anthony_the_Great
+,01-19,Henry,"Henry, Bishop of Uppsala, martyr, 1156",,,,,,https://en.wikipedia.org/wiki/Bishop_Henry
+,01-21,Agnes,"Agnes, martyr, c. 304",,,,,,https://en.wikipedia.org/wiki/Saint_Agnes
+,01-26,Timothy,"Timothy, Titus, and Silas, missionaries",,,,,,https://en.wikipedia.org/wiki/Saint_Timothy
+,01-27,Lydia,"Lydia, Dorcas, and Phoebe, witnesses to the faith",,,,,,
+,01-28,Thomas Aquinas,"Thomas Aquinas, teacher, 1274",,,,,,https://en.wikipedia.org/wiki/Thomas_Aquinas
+,02-03,Ansgar,"Ansgar, Bishop of Hamburg, missionary to Denmark and Sweden, 865",,,,,,https://en.wikipedia.org/wiki/Ansgar
+,02-05,The Martyrs of Japan,"The Martyrs of Japan, 1597",,,,,,https://en.wikipedia.org/wiki/Martyrs_of_Japan
+,02-14,Cyril,"Cyril, monk, 869; Methodius, bishop, 885; missionaries to the Slavs",,,,,,https://en.wikipedia.org/wiki/Saint_Cyril_the_Philosopher
+,02-18,Martin Luther,"Martin Luther, renewer of the church, 1546",,,,,,https://en.wikipedia.org/wiki/Martin_Luther
+,02-23,Polycarp,"Polycarp, Bishop of Smyrna, martyr, 156",,,,,,https://en.wikipedia.org/wiki/Polycarp
+,02-25,Elizabeth Fedde,"Elizabeth Fedde, deaconess, 1921",,,,,,https://en.wikipedia.org/wiki/Elizabeth_Fedde
+,03-01,George Herbert,"George Herbert, hymnwriter, 1633",,,,,,https://en.wikipedia.org/wiki/George_Herbert
+,03-02,John Wesley,"John Wesley, 1791; Charles Wesley, 1788; renewers of the church",,,,,,https://en.wikipedia.org/wiki/John_Wesley
+,03-07,Perpetua and Felicity and companions,"Perpetua and Felicity and companions, martyrs at Carthage, 202",,,,,,https://en.wikipedia.org/wiki/Perpetua_and_Felicitas
+,03-10,Harriet Tubman,"Harriet Tubman, 1913; Sojourner Truth, 1883; renewers of society",,,,,,https://en.wikipedia.org/wiki/Harriet_Tubman
+,03-12,Gregory the Great,"Gregory the Great, Bishop of Rome, 604",,,,,,https://en.wikipedia.org/wiki/Pope_Gregory_I
+,03-17,Patrick,"Patrick, bishop, missionary to Ireland, 461",,,,,,https://en.wikipedia.org/wiki/Saint_Patrick
+,03-21,Thomas Cranmer,"Thomas Cranmer, Bishop of Canterbury, martyr, 1556",,,,,,https://en.wikipedia.org/wiki/Thomas_Cranmer
+,03-22,Jonathan Edwards,"Jonathan Edwards, teacher, missionary to American Indians, 1758",,,,,,https://en.wikipedia.org/wiki/Jonathan_Edwards_(theologian)
+,03-24,Oscar Arnulfo Romero,"Oscar Arnulfo Romero, Bishop of El Salvador, martyr, 1980",,,,,,https://en.wikipedia.org/wiki/Óscar_Romero
+,03-29,Hans Nielsen Hauge,"Hans Nielsen Hauge, renewer of the church, 1824",,,,,,https://en.wikipedia.org/wiki/Hans_Nielsen_Hauge
+,03-31,John Donne,"John Donne, poet, 1631",,,,,,https://en.wikipedia.org/wiki/John_Donne
+,04-04,Benedict the African,"Benedict the African, confessor, 1589",,,,,,https://en.wikipedia.org/wiki/Benedict_the_Moor
+,04-06,Albrecht Dürer,"Albrecht Dürer, 1528; Matthias Grünewald, 1529; Lucas Cranach, 1553; artists",,,,,,https://en.wikipedia.org/wiki/Albrecht_Dürer
+,04-09,Dietrich Bonhoeffer,"Dietrich Bonhoeffer, theologian, 1945",,,,,,https://en.wikipedia.org/wiki/Dietrich_Bonhoeffer
+,04-10,Mikael Agricola,"Mikael Agricola, Bishop of Turku, 1557",,,,,,https://en.wikipedia.org/wiki/Mikael_Agricola
+,04-19,Olavus Petri,"Olavus Petri, priest, 1552; Laurentius Petri, Bishop of Uppsala, 1573; renewers of the church",,,,,,
+,04-21,Anselm,"Anselm, Bishop of Canterbury, 1109",,,,,,https://en.wikipedia.org/wiki/Anselm_of_Canterbury
+,04-23,Toyohiko Kagawa,"Toyohiko Kagawa, renewer of society, 1960",,,,,,https://en.wikipedia.org/wiki/Toyohiko_Kagawa
+,04-29,Catherine of Siena,"Catherine of Siena, theologian, 1380",,,,,,https://en.wikipedia.org/wiki/Catherine_of_Siena
+,05-02,Athanasius,"Athanasius, Bishop of Alexandria, 373",,,,,,https://en.wikipedia.org/wiki/Athanasius_of_Alexandria
+,05-04,Monica,"Monica, mother of Augustine, 387",,,,,,https://en.wikipedia.org/wiki/Monica_of_Hippo
+,05-08,Julian of Norwich,"Julian of Norwich, renewer of the church, c. 1416",,,,,,https://en.wikipedia.org/wiki/Julian_of_Norwich
+,05-09,Nicolaus Ludwig von Zinzendorf,"Nicolaus Ludwig von Zinzendorf, renewer of the church, hymnwriter, 1760",,,,,,https://en.wikipedia.org/wiki/Nicolaus_Ludwig_Zinzendorf
+,05-18,Erik,"Erik, King of Sweden, martyr, 1160",,,,,,https://en.wikipedia.org/wiki/Eric_IX_of_Sweden
+,05-21,Helena,"Helena, mother of Constantine, c. 330",,,,,,https://en.wikipedia.org/wiki/Helena_of_Constantinople
+,05-24,Nicolaus Copernicus,"Nicolaus Copernicus, 1543; Leonhard Euler, 1783; scientists",,,,,,https://en.wikipedia.org/wiki/Nicolaus_Copernicus
+,05-27,John Calvin,"John Calvin, renewer of the church, 1564",,,,,,https://en.wikipedia.org/wiki/John_Calvin
+,05-29,Jiří Tranovský,"Jiří Tranovský, hymnwriter, 1637",,,,,,
+,06-01,Justin,"Justin, martyr at Rome, c. 165",,,,,,https://en.wikipedia.org/wiki/Justin_Martyr
+,06-03,The Martyrs of Uganda,"The Martyrs of Uganda, 1886",,,,,,https://en.wikipedia.org/wiki/Martyrs_of_Uganda
+,06-03,John XXIII,"John XXIII, Bishop of Rome, 1963",,,,,,https://en.wikipedia.org/wiki/Pope_John_XXIII
+,06-05,Boniface,"Boniface, Bishop of Mainz, missionary to Germany, martyr, 754",,,,,,https://en.wikipedia.org/wiki/Saint_Boniface
+,06-07,Seattle,"Seattle, chief of the Duwamish Confederacy, 1866",,,,,,https://en.wikipedia.org/wiki/Chief_Seattle
+,06-09,Columba,"Columba, 597; Aidan, 651; Bede, 735; renewers of the church",,,,,,https://en.wikipedia.org/wiki/Columba
+,06-14,Basil the Great,"Basil the Great, Bishop of Caesarea; Gregory of Nazianzus; Gregory of Nyssa; Macrina",,,,,,https://en.wikipedia.org/wiki/Basil_of_Caesarea
+,06-17,Emanuel Nine,"The Emanuel Nine, martyrs, 2015",,,,,,
+,06-21,Onesimos Nesib,"Onesimos Nesib, translator, evangelist, 1931",,,,,,https://en.wikipedia.org/wiki/Onesimos_Nesib
+,06-25,Presentation of the Augsburg Confession,"Presentation of the Augsburg Confession, 1530",,,,,,https://en.wikipedia.org/wiki/Augsburg_Confession
+,06-25,Philipp Melanchthon,"Philipp Melanchthon, renewer of the church, 1560",,,,,,https://en.wikipedia.org/wiki/Philipp_Melanchthon
+,06-27,Cyril,"Cyril, Bishop of Alexandria, 444",,,,,,https://en.wikipedia.org/wiki/Cyril_of_Alexandria
+,06-28,Irenaeus,"Irenaeus, Bishop of Lyons, c. 202",,,,,,https://en.wikipedia.org/wiki/Irenaeus
+,07-01,Catherine Winkworth,"Catherine Winkworth, 1878; John Mason Neale, 1866; hymn translators",,,,,,https://en.wikipedia.org/wiki/Catherine_Winkworth
+,07-06,Jan Hus,"Jan Hus, martyr, 1415",,,,,,https://en.wikipedia.org/wiki/Jan_Hus
+,07-11,Benedict of Nursia,"Benedict of Nursia, Abbot of Monte Cassino, c. 540",,,,,,https://en.wikipedia.org/wiki/Benedict_of_Nursia
+,07-12,Nathan Söderblom,"Nathan Söderblom, Bishop of Uppsala, 1931",,,,,,https://en.wikipedia.org/wiki/Nathan_Söderblom
+,07-17,Bartolomé de Las Casas,"Bartolomé de Las Casas, missionary to the Indies, 1566",,,,,,https://en.wikipedia.org/wiki/Bartolomé_de_Las_Casas
+,07-23,Birgitta of Sweden,"Birgitta of Sweden, renewer of the church, 1373",,,,,,https://en.wikipedia.org/wiki/Bridget_of_Sweden
+,07-28,Johann Sebastian Bach,"Johann Sebastian Bach, 1750; Heinrich Schütz, 1672; George Frederick Handel, 1759; musicians",,,,,,https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+,07-29,Mary,"Mary, Martha, and Lazarus of Bethany",,,,,,"https://en.wikipedia.org/wiki/Mary,_sister_of_Lazarus"
+,07-29,Olaf,"Olaf, King of Norway, martyr, 1030",,,,,,
+,08-08,Dominic,"Dominic, founder of the Order of Preachers, 1221",,,,,,https://en.wikipedia.org/wiki/Saint_Dominic
+,08-10,Lawrence,"Lawrence, deacon, martyr, 258",,,,,,https://en.wikipedia.org/wiki/Lawrence_of_Rome
+,08-11,Clare,"Clare, Abbess of San Damiano, renewer of the church, 1253",,,,,,https://en.wikipedia.org/wiki/Clare_of_Assisi
+,08-13,Florence Nightingale,"Florence Nightingale, 1910; Clara Maass, 1901; renewers of society",,,,,,https://en.wikipedia.org/wiki/Florence_Nightingale
+,08-14,Maximilian Kolbe,"Maximilian Kolbe, 1941; Kaj Munk, 1944; martyrs",,,,,,https://en.wikipedia.org/wiki/Maximilian_Kolbe
+,08-20,Bernard,"Bernard, Abbot of Clairvaux, 1153",,,,,,http://www.satucket.com/lectionary/Bernard_Clairvaux.htm
+,08-28,Augustine,"Augustine, Bishop of Hippo, 430",,,,,,https://en.wikipedia.org/wiki/Augustine_of_Hippo
+,08-28,Moses the Black,"Moses the Black, monk, martyr, c. 400",,,,,,https://en.wikipedia.org/wiki/Moses_the_Black
+,09-02,Nikolai Frederik Severin Grundtvig,"Nikolai Frederik Severin Grundtvig, bishop, renewer of the church, 1872",,,,,,https://en.wikipedia.org/wiki/N._F._S._Grundtvig
+,09-13,John Chrysostom,"John Chrysostom, Bishop of Constantinople, 407",,,,,,https://en.wikipedia.org/wiki/John_Chrysostom
+,09-16,Cyprian,"Cyprian, Bishop of Carthage, martyr, c. 258",,,,,,https://en.wikipedia.org/wiki/Cyprian
+,09-17,Hildegard,"Hildegard, Abbess of Bingen, 1179",,,,,,https://en.wikipedia.org/wiki/Hildegard_of_Bingen
+,09-18,Dag Hammarskjöld,"Dag Hammarskjöld, renewer of society, 1961",,,,,,https://en.wikipedia.org/wiki/Dag_Hammarskjöld
+,09-20,Nelson Wesley Trout,"Nelson Wesley Trout, bishop, 1996",,,,,,https://en.wikipedia.org/wiki/Nelson_Wesley_Trout
+,09-30,Jerome,"Jerome, translator, teacher, 420",,,,,,https://en.wikipedia.org/wiki/Jerome
+,10-04,Francis of Assisi,"Francis of Assisi, renewer of the church, 1226",,,,,,https://en.wikipedia.org/wiki/Francis_of_Assisi
+,10-04,Theodor Fliedner,"Theodor Fliedner, renewer of society, 1864",,,,,,https://en.wikipedia.org/wiki/Theodor_Fliedner
+,10-06,William Tyndale,"William Tyndale, translator, martyr, 1536",,,,,,https://en.wikipedia.org/wiki/William_Tyndale
+,10-07,Henry Melchior Muhlenberg,"Henry Melchior Muhlenberg, pastor in North America, 1787",,,,,,https://en.wikipedia.org/wiki/Henry_Muhlenberg
+,10-10,Massie L. Kennard,"Massie L. Kennard, renewer of the church, 1986",,,,,,https://en.wikipedia.org/wiki/Massie_L._Kennard
+,10-15,Teresa of Ávila,"Teresa of Ávila, teacher, renewer of the church, 1582",,,,,,https://en.wikipedia.org/wiki/Teresa_of_Ávila
+,10-17,Ignatius,"Ignatius, Bishop of Antioch, martyr, c. 115",,,,,,https://en.wikipedia.org/wiki/Ignatius_of_Antioch
+,10-26,Philipp Nicolai,"Philipp Nicolai, 1608; Johann Heermann, 1647; Paul Gerhardt, 1676; hymnwriters",,,,,,https://en.wikipedia.org/wiki/Philipp_Nicolai
+,11-02,Daniel Payne,"Daniel Payne, bishop, 1893",,,,,,https://en.wikipedia.org/wiki/Daniel_Payne
+,11-03,Martín de Porres,"Martín de Porres, renewer of society, 1639",,,,,,https://en.wikipedia.org/wiki/Martin_de_Porres
+,11-07,John Christian Frederick Heyer,"John Christian Frederick Heyer, 1873; Bartholomaeus Ziegenbalg, 1719; Ludwig Nommensen, 1918; missionaries",,,,,,https://en.wikipedia.org/wiki/John_Christian_Frederick_Heyer
+,11-11,Martin,"Martin, Bishop of Tours, 397",,,,,,http://www.satucket.com/lectionary/Martin_Tours.htm
+,11-11,Søren Aabye Kierkegaard,"Søren Aabye Kierkegaard, teacher, 1855",,,,,,https://en.wikipedia.org/wiki/Søren_Kierkegaard
+,11-17,Elizabeth of Hungary,"Elizabeth of Hungary, renewer of society, 1231",,,,,,https://en.wikipedia.org/wiki/Elisabeth_of_Hungary
+,11-23,Clement,"Clement, Bishop of Rome, c. 100",,,,,,https://en.wikipedia.org/wiki/Pope_Clement_I
+,11-23,Miguel Agustín Pro,"Miguel Agustín Pro, martyr, 1927",,,,,,https://en.wikipedia.org/wiki/Miguel_Pro
+,11-24,Justus Falckner,"Justus Falckner, 1723; Jehu Jones, 1852; William Passavant, 1894; pastors in North America",,,,,,https://en.wikipedia.org/wiki/Justus_Falckner
+,11-25,Isaac Watts,"Isaac Watts, hymnwriter, 1748",,,,,,https://en.wikipedia.org/wiki/Isaac_Watts
+,12-02,Dorothy Kazel,"Dorothy Kazel, Ita Ford, Maura Clarke and Jean Donovan, martyrs of El Salvador, 1980",,,,,,https://en.wikipedia.org/wiki/Dorothy_Kazel
+,12-03,Francis Xavier,"Francis Xavier, missionary to Asia, 1552",,,,,,https://en.wikipedia.org/wiki/Francis_Xavier
+,12-04,John of Damascus,"John of Damascus, theologian and hymnwriter, c. 749",,,,,,https://en.wikipedia.org/wiki/John_of_Damascus
+,12-06,Nicholas,"Nicholas, Bishop of Myra, c. 342",,,,,,https://en.wikipedia.org/wiki/Saint_Nicholas
+,12-07,Ambrose,"Ambrose, Bishop of Milan, 397",,,,,,https://en.wikipedia.org/wiki/Ambrose
+,12-13,Lucy,"Lucy, martyr, 304",,,,,,https://en.wikipedia.org/wiki/Saint_Lucy
+,12-14,John of the Cross,"John of the Cross, renewer of the church, 1591",,,,,,https://en.wikipedia.org/wiki/John_of_the_Cross
+,12-20,Katharina von Bora Luther,"Katharina von Bora Luther, renewer of the church, 1552",,,,,,https://en.wikipedia.org/wiki/Katharina_von_Bora

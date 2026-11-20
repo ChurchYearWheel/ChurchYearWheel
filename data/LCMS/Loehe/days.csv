@@ -1,0 +1,38 @@
+id,variant,when,date,from,to,every,first,count,title,names,notes,latin,color,color_bottom,rank,style,icon,claims,yield,full_name
+# ===========================================================================,,,,,,,,,,,,,,,,,,,,
+# The principal days of Wilhelm Loehe's calendars (Haus-, Schul- und Kirchenbuch, 1859;,,,,,,,,,,,,,,,,,,,,
+"# Martyrologium, 1868), which give only the saints and the fixed feasts.  The Sundays and",,,,,,,,,,,,,,,,,,,,
+"# movable feasts are those of the historic one-year calendar he kept, as the Evangelical",,,,,,,,,,,,,,,,,,,,
+"# Lutheran Hymn-Book (1912) gives them in English (data/LCMS/ELHB/days.csv, copied).",,,,,,,,,,,,,,,,,,,,
+# ===========================================================================,,,,,,,,,,,,,,,,,,,,
+advent,,,,start,start+27,sun,1,,{ordinal} Sunday in Advent,,,,,,,,,,,
+christmas,,,12-25,,,,,,Christmas,,,,WHITE,,,,,TRUE,,"Christmas, or the Nativity of Our Lord"
+christmas_2,,,12-26,,,,,,Second Christmas Day,,,,,,,,,,,
+after_christmas,,date lt 12-31,sun>12-26,,,,,,Sunday after Christmas,,,,,,,,,TRUE,,
+new_years_eve,,,12-31,,,,,,New Year's Eve,,,,,,,,,,,
+new_year,,,01-01,,,,,,New Year's Day,,,,WHITE,,,,,,,The Circumcision of Christ and New Year's Day
+after_new_year,,date lt 01-06,sun>01-01,,,,,,Sunday after New Year,,,,,,,,,TRUE,,
+epiphany,,,01-06,,,,,,The Epiphany,,,,WHITE,,,,,,,"The Epiphany, or the Manifestation of Christ to the Gentiles"
+# Up to six Sundays after the Epiphany; the sixth has the Transfiguration's collect.,,,,,,,,,,,,,,,,,,,,
+after_epiphany,,,,@epiphany+1,easter-64,sun,1,,{ordinal} Sunday after Epiphany,,,,,,,,,,,
+septuagesima,,,easter-63,,,,,,Septuagesima Sunday,,,,,,,,,TRUE,,
+sexagesima,,,easter-56,,,,,,Sexagesima Sunday,,,,,,,,,TRUE,,
+quinquagesima,,,easter-49,,,,,,Quinquagesima Sunday,,,,,,,,,TRUE,,
+ash_wednesday,,,easter-46,,,,,,Ash Wednesday,,,,,,,,,,,"Ash Wednesday, or First Day of Lent"
+lent,,,,@ash_wednesday,@palm_sunday-1,sun,1,,{ordinal} Sunday in Lent,,,Invocavit|Reminiscere|Oculi|Laetare|Judica,,,,,,,,
+palm_sunday,,,easter-7,,,,,,Sixth Sunday in Lent,,,Palmarum,,,,,,TRUE,,
+holy_monday,,,easter-6,,,,,,Monday in Holy Week,,,,,,,,,,,
+holy_tuesday,,,easter-5,,,,,,Tuesday in Holy Week,,,,,,,,,,,
+holy_wednesday,,,easter-4,,,,,,Wednesday in Holy Week,,,,,,,,,,,
+maundy_thursday,,,easter-3,,,,,,Thursday in Holy Week,,,,,,,,,,,Thursday in Holy Week (Holy Thursday)
+good_friday,,,easter-2,,,,,,Good Friday,,,,BLACK,,,,,,,
+easter,,,easter,,,,,,Easter,,,,WHITE,,,,,TRUE,,
+easter_monday,,,easter+1,,,,,,Easter Monday,,,,WHITE,,,,,,,
+after_easter,,,,easter+7,easter+35,sun,1,,{ordinal} Sunday after Easter,,,Quasimodo Geniti|Misericordias|Jubilate|Cantate|Rogate,,,,,,,,
+ascension,,,easter+39,,,,,,Ascension Day,,,,WHITE,,,,,,,
+exaudi,,,easter+42,,,,,,Sunday after Ascension,,,Exaudi,,,,,,TRUE,,
+pentecost,,,easter+49,,,,,,Whitsunday,,,,RED,,,,,TRUE,,
+whit_monday,,,easter+50,,,,,,Monday in Whitsun-Week,,,,RED,,,,,,,
+trinity,,,easter+56,,,,,,The Festival of the Trinity,,,,WHITE,,,,,TRUE,,
+# Up to 27 Sundays after Trinity; the last of the year takes the 23rd's Introit.,,,,,,,,,,,,,,,,,,,,
+after_trinity,,,,@trinity+1,end,sun,1,,{ordinal} Sunday after Trinity,,,,,,,,,,,

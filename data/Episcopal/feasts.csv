@@ -1,0 +1,185 @@
+id,date,name,full_name,color_override,color_override_bottom,style,variant,when,link
+# ===========================================================================,,,,,,,,,
+# The Episcopal Church's calendar of saints: the Holy Days of the 1979 Prayer,,,,,,,,,
+"# Book, colored in the lower half of their cells as the LCMS festivals are, and",,,,,,,,,
+"# the lesser feasts, which keep the season's color.  Short names in the cells,",,,,,,,,,
+# the whole name in the page's readout.  From the 1979 calendar as kept at,,,,,,,,,
+# anglicanlectionary.com (see docs/traditions.md).,,,,,,,,,
+# ===========================================================================,,,,,,,,,
+# The Principal Feasts of All Saints' Day; the other Holy Days of the Prayer Book.,,,,,,,,,
+,11-01,All Saints' Day,,WHITE,,,,,https://en.wikipedia.org/wiki/All_Saints'_Day
+,01-01,Holy Name,The Holy Name of Our Lord Jesus Christ,,WHITE,,,,https://en.wikipedia.org/wiki/Feast_of_the_Circumcision
+,01-18,Confession of St. Peter,The Confession of Saint Peter the Apostle,,WHITE,,,,http://www.satucket.com/lectionary/Confession_Peter.htm
+,01-25,Conversion of St. Paul,The Conversion of Saint Paul the Apostle,,WHITE,,,,http://www.satucket.com/lectionary/Conversion_Paul.htm
+,02-02,The Presentation,The Presentation of Our Lord Jesus Christ in the Temple,,WHITE,,,,http://www.satucket.com/lectionary/Purification.htm
+,02-24,St. Matthias,Saint Matthias the Apostle,,RED,,,,http://www.satucket.com/lectionary/Matthias.htm
+,03-19,St. Joseph,Saint Joseph,,WHITE,,,,http://www.satucket.com/lectionary/Joseph.htm
+,03-25,The Annunciation,The Annunciation of Our Lord Jesus Christ to the Blessed Virgin Mary,,WHITE,,,,http://www.satucket.com/lectionary/Annunciation.htm
+,04-25,St. Mark,Saint Mark the Evangelist,,RED,,,,http://www.satucket.com/lectionary/Mark.htm
+,05-01,Sts. Philip and James,"Saint Philip and Saint James, Apostles",,RED,,,,https://en.wikipedia.org/wiki/Philip_the_Apostle
+,05-31,The Visitation,The Visitation of the Blessed Virgin Mary,,WHITE,,,,https://en.wikipedia.org/wiki/Visitation_(Christian)
+,06-11,St. Barnabas,Saint Barnabas the Apostle,,RED,,,,http://www.satucket.com/lectionary/Barnabas.htm
+,06-24,Nativity of St. John the Baptist,The Nativity of Saint John the Baptist,,WHITE,,,,https://en.wikipedia.org/wiki/Nativity_of_St._John_the_Baptist
+,06-29,Sts. Peter and Paul,"Saint Peter and Saint Paul, Apostles",,RED,,,,http://www.satucket.com/lectionary/Peter&Paul.htm
+,07-04,Independence Day,,,WHITE,,,,http://www.satucket.com/lectionary/July4.htm
+,07-22,St. Mary Magdalene,Saint Mary Magdalene,,WHITE,,,,http://www.satucket.com/lectionary/Mary_Magdalene.htm
+,07-25,St. James,Saint James the Apostle,,RED,,,,http://www.satucket.com/lectionary/James.htm
+,08-06,The Transfiguration,The Transfiguration of Our Lord Jesus Christ,,WHITE,,,,http://www.satucket.com/lectionary/Tranfiguration.htm
+,08-15,St. Mary the Virgin,"Saint Mary the Virgin, Mother of Our Lord Jesus Christ",,WHITE,,,,http://www.satucket.com/lectionary/Mary.htm
+,08-24,St. Bartholomew,Saint Bartholomew the Apostle,,RED,,,,http://www.satucket.com/lectionary/Bartholomew.htm
+,09-14,Holy Cross Day,,,RED,,,,http://www.satucket.com/lectionary/Holy_Cross.htm
+,09-21,St. Matthew,"Saint Matthew, Apostle and Evangelist",,RED,,,,http://www.satucket.com/lectionary/Matthew.htm
+,09-29,St. Michael and All Angels,Saint Michael and All Angels,,WHITE,,,,http://www.satucket.com/lectionary/Michael.htm
+,10-18,St. Luke,Saint Luke the Evangelist,,RED,,,,http://www.satucket.com/lectionary/Luke.htm
+,10-23,St. James of Jerusalem,"Saint James of Jerusalem, Brother of Our Lord Jesus Christ, and Martyr",,RED,,,,"https://en.wikipedia.org/wiki/James,_brother_of_Jesus"
+,10-28,Sts. Simon and Jude,"Saint Simon and Saint Jude, Apostles",,RED,,,,http://www.satucket.com/lectionary/Simon&Jude.htm
+,11-30,St. Andrew,Saint Andrew the Apostle,,RED,,,,http://www.satucket.com/lectionary/Andrew.htm
+,12-21,St. Thomas,Saint Thomas the Apostle,,RED,,,,http://www.satucket.com/lectionary/Thomas.htm
+,12-26,St. Stephen,"Saint Stephen, Deacon and Martyr",,RED,,,,http://www.satucket.com/lectionary/Stephen.htm
+,12-27,St. John,"Saint John, Apostle and Evangelist",,WHITE,,,,http://www.satucket.com/lectionary/John.htm
+,12-28,Holy Innocents,The Holy Innocents,,RED,,,,http://www.satucket.com/lectionary/Innocents.htm
+thanksgiving,thu#4:11,Thanksgiving Day,,,WHITE,,,,
+"# The lesser feasts (Lesser Feasts and Fasts), kept without a color of their own.",,,,,,,,,
+,01-09,Julia Chester Emery,,,,,,,http://www.satucket.com/lectionary/Julia_Chester_Emery.htm
+,01-10,William Laud,"William Laud, Archbishop of Canterbury",,,,,,http://www.satucket.com/lectionary/William_Laud.htm
+,01-12,Aelred,"Aelred, Abbot of Rievaulx",,,,,,
+,01-13,Hilary,"Hilary, Bishop of Poitiers",,,,,,http://www.satucket.com/lectionary/Hilary.htm
+,01-17,Antony,"Antony, Abbot in Egypt",,,,,,http://www.satucket.com/lectionary/Antony.htm
+,01-19,Wulfstan,"Wulfstan, Bishop of Worcester",,,,,,http://www.satucket.com/lectionary/Wulfstan.htm
+,01-20,Fabian,"Fabian, Bishop and Martyr of Rome",,,,,,http://www.satucket.com/lectionary/Fabian.htm
+,01-21,Agnes,"Agnes, Martyr at Rome",,,,,,https://en.wikipedia.org/wiki/Saint_Agnes
+,01-22,Vincent,"Vincent, Deacon of Saragossa, and Martyr",,,,,,http://www.satucket.com/lectionary/Vincent.htm
+,01-23,Phillips Brooks,"Phillips Brooks, Bishop of Massachusetts",,,,,,http://www.satucket.com/lectionary/Phillips_Brooks.htm
+,01-24,Florence Li Tim-Oi,"Florence Li Tim-Oi, First Woman Priest in the Anglican Communion",,,,,,http://www.satucket.com/lectionary/Li_Tim-Oi.htm
+,01-26,Timothy and Titus,"Timothy and Titus, Companions of Saint Paul",,,,,,https://en.wikipedia.org/wiki/Saint_Timothy
+,01-27,John Chrysostom,"John Chrysostom, Bishop of Constantinople",,,,,,http://www.satucket.com/lectionary/John_Chrysostom.htm
+,01-28,Thomas Aquinas,"Thomas Aquinas, Priest and Friar",,,,,,http://www.satucket.com/lectionary/Thomas_Aquinas.htm
+,02-01,Brigid,,,,,,,
+,02-03,Anskar,"Anskar, Archbishop of Hamburg, Missionary to Denmark and Sweden",,,,,,http://www.satucket.com/lectionary/Anskar.htm
+,02-04,Cornelius the Centurion,,,,,,,http://www.satucket.com/lectionary/Cornelius.htm
+,02-05,The Martyrs of Japan,,,,,,,https://en.wikipedia.org/wiki/26_Martyrs_of_Japan
+,02-13,Absalom Jones,"Absalom Jones, Priest",,,,,,http://www.satucket.com/lectionary/Absalom_Jones.htm
+,02-14,Cyril and Methodius,"Cyril and Methodius, Missionaries to the Slavs",,,,,,http://www.satucket.com/lectionary/Cyril&Methodius.htm
+,02-15,Thomas Bray,"Thomas Bray, Priest and Missionary",,,,,,http://www.satucket.com/lectionary/Thomas_Bray.htm
+,02-17,Janani Luwum,"Janani Luwum, Archbishop of Uganda, and Martyr",,,,,,http://www.satucket.com/lectionary/janani_luwum.htm
+,02-18,Martin Luther,,,,,,,http://www.satucket.com/lectionary/Martin_Luther.htm
+,02-23,Polycarp,"Polycarp, Bishop and Martyr of Smyrna",,,,,,http://www.satucket.com/lectionary/Polycarp.htm
+,02-27,George Herbert,"George Herbert, Priest",,,,,,http://www.satucket.com/lectionary/George_Herbert.htm
+,03-01,David,"David, Bishop of Menevia, Wales",,,,,,https://en.wikipedia.org/wiki/Saint_David
+,03-02,Chad,"Chad, Bishop of Lichfield",,,,,,http://www.satucket.com/lectionary/Chad.htm
+,03-03,John and Charles Wesley,"John and Charles Wesley, Priests",,,,,,http://www.satucket.com/lectionary/Wesley.htm
+,03-07,Perpetua and her Companions,"Perpetua and her Companions, Martyrs at Carthage",,,,,,https://en.wikipedia.org/wiki/Perpetua_and_Felicity
+,03-09,Gregory of Nyssa,,,,,,,https://en.wikipedia.org/wiki/Gregory_of_Nyssa
+,03-12,Gregory the Great,"Gregory the Great, Bishop of Rome",,,,,,http://www.satucket.com/lectionary/Gregory_Great.htm
+,03-17,Patrick,"Patrick, Bishop and Missionary of Ireland",,,,,,http://www.satucket.com/lectionary/Patrick.htm
+,03-18,Cyril,"Cyril, Bishop of Jerusalem",,,,,,http://www.satucket.com/lectionary/Cyril_Jerusalem.htm
+,03-20,Cuthbert,"Cuthbert, Bishop of Lindisfarne",,,,,,http://www.satucket.com/lectionary/Cuthbert.htm
+,03-21,Thomas Ken,"Thomas Ken, Bishop of Bath and Wells",,,,,,http://www.satucket.com/lectionary/Thomas_Ken.htm
+,03-23,Gregory the Illuminator,"Gregory the Illuminator, Bishop and Missionary of Armenia",,,,,,http://www.satucket.com/lectionary/Gregory_Illuminator.htm
+,03-27,Charles Henry Brent,"Charles Henry Brent, Bishop of the Philippines, and of Western New York",,,,,,http://www.satucket.com/lectionary/Charles_Brent.htm
+,03-29,John Keble,"John Keble, Priest",,,,,,http://www.satucket.com/lectionary/John_Keble.htm
+,03-31,John Donne,"John Donne, Priest",,,,,,https://en.wikipedia.org/wiki/John_Donne
+,04-01,Frederick Denison Maurice,"Frederick Denison Maurice, Priest",,,,,,https://en.wikipedia.org/wiki/Frederick_Denison_Maurice
+,04-03,Richard,"Richard, Bishop of Chichester",,,,,,"https://en.wikipedia.org/wiki/Richard,_Bishop_of_Chichester"
+,04-04,Martin Luther King,"Martin Luther King, Jr., Civil Rights Leader",,,,,,http://www.satucket.com/lectionary/MLKing.htm
+,04-08,William Augustus Muhlenberg,"William Augustus Muhlenberg, Priest",,,,,,http://www.satucket.com/lectionary/WAMuhlenberg.htm
+,04-09,William Law,"William Law, Priest",,,,,,http://www.satucket.com/lectionary/William_Law.htm
+,04-11,George Augustus Selwyn,"George Augustus Selwyn, Bishop of New Zealand, and of Lichfield",,,,,,http://www.satucket.com/lectionary/GA_Selwyn.htm
+,04-19,Alphege,"Alphege, Archbishop of Canterbury, and Martyr",,,,,,http://www.satucket.com/lectionary/Alphege.htm
+,04-21,Anselm,"Anselm, Archbishop of Canterbury",,,,,,http://www.satucket.com/lectionary/Anselm.htm
+,04-29,Catherine of Siena,,,,,,,http://www.satucket.com/lectionary/Catherine_Siena.htm
+,05-02,Athanasius,"Athanasius, Bishop of Alexandria",,,,,,http://www.satucket.com/lectionary/Athanasius.htm
+,05-04,Monnica,"Monnica, Mother of Augustine of Hippo",,,,,,
+,05-08,Julian of Norwich,,,,,,,http://www.satucket.com/lectionary/Julian_Norwich.htm
+,05-09,Gregory of Nazianzus,"Gregory of Nazianzus, Bishop of Constantinople",,,,,,http://www.satucket.com/lectionary/Gregory_Nazianzus.htm
+,05-19,Dunstan,"Dunstan, Archbishop of Canterbury",,,,,,http://www.satucket.com/lectionary/Dunstan.htm
+,05-20,Alcuin,"Alcuin, Deacon, and Abbot of Tours",,,,,,
+,05-24,Jackson Kemper,"Jackson Kemper, First Missionary Bishop in the United States",,,,,,http://www.satucket.com/lectionary/Jackson_Kemper.htm
+,05-25,Bede,"Bede, the Venerable, Priest, and Monk of Jarrow",,,,,,http://www.satucket.com/lectionary/Bede.htm
+,05-26,Augustine,"Augustine, First Archbishop of Canterbury",,,,,,http://www.satucket.com/lectionary/Augustine_Canterbury.htm
+,06-01,Justin,"Justin, Martyr at Rome",,,,,,https://en.wikipedia.org/wiki/Justin_Martyr
+,06-02,The Martyrs of Lyons,,,,,,,
+,06-03,The Martyrs of Uganda,,,,,,,http://www.satucket.com/lectionary/Uganda.htm
+,06-05,Boniface,"Boniface, Archbishop of Mainz, Missionary to Germany, and Martyr",,,,,,http://www.satucket.com/lectionary/Boniface.htm
+,06-09,Columba,"Columba, Abbot of Iona",,,,,,http://www.satucket.com/lectionary/Columba.htm
+,06-10,Ephrem of Edessa,"Ephrem of Edessa, Syria, Deacon",,,,,,
+,06-12,Enmegahbowh,"Enmegahbowh, Priest and Missionary",,,,,,http://www.satucket.com/lectionary/Enmegahbowh.htm
+,06-14,Basil the Great,"Basil the Great, Bishop of Caesarea",,,,,,http://www.satucket.com/lectionary/Basil_Great.htm
+,06-15,Evelyn Underhill,,,,,,,http://www.satucket.com/lectionary/Evelyn_Underhill.htm
+,06-16,Joseph Butler,"Joseph Butler, Bishop of Durham",,,,,,http://www.satucket.com/lectionary/Joseph_Butler.htm
+,06-18,Bernard Mizeki,"Bernard Mizeki, Catechist and Martyr in Rhodesia",,,,,,http://www.satucket.com/lectionary/Bernard_Mizeki.htm
+,06-22,Alban,"Alban, First Martyr of Britain",,,,,,http://www.satucket.com/lectionary/Alban.htm
+,06-28,Irenaeus,"Irenaeus, Bishop of Lyons",,,,,,http://www.satucket.com/lectionary/Irenaeus.htm
+,07-11,Benedict of Nursia,"Benedict of Nursia, Abbot of Monte Cassino",,,,,,http://www.satucket.com/lectionary/Benedict_Nursia.htm
+,07-17,William White,"William White, Bishop of Pennsylvania",,,,,,http://www.satucket.com/lectionary/William_White.htm
+,07-19,Macrina,"Macrina, Monastic and Teacher",,,,,,https://en.wikipedia.org/wiki/Macrina_the_Younger
+,07-24,Thomas a Kempis,"Thomas a Kempis, Priest",,,,,,http://www.satucket.com/lectionary/Thomas_a_Kempis.htm
+,07-26,The Parents of the Blessed Virgin Mary,,,,,,,http://www.satucket.com/lectionary/Parents_Mary.htm
+,07-27,William Reed Huntington,"William Reed Huntington, Priest",,,,,,http://www.satucket.com/lectionary/WRHuntington.htm
+,07-29,Mary and Martha of Bethany,,,,,,,
+,07-30,William Wilberforce,,,,,,,http://www.satucket.com/lectionary/William_Wilberforce.htm
+,07-31,Joseph of Arimathaea,,,,,,,https://en.wikipedia.org/wiki/Joseph_of_Arimathea
+,08-07,John Mason Neale,"John Mason Neale, Priest",,,,,,http://www.satucket.com/lectionary/JMNeale.htm
+,08-08,Dominic,"Dominic, Priest and Friar",,,,,,http://www.satucket.com/lectionary/Dominic.htm
+,08-10,Laurence,"Laurence, Deacon and Martyr at Rome",,,,,,https://en.wikipedia.org/wiki/Lawrence_of_Rome
+,08-11,Clare,"Clare, Abbess at Assisi",,,,,,http://www.satucket.com/lectionary/Clare.htm
+,08-12,Florence Nightingale,"Florence Nightingale, Nurse, Social Reformer",,,,,,http://www.satucket.com/lectionary/Florence_Nightingale.htm
+,08-13,Jeremy Taylor,"Jeremy Taylor, Bishop of Down, Connor, and Dromore",,,,,,http://www.satucket.com/lectionary/Jeremy_Taylor.htm
+,08-14,Jonathan Myrick Daniels,"Jonathan Myrick Daniels, Seminarian and Witness for Civil Rights",,,,,,http://www.satucket.com/lectionary/Jonathan_Daniels.htm
+,08-18,William Porcher DuBose,"William Porcher DuBose, Priest",,,,,,
+,08-20,Bernard,"Bernard, Abbot of Clairvaux",,,,,,http://www.satucket.com/lectionary/Bernard_Clairvaux.htm
+,08-25,Louis,"Louis, King of France",,,,,,http://www.satucket.com/lectionary/Louis.htm
+,08-27,Thomas Gallaudet and Henry Winter Syle,,,,,,,
+,08-28,Augustine,"Augustine, Bishop of Hippo",,,,,,http://www.satucket.com/lectionary/Augustine_Hippo.htm
+,08-31,Aidan,"Aidan, Bishop of Lindisfarne",,,,,,https://en.wikipedia.org/wiki/Aidan_of_Lindisfarne
+,09-01,David Pendleton Oakerhater,"David Pendleton Oakerhater, Deacon and Missionary",,,,,,https://en.wikipedia.org/wiki/David_Pendleton_Oakerhater
+,09-02,The Martyrs of New Guinea,,,,,,,http://www.satucket.com/lectionary/Martyrs_New_Guinea.htm
+,09-04,Paul Jones,,,,,,,http://www.satucket.com/lectionary/Paul_Jones.htm
+,09-09,Constance and her Companions,,,,,,,
+,09-10,Alexander Crummell,,,,,,,https://en.wikipedia.org/wiki/Alexander_Crummell
+,09-12,John Henry Hobart,"John Henry Hobart, Bishop of New York",,,,,,http://www.satucket.com/lectionary/JHHobart.htm
+,09-13,Cyprian,"Cyprian, Bishop and Martyr of Carthage",,,,,,http://www.satucket.com/lectionary/Cyprian.htm
+,09-16,Ninian,"Ninian, Bishop in Galloway",,,,,,http://www.satucket.com/lectionary/Ninian.htm
+,09-17,Hildegard,,,,,,,https://en.wikipedia.org/wiki/Hildegard_of_Bingen
+,09-18,Edward Bouverie Pusey,"Edward Bouverie Pusey, Priest",,,,,,http://www.satucket.com/lectionary/EBPusey.htm
+,09-19,Theodore of Tarsus,"Theodore of Tarsus, Archbishop of Canterbury",,,,,,http://www.satucket.com/lectionary/Theodore_Tarsus.htm
+,09-20,John Coleridge Patteson,"John Coleridge Patteson, Bishop of Melanesia, and his Companions, Martyrs",,,,,,http://www.satucket.com/lectionary/John_Patteson.htm
+,09-22,Philander Chase,"Philander Chase, Bishop of Ohio, and of Illinois",,,,,,http://www.satucket.com/lectionary/Philander_Chase.htm
+,09-25,Sergius,"Sergius, Abbot of Holy Trinity, Moscow",,,,,,http://www.satucket.com/lectionary/Sergius.htm
+,09-26,Lancelot Andrewes,"Lancelot Andrewes, Bishop of Winchester",,,,,,http://www.satucket.com/lectionary/LAndrewes.htm
+,09-30,Jerome,"Jerome, Priest, and Monk of Bethlehem",,,,,,http://www.satucket.com/lectionary/Jerome.htm
+,10-01,Remigius,"Remigius, Bishop of Rheims",,,,,,https://en.wikipedia.org/wiki/Saint_Remigius
+,10-04,Francis of Assisi,"Francis of Assisi, Friar",,,,,,http://www.satucket.com/lectionary/Francis_Assisi.htm
+,10-06,William Tyndale,"William Tyndale, Priest",,,,,,https://en.wikipedia.org/wiki/William_Tyndale
+,10-09,Robert Grosseteste,"Robert Grosseteste, Bishop of Lincoln",,,,,,http://www.satucket.com/lectionary/Robert_Grosseteste.htm
+,10-11,Philip,"Philip, Deacon and Evangelist",,,,,,http://www.satucket.com/lectionary/Philip_Deacon.htm
+,10-14,Samuel Isaac Joseph Schereschewsky,"Samuel Isaac Joseph Schereschewsky, Bishop of Shanghai",,,,,,http://www.satucket.com/lectionary/SIJSchereschewski.htm
+,10-16,Hugh Latimer,"Hugh Latimer, Nicholas Ridley and Thomas Cranmer, Bishops and Martyrs",,,,,,
+,10-17,Ignatius,"Ignatius, Bishop of Antioch, and Martyr",,,,,,http://www.satucket.com/lectionary/Ignatius_Antioch.htm
+,10-19,Henry Martyn,"Henry Martyn, Priest, and Missionary to India and Persia",,,,,,http://www.satucket.com/lectionary/Henry_Martyn.htm
+,10-26,Alfred the Great,"Alfred the Great, King of the West Saxons",,,,,,http://www.satucket.com/lectionary/Alfred.htm
+,10-29,James Hannington,"James Hannington, Bishop of Eastern Equatorial Africa, and his Companions, Martyrs",,,,,,http://www.satucket.com/lectionary/James_Hannington.htm
+,11-02,Commemoration of All Faithful Departed,,,,,,,http://www.satucket.com/lectionary/AllSouls.htm
+,11-03,Richard Hooker,"Richard Hooker, Priest",,,,,,http://www.satucket.com/lectionary/RHooker.htm
+,11-06,William Temple,"William Temple, Archbishop of Canterbury",,,,,,http://www.satucket.com/lectionary/william_temple.htm
+,11-07,Willibrord,"Willibrord, Archbishop of Utrecht, Missionary to Frisia",,,,,,http://www.satucket.com/lectionary/Willibrord.htm
+,11-10,Leo the Great,"Leo the Great, Bishop of Rome",,,,,,http://www.satucket.com/lectionary/Leo_Great.htm
+,11-11,Martin,"Martin, Bishop of Tours",,,,,,http://www.satucket.com/lectionary/Martin_Tours.htm
+,11-12,Charles Simeon,"Charles Simeon, Priest",,,,,,http://www.satucket.com/lectionary/Charles_Simeon.htm
+,11-14,Consecration of Samuel Seabury,"Consecration of Samuel Seabury, First American Bishop",,,,,,http://www.satucket.com/lectionary/Consecration_Seabury.htm
+,11-16,Margaret,"Margaret, Queen of Scotland",,,,,,http://www.satucket.com/lectionary/Margaret_Scotland.htm
+,11-17,Hugh,"Hugh, Bishop of Lincoln",,,,,,https://en.wikipedia.org/wiki/Hugh_of_Lincoln
+,11-18,Hilda,"Hilda, Abbess of Whitby",,,,,,http://www.satucket.com/lectionary/Hilda_Whitby.htm
+,11-19,Elizabeth,"Elizabeth, Princess of Hungary",,,,,,http://www.satucket.com/lectionary/Elizabeth_Hungary.htm
+,11-20,Edmund,"Edmund, King of East Anglia",,,,,,http://www.satucket.com/lectionary/Edmund_EAnglia.htm
+,11-22,Clive Staples Lewis,"Clive Staples Lewis, Apologist and Spiritual Writer",,,,,,https://en.wikipedia.org/wiki/C._S._Lewis
+,11-23,Clement,"Clement, Bishop of Rome",,,,,,http://www.satucket.com/lectionary/Clement_Rome.htm
+,11-25,James Otis Sargent Huntington,"James Otis Sargent Huntington, Priest and Monk",,,,,,http://www.satucket.com/lectionary/James_OS_Huntington.htm
+,11-28,Kamehameha and Emma,"Kamehameha and Emma, King and Queen of Hawaii",,,,,,http://www.satucket.com/lectionary/Kamehameha&Emma.htm
+,12-01,Nicholas Ferrar,"Nicholas Ferrar, Deacon",,,,,,https://en.wikipedia.org/wiki/Nicholas_Ferrar
+,12-02,Channing Moore Williams,"Channing Moore Williams, Missionary Bishop in China and Japan",,,,,,http://www.satucket.com/lectionary/Channing_Williams.htm
+,12-04,John of Damascus,"John of Damascus, Priest",,,,,,http://www.satucket.com/lectionary/John_Damascus.htm
+,12-05,Clement of Alexandria,"Clement of Alexandria, Priest",,,,,,http://www.satucket.com/lectionary/Clement_Alexandria.htm
+,12-06,Nicholas,"Nicholas, Bishop of Myra",,,,,,http://www.satucket.com/lectionary/Nicholas.htm
+,12-07,Ambrose,"Ambrose, Bishop of Milan",,,,,,http://www.satucket.com/lectionary/Ambrose.htm
+,12-29,Thomas Becket,,,,,,,http://www.satucket.com/lectionary/Thomas_Becket.htm

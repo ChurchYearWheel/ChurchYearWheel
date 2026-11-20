@@ -1,0 +1,116 @@
+date,name,color_override,color_override_bottom,font_size_override,max_chars_override,vertical_offset,style,icon,full_name,rank,level
+2026-11-29,Noah,,,,,,,,,,all
+2026-11-30,St. Andrew,,RED,,,,,,"St. Andrew, Apostle",,festival
+2026-12-04,John of Damascus,,,,,,,,"John of Damascus, Theologian and Hymnwriter",,all
+2026-12-06,Nicholas of Myra,,,,,,,,"Nicholas of Myra, Pastor",,all
+2026-12-07,Ambrose of Milan,,,,,,,,"Ambrose of Milan, Pastor and Hymnwriter",,all
+2026-12-13,Lucia,,,,,,,,"Lucia, Martyr",,all
+2026-12-17,Daniel and the Three Young Men,,,,,,,,Daniel the Prophet and the Three Young Men,,all
+2026-12-19,Adam and Eve,,,,,,,,,,all
+2026-12-20,Katharina von Bora Luther,,,,,,,,,,all
+2026-12-21,St. Thomas,,RED,,,,,,"St. Thomas, Apostle",,festival
+2026-12-26,St. Stephen,,RED,,,,,,"St. Stephen, Martyr",,festival
+2026-12-27,St. John,,WHITE,,,,,,"St. John, Apostle and Evangelist",,festival
+2026-12-28,Holy Innocents,,RED,,,,,,"The Holy Innocents, Martyrs",,festival
+2026-12-29,David,,,,,,,,,,all
+2026-12-31,Eve of the Circumcision and Name of Jesus,WHITE,,,,,,,,,principal
+2027-01-01,Circumcision and Name of Jesus,WHITE,,,,,,,,,principal
+2027-01-02,J.K. Wilhelm Loehe,,,,,,,,"J. K. Wilhelm Loehe, Pastor",,all
+2027-01-10,"Basil the Great, Gregory of Nazianzus, Gregory of Nyssa",,,,,,,,"Basil the Great of Caesarea, Gregory of Nazianzus, and Gregory of Nyssa, Pastors and Confessors",,all
+2027-01-18,Confession of St. Peter,,WHITE,,,,,,The Confession of St. Peter,,festival
+2027-01-20,Sarah,,,,,,,,,,all
+2027-01-24,St. Timothy,,WHITE,,,,,,"St. Timothy, Pastor and Confessor",,festival
+2027-01-25,Conversion of St. Paul,,WHITE,,,,,,The Conversion of St. Paul,,festival
+2027-01-26,St. Titus,,WHITE,,,,,,"St. Titus, Pastor and Confessor",,festival
+2027-01-27,John Chrysostom,,,,,,,,"John Chrysostom, Preacher",,all
+2027-02-02,Purification of Mary and Presentation of Our Lord,WHITE,,,,,,,The Purification of Mary and the Presentation of Our Lord,,principal
+2027-02-05,Jacob (Israel),,,,,,,,"Jacob (Israel), Patriarch",,all
+2027-02-10,Silas,,,,,,,,"Silas, Fellow Worker of St. Peter and St. Paul",,all
+2027-02-13,"Aquila, Priscilla, Apollos",,,,,,,,,,all
+2027-02-14,Valentine,,,,,,,,"Valentine, Martyr",,all
+2027-02-15,Philemon and Onesimus,,,,,,,,,,all
+2027-02-16,Philipp Melanchthon (birth),,,,,,,,"Philipp Melanchthon (birth), Confessor",,all
+2027-02-18,Martin Luther,,,,,,,,"Martin Luther, Doctor and Confessor",,all
+2027-02-23,Polycarp of Smyrna,,,,,,,,"Polycarp of Smyrna, Pastor and Martyr",,all
+2027-02-24,St. Matthias,,RED,,,,,,"St. Matthias, Apostle",,festival
+2027-03-07,Perpetua and Felicitas,,,,,,,,"Perpetua and Felicitas, Martyrs",,all
+2027-03-17,Patrick,,,,,,,,"Patrick, Missionary to Ireland",,all
+2027-03-19,St. Joseph,,WHITE,,,,,,"St. Joseph, Guardian of Jesus",,festival
+2027-03-25,Annunciation of Our Lord,WHITE,,,,,,,The Annunciation of Our Lord,,principal
+2027-03-31,Joseph,,,,,,,,"Joseph, Patriarch",,all
+2027-04-06,"Lucas Cranach, Albrecht Dürer",,,,,,,,"Lucas Cranach and Albrecht Dürer, Artists",,all
+2027-04-20,Johannes Bugenhagen,,,,,,,,"Johannes Bugenhagen, Pastor",,all
+2027-04-21,Anselm of Canterbury,,,,,,,,"Anselm of Canterbury, Theologian",,all
+2027-04-24,Johann Walter,,,,,,,,"Johann Walter, Kantor",,all
+2027-04-25,St. Mark,,RED,,,,,,"St. Mark, Evangelist",,festival
+2027-05-01,St. Philip and St. James,,RED,,,,,,"St. Philip and St. James, Apostles",,festival
+2027-05-02,Athanasius of Alexandria,,,,,,,,"Athanasius of Alexandria, Pastor and Confessor",,all
+2027-05-04,Friedrich Wyneken,,,,,,,,"Friedrich Wyneken, Pastor and Missionary",,all
+2027-05-05,Frederick the Wise,,,,,,,,"Frederick the Wise, Christian Ruler",,all
+2027-05-07,C.F.W. Walther,,,,,,,,"C. F. W. Walther, Theologian",,all
+2027-05-09,Job,,,,,,,,,,all
+2027-05-11,Cyril and Methodius,,,,,,,,"Cyril and Methodius, Missionaries to the Slavs",,all
+2027-05-21,Emperor Constantine and Helena,,,,,,,,"Emperor Constantine, Christian Ruler, and Helena, Mother of Constantine",,all
+2027-05-24,Esther,,,,,,,,,,all
+2027-05-25,Bede the Venerable,,,,,,,,"Bede the Venerable, Theologian",,all
+2027-05-31,The Visitation,WHITE,,,,,,,,,principal
+2027-06-01,Justin,,,,,,,,"Justin, Martyr",,all
+2027-06-05,Boniface of Mainz,,,,,,,,"Boniface of Mainz, Missionary to the Germans",,all
+2027-06-11,St. Barnabas,,RED,,,,,,"St. Barnabas, Apostle",,festival
+2027-06-12,"Ecumenical Council of Nicaea, AD 325",,,,,,,,"The Ecumenical Council of Nicaea, AD 325",,all
+2027-06-14,Elisha,,,,,,,,,,all
+2027-06-24,Nativity of St. John the Baptist,WHITE,,,,,,,The Nativity of St. John the Baptist,,principal
+2027-06-25,Presentation of the Augsburg Confession,,,,,,,,,,all
+2027-06-26,Jeremiah,,,,,,,,,,all
+2027-06-27,Cyril of Alexandria,,,,,,,,"Cyril of Alexandria, Pastor and Confessor",,all
+2027-06-28,Irenaeus of Lyons,,,,,,,,"Irenaeus of Lyons, Pastor",,all
+2027-06-29,St. Peter and St. Paul,,RED,,,,,,"St. Peter and St. Paul, Apostles",,festival
+2027-07-06,Isaiah,,,,,,,,,,all
+2027-07-16,Ruth,,,,,,,,,,all
+2027-07-20,Elijah,,,,,,,,,,all
+2027-07-21,Ezekiel,,,,,,,,,,all
+2027-07-22,St. Mary Magdalene,,WHITE,,,,,,,,festival
+2027-07-25,St. James the Elder,,RED,,,,,,"St. James the Elder, Apostle",,festival
+2027-07-28,Johann Sebastian Bach,,,,,,,,"Johann Sebastian Bach, Kantor",,all
+2027-07-29,"Mary, Martha, and Lazarus of Bethany",,,,,,,,,,all
+2027-07-30,Robert Barnes,,,,,,,,"Robert Barnes, Confessor and Martyr",,all
+2027-07-31,Joseph of Arimathea,,,,,,,,,,all
+2027-08-03,"Joanna, Mary, and Salome",,,,,,,,"Joanna, Mary, and Salome, Myrrhbearers",,all
+2027-08-10,Lawrence,,,,,,,,"Lawrence, Deacon and Martyr",,all
+2027-08-15,St. Mary,,WHITE,,,,,,"St. Mary, Mother of Our Lord",,festival
+2027-08-16,Isaac,,,,,,,,,,all
+2027-08-17,Johann Gerhard,,,,,,,,"Johann Gerhard, Theologian",,all
+2027-08-19,Bernard of Clairvaux,,,,,,,,"Bernard of Clairvaux, Hymnwriter and Theologian",,all
+2027-08-20,Samuel,,,,,,,,,,all
+2027-08-24,St. Bartholomew,,RED,,,,,,"St. Bartholomew, Apostle",,festival
+2027-08-27,Monica,,,,,,,,"Monica, Mother of Augustine",,all
+2027-08-28,Augustine of Hippo,,,,,,,,"Augustine of Hippo, Pastor and Theologian",,all
+2027-08-29,Martyrdom of St. John the Baptist,,RED,,,,,,The Martyrdom of St. John the Baptist,,festival
+2027-09-01,Joshua,,,,,,,,,,all
+2027-09-02,Hannah,,,,,,,,,,all
+2027-09-03,Gregory the Great,,,,,,,,"Gregory the Great, Pastor",,all
+2027-09-04,Moses,,,,,,,,,,all
+2027-09-05,Zacharias and Elizabeth,,,,,,,,,,all
+2027-09-14,Holy Cross Day,,RED,,,,,,,,festival
+2027-09-16,Cyprian of Carthage,,,,,,,,"Cyprian of Carthage, Pastor and Martyr",,all
+2027-09-21,St. Matthew,,RED,,,,,,"St. Matthew, Apostle and Evangelist",,festival
+2027-09-22,Jonah,,,,,,,,,,all
+2027-09-29,St. Michael and All Angels,WHITE,,,,,,,,,principal
+2027-09-30,Jerome,,,,,,,,"Jerome, Translator of Holy Scripture",,all
+2027-10-07,Henry Melchior Muhlenberg,,,,,,,,"Henry Melchior Muhlenberg, Pastor",,all
+2027-10-09,Abraham,,,,,,,,,,all
+2027-10-11,Philip the Deacon,,,,,,,,,,all
+2027-10-17,Ignatius of Antioch,,,,,,,,"Ignatius of Antioch, Pastor and Martyr",,all
+2027-10-18,St. Luke,,RED,,,,,,"St. Luke, Evangelist",,festival
+2027-10-23,St. James of Jerusalem,,RED,,,,,,"St. James of Jerusalem, Brother of Jesus and Martyr",,festival
+2027-10-25,"Dorcas (Tabitha), Lydia, and Phoebe",,,,,,,,"Dorcas (Tabitha), Lydia, and Phoebe, Faithful Women",,all
+2027-10-26,"Philipp Nicolai, Johann Heermann, and Paul Gerhardt",,,,,,,,"Philipp Nicolai, Johann Heermann, and Paul Gerhardt, Hymnwriters",,all
+2027-10-28,St. Simon and St. Jude,,RED,,,,,,"St. Simon and St. Jude, Apostles",,festival
+2027-10-31,Reformation Day,,RED,,,,,,,,festival
+2027-11-01,All Saints' Day,WHITE,,,,,,,,,principal
+2027-11-08,Johannes von Staupitz,,,,,,,,"Johannes von Staupitz, Luther’s Father Confessor",,all
+2027-11-09,Martin Chemnitz (birth),,,,,,,,"Martin Chemnitz (birth), Pastor and Confessor",,all
+2027-11-11,Martin of Tours,,,,,,,,"Martin of Tours, Pastor",,all
+2027-11-14,Emperor Justinian,,,,,,,,"Emperor Justinian, Christian Ruler and Confessor of Christ",,all
+2027-11-19,Elizabeth of Hungary,,,,,,,,,,all
+2027-11-23,Clement of Rome,,,,,,,,"Clement of Rome, Pastor",,all

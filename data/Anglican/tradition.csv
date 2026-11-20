@@ -1,0 +1,58 @@
+setting,value,variant
+# ===========================================================================,,
+"# The Anglican prayer books.  Each book is a variant of this folder, chosen in",,
+# the page's Prayer book menu; see data/traditions.csv.,,
+# ===========================================================================,,
+year_start,sun<12-25-21,
+center_art,canterbury_cross,
+paschalion_default,julian,proposed-2025
+# The Bible version the page opens readings in (bible_version).,,
+bible_version,KJV,bcp-1662 bcp-1928 bcp-1962 iarb-1662
+bible_version,NRSVA,common-worship wales-1984
+bible_version,ESV,acna-2019 rec-2005
+bible_version,RSVCE,divine-worship-2021
+bible_version,ARC,ieab-2015 iab-2021 iecb-1987 locb-2008 lusitana-1991 reb-2027
+"# readings.csv: the Epistles and Gospels of BCP 1662 (bcp-1662, iarb-1662), BCP 1928 (bcp-1928) and REC 2005 (rec-2005, with its Table of Psalms and Lessons)",,
+"# and the propers of the Canadian BCP 1962 (bcp-1962), with the Prayer Book Society's Old Testament lessons, and its Table of Lessons for Morning and Evening Prayer.",,
+reading_labels,introit=Introit; gradual=Psalm between the Lections; ot=Lesson (PBSC supplement); nt_opt=Epistle (PBSC supplement),bcp-1962
+"# BCP 1962's Table of Lessons: Year I when Advent Sunday falls in an even year.",,
+reading_cycle,I II 2024,bcp-1962
+# The books that keep the Revised Common Lectionary year read it (Year A from Advent 2025).,,
+readings,rcl-daily,acna-2019
+"# The books whose own readings cite the psalms in their Prayer Book psalter's verses; links open the same verses in English Bibles (lib/versification.py: PSALTERS).",,
+psalter,acna-2019,acna-2019
+psalter,american-1928,bcp-1928 rec-2005
+psalter,canada-1962,bcp-1962
+readings,rcl rcl-daily,ieab-2015 iab-2021 iecb-1987 locb-2008 lusitana-1991 reb-2027
+reading_cycle,abc,acna-2019 ieab-2015 iab-2021 iecb-1987 locb-2008 lusitana-1991 reb-2027
+reading_labels,ot_s=Old Testament (Track 1); psalm_s=Psalm (Track 1); ot_c=Old Testament (Track 2); psalm_c=Psalm (Track 2),acna-2019 ieab-2015 iab-2021 iecb-1987 locb-2008 lusitana-1991 reb-2027
+"# The Church in Wales: the Revised Common Lectionary year (Year A from Advent 2025) with its own changes in readings.csv; both series after Trinity, Continuous first.",,
+readings,rcl,wales-1984
+reading_cycle,abc,wales-1984
+reading_labels,ot_s=Old Testament (Continuous); psalm_s=Psalm (Continuous); ot_c=Old Testament (Related); psalm_c=Psalm (Related),wales-1984
+"# Common Worship: the Sunday, holy-day and festival lectionary and the Daily Eucharistic Lectionary (data/readings/cofe-cw*.csv).",,
+readings,cofe-cw cofe-cw-weekday,common-worship
+reading_cycle,abc; 1 2 2000,common-worship
+reading_labels,ot_s=Old Testament (Continuous); psalm_s=Psalm (Continuous); ot_c=Old Testament (Related); psalm_c=Psalm (Related); psalm_morning=Morning Psalm; psalm_evening=Evening Psalm,common-worship
+precedence,roman,common-worship
+"# Divine Worship: the Roman Lectionary for Mass (data/readings/roman.csv, Year A from Advent 2025), with the Ordinariate's own citations in readings.csv.",,
+readings,roman,divine-worship-2021
+"# Divine Worship: the Missal's Table of Liturgical Days (DWM 132-134), as the Roman Rite's.",,
+precedence,roman,divine-worship-2021
+hide_outranked_titles,TRUE,divine-worship-2021
+reading_cycle,abc,divine-worship-2021
+reading_labels,ot=Lesson; psalm=Psalm; epistle=Epistle; procession=Gospel at the Procession,divine-worship-2021
+reading_order,ot | psalm | epistle | gospel,divine-worship-2021
+# The page names no weekdays from their Sundays (weekday_titles) in the Portuguese books.,,
+weekday_titles,none,ieab-2015
+weekday_titles,none,lusitana-1991
+weekday_titles,none,locb-2008
+weekday_titles,none,iab-2021
+weekday_titles,none,iecb-1987
+weekday_titles,none,iarb-1662
+weekday_titles,none,reb-2027
+"# Hymnary.org's code for a hymnal whose scripture index the page's Hymn search searches: the Anglican Church of Canada's Common Praise (1998).  The Church of England has no hymnal of its own, so its calendars offer four, newest first, the first opening; several names give the page's Settings a Hymnal menu (codes separated by spaces, names by |): Ancient and Modern (2013), Complete Anglican Hymns Old and New (2000), Common Praise (2000, a new edition of Hymns Ancient and Modern) and the New English Hymnal (1986), the last with few hymns' scripture there yet.",,
+hymnary_hymnal,CP1998,bcp-1962
+hymnary_hymnal_name,Common Praise (1998),bcp-1962
+hymnary_hymnal,AM2013 CAH2000 CPAM2000 NEH1985,common-worship bcp-1662
+hymnary_hymnal_name,Ancient and Modern (2013)|Complete Anglican Hymns Old and New (2000)|Common Praise (2000)|The New English Hymnal (1986),common-worship bcp-1662

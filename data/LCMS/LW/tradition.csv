@@ -1,0 +1,13 @@
+setting,value,variant
+# ===========================================================================,,
+# The LCMS calendar of Lutheran Worship (1982).  Any setting from config.csv,,
+# may be given here and wins over it for this tradition.  See docs/traditions.md.,,
+# ===========================================================================,,
+year_start,sun<12-25-21,
+center_art,lutherrose,
+# readings.csv: the three-year series' Year A begins with Advent 2025.,,
+reading_cycle,abc,
+# The Bible version the page opens readings in (bible_version).,,
+bible_version,NIV,
+# The daily Bible reading plan of the LCMS, LCC and NALC (data/readings/plan-rwg.csv).,,
+readings,plan-rwg,

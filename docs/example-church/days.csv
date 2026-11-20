@@ -1,0 +1,14 @@
+id,when,date,from,to,every,first,title,color,claims
+advent,,,start,start+27,sun,1,{ordinal} Sunday of Advent,,
+christmas,,12-25,,,,,Christmas Day,WHITE,TRUE
+epiphany,,01-06,,,,,The Epiphany,WHITE,
+after_epiphany,,,@epiphany+1,easter-47,sun,1,{ordinal} Sunday after Epiphany,,
+ash_wednesday,,easter-46,,,,,Ash Wednesday,,
+lent,,,easter-45,easter-8,sun,1,{ordinal} Sunday in Lent,,
+palm_sunday,,easter-7,,,,,Palm Sunday,,TRUE
+good_friday,,easter-2,,,,,Good Friday,BLACK,
+easter,,easter,,,,,Easter Day,WHITE,TRUE
+after_easter,,,easter+7,easter+42,sun,2,{ordinal} Sunday of Easter,,
+pentecost,,easter+49,,,,,Pentecost,RED,TRUE
+trinity,,easter+56,,,,,Trinity Sunday,WHITE,TRUE
+after_pentecost,,,easter+63,end,sun,2,{ordinal} Sunday after Pentecost,,

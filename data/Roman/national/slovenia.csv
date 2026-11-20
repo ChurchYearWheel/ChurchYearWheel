@@ -1,0 +1,25 @@
+id,date,name,full_name,rank,style,color_override,color_override_bottom,icon,icon_when,transfer,variant,when,action,link
+,01-11,St. Paulinus II of Aquileia,"Saint Paulinus II of Aquileia, bishop",11,memorial,,,,,,,,,
+st_angela_merici,01-22,,"Saint Angela Merici, virgin",11,memorial,-,,,,,,,,
+,02-03,St. Blase,"Saint Blase, bishop and martyr",11,memorial,,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-blase/
+st_matthias,02-24,,"Saint Matthias, apostle",7,feast_rank,RED,,,,,,,,
+,04-16,St. Bernadette Soubirous,"Saint Bernadette Soubirous, virgin",11,memorial,,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-bernadette-soubirous-1844-1879/
+st_catherine_of_siena,,,"Saint Catherine of Siena, virgin and doctor of the Church",8,feast_rank,WHITE,,,,,,,,
+st_joseph_the_worker,,,Saint Joseph the Worker,8,feast_rank,WHITE,,,,,,,,
+,05-04,St. Florian,"Saint Florian, martyr",11,memorial,,,,,,,,,
+,05-12,St. Leopold Mandić,"Saint Leopold Mandić, priest",11,memorial,,,,,,,,,
+,05-16,St. John Nepomucene,"Saint John Nepomucene, priest and martyr",11,memorial,,,,,,,,,
+,05-24,"Our Lady, Help of Christians",,4,solemnity,WHITE,,,,,,,,
+,06-27,St. Hemma of Gurk,Saint Hemma of Gurk,11,memorial,,,,,,,,,
+,07-05,Sts. Cyril and Methodius,"Saints Cyril, monk and Methodius, bishop",4,solemnity,WHITE,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saints-cyril-and-methodius/
+st_benedict,,,"Saint Benedict, abbot",8,feast_rank,WHITE,,,,,,,,
+,07-12,Sts. Hermargoras and Fortunatus,"Saints Hermargoras, bishop and Fortunatus, deacon; martyrs",11,memorial,,,,,,,,,
+,07-23,St. Brigitta,"Saint Brigitta, religious",8,feast_rank,WHITE,,,,,,,,
+,07-27,Sts. Gorazd and Clement,"Saints Gorazd and Clement, bishops",11,memorial,,,,,,,,,
+st_teresa_benedicta_of_the_cross,,,"Saint Teresa Benedicta of the Cross, virgin and martyr",8,feast_rank,RED,,,,,,,,
+,09-24,Bl. Anton Martin Slomšek,"Blessed Anton Martin Slomšek, bishop",8,feast_rank,WHITE,,,,,,,,
+,11-03,St. Victorinus of Pettau,"Saint Victorinus of Pettau, bishop and martyr",11,memorial,,,,,,,,,
+,11-27,Sts. Modestus and Virgilius,"Saints Modestus and Virgilius, bishops",11,memorial,,,,,,,,,
+st_nicholas,,,"Saint Nicholas, bishop",11,memorial,-,,,,,,,,
+,easter+50,"Mary, Mother of the Church",,8,feast_rank,WHITE,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-reflections/blessed-virgin-mary-mother-of-the-church/
+,easter+69,Immaculate Heart of Mary,,8,feast_rank,WHITE,,,,,,,,

@@ -1,0 +1,2839 @@
+day,offset,when,cycle,variant,title,kind,reading
+# ===========================================================================
+# Church of Sweden: Den svenska evangelieboken (2003).  Each day has an Old
+"# Testament reading, an Epistle, a Gospel and a psalm, in three series"
+"# (årgångar, cycle I-III: the first series was read from Advent 2005); from"
+# Palm Sunday to Easter Day four series follow the four evangelists in turn
+"# (cycle MATTEUS, MARKUS, LUKAS, JOHANNES: Matthew from Advent 2003).  A"
+# fifth reading some days give is a second Gospel (or Epistle).
+"# Source: evangelieboken.se (with links to Bibel 2000 at bibeln.se), read"
+# October 2026; the book names are given in English for the Bible links.
+# Psalm verses are numbered as Swedish Bibles number them (the heading
+"# counted), so the links open Svenska Folkbibeln 2015 by default."
+# ===========================================================================
+advent:1,,,I,sweden,,ot,Zechariah 9:9–10
+advent:1,,,I,sweden,,epistle,Romans 13:11–14
+advent:1,,,I,sweden,,gospel,Matthew 21:1–9
+advent:1,,,I,sweden,,psalm,Psalm 24
+advent:1,,,II,sweden,,ot,Zechariah 9:9–10
+advent:1,,,II,sweden,,epistle,Revelation 3:20–22
+advent:1,,,II,sweden,,gospel,Matthew 21:1–9
+advent:1,,,II,sweden,,psalm,Psalm 24
+advent:1,,,II,sweden,,gospel,John 18:36–37
+advent:1,,,III,sweden,,ot,Zechariah 9:9–10
+advent:1,,,III,sweden,,epistle,Revelation 5:1–5
+advent:1,,,III,sweden,,gospel,Matthew 21:1–9
+advent:1,,,III,sweden,,psalm,Psalm 24
+advent:1,,,III,sweden,,gospel,Luke 4:16–23
+advent:2,,,I,sweden,,ot,Micah 4:1–4
+advent:2,,,I,sweden,,epistle,Romans 15:4–7
+advent:2,,,I,sweden,,gospel,Luke 21:25–36
+advent:2,,,I,sweden,,psalm,Psalm 85:9–14
+advent:2,,,II,sweden,,ot,Isaiah 35:1–10
+advent:2,,,II,sweden,,epistle,James 5:7–11
+advent:2,,,II,sweden,,gospel,Matthew 13:31–34
+advent:2,,,II,sweden,,psalm,Psalm 85:9–14
+advent:2,,,III,sweden,,ot,Jeremiah 33:14–16
+advent:2,,,III,sweden,,epistle,Hebrews 10:32–39
+advent:2,,,III,sweden,,gospel,Mark 1:14–15
+advent:2,,,III,sweden,,psalm,Psalm 85:9–14
+advent:3,,,I,sweden,,ot,Isaiah 29:17–21
+advent:3,,,I,sweden,,epistle,1 Corinthians 4:1–5
+advent:3,,,I,sweden,,gospel,Matthew 11:2–11
+advent:3,,,I,sweden,,psalm,Psalm 146:3–9
+advent:3,,,II,sweden,,ot,Malachi 4:4–6
+advent:3,,,II,sweden,,epistle,2 Peter 1:19–21
+advent:3,,,II,sweden,,gospel,Matthew 11:12–19
+advent:3,,,II,sweden,,psalm,Psalm 146:3–9
+advent:3,,,III,sweden,,ot,Isaiah 40:1–8
+advent:3,,,III,sweden,,epistle,Galatians 3:21–29
+advent:3,,,III,sweden,,gospel,Luke 3:1–15
+advent:3,,,III,sweden,,psalm,Psalm 146:3–9
+advent:4,,,I,sweden,,ot,Isaiah 40:9–11
+advent:4,,,I,sweden,,epistle,Romans 10:4–8
+advent:4,,,I,sweden,,gospel,Luke 1:46–55
+advent:4,,,I,sweden,,psalm,Psalm 145:8–13
+advent:4,,,II,sweden,,ot,Zephaniah 3:14–17
+advent:4,,,II,sweden,,epistle,Philippians 4:4–7
+advent:4,,,II,sweden,,gospel,Luke 1:30–35
+advent:4,,,II,sweden,,psalm,Psalm 145:8–13
+advent:4,,,III,sweden,,ot,Isaiah 52:7–10
+advent:4,,,III,sweden,,epistle,2 Corinthians 1:17–22
+advent:4,,,III,sweden,,gospel,Luke 1:39–45
+advent:4,,,III,sweden,,psalm,Psalm 145:8–13
+christmas_eve,,,,sweden,,ot,Isaiah 9:1–7
+christmas_eve,,,,sweden,,epistle,Hebrews 1:1–6
+christmas_eve,,,,sweden,,gospel,Luke 2:1–20
+christmas_eve,,,,sweden,,psalm,Psalm 108:2–7
+christmas,,,I,sweden,,ot,Isaiah 9:2–7
+christmas,,,I,sweden,,epistle,1 Timothy 3:16
+christmas,,,I,sweden,,gospel,Luke 2:1–20
+christmas,,,I,sweden,,psalm,Psalm 72:1–7
+christmas,,,II,sweden,,ot,Isaiah 9:2–7
+christmas,,,II,sweden,,epistle,1 John 1:1–4
+christmas,,,II,sweden,,gospel,Luke 2:1–20
+christmas,,,II,sweden,,psalm,Psalm 72:1–7
+christmas,,,II,sweden,,gospel,John 1:1–14
+christmas,,,III,sweden,,ot,Isaiah 9:2–7
+christmas,,,III,sweden,,epistle,Hebrews 1:1–3
+christmas,,,III,sweden,,gospel,Luke 2:1–20
+christmas,,,III,sweden,,psalm,Psalm 72:1–7
+christmas,,,III,sweden,,gospel,Matthew 1:18–25
+stephen,,,I,sweden,,ot,Jeremiah 1:17–19
+stephen,,,I,sweden,,epistle,Acts 6:8–15
+stephen,,,I,sweden,,gospel,Matthew 10:16–22
+stephen,,,I,sweden,,psalm,Psalm 46:2–8
+stephen,,,II,sweden,,ot,Jeremiah 20:7–11
+stephen,,,II,sweden,,epistle,Acts 7:55–8:8
+stephen,,,II,sweden,,gospel,Luke 12:49–53
+stephen,,,II,sweden,,psalm,Psalm 46:2–8
+stephen,,,III,sweden,,ot,Micah 7:1–6
+stephen,,,III,sweden,,epistle,Acts 4:18–31
+stephen,,,III,sweden,,gospel,Matthew 10:32–39
+stephen,,,III,sweden,,psalm,Psalm 46:2–8
+after_christmas,,,I,sweden,,ot,Jeremiah 31:15–17
+after_christmas,,,I,sweden,,epistle,Galatians 4:4–7
+after_christmas,,,I,sweden,,gospel,Matthew 2:13–23
+after_christmas,,,I,sweden,,psalm,Psalm 71:2–6
+after_christmas,,,II,sweden,,ot,Exodus 1:15–21
+after_christmas,,,II,sweden,,epistle,2 Timothy 3:14–15
+after_christmas,,,II,sweden,,gospel,Mark 10:13–16
+after_christmas,,,II,sweden,,psalm,Psalm 71:2–6
+after_christmas,,,III,sweden,,ot,Isaiah 11:1–9
+after_christmas,,,III,sweden,,epistle,Acts 7:17–22
+after_christmas,,,III,sweden,,gospel,Matthew 18:1–5
+after_christmas,,,III,sweden,,psalm,Psalm 71:2–6
+new_year,,,I,sweden,,ot,Numbers 6:22–27
+new_year,,,I,sweden,,epistle,Romans 10:9–13
+new_year,,,I,sweden,,gospel,Luke 2:21
+new_year,,,I,sweden,,psalm,Psalm 121
+new_year,,,II,sweden,,ot,Isaiah 49:13–16
+new_year,,,II,sweden,,epistle,Hebrews 13:5–8
+new_year,,,II,sweden,,gospel,Luke 13:6–9
+new_year,,,II,sweden,,psalm,Psalm 121
+new_year,,,III,sweden,,ot,Lamentations 3:22–26
+new_year,,,III,sweden,,epistle,Acts 10:42–43
+new_year,,,III,sweden,,gospel,John 2:23–25
+new_year,,,III,sweden,,psalm,Psalm 121
+after_new_year,,,I,sweden,,ot,1 Samuel 3:1–10
+after_new_year,,,I,sweden,,epistle,Hebrews 3:1–6
+after_new_year,,,I,sweden,,gospel,Luke 2:42–52
+after_new_year,,,I,sweden,,psalm,Psalm 84:2–5
+after_new_year,,,II,sweden,,ot,Isaiah 55:5–7
+after_new_year,,,II,sweden,,epistle,Romans 12:1–2
+after_new_year,,,II,sweden,,gospel,Mark 11:15–19
+after_new_year,,,II,sweden,,psalm,Psalm 84:2–5
+after_new_year,,,III,sweden,,ot,"1 Kings 8:20, 27–30"
+after_new_year,,,III,sweden,,epistle,Philippians 2:1–4
+after_new_year,,,III,sweden,,gospel,John 2:13–22
+after_new_year,,,III,sweden,,psalm,Psalm 84:2–5
+epiphany,,,I,sweden,,ot,Isaiah 60:1–6
+epiphany,,,I,sweden,,epistle,Colossians 1:11–14
+epiphany,,,I,sweden,,gospel,Matthew 2:1–12
+epiphany,,,I,sweden,,psalm,Psalm 72:10–15
+epiphany,,,II,sweden,,ot,Isaiah 49:5–7
+epiphany,,,II,sweden,,epistle,2 Corinthians 4:3–6
+epiphany,,,II,sweden,,gospel,Matthew 2:1–12
+epiphany,,,II,sweden,,psalm,Psalm 72:10–15
+epiphany,,,II,sweden,,gospel,John 8:12
+epiphany,,,III,sweden,,ot,1 Kings 10:1–7
+epiphany,,,III,sweden,,epistle,Ephesians 2:17–19
+epiphany,,,III,sweden,,gospel,Matthew 2:1–12
+epiphany,,,III,sweden,,psalm,Psalm 72:10–15
+epiphany,,,III,sweden,,gospel,Luke 11:29–32
+after_epiphany:1,,,I,sweden,,ot,Isaiah 42:1–7
+after_epiphany:1,,,I,sweden,,epistle,Acts 18:24–19:6
+after_epiphany:1,,,I,sweden,,gospel,Matthew 3:13–17
+after_epiphany:1,,,I,sweden,,psalm,Psalm 89:20–29
+after_epiphany:1,,,II,sweden,,ot,Exodus 1:22–2:10
+after_epiphany:1,,,II,sweden,,epistle,1 John 5:6–12
+after_epiphany:1,,,II,sweden,,gospel,"Luke 3:15–17, 21–22"
+after_epiphany:1,,,II,sweden,,psalm,Psalm 89:20–29
+after_epiphany:1,,,III,sweden,,ot,Isaiah 43:1–4
+after_epiphany:1,,,III,sweden,,epistle,Acts 8:14–17
+after_epiphany:1,,,III,sweden,,gospel,Mark 1:9–11
+after_epiphany:1,,,III,sweden,,psalm,Psalm 89:20–29
+after_epiphany:2,,,I,sweden,,ot,Exodus 33:18–23
+after_epiphany:2,,,I,sweden,,epistle,Ephesians 1:7–14
+after_epiphany:2,,,I,sweden,,gospel,John 2:1–11
+after_epiphany:2,,,I,sweden,,psalm,Psalm 19:2–7
+after_epiphany:2,,,II,sweden,,ot,Isaiah 55:1–4
+after_epiphany:2,,,II,sweden,,epistle,Revelation 22:16–17
+after_epiphany:2,,,II,sweden,,gospel,John 4:5–26
+after_epiphany:2,,,II,sweden,,psalm,Psalm 19:2–7
+after_epiphany:2,,,III,sweden,,ot,Deuteronomy 5:23–27
+after_epiphany:2,,,III,sweden,,epistle,Hebrews 2:9–10
+after_epiphany:2,,,III,sweden,,gospel,John 5:31–36
+after_epiphany:2,,,III,sweden,,psalm,Psalm 19:2–7
+after_epiphany:3,,,I,sweden,,ot,1 Kings 8:41–43
+after_epiphany:3,,,I,sweden,,epistle,Romans 1:16–17
+after_epiphany:3,,,I,sweden,,gospel,Matthew 8:5–13
+after_epiphany:3,,,I,sweden,,psalm,Psalm 36:6–10
+after_epiphany:3,,,II,sweden,,ot,Isaiah 45:22–24
+after_epiphany:3,,,II,sweden,,epistle,Galatians 2:16–21
+after_epiphany:3,,,II,sweden,,gospel,John 4:27–42
+after_epiphany:3,,,II,sweden,,psalm,Psalm 36:6–10
+after_epiphany:3,,,III,sweden,,ot,"2 Kings 5:1–4, 9–15"
+after_epiphany:3,,,III,sweden,,epistle,2 Corinthians 1:3–7
+after_epiphany:3,,,III,sweden,,gospel,John 4:46–54
+after_epiphany:3,,,III,sweden,,psalm,Psalm 36:6–10
+after_epiphany:4,,,I,sweden,,ot,Job 38:1–11
+after_epiphany:4,,,I,sweden,,epistle,2 Corinthians 1:8–11
+after_epiphany:4,,,I,sweden,,gospel,Mark 4:35–41
+after_epiphany:4,,,I,sweden,,psalm,Psalm 107:28–32
+after_epiphany:4,,,II,sweden,,ot,Isaiah 40:26–31
+after_epiphany:4,,,II,sweden,,epistle,James 5:13–16
+after_epiphany:4,,,II,sweden,,gospel,John 5:1–9
+after_epiphany:4,,,II,sweden,,psalm,Psalm 107:28–32
+after_epiphany:4,,,III,sweden,,ot,1 Kings 17:1–6
+after_epiphany:4,,,III,sweden,,epistle,2 Timothy 1:7–10
+after_epiphany:4,,,III,sweden,,gospel,Matthew 14:22–33
+after_epiphany:4,,,III,sweden,,psalm,Psalm 107:28–32
+after_epiphany:5,,,I,sweden,,ot,Ezekiel 34:17–23
+after_epiphany:5,,,I,sweden,,epistle,Colossians 3:12–16
+after_epiphany:5,,,I,sweden,,gospel,Matthew 13:24–30
+after_epiphany:5,,,I,sweden,,psalm,Psalm 37:1–7
+after_epiphany:5,,,II,sweden,,ot,Numbers 11:24–30
+after_epiphany:5,,,II,sweden,,epistle,Philippians 1:12–18
+after_epiphany:5,,,II,sweden,,gospel,Mark 9:38–41
+after_epiphany:5,,,II,sweden,,psalm,Psalm 37:1–7
+after_epiphany:5,,,III,sweden,,ot,Ezekiel 33:10–16
+after_epiphany:5,,,III,sweden,,epistle,Romans 2:12–16
+after_epiphany:5,,,III,sweden,,gospel,Luke 13:22–30
+after_epiphany:5,,,III,sweden,,psalm,Psalm 37:1–7
+after_epiphany:6,,,,sweden,,ot,Isaiah 43:15–21
+after_epiphany:6,,,,sweden,,epistle,Philippians 2:12–13
+after_epiphany:6,,,,sweden,,gospel,John 5:16–23
+after_epiphany:6,,,,sweden,,psalm,Psalm 63:2–5
+septuagesima,,,I,sweden,,ot,Jeremiah 9:23–24
+septuagesima,,,I,sweden,,epistle,1 Corinthians 1:1–3
+septuagesima,,,I,sweden,,gospel,Matthew 20:1–16
+septuagesima,,,I,sweden,,psalm,Psalm 25:4–11
+septuagesima,,,II,sweden,,ot,Jonah 3:10–4:11
+septuagesima,,,II,sweden,,epistle,Philippians 1:3–11
+septuagesima,,,II,sweden,,gospel,Luke 17:7–10
+septuagesima,,,II,sweden,,psalm,Psalm 25:4–11
+septuagesima,,,III,sweden,,ot,Wisdom of Solomon 11:22–26
+septuagesima,,,III,sweden,,epistle,Philippians 3:7–14
+septuagesima,,,III,sweden,,gospel,Matthew 19:27–30
+septuagesima,,,III,sweden,,psalm,Psalm 25:4–11
+sexagesima,,,I,sweden,,ot,Isaiah 55:8–11
+sexagesima,,,I,sweden,,epistle,1 Corinthians 1:18–25
+sexagesima,,,I,sweden,,gospel,Luke 8:4–15
+sexagesima,,,I,sweden,,psalm,Psalm 33:4–9
+sexagesima,,,II,sweden,,ot,Psalm 119:129–135
+sexagesima,,,II,sweden,,epistle,Romans 10:13–17
+sexagesima,,,II,sweden,,gospel,John 7:40–52
+sexagesima,,,II,sweden,,psalm,Psalm 33:4–9
+sexagesima,,,III,sweden,,ot,Jeremiah 23:23–29
+sexagesima,,,III,sweden,,epistle,Hebrews 4:12–13
+sexagesima,,,III,sweden,,gospel,John 6:60–69
+sexagesima,,,III,sweden,,psalm,Psalm 33:4–9
+shrove_sunday,,,I,sweden,,ot,Isaiah 52:13–15
+shrove_sunday,,,I,sweden,,epistle,1 Corinthians 13:1–13
+shrove_sunday,,,I,sweden,,gospel,Luke 18:31–43
+shrove_sunday,,,I,sweden,,psalm,Psalm 86:5–11
+shrove_sunday,,,II,sweden,,ot,Esther 4:12–17
+shrove_sunday,,,II,sweden,,epistle,1 Timothy 2:4–6
+shrove_sunday,,,II,sweden,,gospel,John 12:20–33
+shrove_sunday,,,II,sweden,,psalm,Psalm 86:5–11
+shrove_sunday,,,III,sweden,,ot,Song of Solomon 8:6–7
+shrove_sunday,,,III,sweden,,epistle,2 Corinthians 5:14–21
+shrove_sunday,,,III,sweden,,gospel,Mark 10:32–45
+shrove_sunday,,,III,sweden,,psalm,Psalm 86:5–11
+ash_wednesday,,,I,sweden,,ot,Isaiah 58:4–9
+ash_wednesday,,,I,sweden,,epistle,James 2:14–17
+ash_wednesday,,,I,sweden,,gospel,Matthew 6:16–18
+ash_wednesday,,,I,sweden,,psalm,Psalm 32:1–5
+ash_wednesday,,,II,sweden,,ot,Joel 2:12–19
+ash_wednesday,,,II,sweden,,epistle,Acts 13:1–3
+ash_wednesday,,,II,sweden,,gospel,Mark 2:18–20
+ash_wednesday,,,II,sweden,,psalm,Psalm 32:1–5
+ash_wednesday,,,III,sweden,,ot,Prayer of Manasseh 11–15
+ash_wednesday,,,III,sweden,,epistle,2 Corinthians 7:8–13
+ash_wednesday,,,III,sweden,,gospel,Luke 5:33–39
+ash_wednesday,,,III,sweden,,psalm,Psalm 32:1–5
+lent:1,,,I,sweden,,ot,Genesis 16:1–13
+lent:1,,,I,sweden,,epistle,Hebrews 4:14–16
+lent:1,,,I,sweden,,gospel,Matthew 4:1–11
+lent:1,,,I,sweden,,psalm,Psalm 31:2–6
+lent:1,,,II,sweden,,ot,Genesis 4:3–7
+lent:1,,,II,sweden,,epistle,James 1:12–15
+lent:1,,,II,sweden,,gospel,Matthew 16:21–23
+lent:1,,,II,sweden,,psalm,Psalm 31:2–6
+lent:1,,,III,sweden,,ot,Genesis 3:1–13
+lent:1,,,III,sweden,,epistle,Hebrews 5:7–10
+lent:1,,,III,sweden,,gospel,Mark 1:12–13
+lent:1,,,III,sweden,,psalm,Psalm 31:2–6
+lent:2,,,I,sweden,,ot,Genesis 32:22–31
+lent:2,,,I,sweden,,epistle,2 Corinthians 6:1–10
+lent:2,,,I,sweden,,gospel,Matthew 15:21–28
+lent:2,,,I,sweden,,psalm,Psalm 130
+lent:2,,,II,sweden,,ot,1 Kings 19:1–8
+lent:2,,,II,sweden,,epistle,1 Corinthians 10:12–13
+lent:2,,,II,sweden,,gospel,Luke 7:36–8:3
+lent:2,,,II,sweden,,psalm,Psalm 130
+lent:2,,,III,sweden,,ot,Isaiah 61:1–3
+lent:2,,,III,sweden,,epistle,Hebrews 11:23–27
+lent:2,,,III,sweden,,gospel,Mark 14:3–9
+lent:2,,,III,sweden,,psalm,Psalm 130
+lent:3,,,I,sweden,,ot,1 Samuel 17:40–50
+lent:3,,,I,sweden,,epistle,Ephesians 5:1–9
+lent:3,,,I,sweden,,gospel,Luke 11:14–26
+lent:3,,,I,sweden,,psalm,Psalm 25:12–22
+lent:3,,,II,sweden,,ot,Isaiah 59:14–17
+lent:3,,,II,sweden,,epistle,Ephesians 6:10–18
+lent:3,,,II,sweden,,gospel,Mark 5:24–34
+lent:3,,,II,sweden,,psalm,Psalm 25:12–22
+lent:3,,,III,sweden,,ot,"1 Kings 18:26–29, 36–39"
+lent:3,,,III,sweden,,epistle,Revelation 3:14–19
+lent:3,,,III,sweden,,gospel,Mark 9:14–32
+lent:3,,,III,sweden,,psalm,Psalm 25:12–22
+mid_lent,,,I,sweden,,ot,2 Kings 4:42–44
+mid_lent,,,I,sweden,,epistle,2 Corinthians 9:8–10
+mid_lent,,,I,sweden,,gospel,John 6:1–15
+mid_lent,,,I,sweden,,psalm,Psalm 107:1–9
+mid_lent,,,II,sweden,,ot,Exodus 16:11–18
+mid_lent,,,II,sweden,,epistle,1 Peter 2:1–3
+mid_lent,,,II,sweden,,gospel,John 6:24–35
+mid_lent,,,II,sweden,,psalm,Psalm 107:1–9
+mid_lent,,,III,sweden,,ot,Proverbs 9:1–6
+mid_lent,,,III,sweden,,epistle,1 Corinthians 10:1–6
+mid_lent,,,III,sweden,,gospel,John 6:48–59
+mid_lent,,,III,sweden,,psalm,Psalm 107:1–9
+lent:5,,,I,sweden,,ot,Leviticus 16:15–16
+lent:5,,,I,sweden,,epistle,Hebrews 7:24–27
+lent:5,,,I,sweden,,gospel,John 11:46–57
+lent:5,,,I,sweden,,psalm,Psalm 103:8–14
+lent:5,,,II,sweden,,ot,Genesis 22:1–14
+lent:5,,,II,sweden,,epistle,Acts 4:1–12
+lent:5,,,II,sweden,,gospel,Mark 12:1–12
+lent:5,,,II,sweden,,psalm,Psalm 103:8–14
+lent:5,,,III,sweden,,ot,Numbers 21:4–9
+lent:5,,,III,sweden,,epistle,1 John 1:8–2:2
+lent:5,,,III,sweden,,gospel,John 3:11–21
+lent:5,,,III,sweden,,psalm,Psalm 103:8–14
+palm_sunday,,,MATTEUS,sweden,,ot,Isaiah 56:6–8
+palm_sunday,,,MATTEUS,sweden,,epistle,Ephesians 2:12–16
+palm_sunday,,,MATTEUS,sweden,,gospel,Matthew 21:1–11
+palm_sunday,,,MATTEUS,sweden,,psalm,Psalm 118:19–29
+palm_sunday,,,MARKUS,sweden,,ot,Exodus 13:6–10
+palm_sunday,,,MARKUS,sweden,,epistle,Hebrews 2:14–18
+palm_sunday,,,MARKUS,sweden,,gospel,Mark 11:1–11
+palm_sunday,,,MARKUS,sweden,,psalm,Psalm 118:19–29
+palm_sunday,,,LUKAS,sweden,,ot,Isaiah 50:5–10
+palm_sunday,,,LUKAS,sweden,,epistle,Romans 5:1–5
+palm_sunday,,,LUKAS,sweden,,gospel,Luke 19:28–40
+palm_sunday,,,LUKAS,sweden,,psalm,Psalm 118:19–29
+palm_sunday,,,JOHANNES,sweden,,ot,Zechariah 2:10–13
+palm_sunday,,,JOHANNES,sweden,,epistle,Philippians 2:5–11
+palm_sunday,,,JOHANNES,sweden,,gospel,John 12:1–16
+palm_sunday,,,JOHANNES,sweden,,psalm,Psalm 118:19–29
+maundy_thursday,,,MATTEUS,sweden,,ot,Exodus 12:1–14
+maundy_thursday,,,MATTEUS,sweden,,epistle,1 Corinthians 11:20–25
+maundy_thursday,,,MATTEUS,sweden,,gospel,Matthew 26:17–30
+maundy_thursday,,,MATTEUS,sweden,,psalm,Psalm 111:1–5
+maundy_thursday,,,MARKUS,sweden,,ot,Exodus 24:3–11
+maundy_thursday,,,MARKUS,sweden,,epistle,1 Corinthians 10:16–17
+maundy_thursday,,,MARKUS,sweden,,gospel,Mark 14:12–26
+maundy_thursday,,,MARKUS,sweden,,psalm,Psalm 111:1–5
+maundy_thursday,,,LUKAS,sweden,,ot,Exodus 12:15–20
+maundy_thursday,,,LUKAS,sweden,,epistle,1 Corinthians 5:6–8
+maundy_thursday,,,LUKAS,sweden,,gospel,Luke 22:7–23
+maundy_thursday,,,LUKAS,sweden,,psalm,Psalm 111:1–5
+maundy_thursday,,,JOHANNES,sweden,,ot,Jeremiah 31:31–34
+maundy_thursday,,,JOHANNES,sweden,,epistle,Hebrews 10:12–18
+maundy_thursday,,,JOHANNES,sweden,,gospel,John 13:1–17
+maundy_thursday,,,JOHANNES,sweden,,psalm,Psalm 111:1–5
+good_friday,,,MATTEUS,sweden,,ot,Isaiah 53:1–12
+good_friday,,,MATTEUS,sweden,,epistle,1 Peter 3:18–19
+good_friday,,,MATTEUS,sweden,,gospel,Matthew 27:32–56
+good_friday,,,MATTEUS,sweden,,psalm,Psalm 22
+good_friday,,,MARKUS,sweden,,ot,Isaiah 53:1–12
+good_friday,,,MARKUS,sweden,,epistle,1 Corinthians 2:1–10
+good_friday,,,MARKUS,sweden,,gospel,Mark 15:21–41
+good_friday,,,MARKUS,sweden,,psalm,Psalm 22
+good_friday,,,LUKAS,sweden,,ot,Isaiah 53:1–12
+good_friday,,,LUKAS,sweden,,epistle,Philippians 2:6–8
+good_friday,,,LUKAS,sweden,,gospel,Luke 23:26–49
+good_friday,,,LUKAS,sweden,,psalm,Psalm 22
+good_friday,,,JOHANNES,sweden,,ot,Isaiah 53:1–12
+good_friday,,,JOHANNES,sweden,,epistle,Hebrews 10:19–25
+good_friday,,,JOHANNES,sweden,,gospel,John 19:17–37
+good_friday,,,JOHANNES,sweden,,psalm,Psalm 22
+easter_eve,,,MATTEUS,sweden,,ot,"Exodus 14:10–16, 21–22"
+easter_eve,,,MATTEUS,sweden,,epistle,Romans 6:3–11
+easter_eve,,,MATTEUS,sweden,,gospel,Matthew 28:1–8
+easter_eve,,,MATTEUS,sweden,,psalm,Psalm 114
+easter_eve,,,MARKUS,sweden,,ot,Daniel 3:19–25
+easter_eve,,,MARKUS,sweden,,epistle,2 Timothy 2:8–13
+easter_eve,,,MARKUS,sweden,,gospel,Mark 16:1–8
+easter_eve,,,MARKUS,sweden,,psalm,Psalm 114
+easter_eve,,,LUKAS,sweden,,ot,Exodus 12:21–28
+easter_eve,,,LUKAS,sweden,,epistle,Colossians 2:6–15
+easter_eve,,,LUKAS,sweden,,gospel,Luke 23:55–24:12
+easter_eve,,,LUKAS,sweden,,psalm,Psalm 114
+easter_eve,,,JOHANNES,sweden,,ot,Job 19:25–27
+easter_eve,,,JOHANNES,sweden,,epistle,Ephesians 2:1–6
+easter_eve,,,JOHANNES,sweden,,gospel,John 20:1–10
+easter_eve,,,JOHANNES,sweden,,psalm,Psalm 114
+easter,,,MATTEUS,sweden,,ot,Isaiah 25:6–9
+easter,,,MATTEUS,sweden,,epistle,1 Corinthians 15:53–57
+easter,,,MATTEUS,sweden,,gospel,Matthew 28:1–20
+easter,,,MATTEUS,sweden,,psalm,Psalm 118:15–24
+easter,,,MARKUS,sweden,,ot,Exodus 15:1–11
+easter,,,MARKUS,sweden,,epistle,1 Corinthians 15:12–21
+easter,,,MARKUS,sweden,,gospel,Mark 16:1–14
+easter,,,MARKUS,sweden,,psalm,Psalm 118:15–24
+easter,,,LUKAS,sweden,,ot,Hosea 6:1–3
+easter,,,LUKAS,sweden,,epistle,Acts 3:14–16
+easter,,,LUKAS,sweden,,gospel,Luke 24:1–12
+easter,,,LUKAS,sweden,,psalm,Psalm 118:15–24
+easter,,,JOHANNES,sweden,,ot,Jonah 2:1–11
+easter,,,JOHANNES,sweden,,epistle,Acts 13:32–37
+easter,,,JOHANNES,sweden,,gospel,John 20:1–18
+easter,,,JOHANNES,sweden,,psalm,Psalm 118:15–24
+easter_monday,,,I,sweden,,ot,Ezekiel 37:1–10
+easter_monday,,,I,sweden,,epistle,Acts 10:34–43
+easter_monday,,,I,sweden,,gospel,Luke 24:13–35
+easter_monday,,,I,sweden,,psalm,Psalm 16:6–11
+easter_monday,,,II,sweden,,ot,Deuteronomy 18:15–18
+easter_monday,,,II,sweden,,epistle,Colossians 3:1–4
+easter_monday,,,II,sweden,,gospel,Luke 24:36–49
+easter_monday,,,II,sweden,,psalm,Psalm 16:6–11
+easter_monday,,,III,sweden,,ot,Jeremiah 31:9–13
+easter_monday,,,III,sweden,,epistle,1 Peter 1:18–23
+easter_monday,,,III,sweden,,gospel,John 20:19–23
+easter_monday,,,III,sweden,,psalm,Psalm 16:6–11
+easter+7,,,I,sweden,,ot,Isaiah 43:10–13
+easter+7,,,I,sweden,,epistle,1 Corinthians 15:1–11
+easter+7,,,I,sweden,,gospel,John 21:1–14
+easter+7,,,I,sweden,,psalm,Psalm 145:1–7
+easter+7,,,II,sweden,,ot,Jeremiah 18:1–6
+easter+7,,,II,sweden,,epistle,1 John 5:1–5
+easter+7,,,II,sweden,,gospel,John 21:15–19
+easter+7,,,II,sweden,,psalm,Psalm 145:1–7
+easter+7,,,III,sweden,,ot,Zechariah 8:6–8
+easter+7,,,III,sweden,,epistle,1 Peter 1:3–9
+easter+7,,,III,sweden,,gospel,John 20:24–31
+easter+7,,,III,sweden,,psalm,Psalm 145:1–7
+easter+14,,,I,sweden,,ot,Ezekiel 34:11–16
+easter+14,,,I,sweden,,epistle,1 Peter 2:22–25
+easter+14,,,I,sweden,,gospel,John 10:1–10
+easter+14,,,I,sweden,,psalm,Psalm 23
+easter+14,,,II,sweden,,ot,Ezekiel 34:23–31
+easter+14,,,II,sweden,,epistle,Hebrews 13:20–21
+easter+14,,,II,sweden,,gospel,John 10:11–16
+easter+14,,,II,sweden,,psalm,Psalm 23
+easter+14,,,III,sweden,,ot,Jeremiah 23:3–8
+easter+14,,,III,sweden,,epistle,1 Peter 5:1–4
+easter+14,,,III,sweden,,gospel,John 10:22–30
+easter+14,,,III,sweden,,psalm,Psalm 23
+easter+21,,,I,sweden,,ot,Isaiah 54:7–10
+easter+21,,,I,sweden,,epistle,Hebrews 13:12–16
+easter+21,,,I,sweden,,gospel,John 16:16–22
+easter+21,,,I,sweden,,psalm,Psalm 147:1–7
+easter+21,,,II,sweden,,ot,Sirach 28:3–7
+easter+21,,,II,sweden,,epistle,2 Corinthians 4:16–18
+easter+21,,,II,sweden,,gospel,John 14:1–14
+easter+21,,,II,sweden,,psalm,Psalm 147:1–7
+easter+21,,,III,sweden,,ot,Exodus 13:20–22
+easter+21,,,III,sweden,,epistle,1 Thessalonians 5:9–11
+easter+21,,,III,sweden,,gospel,John 13:31–35
+easter+21,,,III,sweden,,psalm,Psalm 147:1–7
+easter+28,,,I,sweden,,ot,Hosea 11:1–4
+easter+28,,,I,sweden,,epistle,1 John 4:10–16
+easter+28,,,I,sweden,,gospel,John 16:5–11
+easter+28,,,I,sweden,,psalm,Psalm 98:1–8
+easter+28,,,II,sweden,,ot,Hosea 14:5–9
+easter+28,,,II,sweden,,epistle,1 John 3:18–24
+easter+28,,,II,sweden,,gospel,John 15:10–17
+easter+28,,,II,sweden,,psalm,Psalm 98:1–8
+easter+28,,,III,sweden,,ot,Isaiah 57:15–16
+easter+28,,,III,sweden,,epistle,Galatians 5:13–18
+easter+28,,,III,sweden,,gospel,John 17:9–17
+easter+28,,,III,sweden,,psalm,Psalm 98:1–8
+rogate,,,I,sweden,,ot,Genesis 18:26–32
+rogate,,,I,sweden,,epistle,Ephesians 3:14–21
+rogate,,,I,sweden,,gospel,Luke 18:1–8
+rogate,,,I,sweden,,psalm,Psalm 13
+rogate,,,II,sweden,,ot,Jeremiah 29:11–14
+rogate,,,II,sweden,,epistle,1 John 5:13–15
+rogate,,,II,sweden,,gospel,Luke 11:1–13
+rogate,,,II,sweden,,psalm,Psalm 13
+rogate,,,III,sweden,,ot,1 Kings 3:5–14
+rogate,,,III,sweden,,epistle,Romans 8:24–27
+rogate,,,III,sweden,,gospel,Matthew 6:5–8
+rogate,,,III,sweden,,psalm,Psalm 13
+ascension,,,I,sweden,,ot,2 Kings 2:11–14
+ascension,,,I,sweden,,epistle,Acts 1:1–11
+ascension,,,I,sweden,,gospel,Mark 16:19–20
+ascension,,,I,sweden,,psalm,Psalm 110
+ascension,,,II,sweden,,ot,Isaiah 61:10–11
+ascension,,,II,sweden,,epistle,Acts 1:1–11
+ascension,,,II,sweden,,gospel,Luke 24:49–53
+ascension,,,II,sweden,,psalm,Psalm 110
+ascension,,,II,sweden,,gospel,Ephesians 1:17–23
+ascension,,,III,sweden,,ot,Daniel 7:13–14
+ascension,,,III,sweden,,epistle,Acts 1:1–11
+ascension,,,III,sweden,,gospel,John 17:1–8
+ascension,,,III,sweden,,psalm,Psalm 110
+ascension,,,III,sweden,,gospel,Ephesians 4:7–13
+exaudi,,,I,sweden,,ot,Zechariah 14:6–9
+exaudi,,,I,sweden,,epistle,Romans 8:16–18
+exaudi,,,I,sweden,,gospel,John 15:26–16:4
+exaudi,,,I,sweden,,psalm,Psalm 33:18–22
+exaudi,,,II,sweden,,ot,Deuteronomy 31:6–8
+exaudi,,,II,sweden,,epistle,Romans 8:31–39
+exaudi,,,II,sweden,,gospel,John 16:23–33
+exaudi,,,II,sweden,,psalm,Psalm 33:18–22
+exaudi,,,III,sweden,,ot,1 Kings 19:9–16
+exaudi,,,III,sweden,,epistle,Acts 1:12–14
+exaudi,,,III,sweden,,gospel,John 16:12–15
+exaudi,,,III,sweden,,psalm,Psalm 33:18–22
+pentecost,,,I,sweden,,ot,Genesis 11:1–9
+pentecost,,,I,sweden,,epistle,Acts 2:1–11
+pentecost,,,I,sweden,,gospel,John 14:25–29
+pentecost,,,I,sweden,,psalm,Psalm 104:27–31
+pentecost,,,II,sweden,,ot,Joel 2:28–29
+pentecost,,,II,sweden,,epistle,Acts 2:1–11
+pentecost,,,II,sweden,,gospel,John 14:15–21
+pentecost,,,II,sweden,,psalm,Psalm 104:27–31
+pentecost,,,II,sweden,,gospel,Acts 2:14–21
+pentecost,,,III,sweden,,ot,Isaiah 12
+pentecost,,,III,sweden,,epistle,Acts 2:1–11
+pentecost,,,III,sweden,,gospel,John 7:37–39
+pentecost,,,III,sweden,,psalm,Psalm 104:27–31
+pentecost,,,III,sweden,,gospel,Ephesians 2:17–22
+whit_monday,,,I,sweden,,ot,Exodus 17:1–7
+whit_monday,,,I,sweden,,epistle,Acts 10:42–48
+whit_monday,,,I,sweden,,gospel,John 6:44–47
+whit_monday,,,I,sweden,,psalm,"Psalm 68:10–14, 20–21"
+whit_monday,,,II,sweden,,ot,Ezekiel 11:17–20
+whit_monday,,,II,sweden,,epistle,Acts 11:19–26
+whit_monday,,,II,sweden,,gospel,John 3:31–36
+whit_monday,,,II,sweden,,psalm,"Psalm 68:10–14, 20–21"
+whit_monday,,,III,sweden,,ot,Isaiah 44:1–8
+whit_monday,,,III,sweden,,epistle,Acts 2:36–41
+whit_monday,,,III,sweden,,gospel,John 12:44–50
+whit_monday,,,III,sweden,,psalm,"Psalm 68:10–14, 20–21"
+trinity,,,I,sweden,,ot,Deuteronomy 6:4–9
+trinity,,,I,sweden,,epistle,Acts 2:24–35
+trinity,,,I,sweden,,gospel,Matthew 11:25–27
+trinity,,,I,sweden,,psalm,Psalm 113:1–6
+trinity,,,II,sweden,,ot,Exodus 3:1–15
+trinity,,,II,sweden,,epistle,Romans 11:33–36
+trinity,,,II,sweden,,gospel,Matthew 28:16–20
+trinity,,,II,sweden,,psalm,Psalm 113:1–6
+trinity,,,III,sweden,,ot,Genesis 18:1–8
+trinity,,,III,sweden,,epistle,Acts 4:5–12
+trinity,,,III,sweden,,gospel,John 11:18–27
+trinity,,,III,sweden,,psalm,Psalm 113:1–6
+after_trinity:1,,,I,sweden,,ot,Ezekiel 36:25–28
+after_trinity:1,,,I,sweden,,epistle,Romans 6:3–11
+after_trinity:1,,,I,sweden,,gospel,John 3:1–8
+after_trinity:1,,,I,sweden,,psalm,Psalm 66:5–12
+after_trinity:1,,,II,sweden,,ot,Exodus 14:21–22
+after_trinity:1,,,II,sweden,,epistle,Titus 3:4–8
+after_trinity:1,,,II,sweden,,gospel,John 1:29–34
+after_trinity:1,,,II,sweden,,psalm,Psalm 66:5–12
+after_trinity:1,,,III,sweden,,ot,Genesis 7:11–23
+after_trinity:1,,,III,sweden,,epistle,Acts 8:26–39
+after_trinity:1,,,III,sweden,,gospel,Matthew 3:11–12
+after_trinity:1,,,III,sweden,,psalm,Psalm 66:5–12
+after_trinity:2,,,I,sweden,,ot,Zechariah 3:1–7
+after_trinity:2,,,I,sweden,,epistle,Revelation 19:5–9
+after_trinity:2,,,I,sweden,,gospel,Luke 14:15–24
+after_trinity:2,,,I,sweden,,psalm,Psalm 65:2–5
+after_trinity:2,,,II,sweden,,ot,Deuteronomy 7:6–9
+after_trinity:2,,,II,sweden,,epistle,Romans 8:28–30
+after_trinity:2,,,II,sweden,,gospel,John 1:35–46
+after_trinity:2,,,II,sweden,,psalm,Psalm 65:2–5
+after_trinity:2,,,III,sweden,,ot,Judges 6:7–16
+after_trinity:2,,,III,sweden,,epistle,1 Corinthians 1:26–31
+after_trinity:2,,,III,sweden,,gospel,Mark 2:13–17
+after_trinity:2,,,III,sweden,,psalm,Psalm 65:2–5
+after_trinity:3,,,I,sweden,,ot,Micah 7:18–20
+after_trinity:3,,,I,sweden,,epistle,Romans 5:6–11
+after_trinity:3,,,I,sweden,,gospel,Luke 15:1–7
+after_trinity:3,,,I,sweden,,psalm,Psalm 119:170–176
+after_trinity:3,,,II,sweden,,ot,Isaiah 51:1–3
+after_trinity:3,,,II,sweden,,epistle,Ephesians 2:1–10
+after_trinity:3,,,II,sweden,,gospel,Luke 15:8–10
+after_trinity:3,,,II,sweden,,psalm,Psalm 119:170–176
+after_trinity:3,,,III,sweden,,ot,Isaiah 66:12–14
+after_trinity:3,,,III,sweden,,epistle,1 Peter 5:5–11
+after_trinity:3,,,III,sweden,,gospel,Luke 15:11–32
+after_trinity:3,,,III,sweden,,psalm,Psalm 119:170–176
+after_trinity:4,,,I,sweden,,ot,2 Samuel 12:1–7
+after_trinity:4,,,I,sweden,,epistle,Romans 2:1–4
+after_trinity:4,,,I,sweden,,gospel,Matthew 7:1–5
+after_trinity:4,,,I,sweden,,psalm,Psalm 62:2–9
+after_trinity:4,,,II,sweden,,ot,Zechariah 7:8–10
+after_trinity:4,,,II,sweden,,epistle,Romans 14:11–14
+after_trinity:4,,,II,sweden,,gospel,John 8:1–11
+after_trinity:4,,,II,sweden,,psalm,Psalm 62:2–9
+after_trinity:4,,,III,sweden,,ot,Ezekiel 18:30–32
+after_trinity:4,,,III,sweden,,epistle,Galatians 6:1–7
+after_trinity:4,,,III,sweden,,gospel,Luke 6:36–42
+after_trinity:4,,,III,sweden,,psalm,Psalm 62:2–9
+apostles,,,I,sweden,,ot,"Ezekiel 1:26–2:3, 8–10"
+apostles,,,I,sweden,,epistle,1 Timothy 1:12–17
+apostles,,,I,sweden,,gospel,Luke 5:1–11
+apostles,,,I,sweden,,psalm,Psalm 40:6–12
+apostles,,,II,sweden,,ot,Isaiah 6:1–8
+apostles,,,II,sweden,,epistle,1 Peter 2:4–10
+apostles,,,II,sweden,,gospel,Matthew 16:13–20
+apostles,,,II,sweden,,psalm,Psalm 40:6–12
+apostles,,,III,sweden,,ot,Jeremiah 1:4–10
+apostles,,,III,sweden,,epistle,Romans 16:1–7
+apostles,,,III,sweden,,gospel,Mark 3:7–19
+apostles,,,III,sweden,,psalm,Psalm 40:6–12
+after_trinity:6,,,I,sweden,,ot,"Leviticus 19:1–2, 13–18"
+after_trinity:6,,,I,sweden,,epistle,1 Peter 1:13–16
+after_trinity:6,,,I,sweden,,gospel,Matthew 5:20–26
+after_trinity:6,,,I,sweden,,psalm,Psalm 15
+after_trinity:6,,,II,sweden,,ot,Amos 7:10–15
+after_trinity:6,,,II,sweden,,epistle,1 Thessalonians 2:1–8
+after_trinity:6,,,II,sweden,,gospel,Matthew 16:24–27
+after_trinity:6,,,II,sweden,,psalm,Psalm 15
+after_trinity:6,,,III,sweden,,ot,1 Kings 19:19–21
+after_trinity:6,,,III,sweden,,epistle,1 Corinthians 9:19–26
+after_trinity:6,,,III,sweden,,gospel,Luke 9:51–62
+after_trinity:6,,,III,sweden,,psalm,Psalm 15
+transfiguration,,,I,sweden,,ot,Exodus 24:12–18
+transfiguration,,,I,sweden,,epistle,2 Peter 1:16–18
+transfiguration,,,I,sweden,,gospel,Matthew 17:1–8
+transfiguration,,,I,sweden,,psalm,Psalm 89:12–18
+transfiguration,,,II,sweden,,ot,Exodus 34:27–35
+transfiguration,,,II,sweden,,epistle,2 Corinthians 3:9–18
+transfiguration,,,II,sweden,,gospel,Mark 9:1–13
+transfiguration,,,II,sweden,,psalm,Psalm 89:12–18
+transfiguration,,,III,sweden,,ot,Exodus 40:34–38
+transfiguration,,,III,sweden,,epistle,Revelation 1:9–18
+transfiguration,,,III,sweden,,gospel,Luke 9:28–36
+transfiguration,,,III,sweden,,psalm,Psalm 89:12–18
+after_trinity:8,,,I,sweden,,ot,Micah 3:5–8
+after_trinity:8,,,I,sweden,,epistle,1 John 4:1–6
+after_trinity:8,,,I,sweden,,gospel,Matthew 7:15–21
+after_trinity:8,,,I,sweden,,psalm,Psalm 119:30–35
+after_trinity:8,,,II,sweden,,ot,Proverbs 7:1–3
+after_trinity:8,,,II,sweden,,epistle,1 Corinthians 3:10–15
+after_trinity:8,,,II,sweden,,gospel,Matthew 7:22–29
+after_trinity:8,,,II,sweden,,psalm,Psalm 119:30–35
+after_trinity:8,,,III,sweden,,ot,Jeremiah 7:1–7
+after_trinity:8,,,III,sweden,,epistle,Romans 8:14–17
+after_trinity:8,,,III,sweden,,gospel,Matthew 7:13–14
+after_trinity:8,,,III,sweden,,psalm,Psalm 119:30–35
+after_trinity:9,,,I,sweden,,ot,Genesis 1:24–2:3
+after_trinity:9,,,I,sweden,,epistle,1 Peter 4:7–11
+after_trinity:9,,,I,sweden,,gospel,Matthew 25:14–30
+after_trinity:9,,,I,sweden,,psalm,Psalm 8
+after_trinity:9,,,II,sweden,,ot,Proverbs 3:27–32
+after_trinity:9,,,II,sweden,,epistle,Ephesians 4:20–28
+after_trinity:9,,,II,sweden,,gospel,Luke 12:42–48
+after_trinity:9,,,II,sweden,,psalm,Psalm 8
+after_trinity:9,,,III,sweden,,ot,Amos 8:4–7
+after_trinity:9,,,III,sweden,,epistle,2 Timothy 4:1–7
+after_trinity:9,,,III,sweden,,gospel,Luke 16:1–13
+after_trinity:9,,,III,sweden,,psalm,Psalm 8
+after_trinity:10,,,I,sweden,,ot,Isaiah 27:2–6
+after_trinity:10,,,I,sweden,,epistle,1 Corinthians 12:12–26
+after_trinity:10,,,I,sweden,,gospel,John 15:1–9
+after_trinity:10,,,I,sweden,,psalm,Psalm 28:6–9
+after_trinity:10,,,II,sweden,,ot,Exodus 19:3–8
+after_trinity:10,,,II,sweden,,epistle,Romans 12:3–8
+after_trinity:10,,,II,sweden,,gospel,Matthew 18:18–22
+after_trinity:10,,,II,sweden,,psalm,Psalm 28:6–9
+after_trinity:10,,,III,sweden,,ot,Joshua 24:16–18
+after_trinity:10,,,III,sweden,,epistle,1 Corinthians 12:4–11
+after_trinity:10,,,III,sweden,,gospel,Luke 9:46–48
+after_trinity:10,,,III,sweden,,psalm,Psalm 28:6–9
+after_trinity:11,,,I,sweden,,ot,Isaiah 2:12–17
+after_trinity:11,,,I,sweden,,epistle,Romans 3:21–28
+after_trinity:11,,,I,sweden,,gospel,Luke 18:9–14
+after_trinity:11,,,I,sweden,,psalm,Psalm 143:6–10
+after_trinity:11,,,II,sweden,,ot,Amos 5:21–24
+after_trinity:11,,,II,sweden,,epistle,Romans 7:14–25
+after_trinity:11,,,II,sweden,,gospel,Matthew 21:28–31
+after_trinity:11,,,II,sweden,,psalm,Psalm 143:6–10
+after_trinity:11,,,III,sweden,,ot,Isaiah 1:10–17
+after_trinity:11,,,III,sweden,,epistle,James 1:22–25
+after_trinity:11,,,III,sweden,,gospel,Matthew 23:1–12
+after_trinity:11,,,III,sweden,,psalm,Psalm 143:6–10
+after_trinity:12,,,I,sweden,,ot,Exodus 4:10–17
+after_trinity:12,,,I,sweden,,epistle,2 Corinthians 3:4–8
+after_trinity:12,,,I,sweden,,gospel,Mark 7:31–37
+after_trinity:12,,,I,sweden,,psalm,Psalm 145:13b–18
+after_trinity:12,,,II,sweden,,ot,Isaiah 38:1–6
+after_trinity:12,,,II,sweden,,epistle,Romans 8:18–23
+after_trinity:12,,,II,sweden,,gospel,Luke 13:10–17
+after_trinity:12,,,II,sweden,,psalm,Psalm 145:13b–18
+after_trinity:12,,,III,sweden,,ot,Exodus 23:10–12
+after_trinity:12,,,III,sweden,,epistle,Galatians 4:31–5:6
+after_trinity:12,,,III,sweden,,gospel,Mark 2:23–28
+after_trinity:12,,,III,sweden,,psalm,Psalm 145:13b–18
+after_trinity:13,,,I,sweden,,ot,Genesis 4:8–12
+after_trinity:13,,,I,sweden,,epistle,1 John 4:7–10
+after_trinity:13,,,I,sweden,,gospel,Luke 10:23–37
+after_trinity:13,,,I,sweden,,psalm,Psalm 103:1–6
+after_trinity:13,,,II,sweden,,ot,Deuteronomy 15:7–11
+after_trinity:13,,,II,sweden,,epistle,Romans 13:8–10
+after_trinity:13,,,II,sweden,,gospel,Matthew 5:38–48
+after_trinity:13,,,II,sweden,,psalm,Psalm 103:1–6
+after_trinity:13,,,III,sweden,,ot,Jeremiah 38:7–13
+after_trinity:13,,,III,sweden,,epistle,Romans 12:16–21
+after_trinity:13,,,III,sweden,,gospel,Matthew 7:12
+after_trinity:13,,,III,sweden,,psalm,Psalm 103:1–6
+after_trinity:14,,,I,sweden,,ot,Ezekiel 37:15–22
+after_trinity:14,,,I,sweden,,epistle,Ephesians 4:1–6
+after_trinity:14,,,I,sweden,,gospel,John 17:9–11
+after_trinity:14,,,I,sweden,,psalm,Psalm 95:1–7
+after_trinity:14,,,II,sweden,,ot,Isaiah 11:10–13
+after_trinity:14,,,II,sweden,,epistle,Philippians 2:1–5
+after_trinity:14,,,II,sweden,,gospel,Luke 22:24–27
+after_trinity:14,,,II,sweden,,psalm,Psalm 95:1–7
+after_trinity:14,,,III,sweden,,ot,Amos 9:11–15
+after_trinity:14,,,III,sweden,,epistle,1 Corinthians 1:10–13
+after_trinity:14,,,III,sweden,,gospel,John 17:18–23
+after_trinity:14,,,III,sweden,,psalm,Psalm 95:1–7
+after_trinity:15,,,I,sweden,,ot,Nehemiah 9:19–21
+after_trinity:15,,,I,sweden,,epistle,Acts 20:32–36
+after_trinity:15,,,I,sweden,,gospel,Matthew 6:31–34
+after_trinity:15,,,I,sweden,,psalm,Psalm 123
+after_trinity:15,,,II,sweden,,ot,1 Kings 17:8–16
+after_trinity:15,,,II,sweden,,epistle,Acts 4:32–35
+after_trinity:15,,,II,sweden,,gospel,Matthew 11:28–30
+after_trinity:15,,,II,sweden,,psalm,Psalm 123
+after_trinity:15,,,III,sweden,,ot,Deuteronomy 4:29–31
+after_trinity:15,,,III,sweden,,epistle,Philippians 4:10–13
+after_trinity:15,,,III,sweden,,gospel,Luke 10:38–42
+after_trinity:15,,,III,sweden,,psalm,Psalm 123
+after_trinity:16,,,I,sweden,,ot,Isaiah 26:19
+after_trinity:16,,,I,sweden,,epistle,2 Corinthians 4:7–14
+after_trinity:16,,,I,sweden,,gospel,John 11:28–44
+after_trinity:16,,,I,sweden,,psalm,Psalm 107:18–22
+after_trinity:16,,,II,sweden,,ot,1 Kings 17:17–24
+after_trinity:16,,,II,sweden,,epistle,Revelation 2:8–11
+after_trinity:16,,,II,sweden,,gospel,Luke 7:11–17
+after_trinity:16,,,II,sweden,,psalm,Psalm 107:18–22
+after_trinity:16,,,III,sweden,,ot,Job 14:13–15
+after_trinity:16,,,III,sweden,,epistle,Philippians 1:20–26
+after_trinity:16,,,III,sweden,,gospel,Mark 5:35–43
+after_trinity:16,,,III,sweden,,psalm,Psalm 107:18–22
+after_trinity:17,,,I,sweden,,ot,"Exodus 32:1–4, 30–35"
+after_trinity:17,,,I,sweden,,epistle,1 John 2:15–17
+after_trinity:17,,,I,sweden,,gospel,Matthew 6:19–24
+after_trinity:17,,,I,sweden,,psalm,Psalm 49:6–12
+after_trinity:17,,,II,sweden,,ot,Ecclesiastes 5:9–15
+after_trinity:17,,,II,sweden,,epistle,1 Timothy 6:7–11
+after_trinity:17,,,II,sweden,,gospel,Luke 12:13–21
+after_trinity:17,,,II,sweden,,psalm,Psalm 49:6–12
+after_trinity:17,,,III,sweden,,ot,Ecclesiastes 12:1–7
+after_trinity:17,,,III,sweden,,epistle,1 John 4:16–21
+after_trinity:17,,,III,sweden,,gospel,Luke 16:19–31
+after_trinity:17,,,III,sweden,,psalm,Psalm 49:6–12
+after_trinity:18,,,I,sweden,,ot,Micah 6:6–8
+after_trinity:18,,,I,sweden,,epistle,Acts 16:11–15
+after_trinity:18,,,I,sweden,,gospel,John 7:14–18
+after_trinity:18,,,I,sweden,,psalm,Psalm 19:8–15
+after_trinity:18,,,II,sweden,,ot,Deuteronomy 30:11–16
+after_trinity:18,,,II,sweden,,epistle,James 2:8–13
+after_trinity:18,,,II,sweden,,gospel,Mark 10:17–27
+after_trinity:18,,,II,sweden,,psalm,Psalm 19:8–15
+after_trinity:18,,,III,sweden,,ot,Proverbs 8:32–36
+after_trinity:18,,,III,sweden,,epistle,Acts 5:27–29
+after_trinity:18,,,III,sweden,,gospel,Matthew 13:44–46
+after_trinity:18,,,III,sweden,,psalm,Psalm 19:8–15
+after_trinity:19,,,I,sweden,,ot,Genesis 6:13–22
+after_trinity:19,,,I,sweden,,epistle,Hebrews 11:1–7
+after_trinity:19,,,I,sweden,,gospel,Mark 12:41–44
+after_trinity:19,,,I,sweden,,psalm,Psalm 73:23–26
+after_trinity:19,,,II,sweden,,ot,Genesis 15:5–6
+after_trinity:19,,,II,sweden,,epistle,1 Timothy 6:11–12
+after_trinity:19,,,II,sweden,,gospel,"John 9:1–7, 24–39"
+after_trinity:19,,,II,sweden,,psalm,Psalm 73:23–26
+after_trinity:19,,,III,sweden,,ot,Joshua 2:1–15
+after_trinity:19,,,III,sweden,,epistle,Hebrews 11:29–33
+after_trinity:19,,,III,sweden,,gospel,Mark 2:1–12
+after_trinity:19,,,III,sweden,,psalm,Psalm 73:23–26
+after_trinity:20,,,I,sweden,,ot,Ruth 2:8–12
+after_trinity:20,,,I,sweden,,epistle,Acts 9:36–43
+after_trinity:20,,,I,sweden,,gospel,Mark 3:31–35
+after_trinity:20,,,I,sweden,,psalm,Psalm 68:5–7
+after_trinity:20,,,II,sweden,,ot,Ruth 1:6–19
+after_trinity:20,,,II,sweden,,epistle,Hebrews 13:2–3
+after_trinity:20,,,II,sweden,,gospel,John 11:1–7
+after_trinity:20,,,II,sweden,,psalm,Psalm 68:5–7
+after_trinity:20,,,III,sweden,,ot,Tobit 10:7–13
+after_trinity:20,,,III,sweden,,epistle,2 Timothy 1:3–5
+after_trinity:20,,,III,sweden,,gospel,Matthew 13:53–57
+after_trinity:20,,,III,sweden,,psalm,Psalm 68:5–7
+after_trinity:21,,,I,sweden,,ot,Jeremiah 29:4–7
+after_trinity:21,,,I,sweden,,epistle,Romans 13:7–10
+after_trinity:21,,,I,sweden,,gospel,Matthew 22:15–22
+after_trinity:21,,,I,sweden,,psalm,Psalm 40:14–18
+after_trinity:21,,,II,sweden,,ot,Deuteronomy 24:17–22
+after_trinity:21,,,II,sweden,,epistle,James 2:1–8
+after_trinity:21,,,II,sweden,,gospel,Luke 19:1–10
+after_trinity:21,,,II,sweden,,psalm,Psalm 40:14–18
+after_trinity:21,,,III,sweden,,ot,Exodus 23:1–9
+after_trinity:21,,,III,sweden,,epistle,2 Corinthians 8:9–15
+after_trinity:21,,,III,sweden,,gospel,Matthew 12:15–21
+after_trinity:21,,,III,sweden,,psalm,Psalm 40:14–18
+after_trinity:22,,,I,sweden,,ot,Genesis 45:4–8
+after_trinity:22,,,I,sweden,,epistle,1 Peter 4:12–19
+after_trinity:22,,,I,sweden,,gospel,Matthew 23:37–24:2
+after_trinity:22,,,I,sweden,,psalm,Psalm 62:10–13
+after_trinity:22,,,II,sweden,,ot,Nehemiah 2:11–20
+after_trinity:22,,,II,sweden,,epistle,Romans 5:15–21
+after_trinity:22,,,II,sweden,,gospel,Mark 4:26–29
+after_trinity:22,,,II,sweden,,psalm,Psalm 62:10–13
+after_trinity:22,,,III,sweden,,ot,Isaiah 2:2–5
+after_trinity:22,,,III,sweden,,epistle,2 Peter 1:2–8
+after_trinity:22,,,III,sweden,,gospel,John 12:35–43
+after_trinity:22,,,III,sweden,,psalm,Psalm 62:10–13
+after_trinity:23,,,I,sweden,,ot,Genesis 50:15–21
+after_trinity:23,,,I,sweden,,epistle,2 Thessalonians 3:1–5
+after_trinity:23,,,I,sweden,,gospel,Matthew 18:15–20
+after_trinity:23,,,I,sweden,,psalm,Psalm 78:35–39
+after_trinity:23,,,II,sweden,,ot,Isaiah 64:6–9
+after_trinity:23,,,II,sweden,,epistle,Ephesians 4:29–32
+after_trinity:23,,,II,sweden,,gospel,Matthew 18:21–35
+after_trinity:23,,,II,sweden,,psalm,Psalm 78:35–39
+after_trinity:23,,,III,sweden,,ot,Hosea 11:8–9
+after_trinity:23,,,III,sweden,,epistle,1 Thessalonians 5:13–15
+after_trinity:23,,,III,sweden,,gospel,Matthew 6:9–15
+after_trinity:23,,,III,sweden,,psalm,Psalm 78:35–39
+after_trinity:24,,,,sweden,,ot,Amos 4:12–13
+after_trinity:24,,,,sweden,,epistle,1 John 2:28–3:3
+after_trinity:24,,,,sweden,,gospel,Matthew 24:3–14
+after_trinity:24,,,,sweden,,psalm,Psalm 39:5–8
+after_trinity:25,,,,sweden,,ot,Amos 4:12–13
+after_trinity:25,,,,sweden,,epistle,1 John 2:28–3:3
+after_trinity:25,,,,sweden,,gospel,Matthew 24:3–14
+after_trinity:25,,,,sweden,,psalm,Psalm 39:5–8
+before_judgment,,,I,sweden,,ot,Zephaniah 3:8–13
+before_judgment,,,I,sweden,,epistle,Revelation 3:10–13
+before_judgment,,,I,sweden,,gospel,Matthew 25:1–13
+before_judgment,,,I,sweden,,psalm,Psalm 139:1–18
+before_judgment,,,II,sweden,,ot,Isaiah 51:4–6
+before_judgment,,,II,sweden,,epistle,2 Corinthians 13:5–9
+before_judgment,,,II,sweden,,gospel,Luke 12:35–40
+before_judgment,,,II,sweden,,psalm,Psalm 139:1–18
+before_judgment,,,III,sweden,,ot,Amos 8:9–12
+before_judgment,,,III,sweden,,epistle,Philippians 3:20–4:1
+before_judgment,,,III,sweden,,gospel,Luke 17:20–30
+before_judgment,,,III,sweden,,psalm,Psalm 139:1–18
+judgment,,,I,sweden,,ot,Isaiah 65:17–19
+judgment,,,I,sweden,,epistle,2 Peter 3:8–13
+judgment,,,I,sweden,,gospel,Matthew 25:31–46
+judgment,,,I,sweden,,psalm,Psalm 102:26–29
+judgment,,,II,sweden,,ot,Daniel 7:9–10
+judgment,,,II,sweden,,epistle,Revelation 20:11–21:5
+judgment,,,II,sweden,,gospel,John 5:22–30
+judgment,,,II,sweden,,psalm,Psalm 102:26–29
+judgment,,,III,sweden,,ot,Ezekiel 47:6–12
+judgment,,,III,sweden,,epistle,1 Corinthians 15:22–28
+judgment,,,III,sweden,,gospel,Matthew 13:47–50
+judgment,,,III,sweden,,psalm,Psalm 102:26–29
+candlemas,,,I,sweden,,ot,1 Samuel 1:21–28
+candlemas,,,I,sweden,,epistle,1 John 1:5–7
+candlemas,,,I,sweden,,gospel,Luke 2:22–40
+candlemas,,,I,sweden,,psalm,Psalm 138
+candlemas,,,II,sweden,,ot,Malachi 3:1–4
+candlemas,,,II,sweden,,epistle,1 Timothy 6:13–16
+candlemas,,,II,sweden,,gospel,Luke 2:22–40
+candlemas,,,II,sweden,,psalm,Psalm 138
+candlemas,,,II,sweden,,gospel,John 1:14–18
+candlemas,,,III,sweden,,ot,Micah 7:7–8
+candlemas,,,III,sweden,,epistle,Acts 2:42–46
+candlemas,,,III,sweden,,gospel,Luke 2:22–40
+candlemas,,,III,sweden,,psalm,Psalm 138
+candlemas,,,III,sweden,,gospel,Matthew 13:31–33
+candlemas_early,,,I,sweden,,ot,1 Samuel 1:21–28
+candlemas_early,,,I,sweden,,epistle,1 John 1:5–7
+candlemas_early,,,I,sweden,,gospel,Luke 2:22–40
+candlemas_early,,,I,sweden,,psalm,Psalm 138
+candlemas_early,,,II,sweden,,ot,Malachi 3:1–4
+candlemas_early,,,II,sweden,,epistle,1 Timothy 6:13–16
+candlemas_early,,,II,sweden,,gospel,Luke 2:22–40
+candlemas_early,,,II,sweden,,psalm,Psalm 138
+candlemas_early,,,II,sweden,,gospel,John 1:14–18
+candlemas_early,,,III,sweden,,ot,Micah 7:7–8
+candlemas_early,,,III,sweden,,epistle,Acts 2:42–46
+candlemas_early,,,III,sweden,,gospel,Luke 2:22–40
+candlemas_early,,,III,sweden,,psalm,Psalm 138
+candlemas_early,,,III,sweden,,gospel,Matthew 13:31–33
+annunciation,,,I,sweden,,ot,Isaiah 7:10–14
+annunciation,,,I,sweden,,epistle,Romans 8:1–4
+annunciation,,,I,sweden,,gospel,Luke 1:26–38
+annunciation,,,I,sweden,,psalm,Psalm 147:7–15
+annunciation,,,II,sweden,,ot,Micah 5:2–4
+annunciation,,,II,sweden,,epistle,Romans 4:18–21
+annunciation,,,II,sweden,,gospel,Luke 1:26–38
+annunciation,,,II,sweden,,psalm,Psalm 147:7–15
+annunciation,,,II,sweden,,gospel,Luke 1:39–45
+annunciation,,,III,sweden,,ot,1 Samuel 2:1–10
+annunciation,,,III,sweden,,epistle,Colossians 1:15–20
+annunciation,,,III,sweden,,gospel,Luke 1:26–38
+annunciation,,,III,sweden,,psalm,Psalm 147:7–15
+annunciation,,,III,sweden,,gospel,Luke 1:46–55
+annunciation_early,,,I,sweden,,ot,Isaiah 7:10–14
+annunciation_early,,,I,sweden,,epistle,Romans 8:1–4
+annunciation_early,,,I,sweden,,gospel,Luke 1:26–38
+annunciation_early,,,I,sweden,,psalm,Psalm 147:7–15
+annunciation_early,,,II,sweden,,ot,Micah 5:2–4
+annunciation_early,,,II,sweden,,epistle,Romans 4:18–21
+annunciation_early,,,II,sweden,,gospel,Luke 1:26–38
+annunciation_early,,,II,sweden,,psalm,Psalm 147:7–15
+annunciation_early,,,II,sweden,,gospel,Luke 1:39–45
+annunciation_early,,,III,sweden,,ot,1 Samuel 2:1–10
+annunciation_early,,,III,sweden,,epistle,Colossians 1:15–20
+annunciation_early,,,III,sweden,,gospel,Luke 1:26–38
+annunciation_early,,,III,sweden,,psalm,Psalm 147:7–15
+annunciation_early,,,III,sweden,,gospel,Luke 1:46–55
+midsummer,,,I,sweden,,ot,Genesis 1:1–13
+midsummer,,,I,sweden,,epistle,Acts 14:15–17
+midsummer,,,I,sweden,,gospel,John 1:1–5
+midsummer,,,I,sweden,,psalm,Psalm 104:1–13
+midsummer,,,II,sweden,,ot,Job 12:7–13
+midsummer,,,II,sweden,,epistle,Acts 17:22–31
+midsummer,,,II,sweden,,gospel,Matthew 6:25–30
+midsummer,,,II,sweden,,psalm,Psalm 104:1–13
+midsummer,,,III,sweden,,ot,Genesis 9:8–17
+midsummer,,,III,sweden,,epistle,Colossians 1:21–23
+midsummer,,,III,sweden,,gospel,Mark 6:30–44
+midsummer,,,III,sweden,,psalm,Psalm 104:1–13
+john_baptist,,,I,sweden,,ot,Isaiah 49:1–2
+john_baptist,,,I,sweden,,epistle,Acts 19:4
+john_baptist,,,I,sweden,,gospel,Luke 1:5–17
+john_baptist,,,I,sweden,,psalm,Psalm 96
+john_baptist,,,II,sweden,,ot,Jeremiah 22:1–4
+john_baptist,,,II,sweden,,epistle,Acts 13:16–25
+john_baptist,,,II,sweden,,gospel,Luke 1:57–66
+john_baptist,,,II,sweden,,psalm,Psalm 96
+john_baptist,,,III,sweden,,ot,Isaiah 42:5–9
+john_baptist,,,III,sweden,,epistle,Acts 10:37–38
+john_baptist,,,III,sweden,,gospel,Luke 1:67–80
+john_baptist,,,III,sweden,,psalm,Psalm 96
+michael,,,I,sweden,,ot,Daniel 6:16–22
+michael,,,I,sweden,,epistle,Revelation 12:7–12
+michael,,,I,sweden,,gospel,Luke 10:17–20
+michael,,,I,sweden,,psalm,Psalm 103:19–22
+michael,,,II,sweden,,ot,Daniel 10:15–19
+michael,,,II,sweden,,epistle,Revelation 12:7–12
+michael,,,II,sweden,,gospel,Matthew 18:7–10
+michael,,,II,sweden,,psalm,Psalm 103:19–22
+michael,,,II,sweden,,gospel,Acts 12:6–17
+michael,,,III,sweden,,ot,Genesis 28:10–17
+michael,,,III,sweden,,epistle,Revelation 12:7–12
+michael,,,III,sweden,,gospel,John 1:47–51
+michael,,,III,sweden,,psalm,Psalm 103:19–22
+michael,,,III,sweden,,gospel,Revelation 5:11–14
+thanksgiving,,,I,sweden,,ot,1 Chronicles 29:10–14
+thanksgiving,,,I,sweden,,epistle,1 Thessalonians 5:16–24
+thanksgiving,,,I,sweden,,gospel,Luke 17:11–19
+thanksgiving,,,I,sweden,,psalm,Psalm 65:9–14
+thanksgiving,,,II,sweden,,ot,Jeremiah 31:3–6
+thanksgiving,,,II,sweden,,epistle,Revelation 4:8–11
+thanksgiving,,,II,sweden,,gospel,Matthew 15:29–31
+thanksgiving,,,II,sweden,,psalm,Psalm 65:9–14
+thanksgiving,,,III,sweden,,ot,Wisdom of Solomon 7:15–22
+thanksgiving,,,III,sweden,,epistle,Colossians 3:16–17
+thanksgiving,,,III,sweden,,gospel,Luke 19:37–40
+thanksgiving,,,III,sweden,,psalm,Psalm 65:9–14
+all_saints,,,I,sweden,,ot,Isaiah 49:8–10
+all_saints,,,I,sweden,,epistle,Revelation 7:9–17
+all_saints,,,I,sweden,,gospel,Matthew 5:1–12
+all_saints,,,I,sweden,,psalm,Psalm 126
+all_saints,,,II,sweden,,ot,Isaiah 60:18–22
+all_saints,,,II,sweden,,epistle,Hebrews 12:1–3
+all_saints,,,II,sweden,,gospel,Matthew 5:13–16
+all_saints,,,II,sweden,,psalm,Psalm 126
+all_saints,,,III,sweden,,ot,Deuteronomy 34:1–5
+all_saints,,,III,sweden,,epistle,Hebrews 12:22–24
+all_saints,,,III,sweden,,gospel,Luke 6:20–26
+all_saints,,,III,sweden,,psalm,Psalm 126
+after_all_saints,,,I,sweden,,ot,Ezekiel 37:12–14
+after_all_saints,,,I,sweden,,epistle,Revelation 22:1–5
+after_all_saints,,,I,sweden,,gospel,Luke 12:4–7
+after_all_saints,,,I,sweden,,psalm,Psalm 116:1–9
+after_all_saints,,,II,sweden,,ot,Job 17:15–16
+after_all_saints,,,II,sweden,,epistle,1 Corinthians 15:35–49
+after_all_saints,,,II,sweden,,gospel,John 6:37–40
+after_all_saints,,,II,sweden,,psalm,Psalm 116:1–9
+after_all_saints,,,III,sweden,,ot,Joshua 1:10–11
+after_all_saints,,,III,sweden,,epistle,Hebrews 11:13–16
+after_all_saints,,,III,sweden,,gospel,Luke 20:37–38
+after_all_saints,,,III,sweden,,psalm,Psalm 116:1–9
+# ------------------------------------------- Church of Norway (variant norway)
+"# Bibeltekster for kirkeåret (2011): for every day a first reading, a second"
+# reading and a Gospel (the preaching text) in three series (tekstrekker,
+"# cycle I-III; series I is read from Advent 2025), and a story text"
+"# (fortellingstekst, kind story) shared by all three.  Good Friday's fourth"
+"# series, John 18-19, is given as the alternative Gospel each year.  Source:"
+"# the Norwegian Bible Society's ""Kirkeårets tekster"", bibel.no (Bibel 2011)",
+# read October 2026.  The 24th to 26th Sundays after Trinity read the texts
+"# of the 6th, 5th and 4th Sundays after the Epiphany.  Psalm and other verse"
+# numbers are the Norwegian Bible's (Hebrew numbering).  When the
+"# Annunciation (Maria budskapsdag) falls on the 4th Sunday in Lent, that"
+# Sunday's texts are read on the next (the calendar's 5th).
+advent:1,,,I,norway,,ot,Psalm 24:1–10
+advent:1,,,I,norway,,epistle,Romans 13:11–12
+advent:1,,,I,norway,,gospel,Matthew 21:1–11
+advent:1,,,II,norway,,ot,Isaiah 61:1–3
+advent:1,,,II,norway,,epistle,Revelation 5:1–5
+advent:1,,,II,norway,,gospel,Luke 4:16–22
+advent:1,,,III,norway,,ot,Isaiah 12:1–6
+advent:1,,,III,norway,,epistle,Revelation 3:19–22
+advent:1,,,III,norway,,gospel,Matthew 21:10–17
+advent:1,,,,norway,,story,Matthew 21:1–17
+advent:2,,,I,norway,,ot,Psalm 33:18–22
+advent:2,,,I,norway,,epistle,Hebrews 6:13–19
+advent:2,,,I,norway,,gospel,John 14:1–4
+advent:2,,,II,norway,,ot,Isaiah 65:17–19
+advent:2,,,II,norway,,epistle,1 Corinthians 15:50–57
+advent:2,,,II,norway,,gospel,Luke 21:27–36
+advent:2,,,III,norway,,ot,Isaiah 2:1–5
+advent:2,,,III,norway,,epistle,Hebrews 10:35–39
+advent:2,,,III,norway,,gospel,John 16:21–24
+advent:2,,,,norway,,story,John 14:1–11
+advent:3,,,I,norway,,ot,Isaiah 35:1–10
+advent:3,,,I,norway,,epistle,1 Corinthians 3:18–23
+advent:3,,,I,norway,,gospel,Matthew 11:2–11
+advent:3,,,II,norway,,ot,Isaiah 40:1–5
+advent:3,,,II,norway,,epistle,James 5:7–8
+advent:3,,,II,norway,,gospel,Luke 3:7–18
+advent:3,,,III,norway,,ot,Malachi 3:22–24
+advent:3,,,III,norway,,epistle,2 Peter 1:19–21
+advent:3,,,III,norway,,gospel,John 5:31–36
+advent:3,,,,norway,,story,Daniel 6:4–24
+advent:4,,,I,norway,,ot,Ruth 4:13–17
+advent:4,,,I,norway,,epistle,Romans 15:8–13
+advent:4,,,I,norway,,gospel,Luke 1:46–55
+advent:4,,,II,norway,,ot,Micah 5:1–4
+advent:4,,,II,norway,,epistle,Philippians 4:4–7
+advent:4,,,II,norway,,gospel,Luke 1:39–45
+advent:4,,,III,norway,,ot,Zephaniah 3:14–17
+advent:4,,,III,norway,,epistle,2 Corinthians 1:18–22
+advent:4,,,III,norway,,gospel,Matthew 1:18–25
+advent:4,,,,norway,,story,Luke 1:39–45
+christmas_eve,,,,norway,,ot,Isaiah 8:23–9:1; 9:5–6
+christmas_eve,,,,norway,,epistle,1 John 1:1–4
+christmas_eve,,,,norway,,gospel,Luke 2:1–20
+christmas,,,,norway,,ot,"Proverbs 8:1–2, 22–31"
+christmas,,,,norway,,epistle,Hebrews 1:1–6
+christmas,,,,norway,,gospel,John 1:1–14
+christmas,,,,norway,,story,Luke 2:1–20
+stephen,,,I,norway,,ot,Jeremiah 31:15–17
+stephen,,,I,norway,,epistle,Acts 7:52–60
+stephen,,,I,norway,,gospel,Matthew 2:16–23
+stephen,,,II,norway,,ot,Jeremiah 31:15–17
+stephen,,,II,norway,,epistle,Acts 6:8–15
+stephen,,,II,norway,,gospel,Matthew 10:16–22
+stephen,,,III,norway,,ot,Jeremiah 31:15–17
+stephen,,,III,norway,,epistle,Philippians 1:27–30
+stephen,,,III,norway,,gospel,John 16:1–4
+stephen,,,,norway,,story,Matthew 2:13–23
+after_christmas,,,I,norway,,ot,Psalm 1:1–6
+after_christmas,,,I,norway,,epistle,1 Timothy 3:16
+after_christmas,,,I,norway,,gospel,Matthew 2:13–15
+after_christmas,,,II,norway,,ot,Exodus 1:15–21
+after_christmas,,,II,norway,,epistle,Acts 7:17–22
+after_christmas,,,II,norway,,gospel,Luke 2:36–38
+after_christmas,,,III,norway,,ot,Isaiah 66:10–13
+after_christmas,,,III,norway,,epistle,Romans 11:33–36
+after_christmas,,,III,norway,,gospel,Luke 2:25–35
+after_christmas,,,,norway,,story,Luke 2:22–40
+12-31,,,I,norway,Nyttårsaften,ot,"Ecclesiastes 3:1–2, 4–7, 11"
+12-31,,,I,norway,Nyttårsaften,epistle,1 Peter 1:22–25
+12-31,,,I,norway,Nyttårsaften,gospel,Luke 13:6–9
+12-31,,,II,norway,Nyttårsaften,ot,Jeremiah 29:10–14
+12-31,,,II,norway,Nyttårsaften,epistle,2 Peter 3:13–15
+12-31,,,II,norway,Nyttårsaften,gospel,John 14:27
+12-31,,,III,norway,Nyttårsaften,ot,Lamentations 3:22–26
+12-31,,,III,norway,Nyttårsaften,epistle,1 John 1:5–7
+12-31,,,III,norway,Nyttårsaften,gospel,Matthew 11:25–30
+12-31,,,,norway,Nyttårsaften,story,Genesis 28:10–29:1
+new_year,,,I,norway,,ot,Numbers 6:22–27
+new_year,,,I,norway,,epistle,Philippians 2:5–11
+new_year,,,I,norway,,gospel,Luke 2:21
+new_year,,,II,norway,,ot,Psalm 103:13–18
+new_year,,,II,norway,,epistle,Acts 4:8–12
+new_year,,,II,norway,,gospel,Matthew 1:20–21
+new_year,,,III,norway,,ot,Psalm 72:17–19
+new_year,,,III,norway,,epistle,Romans 10:8–13
+new_year,,,III,norway,,gospel,Matthew 18:19–20
+new_year,,,,norway,,story,Matthew 1:18–25
+epiphany,,,I,norway,,ot,Isaiah 60:1–6
+epiphany,,,I,norway,,epistle,Ephesians 3:1–7
+epiphany,,,I,norway,,gospel,Matthew 2:1–12
+epiphany,,,II,norway,,ot,Isaiah 49:1–7
+epiphany,,,II,norway,,epistle,Romans 15:4–6
+epiphany,,,II,norway,,gospel,Luke 2:40–52
+epiphany,,,III,norway,,ot,Isaiah 51:4–8
+epiphany,,,III,norway,,epistle,2 Corinthians 4:1–6
+epiphany,,,III,norway,,gospel,John 12:42–47
+epiphany,,,,norway,,story,Matthew 2:1–12
+after_epiphany:2,,,I,norway,,ot,Isaiah 42:1–6
+after_epiphany:2,,,I,norway,,epistle,Acts 18:24–19:7
+after_epiphany:2,,,I,norway,,gospel,Matthew 3:13–17
+after_epiphany:2,,,II,norway,,ot,Exodus 1:22–2:10
+after_epiphany:2,,,II,norway,,epistle,Ephesians 1:7–12
+after_epiphany:2,,,II,norway,,gospel,Mark 1:3–11
+after_epiphany:2,,,III,norway,,ot,Isaiah 53:6–9
+after_epiphany:2,,,III,norway,,epistle,Colossians 1:15–20
+after_epiphany:2,,,III,norway,,gospel,John 1:29–34
+after_epiphany:2,,,,norway,,story,Matthew 3:13–4:11
+after_epiphany:3,,,I,norway,,ot,Genesis 1:26–31
+after_epiphany:3,,,I,norway,,epistle,Revelation 21:1–6
+after_epiphany:3,,,I,norway,,gospel,John 2:1–11
+after_epiphany:3,,,II,norway,,ot,Isaiah 55:1–3
+after_epiphany:3,,,II,norway,,epistle,Revelation 22:16–17
+after_epiphany:3,,,II,norway,,gospel,John 4:4–26
+after_epiphany:3,,,III,norway,,ot,Exodus 3:13–15
+after_epiphany:3,,,III,norway,,epistle,1 Corinthians 8:5–6
+after_epiphany:3,,,III,norway,,gospel,John 1:15–18
+after_epiphany:3,,,,norway,,story,Luke 2:40–52
+after_epiphany:4,,,I,norway,,ot,Psalm 146:1–10
+after_epiphany:4,,,I,norway,,epistle,Romans 16:25–27
+after_epiphany:4,,,I,norway,,gospel,Luke 18:35–43
+after_epiphany:4,,,II,norway,,ot,Exodus 3:10–12; 4:10–16
+after_epiphany:4,,,II,norway,,epistle,Romans 9:20–24
+after_epiphany:4,,,II,norway,,gospel,"John 9:1–7, 35–38"
+after_epiphany:4,,,III,norway,,ot,"Proverbs 14:21–22, 25, 31"
+after_epiphany:4,,,III,norway,,epistle,Philippians 1:20
+after_epiphany:4,,,III,norway,,gospel,Luke 13:10–17
+after_epiphany:4,,,,norway,,story,Luke 18:35–43
+sower,,,I,norway,,ot,Isaiah 55:8–13
+sower,,,I,norway,,epistle,Hebrews 4:12–13
+sower,,,I,norway,,gospel,Luke 8:4–15
+sower,,,II,norway,,ot,Jeremiah 20:7–9
+sower,,,II,norway,,epistle,Romans 10:13–17
+sower,,,II,norway,,gospel,Mark 4:26–34
+sower,,,III,norway,,ot,Deuteronomy 6:1–9
+sower,,,III,norway,,epistle,2 Timothy 1:1–5; 3:14–17
+sower,,,III,norway,,gospel,Matthew 13:24–30
+sower,,,,norway,,story,Luke 8:4–15
+02-02,,,,norway,Kyndelsmesse,ot,1 Samuel 1:21–28
+02-02,,,,norway,Kyndelsmesse,epistle,1 John 1:1–4
+02-02,,,,norway,Kyndelsmesse,gospel,Luke 2:22–40
+02-02,,,,norway,Kyndelsmesse,story,Luke 2:22–40
+02-06,,,I,norway,Samefolkets dag,ot,Genesis 2:4–9
+02-06,,,I,norway,Samefolkets dag,epistle,Galatians 3:26–29
+02-06,,,I,norway,Samefolkets dag,gospel,Matthew 5:13–16
+02-06,,,II,norway,Samefolkets dag,ot,Psalm 126:1–6
+02-06,,,II,norway,Samefolkets dag,epistle,Philippians 4:4–9
+02-06,,,II,norway,Samefolkets dag,gospel,Matthew 22:34–40
+02-06,,,III,norway,Samefolkets dag,ot,Exodus 3:1–6
+02-06,,,III,norway,Samefolkets dag,epistle,Acts 2:1–12
+02-06,,,III,norway,Samefolkets dag,gospel,John 21:9–13
+02-06,,,,norway,Samefolkets dag,story,Genesis 2:4–25
+transfiguration,,,I,norway,,ot,Deuteronomy 18:15–18
+transfiguration,,,I,norway,,epistle,Revelation 1:9–18
+transfiguration,,,I,norway,,gospel,Matthew 17:1–9
+transfiguration,,,II,norway,,ot,Exodus 3:1–6
+transfiguration,,,II,norway,,epistle,2 Peter 1:16–18
+transfiguration,,,II,norway,,gospel,Mark 9:2–13
+transfiguration,,,III,norway,,ot,Exodus 34:27–35
+transfiguration,,,III,norway,,epistle,2 Corinthians 3:12–18
+transfiguration,,,III,norway,,gospel,Luke 9:28–36
+transfiguration,,,,norway,,story,Matthew 17:1–8
+shrove_sunday,,,I,norway,,ot,Song of Solomon 8:6–7
+shrove_sunday,,,I,norway,,epistle,1 Corinthians 13:1–7
+shrove_sunday,,,I,norway,,gospel,John 17:20–26
+shrove_sunday,,,II,norway,,ot,Isaiah 53:1–5
+shrove_sunday,,,II,norway,,epistle,1 Corinthians 1:18–25
+shrove_sunday,,,II,norway,,gospel,John 12:20–33
+shrove_sunday,,,III,norway,,ot,Isaiah 52:13–15
+shrove_sunday,,,III,norway,,epistle,1 Timothy 2:1–6
+shrove_sunday,,,III,norway,,gospel,Luke 18:31–34
+shrove_sunday,,,,norway,,story,Mark 8:27–38
+ash_wednesday,,,I,norway,,ot,Joel 2:12–13
+ash_wednesday,,,I,norway,,epistle,1 Peter 3:18–4:2
+ash_wednesday,,,I,norway,,gospel,"Matthew 6:1–6, 16–18"
+ash_wednesday,,,II,norway,,ot,Jonah 3:3–10
+ash_wednesday,,,II,norway,,epistle,2 Peter 1:5–11
+ash_wednesday,,,II,norway,,gospel,Matthew 12:38–42
+ash_wednesday,,,III,norway,,ot,Isaiah 58:4–10
+ash_wednesday,,,III,norway,,epistle,Acts 13:1–4; 14:22–23
+ash_wednesday,,,III,norway,,gospel,Mark 2:18–20
+ash_wednesday,,,,norway,,story,Genesis 27:1–29
+lent:1,,,I,norway,,ot,Genesis 2:8–9; 3:1–8
+lent:1,,,I,norway,,epistle,James 1:12–16
+lent:1,,,I,norway,,gospel,Matthew 4:1–11
+lent:1,,,II,norway,,ot,Genesis 4:1–7
+lent:1,,,II,norway,,epistle,1 Corinthians 10:10–13
+lent:1,,,II,norway,,gospel,Matthew 16:21–23
+lent:1,,,III,norway,,ot,2 Samuel 12:1–10
+lent:1,,,III,norway,,epistle,Hebrews 5:7–9
+lent:1,,,III,norway,,gospel,Matthew 26:36–45
+lent:1,,,,norway,,story,Genesis 37:1–36
+lent:2,,,I,norway,,ot,Genesis 32:25–31
+lent:2,,,I,norway,,epistle,James 1:2–8
+lent:2,,,I,norway,,gospel,Matthew 15:21–28
+lent:2,,,II,norway,,ot,Genesis 3:8–15
+lent:2,,,II,norway,,epistle,Romans 5:17–19
+lent:2,,,II,norway,,gospel,Luke 7:36–50
+lent:2,,,III,norway,,ot,Isaiah 55:1–7
+lent:2,,,III,norway,,epistle,2 Corinthians 6:1–10
+lent:2,,,III,norway,,gospel,Luke 13:22–30
+lent:2,,,,norway,,story,Genesis 39:1–23
+lent:3,,,I,norway,,ot,1 Samuel 18:6–14
+lent:3,,,I,norway,,epistle,"Ephesians 5:1–2, 8–11"
+lent:3,,,I,norway,,gospel,Luke 11:14–28
+lent:3,,,II,norway,,ot,Job 2:1–10
+lent:3,,,II,norway,,epistle,Ephesians 6:10–18
+lent:3,,,II,norway,,gospel,Mark 9:17–29
+lent:3,,,III,norway,,ot,Zechariah 3:1–5
+lent:3,,,III,norway,,epistle,2 Corinthians 12:7–10
+lent:3,,,III,norway,,gospel,Luke 22:28–34
+lent:3,,,,norway,,story,Genesis 45:1–15; 50:14–21
+lent:4,,,I,norway,,ot,Genesis 22:1–14
+lent:4,,,I,norway,,epistle,Hebrews 4:14–16
+lent:4,,,I,norway,,gospel,John 11:45–53
+lent:4,,,II,norway,,ot,Numbers 21:4–9
+lent:4,,,II,norway,,epistle,2 Corinthians 5:18–21
+lent:4,,,II,norway,,gospel,John 3:11–16
+lent:4,,,III,norway,,ot,Deuteronomy 8:2–3
+lent:4,,,III,norway,,epistle,1 Corinthians 10:16–17
+lent:4,,,III,norway,,gospel,John 6:24–36
+lent:4,,,,norway,,story,Exodus 12:1–28
+lent:5,,,I,norway,,ot,Genesis 22:1–14
+lent:5,,,I,norway,,epistle,Hebrews 4:14–16
+lent:5,,,I,norway,,gospel,John 11:45–53
+lent:5,,,II,norway,,ot,Numbers 21:4–9
+lent:5,,,II,norway,,epistle,2 Corinthians 5:18–21
+lent:5,,,II,norway,,gospel,John 3:11–16
+lent:5,,,III,norway,,ot,Deuteronomy 8:2–3
+lent:5,,,III,norway,,epistle,1 Corinthians 10:16–17
+lent:5,,,III,norway,,gospel,John 6:24–36
+lent:5,,,,norway,,story,Exodus 12:1–28
+annunciation,,,I,norway,,ot,Isaiah 7:10–14
+annunciation,,,I,norway,,epistle,Galatians 4:4–7
+annunciation,,,I,norway,,gospel,Luke 1:26–38
+annunciation,,,II,norway,,ot,Jeremiah 33:14–17
+annunciation,,,II,norway,,epistle,Ephesians 1:3–6
+annunciation,,,II,norway,,gospel,Luke 1:46–55
+annunciation,,,III,norway,,ot,1 Samuel 1:21–28
+annunciation,,,III,norway,,epistle,Acts 16:12–15
+annunciation,,,III,norway,,gospel,Luke 1:39–45
+annunciation,,,,norway,,story,Luke 1:26–38
+annunciation_early,,,I,norway,,ot,Isaiah 7:10–14
+annunciation_early,,,I,norway,,epistle,Galatians 4:4–7
+annunciation_early,,,I,norway,,gospel,Luke 1:26–38
+annunciation_early,,,II,norway,,ot,Jeremiah 33:14–17
+annunciation_early,,,II,norway,,epistle,Ephesians 1:3–6
+annunciation_early,,,II,norway,,gospel,Luke 1:46–55
+annunciation_early,,,III,norway,,ot,1 Samuel 1:21–28
+annunciation_early,,,III,norway,,epistle,Acts 16:12–15
+annunciation_early,,,III,norway,,gospel,Luke 1:39–45
+annunciation_early,,,,norway,,story,Luke 1:26–38
+palm_sunday,,,I,norway,,ot,Exodus 12:21–28
+palm_sunday,,,I,norway,,epistle,Ephesians 2:12–18
+palm_sunday,,,I,norway,,gospel,John 12:12–24
+palm_sunday,,,II,norway,,ot,Isaiah 56:6–8
+palm_sunday,,,II,norway,,epistle,Romans 3:21–26
+palm_sunday,,,II,norway,,gospel,Matthew 26:6–13
+palm_sunday,,,III,norway,,ot,Zechariah 9:9–10
+palm_sunday,,,III,norway,,epistle,Philippians 2:5–11
+palm_sunday,,,III,norway,,gospel,John 12:1–13
+palm_sunday,,,,norway,,story,Matthew 21:1–17
+maundy_thursday,,,I,norway,,ot,"Exodus 12:1, 3–8, 11–14"
+maundy_thursday,,,I,norway,,epistle,1 Corinthians 5:6–8
+maundy_thursday,,,I,norway,,gospel,Matthew 26:17–30
+maundy_thursday,,,II,norway,,ot,Jeremiah 31:31–34
+maundy_thursday,,,II,norway,,epistle,Hebrews 10:19–25
+maundy_thursday,,,II,norway,,gospel,Luke 22:14–23
+maundy_thursday,,,III,norway,,ot,Psalm 116:1–14
+maundy_thursday,,,III,norway,,epistle,1 Corinthians 11:23–26
+maundy_thursday,,,III,norway,,gospel,John 13:1–17
+maundy_thursday,,,,norway,,story,Luke 22:14–23
+good_friday,,,I,norway,,gospel,Matthew 26:30–27:50 or John 18:1–19:42
+good_friday,,,II,norway,,gospel,Mark 14:26–15:37 or John 18:1–19:42
+good_friday,,,III,norway,,gospel,Luke 22:39–23:46 or John 18:1–19:42
+good_friday,,,,norway,,story,Mark 15:20–39
+easter_eve,,,,norway,,ot,"Genesis 1:1–5, 26–2:2"
+easter_eve,,,,norway,,epistle,Exodus 14:1–22
+easter_eve,,,,norway,,gospel,Mark 16:1–8
+easter,,,I,norway,,ot,Psalm 118:14–24
+easter,,,I,norway,,epistle,1 Corinthians 15:1–11
+easter,,,I,norway,,gospel,Luke 24:1–9
+easter,,,II,norway,,ot,Isaiah 52:7–10
+easter,,,II,norway,,epistle,Romans 14:7–9
+easter,,,II,norway,,gospel,Matthew 28:1–10
+easter,,,III,norway,,ot,Exodus 15:1–3
+easter,,,III,norway,,epistle,Colossians 2:12–15
+easter,,,III,norway,,gospel,John 20:1–10
+easter,,,,norway,,story,Matthew 28:1–10
+easter_monday,,,I,norway,,ot,Jonah 2:1–11
+easter_monday,,,I,norway,,epistle,Acts 13:32–35
+easter_monday,,,I,norway,,gospel,Luke 24:13–35
+easter_monday,,,II,norway,,ot,Genesis 45:1–15
+easter_monday,,,II,norway,,epistle,1 Peter 1:18–23
+easter_monday,,,II,norway,,gospel,Luke 24:36–45
+easter_monday,,,III,norway,,ot,Jeremiah 31:9–13
+easter_monday,,,III,norway,,epistle,2 Corinthians 5:14–19
+easter_monday,,,III,norway,,gospel,John 20:11–18
+easter_monday,,,,norway,,story,Luke 24:36–45
+after_easter:2,,,I,norway,,ot,Isaiah 43:10–13
+after_easter:2,,,I,norway,,epistle,1 Corinthians 15:12–21
+after_easter:2,,,I,norway,,gospel,John 21:1–14
+after_easter:2,,,II,norway,,ot,Jeremiah 31:1–6
+after_easter:2,,,II,norway,,epistle,1 John 5:1–5
+after_easter:2,,,II,norway,,gospel,John 21:15–19
+after_easter:2,,,III,norway,,ot,Isaiah 45:5–8
+after_easter:2,,,III,norway,,epistle,1 Peter 1:3–9
+after_easter:2,,,III,norway,,gospel,John 20:24–31
+after_easter:2,,,,norway,,story,John 20:24–31
+after_easter:3,,,I,norway,,ot,Ezekiel 34:11–16
+after_easter:3,,,I,norway,,epistle,1 Peter 2:20–25
+after_easter:3,,,I,norway,,gospel,John 10:11–18
+after_easter:3,,,II,norway,,ot,Ezekiel 34:23–31
+after_easter:3,,,II,norway,,epistle,Hebrews 13:20–21
+after_easter:3,,,II,norway,,gospel,John 10:1–10
+after_easter:3,,,III,norway,,ot,Psalm 23:1–6
+after_easter:3,,,III,norway,,epistle,1 Peter 5:1–4
+after_easter:3,,,III,norway,,gospel,Mark 6:30–44
+after_easter:3,,,,norway,,story,1 Samuel 15:34–16:13
+after_easter:4,,,I,norway,,ot,Isaiah 54:7–10
+after_easter:4,,,I,norway,,epistle,Philippians 3:12–14
+after_easter:4,,,I,norway,,gospel,John 16:16–22
+after_easter:4,,,II,norway,,ot,Isaiah 43:16–21
+after_easter:4,,,II,norway,,epistle,Revelation 2:1–7
+after_easter:4,,,II,norway,,gospel,John 13:30–35
+after_easter:4,,,III,norway,,ot,Isaiah 40:26–31
+after_easter:4,,,III,norway,,epistle,2 Corinthians 4:14–18
+after_easter:4,,,III,norway,,gospel,John 14:1–11
+after_easter:4,,,,norway,,story,"1 Samuel 17:3–11, 37–50"
+05-01,,,I,norway,1. mai,ot,Isaiah 58:6–10
+05-01,,,I,norway,1. mai,epistle,1 John 4:16–21
+05-01,,,I,norway,1. mai,gospel,Luke 6:31–36
+05-01,,,II,norway,1. mai,ot,Amos 8:4–7
+05-01,,,II,norway,1. mai,epistle,James 2:1–9
+05-01,,,II,norway,1. mai,gospel,Luke 14:12–14
+05-01,,,III,norway,1. mai,ot,Exodus 2:23–25; 3:7–10
+05-01,,,III,norway,1. mai,epistle,James 5:1–6
+05-01,,,III,norway,1. mai,gospel,Matthew 20:25–28
+05-01,,,,norway,1. mai,story,Luke 16:19–31
+after_easter:5,,,I,norway,,ot,Hosea 14:5–9
+after_easter:5,,,I,norway,,epistle,Romans 11:13–20
+after_easter:5,,,I,norway,,gospel,John 15:1–8
+after_easter:5,,,II,norway,,ot,1 Kings 17:8–16
+after_easter:5,,,II,norway,,epistle,Romans 12:1–3
+after_easter:5,,,II,norway,,gospel,Luke 13:18–21
+after_easter:5,,,III,norway,,ot,"1 Kings 8:12–13, 27–30"
+after_easter:5,,,III,norway,,epistle,Ephesians 2:17–22
+after_easter:5,,,III,norway,,gospel,John 17:6–11
+after_easter:5,,,,norway,,story,"2 Samuel 11:2–5, 14–17; 12:1–10"
+after_easter:6,,,I,norway,,ot,Jeremiah 29:10–14
+after_easter:6,,,I,norway,,epistle,1 John 5:13–15
+after_easter:6,,,I,norway,,gospel,Luke 18:1–8
+after_easter:6,,,II,norway,,ot,Daniel 9:17–19
+after_easter:6,,,II,norway,,epistle,3 John 1:11
+after_easter:6,,,II,norway,,gospel,Matthew 7:7–12
+after_easter:6,,,III,norway,,ot,1 Kings 3:5–14
+after_easter:6,,,III,norway,,epistle,Ephesians 3:14–21
+after_easter:6,,,III,norway,,gospel,Matthew 6:7–13
+after_easter:6,,,,norway,,story,John 2:1–11
+ascension,,,I,norway,,ot,Psalm 110:1–3
+ascension,,,I,norway,,epistle,Ephesians 4:7–10
+ascension,,,I,norway,,gospel,Mark 16:19–20
+ascension,,,II,norway,,ot,Daniel 7:13–14
+ascension,,,II,norway,,epistle,Romans 10:6–10
+ascension,,,II,norway,,gospel,Luke 24:46–53
+ascension,,,III,norway,,ot,1 Samuel 2:1–9
+ascension,,,III,norway,,epistle,Ephesians 1:17–23
+ascension,,,III,norway,,gospel,John 17:1–5
+ascension,,,,norway,,story,Acts 1:1–14
+exaudi,,,I,norway,,ot,Haggai 2:3–9
+exaudi,,,I,norway,,epistle,1 Peter 4:7–11
+exaudi,,,I,norway,,gospel,John 15:26–27
+exaudi,,,II,norway,,ot,Zechariah 14:6–9
+exaudi,,,II,norway,,epistle,Revelation 21:22–27
+exaudi,,,II,norway,,gospel,John 3:16–21
+exaudi,,,III,norway,,ot,1 Kings 19:3–13
+exaudi,,,III,norway,,epistle,1 John 5:6–12
+exaudi,,,III,norway,,gospel,John 16:12–15
+exaudi,,,,norway,,story,Genesis 11:1–9
+05-17,,,I,norway,17. mai,ot,Psalm 127:1–3
+05-17,,,I,norway,17. mai,epistle,"Acts 17:22–25, 26–31"
+05-17,,,I,norway,17. mai,gospel,Luke 1:50–53
+05-17,,,II,norway,17. mai,ot,1 Chronicles 29:10–14
+05-17,,,II,norway,17. mai,epistle,1 Timothy 2:1–4
+05-17,,,II,norway,17. mai,gospel,Matthew 22:17–22
+05-17,,,III,norway,17. mai,ot,Deuteronomy 8:11–14
+05-17,,,III,norway,17. mai,epistle,1 Corinthians 4:7
+05-17,,,III,norway,17. mai,gospel,Luke 17:11–19
+05-17,,,,norway,17. mai,story,Luke 15:1–10
+whitsun_eve,,,,norway,,ot,Exodus 24:3–11
+whitsun_eve,,,,norway,,epistle,Ephesians 2:17–22
+whitsun_eve,,,,norway,,gospel,John 7:37–39
+pentecost,,,I,norway,,ot,Genesis 2:4–9
+pentecost,,,I,norway,,epistle,Acts 2:1–11
+pentecost,,,I,norway,,gospel,John 20:19–23
+pentecost,,,II,norway,,ot,Genesis 1:1–5
+pentecost,,,II,norway,,epistle,Acts 2:1–11
+pentecost,,,II,norway,,gospel,John 14:15–21
+pentecost,,,III,norway,,ot,Genesis 11:1–9
+pentecost,,,III,norway,,epistle,Acts 2:1–11
+pentecost,,,III,norway,,gospel,John 14:23–29
+pentecost,,,,norway,,story,Acts 2:1–18
+whit_monday,,,I,norway,,ot,Joel 3:1–2
+whit_monday,,,I,norway,,epistle,Acts 10:34–48
+whit_monday,,,I,norway,,gospel,John 16:5–11
+whit_monday,,,II,norway,,ot,Isaiah 44:3–5
+whit_monday,,,II,norway,,epistle,Acts 11:19–26
+whit_monday,,,II,norway,,gospel,John 6:44–47
+whit_monday,,,III,norway,,ot,Exodus 17:1–7
+whit_monday,,,III,norway,,epistle,Acts 15:1–11
+whit_monday,,,III,norway,,gospel,John 7:37–39
+whit_monday,,,,norway,,story,Matthew 14:22–34
+trinity,,,I,norway,,ot,Deuteronomy 6:4–9
+trinity,,,I,norway,,epistle,1 Peter 2:4–10
+trinity,,,I,norway,,gospel,Matthew 28:16–20
+trinity,,,II,norway,,ot,Genesis 18:1–8
+trinity,,,II,norway,,epistle,Romans 11:33–36
+trinity,,,II,norway,,gospel,Luke 10:21–24
+trinity,,,III,norway,,ot,Isaiah 6:1–8
+trinity,,,III,norway,,epistle,Acts 17:22–34
+trinity,,,III,norway,,gospel,Luke 24:45–48
+trinity,,,,norway,,story,Acts 9:1–19
+after_trinity:2,,,I,norway,,ot,Exodus 14:15–22
+after_trinity:2,,,I,norway,,epistle,Titus 3:4–7
+after_trinity:2,,,I,norway,,gospel,Matthew 3:11–12
+after_trinity:2,,,II,norway,,ot,Psalm 67:2–6
+after_trinity:2,,,II,norway,,epistle,Galatians 3:23–29
+after_trinity:2,,,II,norway,,gospel,John 3:26–30
+after_trinity:2,,,III,norway,,ot,Ezekiel 36:25–29
+after_trinity:2,,,III,norway,,epistle,Romans 6:3–8
+after_trinity:2,,,III,norway,,gospel,John 3:1–13
+after_trinity:2,,,,norway,,story,Acts 8:26–40
+after_trinity:3,,,I,norway,,ot,Isaiah 25:6–9
+after_trinity:3,,,I,norway,,epistle,Revelation 19:5–9
+after_trinity:3,,,I,norway,,gospel,Luke 14:15–24
+after_trinity:3,,,II,norway,,ot,Isaiah 50:4–5
+after_trinity:3,,,II,norway,,epistle,Romans 8:28–30
+after_trinity:3,,,II,norway,,gospel,John 1:35–51
+after_trinity:3,,,III,norway,,ot,1 Samuel 1:9–18
+after_trinity:3,,,III,norway,,epistle,1 John 3:1–3
+after_trinity:3,,,III,norway,,gospel,Mark 10:13–16
+after_trinity:3,,,,norway,,story,Mark 10:13–16
+after_trinity:4,,,I,norway,,ot,Genesis 25:27–34
+after_trinity:4,,,I,norway,,epistle,1 Corinthians 9:24–27
+after_trinity:4,,,I,norway,,gospel,Mark 10:17–27
+after_trinity:4,,,II,norway,,ot,Joshua 24:19–24
+after_trinity:4,,,II,norway,,epistle,Ephesians 2:1–10
+after_trinity:4,,,II,norway,,gospel,Matthew 16:24–27
+after_trinity:4,,,III,norway,,ot,Psalm 22:8–12
+after_trinity:4,,,III,norway,,epistle,1 Thessalonians 2:5–13
+after_trinity:4,,,III,norway,,gospel,Matthew 9:35–38
+after_trinity:4,,,,norway,,story,Mark 12:37–44
+06-24,,,I,norway,Sankthansdagen/Jonsok,ot,"Judges 13:2–7, 24–25"
+06-24,,,I,norway,Sankthansdagen/Jonsok,epistle,"Hebrews 11:1–2, 32–34, 38–40"
+06-24,,,I,norway,Sankthansdagen/Jonsok,gospel,Luke 1:5–17
+06-24,,,II,norway,Sankthansdagen/Jonsok,ot,Malachi 3:23–24
+06-24,,,II,norway,Sankthansdagen/Jonsok,epistle,Acts 13:16–26
+06-24,,,II,norway,Sankthansdagen/Jonsok,gospel,Matthew 11:7–14
+06-24,,,III,norway,Sankthansdagen/Jonsok,ot,Genesis 1:11–19
+06-24,,,III,norway,Sankthansdagen/Jonsok,epistle,Acts 14:8–18
+06-24,,,III,norway,Sankthansdagen/Jonsok,gospel,John 1:1–8
+06-24,,,,norway,Sankthansdagen/Jonsok,story,Luke 1:5–25
+after_trinity:5,,,I,norway,,ot,Jeremiah 23:16–24
+after_trinity:5,,,I,norway,,epistle,1 John 4:1–6
+after_trinity:5,,,I,norway,,gospel,Matthew 7:15–20
+after_trinity:5,,,II,norway,,ot,Proverbs 7:1–3
+after_trinity:5,,,II,norway,,epistle,1 Corinthians 3:10–18
+after_trinity:5,,,II,norway,,gospel,Matthew 7:21–29
+after_trinity:5,,,III,norway,,ot,Jeremiah 6:16–19
+after_trinity:5,,,III,norway,,epistle,Galatians 1:6–9
+after_trinity:5,,,III,norway,,gospel,Matthew 18:12–18
+after_trinity:5,,,,norway,,story,Jonah 1:1–2:2; 2:11–4:11
+after_trinity:6,,,I,norway,,ot,Genesis 12:1–4
+after_trinity:6,,,I,norway,,epistle,Romans 1:1–7
+after_trinity:6,,,I,norway,,gospel,Luke 5:1–11
+after_trinity:6,,,II,norway,,ot,Jeremiah 1:4–10
+after_trinity:6,,,II,norway,,epistle,Acts 20:24–32
+after_trinity:6,,,II,norway,,gospel,Matthew 16:13–20
+after_trinity:6,,,III,norway,,ot,Isaiah 66:18–19
+after_trinity:6,,,III,norway,,epistle,Acts 9:1–19
+after_trinity:6,,,III,norway,,gospel,Mark 3:13–19
+after_trinity:6,,,,norway,,story,Luke 5:1–11
+apostles,,,I,norway,,ot,Genesis 12:1–4
+apostles,,,I,norway,,epistle,Romans 1:1–7
+apostles,,,I,norway,,gospel,Luke 5:1–11
+apostles,,,II,norway,,ot,Jeremiah 1:4–10
+apostles,,,II,norway,,epistle,Acts 20:24–32
+apostles,,,II,norway,,gospel,Matthew 16:13–20
+apostles,,,III,norway,,ot,Isaiah 66:18–19
+apostles,,,III,norway,,epistle,Acts 9:1–19
+apostles,,,III,norway,,gospel,Mark 3:13–19
+apostles,,,,norway,,story,Luke 5:1–11
+after_trinity:7,,,I,norway,,ot,Genesis 16:1–13
+after_trinity:7,,,I,norway,,epistle,1 John 4:7–10
+after_trinity:7,,,I,norway,,gospel,Luke 15:1–10
+after_trinity:7,,,II,norway,,ot,Proverbs 30:7–9
+after_trinity:7,,,II,norway,,epistle,1 Timothy 6:17–19
+after_trinity:7,,,II,norway,,gospel,Luke 19:1–10
+after_trinity:7,,,III,norway,,ot,Psalm 8:2–10
+after_trinity:7,,,III,norway,,epistle,1 Corinthians 1:26–31
+after_trinity:7,,,III,norway,,gospel,Mark 5:25–34
+after_trinity:7,,,,norway,,story,Luke 19:1–10
+after_trinity:8,,,I,norway,,ot,"Exodus 32:1–4, 30–35"
+after_trinity:8,,,I,norway,,epistle,1 John 2:15–17
+after_trinity:8,,,I,norway,,gospel,Matthew 6:19–24
+after_trinity:8,,,II,norway,,ot,Exodus 36:2–7
+after_trinity:8,,,II,norway,,epistle,2 Corinthians 8:9–15
+after_trinity:8,,,II,norway,,gospel,Mark 12:37–44
+after_trinity:8,,,III,norway,,ot,Joshua 22:1–6
+after_trinity:8,,,III,norway,,epistle,Philippians 1:9–11
+after_trinity:8,,,III,norway,,gospel,Mark 12:28–34
+after_trinity:8,,,,norway,,story,Exodus 1:8–2:10
+after_trinity:9,,,I,norway,,ot,Hosea 6:1–3
+after_trinity:9,,,I,norway,,epistle,Romans 8:31–39
+after_trinity:9,,,I,norway,,gospel,Matthew 11:28–30
+after_trinity:9,,,II,norway,,ot,Psalm 145:9–16
+after_trinity:9,,,II,norway,,epistle,1 Corinthians 4:3–5
+after_trinity:9,,,II,norway,,gospel,John 8:2–11
+after_trinity:9,,,III,norway,,ot,Genesis 4:8–15
+after_trinity:9,,,III,norway,,epistle,Romans 14:10–13
+after_trinity:9,,,III,norway,,gospel,Luke 6:36–42
+after_trinity:9,,,,norway,,story,Exodus 2:23–3:15; 4:10–16
+07-29,,,I,norway,Olavsdagen/Olsok,ot,Jeremiah 1:17–19
+07-29,,,I,norway,Olavsdagen/Olsok,epistle,Revelation 12:10–11
+07-29,,,I,norway,Olavsdagen/Olsok,gospel,John 12:24–26
+07-29,,,II,norway,Olavsdagen/Olsok,ot,Deuteronomy 30:19–20
+07-29,,,II,norway,Olavsdagen/Olsok,epistle,2 Corinthians 4:6–11
+07-29,,,II,norway,Olavsdagen/Olsok,gospel,Luke 9:23–26
+07-29,,,III,norway,Olavsdagen/Olsok,ot,2 Samuel 23:1–4
+07-29,,,III,norway,Olavsdagen/Olsok,epistle,Acts 20:17–24
+07-29,,,III,norway,Olavsdagen/Olsok,gospel,Luke 22:24–27
+07-29,,,,norway,Olavsdagen/Olsok,story,Genesis 12:1–5; 15:1–6; 17:15–27
+after_trinity:10,,,I,norway,,ot,Psalm 32:1–11
+after_trinity:10,,,I,norway,,epistle,1 Peter 3:8–13
+after_trinity:10,,,I,norway,,gospel,Luke 5:27–32
+after_trinity:10,,,II,norway,,ot,Genesis 50:14–21
+after_trinity:10,,,II,norway,,epistle,2 Corinthians 13:11–13
+after_trinity:10,,,II,norway,,gospel,Matthew 18:21–35
+after_trinity:10,,,III,norway,,ot,Genesis 33:1–11
+after_trinity:10,,,III,norway,,epistle,Ephesians 4:29–32
+after_trinity:10,,,III,norway,,gospel,Mark 11:25–26
+after_trinity:10,,,,norway,,story,Matthew 18:21–35
+after_trinity:11,,,I,norway,,ot,Isaiah 64:6–65:2
+after_trinity:11,,,I,norway,,epistle,Romans 9:2–5; 10:1–4
+after_trinity:11,,,I,norway,,gospel,Matthew 23:37–39
+after_trinity:11,,,II,norway,,ot,Exodus 20:1–17
+after_trinity:11,,,II,norway,,epistle,Galatians 5:1–6
+after_trinity:11,,,II,norway,,gospel,Mark 2:23–28
+after_trinity:11,,,III,norway,,ot,Genesis 21:9–13
+after_trinity:11,,,III,norway,,epistle,"Romans 8:1–4, 14–18"
+after_trinity:11,,,III,norway,,gospel,John 8:31–36
+after_trinity:11,,,,norway,,story,Isaiah 6:1–8
+after_trinity:12,,,I,norway,,ot,Nehemiah 9:19–21
+after_trinity:12,,,I,norway,,epistle,Hebrews 13:5–6
+after_trinity:12,,,I,norway,,gospel,Matthew 6:24–34
+after_trinity:12,,,II,norway,,ot,Isaiah 49:13–16
+after_trinity:12,,,II,norway,,epistle,2 Corinthians 9:1–8
+after_trinity:12,,,II,norway,,gospel,Luke 8:1–3
+after_trinity:12,,,III,norway,,ot,Numbers 13:17–27
+after_trinity:12,,,III,norway,,epistle,Romans 1:16–17
+after_trinity:12,,,III,norway,,gospel,"John 4:27–30, 39–43"
+after_trinity:12,,,,norway,,story,John 6:1–15
+after_trinity:13,,,I,norway,,ot,"Psalm 92:2–6, 13–16"
+after_trinity:13,,,I,norway,,epistle,1 Corinthians 12:4–11
+after_trinity:13,,,I,norway,,gospel,Matthew 25:14–30
+after_trinity:13,,,II,norway,,ot,2 Chronicles 1:7–12
+after_trinity:13,,,II,norway,,epistle,Ephesians 4:11–16
+after_trinity:13,,,II,norway,,gospel,Luke 12:41–48
+after_trinity:13,,,III,norway,,ot,Exodus 18:13–24
+after_trinity:13,,,III,norway,,epistle,Acts 6:1–7
+after_trinity:13,,,III,norway,,gospel,John 15:13–17
+after_trinity:13,,,,norway,,story,Luke 18:18–30
+after_trinity:14,,,I,norway,,ot,Isaiah 27:2–6
+after_trinity:14,,,I,norway,,epistle,1 Corinthians 1:1–3
+after_trinity:14,,,I,norway,,gospel,Matthew 20:1–16
+after_trinity:14,,,II,norway,,ot,"Deuteronomy 8:7, 11–18"
+after_trinity:14,,,II,norway,,epistle,1 Corinthians 3:4–11
+after_trinity:14,,,II,norway,,gospel,Luke 17:7–10
+after_trinity:14,,,III,norway,,ot,Jeremiah 9:22–23
+after_trinity:14,,,III,norway,,epistle,Philippians 3:7–14
+after_trinity:14,,,III,norway,,gospel,Matthew 19:27–30
+after_trinity:14,,,,norway,,story,Matthew 20:1–16
+after_trinity:15,,,I,norway,,ot,Micah 6:6–8
+after_trinity:15,,,I,norway,,epistle,Philippians 1:9–11
+after_trinity:15,,,I,norway,,gospel,Matthew 5:38–48
+after_trinity:15,,,II,norway,,ot,Exodus 19:1–6
+after_trinity:15,,,II,norway,,epistle,Philippians 4:10–14
+after_trinity:15,,,II,norway,,gospel,Luke 10:38–42
+after_trinity:15,,,III,norway,,ot,"Ruth 1:7–11, 16–19"
+after_trinity:15,,,III,norway,,epistle,1 Corinthians 13:7–13
+after_trinity:15,,,III,norway,,gospel,John 15:9–12
+after_trinity:15,,,,norway,,story,Luke 10:38–42
+after_trinity:16,,,I,norway,,ot,Psalm 40:2–6
+after_trinity:16,,,I,norway,,epistle,Romans 8:19–23
+after_trinity:16,,,I,norway,,gospel,Mark 7:31–37
+after_trinity:16,,,II,norway,,ot,Psalm 13:2–6
+after_trinity:16,,,II,norway,,epistle,1 Peter 4:12–19
+after_trinity:16,,,II,norway,,gospel,Matthew 5:10–12
+after_trinity:16,,,III,norway,,ot,Proverbs 9:1–5
+after_trinity:16,,,III,norway,,epistle,1 Corinthians 1:18–25
+after_trinity:16,,,III,norway,,gospel,Matthew 11:16–19
+after_trinity:16,,,,norway,,story,Exodus 16:11–18
+after_trinity:17,,,I,norway,,ot,Job 19:21–27
+after_trinity:17,,,I,norway,,epistle,2 Timothy 1:7–12
+after_trinity:17,,,I,norway,,gospel,"John 11:17–29, 30–46"
+after_trinity:17,,,II,norway,,ot,1 Kings 17:17–24
+after_trinity:17,,,II,norway,,epistle,1 Corinthians 15:35–45
+after_trinity:17,,,II,norway,,gospel,Luke 7:11–17
+after_trinity:17,,,III,norway,,ot,"Ezekiel 37:1–5, 10–14"
+after_trinity:17,,,III,norway,,epistle,Philippians 1:20–26
+after_trinity:17,,,III,norway,,gospel,Mark 5:35–43
+after_trinity:17,,,,norway,,story,John 11:1–44
+after_trinity:18,,,I,norway,,ot,Isaiah 53:1–5
+after_trinity:18,,,I,norway,,epistle,Hebrews 2:10–18
+after_trinity:18,,,I,norway,,gospel,Matthew 8:14–17
+after_trinity:18,,,II,norway,,ot,1 Kings 8:41–43
+after_trinity:18,,,II,norway,,epistle,Romans 15:25–33
+after_trinity:18,,,II,norway,,gospel,Matthew 8:5–13
+after_trinity:18,,,III,norway,,ot,Psalm 38:10–16
+after_trinity:18,,,III,norway,,epistle,1 John 4:11–16
+after_trinity:18,,,III,norway,,gospel,Mark 1:40–45
+after_trinity:18,,,,norway,,story,John 8:1–11
+09-29,,,I,norway,Mikkelsmesse,ot,Exodus 23:20–22
+09-29,,,I,norway,Mikkelsmesse,epistle,Hebrews 1:5–14
+09-29,,,I,norway,Mikkelsmesse,gospel,"Matthew 18:1–6, 10–11"
+09-29,,,II,norway,Mikkelsmesse,ot,"Psalm 91:1–2, 9–16"
+09-29,,,II,norway,Mikkelsmesse,epistle,Revelation 12:1–10
+09-29,,,II,norway,Mikkelsmesse,gospel,"Luke 10:1–2, 16–20"
+09-29,,,III,norway,Mikkelsmesse,ot,Genesis 28:10–19
+09-29,,,III,norway,Mikkelsmesse,epistle,Hebrews 2:4–10
+09-29,,,III,norway,Mikkelsmesse,gospel,John 1:47–51
+09-29,,,,norway,Mikkelsmesse,story,Acts 12:1–17
+after_trinity:19,,,I,norway,,ot,Psalm 36:6–11
+after_trinity:19,,,I,norway,,epistle,Galatians 5:16–26
+after_trinity:19,,,I,norway,,gospel,Matthew 5:20–26
+after_trinity:19,,,II,norway,,ot,Deuteronomy 30:11–15
+after_trinity:19,,,II,norway,,epistle,Romans 2:13–16
+after_trinity:19,,,II,norway,,gospel,John 7:14–17
+after_trinity:19,,,III,norway,,ot,1 Samuel 3:1–11
+after_trinity:19,,,III,norway,,epistle,1 Corinthians 9:19–23
+after_trinity:19,,,III,norway,,gospel,Luke 9:57–62
+after_trinity:19,,,,norway,,story,Genesis 1:1–2:3
+after_trinity:20,,,I,norway,,ot,1 Samuel 18:1–4
+after_trinity:20,,,I,norway,,epistle,Hebrews 13:1–3
+after_trinity:20,,,I,norway,,gospel,John 11:1–5
+after_trinity:20,,,II,norway,,ot,Genesis 2:18–25
+after_trinity:20,,,II,norway,,epistle,Ephesians 5:31–33
+after_trinity:20,,,II,norway,,gospel,Mark 10:2–9
+after_trinity:20,,,III,norway,,ot,Ruth 2:8–11
+after_trinity:20,,,III,norway,,epistle,Ephesians 6:1–4
+after_trinity:20,,,III,norway,,gospel,Matthew 18:1–11
+after_trinity:20,,,,norway,,story,"Ruth 1:7–11, 16–19; 2:8–11; 4:13–17"
+after_trinity:21,,,I,norway,,ot,Jeremiah 29:4–7
+after_trinity:21,,,I,norway,,epistle,Romans 13:1–7
+after_trinity:21,,,I,norway,,gospel,Matthew 22:15–22
+after_trinity:21,,,II,norway,,ot,"Deuteronomy 15:7–8, 10–11"
+after_trinity:21,,,II,norway,,epistle,1 John 3:16–18
+after_trinity:21,,,II,norway,,gospel,Luke 16:19–31
+after_trinity:21,,,III,norway,,ot,Ecclesiastes 5:9–14
+after_trinity:21,,,III,norway,,epistle,1 Timothy 6:6–12
+after_trinity:21,,,III,norway,,gospel,Luke 12:13–21
+after_trinity:21,,,,norway,,story,Genesis 4:1–16
+repentance,,,I,norway,,ot,Jeremiah 18:1–10
+repentance,,,I,norway,,epistle,Romans 2:1–11
+repentance,,,I,norway,,gospel,Luke 13:22–30
+repentance,,,II,norway,,ot,Isaiah 59:1–4
+repentance,,,II,norway,,epistle,1 John 1:8–2:2
+repentance,,,II,norway,,gospel,Luke 18:9–14
+repentance,,,III,norway,,ot,Micah 7:18–19
+repentance,,,III,norway,,epistle,2 Corinthians 13:5–8
+repentance,,,III,norway,,gospel,Luke 15:11–32
+repentance,,,,norway,,story,Luke 15:11–32
+10-31,,,,norway,Reformasjonsdagen,ot,Psalm 46:1–8
+10-31,,,,norway,Reformasjonsdagen,epistle,Romans 1:16–17
+10-31,,,,norway,Reformasjonsdagen,gospel,John 1:16–17
+10-31,,,,norway,Reformasjonsdagen,story,1 Samuel 3:1–10
+all_saints,,,I,norway,,ot,Isaiah 49:8–10
+all_saints,,,I,norway,,epistle,Revelation 7:9–17
+all_saints,,,I,norway,,gospel,Matthew 5:1–12
+all_saints,,,II,norway,,ot,Psalm 84:2–8
+all_saints,,,II,norway,,epistle,Hebrews 12:1–3
+all_saints,,,II,norway,,gospel,Matthew 5:13–16
+all_saints,,,III,norway,,ot,Isaiah 60:18–22
+all_saints,,,III,norway,,epistle,"Hebrews 11:11–16, 39–40"
+all_saints,,,III,norway,,gospel,Luke 6:20–23
+all_saints,,,,norway,,story,Revelation 1:9–11; 21:1–5
+all_saints,,,I,norway,Minnedag,ot,"Psalm 90:1–4, 12–14"
+all_saints,,,I,norway,Minnedag,epistle,Romans 5:5–11
+all_saints,,,I,norway,Minnedag,gospel,John 6:37–40
+all_saints,,,II,norway,Minnedag,ot,Genesis 23:1–6
+all_saints,,,II,norway,Minnedag,epistle,2 Corinthians 1:3–7
+all_saints,,,II,norway,Minnedag,gospel,"John 11:1–5, 33–38"
+all_saints,,,III,norway,Minnedag,ot,"Psalm 139:1–18, 23–24"
+all_saints,,,III,norway,Minnedag,epistle,1 Corinthians 15:51–58
+all_saints,,,III,norway,Minnedag,gospel,John 11:19–27
+all_saints,,,,norway,Minnedag,story,Genesis 23:1–20
+after_trinity:24,,,I,norway,,ot,Psalm 126:1–6
+after_trinity:24,,,I,norway,,epistle,Philippians 1:2–6
+after_trinity:24,,,I,norway,,gospel,John 6:63–69
+after_trinity:24,,,II,norway,,ot,Psalm 119:80–83
+after_trinity:24,,,II,norway,,epistle,Colossians 1:24–29
+after_trinity:24,,,II,norway,,gospel,Luke 12:35–40
+after_trinity:24,,,III,norway,,ot,Proverbs 4:18–27
+after_trinity:24,,,III,norway,,epistle,Revelation 22:12–17
+after_trinity:24,,,III,norway,,gospel,Mark 13:21–27
+after_trinity:24,,,,norway,,story,Mark 4:35–41
+after_trinity:25,,,I,norway,,ot,Genesis 15:1–6
+after_trinity:25,,,I,norway,,epistle,Romans 4:1–8
+after_trinity:25,,,I,norway,,gospel,Mark 2:1–12
+after_trinity:25,,,II,norway,,ot,Psalm 107:23–32
+after_trinity:25,,,II,norway,,epistle,2 Corinthians 1:8–11
+after_trinity:25,,,II,norway,,gospel,Matthew 14:22–34
+after_trinity:25,,,III,norway,,ot,Psalm 103:1–6
+after_trinity:25,,,III,norway,,epistle,James 5:13–16
+after_trinity:25,,,III,norway,,gospel,John 5:1–15
+after_trinity:25,,,,norway,,story,Mark 2:1–12
+christ_the_king,,,I,norway,,ot,Isaiah 57:14–16
+christ_the_king,,,I,norway,,epistle,Revelation 20:11–13
+christ_the_king,,,I,norway,,gospel,Matthew 25:31–46
+christ_the_king,,,II,norway,,ot,Job 28:20–28
+christ_the_king,,,II,norway,,epistle,Colossians 1:9–14
+christ_the_king,,,II,norway,,gospel,Matthew 25:1–13
+christ_the_king,,,III,norway,,ot,Deuteronomy 30:15–20
+christ_the_king,,,III,norway,,epistle,1 Corinthians 15:22–28
+christ_the_king,,,III,norway,,gospel,John 9:39–41
+christ_the_king,,,,norway,,story,John 18:33–37
+after_trinity:22,,,I,norway,,ot,Ecclesiastes 4:17–5:6
+after_trinity:22,,,I,norway,,epistle,James 3:7–12
+after_trinity:22,,,I,norway,,gospel,Matthew 12:33–37
+after_trinity:22,,,II,norway,,ot,Proverbs 6:20–23
+after_trinity:22,,,II,norway,,epistle,Philippians 2:1–4
+after_trinity:22,,,II,norway,,gospel,John 12:35–36
+after_trinity:22,,,III,norway,,ot,"Leviticus 19:1–2, 16–18, 33–34"
+after_trinity:22,,,III,norway,,epistle,James 2:1–9
+after_trinity:22,,,III,norway,,gospel,Luke 10:25–37
+after_trinity:22,,,,norway,,story,Luke 10:25–37
+after_trinity:23,,,I,norway,,ot,Isaiah 1:16–19
+after_trinity:23,,,I,norway,,epistle,2 Thessalonians 1:10–12
+after_trinity:23,,,I,norway,,gospel,Mark 10:28–31
+after_trinity:23,,,II,norway,,ot,Psalm 73:23–28
+after_trinity:23,,,II,norway,,epistle,2 Corinthians 5:4–10
+after_trinity:23,,,II,norway,,gospel,John 5:24–29
+after_trinity:23,,,III,norway,,ot,Isaiah 51:11–16
+after_trinity:23,,,III,norway,,epistle,1 Thessalonians 4:13–18
+after_trinity:23,,,III,norway,,gospel,Matthew 24:35–44
+after_trinity:23,,,,norway,,story,Genesis 3:1–24
+after_trinity:26,,,I,norway,,ot,Psalm 146:1–10
+after_trinity:26,,,I,norway,,epistle,Romans 16:25–27
+after_trinity:26,,,I,norway,,gospel,Luke 18:35–43
+after_trinity:26,,,II,norway,,ot,Exodus 3:10–12; 4:10–16
+after_trinity:26,,,II,norway,,epistle,Romans 9:20–24
+after_trinity:26,,,II,norway,,gospel,"John 9:1–7, 35–38"
+after_trinity:26,,,III,norway,,ot,"Proverbs 14:21–22, 25, 31"
+after_trinity:26,,,III,norway,,epistle,Philippians 1:20
+after_trinity:26,,,III,norway,,gospel,Luke 13:10–17
+after_trinity:26,,,,norway,,story,Luke 18:35–43
+after_epiphany:5,,,I,norway,,ot,Genesis 15:1–6
+after_epiphany:5,,,I,norway,,epistle,Romans 4:1–8
+after_epiphany:5,,,I,norway,,gospel,Mark 2:1–12
+after_epiphany:5,,,II,norway,,ot,Psalm 107:23–32
+after_epiphany:5,,,II,norway,,epistle,2 Corinthians 1:8–11
+after_epiphany:5,,,II,norway,,gospel,Matthew 14:22–34
+after_epiphany:5,,,III,norway,,ot,Psalm 103:1–6
+after_epiphany:5,,,III,norway,,epistle,James 5:13–16
+after_epiphany:5,,,III,norway,,gospel,John 5:1–15
+after_epiphany:5,,,,norway,,story,Mark 2:1–12
+after_epiphany:6,,,I,norway,,ot,Psalm 126:1–6
+after_epiphany:6,,,I,norway,,epistle,Philippians 1:2–6
+after_epiphany:6,,,I,norway,,gospel,John 6:63–69
+after_epiphany:6,,,II,norway,,ot,Psalm 119:80–83
+after_epiphany:6,,,II,norway,,epistle,Colossians 1:24–29
+after_epiphany:6,,,II,norway,,gospel,Luke 12:35–40
+after_epiphany:6,,,III,norway,,ot,Proverbs 4:18–27
+after_epiphany:6,,,III,norway,,epistle,Revelation 22:12–17
+after_epiphany:6,,,III,norway,,gospel,Mark 13:21–27
+after_epiphany:6,,,,norway,,story,Mark 4:35–41
+# ------------------------------------------- Church of Denmark (variant denmark)
+# Folkekirkens tekstrækker (Alterbog 1992): a first reading (Old Testament or
+"# psalm), an Epistle and a Gospel (the preaching text) in two series (første"
+"# and anden tekstrække, cycle I-II; the second series is read from Advent"
+"# 2025).  Source: ""Prædikentekster"", denfriebibel.dk, read October 2026;"
+# bracketed optional verses are given in parentheses.  Bededag (Great Prayer
+"# Day, abolished as a public holiday from 2024) is left out.  Psalm and other"
+# verse numbers are the Danish Bible's (the heading counted in the Psalms).
+advent:1,,,I,denmark,,ot,Psalm 24 or Psalm 100
+advent:1,,,,denmark,,epistle,Romans 13:11–14
+advent:1,,,I,denmark,,gospel,Matthew 21:1–9
+advent:2,,,I,denmark,,ot,Isaiah 11:1–10
+advent:2,,,I,denmark,,epistle,Romans 15:4–7
+advent:2,,,I,denmark,,gospel,Luke 21:25–36
+advent:3,,,I,denmark,,ot,Isaiah 35
+advent:3,,,I,denmark,,epistle,1 Corinthians 4:1–5
+advent:3,,,I,denmark,,gospel,Matthew 11:2–10
+advent:4,,,I,denmark,,ot,Isaiah 52:7–10
+advent:4,,,I,denmark,,epistle,Philippians 4:4–7
+advent:4,,,I,denmark,,gospel,John 1:19–28
+christmas_eve,,,,denmark,,ot,Isaiah 9:1–6a
+christmas_eve,,,,denmark,,gospel,Luke 2:1–14 or Matthew 1:18–25
+christmas,,,I,denmark,,ot,Isaiah 9:1–6a
+christmas,,,I,denmark,,epistle,Hebrews 1:1–5
+christmas,,,I,denmark,,gospel,Luke 2:1–14
+stephen,,,I,denmark,,ot,Jeremiah 1:17–19
+stephen,,,,denmark,,epistle,Acts 6:8–14; Acts 7:54–60
+stephen,,,I,denmark,,gospel,Matthew 23:34–39
+after_christmas,,,I,denmark,,ot,Isaiah 63:7–9
+after_christmas,,,I,denmark,,epistle,Galatians 4:4–7
+after_christmas,,,I,denmark,,gospel,Luke 2:25–40
+new_year,,,I,denmark,,ot,Genesis 12:1–3
+new_year,,,I,denmark,,epistle,Galatians 3:23–29
+new_year,,,I,denmark,,gospel,Luke 2:21
+epiphany,,,I,denmark,,ot,Isaiah 60:1–6
+epiphany,,,I,denmark,,epistle,Titus 3:4–7
+epiphany,,,I,denmark,,gospel,Matthew 2:1–12
+after_epiphany:1,,,I,denmark,,ot,Psalm 84
+after_epiphany:1,,,I,denmark,,epistle,Romans 12:1–5
+after_epiphany:1,,,I,denmark,,gospel,Luke 2:41–52 or Mark 10:13–16
+after_epiphany:2,,,I,denmark,,ot,Exodus 33:18–23
+after_epiphany:2,,,I,denmark,,epistle,Romans 12:9–16a (6–8)
+after_epiphany:2,,,I,denmark,,gospel,John 2:1–11
+after_epiphany:3,,,I,denmark,,ot,Deuteronomy 10:17–21
+after_epiphany:3,,,I,denmark,,epistle,Romans 12:16b–21
+after_epiphany:3,,,I,denmark,,gospel,Matthew 8:1–13
+after_epiphany:4,,,I,denmark,,ot,"Job 38:1–11 (12–18, 31–33)"
+after_epiphany:4,,,I,denmark,,epistle,Romans 13:8–10
+after_epiphany:4,,,I,denmark,,gospel,Matthew 8:23–27
+after_epiphany:5,,,,denmark,,ot,Ecclesiastes 8:9–15
+after_epiphany:5,,,,denmark,,epistle,Colossians 3:12–17
+after_epiphany:5,,,,denmark,,gospel,Matthew 13:24–30 or Matthew 13:44–52
+last_after_epiphany,,,I,denmark,,ot,Exodus 34:27–35
+last_after_epiphany,,,I,denmark,,epistle,2 Peter 1:16–18
+last_after_epiphany,,,I,denmark,,gospel,Matthew 17:1–9
+septuagesima,,,I,denmark,,ot,Jeremiah 9:22–23
+septuagesima,,,I,denmark,,epistle,1 Corinthians 9:24–27
+septuagesima,,,I,denmark,,gospel,Matthew 20:1–16
+sexagesima,,,I,denmark,,ot,Isaiah 55:6–11
+sexagesima,,,I,denmark,,epistle,1 Corinthians 1:18–21 (22–25)
+sexagesima,,,I,denmark,,gospel,Mark 4:1–20
+shrove_sunday,,,I,denmark,,ot,Psalm 2
+shrove_sunday,,,I,denmark,,epistle,1 Peter 3:18–22
+shrove_sunday,,,I,denmark,,gospel,Matthew 3:13–17
+lent:1,,,I,denmark,,ot,Genesis 3:1–19
+lent:1,,,I,denmark,,epistle,2 Corinthians 6:1–2 (3–10)
+lent:1,,,I,denmark,,gospel,Matthew 4:1–11
+lent:2,,,I,denmark,,ot,Psalm 42:2–6
+lent:2,,,I,denmark,,epistle,1 Thessalonians 4:1–7
+lent:2,,,I,denmark,,gospel,Matthew 15:21–28
+lent:3,,,I,denmark,,ot,Deuteronomy 18:9–15
+lent:3,,,I,denmark,,epistle,Ephesians 5:6–9 (1–5)
+lent:3,,,I,denmark,,gospel,Luke 11:14–28
+mid_lent,,,I,denmark,,ot,Deuteronomy 8:1–3
+mid_lent,,,I,denmark,,epistle,2 Corinthians 9:6–11
+mid_lent,,,I,denmark,,gospel,John 6:1–15
+annunciation,,,I,denmark,,ot,Isaiah 7:10–14
+annunciation,,,I,denmark,,epistle,1 John 1:1–3
+annunciation,,,I,denmark,,gospel,Luke 1:26–38
+palm_sunday,,,,denmark,,ot,Zechariah 9:9–10
+palm_sunday,,,,denmark,,epistle,Philippians 2:5–11
+palm_sunday,,,I,denmark,,gospel,Matthew 21:1–9
+maundy_thursday,,,I,denmark,,ot,Exodus 12:1–11
+maundy_thursday,,,I,denmark,,epistle,1 Corinthians 10:15–17
+maundy_thursday,,,I,denmark,,gospel,Matthew 26:17–30
+good_friday,,,I,denmark,,ot,Genesis 22:1–18 and/or Isaiah 52:13–15; Isaiah 53
+good_friday,,,I,denmark,,gospel,Matthew 27:31–56 or Mark 15:20–39
+easter,,,I,denmark,,ot,Psalm 118:19–29
+easter,,,I,denmark,,epistle,1 Corinthians 5:7–8
+easter,,,I,denmark,,gospel,Mark 16:1–8
+easter_monday,,,I,denmark,,ot,Psalm 22:22b–32
+easter_monday,,,I,denmark,,epistle,Acts 10:34–41
+easter_monday,,,I,denmark,,gospel,Luke 24:13–35
+after_easter:1,,,I,denmark,,ot,Psalm 30
+after_easter:1,,,I,denmark,,epistle,1 John 5:1–5 or Acts 2:22–28
+after_easter:1,,,I,denmark,,gospel,John 20:19–31
+after_easter:2,,,I,denmark,,ot,Ezekiel 34:11–16
+after_easter:2,,,I,denmark,,epistle,1 Peter 2:20–25 or Acts 2:36–41
+after_easter:2,,,I,denmark,,gospel,John 10:11–16
+after_easter:3,,,I,denmark,,ot,Isaiah 54:7–10
+after_easter:3,,,I,denmark,,epistle,Hebrews 13:12–16 or Acts 4:7–12
+after_easter:3,,,I,denmark,,gospel,John 16:16–22
+after_easter:4,,,I,denmark,,ot,Ezekiel 36:26–28
+after_easter:4,,,I,denmark,,epistle,James 1:17–21 or Acts 9:1–18
+after_easter:4,,,I,denmark,,gospel,John 16:5–15
+after_easter:5,,,I,denmark,,ot,Genesis 32:25–32 or Jeremiah 29:11–13a
+after_easter:5,,,I,denmark,,epistle,James 1:22–25 or Acts 6:1–4
+after_easter:5,,,I,denmark,,gospel,John 16:23b–28
+ascension,,,I,denmark,,ot,Psalm 110:1–4
+ascension,,,,denmark,,epistle,Acts 1:1–11
+ascension,,,I,denmark,,gospel,Mark 16:14–20
+easter_6,,,I,denmark,,ot,Haggai 2:4b–9 or Joel 3:1–5
+easter_6,,,I,denmark,,epistle,1 Peter 4:7b–11 or Acts 1:12–14
+easter_6,,,I,denmark,,gospel,John 15:26–27; John 16:1–4
+pentecost,,,I,denmark,,ot,Genesis 11:1–9 or Genesis 2:4b–7
+pentecost,,,,denmark,,epistle,Acts 2:1–11
+pentecost,,,I,denmark,,gospel,John 14:22–31
+whit_monday,,,I,denmark,,ot,Psalm 104:24–30
+whit_monday,,,I,denmark,,epistle,Acts 10:42–48a
+whit_monday,,,I,denmark,,gospel,John 3:16–21
+trinity,,,I,denmark,,ot,Numbers 21:4–9
+trinity,,,I,denmark,,epistle,Romans 11:32–36
+trinity,,,I,denmark,,gospel,John 3:1–15
+after_trinity:1,,,I,denmark,,ot,Isaiah 58:5–12
+after_trinity:1,,,I,denmark,,epistle,1 John 4:16b–21
+after_trinity:1,,,I,denmark,,gospel,Luke 16:19–31
+after_trinity:2,,,I,denmark,,ot,Isaiah 25:6–9
+after_trinity:2,,,I,denmark,,epistle,1 John 3:13–18
+after_trinity:2,,,I,denmark,,gospel,Luke 14:16–24
+after_trinity:3,,,I,denmark,,ot,Isaiah 57:15–19
+after_trinity:3,,,I,denmark,,epistle,1 Peter 5:6–11
+after_trinity:3,,,I,denmark,,gospel,Luke 15:1–10
+after_trinity:4,,,I,denmark,,ot,2 Samuel 11:26–27; 2 Samuel 12:1–7a
+after_trinity:4,,,I,denmark,,epistle,Romans 8:18–23
+after_trinity:4,,,I,denmark,,gospel,Luke 6:36–42
+after_trinity:5,,,I,denmark,,ot,Isaiah 6:1–8
+after_trinity:5,,,I,denmark,,epistle,1 Peter 3:8–9 (10–15a)
+after_trinity:5,,,I,denmark,,gospel,Luke 5:1–11
+after_trinity:6,,,I,denmark,,ot,Deuteronomy 30:11–14
+after_trinity:6,,,I,denmark,,epistle,Romans 6:3–11
+after_trinity:6,,,I,denmark,,gospel,Matthew 5:20–26
+after_trinity:7,,,I,denmark,,ot,Psalm 126
+after_trinity:7,,,I,denmark,,epistle,Romans 6:19–23
+after_trinity:7,,,I,denmark,,gospel,Luke 19:1–10
+after_trinity:8,,,I,denmark,,ot,Jeremiah 23:16–24
+after_trinity:8,,,I,denmark,,epistle,Romans 8:14–17
+after_trinity:8,,,I,denmark,,gospel,Matthew 7:15–21
+after_trinity:9,,,I,denmark,,ot,Proverbs 3:27–35
+after_trinity:9,,,I,denmark,,epistle,1 John 1:5–10; 1 John 2:1–2
+after_trinity:9,,,I,denmark,,gospel,Luke 16:1–9
+after_trinity:10,,,I,denmark,,ot,Deuteronomy 6:4–9
+after_trinity:10,,,I,denmark,,epistle,1 Corinthians 12:1–7 (8–11)
+after_trinity:10,,,I,denmark,,gospel,Luke 19:41–48
+after_trinity:11,,,I,denmark,,ot,Job 5:8–16
+after_trinity:11,,,I,denmark,,epistle,1 Corinthians 15:1–10a
+after_trinity:11,,,I,denmark,,gospel,Luke 18:9–14
+after_trinity:12,,,I,denmark,,ot,Psalm 115:1–9
+after_trinity:12,,,I,denmark,,epistle,2 Corinthians 3:4–9
+after_trinity:12,,,I,denmark,,gospel,Mark 7:31–37
+after_trinity:13,,,I,denmark,,ot,Leviticus 19:1–2; Leviticus 19:9–18
+after_trinity:13,,,I,denmark,,epistle,Galatians 2:16–21
+after_trinity:13,,,I,denmark,,gospel,Luke 10:23–37
+after_trinity:14,,,I,denmark,,ot,Psalm 103:1–13 (14–22)
+after_trinity:14,,,I,denmark,,epistle,Galatians 5:22–25 (16–21) or Romans 7:15–19
+after_trinity:14,,,I,denmark,,gospel,Luke 17:11–19
+after_trinity:15,,,I,denmark,,ot,Genesis 8:20–22; Genesis 9:12–16
+after_trinity:15,,,I,denmark,,epistle,Galatians 5:25–26; Galatians 6:1–8
+after_trinity:15,,,I,denmark,,gospel,Matthew 6:24–34
+after_trinity:16,,,I,denmark,,ot,Job 19:23–27a or Job 3:11–22
+after_trinity:16,,,I,denmark,,epistle,Ephesians 3:13–21
+after_trinity:16,,,I,denmark,,gospel,Luke 7:11–17
+after_trinity:17,,,I,denmark,,ot,Psalm 19:2–7
+after_trinity:17,,,I,denmark,,epistle,Ephesians 4:1–6
+after_trinity:17,,,I,denmark,,gospel,Luke 14:1–11
+after_trinity:18,,,I,denmark,,ot,Isaiah 40:18–25
+after_trinity:18,,,I,denmark,,epistle,1 Corinthians 1:4–8
+after_trinity:18,,,I,denmark,,gospel,Matthew 22:34–46
+after_trinity:19,,,I,denmark,,ot,Isaiah 44:22–28
+after_trinity:19,,,I,denmark,,epistle,Ephesians 4:22–28
+after_trinity:19,,,I,denmark,,gospel,Mark 2:1–12
+after_trinity:20,,,I,denmark,,ot,Jeremiah 18:1–6
+after_trinity:20,,,I,denmark,,epistle,Ephesians 5:15–21
+after_trinity:20,,,I,denmark,,gospel,Matthew 22:1–14
+after_trinity:21,,,I,denmark,,ot,2 Kings 5:1–5; 2 Kings 5:9–15 or Ezekiel 18:1–4a
+after_trinity:21,,,I,denmark,,epistle,Ephesians 6:10–17
+after_trinity:21,,,I,denmark,,gospel,John 4:46–53
+after_trinity:22,,,I,denmark,,ot,Genesis 50:15–21
+after_trinity:22,,,I,denmark,,epistle,Philippians 1:6–11
+after_trinity:22,,,I,denmark,,gospel,Matthew 18:21–35
+after_trinity:23,,,I,denmark,,ot,Amos 8:4–7
+after_trinity:23,,,I,denmark,,epistle,Romans 13:1–7
+after_trinity:23,,,I,denmark,,gospel,Matthew 22:15–22
+all_saints,,,I,denmark,,ot,Isaiah 60:18–22
+all_saints,,,I,denmark,,epistle,Revelation 7:1–12 (13–17)
+all_saints,,,I,denmark,,gospel,Matthew 5:1–12
+after_trinity:24,,,I,denmark,,ot,Ezekiel 37:1–14 or Daniel 7:9–10; Daniel 7:13–14
+after_trinity:24,,,I,denmark,,epistle,Colossians 1:9b–14
+after_trinity:24,,,I,denmark,,gospel,Matthew 9:18–26
+after_trinity:25,,,I,denmark,,ot,Isaiah 51:12–16
+after_trinity:25,,,I,denmark,,epistle,1 Thessalonians 4:13–18
+after_trinity:25,,,I,denmark,,gospel,Matthew 24:15–28
+after_trinity:26,,,,denmark,,ot,Ecclesiastes 8:9–15
+after_trinity:26,,,,denmark,,epistle,Colossians 3:12–17
+after_trinity:26,,,,denmark,,gospel,Matthew 13:24–30 or Matthew 13:44–52
+last_sunday,,,I,denmark,,ot,Isaiah 65:17–19
+last_sunday,,,I,denmark,,epistle,2 Thessalonians 2:13–17
+last_sunday,,,I,denmark,,gospel,Matthew 25:31–46
+advent:1,,,II,denmark,,ot,Isaiah 42:1–9
+advent:1,,,II,denmark,,gospel,Luke 4:16–30
+advent:2,,,II,denmark,,ot,Isaiah 11:1–10 or Malachi 3:1–3
+advent:2,,,II,denmark,,epistle,James 5:7–8
+advent:2,,,II,denmark,,gospel,Matthew 25:1–13
+advent:3,,,II,denmark,,ot,Isaiah 40:1–8
+advent:3,,,II,denmark,,epistle,2 Corinthians 4:5–10
+advent:3,,,II,denmark,,gospel,Luke 1:67–80
+advent:4,,,II,denmark,,ot,Isaiah 12
+advent:4,,,II,denmark,,epistle,2 Corinthians 1:18–22
+advent:4,,,II,denmark,,gospel,John 3:25–36
+christmas,,,II,denmark,,ot,Isaiah 9:1–6a or Genesis 1:1–5
+christmas,,,II,denmark,,epistle,1 John 4:7–11
+christmas,,,II,denmark,,gospel,John 1:1–14
+stephen,,,II,denmark,,ot,Isaiah 50:4–7
+stephen,,,II,denmark,,gospel,Matthew 10:32–42
+after_christmas,,,II,denmark,,ot,Psalm 27:1–5 or Jeremiah 31:15–17
+after_christmas,,,II,denmark,,epistle,Romans 3:19–22a
+after_christmas,,,II,denmark,,gospel,Matthew 2:13–23
+new_year,,,II,denmark,,ot,Psalm 90
+new_year,,,II,denmark,,epistle,James 4:13–17
+new_year,,,II,denmark,,gospel,Matthew 6:5–13
+epiphany,,,II,denmark,,ot,Isaiah 60:1–6 or Job 28:12–28
+epiphany,,,II,denmark,,epistle,1 John 2:7–11
+epiphany,,,II,denmark,,gospel,Matthew 2:1–12 or John 8:12–20
+after_epiphany:1,,,II,denmark,,ot,Psalm 8
+after_epiphany:1,,,II,denmark,,epistle,Colossians 1:15–19
+after_epiphany:1,,,II,denmark,,gospel,Mark 10:13–16
+after_epiphany:2,,,II,denmark,,ot,1 Kings 8:1; 1 Kings 8:12–13; 1 Kings 8:22–30 or Jeremiah 17:12–14
+after_epiphany:2,,,II,denmark,,epistle,1 John 2:28–29; 1 John 3:1–3
+after_epiphany:2,,,II,denmark,,gospel,John 4:5–26
+after_epiphany:3,,,II,denmark,,ot,Genesis 15:1–6
+after_epiphany:3,,,II,denmark,,epistle,Hebrews 11:1–6
+after_epiphany:3,,,II,denmark,,gospel,Luke 17:5–10
+after_epiphany:4,,,II,denmark,,ot,Isaiah 40:26–31
+after_epiphany:4,,,II,denmark,,epistle,Romans 4:18–22 (23–25)
+after_epiphany:4,,,II,denmark,,gospel,Matthew 14:22–33
+last_after_epiphany,,,II,denmark,,ot,Isaiah 2:2–5
+last_after_epiphany,,,II,denmark,,epistle,Colossians 1:25d–28
+last_after_epiphany,,,II,denmark,,gospel,John 12:23–33
+septuagesima,,,II,denmark,,ot,Job 9:1–12
+septuagesima,,,II,denmark,,epistle,Acts 17:22–34
+septuagesima,,,II,denmark,,gospel,Matthew 25:14–30
+sexagesima,,,II,denmark,,ot,Isaiah 45:5–12
+sexagesima,,,II,denmark,,epistle,1 Corinthians 1:18–21 (22–25) or 2 Timothy 3:10–17
+sexagesima,,,II,denmark,,gospel,Mark 4:26–32
+shrove_sunday,,,II,denmark,,ot,Psalm 31:2–6
+shrove_sunday,,,II,denmark,,epistle,1 Corinthians 13
+shrove_sunday,,,II,denmark,,gospel,Luke 18:31–43
+lent:1,,,II,denmark,,ot,Genesis 4:1–12
+lent:1,,,II,denmark,,epistle,James 1:9–16
+lent:1,,,II,denmark,,gospel,Luke 22:24–32
+lent:2,,,II,denmark,,ot,Genesis 1:27–31
+lent:2,,,II,denmark,,epistle,Hebrews 5:1–10
+lent:2,,,II,denmark,,gospel,Mark 9:14–29
+lent:3,,,II,denmark,,ot,Exodus 32:7–10; Exodus 32:30–32
+lent:3,,,II,denmark,,epistle,Revelation 2:1–7
+lent:3,,,II,denmark,,gospel,John 8:42–51
+mid_lent,,,II,denmark,,ot,Exodus 16:11–18 or Psalm 145:8–16
+mid_lent,,,II,denmark,,epistle,2 Peter 1:3–11
+mid_lent,,,II,denmark,,gospel,John 6:24–35 (36–37)
+annunciation,,,II,denmark,,ot,Isaiah 7:10–14 or Genesis 18:1–15
+annunciation,,,II,denmark,,epistle,1 Corinthians 1:21–31
+annunciation,,,II,denmark,,gospel,Luke 1:46–55
+palm_sunday,,,II,denmark,,gospel,Mark 14:3–9 or John 12:1–16
+maundy_thursday,,,II,denmark,,ot,Psalm 116
+maundy_thursday,,,II,denmark,,epistle,1 Corinthians 11:23–26
+maundy_thursday,,,II,denmark,,gospel,John 13:1–15
+good_friday,,,II,denmark,,ot,Psalm 22:2–22a and/or Isaiah 52:13–15; Isaiah 53
+good_friday,,,II,denmark,,gospel,Luke 23:26–49 or John 19:17–37
+easter,,,II,denmark,,ot,Psalm 118:19–29 or Psalm 118:13–18
+easter,,,II,denmark,,epistle,1 Peter 1:3–9
+easter,,,II,denmark,,gospel,Matthew 28:1–8
+easter_monday,,,II,denmark,,ot,Psalm 16:5–11
+easter_monday,,,II,denmark,,epistle,1 Corinthians 15:12–20 or Acts 10:34–41
+easter_monday,,,II,denmark,,gospel,John 20:1–18
+after_easter:1,,,II,denmark,,ot,Isaiah 43:10–12
+after_easter:1,,,II,denmark,,epistle,Acts 2:22–28 or 1 Peter 1:17–25
+after_easter:1,,,II,denmark,,gospel,John 21:15–19
+after_easter:2,,,II,denmark,,ot,Psalm 23
+after_easter:2,,,II,denmark,,epistle,Acts 2:36–41 or Hebrews 13:20–21
+after_easter:2,,,II,denmark,,gospel,John 10:22–30
+after_easter:3,,,II,denmark,,ot,Exodus 3:1–7; Exodus 3:10–14
+after_easter:3,,,II,denmark,,epistle,Acts 4:7–12 or Hebrews 4:14–16
+after_easter:3,,,II,denmark,,gospel,John 14:1–11
+after_easter:4,,,II,denmark,,ot,Psalm 124
+after_easter:4,,,II,denmark,,epistle,Acts 9:1–18 or 2 Corinthians 5:14–21
+after_easter:4,,,II,denmark,,gospel,John 8:28–36
+after_easter:5,,,II,denmark,,ot,Isaiah 44:1–8
+after_easter:5,,,II,denmark,,epistle,Romans 8:24–28 or Acts 6:1–4
+after_easter:5,,,II,denmark,,gospel,John 17:1–11
+ascension,,,II,denmark,,ot,Psalm 113
+ascension,,,II,denmark,,gospel,Luke 24:46–53
+easter_6,,,II,denmark,,ot,Joel 3:1–5
+easter_6,,,II,denmark,,epistle,Romans 8:31b–39 or Acts 1:12–14
+easter_6,,,II,denmark,,gospel,John 17:20–26
+pentecost,,,II,denmark,,ot,Jeremiah 31:31–34
+pentecost,,,II,denmark,,gospel,John 14:15–21
+whit_monday,,,II,denmark,,ot,Ezekiel 11:19–20
+whit_monday,,,II,denmark,,epistle,Acts 2:42–47
+whit_monday,,,II,denmark,,gospel,John 6:44–51
+trinity,,,II,denmark,,ot,Isaiah 49:1–6
+trinity,,,II,denmark,,epistle,Ephesians 1:3–14
+trinity,,,II,denmark,,gospel,Matthew 28:16–20
+after_trinity:1,,,II,denmark,,ot,Ecclesiastes 5:9–19
+after_trinity:1,,,II,denmark,,epistle,1 Timothy 6:6–12
+after_trinity:1,,,II,denmark,,gospel,Luke 12:13–21
+after_trinity:2,,,II,denmark,,ot,Jeremiah 15:10; Jeremiah 15:15–21
+after_trinity:2,,,II,denmark,,epistle,Revelation 3:14–22
+after_trinity:2,,,II,denmark,,gospel,Luke 14:25–35
+after_trinity:3,,,II,denmark,,ot,Isaiah 65:1–2
+after_trinity:3,,,II,denmark,,epistle,Ephesians 2:17–22
+after_trinity:3,,,II,denmark,,gospel,Luke 15:11–32
+after_trinity:4,,,II,denmark,,ot,Deuteronomy 24:17–22
+after_trinity:4,,,II,denmark,,epistle,Romans 14:7–13
+after_trinity:4,,,II,denmark,,gospel,Matthew 5:43–48
+after_trinity:5,,,II,denmark,,ot,Jeremiah 1:4–9
+after_trinity:5,,,II,denmark,,epistle,1 Peter 2:4–10
+after_trinity:5,,,II,denmark,,gospel,Matthew 16:13–26
+after_trinity:6,,,II,denmark,,ot,Exodus 20:1–17
+after_trinity:6,,,II,denmark,,epistle,Romans 3:23–28
+after_trinity:6,,,II,denmark,,gospel,Matthew 19:16–26
+after_trinity:7,,,II,denmark,,ot,Ecclesiastes 3:1–11
+after_trinity:7,,,II,denmark,,epistle,Romans 8:1–4
+after_trinity:7,,,II,denmark,,gospel,Matthew 10:24–31
+after_trinity:8,,,II,denmark,,ot,Micah 3:5–7
+after_trinity:8,,,II,denmark,,epistle,1 John 4:1–6
+after_trinity:8,,,II,denmark,,gospel,Matthew 7:22–29
+after_trinity:9,,,II,denmark,,ot,Isaiah 10:1–3
+after_trinity:9,,,II,denmark,,epistle,2 Timothy 1:6–11
+after_trinity:9,,,II,denmark,,gospel,Luke 12:32–48 or Luke 18:1–8
+after_trinity:10,,,II,denmark,,ot,Ezekiel 33:23; Ezekiel 33:30–33
+after_trinity:10,,,II,denmark,,epistle,Hebrews 3:12–14
+after_trinity:10,,,II,denmark,,gospel,Matthew 11:16–24
+after_trinity:11,,,II,denmark,,ot,Deuteronomy 30:15–20
+after_trinity:11,,,II,denmark,,epistle,Romans 10:4–13 (14–17)
+after_trinity:11,,,II,denmark,,gospel,Luke 7:36–50
+after_trinity:12,,,II,denmark,,ot,Jonah 2
+after_trinity:12,,,II,denmark,,epistle,James 3:1–12
+after_trinity:12,,,II,denmark,,gospel,Matthew 12:31–42
+after_trinity:13,,,II,denmark,,ot,Micah 6:6–8
+after_trinity:13,,,II,denmark,,epistle,1 Timothy 1:12–17
+after_trinity:13,,,II,denmark,,gospel,Matthew 20:20–28
+after_trinity:14,,,II,denmark,,ot,Psalm 39:5–14
+after_trinity:14,,,II,denmark,,epistle,2 Timothy 2:8–13
+after_trinity:14,,,II,denmark,,gospel,John 5:1–15
+after_trinity:15,,,II,denmark,,ot,Psalm 73:23–28
+after_trinity:15,,,II,denmark,,epistle,Acts 8:26–39
+after_trinity:15,,,II,denmark,,gospel,Luke 10:38–42
+after_trinity:16,,,II,denmark,,ot,Psalm 139:1–12
+after_trinity:16,,,II,denmark,,epistle,1 Corinthians 15:21–28
+after_trinity:16,,,II,denmark,,gospel,John 11:19–45
+after_trinity:17,,,II,denmark,,ot,Psalm 40:2–6
+after_trinity:17,,,II,denmark,,epistle,Jude 20–25
+after_trinity:17,,,II,denmark,,gospel,Mark 2:14–22
+after_trinity:18,,,II,denmark,,ot,Psalm 121
+after_trinity:18,,,II,denmark,,epistle,1 John 4:12–16a
+after_trinity:18,,,II,denmark,,gospel,John 15:1–11
+after_trinity:19,,,II,denmark,,ot,Genesis 28:10–18
+after_trinity:19,,,II,denmark,,epistle,1 Corinthians 12:12–20
+after_trinity:19,,,II,denmark,,gospel,John 1:35–51
+after_trinity:20,,,II,denmark,,ot,Isaiah 5:1–7
+after_trinity:20,,,II,denmark,,epistle,Romans 11:25–32
+after_trinity:20,,,II,denmark,,gospel,Matthew 21:28–44
+after_trinity:21,,,II,denmark,,ot,Ezekiel 18:1–4a
+after_trinity:21,,,II,denmark,,epistle,Revelation 3:7–13
+after_trinity:21,,,II,denmark,,gospel,Luke 13:1–9
+all_saints,,,II,denmark,,ot,Isaiah 49:8–11
+all_saints,,,II,denmark,,epistle,Revelation 21:1–7
+all_saints,,,II,denmark,,gospel,Matthew 5:13–16 or Matthew 5:1–12
+after_trinity:22,,,II,denmark,,ot,Isaiah 49:13–18
+after_trinity:22,,,II,denmark,,epistle,Ephesians 4:30–32
+after_trinity:22,,,II,denmark,,gospel,Matthew 18:1–14
+after_trinity:23,,,II,denmark,,ot,Jeremiah 7:1–11
+after_trinity:23,,,II,denmark,,epistle,Philippians 3:17–21
+after_trinity:23,,,II,denmark,,gospel,Mark 12:38–44
+after_trinity:24,,,II,denmark,,ot,Daniel 7:9–10; Daniel 7:13–14
+after_trinity:24,,,II,denmark,,epistle,2 Corinthians 5:1–10
+after_trinity:24,,,II,denmark,,gospel,John 5:17–29
+after_trinity:25,,,II,denmark,,ot,Job 14:7–15
+after_trinity:25,,,II,denmark,,epistle,2 Peter 3:8–15a or 1 Corinthians 15:50–57
+after_trinity:25,,,II,denmark,,gospel,Luke 17:20–33
+last_sunday,,,II,denmark,,ot,Micah 4:1–3
+last_sunday,,,II,denmark,,epistle,1 Corinthians 3:10–17
+last_sunday,,,II,denmark,,gospel,Matthew 11:25–30
+# ------------------------------------------- Evangelical Lutheran Church of Finland (variant finland)
+"# Kirkkokäsikirja (2000) texts: a psalm, a first reading (Old Testament), a"
+"# second reading (Epistle) and a Gospel in three series (vuosikerta, cycle"
+# I-III; the second is read from Advent 2025).  Where a day has one set it is
+"# read every year.  Source: Kirkkovuosikalenteri, kirkkovuosikalenteri.fi"
+"# (Kirkkohallitus), read October 2026.  The 6th Sunday after the Epiphany and"
+# the 26th after Pentecost share their texts.  Psalm and other verse numbers
+# are the Finnish Bible's (the heading counted in the Psalms).
+advent:1,,,,finland,,psalm,Psalm 24:7–10
+advent:1,,,I,finland,,ot,Isaiah 62:10–12
+advent:1,,,II,finland,,ot,Zechariah 9:9–10
+advent:1,,,III,finland,,ot,Isaiah 49:8–10
+advent:1,,,I,finland,,epistle,Romans 13:11–14
+advent:1,,,II,finland,,epistle,1 Peter 1:7–12
+advent:1,,,III,finland,,epistle,Revelation 3:20–22
+advent:1,,,I,finland,,gospel,Matthew 21:1–9
+advent:1,,,II,finland,,gospel,Mark 11:1–10
+advent:1,,,III,finland,,gospel,Luke 19:28–40
+lent:1,,,,finland,,psalm,"Psalm 91:1–4, 11–12"
+lent:1,,,I,finland,,ot,Genesis 3:1–7 (8–19)
+lent:1,,,II,finland,,ot,Genesis 4:3–10 or Genesis 3:1–7 (8–19)
+lent:1,,,III,finland,,ot,Isaiah 1:16–20 or Genesis 3:1–7 (8–19)
+lent:1,,,I,finland,,epistle,Hebrews 4:14–16
+lent:1,,,II,finland,,epistle,James 1:12–15
+lent:1,,,III,finland,,epistle,"Hebrews 2:9, 17–18"
+lent:1,,,I,finland,,gospel,Matthew 4:1–11
+lent:1,,,II,finland,,gospel,Matthew 16:21–23
+lent:1,,,III,finland,,gospel,Mark 1:12–13
+after_christmas:1,,,,finland,,psalm,Psalm 71:14–19
+after_christmas:1,,,,finland,,ot,"Isaiah 25:1, 4–5 or Isaiah 49:13–16"
+after_christmas:1,,,,finland,,epistle,Galatians 4:3–7 or Colossians 2:6–10
+after_christmas:1,,,,finland,,gospel,Luke 2:33–40
+after_epiphany:1,,,,finland,,psalm,"Psalm 89:19–22, 27–30"
+after_epiphany:1,,,I,finland,,ot,Isaiah 42:1–4
+after_epiphany:1,,,II,finland,,ot,Isaiah 61:1–3
+after_epiphany:1,,,III,finland,,ot,"Genesis 9:12–16 or Joshua 3:5–11, 17"
+after_epiphany:1,,,I,finland,,epistle,Titus 3:4–7
+after_epiphany:1,,,II,finland,,epistle,Acts 8:26–40
+after_epiphany:1,,,III,finland,,epistle,Galatians 3:23–29
+after_epiphany:1,,,I,finland,,gospel,Matthew 3:13–17
+after_epiphany:1,,,II,finland,,gospel,John 1:29–34
+after_epiphany:1,,,III,finland,,gospel,"Luke 3:15–18, 21–22"
+after_easter:1,,,,finland,,psalm,Psalm 116:1–9
+after_easter:1,,,I,finland,,ot,Isaiah 43:10–12
+after_easter:1,,,II,finland,,ot,Zechariah 8:6–8
+after_easter:1,,,III,finland,,ot,Zechariah 8:12–13
+after_easter:1,,,I,finland,,epistle,1 John 5:4–12
+after_easter:1,,,II,finland,,epistle,Acts 3:12–20
+after_easter:1,,,III,finland,,epistle,Acts 13:23–33
+after_easter:1,,,I,finland,,gospel,John 20:19–31
+after_easter:1,,,II,finland,,gospel,John 21:1–14
+after_easter:1,,,III,finland,,gospel,Luke 24:36–49
+after_pentecost:10,,,,finland,,psalm,Psalm 119:129–136
+after_pentecost:10,,,I,finland,,ot,Proverbs 3:3–8 or 2 Chronicles 1:7–12
+after_pentecost:10,,,II,finland,,ot,"Proverbs 14:21–22, 25, 31"
+after_pentecost:10,,,III,finland,,ot,"Proverbs 3:27–32 or Genesis 41:46–49, 53–57"
+after_pentecost:10,,,I,finland,,epistle,1 Peter 4:7–11
+after_pentecost:10,,,II,finland,,epistle,2 Corinthians 8:9–15
+after_pentecost:10,,,III,finland,,epistle,Hebrews 10:19–25 or Acts 20:17–24
+after_pentecost:10,,,I,finland,,gospel,Luke 16:1–9
+after_pentecost:10,,,II,finland,,gospel,Matthew 25:14–30
+after_pentecost:10,,,III,finland,,gospel,Luke 12:42–48
+after_pentecost:11,,,,finland,,psalm,Psalm 81:9–17
+after_pentecost:11,,,I,finland,,ot,Jeremiah 18:1–10
+after_pentecost:11,,,II,finland,,ot,Jeremiah 6:16–19
+after_pentecost:11,,,III,finland,,ot,Genesis 18:20–32
+after_pentecost:11,,,I,finland,,epistle,Revelation 3:1–6
+after_pentecost:11,,,II,finland,,epistle,Romans 11:17–24
+after_pentecost:11,,,III,finland,,epistle,Hebrews 3:15–19
+after_pentecost:11,,,I,finland,,gospel,Luke 19:41–48
+after_pentecost:11,,,II,finland,,gospel,Luke 4:23–30
+after_pentecost:11,,,III,finland,,gospel,Matthew 11:20–24
+after_pentecost:12,,,,finland,,psalm,Psalm 51:6–14
+after_pentecost:12,,,I,finland,,ot,Proverbs 28:13–14 or Deuteronomy 9:1–6
+after_pentecost:12,,,II,finland,,ot,"Job 42:1–6 or 1 Samuel 17:37–45, 48–50"
+after_pentecost:12,,,III,finland,,ot,Isaiah 2:12–18
+after_pentecost:12,,,I,finland,,epistle,Romans 3:21–28 (29–31)
+after_pentecost:12,,,II,finland,,epistle,Romans 7:14–25
+after_pentecost:12,,,III,finland,,epistle,1 John 1:8–2:2
+after_pentecost:12,,,I,finland,,gospel,Luke 18:9–14
+after_pentecost:12,,,II,finland,,gospel,Matthew 21:28–32
+after_pentecost:12,,,III,finland,,gospel,Matthew 23:1–12
+after_pentecost:13,,,,finland,,psalm,"Psalm 30:3–6, 12–13"
+after_pentecost:13,,,I,finland,,ot,Exodus 4:10–12
+after_pentecost:13,,,II,finland,,ot,"Proverbs 18:4–8, 21"
+after_pentecost:13,,,III,finland,,ot,2 Kings 5:1–15
+after_pentecost:13,,,I,finland,,epistle,2 Corinthians 3:4–6
+after_pentecost:13,,,II,finland,,epistle,James 3:2–12
+after_pentecost:13,,,III,finland,,epistle,Acts 3:1–10
+after_pentecost:13,,,I,finland,,gospel,Mark 7:31–37
+after_pentecost:13,,,II,finland,,gospel,Matthew 12:33–37
+after_pentecost:13,,,III,finland,,gospel,"John 9:1–7, 39–41"
+after_pentecost:14,,,,finland,,psalm,Psalm 112:5–9
+after_pentecost:14,,,I,finland,,ot,Micah 6:6–8
+after_pentecost:14,,,II,finland,,ot,"1 Samuel 24:9–12, 17–21"
+after_pentecost:14,,,III,finland,,ot,"Ruth 1:8–11, 14–18"
+after_pentecost:14,,,I,finland,,epistle,1 John 4:7–12
+after_pentecost:14,,,II,finland,,epistle,1 John 3:11–18
+after_pentecost:14,,,III,finland,,epistle,Romans 13:8–10
+after_pentecost:14,,,I,finland,,gospel,Luke 10:25–37
+after_pentecost:14,,,II,finland,,gospel,Matthew 5:43–48
+after_pentecost:14,,,III,finland,,gospel,Mark 12:41–44
+after_pentecost:15,,,,finland,,psalm,"Psalm 65:2–6, 9"
+after_pentecost:15,,,I,finland,,ot,Isaiah 38:16–20
+after_pentecost:15,,,II,finland,,ot,Isaiah 24:14–16
+after_pentecost:15,,,III,finland,,ot,Nehemiah 8:5–10
+after_pentecost:15,,,I,finland,,epistle,Ephesians 5:15–20
+after_pentecost:15,,,II,finland,,epistle,2 Corinthians 9:6–15
+after_pentecost:15,,,III,finland,,epistle,1 Thessalonians 5:16–24
+after_pentecost:15,,,I,finland,,gospel,Luke 17:11–19
+after_pentecost:15,,,II,finland,,gospel,John 5:1–15
+after_pentecost:15,,,III,finland,,gospel,Matthew 11:25–30
+after_pentecost:16,,,,finland,,psalm,"Psalm 86:1, 3–7"
+after_pentecost:16,,,I,finland,,ot,Psalm 127:1–2
+after_pentecost:16,,,II,finland,,ot,"1 Kings 17:1, 8–16"
+after_pentecost:16,,,III,finland,,ot,"Exodus 16:11–19, 31, 35"
+after_pentecost:16,,,I,finland,,epistle,Galatians 6:2–10
+after_pentecost:16,,,II,finland,,epistle,Philippians 4:10–14
+after_pentecost:16,,,III,finland,,epistle,Acts 20:32–35 or 1 Timothy 6:17–19
+after_pentecost:16,,,I,finland,,gospel,Matthew 6:25–34
+after_pentecost:16,,,II,finland,,gospel,Luke 10:38–42
+after_pentecost:16,,,III,finland,,gospel,Matthew 6:19–24
+after_pentecost:17,,,,finland,,psalm,Psalm 86:10–13
+after_pentecost:17,,,I,finland,,ot,"Job 14:1–6, 13–15"
+after_pentecost:17,,,II,finland,,ot,Job 19:25–27
+after_pentecost:17,,,III,finland,,ot,"Isaiah 26:12–14, 19 or 1 Kings 17:17–24"
+after_pentecost:17,,,I,finland,,epistle,Romans 8:18–23
+after_pentecost:17,,,II,finland,,epistle,2 Corinthians 4:7–14
+after_pentecost:17,,,III,finland,,epistle,Philippians 1:20–26
+after_pentecost:17,,,I,finland,,gospel,Luke 7:11–16
+after_pentecost:17,,,II,finland,,gospel,John 11:21–29 (30–31) 32–45
+after_pentecost:17,,,III,finland,,gospel,John 5:19–21
+after_pentecost:18,,,,finland,,psalm,Psalm 119:97–104
+after_pentecost:18,,,I,finland,,ot,Isaiah 44:21–23
+after_pentecost:18,,,II,finland,,ot,Amos 5:21–24
+after_pentecost:18,,,III,finland,,ot,Isaiah 1:10–17
+after_pentecost:18,,,I,finland,,epistle,Galatians 5:1–6
+after_pentecost:18,,,II,finland,,epistle,Colossians 2:16–23
+after_pentecost:18,,,III,finland,,epistle,Galatians 5:22–26
+after_pentecost:18,,,I,finland,,gospel,Luke 14:1–6
+after_pentecost:18,,,II,finland,,gospel,Mark 2:18–22
+after_pentecost:18,,,III,finland,,gospel,Mark 7:5–13 or Mark 2:23–28
+after_pentecost:19,,,,finland,,psalm,Psalm 119:1–8
+after_pentecost:19,,,I,finland,,ot,Deuteronomy 6:4–9
+after_pentecost:19,,,II,finland,,ot,Deuteronomy 10:12–13
+after_pentecost:19,,,III,finland,,ot,Exodus 20:1–17
+after_pentecost:19,,,I,finland,,epistle,1 Corinthians 1:4–9
+after_pentecost:19,,,II,finland,,epistle,1 John 2:15–17
+after_pentecost:19,,,III,finland,,epistle,Romans 10:1–13
+after_pentecost:19,,,I,finland,,gospel,Matthew 22:34–40
+after_pentecost:19,,,II,finland,,gospel,Mark 12:28–34
+after_pentecost:19,,,III,finland,,gospel,John 13:31–35
+advent:2,,,,finland,,psalm,Psalm 80:15–20
+advent:2,,,I,finland,,ot,Hosea 2:20–22
+advent:2,,,II,finland,,ot,Isaiah 35:3–6
+advent:2,,,III,finland,,ot,Isaiah 44:6–8
+advent:2,,,I,finland,,epistle,1 Peter 1:13–17
+advent:2,,,II,finland,,epistle,Hebrews 10:35–39
+advent:2,,,III,finland,,epistle,James 5:7–11
+advent:2,,,I,finland,,gospel,Luke 21:25–33 (34–36)
+advent:2,,,II,finland,,gospel,Luke 12:35–40
+advent:2,,,III,finland,,gospel,Luke 17:20–24
+easter_monday,,,,finland,,psalm,Psalm 16:8–11
+easter_monday,,,I,finland,,ot,Jonah 2
+easter_monday,,,II,finland,,ot,Psalm 31:20–23
+easter_monday,,,III,finland,,ot,Psalm 73:23–28
+easter_monday,,,I,finland,,epistle,Acts 10:34–43
+easter_monday,,,II,finland,,epistle,2 Corinthians 5:15–21
+easter_monday,,,III,finland,,epistle,1 Peter 1:18–23
+easter_monday,,,I,finland,,gospel,Luke 24:13–35
+easter_monday,,,II,finland,,gospel,John 20:11–18
+easter_monday,,,III,finland,,gospel,Matthew 28:8–15
+lent:2,,,,finland,,psalm,Psalm 25:1–10
+lent:2,,,I,finland,,ot,2 Chronicles 20:1–9
+lent:2,,,II,finland,,ot,2 Kings 20:1–7
+lent:2,,,III,finland,,ot,Genesis 32:23–32
+lent:2,,,I,finland,,epistle,1 Thessalonians 4:1–8
+lent:2,,,II,finland,,epistle,1 Corinthians 10:12–13
+lent:2,,,III,finland,,epistle,James 1:2–6
+lent:2,,,I,finland,,gospel,Matthew 15:21–28
+lent:2,,,II,finland,,gospel,Mark 9:17–29
+lent:2,,,III,finland,,gospel,Luke 7:36–50
+sexagesima,,,,finland,,psalm,Psalm 44:2–5
+sexagesima,,,I,finland,,ot,Isaiah 55:6–11
+sexagesima,,,II,finland,,ot,Hosea 10:12–13
+sexagesima,,,III,finland,,ot,Isaiah 5:1–7
+sexagesima,,,I,finland,,epistle,Acts 16:9–15
+sexagesima,,,II,finland,,epistle,1 Corinthians 3:7–15
+sexagesima,,,III,finland,,epistle,1 Corinthians 1:20–25
+sexagesima,,,I,finland,,gospel,Luke 8:4–15
+sexagesima,,,II,finland,,gospel,John 4:31–38
+sexagesima,,,III,finland,,gospel,Matthew 13:31–33
+after_pentecost:2,,,,finland,,psalm,"Psalm 49:6–10, 16–21"
+after_pentecost:2,,,I,finland,,ot,"Ecclesiastes 5:9–14 or Daniel 5:1–9, 13–17, 25–30"
+after_pentecost:2,,,II,finland,,ot,Amos 8:4–8
+after_pentecost:2,,,III,finland,,ot,Proverbs 30:7–9
+after_pentecost:2,,,I,finland,,epistle,1 John 4:16–21
+after_pentecost:2,,,II,finland,,epistle,2 Corinthians 8:1–9
+after_pentecost:2,,,III,finland,,epistle,1 Timothy 6:6–12
+after_pentecost:2,,,I,finland,,gospel,Luke 16:19–31
+after_pentecost:2,,,II,finland,,gospel,Luke 12:13–21 or Matthew 13:44–46
+after_pentecost:2,,,III,finland,,gospel,Matthew 16:24–27
+after_christmas:2,,,,finland,,psalm,"Psalm 84:2–5, 11–12"
+after_christmas:2,,,I,finland,,ot,"1 Kings 8:20, 27–30"
+after_christmas:2,,,II,finland,,ot,1 Samuel 3:1–10
+after_christmas:2,,,III,finland,,ot,Zechariah 3:6–10
+after_christmas:2,,,I,finland,,epistle,Hebrews 3:1–6 or Revelation 4:2–11
+after_christmas:2,,,II,finland,,epistle,Romans 12:1–5
+after_christmas:2,,,III,finland,,epistle,Hebrews 2:11–15
+after_christmas:2,,,I,finland,,gospel,Luke 2:41–52
+after_christmas:2,,,II,finland,,gospel,John 10:22–30
+after_christmas:2,,,III,finland,,gospel,John 7:14–18
+after_epiphany:2,,,,finland,,psalm,"Psalm 105:2–5, 39–42"
+after_epiphany:2,,,I,finland,,ot,2 Kings 4:1–7 or Isaiah 12:1–6
+after_epiphany:2,,,II,finland,,ot,Exodus 17:1–6
+after_epiphany:2,,,III,finland,,ot,Isaiah 62:1–3
+after_epiphany:2,,,I,finland,,epistle,Romans 12:6–16
+after_epiphany:2,,,II,finland,,epistle,Revelation 22:16–17
+after_epiphany:2,,,III,finland,,epistle,Titus 1:1–3
+after_epiphany:2,,,I,finland,,gospel,John 2:1–11
+after_epiphany:2,,,II,finland,,gospel,John 4:5–26
+after_epiphany:2,,,III,finland,,gospel,Luke 4:16–21 or Mark 1:14–15
+after_easter:2,,,,finland,,psalm,Psalm 23
+after_easter:2,,,I,finland,,ot,Ezekiel 34:11–16
+after_easter:2,,,II,finland,,ot,Jeremiah 23:1–4
+after_easter:2,,,III,finland,,ot,Micah 7:14–20
+after_easter:2,,,I,finland,,epistle,1 Peter 2:21–25
+after_easter:2,,,II,finland,,epistle,1 Peter 5:1–4
+after_easter:2,,,III,finland,,epistle,Hebrews 13:20–21
+after_easter:2,,,I,finland,,gospel,John 10:11–16
+after_easter:2,,,II,finland,,gospel,John 21:15–19
+after_easter:2,,,III,finland,,gospel,John 10:1–10
+after_pentecost:20,,,,finland,,psalm,Psalm 78:1–8
+after_pentecost:20,,,I,finland,,ot,Genesis 15:1–6
+after_pentecost:20,,,II,finland,,ot,Isaiah 8:11–15
+after_pentecost:20,,,III,finland,,ot,Numbers 21:4–9
+after_pentecost:20,,,I,finland,,epistle,Romans 4:16–25
+after_pentecost:20,,,II,finland,,epistle,2 Corinthians 1:18–22
+after_pentecost:20,,,III,finland,,epistle,Colossians 1:19–23
+after_pentecost:20,,,I,finland,,gospel,Mark 2:1–12
+after_pentecost:20,,,II,finland,,gospel,John 9:24–38
+after_pentecost:20,,,III,finland,,gospel,John 7:40–52
+after_pentecost:21,,,,finland,,psalm,Psalm 145:8–13
+after_pentecost:21,,,I,finland,,ot,Jeremiah 1:4–10
+after_pentecost:21,,,II,finland,,ot,Deuteronomy 31:6–8
+after_pentecost:21,,,III,finland,,ot,Amos 7:10–15
+after_pentecost:21,,,I,finland,,epistle,2 Timothy 4:1–5
+after_pentecost:21,,,II,finland,,epistle,Colossians 1:9–11
+after_pentecost:21,,,III,finland,,epistle,Galatians 4:12–20
+after_pentecost:21,,,I,finland,,gospel,Matthew 22:1–14
+after_pentecost:21,,,II,finland,,gospel,Luke 10:1–12
+after_pentecost:21,,,III,finland,,gospel,John 13:16–20
+after_pentecost:23,,,,finland,,psalm,Psalm 119:162–168
+after_pentecost:23,,,I,finland,,ot,Genesis 50:15–21
+after_pentecost:23,,,II,finland,,ot,"Genesis 13:5–11, 14–16"
+after_pentecost:23,,,III,finland,,ot,Isaiah 64:3–8
+after_pentecost:23,,,I,finland,,epistle,Ephesians 4:25–32
+after_pentecost:23,,,II,finland,,epistle,1 Peter 3:8–12
+after_pentecost:23,,,III,finland,,epistle,Philippians 1:6–11
+after_pentecost:23,,,I,finland,,gospel,Matthew 18:23–35
+after_pentecost:23,,,II,finland,,gospel,Matthew 18:15–22
+after_pentecost:23,,,III,finland,,gospel,Matthew 6:14–15
+after_pentecost:24,,,,finland,,psalm,"Psalm 75:2–8, 10–11"
+after_pentecost:24,,,I,finland,,ot,1 Chronicles 29:10–12 or Jeremiah 27:4–7
+after_pentecost:24,,,II,finland,,ot,Jeremiah 29:4–7
+after_pentecost:24,,,III,finland,,ot,"Daniel 2:31–41, 44"
+after_pentecost:24,,,I,finland,,epistle,Philippians 3:17–4:1 or Acts 4:18–21
+after_pentecost:24,,,II,finland,,epistle,1 Timothy 2:1–4
+after_pentecost:24,,,III,finland,,epistle,Romans 13:1–7
+after_pentecost:24,,,I,finland,,gospel,Matthew 22:15–22
+after_pentecost:24,,,II,finland,,gospel,Luke 12:4–7
+after_pentecost:24,,,III,finland,,gospel,Matthew 17:24–27
+after_pentecost:25,,,,finland,,psalm,Psalm 126
+after_pentecost:25,,,I,finland,,ot,Ecclesiastes 3:1–11
+after_pentecost:25,,,II,finland,,ot,Psalm 139:7–12
+after_pentecost:25,,,III,finland,,ot,Ecclesiastes 12:(1–5) 6–7
+after_pentecost:25,,,I,finland,,epistle,1 Corinthians 15:35–44
+after_pentecost:25,,,II,finland,,epistle,2 Corinthians 5:1–10
+after_pentecost:25,,,III,finland,,epistle,2 Timothy 4:6–8
+after_pentecost:25,,,I,finland,,gospel,Matthew 9:18–26
+after_pentecost:25,,,II,finland,,gospel,John 6:37–40
+after_pentecost:25,,,III,finland,,gospel,Luke 20:27–40
+after_pentecost:26,,,,finland,,psalm,Psalm 85:2–8
+after_pentecost:26,,,,finland,,ot,Amos 5:16–20
+after_pentecost:26,,,,finland,,epistle,1 Thessalonians 4:13–18 or 2 Thessalonians 2:1–12
+after_pentecost:26,,,,finland,,gospel,Matthew 24:1–14 or Matthew 24:15–27
+advent:3,,,,finland,,psalm,Psalm 85:9–14
+advent:3,,,I,finland,,ot,Jeremiah 3:21–25
+advent:3,,,II,finland,,ot,Malachi 3:23–24
+advent:3,,,III,finland,,ot,Deuteronomy 18:15–19
+advent:3,,,I,finland,,epistle,1 Corinthians 4:1–5
+advent:3,,,II,finland,,epistle,2 Peter 1:19–21
+advent:3,,,III,finland,,epistle,Romans 16:25–27
+advent:3,,,I,finland,,gospel,Matthew 11:2–10
+advent:3,,,II,finland,,gospel,Matthew 11:11–19 or John 1:35–37
+advent:3,,,III,finland,,gospel,John 1:19–27 or John 3:26–30
+lent:3,,,,finland,,psalm,Psalm 25:11–20
+lent:3,,,I,finland,,ot,Zechariah 3:1–5
+lent:3,,,II,finland,,ot,Jeremiah 26:12–16
+lent:3,,,III,finland,,ot,Jeremiah 7:23–26
+lent:3,,,I,finland,,epistle,Ephesians 5:1–11
+lent:3,,,II,finland,,epistle,Revelation 3:14–19
+lent:3,,,III,finland,,epistle,1 John 5:18–20
+lent:3,,,I,finland,,gospel,Luke 11:14–23 (24–26)
+lent:3,,,II,finland,,gospel,John 12:37–43
+lent:3,,,III,finland,,gospel,John 8:46–59
+septuagesima,,,,finland,,psalm,Psalm 18:2–7
+septuagesima,,,I,finland,,ot,Jeremiah 9:22–23
+septuagesima,,,II,finland,,ot,Deuteronomy 7:6–8
+septuagesima,,,III,finland,,ot,1 Samuel 16:1–13
+septuagesima,,,I,finland,,epistle,1 Corinthians 9:24–27
+septuagesima,,,II,finland,,epistle,Philippians 3:7–14
+septuagesima,,,III,finland,,epistle,Romans 9:11–23
+septuagesima,,,I,finland,,gospel,Matthew 20:1–16
+septuagesima,,,II,finland,,gospel,Matthew 19:27–30
+septuagesima,,,III,finland,,gospel,Luke 17:7–10
+after_pentecost:3,,,,finland,,psalm,"Psalm 18:17–20, 26–29"
+after_pentecost:3,,,I,finland,,ot,"Hosea 11:1–4, 7"
+after_pentecost:3,,,II,finland,,ot,Zechariah 1:3–6
+after_pentecost:3,,,III,finland,,ot,Ezekiel 33:30–33
+after_pentecost:3,,,I,finland,,epistle,Philippians 2:12–16
+after_pentecost:3,,,II,finland,,epistle,1 Corinthians 1:26–31
+after_pentecost:3,,,III,finland,,epistle,Hebrews 12:1–6
+after_pentecost:3,,,I,finland,,gospel,Luke 14:16–24
+after_pentecost:3,,,II,finland,,gospel,Luke 19:1–10
+after_pentecost:3,,,III,finland,,gospel,Luke 9:57–62
+after_epiphany:3,,,,finland,,psalm,Psalm 102:16–23
+after_epiphany:3,,,I,finland,,ot,Deuteronomy 10:17–21 or 1 Kings 8:41–43
+after_epiphany:3,,,II,finland,,ot,Isaiah 30:18–21 or 2 Kings 5:1–15
+after_epiphany:3,,,III,finland,,ot,Deuteronomy 32:36–39
+after_epiphany:3,,,I,finland,,epistle,Romans 1:16–17
+after_epiphany:3,,,II,finland,,epistle,Hebrews 11:1–10
+after_epiphany:3,,,III,finland,,epistle,2 Corinthians 1:3–7
+after_epiphany:3,,,I,finland,,gospel,Matthew 8:5–13
+after_epiphany:3,,,II,finland,,gospel,John 4:39–42
+after_epiphany:3,,,III,finland,,gospel,Mark 1:29–39
+after_easter:3,,,,finland,,psalm,Psalm 66:3–9
+after_easter:3,,,I,finland,,ot,Isaiah 40:26–31
+after_easter:3,,,II,finland,,ot,Isaiah 54:7–10
+after_easter:3,,,III,finland,,ot,Deuteronomy 30:19–20
+after_easter:3,,,I,finland,,epistle,Hebrews 13:12–16
+after_easter:3,,,II,finland,,epistle,1 Peter 1:3–9 or 2 Corinthians 4:16–18
+after_easter:3,,,III,finland,,epistle,"Hebrews 11:2, 13–19"
+after_easter:3,,,I,finland,,gospel,John 16:16–23
+after_easter:3,,,II,finland,,gospel,John 17:11–17
+after_easter:3,,,III,finland,,gospel,John 14:1–7
+advent:4,,,,finland,,psalm,Psalm 130:5–8
+advent:4,,,I,finland,,ot,Zephaniah 3:14–17
+advent:4,,,II,finland,,ot,Genesis 21:1–7
+advent:4,,,III,finland,,ot,Isaiah 29:17–19
+advent:4,,,I,finland,,epistle,Philippians 4:4–7
+advent:4,,,II,finland,,epistle,Hebrews 6:13–19
+advent:4,,,III,finland,,epistle,Romans 15:8–13
+advent:4,,,,finland,,gospel,Matthew 1:18–24
+lent:4,,,,finland,,psalm,"Psalm 84:6–10, 13"
+lent:4,,,I,finland,,ot,Deuteronomy 8:2–3
+lent:4,,,II,finland,,ot,"Amos 8:11–12 or Exodus 16:11–19, 31, 35"
+lent:4,,,III,finland,,ot,Isaiah 55:1–3
+lent:4,,,I,finland,,epistle,1 Corinthians 10:1–6
+lent:4,,,II,finland,,epistle,1 Peter 2:1–3
+lent:4,,,III,finland,,epistle,Revelation 21:6–7
+lent:4,,,I,finland,,gospel,John 6:1–15
+lent:4,,,II,finland,,gospel,John 6:24–35
+lent:4,,,III,finland,,gospel,John 6:48–58
+after_pentecost:4,,,,finland,,psalm,"Psalm 32:1–2, 5–8"
+after_pentecost:4,,,I,finland,,ot,Isaiah 57:15–19 (20–21)
+after_pentecost:4,,,II,finland,,ot,Hosea 12:6–7 or Isaiah 61:10–11
+after_pentecost:4,,,III,finland,,ot,Hosea 14:2–9
+after_pentecost:4,,,I,finland,,epistle,1 Peter 5:5–11
+after_pentecost:4,,,II,finland,,epistle,Romans 4:1–8
+after_pentecost:4,,,III,finland,,epistle,Ephesians 2:1–10
+after_pentecost:4,,,I,finland,,gospel,Luke 15:1–10
+after_pentecost:4,,,II,finland,,gospel,Luke 15:11–32
+after_pentecost:4,,,III,finland,,gospel,Matthew 9:9–13
+after_epiphany:4,,,,finland,,psalm,"Psalm 107:1–2, 23–31"
+after_epiphany:4,,,I,finland,,ot,Isaiah 51:9–16
+after_epiphany:4,,,II,finland,,ot,"Job 38:1–4, 8–11, 16–18"
+after_epiphany:4,,,III,finland,,ot,1 Kings 17:1–6
+after_epiphany:4,,,I,finland,,epistle,2 Corinthians 1:8–11
+after_epiphany:4,,,II,finland,,epistle,2 Timothy 1:7–10
+after_epiphany:4,,,III,finland,,epistle,Hebrews 11:23–27
+after_epiphany:4,,,I,finland,,gospel,Matthew 8:23–27
+after_epiphany:4,,,II,finland,,gospel,Matthew 14:22–33
+after_epiphany:4,,,III,finland,,gospel,John 6:16–21
+after_easter:4,,,,finland,,psalm,Psalm 98:2–9
+after_easter:4,,,I,finland,,ot,Isaiah 63:7–9
+after_easter:4,,,II,finland,,ot,Isaiah 32:15–20
+after_easter:4,,,III,finland,,ot,Isaiah 4:2–6
+after_easter:4,,,I,finland,,epistle,James 1:17–21
+after_easter:4,,,II,finland,,epistle,Romans 8:9–11
+after_easter:4,,,III,finland,,epistle,1 John 3:18–24
+after_easter:4,,,I,finland,,gospel,John 16:5–15
+after_easter:4,,,II,finland,,gospel,John 17:6–10
+after_easter:4,,,III,finland,,gospel,John 15:10–17
+lent:5,,,,finland,,psalm,Psalm 43:2–5
+lent:5,,,I,finland,,ot,Genesis 22:1–13
+lent:5,,,II,finland,,ot,Isaiah 65:1–3
+lent:5,,,III,finland,,ot,Isaiah 29:13–16
+lent:5,,,I,finland,,epistle,Hebrews 9:11–15
+lent:5,,,II,finland,,epistle,Ephesians 2:12–16
+lent:5,,,III,finland,,epistle,1 Peter 2:4–10
+lent:5,,,I,finland,,gospel,John 11:47–53
+lent:5,,,II,finland,,gospel,Luke 13:31–35
+lent:5,,,III,finland,,gospel,Mark 12:1–12
+after_pentecost:5,,,,finland,,psalm,Psalm 13:2–6
+after_pentecost:5,,,I,finland,,ot,"Jonah 3:1–5, 10; Jonah 4:1–11 or Zechariah 8:16–17"
+after_pentecost:5,,,II,finland,,ot,"2 Samuel 12:1–10, 13"
+after_pentecost:5,,,III,finland,,ot,Job 35:1–8
+after_pentecost:5,,,I,finland,,epistle,Romans 14:7–12
+after_pentecost:5,,,II,finland,,epistle,Romans 2:1–11
+after_pentecost:5,,,III,finland,,epistle,Romans 14:13–19
+after_pentecost:5,,,I,finland,,gospel,Luke 6:36–42
+after_pentecost:5,,,II,finland,,gospel,John 8:2–11
+after_pentecost:5,,,III,finland,,gospel,Luke 13:1–5
+after_epiphany:5,,,,finland,,psalm,Psalm 37:1–9
+after_epiphany:5,,,I,finland,,ot,Ezekiel 33:10–16
+after_epiphany:5,,,II,finland,,ot,Numbers 11:24–30
+after_epiphany:5,,,III,finland,,ot,Joel 4:12–16
+after_epiphany:5,,,I,finland,,epistle,Colossians 3:12–17
+after_epiphany:5,,,II,finland,,epistle,Philippians 1:12–18
+after_epiphany:5,,,III,finland,,epistle,1 Corinthians 3:4–9
+after_epiphany:5,,,I,finland,,gospel,Matthew 13:24–30
+after_epiphany:5,,,II,finland,,gospel,Mark 9:38–41
+after_epiphany:5,,,III,finland,,gospel,Mark 4:26–29
+after_easter:5,,,,finland,,psalm,Psalm 40:2–6
+after_easter:5,,,I,finland,,ot,Jeremiah 29:11–14
+after_easter:5,,,II,finland,,ot,Daniel 9:17–20
+after_easter:5,,,III,finland,,ot,Exodus 17:8–13
+after_easter:5,,,I,finland,,epistle,Ephesians 3:14–21
+after_easter:5,,,II,finland,,epistle,Romans 8:24–28
+after_easter:5,,,III,finland,,epistle,James 5:13–16
+after_easter:5,,,I,finland,,gospel,John 16:23–33
+after_easter:5,,,II,finland,,gospel,Matthew 6:5–13
+after_easter:5,,,III,finland,,gospel,Luke 11:5–13
+after_epiphany:6,,,,finland,,psalm,Psalm 85:2–8
+after_epiphany:6,,,,finland,,ot,Amos 5:16–20
+after_epiphany:6,,,,finland,,epistle,1 Thessalonians 4:13–18 or 2 Thessalonians 2:1–12
+after_epiphany:6,,,,finland,,gospel,Matthew 24:1–14 or Matthew 24:15–27
+after_easter:6,,,,finland,,psalm,"Psalm 27:1–3, 7–9"
+after_easter:6,,,I,finland,,ot,Isaiah 44:1–5
+after_easter:6,,,II,finland,,ot,1 Kings 19:8–13
+after_easter:6,,,III,finland,,ot,Zechariah 14:7–9
+after_easter:6,,,I,finland,,epistle,Romans 8:12–17
+after_easter:6,,,II,finland,,epistle,Acts 1:12–14
+after_easter:6,,,III,finland,,epistle,Ephesians 1:16–23
+after_easter:6,,,I,finland,,gospel,John 15:26–16:4
+after_easter:6,,,II,finland,,gospel,John 7:37–39
+after_easter:6,,,III,finland,,gospel,John 17:18–23
+after_pentecost:7,,,,finland,,psalm,"Psalm 28:1–2, 6–9"
+after_pentecost:7,,,I,finland,,ot,"Leviticus 19:1–4, 11–18"
+after_pentecost:7,,,II,finland,,ot,1 Samuel 15:22–26
+after_pentecost:7,,,III,finland,,ot,Joshua 24:21–27 or 2 Kings 6:8–23
+after_pentecost:7,,,I,finland,,epistle,Romans 12:16–21
+after_pentecost:7,,,II,finland,,epistle,James 2:8–13
+after_pentecost:7,,,III,finland,,epistle,Hebrews 12:25–29
+after_pentecost:7,,,I,finland,,gospel,Matthew 5:20–30
+after_pentecost:7,,,II,finland,,gospel,Mark 10:17–27
+after_pentecost:7,,,III,finland,,gospel,Luke 6:27–31
+after_pentecost:9,,,,finland,,psalm,"Psalm 92:5–10, 13–16"
+after_pentecost:9,,,I,finland,,ot,"Deuteronomy 13:1–5 or Job 28:7–15, 23–28"
+after_pentecost:9,,,II,finland,,ot,"1 Kings 18:21–26, 36–39"
+after_pentecost:9,,,III,finland,,ot,Jeremiah 7:1–7
+after_pentecost:9,,,I,finland,,epistle,1 John 4:1–6
+after_pentecost:9,,,II,finland,,epistle,"Hebrews 4:1–2, 9–13"
+after_pentecost:9,,,III,finland,,epistle,Hebrews 12:14–17
+after_pentecost:9,,,I,finland,,gospel,Matthew 7:15–23
+after_pentecost:9,,,II,finland,,gospel,Matthew 7:13–14
+after_pentecost:9,,,III,finland,,gospel,Matthew 7:24–29
+apostles,,,,finland,,psalm,Psalm 145:3–7
+apostles,,,I,finland,,ot,Genesis 12:1–4
+apostles,,,II,finland,,ot,Ezekiel 2:1–8
+apostles,,,III,finland,,ot,Isaiah 66:18–19
+apostles,,,I,finland,,epistle,Romans 1:1–7 or 1 Timothy 1:12–17
+apostles,,,II,finland,,epistle,Ephesians 2:19–22
+apostles,,,III,finland,,epistle,2 Timothy 3:14–17 or Acts 26:12–23
+apostles,,,I,finland,,gospel,Luke 5:1–11
+apostles,,,II,finland,,gospel,Matthew 16:13–19
+apostles,,,III,finland,,gospel,Mark 3:13–19
+ascension,,,,finland,,psalm,Psalm 47:6–9
+ascension,,,I,finland,,ot,Psalm 110:1–4
+ascension,,,II,finland,,ot,Daniel 7:13–14
+ascension,,,III,finland,,ot,Isaiah 33:5–6
+ascension,,,I,finland,,epistle,Acts 1:1–11
+ascension,,,II,finland,,epistle,Acts 1:1–11 or Ephesians 4:7–15
+ascension,,,III,finland,,epistle,Acts 1:1–11 or Romans 8:31–39
+ascension,,,I,finland,,gospel,Mark 16:14–20
+ascension,,,II,finland,,gospel,John 17:24–26
+ascension,,,III,finland,,gospel,Luke 24:46–53
+pentecost,,,,finland,,psalm,Psalm 68:5–11
+pentecost,,,I,finland,,ot,Ezekiel 36:24–28
+pentecost,,,II,finland,,ot,Jeremiah 31:31–34
+pentecost,,,III,finland,,ot,Joel 3:1–5
+pentecost,,,,finland,,epistle,Acts 2:1–13
+pentecost,,,I,finland,,gospel,John 14:23–29
+pentecost,,,II,finland,,gospel,John 14:15–21
+pentecost,,,III,finland,,gospel,John 3:16–21
+easter_eve,,,,finland,,ot,Job 19:25–27
+easter_eve,,,,finland,,epistle,1 Peter 3:18–22
+easter_eve,,,,finland,,gospel,Matthew 27:62–66
+christmas_eve,,,,finland,,psalm,Psalm 36:6–10
+christmas_eve,,,,finland,,ot,Isaiah 11:1–5 or Micah 5:1–4 or Jeremiah 23:5–6
+christmas_eve,,,,finland,,epistle,Acts 13:16–26
+christmas_eve,,,,finland,,gospel,Luke 2:1–14
+christmas,,,,finland,,psalm,Psalm 100
+christmas,,,,finland,,ot,Isaiah 52:7–10
+christmas,,,,finland,,epistle,1 John 1:1–4 or 1 John 4:9–16
+christmas,,,,finland,,gospel,John 1:1–14
+midsummer,,,,finland,,psalm,Psalm 92:2–6
+midsummer,,,I,finland,,ot,Isaiah 40:1–8
+midsummer,,,II,finland,,ot,Isaiah 51:3–6
+midsummer,,,III,finland,,ot,Isaiah 45:8–12
+midsummer,,,I,finland,,epistle,Acts 13:23–26
+midsummer,,,II,finland,,epistle,Acts 14:15–17
+midsummer,,,III,finland,,epistle,Acts 19:1–6
+midsummer,,,,finland,,gospel,Luke 1:57–66
+maundy_thursday,,,,finland,,psalm,Psalm 111:2–5
+maundy_thursday,,,I,finland,,ot,Isaiah 25:6–10
+maundy_thursday,,,II,finland,,ot,Exodus 24:4–11
+maundy_thursday,,,III,finland,,ot,"Exodus 12:1–8, 11–14"
+maundy_thursday,,,I,finland,,epistle,Acts 2:42–47
+maundy_thursday,,,II,finland,,epistle,1 Corinthians 11:23–29
+maundy_thursday,,,III,finland,,epistle,1 Corinthians 10:16–17
+maundy_thursday,,,I,finland,,gospel,Luke 22:14–22
+maundy_thursday,,,II,finland,,gospel,John 13:1–15
+maundy_thursday,,,III,finland,,gospel,Matthew 26:17–30
+transfiguration,,,,finland,,psalm,"Psalm 97:1–2, 5–6, 10–11"
+transfiguration,,,I,finland,,ot,Exodus 3:1–6
+transfiguration,,,II,finland,,ot,Exodus 3:9–15
+transfiguration,,,III,finland,,ot,Exodus 34:29–35
+transfiguration,,,I,finland,,epistle,2 Peter 1:16–18
+transfiguration,,,II,finland,,epistle,Revelation 1:9–18
+transfiguration,,,III,finland,,epistle,2 Corinthians 3:7–18
+transfiguration,,,I,finland,,gospel,Matthew 17:1–8
+transfiguration,,,II,finland,,gospel,Mark 9:2–8
+transfiguration,,,III,finland,,gospel,Luke 9:28–36
+candlemas,,,,finland,,psalm,Psalm 48:11–15
+candlemas,,,I,finland,,ot,Isaiah 52:8–10
+candlemas,,,II,finland,,ot,Exodus 33:18–23
+candlemas,,,III,finland,,ot,Malachi 3:1–2
+candlemas,,,I,finland,,epistle,2 Corinthians 3:18–4:6
+candlemas,,,II,finland,,epistle,1 Timothy 6:13–16
+candlemas,,,III,finland,,epistle,1 John 1:5–7
+candlemas,,,,finland,,gospel,Luke 2:22–33
+candlemas_early,,,,finland,,psalm,Psalm 48:11–15
+candlemas_early,,,I,finland,,ot,Isaiah 52:8–10
+candlemas_early,,,II,finland,,ot,Exodus 33:18–23
+candlemas_early,,,III,finland,,ot,Malachi 3:1–2
+candlemas_early,,,I,finland,,epistle,2 Corinthians 3:18–4:6
+candlemas_early,,,II,finland,,epistle,1 Timothy 6:13–16
+candlemas_early,,,III,finland,,epistle,1 John 1:5–7
+candlemas_early,,,,finland,,gospel,Luke 2:22–33
+shrove_sunday,,,,finland,,psalm,Psalm 31:2–6
+shrove_sunday,,,I,finland,,ot,Isaiah 58:1–9
+shrove_sunday,,,II,finland,,ot,Jeremiah 8:4–7
+shrove_sunday,,,III,finland,,ot,Ezekiel 18:30–32
+shrove_sunday,,,I,finland,,epistle,1 Corinthians 13
+shrove_sunday,,,II,finland,,epistle,1 Corinthians 13 or Galatians 2:19–21
+shrove_sunday,,,III,finland,,epistle,1 Corinthians 13 or 1 Timothy 2:4–6
+shrove_sunday,,,I,finland,,gospel,Luke 18:31–43
+shrove_sunday,,,II,finland,,gospel,John 12:25–33
+shrove_sunday,,,III,finland,,gospel,Mark 10:32–45
+epiphany,,,,finland,,psalm,"Psalm 72:1–3, 8–12"
+epiphany,,,I,finland,,ot,Isaiah 60:1–6
+epiphany,,,II,finland,,ot,Isaiah 49:5–7
+epiphany,,,III,finland,,ot,Micah 4:1–4
+epiphany,,,I,finland,,epistle,Ephesians 3:2–9
+epiphany,,,II,finland,,epistle,Colossians 1:24–27
+epiphany,,,III,finland,,epistle,1 Timothy 3:16
+epiphany,,,,finland,,gospel,Matthew 2:1–12
+annunciation,,,,finland,,psalm,Psalm 113:1–8
+annunciation,,,I,finland,,ot,Isaiah 7:10–14
+annunciation,,,II,finland,,ot,Genesis 3:8–15
+annunciation,,,III,finland,,ot,"1 Samuel 2:1–2, 6–9"
+annunciation,,,I,finland,,epistle,Romans 9:2–8
+annunciation,,,II,finland,,epistle,Galatians 4:3–7
+annunciation,,,III,finland,,epistle,Romans 8:1–4
+annunciation,,,I,finland,,gospel,Luke 1:26–38
+annunciation,,,II,finland,,gospel,Luke 1:39–45
+annunciation,,,III,finland,,gospel,Luke 1:46–55
+annunciation_early,,,,finland,,psalm,Psalm 113:1–8
+annunciation_early,,,I,finland,,ot,Isaiah 7:10–14
+annunciation_early,,,II,finland,,ot,Genesis 3:8–15
+annunciation_early,,,III,finland,,ot,"1 Samuel 2:1–2, 6–9"
+annunciation_early,,,I,finland,,epistle,Romans 9:2–8
+annunciation_early,,,II,finland,,epistle,Galatians 4:3–7
+annunciation_early,,,III,finland,,epistle,Romans 8:1–4
+annunciation_early,,,I,finland,,gospel,Luke 1:26–38
+annunciation_early,,,II,finland,,gospel,Luke 1:39–45
+annunciation_early,,,III,finland,,gospel,Luke 1:46–55
+michael,,,,finland,,psalm,Psalm 103:19–22
+michael,,,I,finland,,ot,Genesis 28:10–17
+michael,,,II,finland,,ot,Exodus 23:20–23
+michael,,,III,finland,,ot,Joshua 5:13–15
+michael,,,I,finland,,epistle,Revelation 12:7–12
+michael,,,II,finland,,epistle,Hebrews 1:14–2:4 or Revelation 5:11–12
+michael,,,III,finland,,epistle,Acts 12:5–11
+michael,,,,finland,,gospel,Matthew 18:1–6 (7–9) 10
+easter,,,,finland,,psalm,Psalm 118:15–23 (24)
+easter,,,I,finland,,ot,Hosea 6:1–3
+easter,,,II,finland,,ot,Hosea 6:1–3 or Ezekiel 37:1–14
+easter,,,III,finland,,ot,Hosea 6:1–3 or Isaiah 25:8–9
+easter,,,I,finland,,epistle,1 Corinthians 15:1–8 (9–10) 11
+easter,,,II,finland,,epistle,1 Corinthians 15:12–22
+easter,,,III,finland,,epistle,1 Corinthians 5:6–8
+easter,,,I,finland,,gospel,Luke 24:1–12 or Mark 16:1–8
+easter,,,II,finland,,gospel,John 20:1–10 or Mark 16:1–8
+easter,,,III,finland,,gospel,Matthew 28:1–8 or Mark 16:1–8
+palm_sunday,,,,finland,,psalm,Psalm 22:2–6
+palm_sunday,,,,finland,,ot,Isaiah 50:4–10 or Zechariah 9:9–10
+palm_sunday,,,I,finland,,epistle,Philippians 2:5–11
+palm_sunday,,,II,finland,,epistle,Philippians 2:5–11 or 2 Corinthians 2:14–17
+palm_sunday,,,III,finland,,epistle,Philippians 2:5–11 or Hebrews 7:24–27
+palm_sunday,,,I,finland,,gospel,John 12:12–24
+palm_sunday,,,II,finland,,gospel,John 12:1–8
+palm_sunday,,,III,finland,,gospel,Matthew 21:12–17 (18–22)
+good_friday,,,,finland,,psalm,Psalm 22:7–20
+good_friday,,,,finland,,ot,Isaiah 53
+good_friday,,,I,finland,,epistle,Hebrews 5:7–10
+good_friday,,,II,finland,,epistle,Hebrews 5:7–10 or Galatians 6:14
+good_friday,,,III,finland,,epistle,Hebrews 5:7–10 or Hebrews 10:12–20
+good_friday,,,I,finland,,gospel,Luke 23:32–46
+good_friday,,,II,finland,,gospel,John 19:16–30
+good_friday,,,III,finland,,gospel,Matthew 27:33–54
+all_saints,,,,finland,,psalm,"Psalm 89:6–8, 16–19"
+all_saints,,,I,finland,,ot,Isaiah 65:17–19
+all_saints,,,II,finland,,ot,Isaiah 60:18–21
+all_saints,,,III,finland,,ot,Isaiah 65:23–25
+all_saints,,,I,finland,,epistle,"Revelation 7:2–3, 9–17"
+all_saints,,,II,finland,,epistle,Revelation 21:1–4
+all_saints,,,III,finland,,epistle,Revelation 22:1–5
+all_saints,,,,finland,,gospel,Matthew 5:1–12
+trinity,,,,finland,,psalm,"Psalm 95:1–2, 6–7"
+trinity,,,I,finland,,ot,Isaiah 6:1–8 (9–10)
+trinity,,,II,finland,,ot,Job 37:21–24 or Ecclesiastes 8:16–17
+trinity,,,III,finland,,ot,Numbers 6:22–27 or Isaiah 66:1–2
+trinity,,,I,finland,,epistle,Romans 11:33–36
+trinity,,,II,finland,,epistle,Ephesians 4:1–6
+trinity,,,III,finland,,epistle,Ephesians 1:3–6 (7–10) 11–14
+trinity,,,I,finland,,gospel,John 3:1–15
+trinity,,,II,finland,,gospel,John 15:1–10
+trinity,,,III,finland,,gospel,Matthew 28:16–20
+stephen,,,,finland,,psalm,Psalm 119:41–48
+stephen,,,I,finland,,ot,"Jeremiah 20:7–11, 13"
+stephen,,,II,finland,,ot,2 Chronicles 24:18–21
+stephen,,,III,finland,,ot,Jeremiah 15:15–20
+stephen,,,,finland,,epistle,"Acts 6:8, 11–15; Acts 7:51–60"
+stephen,,,I,finland,,gospel,Matthew 10:16–22
+stephen,,,II,finland,,gospel,Luke 12:8–12
+stephen,,,III,finland,,gospel,Matthew 23:34–39
+ash_wednesday,,,,finland,,psalm,"Psalm 57:2–4, 11–12"
+ash_wednesday,,,,finland,,ot,Joel 2:12–17
+ash_wednesday,,,,finland,,epistle,2 Peter 1:1–11 or 1 Peter 4:1–5
+ash_wednesday,,,,finland,,gospel,Matthew 6:16–21 or Luke 13:22–30
+judgment,,,,finland,,psalm,Psalm 143:1–10
+judgment,,,I,finland,,ot,"Daniel 7:9–10, 13–14"
+judgment,,,II,finland,,ot,Malachi 3:19–20
+judgment,,,III,finland,,ot,Daniel 12:1–3
+judgment,,,I,finland,,epistle,2 Thessalonians 1:3–10
+judgment,,,II,finland,,epistle,1 Corinthians 15:22–28 or Hebrews 12:18–25
+judgment,,,III,finland,,epistle,Revelation 20:11–21:1
+judgment,,,,finland,,gospel,Matthew 25:31–46
+reformation,,,,finland,,psalm,Psalm 46:2–8
+reformation,,,I,finland,,ot,Isaiah 33:20–22 or Jeremiah 3:14–15
+reformation,,,II,finland,,ot,Jeremiah 15:19–21
+reformation,,,III,finland,,ot,Jeremiah 17:5–8
+reformation,,,I,finland,,epistle,Romans 1:16–17 or Ephesians 6:10–18
+reformation,,,II,finland,,epistle,Romans 5:1–11
+reformation,,,III,finland,,epistle,Romans 10:12–18
+reformation,,,I,finland,,gospel,John 4:46–53
+reformation,,,II,finland,,gospel,Matthew 16:1–4
+reformation,,,III,finland,,gospel,Matthew 5:13–16
+new_year,,,,finland,,psalm,Psalm 8:2–10
+new_year,,,I,finland,,ot,Numbers 6:22–27
+new_year,,,II,finland,,ot,Isaiah 43:1–3
+new_year,,,III,finland,,ot,Isaiah 42:5–8 or Genesis 8:13–22
+new_year,,,I,finland,,epistle,Acts 4:8–12
+new_year,,,II,finland,,epistle,1 John 5:1–5
+new_year,,,III,finland,,epistle,Acts 4:24–30 or Revelation 3:7–8
+new_year,,,I,finland,,gospel,Luke 2:21
+new_year,,,II,finland,,gospel,John 14:12–14
+new_year,,,III,finland,,gospel,Matthew 4:12–16
+watching,,,,finland,,psalm,"Psalm 90:1–6, 12–15"
+watching,,,I,finland,,ot,Amos 4:12–13
+watching,,,II,finland,,ot,Malachi 3:13–18
+watching,,,III,finland,,ot,Psalm 94:8–15
+watching,,,I,finland,,epistle,"2 Peter 3:8–14, 18"
+watching,,,II,finland,,epistle,Hebrews 3:12–15 or Revelation 22:10–17
+watching,,,III,finland,,epistle,1 Thessalonians 5:2–11
+watching,,,I,finland,,gospel,Matthew 25:1–13
+watching,,,II,finland,,gospel,Mark 13:33–37
+watching,,,III,finland,,gospel,Matthew 24:36–44

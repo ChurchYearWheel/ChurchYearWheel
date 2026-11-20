@@ -1,0 +1,62 @@
+id,variant,when,date,from,to,every,first,count,first2,count2,title,names,notes,latin,color,color_bottom,rank,style,icon,claims,yield,full_name
+# ===========================================================================,,,,,,,,,,,,,,,,,,,,,,
+"# The year of the Coptic Orthodox Church, by the Coptic calendar: coptic(04-29)",,,,,,,,,,,,,,,,,,,,,,
+"# is 29 Koiak.  Easter is by the Alexandrian rule, the same as the Orthodox.",,,,,,,,,,,,,,,,,,,,,,
+# The seven major and seven minor feasts of the Lord are here; the Nativity is,,,,,,,,,,,,,,,,,,,,,,
+"# kept on 29 Koiak, 7 January in the civil calendar.",,,,,,,,,,,,,,,,,,,,,,
+# ===========================================================================,,,,,,,,,,,,,,,,,,,,,,
+"# The year begins with Nayrouz, 1 Thout.",,,,,,,,,,,,,,,,,,,,,,
+nayrouz,,,coptic(01-01),,,,,,,,Nayrouz,,,,WHITE,,,,,TRUE,,Feast of Nayrouz: the Coptic New Year (1 Thout)
+"# Outside Lent and the Fifty Days, the Sundays are named by the Coptic",,,,,,,,,,,,,,,,,,,,,,
+"# month they fall in, as the lectionary (Katameros) names them.",,,,,,,,,,,,,,,,,,,,,,
+sundays_01,,,,coptic(01-01),coptic(01-30),sun,1,,,,{ordinal} Sunday of Thout,,,,,,,,,,,
+sundays_02,,,,coptic(02-01),coptic(02-30),sun,1,,,,{ordinal} Sunday of Paopi,,,,,,,,,,,
+sundays_03,,,,coptic(03-01),coptic(03-30),sun,1,,,,{ordinal} Sunday of Hathor,,,,,,,,,,,
+sundays_04,,,,coptic(04-01),coptic(04-30),sun,1,,,,{ordinal} Sunday of Koiak,,,,,,,,,,,
+sundays_05,,,,coptic(05-01),coptic(05-30),sun,1,,,,{ordinal} Sunday of Tobi,,,,,,,,,,,
+sundays_06,,,,coptic(06-01),coptic(06-30),sun,1,,,,{ordinal} Sunday of Meshir,,,,,,,,,,,
+sundays_07,,,,coptic(07-01),coptic(07-30),sun,1,,,,{ordinal} Sunday of Paremhat,,,,,,,,,,,
+sundays_08,,,,coptic(08-01),coptic(08-30),sun,1,,,,{ordinal} Sunday of Parmouti,,,,,,,,,,,
+sundays_09,,,,coptic(09-01),coptic(09-30),sun,1,,,,{ordinal} Sunday of Pashons,,,,,,,,,,,
+sundays_10,,,,coptic(10-01),coptic(10-30),sun,1,,,,{ordinal} Sunday of Paoni,,,,,,,,,,,
+sundays_11,,,,coptic(11-01),coptic(11-30),sun,1,,,,{ordinal} Sunday of Epip,,,,,,,,,,,
+sundays_12,,,,coptic(12-01),coptic(12-30),sun,1,,,,{ordinal} Sunday of Mesori,,,,,,,,,,,
+sundays_13,,,,coptic(13-01),end,sun,1,,,,{ordinal} Sunday of the Little Month,,,,,,,,,,,
+cross,,,coptic(01-17),,,,,,,,Feast of the Cross,,,,WHITE,,,,,TRUE,,Feast of the Cross (17 Thout)
+nativity,,,julian(12-25),,,,,,,,Nativity,,,,WHITE,,,,,TRUE,,The Nativity of our Lord (29 Koiak)
+circumcision,,,coptic(05-06),,,,,,,,Circumcision,,,,,,,,,TRUE,,The Circumcision of our Lord (6 Tobi)
+theophany,,,coptic(05-11),,,,,,,,Theophany,,,,WHITE,,,,,TRUE,,Theophany: the Baptism of our Lord (11 Tobi)
+cana,,,coptic(05-13),,,,,,,,Wedding at Cana,,,,,,,,,TRUE,,The Wedding at Cana of Galilee (13 Tobi)
+presentation,,,coptic(06-08),,,,,,,,Entrance into the Temple,,,,,,,,,TRUE,,The Entrance of our Lord into the Temple (8 Meshir)
+jonah,,,easter-69,,,,,,,,Fast of Jonah,,,,,,,,,,,"The Fast of Jonah (Nineveh), Monday to Wednesday"
+jonah_passover,,,easter-66,,,,,,,,Passover of Jonah,,,,,,,,,,,
+nativity_fast,,,@nativity-43,,,,,,,,Nativity Fast begins,,,,,,,,,,,The Nativity Fast: forty-three days
+lent_begins,,,easter-55,,,,,,,,Great Lent begins,,,,,,,,,,,Great Lent: fifty-five days to Easter
+preparation,,,easter-56,,,,,,,,Preparation Sunday,,,,,,,,,TRUE,,Pre-Lent Sunday: the Preparation week begins
+kanz,,,easter-49,,,,,,,,Sunday of the Treasure,,,,,,,,,TRUE,,First Sunday of Great Lent: Treasures in Heaven (Kanz)
+temptation,,,easter-42,,,,,,,,Sunday of the Temptation,,,,,,,,,TRUE,,Second Sunday of Great Lent: the Temptation
+prodigal,,,easter-35,,,,,,,,Sunday of the Prodigal Son,,,,,,,,,TRUE,,
+samaritan,,,easter-28,,,,,,,,Sunday of the Samaritan Woman,,,,,,,,,TRUE,,
+paralytic,,,easter-21,,,,,,,,Sunday of the Paralytic,,,,,,,,,TRUE,,
+blind,,,easter-14,,,,,,,,Sunday of the Man Born Blind,,,,,,,,,TRUE,,Sunday of the Man Born Blind (Baptism Sunday)
+lazarus,,,easter-8,,,,,,,,Lazarus Saturday,,,,,,,,,,,
+palm,,,easter-7,,,,,,,,Palm Sunday,,,,WHITE,,,,,TRUE,,Palm Sunday: the Entry into Jerusalem
+covenant,,,easter-3,,,,,,,,Covenant Thursday,,,,WHITE,,,,,,,
+good_friday,,,easter-2,,,,,,,,Good Friday,,,,BLACK,,,,,,,Great Friday
+joyous_saturday,,,easter-1,,,,,,,,Joyous Saturday,,,,BLACK,WHITE,,,,,,
+easter,,,easter,,,,,,,,Resurrection,,,,WHITE,,,,,TRUE,,The Feast of the Resurrection (Easter)
+thomas,,,easter+7,,,,,,,,Thomas Sunday,,,,,,,,,TRUE,,
+fifty_3,,,easter+14,,,,,,,,Third Sunday of the Fifty Days,,,,,,,,,TRUE,,
+fifty_4,,,easter+21,,,,,,,,Fourth Sunday of the Fifty Days,,,,,,,,,TRUE,,
+fifty_5,,,easter+28,,,,,,,,Fifth Sunday of the Fifty Days,,,,,,,,,TRUE,,
+fifty_6,,,easter+35,,,,,,,,Sixth Sunday of the Fifty Days,,,,,,,,,TRUE,,
+ascension,,,easter+39,,,,,,,,Ascension,,,,WHITE,,,,,,,
+after_ascension,,,easter+42,,,,,,,,Sunday after the Ascension,,,,,,,,,TRUE,,
+pentecost,,,easter+49,,,,,,,,Pentecost,,,,WHITE,,,,,TRUE,,
+apostles_fast,,,easter+50,,,,,,,,Apostles' Fast begins,,,,,,,,,,,
+annunciation,,,coptic(07-29),,,,,,,,Annunciation,,,,WHITE,,,,,TRUE,,The Annunciation (29 Paremhat)
+cross_spring,,,coptic(07-10),,,,,,,,Feast of the Cross,,,,,,,,,TRUE,,Feast of the Cross (10 Paremhat)
+entry_egypt,,,coptic(09-24),,,,,,,,Entry into Egypt,,,,,,,,,TRUE,,The Entry of our Lord into Egypt (24 Pashons)
+apostles,,,coptic(11-05),,,,,,,,Feast of the Apostles,,,,,,,,,TRUE,,Martyrdom of the Apostles Peter and Paul (5 Epip)
+transfiguration,,,coptic(12-13),,,,,,,,Transfiguration,,,,WHITE,,,,,TRUE,,The Transfiguration (13 Mesori)
+assumption,,,coptic(12-16),,,,,,,,Assumption of the Virgin,,,,,,,,,TRUE,,The Assumption of the Body of the Virgin Mary (16 Mesori)

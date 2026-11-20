@@ -1,0 +1,19 @@
+setting,value,variant
+# ===========================================================================
+# The ELS calendar (Evangelical Lutheran Hymnary).  Any setting from config.csv may
+# be given here and wins over it for this tradition; a row with a variant
+# applies to that series only.  See docs/traditions.md.
+# ===========================================================================
+year_start,sun<12-25-21,
+center_art,lutherrose,
+latin_names_available,TRUE,one-year
+# The one-year series opens with its Sundays' Latin names (the page's box,
+# and new_year.py when --latin-names / --no-latin-names is not given).
+latin_names_default,TRUE,one-year
+festival_half_end_auto,trinity-week,one-year
+festival_half_end_auto,pentecost-week,three-year
+# The three-year series begins with Year A at Advent 2025 (reading_cycle).,,
+reading_cycle,abc,three-year
+"# Hymnary.org's code for the Evangelical Lutheran Hymnary (1996): a hymn mark after each set of readings searches it for the hymns on them (hymnary.org/hymnal/ELH1996). Few of its hymns have their scripture there yet.",,
+hymnary_hymnal,ELH1996,
+hymnary_hymnal_name,Evangelical Lutheran Hymnary (1996),

@@ -1,0 +1,10 @@
+id,date,name,full_name,rank,style,color_override,color_override_bottom,icon,icon_when,transfer,variant,when,action
+,01-15,Crucified Lord of Esquipulas,,11,memorial,,,,,,,,
+,05-15,St. Isidore the Laborer,Saint Isidore the Laborer,8,feast_rank,WHITE,,,,,,,
+,06-27,Our Lady of Perpetual Help,,12,optional_memorial,,,,,,,,
+our_lady_of_mount_carmel,,,Our Lady of Mount Carmel,11,memorial,-,,,,,,,
+,08-02,Our Lady of Angels,,4,solemnity,WHITE,,,,,,,
+st_rose_of_lima,08-30,,"Saint Rose of Lima, virgin",8,feast_rank,WHITE,,,,,,,
+st_martin_de_porres,,,"Saint Martin de Porres, religious",11,memorial,-,,,,,,,
+guadalupe,,,Our Lady of Guadalupe,8,feast_rank,WHITE,,,,,,,
+,easter+53,Christ the Eternal High Priest,"Jesus Christ, the Eternal High Priest",8,feast_rank,WHITE,,,,,,,

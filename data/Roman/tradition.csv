@@ -1,0 +1,36 @@
+setting,value,variant
+# ===========================================================================
+"# The General Roman Calendar (the Roman Missal, 2002, with the calendar as"
+# it stands in 2026).  Any setting from config.csv may be given here and wins
+# over it for this tradition.  See docs/traditions.md.
+# ===========================================================================
+year_start,sun<12-25-21,
+center_art,chalice,
+"# Which celebration is kept when two fall together, by the Table of"
+# Liturgical Days: a solemnity that is impeded moves to the next free day,
+# anything lesser that is impeded is not kept that year.
+precedence,roman,
+hide_outranked_titles,TRUE,
+commemoration_style,optional_memorial,
+"# Solemnities are ""principal"", feasts ""festivals"", for the Feasts menu."
+principal_max_rank,4,
+festival_max_rank,8,
+"# Precedence settles the conflicts, so a feast is never drawn in the lower"
+# half of a greater day as the LCMS calendar does.
+feast_yield_seasons,none,
+feast_yield_every_day,none,
+# The Bible version the page opens readings in (bible_version).,,
+bible_version,NABRE,
+"# The Lectionary for Mass, Years A, B and C (Year A from Advent 2025): data/readings/roman.csv, shared with Divine Worship (data/Anglican).",,
+"# The weekdays (data/readings/roman-weekday.csv): Ordinary Time's first reading and psalm in cycle I in odd years, II in even (Year II from Advent 2025).",,
+"# The Proper of Saints (data/readings/roman-saints.csv): the feasts not in roman.csv and the memorials with proper readings.",,
+readings,roman roman-weekday roman-saints,
+reading_cycle,abc; I II 2024,
+reading_labels,ot=First Reading; psalm=Responsorial Psalm; epistle=Second Reading; procession=Gospel at the Procession,
+"# The readings are cited as the NABRE numbers them (the Hebrew way); links in another version translate them (docs/versification.md).",,
+verse_numbering,hebrew,
+# A weekday without a name of its own is named for the week its Sunday begins: Tuesday of the Sixth Week of Easter.,,
+weekday_titles,week,
+"# Hymnary.org's code for Worship, fourth edition (GIA, 2011), one of the Catholic hymnals in wide use in the United States: a hymn mark after each set of readings searches it (hymnary.org/hymnal/WORS2011).",,
+hymnary_hymnal,WORS2011,
+hymnary_hymnal_name,"Worship, 4th ed. (2011)",

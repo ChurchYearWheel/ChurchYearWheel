@@ -1,0 +1,15 @@
+id,date,name,full_name,rank,style,color_override,color_override_bottom,icon,icon_when,transfer,variant,when,action,link
+,01-22,Bl. Laura Vicuña,"Blessed Laura Vicuña, virgin",12,optional_memorial,,,,,,,,,
+,02-07,Bl. Pius IX,"Blessed Pius IX, pope",12,optional_memorial,,,,,,,,,
+our_lady_of_lourdes,,,Our Lady of Lourdes,11,memorial,-,,,,,,,,
+sts_philip_and_james,,,Exaltation of the Holy Cross,7,feast_rank,RED,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/triumph-of-the-cross/
+sts_philip_and_james,05-04,,"Saints Philip and James, apostles",7,feast_rank,RED,,,,,,,,
+,07-13,St. Teresa of Los Andes,"Saint Teresa of Los Andes, virgin",8,feast_rank,WHITE,,,,,,,,
+,07-14,St. Camillus de Lellis or St. Henry,"Saint Camillus de Lellis, priest, or Saint Henry",12,optional_memorial,,,,,,,,,
+,07-16,"Our Lady of Mount Carmel, Mother and Queen of Chile",,4,solemnity,WHITE,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/our-lady-of-mount-carmel/
+,08-18,St. Alberto Hurtado,"Saint Alberto Hurtado, priest",11,memorial,,,,,,,,,
+,08-26,Bl. Ceferino Namuncurá,Blessed Ceferino Namuncurá,12,optional_memorial,,,,,,,,,
+st_rose_of_lima,08-30,,"Saint Rose of Lima, virgin",8,feast_rank,WHITE,,,,,,,,
+,09-24,Our Lady of Mercy,,12,optional_memorial,,,,,,,,,
+guadalupe,,,Our Lady of Guadalupe,8,feast_rank,WHITE,,,,,,,,
+,easter+53,Christ the Eternal High Priest,"Jesus Christ, the Eternal High Priest",8,feast_rank,WHITE,,,,,,,,

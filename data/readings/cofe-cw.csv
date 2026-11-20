@@ -1,0 +1,2699 @@
+day,offset,when,cycle,variant,title,kind,reading
+# ===========================================================================
+"# The Church of England's Common Worship Lectionary for Sundays, Principal"
+"# Feasts and Holy Days, and Festivals, as the Church of England website"
+"# gives it (""Lectionary"", Common Worship main volume, current with its"
+"# corrections; saved October 2026), with two of the 2005 corrections"
+"# (GS 1520A, listed in the Weekday Lectionary booklet, pp. 50-51) that the"
+"# web page lacks: Proper 8 Year B reads Lamentations 3:22-33, and the Third"
+"# Service of Ascension Day has Psalms 110, 150.  Years A, B and C, Year A"
+# beginning with Advent 2025 (the website's table of lectionary years).
+"# For the Common Worship calendar (data/Anglican, variant common-worship):"
+"# tradition.csv names it with `readings,cofe-cw cofe-cw-weekday`.  Every day is a date rule:"
+"#   Principal Service: kinds ot, psalm, epistle, gospel (the first and"
+#     second readings; in Eastertide the first is often Acts).  On the
+#     Sundays after Trinity the Continuous Old Testament and psalm are
+#     ot_s/psalm_s and the Related ones ot_c/psalm_c.
+"#   Second Service and Third Service: sets of their own titles; psalm, then"
+"#     ot (Old Testament and Apocrypha), nt (Acts to Revelation) and gospel"
+#     by book; the "Gospel at Holy Communion" of a Second Service is its
+#     gospel.  On Principal Feasts and Festivals the psalms printed for
+#     morning or evening are psalm_morning and psalm_evening.
+#   Festivals and Principal Feasts in feasts.csv are keyed by their ids
+"#     (cw_...), so their readings go with them when the Rules move them",
+#     with "<name>: Second Service" etc.; the Evening Prayer on the Eve is
+#     the day before (offset -1).  The Sundays the Rules allow for the
+"#     Epiphany and Candlemas, and the Monday the Baptism then moves to, are"
+"#     titled sets marked ""(observed)"".  Christmas Day has Sets I, II, III."
+#   The Sundays of Epiphany are counted from the Baptism (the Sunday after
+#     6 January); the Fourth's provision may fall on 3 February; Propers
+"#     1-3 are the Sundays 4-10, 11-17 and 18-24 February before the Second"
+"#     Sunday before Lent, which is kept only after 2 February; Propers 3-25"
+#     after Trinity Sunday are the Sundays between their dates; Bible Sunday
+#     (the Last Sunday after Trinity) and All Saints' Sunday are titled sets;
+#     the Sundays before Advent count back from Advent Sunday.
+"# Citations: chapter:verse, en dashes, optional verses and psalms in"
+"# parentheses ([ ] in the source), alternatives joined with "" or "" (each"
+"# with its book), the asterisk marking a psalm with a shorter alternative"
+"# dropped (those alternatives are not given here), canticles as"
+"# ""Canticle: Magnificat"".  Several psalms: ""Psalms 46, 47""; with verses",
+"# ""Psalms 87; 36:5-10""; an optional extra psalm: ""Psalms 11, (28)""."
+# The Easter Vigil is listed on Easter Eve.  Not given: the Dedication
+"# Festival (no fixed day), the lesser festivals and commons (published"
+# separately).
+# ===========================================================================
+start,,,A,,,ot,Isaiah 2:1–5
+start,,,A,,,psalm,Psalm 122
+start,,,A,,,epistle,Romans 13:11–14
+start,,,A,,,gospel,Matthew 24:36–44
+start,,,B,,,ot,Isaiah 64:1–9
+start,,,B,,,psalm,"Psalm 80:1–8, 18–20"
+start,,,B,,,epistle,1 Corinthians 1:3–9
+start,,,B,,,gospel,Mark 13:24–37
+start,,,C,,,ot,Jeremiah 33:14–16
+start,,,C,,,psalm,Psalm 25:1–9
+start,,,C,,,epistle,1 Thessalonians 3:9–13
+start,,,C,,,gospel,Luke 21:25–36
+start,,,A,,Second Service,psalm,Psalm 9
+start,,,A,,Second Service,ot,Isaiah 52:1–12
+start,,,A,,Second Service,gospel,Matthew 24:15–28
+start,,,B,,Second Service,psalm,Psalm 25
+start,,,B,,Second Service,ot,Isaiah 1:1–20
+start,,,B,,Second Service,gospel,Matthew 21:1–13
+start,,,C,,Second Service,psalm,Psalm 9
+start,,,C,,Second Service,ot,Joel 3:9–21
+start,,,C,,Second Service,nt,Revelation 14:13–15:4
+start,,,C,,Second Service,gospel,John 3:1–17
+start,,,A,,Third Service,psalm,Psalm 44
+start,,,A,,Third Service,ot,Micah 4:1–7
+start,,,A,,Third Service,nt,1 Thessalonians 5:1–11
+start,,,B,,Third Service,psalm,Psalm 44
+start,,,B,,Third Service,ot,Isaiah 2:1–5
+start,,,B,,Third Service,gospel,Luke 12:35–48
+start,,,C,,Third Service,psalm,Psalm 44
+start,,,C,,Third Service,ot,Isaiah 51:4–11
+start,,,C,,Third Service,nt,Romans 13:11–14
+start+7,,,A,,,ot,Isaiah 11:1–10
+start+7,,,A,,,psalm,"Psalm 72:1–7, 18, 19"
+start+7,,,A,,,epistle,Romans 15:4–13
+start+7,,,A,,,gospel,Matthew 3:1–12
+start+7,,,B,,,ot,Isaiah 40:1–11
+start+7,,,B,,,psalm,"Psalm 85:1–2, 8–13"
+start+7,,,B,,,epistle,2 Peter 3:8–15a
+start+7,,,B,,,gospel,Mark 1:1–8
+start+7,,,C,,,ot,Baruch 5:1–9 or Malachi 3:1–4
+start+7,,,C,,,psalm,Canticle: Benedictus
+start+7,,,C,,,epistle,Philippians 1:3–11
+start+7,,,C,,,gospel,Luke 3:1–6
+start+7,,,A,,Second Service,psalm,"Psalms 11, (28)"
+start+7,,,A,,Second Service,ot,1 Kings 18:17–39
+start+7,,,A,,Second Service,gospel,John 1:19–28
+start+7,,,B,,Second Service,psalm,Psalm 40
+start+7,,,B,,Second Service,ot,1 Kings 22:1–28
+start+7,,,B,,Second Service,nt,Romans 15:4–13
+start+7,,,B,,Second Service,gospel,Matthew 11:2–11
+start+7,,,C,,Second Service,psalm,"Psalms 75, (76)"
+start+7,,,C,,Second Service,ot,Isaiah 40:1–11
+start+7,,,C,,Second Service,gospel,Luke 1:1–25
+start+7,,,A,,Third Service,psalm,Psalm 80
+start+7,,,A,,Third Service,ot,Amos 7
+start+7,,,A,,Third Service,gospel,Luke 1:5–20
+start+7,,,B,,Third Service,psalm,Psalm 80
+start+7,,,B,,Third Service,ot,Baruch 5:1–9 or Zephaniah 3:14–20
+start+7,,,B,,Third Service,gospel,Luke 1:5–20
+start+7,,,C,,Third Service,psalm,Psalm 80
+start+7,,,C,,Third Service,ot,Isaiah 64:1–7
+start+7,,,C,,Third Service,gospel,Matthew 11:2–11
+start+14,,,A,,,ot,Isaiah 35:1–10
+start+14,,,A,,,psalm,Psalm 146:4–10 or Canticle: Magnificat
+start+14,,,A,,,epistle,James 5:7–10
+start+14,,,A,,,gospel,Matthew 11:2–11
+start+14,,,B,,,ot,"Isaiah 61:1–4, 8–11"
+start+14,,,B,,,psalm,Psalm 126 or Canticle: Magnificat
+start+14,,,B,,,epistle,1 Thessalonians 5:16–24
+start+14,,,B,,,gospel,"John 1:6–8, 19–28"
+start+14,,,C,,,ot,Zephaniah 3:14–20
+start+14,,,C,,,psalm,Canticle: Isaiah 12:2–6
+start+14,,,C,,,epistle,Philippians 4:4–7
+start+14,,,C,,,gospel,Luke 3:7–18
+start+14,,,A,,Second Service,psalm,"Psalms 12, (14)"
+start+14,,,A,,Second Service,ot,Isaiah 5:8–30
+start+14,,,A,,Second Service,nt,Acts 13:13–41
+start+14,,,A,,Second Service,gospel,John 5:31–40
+start+14,,,B,,Second Service,psalm,Psalm 68:1–19
+start+14,,,B,,Second Service,ot,Malachi 3:1–4; 4
+start+14,,,B,,Second Service,nt,Philippians 4:4–7
+start+14,,,B,,Second Service,gospel,Matthew 14:1–12
+start+14,,,C,,Second Service,psalm,Psalms 50:1–6; (62)
+start+14,,,C,,Second Service,ot,Isaiah 35
+start+14,,,C,,Second Service,gospel,"Luke 1:57–66, (67–80)"
+start+14,,,A,,Third Service,psalm,Psalm 68:1–19
+start+14,,,A,,Third Service,ot,Zephaniah 3:14–20
+start+14,,,A,,Third Service,nt,Philippians 4:4–7
+start+14,,,B,,Third Service,psalm,Psalms 50:1–6; 62
+start+14,,,B,,Third Service,ot,Isaiah 12
+start+14,,,B,,Third Service,gospel,Luke 1:57–66
+start+14,,,C,,Third Service,psalm,"Psalms 12, 14"
+start+14,,,C,,Third Service,ot,Isaiah 25:1–9
+start+14,,,C,,Third Service,nt,1 Corinthians 4:1–5
+start+21,,,A,,,ot,Isaiah 7:10–16
+start+21,,,A,,,psalm,"Psalm 80:1–8, 18–20"
+start+21,,,A,,,epistle,Romans 1:1–7
+start+21,,,A,,,gospel,Matthew 1:18–25
+start+21,,,B,,,ot,"2 Samuel 7:1–11, 16"
+start+21,,,B,,,psalm,"Canticle: Magnificat or Psalm 89:1–4, 19–26"
+start+21,,,B,,,epistle,Romans 16:25–27
+start+21,,,B,,,gospel,Luke 1:26–38
+start+21,,,C,,,ot,Micah 5:2–5a
+start+21,,,C,,,psalm,Canticle: Magnificat or Psalm 80:1–8
+start+21,,,C,,,epistle,Hebrews 10:5–10
+start+21,,,C,,,gospel,"Luke 1:39–45, (46–55)"
+start+21,,,A,,Second Service,psalm,"Psalms 113, (126)"
+start+21,,,A,,Second Service,ot,1 Samuel 1:1–20
+start+21,,,A,,Second Service,nt,Revelation 22:6–21
+start+21,,,A,,Second Service,gospel,Luke 1:39–45
+start+21,,,B,,Second Service,psalm,"Psalms 113, (131)"
+start+21,,,B,,Second Service,ot,Zechariah 2:10–13
+start+21,,,B,,Second Service,gospel,Luke 1:39–55
+start+21,,,C,,Second Service,psalm,"Psalms 123, (131)"
+start+21,,,C,,Second Service,ot,Isaiah 10:33–11:10
+start+21,,,C,,Second Service,gospel,Matthew 1:18–25
+start+21,,,A,,Third Service,psalm,Psalm 144
+start+21,,,A,,Third Service,ot,Micah 5:2–5a
+start+21,,,A,,Third Service,gospel,Luke 1:26–38
+start+21,,,B,,Third Service,psalm,Psalm 144
+start+21,,,B,,Third Service,ot,Isaiah 7:10–16
+start+21,,,B,,Third Service,nt,Romans 1:1–7
+start+21,,,C,,Third Service,psalm,Psalm 144
+start+21,,,C,,Third Service,ot,Isaiah 32:1–8
+start+21,,,C,,Third Service,nt,Revelation 22:6–21
+12-24,,,,,Christmas Eve,ot,"2 Samuel 7:1–5, 8–11, 16"
+12-24,,,,,Christmas Eve,psalm,"Psalm 89:2, 19–27"
+12-24,,,,,Christmas Eve,epistle,Acts 13:16–26
+12-24,,,,,Christmas Eve,gospel,Luke 1:67–79
+12-24,,,,,Christmas Eve: Evening Prayer,psalm,Psalm 85
+12-24,,,,,Christmas Eve: Evening Prayer,ot,Zechariah 2
+12-24,,,,,Christmas Eve: Evening Prayer,nt,Revelation 1:1–8
+12-25,,,,,Christmas (Set I),ot,Isaiah 9:2–7
+12-25,,,,,Christmas (Set I),psalm,Psalm 96
+12-25,,,,,Christmas (Set I),epistle,Titus 2:11–14
+12-25,,,,,Christmas (Set I),gospel,"Luke 2:1–14, (15–20)"
+12-25,,,,,Christmas (Set II),ot,Isaiah 62:6–12
+12-25,,,,,Christmas (Set II),psalm,Psalm 97
+12-25,,,,,Christmas (Set II),epistle,Titus 3:4–7
+12-25,,,,,Christmas (Set II),gospel,"Luke 2:(1–7), 8–20"
+12-25,,,,,Christmas (Set III),ot,Isaiah 52:7–10
+12-25,,,,,Christmas (Set III),psalm,Psalm 98
+12-25,,,,,Christmas (Set III),epistle,"Hebrews 1:1–4, (5–12)"
+12-25,,,,,Christmas (Set III),gospel,John 1:1–14
+12-25,,,,,Second Service,psalm_evening,Psalm 8
+12-25,,,,,Second Service,ot,Isaiah 65:17–25
+12-25,,,,,Second Service,nt,Philippians 2:5–11 or Luke 2:1–20 (if it has not been used at the principal service of the day)
+12-25,,,,,Third Service,psalm_morning,"Psalms 110, 117"
+12-25,,,,,Third Service,ot,Isaiah 62:1–5
+12-25,,,,,Third Service,gospel,Matthew 1:18–25
+sun>12-25,,,A,,,ot,Isaiah 63:7–9
+sun>12-25,,,A,,,psalm,Psalm 148
+sun>12-25,,,A,,,epistle,Hebrews 2:10–18
+sun>12-25,,,A,,,gospel,Matthew 2:13–23
+sun>12-25,,,B,,,ot,Isaiah 61:10–62:3
+sun>12-25,,,B,,,psalm,Psalm 148
+sun>12-25,,,B,,,epistle,Galatians 4:4–7
+sun>12-25,,,B,,,gospel,Luke 2:15–21
+sun>12-25,,,C,,,ot,"1 Samuel 2:18–20, 26"
+sun>12-25,,,C,,,psalm,Psalm 148
+sun>12-25,,,C,,,epistle,Colossians 3:12–17
+sun>12-25,,,C,,,gospel,Luke 2:41–52
+sun>12-25,,,A,,Second Service,psalm,Psalm 132
+sun>12-25,,,A,,Second Service,ot,Isaiah 49:7–13
+sun>12-25,,,A,,Second Service,nt,Philippians 2:1–11
+sun>12-25,,,A,,Second Service,gospel,Luke 2:41–52
+sun>12-25,,,B,,Second Service,psalm,Psalm 132
+sun>12-25,,,B,,Second Service,ot,Isaiah 35
+sun>12-25,,,B,,Second Service,nt,Colossians 1:9–20 or Luke 2:41–52
+sun>12-25,,,C,,Second Service,psalm,Psalm 132
+sun>12-25,,,C,,Second Service,ot,Isaiah 61
+sun>12-25,,,C,,Second Service,nt,Galatians 3:27–4:7
+sun>12-25,,,C,,Second Service,gospel,Luke 2:15–21
+sun>12-25,,,A,,Third Service,psalm,Psalm 105:1–11
+sun>12-25,,,A,,Third Service,ot,Isaiah 35:1–6
+sun>12-25,,,A,,Third Service,nt,Galatians 3:23–29
+sun>12-25,,,B,,Third Service,psalm,Psalm 105:1–11
+sun>12-25,,,B,,Third Service,ot,Isaiah 63:7–9
+sun>12-25,,,B,,Third Service,nt,Ephesians 3:5–12
+sun>12-25,,,C,,Third Service,psalm,Psalm 105:1–11
+sun>12-25,,,C,,Third Service,ot,Isaiah 41:21–42:1
+sun>12-25,,,C,,Third Service,nt,1 John 1:1–7
+sun>01-01,,date lt 01-06,,,,ot,Jeremiah 31:7–14 or Ecclesiasticus 24:1–12
+sun>01-01,,date lt 01-06,,,,psalm,Psalm 147:13–21 or Canticle: Wisdom of Solomon 10:15–21
+sun>01-01,,date lt 01-06,,,,epistle,Ephesians 1:3–14
+sun>01-01,,date lt 01-06,,,,gospel,"John 1:(1–9), 10–18"
+sun>01-01,,date lt 01-06,A,,Second Service,psalm,Psalm 135
+sun>01-01,,date lt 01-06,A,,Second Service,ot,Isaiah 41:21–42:4
+sun>01-01,,date lt 01-06,A,,Second Service,nt,Colossians 1:1–14
+sun>01-01,,date lt 01-06,A,,Second Service,gospel,Matthew 2:13–23
+sun>01-01,,date lt 01-06,B,,Second Service,psalm,Psalm 135
+sun>01-01,,date lt 01-06,B,,Second Service,ot,Isaiah 46:3–13
+sun>01-01,,date lt 01-06,B,,Second Service,nt,Romans 12:1–8
+sun>01-01,,date lt 01-06,B,,Second Service,gospel,Matthew 2:13–23
+sun>01-01,,date lt 01-06,C,,Second Service,psalm,Psalm 135
+sun>01-01,,date lt 01-06,C,,Second Service,ot,1 Samuel 1:20–28
+sun>01-01,,date lt 01-06,C,,Second Service,nt,1 John 4:7–16
+sun>01-01,,date lt 01-06,C,,Second Service,gospel,Matthew 2:13–23
+sun>01-01,,date lt 01-06,A,,Third Service,psalm,Psalm 87
+sun>01-01,,date lt 01-06,A,,Third Service,ot,Jeremiah 31:15–17
+sun>01-01,,date lt 01-06,A,,Third Service,nt,2 Corinthians 1:3–12
+sun>01-01,,date lt 01-06,B,,Third Service,psalm,Psalm 87
+sun>01-01,,date lt 01-06,B,,Third Service,ot,Zechariah 8:1–8
+sun>01-01,,date lt 01-06,B,,Third Service,gospel,Luke 2:41–52
+sun>01-01,,date lt 01-06,C,,Third Service,psalm,Psalm 87
+sun>01-01,,date lt 01-06,C,,Third Service,ot,Isaiah 12
+sun>01-01,,date lt 01-06,C,,Third Service,nt,1 Thessalonians 2:1–8
+01-05,,,,,The Epiphany: Evening Prayer on the Eve,psalm,"Psalms 96, 97"
+01-05,,,,,The Epiphany: Evening Prayer on the Eve,ot,Isaiah 49:1–13
+01-05,,,,,The Epiphany: Evening Prayer on the Eve,gospel,John 4:7–26
+01-06,,,,,,ot,Isaiah 60:1–6
+01-06,,,,,,psalm,"Psalm 72:(1–9), 10–15"
+01-06,,,,,,epistle,Ephesians 3:1–12
+01-06,,,,,,gospel,Matthew 2:1–12
+01-06,,,,,Second Service,psalm_evening,"Psalms 98, 100"
+01-06,,,,,Second Service,ot,Baruch 4:36–5:9 or Isaiah 60:1–9
+01-06,,,,,Second Service,gospel,John 2:1–11
+01-06,,,,,Third Service,psalm_morning,"Psalms 132, 113"
+01-06,,,,,Third Service,ot,Jeremiah 31:7–14
+01-06,,,,,Third Service,gospel,John 1:29–34
+sun>01-06-1,,,,,The Baptism of Christ: Evening Prayer on the Eve,psalm,Psalm 36
+sun>01-06-1,,,,,The Baptism of Christ: Evening Prayer on the Eve,ot,Isaiah 61
+sun>01-06-1,,,,,The Baptism of Christ: Evening Prayer on the Eve,nt,Titus 2:11–14; 3:4–7
+sun>01-06,,,A,,,ot,Isaiah 42:1–9
+sun>01-06,,,A,,,psalm,Psalm 29
+sun>01-06,,,A,,,epistle,Acts 10:34–43
+sun>01-06,,,A,,,gospel,Matthew 3:13–17
+sun>01-06,,,B,,,ot,Genesis 1:1–5
+sun>01-06,,,B,,,psalm,Psalm 29
+sun>01-06,,,B,,,epistle,Acts 19:1–7
+sun>01-06,,,B,,,gospel,Mark 1:4–11
+sun>01-06,,,C,,,ot,Isaiah 43:1–7
+sun>01-06,,,C,,,psalm,Psalm 29
+sun>01-06,,,C,,,epistle,Acts 8:14–17
+sun>01-06,,,C,,,gospel,"Luke 3:15–17, 21, 22"
+sun>01-06,,,A,,Second Service,psalm,"Psalms 46, 47"
+sun>01-06,,,A,,Second Service,ot,"Joshua 3:1–8, 14–17"
+sun>01-06,,,A,,Second Service,nt,Hebrews 1:1–12
+sun>01-06,,,A,,Second Service,gospel,Luke 3:15–22
+sun>01-06,,,B,,Second Service,psalm,"Psalms 46, (47)"
+sun>01-06,,,B,,Second Service,ot,Isaiah 42:1–9
+sun>01-06,,,B,,Second Service,nt,Ephesians 2:1–10
+sun>01-06,,,B,,Second Service,gospel,Matthew 3:13–17
+sun>01-06,,,C,,Second Service,psalm,"Psalms 46, 47"
+sun>01-06,,,C,,Second Service,ot,Isaiah 55:1–11
+sun>01-06,,,C,,Second Service,nt,Romans 6:1–11
+sun>01-06,,,C,,Second Service,gospel,Mark 1:4–11
+sun>01-06,,,A,,Third Service,psalm,Psalm 89:19–29
+sun>01-06,,,A,,Third Service,ot,Exodus 14:15–22
+sun>01-06,,,A,,Third Service,nt,1 John 5:6–9
+sun>01-06,,,B,,Third Service,psalm,Psalm 89:19–29
+sun>01-06,,,B,,Third Service,ot,"1 Samuel 16:1–3, 13"
+sun>01-06,,,B,,Third Service,gospel,John 1:29–34
+sun>01-06,,,C,,Third Service,psalm,Psalm 89:19–29
+sun>01-06,,,C,,Third Service,ot,Isaiah 42:1–9
+sun>01-06,,,C,,Third Service,nt,Acts 19:1–7
+sun>01-06,1,date le 01-09,A,,The Baptism of Christ (observed),ot,Isaiah 42:1–9
+sun>01-06,1,date le 01-09,A,,The Baptism of Christ (observed),psalm,Psalm 29
+sun>01-06,1,date le 01-09,A,,The Baptism of Christ (observed),epistle,Acts 10:34–43
+sun>01-06,1,date le 01-09,A,,The Baptism of Christ (observed),gospel,Matthew 3:13–17
+sun>01-06,1,date le 01-09,B,,The Baptism of Christ (observed),ot,Genesis 1:1–5
+sun>01-06,1,date le 01-09,B,,The Baptism of Christ (observed),psalm,Psalm 29
+sun>01-06,1,date le 01-09,B,,The Baptism of Christ (observed),epistle,Acts 19:1–7
+sun>01-06,1,date le 01-09,B,,The Baptism of Christ (observed),gospel,Mark 1:4–11
+sun>01-06,1,date le 01-09,C,,The Baptism of Christ (observed),ot,Isaiah 43:1–7
+sun>01-06,1,date le 01-09,C,,The Baptism of Christ (observed),psalm,Psalm 29
+sun>01-06,1,date le 01-09,C,,The Baptism of Christ (observed),epistle,Acts 8:14–17
+sun>01-06,1,date le 01-09,C,,The Baptism of Christ (observed),gospel,"Luke 3:15–17, 21, 22"
+sun>01-06,1,date le 01-09,A,,The Baptism of Christ (observed): Second Service,psalm,"Psalms 46, 47"
+sun>01-06,1,date le 01-09,A,,The Baptism of Christ (observed): Second Service,ot,"Joshua 3:1–8, 14–17"
+sun>01-06,1,date le 01-09,A,,The Baptism of Christ (observed): Second Service,nt,Hebrews 1:1–12
+sun>01-06,1,date le 01-09,A,,The Baptism of Christ (observed): Second Service,gospel,Luke 3:15–22
+sun>01-06,1,date le 01-09,B,,The Baptism of Christ (observed): Second Service,psalm,"Psalms 46, (47)"
+sun>01-06,1,date le 01-09,B,,The Baptism of Christ (observed): Second Service,ot,Isaiah 42:1–9
+sun>01-06,1,date le 01-09,B,,The Baptism of Christ (observed): Second Service,nt,Ephesians 2:1–10
+sun>01-06,1,date le 01-09,B,,The Baptism of Christ (observed): Second Service,gospel,Matthew 3:13–17
+sun>01-06,1,date le 01-09,C,,The Baptism of Christ (observed): Second Service,psalm,"Psalms 46, 47"
+sun>01-06,1,date le 01-09,C,,The Baptism of Christ (observed): Second Service,ot,Isaiah 55:1–11
+sun>01-06,1,date le 01-09,C,,The Baptism of Christ (observed): Second Service,nt,Romans 6:1–11
+sun>01-06,1,date le 01-09,C,,The Baptism of Christ (observed): Second Service,gospel,Mark 1:4–11
+sun>01-06,1,date le 01-09,A,,The Baptism of Christ (observed): Third Service,psalm,Psalm 89:19–29
+sun>01-06,1,date le 01-09,A,,The Baptism of Christ (observed): Third Service,ot,Exodus 14:15–22
+sun>01-06,1,date le 01-09,A,,The Baptism of Christ (observed): Third Service,nt,1 John 5:6–9
+sun>01-06,1,date le 01-09,B,,The Baptism of Christ (observed): Third Service,psalm,Psalm 89:19–29
+sun>01-06,1,date le 01-09,B,,The Baptism of Christ (observed): Third Service,ot,"1 Samuel 16:1–3, 13"
+sun>01-06,1,date le 01-09,B,,The Baptism of Christ (observed): Third Service,gospel,John 1:29–34
+sun>01-06,1,date le 01-09,C,,The Baptism of Christ (observed): Third Service,psalm,Psalm 89:19–29
+sun>01-06,1,date le 01-09,C,,The Baptism of Christ (observed): Third Service,ot,Isaiah 42:1–9
+sun>01-06,1,date le 01-09,C,,The Baptism of Christ (observed): Third Service,nt,Acts 19:1–7
+sun>01-06+7,,,A,,,ot,Isaiah 49:1–7
+sun>01-06+7,,,A,,,psalm,Psalm 40:1–12
+sun>01-06+7,,,A,,,epistle,1 Corinthians 1:1–9
+sun>01-06+7,,,A,,,gospel,John 1:29–42
+sun>01-06+7,,,B,,,ot,"1 Samuel 3:1–10, (11–20)"
+sun>01-06+7,,,B,,,psalm,"Psalm 139:1–5, 12–18"
+sun>01-06+7,,,B,,,epistle,Revelation 5:1–10
+sun>01-06+7,,,B,,,gospel,John 1:43–51
+sun>01-06+7,,,C,,,ot,Isaiah 62:1–5
+sun>01-06+7,,,C,,,psalm,Psalm 36:5–10
+sun>01-06+7,,,C,,,epistle,1 Corinthians 12:1–11
+sun>01-06+7,,,C,,,gospel,John 2:1–11
+sun>01-06+7,,,A,,Second Service,psalm,Psalm 96
+sun>01-06+7,,,A,,Second Service,ot,Ezekiel 2:1–3:4
+sun>01-06+7,,,A,,Second Service,nt,Galatians 1:11–24
+sun>01-06+7,,,A,,Second Service,gospel,John 1:43–51
+sun>01-06+7,,,B,,Second Service,psalm,Psalm 96
+sun>01-06+7,,,B,,Second Service,ot,Isaiah 60:9–22
+sun>01-06+7,,,B,,Second Service,nt,Hebrews 6:17–7:10
+sun>01-06+7,,,B,,Second Service,gospel,Matthew 8:5–13
+sun>01-06+7,,,C,,Second Service,psalm,Psalm 96
+sun>01-06+7,,,C,,Second Service,ot,1 Samuel 3:1–20
+sun>01-06+7,,,C,,Second Service,nt,Ephesians 4:1–16
+sun>01-06+7,,,C,,Second Service,gospel,John 1:29–42
+sun>01-06+7,,,A,,Third Service,psalm,Psalm 145:1–12
+sun>01-06+7,,,A,,Third Service,ot,Jeremiah 1:4–10
+sun>01-06+7,,,A,,Third Service,gospel,Mark 1:14–20
+sun>01-06+7,,,B,,Third Service,psalm,Psalm 145:1–12
+sun>01-06+7,,,B,,Third Service,ot,Isaiah 62:1–5
+sun>01-06+7,,,B,,Third Service,nt,1 Corinthians 6:11–20
+sun>01-06+7,,,C,,Third Service,psalm,Psalm 145:1–13
+sun>01-06+7,,,C,,Third Service,ot,Isaiah 49:1–7
+sun>01-06+7,,,C,,Third Service,nt,Acts 16:11–15
+sun>01-06+14,,,A,,,ot,Isaiah 9:1–4
+sun>01-06+14,,,A,,,psalm,"Psalm 27:1, 4–12"
+sun>01-06+14,,,A,,,epistle,1 Corinthians 1:10–18
+sun>01-06+14,,,A,,,gospel,Matthew 4:12–23
+sun>01-06+14,,,B,,,ot,Genesis 14:17–20
+sun>01-06+14,,,B,,,psalm,Psalm 128
+sun>01-06+14,,,B,,,epistle,Revelation 19:6–10
+sun>01-06+14,,,B,,,gospel,John 2:1–11
+sun>01-06+14,,,C,,,ot,"Nehemiah 8:1–3, 5–6, 8–10"
+sun>01-06+14,,,C,,,psalm,Psalm 19
+sun>01-06+14,,,C,,,epistle,1 Corinthians 12:12–31a
+sun>01-06+14,,,C,,,gospel,Luke 4:14–21
+sun>01-06+14,,,A,,Second Service,psalm,Psalm 33
+sun>01-06+14,,,A,,Second Service,ot,Ecclesiastes 3:1–11
+sun>01-06+14,,,A,,Second Service,nt,1 Peter 1:3–12
+sun>01-06+14,,,A,,Second Service,gospel,Luke 4:14–21
+sun>01-06+14,,,B,,Second Service,psalm,Psalm 33
+sun>01-06+14,,,B,,Second Service,ot,Jeremiah 3:21–4:2
+sun>01-06+14,,,B,,Second Service,nt,"Titus 2:1–8, 11–14"
+sun>01-06+14,,,B,,Second Service,gospel,Matthew 4:12–23
+sun>01-06+14,,,C,,Second Service,psalm,Psalm 33
+sun>01-06+14,,,C,,Second Service,ot,Numbers 9:15–23
+sun>01-06+14,,,C,,Second Service,nt,1 Corinthians 7:17–24
+sun>01-06+14,,,C,,Second Service,gospel,Mark 1:21–28
+sun>01-06+14,,,A,,Third Service,psalm,Psalm 113
+sun>01-06+14,,,A,,Third Service,ot,Amos 3:1–8
+sun>01-06+14,,,A,,Third Service,nt,1 John 1:1–4
+sun>01-06+14,,,B,,Third Service,psalm,Psalm 113
+sun>01-06+14,,,B,,Third Service,ot,"Jonah 3:1–5, 10"
+sun>01-06+14,,,B,,Third Service,gospel,John 3:16–21
+sun>01-06+14,,,C,,Third Service,psalm,Psalm 113
+sun>01-06+14,,,C,,Third Service,ot,Deuteronomy 30:11–15
+sun>01-06+14,,,C,,Third Service,nt,"3 John 1, 5–8"
+sun>01-06+21,,"date lt easter-49 & date lt max(02-03,easter-56)",A,,,ot,1 Kings 17:8–16
+sun>01-06+21,,"date lt easter-49 & date lt max(02-03,easter-56)",A,,,psalm,Psalm 36:5–10
+sun>01-06+21,,"date lt easter-49 & date lt max(02-03,easter-56)",A,,,epistle,1 Corinthians 1:18–31
+sun>01-06+21,,"date lt easter-49 & date lt max(02-03,easter-56)",A,,,gospel,John 2:1–11
+sun>01-06+21,,"date lt easter-49 & date lt max(02-03,easter-56)",B,,,ot,Deuteronomy 18:15–20
+sun>01-06+21,,"date lt easter-49 & date lt max(02-03,easter-56)",B,,,psalm,Psalm 111
+sun>01-06+21,,"date lt easter-49 & date lt max(02-03,easter-56)",B,,,epistle,Revelation 12:1–5a
+sun>01-06+21,,"date lt easter-49 & date lt max(02-03,easter-56)",B,,,gospel,Mark 1:21–28
+sun>01-06+21,,"date lt easter-49 & date lt max(02-03,easter-56)",C,,,ot,Ezekiel 43:27–44:4
+sun>01-06+21,,"date lt easter-49 & date lt max(02-03,easter-56)",C,,,psalm,Psalm 48
+sun>01-06+21,,"date lt easter-49 & date lt max(02-03,easter-56)",C,,,epistle,1 Corinthians 13:1–13
+sun>01-06+21,,"date lt easter-49 & date lt max(02-03,easter-56)",C,,,gospel,Luke 2:22–40
+sun>01-06+21,,"date lt easter-49 & date lt max(02-03,easter-56)",A,,Second Service,psalm,Psalm 34
+sun>01-06+21,,"date lt easter-49 & date lt max(02-03,easter-56)",A,,Second Service,ot,Genesis 28:10–22
+sun>01-06+21,,"date lt easter-49 & date lt max(02-03,easter-56)",A,,Second Service,nt,Philemon 1–16
+sun>01-06+21,,"date lt easter-49 & date lt max(02-03,easter-56)",A,,Second Service,gospel,Mark 1:21–28
+sun>01-06+21,,"date lt easter-49 & date lt max(02-03,easter-56)",B,,Second Service,psalm,Psalm 34
+sun>01-06+21,,"date lt easter-49 & date lt max(02-03,easter-56)",B,,Second Service,ot,1 Samuel 3:1–20
+sun>01-06+21,,"date lt easter-49 & date lt max(02-03,easter-56)",B,,Second Service,nt,1 Corinthians 14:12–20
+sun>01-06+21,,"date lt easter-49 & date lt max(02-03,easter-56)",B,,Second Service,gospel,Matthew 13:10–17
+sun>01-06+21,,"date lt easter-49 & date lt max(02-03,easter-56)",C,,Second Service,psalm,Psalm 34
+sun>01-06+21,,"date lt easter-49 & date lt max(02-03,easter-56)",C,,Second Service,ot,1 Chronicles 29:6–19
+sun>01-06+21,,"date lt easter-49 & date lt max(02-03,easter-56)",C,,Second Service,nt,Acts 7:44–50
+sun>01-06+21,,"date lt easter-49 & date lt max(02-03,easter-56)",C,,Second Service,gospel,John 4:19–29a
+sun>01-06+21,,"date lt easter-49 & date lt max(02-03,easter-56)",A,,Third Service,psalm,"Psalm 71:1–6, 15–17"
+sun>01-06+21,,"date lt easter-49 & date lt max(02-03,easter-56)",A,,Third Service,ot,Haggai 2:1–9
+sun>01-06+21,,"date lt easter-49 & date lt max(02-03,easter-56)",A,,Third Service,nt,1 Corinthians 3:10–17
+sun>01-06+21,,"date lt easter-49 & date lt max(02-03,easter-56)",B,,Third Service,psalm,"Psalm 71:1–6, 15–17"
+sun>01-06+21,,"date lt easter-49 & date lt max(02-03,easter-56)",B,,Third Service,ot,Jeremiah 1:4–10
+sun>01-06+21,,"date lt easter-49 & date lt max(02-03,easter-56)",B,,Third Service,gospel,Mark 1:40–45
+sun>01-06+21,,"date lt easter-49 & date lt max(02-03,easter-56)",C,,Third Service,psalm,"Psalm 71:1–6, 15–17"
+sun>01-06+21,,"date lt easter-49 & date lt max(02-03,easter-56)",C,,Third Service,ot,Micah 6:1–8
+sun>01-06+21,,"date lt easter-49 & date lt max(02-03,easter-56)",C,,Third Service,nt,1 Corinthians 6:12–20
+cw_presentation_of_christ_in_the_temple,-1,,,,The Presentation of Christ in the Temple (Candlemas): Evening Prayer on the Eve,psalm,Psalm 118
+cw_presentation_of_christ_in_the_temple,-1,,,,The Presentation of Christ in the Temple (Candlemas): Evening Prayer on the Eve,ot,1 Samuel 1:19b–28
+cw_presentation_of_christ_in_the_temple,-1,,,,The Presentation of Christ in the Temple (Candlemas): Evening Prayer on the Eve,nt,Hebrews 4:11–16
+cw_presentation_of_christ_in_the_temple,,,,,The Presentation of Christ in the Temple (Candlemas),ot,Malachi 3:1–5
+cw_presentation_of_christ_in_the_temple,,,,,The Presentation of Christ in the Temple (Candlemas),psalm,"Psalm 24:(1–6), 7–10"
+cw_presentation_of_christ_in_the_temple,,,,,The Presentation of Christ in the Temple (Candlemas),epistle,Hebrews 2:14–18
+cw_presentation_of_christ_in_the_temple,,,,,The Presentation of Christ in the Temple (Candlemas),gospel,Luke 2:22–40
+cw_presentation_of_christ_in_the_temple,,,,,The Presentation of Christ in the Temple (Candlemas): Second Service,psalm_evening,"Psalms 122, 132"
+cw_presentation_of_christ_in_the_temple,,,,,The Presentation of Christ in the Temple (Candlemas): Second Service,ot,Haggai 2:1–9
+cw_presentation_of_christ_in_the_temple,,,,,The Presentation of Christ in the Temple (Candlemas): Second Service,gospel,John 2:18–22
+cw_presentation_of_christ_in_the_temple,,,,,The Presentation of Christ in the Temple (Candlemas): Third Service,psalm_morning,"Psalms 48, 146"
+cw_presentation_of_christ_in_the_temple,,,,,The Presentation of Christ in the Temple (Candlemas): Third Service,ot,Exodus 13:1–16
+cw_presentation_of_christ_in_the_temple,,,,,The Presentation of Christ in the Temple (Candlemas): Third Service,nt,Romans 12:1–5
+sun>=01-02,-1,date ne 01-06,,,The Epiphany (observed): Evening Prayer on the Eve,psalm,"Psalms 96, 97"
+sun>=01-02,-1,date ne 01-06,,,The Epiphany (observed): Evening Prayer on the Eve,ot,Isaiah 49:1–13
+sun>=01-02,-1,date ne 01-06,,,The Epiphany (observed): Evening Prayer on the Eve,gospel,John 4:7–26
+sun>=01-02,,date ne 01-06,,,The Epiphany (observed),ot,Isaiah 60:1–6
+sun>=01-02,,date ne 01-06,,,The Epiphany (observed),psalm,"Psalm 72:(1–9), 10–15"
+sun>=01-02,,date ne 01-06,,,The Epiphany (observed),epistle,Ephesians 3:1–12
+sun>=01-02,,date ne 01-06,,,The Epiphany (observed),gospel,Matthew 2:1–12
+sun>=01-02,,date ne 01-06,,,The Epiphany (observed): Second Service,psalm_evening,"Psalms 98, 100"
+sun>=01-02,,date ne 01-06,,,The Epiphany (observed): Second Service,ot,Baruch 4:36–5:9 or Isaiah 60:1–9
+sun>=01-02,,date ne 01-06,,,The Epiphany (observed): Second Service,gospel,John 2:1–11
+sun>=01-02,,date ne 01-06,,,The Epiphany (observed): Third Service,psalm_morning,"Psalms 132, 113"
+sun>=01-02,,date ne 01-06,,,The Epiphany (observed): Third Service,ot,Jeremiah 31:7–14
+sun>=01-02,,date ne 01-06,,,The Epiphany (observed): Third Service,gospel,John 1:29–34
+sun>=01-28,-1,date ne 02-02,,,The Presentation of Christ in the Temple (Candlemas) (observed): Evening Prayer on the Eve,psalm,Psalm 118
+sun>=01-28,-1,date ne 02-02,,,The Presentation of Christ in the Temple (Candlemas) (observed): Evening Prayer on the Eve,ot,1 Samuel 1:19b–28
+sun>=01-28,-1,date ne 02-02,,,The Presentation of Christ in the Temple (Candlemas) (observed): Evening Prayer on the Eve,nt,Hebrews 4:11–16
+sun>=01-28,,date ne 02-02,,,The Presentation of Christ in the Temple (Candlemas) (observed),ot,Malachi 3:1–5
+sun>=01-28,,date ne 02-02,,,The Presentation of Christ in the Temple (Candlemas) (observed),psalm,"Psalm 24:(1–6), 7–10"
+sun>=01-28,,date ne 02-02,,,The Presentation of Christ in the Temple (Candlemas) (observed),epistle,Hebrews 2:14–18
+sun>=01-28,,date ne 02-02,,,The Presentation of Christ in the Temple (Candlemas) (observed),gospel,Luke 2:22–40
+sun>=01-28,,date ne 02-02,,,The Presentation of Christ in the Temple (Candlemas) (observed): Second Service,psalm_evening,"Psalms 122, 132"
+sun>=01-28,,date ne 02-02,,,The Presentation of Christ in the Temple (Candlemas) (observed): Second Service,ot,Haggai 2:1–9
+sun>=01-28,,date ne 02-02,,,The Presentation of Christ in the Temple (Candlemas) (observed): Second Service,gospel,John 2:18–22
+sun>=01-28,,date ne 02-02,,,The Presentation of Christ in the Temple (Candlemas) (observed): Third Service,psalm_morning,"Psalms 48, 146"
+sun>=01-28,,date ne 02-02,,,The Presentation of Christ in the Temple (Candlemas) (observed): Third Service,ot,Exodus 13:1–16
+sun>=01-28,,date ne 02-02,,,The Presentation of Christ in the Temple (Candlemas) (observed): Third Service,nt,Romans 12:1–5
+sun>=02-04,,date lt easter-56,A,,,ot,"Isaiah 58:1–9a, (9b–12)"
+sun>=02-04,,date lt easter-56,A,,,psalm,"Psalm 112:1–9, (10)"
+sun>=02-04,,date lt easter-56,A,,,epistle,"1 Corinthians 2:1–12, (13–16)"
+sun>=02-04,,date lt easter-56,A,,,gospel,Matthew 5:13–20
+sun>=02-04,,date lt easter-56,B,,,ot,Isaiah 40:21–31
+sun>=02-04,,date lt easter-56,B,,,psalm,"Psalm 147:1–12, 21c"
+sun>=02-04,,date lt easter-56,B,,,epistle,1 Corinthians 9:16–23
+sun>=02-04,,date lt easter-56,B,,,gospel,Mark 1:29–39
+sun>=02-04,,date lt easter-56,C,,,ot,"Isaiah 6:1–8, (9–13)"
+sun>=02-04,,date lt easter-56,C,,,psalm,Psalm 138
+sun>=02-04,,date lt easter-56,C,,,epistle,1 Corinthians 15:1–11
+sun>=02-04,,date lt easter-56,C,,,gospel,Luke 5:1–11
+sun>=02-04,,date lt easter-56,A,,Second Service,psalm,"Psalms (1, 3), 4"
+sun>=02-04,,date lt easter-56,A,,Second Service,ot,Amos 2:4–16
+sun>=02-04,,date lt easter-56,A,,Second Service,nt,Ephesians 4:17–32
+sun>=02-04,,date lt easter-56,A,,Second Service,gospel,Mark 1:29–39
+sun>=02-04,,date lt easter-56,B,,Second Service,psalm,Psalm 5
+sun>=02-04,,date lt easter-56,B,,Second Service,ot,"Numbers 13:1–2, 27–33"
+sun>=02-04,,date lt easter-56,B,,Second Service,nt,Philippians 2:12–28
+sun>=02-04,,date lt easter-56,B,,Second Service,gospel,Luke 5:1–11
+sun>=02-04,,date lt easter-56,C,,Second Service,psalm,"Psalms (1), 2"
+sun>=02-04,,date lt easter-56,C,,Second Service,ot,Wisdom of Solomon 6:1–21 or Hosea 1
+sun>=02-04,,date lt easter-56,C,,Second Service,nt,Colossians 3:1–22
+sun>=02-04,,date lt easter-56,C,,Second Service,gospel,Matthew 5:13–20
+sun>=02-04,,date lt easter-56,A,,Third Service,psalm,"Psalms 5, 6"
+sun>=02-04,,date lt easter-56,A,,Third Service,ot,Jeremiah 26:1–16
+sun>=02-04,,date lt easter-56,A,,Third Service,nt,Acts 3:1–10
+sun>=02-04,,date lt easter-56,B,,Third Service,psalm,"Psalms 2, 3"
+sun>=02-04,,date lt easter-56,B,,Third Service,ot,Jeremiah 26:1–16
+sun>=02-04,,date lt easter-56,B,,Third Service,nt,Acts 3:1–10
+sun>=02-04,,date lt easter-56,C,,Third Service,psalm,"Psalms 3, 4"
+sun>=02-04,,date lt easter-56,C,,Third Service,ot,Jeremiah 26:1–16
+sun>=02-04,,date lt easter-56,C,,Third Service,nt,Acts 3:1–10
+sun>=02-11,,date lt easter-56,A,,,ot,Deuteronomy 30:15–20 or Ecclesiasticus 15:15–20
+sun>=02-11,,date lt easter-56,A,,,psalm,Psalm 119:1–8
+sun>=02-11,,date lt easter-56,A,,,epistle,1 Corinthians 3:1–9
+sun>=02-11,,date lt easter-56,A,,,gospel,Matthew 5:21–37
+sun>=02-11,,date lt easter-56,B,,,ot,2 Kings 5:1–14
+sun>=02-11,,date lt easter-56,B,,,psalm,Psalm 30
+sun>=02-11,,date lt easter-56,B,,,epistle,1 Corinthians 9:24–27
+sun>=02-11,,date lt easter-56,B,,,gospel,Mark 1:40–45
+sun>=02-11,,date lt easter-56,C,,,ot,Jeremiah 17:5–10
+sun>=02-11,,date lt easter-56,C,,,psalm,Psalm 1
+sun>=02-11,,date lt easter-56,C,,,epistle,1 Corinthians 15:12–20
+sun>=02-11,,date lt easter-56,C,,,gospel,Luke 6:17–26
+sun>=02-11,,date lt easter-56,A,,Second Service,psalm,"Psalms (7), 13"
+sun>=02-11,,date lt easter-56,A,,Second Service,ot,Amos 3:1–8
+sun>=02-11,,date lt easter-56,A,,Second Service,nt,Ephesians 5:1–17
+sun>=02-11,,date lt easter-56,A,,Second Service,gospel,Mark 1:40–45
+sun>=02-11,,date lt easter-56,B,,Second Service,psalm,Psalm 6
+sun>=02-11,,date lt easter-56,B,,Second Service,ot,Numbers 20:2–13
+sun>=02-11,,date lt easter-56,B,,Second Service,nt,Philippians 3:7–21
+sun>=02-11,,date lt easter-56,B,,Second Service,gospel,Luke 6:17–26
+sun>=02-11,,date lt easter-56,C,,Second Service,psalm,"Psalms (5), 6"
+sun>=02-11,,date lt easter-56,C,,Second Service,ot,"Wisdom of Solomon 11:21–12:11 or Hosea 10:1–8, 12"
+sun>=02-11,,date lt easter-56,C,,Second Service,nt,Galatians 4:8–20
+sun>=02-11,,date lt easter-56,C,,Second Service,gospel,Matthew 5:21–37
+sun>=02-11,,date lt easter-56,A,,Third Service,psalm,Psalm 10
+sun>=02-11,,date lt easter-56,A,,Third Service,ot,"Jeremiah 30:1–3, 10–22"
+sun>=02-11,,date lt easter-56,A,,Third Service,nt,Acts 6
+sun>=02-11,,date lt easter-56,B,,Third Service,psalm,Psalm 7
+sun>=02-11,,date lt easter-56,B,,Third Service,ot,"Jeremiah 30:1–3, 10–22"
+sun>=02-11,,date lt easter-56,B,,Third Service,nt,Acts 6
+sun>=02-11,,date lt easter-56,C,,Third Service,psalm,Psalm 7
+sun>=02-11,,date lt easter-56,C,,Third Service,ot,"Jeremiah 30:1–3, 10–22"
+sun>=02-11,,date lt easter-56,C,,Third Service,nt,Acts 6
+sun>=02-18,,date lt easter-56,A,,,ot,"Leviticus 19:1–2, 9–18"
+sun>=02-18,,date lt easter-56,A,,,psalm,Psalm 119:33–40
+sun>=02-18,,date lt easter-56,A,,,epistle,"1 Corinthians 3:10–11, 16–23"
+sun>=02-18,,date lt easter-56,A,,,gospel,Matthew 5:38–48
+sun>=02-18,,date lt easter-56,B,,,ot,Isaiah 43:18–25
+sun>=02-18,,date lt easter-56,B,,,psalm,Psalm 41
+sun>=02-18,,date lt easter-56,B,,,epistle,2 Corinthians 1:18–22
+sun>=02-18,,date lt easter-56,B,,,gospel,Mark 2:1–12
+sun>=02-18,,date lt easter-56,C,,,ot,"Genesis 45:3–11, 15"
+sun>=02-18,,date lt easter-56,C,,,psalm,"Psalm 37:1–11, 40, 41"
+sun>=02-18,,date lt easter-56,C,,,epistle,"1 Corinthians 15:35–38, 42–50"
+sun>=02-18,,date lt easter-56,C,,,gospel,Luke 6:27–38
+sun>=02-18,,date lt easter-56,A,,Second Service,psalm,Psalm 18:1–20 or Psalm 18:21–30
+sun>=02-18,,date lt easter-56,A,,Second Service,ot,Amos 9:5–15
+sun>=02-18,,date lt easter-56,A,,Second Service,nt,Ephesians 6:1–20
+sun>=02-18,,date lt easter-56,A,,Second Service,gospel,Mark 2:1–12
+sun>=02-18,,date lt easter-56,B,,Second Service,psalm,Psalm 10
+sun>=02-18,,date lt easter-56,B,,Second Service,ot,Numbers 22:21–23:12
+sun>=02-18,,date lt easter-56,B,,Second Service,nt,Philippians 4:10–20
+sun>=02-18,,date lt easter-56,B,,Second Service,gospel,Luke 6:27–38
+sun>=02-18,,date lt easter-56,C,,Second Service,psalm,"Psalms (11), 13"
+sun>=02-18,,date lt easter-56,C,,Second Service,ot,Hosea 14
+sun>=02-18,,date lt easter-56,C,,Second Service,nt,Galatians 5:2–10
+sun>=02-18,,date lt easter-56,C,,Second Service,gospel,Matthew 6:1–8
+sun>=02-18,,date lt easter-56,A,,Third Service,psalm,"Psalms 21, 23"
+sun>=02-18,,date lt easter-56,A,,Third Service,ot,Jeremiah 33:1–11
+sun>=02-18,,date lt easter-56,A,,Third Service,nt,Acts 8:4–25
+sun>=02-18,,date lt easter-56,B,,Third Service,psalm,Psalm 9
+sun>=02-18,,date lt easter-56,B,,Third Service,ot,Jeremiah 33:1–11
+sun>=02-18,,date lt easter-56,B,,Third Service,nt,Acts 8:4–25
+sun>=02-18,,date lt easter-56,C,,Third Service,psalm,Psalm 10
+sun>=02-18,,date lt easter-56,C,,Third Service,ot,Jeremiah 33:1–11
+sun>=02-18,,date lt easter-56,C,,Third Service,nt,Acts 8:4–25
+easter-56,,date gt 02-02,A,,,ot,Genesis 1:1–2:3
+easter-56,,date gt 02-02,A,,,psalm,"Psalm 136 or Psalm 136:1–9, 23–26"
+easter-56,,date gt 02-02,A,,,epistle,Romans 8:18–25
+easter-56,,date gt 02-02,A,,,gospel,Matthew 6:25–34
+easter-56,,date gt 02-02,B,,,ot,"Proverbs 8:1, 22–31"
+easter-56,,date gt 02-02,B,,,psalm,Psalm 104:26–37
+easter-56,,date gt 02-02,B,,,epistle,Colossians 1:15–20
+easter-56,,date gt 02-02,B,,,gospel,John 1:1–14
+easter-56,,date gt 02-02,C,,,ot,"Genesis 2:4b–9, 15–25"
+easter-56,,date gt 02-02,C,,,psalm,Psalm 65
+easter-56,,date gt 02-02,C,,,epistle,Revelation 4
+easter-56,,date gt 02-02,C,,,gospel,Luke 8:22–25
+easter-56,,date gt 02-02,A,,Second Service,psalm,Psalm 148
+easter-56,,date gt 02-02,A,,Second Service,ot,"Proverbs 8:1, 22–31"
+easter-56,,date gt 02-02,A,,Second Service,nt,Revelation 4
+easter-56,,date gt 02-02,A,,Second Service,gospel,Luke 12:16–31
+easter-56,,date gt 02-02,B,,Second Service,psalm,Psalm 65
+easter-56,,date gt 02-02,B,,Second Service,ot,Genesis 2:4b–25
+easter-56,,date gt 02-02,B,,Second Service,gospel,Luke 8:22–35
+easter-56,,date gt 02-02,C,,Second Service,psalm,Psalm 147
+easter-56,,date gt 02-02,C,,Second Service,ot,Genesis 1:1–2:3
+easter-56,,date gt 02-02,C,,Second Service,gospel,Matthew 6:25–34
+easter-56,,date gt 02-02,A,,Third Service,psalm,"Psalms 100, 150"
+easter-56,,date gt 02-02,A,,Third Service,ot,Job 38:1–21
+easter-56,,date gt 02-02,A,,Third Service,nt,Colossians 1:15–20
+easter-56,,date gt 02-02,B,,Third Service,psalm,"Psalms 29, 67"
+easter-56,,date gt 02-02,B,,Third Service,ot,Deuteronomy 8:1–10
+easter-56,,date gt 02-02,B,,Third Service,gospel,Matthew 6:25–34
+easter-56,,date gt 02-02,C,,Third Service,psalm,Psalm 104:1–26
+easter-56,,date gt 02-02,C,,Third Service,ot,Job 28:1–11
+easter-56,,date gt 02-02,C,,Third Service,nt,Acts 14:8–17
+easter-49,,,A,,,ot,Exodus 24:12–18
+easter-49,,,A,,,psalm,Psalm 2 or Psalm 99
+easter-49,,,A,,,epistle,2 Peter 1:16–21
+easter-49,,,A,,,gospel,Matthew 17:1–9
+easter-49,,,B,,,ot,2 Kings 2:1–12
+easter-49,,,B,,,psalm,Psalm 50:1–6
+easter-49,,,B,,,epistle,2 Corinthians 4:3–6
+easter-49,,,B,,,gospel,Mark 9:2–9
+easter-49,,,C,,,ot,Exodus 34:29–35
+easter-49,,,C,,,psalm,Psalm 99
+easter-49,,,C,,,epistle,2 Corinthians 3:12–4:2
+easter-49,,,C,,,gospel,"Luke 9:28–36, (37–43a)"
+easter-49,,,A,,Second Service,psalm,Psalm 84
+easter-49,,,A,,Second Service,ot,Ecclesiasticus 48:1–10 or 2 Kings 2:1–12
+easter-49,,,A,,Second Service,gospel,Matthew 17:9–23 or Matthew 17:1–23
+easter-49,,,B,,Second Service,psalm,"Psalms 2, (99)"
+easter-49,,,B,,Second Service,ot,1 Kings 19:1–16
+easter-49,,,B,,Second Service,nt,2 Peter 1:16–21
+easter-49,,,B,,Second Service,gospel,"Mark 9:(2–8), 9–13"
+easter-49,,,C,,Second Service,psalm,Psalm 89:1–18
+easter-49,,,C,,Second Service,ot,Exodus 3:1–6
+easter-49,,,C,,Second Service,gospel,John 12:27–36a
+easter-49,,,A,,Third Service,psalm,Psalm 72
+easter-49,,,A,,Third Service,ot,Exodus 34:29–35
+easter-49,,,A,,Third Service,nt,2 Corinthians 4:3–6
+easter-49,,,B,,Third Service,psalm,"Psalms 27, 150"
+easter-49,,,B,,Third Service,ot,Exodus 24:12–18
+easter-49,,,B,,Third Service,nt,2 Corinthians 3:12–18
+easter-49,,,C,,Third Service,psalm,Psalm 2
+easter-49,,,C,,Third Service,ot,Exodus 33:17–23
+easter-49,,,C,,Third Service,nt,1 John 3:1–3
+easter-46,,,,,,ot,"Joel 2:1–2, 12–17 or Isaiah 58:1–12"
+easter-46,,,,,,psalm,Psalm 51:1–18
+easter-46,,,,,,epistle,2 Corinthians 5:20b–6:10
+easter-46,,,,,,gospel,"Matthew 6:1–6, 16–21 or John 8:1–11"
+easter-46,,,,,Second Service,psalm_evening,Psalm 102
+easter-46,,,,,Second Service,ot,Isaiah 1:10–18
+easter-46,,,,,Second Service,gospel,Luke 15:11–32
+easter-46,,,,,Third Service,psalm_morning,Psalm 38
+easter-46,,,,,Third Service,ot,"Daniel 9:3–6, 17–19"
+easter-46,,,,,Third Service,nt,1 Timothy 6:6–19
+easter-42,,,A,,,ot,Genesis 2:15–17; 3:1–7
+easter-42,,,A,,,psalm,Psalm 32
+easter-42,,,A,,,epistle,Romans 5:12–19
+easter-42,,,A,,,gospel,Matthew 4:1–11
+easter-42,,,B,,,ot,Genesis 9:8–17
+easter-42,,,B,,,psalm,Psalm 25:1–9
+easter-42,,,B,,,epistle,1 Peter 3:18–22
+easter-42,,,B,,,gospel,Mark 1:9–15
+easter-42,,,C,,,ot,Deuteronomy 26:1–11
+easter-42,,,C,,,psalm,"Psalm 91:1–2, 9–16"
+easter-42,,,C,,,epistle,Romans 10:8b–13
+easter-42,,,C,,,gospel,Luke 4:1–13
+easter-42,,,A,,Second Service,psalm,Psalm 50:1–15
+easter-42,,,A,,Second Service,ot,"Deuteronomy 6:4–9, 16–25"
+easter-42,,,A,,Second Service,gospel,Luke 15:1–10
+easter-42,,,B,,Second Service,psalm,Psalm 119:17–32
+easter-42,,,B,,Second Service,ot,Genesis 2:15–17; 3:1–7
+easter-42,,,B,,Second Service,nt,Romans 5:12–19 or Luke 13:31–35
+easter-42,,,C,,Second Service,psalm,Psalm 119:73–88
+easter-42,,,C,,Second Service,ot,Jonah 3
+easter-42,,,C,,Second Service,gospel,Luke 18:9–14
+easter-42,,,A,,Third Service,psalm,Psalm 119:1–16
+easter-42,,,A,,Third Service,ot,Jeremiah 18:1–11
+easter-42,,,A,,Third Service,gospel,Luke 18:9–14
+easter-42,,,B,,Third Service,psalm,Psalm 77
+easter-42,,,B,,Third Service,ot,Exodus 34:1–10
+easter-42,,,B,,Third Service,nt,Romans 10:8b–13
+easter-42,,,C,,Third Service,psalm,Psalm 50:1–15
+easter-42,,,C,,Third Service,ot,Micah 6:1–8
+easter-42,,,C,,Third Service,gospel,Luke 5:27–39
+easter-35,,,A,,,ot,Genesis 12:1–4a
+easter-35,,,A,,,psalm,Psalm 121
+easter-35,,,A,,,epistle,"Romans 4:1–5, 13–17"
+easter-35,,,A,,,gospel,John 3:1–17
+easter-35,,,B,,,ot,"Genesis 17:1–7, 15, 16"
+easter-35,,,B,,,psalm,Psalm 22:23–31
+easter-35,,,B,,,epistle,Romans 4:13–25
+easter-35,,,B,,,gospel,Mark 8:31–38
+easter-35,,,C,,,ot,"Genesis 15:1–12, 17–18"
+easter-35,,,C,,,psalm,Psalm 27
+easter-35,,,C,,,epistle,Philippians 3:17–4:1
+easter-35,,,C,,,gospel,Luke 13:31–35
+easter-35,,,A,,Second Service,psalm,Psalm 135
+easter-35,,,A,,Second Service,ot,Numbers 21:4–9
+easter-35,,,A,,Second Service,gospel,Luke 14:27–33
+easter-35,,,B,,Second Service,psalm,Psalm 135
+easter-35,,,B,,Second Service,ot,Genesis 12:1–9
+easter-35,,,B,,Second Service,nt,"Hebrews 11:1–3, 8–16"
+easter-35,,,B,,Second Service,gospel,John 8:51–59
+easter-35,,,C,,Second Service,psalm,Psalm 135
+easter-35,,,C,,Second Service,ot,"Jeremiah 22:1–9, 13–17"
+easter-35,,,C,,Second Service,gospel,Luke 14:27–33
+easter-35,,,A,,Third Service,psalm,Psalm 74
+easter-35,,,A,,Third Service,ot,Jeremiah 22:1–9
+easter-35,,,A,,Third Service,gospel,Matthew 8:1–13
+easter-35,,,B,,Third Service,psalm,"Psalm 105:1–6, 37–45"
+easter-35,,,B,,Third Service,ot,Isaiah 51:1–11
+easter-35,,,B,,Third Service,nt,"Galatians 3:1–9, 23–29"
+easter-35,,,C,,Third Service,psalm,Psalm 119:161–176
+easter-35,,,C,,Third Service,ot,"Genesis 17:1–7, 15, 16"
+easter-35,,,C,,Third Service,nt,Romans 11:13–24
+easter-28,,,A,,,ot,Exodus 17:1–7
+easter-28,,,A,,,psalm,Psalm 95
+easter-28,,,A,,,epistle,Romans 5:1–11
+easter-28,,,A,,,gospel,John 4:5–42
+easter-28,,,B,,,ot,Exodus 20:1–17
+easter-28,,,B,,,psalm,Psalm 19
+easter-28,,,B,,,epistle,1 Corinthians 1:18–25
+easter-28,,,B,,,gospel,John 2:13–22
+easter-28,,,C,,,ot,Isaiah 55:1–9
+easter-28,,,C,,,psalm,Psalm 63:1–9
+easter-28,,,C,,,epistle,1 Corinthians 10:1–13
+easter-28,,,C,,,gospel,Luke 13:1–9
+easter-28,,,A,,Second Service,psalm,Psalm 40
+easter-28,,,A,,Second Service,ot,Joshua 1:1–9
+easter-28,,,A,,Second Service,nt,Ephesians 6:10–20
+easter-28,,,A,,Second Service,gospel,John 2:13–22
+easter-28,,,B,,Second Service,psalm,"Psalms 11, 12"
+easter-28,,,B,,Second Service,ot,Exodus 5:1–6:1
+easter-28,,,B,,Second Service,nt,Philippians 3:4b–14 or Matthew 10:16–22
+easter-28,,,C,,Second Service,psalm,"Psalms 12, 13"
+easter-28,,,C,,Second Service,ot,Genesis 28:10–19a
+easter-28,,,C,,Second Service,gospel,John 1:35–51
+easter-28,,,A,,Third Service,psalm,Psalm 46
+easter-28,,,A,,Third Service,ot,Amos 7:10–17
+easter-28,,,A,,Third Service,nt,2 Corinthians 1:1–11
+easter-28,,,B,,Third Service,psalm,Psalm 18:1–25
+easter-28,,,B,,Third Service,ot,Jeremiah 38
+easter-28,,,B,,Third Service,nt,Philippians 1:1–26
+easter-28,,,C,,Third Service,psalm,"Psalms 26, 28"
+easter-28,,,C,,Third Service,ot,Deuteronomy 6:4–9
+easter-28,,,C,,Third Service,gospel,"John 17:1a, 11b–19"
+easter-21,,,A,,,ot,1 Samuel 16:1–13
+easter-21,,,A,,,psalm,Psalm 23
+easter-21,,,A,,,epistle,Ephesians 5:8–14
+easter-21,,,A,,,gospel,John 9:1–41
+easter-21,,,B,,,ot,Numbers 21:4–9
+easter-21,,,B,,,psalm,"Psalm 107:1–3, 17–22"
+easter-21,,,B,,,epistle,Ephesians 2:1–10
+easter-21,,,B,,,gospel,John 3:14–21
+easter-21,,,C,,,ot,Joshua 5:9–12
+easter-21,,,C,,,psalm,Psalm 32
+easter-21,,,C,,,epistle,2 Corinthians 5:16–21
+easter-21,,,C,,,gospel,"Luke 15:1–3, 11b–32"
+easter-21,,,A,,Second Service,psalm,Psalm 31:1–16 or Psalm 31:1–8
+easter-21,,,A,,Second Service,ot,Micah 7 or Prayer of Manasseh
+easter-21,,,A,,Second Service,nt,James 5
+easter-21,,,A,,Second Service,gospel,John 3:14–21
+easter-21,,,B,,Second Service,psalm,"Psalms 13, 14"
+easter-21,,,B,,Second Service,ot,Exodus 6:2–13
+easter-21,,,B,,Second Service,nt,Romans 5:1–11
+easter-21,,,B,,Second Service,gospel,John 12:1–8
+easter-21,,,C,,Second Service,psalm,Psalm 30
+easter-21,,,C,,Second Service,ot,Prayer of Manasseh or Isaiah 40:27–41:13
+easter-21,,,C,,Second Service,nt,2 Timothy 4:1–18
+easter-21,,,C,,Second Service,gospel,John 11:17–44
+easter-21,,,A,,Third Service,psalm,Psalm 19
+easter-21,,,A,,Third Service,ot,Isaiah 43:1–7
+easter-21,,,A,,Third Service,nt,Ephesians 2:8–14
+easter-21,,,B,,Third Service,psalm,Psalm 27
+easter-21,,,B,,Third Service,ot,1 Samuel 16:1–13
+easter-21,,,B,,Third Service,gospel,John 9:1–25
+easter-21,,,C,,Third Service,psalm,"Psalms 84, 85"
+easter-21,,,C,,Third Service,ot,"Genesis 37:3–4, 12–36"
+easter-21,,,C,,Third Service,nt,1 Peter 2:16–25
+easter-21,,,,,Mothering Sunday,ot,Exodus 2:1–10 or 1 Samuel 1:20–28
+easter-21,,,,,Mothering Sunday,psalm,Psalm 34:11–20 or Psalm 127:1–4
+easter-21,,,,,Mothering Sunday,epistle,2 Corinthians 1:3–7 or Colossians 3:12–17
+easter-21,,,,,Mothering Sunday,gospel,Luke 2:33–35 or John 19:25–27
+easter-14,,,A,,,ot,Ezekiel 37:1–14
+easter-14,,,A,,,psalm,Psalm 130
+easter-14,,,A,,,epistle,Romans 8:6–11
+easter-14,,,A,,,gospel,John 11:1–45
+easter-14,,,B,,,ot,Jeremiah 31:31–34
+easter-14,,,B,,,psalm,Psalm 51:1–13 or Psalm 119:9–16
+easter-14,,,B,,,epistle,Hebrews 5:5–10
+easter-14,,,B,,,gospel,John 12:20–33
+easter-14,,,C,,,ot,Isaiah 43:16–21
+easter-14,,,C,,,psalm,Psalm 126
+easter-14,,,C,,,epistle,Philippians 3:4b–14
+easter-14,,,C,,,gospel,John 12:1–8
+easter-14,,,A,,Second Service,psalm,Psalm 30
+easter-14,,,A,,Second Service,ot,Lamentations 3:19–33
+easter-14,,,A,,Second Service,gospel,Matthew 20:17–34
+easter-14,,,B,,Second Service,psalm,Psalm 34
+easter-14,,,B,,Second Service,ot,Exodus 7:8–24
+easter-14,,,B,,Second Service,nt,Romans 5:12–21
+easter-14,,,B,,Second Service,gospel,Luke 22:1–13
+easter-14,,,C,,Second Service,psalm,Psalm 35
+easter-14,,,C,,Second Service,ot,"2 Chronicles 35:1–6, 10–16"
+easter-14,,,C,,Second Service,gospel,Luke 22:1–13
+easter-14,,,A,,Third Service,psalm,Psalm 86
+easter-14,,,A,,Third Service,ot,Jeremiah 31:27–37
+easter-14,,,A,,Third Service,gospel,John 12:20–33
+easter-14,,,B,,Third Service,psalm,Psalm 107:1–22
+easter-14,,,B,,Third Service,ot,Exodus 24:3–8
+easter-14,,,B,,Third Service,nt,Hebrews 12:18–29
+easter-14,,,C,,Third Service,psalm,"Psalms 111, 112"
+easter-14,,,C,,Third Service,ot,Isaiah 35:1–10
+easter-14,,,C,,Third Service,nt,Romans 7:21–8:4
+easter-7,,,A,,Liturgy of the Palms,psalm,"Psalm 118:1–2, 19–29"
+easter-7,,,A,,Liturgy of the Palms,gospel,Matthew 21:1–11
+easter-7,,,A,,,ot,Isaiah 50:4–9a
+easter-7,,,A,,,psalm,Psalm 31:9–16
+easter-7,,,A,,,epistle,Philippians 2:5–11
+easter-7,,,A,,,gospel,Matthew 26:14–27:66 or Matthew 27:11–54
+easter-7,,,B,,Liturgy of the Palms,psalm,"Psalm 118:1–2, 19–24"
+easter-7,,,B,,Liturgy of the Palms,gospel,Mark 11:1–11 or John 12:12–16
+easter-7,,,B,,,ot,Isaiah 50:4–9a
+easter-7,,,B,,,psalm,Psalm 31:9–16
+easter-7,,,B,,,epistle,Philippians 2:5–11
+easter-7,,,B,,,gospel,"Mark 14:1–15:47 or Mark 15:1–39, (40–47)"
+easter-7,,,C,,Liturgy of the Palms,psalm,"Psalm 118:1–2, 19–29"
+easter-7,,,C,,Liturgy of the Palms,gospel,Luke 19:28–40
+easter-7,,,C,,,ot,Isaiah 50:4–9a
+easter-7,,,C,,,psalm,Psalm 31:9–16
+easter-7,,,C,,,epistle,Philippians 2:5–11
+easter-7,,,C,,,gospel,Luke 22:14–23:56 or Luke 23:1–49
+easter-7,,,A,,Second Service,psalm,Psalm 80
+easter-7,,,A,,Second Service,ot,Isaiah 5:1–7
+easter-7,,,A,,Second Service,gospel,Matthew 21:33–46
+easter-7,,,B,,Second Service,psalm,Psalm 69:1–20
+easter-7,,,B,,Second Service,ot,Isaiah 5:1–7
+easter-7,,,B,,Second Service,gospel,Mark 12:1–12
+easter-7,,,C,,Second Service,psalm,Psalm 69:1–20
+easter-7,,,C,,Second Service,ot,Isaiah 5:1–7
+easter-7,,,C,,Second Service,gospel,Luke 20:9–19
+easter-7,,,A,,Third Service,psalm,"Psalms 61, 62"
+easter-7,,,A,,Third Service,ot,Zechariah 9:9–12
+easter-7,,,A,,Third Service,gospel,Luke 16:19–31
+easter-7,,,B,,Third Service,psalm,"Psalms 61, 62"
+easter-7,,,B,,Third Service,ot,Zechariah 9:9–12
+easter-7,,,B,,Third Service,nt,1 Corinthians 2:1–12
+easter-7,,,C,,Third Service,psalm,"Psalms 61, 62"
+easter-7,,,C,,Third Service,ot,Zechariah 9:9–12
+easter-7,,,C,,Third Service,nt,1 Corinthians 2:1–12
+easter-6,,,,,,ot,Isaiah 42:1–9
+easter-6,,,,,,psalm,Psalm 36:5–11
+easter-6,,,,,,epistle,Hebrews 9:11–15
+easter-6,,,,,,gospel,John 12:1–11
+easter-6,,,,,Morning Prayer,psalm,Psalm 41
+easter-6,,,,,Morning Prayer,ot,Lamentations 1:1–12a
+easter-6,,,,,Morning Prayer,gospel,Luke 22:1–23
+easter-6,,,,,Evening Prayer,psalm,Psalm 25
+easter-6,,,,,Evening Prayer,ot,Lamentations 2:8–19
+easter-6,,,,,Evening Prayer,nt,Colossians 1:18–23
+easter-5,,,,,,ot,Isaiah 49:1–7
+easter-5,,,,,,psalm,Psalm 71:1–14 or Psalm 71:1–8
+easter-5,,,,,,epistle,1 Corinthians 1:18–31
+easter-5,,,,,,gospel,John 12:20–36
+easter-5,,,,,Morning Prayer,psalm,Psalm 27
+easter-5,,,,,Morning Prayer,ot,Lamentations 3:1–18
+easter-5,,,,,Morning Prayer,gospel,"Luke 22:(24–38), 39–53"
+easter-5,,,,,Evening Prayer,psalm,Psalm 55:13–24
+easter-5,,,,,Evening Prayer,ot,Lamentations 3:40–51
+easter-5,,,,,Evening Prayer,nt,Galatians 6:11–18
+easter-4,,,,,,ot,Isaiah 50:4–9a
+easter-4,,,,,,psalm,Psalm 70
+easter-4,,,,,,epistle,Hebrews 12:1–3
+easter-4,,,,,,gospel,John 13:21–32
+easter-4,,,,,Morning Prayer,psalm,Psalm 102
+easter-4,,,,,Morning Prayer,ot,Wisdom of Solomon 1:16–2:1; 2:12–22 or Jeremiah 11:18–20
+easter-4,,,,,Morning Prayer,gospel,Luke 22:54–71
+easter-4,,,,,Evening Prayer,psalm,Psalm 88
+easter-4,,,,,Evening Prayer,ot,Isaiah 63:1–9
+easter-4,,,,,Evening Prayer,nt,Revelation 14:18–15:4
+easter-3,,,,,,ot,"Exodus 12:1–4, (5–10), 11–14"
+easter-3,,,,,,psalm,"Psalm 116:1, 10–17"
+easter-3,,,,,,epistle,1 Corinthians 11:23–26
+easter-3,,,,,,gospel,"John 13:1–17, 31b–35"
+easter-3,,,,,Morning Prayer,psalm,"Psalms 42, 43"
+easter-3,,,,,Morning Prayer,ot,Leviticus 16:2–24
+easter-3,,,,,Morning Prayer,gospel,Luke 23:1–25
+easter-3,,,,,Evening Prayer,psalm,Psalm 39
+easter-3,,,,,Evening Prayer,ot,Exodus 11
+easter-3,,,,,Evening Prayer,nt,Ephesians 2:11–18
+easter-2,,,,,,ot,Isaiah 52:13–53:12
+easter-2,,,,,,psalm,Psalm 22
+easter-2,,,,,,epistle,Hebrews 10:16–25 or Hebrews 4:14–16; 5:7–9
+easter-2,,,,,,gospel,John 18:1–19:42
+easter-2,,,,,Morning Prayer,psalm,Psalm 69
+easter-2,,,,,Morning Prayer,ot,Genesis 22:1–18
+easter-2,,,,,Morning Prayer,gospel,"John 18:1–19:42 (a part, if not used at the principal service) or Hebrews 10:1–10"
+easter-2,,,,,Evening Prayer,psalm,"Psalms 130, 143"
+easter-2,,,,,Evening Prayer,ot,Lamentations 5:15–22
+easter-2,,,,,Evening Prayer,gospel,"John 18:1–19:42 (a part, if not used at the principal service) or John 19:38–42 or Colossians 1:18–23"
+easter-1,,,,,,ot,"Job 14:1–14 or Lamentations 3:1–9, 19–24"
+easter-1,,,,,,psalm,"Psalm 31:1–4, 15, 16"
+easter-1,,,,,,epistle,1 Peter 4:1–8
+easter-1,,,,,,gospel,Matthew 27:57–66 or John 19:38–42
+easter-1,,,,,Morning Prayer,psalm,Psalm 142
+easter-1,,,,,Morning Prayer,ot,Hosea 6:1–6
+easter-1,,,,,Morning Prayer,gospel,John 2:18–22
+easter-1,,,,,Evening Prayer,psalm,Psalm 116
+easter-1,,,,,Evening Prayer,ot,Job 19:21–27
+easter-1,,,,,Evening Prayer,nt,1 John 5:5–12
+easter-1,,,,,Easter Vigil,ot,Genesis 1:1–2:4a
+easter-1,,,,,Easter Vigil,psalm,"Psalm 136:1–9, 23–26"
+easter-1,,,,,Easter Vigil,ot,"Genesis 7:1–5, 11–18; 8:6–18; 9:8–13"
+easter-1,,,,,Easter Vigil,psalm,Psalm 46
+easter-1,,,,,Easter Vigil,ot,Genesis 22:1–18
+easter-1,,,,,Easter Vigil,psalm,Psalm 16
+easter-1,,,,,Easter Vigil,ot,"Exodus 14:10–31; 15:20, 21"
+easter-1,,,,,Easter Vigil,psalm,"Canticle: Exodus 15:1b–13, 17, 18"
+easter-1,,,,,Easter Vigil,ot,Isaiah 55:1–11
+easter-1,,,,,Easter Vigil,psalm,Canticle: Isaiah 12:2–6
+easter-1,,,,,Easter Vigil,ot,"Baruch 3:9–15, 32–4:4 or Proverbs 8:1–8, 19–21; 9:4b–6"
+easter-1,,,,,Easter Vigil,psalm,Psalm 19
+easter-1,,,,,Easter Vigil,ot,Ezekiel 36:24–28
+easter-1,,,,,Easter Vigil,psalm,"Psalms 42, 43"
+easter-1,,,,,Easter Vigil,ot,Ezekiel 37:1–14
+easter-1,,,,,Easter Vigil,psalm,Psalm 143
+easter-1,,,,,Easter Vigil,ot,Zephaniah 3:14–20
+easter-1,,,,,Easter Vigil,psalm,Psalm 98
+easter-1,,,,,Easter Vigil,epistle,Romans 6:3–11
+easter-1,,,,,Easter Vigil,psalm,Psalm 114
+easter-1,,,A,,Easter Vigil,gospel,Matthew 28:1–10
+easter-1,,,B,,Easter Vigil,gospel,Mark 16:1–8
+easter-1,,,C,,Easter Vigil,gospel,Luke 24:1–12
+easter,,,A,,,ot,Acts 10:34–43 or Jeremiah 31:1–6
+easter,,,A,,,psalm,"Psalm 118:1–2, 14–24"
+easter,,,A,,,epistle,Colossians 3:1–4 or Acts 10:34–43
+easter,,,A,,,gospel,John 20:1–18 or Matthew 28:1–10
+easter,,,B,,,ot,Acts 10:34–43 or Isaiah 25:6–9
+easter,,,B,,,psalm,"Psalm 118:1–2, 14–24"
+easter,,,B,,,epistle,1 Corinthians 15:1–11 or Acts 10:34–43
+easter,,,B,,,gospel,John 20:1–18 or Mark 16:1–8
+easter,,,C,,,ot,Acts 10:34–43 or Isaiah 65:17–25
+easter,,,C,,,psalm,"Psalm 118:1–2, 14–24"
+easter,,,C,,,epistle,1 Corinthians 15:19–26 or Acts 10:34–43
+easter,,,C,,,gospel,John 20:1–18 or Luke 24:1–12
+easter,,,A,,Second Service,psalm_evening,Psalm 105 or Psalm 66:1–11
+easter,,,A,,Second Service,ot,"Song of Solomon 3:2–5; 8:6, 7"
+easter,,,A,,Second Service,gospel,John 20:11–18 (if not used at the Principal Service) or Revelation 1:12–18
+easter,,,B,,Second Service,psalm_evening,Psalm 105 or Psalm 66:1–11
+easter,,,B,,Second Service,ot,Ezekiel 37:1–14
+easter,,,B,,Second Service,gospel,Luke 24:13–35
+easter,,,C,,Second Service,psalm_evening,Psalm 105 or Psalm 66:1–11
+easter,,,C,,Second Service,ot,Isaiah 43:1–21
+easter,,,C,,Second Service,nt,1 Corinthians 15:1–11 or John 20:19–23
+easter,,,A,,Third Service,psalm_morning,"Psalms 114, 117"
+easter,,,A,,Third Service,ot,"Exodus 14:10–18, 26–15:2"
+easter,,,A,,Third Service,nt,Revelation 15:2–4
+easter,,,B,,Third Service,psalm_morning,"Psalms 114, 117"
+easter,,,B,,Third Service,ot,"Genesis 1:1–5, 26–31"
+easter,,,B,,Third Service,nt,2 Corinthians 5:14–6:2
+easter,,,C,,Third Service,psalm_morning,"Psalms 114, 117"
+easter,,,C,,Third Service,ot,Ezekiel 47:1–12
+easter,,,C,,Third Service,gospel,John 2:13–22
+easter+7,,,A,,,ot,"Acts 2:14a, 22–32"
+easter+7,,,A,,,psalm,Psalm 16
+easter+7,,,A,,,epistle,1 Peter 1:3–9
+easter+7,,,A,,,gospel,John 20:19–31
+easter+7,,,B,,,ot,Acts 4:32–35
+easter+7,,,B,,,psalm,Psalm 133
+easter+7,,,B,,,epistle,1 John 1:1–2:2
+easter+7,,,B,,,gospel,John 20:19–31
+easter+7,,,C,,,ot,Acts 5:27–32
+easter+7,,,C,,,psalm,Psalm 118:14–29 or Psalm 150
+easter+7,,,C,,,epistle,Revelation 1:4–8
+easter+7,,,C,,,gospel,John 20:19–31
+easter+7,,,A,,Second Service,psalm,Psalm 30:1–5
+easter+7,,,A,,Second Service,ot,Daniel 6:1–23 or Daniel 6:6–23
+easter+7,,,A,,Second Service,gospel,Mark 15:46–16:8
+easter+7,,,B,,Second Service,psalm,Psalm 143:1–11
+easter+7,,,B,,Second Service,ot,"Isaiah 26:1–9, 19"
+easter+7,,,B,,Second Service,gospel,Luke 24:1–12
+easter+7,,,C,,Second Service,psalm,Psalm 16
+easter+7,,,C,,Second Service,ot,"Isaiah 52:13–53:12 or Isaiah 53:1–6, 9–12"
+easter+7,,,C,,Second Service,gospel,Luke 24:13–35
+easter+7,,,A,,Third Service,psalm,Psalm 81:1–10
+easter+7,,,A,,Third Service,ot,Exodus 12:1–17
+easter+7,,,A,,Third Service,nt,1 Corinthians 5:6b–8
+easter+7,,,B,,Third Service,psalm,Psalm 22:20–31
+easter+7,,,B,,Third Service,ot,Isaiah 53:6–12
+easter+7,,,B,,Third Service,nt,Romans 4:13–25
+easter+7,,,C,,Third Service,psalm,Psalm 136:1–16
+easter+7,,,C,,Third Service,ot,Exodus 12:1–13
+easter+7,,,C,,Third Service,nt,1 Peter 1:3–12
+easter+14,,,A,,,ot,"Acts 2:14a, 36–41"
+easter+14,,,A,,,psalm,"Psalm 116:1–3, 10–17"
+easter+14,,,A,,,epistle,1 Peter 1:17–23
+easter+14,,,A,,,gospel,Luke 24:13–35
+easter+14,,,B,,,ot,Acts 3:12–19
+easter+14,,,B,,,psalm,Psalm 4
+easter+14,,,B,,,epistle,1 John 3:1–7
+easter+14,,,B,,,gospel,Luke 24:36b–48
+easter+14,,,C,,,ot,"Acts 9:1–6, (7–20)"
+easter+14,,,C,,,psalm,Psalm 30
+easter+14,,,C,,,epistle,Revelation 5:11–14
+easter+14,,,C,,,gospel,John 21:1–19
+easter+14,,,A,,Second Service,psalm,Psalm 48
+easter+14,,,A,,Second Service,ot,Haggai 1:13–2:9
+easter+14,,,A,,Second Service,nt,1 Corinthians 3:10–17
+easter+14,,,A,,Second Service,gospel,John 2:13–22
+easter+14,,,B,,Second Service,psalm,Psalm 142
+easter+14,,,B,,Second Service,ot,Deuteronomy 7:7–13
+easter+14,,,B,,Second Service,nt,Revelation 2:1–11
+easter+14,,,B,,Second Service,gospel,Luke 16:19–31
+easter+14,,,C,,Second Service,psalm,Psalm 86
+easter+14,,,C,,Second Service,ot,Isaiah 38:9–20
+easter+14,,,C,,Second Service,gospel,"John 11:(17–26), 27–44"
+easter+14,,,A,,Third Service,psalm,Psalm 23
+easter+14,,,A,,Third Service,ot,Isaiah 40:1–11
+easter+14,,,A,,Third Service,nt,1 Peter 5:1–11
+easter+14,,,B,,Third Service,psalm,Psalm 77:11–20
+easter+14,,,B,,Third Service,ot,Isaiah 63:7–15
+easter+14,,,B,,Third Service,nt,1 Corinthians 10:1–13
+easter+14,,,C,,Third Service,psalm,Psalm 80:1–8
+easter+14,,,C,,Third Service,ot,"Exodus 15:1–2, 9–18"
+easter+14,,,C,,Third Service,gospel,John 10:1–19
+easter+21,,,A,,,ot,Acts 2:42–47
+easter+21,,,A,,,psalm,Psalm 23
+easter+21,,,A,,,epistle,1 Peter 2:19–25
+easter+21,,,A,,,gospel,John 10:1–10
+easter+21,,,B,,,ot,Acts 4:5–12
+easter+21,,,B,,,psalm,Psalm 23
+easter+21,,,B,,,epistle,1 John 3:16–24
+easter+21,,,B,,,gospel,John 10:11–18
+easter+21,,,C,,,ot,Acts 9:36–43
+easter+21,,,C,,,psalm,Psalm 23
+easter+21,,,C,,,epistle,Revelation 7:9–17
+easter+21,,,C,,,gospel,John 10:22–30
+easter+21,,,A,,Second Service,psalm,Psalm 29:1–10
+easter+21,,,A,,Second Service,ot,Ezra 3:1–13
+easter+21,,,A,,Second Service,nt,Ephesians 2:11–22
+easter+21,,,A,,Second Service,gospel,Luke 19:37–48
+easter+21,,,B,,Second Service,psalm,Psalm 81:8–16
+easter+21,,,B,,Second Service,ot,Exodus 16:4–15
+easter+21,,,B,,Second Service,nt,Revelation 2:12–17
+easter+21,,,B,,Second Service,gospel,John 6:30–40
+easter+21,,,C,,Second Service,psalm,"Psalms 113, 114"
+easter+21,,,C,,Second Service,ot,Isaiah 63:7–14
+easter+21,,,C,,Second Service,gospel,Luke 24:36–49
+easter+21,,,A,,Third Service,psalm,Psalm 106:6–24
+easter+21,,,A,,Third Service,ot,Nehemiah 9:6–15
+easter+21,,,A,,Third Service,nt,1 Corinthians 10:1–13
+easter+21,,,B,,Third Service,psalm,Psalm 119:89–96
+easter+21,,,B,,Third Service,ot,Nehemiah 7:73b–8:12
+easter+21,,,B,,Third Service,gospel,Luke 24:25–32
+easter+21,,,C,,Third Service,psalm,Psalm 146
+easter+21,,,C,,Third Service,ot,1 Kings 17:17–24
+easter+21,,,C,,Third Service,gospel,Luke 7:11–23
+easter+28,,,A,,,ot,Acts 7:55–60
+easter+28,,,A,,,psalm,"Psalm 31:1–5, 15–16"
+easter+28,,,A,,,epistle,1 Peter 2:2–10
+easter+28,,,A,,,gospel,John 14:1–14
+easter+28,,,B,,,ot,Acts 8:26–40
+easter+28,,,B,,,psalm,Psalm 22:25–31
+easter+28,,,B,,,epistle,1 John 4:7–21
+easter+28,,,B,,,gospel,John 15:1–8
+easter+28,,,C,,,ot,Acts 11:1–18
+easter+28,,,C,,,psalm,Psalm 148
+easter+28,,,C,,,epistle,Revelation 21:1–6
+easter+28,,,C,,,gospel,John 13:31–35
+easter+28,,,A,,Second Service,psalm,Psalm 147:1–12
+easter+28,,,A,,Second Service,ot,Zechariah 4:1–10
+easter+28,,,A,,Second Service,nt,Revelation 21:1–14
+easter+28,,,A,,Second Service,gospel,"Luke 2:25–32, (33–38)"
+easter+28,,,B,,Second Service,psalm,Psalm 96
+easter+28,,,B,,Second Service,ot,Isaiah 60:1–14
+easter+28,,,B,,Second Service,nt,Revelation 3:1–13
+easter+28,,,B,,Second Service,gospel,Mark 16:9–16
+easter+28,,,C,,Second Service,psalm,Psalm 98
+easter+28,,,C,,Second Service,ot,"Daniel 6:(1–5), 6–23"
+easter+28,,,C,,Second Service,gospel,Mark 15:46–16:8
+easter+28,,,A,,Third Service,psalm,Psalm 30
+easter+28,,,A,,Third Service,ot,Ezekiel 37:1–12
+easter+28,,,A,,Third Service,gospel,John 5:19–29
+easter+28,,,B,,Third Service,psalm,Psalm 44:16–27
+easter+28,,,B,,Third Service,ot,2 Maccabees 7:7–14 or Daniel 3:16–28
+easter+28,,,B,,Third Service,nt,Hebrews 11:32–12:2
+easter+28,,,C,,Third Service,psalm,Psalm 16
+easter+28,,,C,,Third Service,ot,2 Samuel 7:4–13
+easter+28,,,C,,Third Service,nt,"Acts 2:14a, 22–32, (33–36)"
+easter+35,,,A,,,ot,Acts 17:22–31
+easter+35,,,A,,,psalm,Psalm 66:7–18
+easter+35,,,A,,,epistle,1 Peter 3:13–22
+easter+35,,,A,,,gospel,John 14:15–21
+easter+35,,,B,,,ot,Acts 10:44–48
+easter+35,,,B,,,psalm,Psalm 98
+easter+35,,,B,,,epistle,1 John 5:1–6
+easter+35,,,B,,,gospel,John 15:9–17
+easter+35,,,C,,,ot,Acts 16:9–15
+easter+35,,,C,,,psalm,Psalm 67
+easter+35,,,C,,,epistle,"Revelation 21:10, 22–22:5"
+easter+35,,,C,,,gospel,John 14:23–29 or John 5:1–9
+easter+35,,,A,,Second Service,psalm,Psalms 87; 36:5–10
+easter+35,,,A,,Second Service,ot,Zechariah 8:1–13
+easter+35,,,A,,Second Service,nt,Revelation 21:22–22:5
+easter+35,,,A,,Second Service,gospel,John 21:1–14
+easter+35,,,B,,Second Service,psalm,Psalm 45
+easter+35,,,B,,Second Service,ot,"Song of Solomon 4:16–5:2; 8:6, 7"
+easter+35,,,B,,Second Service,nt,Revelation 3:14–22
+easter+35,,,B,,Second Service,gospel,Luke 22:24–30
+easter+35,,,C,,Second Service,psalm,"Psalms 126, 127"
+easter+35,,,C,,Second Service,ot,Zephaniah 3:14–20
+easter+35,,,C,,Second Service,gospel,"Matthew 28:1–10, 16–20"
+easter+35,,,A,,Third Service,psalm,Psalm 73:21–28
+easter+35,,,A,,Third Service,ot,"Job 14:1–2, 7–15; 19:23–27a"
+easter+35,,,A,,Third Service,nt,1 Thessalonians 4:13–18
+easter+35,,,B,,Third Service,psalm,Psalm 104:28–34
+easter+35,,,B,,Third Service,ot,Ezekiel 47:1–12
+easter+35,,,B,,Third Service,gospel,John 21:1–19
+easter+35,,,C,,Third Service,psalm,Psalm 40:1–9
+easter+35,,,C,,Third Service,ot,"Genesis 1:26–28, (29–31)"
+easter+35,,,C,,Third Service,nt,Colossians 3:1–11
+easter+7,,,A,,Old Testament (if required),ot,"Exodus 14:10–31; 15:20, 21"
+easter+14,,,A,,Old Testament (if required),ot,Zephaniah 3:14–20
+easter+21,,,A,,Old Testament (if required),ot,Genesis 7
+easter+28,,,A,,Old Testament (if required),ot,Genesis 8:1–19
+easter+35,,,A,,Old Testament (if required),ot,Genesis 8:20–9:17
+easter+42,,,A,,Old Testament (if required),ot,Ezekiel 36:24–28
+easter+7,,,B,,Old Testament (if required),ot,"Exodus 14:10–31; 15:20, 21"
+easter+14,,,B,,Old Testament (if required),ot,Zephaniah 3:14–20
+easter+21,,,B,,Old Testament (if required),ot,"Genesis 7:1–5, 11–18; 8:6–18; 9:8–13"
+easter+28,,,B,,Old Testament (if required),ot,"Baruch 3:9–15, 32–4:4 or Genesis 22:1–18"
+easter+35,,,B,,Old Testament (if required),ot,Isaiah 55:1–11
+easter+42,,,B,,Old Testament (if required),ot,Ezekiel 36:24–28
+easter+7,,,C,,Old Testament (if required),ot,"Exodus 14:10–31; 15:20, 21"
+easter+14,,,C,,Old Testament (if required),ot,Zephaniah 3:14–20
+easter+21,,,C,,Old Testament (if required),ot,"Genesis 7:1–5, 11–18; 8:6–18; 9:8–13"
+easter+28,,,C,,Old Testament (if required),ot,"Baruch 3:9–15, 32–4:4 or Genesis 22:1–18"
+easter+35,,,C,,Old Testament (if required),ot,Ezekiel 37:1–14
+easter+42,,,C,,Old Testament (if required),ot,Ezekiel 36:24–28
+easter+38,,,,,Ascension Day: Evening Prayer on the Eve,psalm,"Psalms 15, 24"
+easter+38,,,,,Ascension Day: Evening Prayer on the Eve,ot,2 Samuel 23:1–5
+easter+38,,,,,Ascension Day: Evening Prayer on the Eve,nt,Colossians 2:20–3:4
+easter+39,,,,,,ot,Acts 1:1–11 or Daniel 7:9–14
+easter+39,,,,,,psalm,Psalm 47 or Psalm 93
+easter+39,,,,,,epistle,Ephesians 1:15–23 or Acts 1:1–11
+easter+39,,,,,,gospel,Luke 24:44–53
+easter+39,,,A,,Second Service,psalm_evening,Psalm 8
+easter+39,,,A,,Second Service,ot,Song of the Three 29–37 or 2 Kings 2:1–15
+easter+39,,,A,,Second Service,nt,Revelation 5
+easter+39,,,A,,Second Service,gospel,Mark 16:14–20
+easter+39,,,B,,Second Service,psalm_evening,Psalm 8
+easter+39,,,B,,Second Service,ot,Song of the Three 29–37 or 2 Kings 2:1–15
+easter+39,,,B,,Second Service,nt,Revelation 5
+easter+39,,,B,,Second Service,gospel,Matthew 28:16–20
+easter+39,,,C,,Second Service,psalm_evening,Psalm 8
+easter+39,,,C,,Second Service,ot,Song of the Three 29–37 or 2 Kings 2:1–15
+easter+39,,,C,,Second Service,nt,Revelation 5
+easter+39,,,C,,Second Service,gospel,Matthew 28:16–20
+easter+39,,,,,Third Service,psalm_morning,"Psalms 110, 150"
+easter+39,,,,,Third Service,ot,Isaiah 52:7–15
+easter+39,,,,,Third Service,nt,"Hebrews 7:(11–25), 26–28"
+easter+42,,,A,,,ot,Acts 1:6–14
+easter+42,,,A,,,psalm,"Psalm 68:1–10, 32–35"
+easter+42,,,A,,,epistle,1 Peter 4:12–14; 5:6–11
+easter+42,,,A,,,gospel,John 17:1–11
+easter+42,,,B,,,ot,"Acts 1:15–17, 21–26"
+easter+42,,,B,,,psalm,Psalm 1
+easter+42,,,B,,,epistle,1 John 5:9–13
+easter+42,,,B,,,gospel,John 17:6–19
+easter+42,,,C,,,ot,Acts 16:16–34
+easter+42,,,C,,,psalm,Psalm 97
+easter+42,,,C,,,epistle,"Revelation 22:12–14, 16, 17, 20, 21"
+easter+42,,,C,,,gospel,John 17:20–26
+easter+42,,,A,,Second Service,psalm,Psalm 47
+easter+42,,,A,,Second Service,ot,2 Samuel 23:1–5
+easter+42,,,A,,Second Service,nt,Ephesians 1:15–23
+easter+42,,,A,,Second Service,gospel,Mark 16:14–20
+easter+42,,,B,,Second Service,psalm,Psalm 147:1–12
+easter+42,,,B,,Second Service,ot,Isaiah 61
+easter+42,,,B,,Second Service,gospel,Luke 4:14–21
+easter+42,,,C,,Second Service,psalm,Psalm 68
+easter+42,,,C,,Second Service,ot,Isaiah 44:1–8
+easter+42,,,C,,Second Service,nt,Ephesians 4:7–16
+easter+42,,,C,,Second Service,gospel,Luke 24:44–53
+easter+42,,,A,,Third Service,psalm,Psalm 104:26–35
+easter+42,,,A,,Third Service,ot,Isaiah 65:17–25
+easter+42,,,A,,Third Service,nt,Revelation 21:1–8
+easter+42,,,B,,Third Service,psalm,Psalm 76
+easter+42,,,B,,Third Service,ot,Isaiah 14:3–15
+easter+42,,,B,,Third Service,nt,Revelation 14:1–13
+easter+42,,,C,,Third Service,psalm,Psalm 99
+easter+42,,,C,,Third Service,ot,Deuteronomy 34
+easter+42,,,C,,Third Service,gospel,Luke 24:44–53 or Acts 1:1–8
+easter+48,,,A,,Day of Pentecost: Evening Prayer on the Eve,psalm,Psalm 48
+easter+48,,,A,,Day of Pentecost: Evening Prayer on the Eve,ot,Deuteronomy 16:9–15
+easter+48,,,A,,Day of Pentecost: Evening Prayer on the Eve,gospel,John 15:26–16:15
+easter+48,,,B,,Day of Pentecost: Evening Prayer on the Eve,psalm,Psalm 48
+easter+48,,,B,,Day of Pentecost: Evening Prayer on the Eve,ot,Deuteronomy 16:9–15
+easter+48,,,B,,Day of Pentecost: Evening Prayer on the Eve,gospel,John 7:37–39
+easter+48,,,C,,Day of Pentecost: Evening Prayer on the Eve,psalm,Psalm 48
+easter+48,,,C,,Day of Pentecost: Evening Prayer on the Eve,ot,Deuteronomy 16:9–15
+easter+48,,,C,,Day of Pentecost: Evening Prayer on the Eve,gospel,John 7:37–39
+easter+49,,,A,,,ot,Acts 2:1–21 or Numbers 11:24–30
+easter+49,,,A,,,psalm,"Psalm 104:26–36, 37b"
+easter+49,,,A,,,epistle,1 Corinthians 12:3b–13 or Acts 2:1–21
+easter+49,,,A,,,gospel,John 20:19–23 or John 7:37–39
+easter+49,,,B,,,ot,Acts 2:1–21 or Ezekiel 37:1–14
+easter+49,,,B,,,psalm,"Psalm 104:26–36, 37b"
+easter+49,,,B,,,epistle,Romans 8:22–27 or Acts 2:1–21
+easter+49,,,B,,,gospel,John 15:26–27; 16:4b–15
+easter+49,,,C,,,ot,Acts 2:1–21 or Genesis 11:1–9
+easter+49,,,C,,,psalm,"Psalm 104:26–36, 37b"
+easter+49,,,C,,,epistle,Romans 8:14–17 or Acts 2:1–21
+easter+49,,,C,,,gospel,"John 14:8–17, (25–27)"
+easter+49,,,A,,Second Service,psalm_evening,"Psalms 67, 133"
+easter+49,,,A,,Second Service,ot,Joel 2:21–32
+easter+49,,,A,,Second Service,nt,"Acts 2:14–21, (22–38)"
+easter+49,,,A,,Second Service,gospel,Luke 24:44–53
+easter+49,,,B,,Second Service,psalm_evening,"Psalm 139:1–11, (13–18, 23–24)"
+easter+49,,,B,,Second Service,ot,Ezekiel 36:22–28
+easter+49,,,B,,Second Service,nt,Acts 2:22–38
+easter+49,,,B,,Second Service,gospel,John 20:19–23
+easter+49,,,C,,Second Service,psalm_evening,Psalm 33:1–12
+easter+49,,,C,,Second Service,ot,Exodus 33:7–20
+easter+49,,,C,,Second Service,nt,2 Corinthians 3:4–18
+easter+49,,,C,,Second Service,gospel,John 16:4b–15
+easter+49,,,A,,Third Service,psalm_morning,Psalm 87
+easter+49,,,A,,Third Service,ot,Genesis 11:1–9
+easter+49,,,A,,Third Service,nt,Acts 10:34–48
+easter+49,,,B,,Third Service,psalm_morning,Psalm 145
+easter+49,,,B,,Third Service,ot,"Isaiah 11:1–9 or Wisdom of Solomon 7:15–23, (24–27)"
+easter+49,,,B,,Third Service,nt,1 Corinthians 12:4–13
+easter+49,,,C,,Third Service,psalm_morning,Psalms 36:5–10; 150
+easter+49,,,C,,Third Service,ot,Isaiah 40:12–23 or Wisdom of Solomon 9:9–17
+easter+49,,,C,,Third Service,nt,1 Corinthians 2:6–16
+easter+55,,,A,,Trinity Sunday: Evening Prayer on the Eve,psalm,"Psalms 97, 98"
+easter+55,,,A,,Trinity Sunday: Evening Prayer on the Eve,ot,Exodus 34:1–10
+easter+55,,,A,,Trinity Sunday: Evening Prayer on the Eve,gospel,Mark 1:1–13
+easter+55,,,B,,Trinity Sunday: Evening Prayer on the Eve,psalm,"Psalms 97, 98"
+easter+55,,,B,,Trinity Sunday: Evening Prayer on the Eve,ot,Isaiah 40:12–31
+easter+55,,,B,,Trinity Sunday: Evening Prayer on the Eve,gospel,Mark 1:1–13
+easter+55,,,C,,Trinity Sunday: Evening Prayer on the Eve,psalm,"Psalms 97, 98"
+easter+55,,,C,,Trinity Sunday: Evening Prayer on the Eve,ot,Isaiah 40:12–31
+easter+55,,,C,,Trinity Sunday: Evening Prayer on the Eve,gospel,Mark 1:1–13
+easter+56,,,A,,,ot,"Isaiah 40:12–17, 27–31"
+easter+56,,,A,,,psalm,Psalm 8
+easter+56,,,A,,,epistle,2 Corinthians 13:11–13
+easter+56,,,A,,,gospel,Matthew 28:16–20
+easter+56,,,B,,,ot,Isaiah 6:1–8
+easter+56,,,B,,,psalm,Psalm 29
+easter+56,,,B,,,epistle,Romans 8:12–17
+easter+56,,,B,,,gospel,John 3:1–17
+easter+56,,,C,,,ot,"Proverbs 8:1–4, 22–31"
+easter+56,,,C,,,psalm,Psalm 8
+easter+56,,,C,,,epistle,Romans 5:1–5
+easter+56,,,C,,,gospel,John 16:12–15
+easter+56,,,A,,Second Service,psalm_evening,"Psalms 93, 150"
+easter+56,,,A,,Second Service,ot,Isaiah 6:1–8
+easter+56,,,A,,Second Service,gospel,John 16:5–15
+easter+56,,,B,,Second Service,psalm_evening,Psalm 104:1–10
+easter+56,,,B,,Second Service,ot,"Ezekiel 1:4–10, 22–28a"
+easter+56,,,B,,Second Service,nt,Revelation 4
+easter+56,,,B,,Second Service,gospel,Mark 1:1–13
+easter+56,,,C,,Second Service,psalm_evening,"Psalm 73:1–3, 16–28"
+easter+56,,,C,,Second Service,ot,Exodus 3:1–15
+easter+56,,,C,,Second Service,gospel,John 3:1–17
+easter+56,,,A,,Third Service,psalm_morning,Psalm 86:8–13
+easter+56,,,A,,Third Service,ot,"Exodus 3:1–6, 13–15"
+easter+56,,,A,,Third Service,gospel,John 17:1–11
+easter+56,,,B,,Third Service,psalm_morning,Psalm 33:1–12
+easter+56,,,B,,Third Service,ot,"Proverbs 8:1–4, 22–31"
+easter+56,,,B,,Third Service,nt,"2 Corinthians 13:(5–10), 11–13"
+easter+56,,,C,,Third Service,psalm_morning,Psalm 29
+easter+56,,,C,,Third Service,ot,Isaiah 6:1–8
+easter+56,,,C,,Third Service,nt,Revelation 4
+easter+59,,,,,Day of Thanksgiving for the Institution of Holy Communion (Corpus Christi): Evening Prayer on the Eve,psalm,"Psalms 110, 111"
+easter+59,,,,,Day of Thanksgiving for the Institution of Holy Communion (Corpus Christi): Evening Prayer on the Eve,ot,Exodus 16:2–15
+easter+59,,,,,Day of Thanksgiving for the Institution of Holy Communion (Corpus Christi): Evening Prayer on the Eve,gospel,John 6:22–35
+easter+60,,,,,Day of Thanksgiving for the Institution of Holy Communion (Corpus Christi),ot,Genesis 14:18–20
+easter+60,,,,,Day of Thanksgiving for the Institution of Holy Communion (Corpus Christi),psalm,Psalm 116:10–17
+easter+60,,,,,Day of Thanksgiving for the Institution of Holy Communion (Corpus Christi),epistle,1 Corinthians 11:23–26
+easter+60,,,,,Day of Thanksgiving for the Institution of Holy Communion (Corpus Christi),gospel,John 6:51–58
+easter+60,,,,,Day of Thanksgiving for the Institution of Holy Communion (Corpus Christi): Second Service,psalm_evening,"Psalms 23, 42, 43"
+easter+60,,,,,Day of Thanksgiving for the Institution of Holy Communion (Corpus Christi): Second Service,ot,Proverbs 9:1–5
+easter+60,,,,,Day of Thanksgiving for the Institution of Holy Communion (Corpus Christi): Second Service,gospel,Luke 9:11–17
+easter+60,,,,,Day of Thanksgiving for the Institution of Holy Communion (Corpus Christi): Third Service,psalm_morning,Psalm 147
+easter+60,,,,,Day of Thanksgiving for the Institution of Holy Communion (Corpus Christi): Third Service,ot,Deuteronomy 8:2–16
+easter+60,,,,,Day of Thanksgiving for the Institution of Holy Communion (Corpus Christi): Third Service,nt,1 Corinthians 10:1–17
+sun>=05-24,,date le 05-28 & date gt easter+56,A,,,ot,"Leviticus 19:1–2, 9–18"
+sun>=05-24,,date le 05-28 & date gt easter+56,A,,,psalm,Psalm 119:33–40
+sun>=05-24,,date le 05-28 & date gt easter+56,A,,,epistle,"1 Corinthians 3:10–11, 16–23"
+sun>=05-24,,date le 05-28 & date gt easter+56,A,,,gospel,Matthew 5:38–48
+sun>=05-24,,date le 05-28 & date gt easter+56,B,,,ot,Isaiah 43:18–25
+sun>=05-24,,date le 05-28 & date gt easter+56,B,,,psalm,Psalm 41
+sun>=05-24,,date le 05-28 & date gt easter+56,B,,,epistle,2 Corinthians 1:18–22
+sun>=05-24,,date le 05-28 & date gt easter+56,B,,,gospel,Mark 2:1–12
+sun>=05-24,,date le 05-28 & date gt easter+56,C,,,ot,"Genesis 45:3–11, 15"
+sun>=05-24,,date le 05-28 & date gt easter+56,C,,,psalm,"Psalm 37:1–11, 40, 41"
+sun>=05-24,,date le 05-28 & date gt easter+56,C,,,epistle,"1 Corinthians 15:35–38, 42–50"
+sun>=05-24,,date le 05-28 & date gt easter+56,C,,,gospel,Luke 6:27–38
+sun>=05-24,,date le 05-28 & date gt easter+56,A,,Second Service,psalm,Psalm 18:1–20 or Psalm 18:21–30
+sun>=05-24,,date le 05-28 & date gt easter+56,A,,Second Service,ot,Amos 9:5–15
+sun>=05-24,,date le 05-28 & date gt easter+56,A,,Second Service,nt,Ephesians 6:1–20
+sun>=05-24,,date le 05-28 & date gt easter+56,A,,Second Service,gospel,Mark 2:1–12
+sun>=05-24,,date le 05-28 & date gt easter+56,B,,Second Service,psalm,Psalm 10
+sun>=05-24,,date le 05-28 & date gt easter+56,B,,Second Service,ot,Numbers 22:21–23:12
+sun>=05-24,,date le 05-28 & date gt easter+56,B,,Second Service,nt,Philippians 4:10–20
+sun>=05-24,,date le 05-28 & date gt easter+56,B,,Second Service,gospel,Luke 6:27–38
+sun>=05-24,,date le 05-28 & date gt easter+56,C,,Second Service,psalm,"Psalms (11), 13"
+sun>=05-24,,date le 05-28 & date gt easter+56,C,,Second Service,ot,Hosea 14
+sun>=05-24,,date le 05-28 & date gt easter+56,C,,Second Service,nt,Galatians 5:2–10
+sun>=05-24,,date le 05-28 & date gt easter+56,C,,Second Service,gospel,Matthew 6:1–8
+sun>=05-24,,date le 05-28 & date gt easter+56,A,,Third Service,psalm,"Psalms 21, 23"
+sun>=05-24,,date le 05-28 & date gt easter+56,A,,Third Service,ot,Jeremiah 33:1–11
+sun>=05-24,,date le 05-28 & date gt easter+56,A,,Third Service,nt,Acts 8:4–25
+sun>=05-24,,date le 05-28 & date gt easter+56,B,,Third Service,psalm,Psalm 9
+sun>=05-24,,date le 05-28 & date gt easter+56,B,,Third Service,ot,Jeremiah 33:1–11
+sun>=05-24,,date le 05-28 & date gt easter+56,B,,Third Service,nt,Acts 8:4–25
+sun>=05-24,,date le 05-28 & date gt easter+56,C,,Third Service,psalm,Psalm 10
+sun>=05-24,,date le 05-28 & date gt easter+56,C,,Third Service,ot,Jeremiah 33:1–11
+sun>=05-24,,date le 05-28 & date gt easter+56,C,,Third Service,nt,Acts 8:4–25
+sun>=05-29,,date gt easter+56,A,,,ot_s,Genesis 6:9–22; 7:24; 8:14–19
+sun>=05-29,,date gt easter+56,A,,,psalm_s,Psalm 46
+sun>=05-29,,date gt easter+56,A,,,ot_c,"Deuteronomy 11:18–21, 26–28"
+sun>=05-29,,date gt easter+56,A,,,psalm_c,"Psalm 31:1–5, 19–24"
+sun>=05-29,,date gt easter+56,A,,,epistle,"Romans 1:16, 17; 3:22b–28, (29–31)"
+sun>=05-29,,date gt easter+56,A,,,gospel,Matthew 7:21–29
+sun>=05-29,,date gt easter+56,B,,,ot_s,"1 Samuel 3:1–10, (11–20)"
+sun>=05-29,,date gt easter+56,B,,,psalm_s,"Psalm 139:1–5, 12–18"
+sun>=05-29,,date gt easter+56,B,,,ot_c,Deuteronomy 5:12–15
+sun>=05-29,,date gt easter+56,B,,,psalm_c,Psalm 81:1–10
+sun>=05-29,,date gt easter+56,B,,,epistle,2 Corinthians 4:5–12
+sun>=05-29,,date gt easter+56,B,,,gospel,Mark 2:23–3:6
+sun>=05-29,,date gt easter+56,C,,,ot_s,"1 Kings 18:20, 21, (22–29), 30–39"
+sun>=05-29,,date gt easter+56,C,,,psalm_s,Psalm 96
+sun>=05-29,,date gt easter+56,C,,,ot_c,"1 Kings 8:22–23, 41–43"
+sun>=05-29,,date gt easter+56,C,,,psalm_c,Psalm 96:1–9
+sun>=05-29,,date gt easter+56,C,,,epistle,Galatians 1:1–12
+sun>=05-29,,date gt easter+56,C,,,gospel,Luke 7:1–10
+sun>=05-29,,date gt easter+56,A,,Second Service,psalm,Psalm 33
+sun>=05-29,,date gt easter+56,A,,Second Service,ot,Ruth 2:1–20a
+sun>=05-29,,date gt easter+56,A,,Second Service,gospel,Luke 8:4–15
+sun>=05-29,,date gt easter+56,B,,Second Service,psalm,Psalm 35
+sun>=05-29,,date gt easter+56,B,,Second Service,ot,Jeremiah 5:1–19
+sun>=05-29,,date gt easter+56,B,,Second Service,nt,Romans 7:7–25
+sun>=05-29,,date gt easter+56,B,,Second Service,gospel,Luke 7:1–10
+sun>=05-29,,date gt easter+56,C,,Second Service,psalm,Psalm 39
+sun>=05-29,,date gt easter+56,C,,Second Service,ot,Genesis 4:1–16
+sun>=05-29,,date gt easter+56,C,,Second Service,gospel,Mark 3:7–19
+sun>=05-29,,date gt easter+56,A,,Third Service,psalm,Psalm 37:1–18
+sun>=05-29,,date gt easter+56,A,,Third Service,ot,Deuteronomy 5:1–21
+sun>=05-29,,date gt easter+56,A,,Third Service,nt,Acts 21:17–39a
+sun>=05-29,,date gt easter+56,B,,Third Service,psalm,"Psalms 28, 32"
+sun>=05-29,,date gt easter+56,B,,Third Service,ot,Deuteronomy 5:1–21
+sun>=05-29,,date gt easter+56,B,,Third Service,nt,Acts 21:17–39a
+sun>=05-29,,date gt easter+56,C,,Third Service,psalm,Psalm 41
+sun>=05-29,,date gt easter+56,C,,Third Service,ot,Deuteronomy 5:1–21
+sun>=05-29,,date gt easter+56,C,,Third Service,nt,Acts 21:17–39a
+sun>=06-05,,date gt easter+56,A,,,ot_s,Genesis 12:1–9
+sun>=06-05,,date gt easter+56,A,,,psalm_s,Psalm 33:1–12
+sun>=06-05,,date gt easter+56,A,,,ot_c,Hosea 5:15–6:6
+sun>=06-05,,date gt easter+56,A,,,psalm_c,Psalm 50:7–15
+sun>=06-05,,date gt easter+56,A,,,epistle,Romans 4:13–25
+sun>=06-05,,date gt easter+56,A,,,gospel,"Matthew 9:9–13, 18–26"
+sun>=06-05,,date gt easter+56,B,,,ot_s,"1 Samuel 8:4–11, (12–15), 16–20; (11:14–15)"
+sun>=06-05,,date gt easter+56,B,,,psalm_s,Psalm 138
+sun>=06-05,,date gt easter+56,B,,,ot_c,Genesis 3:8–15
+sun>=06-05,,date gt easter+56,B,,,psalm_c,Psalm 130
+sun>=06-05,,date gt easter+56,B,,,epistle,2 Corinthians 4:13–5:1
+sun>=06-05,,date gt easter+56,B,,,gospel,Mark 3:20–35
+sun>=06-05,,date gt easter+56,C,,,ot_s,"1 Kings 17:8–16, (17–24)"
+sun>=06-05,,date gt easter+56,C,,,psalm_s,Psalm 146
+sun>=06-05,,date gt easter+56,C,,,ot_c,1 Kings 17:17–24
+sun>=06-05,,date gt easter+56,C,,,psalm_c,Psalm 30
+sun>=06-05,,date gt easter+56,C,,,epistle,Galatians 1:11–24
+sun>=06-05,,date gt easter+56,C,,,gospel,Luke 7:11–17
+sun>=06-05,,date gt easter+56,A,,Second Service,psalm,"Psalms (39), 41"
+sun>=06-05,,date gt easter+56,A,,Second Service,ot,1 Samuel 18:1–16
+sun>=06-05,,date gt easter+56,A,,Second Service,gospel,Luke 8:41–56
+sun>=06-05,,date gt easter+56,B,,Second Service,psalm,"Psalm 37:1–11, (12–17)"
+sun>=06-05,,date gt easter+56,B,,Second Service,ot,Jeremiah 6:16–21
+sun>=06-05,,date gt easter+56,B,,Second Service,nt,Romans 9:1–13
+sun>=06-05,,date gt easter+56,B,,Second Service,gospel,Luke 7:11–17
+sun>=06-05,,date gt easter+56,C,,Second Service,psalm,Psalm 44
+sun>=06-05,,date gt easter+56,C,,Second Service,ot,Genesis 8:15–9:17
+sun>=06-05,,date gt easter+56,C,,Second Service,gospel,Mark 4:1–20
+sun>=06-05,,date gt easter+56,A,,Third Service,psalm,Psalm 38
+sun>=06-05,,date gt easter+56,A,,Third Service,ot,Deuteronomy 6:10–25
+sun>=06-05,,date gt easter+56,A,,Third Service,nt,Acts 22:22–23:11
+sun>=06-05,,date gt easter+56,B,,Third Service,psalm,Psalm 36
+sun>=06-05,,date gt easter+56,B,,Third Service,ot,Deuteronomy 6:10–25
+sun>=06-05,,date gt easter+56,B,,Third Service,nt,Acts 22:22–23:11
+sun>=06-05,,date gt easter+56,C,,Third Service,psalm,Psalm 45
+sun>=06-05,,date gt easter+56,C,,Third Service,ot,Deuteronomy 6:10–25
+sun>=06-05,,date gt easter+56,C,,Third Service,nt,Acts 22:22–23:11
+sun>=06-12,,date gt easter+56,A,,,ot_s,Genesis 18:1–15; (21:1–7)
+sun>=06-12,,date gt easter+56,A,,,psalm_s,"Psalm 116:1, 10–17"
+sun>=06-12,,date gt easter+56,A,,,ot_c,Exodus 19:2–8a
+sun>=06-12,,date gt easter+56,A,,,psalm_c,Psalm 100
+sun>=06-12,,date gt easter+56,A,,,epistle,Romans 5:1–8
+sun>=06-12,,date gt easter+56,A,,,gospel,"Matthew 9:35–10:8, (9–23)"
+sun>=06-12,,date gt easter+56,B,,,ot_s,1 Samuel 15:34–16:13
+sun>=06-12,,date gt easter+56,B,,,psalm_s,Psalm 20
+sun>=06-12,,date gt easter+56,B,,,ot_c,Ezekiel 17:22–24
+sun>=06-12,,date gt easter+56,B,,,psalm_c,"Psalm 92:1–4, 12–15"
+sun>=06-12,,date gt easter+56,B,,,epistle,"2 Corinthians 5:6–10, (11–13), 14–17"
+sun>=06-12,,date gt easter+56,B,,,gospel,Mark 4:26–34
+sun>=06-12,,date gt easter+56,C,,,ot_s,"1 Kings 21:1–10, (11–14), 15–21a"
+sun>=06-12,,date gt easter+56,C,,,psalm_s,Psalm 5:1–8
+sun>=06-12,,date gt easter+56,C,,,ot_c,"2 Samuel 11:26–12:10, 13–15"
+sun>=06-12,,date gt easter+56,C,,,psalm_c,Psalm 32
+sun>=06-12,,date gt easter+56,C,,,epistle,Galatians 2:15–21
+sun>=06-12,,date gt easter+56,C,,,gospel,Luke 7:36–8:3
+sun>=06-12,,date gt easter+56,A,,Second Service,psalm,"Psalms (42), 43"
+sun>=06-12,,date gt easter+56,A,,Second Service,ot,1 Samuel 21:1–15
+sun>=06-12,,date gt easter+56,A,,Second Service,gospel,Luke 11:14–28
+sun>=06-12,,date gt easter+56,B,,Second Service,psalm,Psalm 39
+sun>=06-12,,date gt easter+56,B,,Second Service,ot,Jeremiah 7:1–16
+sun>=06-12,,date gt easter+56,B,,Second Service,nt,Romans 9:14–26
+sun>=06-12,,date gt easter+56,B,,Second Service,gospel,Luke 7:36–8:3
+sun>=06-12,,date gt easter+56,C,,Second Service,psalm,"Psalms 52, (53)"
+sun>=06-12,,date gt easter+56,C,,Second Service,ot,Genesis 13
+sun>=06-12,,date gt easter+56,C,,Second Service,gospel,Mark 4:21–41
+sun>=06-12,,date gt easter+56,A,,Third Service,psalm,Psalm 45
+sun>=06-12,,date gt easter+56,A,,Third Service,ot,Deuteronomy 10:12–11:1
+sun>=06-12,,date gt easter+56,A,,Third Service,nt,Acts 23:12–35
+sun>=06-12,,date gt easter+56,B,,Third Service,psalm,"Psalms 42, 43"
+sun>=06-12,,date gt easter+56,B,,Third Service,ot,Deuteronomy 10:12–11:1
+sun>=06-12,,date gt easter+56,B,,Third Service,nt,Acts 23:12–35
+sun>=06-12,,date gt easter+56,C,,Third Service,psalm,Psalm 49
+sun>=06-12,,date gt easter+56,C,,Third Service,ot,Deuteronomy 10:12–11:1
+sun>=06-12,,date gt easter+56,C,,Third Service,nt,Acts 23:12–35
+sun>=06-19,,date gt easter+56,A,,,ot_s,Genesis 21:8–21
+sun>=06-19,,date gt easter+56,A,,,psalm_s,"Psalm 86:1–10, 16–17"
+sun>=06-19,,date gt easter+56,A,,,ot_c,Jeremiah 20:7–13
+sun>=06-19,,date gt easter+56,A,,,psalm_c,"Psalm 69:8–11, (12–17), 18–20"
+sun>=06-19,,date gt easter+56,A,,,epistle,Romans 6:1b–11
+sun>=06-19,,date gt easter+56,A,,,gospel,Matthew 10:24–39
+sun>=06-19,,date gt easter+56,B,,,ot_s,"1 Samuel 17:(1a, 4–11, 19–23), 32–49 or 1 Samuel 17:57–18:5, 10–16"
+sun>=06-19,,date gt easter+56,B,,,psalm_s,Psalm 9:9–20 or Psalm 133
+sun>=06-19,,date gt easter+56,B,,,ot_c,Job 38:1–11
+sun>=06-19,,date gt easter+56,B,,,psalm_c,"Psalm 107:1–3, 23–32"
+sun>=06-19,,date gt easter+56,B,,,epistle,2 Corinthians 6:1–13
+sun>=06-19,,date gt easter+56,B,,,gospel,Mark 4:35–41
+sun>=06-19,,date gt easter+56,C,,,ot_s,"1 Kings 19:1–4, (5–7), 8–15a"
+sun>=06-19,,date gt easter+56,C,,,psalm_s,"Psalms 42, 43"
+sun>=06-19,,date gt easter+56,C,,,ot_c,Isaiah 65:1–9
+sun>=06-19,,date gt easter+56,C,,,psalm_c,Psalm 22:19–28
+sun>=06-19,,date gt easter+56,C,,,epistle,Galatians 3:23–29
+sun>=06-19,,date gt easter+56,C,,,gospel,Luke 8:26–39
+sun>=06-19,,date gt easter+56,A,,Second Service,psalm,"Psalms 46, (48)"
+sun>=06-19,,date gt easter+56,A,,Second Service,ot,1 Samuel 24:1–17
+sun>=06-19,,date gt easter+56,A,,Second Service,gospel,Luke 14:12–24
+sun>=06-19,,date gt easter+56,B,,Second Service,psalm,Psalm 49
+sun>=06-19,,date gt easter+56,B,,Second Service,ot,Jeremiah 10:1–16
+sun>=06-19,,date gt easter+56,B,,Second Service,nt,Romans 11:25–36
+sun>=06-19,,date gt easter+56,B,,Second Service,gospel,Luke 8:26–39
+sun>=06-19,,date gt easter+56,C,,Second Service,psalm,"Psalms (50), 57"
+sun>=06-19,,date gt easter+56,C,,Second Service,ot,Genesis 24:1–27
+sun>=06-19,,date gt easter+56,C,,Second Service,gospel,Mark 5:21–43
+sun>=06-19,,date gt easter+56,A,,Third Service,psalm,Psalm 49
+sun>=06-19,,date gt easter+56,A,,Third Service,ot,Deuteronomy 11:1–15
+sun>=06-19,,date gt easter+56,A,,Third Service,nt,Acts 27:1–12
+sun>=06-19,,date gt easter+56,B,,Third Service,psalm,Psalm 48
+sun>=06-19,,date gt easter+56,B,,Third Service,ot,Deuteronomy 11:1–15
+sun>=06-19,,date gt easter+56,B,,Third Service,nt,Acts 27:1–12
+sun>=06-19,,date gt easter+56,C,,Third Service,psalm,"Psalm 55:1–16, 18–21"
+sun>=06-19,,date gt easter+56,C,,Third Service,ot,Deuteronomy 11:1–15
+sun>=06-19,,date gt easter+56,C,,Third Service,nt,Acts 27:1–12
+sun>=06-26,,date gt easter+56,A,,,ot_s,Genesis 22:1–14
+sun>=06-26,,date gt easter+56,A,,,psalm_s,Psalm 13
+sun>=06-26,,date gt easter+56,A,,,ot_c,Jeremiah 28:5–9
+sun>=06-26,,date gt easter+56,A,,,psalm_c,"Psalm 89:1–4, 15–18"
+sun>=06-26,,date gt easter+56,A,,,epistle,Romans 6:12–23
+sun>=06-26,,date gt easter+56,A,,,gospel,Matthew 10:40–42
+sun>=06-26,,date gt easter+56,B,,,ot_s,"2 Samuel 1:1, 17–27"
+sun>=06-26,,date gt easter+56,B,,,psalm_s,Psalm 130
+sun>=06-26,,date gt easter+56,B,,,ot_c,"Wisdom of Solomon 1:13–15; 2:23, 24 or Lamentations 3:22–33"
+sun>=06-26,,date gt easter+56,B,,,psalm_c,Canticle: Lamentations 3:22–33 or Psalm 30
+sun>=06-26,,date gt easter+56,B,,,epistle,2 Corinthians 8:7–15
+sun>=06-26,,date gt easter+56,B,,,gospel,Mark 5:21–43
+sun>=06-26,,date gt easter+56,C,,,ot_s,"2 Kings 2:1–2, 6–14"
+sun>=06-26,,date gt easter+56,C,,,psalm_s,"Psalm 77:1–2, 11–20"
+sun>=06-26,,date gt easter+56,C,,,ot_c,"1 Kings 19:15–16, 19–21"
+sun>=06-26,,date gt easter+56,C,,,psalm_c,Psalm 16
+sun>=06-26,,date gt easter+56,C,,,epistle,"Galatians 5:1, 13–25"
+sun>=06-26,,date gt easter+56,C,,,gospel,Luke 9:51–62
+sun>=06-26,,date gt easter+56,A,,Second Service,psalm,Psalm 50
+sun>=06-26,,date gt easter+56,A,,Second Service,ot,1 Samuel 28:3–19
+sun>=06-26,,date gt easter+56,A,,Second Service,gospel,Luke 17:20–37
+sun>=06-26,,date gt easter+56,B,,Second Service,psalm,"Psalms (52), 53"
+sun>=06-26,,date gt easter+56,B,,Second Service,ot,Jeremiah 11:1–14
+sun>=06-26,,date gt easter+56,B,,Second Service,nt,Romans 13:1–10
+sun>=06-26,,date gt easter+56,B,,Second Service,gospel,Luke 9:51–62
+sun>=06-26,,date gt easter+56,C,,Second Service,psalm,"Psalms (59:1–6, 18–20); 60"
+sun>=06-26,,date gt easter+56,C,,Second Service,ot,Genesis 27:1–40
+sun>=06-26,,date gt easter+56,C,,Second Service,gospel,Mark 6:1–6
+sun>=06-26,,date gt easter+56,A,,Third Service,psalm,"Psalms 52, 53"
+sun>=06-26,,date gt easter+56,A,,Third Service,ot,Deuteronomy 15:1–11
+sun>=06-26,,date gt easter+56,A,,Third Service,nt,"Acts 27:(13–32), 33–44"
+sun>=06-26,,date gt easter+56,B,,Third Service,psalm,Psalm 56
+sun>=06-26,,date gt easter+56,B,,Third Service,ot,Deuteronomy 15:1–11
+sun>=06-26,,date gt easter+56,B,,Third Service,nt,"Acts 27:(13–32), 33–44"
+sun>=06-26,,date gt easter+56,C,,Third Service,psalm,Psalm 64
+sun>=06-26,,date gt easter+56,C,,Third Service,ot,Deuteronomy 15:1–11
+sun>=06-26,,date gt easter+56,C,,Third Service,nt,"Acts 27:(13–32), 33–44"
+sun>=07-03,,date gt easter+56,A,,,ot_s,"Genesis 24:34–38, 42–49, 58–67"
+sun>=07-03,,date gt easter+56,A,,,psalm_s,Psalm 45:10–17 or Canticle: Song of Solomon 2:8–13
+sun>=07-03,,date gt easter+56,A,,,ot_c,Zechariah 9:9–12
+sun>=07-03,,date gt easter+56,A,,,psalm_c,Psalm 145:8–15
+sun>=07-03,,date gt easter+56,A,,,epistle,Romans 7:15–25a
+sun>=07-03,,date gt easter+56,A,,,gospel,"Matthew 11:16–19, 25–30"
+sun>=07-03,,date gt easter+56,B,,,ot_s,"2 Samuel 5:1–5, 9–10"
+sun>=07-03,,date gt easter+56,B,,,psalm_s,Psalm 48
+sun>=07-03,,date gt easter+56,B,,,ot_c,Ezekiel 2:1–5
+sun>=07-03,,date gt easter+56,B,,,psalm_c,Psalm 123
+sun>=07-03,,date gt easter+56,B,,,epistle,2 Corinthians 12:2–10
+sun>=07-03,,date gt easter+56,B,,,gospel,Mark 6:1–13
+sun>=07-03,,date gt easter+56,C,,,ot_s,2 Kings 5:1–14
+sun>=07-03,,date gt easter+56,C,,,psalm_s,Psalm 30
+sun>=07-03,,date gt easter+56,C,,,ot_c,Isaiah 66:10–14
+sun>=07-03,,date gt easter+56,C,,,psalm_c,Psalm 66:1–8
+sun>=07-03,,date gt easter+56,C,,,epistle,"Galatians 6:(1–6), 7–16"
+sun>=07-03,,date gt easter+56,C,,,gospel,"Luke 10:1–11, 16–20"
+sun>=07-03,,date gt easter+56,A,,Second Service,psalm,"Psalms 56, (57)"
+sun>=07-03,,date gt easter+56,A,,Second Service,ot,2 Samuel 2:1–11; 3:1
+sun>=07-03,,date gt easter+56,A,,Second Service,gospel,Luke 18:31–19:10
+sun>=07-03,,date gt easter+56,B,,Second Service,psalm,"Psalms (63), 64"
+sun>=07-03,,date gt easter+56,B,,Second Service,ot,Jeremiah 20:1–11a
+sun>=07-03,,date gt easter+56,B,,Second Service,nt,Romans 14:1–17
+sun>=07-03,,date gt easter+56,B,,Second Service,gospel,"Luke 10:1–11, 16–20"
+sun>=07-03,,date gt easter+56,C,,Second Service,psalm,"Psalms 65, (70)"
+sun>=07-03,,date gt easter+56,C,,Second Service,ot,Genesis 29:1–20
+sun>=07-03,,date gt easter+56,C,,Second Service,gospel,Mark 6:7–29
+sun>=07-03,,date gt easter+56,A,,Third Service,psalm,"Psalm 55:1–15, 18–22"
+sun>=07-03,,date gt easter+56,A,,Third Service,ot,Deuteronomy 24:10–22
+sun>=07-03,,date gt easter+56,A,,Third Service,nt,Acts 28:1–16
+sun>=07-03,,date gt easter+56,B,,Third Service,psalm,Psalm 57
+sun>=07-03,,date gt easter+56,B,,Third Service,ot,Deuteronomy 24:10–22
+sun>=07-03,,date gt easter+56,B,,Third Service,nt,Acts 28:1–16
+sun>=07-03,,date gt easter+56,C,,Third Service,psalm,Psalm 74
+sun>=07-03,,date gt easter+56,C,,Third Service,ot,Deuteronomy 24:10–22
+sun>=07-03,,date gt easter+56,C,,Third Service,nt,Acts 28:1–16
+sun>=07-10,,date gt easter+56,A,,,ot_s,Genesis 25:19–34
+sun>=07-10,,date gt easter+56,A,,,psalm_s,Psalm 119:105–112
+sun>=07-10,,date gt easter+56,A,,,ot_c,Isaiah 55:10–13
+sun>=07-10,,date gt easter+56,A,,,psalm_c,"Psalm 65:(1–7), 8–13"
+sun>=07-10,,date gt easter+56,A,,,epistle,Romans 8:1–11
+sun>=07-10,,date gt easter+56,A,,,gospel,"Matthew 13:1–9, 18–23"
+sun>=07-10,,date gt easter+56,B,,,ot_s,"2 Samuel 6:1–5, 12b–19"
+sun>=07-10,,date gt easter+56,B,,,psalm_s,Psalm 24
+sun>=07-10,,date gt easter+56,B,,,ot_c,Amos 7:7–15
+sun>=07-10,,date gt easter+56,B,,,psalm_c,Psalm 85:8–13
+sun>=07-10,,date gt easter+56,B,,,epistle,Ephesians 1:3–14
+sun>=07-10,,date gt easter+56,B,,,gospel,Mark 6:14–29
+sun>=07-10,,date gt easter+56,C,,,ot_s,Amos 7:7–17
+sun>=07-10,,date gt easter+56,C,,,psalm_s,Psalm 82
+sun>=07-10,,date gt easter+56,C,,,ot_c,Deuteronomy 30:9–14
+sun>=07-10,,date gt easter+56,C,,,psalm_c,Psalm 25:1–10
+sun>=07-10,,date gt easter+56,C,,,epistle,Colossians 1:1–14
+sun>=07-10,,date gt easter+56,C,,,gospel,Luke 10:25–37
+sun>=07-10,,date gt easter+56,A,,Second Service,psalm,"Psalms 60, (63)"
+sun>=07-10,,date gt easter+56,A,,Second Service,ot,2 Samuel 7:18–29
+sun>=07-10,,date gt easter+56,A,,Second Service,gospel,Luke 19:41–20:8
+sun>=07-10,,date gt easter+56,B,,Second Service,psalm,Psalm 66
+sun>=07-10,,date gt easter+56,B,,Second Service,ot,Job 4:1; 5:6–27 or Ecclesiasticus 4:11–31
+sun>=07-10,,date gt easter+56,B,,Second Service,nt,Romans 15:14–29
+sun>=07-10,,date gt easter+56,B,,Second Service,gospel,Luke 10:25–37
+sun>=07-10,,date gt easter+56,C,,Second Service,psalm,Psalm 77
+sun>=07-10,,date gt easter+56,C,,Second Service,ot,Genesis 32:9–30
+sun>=07-10,,date gt easter+56,C,,Second Service,gospel,Mark 7:1–23
+sun>=07-10,,date gt easter+56,A,,Third Service,psalm,"Psalms 64, 65"
+sun>=07-10,,date gt easter+56,A,,Third Service,ot,Deuteronomy 28:1–14
+sun>=07-10,,date gt easter+56,A,,Third Service,nt,Acts 28:17–31
+sun>=07-10,,date gt easter+56,B,,Third Service,psalm,Psalm 65
+sun>=07-10,,date gt easter+56,B,,Third Service,ot,Deuteronomy 28:1–14
+sun>=07-10,,date gt easter+56,B,,Third Service,nt,Acts 28:17–31
+sun>=07-10,,date gt easter+56,C,,Third Service,psalm,Psalm 76
+sun>=07-10,,date gt easter+56,C,,Third Service,ot,Deuteronomy 28:1–14
+sun>=07-10,,date gt easter+56,C,,Third Service,nt,Acts 28:17–31
+sun>=07-17,,date gt easter+56,A,,,ot_s,Genesis 28:10–19a
+sun>=07-17,,date gt easter+56,A,,,psalm_s,"Psalm 139:1–11, 23, 24"
+sun>=07-17,,date gt easter+56,A,,,ot_c,"Wisdom of Solomon 12:13, 16–19 or Isaiah 44:6–8"
+sun>=07-17,,date gt easter+56,A,,,psalm_c,Psalm 86:11–17
+sun>=07-17,,date gt easter+56,A,,,epistle,Romans 8:12–25
+sun>=07-17,,date gt easter+56,A,,,gospel,"Matthew 13:24–30, 36–43"
+sun>=07-17,,date gt easter+56,B,,,ot_s,2 Samuel 7:1–14a
+sun>=07-17,,date gt easter+56,B,,,psalm_s,Psalm 89:20–37
+sun>=07-17,,date gt easter+56,B,,,ot_c,Jeremiah 23:1–6
+sun>=07-17,,date gt easter+56,B,,,psalm_c,Psalm 23
+sun>=07-17,,date gt easter+56,B,,,epistle,Ephesians 2:11–22
+sun>=07-17,,date gt easter+56,B,,,gospel,"Mark 6:30–34, 53–56"
+sun>=07-17,,date gt easter+56,C,,,ot_s,Amos 8:1–12
+sun>=07-17,,date gt easter+56,C,,,psalm_s,Psalm 52
+sun>=07-17,,date gt easter+56,C,,,ot_c,Genesis 18:1–10a
+sun>=07-17,,date gt easter+56,C,,,psalm_c,Psalm 15
+sun>=07-17,,date gt easter+56,C,,,epistle,Colossians 1:15–28
+sun>=07-17,,date gt easter+56,C,,,gospel,Luke 10:38–42
+sun>=07-17,,date gt easter+56,A,,Second Service,psalm,"Psalms 67, (70)"
+sun>=07-17,,date gt easter+56,A,,Second Service,ot,1 Kings 2:10–12; 3:16–28
+sun>=07-17,,date gt easter+56,A,,Second Service,nt,Acts 4:1–22
+sun>=07-17,,date gt easter+56,A,,Second Service,gospel,"Mark 6:30–34, 53–56"
+sun>=07-17,,date gt easter+56,B,,Second Service,psalm,Psalm 73
+sun>=07-17,,date gt easter+56,B,,Second Service,ot,Job 13:13–14:6 or Ecclesiasticus 18:1–14
+sun>=07-17,,date gt easter+56,B,,Second Service,nt,Hebrews 2:5–18
+sun>=07-17,,date gt easter+56,B,,Second Service,gospel,Luke 10:38–42
+sun>=07-17,,date gt easter+56,C,,Second Service,psalm,Psalm 81
+sun>=07-17,,date gt easter+56,C,,Second Service,ot,"Genesis 41:1–16, 25–37"
+sun>=07-17,,date gt easter+56,C,,Second Service,nt,1 Corinthians 4:8–13
+sun>=07-17,,date gt easter+56,C,,Second Service,gospel,John 4:31–35
+sun>=07-17,,date gt easter+56,A,,Third Service,psalm,Psalm 71
+sun>=07-17,,date gt easter+56,A,,Third Service,ot,Deuteronomy 30:1–10
+sun>=07-17,,date gt easter+56,A,,Third Service,nt,1 Peter 3:8–18
+sun>=07-17,,date gt easter+56,B,,Third Service,psalm,"Psalms 67, 70"
+sun>=07-17,,date gt easter+56,B,,Third Service,ot,Deuteronomy 30:1–10
+sun>=07-17,,date gt easter+56,B,,Third Service,nt,1 Peter 3:8–18
+sun>=07-17,,date gt easter+56,C,,Third Service,psalm,"Psalms 82, 100"
+sun>=07-17,,date gt easter+56,C,,Third Service,ot,Deuteronomy 30:1–10
+sun>=07-17,,date gt easter+56,C,,Third Service,nt,1 Peter 3:8–18
+sun>=07-24,,date gt easter+56,A,,,ot_s,Genesis 29:15–28
+sun>=07-24,,date gt easter+56,A,,,psalm_s,"Psalm 105:1–11, 45b or Psalm 128"
+sun>=07-24,,date gt easter+56,A,,,ot_c,1 Kings 3:5–12
+sun>=07-24,,date gt easter+56,A,,,psalm_c,Psalm 119:129–136
+sun>=07-24,,date gt easter+56,A,,,epistle,Romans 8:26–39
+sun>=07-24,,date gt easter+56,A,,,gospel,"Matthew 13:31–33, 44–52"
+sun>=07-24,,date gt easter+56,B,,,ot_s,2 Samuel 11:1–15
+sun>=07-24,,date gt easter+56,B,,,psalm_s,Psalm 14
+sun>=07-24,,date gt easter+56,B,,,ot_c,2 Kings 4:42–44
+sun>=07-24,,date gt easter+56,B,,,psalm_c,Psalm 145:10–19
+sun>=07-24,,date gt easter+56,B,,,epistle,Ephesians 3:14–21
+sun>=07-24,,date gt easter+56,B,,,gospel,John 6:1–21
+sun>=07-24,,date gt easter+56,C,,,ot_s,Hosea 1:2–10
+sun>=07-24,,date gt easter+56,C,,,psalm_s,Psalm 85
+sun>=07-24,,date gt easter+56,C,,,ot_c,Genesis 18:20–32
+sun>=07-24,,date gt easter+56,C,,,psalm_c,Psalm 138
+sun>=07-24,,date gt easter+56,C,,,epistle,"Colossians 2:6–15, (16–19)"
+sun>=07-24,,date gt easter+56,C,,,gospel,Luke 11:1–13
+sun>=07-24,,date gt easter+56,A,,Second Service,psalm,"Psalms 75, (76)"
+sun>=07-24,,date gt easter+56,A,,Second Service,ot,"1 Kings 6:11–14, 23–38"
+sun>=07-24,,date gt easter+56,A,,Second Service,nt,Acts 12:1–17
+sun>=07-24,,date gt easter+56,A,,Second Service,gospel,John 6:1–21
+sun>=07-24,,date gt easter+56,B,,Second Service,psalm,Psalm 74
+sun>=07-24,,date gt easter+56,B,,Second Service,ot,Job 19:1–27a or Ecclesiasticus 38:24–34
+sun>=07-24,,date gt easter+56,B,,Second Service,nt,Hebrews 8
+sun>=07-24,,date gt easter+56,B,,Second Service,gospel,Luke 11:1–13
+sun>=07-24,,date gt easter+56,C,,Second Service,psalm,Psalm 88
+sun>=07-24,,date gt easter+56,C,,Second Service,ot,Genesis 42:1–25
+sun>=07-24,,date gt easter+56,C,,Second Service,nt,1 Corinthians 10:1–24
+sun>=07-24,,date gt easter+56,C,,Second Service,gospel,"Matthew 13:24–30, (31–43)"
+sun>=07-24,,date gt easter+56,A,,Third Service,psalm,Psalm 77
+sun>=07-24,,date gt easter+56,A,,Third Service,ot,"Song of Solomon 2 or 1 Maccabees 2:(1–14), 15–22"
+sun>=07-24,,date gt easter+56,A,,Third Service,nt,1 Peter 4:7–14
+sun>=07-24,,date gt easter+56,B,,Third Service,psalm,Psalm 75
+sun>=07-24,,date gt easter+56,B,,Third Service,ot,"Song of Solomon 2 or 1 Maccabees 2:(1–14), 15–22"
+sun>=07-24,,date gt easter+56,B,,Third Service,nt,1 Peter 4:7–14
+sun>=07-24,,date gt easter+56,C,,Third Service,psalm,Psalm 95
+sun>=07-24,,date gt easter+56,C,,Third Service,ot,"Song of Solomon 2 or 1 Maccabees 2:(1–14), 15–22"
+sun>=07-24,,date gt easter+56,C,,Third Service,nt,1 Peter 4:7–14
+sun>=07-31,,date gt easter+56,A,,,ot_s,Genesis 32:22–31
+sun>=07-31,,date gt easter+56,A,,,psalm_s,"Psalm 17:1–7, 16"
+sun>=07-31,,date gt easter+56,A,,,ot_c,Isaiah 55:1–5
+sun>=07-31,,date gt easter+56,A,,,psalm_c,"Psalm 145:8–9, 15–22"
+sun>=07-31,,date gt easter+56,A,,,epistle,Romans 9:1–5
+sun>=07-31,,date gt easter+56,A,,,gospel,Matthew 14:13–21
+sun>=07-31,,date gt easter+56,B,,,ot_s,2 Samuel 11:26–12:13a
+sun>=07-31,,date gt easter+56,B,,,psalm_s,Psalm 51:1–13
+sun>=07-31,,date gt easter+56,B,,,ot_c,"Exodus 16:2–4, 9–15"
+sun>=07-31,,date gt easter+56,B,,,psalm_c,Psalm 78:23–29
+sun>=07-31,,date gt easter+56,B,,,epistle,Ephesians 4:1–16
+sun>=07-31,,date gt easter+56,B,,,gospel,John 6:24–35
+sun>=07-31,,date gt easter+56,C,,,ot_s,Hosea 11:1–11
+sun>=07-31,,date gt easter+56,C,,,psalm_s,"Psalm 107:1–9, 43"
+sun>=07-31,,date gt easter+56,C,,,ot_c,"Ecclesiastes 1:2, 12–14; 2:18–23"
+sun>=07-31,,date gt easter+56,C,,,psalm_c,Psalm 49:1–12
+sun>=07-31,,date gt easter+56,C,,,epistle,Colossians 3:1–11
+sun>=07-31,,date gt easter+56,C,,,gospel,Luke 12:13–21
+sun>=07-31,,date gt easter+56,A,,Second Service,psalm,Psalm 80
+sun>=07-31,,date gt easter+56,A,,Second Service,ot,1 Kings 10:1–13
+sun>=07-31,,date gt easter+56,A,,Second Service,nt,Acts 13:1–13
+sun>=07-31,,date gt easter+56,A,,Second Service,gospel,John 6:24–35
+sun>=07-31,,date gt easter+56,B,,Second Service,psalm,Psalm 88
+sun>=07-31,,date gt easter+56,B,,Second Service,ot,Job 28 or Ecclesiasticus 42:15–25
+sun>=07-31,,date gt easter+56,B,,Second Service,nt,Hebrews 11:17–31
+sun>=07-31,,date gt easter+56,B,,Second Service,gospel,Luke 12:13–21
+sun>=07-31,,date gt easter+56,C,,Second Service,psalm,Psalm 107:1–32
+sun>=07-31,,date gt easter+56,C,,Second Service,ot,Genesis 50:4–26
+sun>=07-31,,date gt easter+56,C,,Second Service,nt,1 Corinthians 14:1–19
+sun>=07-31,,date gt easter+56,C,,Second Service,gospel,Mark 6:45–52
+sun>=07-31,,date gt easter+56,A,,Third Service,psalm,Psalm 85
+sun>=07-31,,date gt easter+56,A,,Third Service,ot,Song of Solomon 5:2–16 or 1 Maccabees 3:1–12
+sun>=07-31,,date gt easter+56,A,,Third Service,nt,2 Peter 1:1–15
+sun>=07-31,,date gt easter+56,B,,Third Service,psalm,Psalm 86
+sun>=07-31,,date gt easter+56,B,,Third Service,ot,Song of Solomon 5:2–16 or 1 Maccabees 3:1–12
+sun>=07-31,,date gt easter+56,B,,Third Service,nt,2 Peter 1:1–15
+sun>=07-31,,date gt easter+56,C,,Third Service,psalm,Psalm 106:1–10
+sun>=07-31,,date gt easter+56,C,,Third Service,ot,Song of Solomon 5:2–16 or 1 Maccabees 3:1–12
+sun>=07-31,,date gt easter+56,C,,Third Service,nt,2 Peter 1:1–15
+sun>=08-07,,date gt easter+56,A,,,ot_s,"Genesis 37:1–4, 12–28"
+sun>=08-07,,date gt easter+56,A,,,psalm_s,"Psalm 105:1–6, 16–22, 45b"
+sun>=08-07,,date gt easter+56,A,,,ot_c,1 Kings 19:9–18
+sun>=08-07,,date gt easter+56,A,,,psalm_c,Psalm 85:8–13
+sun>=08-07,,date gt easter+56,A,,,epistle,Romans 10:5–15
+sun>=08-07,,date gt easter+56,A,,,gospel,Matthew 14:22–33
+sun>=08-07,,date gt easter+56,B,,,ot_s,"2 Samuel 18:5–9, 15, 31–33"
+sun>=08-07,,date gt easter+56,B,,,psalm_s,Psalm 130
+sun>=08-07,,date gt easter+56,B,,,ot_c,1 Kings 19:4–8
+sun>=08-07,,date gt easter+56,B,,,psalm_c,Psalm 34:1–8
+sun>=08-07,,date gt easter+56,B,,,epistle,Ephesians 4:25–5:2
+sun>=08-07,,date gt easter+56,B,,,gospel,"John 6:35, 41–51"
+sun>=08-07,,date gt easter+56,C,,,ot_s,"Isaiah 1:1, 10–20"
+sun>=08-07,,date gt easter+56,C,,,psalm_s,"Psalm 50:1–8, 23, 24"
+sun>=08-07,,date gt easter+56,C,,,ot_c,Genesis 15:1–6
+sun>=08-07,,date gt easter+56,C,,,psalm_c,Psalm 33:12–22
+sun>=08-07,,date gt easter+56,C,,,epistle,"Hebrews 11:1–3, 8–16"
+sun>=08-07,,date gt easter+56,C,,,gospel,Luke 12:32–40
+sun>=08-07,,date gt easter+56,A,,Second Service,psalm,Psalm 86
+sun>=08-07,,date gt easter+56,A,,Second Service,ot,1 Kings 11:41–12:20
+sun>=08-07,,date gt easter+56,A,,Second Service,nt,Acts 14:8–20
+sun>=08-07,,date gt easter+56,A,,Second Service,gospel,"John 6:35, 41–51"
+sun>=08-07,,date gt easter+56,B,,Second Service,psalm,Psalm 91
+sun>=08-07,,date gt easter+56,B,,Second Service,ot,Job 39:1–40:4 or Ecclesiasticus 43:13–33
+sun>=08-07,,date gt easter+56,B,,Second Service,nt,Hebrews 12:1–17
+sun>=08-07,,date gt easter+56,B,,Second Service,gospel,Luke 12:32–40
+sun>=08-07,,date gt easter+56,C,,Second Service,psalm,"Psalms 108, (116)"
+sun>=08-07,,date gt easter+56,C,,Second Service,ot,Isaiah 11:10–12:6
+sun>=08-07,,date gt easter+56,C,,Second Service,nt,2 Corinthians 1:1–22
+sun>=08-07,,date gt easter+56,C,,Second Service,gospel,Mark 7:24–30
+sun>=08-07,,date gt easter+56,A,,Third Service,psalm,Psalm 88
+sun>=08-07,,date gt easter+56,A,,Third Service,ot,Song of Solomon 8:5–7 or 1 Maccabees 14:4–15
+sun>=08-07,,date gt easter+56,A,,Third Service,nt,2 Peter 3:8–13
+sun>=08-07,,date gt easter+56,B,,Third Service,psalm,Psalm 90
+sun>=08-07,,date gt easter+56,B,,Third Service,ot,Song of Solomon 8:5–7 or 1 Maccabees 14:4–15
+sun>=08-07,,date gt easter+56,B,,Third Service,nt,2 Peter 3:8–13
+sun>=08-07,,date gt easter+56,C,,Third Service,psalm,Psalm 115
+sun>=08-07,,date gt easter+56,C,,Third Service,ot,Song of Solomon 8:5–7 or 1 Maccabees 14:4–15
+sun>=08-07,,date gt easter+56,C,,Third Service,nt,2 Peter 3:8–13
+sun>=08-14,,date gt easter+56,A,,,ot_s,Genesis 45:1–15
+sun>=08-14,,date gt easter+56,A,,,psalm_s,Psalm 133
+sun>=08-14,,date gt easter+56,A,,,ot_c,"Isaiah 56:1, 6–8"
+sun>=08-14,,date gt easter+56,A,,,psalm_c,Psalm 67
+sun>=08-14,,date gt easter+56,A,,,epistle,"Romans 11:1–2a, 29–32"
+sun>=08-14,,date gt easter+56,A,,,gospel,"Matthew 15:(10–20), 21–28"
+sun>=08-14,,date gt easter+56,B,,,ot_s,1 Kings 2:10–12; 3:3–14
+sun>=08-14,,date gt easter+56,B,,,psalm_s,Psalm 111
+sun>=08-14,,date gt easter+56,B,,,ot_c,Proverbs 9:1–6
+sun>=08-14,,date gt easter+56,B,,,psalm_c,Psalm 34:9–14
+sun>=08-14,,date gt easter+56,B,,,epistle,Ephesians 5:15–20
+sun>=08-14,,date gt easter+56,B,,,gospel,John 6:51–58
+sun>=08-14,,date gt easter+56,C,,,ot_s,Isaiah 5:1–7
+sun>=08-14,,date gt easter+56,C,,,psalm_s,"Psalm 80:1–2, 9–20"
+sun>=08-14,,date gt easter+56,C,,,ot_c,Jeremiah 23:23–29
+sun>=08-14,,date gt easter+56,C,,,psalm_c,Psalm 82
+sun>=08-14,,date gt easter+56,C,,,epistle,Hebrews 11:29–12:2
+sun>=08-14,,date gt easter+56,C,,,gospel,Luke 12:49–56
+sun>=08-14,,date gt easter+56,A,,Second Service,psalm,Psalm 90
+sun>=08-14,,date gt easter+56,A,,Second Service,ot,2 Kings 4:1–37
+sun>=08-14,,date gt easter+56,A,,Second Service,nt,Acts 16:1–15
+sun>=08-14,,date gt easter+56,A,,Second Service,gospel,John 6:51–58
+sun>=08-14,,date gt easter+56,B,,Second Service,psalm,"Psalms (92), 100"
+sun>=08-14,,date gt easter+56,B,,Second Service,ot,Exodus 2:23–3:10
+sun>=08-14,,date gt easter+56,B,,Second Service,nt,Hebrews 13:1–15
+sun>=08-14,,date gt easter+56,B,,Second Service,gospel,Luke 12:49–56
+sun>=08-14,,date gt easter+56,C,,Second Service,psalm,Psalm 119:17–32
+sun>=08-14,,date gt easter+56,C,,Second Service,ot,Isaiah 28:9–22
+sun>=08-14,,date gt easter+56,C,,Second Service,nt,2 Corinthians 8:1–9
+sun>=08-14,,date gt easter+56,C,,Second Service,gospel,Matthew 20:1–16
+sun>=08-14,,date gt easter+56,A,,Third Service,psalm,Psalm 92
+sun>=08-14,,date gt easter+56,A,,Third Service,ot,Jonah 1 or Ecclesiasticus 3:1–15
+sun>=08-14,,date gt easter+56,A,,Third Service,nt,2 Peter 3:14–18
+sun>=08-14,,date gt easter+56,B,,Third Service,psalm,Psalm 106:1–10
+sun>=08-14,,date gt easter+56,B,,Third Service,ot,Jonah 1 or Ecclesiasticus 3:1–15
+sun>=08-14,,date gt easter+56,B,,Third Service,nt,2 Peter 3:14–18
+sun>=08-14,,date gt easter+56,C,,Third Service,psalm,Psalm 119:33–48
+sun>=08-14,,date gt easter+56,C,,Third Service,ot,Jonah 1 or Ecclesiasticus 3:1–15
+sun>=08-14,,date gt easter+56,C,,Third Service,nt,2 Peter 3:14–18
+sun>=08-21,,date gt easter+56,A,,,ot_s,Exodus 1:8–2:10
+sun>=08-21,,date gt easter+56,A,,,psalm_s,Psalm 124
+sun>=08-21,,date gt easter+56,A,,,ot_c,Isaiah 51:1–6
+sun>=08-21,,date gt easter+56,A,,,psalm_c,Psalm 138
+sun>=08-21,,date gt easter+56,A,,,epistle,Romans 12:1–8
+sun>=08-21,,date gt easter+56,A,,,gospel,Matthew 16:13–20
+sun>=08-21,,date gt easter+56,B,,,ot_s,"1 Kings 8:(1, 6, 10–11), 22–30, 41–43"
+sun>=08-21,,date gt easter+56,B,,,psalm_s,Psalm 84
+sun>=08-21,,date gt easter+56,B,,,ot_c,"Joshua 24:1–2a, 14–18"
+sun>=08-21,,date gt easter+56,B,,,psalm_c,Psalm 34:15–22
+sun>=08-21,,date gt easter+56,B,,,epistle,Ephesians 6:10–20
+sun>=08-21,,date gt easter+56,B,,,gospel,John 6:56–69
+sun>=08-21,,date gt easter+56,C,,,ot_s,Jeremiah 1:4–10
+sun>=08-21,,date gt easter+56,C,,,psalm_s,Psalm 71:1–6
+sun>=08-21,,date gt easter+56,C,,,ot_c,Isaiah 58:9b–14
+sun>=08-21,,date gt easter+56,C,,,psalm_c,Psalm 103:1–8
+sun>=08-21,,date gt easter+56,C,,,epistle,Hebrews 12:18–29
+sun>=08-21,,date gt easter+56,C,,,gospel,Luke 13:10–17
+sun>=08-21,,date gt easter+56,A,,Second Service,psalm,Psalm 95
+sun>=08-21,,date gt easter+56,A,,Second Service,ot,2 Kings 6:8–23
+sun>=08-21,,date gt easter+56,A,,Second Service,nt,Acts 17:15–34
+sun>=08-21,,date gt easter+56,A,,Second Service,gospel,John 6:56–69
+sun>=08-21,,date gt easter+56,B,,Second Service,psalm,Psalm 116
+sun>=08-21,,date gt easter+56,B,,Second Service,ot,Exodus 4:27–5:1
+sun>=08-21,,date gt easter+56,B,,Second Service,nt,Hebrews 13:16–21
+sun>=08-21,,date gt easter+56,B,,Second Service,gospel,Luke 13:10–17
+sun>=08-21,,date gt easter+56,C,,Second Service,psalm,Psalm 119:49–72
+sun>=08-21,,date gt easter+56,C,,Second Service,ot,Isaiah 30:8–21
+sun>=08-21,,date gt easter+56,C,,Second Service,nt,2 Corinthians 9
+sun>=08-21,,date gt easter+56,C,,Second Service,gospel,Matthew 21:28–32
+sun>=08-21,,date gt easter+56,A,,Third Service,psalm,Psalm 104:1–25
+sun>=08-21,,date gt easter+56,A,,Third Service,ot,Jonah 2 or Ecclesiasticus 3:17–29
+sun>=08-21,,date gt easter+56,A,,Third Service,nt,Revelation 1
+sun>=08-21,,date gt easter+56,B,,Third Service,psalm,Psalm 115
+sun>=08-21,,date gt easter+56,B,,Third Service,ot,Jonah 2 or Ecclesiasticus 3:17–29
+sun>=08-21,,date gt easter+56,B,,Third Service,nt,Revelation 1
+sun>=08-21,,date gt easter+56,C,,Third Service,psalm,Psalm 119:73–88
+sun>=08-21,,date gt easter+56,C,,Third Service,ot,Jonah 2 or Ecclesiasticus 3:17–29
+sun>=08-21,,date gt easter+56,C,,Third Service,nt,Revelation 1
+sun>=08-28,,date gt easter+56,A,,,ot_s,Exodus 3:1–15
+sun>=08-28,,date gt easter+56,A,,,psalm_s,"Psalm 105:1–6, 23–26, 45b"
+sun>=08-28,,date gt easter+56,A,,,ot_c,Jeremiah 15:15–21
+sun>=08-28,,date gt easter+56,A,,,psalm_c,Psalm 26:1–8
+sun>=08-28,,date gt easter+56,A,,,epistle,Romans 12:9–21
+sun>=08-28,,date gt easter+56,A,,,gospel,Matthew 16:21–28
+sun>=08-28,,date gt easter+56,B,,,ot_s,Song of Solomon 2:8–13
+sun>=08-28,,date gt easter+56,B,,,psalm_s,"Psalm 45:1–2, 6–9"
+sun>=08-28,,date gt easter+56,B,,,ot_c,"Deuteronomy 4:1–2, 6–9"
+sun>=08-28,,date gt easter+56,B,,,psalm_c,Psalm 15
+sun>=08-28,,date gt easter+56,B,,,epistle,James 1:17–27
+sun>=08-28,,date gt easter+56,B,,,gospel,"Mark 7:1–8, 14, 15, 21–23"
+sun>=08-28,,date gt easter+56,C,,,ot_s,Jeremiah 2:4–13
+sun>=08-28,,date gt easter+56,C,,,psalm_s,"Psalm 81:1, 10–16"
+sun>=08-28,,date gt easter+56,C,,,ot_c,Ecclesiasticus 10:12–18 or Proverbs 25:6–7
+sun>=08-28,,date gt easter+56,C,,,psalm_c,Psalm 112
+sun>=08-28,,date gt easter+56,C,,,epistle,"Hebrews 13:1–8, 15, 16"
+sun>=08-28,,date gt easter+56,C,,,gospel,"Luke 14:1, 7–14"
+sun>=08-28,,date gt easter+56,A,,Second Service,psalm,Psalm 105:1–15
+sun>=08-28,,date gt easter+56,A,,Second Service,ot,2 Kings 6:24–25; 7:3–20
+sun>=08-28,,date gt easter+56,A,,Second Service,nt,Acts 18:1–16
+sun>=08-28,,date gt easter+56,A,,Second Service,gospel,"Mark 7:1–8, 14, 15, 21–23"
+sun>=08-28,,date gt easter+56,B,,Second Service,psalm,Psalm 119:1–16
+sun>=08-28,,date gt easter+56,B,,Second Service,ot,Exodus 12:21–27
+sun>=08-28,,date gt easter+56,B,,Second Service,gospel,Matthew 4:23–5:20
+sun>=08-28,,date gt easter+56,C,,Second Service,psalm,Psalm 119:81–96
+sun>=08-28,,date gt easter+56,C,,Second Service,ot,Isaiah 33:13–22
+sun>=08-28,,date gt easter+56,C,,Second Service,gospel,John 3:22–36
+sun>=08-28,,date gt easter+56,A,,Third Service,psalm,Psalm 107:1–32
+sun>=08-28,,date gt easter+56,A,,Third Service,ot,Jonah 3:1–9 or Ecclesiasticus 11:7–28 or Ecclesiasticus 11:19–28
+sun>=08-28,,date gt easter+56,A,,Third Service,nt,Revelation 3:14–22
+sun>=08-28,,date gt easter+56,B,,Third Service,psalm,Psalm 119:17–40
+sun>=08-28,,date gt easter+56,B,,Third Service,ot,Jonah 3:1–9 or Ecclesiasticus 11:7–28 or Ecclesiasticus 11:19–28
+sun>=08-28,,date gt easter+56,B,,Third Service,nt,Revelation 3:14–22
+sun>=08-28,,date gt easter+56,C,,Third Service,psalm,Psalm 119:161–176
+sun>=08-28,,date gt easter+56,C,,Third Service,ot,"Jonah 3:1–9 or Ecclesiasticus 11:(7–17), 18–28"
+sun>=08-28,,date gt easter+56,C,,Third Service,nt,Revelation 3:14–22
+sun>=09-04,,date gt easter+56,A,,,ot_s,Exodus 12:1–14
+sun>=09-04,,date gt easter+56,A,,,psalm_s,Psalm 149
+sun>=09-04,,date gt easter+56,A,,,ot_c,Ezekiel 33:7–11
+sun>=09-04,,date gt easter+56,A,,,psalm_c,Psalm 119:33–40
+sun>=09-04,,date gt easter+56,A,,,epistle,Romans 13:8–14
+sun>=09-04,,date gt easter+56,A,,,gospel,Matthew 18:15–20
+sun>=09-04,,date gt easter+56,B,,,ot_s,"Proverbs 22:1–2, 8, 9, 22, 23"
+sun>=09-04,,date gt easter+56,B,,,psalm_s,Psalm 125
+sun>=09-04,,date gt easter+56,B,,,ot_c,Isaiah 35:4–7a
+sun>=09-04,,date gt easter+56,B,,,psalm_c,Psalm 146
+sun>=09-04,,date gt easter+56,B,,,epistle,"James 2:1–10, (11–13), 14–17"
+sun>=09-04,,date gt easter+56,B,,,gospel,Mark 7:24–37
+sun>=09-04,,date gt easter+56,C,,,ot_s,Jeremiah 18:1–11
+sun>=09-04,,date gt easter+56,C,,,psalm_s,"Psalm 139:1–5, 12–18"
+sun>=09-04,,date gt easter+56,C,,,ot_c,Deuteronomy 30:15–20
+sun>=09-04,,date gt easter+56,C,,,psalm_c,Psalm 1
+sun>=09-04,,date gt easter+56,C,,,epistle,Philemon 1–21
+sun>=09-04,,date gt easter+56,C,,,gospel,Luke 14:25–33
+sun>=09-04,,date gt easter+56,A,,Second Service,psalm,"Psalms 108, (115)"
+sun>=09-04,,date gt easter+56,A,,Second Service,ot,Ezekiel 12:21–13:16
+sun>=09-04,,date gt easter+56,A,,Second Service,nt,Acts 19:1–20
+sun>=09-04,,date gt easter+56,A,,Second Service,gospel,Mark 7:24–37
+sun>=09-04,,date gt easter+56,B,,Second Service,psalm,Psalm 119:41–56
+sun>=09-04,,date gt easter+56,B,,Second Service,ot,Exodus 14:5–31
+sun>=09-04,,date gt easter+56,B,,Second Service,gospel,Matthew 6:1–18
+sun>=09-04,,date gt easter+56,C,,Second Service,psalm,"Psalms (120), 121"
+sun>=09-04,,date gt easter+56,C,,Second Service,ot,Isaiah 43:14–44:5
+sun>=09-04,,date gt easter+56,C,,Second Service,gospel,John 5:30–47
+sun>=09-04,,date gt easter+56,A,,Third Service,psalm,Psalm 119:17–32
+sun>=09-04,,date gt easter+56,A,,Third Service,ot,Jonah 3:10–4:11 or Ecclesiasticus 27:30–28:9
+sun>=09-04,,date gt easter+56,A,,Third Service,nt,Revelation 8:1–5
+sun>=09-04,,date gt easter+56,B,,Third Service,psalm,Psalm 119:57–72
+sun>=09-04,,date gt easter+56,B,,Third Service,ot,Jonah 3:10–4:11 or Ecclesiasticus 27:30–28:9
+sun>=09-04,,date gt easter+56,B,,Third Service,nt,Revelation 8:1–5
+sun>=09-04,,date gt easter+56,C,,Third Service,psalm,"Psalms 122, 123"
+sun>=09-04,,date gt easter+56,C,,Third Service,ot,Jonah 3:10–4:11 or Ecclesiasticus 27:30–28:9
+sun>=09-04,,date gt easter+56,C,,Third Service,nt,Revelation 8:1–5
+sun>=09-11,,date gt easter+56,A,,,ot_s,Exodus 14:19–31
+sun>=09-11,,date gt easter+56,A,,,psalm_s,"Psalm 114 or Canticle: Exodus 15:1b–11, 20, 21"
+sun>=09-11,,date gt easter+56,A,,,ot_c,Genesis 50:15–21
+sun>=09-11,,date gt easter+56,A,,,psalm_c,"Psalm 103:(1–7), 8–13"
+sun>=09-11,,date gt easter+56,A,,,epistle,Romans 14:1–12
+sun>=09-11,,date gt easter+56,A,,,gospel,Matthew 18:21–35
+sun>=09-11,,date gt easter+56,B,,,ot_s,Proverbs 1:20–33
+sun>=09-11,,date gt easter+56,B,,,psalm_s,Psalm 19 or Canticle: Wisdom of Solomon 7:26–8:1
+sun>=09-11,,date gt easter+56,B,,,ot_c,Isaiah 50:4–9a
+sun>=09-11,,date gt easter+56,B,,,psalm_c,Psalm 116:1–8
+sun>=09-11,,date gt easter+56,B,,,epistle,James 3:1–12
+sun>=09-11,,date gt easter+56,B,,,gospel,Mark 8:27–38
+sun>=09-11,,date gt easter+56,C,,,ot_s,"Jeremiah 4:11–12, 22–28"
+sun>=09-11,,date gt easter+56,C,,,psalm_s,Psalm 14
+sun>=09-11,,date gt easter+56,C,,,ot_c,Exodus 32:7–14
+sun>=09-11,,date gt easter+56,C,,,psalm_c,Psalm 51:1–11
+sun>=09-11,,date gt easter+56,C,,,epistle,1 Timothy 1:12–17
+sun>=09-11,,date gt easter+56,C,,,gospel,Luke 15:1–10
+sun>=09-11,,date gt easter+56,A,,Second Service,psalm,"Psalm 119:41–48, (49–64)"
+sun>=09-11,,date gt easter+56,A,,Second Service,ot,"Ezekiel 20:1–8, 33–44"
+sun>=09-11,,date gt easter+56,A,,Second Service,nt,Acts 20:17–38
+sun>=09-11,,date gt easter+56,A,,Second Service,gospel,Mark 8:27–38
+sun>=09-11,,date gt easter+56,B,,Second Service,psalm,Psalm 119:73–88
+sun>=09-11,,date gt easter+56,B,,Second Service,ot,Exodus 18:13–26
+sun>=09-11,,date gt easter+56,B,,Second Service,gospel,Matthew 7:1–14
+sun>=09-11,,date gt easter+56,C,,Second Service,psalm,"Psalms 124, 125"
+sun>=09-11,,date gt easter+56,C,,Second Service,ot,Isaiah 60
+sun>=09-11,,date gt easter+56,C,,Second Service,gospel,John 6:51–69
+sun>=09-11,,date gt easter+56,A,,Third Service,psalm,Psalm 119:65–88
+sun>=09-11,,date gt easter+56,A,,Third Service,ot,Isaiah 44:24–45:8
+sun>=09-11,,date gt easter+56,A,,Third Service,nt,Revelation 12:1–12
+sun>=09-11,,date gt easter+56,B,,Third Service,psalm,Psalm 119:105–120
+sun>=09-11,,date gt easter+56,B,,Third Service,ot,Isaiah 44:24–45:8
+sun>=09-11,,date gt easter+56,B,,Third Service,nt,Revelation 12:1–12
+sun>=09-11,,date gt easter+56,C,,Third Service,psalm,"Psalms 126, 127"
+sun>=09-11,,date gt easter+56,C,,Third Service,ot,Isaiah 44:24–45:8
+sun>=09-11,,date gt easter+56,C,,Third Service,nt,Revelation 12:1–12
+sun>=09-18,,date gt easter+56,A,,,ot_s,Exodus 16:2–15
+sun>=09-18,,date gt easter+56,A,,,psalm_s,"Psalm 105:1–6, 37–45"
+sun>=09-18,,date gt easter+56,A,,,ot_c,Jonah 3:10–4:11
+sun>=09-18,,date gt easter+56,A,,,psalm_c,Psalm 145:1–8
+sun>=09-18,,date gt easter+56,A,,,epistle,Philippians 1:21–30
+sun>=09-18,,date gt easter+56,A,,,gospel,Matthew 20:1–16
+sun>=09-18,,date gt easter+56,B,,,ot_s,Proverbs 31:10–31
+sun>=09-18,,date gt easter+56,B,,,psalm_s,Psalm 1
+sun>=09-18,,date gt easter+56,B,,,ot_c,"Wisdom of Solomon 1:16–2:1, 12–22 or Jeremiah 11:18–20"
+sun>=09-18,,date gt easter+56,B,,,psalm_c,Psalm 54
+sun>=09-18,,date gt easter+56,B,,,epistle,"James 3:13–4:3, 7–8a"
+sun>=09-18,,date gt easter+56,B,,,gospel,Mark 9:30–37
+sun>=09-18,,date gt easter+56,C,,,ot_s,Jeremiah 8:18–9:1
+sun>=09-18,,date gt easter+56,C,,,psalm_s,Psalm 79:1–9
+sun>=09-18,,date gt easter+56,C,,,ot_c,Amos 8:4–7
+sun>=09-18,,date gt easter+56,C,,,psalm_c,Psalm 113
+sun>=09-18,,date gt easter+56,C,,,epistle,1 Timothy 2:1–7
+sun>=09-18,,date gt easter+56,C,,,gospel,Luke 16:1–13
+sun>=09-18,,date gt easter+56,A,,Second Service,psalm,Psalm 119:113–136
+sun>=09-18,,date gt easter+56,A,,Second Service,ot,"Ezekiel 33:23, 30–34:10"
+sun>=09-18,,date gt easter+56,A,,Second Service,nt,"Acts 26:1, 9–25"
+sun>=09-18,,date gt easter+56,A,,Second Service,gospel,Mark 9:30–37
+sun>=09-18,,date gt easter+56,B,,Second Service,psalm,Psalm 119:137–152
+sun>=09-18,,date gt easter+56,B,,Second Service,ot,Exodus 19:10–25
+sun>=09-18,,date gt easter+56,B,,Second Service,gospel,Matthew 8:23–34
+sun>=09-18,,date gt easter+56,C,,Second Service,psalm,"Psalms (128), 129"
+sun>=09-18,,date gt easter+56,C,,Second Service,ot,Ezra 1
+sun>=09-18,,date gt easter+56,C,,Second Service,gospel,John 7:14–36
+sun>=09-18,,date gt easter+56,A,,Third Service,psalm,Psalm 119:153–176
+sun>=09-18,,date gt easter+56,A,,Third Service,ot,Isaiah 45:9–22
+sun>=09-18,,date gt easter+56,A,,Third Service,nt,Revelation 14:1–5
+sun>=09-18,,date gt easter+56,B,,Third Service,psalm,Psalm 119:153–176
+sun>=09-18,,date gt easter+56,B,,Third Service,ot,Isaiah 45:9–22
+sun>=09-18,,date gt easter+56,B,,Third Service,nt,Revelation 14:1–5
+sun>=09-18,,date gt easter+56,C,,Third Service,psalm,"Psalms 130, 131"
+sun>=09-18,,date gt easter+56,C,,Third Service,ot,Isaiah 45:9–22
+sun>=09-18,,date gt easter+56,C,,Third Service,nt,Revelation 14:1–5
+sun>=09-25,,date gt easter+56,A,,,ot_s,Exodus 17:1–7
+sun>=09-25,,date gt easter+56,A,,,psalm_s,"Psalm 78:1–4, 12–16"
+sun>=09-25,,date gt easter+56,A,,,ot_c,"Ezekiel 18:1–4, 25–32"
+sun>=09-25,,date gt easter+56,A,,,psalm_c,Psalm 25:1–8
+sun>=09-25,,date gt easter+56,A,,,epistle,Philippians 2:1–13
+sun>=09-25,,date gt easter+56,A,,,gospel,Matthew 21:23–32
+sun>=09-25,,date gt easter+56,B,,,ot_s,"Esther 7:1–6, 9, 10; 9:20–22"
+sun>=09-25,,date gt easter+56,B,,,psalm_s,Psalm 124
+sun>=09-25,,date gt easter+56,B,,,ot_c,"Numbers 11:4–6, 10–16, 24–29"
+sun>=09-25,,date gt easter+56,B,,,psalm_c,Psalm 19:7–14
+sun>=09-25,,date gt easter+56,B,,,epistle,James 5:13–20
+sun>=09-25,,date gt easter+56,B,,,gospel,Mark 9:38–50
+sun>=09-25,,date gt easter+56,C,,,ot_s,"Jeremiah 32:1–3a, 6–15"
+sun>=09-25,,date gt easter+56,C,,,psalm_s,"Psalm 91:1–6, 14–16"
+sun>=09-25,,date gt easter+56,C,,,ot_c,"Amos 6:1a, 4–7"
+sun>=09-25,,date gt easter+56,C,,,psalm_c,Psalm 146
+sun>=09-25,,date gt easter+56,C,,,epistle,1 Timothy 6:6–19
+sun>=09-25,,date gt easter+56,C,,,gospel,Luke 16:19–31
+sun>=09-25,,date gt easter+56,A,,Second Service,psalm,"Psalms (120, 123), 124"
+sun>=09-25,,date gt easter+56,A,,Second Service,ot,Ezekiel 37:15–28
+sun>=09-25,,date gt easter+56,A,,Second Service,nt,1 John 2:22–29
+sun>=09-25,,date gt easter+56,A,,Second Service,gospel,Mark 9:38–50
+sun>=09-25,,date gt easter+56,B,,Second Service,psalm,"Psalms 120, 121"
+sun>=09-25,,date gt easter+56,B,,Second Service,ot,Exodus 24
+sun>=09-25,,date gt easter+56,B,,Second Service,gospel,Matthew 9:1–8
+sun>=09-25,,date gt easter+56,C,,Second Service,psalm,"Psalms 134, 135"
+sun>=09-25,,date gt easter+56,C,,Second Service,ot,Nehemiah 2
+sun>=09-25,,date gt easter+56,C,,Second Service,gospel,"John 8:31–38, 48–59"
+sun>=09-25,,date gt easter+56,A,,Third Service,psalm,"Psalms 125, 126, 127"
+sun>=09-25,,date gt easter+56,A,,Third Service,ot,Isaiah 48:12–21
+sun>=09-25,,date gt easter+56,A,,Third Service,gospel,Luke 11:37–54
+sun>=09-25,,date gt easter+56,B,,Third Service,psalm,Psalm 122
+sun>=09-25,,date gt easter+56,B,,Third Service,ot,Isaiah 48:12–22
+sun>=09-25,,date gt easter+56,B,,Third Service,gospel,Luke 11:37–54
+sun>=09-25,,date gt easter+56,C,,Third Service,psalm,Psalm 132
+sun>=09-25,,date gt easter+56,C,,Third Service,ot,Isaiah 48:12–22
+sun>=09-25,,date gt easter+56,C,,Third Service,gospel,Luke 11:37–54
+sun>=10-02,,date gt easter+56,A,,,ot_s,"Exodus 20:1–4, 7–9, 12–20"
+sun>=10-02,,date gt easter+56,A,,,psalm_s,Psalm 19
+sun>=10-02,,date gt easter+56,A,,,ot_c,Isaiah 5:1–7
+sun>=10-02,,date gt easter+56,A,,,psalm_c,Psalm 80:9–17
+sun>=10-02,,date gt easter+56,A,,,epistle,Philippians 3:4b–14
+sun>=10-02,,date gt easter+56,A,,,gospel,Matthew 21:33–46
+sun>=10-02,,date gt easter+56,B,,,ot_s,Job 1:1; 2:1–10
+sun>=10-02,,date gt easter+56,B,,,psalm_s,Psalm 26
+sun>=10-02,,date gt easter+56,B,,,ot_c,Genesis 2:18–24
+sun>=10-02,,date gt easter+56,B,,,psalm_c,Psalm 8
+sun>=10-02,,date gt easter+56,B,,,epistle,Hebrews 1:1–4; 2:5–12
+sun>=10-02,,date gt easter+56,B,,,gospel,Mark 10:2–16
+sun>=10-02,,date gt easter+56,C,,,ot_s,Lamentations 1:1–6
+sun>=10-02,,date gt easter+56,C,,,psalm_s,Canticle: Lamentations 3:19–26 or Psalm 137
+sun>=10-02,,date gt easter+56,C,,,ot_c,Habakkuk 1:1–4; 2:1–4
+sun>=10-02,,date gt easter+56,C,,,psalm_c,Psalm 37:1–9
+sun>=10-02,,date gt easter+56,C,,,epistle,2 Timothy 1:1–14
+sun>=10-02,,date gt easter+56,C,,,gospel,Luke 17:5–10
+sun>=10-02,,date gt easter+56,A,,Second Service,psalm,Psalm 136
+sun>=10-02,,date gt easter+56,A,,Second Service,ot,Proverbs 2:1–11
+sun>=10-02,,date gt easter+56,A,,Second Service,nt,1 John 2:1–17
+sun>=10-02,,date gt easter+56,A,,Second Service,gospel,Mark 10:2–16
+sun>=10-02,,date gt easter+56,B,,Second Service,psalm,"Psalms 125, 126"
+sun>=10-02,,date gt easter+56,B,,Second Service,ot,Joshua 3:7–17
+sun>=10-02,,date gt easter+56,B,,Second Service,gospel,Matthew 10:1–22
+sun>=10-02,,date gt easter+56,C,,Second Service,psalm,Psalm 142
+sun>=10-02,,date gt easter+56,C,,Second Service,ot,Nehemiah 5:1–13
+sun>=10-02,,date gt easter+56,C,,Second Service,gospel,John 9
+sun>=10-02,,date gt easter+56,A,,Third Service,psalm,"Psalms 128, 129, 134"
+sun>=10-02,,date gt easter+56,A,,Third Service,ot,Isaiah 49:13–23
+sun>=10-02,,date gt easter+56,A,,Third Service,gospel,Luke 12:1–12
+sun>=10-02,,date gt easter+56,B,,Third Service,psalm,"Psalms 123, 124"
+sun>=10-02,,date gt easter+56,B,,Third Service,ot,Isaiah 49:13–23
+sun>=10-02,,date gt easter+56,B,,Third Service,gospel,Luke 12:1–12
+sun>=10-02,,date gt easter+56,C,,Third Service,psalm,Psalm 141
+sun>=10-02,,date gt easter+56,C,,Third Service,ot,Isaiah 49:13–23
+sun>=10-02,,date gt easter+56,C,,Third Service,gospel,Luke 12:1–12
+sun>=10-09,,date gt easter+56,A,,,ot_s,Exodus 32:1–14
+sun>=10-09,,date gt easter+56,A,,,psalm_s,"Psalm 106:1–6, 19–23"
+sun>=10-09,,date gt easter+56,A,,,ot_c,Isaiah 25:1–9
+sun>=10-09,,date gt easter+56,A,,,psalm_c,Psalm 23
+sun>=10-09,,date gt easter+56,A,,,epistle,Philippians 4:1–9
+sun>=10-09,,date gt easter+56,A,,,gospel,Matthew 22:1–14
+sun>=10-09,,date gt easter+56,B,,,ot_s,"Job 23:1–9, 16, 17"
+sun>=10-09,,date gt easter+56,B,,,psalm_s,Psalm 22:1–15
+sun>=10-09,,date gt easter+56,B,,,ot_c,"Amos 5:6–7, 10–15"
+sun>=10-09,,date gt easter+56,B,,,psalm_c,Psalm 90:12–17
+sun>=10-09,,date gt easter+56,B,,,epistle,Hebrews 4:12–16
+sun>=10-09,,date gt easter+56,B,,,gospel,Mark 10:17–31
+sun>=10-09,,date gt easter+56,C,,,ot_s,"Jeremiah 29:1, 4–7"
+sun>=10-09,,date gt easter+56,C,,,psalm_s,Psalm 66:1–11
+sun>=10-09,,date gt easter+56,C,,,ot_c,"2 Kings 5:1–3, 7–15c"
+sun>=10-09,,date gt easter+56,C,,,psalm_c,Psalm 111
+sun>=10-09,,date gt easter+56,C,,,epistle,2 Timothy 2:8–15
+sun>=10-09,,date gt easter+56,C,,,gospel,Luke 17:11–19
+sun>=10-09,,date gt easter+56,A,,Second Service,psalm,Psalm 139:1–18
+sun>=10-09,,date gt easter+56,A,,Second Service,ot,Proverbs 3:1–18
+sun>=10-09,,date gt easter+56,A,,Second Service,nt,1 John 3:1–15
+sun>=10-09,,date gt easter+56,A,,Second Service,gospel,Mark 10:17–31
+sun>=10-09,,date gt easter+56,B,,Second Service,psalm,"Psalms 127, (128)"
+sun>=10-09,,date gt easter+56,B,,Second Service,ot,Joshua 5:13–6:20
+sun>=10-09,,date gt easter+56,B,,Second Service,gospel,Matthew 11:20–30
+sun>=10-09,,date gt easter+56,C,,Second Service,psalm,Psalm 144
+sun>=10-09,,date gt easter+56,C,,Second Service,ot,Nehemiah 6:1–16
+sun>=10-09,,date gt easter+56,C,,Second Service,gospel,John 15:12–27
+sun>=10-09,,date gt easter+56,A,,Third Service,psalm,"Psalms 138, 141"
+sun>=10-09,,date gt easter+56,A,,Third Service,ot,Isaiah 50:4–10
+sun>=10-09,,date gt easter+56,A,,Third Service,gospel,Luke 13:22–30
+sun>=10-09,,date gt easter+56,B,,Third Service,psalm,"Psalms 129, 130"
+sun>=10-09,,date gt easter+56,B,,Third Service,ot,Isaiah 50:4–10
+sun>=10-09,,date gt easter+56,B,,Third Service,gospel,Luke 13:22–30
+sun>=10-09,,date gt easter+56,C,,Third Service,psalm,Psalm 143
+sun>=10-09,,date gt easter+56,C,,Third Service,ot,Isaiah 50:4–10
+sun>=10-09,,date gt easter+56,C,,Third Service,gospel,Luke 13:22–30
+sun>=10-16,,date gt easter+56,A,,,ot_s,Exodus 33:12–23
+sun>=10-16,,date gt easter+56,A,,,psalm_s,Psalm 99:1–9
+sun>=10-16,,date gt easter+56,A,,,ot_c,Isaiah 45:1–7
+sun>=10-16,,date gt easter+56,A,,,psalm_c,"Psalm 96:1–9, (10–13)"
+sun>=10-16,,date gt easter+56,A,,,epistle,1 Thessalonians 1:1–10
+sun>=10-16,,date gt easter+56,A,,,gospel,Matthew 22:15–22
+sun>=10-16,,date gt easter+56,B,,,ot_s,"Job 38:1–7, (34–41)"
+sun>=10-16,,date gt easter+56,B,,,psalm_s,"Psalm 104:1–10, 26, 35c"
+sun>=10-16,,date gt easter+56,B,,,ot_c,Isaiah 53:4–12
+sun>=10-16,,date gt easter+56,B,,,psalm_c,Psalm 91:9–16
+sun>=10-16,,date gt easter+56,B,,,epistle,Hebrews 5:1–10
+sun>=10-16,,date gt easter+56,B,,,gospel,Mark 10:35–45
+sun>=10-16,,date gt easter+56,C,,,ot_s,Jeremiah 31:27–34
+sun>=10-16,,date gt easter+56,C,,,psalm_s,Psalm 119:97–104
+sun>=10-16,,date gt easter+56,C,,,ot_c,Genesis 32:22–31
+sun>=10-16,,date gt easter+56,C,,,psalm_c,Psalm 121
+sun>=10-16,,date gt easter+56,C,,,epistle,2 Timothy 3:14–4:5
+sun>=10-16,,date gt easter+56,C,,,gospel,Luke 18:1–8
+sun>=10-16,,date gt easter+56,A,,Second Service,psalm,Psalms 142; (143:1–11)
+sun>=10-16,,date gt easter+56,A,,Second Service,ot,Proverbs 4:1–18
+sun>=10-16,,date gt easter+56,A,,Second Service,nt,1 John 3:16–4:6
+sun>=10-16,,date gt easter+56,A,,Second Service,gospel,Mark 10:35–45
+sun>=10-16,,date gt easter+56,B,,Second Service,psalm,Psalm 141
+sun>=10-16,,date gt easter+56,B,,Second Service,ot,Joshua 14:6–14
+sun>=10-16,,date gt easter+56,B,,Second Service,gospel,Matthew 12:1–21
+sun>=10-16,,date gt easter+56,C,,Second Service,psalm,"Psalms (146), 149"
+sun>=10-16,,date gt easter+56,C,,Second Service,ot,Nehemiah 8:9–18
+sun>=10-16,,date gt easter+56,C,,Second Service,gospel,John 16:1–11
+sun>=10-16,,date gt easter+56,A,,Third Service,psalm,"Psalms 145, 149"
+sun>=10-16,,date gt easter+56,A,,Third Service,ot,Isaiah 54:1–14
+sun>=10-16,,date gt easter+56,A,,Third Service,gospel,Luke 13:31–35
+sun>=10-16,,date gt easter+56,B,,Third Service,psalm,Psalms 133; 134; 137:1–6
+sun>=10-16,,date gt easter+56,B,,Third Service,ot,Isaiah 54:1–14
+sun>=10-16,,date gt easter+56,B,,Third Service,gospel,Luke 13:31–35
+sun>=10-16,,date gt easter+56,C,,Third Service,psalm,Psalm 147
+sun>=10-16,,date gt easter+56,C,,Third Service,ot,Isaiah 54:1–14
+sun>=10-16,,date gt easter+56,C,,Third Service,gospel,Luke 13:31–35
+sun>=10-23,,date gt easter+56,A,,,ot_s,Deuteronomy 34:1–12
+sun>=10-23,,date gt easter+56,A,,,psalm_s,"Psalm 90:1–6, 13–17"
+sun>=10-23,,date gt easter+56,A,,,ot_c,"Leviticus 19:1–2, 15–18"
+sun>=10-23,,date gt easter+56,A,,,psalm_c,Psalm 1
+sun>=10-23,,date gt easter+56,A,,,epistle,1 Thessalonians 2:1–8
+sun>=10-23,,date gt easter+56,A,,,gospel,Matthew 22:34–46
+sun>=10-23,,date gt easter+56,B,,,ot_s,"Job 42:1–6, 10–17"
+sun>=10-23,,date gt easter+56,B,,,psalm_s,"Psalm 34:1–8, 19–22"
+sun>=10-23,,date gt easter+56,B,,,ot_c,Jeremiah 31:7–9
+sun>=10-23,,date gt easter+56,B,,,psalm_c,Psalm 126
+sun>=10-23,,date gt easter+56,B,,,epistle,Hebrews 7:23–28
+sun>=10-23,,date gt easter+56,B,,,gospel,Mark 10:46–52
+sun>=10-23,,date gt easter+56,C,,,ot_s,Joel 2:23–32
+sun>=10-23,,date gt easter+56,C,,,psalm_s,Psalm 65
+sun>=10-23,,date gt easter+56,C,,,ot_c,"Ecclesiasticus 35:12–17 or Jeremiah 14:7–10, 19–22"
+sun>=10-23,,date gt easter+56,C,,,psalm_c,Psalm 84:1–7
+sun>=10-23,,date gt easter+56,C,,,epistle,"2 Timothy 4:6–8, 16–18"
+sun>=10-23,,date gt easter+56,C,,,gospel,Luke 18:9–14
+sun>=10-23,,date gt easter+56,A,,Second Service,psalm,Psalm 119:89–104
+sun>=10-23,,date gt easter+56,A,,Second Service,ot,"Ecclesiastes 11, 12"
+sun>=10-23,,date gt easter+56,A,,Second Service,nt,2 Timothy 2:1–7
+sun>=10-23,,date gt easter+56,A,,Second Service,gospel,Mark 12:28–34
+sun>=10-23,,date gt easter+56,B,,Second Service,psalm,Psalm 119:121–136
+sun>=10-23,,date gt easter+56,B,,Second Service,ot,"Ecclesiastes 11, 12"
+sun>=10-23,,date gt easter+56,B,,Second Service,nt,2 Timothy 2:1–7
+sun>=10-23,,date gt easter+56,B,,Second Service,gospel,Luke 18:9–14
+sun>=10-23,,date gt easter+56,C,,Second Service,psalm,Psalm 119:1–16
+sun>=10-23,,date gt easter+56,C,,Second Service,ot,"Ecclesiastes 11, 12"
+sun>=10-23,,date gt easter+56,C,,Second Service,nt,2 Timothy 2:1–7
+sun>=10-23,,date gt easter+56,C,,Second Service,gospel,Matthew 22:34–46
+sun>=10-23,,date gt easter+56,A,,Third Service,psalm,Psalm 119:137–152
+sun>=10-23,,date gt easter+56,A,,Third Service,ot,Isaiah 59:9–20
+sun>=10-23,,date gt easter+56,A,,Third Service,gospel,Luke 14:1–14
+sun>=10-23,,date gt easter+56,B,,Third Service,psalm,Psalm 119:89–104
+sun>=10-23,,date gt easter+56,B,,Third Service,ot,Isaiah 59:9–20
+sun>=10-23,,date gt easter+56,B,,Third Service,gospel,Luke 14:1–14
+sun>=10-23,,date gt easter+56,C,,Third Service,psalm,Psalm 119:105–128
+sun>=10-23,,date gt easter+56,C,,Third Service,ot,Isaiah 59:9–20
+sun>=10-23,,date gt easter+56,C,,Third Service,gospel,Luke 14:1–14
+next_start-35,,,A,,Bible Sunday,ot,"Nehemiah 8:1–4a, (5–6), 8–12"
+next_start-35,,,A,,Bible Sunday,psalm,Psalm 119:9–16
+next_start-35,,,A,,Bible Sunday,epistle,Colossians 3:12–17
+next_start-35,,,A,,Bible Sunday,gospel,Matthew 24:30–35
+next_start-35,,,B,,Bible Sunday,ot,Isaiah 55:1–11
+next_start-35,,,B,,Bible Sunday,psalm,Psalm 19:7–14
+next_start-35,,,B,,Bible Sunday,epistle,2 Timothy 3:14–4:5
+next_start-35,,,B,,Bible Sunday,gospel,John 5:36b–47
+next_start-35,,,C,,Bible Sunday,ot,Isaiah 45:22–25
+next_start-35,,,C,,Bible Sunday,psalm,Psalm 119:129–136
+next_start-35,,,C,,Bible Sunday,epistle,Romans 15:1–6
+next_start-35,,,C,,Bible Sunday,gospel,Luke 4:16–24
+next_start-35,,,A,,Bible Sunday: Second Service,psalm,Psalm 119:89–104
+next_start-35,,,A,,Bible Sunday: Second Service,ot,Isaiah 55:1–11
+next_start-35,,,A,,Bible Sunday: Second Service,gospel,Luke 4:14–30
+next_start-35,,,B,,Bible Sunday: Second Service,psalm,Psalm 119:1–16
+next_start-35,,,B,,Bible Sunday: Second Service,ot,2 Kings 22
+next_start-35,,,B,,Bible Sunday: Second Service,nt,Colossians 3:12–17
+next_start-35,,,B,,Bible Sunday: Second Service,gospel,Luke 4:14–30
+next_start-35,,,C,,Bible Sunday: Second Service,psalm,Psalm 119:1–16
+next_start-35,,,C,,Bible Sunday: Second Service,ot,Jeremiah 36:9–32
+next_start-35,,,C,,Bible Sunday: Second Service,nt,Romans 10:5–17
+next_start-35,,,C,,Bible Sunday: Second Service,gospel,Matthew 22:34–40
+next_start-35,,,A,,Bible Sunday: Third Service,psalm,Psalm 119:137–152
+next_start-35,,,A,,Bible Sunday: Third Service,ot,"Deuteronomy 17:14–15, 18–20"
+next_start-35,,,A,,Bible Sunday: Third Service,gospel,John 5:36b–47
+next_start-35,,,B,,Bible Sunday: Third Service,psalm,Psalm 119:89–104
+next_start-35,,,B,,Bible Sunday: Third Service,ot,Isaiah 45:22–25
+next_start-35,,,B,,Bible Sunday: Third Service,gospel,Matthew 24:30–35 or Luke 14:1–14
+next_start-35,,,C,,Bible Sunday: Third Service,psalm,Psalm 119:105–128
+next_start-35,,,C,,Bible Sunday: Third Service,ot,1 Kings 22:1–17
+next_start-35,,,C,,Bible Sunday: Third Service,nt,Romans 15:4–13 or Luke 14:1–14
+cw_all_saints_day,-1,,,,All Saints' Day: Evening Prayer on the Eve,psalm,"Psalms 1, 5"
+cw_all_saints_day,-1,,,,All Saints' Day: Evening Prayer on the Eve,ot,Ecclesiasticus 44:1–15 or Isaiah 40:27–31
+cw_all_saints_day,-1,,,,All Saints' Day: Evening Prayer on the Eve,nt,Revelation 19:6–10
+cw_all_saints_day,,,A,,All Saints' Day,ot,Revelation 7:9–17
+cw_all_saints_day,,,A,,All Saints' Day,psalm,Psalm 34:1–10
+cw_all_saints_day,,,A,,All Saints' Day,epistle,1 John 3:1–3
+cw_all_saints_day,,,A,,All Saints' Day,gospel,Matthew 5:1–12
+cw_all_saints_day,,,B,,All Saints' Day,ot,Wisdom of Solomon 3:1–9 or Isaiah 25:6–9
+cw_all_saints_day,,,B,,All Saints' Day,psalm,Psalm 24:1–6
+cw_all_saints_day,,,B,,All Saints' Day,epistle,Revelation 21:1–6a
+cw_all_saints_day,,,B,,All Saints' Day,gospel,John 11:32–44
+cw_all_saints_day,,,C,,All Saints' Day,ot,"Daniel 7:1–3, 15–18"
+cw_all_saints_day,,,C,,All Saints' Day,psalm,Psalm 149
+cw_all_saints_day,,,C,,All Saints' Day,epistle,Ephesians 1:11–23
+cw_all_saints_day,,,C,,All Saints' Day,gospel,Luke 6:20–31
+cw_all_saints_day,,,,,All Saints' Day: Second Service,psalm_evening,"Psalms 148, 150"
+cw_all_saints_day,,,,,All Saints' Day: Second Service,ot,Isaiah 65:17–25
+cw_all_saints_day,,,,,All Saints' Day: Second Service,nt,Hebrews 11:32–12:2
+cw_all_saints_day,,,,,All Saints' Day: Third Service,psalm_morning,"Psalms 15, 84, 149"
+cw_all_saints_day,,,,,All Saints' Day: Third Service,ot,Isaiah 35
+cw_all_saints_day,,,,,All Saints' Day: Third Service,gospel,Luke 9:18–27
+sun>=10-30,,date ne 11-01,A,,All Saints' Sunday,ot,Revelation 7:9–17
+sun>=10-30,,date ne 11-01,A,,All Saints' Sunday,psalm,Psalm 34:1–10
+sun>=10-30,,date ne 11-01,A,,All Saints' Sunday,epistle,1 John 3:1–3
+sun>=10-30,,date ne 11-01,A,,All Saints' Sunday,gospel,Matthew 5:1–12
+sun>=10-30,,date ne 11-01,B,,All Saints' Sunday,ot,Wisdom of Solomon 3:1–9 or Isaiah 25:6–9
+sun>=10-30,,date ne 11-01,B,,All Saints' Sunday,psalm,Psalm 24:1–6
+sun>=10-30,,date ne 11-01,B,,All Saints' Sunday,epistle,Revelation 21:1–6a
+sun>=10-30,,date ne 11-01,B,,All Saints' Sunday,gospel,John 11:32–44
+sun>=10-30,,date ne 11-01,C,,All Saints' Sunday,ot,"Daniel 7:1–3, 15–18"
+sun>=10-30,,date ne 11-01,C,,All Saints' Sunday,psalm,Psalm 149
+sun>=10-30,,date ne 11-01,C,,All Saints' Sunday,epistle,Ephesians 1:11–23
+sun>=10-30,,date ne 11-01,C,,All Saints' Sunday,gospel,Luke 6:20–31
+sun>=10-30,,date ne 11-01,,,All Saints' Sunday: Second Service,psalm_evening,"Psalms 148, 150"
+sun>=10-30,,date ne 11-01,,,All Saints' Sunday: Second Service,ot,Isaiah 65:17–25
+sun>=10-30,,date ne 11-01,,,All Saints' Sunday: Second Service,nt,Hebrews 11:32–12:2
+sun>=10-30,,date ne 11-01,,,All Saints' Sunday: Third Service,psalm_morning,"Psalms 15, 84, 149"
+sun>=10-30,,date ne 11-01,,,All Saints' Sunday: Third Service,ot,Isaiah 35
+sun>=10-30,,date ne 11-01,,,All Saints' Sunday: Third Service,gospel,Luke 9:18–27
+cw_all_saints_day,,date nwd sun,,,All Saints' Day (when All Saints is kept on the Sunday),ot,Isaiah 56:3–8 or 2 Esdras 2:42–48
+cw_all_saints_day,,date nwd sun,,,All Saints' Day (when All Saints is kept on the Sunday),psalm,Psalm 33:1–5
+cw_all_saints_day,,date nwd sun,,,All Saints' Day (when All Saints is kept on the Sunday),epistle,Hebrews 12:18–24
+cw_all_saints_day,,date nwd sun,,,All Saints' Day (when All Saints is kept on the Sunday),gospel,Matthew 5:1–12
+cw_all_saints_day,,date nwd sun,,,All Saints' Day (when All Saints is kept on the Sunday): Second Service,psalm_evening,Psalm 145
+cw_all_saints_day,,date nwd sun,,,All Saints' Day (when All Saints is kept on the Sunday): Second Service,ot,Isaiah 66:20–23
+cw_all_saints_day,,date nwd sun,,,All Saints' Day (when All Saints is kept on the Sunday): Second Service,nt,Colossians 1:9–14
+cw_all_saints_day,,date nwd sun,,,All Saints' Day (when All Saints is kept on the Sunday): Third Service,psalm_morning,"Psalms 111, 112, 117"
+cw_all_saints_day,,date nwd sun,,,All Saints' Day (when All Saints is kept on the Sunday): Third Service,ot,Wisdom of Solomon 5:1–16 or Jeremiah 31:31–34
+cw_all_saints_day,,date nwd sun,,,All Saints' Day (when All Saints is kept on the Sunday): Third Service,nt,2 Corinthians 4:5–12
+next_start-28,,,A,,,ot,Micah 3:5–12
+next_start-28,,,A,,,psalm,Psalm 43
+next_start-28,,,A,,,epistle,1 Thessalonians 2:9–13
+next_start-28,,,A,,,gospel,Matthew 24:1–14
+next_start-28,,,B,,,ot,Deuteronomy 6:1–9
+next_start-28,,,B,,,psalm,Psalm 119:1–8
+next_start-28,,,B,,,epistle,Hebrews 9:11–14
+next_start-28,,,B,,,gospel,Mark 12:28–34
+next_start-28,,,C,,,ot,Isaiah 1:10–18
+next_start-28,,,C,,,psalm,Psalm 32:1–8
+next_start-28,,,C,,,epistle,2 Thessalonians 1:1–12
+next_start-28,,,C,,,gospel,Luke 19:1–10
+next_start-28,,,A,,Second Service,psalm,"Psalms 111, 117"
+next_start-28,,,A,,Second Service,ot,Daniel 7:1–18
+next_start-28,,,A,,Second Service,gospel,Luke 6:17–31
+next_start-28,,,B,,Second Service,psalm,Psalm 145
+next_start-28,,,B,,Second Service,ot,"Daniel 2:1–48 or Daniel 2:1–11, 25–48"
+next_start-28,,,B,,Second Service,nt,Revelation 7:9–17
+next_start-28,,,B,,Second Service,gospel,Matthew 5:1–12
+next_start-28,,,C,,Second Service,psalm,Psalm 145
+next_start-28,,,C,,Second Service,ot,Lamentations 3:22–33
+next_start-28,,,C,,Second Service,gospel,"John 11:(1–31), 32–44"
+next_start-28,,,A,,Third Service,psalm,Psalm 33
+next_start-28,,,A,,Third Service,ot,Isaiah 66:20–23
+next_start-28,,,A,,Third Service,nt,Ephesians 1:11–23
+next_start-28,,,B,,Third Service,psalm,"Psalms 112, 149"
+next_start-28,,,B,,Third Service,ot,Jeremiah 31:31–34
+next_start-28,,,B,,Third Service,nt,1 John 3:1–3
+next_start-28,,,C,,Third Service,psalm,Psalm 87
+next_start-28,,,C,,Third Service,ot,Job 26
+next_start-28,,,C,,Third Service,nt,Colossians 1:9–14
+next_start-21,,,A,,,ot,Wisdom of Solomon 6:12–16 or Amos 5:18–24
+next_start-21,,,A,,,psalm,Canticle: Wisdom of Solomon 6:17–20 or Psalm 70
+next_start-21,,,A,,,epistle,1 Thessalonians 4:13–18
+next_start-21,,,A,,,gospel,Matthew 25:1–13
+next_start-21,,,B,,,ot,"Jonah 3:1–5, 10"
+next_start-21,,,B,,,psalm,Psalm 62:5–12
+next_start-21,,,B,,,epistle,Hebrews 9:24–28
+next_start-21,,,B,,,gospel,Mark 1:14–20
+next_start-21,,,C,,,ot,Job 19:23–27a
+next_start-21,,,C,,,psalm,Psalm 17:1–9
+next_start-21,,,C,,,epistle,"2 Thessalonians 2:1–5, 13–17"
+next_start-21,,,C,,,gospel,Luke 20:27–38
+next_start-21,,,A,,Second Service,psalm,"Psalms (20), 82"
+next_start-21,,,A,,Second Service,ot,Judges 7:2–22
+next_start-21,,,A,,Second Service,gospel,John 15:9–17
+next_start-21,,,B,,Second Service,psalm,"Psalms 46, (82)"
+next_start-21,,,B,,Second Service,ot,Isaiah 10:33–11:9
+next_start-21,,,B,,Second Service,gospel,John 14:1–29 or John 14:23–29
+next_start-21,,,C,,Second Service,psalm,Psalm 40
+next_start-21,,,C,,Second Service,ot,1 Kings 3:1–15
+next_start-21,,,C,,Second Service,nt,Romans 8:31–39
+next_start-21,,,C,,Second Service,gospel,Matthew 22:15–22
+next_start-21,,,A,,Third Service,psalm,Psalm 91
+next_start-21,,,A,,Third Service,ot,Deuteronomy 17:14–20
+next_start-21,,,A,,Third Service,nt,1 Timothy 2:1–7
+next_start-21,,,B,,Third Service,psalm,Psalm 136
+next_start-21,,,B,,Third Service,ot,Micah 4:1–5
+next_start-21,,,B,,Third Service,nt,Philippians 4:6–9
+next_start-21,,,C,,Third Service,psalm,"Psalms 20, 90"
+next_start-21,,,C,,Third Service,ot,Isaiah 2:1–5
+next_start-21,,,C,,Third Service,nt,James 3:13–18
+next_start-14,,,A,,,ot,"Zephaniah 1:7, 12–18"
+next_start-14,,,A,,,psalm,"Psalm 90:1–8, (9–11), 12"
+next_start-14,,,A,,,epistle,1 Thessalonians 5:1–11
+next_start-14,,,A,,,gospel,Matthew 25:14–30
+next_start-14,,,B,,,ot,Daniel 12:1–3
+next_start-14,,,B,,,psalm,Psalm 16
+next_start-14,,,B,,,epistle,"Hebrews 10:11–14, (15–18), 19–25"
+next_start-14,,,B,,,gospel,Mark 13:1–8
+next_start-14,,,C,,,ot,Malachi 4:1–2a
+next_start-14,,,C,,,psalm,Psalm 98
+next_start-14,,,C,,,epistle,2 Thessalonians 3:6–13
+next_start-14,,,C,,,gospel,Luke 21:5–19
+next_start-14,,,A,,Second Service,psalm,Psalm 89:19–37
+next_start-14,,,A,,Second Service,ot,1 Kings 1:15–40 or 1 Kings 1:1–40
+next_start-14,,,A,,Second Service,nt,Revelation 1:4–18
+next_start-14,,,A,,Second Service,gospel,Luke 9:1–6
+next_start-14,,,B,,Second Service,psalm,Psalm 95
+next_start-14,,,B,,Second Service,ot,Daniel 3 or Daniel 3:13–30
+next_start-14,,,B,,Second Service,gospel,"Matthew 13:24–30, 36–43"
+next_start-14,,,C,,Second Service,psalm,"Psalms (93), 97"
+next_start-14,,,C,,Second Service,ot,Daniel 6
+next_start-14,,,C,,Second Service,gospel,"Matthew 13:1–9, 18–23"
+next_start-14,,,A,,Third Service,psalm,Psalm 98
+next_start-14,,,A,,Third Service,ot,Daniel 10:19–21
+next_start-14,,,A,,Third Service,nt,Revelation 4
+next_start-14,,,B,,Third Service,psalm,Psalm 96
+next_start-14,,,B,,Third Service,ot,1 Samuel 9:27–10:2a; 10:17–26
+next_start-14,,,B,,Third Service,gospel,Matthew 13:31–35
+next_start-14,,,C,,Third Service,psalm,Psalm 132
+next_start-14,,,C,,Third Service,ot,1 Samuel 16:1–13
+next_start-14,,,C,,Third Service,gospel,Matthew 13:44–52
+next_start-8,,,,,Christ the King: Evening Prayer on the Eve,psalm,"Psalms 99, 100"
+next_start-8,,,,,Christ the King: Evening Prayer on the Eve,ot,Isaiah 10:33–11:9
+next_start-8,,,,,Christ the King: Evening Prayer on the Eve,nt,1 Timothy 6:11–16
+next_start-7,,,A,,,ot,"Ezekiel 34:11–16, 20–24"
+next_start-7,,,A,,,psalm,Psalm 95:1–7
+next_start-7,,,A,,,epistle,Ephesians 1:15–23
+next_start-7,,,A,,,gospel,Matthew 25:31–46
+next_start-7,,,B,,,ot,"Daniel 7:9–10, 13, 14"
+next_start-7,,,B,,,psalm,Psalm 93
+next_start-7,,,B,,,epistle,Revelation 1:4b–8
+next_start-7,,,B,,,gospel,John 18:33–37
+next_start-7,,,C,,,ot,Jeremiah 23:1–6
+next_start-7,,,C,,,psalm,Psalm 46
+next_start-7,,,C,,,epistle,Colossians 1:11–20
+next_start-7,,,C,,,gospel,Luke 23:33–43
+next_start-7,,,A,,Second Service,psalm_evening,"Psalms 93, (97)"
+next_start-7,,,A,,Second Service,ot,2 Samuel 23:1–7 or 1 Maccabees 2:15–29
+next_start-7,,,A,,Second Service,gospel,Matthew 28:16–20
+next_start-7,,,B,,Second Service,psalm_evening,Psalm 72
+next_start-7,,,B,,Second Service,ot,Daniel 5
+next_start-7,,,B,,Second Service,gospel,John 6:1–15
+next_start-7,,,C,,Second Service,psalm_evening,Psalm 72
+next_start-7,,,C,,Second Service,ot,1 Samuel 8:4–20
+next_start-7,,,C,,Second Service,gospel,John 18:33–37
+next_start-7,,,A,,Third Service,psalm_morning,"Psalms 29, 110"
+next_start-7,,,A,,Third Service,ot,Isaiah 4:2–5:7
+next_start-7,,,A,,Third Service,gospel,Luke 19:29–38
+next_start-7,,,B,,Third Service,psalm_morning,"Psalms 29, 110"
+next_start-7,,,B,,Third Service,ot,Isaiah 32:1–8
+next_start-7,,,B,,Third Service,nt,Revelation 3:7–22
+next_start-7,,,C,,Third Service,psalm_morning,"Psalms 29, 110"
+next_start-7,,,C,,Third Service,ot,Zechariah 6:9–15
+next_start-7,,,C,,Third Service,nt,Revelation 11:15–18
+cw_naming_and_circumcision_of_jesus,-1,,,,The Naming and Circumcision of Jesus: Evening Prayer on the Eve,psalm,Psalm 148
+cw_naming_and_circumcision_of_jesus,-1,,,,The Naming and Circumcision of Jesus: Evening Prayer on the Eve,ot,Jeremiah 23:1–6
+cw_naming_and_circumcision_of_jesus,-1,,,,The Naming and Circumcision of Jesus: Evening Prayer on the Eve,nt,Colossians 2:8–15
+cw_naming_and_circumcision_of_jesus,,,,,The Naming and Circumcision of Jesus,ot,Numbers 6:22–27
+cw_naming_and_circumcision_of_jesus,,,,,The Naming and Circumcision of Jesus,psalm,Psalm 8
+cw_naming_and_circumcision_of_jesus,,,,,The Naming and Circumcision of Jesus,epistle,Galatians 4:4–7
+cw_naming_and_circumcision_of_jesus,,,,,The Naming and Circumcision of Jesus,gospel,Luke 2:15–21
+cw_naming_and_circumcision_of_jesus,,,,,The Naming and Circumcision of Jesus: Second Service,psalm_evening,Psalm 115
+cw_naming_and_circumcision_of_jesus,,,,,The Naming and Circumcision of Jesus: Second Service,ot,"Deuteronomy 30:(1–10), 11–20"
+cw_naming_and_circumcision_of_jesus,,,,,The Naming and Circumcision of Jesus: Second Service,nt,Acts 3:1–16
+cw_naming_and_circumcision_of_jesus,,,,,The Naming and Circumcision of Jesus: Third Service,psalm_morning,"Psalms 103, 150"
+cw_naming_and_circumcision_of_jesus,,,,,The Naming and Circumcision of Jesus: Third Service,ot,Genesis 17:1–13
+cw_naming_and_circumcision_of_jesus,,,,,The Naming and Circumcision of Jesus: Third Service,nt,Romans 2:17–29
+cw_conversion_of_paul,-1,,,,The Conversion of Paul: Evening Prayer on the Eve,psalm,Psalm 149
+cw_conversion_of_paul,-1,,,,The Conversion of Paul: Evening Prayer on the Eve,ot,Isaiah 49:1–13
+cw_conversion_of_paul,-1,,,,The Conversion of Paul: Evening Prayer on the Eve,nt,Acts 22:3–16
+cw_conversion_of_paul,,,,,The Conversion of Paul,ot,Jeremiah 1:4–10 or Acts 9:1–22
+cw_conversion_of_paul,,,,,The Conversion of Paul,psalm,Psalm 67
+cw_conversion_of_paul,,,,,The Conversion of Paul,epistle,Acts 9:1–22 or Galatians 1:11–16a
+cw_conversion_of_paul,,,,,The Conversion of Paul,gospel,Matthew 19:27–30
+cw_conversion_of_paul,,,,,The Conversion of Paul: Second Service,psalm_evening,Psalm 119:41–56
+cw_conversion_of_paul,,,,,The Conversion of Paul: Second Service,ot,Ecclesiasticus 39:1–10 or Isaiah 56:1–8
+cw_conversion_of_paul,,,,,The Conversion of Paul: Second Service,nt,Colossians 1:24–2:7
+cw_conversion_of_paul,,,,,The Conversion of Paul: Third Service,psalm_morning,Psalms 66; 147:13–21
+cw_conversion_of_paul,,,,,The Conversion of Paul: Third Service,ot,Ezekiel 3:22–27
+cw_conversion_of_paul,,,,,The Conversion of Paul: Third Service,nt,Philippians 3:1–14
+cw_joseph_of_nazareth,-1,,,,Joseph of Nazareth: Evening Prayer on the Eve,psalm,Psalm 132
+cw_joseph_of_nazareth,-1,,,,Joseph of Nazareth: Evening Prayer on the Eve,ot,Hosea 11:1–9
+cw_joseph_of_nazareth,-1,,,,Joseph of Nazareth: Evening Prayer on the Eve,gospel,Luke 2:41–52
+cw_joseph_of_nazareth,,,,,Joseph of Nazareth,ot,2 Samuel 7:4–16
+cw_joseph_of_nazareth,,,,,Joseph of Nazareth,psalm,Psalm 89:26–36
+cw_joseph_of_nazareth,,,,,Joseph of Nazareth,epistle,Romans 4:13–18
+cw_joseph_of_nazareth,,,,,Joseph of Nazareth,gospel,Matthew 1:18–25
+cw_joseph_of_nazareth,,,,,Joseph of Nazareth: Second Service,psalm_evening,"Psalms 1, 112"
+cw_joseph_of_nazareth,,,,,Joseph of Nazareth: Second Service,ot,Genesis 50:22–26
+cw_joseph_of_nazareth,,,,,Joseph of Nazareth: Second Service,gospel,Matthew 2:13–23
+cw_joseph_of_nazareth,,,,,Joseph of Nazareth: Third Service,psalm_morning,Psalms 25; 147:1–12
+cw_joseph_of_nazareth,,,,,Joseph of Nazareth: Third Service,ot,Isaiah 11:1–10
+cw_joseph_of_nazareth,,,,,Joseph of Nazareth: Third Service,gospel,Matthew 13:54–58
+cw_annunciation_of_our_lord_to_the_blessed_virgin_mary,-1,,,,The Annunciation of Our Lord to the Blessed Virgin Mary: Evening Prayer on the Eve,psalm,Psalm 85
+cw_annunciation_of_our_lord_to_the_blessed_virgin_mary,-1,,,,The Annunciation of Our Lord to the Blessed Virgin Mary: Evening Prayer on the Eve,ot,Wisdom of Solomon 9:1–12 or Genesis 3:8–15
+cw_annunciation_of_our_lord_to_the_blessed_virgin_mary,-1,,,,The Annunciation of Our Lord to the Blessed Virgin Mary: Evening Prayer on the Eve,nt,Galatians 4:1–5
+cw_annunciation_of_our_lord_to_the_blessed_virgin_mary,,,,,The Annunciation of Our Lord to the Blessed Virgin Mary,ot,Isaiah 7:10–14
+cw_annunciation_of_our_lord_to_the_blessed_virgin_mary,,,,,The Annunciation of Our Lord to the Blessed Virgin Mary,psalm,Psalm 40:5–11
+cw_annunciation_of_our_lord_to_the_blessed_virgin_mary,,,,,The Annunciation of Our Lord to the Blessed Virgin Mary,epistle,Hebrews 10:4–10
+cw_annunciation_of_our_lord_to_the_blessed_virgin_mary,,,,,The Annunciation of Our Lord to the Blessed Virgin Mary,gospel,Luke 1:26–38
+cw_annunciation_of_our_lord_to_the_blessed_virgin_mary,,,,,The Annunciation of Our Lord to the Blessed Virgin Mary: Second Service,psalm_evening,"Psalms 131, 146"
+cw_annunciation_of_our_lord_to_the_blessed_virgin_mary,,,,,The Annunciation of Our Lord to the Blessed Virgin Mary: Second Service,ot,Isaiah 52:1–12
+cw_annunciation_of_our_lord_to_the_blessed_virgin_mary,,,,,The Annunciation of Our Lord to the Blessed Virgin Mary: Second Service,nt,Hebrews 2:5–18
+cw_annunciation_of_our_lord_to_the_blessed_virgin_mary,,,,,The Annunciation of Our Lord to the Blessed Virgin Mary: Third Service,psalm_morning,"Psalms 111, 113"
+cw_annunciation_of_our_lord_to_the_blessed_virgin_mary,,,,,The Annunciation of Our Lord to the Blessed Virgin Mary: Third Service,ot,1 Samuel 2:1–10
+cw_annunciation_of_our_lord_to_the_blessed_virgin_mary,,,,,The Annunciation of Our Lord to the Blessed Virgin Mary: Third Service,nt,Romans 5:12–21
+cw_george,-1,,,,George: Evening Prayer on the Eve,psalm,"Psalms 111, 116"
+cw_george,-1,,,,George: Evening Prayer on the Eve,ot,Jeremiah 15:15–21
+cw_george,-1,,,,George: Evening Prayer on the Eve,nt,Hebrews 11:32–12:2
+cw_george,,,,,George,ot,1 Maccabees 2:59–64 or Revelation 12:7–12
+cw_george,,,,,George,psalm,Psalm 126
+cw_george,,,,,George,epistle,2 Timothy 2:3–13
+cw_george,,,,,George,gospel,John 15:18–21
+cw_george,,,,,George: Second Service,psalm_evening,"Psalms 3, 11"
+cw_george,,,,,George: Second Service,ot,Isaiah 43:1–7
+cw_george,,,,,George: Second Service,gospel,John 15:1–8
+cw_george,,,,,George: Third Service,psalm_morning,"Psalms 5, 146"
+cw_george,,,,,George: Third Service,ot,Joshua 1:1–9
+cw_george,,,,,George: Third Service,nt,Ephesians 6:10–20
+cw_mark_the_evangelist,-1,,,,Mark the Evangelist: Evening Prayer on the Eve,psalm,Psalm 19
+cw_mark_the_evangelist,-1,,,,Mark the Evangelist: Evening Prayer on the Eve,ot,Isaiah 52:7–10
+cw_mark_the_evangelist,-1,,,,Mark the Evangelist: Evening Prayer on the Eve,gospel,Mark 1:1–15
+cw_mark_the_evangelist,,,,,Mark the Evangelist,ot,Proverbs 15:28–33 or Acts 15:35–41
+cw_mark_the_evangelist,,,,,Mark the Evangelist,psalm,Psalm 119:9–16
+cw_mark_the_evangelist,,,,,Mark the Evangelist,epistle,Ephesians 4:7–16
+cw_mark_the_evangelist,,,,,Mark the Evangelist,gospel,Mark 13:5–13
+cw_mark_the_evangelist,,,,,Mark the Evangelist: Second Service,psalm_evening,Psalm 45
+cw_mark_the_evangelist,,,,,Mark the Evangelist: Second Service,ot,Ezekiel 1:4–14
+cw_mark_the_evangelist,,,,,Mark the Evangelist: Second Service,nt,2 Timothy 4:1–11
+cw_mark_the_evangelist,,,,,Mark the Evangelist: Third Service,psalm_morning,Psalms 37:23–41; 148
+cw_mark_the_evangelist,,,,,Mark the Evangelist: Third Service,ot,Isaiah 62:6–10 or Ecclesiasticus 51:13–30
+cw_mark_the_evangelist,,,,,Mark the Evangelist: Third Service,nt,Acts 12:25–13:13
+cw_philip_and_james,-1,,,,Philip and James: Evening Prayer on the Eve,psalm,Psalm 25
+cw_philip_and_james,-1,,,,Philip and James: Evening Prayer on the Eve,ot,Isaiah 40:27–31
+cw_philip_and_james,-1,,,,Philip and James: Evening Prayer on the Eve,gospel,John 12:20–26
+cw_philip_and_james,,,,,Philip and James,ot,Isaiah 30:15–21
+cw_philip_and_james,,,,,Philip and James,psalm,Psalm 119:1–8
+cw_philip_and_james,,,,,Philip and James,epistle,Ephesians 1:3–10
+cw_philip_and_james,,,,,Philip and James,gospel,John 14:1–14
+cw_philip_and_james,,,,,Philip and James: Second Service,psalm_evening,Psalm 149
+cw_philip_and_james,,,,,Philip and James: Second Service,ot,Job 23:1–12
+cw_philip_and_james,,,,,Philip and James: Second Service,gospel,John 1:43–51
+cw_philip_and_james,,,,,Philip and James: Third Service,psalm_morning,"Psalms 139, 146"
+cw_philip_and_james,,,,,Philip and James: Third Service,ot,Proverbs 4:10–18
+cw_philip_and_james,,,,,Philip and James: Third Service,nt,James 1:1–12
+cw_matthias_the_apostle,-1,,,,Matthias the Apostle: Evening Prayer on the Eve,psalm,Psalm 147
+cw_matthias_the_apostle,-1,,,,Matthias the Apostle: Evening Prayer on the Eve,ot,Isaiah 22:15–22
+cw_matthias_the_apostle,-1,,,,Matthias the Apostle: Evening Prayer on the Eve,nt,Philippians 3:13b–4:1
+cw_matthias_the_apostle,,,,,Matthias the Apostle,ot,Isaiah 22:15–25 or Acts 1:15–26
+cw_matthias_the_apostle,,,,,Matthias the Apostle,psalm,Psalm 15
+cw_matthias_the_apostle,,,,,Matthias the Apostle,epistle,Acts 1:15–26 or 1 Corinthians 4:1–7
+cw_matthias_the_apostle,,,,,Matthias the Apostle,gospel,John 15:9–17
+cw_matthias_the_apostle,,,,,Matthias the Apostle: Second Service,psalm_evening,Psalm 80
+cw_matthias_the_apostle,,,,,Matthias the Apostle: Second Service,ot,1 Samuel 16:1–13a
+cw_matthias_the_apostle,,,,,Matthias the Apostle: Second Service,gospel,Matthew 7:15–27
+cw_matthias_the_apostle,,,,,Matthias the Apostle: Third Service,psalm_morning,Psalms 16; 147:1–12
+cw_matthias_the_apostle,,,,,Matthias the Apostle: Third Service,ot,1 Samuel 2:27–35
+cw_matthias_the_apostle,,,,,Matthias the Apostle: Third Service,nt,Acts 2:37–47
+cw_visit_of_the_blessed_virgin_mary_to_elizabeth,-1,,,,The Visit of the Blessed Virgin Mary to Elizabeth: Evening Prayer on the Eve,psalm,Psalm 45
+cw_visit_of_the_blessed_virgin_mary_to_elizabeth,-1,,,,The Visit of the Blessed Virgin Mary to Elizabeth: Evening Prayer on the Eve,ot,Song of Solomon 2:8–14
+cw_visit_of_the_blessed_virgin_mary_to_elizabeth,-1,,,,The Visit of the Blessed Virgin Mary to Elizabeth: Evening Prayer on the Eve,gospel,Luke 1:26–38
+cw_visit_of_the_blessed_virgin_mary_to_elizabeth,,,,,The Visit of the Blessed Virgin Mary to Elizabeth,ot,Zephaniah 3:14–18
+cw_visit_of_the_blessed_virgin_mary_to_elizabeth,,,,,The Visit of the Blessed Virgin Mary to Elizabeth,psalm,Psalm 113
+cw_visit_of_the_blessed_virgin_mary_to_elizabeth,,,,,The Visit of the Blessed Virgin Mary to Elizabeth,epistle,Romans 12:9–16
+cw_visit_of_the_blessed_virgin_mary_to_elizabeth,,,,,The Visit of the Blessed Virgin Mary to Elizabeth,gospel,"Luke 1:39–49, (50–56)"
+cw_visit_of_the_blessed_virgin_mary_to_elizabeth,,,,,The Visit of the Blessed Virgin Mary to Elizabeth: Second Service,psalm_evening,"Psalms 122, 127, 128"
+cw_visit_of_the_blessed_virgin_mary_to_elizabeth,,,,,The Visit of the Blessed Virgin Mary to Elizabeth: Second Service,ot,Zechariah 2:10–13
+cw_visit_of_the_blessed_virgin_mary_to_elizabeth,,,,,The Visit of the Blessed Virgin Mary to Elizabeth: Second Service,gospel,John 3:25–30
+cw_visit_of_the_blessed_virgin_mary_to_elizabeth,,,,,The Visit of the Blessed Virgin Mary to Elizabeth: Third Service,psalm_morning,"Psalms 85, 150"
+cw_visit_of_the_blessed_virgin_mary_to_elizabeth,,,,,The Visit of the Blessed Virgin Mary to Elizabeth: Third Service,ot,1 Samuel 2:1–10
+cw_visit_of_the_blessed_virgin_mary_to_elizabeth,,,,,The Visit of the Blessed Virgin Mary to Elizabeth: Third Service,gospel,Mark 3:31–35
+cw_barnabas_the_apostle,-1,,,,Barnabas the Apostle: Evening Prayer on the Eve,psalm,"Psalms 1, 15"
+cw_barnabas_the_apostle,-1,,,,Barnabas the Apostle: Evening Prayer on the Eve,ot,Isaiah 42:5–12
+cw_barnabas_the_apostle,-1,,,,Barnabas the Apostle: Evening Prayer on the Eve,nt,Acts 14:8–28
+cw_barnabas_the_apostle,,,,,Barnabas the Apostle,ot,Job 29:11–16 or Acts 11:19–30
+cw_barnabas_the_apostle,,,,,Barnabas the Apostle,psalm,Psalm 112
+cw_barnabas_the_apostle,,,,,Barnabas the Apostle,epistle,Acts 11:19–30 or Galatians 2:1–10
+cw_barnabas_the_apostle,,,,,Barnabas the Apostle,gospel,John 15:12–17
+cw_barnabas_the_apostle,,,,,Barnabas the Apostle: Second Service,psalm_evening,Psalm 147
+cw_barnabas_the_apostle,,,,,Barnabas the Apostle: Second Service,ot,Ecclesiastes 12:9–14 or Tobit 4:5–11
+cw_barnabas_the_apostle,,,,,Barnabas the Apostle: Second Service,nt,Acts 9:26–31
+cw_barnabas_the_apostle,,,,,Barnabas the Apostle: Third Service,psalm_morning,"Psalms 100, 101, 117"
+cw_barnabas_the_apostle,,,,,Barnabas the Apostle: Third Service,ot,"Jeremiah 9:23, 24"
+cw_barnabas_the_apostle,,,,,Barnabas the Apostle: Third Service,nt,Acts 4:32–37
+cw_birth_of_john_the_baptist,-1,,,,The Birth of John the Baptist: Evening Prayer on the Eve,psalm,Psalm 71
+cw_birth_of_john_the_baptist,-1,,,,The Birth of John the Baptist: Evening Prayer on the Eve,ot,"Judges 13:2–7, 24–25"
+cw_birth_of_john_the_baptist,-1,,,,The Birth of John the Baptist: Evening Prayer on the Eve,gospel,Luke 1:5–25
+cw_birth_of_john_the_baptist,,,,,The Birth of John the Baptist,ot,Isaiah 40:1–11
+cw_birth_of_john_the_baptist,,,,,The Birth of John the Baptist,psalm,Psalm 85:7–13
+cw_birth_of_john_the_baptist,,,,,The Birth of John the Baptist,epistle,Acts 13:14b–26 or Galatians 3:23–29
+cw_birth_of_john_the_baptist,,,,,The Birth of John the Baptist,gospel,"Luke 1:57–66, 80"
+cw_birth_of_john_the_baptist,,,,,The Birth of John the Baptist: Second Service,psalm_evening,"Psalms 80, 82"
+cw_birth_of_john_the_baptist,,,,,The Birth of John the Baptist: Second Service,ot,Malachi 4
+cw_birth_of_john_the_baptist,,,,,The Birth of John the Baptist: Second Service,gospel,Matthew 11:2–19
+cw_birth_of_john_the_baptist,,,,,The Birth of John the Baptist: Third Service,psalm_morning,"Psalms 50, 149"
+cw_birth_of_john_the_baptist,,,,,The Birth of John the Baptist: Third Service,ot,Ecclesiasticus 48:1–10 or Malachi 3:1–6
+cw_birth_of_john_the_baptist,,,,,The Birth of John the Baptist: Third Service,gospel,Luke 3:1–17
+cw_peter_and_paul,-1,,,,Peter and Paul: Evening Prayer on the Eve,psalm,"Psalms 66, 67"
+cw_peter_and_paul,-1,,,,Peter and Paul: Evening Prayer on the Eve,ot,Ezekiel 3:4–11
+cw_peter_and_paul,-1,,,,Peter and Paul: Evening Prayer on the Eve,nt,Galatians 1:13–2:8
+cw_peter_and_paul,,,,,Peter and Paul,ot,"Zechariah 4:1–6a, 10b–14 or Acts 12:1–11"
+cw_peter_and_paul,,,,,Peter and Paul,psalm,Psalm 125
+cw_peter_and_paul,,,,,Peter and Paul,epistle,"Acts 12:1–11 or 2 Timothy 4:6–8, 17, 18"
+cw_peter_and_paul,,,,,Peter and Paul,gospel,Matthew 16:13–19
+cw_peter_and_paul,,,,,Peter and Paul: Second Service,psalm_evening,"Psalms 124, 138"
+cw_peter_and_paul,,,,,Peter and Paul: Second Service,ot,Ezekiel 34:11–16
+cw_peter_and_paul,,,,,Peter and Paul: Second Service,gospel,John 21:15–22
+cw_peter_and_paul,,,,,Peter and Paul: Third Service,psalm_morning,"Psalms 71, 113"
+cw_peter_and_paul,,,,,Peter and Paul: Third Service,ot,Isaiah 49:1–6
+cw_peter_and_paul,,,,,Peter and Paul: Third Service,nt,Acts 11:1–18
+cw_peter_and_paul,-1,,,,Peter (where celebrated alone): Evening Prayer on the Eve,psalm,"Psalms 66, 67"
+cw_peter_and_paul,-1,,,,Peter (where celebrated alone): Evening Prayer on the Eve,ot,Ezekiel 3:4–11
+cw_peter_and_paul,-1,,,,Peter (where celebrated alone): Evening Prayer on the Eve,nt,Acts 9:32–43
+cw_peter_and_paul,,,,,Peter (where celebrated alone),ot,Ezekiel 3:22–27 or Acts 12:1–11
+cw_peter_and_paul,,,,,Peter (where celebrated alone),psalm,Psalm 125
+cw_peter_and_paul,,,,,Peter (where celebrated alone),epistle,Acts 12:1–11 or 1 Peter 2:19–25
+cw_peter_and_paul,,,,,Peter (where celebrated alone),gospel,Matthew 16:13–19
+cw_peter_and_paul,,,,,Peter (where celebrated alone): Second Service,psalm_evening,"Psalms 124, 138"
+cw_peter_and_paul,,,,,Peter (where celebrated alone): Second Service,ot,Ezekiel 34:11–16
+cw_peter_and_paul,,,,,Peter (where celebrated alone): Second Service,gospel,John 21:15–22
+cw_peter_and_paul,,,,,Peter (where celebrated alone): Third Service,psalm_morning,"Psalms 71, 113"
+cw_peter_and_paul,,,,,Peter (where celebrated alone): Third Service,ot,Isaiah 49:1–6
+cw_peter_and_paul,,,,,Peter (where celebrated alone): Third Service,nt,Acts 11:1–18
+cw_thomas_the_apostle,-1,,,,Thomas the Apostle: Evening Prayer on the Eve,psalm,Psalm 27
+cw_thomas_the_apostle,-1,,,,Thomas the Apostle: Evening Prayer on the Eve,ot,Isaiah 35
+cw_thomas_the_apostle,-1,,,,Thomas the Apostle: Evening Prayer on the Eve,nt,Hebrews 10:35–11:1
+cw_thomas_the_apostle,,,,,Thomas the Apostle,ot,Habakkuk 2:1–4
+cw_thomas_the_apostle,,,,,Thomas the Apostle,psalm,Psalm 31:1–6
+cw_thomas_the_apostle,,,,,Thomas the Apostle,epistle,Ephesians 2:19–22
+cw_thomas_the_apostle,,,,,Thomas the Apostle,gospel,John 20:24–29
+cw_thomas_the_apostle,,,,,Thomas the Apostle: Second Service,psalm_evening,Psalm 139
+cw_thomas_the_apostle,,,,,Thomas the Apostle: Second Service,ot,Job 42:1–6
+cw_thomas_the_apostle,,,,,Thomas the Apostle: Second Service,nt,1 Peter 1:3–12
+cw_thomas_the_apostle,,,,,Thomas the Apostle: Third Service,psalm_morning,"Psalms 92, 146"
+cw_thomas_the_apostle,,,,,Thomas the Apostle: Third Service,ot,2 Samuel 15:17–21 or Ecclesiasticus 2
+cw_thomas_the_apostle,,,,,Thomas the Apostle: Third Service,gospel,John 11:1–16
+cw_mary_magdalene,-1,,,,Mary Magdalene: Evening Prayer on the Eve,psalm,Psalm 139
+cw_mary_magdalene,-1,,,,Mary Magdalene: Evening Prayer on the Eve,ot,Isaiah 25:1–9
+cw_mary_magdalene,-1,,,,Mary Magdalene: Evening Prayer on the Eve,nt,2 Corinthians 1:3–7
+cw_mary_magdalene,,,,,Mary Magdalene,ot,Song of Solomon 3:1–4
+cw_mary_magdalene,,,,,Mary Magdalene,psalm,Psalm 42:1–10
+cw_mary_magdalene,,,,,Mary Magdalene,epistle,2 Corinthians 5:14–17
+cw_mary_magdalene,,,,,Mary Magdalene,gospel,"John 20:1–2, 11–18"
+cw_mary_magdalene,,,,,Mary Magdalene: Second Service,psalm_evening,Psalm 63
+cw_mary_magdalene,,,,,Mary Magdalene: Second Service,ot,Zephaniah 3:14–20
+cw_mary_magdalene,,,,,Mary Magdalene: Second Service,gospel,Mark 15:40–16:7
+cw_mary_magdalene,,,,,Mary Magdalene: Third Service,psalm_morning,"Psalms 30, 32, 150"
+cw_mary_magdalene,,,,,Mary Magdalene: Third Service,ot,1 Samuel 16:14–23
+cw_mary_magdalene,,,,,Mary Magdalene: Third Service,gospel,Luke 8:1–3
+cw_james_the_apostle,-1,,,,James the Apostle: Evening Prayer on the Eve,psalm,Psalm 144
+cw_james_the_apostle,-1,,,,James the Apostle: Evening Prayer on the Eve,ot,Deuteronomy 30:11–20
+cw_james_the_apostle,-1,,,,James the Apostle: Evening Prayer on the Eve,gospel,Mark 5:21–43
+cw_james_the_apostle,,,,,James the Apostle,ot,Jeremiah 45:1–5 or Acts 11:27–12:2
+cw_james_the_apostle,,,,,James the Apostle,psalm,Psalm 126
+cw_james_the_apostle,,,,,James the Apostle,epistle,Acts 11:27–12:2 or 2 Corinthians 4:7–15
+cw_james_the_apostle,,,,,James the Apostle,gospel,Matthew 20:20–28
+cw_james_the_apostle,,,,,James the Apostle: Second Service,psalm_evening,Psalm 94
+cw_james_the_apostle,,,,,James the Apostle: Second Service,ot,Jeremiah 26:1–15
+cw_james_the_apostle,,,,,James the Apostle: Second Service,gospel,Mark 1:14–20
+cw_james_the_apostle,,,,,James the Apostle: Third Service,psalm_morning,"Psalms 7, 29, 117"
+cw_james_the_apostle,,,,,James the Apostle: Third Service,ot,2 Kings 1:9–15
+cw_james_the_apostle,,,,,James the Apostle: Third Service,gospel,Luke 9:46–56
+cw_transfiguration_of_our_lord,-1,,,,The Transfiguration of Our Lord: Evening Prayer on the Eve,psalm,"Psalms 99, 110"
+cw_transfiguration_of_our_lord,-1,,,,The Transfiguration of Our Lord: Evening Prayer on the Eve,ot,Exodus 24:12–18
+cw_transfiguration_of_our_lord,-1,,,,The Transfiguration of Our Lord: Evening Prayer on the Eve,gospel,John 12:27–36a
+cw_transfiguration_of_our_lord,,,,,The Transfiguration of Our Lord,ot,"Daniel 7:9, 10, 13, 14"
+cw_transfiguration_of_our_lord,,,,,The Transfiguration of Our Lord,psalm,Psalm 97
+cw_transfiguration_of_our_lord,,,,,The Transfiguration of Our Lord,epistle,2 Peter 1:16–19
+cw_transfiguration_of_our_lord,,,,,The Transfiguration of Our Lord,gospel,Luke 9:28–36
+cw_transfiguration_of_our_lord,,,,,The Transfiguration of Our Lord: Second Service,psalm_evening,Psalm 72
+cw_transfiguration_of_our_lord,,,,,The Transfiguration of Our Lord: Second Service,ot,Exodus 34:29–35
+cw_transfiguration_of_our_lord,,,,,The Transfiguration of Our Lord: Second Service,nt,2 Corinthians 3
+cw_transfiguration_of_our_lord,,,,,The Transfiguration of Our Lord: Third Service,psalm_morning,"Psalms 27, 150"
+cw_transfiguration_of_our_lord,,,,,The Transfiguration of Our Lord: Third Service,ot,Ecclesiasticus 48:1–10 or 1 Kings 19:1–16
+cw_transfiguration_of_our_lord,,,,,The Transfiguration of Our Lord: Third Service,nt,1 John 3:1–3
+cw_blessed_virgin_mary,-1,,,,The Blessed Virgin Mary: Evening Prayer on the Eve,psalm,Psalm 72
+cw_blessed_virgin_mary,-1,,,,The Blessed Virgin Mary: Evening Prayer on the Eve,ot,Proverbs 8:22–31
+cw_blessed_virgin_mary,-1,,,,The Blessed Virgin Mary: Evening Prayer on the Eve,gospel,John 19:23–27
+cw_blessed_virgin_mary,,,,,The Blessed Virgin Mary,ot,"Isaiah 61:10, 11 or Revelation 11:19–12:6, 10"
+cw_blessed_virgin_mary,,,,,The Blessed Virgin Mary,psalm,Psalm 45:10–17
+cw_blessed_virgin_mary,,,,,The Blessed Virgin Mary,epistle,Galatians 4:4–7
+cw_blessed_virgin_mary,,,,,The Blessed Virgin Mary,gospel,Luke 1:46–55
+cw_blessed_virgin_mary,,,,,The Blessed Virgin Mary: Second Service,psalm_evening,Psalm 132
+cw_blessed_virgin_mary,,,,,The Blessed Virgin Mary: Second Service,ot,Song of Solomon 2:1–7
+cw_blessed_virgin_mary,,,,,The Blessed Virgin Mary: Second Service,nt,Acts 1:6–14
+cw_blessed_virgin_mary,,,,,The Blessed Virgin Mary: Third Service,psalm_morning,Psalms 98; 138; 147:1–12
+cw_blessed_virgin_mary,,,,,The Blessed Virgin Mary: Third Service,ot,Isaiah 7:10–15
+cw_blessed_virgin_mary,,,,,The Blessed Virgin Mary: Third Service,gospel,"Luke 11:27, 28"
+cw_bartholomew_the_apostle,-1,,,,Bartholomew the Apostle: Evening Prayer on the Eve,psalm,Psalm 97
+cw_bartholomew_the_apostle,-1,,,,Bartholomew the Apostle: Evening Prayer on the Eve,ot,Isaiah 61:1–9
+cw_bartholomew_the_apostle,-1,,,,Bartholomew the Apostle: Evening Prayer on the Eve,nt,2 Corinthians 6:1–10
+cw_bartholomew_the_apostle,,,,,Bartholomew the Apostle,ot,Isaiah 43:8–13 or Acts 5:12–16
+cw_bartholomew_the_apostle,,,,,Bartholomew the Apostle,psalm,Psalm 145:1–7
+cw_bartholomew_the_apostle,,,,,Bartholomew the Apostle,epistle,Acts 5:12–16 or 1 Corinthians 4:9–15
+cw_bartholomew_the_apostle,,,,,Bartholomew the Apostle,gospel,Luke 22:24–30
+cw_bartholomew_the_apostle,,,,,Bartholomew the Apostle: Second Service,psalm_evening,"Psalms 91, 116"
+cw_bartholomew_the_apostle,,,,,Bartholomew the Apostle: Second Service,ot,Ecclesiasticus 39:1–10 or Deuteronomy 18:15–19
+cw_bartholomew_the_apostle,,,,,Bartholomew the Apostle: Second Service,gospel,Matthew 10:1–22
+cw_bartholomew_the_apostle,,,,,Bartholomew the Apostle: Third Service,psalm_morning,"Psalms 86, 117"
+cw_bartholomew_the_apostle,,,,,Bartholomew the Apostle: Third Service,ot,Genesis 28:10–17
+cw_bartholomew_the_apostle,,,,,Bartholomew the Apostle: Third Service,gospel,John 1:43–51
+cw_holy_cross_day,-1,,,,Holy Cross Day: Evening Prayer on the Eve,psalm,Psalm 66
+cw_holy_cross_day,-1,,,,Holy Cross Day: Evening Prayer on the Eve,ot,Isaiah 52:13–53:12
+cw_holy_cross_day,-1,,,,Holy Cross Day: Evening Prayer on the Eve,nt,Ephesians 2:11–22
+cw_holy_cross_day,,,,,Holy Cross Day,ot,Numbers 21:4–9
+cw_holy_cross_day,,,,,Holy Cross Day,psalm,Psalm 22:23–28
+cw_holy_cross_day,,,,,Holy Cross Day,epistle,Philippians 2:6–11
+cw_holy_cross_day,,,,,Holy Cross Day,gospel,John 3:13–17
+cw_holy_cross_day,,,,,Holy Cross Day: Second Service,psalm_evening,"Psalms 110, 150"
+cw_holy_cross_day,,,,,Holy Cross Day: Second Service,ot,Isaiah 63:1–16
+cw_holy_cross_day,,,,,Holy Cross Day: Second Service,nt,1 Corinthians 1:18–25
+cw_holy_cross_day,,,,,Holy Cross Day: Third Service,psalm_morning,"Psalms 2, 8, 146"
+cw_holy_cross_day,,,,,Holy Cross Day: Third Service,ot,Genesis 3:1–15
+cw_holy_cross_day,,,,,Holy Cross Day: Third Service,gospel,John 12:27–36a
+cw_matthew,-1,,,,Matthew: Evening Prayer on the Eve,psalm,Psalm 34
+cw_matthew,-1,,,,Matthew: Evening Prayer on the Eve,ot,Isaiah 33:13–17
+cw_matthew,-1,,,,Matthew: Evening Prayer on the Eve,gospel,Matthew 6:19–34
+cw_matthew,,,,,Matthew,ot,Proverbs 3:13–18
+cw_matthew,,,,,Matthew,psalm,Psalm 119:65–72
+cw_matthew,,,,,Matthew,epistle,2 Corinthians 4:1–6
+cw_matthew,,,,,Matthew,gospel,Matthew 9:9–13
+cw_matthew,,,,,Matthew: Second Service,psalm_evening,"Psalm 119:33–40, 89–96"
+cw_matthew,,,,,Matthew: Second Service,ot,Ecclesiastes 5:4–12
+cw_matthew,,,,,Matthew: Second Service,gospel,Matthew 19:16–30
+cw_matthew,,,,,Matthew: Third Service,psalm_morning,"Psalms 49, 117"
+cw_matthew,,,,,Matthew: Third Service,ot,1 Kings 19:15–21
+cw_matthew,,,,,Matthew: Third Service,nt,2 Timothy 3:14–17
+cw_michael_and_all_angels,-1,,,,Michael and All Angels: Evening Prayer on the Eve,psalm,Psalm 91
+cw_michael_and_all_angels,-1,,,,Michael and All Angels: Evening Prayer on the Eve,ot,2 Kings 6:8–17
+cw_michael_and_all_angels,-1,,,,Michael and All Angels: Evening Prayer on the Eve,gospel,"Matthew 18:1–6, 10"
+cw_michael_and_all_angels,,,,,Michael and All Angels,ot,Genesis 28:10–17 or Revelation 12:7–12
+cw_michael_and_all_angels,,,,,Michael and All Angels,psalm,Psalm 103:19–22
+cw_michael_and_all_angels,,,,,Michael and All Angels,epistle,Revelation 12:7–12 or Hebrews 1:5–14
+cw_michael_and_all_angels,,,,,Michael and All Angels,gospel,John 1:47–51
+cw_michael_and_all_angels,,,,,Michael and All Angels: Second Service,psalm_evening,"Psalms 138, 148"
+cw_michael_and_all_angels,,,,,Michael and All Angels: Second Service,ot,Daniel 10:4–21
+cw_michael_and_all_angels,,,,,Michael and All Angels: Second Service,nt,Revelation 5
+cw_michael_and_all_angels,,,,,Michael and All Angels: Third Service,psalm_morning,"Psalms 34, 150"
+cw_michael_and_all_angels,,,,,Michael and All Angels: Third Service,ot,Tobit 12:6–22 or Daniel 12:1–4
+cw_michael_and_all_angels,,,,,Michael and All Angels: Third Service,nt,Acts 12:1–11
+cw_luke_the_evangelist,-1,,,,Luke the Evangelist: Evening Prayer on the Eve,psalm,Psalm 33
+cw_luke_the_evangelist,-1,,,,Luke the Evangelist: Evening Prayer on the Eve,ot,Hosea 6:1–3
+cw_luke_the_evangelist,-1,,,,Luke the Evangelist: Evening Prayer on the Eve,nt,2 Timothy 3:10–17
+cw_luke_the_evangelist,,,,,Luke the Evangelist,ot,Isaiah 35:3–6 or Acts 16:6–12a
+cw_luke_the_evangelist,,,,,Luke the Evangelist,psalm,Psalm 147:1–7
+cw_luke_the_evangelist,,,,,Luke the Evangelist,epistle,2 Timothy 4:5–17
+cw_luke_the_evangelist,,,,,Luke the Evangelist,gospel,Luke 10:1–9
+cw_luke_the_evangelist,,,,,Luke the Evangelist: Second Service,psalm_evening,Psalm 103
+cw_luke_the_evangelist,,,,,Luke the Evangelist: Second Service,ot,Ecclesiasticus 38:1–14 or Isaiah 61:1–6
+cw_luke_the_evangelist,,,,,Luke the Evangelist: Second Service,nt,Colossians 4:7–18
+cw_luke_the_evangelist,,,,,Luke the Evangelist: Third Service,psalm_morning,"Psalms 145, 146"
+cw_luke_the_evangelist,,,,,Luke the Evangelist: Third Service,ot,Isaiah 55
+cw_luke_the_evangelist,,,,,Luke the Evangelist: Third Service,gospel,Luke 1:1–4
+cw_simon_and_jude,-1,,,,Simon and Jude: Evening Prayer on the Eve,psalm,"Psalms 124, 125, 126"
+cw_simon_and_jude,-1,,,,Simon and Jude: Evening Prayer on the Eve,ot,Deuteronomy 32:1–4
+cw_simon_and_jude,-1,,,,Simon and Jude: Evening Prayer on the Eve,gospel,John 14:15–26
+cw_simon_and_jude,,,,,Simon and Jude,ot,Isaiah 28:14–16
+cw_simon_and_jude,,,,,Simon and Jude,psalm,Psalm 119:89–96
+cw_simon_and_jude,,,,,Simon and Jude,epistle,Ephesians 2:19–22
+cw_simon_and_jude,,,,,Simon and Jude,gospel,John 15:17–27
+cw_simon_and_jude,,,,,Simon and Jude: Second Service,psalm_evening,Psalm 119:1–16
+cw_simon_and_jude,,,,,Simon and Jude: Second Service,ot,1 Maccabees 2:42–66 or Jeremiah 3:11–18
+cw_simon_and_jude,,,,,Simon and Jude: Second Service,nt,"Jude 1–4, 17–25"
+cw_simon_and_jude,,,,,Simon and Jude: Third Service,psalm_morning,"Psalms 116, 117"
+cw_simon_and_jude,,,,,Simon and Jude: Third Service,ot,Wisdom of Solomon 5:1–16 or Isaiah 45:18–26
+cw_simon_and_jude,,,,,Simon and Jude: Third Service,gospel,Luke 6:12–16
+cw_andrew_the_apostle,-1,,,,Andrew the Apostle: Evening Prayer on the Eve,psalm,Psalm 48
+cw_andrew_the_apostle,-1,,,,Andrew the Apostle: Evening Prayer on the Eve,ot,Isaiah 49:1–9a
+cw_andrew_the_apostle,-1,,,,Andrew the Apostle: Evening Prayer on the Eve,nt,1 Corinthians 4:9–16
+cw_andrew_the_apostle,,,,,Andrew the Apostle,ot,Isaiah 52:7–10
+cw_andrew_the_apostle,,,,,Andrew the Apostle,psalm,Psalm 19:1–6
+cw_andrew_the_apostle,,,,,Andrew the Apostle,epistle,Romans 10:12–18
+cw_andrew_the_apostle,,,,,Andrew the Apostle,gospel,Matthew 4:18–22
+cw_andrew_the_apostle,,,,,Andrew the Apostle: Second Service,psalm_evening,"Psalms 87, 96"
+cw_andrew_the_apostle,,,,,Andrew the Apostle: Second Service,ot,Zechariah 8:20–23
+cw_andrew_the_apostle,,,,,Andrew the Apostle: Second Service,gospel,John 1:35–42
+cw_andrew_the_apostle,,,,,Andrew the Apostle: Third Service,psalm_morning,Psalms 47; 147:1–12
+cw_andrew_the_apostle,,,,,Andrew the Apostle: Third Service,ot,Ezekiel 47:1–12 or Ecclesiasticus 14:20–27
+cw_andrew_the_apostle,,,,,Andrew the Apostle: Third Service,gospel,John 12:20–32
+cw_stephen,,,,,Stephen,ot,2 Chronicles 24:20–22 or Acts 7:51–60
+cw_stephen,,,,,Stephen,psalm,Psalm 119:161–168
+cw_stephen,,,,,Stephen,epistle,Acts 7:51–60 or Galatians 2:16b–20
+cw_stephen,,,,,Stephen,gospel,Matthew 10:17–22
+cw_stephen,,,,,Stephen: Second Service,psalm_evening,"Psalms 57, 86"
+cw_stephen,,,,,Stephen: Second Service,ot,Genesis 4:1–10
+cw_stephen,,,,,Stephen: Second Service,gospel,Matthew 23:34–39
+cw_stephen,,,,,Stephen: Third Service,psalm_morning,Psalms 13; 31:1–8; 150
+cw_stephen,,,,,Stephen: Third Service,ot,Jeremiah 26:12–15
+cw_stephen,,,,,Stephen: Third Service,nt,Acts 6
+cw_john,,,,,John,ot,Exodus 33:7–11a
+cw_john,,,,,John,psalm,Psalm 117
+cw_john,,,,,John,epistle,1 John 1
+cw_john,,,,,John,gospel,John 21:19b–25
+cw_john,,,,,John: Second Service,psalm_evening,Psalm 97
+cw_john,,,,,John: Second Service,ot,Isaiah 6:1–8
+cw_john,,,,,John: Second Service,nt,1 John 5:1–12
+cw_john,,,,,John: Third Service,psalm_morning,Psalms 21; 147:13–21
+cw_john,,,,,John: Third Service,ot,Exodus 33:12–23
+cw_john,,,,,John: Third Service,nt,1 John 2:1–11
+cw_holy_innocents,,,,,The Holy Innocents,ot,Jeremiah 31:15–17
+cw_holy_innocents,,,,,The Holy Innocents,psalm,Psalm 124
+cw_holy_innocents,,,,,The Holy Innocents,epistle,1 Corinthians 1:26–29
+cw_holy_innocents,,,,,The Holy Innocents,gospel,Matthew 2:13–18
+cw_holy_innocents,,,,,The Holy Innocents: Second Service,psalm_evening,"Psalms 123, 128"
+cw_holy_innocents,,,,,The Holy Innocents: Second Service,ot,Isaiah 49:14–25
+cw_holy_innocents,,,,,The Holy Innocents: Second Service,gospel,Mark 10:13–16
+cw_holy_innocents,,,,,The Holy Innocents: Third Service,psalm_morning,"Psalms 36, 146"
+cw_holy_innocents,,,,,The Holy Innocents: Third Service,ot,Baruch 4:21–27 or Genesis 37:13–20
+cw_holy_innocents,,,,,The Holy Innocents: Third Service,gospel,Matthew 18:1–10

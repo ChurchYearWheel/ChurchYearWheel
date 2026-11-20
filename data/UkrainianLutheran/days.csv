@@ -1,0 +1,53 @@
+id,variant,when,date,from,to,every,first,count,first2,count2,title,names,notes,latin,color,color_bottom,rank,style,icon,claims,yield,full_name
+# ===========================================================================,,,,,,,,,,,,,,,,,,,,,,
+"# The year of the Ukrainian Lutheran Church: Byzantine in its Lent, Easter and",,,,,,,,,,,,,,,,,,,,,,
+"# Sundays after the Trinity, Lutheran in beginning with Advent (the church New",,,,,,,,,,,,,,,,,,,,,,
+"# Year) and ending with the Sundays of the Last Judgment, the Saints Triumphant",,,,,,,,,,,,,,,,,,,,,,
+# and Christ the King.  From its 2016 calendar and the lectionaries of its 2003,,,,,,,,,,,,,,,,,,,,,,
+"# service book, as the Kharkiv parish of All Saints publishes them.",,,,,,,,,,,,,,,,,,,,,,
+# ===========================================================================,,,,,,,,,,,,,,,,,,,,,,
+# Advent: the church New Year (Церковне новоліття).,,,,,,,,,,,,,,,,,,,,,,
+advent,,,,start,start+27,sun,1,,,,{name} неділя Церковного новоліття,1-ша|2-га|3-тя|4-та,,,,,,,,,,{ordinal} Sunday of the Church New Year (Advent)
+forefathers,,,sun>=12-11,,,,,,,,Неділя Праотців,,,,,,,,,TRUE,,Sunday of the Forefathers
+before_nativity,,,sun>=12-18,,,,,,,,Неділя перед Різдвом,,,,,,,,,TRUE,,Sunday before the Nativity
+christmas_eve,,,12-24,,,,,,,,Надвечір'я Різдва,,,,WHITE,,,,,,,Christmas Eve
+christmas,,,12-25,,,,,,,,Різдво Христове,,,,WHITE,,,,,,,The Nativity of Christ
+christmas_2,,,12-26,,,,,,,,Другий день Різдва,,,,WHITE,,,,,,,Second Day of Christmas
+after_christmas,,date le 12-31,sun>12-25,,,,,,,,Неділя по Різдві,,,,,,,,,TRUE,,Sunday after the Nativity
+year_end,,,12-31,,,,,,,,Закінчення року,,,,,,,,,,,End of the Year
+circumcision,,,01-01,,,,,,,,Обрізання Господнє,,,,WHITE,,,,,,,The Circumcision of the Lord (New Year)
+before_theophany,,date ge 01-01,sun<01-06,,,,,,,,Неділя перед Богоявленням,,,,,,,,,TRUE,,Sunday before the Theophany
+theophany,,,01-06,,,,,,,,Хрищення Господнє,,,,WHITE,,,,,,,Theophany: the Baptism of the Lord
+after_theophany,,,sun>01-06,,,,,,,,Неділя по Богоявленні,,,,,,,,,TRUE,,Sunday after the Theophany
+# The Sundays after the Trinity run on from last year's Pentecost.,,,,,,,,,,,,,,,,,,,,,,
+after_trinity_old,,,,@after_theophany+7,easter-71,sun,prev_easter+49,,,,Неділя {number} по Трійці,,,,,,,,,,,Sunday {number} after the Trinity
+# Before the Great Fast.,,,,,,,,,,,,,,,,,,,,,,
+publican,,,easter-70,,,,,,,,Неділя Митаря та Фарисея,,,,,,,,,TRUE,,Sunday of the Publican and the Pharisee
+prodigal,,,easter-63,,,,,,,,Неділя Блудного Сина,,,,,,,,,TRUE,,Sunday of the Prodigal Son
+meatfare,,,easter-56,,,,,,,,Неділя М'ясопусна,,,,,,,,,TRUE,,Meatfare Sunday
+forgiveness,,,easter-49,,,,,,,,Прощенна неділя,,,,,,,,,TRUE,,Forgiveness Sunday (Cheesefare)
+lent_begins,,,easter-48,,,,,,,,Початок Великого посту,,,,,,,,,,,The Great Fast begins
+ash_wednesday,,,easter-46,,,,,,,,Покаянна середа,,,,,,,,,,,Ash Wednesday
+lent,,,,easter-42,easter-14,sun,1,,,,{name} неділя Чотиридесятниці,1-ша|2-га|3-тя|4-та|5-та,,,,,,,,,,{ordinal} Sunday of the Forty Days
+cross_wednesday,,,easter-25,,,,,,,,Середа-Поклони,,,,,,,,,,,Wednesday of the Veneration of the Cross
+palm_sunday,,,easter-7,,,,,,,,Вербна неділя,,,,,,,,,TRUE,,Palm Sunday: the Entry of the Lord into Jerusalem
+maundy_thursday,,,easter-3,,,,,,,,Великий Четвер,,,,WHITE,,,,,,,Holy Thursday: the Lord's Supper
+good_friday,,,easter-2,,,,,,,,Велика П'ятниця,,,,BLACK,,,,,,,Good Friday
+holy_saturday,,,easter-1,,,,,,,,Велика Субота,,,,,,,,,,,Holy Saturday
+easter,,,easter,,,,,,,,Великдень,,,,WHITE,,,,,TRUE,,The Resurrection of our Lord Jesus Christ (Easter)
+easter_monday,,,easter+1,,,,,,,,Великий Понеділок,,,,WHITE,,,,,,,Easter Monday
+easter_tuesday,,,easter+2,,,,,,,,Великий Вівторок,,,,WHITE,,,,,,,Easter Tuesday
+thomas,,,easter+7,,,,,,,,Неділя Хоми,,,,,,,,,TRUE,,Sunday of Thomas
+myrrhbearers,,,easter+14,,,,,,,,Неділя Мироносиць,,,,,,,,,TRUE,,Sunday of the Myrrhbearers
+paralytic,,,easter+21,,,,,,,,Неділя Розслабленого,,,,,,,,,TRUE,,Sunday of the Paralytic
+samaritan,,,easter+28,,,,,,,,Неділя Самарянки,,,,,,,,,TRUE,,Sunday of the Samaritan Woman
+blind,,,easter+35,,,,,,,,Неділя Сліпородженого,,,,,,,,,TRUE,,Sunday of the Man Born Blind
+ascension,,,easter+39,,,,,,,,Вознесіння Господнє,,,,WHITE,,,,,,,The Ascension of the Lord
+after_ascension,,,easter+42,,,,,,,,Неділя по Вознесінні,,,,,,,,,TRUE,,Sunday after the Ascension
+pentecost,,,easter+49,,,,,,,,П'ятидесятниця,,,,RED,,,,,TRUE,,Pentecost: the Descent of the Holy Spirit
+trinity,,,easter+50,,,,,,,,День Святої Трійці,,,,RED,,,,,,,Day of the Holy Trinity (Pentecost Monday)
+after_trinity,,,,easter+56,end,sun,easter+49,,,,Неділя {number} по Трійці,,,,,,,,,,,Sunday {number} after the Trinity
+# The end of the church year.,,,,,,,,,,,,,,,,,,,,,,
+last_judgment,,,next_start-21,,,,,,,,Неділя Останнього Суду,,,,,,,,,TRUE,,Sunday of the Last Judgment
+saints_triumphant,,,next_start-14,,,,,,,,Неділя торжествуючих святих,,,,,,,,,TRUE,,Sunday of the Saints Triumphant
+christ_the_king,,,next_start-7,,,,,,,,Неділя Христа-Царя,,,,WHITE,,,,,TRUE,,Christ the King: the last Sunday of the church year

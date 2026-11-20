@@ -1,0 +1,6 @@
+name,fill,text
+# These churches prescribe no cycle of colors.  The wheel shows the feasts,,
+"# and their seasons in white, the time between them in gold, the fasts in",,
+# violet and Holy Week in black.,,
+GOLD,#e8b923,#000000
+VIOLET,#5b3a6e,#ffffff

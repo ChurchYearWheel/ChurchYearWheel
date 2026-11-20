@@ -1,0 +1,11 @@
+id,date,name,full_name,rank,style,color_override,color_override_bottom,icon,icon_when,transfer,variant,when,action
+,02-06,Waitangi Day,,12,optional_memorial,,,,,,,,
+sts_paul_miki_and_companions,02-07,,Saint Paul Miki and companions,10,memorial,-,,,,,,,
+st_patrick,,,"Saint Patrick, bishop",8,feast_rank,WHITE,,,,,,,
+st_mark,04-26,,"Saint Mark, apostle",7,feast_rank,RED,,,,,,,
+,04-27,St. Louis Grignon de Montfort,"Saint Louis Grignon de Montfort, priest",12,optional_memorial,,,,,,,,
+st_peter_chanel,,,"Saint Peter Chanel, priest and martyr",8,feast_rank,RED,,,,,,,
+,05-24,"Our Lady, Help of Christians",,11,memorial,,,,,,,,
+,06-06,St. Marcellin Champagnat,"Saint Marcellin Champagnat, priest",12,optional_memorial,,,,,,,,
+st_dominic,08-03,,"Saint Dominic, priest",10,memorial,-,,,,,,,
+,08-08,St. Mary MacKillop,"Saint Mary MacKillop, virgin",8,feast_rank,WHITE,,,,,,,

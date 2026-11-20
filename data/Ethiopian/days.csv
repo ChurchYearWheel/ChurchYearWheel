@@ -1,0 +1,42 @@
+id,variant,when,date,from,to,every,first,count,first2,count2,title,names,notes,latin,color,color_bottom,rank,style,icon,claims,yield,full_name
+# ===========================================================================,,,,,,,,,,,,,,,,,,,,,,
+"# The year of the Ethiopian and Eritrean Orthodox Tewahedo Churches, by the",,,,,,,,,,,,,,,,,,,,,,
+# Ethiopian calendar: ethiopian(05-11) is 11 Tir.  Easter is by the Alexandrian,,,,,,,,,,,,,,,,,,,,,,
+"# rule, the same as the Orthodox.  The eight Sundays of the Great Fast are named",,,,,,,,,,,,,,,,,,,,,,
+# in Ge'ez as the church names them.,,,,,,,,,,,,,,,,,,,,,,
+# ===========================================================================,,,,,,,,,,,,,,,,,,,,,,
+enkutatash,,,ethiopian(01-01),,,,,,,,Enkutatash,,,,WHITE,,,,,,,"Enkutatash: the New Year, and St John the Baptist (1 Meskerem)"
+demera,,,ethiopian(01-16),,,,,,,,Demera,,,,,,,,,,,Demera: the eve of Meskel
+meskel,,,ethiopian(01-17),,,,,,,,Meskel,,,,WHITE,,,,,,,Meskel: the Finding of the True Cross (17 Meskerem)
+hidar_tsion,,,ethiopian(03-21),,,,,,,,Hidar Tsion,,,,,,,,,,,Hidar Tsion: St Mary of Zion (21 Hidar)
+advent_fast,,,ethiopian(03-15),,,,,,,,Tsome Nebiyat begins,,,,,,,,,,,The Fast of the Prophets begins (15 Hidar; 44 days to Genna)
+genna,,,julian(12-25),,,,,,,,Genna,,,,WHITE,,,,,,,Genna: the Nativity of Christ (29 Tahsas)
+ketera,,,@timket-1,,,,,,,,Ketera,,,,,,,,,,,Ketera: the eve of Timket
+timket,,,ethiopian(05-11),,,,,,,,Timket,,,,WHITE,,,,,,,Timket: the Baptism of Christ (11 Tir)
+gizret,,,ethiopian(05-06),,,,,,,,Gizret,,,,,,,,,,,Gizret: the Circumcision of Christ (6 Tir)
+cana,,,ethiopian(05-12),,,,,,,,Kana Zegalila,,,,,,,,,,,The Wedding at Cana (12 Tir)
+nineveh,,,easter-69,,,,,,,,Tsome Nenewe,,,,,,,,,,,"The Fast of Nineveh, Monday to Wednesday"
+zewerede,,,easter-56,,,,,,,,Zewerede,,,,,,,,,TRUE,,"Zewerede: ""He who came down"" (Lent begins tomorrow)"
+lent_begins,,,easter-55,,,,,,,,Abiy Tsom begins,,,,,,,,,,,Abiy Tsom (Hudade): the Great Fast
+kidist,,,easter-49,,,,,,,,Kidist,,,,,,,,,TRUE,,"Kidist: ""Holy"""
+mekurab,,,easter-42,,,,,,,,Mekurab,,,,,,,,,TRUE,,"Mekurab: ""The Temple"""
+metsagu,,,easter-35,,,,,,,,Metsagu,,,,,,,,,TRUE,,"Metsagu: ""The Paralytic"""
+debre_zeit,,,easter-28,,,,,,,,Debre Zeit,,,,,,,,,TRUE,,"Debre Zeit: ""The Mount of Olives"", the middle of the fast"
+gebre_her,,,easter-21,,,,,,,,Gebre Her,,,,,,,,,TRUE,,"Gebre Her: ""The Good Servant"""
+nikodimos,,,easter-14,,,,,,,,Nikodimos,,,,,,,,,TRUE,,Nikodimos: Nicodemus
+hosanna,,,easter-7,,,,,,,,Hosanna,,,,WHITE,,,,,TRUE,,Hosanna: Palm Sunday
+tselote_hamus,,,easter-3,,,,,,,,Tselote Hamus,,,,,,,,,,,Tselote Hamus: Maundy Thursday
+siklet,,,easter-2,,,,,,,,Siklet,,,,BLACK,,,,,,,Siklet: the Crucifixion (Good Friday)
+kidame_sur,,,easter-1,,,,,,,,Kidame Sur,,,,BLACK,WHITE,,,,,,Kidame Sur: Holy Saturday
+fasika,,,easter,,,,,,,,Fasika,,,,WHITE,,,,,TRUE,,Fasika: the Resurrection
+thomas,,,easter+7,,,,,,,,Dagmawi Tinsae,,,,,,,,,TRUE,,Dagmawi Tinsae: the second Resurrection Sunday (Thomas Sunday)
+erget,,,easter+39,,,,,,,,Erget,,,,WHITE,,,,,,,Erget: the Ascension
+paraclete,,,easter+49,,,,,,,,Paraclete,,,,WHITE,,,,,TRUE,,Paraclete (Piraklitos): Pentecost
+rikbe_kahinat,,,easter+24,,,,,,,,Rikbe Kahinat,,,,,,,,,,,Rikbe Kahinat: the Assembly of the Priests
+apostles_fast,,,easter+50,,,,,,,,Tsome Hawaryat begins,,,,,,,,,,,The Fast of the Apostles begins
+megabit_meskel,,,ethiopian(07-10),,,,,,,,Megabit Meskel,,,,,,,,,,,Megabit Meskel: the finding of the Holy Cross by St Helena (10 Megabit)
+annunciation,,,ethiopian(07-29),,,,,,,,Annunciation,,,,WHITE,,,,,,,Tsinset (Bisrate Gabriel): the Annunciation (29 Megabit)
+apostles,,,ethiopian(11-05),,,,,,,,Feast of the Apostles,,,,,,,,,,,Peter and Paul (5 Hamle); the Fast of the Apostles ends
+filseta_fast,,,ethiopian(12-01),,,,,,,,Tsome Filseta begins,,,,,,,,,,,The Fast of the Assumption begins (1 Nehase)
+debre_tabor,,,ethiopian(12-13),,,,,,,,Debre Tabor,,,,WHITE,,,,,,,Debre Tabor (Buhe): the Transfiguration (13 Nehase)
+filseta,,,ethiopian(12-16),,,,,,,,Filseta,,,,WHITE,,,,,,,Filseta: the Assumption of the Virgin Mary (16 Nehase)

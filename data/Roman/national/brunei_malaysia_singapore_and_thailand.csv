@@ -1,0 +1,6 @@
+id,date,name,full_name,rank,style,color_override,color_override_bottom,icon,icon_when,transfer,variant,when,action
+,02-14,Dedication of the Cathedral at Singapore,Dedication of the Cathedral at Singapore (in Singapore),8,feast_rank,WHITE,,,,,,,
+,06-19,St. Philip Minh and Companions,"Saint Philip Minh and companions, martyrs (in Brunei, Malaysia and Singapore)",11,memorial,,,,,,,,
+,09-20,Sts. Laurent Imbert and Jacques Chastan and Companions,"Saints Laurent Imbert, bishop, Jacques Chastan, priest, and companions, martyrs (in Brunei and Singapore)",11,memorial,,,,,,,,
+st_francis_xavier,,,"Saint Francis Xavier, priest",8,feast_rank,WHITE,,,,,,,
+,12-16,Bl. Martyrs of Songkhon,Blessed Martyrs of Songkhon (at Thailand),12,optional_memorial,,,,,,,,

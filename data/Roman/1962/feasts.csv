@@ -1,0 +1,276 @@
+id,date,name,full_name,rank,style,color_override,color_override_bottom,icon,icon_when,transfer,variant,when,link
+# ===========================================================================,,,,,,,,,,,,,
+"# The General Roman Calendar of 1960, from the Acta Apostolicae Sedis as",,,,,,,,,,,,,
+"# Wikipedia transcribes it.  Class I feasts rank 3, II class 7 (feasts of the",,,,,,,,,,,,,
+"# Lord 5), III class 10, commemorations 12.",,,,,,,,,,,,,
+# ===========================================================================,,,,,,,,,,,,,
+st_telesphorus_0105,01-05,St. Telesphorus,"St. Telesphorus, Pope and Martyr",12,optional_memorial,,,,,,,,
+st_hyginus_0111,01-11,St. Hyginus,"St. Hyginus, Pope and Martyr",12,optional_memorial,,,,,,,,
+st_hilary_0114,01-14,St. Hilary,"St. Hilary, Bishop, Confessor and Doctor; commemoration of St. Felix, Priest and Martyr",10,memorial,,,,,,,,
+st_paul_the_first_hermit_0115,01-15,St. Paul the First Hermit,"St. Paul the First Hermit, Confessor; commemoration of St. Maurus, Abbot",10,memorial,,,,,,,,
+st_marcellus_i_0116,01-16,St. Marcellus I,"St. Marcellus I, Pope and Martyr",10,memorial,,,,,,,,
+st_anthony_0117,01-17,St. Anthony,"St. Anthony, Abbot",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-anthony/
+st_prisca_0118,01-18,St. Prisca,"St. Prisca, Virgin and Martyr",12,optional_memorial,,,,,,,,
+ss_marius_martha_audifax_and_abachum_0119,01-19,"Ss. Marius, Martha, Audifax and Abachum","Ss. Marius, Martha, Audifax and Abachum, Martyrs; commemoration of St. Canute, Martyr",12,optional_memorial,,,,,,,,
+ss_fabian_and_sebastian_0120,01-20,Ss. Fabian and Sebastian,"Ss. Fabian, Pope, and Sebastian, Martyrs",10,memorial,,,,,,,,
+st_agnes_0121,01-21,St. Agnes,"St. Agnes, Virgin and Martyr",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-agnes/
+ss_vincent_and_anastasius_0122,01-22,Ss. Vincent and Anastasius,"Ss. Vincent and Anastasius, Martyrs",10,memorial,,,,,,,,
+st_raymund_of_pe_afort_0123,01-23,St. Raymund of Peñafort,"St. Raymund of Peñafort, Confessor; commemoration of St. Emerentiana, Virgin and Martyr",10,memorial,,,,,,,,
+st_timothy_0124,01-24,St. Timothy,"St. Timothy, Bishop and Martyr",10,memorial,,,,,,,,
+conversion_of_st_paul_0125,01-25,Conversion of St. Paul,"The Conversion of St. Paul, Apostle; commemoration of St. Peter",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/the-conversion-of-saint-paul-the-apostle/
+st_polycarp_0126,01-26,St. Polycarp,"St. Polycarp, Bishop and Martyr",10,memorial,,,,,,,,
+st_john_chrysostom_0127,01-27,St. John Chrysostom,"St. John Chrysostom, Bishop, Confessor and Doctor",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-john-chrysostom/
+st_peter_nolasco_0128,01-28,St. Peter Nolasco,"St. Peter Nolasco, Confessor; commemoration of St. Agnes the second time",10,memorial,,,,,,,,
+st_francis_de_sales_0129,01-29,St. Francis de Sales,"St. Francis de Sales, Bishop, Confessor and Doctor",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-francis-de-sales/
+st_martina_0130,01-30,St. Martina,"St. Martina, Virgin and Martyr",10,memorial,,,,,,,,
+st_john_bosco_0131,01-31,St. John Bosco,"St. John Bosco, Confessor",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-john-bosco/
+st_ignatius_of_antioch_0201,02-01,St. Ignatius of Antioch,"St. Ignatius, Bishop and Martyr",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-ignatius-of-antioch/
+purification_of_the_bvm_0202,02-02,Purification of the BVM,The Purification of the Blessed Virgin Mary (Candlemas),7,feast_rank,WHITE,,,,,,,
+st_blase_0203,02-03,St. Blase,"St. Blase, Bishop and Martyr",12,optional_memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-blase/
+st_andrew_corsini_0204,02-04,St. Andrew Corsini,"St. Andrew Corsini, Bishop and Confessor",10,memorial,,,,,,,,
+st_agatha_0205,02-05,St. Agatha,"St. Agatha, Virgin and Martyr",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-agatha/
+st_titus_0206,02-06,St. Titus,"St. Titus, Bishop and Confessor; commemoration of St. Dorothy, Virgin and Martyr",10,memorial,,,,,,,,
+st_romuald_0207,02-07,St. Romuald,"St. Romuald, Abbot",10,memorial,,,,,,,,
+st_john_of_matha_0208,02-08,St. John of Matha,"St. John of Matha, Confessor",10,memorial,,,,,,,,
+st_cyril_of_alexandria_0209,02-09,St. Cyril of Alexandria,"St. Cyril of Alexandria, Bishop, Confessor and Doctor; commemoration of St. Apollonia, Virgin and Martyr",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-cyril-of-alexandria/
+st_scholastica_0210,02-10,St. Scholastica,"St. Scholastica, Virgin",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-scholastica/
+our_lady_of_lourdes_0211,02-11,Our Lady of Lourdes,The Apparition of the Blessed Virgin Mary Immaculate,10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/our-lady-of-lourdes/
+seven_holy_founders_0212,02-12,Seven Holy Founders,"The Seven Holy Founders of the Servite Order, Confessors",10,memorial,,,,,,,,
+st_valentine_0214,02-14,St. Valentine,"St. Valentine, Priest and Martyr",12,optional_memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-valentine/
+ss_faustinus_and_jovita_0215,02-15,Ss. Faustinus and Jovita,"Ss. Faustinus and Jovita, Martyrs",12,optional_memorial,,,,,,,,
+st_simeon_0218,02-18,St. Simeon,"St. Simeon, Bishop and Martyr",12,optional_memorial,,,,,,,,
+chair_of_st_peter_0222,02-22,Chair of St. Peter,The Chair of St. Peter; commemoration of St. Paul,7,feast_rank,WHITE,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/chair-of-peter/
+st_peter_damian_0223,02-23,St. Peter Damian,"St. Peter Damian, Bishop, Confessor and Doctor",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-peter-damian/
+st_matthias_0224,02-24,St. Matthias,"St. Matthias, Apostle (25 February in a leap year)",7,feast_rank,RED,,,,,,02-28+1 eq 03-01,
+st_matthias_0224_leap,02-25,St. Matthias,"St. Matthias, Apostle (25 February in a leap year)",7,feast_rank,RED,,,,,,02-28+1 ne 03-01,
+st_gabriel_of_our_lady_of_sorrows_0227,02-27,St. Gabriel of Our Lady of Sorrows,"St. Gabriel of Our Lady of Sorrows, Confessor (28 February in a leap year)",10,memorial,,,,,,,02-28+1 eq 03-01,
+st_gabriel_of_our_lady_of_sorrows_0227_leap,02-28,St. Gabriel of Our Lady of Sorrows,"St. Gabriel of Our Lady of Sorrows, Confessor (28 February in a leap year)",10,memorial,,,,,,,02-28+1 ne 03-01,
+st_casimir_0304,03-04,St. Casimir,"St. Casimir, Confessor; commemoration of St. Lucius I, Pope and Martyr",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-casimir/
+ss_perpetua_and_felicity_0306,03-06,Ss. Perpetua and Felicity,"Ss. Perpetua and Felicity, Martyrs",10,memorial,,,,,,,,
+st_thomas_aquinas_0307,03-07,St. Thomas Aquinas,"St. Thomas Aquinas, Confessor and Doctor",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-thomas-aquinas/
+st_john_of_god_0308,03-08,St. John of God,"St. John of God, Confessor",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-john-of-god/
+st_frances_of_rome_0309,03-09,St. Frances of Rome,"St. Frances of Rome, Widow",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-frances-of-rome/
+forty_holy_martyrs_0310,03-10,Forty Holy Martyrs,The Forty Holy Martyrs,10,memorial,,,,,,,,
+st_gregory_the_great_0312,03-12,St. Gregory the Great,"St. Gregory I, Pope, Confessor and Doctor",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-gregory-the-great/
+st_patrick_0317,03-17,St. Patrick,"St. Patrick, Bishop and Confessor",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-patrick-389-461/
+st_cyril_of_jerusalem_0318,03-18,St. Cyril of Jerusalem,"St. Cyril of Jerusalem, Bishop, Confessor and Doctor",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-cyril-of-jerusalem/
+st_joseph_0319,03-19,St. Joseph,"St. Joseph, Spouse of the Blessed Virgin Mary, Confessor, Patron of the Universal Church",3,solemnity,WHITE,,obligation,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-joseph/
+st_benedict_0321,03-21,St. Benedict,"St. Benedict, Abbot",10,memorial,,,,,,,,
+st_gabriel_the_archangel_0324,03-24,St. Gabriel the Archangel,,10,memorial,,,,,,,,
+annunciation_0325,03-25,Annunciation,The Annunciation of the Blessed Virgin Mary,3,solemnity,WHITE,,,,,,,
+st_john_damascene_0327,03-27,St. John Damascene,"St. John Damascene, Confessor and Doctor",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-john-of-damascus-late-600s-mid-700s/
+st_john_capistran_0328,03-28,St. John Capistran,"St. John Capistran, Confessor",10,memorial,,,,,,,,
+st_francis_of_paola_0402,04-02,St. Francis of Paola,"St. Francis of Paola, Confessor",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-francis-of-paola/
+st_isidore_0404,04-04,St. Isidore,"St. Isidore, Bishop, Confessor and Doctor",10,memorial,,,,,,,,
+st_vincent_ferrer_0405,04-05,St. Vincent Ferrer,"St. Vincent Ferrer, Confessor",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-vincent-ferrer/
+st_leo_the_great_0411,04-11,St. Leo the Great,"St. Leo I, Pope, Confessor and Doctor",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-leo-the-great/
+st_hermenegild_0413,04-13,St. Hermenegild,"St. Hermenegild, Martyr",10,memorial,,,,,,,,
+st_justin_0414,04-14,St. Justin,"St. Justin, Martyr; commemoration of Ss. Tiburtius, Valerian and Maximus, Martyrs",10,memorial,,,,,,,,
+st_anicetus_0417,04-17,St. Anicetus,"St. Anicetus, Pope and Martyr",12,optional_memorial,,,,,,,,
+st_anselm_0421,04-21,St. Anselm,"St. Anselm, Bishop, Confessor and Doctor",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-anselm/
+ss_soter_and_caius_0422,04-22,Ss. Soter and Caius,"Ss. Soter and Caius, Popes and Martyrs",10,memorial,,,,,,,,
+st_george_0423,04-23,St. George,"St. George, Martyr",12,optional_memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-george/
+st_fidelis_of_sigmaringen_0424,04-24,St. Fidelis of Sigmaringen,"St. Fidelis of Sigmaringen, Martyr",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-fidelis-of-sigmaringen/
+st_mark_0425,04-25,St. Mark,"St. Mark, Evangelist; the Greater Litanies",7,feast_rank,RED,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-mark/
+ss_cletus_and_marcellinus_0426,04-26,Ss. Cletus and Marcellinus,"Ss. Cletus and Marcellinus, Popes and Martyrs",10,memorial,,,,,,,,
+st_peter_canisius_0427,04-27,St. Peter Canisius,"St. Peter Canisius, Confessor and Doctor",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-peter-canisius/
+st_paul_of_the_cross_0428,04-28,St. Paul of the Cross,"St. Paul of the Cross, Confessor",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-paul-of-the-cross/
+st_peter_of_verona_0429,04-29,St. Peter of Verona,St. Peter Martyr,10,memorial,,,,,,,,
+st_catherine_of_siena_0430,04-30,St. Catherine of Siena,"St. Catherine of Siena, Virgin",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-catherine-of-siena-1347-1380/
+st_joseph_the_workman_0501,05-01,St. Joseph the Workman,"St. Joseph the Workman, Spouse of the Blessed Virgin Mary, Confessor",3,solemnity,WHITE,,,,,,,
+st_athanasius_0502,05-02,St. Athanasius,"St. Athanasius, Bishop, Confessor and Doctor",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-athanasius/
+ss_alexander_eventius_and_theodulus_0503,05-03,"Ss. Alexander, Eventius and Theodulus","Ss. Alexander, Eventius and Theodulus, Martyrs, and St. Juvenal, Bishop and Confessor",12,optional_memorial,,,,,,,,
+st_monica_0504,05-04,St. Monica,"St. Monica, Widow",10,memorial,,,,,,,,
+st_pius_v_0505,05-05,St. Pius V,"St. Pius V, Pope and Confessor",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-pius-v/
+st_stanislaus_0507,05-07,St. Stanislaus,"St. Stanislaus, Bishop and Martyr",10,memorial,,,,,,,,
+st_gregory_nazianzen_0509,05-09,St. Gregory Nazianzen,"St. Gregory Nazianzen, Bishop, Confessor and Doctor",10,memorial,,,,,,,,
+st_antoninus_0510,05-10,St. Antoninus,"St. Antoninus, Bishop and Confessor; commemoration of Ss. Gordian and Epimachus, Martyrs",10,memorial,,,,,,,,
+ss_philip_and_james_0511,05-11,Ss. Philip and James,"Ss. Philip and James, Apostles",7,feast_rank,RED,,,,,,,
+ss_nereus_achilleus_domitilla_and_pancras_0512,05-12,"Ss. Nereus, Achilleus, Domitilla and Pancras","Ss. Nereus, Achilleus, Domitilla and Pancras, Martyrs",10,memorial,,,,,,,,
+st_robert_bellarmine_0513,05-13,St. Robert Bellarmine,"St. Robert Bellarmine, Bishop, Confessor and Doctor",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-robert-bellarmine/
+st_boniface_of_tarsus_0514,05-14,St. Boniface of Tarsus,"St. Boniface, Martyr",12,optional_memorial,,,,,,,,
+st_john_baptist_de_la_salle_0515,05-15,St. John Baptist de la Salle,"St. John Baptist de la Salle, Confessor",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-john-baptist-de-la-salle/
+st_ubald_0516,05-16,St. Ubald,"St. Ubald, Bishop and Confessor",10,memorial,,,,,,,,
+st_paschal_baylon_0517,05-17,St. Paschal Baylon,"St. Paschal Baylon, Confessor",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-paschal-baylon/
+st_venantius_0518,05-18,St. Venantius,"St. Venantius, Martyr",10,memorial,,,,,,,,
+st_peter_celestine_0519,05-19,St. Peter Celestine,"St. Peter Celestine, Pope and Confessor; commemoration of St. Pudentiana, Virgin",10,memorial,,,,,,,,
+st_bernardine_of_siena_0520,05-20,St. Bernardine of Siena,"St. Bernardine of Siena, Confessor",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-bernardino-of-siena/
+st_gregory_vii_0525,05-25,St. Gregory VII,"St. Gregory VII, Pope and Confessor; commemoration of St. Urban I, Pope and Martyr",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-gregory-vii/
+st_philip_neri_0526,05-26,St. Philip Neri,"St. Philip Neri, Confessor; commemoration of St. Eleutherius, Pope and Martyr",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/philip-neri/
+st_bede_the_venerable_0527,05-27,St. Bede the Venerable,"St. Bede the Venerable, Confessor and Doctor; commemoration of St. John I, Pope and Martyr",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-bede-the-venerable/
+st_augustine_of_canterbury_0528,05-28,St. Augustine of Canterbury,"St. Augustine, Bishop and Confessor",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-augustine-of-canterbury/
+st_mary_magdalen_de_pazzi_0529,05-29,St. Mary Magdalen de Pazzi,"St. Mary Magdalen de Pazzi, Virgin",10,memorial,,,,,,,,
+st_felix_i_0530,05-30,St. Felix I,"St. Felix I, Pope and Martyr",12,optional_memorial,,,,,,,,
+queenship_of_the_bvm_0531,05-31,Queenship of the BVM,"The Blessed Virgin Mary, Queen; commemoration of St. Petronilla, Virgin",7,feast_rank,WHITE,,,,,,,
+st_angela_merici_0601,06-01,St. Angela Merici,"St. Angela Merici, Virgin",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-angela-merici/
+ss_marcellinus_peter_and_erasmus_0602,06-02,"Ss. Marcellinus, Peter and Erasmus","Ss. Marcellinus, Peter and Erasmus, Bishop, Martyrs",12,optional_memorial,,,,,,,,
+st_francis_caracciolo_0604,06-04,St. Francis Caracciolo,"St. Francis Caracciolo, Confessor",10,memorial,,,,,,,,
+st_boniface_0605,06-05,St. Boniface,"St. Boniface, Bishop and Martyr",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-boniface/
+st_norbert_0606,06-06,St. Norbert,"St. Norbert, Bishop and Confessor",10,memorial,,,,,,,,https://www.franciscanmedia.org/saint-of-the-day/saint-norbert/
+ss_primus_and_felician_0609,06-09,Ss. Primus and Felician,"Ss. Primus and Felician, Martyrs",12,optional_memorial,,,,,,,,
+st_margaret_of_scotland_0610,06-10,St. Margaret of Scotland,"St. Margaret, Queen, Widow",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-margaret-of-scotland/
+st_barnabas_0611,06-11,St. Barnabas,"St. Barnabas, Apostle",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-barnabas/
+st_john_of_san_facundo_0612,06-12,St. John of San Facundo,"St. John of San Facundo, Confessor; commemoration of Ss. Basilides, Cyrinus, Nabor and Nazarius, Martyrs",10,memorial,,,,,,,,
+st_anthony_of_padua_0613,06-13,St. Anthony of Padua,"St. Anthony of Padua, Confessor and Doctor",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-anthony-of-padua-1195-1231/
+st_basil_the_great_0614,06-14,St. Basil the Great,"St. Basil the Great, Bishop, Confessor and Doctor",10,memorial,,,,,,,,
+ss_vitus_modestus_and_crescentia_0615,06-15,"Ss. Vitus, Modestus and Crescentia","Ss. Vitus, Modestus and Crescentia, Martyrs",12,optional_memorial,,,,,,,,
+st_gregory_barbarigo_0617,06-17,St. Gregory Barbarigo,"St. Gregory Barbarigo, Bishop and Confessor",10,memorial,,,,,,,,
+st_ephrem_0618,06-18,St. Ephrem,"St. Ephrem the Syrian, Deacon, Confessor and Doctor; commemoration of Ss. Mark and Marcellianus, Martyrs",10,memorial,,,,,,,,
+st_juliana_falconieri_0619,06-19,St. Juliana Falconieri,"St. Juliana Falconieri, Virgin; commemoration of Ss. Gervase and Protase, Martyrs",10,memorial,,,,,,,,
+st_silverius_0620,06-20,St. Silverius,"St. Silverius, Pope and Martyr",12,optional_memorial,,,,,,,,
+st_aloysius_gonzaga_0621,06-21,St. Aloysius Gonzaga,"St. Aloysius Gonzaga, Confessor",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-aloysius-gonzaga/
+st_paulinus_of_nola_0622,06-22,St. Paulinus of Nola,"St. Paulinus, Bishop and Confessor",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-paulinus-of-nola/
+vigil_of_st_john_the_baptist_0623,06-23,Vigil of St. John the Baptist,Vigil of the Nativity of St. John the Baptist,9,memorial,,,,,,,,
+nativity_of_st_john_the_baptist_0624,06-24,Nativity of St. John the Baptist,The Nativity of St. John the Baptist,3,solemnity,WHITE,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/the-birth-of-john-the-baptist/
+st_william_0625,06-25,St. William,"St. William, Abbot",10,memorial,,,,,,,,
+ss_john_and_paul_0626,06-26,Ss. John and Paul,"Ss. John and Paul, Martyrs",10,memorial,,,,,,,,
+vigil_of_ss_peter_and_paul_0628,06-28,Vigil of Ss. Peter and Paul,,9,memorial,,,,,,,,
+ss_peter_and_paul_0629,06-29,Ss. Peter and Paul,"Ss. Peter and Paul, Apostles",3,solemnity,RED,,obligation,,,,,
+commemoration_of_st_paul_0630,06-30,Commemoration of St. Paul,"The Commemoration of St. Paul, Apostle; commemoration of St. Peter",10,memorial,,,,,,,,
+most_precious_blood_0701,07-01,Most Precious Blood,The Most Precious Blood of our Lord Jesus Christ,3,solemnity,RED,,,,,,,
+visitation_of_the_bvm_0702,07-02,Visitation of the BVM,"The Visitation of the Blessed Virgin Mary; commemoration of Ss. Processus and Martinian, Martyrs",7,feast_rank,WHITE,,,,,,,
+st_irenaeus_0703,07-03,St. Irenaeus,"St. Irenaeus, Bishop and Martyr",10,memorial,,,,,,,,
+st_anthony_mary_zaccaria_0705,07-05,St. Anthony Mary Zaccaria,"St. Anthony Mary Zaccaria, Confessor",10,memorial,,,,,,,,
+ss_cyril_and_methodius_0707,07-07,Ss. Cyril and Methodius,"Ss. Cyril and Methodius, Bishops and Confessors",10,memorial,,,,,,,,
+st_elizabeth_of_portugal_0708,07-08,St. Elizabeth of Portugal,"St. Elizabeth, Queen, Widow",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-elizabeth-of-portugal/
+seven_holy_brothers_0710,07-10,Seven Holy Brothers,"The Seven Holy Brothers, Martyrs, and Ss. Rufina and Secunda, Virgins and Martyrs",10,memorial,,,,,,,,
+st_pius_i_0711,07-11,St. Pius I,"St. Pius I, Pope and Martyr",12,optional_memorial,,,,,,,,
+st_john_gualbert_0712,07-12,St. John Gualbert,"St. John Gualbert, Abbot; commemoration of Ss. Nabor and Felix, Martyrs",10,memorial,,,,,,,,
+st_bonaventure_0714,07-14,St. Bonaventure,"St. Bonaventure, Bishop, Confessor and Doctor",10,memorial,,,,,,,,
+st_henry_0715,07-15,St. Henry,"St. Henry II, Emperor, Confessor",10,memorial,,,,,,,,
+our_lady_of_mount_carmel_0716,07-16,Our Lady of Mount Carmel,The Blessed Virgin Mary of Mount Carmel,12,optional_memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/our-lady-of-mount-carmel/
+st_alexius_0717,07-17,St. Alexius,"St. Alexius, Confessor",12,optional_memorial,,,,,,,,
+st_camillus_de_lellis_0718,07-18,St. Camillus de Lellis,"St. Camillus de Lellis, Confessor; commemoration of St. Symphorosa and her seven sons, Martyrs",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-camillus-of-lellis/
+st_vincent_de_paul_0719,07-19,St. Vincent de Paul,"St. Vincent de Paul, Confessor",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-vincent-de-paul-1581-1660/
+st_jerome_emiliani_0720,07-20,St. Jerome Emiliani,"St. Jerome Emiliani, Confessor; commemoration of St. Margaret, Virgin and Martyr",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-jerome-emiliani/
+st_lawrence_of_brindisi_0721,07-21,St. Lawrence of Brindisi,"St. Lawrence of Brindisi, Confessor and Doctor; commemoration of St. Praxedes, Virgin",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-lawrence-of-brindisi/
+st_mary_magdalene_0722,07-22,St. Mary Magdalene,"St. Mary Magdalene, Penitent",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-mary-magdalene/
+st_apollinaris_0723,07-23,St. Apollinaris,"St. Apollinaris, Bishop and Martyr; commemoration of St. Liborius, Bishop and Confessor",10,memorial,,,,,,,,
+st_christina_0724,07-24,St. Christina,"St. Christina, Virgin and Martyr",12,optional_memorial,,,,,,,,
+st_james_0725,07-25,St. James,"St. James, Apostle; commemoration of St. Christopher, Martyr",7,feast_rank,RED,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-james/
+st_anne_0726,07-26,St. Anne,"St. Anne, Mother of the Blessed Virgin Mary",7,feast_rank,WHITE,,,,,,,
+st_pantaleon_0727,07-27,St. Pantaleon,"St. Pantaleon, Martyr",12,optional_memorial,,,,,,,,
+ss_nazarius_celsus_victor_and_innocent_0728,07-28,"Ss. Nazarius, Celsus, Victor and Innocent","Ss. Nazarius and Celsus, Martyrs, Victor I, Pope and Martyr, and Innocent I, Pope and Confessor",10,memorial,,,,,,,,
+st_martha_0729,07-29,St. Martha,"St. Martha, Virgin; commemoration of Ss. Felix, Simplicius, Faustinus and Beatrice, Martyrs",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-martha/
+ss_abdon_and_sennen_0730,07-30,Ss. Abdon and Sennen,"Ss. Abdon and Sennen, Martyrs",12,optional_memorial,,,,,,,,
+st_ignatius_of_loyola_0731,07-31,St. Ignatius of Loyola,"St. Ignatius, Confessor",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-ignatius-of-loyola-1491-1556/
+holy_machabees_0801,08-01,Holy Machabees,"The Holy Machabees, Martyrs",12,optional_memorial,,,,,,,,
+st_alphonsus_liguori_0802,08-02,St. Alphonsus Liguori,"St. Alphonsus Mary Liguori, Bishop, Confessor and Doctor; commemoration of St. Stephen I, Pope and Martyr",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-alphonsus-liguori/
+st_dominic_0804,08-04,St. Dominic,"St. Dominic, Confessor",10,memorial,,,,,,,,
+our_lady_of_the_snows_0805,08-05,Our Lady of the Snows,The Dedication of Our Lady of the Snows,10,memorial,,,,,,,,
+transfiguration_0806,08-06,Transfiguration,"The Transfiguration of our Lord Jesus Christ; commemoration of Ss. Xystus II, Pope, Felicissimus and Agapitus, Martyrs",5,feast_rank,WHITE,,,,,,,
+st_cajetan_0807,08-07,St. Cajetan,"St. Cajetan, Confessor; commemoration of St. Donatus, Bishop and Martyr",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-cajetan/
+st_john_vianney_0808,08-08,St. John Vianney,"St. John Mary Vianney, Confessor; commemoration of Ss. Cyriacus, Largus and Smaragdus, Martyrs",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-john-vianney/
+vigil_of_st_laurence_0809,08-09,Vigil of St. Laurence,"Vigil of St. Laurence; commemoration of St. Romanus, Martyr",11,memorial,,,,,,,,
+st_laurence_0810,08-10,St. Laurence,"St. Laurence, Martyr",7,feast_rank,RED,,,,,,,
+ss_tiburtius_and_susanna_0811,08-11,Ss. Tiburtius and Susanna,"Ss. Tiburtius and Susanna, Virgin, Martyrs",12,optional_memorial,,,,,,,,
+st_clare_0812,08-12,St. Clare,"St. Clare, Virgin",10,memorial,,,,,,,,
+ss_hippolytus_and_cassian_0813,08-13,Ss. Hippolytus and Cassian,"Ss. Hippolytus and Cassian, Martyrs",12,optional_memorial,,,,,,,,
+vigil_of_the_assumption_0814,08-14,Vigil of the Assumption,"Vigil of the Assumption; commemoration of St. Eusebius, Confessor",9,memorial,,,,,,,,
+assumption_of_the_bvm_0815,08-15,Assumption of the BVM,The Assumption of the Blessed Virgin Mary,3,solemnity,WHITE,,obligation,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/assumption-of-mary/
+st_joachim_0816,08-16,St. Joachim,"St. Joachim, Father of the Blessed Virgin Mary, Confessor",7,feast_rank,WHITE,,,,,,,
+st_hyacinth_0817,08-17,St. Hyacinth,"St. Hyacinth, Confessor",10,memorial,,,,,,,,
+st_agapitus_0818,08-18,St. Agapitus,"St. Agapitus, Martyr",12,optional_memorial,,,,,,,,
+st_john_eudes_0819,08-19,St. John Eudes,"St. John Eudes, Confessor",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-john-eudes/
+st_bernard_0820,08-20,St. Bernard,"St. Bernard, Abbot and Doctor",10,memorial,,,,,,,,
+st_jane_frances_de_chantal_0821,08-21,St. Jane Frances de Chantal,"St. Jane Frances de Chantal, Widow",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-jane-frances-de-chantal/
+immaculate_heart_of_mary_0822,08-22,Immaculate Heart of Mary,"The Immaculate Heart of the Blessed Virgin Mary; commemoration of Ss. Timothy and companions, Martyrs",7,feast_rank,WHITE,,,,,,,
+st_philip_benizi_0823,08-23,St. Philip Benizi,"St. Philip Benizi, Confessor",10,memorial,,,,,,,,
+st_bartholomew_0824,08-24,St. Bartholomew,"St. Bartholomew, Apostle",7,feast_rank,RED,,,,,,,https://www.franciscanmedia.org/saint-of-the-day/saint-bartholomew/
+st_louis_0825,08-25,St. Louis,"St. Louis, King, Confessor",10,memorial,,,,,,,,
+st_zephyrinus_0826,08-26,St. Zephyrinus,"St. Zephyrinus, Pope and Martyr",12,optional_memorial,,,,,,,,
+st_joseph_calasanctius_0827,08-27,St. Joseph Calasanctius,"St. Joseph Calasanctius, Confessor",10,memorial,,,,,,,,
+st_augustine_0828,08-28,St. Augustine,"St. Augustine, Bishop, Confessor and Doctor; commemoration of St. Hermes, Martyr",10,memorial,,,,,,,,
+beheading_of_st_john_the_baptist_0829,08-29,Beheading of St. John the Baptist,"The Beheading of St. John the Baptist; commemoration of St. Sabina, Martyr",10,memorial,,,,,,,,
+st_rose_of_lima_0830,08-30,St. Rose of Lima,"St. Rose of Lima, Virgin; commemoration of Ss. Felix and Adauctus, Martyrs",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-rose-of-lima/
+st_raymond_nonnatus_0831,08-31,St. Raymond Nonnatus,"St. Raymond Nonnatus, Confessor",10,memorial,,,,,,,,
+st_giles_0901,09-01,St. Giles,"St. Giles, Abbot; commemoration of the Twelve Holy Brothers, Martyrs",12,optional_memorial,,,,,,,,
+st_stephen_of_hungary_0902,09-02,St. Stephen of Hungary,"St. Stephen, King, Confessor",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-stephen-of-hungary/
+st_pius_x_0903,09-03,St. Pius X,"St. Pius X, Pope and Confessor",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-pius-x/
+st_laurence_justinian_0905,09-05,St. Laurence Justinian,"St. Laurence Justinian, Bishop and Confessor",10,memorial,,,,,,,,
+nativity_of_the_bvm_0908,09-08,Nativity of the BVM,"The Nativity of the Blessed Virgin Mary; commemoration of St. Hadrian, Martyr",7,feast_rank,WHITE,,,,,,,
+st_gorgonius_0909,09-09,St. Gorgonius,"St. Gorgonius, Martyr",12,optional_memorial,,,,,,,,
+st_nicholas_of_tolentino_0910,09-10,St. Nicholas of Tolentino,"St. Nicholas of Tolentino, Confessor",10,memorial,,,,,,,,
+ss_protus_and_hyacinth_0911,09-11,Ss. Protus and Hyacinth,"Ss. Protus and Hyacinth, Martyrs",12,optional_memorial,,,,,,,,
+holy_name_of_mary_0912,09-12,Holy Name of Mary,The Most Holy Name of Mary,10,memorial,,,,,,,,https://www.franciscanmedia.org/saint-of-the-day/most-holy-name-of-the-blessed-virgin-mary/
+exaltation_of_the_holy_cross_0914,09-14,Exaltation of the Holy Cross,The Exaltation of the Holy Cross,5,feast_rank,RED,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/triumph-of-the-cross/
+seven_sorrows_of_the_bvm_0915,09-15,Seven Sorrows of the BVM,"The Seven Sorrows of the Blessed Virgin Mary; commemoration of St. Nicomedes, Martyr",7,feast_rank,WHITE,,,,,,,
+ss_cornelius_and_cyprian_0916,09-16,Ss. Cornelius and Cyprian,"Ss. Cornelius, Pope, and Cyprian, Bishop, Martyrs; commemoration of Ss. Euphemia, Lucy and Geminianus, Martyrs",10,memorial,,,,,,,,
+stigmata_of_st_francis_0917,09-17,Stigmata of St. Francis,The Impression of the Holy Stigmata of St. Francis,12,optional_memorial,,,,,,,,
+st_joseph_of_cupertino_0918,09-18,St. Joseph of Cupertino,"St. Joseph of Cupertino, Confessor",10,memorial,,,,,,,,
+st_januarius_0919,09-19,St. Januarius,"St. Januarius, Bishop, and companions, Martyrs",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-januarius/
+st_eustace_0920,09-20,St. Eustace,"St. Eustace and companions, Martyrs",12,optional_memorial,,,,,,,,
+st_matthew_0921,09-21,St. Matthew,"St. Matthew, Apostle and Evangelist",7,feast_rank,RED,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-matthew/
+st_thomas_of_villanova_0922,09-22,St. Thomas of Villanova,"St. Thomas of Villanova, Bishop and Confessor; commemoration of St. Maurice and companions, Martyrs",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-thomas-of-villanova/
+st_linus_0923,09-23,St. Linus,"St. Linus, Pope and Martyr; commemoration of St. Thecla, Virgin and Martyr",10,memorial,,,,,,,,
+our_lady_of_ransom_0924,09-24,Our Lady of Ransom,,12,optional_memorial,,,,,,,,
+ss_cyprian_and_justina_0926,09-26,Ss. Cyprian and Justina,"Ss. Cyprian and Justina, Virgin, Martyrs",12,optional_memorial,,,,,,,,
+ss_cosmas_and_damian_0927,09-27,Ss. Cosmas and Damian,"Ss. Cosmas and Damian, Martyrs",10,memorial,,,,,,,,
+st_wenceslaus_0928,09-28,St. Wenceslaus,"St. Wenceslaus, Duke, Martyr",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-wenceslaus/
+st_michael_the_archangel_0929,09-29,St. Michael the Archangel,The Dedication of St. Michael the Archangel,3,solemnity,WHITE,,,,,,,
+st_jerome_0930,09-30,St. Jerome,"St. Jerome, Priest, Confessor and Doctor",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-jerome/
+st_remigius_1001,10-01,St. Remigius,"St. Remigius, Bishop and Confessor",12,optional_memorial,,,,,,,,
+holy_guardian_angels_1002,10-02,Holy Guardian Angels,The Holy Guardian Angels,10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/guardian-angels/
+st_th_r_se_of_the_child_jesus_1003,10-03,St. Thérèse of the Child Jesus,"St. Teresa of the Child Jesus, Virgin",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-therese-of-lisieux/
+st_francis_of_assisi_1004,10-04,St. Francis of Assisi,"St. Francis of Assisi, Confessor",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/francis-of-assisi/
+st_placid_1005,10-05,St. Placid,"St. Placid and companions, Martyrs",12,optional_memorial,,,,,,,,
+st_bruno_1006,10-06,St. Bruno,"St. Bruno, Confessor",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-bruno/
+our_lady_of_the_rosary_1007,10-07,Our Lady of the Rosary,"The Blessed Virgin Mary of the Rosary; commemoration of St. Mark, Pope and Confessor",7,feast_rank,WHITE,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/our-lady-of-the-rosary/
+st_bridget_of_sweden_1008,10-08,St. Bridget of Sweden,"St. Bridget, Widow; commemoration of Ss. Sergius, Bacchus, Marcellus and Apuleius, Martyrs",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-bridget-of-sweden/
+st_john_leonardi_1009,10-09,St. John Leonardi,"St. John Leonardi, Confessor; commemoration of Ss. Denis, Bishop, Rusticus and Eleutherius, Martyrs",10,memorial,,,,,,,,https://www.franciscanmedia.org/saint-of-the-day/saint-john-leonardi/
+st_francis_borgia_1010,10-10,St. Francis Borgia,"St. Francis Borgia, Confessor",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-francis-borgia/
+maternity_of_the_bvm_1011,10-11,Maternity of the BVM,The Maternity of the Blessed Virgin Mary,7,feast_rank,WHITE,,,,,,,
+st_edward_the_confessor_1013,10-13,St. Edward the Confessor,"St. Edward, King, Confessor",10,memorial,,,,,,,,
+st_callistus_i_1014,10-14,St. Callistus I,"St. Callistus I, Pope and Martyr",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-callistus-i/
+st_teresa_of_vila_1015,10-15,St. Teresa of Ávila,"St. Teresa, Virgin",10,memorial,,,,,,,,
+st_hedwig_1016,10-16,St. Hedwig,"St. Hedwig, Widow",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-hedwig/
+st_margaret_mary_alacoque_1017,10-17,St. Margaret Mary Alacoque,"St. Margaret Mary Alacoque, Virgin",10,memorial,,,,,,,,https://www.franciscanmedia.org/saint-of-the-day/saint-margaret-mary-alacoque/
+st_luke_1018,10-18,St. Luke,"St. Luke, Evangelist",7,feast_rank,RED,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-luke-biography/
+st_peter_of_alcantara_1019,10-19,St. Peter of Alcantara,"St. Peter of Alcantara, Confessor",10,memorial,,,,,,,,
+st_john_cantius_1020,10-20,St. John Cantius,"St. John Cantius, Confessor",10,memorial,,,,,,,,
+st_hilarion_1021,10-21,St. Hilarion,"St. Hilarion, Abbot; commemoration of St. Ursula and companions, Virgins and Martyrs",12,optional_memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-hilarion/
+st_anthony_mary_claret_1023,10-23,St. Anthony Mary Claret,"St. Anthony Mary Claret, Bishop and Confessor",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-anthony-claret/
+st_raphael_the_archangel_1024,10-24,St. Raphael the Archangel,,10,memorial,,,,,,,,
+ss_chrysanthus_and_daria_1025,10-25,Ss. Chrysanthus and Daria,"Ss. Chrysanthus and Daria, Martyrs",12,optional_memorial,,,,,,,,
+st_evaristus_1026,10-26,St. Evaristus,"St. Evaristus, Pope and Martyr",12,optional_memorial,,,,,,,,
+ss_simon_and_jude_1028,10-28,Ss. Simon and Jude,"Ss. Simon and Jude, Apostles",7,feast_rank,RED,,,,,,,
+all_saints_1101,11-01,All Saints,,3,solemnity,WHITE,,obligation,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/all-saints-day-kids/
+st_charles_borromeo_1104,11-04,St. Charles Borromeo,"St. Charles, Bishop and Confessor; commemoration of Ss. Vitalis and Agricola, Martyrs",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/st-charles-borromeo-1538-1584/
+four_holy_crowned_martyrs_1108,11-08,Four Holy Crowned Martyrs,The Four Holy Crowned Martyrs,12,optional_memorial,,,,,,,,
+dedication_of_the_lateran_basilica_1109,11-09,Dedication of the Lateran Basilica,"The Dedication of the Archbasilica of the Most Holy Savior; commemoration of St. Theodore, Martyr",5,feast_rank,WHITE,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/dedication-of-st-john-lateran/
+st_andrew_avellino_1110,11-10,St. Andrew Avellino,"St. Andrew Avellino, Confessor; commemoration of Ss. Tryphon, Respicius and Nympha, Martyrs",10,memorial,,,,,,,,
+st_martin_of_tours_1111,11-11,St. Martin of Tours,"St. Martin, Bishop and Confessor; commemoration of St. Mennas, Martyr",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-martin-of-tours/
+st_martin_i_1112,11-12,St. Martin I,"St. Martin I, Pope and Martyr",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-martin-i/
+st_didacus_1113,11-13,St. Didacus,"St. Didacus, Confessor",10,memorial,,,,,,,,
+st_josaphat_1114,11-14,St. Josaphat,"St. Josaphat, Bishop and Martyr",10,memorial,,,,,,,,
+st_albert_the_great_1115,11-15,St. Albert the Great,"St. Albert the Great, Bishop, Confessor and Doctor",10,memorial,,,,,,,,https://www.franciscanmedia.org/saint-of-the-day/saint-albert-the-great/
+st_gertrude_1116,11-16,St. Gertrude,"St. Gertrude, Virgin",10,memorial,,,,,,,,https://www.franciscanmedia.org/saint-of-the-day/saint-gertrude-the-great/
+st_gregory_thaumaturgus_1117,11-17,St. Gregory Thaumaturgus,"St. Gregory the Wonderworker, Bishop and Confessor",10,memorial,,,,,,,,
+dedication_of_ss_peter_and_paul_1118,11-18,Dedication of Ss. Peter and Paul,The Dedication of the Basilicas of Ss. Peter and Paul,10,memorial,,,,,,,,
+st_elizabeth_of_hungary_1119,11-19,St. Elizabeth of Hungary,"St. Elizabeth, Widow; commemoration of St. Pontian, Pope and Martyr",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-elizabeth-of-hungary/
+st_felix_of_valois_1120,11-20,St. Felix of Valois,"St. Felix of Valois, Confessor",10,memorial,,,,,,,,
+presentation_of_the_bvm_1121,11-21,Presentation of the BVM,The Presentation of the Blessed Virgin Mary,10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/presentation-of-mary/
+st_cecilia_1122,11-22,St. Cecilia,"St. Cecilia, Virgin and Martyr",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-cecilia/
+st_clement_i_1123,11-23,St. Clement I,"St. Clement I, Pope and Martyr; commemoration of St. Felicitas, Martyr",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-clement-i/
+st_john_of_the_cross_1124,11-24,St. John of the Cross,"St. John of the Cross, Confessor and Doctor; commemoration of St. Chrysogonus, Martyr",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-john-of-the-cross-c-1542-1591/
+st_catherine_of_alexandria_1125,11-25,St. Catherine of Alexandria,"St. Catherine, Virgin and Martyr",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-catherine-of-alexandria/
+st_sylvester_gozzolini_1126,11-26,St. Sylvester Gozzolini,"St. Sylvester, Abbot; commemoration of St. Peter of Alexandria, Bishop and Martyr",10,memorial,,,,,,,,
+st_saturninus_1129,11-29,St. Saturninus,"St. Saturninus, Martyr",12,optional_memorial,,,,,,,,
+st_andrew_1130,11-30,St. Andrew,"St. Andrew, Apostle",7,feast_rank,RED,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-andrew/
+st_bibiana_1202,12-02,St. Bibiana,"St. Bibiana, Virgin and Martyr",10,memorial,,,,,,,,
+st_francis_xavier_1203,12-03,St. Francis Xavier,"St. Francis Xavier, Confessor",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-francis-xavier-1506-1552/
+st_peter_chrysologus_1204,12-04,St. Peter Chrysologus,"St. Peter Chrysologus, Bishop, Confessor and Doctor; commemoration of St. Barbara, Virgin and Martyr",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-peter-chrysologus/
+st_sabbas_1205,12-05,St. Sabbas,"St. Sabbas, Abbot",12,optional_memorial,,,,,,,,
+st_nicholas_1206,12-06,St. Nicholas,"St. Nicholas, Bishop and Confessor",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-nicholas/
+st_ambrose_1207,12-07,St. Ambrose,"St. Ambrose, Bishop, Confessor and Doctor",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-ambrose-c-340-397/
+immaculate_conception_1208,12-08,Immaculate Conception,The Immaculate Conception of the Blessed Virgin Mary,1,solemnity,WHITE,,obligation,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/feast-of-the-immaculate-conception/
+st_melchiades_1210,12-10,St. Melchiades,"St. Melchiades, Pope and Martyr",12,optional_memorial,,,,,,,,
+st_damasus_i_1211,12-11,St. Damasus I,"St. Damasus I, Pope and Confessor",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-damasus-i/
+st_lucy_1213,12-13,St. Lucy,"St. Lucy, Virgin and Martyr",10,memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-lucy/
+st_eusebius_1216,12-16,St. Eusebius,"St. Eusebius, Bishop and Martyr",10,memorial,,,,,,,,
+st_thomas_1221,12-21,St. Thomas,"St. Thomas, Apostle",7,feast_rank,RED,,,,,,,
+st_stephen_1226,12-26,St. Stephen,"St. Stephen, Protomartyr (the second day within the Octave of the Nativity)",7,feast_rank,RED,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-stephen/
+st_john_the_evangelist_1227,12-27,St. John the Evangelist,"St. John, Apostle and Evangelist (the third day within the Octave)",7,feast_rank,WHITE,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-john/
+holy_innocents_1228,12-28,Holy Innocents,"The Holy Innocents, Martyrs (the fourth day within the Octave)",7,feast_rank,RED,,,,,,,https://www.franciscanmedia.org/saint-of-the-day/holy-innocents/
+st_thomas_becket_1229,12-29,St. Thomas Becket,"St. Thomas, Bishop and Martyr",12,optional_memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-thomas-becket/
+st_sylvester_i_1231,12-31,St. Sylvester I,"St. Sylvester I, Pope and Confessor",12,optional_memorial,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/pope-sylvester-i/

@@ -1,0 +1,8 @@
+id,date,name,full_name,rank,style,color_override,color_override_bottom,icon,icon_when,transfer,variant,when,action
+,02-09,St. Maroun,Saint Maroun,11,memorial,,,,,,,,
+,03-23,St. Rafqa,"Saint Rafqa (Rebecca), virgin",11,memorial,,,,,,,,
+st_george,,,"Saint George, martyr",11,memorial,-,,,,,,,
+,05-01,Our Lady of Lebanon,,8,feast_rank,WHITE,,,,,,,
+,12-04,St. Barbara,"Saint Barbara, virgin and martyr",11,memorial,,,,,,,,
+st_nicholas,,,"Saint Nicholas, bishop",11,memorial,-,,,,,,,
+,12-24,St. Charbel,"Saint Charbel, priest",12,optional_memorial,,,,,,,,

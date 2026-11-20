@@ -1,0 +1,109 @@
+day,variant,hymnal,topic,numbers
+# ===========================================================================
+"# Lutheran Service Book (2006) for the days of the church year: the page puts a"
+"# hymn mark after the day's name for each row, which lists the row's hymns,"
+"# each opening at Hymnary.org (their first lines are in data/hymnals/LSB2006.csv)."
+"# A row names a topic of the book's Topical Index of Hymns and Songs (pp."
+"# 993-997), with its numbers: the index gives a section of the contents (The"
+"# Hymns: The Church Year, The Christian Church ...; LSB pp. v-vi) as ""Advent,"
+"# 331-357"" and lists the other hymns that suit it below; topics without a"
+"# section (Reformation, Holy Cross Day, Palm Sunday ...) list their hymns only."
+"# Rows whose topic ends ""(Altar Book)"" are the hymns the Lutheran Service Book"
+"# Altar Book (2006) names in its rites for the day (Ash Wednesday, Palm Sunday,"
+"# Good Friday, the Vigil of Easter), in its order, as photographed by the"
+"# maintainer, November 2026."
+# day: a days.csv id (a run's Sundays, or one with :n), a month and day, or a date rule.
+# ===========================================================================
+advent,,LSB2006,Advent,331-357 508-516 872
+christmas_eve,,LSB2006,Christmas,358-393 402 403 412 546 897
+christmas,,LSB2006,Christmas,358-393 402 403 412 546 897
+after_christmas,,LSB2006,Christmas,358-393 402 403 412 546 897
+12-31,,LSB2006,New Year,896-900 733
+01-01,,LSB2006,New Year,896-900 733
+epiphany,,LSB2006,Epiphany,394-412 533 810 872 914
+epiphany,,LSB2006,Mission and Witness,823-840 388 497 660 661 688
+baptism,,LSB2006,Epiphany,394-412 533 810 872 914
+baptism,,LSB2006,Holy Baptism,590-593 594 596 601 603 605
+baptism,,LSB2006,Baptismal Life,594-605 540 685 691 697 796 837
+baptism,,LSB2006,Baptism of Our Lord,404-407 600
+after_epiphany,,LSB2006,Epiphany,394-412 533 810 872 914
+after_epiphany,,LSB2006,Mission and Witness,823-840 388 497 660 661 688
+transfiguration,,LSB2006,Transfiguration,413-417 537 873
+sexagesima,one-year,LSB2006,The Word of God,577-589 597 602 655 658 833 836 921 923
+ash_wednesday,,LSB2006,Lent,418-440 531 542-544 547 560 610 611
+ash_wednesday,,LSB2006,Confession and Absolution,606-616 562 788
+ash_wednesday,,LSB2006,Imposition of Ashes (Altar Book),419
+lent,,LSB2006,Lent,418-440 531 542-544 547 560 610 611
+lent,,LSB2006,Confession and Absolution,606-616 562 788
+palm_sunday,,LSB2006,Holy Week,441-456 436 767 930
+palm_sunday,,LSB2006,Palm Sunday,334 343 441-444
+palm_sunday,,LSB2006,Procession with Palms (Altar Book),442
+palm_sunday,,LSB2006,Before the Passion (Altar Book),440
+easter-6,,LSB2006,Holy Week,441-456 436 767 930
+easter-5,,LSB2006,Holy Week,441-456 436 767 930
+easter-4,,LSB2006,Holy Week,441-456 436 767 930
+maundy_thursday,,LSB2006,Holy Week,441-456 436 767 930
+maundy_thursday,,LSB2006,The Lord's Supper,617-643 534 559 574 597 602 680 821
+maundy_thursday,,LSB2006,Maundy (Holy) Thursday,445 446 630 634 845
+good_friday,,LSB2006,Holy Week,441-456 436 767 930
+good_friday,,LSB2006,Good Friday,438 439 447-449 451 453-455 550
+good_friday,,LSB2006,The Passion (Altar Book),440 450
+good_friday,,LSB2006,Tenebrae: Office Hymns (Altar Book),440 438 451 439 447 428
+holy_saturday,,LSB2006,Holy Week,441-456 436 767 930
+holy_saturday,,LSB2006,Vigil of Easter: Canticles (Altar Book),925 926 931 930
+easter,,LSB2006,Easter,457-490 585 633 671 741 879
+after_easter,,LSB2006,Easter,457-490 585 633 671 741 879
+ascension,,LSB2006,Ascension,491-495 489 525 532 534 553 564 701 821 840
+pentecost,,LSB2006,Pentecost,496-503 489 650 768 913
+trinity,,LSB2006,Holy Trinity,504-507 604 794 795 822 874-876 890 947 948 953 954
+next_start-21,,LSB2006,End Times,508-516 336 337 345 348 351 353 355 672-674 799 800
+next_start-14,,LSB2006,End Times,508-516 336 337 345 348 351 353 355 672-674 799 800
+last_sunday,,LSB2006,End Times,508-516 336 337 345 348 351 353 355 672-674 799 800
+reformation,,LSB2006,Reformation,582 655-657 666
+reformation,,LSB2006,The Word of God,577-589 597 602 655 658 833 836 921 923
+reformation,,LSB2006,The Church Militant,655-669 517 518 644
+10-31,,LSB2006,Reformation,582 655-657 666
+10-31,,LSB2006,The Word of God,577-589 597 602 655 658 833 836 921 923
+10-31,,LSB2006,The Church Militant,655-669 517 518 644
+all_saints,,LSB2006,The Church Triumphant,670-680 517 518 799 800
+all_saints,,LSB2006,Feasts and Festivals,517-522 346 356 667 670 675 676 896 898 938
+11-01,,LSB2006,The Church Triumphant,670-680 517 518 799 800
+11-01,,LSB2006,Feasts and Festivals,517-522 346 356 667 670 675 676 896 898 938
+thanksgiving,,LSB2006,Harvest and Thanksgiving,892-895 782 785 789 806
+thanksgiving,,LSB2006,Nation and National Songs,964-966 717 751
+# The festivals: the contents' Feasts and Festivals (By all Your saints in warfare,
+# with a stanza for each; the Presentation; St. Michael and All Angels); Holy
+# Cross Day, which has no section, Hymnary's topic.
+11-30,,LSB2006,Feasts and Festivals,517-522 346 356 667 670 675 676 896 898 938
+12-21,,LSB2006,Feasts and Festivals,517-522 346 356 667 670 675 676 896 898 938
+12-26,,LSB2006,Feasts and Festivals,517-522 346 356 667 670 675 676 896 898 938
+12-27,,LSB2006,Feasts and Festivals,517-522 346 356 667 670 675 676 896 898 938
+12-28,,LSB2006,Feasts and Festivals,517-522 346 356 667 670 675 676 896 898 938
+01-18,,LSB2006,Feasts and Festivals,517-522 346 356 667 670 675 676 896 898 938
+01-24,,LSB2006,Feasts and Festivals,517-522 346 356 667 670 675 676 896 898 938
+01-25,,LSB2006,Feasts and Festivals,517-522 346 356 667 670 675 676 896 898 938
+01-26,,LSB2006,Feasts and Festivals,517-522 346 356 667 670 675 676 896 898 938
+02-02,,LSB2006,Feasts and Festivals,517-522 346 356 667 670 675 676 896 898 938
+02-02,,LSB2006,Presentation of Our Lord,519
+02-24,,LSB2006,Feasts and Festivals,517-522 346 356 667 670 675 676 896 898 938
+03-19,,LSB2006,Feasts and Festivals,517-522 346 356 667 670 675 676 896 898 938
+03-25,,LSB2006,Feasts and Festivals,517-522 346 356 667 670 675 676 896 898 938
+04-25,,LSB2006,Feasts and Festivals,517-522 346 356 667 670 675 676 896 898 938
+05-01,,LSB2006,Feasts and Festivals,517-522 346 356 667 670 675 676 896 898 938
+06-11,,LSB2006,Feasts and Festivals,517-522 346 356 667 670 675 676 896 898 938
+06-24,,LSB2006,Feasts and Festivals,517-522 346 356 667 670 675 676 896 898 938
+06-29,,LSB2006,Feasts and Festivals,517-522 346 356 667 670 675 676 896 898 938
+07-22,,LSB2006,Feasts and Festivals,517-522 346 356 667 670 675 676 896 898 938
+07-25,,LSB2006,Feasts and Festivals,517-522 346 356 667 670 675 676 896 898 938
+08-15,,LSB2006,Feasts and Festivals,517-522 346 356 667 670 675 676 896 898 938
+08-24,,LSB2006,Feasts and Festivals,517-522 346 356 667 670 675 676 896 898 938
+08-29,,LSB2006,Feasts and Festivals,517-522 346 356 667 670 675 676 896 898 938
+09-21,,LSB2006,Feasts and Festivals,517-522 346 356 667 670 675 676 896 898 938
+09-29,,LSB2006,Feasts and Festivals,517-522 346 356 667 670 675 676 896 898 938
+09-29,,LSB2006,St. Michael and All Angels,520-522
+10-18,,LSB2006,Feasts and Festivals,517-522 346 356 667 670 675 676 896 898 938
+10-23,,LSB2006,Feasts and Festivals,517-522 346 356 667 670 675 676 896 898 938
+10-28,,LSB2006,Feasts and Festivals,517-522 346 356 667 670 675 676 896 898 938
+05-31,three-year,LSB2006,Feasts and Festivals,517-522 346 356 667 670 675 676 896 898 938
+07-02,one-year,LSB2006,Feasts and Festivals,517-522 346 356 667 670 675 676 896 898 938
+09-14,,LSB2006,Holy Cross Day,425-428 454 455

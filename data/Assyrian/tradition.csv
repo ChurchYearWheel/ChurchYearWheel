@@ -1,0 +1,8 @@
+setting,value,variant
+# ===========================================================================,,
+# The Assyrian Church of the East: the Gregorian calendar and the Western Easter.,,
+# ===========================================================================,,
+year_start,sun>=11-27,
+center_art,syriac_cross,
+"# readings.csv: the Sundays' and the Lord's feasts' readings.",,
+reading_labels,ot=Lesson; ot2=Lesson; acts=Acts; epistle=Apostle,

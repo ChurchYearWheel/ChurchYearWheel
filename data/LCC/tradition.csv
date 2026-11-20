@@ -1,0 +1,25 @@
+setting,value,variant
+# ===========================================================================
+# The calendar of Lutheran Church–Canada (Lutheran Service Book).  Any setting from config.csv may
+# be given here and wins over it for this tradition; a row with a variant
+# applies to that series only.  See docs/traditions.md.
+# ===========================================================================
+year_start,sun<12-25-21,
+center_art,lutherrose,
+latin_names_available,TRUE,one-year
+# The one-year series opens with its Sundays' Latin names (the page's box,
+# and new_year.py when --latin-names / --no-latin-names is not given).
+latin_names_default,TRUE,one-year
+festival_half_end_auto,trinity-week,one-year
+festival_half_end_auto,pentecost-week,three-year
+# The readings of Lutheran Service Book (data/readings/lsb.csv), and the daily Bible reading plan of the LCMS, LCC and NALC (data/readings/plan-rwg.csv).,,
+readings,lsb plan-rwg,
+"# The propers in the order the Divine Service has them (LSB Altar Book): the Introit first, the Gradual and Verse between the Epistle and the Gospel.",,
+reading_order,introit | ot | psalm | epistle | gradual | verse | gospel,
+"# The Introit, Gradual and Verse are parts of the service, sung or said, not readings: the page lists them apart, after each set's readings, and a set's heading opens only its readings (for the lector).",,
+reading_propers,introit gradual verse,
+# The three-year series' Year A begins with Advent 2025.,,
+reading_cycle,abc,three-year
+"# Hymnary.org's code for Lutheran Service Book (2006), the hymnal of Lutheran Church–Canada as of the LCMS: a hymn mark after each set of readings searches it for the hymns on them (hymnary.org/hymnal/LSB2006).",,
+hymnary_hymnal,lsb2006,
+hymnary_hymnal_name,Lutheran Service Book (2006),

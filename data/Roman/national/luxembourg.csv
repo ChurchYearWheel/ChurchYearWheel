@@ -1,0 +1,13 @@
+id,date,name,full_name,rank,style,color_override,color_override_bottom,icon,icon_when,transfer,variant,when,action,link
+,01-03,St. Irmine,"Saint Irmine, abbess",12,optional_memorial,,,,,,,,,
+sts_cyril_and_methodius,,,"Saints Cyril, monk and Methodius, bishop",8,feast_rank,WHITE,,,,,,,,
+st_catherine_of_siena,,,"Saint Catherine of Siena, virgin and doctor of the Church",8,feast_rank,WHITE,,,,,,,,
+st_benedict,,,"Saint Benedict, abbot",8,feast_rank,WHITE,,,,,,,,
+,07-13,Sts. Henry and Cunigunde,Saints Henry and Cunigunde,11,memorial,,,,,,,,,
+,07-23,St. Birgitta,"Saint Birgitta, religious",8,feast_rank,WHITE,,,,,,,,
+st_teresa_benedicta_of_the_cross,,,"Saint Teresa Benedicta of the Cross (Edith Stein), virgin and martyr",8,feast_rank,RED,,,,,,,,
+,08-11,Bl. Ghislaine,Blessed Ghislaine,12,optional_memorial,,,,,,,,,
+,09-18,St. Lambert of Maastricht,"Saint Lambert of Maastricht, bishop and martyr",12,optional_memorial,,,,,,,,,
+,11-03,St. Hubert,"Saint Hubert, bishop",11,memorial,,,,,,,,,
+,11-07,St. Willibrord,"Saint Willibrord, bishop",8,feast_rank,WHITE,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-willibrord/
+,easter+69,"Our Lady, Comforter of the Afflicted",,4,solemnity,WHITE,,,,,,,,

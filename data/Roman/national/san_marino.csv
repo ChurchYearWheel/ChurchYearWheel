@@ -1,0 +1,11 @@
+id,date,name,full_name,rank,style,color_override,color_override_bottom,icon,icon_when,transfer,variant,when,action,link
+,fri#3:03,"Our Lady, Mother of Graces",,8,feast_rank,WHITE,,,,,,,,
+,06-04,St. Quirinus of Sescia,"Saint Quirinus of Sescia, bishop and martyr",11,memorial,,,,,,,,,
+,06-17,Dedication of the Cathedral of the Diocese of San Marino,,8,feast_rank,WHITE,,,,,,,,
+,07-20,St. Bridget of Sweden,"Saint Bridget of Sweden, co-patroness of Europe",8,feast_rank,WHITE,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-bridget-of-sweden/
+,07-23,St. Apollinaris of Ravenna,"Saint Apollinaris of Ravenna, bishop and martyr",8,feast_rank,RED,,,,,,,,
+,08-01,St. Leo of Montefeltro,"Saint Leo of Montefeltro, bishop",8,feast_rank,WHITE,,,,,,,,
+,09-03,St. Marinus,"Saint Marinus, deacon",8,feast_rank,WHITE,,,,,,,,
+,09-11,Bl. Domenico Spadafora,"Blessed Domenico Spadafora, religious",11,memorial,,,,,,,,,
+,11-08,All Saints of San Marino,,11,memorial,,,,,,,,,
+our_lady_of_loreto,,,Our Lady of Loreto,8,feast_rank,WHITE,,,,,,,,

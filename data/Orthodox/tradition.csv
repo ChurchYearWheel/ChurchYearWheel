@@ -1,0 +1,19 @@
+setting,value,variant
+# ===========================================================================,,
+"# The Eastern Orthodox year, on the Revised Julian calendar with Pascha by the",,
+# Julian paschalion.  Choose the Julian calendar on the page (or --calendar,,
+# julian) for the churches that keep the Old Calendar.,,
+# ===========================================================================,,
+year_start,09-01,
+calendar,revised-julian,
+paschalion_default,julian,
+festival_half_end_auto,trinity-week,
+center_art,orthodox_cross,eastern-orthodox ugcc ruthenian
+calendar,gregorian,ruthenian
+paschalion_default,gregorian,ruthenian
+# The Bible version the page opens readings in (bible_version).,,
+bible_version,NKJV,
+# readings.csv: the cycle of the Sundays between Theophany and Zacchaeus is the year the church year begins.,,
+reading_cycle,year,
+# A weekday without a name of its own is named for the week its Sunday begins: Tuesday of the Sixth Week of Easter.,,
+weekday_titles,week,

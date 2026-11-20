@@ -1,0 +1,10 @@
+id,date,name,full_name,rank,style,color_override,color_override_bottom,icon,icon_when,transfer,variant,when,action
+holy_name_of_jesus,01-31,,Most Holy Name of Jesus,8,feast_rank,WHITE,,,,,,,
+st_john_bosco,02-01,,"Saint John Bosco, Priest",10,memorial,-,,,,,,,
+,easter+20,"Mary, Queen and Mother of the Rogationists","Blessed Virgin Mary, Queen and Mother of the Rogationists",11,memorial,,,,,,,,
+,06-01,St. Hannibal Mary di Francia,"Saint Hannibal Mary di Francia, priest and founder",4,solemnity,WHITE,,,,,,,
+st_justin,06-02,,"Saint Justin, martyr",10,memorial,-,,,,,,,
+st_anthony_of_padua,,,"Saint Anthony of Padua, priest, doctor of the Church and principal patron of the Order",4,solemnity,WHITE,,,,,,,
+,07-01,Most Holy Eucharist,The Most Holy Eucharist,11,memorial,,,,,,,,
+,09-19,"Our Lady of La Salette, Reconciler of Sinners",,11,memorial,,,,,,,,
+,09-27,"Mary, Mother of the Orphans","Blessed Virgin Mary, Mother of the Orphans",11,memorial,,,,,,,,

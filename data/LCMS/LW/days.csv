@@ -1,0 +1,30 @@
+id,variant,when,date,from,to,every,first,count,title,names,notes,latin,color,color_bottom,rank,style,icon,claims,yield,full_name
+# ===========================================================================,,,,,,,,,,,,,,,,,,,,
+"# The principal days of the LCMS year in Lutheran Worship (1982), from",,,,,,,,,,,,,,,,,,,,
+"# its Church Year (pp. 8-9), with its suggested colors (the first where it",,,,,,,,,,,,,,,,,,,,
+# gives two): the three-year series.  First built by a one-off script, since removed.,,,,,,,,,,,,,,,,,,,,
+# ===========================================================================,,,,,,,,,,,,,,,,,,,,
+advent,,,,start,start+27,sun,1,,{ordinal} Sunday in Advent,,,,,,,,,,,
+christmas,,,12-25,,,,,,The Nativity of Our Lord,,,,WHITE,,,,,TRUE,,
+after_christmas,,,,@christmas+1,@epiphany-1,sun,1,,{ordinal} Sunday after Christmas,,,,,,,,,,,
+epiphany,,,01-06,,,,,,The Epiphany of Our Lord,,,,WHITE,,,,,,,
+baptism,,,sun>@epiphany,,,,,,The Baptism of Our Lord,,,,WHITE,,,,,TRUE,,The Baptism of Our Lord: the First Sunday after the Epiphany
+transfiguration,,date gt @baptism,easter-49,,,,,,The Transfiguration of Our Lord,,,,WHITE,,,,,TRUE,,The Transfiguration of Our Lord: the Last Sunday after the Epiphany
+after_epiphany,,,,@baptism+1,@transfiguration,sun,2,,{ordinal} Sunday after the Epiphany,,,,,,,,,,,
+ash_wednesday,,,easter-46,,,,,,Ash Wednesday,,,,BLACK; purple,,,,,,,
+lent,,,,@ash_wednesday,@palm_sunday-1,sun,1,,{ordinal} Sunday in Lent,,,,,,,,,,,
+palm_sunday,,,easter-7,,,,,,Palm Sunday,,,,,,,,,TRUE,,Palm Sunday: the Sunday of the Passion
+holy_monday,,,easter-6,,,,,,Monday in Holy Week,,,,,,,,,,,
+holy_tuesday,,,easter-5,,,,,,Tuesday in Holy Week,,,,,,,,,,,
+holy_wednesday,,,easter-4,,,,,,Wednesday in Holy Week,,,,,,,,,,,
+maundy_thursday,,,easter-3,,,,,,Maundy Thursday,,,,SCARLET; white,,,,,,,
+good_friday,,,easter-2,,,,,,Good Friday,,,,BLACK,,,,,,,
+easter_eve,,,easter-1,,,,,,Easter Eve,,,,,WHITE,,,,,,
+easter,,,easter,,,,,,The Resurrection of Our Lord,,,,WHITE; gold,,,,,TRUE,,
+after_easter,,,,easter+7,@pentecost-1,sun,2,,{ordinal} Sunday of Easter,,,,,,,,,,,
+ascension,,,easter+39,,,,,,The Ascension of Our Lord,,,,WHITE,,,,,,,
+pentecost,,,easter+49,,,,,,Pentecost,,,,RED,,,,,TRUE,,
+trinity,,,easter+56,,,,,,The Holy Trinity,,,,WHITE,,,,,TRUE,,The Holy Trinity: the First Sunday after Pentecost
+after_pentecost,,,,@trinity+1,@fulfillment,sun,2,,{ordinal} Sunday after Pentecost,,,,,,,,,,,
+fulfillment,,,next_start-7,,,,,,Sunday of the Fulfillment,,,,,,,,,TRUE,,Sunday of the Fulfillment: the Last Sunday after Pentecost
+thanksgiving,,,thu#4:11,,,,,,Day of National Thanksgiving,,,,WHITE,,,,,,,Day of Special or National Thanksgiving

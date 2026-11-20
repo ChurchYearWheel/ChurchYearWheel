@@ -1,0 +1,10 @@
+id,date,name,full_name,rank,style,color_override,color_override_bottom,icon,icon_when,transfer,variant,when,action
+,01-29,Bl. Bolesława Lament,"Blessed Bolesława Lament, virgin",12,optional_memorial,,,,,,,,
+,05-16,St. Andrew Bobola,"Saint Andrew Bobola, priest, martyr",11,memorial,,,,,,,,
+,07-05,Our Lady of Trakeli,,12,optional_memorial,,,,,,,,
+,07-06,Our Lady of Budslau,,8,feast_rank,WHITE,,,,,,,
+,08-26,Our Lady of Częstochowa,,11,memorial,,,,,,,,
+,09-04,Bl. Maria Stella and Companions,"Blessed Maria Stella and companions, virgins and martyrs",12,optional_memorial,,,,,,,,
+st_josaphat,,,"Saint Josaphat, Bishop and Martyr",8,feast_rank,RED,,,,,,,
+,11-16,Our Lady of the Gate of Dawn,,11,memorial,,,,,,,,
+,11-20,St. Rafał Kalinowski,"Saint Rafał Kalinowski, priest",12,optional_memorial,,,,,,,,

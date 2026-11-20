@@ -1,0 +1,2174 @@
+day,offset,when,cycle,variant,title,kind,reading
+"# Lutheran Worship (1982, LCMS) -- readings: the three-year series (cycle A/B/C) and the one-year series"
+"#   (title ""One-Year Series""), the minor festivals and occasions (fixed dates), and the Daily Lectionary."
+"# SOURCE: Lutheran Worship (Concordia Publishing House, 1982), Propers of the Day, pp. 10-122, the READINGS"
+"#   of each day (One-Year Series; Three-Year Series A, B, C), read from a scan of the pew edition"
+"#   (October 2026).  Each column is Psalm, Old Testament (or first reading), Epistle (or second reading),"
+"#   Holy Gospel, as printed; ""or"" joins an alternative.  A second Old Testament reading printed in the"
+"#   Epistle's place (one-year Holy Monday and Wednesday, the Visitation, the Nativity of St. John the"
+"#   Baptist, the Day of Supplication and Prayer) is kind ot2.  Parenthesized verses are optional, as printed."
+# KEYS: LW numbers the Sundays after Pentecost 2-25 and gives fixed propers to the last three Sundays
+"#   (Third-Last, Second-Last, Last Sunday in the Church Year); unused numbered propers are dropped before"
+"#   them.  So numbered Sundays are keyed after_pentecost:N while earlier than @fulfillment-14, and the last"
+"#   three are keyed fulfillment with offsets -14 / -7 / 0.  Both series are printed on the same pages, so the"
+"#   one-year propers keep the same keys.  The Nativity has three services (Christmas Eve, Christmas Dawn,"
+"#   Christmas Day); Easter Eve, Easter Evening, Pentecost Eve and Pentecost Evening are Vespers or Evening"
+"#   Prayer (Easter Eve and Pentecost Evening one-year only).  Easter Day (one-year) has three sets and the Day"
+"#   of Pentecost (one-year) two, numbered as LW numbers them."
+"# FESTIVALS: LW's Commemoration of Pastors and Confessors (three-year only) serves St. Timothy and St. Titus;"
+"#   its Commemoration of the Doctors of the Church (one-year only) serves Martin Luther, C. F. W. Walther"
+"#   and the Presentation of the Augsburg Confession; the Commemoration of the Faithful Departed and New"
+"#   Year's Eve have one-year readings only, Holy Cross Day three-year only.  The Visitation is 31 May."
+"# NOT INCLUDED: the occasions without a date (Dedication of a Church or Anniversary of a Congregation, Mission"
+"#   Festival, Harvest Festival, Day of Supplication and Prayer).  The Day of Special or National Thanksgiving"
+#   is the thanksgiving day.
+"# CHECKED against the printed book by the maintainer: 7th Sunday after Pentecost C, psalm (damaged in the scan):"
+"#   Psalm 19; the Annunciation's Gospel: Luke 1:26-38 (the scan reads ""1:25-38"")."
+"# This replaces the earlier reading of the three-year series from the LCMS chart, which often gave LSB's"
+#   verses for LW's and left many slots empty.
+advent:1,,,,,One-Year Series,ot,Isaiah 62:10–12
+advent:1,,,,,One-Year Series,psalm,Psalm 25:1–7
+advent:1,,,,,One-Year Series,epistle,Romans 13:10–14a
+advent:1,,,,,One-Year Series,gospel,Luke 19:29–38
+advent:1,,,A,,,ot,Isaiah 2:1–5
+advent:1,,,A,,,psalm,Psalm 50:1–15
+advent:1,,,A,,,epistle,Romans 13:11–14
+advent:1,,,A,,,gospel,Matthew 24:37–44 or Matthew 21:1–11
+advent:1,,,B,,,ot,Isaiah 63:16b–17; 64:1–8
+advent:1,,,B,,,psalm,Psalm 98
+advent:1,,,B,,,epistle,1 Corinthians 1:3–9
+advent:1,,,B,,,gospel,Mark 13:33–37 or Mark 11:1–10
+advent:1,,,C,,,ot,Jeremiah 33:14–16
+advent:1,,,C,,,psalm,Psalm 25:1–9
+advent:1,,,C,,,epistle,1 Thessalonians 3:9–13
+advent:1,,,C,,,gospel,Luke 21:25–36 or Luke 19:28–40
+advent:2,,,,,One-Year Series,ot,Malachi 4:1–6
+advent:2,,,,,One-Year Series,psalm,Psalm 105:1–7
+advent:2,,,,,One-Year Series,epistle,Hebrews 12:25–29
+advent:2,,,,,One-Year Series,gospel,Mark 13:19–27
+advent:2,,,A,,,ot,Isaiah 11:1–10
+advent:2,,,A,,,psalm,Psalm 72:1–14 (15–19)
+advent:2,,,A,,,epistle,Romans 15:4–13
+advent:2,,,A,,,gospel,Matthew 3:1–12
+advent:2,,,B,,,ot,Isaiah 40:1–11
+advent:2,,,B,,,psalm,Psalm 19
+advent:2,,,B,,,epistle,2 Peter 3:8–14
+advent:2,,,B,,,gospel,Mark 1:1–8
+advent:2,,,C,,,ot,Malachi 3:1–4
+advent:2,,,C,,,psalm,Psalm 126
+advent:2,,,C,,,epistle,Philippians 1:3–11
+advent:2,,,C,,,gospel,Luke 3:1–6
+advent:3,,,,,One-Year Series,ot,Isaiah 40:1–8
+advent:3,,,,,One-Year Series,psalm,Psalm 50:1–6
+advent:3,,,,,One-Year Series,epistle,Romans 15:4–13
+advent:3,,,,,One-Year Series,gospel,Matthew 3:1–12
+advent:3,,,A,,,ot,Isaiah 35:1–10
+advent:3,,,A,,,psalm,Psalm 146
+advent:3,,,A,,,epistle,James 5:7–10
+advent:3,,,A,,,gospel,Matthew 11:2–11
+advent:3,,,B,,,ot,"Isaiah 61:1–3, 10–11"
+advent:3,,,B,,,psalm,Luke 1:46b–55
+advent:3,,,B,,,epistle,1 Thessalonians 5:16–24
+advent:3,,,B,,,gospel,"John 1:6–8, 19–28"
+advent:3,,,C,,,ot,Zephaniah 3:14–18a
+advent:3,,,C,,,psalm,Isaiah 12:2–6
+advent:3,,,C,,,epistle,Philippians 4:4–7 (8–9)
+advent:3,,,C,,,gospel,Luke 3:7–18
+advent:4,,,,,One-Year Series,ot,Jeremiah 23:5–6
+advent:4,,,,,One-Year Series,psalm,Psalm 19:1–6
+advent:4,,,,,One-Year Series,epistle,Philippians 4:4–7
+advent:4,,,,,One-Year Series,gospel,Luke 1:26–38 or Luke 1:46–55
+advent:4,,,A,,,ot,Isaiah 7:10–14 (15–17)
+advent:4,,,A,,,psalm,Psalm 24
+advent:4,,,A,,,epistle,Romans 1:1–7
+advent:4,,,A,,,gospel,Matthew 1:18–25
+advent:4,,,B,,,ot,"2 Samuel 7:(1–7) 8–11, 16"
+advent:4,,,B,,,psalm,Psalm 98
+advent:4,,,B,,,epistle,Romans 16:25–27
+advent:4,,,B,,,gospel,Luke 1:26–38
+advent:4,,,C,,,ot,Micah 5:2–4
+advent:4,,,C,,,psalm,Psalm 96
+advent:4,,,C,,,epistle,Hebrews 10:5–10
+advent:4,,,C,,,gospel,Luke 1:39–45 (46–55)
+christmas,,,,,Christmas Eve (One-Year Series),ot,Isaiah 9:2 (3–5) 6–7
+christmas,,,,,Christmas Eve (One-Year Series),psalm,Psalm 96:1–10
+christmas,,,,,Christmas Eve (One-Year Series),epistle,Titus 2:11–14
+christmas,,,,,Christmas Eve (One-Year Series),gospel,Luke 2:1–20
+christmas,,,A,,Christmas Eve,ot,Isaiah 9:2–7
+christmas,,,A,,Christmas Eve,psalm,Psalm 96
+christmas,,,A,,Christmas Eve,epistle,Titus 2:11–14
+christmas,,,A,,Christmas Eve,gospel,Luke 2:1–20
+christmas,,,B,,Christmas Eve,ot,Isaiah 9:2–7
+christmas,,,B,,Christmas Eve,psalm,Psalm 96
+christmas,,,B,,Christmas Eve,epistle,Titus 2:11–14
+christmas,,,B,,Christmas Eve,gospel,Luke 2:1–20
+christmas,,,C,,Christmas Eve,ot,Isaiah 9:2–7
+christmas,,,C,,Christmas Eve,psalm,Psalm 96
+christmas,,,C,,Christmas Eve,epistle,Titus 2:11–14
+christmas,,,C,,Christmas Eve,gospel,Luke 2:1–20
+christmas,,,,,Christmas Dawn (One-Year Series),ot,Ezekiel 37:24–28
+christmas,,,,,Christmas Dawn (One-Year Series),psalm,Psalm 98:1–7
+christmas,,,,,Christmas Dawn (One-Year Series),epistle,Titus 3:4–8a
+christmas,,,,,Christmas Dawn (One-Year Series),gospel,John 1:1–14
+christmas,,,A,,Christmas Dawn,ot,Isaiah 52:7–10
+christmas,,,A,,Christmas Dawn,psalm,Psalm 2
+christmas,,,A,,Christmas Dawn,epistle,Hebrews 1:1–9
+christmas,,,A,,Christmas Dawn,gospel,John 1:1–14
+christmas,,,B,,Christmas Dawn,ot,Isaiah 52:7–10
+christmas,,,B,,Christmas Dawn,psalm,Psalm 2
+christmas,,,B,,Christmas Dawn,epistle,Hebrews 1:1–9
+christmas,,,B,,Christmas Dawn,gospel,John 1:1–14
+christmas,,,C,,Christmas Dawn,ot,Isaiah 52:7–10
+christmas,,,C,,Christmas Dawn,psalm,Psalm 2
+christmas,,,C,,Christmas Dawn,epistle,Hebrews 1:1–9
+christmas,,,C,,Christmas Dawn,gospel,John 1:1–14
+christmas,,,,,One-Year Series,ot,Micah 5:2–4
+christmas,,,,,One-Year Series,psalm,Psalm 98:1–7
+christmas,,,,,One-Year Series,epistle,Hebrews 1:1–6
+christmas,,,,,One-Year Series,gospel,Luke 2:1–20
+christmas,,,A,,,ot,Isaiah 62:10–12
+christmas,,,A,,,psalm,Psalm 98
+christmas,,,A,,,epistle,Titus 3:4–7
+christmas,,,A,,,gospel,Luke 2:1–20
+christmas,,,B,,,ot,Isaiah 62:10–12
+christmas,,,B,,,psalm,Psalm 98
+christmas,,,B,,,epistle,Titus 3:4–7
+christmas,,,B,,,gospel,Luke 2:1–20
+christmas,,,C,,,ot,Isaiah 62:10–12
+christmas,,,C,,,psalm,Psalm 98
+christmas,,,C,,,epistle,Titus 3:4–7
+christmas,,,C,,,gospel,Luke 2:1–20
+after_christmas:1,,,,,One-Year Series,ot,Isaiah 63:7–9
+after_christmas:1,,,,,One-Year Series,psalm,Psalm 111
+after_christmas:1,,,,,One-Year Series,epistle,1 Corinthians 1:(18–20) 21–25
+after_christmas:1,,,,,One-Year Series,gospel,Luke 2:25–38
+after_christmas:1,,,A,,,ot,Isaiah 63:7–9
+after_christmas:1,,,A,,,psalm,Psalm 111
+after_christmas:1,,,A,,,epistle,Galatians 4:4–7
+after_christmas:1,,,A,,,gospel,"Matthew 2:13–15, 19–23"
+after_christmas:1,,,B,,,ot,Isaiah 45:22–25
+after_christmas:1,,,B,,,psalm,Psalm 111
+after_christmas:1,,,B,,,epistle,Colossians 3:12–17
+after_christmas:1,,,B,,,gospel,Luke 2:25–40
+after_christmas:1,,,C,,,ot,Jeremiah 31:10–13
+after_christmas:1,,,C,,,psalm,Psalm 111
+after_christmas:1,,,C,,,epistle,Hebrews 2:10–18
+after_christmas:1,,,C,,,gospel,Luke 2:41–52
+after_christmas:2,,,,,One-Year Series,ot,1 Samuel 2:1–10
+after_christmas:2,,,,,One-Year Series,psalm,Psalm 148
+after_christmas:2,,,,,One-Year Series,epistle,1 John 5:11–13
+after_christmas:2,,,,,One-Year Series,gospel,Luke 2:39–52
+after_christmas:2,,,A,,,ot,Isaiah 61:10–62:3
+after_christmas:2,,,A,,,psalm,Psalm 147:12–20
+after_christmas:2,,,A,,,epistle,"Ephesians 1:3–6, 15–18"
+after_christmas:2,,,A,,,gospel,John 1:1–18
+after_christmas:2,,,B,,,ot,Isaiah 61:10–62:3
+after_christmas:2,,,B,,,psalm,Psalm 147:12–20
+after_christmas:2,,,B,,,epistle,"Ephesians 1:3–6, 15–18"
+after_christmas:2,,,B,,,gospel,John 1:1–18
+after_christmas:2,,,C,,,ot,Isaiah 61:10–62:3
+after_christmas:2,,,C,,,psalm,Psalm 147:12–20
+after_christmas:2,,,C,,,epistle,"Ephesians 1:3–6, 15–18"
+after_christmas:2,,,C,,,gospel,John 1:1–18
+epiphany,,,,,One-Year Series,ot,Isaiah 60:1 (2–4) 5–6
+epiphany,,,,,One-Year Series,psalm,Psalm 72:1–11
+epiphany,,,,,One-Year Series,epistle,Ephesians 3:1–12
+epiphany,,,,,One-Year Series,gospel,Matthew 2:1–12
+epiphany,,,A,,,ot,Isaiah 60:1–6
+epiphany,,,A,,,psalm,Psalm 72
+epiphany,,,A,,,epistle,Ephesians 3:2–12
+epiphany,,,A,,,gospel,Matthew 2:1–12
+epiphany,,,B,,,ot,Isaiah 60:1–6
+epiphany,,,B,,,psalm,Psalm 72
+epiphany,,,B,,,epistle,Ephesians 3:2–12
+epiphany,,,B,,,gospel,Matthew 2:1–12
+epiphany,,,C,,,ot,Isaiah 60:1–6
+epiphany,,,C,,,psalm,Psalm 72
+epiphany,,,C,,,epistle,Ephesians 3:2–12
+epiphany,,,C,,,gospel,Matthew 2:1–12
+baptism,,,,,One-Year Series,ot,Isaiah 42:1 (2–4) 5–7
+baptism,,,,,One-Year Series,psalm,Psalm 45:2–7
+baptism,,,,,One-Year Series,epistle,1 Corinthians 1:26–31
+baptism,,,,,One-Year Series,gospel,Mark 1:9–11 or Matthew 3:13–17
+baptism,,,A,,,ot,Isaiah 42:1–7
+baptism,,,A,,,psalm,Psalm 45:7–9
+baptism,,,A,,,epistle,Acts 10:34–38
+baptism,,,A,,,gospel,Matthew 3:13–17
+baptism,,,B,,,ot,Isaiah 42:1–7
+baptism,,,B,,,psalm,Psalm 45:7–9
+baptism,,,B,,,epistle,Acts 10:34–38
+baptism,,,B,,,gospel,Mark 1:4–11
+baptism,,,C,,,ot,Isaiah 42:1–7
+baptism,,,C,,,psalm,Psalm 45:7–9
+baptism,,,C,,,epistle,Acts 10:34–38
+baptism,,,C,,,gospel,"Luke 3:15–17, 21–22"
+after_epiphany:2,,,,,One-Year Series,ot,Isaiah 61:1–3
+after_epiphany:2,,,,,One-Year Series,psalm,Psalm 36:5–10
+after_epiphany:2,,,,,One-Year Series,epistle,James 1:17–18
+after_epiphany:2,,,,,One-Year Series,gospel,John 2:1–11
+after_epiphany:2,,,A,,,ot,Isaiah 49:1–6
+after_epiphany:2,,,A,,,psalm,Psalm 92:1–5
+after_epiphany:2,,,A,,,epistle,1 Corinthians 1:1–9
+after_epiphany:2,,,A,,,gospel,John 1:29–41
+after_epiphany:2,,,B,,,ot,1 Samuel 3:1–10
+after_epiphany:2,,,B,,,psalm,Psalm 67
+after_epiphany:2,,,B,,,epistle,1 Corinthians 6:12–20
+after_epiphany:2,,,B,,,gospel,John 1:43–51
+after_epiphany:2,,,C,,,ot,Isaiah 62:1–5
+after_epiphany:2,,,C,,,psalm,Psalm 36:5–10
+after_epiphany:2,,,C,,,epistle,1 Corinthians 12:1–11
+after_epiphany:2,,,C,,,gospel,John 2:1–11
+after_epiphany:3,,,,,One-Year Series,ot,Jeremiah 9:23–24
+after_epiphany:3,,,,,One-Year Series,psalm,Psalm 18:1–6
+after_epiphany:3,,,,,One-Year Series,epistle,1 Corinthians 9:19–27
+after_epiphany:3,,,,,One-Year Series,gospel,Matthew 20:1–16
+after_epiphany:3,,,A,,,ot,Isaiah 9:1–4 or Amos 3:1–8
+after_epiphany:3,,,A,,,psalm,Psalm 27:1–9
+after_epiphany:3,,,A,,,epistle,1 Corinthians 1:10–17
+after_epiphany:3,,,A,,,gospel,Matthew 4:12–23
+after_epiphany:3,,,B,,,ot,"Jonah 3:1–5, 10"
+after_epiphany:3,,,B,,,psalm,Psalm 62:5–12
+after_epiphany:3,,,B,,,epistle,1 Corinthians 7:29–31
+after_epiphany:3,,,B,,,gospel,Mark 1:14–20
+after_epiphany:3,,,C,,,ot,Isaiah 61:1–6
+after_epiphany:3,,,C,,,psalm,Psalm 146
+after_epiphany:3,,,C,,,epistle,"1 Corinthians 12:12–21, 26–27"
+after_epiphany:3,,,C,,,gospel,Luke 4:14–21
+after_epiphany:4,,,,,One-Year Series,ot,Amos 8:11–12
+after_epiphany:4,,,,,One-Year Series,psalm,Psalm 126
+after_epiphany:4,,,,,One-Year Series,epistle,Hebrews 4:12–13
+after_epiphany:4,,,,,One-Year Series,gospel,Luke 8:4–15
+after_epiphany:4,,,A,,,ot,Micah 6:1–8
+after_epiphany:4,,,A,,,psalm,Psalm 1
+after_epiphany:4,,,A,,,epistle,1 Corinthians 1:26–31
+after_epiphany:4,,,A,,,gospel,Matthew 5:1–12
+after_epiphany:4,,,B,,,ot,Deuteronomy 18:15–20
+after_epiphany:4,,,B,,,psalm,Psalm 1
+after_epiphany:4,,,B,,,epistle,1 Corinthians 8:1–13
+after_epiphany:4,,,B,,,gospel,Mark 1:21–28
+after_epiphany:4,,,C,,,ot,Jeremiah 1:4–10
+after_epiphany:4,,,C,,,psalm,Psalm 36
+after_epiphany:4,,,C,,,epistle,1 Corinthians 12:27–13:13
+after_epiphany:4,,,C,,,gospel,Luke 4:21–32
+after_epiphany:5,,,,,One-Year Series,ot,Isaiah 49:1–6
+after_epiphany:5,,,,,One-Year Series,psalm,Psalm 121
+after_epiphany:5,,,,,One-Year Series,epistle,Romans 1:16–17
+after_epiphany:5,,,,,One-Year Series,gospel,Matthew 8:5–17
+after_epiphany:5,,,A,,,ot,Isaiah 58:5–9a
+after_epiphany:5,,,A,,,psalm,Psalm 119:17–24
+after_epiphany:5,,,A,,,epistle,1 Corinthians 2:1–5
+after_epiphany:5,,,A,,,gospel,Matthew 5:13–20
+after_epiphany:5,,,B,,,ot,Job 7:1–7
+after_epiphany:5,,,B,,,psalm,Psalm 147:1–12
+after_epiphany:5,,,B,,,epistle,1 Corinthians 9:16–23
+after_epiphany:5,,,B,,,gospel,Mark 1:29–39
+after_epiphany:5,,,C,,,ot,Isaiah 6:1–8 (9–13)
+after_epiphany:5,,,C,,,psalm,Psalm 136
+after_epiphany:5,,,C,,,epistle,1 Corinthians 14:12b–20
+after_epiphany:5,,,C,,,gospel,Luke 5:1–11
+after_epiphany:6,,,,,One-Year Series,ot,Exodus 15:1–13 (14–18)
+after_epiphany:6,,,,,One-Year Series,psalm,Psalm 92:1–7
+after_epiphany:6,,,,,One-Year Series,epistle,Ephesians 1:15–23
+after_epiphany:6,,,,,One-Year Series,gospel,Matthew 8:23–27
+after_epiphany:6,,,A,,,ot,Deuteronomy 30:15–20
+after_epiphany:6,,,A,,,psalm,Psalm 119:1–16
+after_epiphany:6,,,A,,,epistle,1 Corinthians 2:6–13
+after_epiphany:6,,,A,,,gospel,Matthew 5:20–37
+after_epiphany:6,,,B,,,ot,2 Kings 5:1–14
+after_epiphany:6,,,B,,,psalm,Psalm 32
+after_epiphany:6,,,B,,,epistle,1 Corinthians 9:24–27
+after_epiphany:6,,,B,,,gospel,Mark 1:40–45
+after_epiphany:6,,,C,,,ot,Jeremiah 17:5–8
+after_epiphany:6,,,C,,,psalm,Psalm 1
+after_epiphany:6,,,C,,,epistle,"1 Corinthians 15:12, 16–20"
+after_epiphany:6,,,C,,,gospel,Luke 6:17–26
+after_epiphany:7,,,,,One-Year Series,ot,Deuteronomy 7:6–9
+after_epiphany:7,,,,,One-Year Series,psalm,Psalm 1
+after_epiphany:7,,,,,One-Year Series,epistle,1 Corinthians 1:4–9
+after_epiphany:7,,,,,One-Year Series,gospel,Matthew 13:24–30 (36–43)
+after_epiphany:7,,,A,,,ot,"Leviticus 19:1–2, 17–18"
+after_epiphany:7,,,A,,,psalm,Psalm 103:1–13
+after_epiphany:7,,,A,,,epistle,"1 Corinthians 3:10–11, 16–23"
+after_epiphany:7,,,A,,,gospel,Matthew 5:38–48
+after_epiphany:7,,,B,,,ot,Isaiah 43:18–25
+after_epiphany:7,,,B,,,psalm,Psalm 130
+after_epiphany:7,,,B,,,epistle,2 Corinthians 1:18–22
+after_epiphany:7,,,B,,,gospel,Mark 2:1–12
+after_epiphany:7,,,C,,,ot,"Genesis 45:3–8a, 15"
+after_epiphany:7,,,C,,,psalm,Psalm 103:1–13
+after_epiphany:7,,,C,,,epistle,"1 Corinthians 15:35–38a, 42–50"
+after_epiphany:7,,,C,,,gospel,Luke 6:27–38
+after_epiphany:8,,,,,One-Year Series,ot,Isaiah 50:4–7 (8–9)
+after_epiphany:8,,,,,One-Year Series,psalm,Psalm 34:17–22
+after_epiphany:8,,,,,One-Year Series,epistle,1 Corinthians 13:1–13
+after_epiphany:8,,,,,One-Year Series,gospel,Mark 8:31–38
+after_epiphany:8,,,A,,,ot,Isaiah 49:13–18
+after_epiphany:8,,,A,,,psalm,Psalm 62
+after_epiphany:8,,,A,,,epistle,1 Corinthians 4:1–13
+after_epiphany:8,,,A,,,gospel,Matthew 6:24–34
+after_epiphany:8,,,B,,,ot,Hosea 2:14–16 (17–18) 19–20
+after_epiphany:8,,,B,,,psalm,Psalm 103:1–13
+after_epiphany:8,,,B,,,epistle,2 Corinthians 3:1b–6
+after_epiphany:8,,,B,,,gospel,Mark 2:18–22
+after_epiphany:8,,,C,,,ot,Jeremiah 7:1–7 (8–15)
+after_epiphany:8,,,C,,,psalm,Psalm 92
+after_epiphany:8,,,C,,,epistle,1 Corinthians 15:51–58
+after_epiphany:8,,,C,,,gospel,Luke 6:39–49
+transfiguration,,,,,One-Year Series,ot,Exodus 24:4b–18
+transfiguration,,,,,One-Year Series,psalm,Psalm 84:1–10
+transfiguration,,,,,One-Year Series,epistle,2 Peter 1:16–21 or 2 Corinthians 4:6–10
+transfiguration,,,,,One-Year Series,gospel,Luke 9:28–36
+transfiguration,,,A,,,ot,"Exodus 24:12, 15–18"
+transfiguration,,,A,,,psalm,Psalm 2:6–12
+transfiguration,,,A,,,epistle,2 Peter 1:16–19 (20–21)
+transfiguration,,,A,,,gospel,Matthew 17:1–9
+transfiguration,,,B,,,ot,2 Kings 2:1–12c
+transfiguration,,,B,,,psalm,Psalm 50:1–6
+transfiguration,,,B,,,epistle,2 Corinthians 3:12–4:2
+transfiguration,,,B,,,gospel,Mark 9:2–9
+transfiguration,,,C,,,ot,Deuteronomy 34:1–12
+transfiguration,,,C,,,psalm,Psalm 77
+transfiguration,,,C,,,epistle,2 Corinthians 4:3–6
+transfiguration,,,C,,,gospel,Luke 9:28–36
+ash_wednesday,,,,,One-Year Series,ot,Isaiah 59:12–20
+ash_wednesday,,,,,One-Year Series,psalm,Psalm 51:1–13
+ash_wednesday,,,,,One-Year Series,epistle,2 Corinthians 5:19–6:2
+ash_wednesday,,,,,One-Year Series,gospel,Matthew 11:20–30
+ash_wednesday,,,A,,,ot,Joel 2:12–19
+ash_wednesday,,,A,,,psalm,Psalm 51:1–13
+ash_wednesday,,,A,,,epistle,2 Corinthians 5:20b–6:2
+ash_wednesday,,,A,,,gospel,"Matthew 6:1–6, 16–21"
+ash_wednesday,,,B,,,ot,Joel 2:12–19
+ash_wednesday,,,B,,,psalm,Psalm 51:1–13
+ash_wednesday,,,B,,,epistle,2 Corinthians 5:20b–6:2
+ash_wednesday,,,B,,,gospel,"Matthew 6:1–6, 16–21"
+ash_wednesday,,,C,,,ot,Joel 2:12–19
+ash_wednesday,,,C,,,psalm,Psalm 51:1–13
+ash_wednesday,,,C,,,epistle,2 Corinthians 5:20b–6:2
+ash_wednesday,,,C,,,gospel,"Matthew 6:1–6, 16–21"
+lent:1,,,,,One-Year Series,ot,Genesis 3:1–19
+lent:1,,,,,One-Year Series,psalm,Psalm 91:9–16
+lent:1,,,,,One-Year Series,epistle,Hebrews 4:14–16
+lent:1,,,,,One-Year Series,gospel,Matthew 4:1–11
+lent:1,,,A,,,ot,"Genesis 2:7–9, 15–17; 3:1–7"
+lent:1,,,A,,,psalm,Psalm 130
+lent:1,,,A,,,epistle,Romans 5:12 (13–16) 17–19
+lent:1,,,A,,,gospel,Matthew 4:1–11
+lent:1,,,B,,,ot,Genesis 22:1–18
+lent:1,,,B,,,psalm,Psalm 6
+lent:1,,,B,,,epistle,Romans 8:31–39
+lent:1,,,B,,,gospel,Mark 1:12–15
+lent:1,,,C,,,ot,Deuteronomy 26:5–10
+lent:1,,,C,,,psalm,Psalm 91
+lent:1,,,C,,,epistle,Romans 10:8b–13
+lent:1,,,C,,,gospel,Luke 4:1–13
+lent:2,,,,,One-Year Series,ot,Isaiah 5:1–7
+lent:2,,,,,One-Year Series,psalm,Psalm 27:7–14
+lent:2,,,,,One-Year Series,epistle,Romans 5:6–11
+lent:2,,,,,One-Year Series,gospel,Mark 12:1–12
+lent:2,,,A,,,ot,Genesis 12:1–8
+lent:2,,,A,,,psalm,Psalm 105:4–11
+lent:2,,,A,,,epistle,"Romans 4:1–5, 13–17"
+lent:2,,,A,,,gospel,"John 4:5–26 (27–30, 39–42)"
+lent:2,,,B,,,ot,Genesis 28:10–17 (18–22)
+lent:2,,,B,,,psalm,Psalm 142
+lent:2,,,B,,,epistle,Romans 5:1–11
+lent:2,,,B,,,gospel,Mark 8:31–38
+lent:2,,,C,,,ot,Jeremiah 26:8–15
+lent:2,,,C,,,psalm,Psalm 4
+lent:2,,,C,,,epistle,Philippians 3:17–4:1
+lent:2,,,C,,,gospel,Luke 13:31–35
+lent:3,,,,,One-Year Series,ot,Jeremiah 20:7–12
+lent:3,,,,,One-Year Series,psalm,Psalm 90:1–12
+lent:3,,,,,One-Year Series,epistle,"Romans 12:1–2 or Ephesians 5:1–2, 6–9"
+lent:3,,,,,One-Year Series,gospel,Luke 9:51–62
+lent:3,,,A,,,ot,Isaiah 42:14–21
+lent:3,,,A,,,psalm,Psalm 142
+lent:3,,,A,,,epistle,Ephesians 5:8–14
+lent:3,,,A,,,gospel,"John 9:1–41 or John 9:13–17, 34–39"
+lent:3,,,B,,,ot,Exodus 20:1–17
+lent:3,,,B,,,psalm,Psalm 19:7–14
+lent:3,,,B,,,epistle,1 Corinthians 1:22–25
+lent:3,,,B,,,gospel,John 2:13–22
+lent:3,,,C,,,ot,"Exodus 3:1–8a, 10–15"
+lent:3,,,C,,,psalm,Psalm 126
+lent:3,,,C,,,epistle,1 Corinthians 10:1–13
+lent:3,,,C,,,gospel,Luke 13:1–9
+lent:4,,,,,One-Year Series,ot,Isaiah 55:1–7
+lent:4,,,,,One-Year Series,psalm,Psalm 146
+lent:4,,,,,One-Year Series,epistle,"Acts 2:41a, 42–47"
+lent:4,,,,,One-Year Series,gospel,John 6:1–14 (15)
+lent:4,,,A,,,ot,Hosea 5:15–6:2
+lent:4,,,A,,,psalm,Psalm 138
+lent:4,,,A,,,epistle,Romans 8:1–10
+lent:4,,,A,,,gospel,Matthew 20:17–28
+lent:4,,,B,,,ot,Numbers 21:4–9
+lent:4,,,B,,,psalm,Psalm 27:1–6 (7–14)
+lent:4,,,B,,,epistle,Ephesians 2:4–10
+lent:4,,,B,,,gospel,John 3:14–21
+lent:4,,,C,,,ot,Isaiah 12:1–6
+lent:4,,,C,,,psalm,Psalm 32
+lent:4,,,C,,,epistle,"1 Corinthians 1:18–31 or 1 Corinthians 1:18, 22–25"
+lent:4,,,C,,,gospel,"Luke 15:1–3, 11–32"
+lent:5,,,,,One-Year Series,ot,"Genesis 18:20–21, 22b–33"
+lent:5,,,,,One-Year Series,psalm,Psalm 143:1–10
+lent:5,,,,,One-Year Series,epistle,Hebrews 9:15–22 or Romans 5:1–5
+lent:5,,,,,One-Year Series,gospel,Mark 10:32–45
+lent:5,,,A,,,ot,Ezekiel 37:1–3 (4–10) 11–14
+lent:5,,,A,,,psalm,Psalm 116:1–9
+lent:5,,,A,,,epistle,Romans 8:11–19
+lent:5,,,A,,,gospel,John 11:1–53 or John 11:47–53
+lent:5,,,B,,,ot,Jeremiah 31:31–34
+lent:5,,,B,,,psalm,Psalm 51:10–15
+lent:5,,,B,,,epistle,Hebrews 5:7–9
+lent:5,,,B,,,gospel,John 12:20–33
+lent:5,,,C,,,ot,Isaiah 43:16–21
+lent:5,,,C,,,psalm,"Psalm 28:1–3, 6–9"
+lent:5,,,C,,,epistle,Philippians 3:8–14
+lent:5,,,C,,,gospel,Luke 20:9–19
+palm_sunday,,,,,One-Year Series,ot,Isaiah 52:13–53:4 or Zechariah 9:9–12
+palm_sunday,,,,,One-Year Series,psalm,Psalm 24
+palm_sunday,,,,,One-Year Series,epistle,Philippians 2:5–11
+palm_sunday,,,,,One-Year Series,gospel,John 12:12–24 or Matthew 21:1–9
+palm_sunday,,,A,,,ot,Isaiah 50:4–9b
+palm_sunday,,,A,,,psalm,Psalm 92
+palm_sunday,,,A,,,epistle,Philippians 2:5–11
+palm_sunday,,,A,,,gospel,Matthew 26:1–27:66 or Matthew 27:11–54
+palm_sunday,,,B,,,ot,Zechariah 9:9–10
+palm_sunday,,,B,,,psalm,Psalm 92
+palm_sunday,,,B,,,epistle,Philippians 2:5–11
+palm_sunday,,,B,,,gospel,Mark 14:1–15:47 or Mark 15:1–39
+palm_sunday,,,C,,,ot,Deuteronomy 32:36–39
+palm_sunday,,,C,,,psalm,Psalm 92
+palm_sunday,,,C,,,epistle,Philippians 2:5–11
+palm_sunday,,,C,,,gospel,Luke 22:1–23:56 or Luke 23:1–49
+holy_monday,,,,,One-Year Series,ot,Jeremiah 17:13–17
+holy_monday,,,,,One-Year Series,psalm,Psalm 36:5–10
+holy_monday,,,,,One-Year Series,ot2,Isaiah 50:5–10
+holy_monday,,,,,One-Year Series,gospel,John 12:1–23
+holy_monday,,,A,,,ot,Isaiah 42:1–9
+holy_monday,,,A,,,psalm,Psalm 36:5–10
+holy_monday,,,A,,,epistle,Hebrews 9:11–15
+holy_monday,,,A,,,gospel,John 12:1–11
+holy_monday,,,B,,,ot,Isaiah 42:1–9
+holy_monday,,,B,,,psalm,Psalm 36:5–10
+holy_monday,,,B,,,epistle,Hebrews 9:11–15
+holy_monday,,,B,,,gospel,John 12:1–11
+holy_monday,,,C,,,ot,Isaiah 42:1–9
+holy_monday,,,C,,,psalm,Psalm 36:5–10
+holy_monday,,,C,,,epistle,Hebrews 9:11–15
+holy_monday,,,C,,,gospel,John 12:1–11
+holy_tuesday,,,,,One-Year Series,ot,"Lamentations 1:1, 12–17, 20–21a"
+holy_tuesday,,,,,One-Year Series,psalm,Psalm 28
+holy_tuesday,,,,,One-Year Series,epistle,Hebrews 9:16–28
+holy_tuesday,,,,,One-Year Series,gospel,John 12:24–43
+holy_tuesday,,,A,,,ot,Isaiah 49:1–6
+holy_tuesday,,,A,,,psalm,"Psalm 18:1–7, 17–20"
+holy_tuesday,,,A,,,epistle,1 Corinthians 1:18–25
+holy_tuesday,,,A,,,gospel,John 12:20–36
+holy_tuesday,,,B,,,ot,Isaiah 49:1–6
+holy_tuesday,,,B,,,psalm,"Psalm 18:1–7, 17–20"
+holy_tuesday,,,B,,,epistle,1 Corinthians 1:18–25
+holy_tuesday,,,B,,,gospel,John 12:20–36
+holy_tuesday,,,C,,,ot,Isaiah 49:1–6
+holy_tuesday,,,C,,,psalm,"Psalm 18:1–7, 17–20"
+holy_tuesday,,,C,,,epistle,1 Corinthians 1:18–25
+holy_tuesday,,,C,,,gospel,John 12:20–36
+holy_wednesday,,,,,One-Year Series,ot,Jeremiah 15:15–21
+holy_wednesday,,,,,One-Year Series,psalm,Psalm 25:14–20
+holy_wednesday,,,,,One-Year Series,ot2,Isaiah 62:11; 63:1–7
+holy_wednesday,,,,,One-Year Series,gospel,Luke 22:1–23:42
+holy_wednesday,,,A,,,ot,Isaiah 50:4–9b
+holy_wednesday,,,A,,,psalm,Psalm 18:21–30
+holy_wednesday,,,A,,,epistle,Romans 5:6–11
+holy_wednesday,,,A,,,gospel,Matthew 26:14–25
+holy_wednesday,,,B,,,ot,Isaiah 50:4–9b
+holy_wednesday,,,B,,,psalm,Psalm 18:21–30
+holy_wednesday,,,B,,,epistle,Romans 5:6–11
+holy_wednesday,,,B,,,gospel,Matthew 26:14–25
+holy_wednesday,,,C,,,ot,Isaiah 50:4–9b
+holy_wednesday,,,C,,,psalm,Psalm 18:21–30
+holy_wednesday,,,C,,,epistle,Romans 5:6–11
+holy_wednesday,,,C,,,gospel,Matthew 26:14–25
+maundy_thursday,,,,,One-Year Series,ot,Exodus 12:1–14
+maundy_thursday,,,,,One-Year Series,psalm,Psalm 116:12–19
+maundy_thursday,,,,,One-Year Series,epistle,1 Corinthians 11:23–32 or 1 Corinthians 11:17–32
+maundy_thursday,,,,,One-Year Series,gospel,John 13:1–15
+maundy_thursday,,,A,,,ot,Exodus 12:1–14
+maundy_thursday,,,A,,,psalm,Psalm 116:12–19
+maundy_thursday,,,A,,,epistle,1 Corinthians 11:17–32 or 1 Corinthians 11:23–26
+maundy_thursday,,,A,,,gospel,"John 13:1–17, 34"
+maundy_thursday,,,B,,,ot,Exodus 24:3–11
+maundy_thursday,,,B,,,psalm,Psalm 116:12–19
+maundy_thursday,,,B,,,epistle,1 Corinthians 10:16–17 (18–21)
+maundy_thursday,,,B,,,gospel,Mark 14:12–26
+maundy_thursday,,,C,,,ot,Jeremiah 31:31–34
+maundy_thursday,,,C,,,psalm,Psalm 116:12–19
+maundy_thursday,,,C,,,epistle,Hebrews 10:15–39
+maundy_thursday,,,C,,,gospel,Luke 22:7–20
+good_friday,,,,,One-Year Series,ot,Isaiah 53:4–12 or Hosea 6:1–6
+good_friday,,,,,One-Year Series,psalm,Psalm 22:1–11
+good_friday,,,,,One-Year Series,epistle,2 Corinthians 5:14–21 or Hebrews 5:(1–6) 7–9
+good_friday,,,,,One-Year Series,gospel,John 18:1–19:42
+good_friday,,,A,,,ot,Isaiah 52:13–53:12 or Hosea 6:1–6
+good_friday,,,A,,,psalm,Psalm 22:1–24
+good_friday,,,A,,,epistle,Hebrews 4:14–16; 5:7–9
+good_friday,,,A,,,gospel,John 18:1–19:42 or John 19:17–30
+good_friday,,,B,,,ot,Isaiah 52:13–53:12 or Hosea 6:1–6
+good_friday,,,B,,,psalm,Psalm 22:1–24
+good_friday,,,B,,,epistle,Hebrews 4:14–16; 5:7–9
+good_friday,,,B,,,gospel,John 18:1–19:42 or John 19:17–30
+good_friday,,,C,,,ot,Isaiah 52:13–53:12 or Hosea 6:1–6
+good_friday,,,C,,,psalm,Psalm 22:1–24
+good_friday,,,C,,,epistle,Hebrews 4:14–16; 5:7–9
+good_friday,,,C,,,gospel,John 18:1–19:42 or John 19:17–30
+easter_eve,,,,,One-Year Series,ot,"Daniel 3:1, 3–9, 12–29"
+easter_eve,,,,,One-Year Series,epistle,1 Peter 3:17–22
+easter_eve,,,,,One-Year Series,gospel,Matthew 27:57–66
+easter,,,,,One-Year Series (1),ot,Daniel 3:8–25
+easter,,,,,One-Year Series (1),psalm,Psalm 118:19–29
+easter,,,,,One-Year Series (1),epistle,1 Corinthians 15:55–58
+easter,,,,,One-Year Series (1),gospel,Matthew 28:1–10
+easter,,,,,One-Year Series (2),ot,Daniel 12:1c–3 or Job 19:25–27
+easter,,,,,One-Year Series (2),psalm,Psalm 118:19–29
+easter,,,,,One-Year Series (2),epistle,Colossians 3:1–4 or 1 Corinthians 5:6–8
+easter,,,,,One-Year Series (2),gospel,Mark 16:1–8
+easter,,,,,One-Year Series (3),ot,Jonah 2:2–9
+easter,,,,,One-Year Series (3),psalm,Psalm 118:19–29
+easter,,,,,One-Year Series (3),epistle,1 Corinthians 15:12–20 or Acts 10:34–43
+easter,,,,,One-Year Series (3),gospel,John 20:1–9 (10–18) or Luke 24:33–49
+easter,,,A,,,ot,Acts 10:34–43
+easter,,,A,,,psalm,"Psalm 118:1–2, 15–24"
+easter,,,A,,,epistle,Colossians 3:1–4
+easter,,,A,,,gospel,John 20:1–9 (10–18) or Matthew 28:1–10
+easter,,,B,,,ot,Isaiah 25:6–9
+easter,,,B,,,psalm,"Psalm 118:1–2, 15–24"
+easter,,,B,,,epistle,1 Corinthians 15:19–28
+easter,,,B,,,gospel,Mark 16:1–8 or John 20:1–9 (10–18)
+easter,,,C,,,ot,Exodus 15:1–11 or Psalm 118:14–24
+easter,,,C,,,psalm,"Psalm 118:1–2, 15–24"
+easter,,,C,,,epistle,1 Corinthians 15:1–11
+easter,,,C,,,gospel,Luke 24:1–11 or John 20:1–9 (10–18)
+easter,,,,,Easter Evening (One-Year Series),psalm,Psalm 8
+easter,,,,,Easter Evening (One-Year Series),epistle,"1 Corinthians 15:(1–9) 20–26, 51–58"
+easter,,,,,Easter Evening (One-Year Series),gospel,John 11:17–27
+easter,,,A,,Easter Evening,ot,Daniel 12:1c–3 or Jonah 2:2–9
+easter,,,A,,Easter Evening,psalm,Psalm 146
+easter,,,A,,Easter Evening,epistle,1 Corinthians 5:6–8
+easter,,,A,,Easter Evening,gospel,Luke 24:13–49
+easter,,,B,,Easter Evening,ot,Daniel 12:1c–3 or Jonah 2:2–9
+easter,,,B,,Easter Evening,psalm,Psalm 146
+easter,,,B,,Easter Evening,epistle,1 Corinthians 5:6–8
+easter,,,B,,Easter Evening,gospel,Luke 24:13–49
+easter,,,C,,Easter Evening,ot,Daniel 12:1c–3 or Jonah 2:2–9
+easter,,,C,,Easter Evening,psalm,Psalm 146
+easter,,,C,,Easter Evening,epistle,1 Corinthians 5:6–8
+easter,,,C,,Easter Evening,gospel,Luke 24:13–49
+after_easter:2,,,,,One-Year Series,ot,Ezekiel 37:1–14
+after_easter:2,,,,,One-Year Series,psalm,Psalm 16
+after_easter:2,,,,,One-Year Series,epistle,1 Peter 1:3–9
+after_easter:2,,,,,One-Year Series,gospel,John 20:19–31
+after_easter:2,,,A,,,ot,"Acts 2:14a, 22–32"
+after_easter:2,,,A,,,psalm,Psalm 105:1–7
+after_easter:2,,,A,,,epistle,1 Peter 1:3–9
+after_easter:2,,,A,,,gospel,John 20:19–31
+after_easter:2,,,B,,,ot,"Acts 3:13–15, 17–26"
+after_easter:2,,,B,,,psalm,Psalm 148
+after_easter:2,,,B,,,epistle,1 John 5:1–6
+after_easter:2,,,B,,,gospel,John 20:19–31
+after_easter:2,,,C,,,ot,"Acts 5:12, 17–32"
+after_easter:2,,,C,,,psalm,Psalm 100
+after_easter:2,,,C,,,epistle,Revelation 1:4–18
+after_easter:2,,,C,,,gospel,John 20:19–31
+after_easter:3,,,,,One-Year Series,ot,Isaiah 40:25–31
+after_easter:3,,,,,One-Year Series,psalm,Psalm 22:22–31
+after_easter:3,,,,,One-Year Series,epistle,1 John 5:1–13
+after_easter:3,,,,,One-Year Series,gospel,John 15:1–8
+after_easter:3,,,A,,,ot,"Acts 2:14a, 36–47"
+after_easter:3,,,A,,,psalm,Psalm 16
+after_easter:3,,,A,,,epistle,1 Peter 1:17–21
+after_easter:3,,,A,,,gospel,Luke 24:13–35
+after_easter:3,,,B,,,ot,Acts 4:8–12
+after_easter:3,,,B,,,psalm,Psalm 139:1–12
+after_easter:3,,,B,,,epistle,1 John 1:1–2:2
+after_easter:3,,,B,,,gospel,Luke 24:36–49
+after_easter:3,,,C,,,ot,Acts 9:1–20
+after_easter:3,,,C,,,psalm,"Psalm 28:1–2, 6–9"
+after_easter:3,,,C,,,epistle,Revelation 5:11–14
+after_easter:3,,,C,,,gospel,John 21:1–14
+after_easter:4,,,,,One-Year Series,ot,Ezekiel 34:11–16
+after_easter:4,,,,,One-Year Series,psalm,Psalm 23
+after_easter:4,,,,,One-Year Series,epistle,1 Peter 2:21b–25
+after_easter:4,,,,,One-Year Series,gospel,John 10:11–16
+after_easter:4,,,A,,,ot,"Acts 6:1–9; 7:2a, 51–60"
+after_easter:4,,,A,,,psalm,Psalm 23
+after_easter:4,,,A,,,epistle,1 Peter 2:19–25
+after_easter:4,,,A,,,gospel,John 10:1–10
+after_easter:4,,,B,,,ot,Acts 4:23–33
+after_easter:4,,,B,,,psalm,Psalm 23
+after_easter:4,,,B,,,epistle,1 John 3:1–2
+after_easter:4,,,B,,,gospel,John 10:11–18
+after_easter:4,,,C,,,ot,"Acts 13:15–16a, 26–33"
+after_easter:4,,,C,,,psalm,Psalm 23
+after_easter:4,,,C,,,epistle,Revelation 7:9–17
+after_easter:4,,,C,,,gospel,John 10:22–30
+after_easter:5,,,,,One-Year Series,ot,1 Chronicles 16:23–31
+after_easter:5,,,,,One-Year Series,psalm,Psalm 65:1–8
+after_easter:5,,,,,One-Year Series,epistle,Colossians 3:12–17
+after_easter:5,,,,,One-Year Series,gospel,John 16:4b–15
+after_easter:5,,,A,,,ot,Acts 17:1–15
+after_easter:5,,,A,,,psalm,Psalm 146
+after_easter:5,,,A,,,epistle,1 Peter 2:4–10
+after_easter:5,,,A,,,gospel,John 14:1–12
+after_easter:5,,,B,,,ot,Acts 8:26–40
+after_easter:5,,,B,,,psalm,Psalm 22:25–31
+after_easter:5,,,B,,,epistle,1 John 3:18–24
+after_easter:5,,,B,,,gospel,John 15:1–8
+after_easter:5,,,C,,,ot,Acts 13:44–52
+after_easter:5,,,C,,,psalm,Psalm 110
+after_easter:5,,,C,,,epistle,Revelation 21:1–5
+after_easter:5,,,C,,,gospel,John 13:31–35
+after_easter:6,,,,,One-Year Series,ot,Isaiah 55:6–11
+after_easter:6,,,,,One-Year Series,psalm,Psalm 67
+after_easter:6,,,,,One-Year Series,epistle,1 Timothy 2:1–8
+after_easter:6,,,,,One-Year Series,gospel,John 16:23b–33
+after_easter:6,,,A,,,ot,Acts 17:22–31
+after_easter:6,,,A,,,psalm,Psalm 98
+after_easter:6,,,A,,,epistle,1 Peter 3:15–22
+after_easter:6,,,A,,,gospel,John 14:15–21
+after_easter:6,,,B,,,ot,Acts 11:19–30
+after_easter:6,,,B,,,psalm,Psalm 98
+after_easter:6,,,B,,,epistle,1 John 4:1–11
+after_easter:6,,,B,,,gospel,John 15:9–17
+after_easter:6,,,C,,,ot,Acts 14:8–18
+after_easter:6,,,C,,,psalm,Psalm 67
+after_easter:6,,,C,,,epistle,"Revelation 21:10–14, 22–23"
+after_easter:6,,,C,,,gospel,John 14:23–29
+ascension,,,,,One-Year Series,ot,Isaiah 45:18–25 or Daniel 7:13–14
+ascension,,,,,One-Year Series,psalm,Psalm 110
+ascension,,,,,One-Year Series,epistle,Acts 1:1–11 or Ephesians 4:7–13
+ascension,,,,,One-Year Series,gospel,Matthew 28:16–20
+ascension,,,A,,,ot,Acts 1:1–11
+ascension,,,A,,,psalm,Psalm 110
+ascension,,,A,,,epistle,Ephesians 1:16–23
+ascension,,,A,,,gospel,Luke 24:44–53
+ascension,,,B,,,ot,Acts 1:1–11
+ascension,,,B,,,psalm,Psalm 110
+ascension,,,B,,,epistle,Ephesians 1:16–23
+ascension,,,B,,,gospel,Luke 24:44–53
+ascension,,,C,,,ot,Acts 1:1–11
+ascension,,,C,,,psalm,Psalm 110
+ascension,,,C,,,epistle,Ephesians 1:16–23
+ascension,,,C,,,gospel,Luke 24:44–53
+after_easter:7,,,,,One-Year Series,ot,Ezekiel 36:24–27
+after_easter:7,,,,,One-Year Series,psalm,Psalm 8
+after_easter:7,,,,,One-Year Series,epistle,Ephesians 3:14–21
+after_easter:7,,,,,One-Year Series,gospel,John 15:26–16:4
+after_easter:7,,,A,,,ot,Acts 1:(1–7) 8–14
+after_easter:7,,,A,,,psalm,Psalm 133
+after_easter:7,,,A,,,epistle,1 Peter 4:12–17; 5:6–11
+after_easter:7,,,A,,,gospel,John 17:1–11
+after_easter:7,,,B,,,ot,Acts 1:15–26
+after_easter:7,,,B,,,psalm,Psalm 133
+after_easter:7,,,B,,,epistle,1 John 4:13–21
+after_easter:7,,,B,,,gospel,John 17:11b–19
+after_easter:7,,,C,,,ot,Acts 16:6–10
+after_easter:7,,,C,,,psalm,Psalm 133
+after_easter:7,,,C,,,epistle,"Revelation 22:12–17, 20"
+after_easter:7,,,C,,,gospel,John 17:20–26
+pentecost,-1,,,,Pentecost Eve (One-Year Series),ot,Joel 3:1–5
+pentecost,-1,,,,Pentecost Eve (One-Year Series),epistle,Romans 8:12–17
+pentecost,-1,,,,Pentecost Eve (One-Year Series),gospel,John 14:15–21
+pentecost,-1,,A,,Pentecost Eve,ot,Exodus 19:1–9 or Acts 2:1–11
+pentecost,-1,,A,,Pentecost Eve,psalm,Psalm 98
+pentecost,-1,,A,,Pentecost Eve,epistle,"Romans 8:14–17, 22–27"
+pentecost,-1,,A,,Pentecost Eve,gospel,John 7:37–39a
+pentecost,-1,,B,,Pentecost Eve,ot,Exodus 19:1–9 or Acts 2:1–11
+pentecost,-1,,B,,Pentecost Eve,psalm,Psalm 98
+pentecost,-1,,B,,Pentecost Eve,epistle,"Romans 8:14–17, 22–27"
+pentecost,-1,,B,,Pentecost Eve,gospel,John 7:37–39a
+pentecost,-1,,C,,Pentecost Eve,ot,Exodus 19:1–9 or Acts 2:1–11
+pentecost,-1,,C,,Pentecost Eve,psalm,Psalm 98
+pentecost,-1,,C,,Pentecost Eve,epistle,"Romans 8:14–17, 22–27"
+pentecost,-1,,C,,Pentecost Eve,gospel,John 7:37–39a
+pentecost,,,,,One-Year Series (1),ot,Joel 2:28–29
+pentecost,,,,,One-Year Series (1),psalm,Psalm 139:1–12
+pentecost,,,,,One-Year Series (1),epistle,Acts 2:1–8 (9–11) 12–18
+pentecost,,,,,One-Year Series (1),gospel,John 14:23–27
+pentecost,,,,,One-Year Series (2),ot,Acts 2:1–8 (9–13) 14–18 (19–20) 21–24 (25–31) 32–33 (34–35) 36–42
+pentecost,,,,,One-Year Series (2),psalm,Psalm 139:1–12
+pentecost,,,,,One-Year Series (2),epistle,1 Corinthians 12:4–11
+pentecost,,,,,One-Year Series (2),gospel,John 3:16–21
+pentecost,,,A,,,ot,Joel 2:28–29
+pentecost,,,A,,,psalm,"Psalm 143 or Veni, Creator Spiritus (Hymn 158)"
+pentecost,,,A,,,epistle,Acts 2:1–21
+pentecost,,,A,,,gospel,John 16:5–11
+pentecost,,,B,,,ot,Ezekiel 37:1–14
+pentecost,,,B,,,psalm,"Psalm 143 or Veni, Creator Spiritus (Hymn 158)"
+pentecost,,,B,,,epistle,Acts 2:22–36
+pentecost,,,B,,,gospel,John 7:37–39a
+pentecost,,,C,,,ot,Genesis 11:1–9
+pentecost,,,C,,,psalm,"Psalm 143 or Veni, Creator Spiritus (Hymn 158)"
+pentecost,,,C,,,epistle,Acts 2:37–47
+pentecost,,,C,,,gospel,John 15:26–27; 16:4b–11
+pentecost,-1,,,,Pentecost Evening (One-Year Series),ot,Ezekiel 36:22–28
+pentecost,-1,,,,Pentecost Evening (One-Year Series),epistle,Revelation 21:1–5
+pentecost,-1,,,,Pentecost Evening (One-Year Series),gospel,Matthew 28:16–20
+trinity,,,,,One-Year Series,ot,Isaiah 6:1–8
+trinity,,,,,One-Year Series,psalm,Psalm 148
+trinity,,,,,One-Year Series,epistle,Ephesians 1:3–14
+trinity,,,,,One-Year Series,gospel,John 3:1–8 or Matthew 28:16–20
+trinity,,,A,,,ot,"Genesis 1:1–2:3 or Deuteronomy 4:32–34, 39–40"
+trinity,,,A,,,psalm,Psalm 135
+trinity,,,A,,,epistle,2 Corinthians 13:11–14
+trinity,,,A,,,gospel,Matthew 28:16–20
+trinity,,,B,,,ot,Deuteronomy 6:4–9
+trinity,,,B,,,psalm,Psalm 96
+trinity,,,B,,,epistle,Romans 8:14–17
+trinity,,,B,,,gospel,John 3:1–17
+trinity,,,C,,,ot,Proverbs 8:22–31
+trinity,,,C,,,psalm,Psalm 8
+trinity,,,C,,,epistle,Romans 5:1–5
+trinity,,,C,,,gospel,John 16:12–15
+after_pentecost:2,,date lt @fulfillment-14,,,One-Year Series,ot,Exodus 20:1–17
+after_pentecost:2,,date lt @fulfillment-14,,,One-Year Series,psalm,Psalm 62:5–12
+after_pentecost:2,,date lt @fulfillment-14,,,One-Year Series,epistle,1 John 3:11–18
+after_pentecost:2,,date lt @fulfillment-14,,,One-Year Series,gospel,Luke 16:19–31
+after_pentecost:2,,date lt @fulfillment-14,A,,,ot,"Deuteronomy 11:18–21, 26–28"
+after_pentecost:2,,date lt @fulfillment-14,A,,,psalm,Psalm 4
+after_pentecost:2,,date lt @fulfillment-14,A,,,epistle,"Romans 3:21–25a, 27–28"
+after_pentecost:2,,date lt @fulfillment-14,A,,,gospel,Matthew 7:(15–20) 21–29
+after_pentecost:2,,date lt @fulfillment-14,B,,,ot,Deuteronomy 5:12–15
+after_pentecost:2,,date lt @fulfillment-14,B,,,psalm,Psalm 142
+after_pentecost:2,,date lt @fulfillment-14,B,,,epistle,2 Corinthians 4:5–12
+after_pentecost:2,,date lt @fulfillment-14,B,,,gospel,Mark 2:23–28
+after_pentecost:2,,date lt @fulfillment-14,C,,,ot,"1 Kings 8:(22–23, 27–30) 41–43"
+after_pentecost:2,,date lt @fulfillment-14,C,,,psalm,Psalm 117
+after_pentecost:2,,date lt @fulfillment-14,C,,,epistle,Galatians 1:1–10
+after_pentecost:2,,date lt @fulfillment-14,C,,,gospel,Luke 7:1–10
+after_pentecost:3,,date lt @fulfillment-14,,,One-Year Series,ot,Deuteronomy 8:11–20 or Zechariah 1:3–6
+after_pentecost:3,,date lt @fulfillment-14,,,One-Year Series,psalm,Psalm 117
+after_pentecost:3,,date lt @fulfillment-14,,,One-Year Series,epistle,Ephesians 2:13–22 or Revelation 3:14–22
+after_pentecost:3,,date lt @fulfillment-14,,,One-Year Series,gospel,Luke 14:15–24
+after_pentecost:3,,date lt @fulfillment-14,A,,,ot,Hosea 5:15–6:6
+after_pentecost:3,,date lt @fulfillment-14,A,,,psalm,Psalm 119:65–72
+after_pentecost:3,,date lt @fulfillment-14,A,,,epistle,Romans 4:18–25
+after_pentecost:3,,date lt @fulfillment-14,A,,,gospel,Matthew 9:9–13
+after_pentecost:3,,date lt @fulfillment-14,B,,,ot,Genesis 3:9–15
+after_pentecost:3,,date lt @fulfillment-14,B,,,psalm,Psalm 28
+after_pentecost:3,,date lt @fulfillment-14,B,,,epistle,2 Corinthians 4:13–18
+after_pentecost:3,,date lt @fulfillment-14,B,,,gospel,Mark 3:20–35
+after_pentecost:3,,date lt @fulfillment-14,C,,,ot,1 Kings 17:17–24
+after_pentecost:3,,date lt @fulfillment-14,C,,,psalm,Psalm 116:1–9
+after_pentecost:3,,date lt @fulfillment-14,C,,,epistle,Galatians 1:11–24
+after_pentecost:3,,date lt @fulfillment-14,C,,,gospel,Luke 7:11–17
+after_pentecost:4,,date lt @fulfillment-14,,,One-Year Series,ot,Micah 7:18–20
+after_pentecost:4,,date lt @fulfillment-14,,,One-Year Series,psalm,Psalm 100
+after_pentecost:4,,date lt @fulfillment-14,,,One-Year Series,epistle,1 Timothy 1:12–16
+after_pentecost:4,,date lt @fulfillment-14,,,One-Year Series,gospel,Luke 15:11–32
+after_pentecost:4,,date lt @fulfillment-14,A,,,ot,Exodus 19:2–8a
+after_pentecost:4,,date lt @fulfillment-14,A,,,psalm,Psalm 100
+after_pentecost:4,,date lt @fulfillment-14,A,,,epistle,Romans 5:6–11
+after_pentecost:4,,date lt @fulfillment-14,A,,,gospel,Matthew 9:35–10:8
+after_pentecost:4,,date lt @fulfillment-14,B,,,ot,Ezekiel 17:22–24
+after_pentecost:4,,date lt @fulfillment-14,B,,,psalm,Psalm 92:1–5 (6–11) 12–15
+after_pentecost:4,,date lt @fulfillment-14,B,,,epistle,2 Corinthians 5:1–10
+after_pentecost:4,,date lt @fulfillment-14,B,,,gospel,Mark 4:26–34
+after_pentecost:4,,date lt @fulfillment-14,C,,,ot,"2 Samuel 11:26–12:10, 13–15"
+after_pentecost:4,,date lt @fulfillment-14,C,,,psalm,Psalm 32
+after_pentecost:4,,date lt @fulfillment-14,C,,,epistle,Galatians 2:11–21
+after_pentecost:4,,date lt @fulfillment-14,C,,,gospel,Luke 7:36–50
+after_pentecost:5,,date lt @fulfillment-14,,,One-Year Series,ot,Genesis 50:15–21
+after_pentecost:5,,date lt @fulfillment-14,,,One-Year Series,psalm,Psalm 138
+after_pentecost:5,,date lt @fulfillment-14,,,One-Year Series,epistle,Romans 12:14–21
+after_pentecost:5,,date lt @fulfillment-14,,,One-Year Series,gospel,Luke 6:36–42
+after_pentecost:5,,date lt @fulfillment-14,A,,,ot,Jeremiah 20:7–13
+after_pentecost:5,,date lt @fulfillment-14,A,,,psalm,Psalm 91
+after_pentecost:5,,date lt @fulfillment-14,A,,,epistle,Romans 5:12–15
+after_pentecost:5,,date lt @fulfillment-14,A,,,gospel,Matthew 10:24–33
+after_pentecost:5,,date lt @fulfillment-14,B,,,ot,Job 38:1–11
+after_pentecost:5,,date lt @fulfillment-14,B,,,psalm,"Psalm 107:1–3, 23–32"
+after_pentecost:5,,date lt @fulfillment-14,B,,,epistle,2 Corinthians 5:14–21
+after_pentecost:5,,date lt @fulfillment-14,B,,,gospel,Mark 4:35–41
+after_pentecost:5,,date lt @fulfillment-14,C,,,ot,Zechariah 12:7–10
+after_pentecost:5,,date lt @fulfillment-14,C,,,psalm,Psalm 119:41–48
+after_pentecost:5,,date lt @fulfillment-14,C,,,epistle,Galatians 3:23–29
+after_pentecost:5,,date lt @fulfillment-14,C,,,gospel,Luke 9:18–24
+after_pentecost:6,,date lt @fulfillment-14,,,One-Year Series,ot,Lamentations 3:22–26 or Exodus 3:1–15
+after_pentecost:6,,date lt @fulfillment-14,,,One-Year Series,psalm,Psalm 147:1–14
+after_pentecost:6,,date lt @fulfillment-14,,,One-Year Series,epistle,1 Peter 2:4–10
+after_pentecost:6,,date lt @fulfillment-14,,,One-Year Series,gospel,Luke 5:1–11
+after_pentecost:6,,date lt @fulfillment-14,A,,,ot,Jeremiah 28:5–9
+after_pentecost:6,,date lt @fulfillment-14,A,,,psalm,Psalm 119:153–160
+after_pentecost:6,,date lt @fulfillment-14,A,,,epistle,Romans 6:1b–11
+after_pentecost:6,,date lt @fulfillment-14,A,,,gospel,Matthew 10:34–42
+after_pentecost:6,,date lt @fulfillment-14,B,,,ot,Lamentations 3:22–33
+after_pentecost:6,,date lt @fulfillment-14,B,,,psalm,Psalm 121
+after_pentecost:6,,date lt @fulfillment-14,B,,,epistle,"2 Corinthians 8:1–9, 13–14"
+after_pentecost:6,,date lt @fulfillment-14,B,,,gospel,"Mark 5:21–24a, 35–43 or Mark 5:24b–34"
+after_pentecost:6,,date lt @fulfillment-14,C,,,ot,1 Kings 19:14–21
+after_pentecost:6,,date lt @fulfillment-14,C,,,psalm,Psalm 16
+after_pentecost:6,,date lt @fulfillment-14,C,,,epistle,"Galatians 5:1, 13–25"
+after_pentecost:6,,date lt @fulfillment-14,C,,,gospel,Luke 9:51–62
+after_pentecost:7,,date lt @fulfillment-14,,,One-Year Series,ot,Isaiah 43:1–7 or Jeremiah 17:9–13
+after_pentecost:7,,date lt @fulfillment-14,,,One-Year Series,psalm,Psalm 107:1–9
+after_pentecost:7,,date lt @fulfillment-14,,,One-Year Series,epistle,Romans 6:1–11
+after_pentecost:7,,date lt @fulfillment-14,,,One-Year Series,gospel,John 4:5–15 (16–26)
+after_pentecost:7,,date lt @fulfillment-14,A,,,ot,Zechariah 9:9–12
+after_pentecost:7,,date lt @fulfillment-14,A,,,psalm,Psalm 119:137–144
+after_pentecost:7,,date lt @fulfillment-14,A,,,epistle,Romans 7:15–25a
+after_pentecost:7,,date lt @fulfillment-14,A,,,gospel,Matthew 11:25–30
+after_pentecost:7,,date lt @fulfillment-14,B,,,ot,Ezekiel 2:1–5
+after_pentecost:7,,date lt @fulfillment-14,B,,,psalm,"Psalm 143:1–2, 5–8"
+after_pentecost:7,,date lt @fulfillment-14,B,,,epistle,2 Corinthians 12:7–10
+after_pentecost:7,,date lt @fulfillment-14,B,,,gospel,Mark 6:1–6
+after_pentecost:7,,date lt @fulfillment-14,C,,,ot,Isaiah 66:10–14
+after_pentecost:7,,date lt @fulfillment-14,C,,,psalm,Psalm 19
+after_pentecost:7,,date lt @fulfillment-14,C,,,epistle,"Galatians 6:1–10, 14–16"
+after_pentecost:7,,date lt @fulfillment-14,C,,,gospel,"Luke 10:1–12, 16 (17–20)"
+after_pentecost:8,,date lt @fulfillment-14,,,One-Year Series,ot,Genesis 3:9–19
+after_pentecost:8,,date lt @fulfillment-14,,,One-Year Series,psalm,Psalm 139:14–18
+after_pentecost:8,,date lt @fulfillment-14,,,One-Year Series,epistle,Romans 6:19–23
+after_pentecost:8,,date lt @fulfillment-14,,,One-Year Series,gospel,Mark 8:1–9
+after_pentecost:8,,date lt @fulfillment-14,A,,,ot,Isaiah 55:10–11
+after_pentecost:8,,date lt @fulfillment-14,A,,,psalm,Psalm 65
+after_pentecost:8,,date lt @fulfillment-14,A,,,epistle,Romans 8:18–25
+after_pentecost:8,,date lt @fulfillment-14,A,,,gospel,Matthew 13:1–9 (18–23)
+after_pentecost:8,,date lt @fulfillment-14,B,,,ot,Amos 7:10–15
+after_pentecost:8,,date lt @fulfillment-14,B,,,psalm,Psalm 126
+after_pentecost:8,,date lt @fulfillment-14,B,,,epistle,Ephesians 1:3–14
+after_pentecost:8,,date lt @fulfillment-14,B,,,gospel,Mark 6:7–13
+after_pentecost:8,,date lt @fulfillment-14,C,,,ot,Deuteronomy 30:9–14
+after_pentecost:8,,date lt @fulfillment-14,C,,,psalm,Psalm 25:1–10
+after_pentecost:8,,date lt @fulfillment-14,C,,,epistle,Colossians 1:1–14
+after_pentecost:8,,date lt @fulfillment-14,C,,,gospel,Luke 10:25–37
+after_pentecost:9,,date lt @fulfillment-14,,,One-Year Series,ot,Genesis 12:1–4a(4b–7)
+after_pentecost:9,,date lt @fulfillment-14,,,One-Year Series,psalm,Psalm 1
+after_pentecost:9,,date lt @fulfillment-14,,,One-Year Series,epistle,Galatians 5:16–25
+after_pentecost:9,,date lt @fulfillment-14,,,One-Year Series,gospel,Matthew 5:13–16
+after_pentecost:9,,date lt @fulfillment-14,A,,,ot,Isaiah 44:6–8
+after_pentecost:9,,date lt @fulfillment-14,A,,,psalm,Psalm 119:57–64
+after_pentecost:9,,date lt @fulfillment-14,A,,,epistle,Romans 8:26–27
+after_pentecost:9,,date lt @fulfillment-14,A,,,gospel,Matthew 13:24–30 (36–43)
+after_pentecost:9,,date lt @fulfillment-14,B,,,ot,Jeremiah 23:1–6
+after_pentecost:9,,date lt @fulfillment-14,B,,,psalm,Psalm 23
+after_pentecost:9,,date lt @fulfillment-14,B,,,epistle,Ephesians 2:13–22
+after_pentecost:9,,date lt @fulfillment-14,B,,,gospel,Mark 6:30–34
+after_pentecost:9,,date lt @fulfillment-14,C,,,ot,Genesis 18:1–10a(10b–14)
+after_pentecost:9,,date lt @fulfillment-14,C,,,psalm,Psalm 27
+after_pentecost:9,,date lt @fulfillment-14,C,,,epistle,Colossians 1:21–28
+after_pentecost:9,,date lt @fulfillment-14,C,,,gospel,Luke 10:38–42
+after_pentecost:10,,date lt @fulfillment-14,,,One-Year Series,ot,Exodus 32:1–7 (8–14) 15–20 (30–34)
+after_pentecost:10,,date lt @fulfillment-14,,,One-Year Series,psalm,Psalm 119:105–112
+after_pentecost:10,,date lt @fulfillment-14,,,One-Year Series,epistle,Philippians 3:7–11
+after_pentecost:10,,date lt @fulfillment-14,,,One-Year Series,gospel,Matthew 25:14–30
+after_pentecost:10,,date lt @fulfillment-14,A,,,ot,1 Kings 3:5–12
+after_pentecost:10,,date lt @fulfillment-14,A,,,psalm,Psalm 119:129–136
+after_pentecost:10,,date lt @fulfillment-14,A,,,epistle,Romans 8:28–30
+after_pentecost:10,,date lt @fulfillment-14,A,,,gospel,Matthew 13:44–52
+after_pentecost:10,,date lt @fulfillment-14,B,,,ot,Exodus 24:3–11
+after_pentecost:10,,date lt @fulfillment-14,B,,,psalm,"Psalm 136:1–9, 23–26"
+after_pentecost:10,,date lt @fulfillment-14,B,,,epistle,"Ephesians 4:1–7, 11–16"
+after_pentecost:10,,date lt @fulfillment-14,B,,,gospel,John 6:1–15
+after_pentecost:10,,date lt @fulfillment-14,C,,,ot,Genesis 18:20–32
+after_pentecost:10,,date lt @fulfillment-14,C,,,psalm,Psalm 138
+after_pentecost:10,,date lt @fulfillment-14,C,,,epistle,Colossians 2:6–15
+after_pentecost:10,,date lt @fulfillment-14,C,,,gospel,Luke 11:1–13
+after_pentecost:11,,date lt @fulfillment-14,,,One-Year Series,ot,Daniel 9:15–18
+after_pentecost:11,,date lt @fulfillment-14,,,One-Year Series,psalm,Psalm 73:25–28
+after_pentecost:11,,date lt @fulfillment-14,,,One-Year Series,epistle,Romans 9:1–5; 10:1–4
+after_pentecost:11,,date lt @fulfillment-14,,,One-Year Series,gospel,Luke 19:41–48
+after_pentecost:11,,date lt @fulfillment-14,A,,,ot,Isaiah 55:1–5
+after_pentecost:11,,date lt @fulfillment-14,A,,,psalm,"Psalm 136:1–9, 23–26"
+after_pentecost:11,,date lt @fulfillment-14,A,,,epistle,Romans 8:35–39
+after_pentecost:11,,date lt @fulfillment-14,A,,,gospel,Matthew 14:13–21
+after_pentecost:11,,date lt @fulfillment-14,B,,,ot,Exodus 16:2–15
+after_pentecost:11,,date lt @fulfillment-14,B,,,psalm,Psalm 119:89–104
+after_pentecost:11,,date lt @fulfillment-14,B,,,epistle,Ephesians 4:17–24
+after_pentecost:11,,date lt @fulfillment-14,B,,,gospel,John 6:24–35
+after_pentecost:11,,date lt @fulfillment-14,C,,,ot,Ecclesiastes 1:2; 2:18–26
+after_pentecost:11,,date lt @fulfillment-14,C,,,psalm,Psalm 100
+after_pentecost:11,,date lt @fulfillment-14,C,,,epistle,Colossians 3:1–11
+after_pentecost:11,,date lt @fulfillment-14,C,,,gospel,Luke 12:13–21
+after_pentecost:12,,date lt @fulfillment-14,,,One-Year Series,ot,2 Chronicles 1:7–12
+after_pentecost:12,,date lt @fulfillment-14,,,One-Year Series,psalm,Psalm 138
+after_pentecost:12,,date lt @fulfillment-14,,,One-Year Series,epistle,1 Peter 5:5b–11
+after_pentecost:12,,date lt @fulfillment-14,,,One-Year Series,gospel,Luke 18:9–14
+after_pentecost:12,,date lt @fulfillment-14,A,,,ot,1 Kings 19:9–18
+after_pentecost:12,,date lt @fulfillment-14,A,,,psalm,Psalm 28
+after_pentecost:12,,date lt @fulfillment-14,A,,,epistle,Romans 9:1–5
+after_pentecost:12,,date lt @fulfillment-14,A,,,gospel,Matthew 14:22–33
+after_pentecost:12,,date lt @fulfillment-14,B,,,ot,1 Kings 19:4–8
+after_pentecost:12,,date lt @fulfillment-14,B,,,psalm,Psalm 34:1–8
+after_pentecost:12,,date lt @fulfillment-14,B,,,epistle,Ephesians 4:30–5:2
+after_pentecost:12,,date lt @fulfillment-14,B,,,gospel,John 6:41–51
+after_pentecost:12,,date lt @fulfillment-14,C,,,ot,Genesis 15:1–6
+after_pentecost:12,,date lt @fulfillment-14,C,,,psalm,Psalm 50
+after_pentecost:12,,date lt @fulfillment-14,C,,,epistle,"Hebrews 11:1–3, 8–16"
+after_pentecost:12,,date lt @fulfillment-14,C,,,gospel,Luke 12:32–40
+after_pentecost:13,,date lt @fulfillment-14,,,One-Year Series,ot,Isaiah 29:18–21
+after_pentecost:13,,date lt @fulfillment-14,,,One-Year Series,psalm,Psalm 146
+after_pentecost:13,,date lt @fulfillment-14,,,One-Year Series,epistle,2 Corinthians 12:6–10
+after_pentecost:13,,date lt @fulfillment-14,,,One-Year Series,gospel,Mark 7:31–37
+after_pentecost:13,,date lt @fulfillment-14,A,,,ot,"Isaiah 56:1, 6–8"
+after_pentecost:13,,date lt @fulfillment-14,A,,,psalm,Psalm 67
+after_pentecost:13,,date lt @fulfillment-14,A,,,epistle,"Romans 11:13–15, 29–32"
+after_pentecost:13,,date lt @fulfillment-14,A,,,gospel,Matthew 15:21–28
+after_pentecost:13,,date lt @fulfillment-14,B,,,ot,Proverbs 9:1–6
+after_pentecost:13,,date lt @fulfillment-14,B,,,psalm,Psalm 34:9–14
+after_pentecost:13,,date lt @fulfillment-14,B,,,epistle,Ephesians 5:15–20
+after_pentecost:13,,date lt @fulfillment-14,B,,,gospel,John 6:51–58
+after_pentecost:13,,date lt @fulfillment-14,C,,,ot,Jeremiah 23:23–29
+after_pentecost:13,,date lt @fulfillment-14,C,,,psalm,Psalm 119:81–88
+after_pentecost:13,,date lt @fulfillment-14,C,,,epistle,Hebrews 12:1–13
+after_pentecost:13,,date lt @fulfillment-14,C,,,gospel,Luke 12:49–53
+after_pentecost:14,,date lt @fulfillment-14,,,One-Year Series,ot,Genesis 4:(1–7) 8–16a
+after_pentecost:14,,date lt @fulfillment-14,,,One-Year Series,psalm,Psalm 142
+after_pentecost:14,,date lt @fulfillment-14,,,One-Year Series,epistle,1 John 4:7–11
+after_pentecost:14,,date lt @fulfillment-14,,,One-Year Series,gospel,Luke 10:25–37
+after_pentecost:14,,date lt @fulfillment-14,A,,,ot,Exodus 6:2–8
+after_pentecost:14,,date lt @fulfillment-14,A,,,psalm,Psalm 138
+after_pentecost:14,,date lt @fulfillment-14,A,,,epistle,Romans 11:33–36
+after_pentecost:14,,date lt @fulfillment-14,A,,,gospel,Matthew 16:13–20
+after_pentecost:14,,date lt @fulfillment-14,B,,,ot,"Joshua 24:1–2a, 14–18"
+after_pentecost:14,,date lt @fulfillment-14,B,,,psalm,Psalm 34:15–22
+after_pentecost:14,,date lt @fulfillment-14,B,,,epistle,Ephesians 5:21–31
+after_pentecost:14,,date lt @fulfillment-14,B,,,gospel,John 6:60–69
+after_pentecost:14,,date lt @fulfillment-14,C,,,ot,Isaiah 66:18–23
+after_pentecost:14,,date lt @fulfillment-14,C,,,psalm,Psalm 117
+after_pentecost:14,,date lt @fulfillment-14,C,,,epistle,Hebrews 12:18–24
+after_pentecost:14,,date lt @fulfillment-14,C,,,gospel,Luke 13:22–30
+after_pentecost:15,,date lt @fulfillment-14,,,One-Year Series,ot,Genesis 28:10–19a
+after_pentecost:15,,date lt @fulfillment-14,,,One-Year Series,psalm,Psalm 107:17–22
+after_pentecost:15,,date lt @fulfillment-14,,,One-Year Series,epistle,Romans 8:12–17
+after_pentecost:15,,date lt @fulfillment-14,,,One-Year Series,gospel,Luke 17:11–19
+after_pentecost:15,,date lt @fulfillment-14,A,,,ot,Jeremiah 15:15–21
+after_pentecost:15,,date lt @fulfillment-14,A,,,psalm,Psalm 119:105–112
+after_pentecost:15,,date lt @fulfillment-14,A,,,epistle,Romans 12:1–8
+after_pentecost:15,,date lt @fulfillment-14,A,,,gospel,Matthew 16:21–26
+after_pentecost:15,,date lt @fulfillment-14,B,,,ot,"Deuteronomy 4:1–2, 6–8"
+after_pentecost:15,,date lt @fulfillment-14,B,,,psalm,Psalm 119:129–136
+after_pentecost:15,,date lt @fulfillment-14,B,,,epistle,Ephesians 6:10–20
+after_pentecost:15,,date lt @fulfillment-14,B,,,gospel,"Mark 7:1–8, 14–15, 21–23"
+after_pentecost:15,,date lt @fulfillment-14,C,,,ot,Proverbs 25:6–7
+after_pentecost:15,,date lt @fulfillment-14,C,,,psalm,Psalm 119:161–168
+after_pentecost:15,,date lt @fulfillment-14,C,,,epistle,Hebrews 13:1–8
+after_pentecost:15,,date lt @fulfillment-14,C,,,gospel,"Luke 14:1, 7–14"
+after_pentecost:16,,date lt @fulfillment-14,,,One-Year Series,ot,1 Kings 17:8–16
+after_pentecost:16,,date lt @fulfillment-14,,,One-Year Series,psalm,Psalm 4
+after_pentecost:16,,date lt @fulfillment-14,,,One-Year Series,epistle,2 Corinthians 6:1–10
+after_pentecost:16,,date lt @fulfillment-14,,,One-Year Series,gospel,Matthew 6:25–33
+after_pentecost:16,,date lt @fulfillment-14,A,,,ot,Ezekiel 33:7–9
+after_pentecost:16,,date lt @fulfillment-14,A,,,psalm,Psalm 119:113–120
+after_pentecost:16,,date lt @fulfillment-14,A,,,epistle,Romans 13:1–10
+after_pentecost:16,,date lt @fulfillment-14,A,,,gospel,Matthew 18:15–20
+after_pentecost:16,,date lt @fulfillment-14,B,,,ot,Isaiah 35:4–7a
+after_pentecost:16,,date lt @fulfillment-14,B,,,psalm,Psalm 146
+after_pentecost:16,,date lt @fulfillment-14,B,,,epistle,James 1:17–22 (23–25) 26–27
+after_pentecost:16,,date lt @fulfillment-14,B,,,gospel,Mark 7:31–37
+after_pentecost:16,,date lt @fulfillment-14,C,,,ot,Proverbs 9:8–12
+after_pentecost:16,,date lt @fulfillment-14,C,,,psalm,Psalm 119:169–176
+after_pentecost:16,,date lt @fulfillment-14,C,,,epistle,Philemon 1 (2–9) 10–21
+after_pentecost:16,,date lt @fulfillment-14,C,,,gospel,Luke 14:25–33
+after_pentecost:17,,date lt @fulfillment-14,,,One-Year Series,ot,1 Kings 17:17–24
+after_pentecost:17,,date lt @fulfillment-14,,,One-Year Series,psalm,Psalm 116:1–9
+after_pentecost:17,,date lt @fulfillment-14,,,One-Year Series,epistle,1 Corinthians 15:1–11
+after_pentecost:17,,date lt @fulfillment-14,,,One-Year Series,gospel,Luke 7:11–16 or John 11:17–27
+after_pentecost:17,,date lt @fulfillment-14,A,,,ot,Genesis 50:15–21
+after_pentecost:17,,date lt @fulfillment-14,A,,,psalm,Psalm 103:1–13
+after_pentecost:17,,date lt @fulfillment-14,A,,,epistle,Romans 14:5–9
+after_pentecost:17,,date lt @fulfillment-14,A,,,gospel,Matthew 18:21–35
+after_pentecost:17,,date lt @fulfillment-14,B,,,ot,Isaiah 50:4–10
+after_pentecost:17,,date lt @fulfillment-14,B,,,psalm,Psalm 116:1–9
+after_pentecost:17,,date lt @fulfillment-14,B,,,epistle,"James 2:1–5, 8–10, 14–18"
+after_pentecost:17,,date lt @fulfillment-14,B,,,gospel,Mark 8:27–35
+after_pentecost:17,,date lt @fulfillment-14,C,,,ot,Exodus 32:7–14
+after_pentecost:17,,date lt @fulfillment-14,C,,,psalm,Psalm 51:1–17
+after_pentecost:17,,date lt @fulfillment-14,C,,,epistle,1 Timothy 1:12–17
+after_pentecost:17,,date lt @fulfillment-14,C,,,gospel,Luke 15:1–10
+after_pentecost:18,,date lt @fulfillment-14,,,One-Year Series,ot,Genesis 8:18–22
+after_pentecost:18,,date lt @fulfillment-14,,,One-Year Series,psalm,Psalm 116:12–19
+after_pentecost:18,,date lt @fulfillment-14,,,One-Year Series,epistle,Galatians 3:26–28
+after_pentecost:18,,date lt @fulfillment-14,,,One-Year Series,gospel,Matthew 26:26–29 or Mark 14:22–25
+after_pentecost:18,,date lt @fulfillment-14,A,,,ot,Isaiah 55:6–9
+after_pentecost:18,,date lt @fulfillment-14,A,,,psalm,Psalm 27:1–9
+after_pentecost:18,,date lt @fulfillment-14,A,,,epistle,Philippians 1:1–5 (6–11) 19–27
+after_pentecost:18,,date lt @fulfillment-14,A,,,gospel,Matthew 20:1–16
+after_pentecost:18,,date lt @fulfillment-14,B,,,ot,Jeremiah 11:18–20
+after_pentecost:18,,date lt @fulfillment-14,B,,,psalm,Psalm 119:25–32
+after_pentecost:18,,date lt @fulfillment-14,B,,,epistle,James 3:16–4:6
+after_pentecost:18,,date lt @fulfillment-14,B,,,gospel,Mark 9:30–37
+after_pentecost:18,,date lt @fulfillment-14,C,,,ot,Amos 8:4–7
+after_pentecost:18,,date lt @fulfillment-14,C,,,psalm,Psalm 119:33–40
+after_pentecost:18,,date lt @fulfillment-14,C,,,epistle,1 Timothy 2:1–8
+after_pentecost:18,,date lt @fulfillment-14,C,,,gospel,Luke 16:1–13
+after_pentecost:19,,date lt @fulfillment-14,,,One-Year Series,ot,Deuteronomy 6:4–15
+after_pentecost:19,,date lt @fulfillment-14,,,One-Year Series,psalm,Psalm 103:1–14
+after_pentecost:19,,date lt @fulfillment-14,,,One-Year Series,epistle,Romans 13:1–10
+after_pentecost:19,,date lt @fulfillment-14,,,One-Year Series,gospel,Mark 12:28–34 or Matthew 22:34–40
+after_pentecost:19,,date lt @fulfillment-14,A,,,ot,"Ezekiel 18:1–4, 25–32"
+after_pentecost:19,,date lt @fulfillment-14,A,,,psalm,Psalm 25:1–10
+after_pentecost:19,,date lt @fulfillment-14,A,,,epistle,Philippians 2:1–5 (6–11)
+after_pentecost:19,,date lt @fulfillment-14,A,,,gospel,Matthew 21:28–32
+after_pentecost:19,,date lt @fulfillment-14,B,,,ot,"Numbers 11:4–6, 10–16, 24–29"
+after_pentecost:19,,date lt @fulfillment-14,B,,,psalm,"Psalm 135:1–7, 13–14"
+after_pentecost:19,,date lt @fulfillment-14,B,,,epistle,James 4:7–12 (13–5:6)
+after_pentecost:19,,date lt @fulfillment-14,B,,,gospel,Mark 9:38–50
+after_pentecost:19,,date lt @fulfillment-14,C,,,ot,Amos 6:1–7
+after_pentecost:19,,date lt @fulfillment-14,C,,,psalm,Psalm 146
+after_pentecost:19,,date lt @fulfillment-14,C,,,epistle,1 Timothy 6:6–16
+after_pentecost:19,,date lt @fulfillment-14,C,,,gospel,Luke 16:19–31
+after_pentecost:20,,date lt @fulfillment-14,,,One-Year Series,ot,Exodus 34:4b–10
+after_pentecost:20,,date lt @fulfillment-14,,,One-Year Series,psalm,Psalm 32:1–7
+after_pentecost:20,,date lt @fulfillment-14,,,One-Year Series,epistle,Ephesians 4:22–30
+after_pentecost:20,,date lt @fulfillment-14,,,One-Year Series,gospel,Mark 2:1–12
+after_pentecost:20,,date lt @fulfillment-14,A,,,ot,Isaiah 5:1–7
+after_pentecost:20,,date lt @fulfillment-14,A,,,psalm,Psalm 118:19–24
+after_pentecost:20,,date lt @fulfillment-14,A,,,epistle,Philippians 3:12–21
+after_pentecost:20,,date lt @fulfillment-14,A,,,gospel,Matthew 21:33–43
+after_pentecost:20,,date lt @fulfillment-14,B,,,ot,Genesis 2:18–24
+after_pentecost:20,,date lt @fulfillment-14,B,,,psalm,Psalm 119:49–56
+after_pentecost:20,,date lt @fulfillment-14,B,,,epistle,Hebrews 2:9–11 (12–18)
+after_pentecost:20,,date lt @fulfillment-14,B,,,gospel,Mark 10:2–16
+after_pentecost:20,,date lt @fulfillment-14,C,,,ot,Habakkuk 1:1–3; 2:1–4
+after_pentecost:20,,date lt @fulfillment-14,C,,,psalm,Psalm 62
+after_pentecost:20,,date lt @fulfillment-14,C,,,epistle,2 Timothy 1:3–14
+after_pentecost:20,,date lt @fulfillment-14,C,,,gospel,Luke 17:1–10
+after_pentecost:21,,date lt @fulfillment-14,,,One-Year Series,ot,Exodus 33:17–23
+after_pentecost:21,,date lt @fulfillment-14,,,One-Year Series,psalm,Psalm 34:1–8
+after_pentecost:21,,date lt @fulfillment-14,,,One-Year Series,epistle,Romans 10:9–17
+after_pentecost:21,,date lt @fulfillment-14,,,One-Year Series,gospel,Matthew 15:21–28
+after_pentecost:21,,date lt @fulfillment-14,A,,,ot,Isaiah 25:6–9
+after_pentecost:21,,date lt @fulfillment-14,A,,,psalm,Psalm 23
+after_pentecost:21,,date lt @fulfillment-14,A,,,epistle,Philippians 4:4–13
+after_pentecost:21,,date lt @fulfillment-14,A,,,gospel,Matthew 22:1–10 (11–14)
+after_pentecost:21,,date lt @fulfillment-14,B,,,ot,"Amos 5:6–7, 10–15"
+after_pentecost:21,,date lt @fulfillment-14,B,,,psalm,Psalm 119:73–80
+after_pentecost:21,,date lt @fulfillment-14,B,,,epistle,Hebrews 3:1–6
+after_pentecost:21,,date lt @fulfillment-14,B,,,gospel,Mark 10:17–27 (28–30)
+after_pentecost:21,,date lt @fulfillment-14,C,,,ot,Ruth 1:1–19a
+after_pentecost:21,,date lt @fulfillment-14,C,,,psalm,Psalm 111
+after_pentecost:21,,date lt @fulfillment-14,C,,,epistle,2 Timothy 2:8–13
+after_pentecost:21,,date lt @fulfillment-14,C,,,gospel,Luke 17:11–19
+after_pentecost:22,,date lt @fulfillment-14,,,One-Year Series,ot,"Joshua 24:1–2a, 14–18 (22–28)"
+after_pentecost:22,,date lt @fulfillment-14,,,One-Year Series,psalm,Psalm 119:1–8
+after_pentecost:22,,date lt @fulfillment-14,,,One-Year Series,epistle,Acts 4:23–31
+after_pentecost:22,,date lt @fulfillment-14,,,One-Year Series,gospel,Matthew 5:38–48
+after_pentecost:22,,date lt @fulfillment-14,A,,,ot,Isaiah 45:1–7
+after_pentecost:22,,date lt @fulfillment-14,A,,,psalm,Psalm 96
+after_pentecost:22,,date lt @fulfillment-14,A,,,epistle,1 Thessalonians 1:1–5a
+after_pentecost:22,,date lt @fulfillment-14,A,,,gospel,Matthew 22:15–21
+after_pentecost:22,,date lt @fulfillment-14,B,,,ot,Isaiah 53:10–12
+after_pentecost:22,,date lt @fulfillment-14,B,,,psalm,Psalm 91:9–16
+after_pentecost:22,,date lt @fulfillment-14,B,,,epistle,Hebrews 4:9–16
+after_pentecost:22,,date lt @fulfillment-14,B,,,gospel,Mark 10:35–45
+after_pentecost:22,,date lt @fulfillment-14,C,,,ot,Genesis 32:22–30
+after_pentecost:22,,date lt @fulfillment-14,C,,,psalm,Psalm 121
+after_pentecost:22,,date lt @fulfillment-14,C,,,epistle,2 Timothy 3:14–4:5
+after_pentecost:22,,date lt @fulfillment-14,C,,,gospel,Luke 18:1–8a
+after_pentecost:23,,date lt @fulfillment-14,,,One-Year Series,ot,Micah 6:6–8
+after_pentecost:23,,date lt @fulfillment-14,,,One-Year Series,psalm,Psalm 51:10–17
+after_pentecost:23,,date lt @fulfillment-14,,,One-Year Series,epistle,Acts 6:1–7
+after_pentecost:23,,date lt @fulfillment-14,,,One-Year Series,gospel,Mark 12:41–44
+after_pentecost:23,,date lt @fulfillment-14,A,,,ot,"Leviticus 19:1–2, 15–18"
+after_pentecost:23,,date lt @fulfillment-14,A,,,psalm,Psalm 1
+after_pentecost:23,,date lt @fulfillment-14,A,,,epistle,1 Thessalonians 1:5b–10
+after_pentecost:23,,date lt @fulfillment-14,A,,,gospel,Matthew 22:34–40 (41–46)
+after_pentecost:23,,date lt @fulfillment-14,B,,,ot,Jeremiah 31:7–9
+after_pentecost:23,,date lt @fulfillment-14,B,,,psalm,Psalm 126
+after_pentecost:23,,date lt @fulfillment-14,B,,,epistle,Hebrews 5:1–10
+after_pentecost:23,,date lt @fulfillment-14,B,,,gospel,Mark 10:46–52
+after_pentecost:23,,date lt @fulfillment-14,C,,,ot,Deuteronomy 10:12–22
+after_pentecost:23,,date lt @fulfillment-14,C,,,psalm,Psalm 34
+after_pentecost:23,,date lt @fulfillment-14,C,,,epistle,"2 Timothy 4:6–8, 16–18"
+after_pentecost:23,,date lt @fulfillment-14,C,,,gospel,Luke 18:9–14
+after_pentecost:24,,date lt @fulfillment-14,,,One-Year Series,ot,"Exodus 14:10, 26–31"
+after_pentecost:24,,date lt @fulfillment-14,,,One-Year Series,psalm,Psalm 46
+after_pentecost:24,,date lt @fulfillment-14,,,One-Year Series,epistle,Colossians 1:9–14 (15–23)
+after_pentecost:24,,date lt @fulfillment-14,,,One-Year Series,gospel,Mark 4:35–41
+after_pentecost:24,,date lt @fulfillment-14,A,,,ot,Amos 5:18–24
+after_pentecost:24,,date lt @fulfillment-14,A,,,psalm,Psalm 84:1–7
+after_pentecost:24,,date lt @fulfillment-14,A,,,epistle,1 Thessalonians 4:13–14 (15–18)
+after_pentecost:24,,date lt @fulfillment-14,A,,,gospel,Matthew 23:37–39 or Matthew 25:1–13
+after_pentecost:24,,date lt @fulfillment-14,B,,,ot,Deuteronomy 6:1–9
+after_pentecost:24,,date lt @fulfillment-14,B,,,psalm,Psalm 119:121–128
+after_pentecost:24,,date lt @fulfillment-14,B,,,epistle,Hebrews 7:23–28
+after_pentecost:24,,date lt @fulfillment-14,B,,,gospel,Mark 12:28–34 (35–37)
+after_pentecost:24,,date lt @fulfillment-14,C,,,ot,Exodus 34:5–9
+after_pentecost:24,,date lt @fulfillment-14,C,,,psalm,Psalm 119:145–152
+after_pentecost:24,,date lt @fulfillment-14,C,,,epistle,"2 Thessalonians 1:1–5, 11–12"
+after_pentecost:24,,date lt @fulfillment-14,C,,,gospel,Luke 19:1–10
+after_pentecost:25,,date lt @fulfillment-14,,,One-Year Series,ot,Ezekiel 33:10–16
+after_pentecost:25,,date lt @fulfillment-14,,,One-Year Series,psalm,Psalm 2
+after_pentecost:25,,date lt @fulfillment-14,,,One-Year Series,epistle,Galatians 1:6–9
+after_pentecost:25,,date lt @fulfillment-14,,,One-Year Series,gospel,Matthew 13:44–52
+after_pentecost:25,,date lt @fulfillment-14,A,,,ot,"Hosea 11:1–4, 8–9"
+after_pentecost:25,,date lt @fulfillment-14,A,,,psalm,Psalm 90:13–17
+after_pentecost:25,,date lt @fulfillment-14,A,,,epistle,1 Thessalonians 5:1–11
+after_pentecost:25,,date lt @fulfillment-14,A,,,gospel,Matthew 24:3–14 or Matthew 25:14–30
+after_pentecost:25,,date lt @fulfillment-14,B,,,ot,1 Kings 17:8–16
+after_pentecost:25,,date lt @fulfillment-14,B,,,psalm,"Psalm 107:1–3, 33–43"
+after_pentecost:25,,date lt @fulfillment-14,B,,,epistle,Hebrews 9:24–28
+after_pentecost:25,,date lt @fulfillment-14,B,,,gospel,Mark 12:41–44
+after_pentecost:25,,date lt @fulfillment-14,C,,,ot,1 Chronicles 29:10–13
+after_pentecost:25,,date lt @fulfillment-14,C,,,psalm,Psalm 148
+after_pentecost:25,,date lt @fulfillment-14,C,,,epistle,2 Thessalonians 2:13–3:5
+after_pentecost:25,,date lt @fulfillment-14,C,,,gospel,Luke 20:27–38
+fulfillment,-14,,,,One-Year Series,ot,Exodus 32:1–6 (7–14) 15–20
+fulfillment,-14,,,,One-Year Series,psalm,Psalm 114
+fulfillment,-14,,,,One-Year Series,epistle,Romans 14:7–11
+fulfillment,-14,,,,One-Year Series,gospel,Matthew 24:15–28 or Luke 17:20–24 (25–30)
+fulfillment,-14,,A,,,ot,"Job 14:1–6 or Malachi 2:1–2, 4–10"
+fulfillment,-14,,A,,,psalm,Psalm 90:1–12
+fulfillment,-14,,A,,,epistle,1 Thessalonians 3:11–13 or 1 Thessalonians 2:8–13
+fulfillment,-14,,A,,,gospel,Matthew 24:15–28 or Matthew 23:1–12
+fulfillment,-14,,B,,,ot,Daniel 12:1–3
+fulfillment,-14,,B,,,psalm,Psalm 16
+fulfillment,-14,,B,,,epistle,Hebrews 12:26–29 or Hebrews 10:11–18
+fulfillment,-14,,B,,,gospel,Mark 13:1–13
+fulfillment,-14,,C,,,ot,Exodus 32:15–20 or Malachi 4:1–2a
+fulfillment,-14,,C,,,psalm,Psalm 98
+fulfillment,-14,,C,,,epistle,2 Thessalonians 3:1–5 or 2 Thessalonians 3:6–13
+fulfillment,-14,,C,,,gospel,Luke 17:20–30 or Luke 21:5–19
+fulfillment,-7,,,,One-Year Series,ot,Jeremiah 8:4–7
+fulfillment,-7,,,,One-Year Series,psalm,Psalm 143:1–10
+fulfillment,-7,,,,One-Year Series,epistle,Romans 8:18–23 (24–25)
+fulfillment,-7,,,,One-Year Series,gospel,Matthew 25:31–46
+fulfillment,-7,,A,,,ot,Jeremiah 25:30–32 or Jeremiah 26:1–6
+fulfillment,-7,,A,,,psalm,Psalm 105:1–7
+fulfillment,-7,,A,,,epistle,1 Thessalonians 1:3–10 or 1 Thessalonians 3:7–13
+fulfillment,-7,,A,,,gospel,Matthew 25:31–46 or Matthew 24:1–14
+fulfillment,-7,,B,,,ot,Daniel 7:9–10
+fulfillment,-7,,B,,,psalm,Psalm 111
+fulfillment,-7,,B,,,epistle,Hebrews 12:1–2 or Hebrews 13:20–21
+fulfillment,-7,,B,,,gospel,Mark 13:24–31
+fulfillment,-7,,C,,,ot,Jeremiah 8:4–7 or Isaiah 52:1–6
+fulfillment,-7,,C,,,psalm,Psalm 92:1–8
+fulfillment,-7,,C,,,epistle,2 Corinthians 5:1–10 or 1 Corinthians 15:54–58
+fulfillment,-7,,C,,,gospel,Luke 19:11–27
+fulfillment,,,,,One-Year Series,ot,Isaiah 65:17–25
+fulfillment,,,,,One-Year Series,psalm,Psalm 130
+fulfillment,,,,,One-Year Series,epistle,"2 Peter 3:3–4, 8–10a, 13 or Revelation 21:1–7"
+fulfillment,,,,,One-Year Series,gospel,Matthew 25:1–13
+fulfillment,,,A,,,ot,"Isaiah 65:17–25 or Ezekiel 34:11–16, 23–24"
+fulfillment,,,A,,,psalm,Psalm 130 or Psalm 100
+fulfillment,,,A,,,epistle,"2 Peter 3:3–4, 8–10a, 13 or 1 Corinthians 15:20–28"
+fulfillment,,,A,,,gospel,Matthew 25:1–13 or Matthew 25:31–46
+fulfillment,,,B,,,ot,Isaiah 51:4–6 or Daniel 7:13–14
+fulfillment,,,B,,,psalm,Psalm 130
+fulfillment,,,B,,,epistle,Jude 20–25 or Revelation 1:4b–8
+fulfillment,,,B,,,gospel,Mark 13:32–37 or John 18:33–37
+fulfillment,,,C,,,ot,Malachi 3:14–18 or Jeremiah 23:2–6
+fulfillment,,,C,,,psalm,Psalm 130
+fulfillment,,,C,,,epistle,Revelation 22:6–13 or Colossians 1:13–20
+fulfillment,,,C,,,gospel,Luke 12:42–48 or Luke 23:35–43
+11-30,,,,,"St. Andrew, Apostle (One-Year Series)",ot,Deuteronomy 30:11–14
+11-30,,,,,"St. Andrew, Apostle (One-Year Series)",psalm,Psalm 139:1–10
+11-30,,,,,"St. Andrew, Apostle (One-Year Series)",epistle,Romans 10:8–18
+11-30,,,,,"St. Andrew, Apostle (One-Year Series)",gospel,Matthew 4:18–22
+11-30,,,,,"St. Andrew, Apostle",ot,Ezekiel 3:16–21
+11-30,,,,,"St. Andrew, Apostle",psalm,Psalm 19:1–6
+11-30,,,,,"St. Andrew, Apostle",epistle,Romans 10:10–18
+11-30,,,,,"St. Andrew, Apostle",gospel,John 1:35–42
+12-21,,,,,"St. Thomas, Apostle (One-Year Series)",ot,Habakkuk 2:1–4
+12-21,,,,,"St. Thomas, Apostle (One-Year Series)",psalm,"Psalm 139:1–4, 17–18, 23–24"
+12-21,,,,,"St. Thomas, Apostle (One-Year Series)",epistle,Ephesians 1:3–6
+12-21,,,,,"St. Thomas, Apostle (One-Year Series)",gospel,John 20:24–31
+12-21,,,,,"St. Thomas, Apostle",ot,Judges 6:36–40
+12-21,,,,,"St. Thomas, Apostle",psalm,"Psalm 136:1–4, 23–26"
+12-21,,,,,"St. Thomas, Apostle",epistle,Ephesians 4:11–16
+12-21,,,,,"St. Thomas, Apostle",gospel,John 14:1–7
+01-18,,,,,The Confession of St. Peter (One-Year Series),ot,"Acts 2:22–24, 32–33"
+01-18,,,,,The Confession of St. Peter (One-Year Series),psalm,Psalm 23
+01-18,,,,,The Confession of St. Peter (One-Year Series),epistle,1 Peter 1:3–9
+01-18,,,,,The Confession of St. Peter (One-Year Series),gospel,Matthew 16:13–19
+01-18,,,,,The Confession of St. Peter,ot,Acts 4:8–13
+01-18,,,,,The Confession of St. Peter,psalm,"Psalm 18:1–7, 16–19"
+01-18,,,,,The Confession of St. Peter,epistle,1 Corinthians 10:1–5
+01-18,,,,,The Confession of St. Peter,gospel,Matthew 16:13–19
+01-25,,,,,The Conversion of St. Paul (One-Year Series),ot,Jeremiah 1:4–10
+01-25,,,,,The Conversion of St. Paul (One-Year Series),psalm,Psalm 67
+01-25,,,,,The Conversion of St. Paul (One-Year Series),epistle,Acts 9:1–22
+01-25,,,,,The Conversion of St. Paul (One-Year Series),gospel,Matthew 19:27–30
+01-25,,,,,The Conversion of St. Paul,ot,Acts 9:1–22
+01-25,,,,,The Conversion of St. Paul,psalm,Psalm 67
+01-25,,,,,The Conversion of St. Paul,epistle,Galatians 1:11–24
+01-25,,,,,The Conversion of St. Paul,gospel,Luke 21:10–19
+02-24,,,,,"St. Matthias, Apostle (One-Year Series)",ot,Acts 1:15–26
+02-24,,,,,"St. Matthias, Apostle (One-Year Series)",psalm,Psalm 16
+02-24,,,,,"St. Matthias, Apostle (One-Year Series)",epistle,1 John 2:15–17
+02-24,,,,,"St. Matthias, Apostle (One-Year Series)",gospel,Matthew 11:25–30
+02-24,,,,,"St. Matthias, Apostle",ot,Isaiah 66:1–2
+02-24,,,,,"St. Matthias, Apostle",psalm,Psalm 133
+02-24,,,,,"St. Matthias, Apostle",epistle,Acts 1:15–26
+02-24,,,,,"St. Matthias, Apostle",gospel,Luke 6:12–16
+05-01,,,,,"St. Philip and St. James, Apostles (One-Year Series)",ot,Malachi 3:16–18
+05-01,,,,,"St. Philip and St. James, Apostles (One-Year Series)",psalm,Psalm 25:1–10
+05-01,,,,,"St. Philip and St. James, Apostles (One-Year Series)",epistle,Ephesians 2:19–22
+05-01,,,,,"St. Philip and St. James, Apostles (One-Year Series)",gospel,John 14:1–14
+05-01,,,,,"St. Philip and St. James, Apostles",ot,Isaiah 30:18–21
+05-01,,,,,"St. Philip and St. James, Apostles",psalm,Psalm 36:5–10
+05-01,,,,,"St. Philip and St. James, Apostles",epistle,2 Corinthians 4:1–6
+05-01,,,,,"St. Philip and St. James, Apostles",gospel,John 14:8–14
+06-11,,,,,"St. Barnabas, Apostle (One-Year Series)",ot,Isaiah 60:1–5
+06-11,,,,,"St. Barnabas, Apostle (One-Year Series)",psalm,Psalm 67
+06-11,,,,,"St. Barnabas, Apostle (One-Year Series)",epistle,Acts 11:19–30; 13:1–3
+06-11,,,,,"St. Barnabas, Apostle (One-Year Series)",gospel,Mark 6:7–13
+06-11,,,,,"St. Barnabas, Apostle",ot,Isaiah 42:5–12
+06-11,,,,,"St. Barnabas, Apostle",psalm,Psalm 135:1–7
+06-11,,,,,"St. Barnabas, Apostle",epistle,Acts 11:19–30; 13:1–3
+06-11,,,,,"St. Barnabas, Apostle",gospel,Matthew 10:5–16
+06-29,,,,,"St. Peter and St. Paul, Apostles (One-Year Series)",ot,Ezekiel 34:7–16
+06-29,,,,,"St. Peter and St. Paul, Apostles (One-Year Series)",psalm,Psalm 46
+06-29,,,,,"St. Peter and St. Paul, Apostles (One-Year Series)",epistle,Acts 12:1–11
+06-29,,,,,"St. Peter and St. Paul, Apostles (One-Year Series)",gospel,Matthew 16:13–20
+06-29,,,,,"St. Peter and St. Paul, Apostles",ot,Ezekiel 34:11–16
+06-29,,,,,"St. Peter and St. Paul, Apostles",psalm,Psalm 18:25–32
+06-29,,,,,"St. Peter and St. Paul, Apostles",epistle,1 Corinthians 3:16–23
+06-29,,,,,"St. Peter and St. Paul, Apostles",gospel,Mark 8:27–35
+07-25,,,,,"St. James the Elder, Apostle (One-Year Series)",ot,1 Kings 19:9–18
+07-25,,,,,"St. James the Elder, Apostle (One-Year Series)",psalm,Psalm 16
+07-25,,,,,"St. James the Elder, Apostle (One-Year Series)",epistle,Romans 8:28–39
+07-25,,,,,"St. James the Elder, Apostle (One-Year Series)",gospel,Matthew 20:20–28
+07-25,,,,,"St. James the Elder, Apostle",ot,1 Kings 19:9–18
+07-25,,,,,"St. James the Elder, Apostle",psalm,Psalm 103:19–22
+07-25,,,,,"St. James the Elder, Apostle",epistle,Acts 11:27–12:3a
+07-25,,,,,"St. James the Elder, Apostle",gospel,Mark 10:35–45
+08-24,,,,,"St. Bartholomew, Apostle (One-Year Series)",ot,Proverbs 3:1–7
+08-24,,,,,"St. Bartholomew, Apostle (One-Year Series)",psalm,Psalm 121
+08-24,,,,,"St. Bartholomew, Apostle (One-Year Series)",epistle,2 Corinthians 4:7–10
+08-24,,,,,"St. Bartholomew, Apostle (One-Year Series)",gospel,Luke 22:24–30
+08-24,,,,,"St. Bartholomew, Apostle",ot,Exodus 19:1–6
+08-24,,,,,"St. Bartholomew, Apostle",psalm,Psalm 121
+08-24,,,,,"St. Bartholomew, Apostle",epistle,1 Corinthians 12:27–31a
+08-24,,,,,"St. Bartholomew, Apostle",gospel,John 1:43–51
+10-28,,,,,"St. Simon and St. Jude, Apostles (One-Year Series)",ot,Deuteronomy 32:1–4
+10-28,,,,,"St. Simon and St. Jude, Apostles (One-Year Series)",psalm,Psalm 119:89–96
+10-28,,,,,"St. Simon and St. Jude, Apostles (One-Year Series)",epistle,1 Peter 1:3–9
+10-28,,,,,"St. Simon and St. Jude, Apostles (One-Year Series)",gospel,John 15:17–21
+10-28,,,,,"St. Simon and St. Jude, Apostles",ot,Jeremiah 26:(1–6) 7–16
+10-28,,,,,"St. Simon and St. Jude, Apostles",psalm,Psalm 119:73–80
+10-28,,,,,"St. Simon and St. Jude, Apostles",epistle,1 John 4:1–6
+10-28,,,,,"St. Simon and St. Jude, Apostles",gospel,John 14:21–27
+12-27,,,,,"St. John, Apostle and Evangelist (One-Year Series)",ot,Hosea 11:1–4
+12-27,,,,,"St. John, Apostle and Evangelist (One-Year Series)",psalm,"Psalm 92:1–4, 12–15"
+12-27,,,,,"St. John, Apostle and Evangelist (One-Year Series)",epistle,1 John 1:1–10
+12-27,,,,,"St. John, Apostle and Evangelist (One-Year Series)",gospel,John 21:20–24
+12-27,,,,,"St. John, Apostle and Evangelist",ot,"Genesis 1:1–5, 26–31"
+12-27,,,,,"St. John, Apostle and Evangelist",psalm,Psalm 116:12–19
+12-27,,,,,"St. John, Apostle and Evangelist",epistle,1 John 1:1–2:2
+12-27,,,,,"St. John, Apostle and Evangelist",gospel,John 21:20–25
+04-25,,,,,"St. Mark, Evangelist (One-Year Series)",ot,Isaiah 55:1–5
+04-25,,,,,"St. Mark, Evangelist (One-Year Series)",psalm,Psalm 146
+04-25,,,,,"St. Mark, Evangelist (One-Year Series)",epistle,Ephesians 4:7–16
+04-25,,,,,"St. Mark, Evangelist (One-Year Series)",gospel,Luke 10:1–9
+04-25,,,,,"St. Mark, Evangelist",ot,Isaiah 52:7–10
+04-25,,,,,"St. Mark, Evangelist",psalm,Psalm 146
+04-25,,,,,"St. Mark, Evangelist",epistle,"2 Timothy 4:6–11, 18"
+04-25,,,,,"St. Mark, Evangelist",gospel,Mark 1:1–15
+09-21,,,,,"St. Matthew, Apostle and Evangelist (One-Year Series)",ot,Proverbs 3:1–6
+09-21,,,,,"St. Matthew, Apostle and Evangelist (One-Year Series)",psalm,Psalm 119:33–40
+09-21,,,,,"St. Matthew, Apostle and Evangelist (One-Year Series)",epistle,Ephesians 4:7–16
+09-21,,,,,"St. Matthew, Apostle and Evangelist (One-Year Series)",gospel,Matthew 9:9–13
+09-21,,,,,"St. Matthew, Apostle and Evangelist",ot,Ezekiel 2:8–3:11
+09-21,,,,,"St. Matthew, Apostle and Evangelist",psalm,Psalm 119:33–40
+09-21,,,,,"St. Matthew, Apostle and Evangelist",epistle,Ephesians 2:4–10
+09-21,,,,,"St. Matthew, Apostle and Evangelist",gospel,Matthew 9:9–13
+10-18,,,,,"St. Luke, Evangelist (One-Year Series)",ot,Isaiah 35:5–8
+10-18,,,,,"St. Luke, Evangelist (One-Year Series)",psalm,Psalm 147:1–7
+10-18,,,,,"St. Luke, Evangelist (One-Year Series)",epistle,2 Timothy 4:5–15
+10-18,,,,,"St. Luke, Evangelist (One-Year Series)",gospel,Luke 10:1–9
+10-18,,,,,"St. Luke, Evangelist",ot,Isaiah 43:8–13 or Isaiah 35:5–8
+10-18,,,,,"St. Luke, Evangelist",psalm,Psalm 138
+10-18,,,,,"St. Luke, Evangelist",epistle,2 Timothy 4:5–11
+10-18,,,,,"St. Luke, Evangelist",gospel,Luke 1:1–4; 24:44–53
+12-31,,,,,New Year's Eve (Eve of the Name of Jesus) (One-Year Series),ot,Isaiah 51:1–6
+12-31,,,,,New Year's Eve (Eve of the Name of Jesus) (One-Year Series),psalm,Psalm 8
+12-31,,,,,New Year's Eve (Eve of the Name of Jesus) (One-Year Series),epistle,Romans 8:31–39
+12-31,,,,,New Year's Eve (Eve of the Name of Jesus) (One-Year Series),gospel,Matthew 1:18–21
+01-01,,,,,New Year's Day (the Circumcision of Our Lord) (One-Year Series),ot,Genesis 17:1–4
+01-01,,,,,New Year's Day (the Circumcision of Our Lord) (One-Year Series),psalm,Psalm 116
+01-01,,,,,New Year's Day (the Circumcision of Our Lord) (One-Year Series),epistle,Galatians 3:23–29
+01-01,,,,,New Year's Day (the Circumcision of Our Lord) (One-Year Series),gospel,Luke 2:21
+01-01,,,,,New Year's Day (the Circumcision of Our Lord),ot,Numbers 6:22–27
+01-01,,,,,New Year's Day (the Circumcision of Our Lord),psalm,Psalm 8
+01-01,,,,,New Year's Day (the Circumcision of Our Lord),epistle,Romans 1:1–7 or Philippians 2:9–13
+01-01,,,,,New Year's Day (the Circumcision of Our Lord),gospel,Luke 2:21
+01-24,,,,,"St. Timothy, Pastor and Confessor",ot,Ezekiel 34:11–16 or Acts 20:17–35
+01-24,,,,,"St. Timothy, Pastor and Confessor",psalm,Psalm 84
+01-24,,,,,"St. Timothy, Pastor and Confessor",epistle,1 Peter 5:1–4 or Ephesians 3:14–21
+01-24,,,,,"St. Timothy, Pastor and Confessor",gospel,John 21:15–17 or Matthew 24:42–47
+01-26,,,,,"St. Titus, Pastor and Confessor",ot,Ezekiel 34:11–16 or Acts 20:17–35
+01-26,,,,,"St. Titus, Pastor and Confessor",psalm,Psalm 84
+01-26,,,,,"St. Titus, Pastor and Confessor",epistle,1 Peter 5:1–4 or Ephesians 3:14–21
+01-26,,,,,"St. Titus, Pastor and Confessor",gospel,John 21:15–17 or Matthew 24:42–47
+11-02,,,,,Commemoration of the Faithful Departed (One-Year Series),ot,Isaiah 35:3–10
+11-02,,,,,Commemoration of the Faithful Departed (One-Year Series),psalm,Psalm 34:1–9
+11-02,,,,,Commemoration of the Faithful Departed (One-Year Series),epistle,2 Peter 3:8–14
+11-02,,,,,Commemoration of the Faithful Departed (One-Year Series),gospel,John 5:24–29
+02-02,,,,,The Presentation of Our Lord (One-Year Series),ot,Malachi 3:1–4
+02-02,,,,,The Presentation of Our Lord (One-Year Series),psalm,Psalm 84
+02-02,,,,,The Presentation of Our Lord (One-Year Series),epistle,Hebrews 2:14–18
+02-02,,,,,The Presentation of Our Lord (One-Year Series),gospel,Luke 2:22–32
+02-02,,,,,The Presentation of Our Lord,ot,1 Samuel 1:21–28
+02-02,,,,,The Presentation of Our Lord,psalm,Psalm 84
+02-02,,,,,The Presentation of Our Lord,epistle,Hebrews 2:14–18
+02-02,,,,,The Presentation of Our Lord,gospel,Luke 2:22–40
+03-25,,,,,The Annunciation of Our Lord (One-Year Series),ot,Isaiah 7:10–14
+03-25,,,,,The Annunciation of Our Lord (One-Year Series),psalm,Psalm 45
+03-25,,,,,The Annunciation of Our Lord (One-Year Series),epistle,Hebrews 10:5–10
+03-25,,,,,The Annunciation of Our Lord (One-Year Series),gospel,Luke 1:26–38
+03-25,,,,,The Annunciation of Our Lord,ot,Isaiah 7:10–14; 8:10c
+03-25,,,,,The Annunciation of Our Lord,psalm,Psalm 45
+03-25,,,,,The Annunciation of Our Lord,epistle,1 Timothy 3:16
+03-25,,,,,The Annunciation of Our Lord,gospel,Luke 1:26–38
+05-31,,,,,The Visitation (One-Year Series),ot,Zephaniah 3:14–17
+05-31,,,,,The Visitation (One-Year Series),psalm,Psalm 138
+05-31,,,,,The Visitation (One-Year Series),ot2,Isaiah 11:1–5
+05-31,,,,,The Visitation (One-Year Series),gospel,Luke 1:39–56
+05-31,,,,,The Visitation,ot,Isaiah 11:1–5
+05-31,,,,,The Visitation,psalm,Psalm 138
+05-31,,,,,The Visitation,epistle,Romans 12:9–16
+05-31,,,,,The Visitation,gospel,Luke 1:39–47
+06-24,,,,,The Nativity of St. John the Baptist (One-Year Series),ot,Malachi 3:1–4
+06-24,,,,,The Nativity of St. John the Baptist (One-Year Series),psalm,Psalm 141
+06-24,,,,,The Nativity of St. John the Baptist (One-Year Series),ot2,Isaiah 40:1–5
+06-24,,,,,The Nativity of St. John the Baptist (One-Year Series),gospel,Luke 1:57–80
+06-24,,,,,The Nativity of St. John the Baptist,ot,Malachi 3:1–4
+06-24,,,,,The Nativity of St. John the Baptist,psalm,Psalm 141
+06-24,,,,,The Nativity of St. John the Baptist,epistle,Acts 13:13–26
+06-24,,,,,The Nativity of St. John the Baptist,gospel,Luke 1:57–67 (68–80)
+06-25,,,,,Presentation of the Augsburg Confession (One-Year Series),ot,Isaiah 55:6–11
+06-25,,,,,Presentation of the Augsburg Confession (One-Year Series),psalm,Psalm 46
+06-25,,,,,Presentation of the Augsburg Confession (One-Year Series),epistle,Romans 10:5–17
+06-25,,,,,Presentation of the Augsburg Confession (One-Year Series),gospel,John 15:1–11
+02-18,,,,,"Martin Luther, Doctor and Confessor (One-Year Series)",ot,Isaiah 55:6–11
+02-18,,,,,"Martin Luther, Doctor and Confessor (One-Year Series)",psalm,Psalm 46
+02-18,,,,,"Martin Luther, Doctor and Confessor (One-Year Series)",epistle,Romans 10:5–17
+02-18,,,,,"Martin Luther, Doctor and Confessor (One-Year Series)",gospel,John 15:1–11
+05-07,,,,,"C. F. W. Walther, Doctor (One-Year Series)",ot,Isaiah 55:6–11
+05-07,,,,,"C. F. W. Walther, Doctor (One-Year Series)",psalm,Psalm 46
+05-07,,,,,"C. F. W. Walther, Doctor (One-Year Series)",epistle,Romans 10:5–17
+05-07,,,,,"C. F. W. Walther, Doctor (One-Year Series)",gospel,John 15:1–11
+07-22,,,,,St. Mary Magdalene (One-Year Series),ot,Ruth 1:6–18
+07-22,,,,,St. Mary Magdalene (One-Year Series),psalm,Psalm 73:23–28
+07-22,,,,,St. Mary Magdalene (One-Year Series),epistle,2 Corinthians 5:14–18
+07-22,,,,,St. Mary Magdalene (One-Year Series),gospel,"John 20:1–2, 11–18"
+07-22,,,,,St. Mary Magdalene,ot,Ruth 1:6–18 or Exodus 2:1–10
+07-22,,,,,St. Mary Magdalene,psalm,Psalm 73:23–28
+07-22,,,,,St. Mary Magdalene,epistle,Acts 13:26–33a
+07-22,,,,,St. Mary Magdalene,gospel,"John 20:1–2, 11–18"
+08-15,,,,,"St. Mary, Mother of Our Lord (One-Year Series)",ot,Isaiah 61:10–11
+08-15,,,,,"St. Mary, Mother of Our Lord (One-Year Series)",psalm,Psalm 34:1–9
+08-15,,,,,"St. Mary, Mother of Our Lord (One-Year Series)",epistle,Galatians 4:4–7
+08-15,,,,,"St. Mary, Mother of Our Lord (One-Year Series)",gospel,Luke 1:46–55
+08-15,,,,,"St. Mary, Mother of Our Lord",ot,Isaiah 61:7–11
+08-15,,,,,"St. Mary, Mother of Our Lord",psalm,Psalm 45:10–15
+08-15,,,,,"St. Mary, Mother of Our Lord",epistle,Galatians 4:4–7
+08-15,,,,,"St. Mary, Mother of Our Lord",gospel,Luke 1:46–55
+09-14,,,,,Holy Cross Day,ot,Isaiah 45:21–25
+09-14,,,,,Holy Cross Day,psalm,Psalm 98:1–5
+09-14,,,,,Holy Cross Day,epistle,1 Corinthians 1:18–24
+09-14,,,,,Holy Cross Day,gospel,John 12:20–33
+09-29,,,,,St. Michael and All Angels (One-Year Series),ot,Joshua 5:13–15
+09-29,,,,,St. Michael and All Angels (One-Year Series),psalm,Psalm 103:19–22
+09-29,,,,,St. Michael and All Angels (One-Year Series),epistle,Revelation 12:7–12
+09-29,,,,,St. Michael and All Angels (One-Year Series),gospel,Matthew 18:1–11
+09-29,,,,,St. Michael and All Angels,ot,Daniel 10:10–14; 12:1–3
+09-29,,,,,St. Michael and All Angels,psalm,"Psalm 103:1–5, 20–22"
+09-29,,,,,St. Michael and All Angels,epistle,Revelation 12:7–12
+09-29,,,,,St. Michael and All Angels,gospel,Luke 10:17–20
+10-31,,,,,Reformation Day (One-Year Series),ot,Isaiah 55:1–11
+10-31,,,,,Reformation Day (One-Year Series),psalm,Psalm 46
+10-31,,,,,Reformation Day (One-Year Series),epistle,Revelation 14:6–7
+10-31,,,,,Reformation Day (One-Year Series),gospel,Matthew 11:12–15
+10-31,,,,,Reformation Day,ot,Jeremiah 31:31–34
+10-31,,,,,Reformation Day,psalm,Psalm 46
+10-31,,,,,Reformation Day,epistle,Romans 3:19–28
+10-31,,,,,Reformation Day,gospel,John 8:31–36
+11-01,,,,,All Saints' Day (One-Year Series),ot,Deuteronomy 33:1–3
+11-01,,,,,All Saints' Day (One-Year Series),psalm,Psalm 65:1–8
+11-01,,,,,All Saints' Day (One-Year Series),epistle,Revelation 7:2–17
+11-01,,,,,All Saints' Day (One-Year Series),gospel,Matthew 5:1–12
+11-01,,,,,All Saints' Day,ot,"Isaiah 26:1–4, 8–9, 12–13, 19–21"
+11-01,,,,,All Saints' Day,psalm,Psalm 34:1–10
+11-01,,,,,All Saints' Day,epistle,"Revelation 21:9–11, 22–27 (22:1–5)"
+11-01,,,,,All Saints' Day,gospel,Matthew 5:1–12
+12-26,,,,,"St. Stephen, The First Martyr (One-Year Series)",ot,2 Chronicles 24:17–22
+12-26,,,,,"St. Stephen, The First Martyr (One-Year Series)",psalm,Psalm 119:137–144
+12-26,,,,,"St. Stephen, The First Martyr (One-Year Series)",epistle,Acts 6:8–15; 7:54–60
+12-26,,,,,"St. Stephen, The First Martyr (One-Year Series)",gospel,Matthew 23:34–39
+12-26,,,,,"St. Stephen, The First Martyr",ot,2 Chronicles 24:17–22
+12-26,,,,,"St. Stephen, The First Martyr",psalm,Psalm 119:137–144
+12-26,,,,,"St. Stephen, The First Martyr",epistle,"Acts 6:8–7:2a, 51–60"
+12-26,,,,,"St. Stephen, The First Martyr",gospel,Matthew 23:34–39
+12-28,,,,,"The Holy Innocents, Martyrs (One-Year Series)",ot,Jeremiah 31:15–17
+12-28,,,,,"The Holy Innocents, Martyrs (One-Year Series)",psalm,Psalm 8:1–9
+12-28,,,,,"The Holy Innocents, Martyrs (One-Year Series)",epistle,Revelation 14:1–5
+12-28,,,,,"The Holy Innocents, Martyrs (One-Year Series)",gospel,Matthew 2:13–18
+12-28,,,,,"The Holy Innocents, Martyrs",ot,Jeremiah 31:15–17
+12-28,,,,,"The Holy Innocents, Martyrs",psalm,Psalm 8:1–9
+12-28,,,,,"The Holy Innocents, Martyrs",epistle,1 Peter 4:12–19
+12-28,,,,,"The Holy Innocents, Martyrs",gospel,Matthew 2:13–18
+08-10,,,,,"St. Laurence, Martyr (One-Year Series)",ot,Lamentations 3:22–33
+08-10,,,,,"St. Laurence, Martyr (One-Year Series)",psalm,Psalm 119:81–88
+08-10,,,,,"St. Laurence, Martyr (One-Year Series)",epistle,Revelation 6:9–11
+08-10,,,,,"St. Laurence, Martyr (One-Year Series)",gospel,Mark 8:34–38
+08-10,,,,,"St. Laurence, Martyr",ot,Ezekiel 20:40–42
+08-10,,,,,"St. Laurence, Martyr",psalm,Psalm 119:81–88
+08-10,,,,,"St. Laurence, Martyr",epistle,Revelation 6:9–11
+08-10,,,,,"St. Laurence, Martyr",gospel,Mark 8:34–38
+thanksgiving,,,,,One-Year Series,ot,Isaiah 61:10–11
+thanksgiving,,,,,One-Year Series,psalm,Psalm 65
+thanksgiving,,,,,One-Year Series,epistle,1 Timothy 2:1–8
+thanksgiving,,,,,One-Year Series,gospel,Luke 17:11–19 or Matthew 6:24–34
+thanksgiving,,,A,,,ot,Deuteronomy 8:1–10
+thanksgiving,,,A,,,psalm,Psalm 65
+thanksgiving,,,A,,,epistle,Philippians 4:6–20 or 1 Timothy 2:1–4
+thanksgiving,,,A,,,gospel,Luke 17:11–19
+thanksgiving,,,B,,,ot,Deuteronomy 8:1–10
+thanksgiving,,,B,,,psalm,Psalm 65
+thanksgiving,,,B,,,epistle,Philippians 4:6–20 or 1 Timothy 2:1–4
+thanksgiving,,,B,,,gospel,Luke 17:11–19
+thanksgiving,,,C,,,ot,Deuteronomy 8:1–10
+thanksgiving,,,C,,,psalm,Psalm 65
+thanksgiving,,,C,,,epistle,Philippians 4:6–20 or 1 Timothy 2:1–4
+thanksgiving,,,C,,,gospel,Luke 17:11–19
+"# DAILY LECTIONARY (title ""Daily Lectionary"", fixed dates MM-DD, every year): LW's one-year ""Bible-in-a-Year"" daily lectionary"
+"#   (a psalm or monthly canticle + about three chapters a day).  Source: Faith Evangelical Lutheran Church (LCMS), Oak Ridge",
+#   "Daily Lectionary: A Bible-in-a-Year reading plan as printed in Lutheran Worship",
+"#   https://faithlutheranoakridge.org/wp-content/uploads/2024/04/Daily-Lectionary-printing.pdf  (single source, not cross-checked)."
+#   kind psalm = the psalm/canticle column (the month's canticle replaces the psalm on its first and last day); kind ot/nt = the
+"#   chapters, by testament.  No entry for 02-29.  Checked against LW itself (pp. 295-299, photographed"
+"#   October 2026), which corrects the PDF's three slips: 01-23 Genesis 25-27 (PDF 26-27); 04-09 and 10-09 Psalm 119:17-24"
+#   (PDF repeats 119:9-16).
+01-01,,,,,Daily Lectionary,psalm,Luke 1:68–79
+01-01,,,,,Daily Lectionary,nt,Mark 2
+01-02,,,,,Daily Lectionary,psalm,Psalm 30
+01-02,,,,,Daily Lectionary,nt,Mark 3
+01-03,,,,,Daily Lectionary,psalm,Psalm 31
+01-03,,,,,Daily Lectionary,nt,Mark 4
+01-04,,,,,Daily Lectionary,psalm,Psalm 32
+01-04,,,,,Daily Lectionary,nt,Mark 5
+01-05,,,,,Daily Lectionary,psalm,Psalm 33
+01-05,,,,,Daily Lectionary,nt,Mark 6
+01-06,,,,,Daily Lectionary,psalm,Psalm 34
+01-06,,,,,Daily Lectionary,nt,Mark 7
+01-07,,,,,Daily Lectionary,psalm,Psalm 35
+01-07,,,,,Daily Lectionary,nt,Mark 8
+01-08,,,,,Daily Lectionary,psalm,Psalm 36
+01-08,,,,,Daily Lectionary,nt,Mark 9
+01-09,,,,,Daily Lectionary,psalm,Psalm 37
+01-09,,,,,Daily Lectionary,nt,Mark 10
+01-10,,,,,Daily Lectionary,psalm,Psalm 38
+01-10,,,,,Daily Lectionary,nt,Mark 11
+01-11,,,,,Daily Lectionary,psalm,Psalm 39
+01-11,,,,,Daily Lectionary,nt,Mark 12
+01-12,,,,,Daily Lectionary,psalm,Psalm 40
+01-12,,,,,Daily Lectionary,nt,Mark 13
+01-13,,,,,Daily Lectionary,psalm,Psalm 41
+01-13,,,,,Daily Lectionary,nt,Mark 14
+01-14,,,,,Daily Lectionary,psalm,Psalm 42
+01-14,,,,,Daily Lectionary,nt,Mark 15–16
+01-15,,,,,Daily Lectionary,psalm,Psalm 43
+01-15,,,,,Daily Lectionary,ot,Genesis 1–3
+01-16,,,,,Daily Lectionary,psalm,Psalm 44
+01-16,,,,,Daily Lectionary,ot,Genesis 4–6
+01-17,,,,,Daily Lectionary,psalm,Psalm 45
+01-17,,,,,Daily Lectionary,ot,Genesis 7–9
+01-18,,,,,Daily Lectionary,psalm,Psalm 46
+01-18,,,,,Daily Lectionary,ot,Genesis 10–12
+01-19,,,,,Daily Lectionary,psalm,Psalm 47
+01-19,,,,,Daily Lectionary,ot,Genesis 13–15
+01-20,,,,,Daily Lectionary,psalm,Psalm 48
+01-20,,,,,Daily Lectionary,ot,Genesis 16–18
+01-21,,,,,Daily Lectionary,psalm,Psalm 49
+01-21,,,,,Daily Lectionary,ot,Genesis 19–21
+01-22,,,,,Daily Lectionary,psalm,Psalm 50
+01-22,,,,,Daily Lectionary,ot,Genesis 22–24
+01-23,,,,,Daily Lectionary,psalm,Psalm 51
+01-23,,,,,Daily Lectionary,ot,Genesis 25–27
+01-24,,,,,Daily Lectionary,psalm,Psalm 52
+01-24,,,,,Daily Lectionary,ot,Genesis 28–30
+01-25,,,,,Daily Lectionary,psalm,Psalm 53
+01-25,,,,,Daily Lectionary,ot,Genesis 31–33
+01-26,,,,,Daily Lectionary,psalm,Psalm 54
+01-26,,,,,Daily Lectionary,ot,Genesis 34–36
+01-27,,,,,Daily Lectionary,psalm,Psalm 55
+01-27,,,,,Daily Lectionary,ot,Genesis 37–39
+01-28,,,,,Daily Lectionary,psalm,Psalm 56
+01-28,,,,,Daily Lectionary,ot,Genesis 40–42
+01-29,,,,,Daily Lectionary,psalm,Psalm 57
+01-29,,,,,Daily Lectionary,ot,Genesis 43–45
+01-30,,,,,Daily Lectionary,psalm,Psalm 58
+01-30,,,,,Daily Lectionary,ot,Genesis 46–48
+01-31,,,,,Daily Lectionary,psalm,Luke 1:68–79
+01-31,,,,,Daily Lectionary,ot,Genesis 49–50
+02-01,,,,,Daily Lectionary,psalm,Luke 2:29–32
+02-01,,,,,Daily Lectionary,ot,Exodus 1–3
+02-02,,,,,Daily Lectionary,psalm,Psalm 59
+02-02,,,,,Daily Lectionary,ot,Exodus 4–6
+02-03,,,,,Daily Lectionary,psalm,Psalm 60
+02-03,,,,,Daily Lectionary,ot,Exodus 7–9
+02-04,,,,,Daily Lectionary,psalm,Psalm 61
+02-04,,,,,Daily Lectionary,ot,Exodus 10–12
+02-05,,,,,Daily Lectionary,psalm,Psalm 62
+02-05,,,,,Daily Lectionary,ot,Exodus 13–15
+02-06,,,,,Daily Lectionary,psalm,Psalm 63
+02-06,,,,,Daily Lectionary,ot,Exodus 16–18
+02-07,,,,,Daily Lectionary,psalm,Psalm 64
+02-07,,,,,Daily Lectionary,ot,Exodus 19–21
+02-08,,,,,Daily Lectionary,psalm,Psalm 65
+02-08,,,,,Daily Lectionary,ot,Exodus 22–24
+02-09,,,,,Daily Lectionary,psalm,Psalm 66
+02-09,,,,,Daily Lectionary,ot,Exodus 25–27
+02-10,,,,,Daily Lectionary,psalm,Psalm 67
+02-10,,,,,Daily Lectionary,ot,Exodus 28–30
+02-11,,,,,Daily Lectionary,psalm,Psalm 68
+02-11,,,,,Daily Lectionary,ot,Exodus 31–33
+02-12,,,,,Daily Lectionary,psalm,Psalm 69
+02-12,,,,,Daily Lectionary,ot,Exodus 34–36
+02-13,,,,,Daily Lectionary,psalm,Psalm 70
+02-13,,,,,Daily Lectionary,ot,Exodus 37–38
+02-14,,,,,Daily Lectionary,psalm,Psalm 71
+02-14,,,,,Daily Lectionary,ot,Exodus 39–40
+02-15,,,,,Daily Lectionary,psalm,Psalm 72
+02-15,,,,,Daily Lectionary,ot,Leviticus 1–3
+02-16,,,,,Daily Lectionary,psalm,Psalm 73
+02-16,,,,,Daily Lectionary,ot,Leviticus 4–6
+02-17,,,,,Daily Lectionary,psalm,Psalm 74
+02-17,,,,,Daily Lectionary,ot,Leviticus 7–9
+02-18,,,,,Daily Lectionary,psalm,Psalm 75
+02-18,,,,,Daily Lectionary,ot,Leviticus 10–12
+02-19,,,,,Daily Lectionary,psalm,Psalm 76
+02-19,,,,,Daily Lectionary,ot,Leviticus 13–15
+02-20,,,,,Daily Lectionary,psalm,Psalm 77
+02-20,,,,,Daily Lectionary,ot,Leviticus 16–18
+02-21,,,,,Daily Lectionary,psalm,Psalm 78
+02-21,,,,,Daily Lectionary,ot,Leviticus 19–21
+02-22,,,,,Daily Lectionary,psalm,Psalm 79
+02-22,,,,,Daily Lectionary,ot,Leviticus 22–24
+02-23,,,,,Daily Lectionary,psalm,Psalm 80
+02-23,,,,,Daily Lectionary,ot,Leviticus 25–27
+02-24,,,,,Daily Lectionary,psalm,Psalm 81
+02-24,,,,,Daily Lectionary,ot,Numbers 1–3
+02-25,,,,,Daily Lectionary,psalm,Psalm 82
+02-25,,,,,Daily Lectionary,ot,Numbers 4–6
+02-26,,,,,Daily Lectionary,psalm,Psalm 83
+02-26,,,,,Daily Lectionary,ot,Numbers 7–9
+02-27,,,,,Daily Lectionary,psalm,Psalm 84
+02-27,,,,,Daily Lectionary,ot,Numbers 10–12
+02-28,,,,,Daily Lectionary,psalm,Luke 2:29–32
+02-28,,,,,Daily Lectionary,ot,Numbers 13–15
+03-01,,,,,Daily Lectionary,psalm,Isaiah 64:1–9
+03-01,,,,,Daily Lectionary,ot,Numbers 16–18
+03-02,,,,,Daily Lectionary,psalm,Psalm 85
+03-02,,,,,Daily Lectionary,ot,Numbers 19–21
+03-03,,,,,Daily Lectionary,psalm,Psalm 86
+03-03,,,,,Daily Lectionary,ot,Numbers 22–24
+03-04,,,,,Daily Lectionary,psalm,Psalm 87
+03-04,,,,,Daily Lectionary,ot,Numbers 25–27
+03-05,,,,,Daily Lectionary,psalm,Psalm 88
+03-05,,,,,Daily Lectionary,ot,Numbers 28–30
+03-06,,,,,Daily Lectionary,psalm,Psalm 89
+03-06,,,,,Daily Lectionary,ot,Numbers 31–33
+03-07,,,,,Daily Lectionary,psalm,Psalm 90
+03-07,,,,,Daily Lectionary,ot,Numbers 34–36
+03-08,,,,,Daily Lectionary,psalm,Psalm 91
+03-08,,,,,Daily Lectionary,ot,Deuteronomy 1–3
+03-09,,,,,Daily Lectionary,psalm,Psalm 92
+03-09,,,,,Daily Lectionary,ot,Deuteronomy 4–6
+03-10,,,,,Daily Lectionary,psalm,Psalm 93
+03-10,,,,,Daily Lectionary,ot,Deuteronomy 7–9
+03-11,,,,,Daily Lectionary,psalm,Psalm 94
+03-11,,,,,Daily Lectionary,ot,Deuteronomy 10–12
+03-12,,,,,Daily Lectionary,psalm,Psalm 95
+03-12,,,,,Daily Lectionary,ot,Deuteronomy 13–15
+03-13,,,,,Daily Lectionary,psalm,Psalm 96
+03-13,,,,,Daily Lectionary,ot,Deuteronomy 16–18
+03-14,,,,,Daily Lectionary,psalm,Psalm 97
+03-14,,,,,Daily Lectionary,ot,Deuteronomy 19–21
+03-15,,,,,Daily Lectionary,psalm,Psalm 98
+03-15,,,,,Daily Lectionary,ot,Deuteronomy 22–24
+03-16,,,,,Daily Lectionary,psalm,Psalm 99
+03-16,,,,,Daily Lectionary,ot,Deuteronomy 25–27
+03-17,,,,,Daily Lectionary,psalm,Psalm 100
+03-17,,,,,Daily Lectionary,ot,Deuteronomy 28–30
+03-18,,,,,Daily Lectionary,psalm,Psalm 101
+03-18,,,,,Daily Lectionary,ot,Deuteronomy 31–34
+03-19,,,,,Daily Lectionary,psalm,Psalm 102
+03-19,,,,,Daily Lectionary,nt,Luke 1
+03-20,,,,,Daily Lectionary,psalm,Psalm 103
+03-20,,,,,Daily Lectionary,nt,Luke 2–3
+03-21,,,,,Daily Lectionary,psalm,Psalm 104
+03-21,,,,,Daily Lectionary,nt,Luke 4–5
+03-22,,,,,Daily Lectionary,psalm,Psalm 105
+03-22,,,,,Daily Lectionary,nt,Luke 6–7
+03-23,,,,,Daily Lectionary,psalm,Psalm 106
+03-23,,,,,Daily Lectionary,nt,Luke 8–9
+03-24,,,,,Daily Lectionary,psalm,Psalm 107
+03-24,,,,,Daily Lectionary,nt,Luke 10–11
+03-25,,,,,Daily Lectionary,psalm,Psalm 108
+03-25,,,,,Daily Lectionary,nt,Luke 12–13
+03-26,,,,,Daily Lectionary,psalm,Psalm 109
+03-26,,,,,Daily Lectionary,nt,Luke 14–15
+03-27,,,,,Daily Lectionary,psalm,Psalm 110
+03-27,,,,,Daily Lectionary,nt,Luke 16–17
+03-28,,,,,Daily Lectionary,psalm,Psalm 111
+03-28,,,,,Daily Lectionary,nt,Luke 18–19
+03-29,,,,,Daily Lectionary,psalm,Psalm 112
+03-29,,,,,Daily Lectionary,nt,Luke 20–21
+03-30,,,,,Daily Lectionary,psalm,Psalm 113
+03-30,,,,,Daily Lectionary,nt,Luke 22
+03-31,,,,,Daily Lectionary,psalm,Isaiah 64:1–9
+03-31,,,,,Daily Lectionary,nt,Luke 23–24
+04-01,,,,,Daily Lectionary,psalm,Isaiah 25:1–9
+04-01,,,,,Daily Lectionary,nt,Romans 1–3
+04-02,,,,,Daily Lectionary,psalm,Psalm 114
+04-02,,,,,Daily Lectionary,nt,Romans 4–6
+04-03,,,,,Daily Lectionary,psalm,Psalm 115
+04-03,,,,,Daily Lectionary,nt,Romans 7–9
+04-04,,,,,Daily Lectionary,psalm,Psalm 116
+04-04,,,,,Daily Lectionary,nt,Romans 10–13
+04-05,,,,,Daily Lectionary,psalm,Psalm 117
+04-05,,,,,Daily Lectionary,nt,Romans 14–16
+04-06,,,,,Daily Lectionary,psalm,Psalm 118
+04-06,,,,,Daily Lectionary,nt,1 Corinthians 1–3
+04-07,,,,,Daily Lectionary,psalm,Psalm 119:1–8
+04-07,,,,,Daily Lectionary,nt,1 Corinthians 4–6
+04-08,,,,,Daily Lectionary,psalm,Psalm 119:9–16
+04-08,,,,,Daily Lectionary,nt,1 Corinthians 7–9
+04-09,,,,,Daily Lectionary,psalm,Psalm 119:17–24
+04-09,,,,,Daily Lectionary,nt,1 Corinthians 10–11
+04-10,,,,,Daily Lectionary,psalm,Psalm 119:25–32
+04-10,,,,,Daily Lectionary,nt,1 Corinthians 12–14
+04-11,,,,,Daily Lectionary,psalm,Psalm 119:33–40
+04-11,,,,,Daily Lectionary,nt,1 Corinthians 15–16
+04-12,,,,,Daily Lectionary,psalm,Psalm 119:41–48
+04-12,,,,,Daily Lectionary,nt,2 Corinthians 1–4
+04-13,,,,,Daily Lectionary,psalm,Psalm 119:49–56
+04-13,,,,,Daily Lectionary,nt,2 Corinthians 5–7
+04-14,,,,,Daily Lectionary,psalm,Psalm 119:57–64
+04-14,,,,,Daily Lectionary,nt,2 Corinthians 8–10
+04-15,,,,,Daily Lectionary,psalm,Psalm 119:65–72
+04-15,,,,,Daily Lectionary,nt,2 Corinthians 11–13
+04-16,,,,,Daily Lectionary,psalm,Psalm 119:73–80
+04-16,,,,,Daily Lectionary,nt,Galatians 1–3
+04-17,,,,,Daily Lectionary,psalm,Psalm 119:81–88
+04-17,,,,,Daily Lectionary,nt,Galatians 4–6
+04-18,,,,,Daily Lectionary,psalm,Psalm 119:89–96
+04-18,,,,,Daily Lectionary,nt,Ephesians 1–3
+04-19,,,,,Daily Lectionary,psalm,Psalm 119:97–104
+04-19,,,,,Daily Lectionary,nt,Ephesians 4–6
+04-20,,,,,Daily Lectionary,psalm,Psalm 119:105–112
+04-20,,,,,Daily Lectionary,nt,Philippians 1–2
+04-21,,,,,Daily Lectionary,psalm,Psalm 119:113–120
+04-21,,,,,Daily Lectionary,nt,Philippians 3–4
+04-22,,,,,Daily Lectionary,psalm,Psalm 119:121–128
+04-22,,,,,Daily Lectionary,nt,Colossians 1–2
+04-23,,,,,Daily Lectionary,psalm,Psalm 119:129–136
+04-23,,,,,Daily Lectionary,nt,Colossians 3–4
+04-24,,,,,Daily Lectionary,psalm,Psalm 119:137–144
+04-24,,,,,Daily Lectionary,nt,1 Thessalonians 1–3
+04-25,,,,,Daily Lectionary,psalm,Psalm 119:145–152
+04-25,,,,,Daily Lectionary,nt,1 Thessalonians 4–5
+04-26,,,,,Daily Lectionary,psalm,Psalm 119:153–160
+04-26,,,,,Daily Lectionary,nt,2 Thessalonians 1–3
+04-27,,,,,Daily Lectionary,psalm,Psalm 119:161–168
+04-27,,,,,Daily Lectionary,nt,1 Timothy 1–3
+04-28,,,,,Daily Lectionary,psalm,Psalm 119:169–176
+04-28,,,,,Daily Lectionary,nt,1 Timothy 4–6
+04-29,,,,,Daily Lectionary,psalm,Psalm 120
+04-29,,,,,Daily Lectionary,nt,2 Timothy 1–2
+04-30,,,,,Daily Lectionary,psalm,Isaiah 25:1–9
+04-30,,,,,Daily Lectionary,nt,2 Timothy 3–4
+05-01,,,,,Daily Lectionary,psalm,1 Samuel 2:1–10
+05-01,,,,,Daily Lectionary,nt,Titus; Philemon
+05-02,,,,,Daily Lectionary,psalm,Psalm 121
+05-02,,,,,Daily Lectionary,nt,Hebrews 1–4
+05-03,,,,,Daily Lectionary,psalm,Psalm 122
+05-03,,,,,Daily Lectionary,nt,Hebrews 5–7
+05-04,,,,,Daily Lectionary,psalm,Psalm 123
+05-04,,,,,Daily Lectionary,nt,Hebrews 8–10
+05-05,,,,,Daily Lectionary,psalm,Psalm 124
+05-05,,,,,Daily Lectionary,nt,Hebrews 11–13
+05-06,,,,,Daily Lectionary,psalm,Psalm 125
+05-06,,,,,Daily Lectionary,nt,James 1–3
+05-07,,,,,Daily Lectionary,psalm,Psalm 126
+05-07,,,,,Daily Lectionary,nt,James 4–5
+05-08,,,,,Daily Lectionary,psalm,Psalm 127
+05-08,,,,,Daily Lectionary,nt,1 Peter 1–2
+05-09,,,,,Daily Lectionary,psalm,Psalm 128
+05-09,,,,,Daily Lectionary,nt,1 Peter 3–5
+05-10,,,,,Daily Lectionary,psalm,Psalm 129
+05-10,,,,,Daily Lectionary,nt,2 Peter
+05-11,,,,,Daily Lectionary,psalm,Psalm 130
+05-11,,,,,Daily Lectionary,nt,1 John 1–3
+05-12,,,,,Daily Lectionary,psalm,Psalm 131
+05-12,,,,,Daily Lectionary,nt,1 John 4–5
+05-13,,,,,Daily Lectionary,psalm,Psalm 132
+05-13,,,,,Daily Lectionary,nt,2 John; 3 John; Jude
+05-14,,,,,Daily Lectionary,psalm,Psalm 133
+05-14,,,,,Daily Lectionary,nt,John 1–2
+05-15,,,,,Daily Lectionary,psalm,Psalm 134
+05-15,,,,,Daily Lectionary,nt,John 3–4
+05-16,,,,,Daily Lectionary,psalm,Psalm 135
+05-16,,,,,Daily Lectionary,nt,John 5–6
+05-17,,,,,Daily Lectionary,psalm,Psalm 136
+05-17,,,,,Daily Lectionary,nt,John 7–8
+05-18,,,,,Daily Lectionary,psalm,Psalm 137
+05-18,,,,,Daily Lectionary,nt,John 9–10
+05-19,,,,,Daily Lectionary,psalm,Psalm 138
+05-19,,,,,Daily Lectionary,nt,John 11–12
+05-20,,,,,Daily Lectionary,psalm,Psalm 139
+05-20,,,,,Daily Lectionary,nt,John 13–14
+05-21,,,,,Daily Lectionary,psalm,Psalm 140
+05-21,,,,,Daily Lectionary,nt,John 15–16
+05-22,,,,,Daily Lectionary,psalm,Psalm 141
+05-22,,,,,Daily Lectionary,nt,John 17–18
+05-23,,,,,Daily Lectionary,psalm,Psalm 142
+05-23,,,,,Daily Lectionary,nt,John 19
+05-24,,,,,Daily Lectionary,psalm,Psalm 143
+05-24,,,,,Daily Lectionary,nt,John 20–21
+05-25,,,,,Daily Lectionary,psalm,Psalm 144
+05-25,,,,,Daily Lectionary,nt,Acts 1–2
+05-26,,,,,Daily Lectionary,psalm,Psalm 145
+05-26,,,,,Daily Lectionary,nt,Acts 3–4
+05-27,,,,,Daily Lectionary,psalm,Psalm 146
+05-27,,,,,Daily Lectionary,nt,Acts 5–6
+05-28,,,,,Daily Lectionary,psalm,Psalm 147
+05-28,,,,,Daily Lectionary,nt,Acts 7–8
+05-29,,,,,Daily Lectionary,psalm,Psalm 148
+05-29,,,,,Daily Lectionary,nt,Acts 9–10
+05-30,,,,,Daily Lectionary,psalm,Psalm 149
+05-30,,,,,Daily Lectionary,nt,Acts 11–12
+05-31,,,,,Daily Lectionary,psalm,1 Samuel 2:1–10
+05-31,,,,,Daily Lectionary,nt,Acts 13–14
+06-01,,,,,Daily Lectionary,psalm,Isaiah 12:1–6
+06-01,,,,,Daily Lectionary,nt,Acts 15–16
+06-02,,,,,Daily Lectionary,psalm,Psalm 150
+06-02,,,,,Daily Lectionary,nt,Acts 17–18
+06-03,,,,,Daily Lectionary,psalm,Psalm 1
+06-03,,,,,Daily Lectionary,nt,Acts 19–20
+06-04,,,,,Daily Lectionary,psalm,Psalm 2
+06-04,,,,,Daily Lectionary,nt,Acts 21–22
+06-05,,,,,Daily Lectionary,psalm,Psalm 3
+06-05,,,,,Daily Lectionary,nt,Acts 23–24
+06-06,,,,,Daily Lectionary,psalm,Psalm 4
+06-06,,,,,Daily Lectionary,nt,Acts 25–26
+06-07,,,,,Daily Lectionary,psalm,Psalm 5
+06-07,,,,,Daily Lectionary,nt,Acts 27–28
+06-08,,,,,Daily Lectionary,psalm,Psalm 6
+06-08,,,,,Daily Lectionary,ot,Joshua 1–5
+06-09,,,,,Daily Lectionary,psalm,Psalm 7
+06-09,,,,,Daily Lectionary,ot,Joshua 6–8
+06-10,,,,,Daily Lectionary,psalm,Psalm 8
+06-10,,,,,Daily Lectionary,ot,Joshua 9–11
+06-11,,,,,Daily Lectionary,psalm,Psalm 9
+06-11,,,,,Daily Lectionary,ot,Joshua 12–16
+06-12,,,,,Daily Lectionary,psalm,Psalm 10
+06-12,,,,,Daily Lectionary,ot,Joshua 17–21
+06-13,,,,,Daily Lectionary,psalm,Psalm 11
+06-13,,,,,Daily Lectionary,ot,Joshua 22–24
+06-14,,,,,Daily Lectionary,psalm,Psalm 12
+06-14,,,,,Daily Lectionary,ot,Judges 1–3
+06-15,,,,,Daily Lectionary,psalm,Psalm 13
+06-15,,,,,Daily Lectionary,ot,Judges 4–6
+06-16,,,,,Daily Lectionary,psalm,Psalm 14
+06-16,,,,,Daily Lectionary,ot,Judges 7–9
+06-17,,,,,Daily Lectionary,psalm,Psalm 15
+06-17,,,,,Daily Lectionary,ot,Judges 10–12
+06-18,,,,,Daily Lectionary,psalm,Psalm 16
+06-18,,,,,Daily Lectionary,ot,Judges 13–15
+06-19,,,,,Daily Lectionary,psalm,Psalm 17
+06-19,,,,,Daily Lectionary,ot,Judges 16–18
+06-20,,,,,Daily Lectionary,psalm,Psalm 18
+06-20,,,,,Daily Lectionary,ot,Judges 19–21
+06-21,,,,,Daily Lectionary,psalm,Psalm 19
+06-21,,,,,Daily Lectionary,ot,Ruth
+06-22,,,,,Daily Lectionary,psalm,Psalm 20
+06-22,,,,,Daily Lectionary,ot,1 Samuel 1–3
+06-23,,,,,Daily Lectionary,psalm,Psalm 21
+06-23,,,,,Daily Lectionary,ot,1 Samuel 4–6
+06-24,,,,,Daily Lectionary,psalm,Psalm 22
+06-24,,,,,Daily Lectionary,ot,1 Samuel 7–9
+06-25,,,,,Daily Lectionary,psalm,Psalm 23
+06-25,,,,,Daily Lectionary,ot,1 Samuel 10–12
+06-26,,,,,Daily Lectionary,psalm,Psalm 24
+06-26,,,,,Daily Lectionary,ot,1 Samuel 13–15
+06-27,,,,,Daily Lectionary,psalm,Psalm 25
+06-27,,,,,Daily Lectionary,ot,1 Samuel 16–18
+06-28,,,,,Daily Lectionary,psalm,Psalm 26
+06-28,,,,,Daily Lectionary,ot,1 Samuel 19–21
+06-29,,,,,Daily Lectionary,psalm,Psalm 27
+06-29,,,,,Daily Lectionary,ot,1 Samuel 22–24
+06-30,,,,,Daily Lectionary,psalm,Isaiah 12:1–6
+06-30,,,,,Daily Lectionary,ot,1 Samuel 25–27
+07-01,,,,,Daily Lectionary,psalm,Deuteronomy 32:1–4
+07-01,,,,,Daily Lectionary,ot,1 Samuel 28–31
+07-02,,,,,Daily Lectionary,psalm,Psalm 28
+07-02,,,,,Daily Lectionary,ot,2 Samuel 1–3
+07-03,,,,,Daily Lectionary,psalm,Psalm 29
+07-03,,,,,Daily Lectionary,ot,2 Samuel 4–6
+07-04,,,,,Daily Lectionary,psalm,Psalm 30
+07-04,,,,,Daily Lectionary,ot,2 Samuel 7–9
+07-05,,,,,Daily Lectionary,psalm,Psalm 31
+07-05,,,,,Daily Lectionary,ot,2 Samuel 10–12
+07-06,,,,,Daily Lectionary,psalm,Psalm 32
+07-06,,,,,Daily Lectionary,ot,2 Samuel 13–15
+07-07,,,,,Daily Lectionary,psalm,Psalm 33
+07-07,,,,,Daily Lectionary,ot,2 Samuel 16–18
+07-08,,,,,Daily Lectionary,psalm,Psalm 34
+07-08,,,,,Daily Lectionary,ot,2 Samuel 19–21
+07-09,,,,,Daily Lectionary,psalm,Psalm 35
+07-09,,,,,Daily Lectionary,ot,2 Samuel 22–24
+07-10,,,,,Daily Lectionary,psalm,Psalm 36
+07-10,,,,,Daily Lectionary,ot,1 Kings 1–2
+07-11,,,,,Daily Lectionary,psalm,Psalm 37
+07-11,,,,,Daily Lectionary,ot,1 Kings 3–6
+07-12,,,,,Daily Lectionary,psalm,Psalm 38
+07-12,,,,,Daily Lectionary,ot,1 Kings 7–8
+07-13,,,,,Daily Lectionary,psalm,Psalm 39
+07-13,,,,,Daily Lectionary,ot,1 Kings 9–11
+07-14,,,,,Daily Lectionary,psalm,Psalm 40
+07-14,,,,,Daily Lectionary,ot,1 Kings 12–14
+07-15,,,,,Daily Lectionary,psalm,Psalm 41
+07-15,,,,,Daily Lectionary,ot,1 Kings 15–17
+07-16,,,,,Daily Lectionary,psalm,Psalm 42
+07-16,,,,,Daily Lectionary,ot,1 Kings 18–20
+07-17,,,,,Daily Lectionary,psalm,Psalm 43
+07-17,,,,,Daily Lectionary,ot,1 Kings 21–22
+07-18,,,,,Daily Lectionary,psalm,Psalm 44
+07-18,,,,,Daily Lectionary,ot,2 Kings 1–3
+07-19,,,,,Daily Lectionary,psalm,Psalm 45
+07-19,,,,,Daily Lectionary,ot,2 Kings 4–6
+07-20,,,,,Daily Lectionary,psalm,Psalm 46
+07-20,,,,,Daily Lectionary,ot,2 Kings 7–9
+07-21,,,,,Daily Lectionary,psalm,Psalm 47
+07-21,,,,,Daily Lectionary,ot,2 Kings 10–12
+07-22,,,,,Daily Lectionary,psalm,Psalm 48
+07-22,,,,,Daily Lectionary,ot,2 Kings 13–15
+07-23,,,,,Daily Lectionary,psalm,Psalm 49
+07-23,,,,,Daily Lectionary,ot,2 Kings 16–18
+07-24,,,,,Daily Lectionary,psalm,Psalm 50
+07-24,,,,,Daily Lectionary,ot,2 Kings 19–22
+07-25,,,,,Daily Lectionary,psalm,Psalm 51
+07-25,,,,,Daily Lectionary,ot,2 Kings 23–25
+07-26,,,,,Daily Lectionary,psalm,Psalm 52
+07-26,,,,,Daily Lectionary,ot,1 Chronicles 1–5
+07-27,,,,,Daily Lectionary,psalm,Psalm 53
+07-27,,,,,Daily Lectionary,ot,1 Chronicles 6–10
+07-28,,,,,Daily Lectionary,psalm,Psalm 54
+07-28,,,,,Daily Lectionary,ot,1 Chronicles 11–15
+07-29,,,,,Daily Lectionary,psalm,Psalm 55
+07-29,,,,,Daily Lectionary,ot,1 Chronicles 16–20
+07-30,,,,,Daily Lectionary,psalm,Psalm 56
+07-30,,,,,Daily Lectionary,ot,1 Chronicles 21–25
+07-31,,,,,Daily Lectionary,psalm,Deuteronomy 32:1–4
+07-31,,,,,Daily Lectionary,ot,1 Chronicles 26–29
+08-01,,,,,Daily Lectionary,psalm,Habakkuk 3:2–19
+08-01,,,,,Daily Lectionary,ot,2 Chronicles 1–3
+08-02,,,,,Daily Lectionary,psalm,Psalm 57
+08-02,,,,,Daily Lectionary,ot,2 Chronicles 4–6
+08-03,,,,,Daily Lectionary,psalm,Psalm 58
+08-03,,,,,Daily Lectionary,ot,2 Chronicles 7–9
+08-04,,,,,Daily Lectionary,psalm,Psalm 59
+08-04,,,,,Daily Lectionary,ot,2 Chronicles 10–12
+08-05,,,,,Daily Lectionary,psalm,Psalm 60
+08-05,,,,,Daily Lectionary,ot,2 Chronicles 13–15
+08-06,,,,,Daily Lectionary,psalm,Psalm 61
+08-06,,,,,Daily Lectionary,ot,2 Chronicles 16–18
+08-07,,,,,Daily Lectionary,psalm,Psalm 62
+08-07,,,,,Daily Lectionary,ot,2 Chronicles 19–21
+08-08,,,,,Daily Lectionary,psalm,Psalm 63
+08-08,,,,,Daily Lectionary,ot,2 Chronicles 22–24
+08-09,,,,,Daily Lectionary,psalm,Psalm 64
+08-09,,,,,Daily Lectionary,ot,2 Chronicles 25–27
+08-10,,,,,Daily Lectionary,psalm,Psalm 65
+08-10,,,,,Daily Lectionary,ot,2 Chronicles 28–30
+08-11,,,,,Daily Lectionary,psalm,Psalm 66
+08-11,,,,,Daily Lectionary,ot,2 Chronicles 31–33
+08-12,,,,,Daily Lectionary,psalm,Psalm 67
+08-12,,,,,Daily Lectionary,ot,2 Chronicles 34–36
+08-13,,,,,Daily Lectionary,psalm,Psalm 68
+08-13,,,,,Daily Lectionary,ot,Ezra 1–5
+08-14,,,,,Daily Lectionary,psalm,Psalm 69
+08-14,,,,,Daily Lectionary,ot,Ezra 6–10
+08-15,,,,,Daily Lectionary,psalm,Psalm 70
+08-15,,,,,Daily Lectionary,ot,Nehemiah 1–3
+08-16,,,,,Daily Lectionary,psalm,Psalm 71
+08-16,,,,,Daily Lectionary,ot,Nehemiah 4–6
+08-17,,,,,Daily Lectionary,psalm,Psalm 72
+08-17,,,,,Daily Lectionary,ot,Nehemiah 7–9
+08-18,,,,,Daily Lectionary,psalm,Psalm 73
+08-18,,,,,Daily Lectionary,ot,Nehemiah 10–13
+08-19,,,,,Daily Lectionary,psalm,Psalm 74
+08-19,,,,,Daily Lectionary,ot,Esther 1–3
+08-20,,,,,Daily Lectionary,psalm,Psalm 75
+08-20,,,,,Daily Lectionary,ot,Esther 4–6
+08-21,,,,,Daily Lectionary,psalm,Psalm 76
+08-21,,,,,Daily Lectionary,ot,Esther 7–10
+08-22,,,,,Daily Lectionary,psalm,Psalm 77
+08-22,,,,,Daily Lectionary,ot,Job 1–3
+08-23,,,,,Daily Lectionary,psalm,Psalm 78
+08-23,,,,,Daily Lectionary,ot,Job 4–6
+08-24,,,,,Daily Lectionary,psalm,Psalm 79
+08-24,,,,,Daily Lectionary,ot,Job 7–9
+08-25,,,,,Daily Lectionary,psalm,Psalm 80
+08-25,,,,,Daily Lectionary,ot,Job 10–12
+08-26,,,,,Daily Lectionary,psalm,Psalm 81
+08-26,,,,,Daily Lectionary,ot,Job 13–15
+08-27,,,,,Daily Lectionary,psalm,Psalm 82
+08-27,,,,,Daily Lectionary,ot,Job 16–18
+08-28,,,,,Daily Lectionary,psalm,Psalm 83
+08-28,,,,,Daily Lectionary,ot,Job 19–21
+08-29,,,,,Daily Lectionary,psalm,Psalm 84
+08-29,,,,,Daily Lectionary,ot,Job 22–24
+08-30,,,,,Daily Lectionary,psalm,Psalm 85
+08-30,,,,,Daily Lectionary,ot,Job 25–27
+08-31,,,,,Daily Lectionary,psalm,Habakkuk 3:2–19
+08-31,,,,,Daily Lectionary,ot,Job 28–30
+09-01,,,,,Daily Lectionary,psalm,1 Chronicles 29:10–13
+09-01,,,,,Daily Lectionary,ot,Job 31–33
+09-02,,,,,Daily Lectionary,psalm,Psalm 86
+09-02,,,,,Daily Lectionary,ot,Job 34–36
+09-03,,,,,Daily Lectionary,psalm,Psalm 87
+09-03,,,,,Daily Lectionary,ot,Job 37–39
+09-04,,,,,Daily Lectionary,psalm,Psalm 88
+09-04,,,,,Daily Lectionary,ot,Job 40–42
+09-05,,,,,Daily Lectionary,psalm,Psalm 89
+09-05,,,,,Daily Lectionary,ot,Proverbs 1–3
+09-06,,,,,Daily Lectionary,psalm,Psalm 90
+09-06,,,,,Daily Lectionary,ot,Proverbs 4–7
+09-07,,,,,Daily Lectionary,psalm,Psalm 91
+09-07,,,,,Daily Lectionary,ot,Proverbs 8–10
+09-08,,,,,Daily Lectionary,psalm,Psalm 92
+09-08,,,,,Daily Lectionary,ot,Proverbs 11–13
+09-09,,,,,Daily Lectionary,psalm,Psalm 93
+09-09,,,,,Daily Lectionary,ot,Proverbs 14–16
+09-10,,,,,Daily Lectionary,psalm,Psalm 94
+09-10,,,,,Daily Lectionary,ot,Proverbs 17–19
+09-11,,,,,Daily Lectionary,psalm,Psalm 95
+09-11,,,,,Daily Lectionary,ot,Proverbs 20–22
+09-12,,,,,Daily Lectionary,psalm,Psalm 96
+09-12,,,,,Daily Lectionary,ot,Proverbs 23–25
+09-13,,,,,Daily Lectionary,psalm,Psalm 97
+09-13,,,,,Daily Lectionary,ot,Proverbs 26–28
+09-14,,,,,Daily Lectionary,psalm,Psalm 98
+09-14,,,,,Daily Lectionary,ot,Proverbs 29–31
+09-15,,,,,Daily Lectionary,psalm,Psalm 99
+09-15,,,,,Daily Lectionary,ot,Ecclesiastes 1–3
+09-16,,,,,Daily Lectionary,psalm,Psalm 100
+09-16,,,,,Daily Lectionary,ot,Ecclesiastes 4–6
+09-17,,,,,Daily Lectionary,psalm,Psalm 101
+09-17,,,,,Daily Lectionary,ot,Ecclesiastes 7–9
+09-18,,,,,Daily Lectionary,psalm,Psalm 102
+09-18,,,,,Daily Lectionary,ot,Ecclesiastes 10–12
+09-19,,,,,Daily Lectionary,psalm,Psalm 103
+09-19,,,,,Daily Lectionary,ot,Song of Solomon 1–4
+09-20,,,,,Daily Lectionary,psalm,Psalm 104
+09-20,,,,,Daily Lectionary,ot,Song of Solomon 5–8
+09-21,,,,,Daily Lectionary,psalm,Psalm 105
+09-21,,,,,Daily Lectionary,ot,Jeremiah 1–3
+09-22,,,,,Daily Lectionary,psalm,Psalm 106
+09-22,,,,,Daily Lectionary,ot,Jeremiah 4–6
+09-23,,,,,Daily Lectionary,psalm,Psalm 107
+09-23,,,,,Daily Lectionary,ot,Jeremiah 7–9
+09-24,,,,,Daily Lectionary,psalm,Psalm 108
+09-24,,,,,Daily Lectionary,ot,Jeremiah 10–12
+09-25,,,,,Daily Lectionary,psalm,Psalm 109
+09-25,,,,,Daily Lectionary,ot,Jeremiah 13–15
+09-26,,,,,Daily Lectionary,psalm,Psalm 110
+09-26,,,,,Daily Lectionary,ot,Jeremiah 16–18
+09-27,,,,,Daily Lectionary,psalm,Psalm 111
+09-27,,,,,Daily Lectionary,ot,Jeremiah 19–22
+09-28,,,,,Daily Lectionary,psalm,Psalm 112
+09-28,,,,,Daily Lectionary,ot,Jeremiah 23–25
+09-29,,,,,Daily Lectionary,psalm,Psalm 113
+09-29,,,,,Daily Lectionary,ot,Jeremiah 26–28
+09-30,,,,,Daily Lectionary,psalm,1 Chronicles 29:10–13
+09-30,,,,,Daily Lectionary,ot,Jeremiah 29–31
+10-01,,,,,Daily Lectionary,psalm,Jonah 2:2–9
+10-01,,,,,Daily Lectionary,ot,Jeremiah 32–34
+10-02,,,,,Daily Lectionary,psalm,Psalm 114
+10-02,,,,,Daily Lectionary,ot,Jeremiah 35–37
+10-03,,,,,Daily Lectionary,psalm,Psalm 115
+10-03,,,,,Daily Lectionary,ot,Jeremiah 38–40
+10-04,,,,,Daily Lectionary,psalm,Psalm 116
+10-04,,,,,Daily Lectionary,ot,Jeremiah 41–43
+10-05,,,,,Daily Lectionary,psalm,Psalm 117
+10-05,,,,,Daily Lectionary,ot,Jeremiah 44–47
+10-06,,,,,Daily Lectionary,psalm,Psalm 118
+10-06,,,,,Daily Lectionary,ot,Jeremiah 48–50
+10-07,,,,,Daily Lectionary,psalm,Psalm 119:1–8
+10-07,,,,,Daily Lectionary,ot,Jeremiah 51–52
+10-08,,,,,Daily Lectionary,psalm,Psalm 119:9–16
+10-08,,,,,Daily Lectionary,ot,Lamentations 1–2
+10-09,,,,,Daily Lectionary,psalm,Psalm 119:17–24
+10-09,,,,,Daily Lectionary,ot,Lamentations 3–5
+10-10,,,,,Daily Lectionary,psalm,Psalm 119:25–32
+10-10,,,,,Daily Lectionary,ot,Ezekiel 1–3
+10-11,,,,,Daily Lectionary,psalm,Psalm 119:33–40
+10-11,,,,,Daily Lectionary,ot,Ezekiel 4–6
+10-12,,,,,Daily Lectionary,psalm,Psalm 119:41–48
+10-12,,,,,Daily Lectionary,ot,Ezekiel 7–9
+10-13,,,,,Daily Lectionary,psalm,Psalm 119:49–56
+10-13,,,,,Daily Lectionary,ot,Ezekiel 10–12
+10-14,,,,,Daily Lectionary,psalm,Psalm 119:57–64
+10-14,,,,,Daily Lectionary,ot,Ezekiel 13–15
+10-15,,,,,Daily Lectionary,psalm,Psalm 119:65–72
+10-15,,,,,Daily Lectionary,ot,Ezekiel 16–18
+10-16,,,,,Daily Lectionary,psalm,Psalm 119:73–80
+10-16,,,,,Daily Lectionary,ot,Ezekiel 19–21
+10-17,,,,,Daily Lectionary,psalm,Psalm 119:81–88
+10-17,,,,,Daily Lectionary,ot,Ezekiel 22–24
+10-18,,,,,Daily Lectionary,psalm,Psalm 119:89–96
+10-18,,,,,Daily Lectionary,ot,Ezekiel 25–27
+10-19,,,,,Daily Lectionary,psalm,Psalm 119:97–104
+10-19,,,,,Daily Lectionary,ot,Ezekiel 28–30
+10-20,,,,,Daily Lectionary,psalm,Psalm 119:105–112
+10-20,,,,,Daily Lectionary,ot,Ezekiel 31–33
+10-21,,,,,Daily Lectionary,psalm,Psalm 119:113–120
+10-21,,,,,Daily Lectionary,ot,Ezekiel 34–36
+10-22,,,,,Daily Lectionary,psalm,Psalm 119:121–128
+10-22,,,,,Daily Lectionary,ot,Ezekiel 37–39
+10-23,,,,,Daily Lectionary,psalm,Psalm 119:129–136
+10-23,,,,,Daily Lectionary,ot,Ezekiel 40–42
+10-24,,,,,Daily Lectionary,psalm,Psalm 119:137–144
+10-24,,,,,Daily Lectionary,ot,Ezekiel 43–45
+10-25,,,,,Daily Lectionary,psalm,Psalm 119:145–152
+10-25,,,,,Daily Lectionary,ot,Ezekiel 46–48
+10-26,,,,,Daily Lectionary,psalm,Psalm 119:153–160
+10-26,,,,,Daily Lectionary,ot,Daniel 1–3
+10-27,,,,,Daily Lectionary,psalm,Psalm 119:161–168
+10-27,,,,,Daily Lectionary,ot,Daniel 4–6
+10-28,,,,,Daily Lectionary,psalm,Psalm 119:169–176
+10-28,,,,,Daily Lectionary,ot,Daniel 7–9
+10-29,,,,,Daily Lectionary,psalm,Psalm 120
+10-29,,,,,Daily Lectionary,ot,Daniel 10–12
+10-30,,,,,Daily Lectionary,psalm,Psalm 121
+10-30,,,,,Daily Lectionary,ot,Hosea 1–4
+10-31,,,,,Daily Lectionary,psalm,Jonah 2:2–9
+10-31,,,,,Daily Lectionary,ot,Hosea 5–7
+11-01,,,,,Daily Lectionary,psalm,Exodus 15:1–18
+11-01,,,,,Daily Lectionary,ot,Hosea 8–10
+11-02,,,,,Daily Lectionary,psalm,Psalm 122
+11-02,,,,,Daily Lectionary,ot,Hosea 11–14
+11-03,,,,,Daily Lectionary,psalm,Psalm 123
+11-03,,,,,Daily Lectionary,ot,Joel
+11-04,,,,,Daily Lectionary,psalm,Psalm 124
+11-04,,,,,Daily Lectionary,ot,Amos 1–5
+11-05,,,,,Daily Lectionary,psalm,Psalm 125
+11-05,,,,,Daily Lectionary,ot,Amos 6–9
+11-06,,,,,Daily Lectionary,psalm,Psalm 126
+11-06,,,,,Daily Lectionary,ot,Obadiah; Jonah
+11-07,,,,,Daily Lectionary,psalm,Psalm 127
+11-07,,,,,Daily Lectionary,ot,Micah 1–3
+11-08,,,,,Daily Lectionary,psalm,Psalm 128
+11-08,,,,,Daily Lectionary,ot,Micah 4–7
+11-09,,,,,Daily Lectionary,psalm,Psalm 129
+11-09,,,,,Daily Lectionary,ot,Nahum
+11-10,,,,,Daily Lectionary,psalm,Psalm 130
+11-10,,,,,Daily Lectionary,ot,Habakkuk
+11-11,,,,,Daily Lectionary,psalm,Psalm 131
+11-11,,,,,Daily Lectionary,ot,Zephaniah
+11-12,,,,,Daily Lectionary,psalm,Psalm 132
+11-12,,,,,Daily Lectionary,ot,Haggai
+11-13,,,,,Daily Lectionary,psalm,Psalm 133
+11-13,,,,,Daily Lectionary,ot,Zechariah 1–5
+11-14,,,,,Daily Lectionary,psalm,Psalm 134
+11-14,,,,,Daily Lectionary,ot,Zechariah 6–10
+11-15,,,,,Daily Lectionary,psalm,Psalm 135
+11-15,,,,,Daily Lectionary,ot,Zechariah 11–14
+11-16,,,,,Daily Lectionary,psalm,Psalm 136
+11-16,,,,,Daily Lectionary,ot,Malachi
+11-17,,,,,Daily Lectionary,psalm,Psalm 137
+11-17,,,,,Daily Lectionary,nt,Matthew 1–2
+11-18,,,,,Daily Lectionary,psalm,Psalm 138
+11-18,,,,,Daily Lectionary,nt,Matthew 3–4
+11-19,,,,,Daily Lectionary,psalm,Psalm 139
+11-19,,,,,Daily Lectionary,nt,Matthew 5–6
+11-20,,,,,Daily Lectionary,psalm,Psalm 140
+11-20,,,,,Daily Lectionary,nt,Matthew 7–8
+11-21,,,,,Daily Lectionary,psalm,Psalm 141
+11-21,,,,,Daily Lectionary,nt,Matthew 9–10
+11-22,,,,,Daily Lectionary,psalm,Psalm 142
+11-22,,,,,Daily Lectionary,nt,Matthew 11–12
+11-23,,,,,Daily Lectionary,psalm,Psalm 143
+11-23,,,,,Daily Lectionary,nt,Matthew 13–14
+11-24,,,,,Daily Lectionary,psalm,Psalm 144
+11-24,,,,,Daily Lectionary,nt,Matthew 15–16
+11-25,,,,,Daily Lectionary,psalm,Psalm 145
+11-25,,,,,Daily Lectionary,nt,Matthew 17–18
+11-26,,,,,Daily Lectionary,psalm,Psalm 146
+11-26,,,,,Daily Lectionary,nt,Matthew 19–20
+11-27,,,,,Daily Lectionary,psalm,Psalm 147
+11-27,,,,,Daily Lectionary,nt,Matthew 21–22
+11-28,,,,,Daily Lectionary,psalm,Psalm 148
+11-28,,,,,Daily Lectionary,nt,Matthew 23–24
+11-29,,,,,Daily Lectionary,psalm,Psalms 149; 150
+11-29,,,,,Daily Lectionary,nt,Matthew 25–26
+11-30,,,,,Daily Lectionary,psalm,Exodus 15:1–18
+11-30,,,,,Daily Lectionary,nt,Matthew 27–28
+12-01,,,,,Daily Lectionary,psalm,Luke 1:46–55
+12-01,,,,,Daily Lectionary,nt,Revelation 1–2
+12-02,,,,,Daily Lectionary,psalm,Psalm 1
+12-02,,,,,Daily Lectionary,nt,Revelation 3–5
+12-03,,,,,Daily Lectionary,psalm,Psalm 2
+12-03,,,,,Daily Lectionary,nt,Revelation 6–8
+12-04,,,,,Daily Lectionary,psalm,Psalm 3
+12-04,,,,,Daily Lectionary,nt,Revelation 9–11
+12-05,,,,,Daily Lectionary,psalm,Psalm 4
+12-05,,,,,Daily Lectionary,nt,Revelation 12–14
+12-06,,,,,Daily Lectionary,psalm,Psalm 5
+12-06,,,,,Daily Lectionary,nt,Revelation 15–17
+12-07,,,,,Daily Lectionary,psalm,Psalm 6
+12-07,,,,,Daily Lectionary,nt,Revelation 18–20
+12-08,,,,,Daily Lectionary,psalm,Psalm 7
+12-08,,,,,Daily Lectionary,nt,Revelation 21–22
+12-09,,,,,Daily Lectionary,psalm,Psalm 8
+12-09,,,,,Daily Lectionary,ot,Isaiah 1–3
+12-10,,,,,Daily Lectionary,psalm,Psalm 9
+12-10,,,,,Daily Lectionary,ot,Isaiah 4–6
+12-11,,,,,Daily Lectionary,psalm,Psalm 10
+12-11,,,,,Daily Lectionary,ot,Isaiah 7–9
+12-12,,,,,Daily Lectionary,psalm,Psalm 11
+12-12,,,,,Daily Lectionary,ot,Isaiah 10–12
+12-13,,,,,Daily Lectionary,psalm,Psalm 12
+12-13,,,,,Daily Lectionary,ot,Isaiah 13–15
+12-14,,,,,Daily Lectionary,psalm,Psalm 13
+12-14,,,,,Daily Lectionary,ot,Isaiah 16–18
+12-15,,,,,Daily Lectionary,psalm,Psalm 14
+12-15,,,,,Daily Lectionary,ot,Isaiah 19–21
+12-16,,,,,Daily Lectionary,psalm,Psalm 15
+12-16,,,,,Daily Lectionary,ot,Isaiah 22–24
+12-17,,,,,Daily Lectionary,psalm,Psalm 16
+12-17,,,,,Daily Lectionary,ot,Isaiah 25–27
+12-18,,,,,Daily Lectionary,psalm,Psalm 17
+12-18,,,,,Daily Lectionary,ot,Isaiah 28–30
+12-19,,,,,Daily Lectionary,psalm,Psalm 18
+12-19,,,,,Daily Lectionary,ot,Isaiah 31–33
+12-20,,,,,Daily Lectionary,psalm,Psalm 19
+12-20,,,,,Daily Lectionary,ot,Isaiah 34–36
+12-21,,,,,Daily Lectionary,psalm,Psalm 20
+12-21,,,,,Daily Lectionary,ot,Isaiah 37–39
+12-22,,,,,Daily Lectionary,psalm,Psalm 21
+12-22,,,,,Daily Lectionary,ot,Isaiah 40–42
+12-23,,,,,Daily Lectionary,psalm,Psalm 22
+12-23,,,,,Daily Lectionary,ot,Isaiah 43–45
+12-24,,,,,Daily Lectionary,psalm,Psalm 23
+12-24,,,,,Daily Lectionary,ot,Isaiah 46–48
+12-25,,,,,Daily Lectionary,psalm,Psalm 24
+12-25,,,,,Daily Lectionary,ot,Isaiah 49–51
+12-26,,,,,Daily Lectionary,psalm,Psalm 25
+12-26,,,,,Daily Lectionary,ot,Isaiah 52–54
+12-27,,,,,Daily Lectionary,psalm,Psalm 26
+12-27,,,,,Daily Lectionary,ot,Isaiah 55–57
+12-28,,,,,Daily Lectionary,psalm,Psalm 27
+12-28,,,,,Daily Lectionary,ot,Isaiah 58–60
+12-29,,,,,Daily Lectionary,psalm,Psalm 28
+12-29,,,,,Daily Lectionary,ot,Isaiah 61–63
+12-30,,,,,Daily Lectionary,psalm,Psalm 29
+12-30,,,,,Daily Lectionary,ot,Isaiah 64–66
+12-31,,,,,Daily Lectionary,psalm,Luke 1:46–55
+12-31,,,,,Daily Lectionary,nt,Mark 1

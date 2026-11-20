@@ -1,0 +1,2110 @@
+day,offset,when,cycle,variant,title,kind,reading
+# ------------------------------------------- The Roman Missal of 1962
+"# The propers of the Mass (Introit, Lessons, Epistle, Gradual with the"
+"# Alleluia or Tract, Gospel) as the 1962 Missal appoints them under the"
+"# rubrics of 1960: every Sunday, the temporal feasts, the Ember days, every"
+"# weekday of Lent and Passiontide, Holy Week (Ordo of 1955), the Easter and"
+"# Pentecost octaves, Rogation Monday, the Vigil of the Ascension (Rogation"
+"# Wednesday), and the feasts of the I, II and III"
+# class and the vigils.  From Divinum Officium,
+"# https://github.com/DivinumOfficium/divinum-officium (web/www/missa, the"
+"# commons in web/www/horas, Tabulae; commit 4b479e10, read October 2026)",
+# resolved as it does for "Rubrics 1960"; the citation is the one at the head
+# of each part.  The Missal's Vulgate (Douay) numbering is given in the
+# Hebrew way for the Psalms and for the chapters that break differently
+"# (tradition.csv verse_numbering); Sirach, Tobit, Esther 10-16 and Daniel 3"
+# keep the Vulgate's.  Book names are the English ones (1 Samuel for 1 Kings,
+"# Sirach for Ecclesiasticus, Revelation for the Apocalypse)."
+#   Weekdays outside Lent repeat the Sunday's Mass and are not given (Rogation
+"#   Tuesday among them: Divinum Officium gives it no propers of its own); a Lenten"
+"#   feria gives way to a I or II class feast, and a III class feast on a"
+#   Lenten feria or an Advent or September Ember day is titled
+#   "Commemoration of ...".  Introit and Gradual citations join their verses
+"#   in order of the Psalter, not of the chant."
+advent:1,,,,,,introit,Psalm 25:1–4
+advent:1,,,,,,epistle,Romans 13:11–14
+advent:1,,,,,,gradual,Psalm 25:3–4; 85:8
+advent:1,,,,,,gospel,Luke 21:25–33
+advent:2,,,,,,introit,Isaiah 30:30; Psalm 80:2
+advent:2,,,,,,epistle,Romans 15:4–13
+advent:2,,,,,,gradual,"Psalm 50:2–3, 5; 122:1"
+advent:2,,,,,,gospel,Matthew 11:2–10
+advent:3,,,,,,introit,Philippians 4:4–6; Psalm 85:2
+advent:3,,,,,,epistle,Philippians 4:4–7
+advent:3,,,,,,gradual,Psalm 80:2–3
+advent:3,,,,,,gospel,John 1:19–28
+advent:4,,,,,,introit,Isaiah 45:8; Psalm 19:2
+advent:4,,,,,,epistle,1 Corinthians 4:1–5
+advent:4,,,,,,gradual,"Psalm 145:18, 21"
+advent:4,,,,,,gospel,Luke 3:1–6
+ember_advent_wed,,,,,,introit,Isaiah 45:8; Psalm 19:2
+ember_advent_wed,,,,,,lesson,Isaiah 2:2–5
+ember_advent_wed,,,,,,epistle,Isaiah 7:10–15
+ember_advent_wed,,,,,,gradual,"Psalm 145:18, 21"
+ember_advent_wed,,,,,,gospel,Luke 1:26–38
+ember_advent_fri,,date ne 12-21,,,,introit,"Psalm 119:1, 151–152"
+ember_advent_fri,,date ne 12-21,,,,epistle,Isaiah 11:1–5
+ember_advent_fri,,date ne 12-21,,,,gradual,"Psalm 85:2, 8"
+ember_advent_fri,,date ne 12-21,,,,gospel,Luke 1:39–47
+ember_advent_sat,,date ne 12-21,,,,introit,"Psalm 80:2, 4"
+ember_advent_sat,,date ne 12-21,,,,lesson,Isaiah 19:20–22
+ember_advent_sat,,date ne 12-21,,,,lesson,Isaiah 35:1–7
+ember_advent_sat,,date ne 12-21,,,,lesson,Isaiah 40:9–11
+ember_advent_sat,,date ne 12-21,,,,lesson,Isaiah 45:1–8
+ember_advent_sat,,date ne 12-21,,,,lesson,Daniel 3:47–51
+ember_advent_sat,,date ne 12-21,,,,epistle,2 Thessalonians 2:1–8
+ember_advent_sat,,date ne 12-21,,,,gradual,Psalm 80:2–3
+ember_advent_sat,,date ne 12-21,,,,gospel,Luke 3:1–6
+octave_sunday,,,,,,introit,Wisdom 18:14–15; Psalm 93:1
+octave_sunday,,,,,,epistle,Galatians 4:1–7
+octave_sunday,,,,,,gradual,Psalm 45:2–3; 93:1
+octave_sunday,,,,,,gospel,Luke 2:33–40
+octave_days:5,,,,,,introit,Isaiah 9:5; Psalm 98:1
+octave_days:5,,,,,,epistle,Titus 3:4–7
+octave_days:5,,,,,,gradual,Psalm 98:2–4
+octave_days:5,,,,,,gospel,Luke 2:15–20
+octave_days:6,,,,,,introit,Isaiah 9:5; Psalm 98:1
+octave_days:6,,,,,,epistle,Titus 3:4–7
+octave_days:6,,,,,,gradual,Psalm 98:2–4
+octave_days:6,,,,,,gospel,Luke 2:15–20
+octave_days:7,,,,,,introit,Isaiah 9:5; Psalm 98:1
+octave_days:7,,,,,,epistle,Titus 3:4–7
+octave_days:7,,,,,,gradual,Psalm 98:2–4
+octave_days:7,,,,,,gospel,Luke 2:15–20
+holy_name,,,,,,introit,Philippians 2:10–11; Psalm 8:2
+holy_name,,,,,,epistle,Acts 4:8–12
+holy_name,,,,,,gradual,Psalm 106:47; Isaiah 63:16; Psalm 145:21
+holy_name,,,,,,gospel,Luke 2:21
+holy_name_2,,,,,,introit,Philippians 2:10–11; Psalm 8:2
+holy_name_2,,,,,,epistle,Acts 4:8–12
+holy_name_2,,,,,,gradual,Psalm 106:47; Isaiah 63:16; Psalm 145:21
+holy_name_2,,,,,,gospel,Luke 2:21
+holy_family,,,,,,introit,Proverbs 23:24–25; Psalm 84:2–3
+holy_family,,,,,,epistle,Colossians 3:12–17
+holy_family,,,,,,gradual,Psalm 27:4; 84:5; Isaiah 45:15
+holy_family,,,,,,gospel,Luke 2:42–52
+after_epiphany:2,,,,,,introit,"Psalm 66:1–2, 4"
+after_epiphany:2,,,,,,epistle,Romans 12:6–16
+after_epiphany:2,,,,,,gradual,Psalm 107:20–21; 148:2
+after_epiphany:2,,,,,,gospel,John 2:1–11
+after_epiphany:3,,,,,,introit,"Psalm 97:1, 7–8"
+after_epiphany:3,,,,,,epistle,Romans 12:16–21
+after_epiphany:3,,,,,,gradual,Psalm 102:16–17; 97:1
+after_epiphany:3,,,,,,gospel,Matthew 8:1–13
+after_epiphany:4,,,,,,introit,"Psalm 97:1, 7–8"
+after_epiphany:4,,,,,,epistle,Romans 13:8–10
+after_epiphany:4,,,,,,gradual,Psalm 102:16–17; 97:1
+after_epiphany:4,,,,,,gospel,Matthew 8:23–27
+after_epiphany:5,,,,,,introit,"Psalm 97:1, 7–8"
+after_epiphany:5,,,,,,epistle,Colossians 3:12–17
+after_epiphany:5,,,,,,gradual,Psalm 102:16–17; 97:1
+after_epiphany:5,,,,,,gospel,Matthew 13:24–30
+after_epiphany:6,,,,,,introit,"Psalm 97:1, 7–8"
+after_epiphany:6,,,,,,epistle,1 Thessalonians 1:2–10
+after_epiphany:6,,,,,,gradual,Psalm 102:16–17; 97:1
+after_epiphany:6,,,,,,gospel,Matthew 13:31–35
+septuagesima,,,,,,introit,"Psalm 18:2–3, 5–7"
+septuagesima,,,,,,epistle,1 Corinthians 9:24–27; 10:1–5
+septuagesima,,,,,,gradual,"Psalm 9:10–11, 19–20; 130:1–4"
+septuagesima,,,,,,gospel,Matthew 20:1–16
+sexagesima,,,,,,introit,"Psalm 44:2, 23–26"
+sexagesima,,,,,,epistle,2 Corinthians 11:19–33; 12:1–9
+sexagesima,,,,,,gradual,"Psalm 83:14, 19; 60:4, 6"
+sexagesima,,,,,,gospel,Luke 8:4–15
+quinquagesima,,,,,,introit,Psalm 31:2–4
+quinquagesima,,,,,,epistle,1 Corinthians 13:1–13
+quinquagesima,,,,,,gradual,Psalm 77:15–16; 100:1–2
+quinquagesima,,,,,,gospel,Luke 18:31–43
+ash_wednesday,,,,,,introit,"Wisdom 11:24–25, 27; Psalm 57:2"
+ash_wednesday,,,,,,epistle,Joel 2:12–19
+ash_wednesday,,,,,,gradual,"Psalm 57:2, 4; 103:10; 79:8–9"
+ash_wednesday,,,,,,gospel,Matthew 6:16–21
+ash_wednesday,1,date ne 02-22 & 02-28+1 eq 03-01 & date ne 02-24,,,Thursday after Ash Wednesday,introit,"Psalm 55:2, 17–20, 23"
+ash_wednesday,1,date ne 02-22 & 02-28+1 eq 03-01 & date ne 02-24,,,Thursday after Ash Wednesday,epistle,Isaiah 38:1–6
+ash_wednesday,1,date ne 02-22 & 02-28+1 eq 03-01 & date ne 02-24,,,Thursday after Ash Wednesday,gradual,"Psalm 55:17–19, 23"
+ash_wednesday,1,date ne 02-22 & 02-28+1 eq 03-01 & date ne 02-24,,,Thursday after Ash Wednesday,gospel,Matthew 8:5–13
+ash_wednesday,1,date ne 02-22 & 02-28+1 ne 03-01 & date ne 02-25,,,Thursday after Ash Wednesday,introit,"Psalm 55:2, 17–20, 23"
+ash_wednesday,1,date ne 02-22 & 02-28+1 ne 03-01 & date ne 02-25,,,Thursday after Ash Wednesday,epistle,Isaiah 38:1–6
+ash_wednesday,1,date ne 02-22 & 02-28+1 ne 03-01 & date ne 02-25,,,Thursday after Ash Wednesday,gradual,"Psalm 55:17–19, 23"
+ash_wednesday,1,date ne 02-22 & 02-28+1 ne 03-01 & date ne 02-25,,,Thursday after Ash Wednesday,gospel,Matthew 8:5–13
+ash_wednesday,2,date ne 02-22 & 02-28+1 eq 03-01 & date ne 02-24,,,Friday after Ash Wednesday,introit,"Psalm 30:2, 11"
+ash_wednesday,2,date ne 02-22 & 02-28+1 eq 03-01 & date ne 02-24,,,Friday after Ash Wednesday,epistle,Isaiah 58:1–9
+ash_wednesday,2,date ne 02-22 & 02-28+1 eq 03-01 & date ne 02-24,,,Friday after Ash Wednesday,gradual,Psalm 27:4; 103:10; 79:8–9
+ash_wednesday,2,date ne 02-22 & 02-28+1 eq 03-01 & date ne 02-24,,,Friday after Ash Wednesday,gospel,Matthew 5:43–48; 6:1–4
+ash_wednesday,2,date ne 02-22 & 02-28+1 ne 03-01 & date ne 02-25,,,Friday after Ash Wednesday,introit,"Psalm 30:2, 11"
+ash_wednesday,2,date ne 02-22 & 02-28+1 ne 03-01 & date ne 02-25,,,Friday after Ash Wednesday,epistle,Isaiah 58:1–9
+ash_wednesday,2,date ne 02-22 & 02-28+1 ne 03-01 & date ne 02-25,,,Friday after Ash Wednesday,gradual,Psalm 27:4; 103:10; 79:8–9
+ash_wednesday,2,date ne 02-22 & 02-28+1 ne 03-01 & date ne 02-25,,,Friday after Ash Wednesday,gospel,Matthew 5:43–48; 6:1–4
+ash_wednesday,3,date ne 02-22 & 02-28+1 eq 03-01 & date ne 02-24,,,Saturday after Ash Wednesday,introit,"Psalm 30:2, 11"
+ash_wednesday,3,date ne 02-22 & 02-28+1 eq 03-01 & date ne 02-24,,,Saturday after Ash Wednesday,epistle,Isaiah 58:9–14
+ash_wednesday,3,date ne 02-22 & 02-28+1 eq 03-01 & date ne 02-24,,,Saturday after Ash Wednesday,gradual,Psalm 27:4
+ash_wednesday,3,date ne 02-22 & 02-28+1 eq 03-01 & date ne 02-24,,,Saturday after Ash Wednesday,gospel,Mark 6:47–56
+ash_wednesday,3,date ne 02-22 & 02-28+1 ne 03-01 & date ne 02-25,,,Saturday after Ash Wednesday,introit,"Psalm 30:2, 11"
+ash_wednesday,3,date ne 02-22 & 02-28+1 ne 03-01 & date ne 02-25,,,Saturday after Ash Wednesday,epistle,Isaiah 58:9–14
+ash_wednesday,3,date ne 02-22 & 02-28+1 ne 03-01 & date ne 02-25,,,Saturday after Ash Wednesday,gradual,Psalm 27:4
+ash_wednesday,3,date ne 02-22 & 02-28+1 ne 03-01 & date ne 02-25,,,Saturday after Ash Wednesday,gospel,Mark 6:47–56
+lent:1,,,,,,introit,"Psalm 91:1, 15–16"
+lent:1,,,,,,epistle,2 Corinthians 6:1–10
+lent:1,,,,,,gradual,"Psalm 91:1–7, 11–16"
+lent:1,,,,,,gospel,Matthew 4:1–11
+lent:1,1,date ne 02-22 & 02-28+1 eq 03-01 & date ne 02-24,,,Monday after the First Sunday of Lent,introit,Psalm 123:1–2
+lent:1,1,date ne 02-22 & 02-28+1 eq 03-01 & date ne 02-24,,,Monday after the First Sunday of Lent,epistle,Ezekiel 34:11–16
+lent:1,1,date ne 02-22 & 02-28+1 eq 03-01 & date ne 02-24,,,Monday after the First Sunday of Lent,gradual,Psalm 84:9–10; 103:10; 79:8–9
+lent:1,1,date ne 02-22 & 02-28+1 eq 03-01 & date ne 02-24,,,Monday after the First Sunday of Lent,gospel,Matthew 25:31–46
+lent:1,1,date ne 02-22 & 02-28+1 ne 03-01 & date ne 02-25,,,Monday after the First Sunday of Lent,introit,Psalm 123:1–2
+lent:1,1,date ne 02-22 & 02-28+1 ne 03-01 & date ne 02-25,,,Monday after the First Sunday of Lent,epistle,Ezekiel 34:11–16
+lent:1,1,date ne 02-22 & 02-28+1 ne 03-01 & date ne 02-25,,,Monday after the First Sunday of Lent,gradual,Psalm 84:9–10; 103:10; 79:8–9
+lent:1,1,date ne 02-22 & 02-28+1 ne 03-01 & date ne 02-25,,,Monday after the First Sunday of Lent,gospel,Matthew 25:31–46
+lent:1,2,date ne 02-22 & 02-28+1 eq 03-01 & date ne 02-24,,,Tuesday after the First Sunday of Lent,introit,Psalm 90:1–2
+lent:1,2,date ne 02-22 & 02-28+1 eq 03-01 & date ne 02-24,,,Tuesday after the First Sunday of Lent,epistle,Isaiah 55:6–11
+lent:1,2,date ne 02-22 & 02-28+1 eq 03-01 & date ne 02-24,,,Tuesday after the First Sunday of Lent,gradual,Psalm 141:2
+lent:1,2,date ne 02-22 & 02-28+1 eq 03-01 & date ne 02-24,,,Tuesday after the First Sunday of Lent,gospel,Matthew 21:10–17
+lent:1,2,date ne 02-22 & 02-28+1 ne 03-01 & date ne 02-25,,,Tuesday after the First Sunday of Lent,introit,Psalm 90:1–2
+lent:1,2,date ne 02-22 & 02-28+1 ne 03-01 & date ne 02-25,,,Tuesday after the First Sunday of Lent,epistle,Isaiah 55:6–11
+lent:1,2,date ne 02-22 & 02-28+1 ne 03-01 & date ne 02-25,,,Tuesday after the First Sunday of Lent,gradual,Psalm 141:2
+lent:1,2,date ne 02-22 & 02-28+1 ne 03-01 & date ne 02-25,,,Tuesday after the First Sunday of Lent,gospel,Matthew 21:10–17
+lent:1,4,date ne 02-22 & 02-28+1 eq 03-01 & date ne 02-24,,,Thursday after the First Sunday of Lent,introit,"Psalm 96:1, 6"
+lent:1,4,date ne 02-22 & 02-28+1 eq 03-01 & date ne 02-24,,,Thursday after the First Sunday of Lent,epistle,Ezekiel 18:1–9
+lent:1,4,date ne 02-22 & 02-28+1 eq 03-01 & date ne 02-24,,,Thursday after the First Sunday of Lent,gradual,"Psalm 17:2, 8"
+lent:1,4,date ne 02-22 & 02-28+1 eq 03-01 & date ne 02-24,,,Thursday after the First Sunday of Lent,gospel,Matthew 15:21–28
+lent:1,4,date ne 02-22 & 02-28+1 ne 03-01 & date ne 02-25,,,Thursday after the First Sunday of Lent,introit,"Psalm 96:1, 6"
+lent:1,4,date ne 02-22 & 02-28+1 ne 03-01 & date ne 02-25,,,Thursday after the First Sunday of Lent,epistle,Ezekiel 18:1–9
+lent:1,4,date ne 02-22 & 02-28+1 ne 03-01 & date ne 02-25,,,Thursday after the First Sunday of Lent,gradual,"Psalm 17:2, 8"
+lent:1,4,date ne 02-22 & 02-28+1 ne 03-01 & date ne 02-25,,,Thursday after the First Sunday of Lent,gospel,Matthew 15:21–28
+lent:2,,,,,,introit,"Psalm 25:1–3, 6, 22"
+lent:2,,,,,,epistle,1 Thessalonians 4:1–7
+lent:2,,,,,,gradual,Psalm 25:17–18; 106:1–4
+lent:2,,,,,,gospel,Matthew 17:1–9
+lent:2,1,date ne 02-22 & date ne 03-19 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20,,,Monday after the Second Sunday of Lent,introit,"Psalm 26:1, 11–12"
+lent:2,1,date ne 02-22 & date ne 03-19 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20,,,Monday after the Second Sunday of Lent,epistle,Daniel 9:15–19
+lent:2,1,date ne 02-22 & date ne 03-19 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20,,,Monday after the Second Sunday of Lent,gradual,"Psalm 70:3, 6; 103:10; 79:8–9"
+lent:2,1,date ne 02-22 & date ne 03-19 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20,,,Monday after the Second Sunday of Lent,gospel,John 8:21–29
+lent:2,1,date ne 02-22 & date ne 03-19 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20,,,Monday after the Second Sunday of Lent,introit,"Psalm 26:1, 11–12"
+lent:2,1,date ne 02-22 & date ne 03-19 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20,,,Monday after the Second Sunday of Lent,epistle,Daniel 9:15–19
+lent:2,1,date ne 02-22 & date ne 03-19 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20,,,Monday after the Second Sunday of Lent,gradual,"Psalm 70:3, 6; 103:10; 79:8–9"
+lent:2,1,date ne 02-22 & date ne 03-19 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20,,,Monday after the Second Sunday of Lent,gospel,John 8:21–29
+lent:2,1,date ne 02-22 & date ne 03-19 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun,,,Monday after the Second Sunday of Lent,introit,"Psalm 26:1, 11–12"
+lent:2,1,date ne 02-22 & date ne 03-19 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun,,,Monday after the Second Sunday of Lent,epistle,Daniel 9:15–19
+lent:2,1,date ne 02-22 & date ne 03-19 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun,,,Monday after the Second Sunday of Lent,gradual,"Psalm 70:3, 6; 103:10; 79:8–9"
+lent:2,1,date ne 02-22 & date ne 03-19 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun,,,Monday after the Second Sunday of Lent,gospel,John 8:21–29
+lent:2,1,date ne 02-22 & date ne 03-19 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun,,,Monday after the Second Sunday of Lent,introit,"Psalm 26:1, 11–12"
+lent:2,1,date ne 02-22 & date ne 03-19 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun,,,Monday after the Second Sunday of Lent,epistle,Daniel 9:15–19
+lent:2,1,date ne 02-22 & date ne 03-19 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun,,,Monday after the Second Sunday of Lent,gradual,"Psalm 70:3, 6; 103:10; 79:8–9"
+lent:2,1,date ne 02-22 & date ne 03-19 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun,,,Monday after the Second Sunday of Lent,gospel,John 8:21–29
+lent:2,2,date ne 02-22 & date ne 03-19 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20,,,Tuesday after the Second Sunday of Lent,introit,"Psalm 27:1, 8–9"
+lent:2,2,date ne 02-22 & date ne 03-19 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20,,,Tuesday after the Second Sunday of Lent,epistle,1 Kings 17:8–16
+lent:2,2,date ne 02-22 & date ne 03-19 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20,,,Tuesday after the Second Sunday of Lent,gradual,"Psalm 55:17–19, 23"
+lent:2,2,date ne 02-22 & date ne 03-19 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20,,,Tuesday after the Second Sunday of Lent,gospel,Matthew 23:1–12
+lent:2,2,date ne 02-22 & date ne 03-19 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20,,,Tuesday after the Second Sunday of Lent,introit,"Psalm 27:1, 8–9"
+lent:2,2,date ne 02-22 & date ne 03-19 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20,,,Tuesday after the Second Sunday of Lent,epistle,1 Kings 17:8–16
+lent:2,2,date ne 02-22 & date ne 03-19 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20,,,Tuesday after the Second Sunday of Lent,gradual,"Psalm 55:17–19, 23"
+lent:2,2,date ne 02-22 & date ne 03-19 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20,,,Tuesday after the Second Sunday of Lent,gospel,Matthew 23:1–12
+lent:2,2,date ne 02-22 & date ne 03-19 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun,,,Tuesday after the Second Sunday of Lent,introit,"Psalm 27:1, 8–9"
+lent:2,2,date ne 02-22 & date ne 03-19 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun,,,Tuesday after the Second Sunday of Lent,epistle,1 Kings 17:8–16
+lent:2,2,date ne 02-22 & date ne 03-19 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun,,,Tuesday after the Second Sunday of Lent,gradual,"Psalm 55:17–19, 23"
+lent:2,2,date ne 02-22 & date ne 03-19 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun,,,Tuesday after the Second Sunday of Lent,gospel,Matthew 23:1–12
+lent:2,2,date ne 02-22 & date ne 03-19 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun,,,Tuesday after the Second Sunday of Lent,introit,"Psalm 27:1, 8–9"
+lent:2,2,date ne 02-22 & date ne 03-19 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun,,,Tuesday after the Second Sunday of Lent,epistle,1 Kings 17:8–16
+lent:2,2,date ne 02-22 & date ne 03-19 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun,,,Tuesday after the Second Sunday of Lent,gradual,"Psalm 55:17–19, 23"
+lent:2,2,date ne 02-22 & date ne 03-19 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun,,,Tuesday after the Second Sunday of Lent,gospel,Matthew 23:1–12
+lent:2,3,date ne 02-22 & date ne 03-19 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20,,,Wednesday after the Second Sunday of Lent,introit,"Psalm 38:2, 22–23"
+lent:2,3,date ne 02-22 & date ne 03-19 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20,,,Wednesday after the Second Sunday of Lent,epistle,"Esther 13:8–11, 15–17"
+lent:2,3,date ne 02-22 & date ne 03-19 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20,,,Wednesday after the Second Sunday of Lent,gradual,"Psalm 28:1, 9; 103:10; 79:8–9"
+lent:2,3,date ne 02-22 & date ne 03-19 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20,,,Wednesday after the Second Sunday of Lent,gospel,Matthew 20:17–28
+lent:2,3,date ne 02-22 & date ne 03-19 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20,,,Wednesday after the Second Sunday of Lent,introit,"Psalm 38:2, 22–23"
+lent:2,3,date ne 02-22 & date ne 03-19 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20,,,Wednesday after the Second Sunday of Lent,epistle,"Esther 13:8–11, 15–17"
+lent:2,3,date ne 02-22 & date ne 03-19 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20,,,Wednesday after the Second Sunday of Lent,gradual,"Psalm 28:1, 9; 103:10; 79:8–9"
+lent:2,3,date ne 02-22 & date ne 03-19 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20,,,Wednesday after the Second Sunday of Lent,gospel,Matthew 20:17–28
+lent:2,3,date ne 02-22 & date ne 03-19 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun,,,Wednesday after the Second Sunday of Lent,introit,"Psalm 38:2, 22–23"
+lent:2,3,date ne 02-22 & date ne 03-19 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun,,,Wednesday after the Second Sunday of Lent,epistle,"Esther 13:8–11, 15–17"
+lent:2,3,date ne 02-22 & date ne 03-19 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun,,,Wednesday after the Second Sunday of Lent,gradual,"Psalm 28:1, 9; 103:10; 79:8–9"
+lent:2,3,date ne 02-22 & date ne 03-19 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun,,,Wednesday after the Second Sunday of Lent,gospel,Matthew 20:17–28
+lent:2,3,date ne 02-22 & date ne 03-19 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun,,,Wednesday after the Second Sunday of Lent,introit,"Psalm 38:2, 22–23"
+lent:2,3,date ne 02-22 & date ne 03-19 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun,,,Wednesday after the Second Sunday of Lent,epistle,"Esther 13:8–11, 15–17"
+lent:2,3,date ne 02-22 & date ne 03-19 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun,,,Wednesday after the Second Sunday of Lent,gradual,"Psalm 28:1, 9; 103:10; 79:8–9"
+lent:2,3,date ne 02-22 & date ne 03-19 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun,,,Wednesday after the Second Sunday of Lent,gospel,Matthew 20:17–28
+lent:2,4,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20,,,Thursday after the Second Sunday of Lent,introit,Psalm 70:2–4
+lent:2,4,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20,,,Thursday after the Second Sunday of Lent,epistle,Jeremiah 17:5–10
+lent:2,4,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20,,,Thursday after the Second Sunday of Lent,gradual,Psalm 79:9–10
+lent:2,4,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20,,,Thursday after the Second Sunday of Lent,gospel,Luke 16:19–31
+lent:2,4,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20,,,Thursday after the Second Sunday of Lent,introit,Psalm 70:2–4
+lent:2,4,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20,,,Thursday after the Second Sunday of Lent,epistle,Jeremiah 17:5–10
+lent:2,4,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20,,,Thursday after the Second Sunday of Lent,gradual,Psalm 79:9–10
+lent:2,4,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20,,,Thursday after the Second Sunday of Lent,gospel,Luke 16:19–31
+lent:2,4,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun,,,Thursday after the Second Sunday of Lent,introit,Psalm 70:2–4
+lent:2,4,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun,,,Thursday after the Second Sunday of Lent,epistle,Jeremiah 17:5–10
+lent:2,4,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun,,,Thursday after the Second Sunday of Lent,gradual,Psalm 79:9–10
+lent:2,4,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun,,,Thursday after the Second Sunday of Lent,gospel,Luke 16:19–31
+lent:2,4,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun,,,Thursday after the Second Sunday of Lent,introit,Psalm 70:2–4
+lent:2,4,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun,,,Thursday after the Second Sunday of Lent,epistle,Jeremiah 17:5–10
+lent:2,4,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun,,,Thursday after the Second Sunday of Lent,gradual,Psalm 79:9–10
+lent:2,4,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun,,,Thursday after the Second Sunday of Lent,gospel,Luke 16:19–31
+lent:2,5,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20 & date ne 03-26,,,Friday after the Second Sunday of Lent,introit,"Psalm 17:1, 15"
+lent:2,5,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20 & date ne 03-26,,,Friday after the Second Sunday of Lent,epistle,Genesis 37:6–22
+lent:2,5,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20 & date ne 03-26,,,Friday after the Second Sunday of Lent,gradual,Psalm 120:1–2; 103:10; 79:8–9
+lent:2,5,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20 & date ne 03-26,,,Friday after the Second Sunday of Lent,gospel,Matthew 21:33–46
+lent:2,5,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20 & date ne 03-26,,,Friday after the Second Sunday of Lent,introit,"Psalm 17:1, 15"
+lent:2,5,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20 & date ne 03-26,,,Friday after the Second Sunday of Lent,epistle,Genesis 37:6–22
+lent:2,5,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20 & date ne 03-26,,,Friday after the Second Sunday of Lent,gradual,Psalm 120:1–2; 103:10; 79:8–9
+lent:2,5,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20 & date ne 03-26,,,Friday after the Second Sunday of Lent,gospel,Matthew 21:33–46
+lent:2,5,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Friday after the Second Sunday of Lent,introit,"Psalm 17:1, 15"
+lent:2,5,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Friday after the Second Sunday of Lent,epistle,Genesis 37:6–22
+lent:2,5,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Friday after the Second Sunday of Lent,gradual,Psalm 120:1–2; 103:10; 79:8–9
+lent:2,5,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Friday after the Second Sunday of Lent,gospel,Matthew 21:33–46
+lent:2,5,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Friday after the Second Sunday of Lent,introit,"Psalm 17:1, 15"
+lent:2,5,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Friday after the Second Sunday of Lent,epistle,Genesis 37:6–22
+lent:2,5,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Friday after the Second Sunday of Lent,gradual,Psalm 120:1–2; 103:10; 79:8–9
+lent:2,5,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Friday after the Second Sunday of Lent,gospel,Matthew 21:33–46
+lent:2,5,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Friday after the Second Sunday of Lent,introit,"Psalm 17:1, 15"
+lent:2,5,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Friday after the Second Sunday of Lent,epistle,Genesis 37:6–22
+lent:2,5,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Friday after the Second Sunday of Lent,gradual,Psalm 120:1–2; 103:10; 79:8–9
+lent:2,5,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Friday after the Second Sunday of Lent,gospel,Matthew 21:33–46
+lent:2,5,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Friday after the Second Sunday of Lent,introit,"Psalm 17:1, 15"
+lent:2,5,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Friday after the Second Sunday of Lent,epistle,Genesis 37:6–22
+lent:2,5,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Friday after the Second Sunday of Lent,gradual,Psalm 120:1–2; 103:10; 79:8–9
+lent:2,5,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Friday after the Second Sunday of Lent,gospel,Matthew 21:33–46
+lent:2,5,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Friday after the Second Sunday of Lent,introit,"Psalm 17:1, 15"
+lent:2,5,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Friday after the Second Sunday of Lent,epistle,Genesis 37:6–22
+lent:2,5,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Friday after the Second Sunday of Lent,gradual,Psalm 120:1–2; 103:10; 79:8–9
+lent:2,5,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Friday after the Second Sunday of Lent,gospel,Matthew 21:33–46
+lent:2,5,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Friday after the Second Sunday of Lent,introit,"Psalm 17:1, 15"
+lent:2,5,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Friday after the Second Sunday of Lent,epistle,Genesis 37:6–22
+lent:2,5,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Friday after the Second Sunday of Lent,gradual,Psalm 120:1–2; 103:10; 79:8–9
+lent:2,5,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Friday after the Second Sunday of Lent,gospel,Matthew 21:33–46
+lent:2,6,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20 & date ne 03-26,,,Saturday after the Second Sunday of Lent,introit,"Psalm 19:2, 8"
+lent:2,6,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20 & date ne 03-26,,,Saturday after the Second Sunday of Lent,epistle,Genesis 27:6–40
+lent:2,6,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20 & date ne 03-26,,,Saturday after the Second Sunday of Lent,gradual,Psalm 92:2–3
+lent:2,6,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20 & date ne 03-26,,,Saturday after the Second Sunday of Lent,gospel,Luke 15:11–32
+lent:2,6,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20 & date ne 03-26,,,Saturday after the Second Sunday of Lent,introit,"Psalm 19:2, 8"
+lent:2,6,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20 & date ne 03-26,,,Saturday after the Second Sunday of Lent,epistle,Genesis 27:6–40
+lent:2,6,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20 & date ne 03-26,,,Saturday after the Second Sunday of Lent,gradual,Psalm 92:2–3
+lent:2,6,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20 & date ne 03-26,,,Saturday after the Second Sunday of Lent,gospel,Luke 15:11–32
+lent:2,6,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Saturday after the Second Sunday of Lent,introit,"Psalm 19:2, 8"
+lent:2,6,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Saturday after the Second Sunday of Lent,epistle,Genesis 27:6–40
+lent:2,6,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Saturday after the Second Sunday of Lent,gradual,Psalm 92:2–3
+lent:2,6,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Saturday after the Second Sunday of Lent,gospel,Luke 15:11–32
+lent:2,6,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Saturday after the Second Sunday of Lent,introit,"Psalm 19:2, 8"
+lent:2,6,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Saturday after the Second Sunday of Lent,epistle,Genesis 27:6–40
+lent:2,6,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Saturday after the Second Sunday of Lent,gradual,Psalm 92:2–3
+lent:2,6,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Saturday after the Second Sunday of Lent,gospel,Luke 15:11–32
+lent:2,6,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Saturday after the Second Sunday of Lent,introit,"Psalm 19:2, 8"
+lent:2,6,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Saturday after the Second Sunday of Lent,epistle,Genesis 27:6–40
+lent:2,6,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Saturday after the Second Sunday of Lent,gradual,Psalm 92:2–3
+lent:2,6,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Saturday after the Second Sunday of Lent,gospel,Luke 15:11–32
+lent:2,6,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Saturday after the Second Sunday of Lent,introit,"Psalm 19:2, 8"
+lent:2,6,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Saturday after the Second Sunday of Lent,epistle,Genesis 27:6–40
+lent:2,6,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Saturday after the Second Sunday of Lent,gradual,Psalm 92:2–3
+lent:2,6,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Saturday after the Second Sunday of Lent,gospel,Luke 15:11–32
+lent:2,6,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Saturday after the Second Sunday of Lent,introit,"Psalm 19:2, 8"
+lent:2,6,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Saturday after the Second Sunday of Lent,epistle,Genesis 27:6–40
+lent:2,6,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Saturday after the Second Sunday of Lent,gradual,Psalm 92:2–3
+lent:2,6,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Saturday after the Second Sunday of Lent,gospel,Luke 15:11–32
+lent:2,6,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Saturday after the Second Sunday of Lent,introit,"Psalm 19:2, 8"
+lent:2,6,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Saturday after the Second Sunday of Lent,epistle,Genesis 27:6–40
+lent:2,6,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Saturday after the Second Sunday of Lent,gradual,Psalm 92:2–3
+lent:2,6,date ne 02-22 & date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Saturday after the Second Sunday of Lent,gospel,Luke 15:11–32
+lent:3,,,,,,introit,"Psalm 25:1–2, 15–16"
+lent:3,,,,,,epistle,Ephesians 5:1–9
+lent:3,,,,,,gradual,"Psalm 9:4, 20; 123:1–3"
+lent:3,,,,,,gospel,Luke 11:14–28
+lent:3,1,date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20 & date ne 03-26,,,Monday after the Third Sunday of Lent,introit,"Psalm 56:2, 5"
+lent:3,1,date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20 & date ne 03-26,,,Monday after the Third Sunday of Lent,epistle,2 Kings 5:1–15
+lent:3,1,date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20 & date ne 03-26,,,Monday after the Third Sunday of Lent,gradual,"Psalm 56:2, 9; 103:10; 79:8–9"
+lent:3,1,date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20 & date ne 03-26,,,Monday after the Third Sunday of Lent,gospel,Luke 4:23–30
+lent:3,1,date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20 & date ne 03-26,,,Monday after the Third Sunday of Lent,introit,"Psalm 56:2, 5"
+lent:3,1,date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20 & date ne 03-26,,,Monday after the Third Sunday of Lent,epistle,2 Kings 5:1–15
+lent:3,1,date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20 & date ne 03-26,,,Monday after the Third Sunday of Lent,gradual,"Psalm 56:2, 9; 103:10; 79:8–9"
+lent:3,1,date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20 & date ne 03-26,,,Monday after the Third Sunday of Lent,gospel,Luke 4:23–30
+lent:3,1,date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Monday after the Third Sunday of Lent,introit,"Psalm 56:2, 5"
+lent:3,1,date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Monday after the Third Sunday of Lent,epistle,2 Kings 5:1–15
+lent:3,1,date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Monday after the Third Sunday of Lent,gradual,"Psalm 56:2, 9; 103:10; 79:8–9"
+lent:3,1,date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Monday after the Third Sunday of Lent,gospel,Luke 4:23–30
+lent:3,1,date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Monday after the Third Sunday of Lent,introit,"Psalm 56:2, 5"
+lent:3,1,date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Monday after the Third Sunday of Lent,epistle,2 Kings 5:1–15
+lent:3,1,date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Monday after the Third Sunday of Lent,gradual,"Psalm 56:2, 9; 103:10; 79:8–9"
+lent:3,1,date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Monday after the Third Sunday of Lent,gospel,Luke 4:23–30
+lent:3,1,date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Monday after the Third Sunday of Lent,introit,"Psalm 56:2, 5"
+lent:3,1,date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Monday after the Third Sunday of Lent,epistle,2 Kings 5:1–15
+lent:3,1,date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Monday after the Third Sunday of Lent,gradual,"Psalm 56:2, 9; 103:10; 79:8–9"
+lent:3,1,date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Monday after the Third Sunday of Lent,gospel,Luke 4:23–30
+lent:3,1,date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Monday after the Third Sunday of Lent,introit,"Psalm 56:2, 5"
+lent:3,1,date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Monday after the Third Sunday of Lent,epistle,2 Kings 5:1–15
+lent:3,1,date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Monday after the Third Sunday of Lent,gradual,"Psalm 56:2, 9; 103:10; 79:8–9"
+lent:3,1,date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Monday after the Third Sunday of Lent,gospel,Luke 4:23–30
+lent:3,1,date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Monday after the Third Sunday of Lent,introit,"Psalm 56:2, 5"
+lent:3,1,date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Monday after the Third Sunday of Lent,epistle,2 Kings 5:1–15
+lent:3,1,date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Monday after the Third Sunday of Lent,gradual,"Psalm 56:2, 9; 103:10; 79:8–9"
+lent:3,1,date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Monday after the Third Sunday of Lent,gospel,Luke 4:23–30
+lent:3,1,date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Monday after the Third Sunday of Lent,introit,"Psalm 56:2, 5"
+lent:3,1,date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Monday after the Third Sunday of Lent,epistle,2 Kings 5:1–15
+lent:3,1,date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Monday after the Third Sunday of Lent,gradual,"Psalm 56:2, 9; 103:10; 79:8–9"
+lent:3,1,date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Monday after the Third Sunday of Lent,gospel,Luke 4:23–30
+lent:3,2,date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20 & date ne 03-26,,,Tuesday after the Third Sunday of Lent,introit,"Psalm 17:1, 6, 8"
+lent:3,2,date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20 & date ne 03-26,,,Tuesday after the Third Sunday of Lent,epistle,2 Kings 4:1–7
+lent:3,2,date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20 & date ne 03-26,,,Tuesday after the Third Sunday of Lent,gradual,Psalm 19:13–14
+lent:3,2,date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20 & date ne 03-26,,,Tuesday after the Third Sunday of Lent,gospel,Matthew 18:15–22
+lent:3,2,date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20 & date ne 03-26,,,Tuesday after the Third Sunday of Lent,introit,"Psalm 17:1, 6, 8"
+lent:3,2,date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20 & date ne 03-26,,,Tuesday after the Third Sunday of Lent,epistle,2 Kings 4:1–7
+lent:3,2,date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20 & date ne 03-26,,,Tuesday after the Third Sunday of Lent,gradual,Psalm 19:13–14
+lent:3,2,date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20 & date ne 03-26,,,Tuesday after the Third Sunday of Lent,gospel,Matthew 18:15–22
+lent:3,2,date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Tuesday after the Third Sunday of Lent,introit,"Psalm 17:1, 6, 8"
+lent:3,2,date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Tuesday after the Third Sunday of Lent,epistle,2 Kings 4:1–7
+lent:3,2,date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Tuesday after the Third Sunday of Lent,gradual,Psalm 19:13–14
+lent:3,2,date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Tuesday after the Third Sunday of Lent,gospel,Matthew 18:15–22
+lent:3,2,date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Tuesday after the Third Sunday of Lent,introit,"Psalm 17:1, 6, 8"
+lent:3,2,date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Tuesday after the Third Sunday of Lent,epistle,2 Kings 4:1–7
+lent:3,2,date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Tuesday after the Third Sunday of Lent,gradual,Psalm 19:13–14
+lent:3,2,date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Tuesday after the Third Sunday of Lent,gospel,Matthew 18:15–22
+lent:3,2,date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Tuesday after the Third Sunday of Lent,introit,"Psalm 17:1, 6, 8"
+lent:3,2,date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Tuesday after the Third Sunday of Lent,epistle,2 Kings 4:1–7
+lent:3,2,date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Tuesday after the Third Sunday of Lent,gradual,Psalm 19:13–14
+lent:3,2,date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Tuesday after the Third Sunday of Lent,gospel,Matthew 18:15–22
+lent:3,2,date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Tuesday after the Third Sunday of Lent,introit,"Psalm 17:1, 6, 8"
+lent:3,2,date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Tuesday after the Third Sunday of Lent,epistle,2 Kings 4:1–7
+lent:3,2,date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Tuesday after the Third Sunday of Lent,gradual,Psalm 19:13–14
+lent:3,2,date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Tuesday after the Third Sunday of Lent,gospel,Matthew 18:15–22
+lent:3,2,date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Tuesday after the Third Sunday of Lent,introit,"Psalm 17:1, 6, 8"
+lent:3,2,date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Tuesday after the Third Sunday of Lent,epistle,2 Kings 4:1–7
+lent:3,2,date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Tuesday after the Third Sunday of Lent,gradual,Psalm 19:13–14
+lent:3,2,date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Tuesday after the Third Sunday of Lent,gospel,Matthew 18:15–22
+lent:3,2,date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Tuesday after the Third Sunday of Lent,introit,"Psalm 17:1, 6, 8"
+lent:3,2,date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Tuesday after the Third Sunday of Lent,epistle,2 Kings 4:1–7
+lent:3,2,date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Tuesday after the Third Sunday of Lent,gradual,Psalm 19:13–14
+lent:3,2,date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Tuesday after the Third Sunday of Lent,gospel,Matthew 18:15–22
+lent:3,3,date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20 & date ne 03-26,,,Wednesday after the Third Sunday of Lent,introit,"Psalm 31:2, 7–8"
+lent:3,3,date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20 & date ne 03-26,,,Wednesday after the Third Sunday of Lent,epistle,Exodus 20:12–24
+lent:3,3,date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20 & date ne 03-26,,,Wednesday after the Third Sunday of Lent,gradual,Psalm 6:3–4; 103:10; 79:8–9
+lent:3,3,date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20 & date ne 03-26,,,Wednesday after the Third Sunday of Lent,gospel,Matthew 15:1–20
+lent:3,3,date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20 & date ne 03-26,,,Wednesday after the Third Sunday of Lent,introit,"Psalm 31:2, 7–8"
+lent:3,3,date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20 & date ne 03-26,,,Wednesday after the Third Sunday of Lent,epistle,Exodus 20:12–24
+lent:3,3,date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20 & date ne 03-26,,,Wednesday after the Third Sunday of Lent,gradual,Psalm 6:3–4; 103:10; 79:8–9
+lent:3,3,date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20 & date ne 03-26,,,Wednesday after the Third Sunday of Lent,gospel,Matthew 15:1–20
+lent:3,3,date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Wednesday after the Third Sunday of Lent,introit,"Psalm 31:2, 7–8"
+lent:3,3,date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Wednesday after the Third Sunday of Lent,epistle,Exodus 20:12–24
+lent:3,3,date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Wednesday after the Third Sunday of Lent,gradual,Psalm 6:3–4; 103:10; 79:8–9
+lent:3,3,date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Wednesday after the Third Sunday of Lent,gospel,Matthew 15:1–20
+lent:3,3,date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Wednesday after the Third Sunday of Lent,introit,"Psalm 31:2, 7–8"
+lent:3,3,date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Wednesday after the Third Sunday of Lent,epistle,Exodus 20:12–24
+lent:3,3,date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Wednesday after the Third Sunday of Lent,gradual,Psalm 6:3–4; 103:10; 79:8–9
+lent:3,3,date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Wednesday after the Third Sunday of Lent,gospel,Matthew 15:1–20
+lent:3,3,date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Wednesday after the Third Sunday of Lent,introit,"Psalm 31:2, 7–8"
+lent:3,3,date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Wednesday after the Third Sunday of Lent,epistle,Exodus 20:12–24
+lent:3,3,date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Wednesday after the Third Sunday of Lent,gradual,Psalm 6:3–4; 103:10; 79:8–9
+lent:3,3,date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Wednesday after the Third Sunday of Lent,gospel,Matthew 15:1–20
+lent:3,3,date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Wednesday after the Third Sunday of Lent,introit,"Psalm 31:2, 7–8"
+lent:3,3,date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Wednesday after the Third Sunday of Lent,epistle,Exodus 20:12–24
+lent:3,3,date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Wednesday after the Third Sunday of Lent,gradual,Psalm 6:3–4; 103:10; 79:8–9
+lent:3,3,date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Wednesday after the Third Sunday of Lent,gospel,Matthew 15:1–20
+lent:3,3,date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Wednesday after the Third Sunday of Lent,introit,"Psalm 31:2, 7–8"
+lent:3,3,date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Wednesday after the Third Sunday of Lent,epistle,Exodus 20:12–24
+lent:3,3,date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Wednesday after the Third Sunday of Lent,gradual,Psalm 6:3–4; 103:10; 79:8–9
+lent:3,3,date ne 03-19 & date ne 03-25 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Wednesday after the Third Sunday of Lent,gospel,Matthew 15:1–20
+lent:3,3,date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Wednesday after the Third Sunday of Lent,introit,"Psalm 31:2, 7–8"
+lent:3,3,date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Wednesday after the Third Sunday of Lent,epistle,Exodus 20:12–24
+lent:3,3,date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Wednesday after the Third Sunday of Lent,gradual,Psalm 6:3–4; 103:10; 79:8–9
+lent:3,3,date ne 03-19 & date ne 03-25 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Wednesday after the Third Sunday of Lent,gospel,Matthew 15:1–20
+lent:3,4,date ne 03-19 & date ne 03-25 & date ne 03-20 & date ne 03-26,,,Thursday after the Third Sunday of Lent,introit,Psalm 78:1
+lent:3,4,date ne 03-19 & date ne 03-25 & date ne 03-20 & date ne 03-26,,,Thursday after the Third Sunday of Lent,epistle,Jeremiah 7:1–7
+lent:3,4,date ne 03-19 & date ne 03-25 & date ne 03-20 & date ne 03-26,,,Thursday after the Third Sunday of Lent,gradual,Psalm 145:15–16
+lent:3,4,date ne 03-19 & date ne 03-25 & date ne 03-20 & date ne 03-26,,,Thursday after the Third Sunday of Lent,gospel,Luke 4:38–44
+lent:3,4,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Thursday after the Third Sunday of Lent,introit,Psalm 78:1
+lent:3,4,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Thursday after the Third Sunday of Lent,epistle,Jeremiah 7:1–7
+lent:3,4,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Thursday after the Third Sunday of Lent,gradual,Psalm 145:15–16
+lent:3,4,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Thursday after the Third Sunday of Lent,gospel,Luke 4:38–44
+lent:3,4,date ne 03-19 & date ne 03-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Thursday after the Third Sunday of Lent,introit,Psalm 78:1
+lent:3,4,date ne 03-19 & date ne 03-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Thursday after the Third Sunday of Lent,epistle,Jeremiah 7:1–7
+lent:3,4,date ne 03-19 & date ne 03-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Thursday after the Third Sunday of Lent,gradual,Psalm 145:15–16
+lent:3,4,date ne 03-19 & date ne 03-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Thursday after the Third Sunday of Lent,gospel,Luke 4:38–44
+lent:3,4,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Thursday after the Third Sunday of Lent,introit,Psalm 78:1
+lent:3,4,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Thursday after the Third Sunday of Lent,epistle,Jeremiah 7:1–7
+lent:3,4,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Thursday after the Third Sunday of Lent,gradual,Psalm 145:15–16
+lent:3,4,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Thursday after the Third Sunday of Lent,gospel,Luke 4:38–44
+lent:3,5,date ne 03-19 & date ne 03-25 & date ne 03-20 & date ne 03-26,,,Friday after the Third Sunday of Lent,introit,"Psalm 86:1, 17"
+lent:3,5,date ne 03-19 & date ne 03-25 & date ne 03-20 & date ne 03-26,,,Friday after the Third Sunday of Lent,epistle,"Numbers 20:1, 3, 6–13"
+lent:3,5,date ne 03-19 & date ne 03-25 & date ne 03-20 & date ne 03-26,,,Friday after the Third Sunday of Lent,gradual,"Psalm 28:1, 7; 103:10; 79:8–9"
+lent:3,5,date ne 03-19 & date ne 03-25 & date ne 03-20 & date ne 03-26,,,Friday after the Third Sunday of Lent,gospel,John 4:5–42
+lent:3,5,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Friday after the Third Sunday of Lent,introit,"Psalm 86:1, 17"
+lent:3,5,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Friday after the Third Sunday of Lent,epistle,"Numbers 20:1, 3, 6–13"
+lent:3,5,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Friday after the Third Sunday of Lent,gradual,"Psalm 28:1, 7; 103:10; 79:8–9"
+lent:3,5,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Friday after the Third Sunday of Lent,gospel,John 4:5–42
+lent:3,5,date ne 03-19 & date ne 03-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Friday after the Third Sunday of Lent,introit,"Psalm 86:1, 17"
+lent:3,5,date ne 03-19 & date ne 03-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Friday after the Third Sunday of Lent,epistle,"Numbers 20:1, 3, 6–13"
+lent:3,5,date ne 03-19 & date ne 03-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Friday after the Third Sunday of Lent,gradual,"Psalm 28:1, 7; 103:10; 79:8–9"
+lent:3,5,date ne 03-19 & date ne 03-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Friday after the Third Sunday of Lent,gospel,John 4:5–42
+lent:3,5,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Friday after the Third Sunday of Lent,introit,"Psalm 86:1, 17"
+lent:3,5,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Friday after the Third Sunday of Lent,epistle,"Numbers 20:1, 3, 6–13"
+lent:3,5,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Friday after the Third Sunday of Lent,gradual,"Psalm 28:1, 7; 103:10; 79:8–9"
+lent:3,5,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Friday after the Third Sunday of Lent,gospel,John 4:5–42
+lent:3,6,date ne 03-19 & date ne 03-25 & date ne 03-20 & date ne 03-26,,,Saturday after the Third Sunday of Lent,introit,Psalm 5:2–4
+lent:3,6,date ne 03-19 & date ne 03-25 & date ne 03-20 & date ne 03-26,,,Saturday after the Third Sunday of Lent,epistle,"Daniel 13:1–9, 15–17, 19–30, 33–62"
+lent:3,6,date ne 03-19 & date ne 03-25 & date ne 03-20 & date ne 03-26,,,Saturday after the Third Sunday of Lent,gradual,Psalm 23:4
+lent:3,6,date ne 03-19 & date ne 03-25 & date ne 03-20 & date ne 03-26,,,Saturday after the Third Sunday of Lent,gospel,John 8:1–11
+lent:3,6,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Saturday after the Third Sunday of Lent,introit,Psalm 5:2–4
+lent:3,6,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Saturday after the Third Sunday of Lent,epistle,"Daniel 13:1–9, 15–17, 19–30, 33–62"
+lent:3,6,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Saturday after the Third Sunday of Lent,gradual,Psalm 23:4
+lent:3,6,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Saturday after the Third Sunday of Lent,gospel,John 8:1–11
+lent:3,6,date ne 03-19 & date ne 03-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Saturday after the Third Sunday of Lent,introit,Psalm 5:2–4
+lent:3,6,date ne 03-19 & date ne 03-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Saturday after the Third Sunday of Lent,epistle,"Daniel 13:1–9, 15–17, 19–30, 33–62"
+lent:3,6,date ne 03-19 & date ne 03-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Saturday after the Third Sunday of Lent,gradual,Psalm 23:4
+lent:3,6,date ne 03-19 & date ne 03-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Saturday after the Third Sunday of Lent,gospel,John 8:1–11
+lent:3,6,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Saturday after the Third Sunday of Lent,introit,Psalm 5:2–4
+lent:3,6,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Saturday after the Third Sunday of Lent,epistle,"Daniel 13:1–9, 15–17, 19–30, 33–62"
+lent:3,6,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Saturday after the Third Sunday of Lent,gradual,Psalm 23:4
+lent:3,6,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Saturday after the Third Sunday of Lent,gospel,John 8:1–11
+lent:4,,,,,,introit,Isaiah 66:10–11; Psalm 122:1
+lent:4,,,,,,epistle,Galatians 4:22–31
+lent:4,,,,,,gradual,"Psalm 122:1, 7; 125:1–2"
+lent:4,,,,,,gospel,John 6:1–15
+lent:4,1,date ne 03-19 & date ne 03-25 & date ne 03-20 & date ne 03-26,,,Monday after the Fourth Sunday of Lent,introit,Psalm 54:3–5
+lent:4,1,date ne 03-19 & date ne 03-25 & date ne 03-20 & date ne 03-26,,,Monday after the Fourth Sunday of Lent,epistle,1 Kings 3:16–28
+lent:4,1,date ne 03-19 & date ne 03-25 & date ne 03-20 & date ne 03-26,,,Monday after the Fourth Sunday of Lent,gradual,Psalm 31:3; 71:1; 103:10; 79:8–9
+lent:4,1,date ne 03-19 & date ne 03-25 & date ne 03-20 & date ne 03-26,,,Monday after the Fourth Sunday of Lent,gospel,John 2:13–25
+lent:4,1,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Monday after the Fourth Sunday of Lent,introit,Psalm 54:3–5
+lent:4,1,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Monday after the Fourth Sunday of Lent,epistle,1 Kings 3:16–28
+lent:4,1,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Monday after the Fourth Sunday of Lent,gradual,Psalm 31:3; 71:1; 103:10; 79:8–9
+lent:4,1,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Monday after the Fourth Sunday of Lent,gospel,John 2:13–25
+lent:4,1,date ne 03-19 & date ne 03-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Monday after the Fourth Sunday of Lent,introit,Psalm 54:3–5
+lent:4,1,date ne 03-19 & date ne 03-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Monday after the Fourth Sunday of Lent,epistle,1 Kings 3:16–28
+lent:4,1,date ne 03-19 & date ne 03-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Monday after the Fourth Sunday of Lent,gradual,Psalm 31:3; 71:1; 103:10; 79:8–9
+lent:4,1,date ne 03-19 & date ne 03-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Monday after the Fourth Sunday of Lent,gospel,John 2:13–25
+lent:4,1,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Monday after the Fourth Sunday of Lent,introit,Psalm 54:3–5
+lent:4,1,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Monday after the Fourth Sunday of Lent,epistle,1 Kings 3:16–28
+lent:4,1,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Monday after the Fourth Sunday of Lent,gradual,Psalm 31:3; 71:1; 103:10; 79:8–9
+lent:4,1,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Monday after the Fourth Sunday of Lent,gospel,John 2:13–25
+lent:4,2,date ne 03-19 & date ne 03-25 & date ne 03-20 & date ne 03-26,,,Tuesday after the Fourth Sunday of Lent,introit,Psalm 55:2–4
+lent:4,2,date ne 03-19 & date ne 03-25 & date ne 03-20 & date ne 03-26,,,Tuesday after the Fourth Sunday of Lent,epistle,Exodus 32:7–14
+lent:4,2,date ne 03-19 & date ne 03-25 & date ne 03-20 & date ne 03-26,,,Tuesday after the Fourth Sunday of Lent,gradual,"Psalm 44:2, 26"
+lent:4,2,date ne 03-19 & date ne 03-25 & date ne 03-20 & date ne 03-26,,,Tuesday after the Fourth Sunday of Lent,gospel,John 7:14–31
+lent:4,2,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Tuesday after the Fourth Sunday of Lent,introit,Psalm 55:2–4
+lent:4,2,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Tuesday after the Fourth Sunday of Lent,epistle,Exodus 32:7–14
+lent:4,2,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Tuesday after the Fourth Sunday of Lent,gradual,"Psalm 44:2, 26"
+lent:4,2,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Tuesday after the Fourth Sunday of Lent,gospel,John 7:14–31
+lent:4,2,date ne 03-19 & date ne 03-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Tuesday after the Fourth Sunday of Lent,introit,Psalm 55:2–4
+lent:4,2,date ne 03-19 & date ne 03-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Tuesday after the Fourth Sunday of Lent,epistle,Exodus 32:7–14
+lent:4,2,date ne 03-19 & date ne 03-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Tuesday after the Fourth Sunday of Lent,gradual,"Psalm 44:2, 26"
+lent:4,2,date ne 03-19 & date ne 03-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Tuesday after the Fourth Sunday of Lent,gospel,John 7:14–31
+lent:4,2,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Tuesday after the Fourth Sunday of Lent,introit,Psalm 55:2–4
+lent:4,2,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Tuesday after the Fourth Sunday of Lent,epistle,Exodus 32:7–14
+lent:4,2,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Tuesday after the Fourth Sunday of Lent,gradual,"Psalm 44:2, 26"
+lent:4,2,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Tuesday after the Fourth Sunday of Lent,gospel,John 7:14–31
+lent:4,3,date ne 03-19 & date ne 03-25 & date ne 03-20 & date ne 03-26,,,Wednesday after the Fourth Sunday of Lent,introit,Ezekiel 36:23–26; Psalm 34:2
+lent:4,3,date ne 03-19 & date ne 03-25 & date ne 03-20 & date ne 03-26,,,Wednesday after the Fourth Sunday of Lent,lesson,Ezekiel 36:23–28
+lent:4,3,date ne 03-19 & date ne 03-25 & date ne 03-20 & date ne 03-26,,,Wednesday after the Fourth Sunday of Lent,epistle,Isaiah 1:16–19
+lent:4,3,date ne 03-19 & date ne 03-25 & date ne 03-20 & date ne 03-26,,,Wednesday after the Fourth Sunday of Lent,gradual,"Psalm 33:6, 12; 103:10; 79:8–9"
+lent:4,3,date ne 03-19 & date ne 03-25 & date ne 03-20 & date ne 03-26,,,Wednesday after the Fourth Sunday of Lent,gospel,John 9:1–38
+lent:4,3,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Wednesday after the Fourth Sunday of Lent,introit,Ezekiel 36:23–26; Psalm 34:2
+lent:4,3,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Wednesday after the Fourth Sunday of Lent,lesson,Ezekiel 36:23–28
+lent:4,3,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Wednesday after the Fourth Sunday of Lent,epistle,Isaiah 1:16–19
+lent:4,3,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Wednesday after the Fourth Sunday of Lent,gradual,"Psalm 33:6, 12; 103:10; 79:8–9"
+lent:4,3,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Wednesday after the Fourth Sunday of Lent,gospel,John 9:1–38
+lent:4,3,date ne 03-19 & date ne 03-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Wednesday after the Fourth Sunday of Lent,introit,Ezekiel 36:23–26; Psalm 34:2
+lent:4,3,date ne 03-19 & date ne 03-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Wednesday after the Fourth Sunday of Lent,lesson,Ezekiel 36:23–28
+lent:4,3,date ne 03-19 & date ne 03-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Wednesday after the Fourth Sunday of Lent,epistle,Isaiah 1:16–19
+lent:4,3,date ne 03-19 & date ne 03-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Wednesday after the Fourth Sunday of Lent,gradual,"Psalm 33:6, 12; 103:10; 79:8–9"
+lent:4,3,date ne 03-19 & date ne 03-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Wednesday after the Fourth Sunday of Lent,gospel,John 9:1–38
+lent:4,3,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Wednesday after the Fourth Sunday of Lent,introit,Ezekiel 36:23–26; Psalm 34:2
+lent:4,3,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Wednesday after the Fourth Sunday of Lent,lesson,Ezekiel 36:23–28
+lent:4,3,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Wednesday after the Fourth Sunday of Lent,epistle,Isaiah 1:16–19
+lent:4,3,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Wednesday after the Fourth Sunday of Lent,gradual,"Psalm 33:6, 12; 103:10; 79:8–9"
+lent:4,3,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Wednesday after the Fourth Sunday of Lent,gospel,John 9:1–38
+lent:4,4,date ne 03-19 & date ne 03-25 & date ne 03-20 & date ne 03-26,,,Thursday after the Fourth Sunday of Lent,introit,"Psalm 105:1, 3–4"
+lent:4,4,date ne 03-19 & date ne 03-25 & date ne 03-20 & date ne 03-26,,,Thursday after the Fourth Sunday of Lent,epistle,2 Kings 4:25–38
+lent:4,4,date ne 03-19 & date ne 03-25 & date ne 03-20 & date ne 03-26,,,Thursday after the Fourth Sunday of Lent,gradual,"Psalm 74:19–20, 22"
+lent:4,4,date ne 03-19 & date ne 03-25 & date ne 03-20 & date ne 03-26,,,Thursday after the Fourth Sunday of Lent,gospel,Luke 7:11–16
+lent:4,4,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Thursday after the Fourth Sunday of Lent,introit,"Psalm 105:1, 3–4"
+lent:4,4,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Thursday after the Fourth Sunday of Lent,epistle,2 Kings 4:25–38
+lent:4,4,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Thursday after the Fourth Sunday of Lent,gradual,"Psalm 74:19–20, 22"
+lent:4,4,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Thursday after the Fourth Sunday of Lent,gospel,Luke 7:11–16
+lent:4,4,date ne 03-19 & date ne 03-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Thursday after the Fourth Sunday of Lent,introit,"Psalm 105:1, 3–4"
+lent:4,4,date ne 03-19 & date ne 03-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Thursday after the Fourth Sunday of Lent,epistle,2 Kings 4:25–38
+lent:4,4,date ne 03-19 & date ne 03-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Thursday after the Fourth Sunday of Lent,gradual,"Psalm 74:19–20, 22"
+lent:4,4,date ne 03-19 & date ne 03-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Thursday after the Fourth Sunday of Lent,gospel,Luke 7:11–16
+lent:4,4,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Thursday after the Fourth Sunday of Lent,introit,"Psalm 105:1, 3–4"
+lent:4,4,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Thursday after the Fourth Sunday of Lent,epistle,2 Kings 4:25–38
+lent:4,4,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Thursday after the Fourth Sunday of Lent,gradual,"Psalm 74:19–20, 22"
+lent:4,4,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Thursday after the Fourth Sunday of Lent,gospel,Luke 7:11–16
+lent:4,5,date ne 03-19 & date ne 03-25 & date ne 03-20 & date ne 03-26,,,Friday after the Fourth Sunday of Lent,introit,"Psalm 19:2, 15"
+lent:4,5,date ne 03-19 & date ne 03-25 & date ne 03-20 & date ne 03-26,,,Friday after the Fourth Sunday of Lent,epistle,1 Kings 17:17–24
+lent:4,5,date ne 03-19 & date ne 03-25 & date ne 03-20 & date ne 03-26,,,Friday after the Fourth Sunday of Lent,gradual,Psalm 118:8–9; 103:10; 79:8–9
+lent:4,5,date ne 03-19 & date ne 03-25 & date ne 03-20 & date ne 03-26,,,Friday after the Fourth Sunday of Lent,gospel,John 11:1–45
+lent:4,5,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Friday after the Fourth Sunday of Lent,introit,"Psalm 19:2, 15"
+lent:4,5,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Friday after the Fourth Sunday of Lent,epistle,1 Kings 17:17–24
+lent:4,5,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Friday after the Fourth Sunday of Lent,gradual,Psalm 118:8–9; 103:10; 79:8–9
+lent:4,5,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Friday after the Fourth Sunday of Lent,gospel,John 11:1–45
+lent:4,5,date ne 03-19 & date ne 03-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Friday after the Fourth Sunday of Lent,introit,"Psalm 19:2, 15"
+lent:4,5,date ne 03-19 & date ne 03-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Friday after the Fourth Sunday of Lent,epistle,1 Kings 17:17–24
+lent:4,5,date ne 03-19 & date ne 03-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Friday after the Fourth Sunday of Lent,gradual,Psalm 118:8–9; 103:10; 79:8–9
+lent:4,5,date ne 03-19 & date ne 03-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Friday after the Fourth Sunday of Lent,gospel,John 11:1–45
+lent:4,5,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Friday after the Fourth Sunday of Lent,introit,"Psalm 19:2, 15"
+lent:4,5,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Friday after the Fourth Sunday of Lent,epistle,1 Kings 17:17–24
+lent:4,5,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Friday after the Fourth Sunday of Lent,gradual,Psalm 118:8–9; 103:10; 79:8–9
+lent:4,5,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Friday after the Fourth Sunday of Lent,gospel,John 11:1–45
+lent:4,6,date ne 03-19 & date ne 03-25 & date ne 03-20 & date ne 03-26,,,Saturday after the Fourth Sunday of Lent,introit,Isaiah 55:1; Psalm 78:1
+lent:4,6,date ne 03-19 & date ne 03-25 & date ne 03-20 & date ne 03-26,,,Saturday after the Fourth Sunday of Lent,epistle,Isaiah 49:8–15
+lent:4,6,date ne 03-19 & date ne 03-25 & date ne 03-20 & date ne 03-26,,,Saturday after the Fourth Sunday of Lent,gradual,"Psalm 9:1–2, 14"
+lent:4,6,date ne 03-19 & date ne 03-25 & date ne 03-20 & date ne 03-26,,,Saturday after the Fourth Sunday of Lent,gospel,John 8:12–20
+lent:4,6,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Saturday after the Fourth Sunday of Lent,introit,Isaiah 55:1; Psalm 78:1
+lent:4,6,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Saturday after the Fourth Sunday of Lent,epistle,Isaiah 49:8–15
+lent:4,6,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Saturday after the Fourth Sunday of Lent,gradual,"Psalm 9:1–2, 14"
+lent:4,6,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Saturday after the Fourth Sunday of Lent,gospel,John 8:12–20
+lent:4,6,date ne 03-19 & date ne 03-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Saturday after the Fourth Sunday of Lent,introit,Isaiah 55:1; Psalm 78:1
+lent:4,6,date ne 03-19 & date ne 03-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Saturday after the Fourth Sunday of Lent,epistle,Isaiah 49:8–15
+lent:4,6,date ne 03-19 & date ne 03-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Saturday after the Fourth Sunday of Lent,gradual,"Psalm 9:1–2, 14"
+lent:4,6,date ne 03-19 & date ne 03-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Saturday after the Fourth Sunday of Lent,gospel,John 8:12–20
+lent:4,6,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Saturday after the Fourth Sunday of Lent,introit,Isaiah 55:1; Psalm 78:1
+lent:4,6,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Saturday after the Fourth Sunday of Lent,epistle,Isaiah 49:8–15
+lent:4,6,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Saturday after the Fourth Sunday of Lent,gradual,"Psalm 9:1–2, 14"
+lent:4,6,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Saturday after the Fourth Sunday of Lent,gospel,John 8:12–20
+ember_lent_wed,,date ne 02-22 & 02-28+1 eq 03-01 & date ne 02-24,,,,introit,"Psalm 25:1–3, 6, 22"
+ember_lent_wed,,date ne 02-22 & 02-28+1 eq 03-01 & date ne 02-24,,,,lesson,Exodus 24:12–18
+ember_lent_wed,,date ne 02-22 & 02-28+1 eq 03-01 & date ne 02-24,,,,epistle,1 Kings 19:3–8
+ember_lent_wed,,date ne 02-22 & 02-28+1 eq 03-01 & date ne 02-24,,,,gradual,"Psalm 25:1–4, 17–18"
+ember_lent_wed,,date ne 02-22 & 02-28+1 eq 03-01 & date ne 02-24,,,,gospel,Matthew 12:38–50
+ember_lent_wed,,date ne 02-22 & 02-28+1 ne 03-01 & date ne 02-25,,,,introit,"Psalm 25:1–3, 6, 22"
+ember_lent_wed,,date ne 02-22 & 02-28+1 ne 03-01 & date ne 02-25,,,,lesson,Exodus 24:12–18
+ember_lent_wed,,date ne 02-22 & 02-28+1 ne 03-01 & date ne 02-25,,,,epistle,1 Kings 19:3–8
+ember_lent_wed,,date ne 02-22 & 02-28+1 ne 03-01 & date ne 02-25,,,,gradual,"Psalm 25:1–4, 17–18"
+ember_lent_wed,,date ne 02-22 & 02-28+1 ne 03-01 & date ne 02-25,,,,gospel,Matthew 12:38–50
+ember_lent_fri,,date ne 02-22 & date ne 03-19 & 02-28+1 eq 03-01 & date ne 02-24,,,,introit,"Psalm 25:1–2, 17–18"
+ember_lent_fri,,date ne 02-22 & date ne 03-19 & 02-28+1 eq 03-01 & date ne 02-24,,,,epistle,Ezekiel 18:20–28
+ember_lent_fri,,date ne 02-22 & date ne 03-19 & 02-28+1 eq 03-01 & date ne 02-24,,,,gradual,"Psalm 86:2, 6; 103:10; 79:8–9"
+ember_lent_fri,,date ne 02-22 & date ne 03-19 & 02-28+1 eq 03-01 & date ne 02-24,,,,gospel,John 5:1–15
+ember_lent_fri,,date ne 02-22 & date ne 03-19 & 02-28+1 ne 03-01 & date ne 02-25,,,,introit,"Psalm 25:1–2, 17–18"
+ember_lent_fri,,date ne 02-22 & date ne 03-19 & 02-28+1 ne 03-01 & date ne 02-25,,,,epistle,Ezekiel 18:20–28
+ember_lent_fri,,date ne 02-22 & date ne 03-19 & 02-28+1 ne 03-01 & date ne 02-25,,,,gradual,"Psalm 86:2, 6; 103:10; 79:8–9"
+ember_lent_fri,,date ne 02-22 & date ne 03-19 & 02-28+1 ne 03-01 & date ne 02-25,,,,gospel,John 5:1–15
+ember_lent_sat,,date ne 02-22 & date ne 03-19 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20,,,,introit,Psalm 88:2–3
+ember_lent_sat,,date ne 02-22 & date ne 03-19 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20,,,,lesson,Deuteronomy 26:12–19
+ember_lent_sat,,date ne 02-22 & date ne 03-19 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20,,,,lesson,Deuteronomy 11:22–25
+ember_lent_sat,,date ne 02-22 & date ne 03-19 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20,,,,lesson,2 Maccabees 1:23–27
+ember_lent_sat,,date ne 02-22 & date ne 03-19 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20,,,,lesson,Sirach 36:1–10
+ember_lent_sat,,date ne 02-22 & date ne 03-19 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20,,,,lesson,Daniel 3:47–51
+ember_lent_sat,,date ne 02-22 & date ne 03-19 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20,,,,epistle,1 Thessalonians 5:14–23
+ember_lent_sat,,date ne 02-22 & date ne 03-19 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20,,,,gradual,Psalm 117:1–2
+ember_lent_sat,,date ne 02-22 & date ne 03-19 & 02-28+1 eq 03-01 & date ne 02-24 & date ne 03-20,,,,gospel,Matthew 17:1–9
+ember_lent_sat,,date ne 02-22 & date ne 03-19 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20,,,,introit,Psalm 88:2–3
+ember_lent_sat,,date ne 02-22 & date ne 03-19 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20,,,,lesson,Deuteronomy 26:12–19
+ember_lent_sat,,date ne 02-22 & date ne 03-19 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20,,,,lesson,Deuteronomy 11:22–25
+ember_lent_sat,,date ne 02-22 & date ne 03-19 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20,,,,lesson,2 Maccabees 1:23–27
+ember_lent_sat,,date ne 02-22 & date ne 03-19 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20,,,,lesson,Sirach 36:1–10
+ember_lent_sat,,date ne 02-22 & date ne 03-19 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20,,,,lesson,Daniel 3:47–51
+ember_lent_sat,,date ne 02-22 & date ne 03-19 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20,,,,epistle,1 Thessalonians 5:14–23
+ember_lent_sat,,date ne 02-22 & date ne 03-19 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20,,,,gradual,Psalm 117:1–2
+ember_lent_sat,,date ne 02-22 & date ne 03-19 & 02-28+1 ne 03-01 & date ne 02-25 & date ne 03-20,,,,gospel,Matthew 17:1–9
+ember_lent_sat,,date ne 02-22 & date ne 03-19 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun,,,,introit,Psalm 88:2–3
+ember_lent_sat,,date ne 02-22 & date ne 03-19 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun,,,,lesson,Deuteronomy 26:12–19
+ember_lent_sat,,date ne 02-22 & date ne 03-19 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun,,,,lesson,Deuteronomy 11:22–25
+ember_lent_sat,,date ne 02-22 & date ne 03-19 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun,,,,lesson,2 Maccabees 1:23–27
+ember_lent_sat,,date ne 02-22 & date ne 03-19 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun,,,,lesson,Sirach 36:1–10
+ember_lent_sat,,date ne 02-22 & date ne 03-19 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun,,,,lesson,Daniel 3:47–51
+ember_lent_sat,,date ne 02-22 & date ne 03-19 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun,,,,epistle,1 Thessalonians 5:14–23
+ember_lent_sat,,date ne 02-22 & date ne 03-19 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun,,,,gradual,Psalm 117:1–2
+ember_lent_sat,,date ne 02-22 & date ne 03-19 & 02-28+1 eq 03-01 & date ne 02-24 & date eq 03-20 & 03-19 nwd sun,,,,gospel,Matthew 17:1–9
+ember_lent_sat,,date ne 02-22 & date ne 03-19 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun,,,,introit,Psalm 88:2–3
+ember_lent_sat,,date ne 02-22 & date ne 03-19 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun,,,,lesson,Deuteronomy 26:12–19
+ember_lent_sat,,date ne 02-22 & date ne 03-19 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun,,,,lesson,Deuteronomy 11:22–25
+ember_lent_sat,,date ne 02-22 & date ne 03-19 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun,,,,lesson,2 Maccabees 1:23–27
+ember_lent_sat,,date ne 02-22 & date ne 03-19 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun,,,,lesson,Sirach 36:1–10
+ember_lent_sat,,date ne 02-22 & date ne 03-19 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun,,,,lesson,Daniel 3:47–51
+ember_lent_sat,,date ne 02-22 & date ne 03-19 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun,,,,epistle,1 Thessalonians 5:14–23
+ember_lent_sat,,date ne 02-22 & date ne 03-19 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun,,,,gradual,Psalm 117:1–2
+ember_lent_sat,,date ne 02-22 & date ne 03-19 & 02-28+1 ne 03-01 & date ne 02-25 & date eq 03-20 & 03-19 nwd sun,,,,gospel,Matthew 17:1–9
+passion_sunday,,,,,,introit,Psalm 43:1–3
+passion_sunday,,,,,,epistle,Hebrews 9:11–15
+passion_sunday,,,,,,gradual,Psalm 143:9–10; 18:48–49; 129:1–4
+passion_sunday,,,,,,gospel,John 8:46–59
+passion_sunday,1,date ne 03-19 & date ne 03-25 & date ne 03-20 & date ne 03-26,,,Monday after Passion Sunday,introit,Psalm 56:2–3
+passion_sunday,1,date ne 03-19 & date ne 03-25 & date ne 03-20 & date ne 03-26,,,Monday after Passion Sunday,epistle,Jonah 3:1–10
+passion_sunday,1,date ne 03-19 & date ne 03-25 & date ne 03-20 & date ne 03-26,,,Monday after Passion Sunday,gradual,Psalm 54:3–4; 103:10; 79:8–9
+passion_sunday,1,date ne 03-19 & date ne 03-25 & date ne 03-20 & date ne 03-26,,,Monday after Passion Sunday,gospel,John 7:32–39
+passion_sunday,1,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Monday after Passion Sunday,introit,Psalm 56:2–3
+passion_sunday,1,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Monday after Passion Sunday,epistle,Jonah 3:1–10
+passion_sunday,1,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Monday after Passion Sunday,gradual,Psalm 54:3–4; 103:10; 79:8–9
+passion_sunday,1,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Monday after Passion Sunday,gospel,John 7:32–39
+passion_sunday,1,date ne 03-19 & date ne 03-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Monday after Passion Sunday,introit,Psalm 56:2–3
+passion_sunday,1,date ne 03-19 & date ne 03-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Monday after Passion Sunday,epistle,Jonah 3:1–10
+passion_sunday,1,date ne 03-19 & date ne 03-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Monday after Passion Sunday,gradual,Psalm 54:3–4; 103:10; 79:8–9
+passion_sunday,1,date ne 03-19 & date ne 03-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Monday after Passion Sunday,gospel,John 7:32–39
+passion_sunday,1,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Monday after Passion Sunday,introit,Psalm 56:2–3
+passion_sunday,1,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Monday after Passion Sunday,epistle,Jonah 3:1–10
+passion_sunday,1,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Monday after Passion Sunday,gradual,Psalm 54:3–4; 103:10; 79:8–9
+passion_sunday,1,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Monday after Passion Sunday,gospel,John 7:32–39
+passion_sunday,2,date ne 03-19 & date ne 03-25 & date ne 03-20 & date ne 03-26,,,Tuesday after Passion Sunday,introit,"Psalm 27:1, 14"
+passion_sunday,2,date ne 03-19 & date ne 03-25 & date ne 03-20 & date ne 03-26,,,Tuesday after Passion Sunday,epistle,Daniel 14:27–42
+passion_sunday,2,date ne 03-19 & date ne 03-25 & date ne 03-20 & date ne 03-26,,,Tuesday after Passion Sunday,gradual,"Psalm 43:1, 3"
+passion_sunday,2,date ne 03-19 & date ne 03-25 & date ne 03-20 & date ne 03-26,,,Tuesday after Passion Sunday,gospel,John 7:1–13
+passion_sunday,2,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Tuesday after Passion Sunday,introit,"Psalm 27:1, 14"
+passion_sunday,2,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Tuesday after Passion Sunday,epistle,Daniel 14:27–42
+passion_sunday,2,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Tuesday after Passion Sunday,gradual,"Psalm 43:1, 3"
+passion_sunday,2,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Tuesday after Passion Sunday,gospel,John 7:1–13
+passion_sunday,2,date ne 03-19 & date ne 03-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Tuesday after Passion Sunday,introit,"Psalm 27:1, 14"
+passion_sunday,2,date ne 03-19 & date ne 03-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Tuesday after Passion Sunday,epistle,Daniel 14:27–42
+passion_sunday,2,date ne 03-19 & date ne 03-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Tuesday after Passion Sunday,gradual,"Psalm 43:1, 3"
+passion_sunday,2,date ne 03-19 & date ne 03-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Tuesday after Passion Sunday,gospel,John 7:1–13
+passion_sunday,2,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Tuesday after Passion Sunday,introit,"Psalm 27:1, 14"
+passion_sunday,2,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Tuesday after Passion Sunday,epistle,Daniel 14:27–42
+passion_sunday,2,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Tuesday after Passion Sunday,gradual,"Psalm 43:1, 3"
+passion_sunday,2,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Tuesday after Passion Sunday,gospel,John 7:1–13
+passion_sunday,3,date ne 03-19 & date ne 03-25 & date ne 03-20 & date ne 03-26,,,Wednesday after Passion Sunday,introit,"Psalm 18:2–3, 48–49"
+passion_sunday,3,date ne 03-19 & date ne 03-25 & date ne 03-20 & date ne 03-26,,,Wednesday after Passion Sunday,epistle,"Leviticus 19:1–2, 11–19, 25"
+passion_sunday,3,date ne 03-19 & date ne 03-25 & date ne 03-20 & date ne 03-26,,,Wednesday after Passion Sunday,gradual,Psalm 30:2–4; 103:10; 79:8–9
+passion_sunday,3,date ne 03-19 & date ne 03-25 & date ne 03-20 & date ne 03-26,,,Wednesday after Passion Sunday,gospel,John 10:22–38
+passion_sunday,3,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Wednesday after Passion Sunday,introit,"Psalm 18:2–3, 48–49"
+passion_sunday,3,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Wednesday after Passion Sunday,epistle,"Leviticus 19:1–2, 11–19, 25"
+passion_sunday,3,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Wednesday after Passion Sunday,gradual,Psalm 30:2–4; 103:10; 79:8–9
+passion_sunday,3,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Wednesday after Passion Sunday,gospel,John 10:22–38
+passion_sunday,3,date ne 03-19 & date ne 03-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Wednesday after Passion Sunday,introit,"Psalm 18:2–3, 48–49"
+passion_sunday,3,date ne 03-19 & date ne 03-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Wednesday after Passion Sunday,epistle,"Leviticus 19:1–2, 11–19, 25"
+passion_sunday,3,date ne 03-19 & date ne 03-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Wednesday after Passion Sunday,gradual,Psalm 30:2–4; 103:10; 79:8–9
+passion_sunday,3,date ne 03-19 & date ne 03-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Wednesday after Passion Sunday,gospel,John 10:22–38
+passion_sunday,3,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Wednesday after Passion Sunday,introit,"Psalm 18:2–3, 48–49"
+passion_sunday,3,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Wednesday after Passion Sunday,epistle,"Leviticus 19:1–2, 11–19, 25"
+passion_sunday,3,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Wednesday after Passion Sunday,gradual,Psalm 30:2–4; 103:10; 79:8–9
+passion_sunday,3,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Wednesday after Passion Sunday,gospel,John 10:22–38
+passion_sunday,4,date ne 03-19 & date ne 03-25 & date ne 03-20 & date ne 03-26,,,Thursday after Passion Sunday,introit,Daniel 3:31; Psalm 119:1
+passion_sunday,4,date ne 03-19 & date ne 03-25 & date ne 03-20 & date ne 03-26,,,Thursday after Passion Sunday,epistle,"Daniel 3:25, 34–45"
+passion_sunday,4,date ne 03-19 & date ne 03-25 & date ne 03-20 & date ne 03-26,,,Thursday after Passion Sunday,gradual,Psalm 96:8–9; 29:9
+passion_sunday,4,date ne 03-19 & date ne 03-25 & date ne 03-20 & date ne 03-26,,,Thursday after Passion Sunday,gospel,Luke 7:36–50
+passion_sunday,4,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Thursday after Passion Sunday,introit,Daniel 3:31; Psalm 119:1
+passion_sunday,4,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Thursday after Passion Sunday,epistle,"Daniel 3:25, 34–45"
+passion_sunday,4,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Thursday after Passion Sunday,gradual,Psalm 96:8–9; 29:9
+passion_sunday,4,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Thursday after Passion Sunday,gospel,Luke 7:36–50
+passion_sunday,4,date ne 03-19 & date ne 03-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Thursday after Passion Sunday,introit,Daniel 3:31; Psalm 119:1
+passion_sunday,4,date ne 03-19 & date ne 03-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Thursday after Passion Sunday,epistle,"Daniel 3:25, 34–45"
+passion_sunday,4,date ne 03-19 & date ne 03-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Thursday after Passion Sunday,gradual,Psalm 96:8–9; 29:9
+passion_sunday,4,date ne 03-19 & date ne 03-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Thursday after Passion Sunday,gospel,Luke 7:36–50
+passion_sunday,4,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Thursday after Passion Sunday,introit,Daniel 3:31; Psalm 119:1
+passion_sunday,4,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Thursday after Passion Sunday,epistle,"Daniel 3:25, 34–45"
+passion_sunday,4,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Thursday after Passion Sunday,gradual,Psalm 96:8–9; 29:9
+passion_sunday,4,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Thursday after Passion Sunday,gospel,Luke 7:36–50
+passion_sunday,5,date ne 03-19 & date ne 03-25 & date ne 03-20 & date ne 03-26,,,Friday after Passion Sunday,introit,"Psalm 31:2, 10, 16, 18"
+passion_sunday,5,date ne 03-19 & date ne 03-25 & date ne 03-20 & date ne 03-26,,,Friday after Passion Sunday,epistle,Jeremiah 17:13–18
+passion_sunday,5,date ne 03-19 & date ne 03-25 & date ne 03-20 & date ne 03-26,,,Friday after Passion Sunday,gradual,"Psalm 35:20, 22; 103:10; 79:8–9"
+passion_sunday,5,date ne 03-19 & date ne 03-25 & date ne 03-20 & date ne 03-26,,,Friday after Passion Sunday,gospel,John 11:47–54
+passion_sunday,5,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Friday after Passion Sunday,introit,"Psalm 31:2, 10, 16, 18"
+passion_sunday,5,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Friday after Passion Sunday,epistle,Jeremiah 17:13–18
+passion_sunday,5,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Friday after Passion Sunday,gradual,"Psalm 35:20, 22; 103:10; 79:8–9"
+passion_sunday,5,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Friday after Passion Sunday,gospel,John 11:47–54
+passion_sunday,5,date ne 03-19 & date ne 03-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Friday after Passion Sunday,introit,"Psalm 31:2, 10, 16, 18"
+passion_sunday,5,date ne 03-19 & date ne 03-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Friday after Passion Sunday,epistle,Jeremiah 17:13–18
+passion_sunday,5,date ne 03-19 & date ne 03-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Friday after Passion Sunday,gradual,"Psalm 35:20, 22; 103:10; 79:8–9"
+passion_sunday,5,date ne 03-19 & date ne 03-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Friday after Passion Sunday,gospel,John 11:47–54
+passion_sunday,5,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Friday after Passion Sunday,introit,"Psalm 31:2, 10, 16, 18"
+passion_sunday,5,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Friday after Passion Sunday,epistle,Jeremiah 17:13–18
+passion_sunday,5,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Friday after Passion Sunday,gradual,"Psalm 35:20, 22; 103:10; 79:8–9"
+passion_sunday,5,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Friday after Passion Sunday,gospel,John 11:47–54
+passion_sunday,6,date ne 03-19 & date ne 03-25 & date ne 03-20 & date ne 03-26,,,Saturday after Passion Sunday,introit,"Psalm 31:2, 10, 16, 18"
+passion_sunday,6,date ne 03-19 & date ne 03-25 & date ne 03-20 & date ne 03-26,,,Saturday after Passion Sunday,epistle,Jeremiah 18:18–23
+passion_sunday,6,date ne 03-19 & date ne 03-25 & date ne 03-20 & date ne 03-26,,,Saturday after Passion Sunday,gradual,"Psalm 35:20, 22"
+passion_sunday,6,date ne 03-19 & date ne 03-25 & date ne 03-20 & date ne 03-26,,,Saturday after Passion Sunday,gospel,John 12:10–36
+passion_sunday,6,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Saturday after Passion Sunday,introit,"Psalm 31:2, 10, 16, 18"
+passion_sunday,6,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Saturday after Passion Sunday,epistle,Jeremiah 18:18–23
+passion_sunday,6,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Saturday after Passion Sunday,gradual,"Psalm 35:20, 22"
+passion_sunday,6,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date ne 03-26,,,Saturday after Passion Sunday,gospel,John 12:10–36
+passion_sunday,6,date ne 03-19 & date ne 03-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Saturday after Passion Sunday,introit,"Psalm 31:2, 10, 16, 18"
+passion_sunday,6,date ne 03-19 & date ne 03-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Saturday after Passion Sunday,epistle,Jeremiah 18:18–23
+passion_sunday,6,date ne 03-19 & date ne 03-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Saturday after Passion Sunday,gradual,"Psalm 35:20, 22"
+passion_sunday,6,date ne 03-19 & date ne 03-25 & date ne 03-20 & date eq 03-26 & 03-25 nwd sun,,,Saturday after Passion Sunday,gospel,John 12:10–36
+passion_sunday,6,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Saturday after Passion Sunday,introit,"Psalm 31:2, 10, 16, 18"
+passion_sunday,6,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Saturday after Passion Sunday,epistle,Jeremiah 18:18–23
+passion_sunday,6,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Saturday after Passion Sunday,gradual,"Psalm 35:20, 22"
+passion_sunday,6,date ne 03-19 & date ne 03-25 & date eq 03-20 & 03-19 nwd sun & date eq 03-26 & 03-25 nwd sun,,,Saturday after Passion Sunday,gospel,John 12:10–36
+palm_sunday,,,,,,procession,Matthew 21:1–9
+palm_sunday,,,,,,introit,"Psalm 22:2, 20, 22"
+palm_sunday,,,,,,epistle,Philippians 2:5–11
+palm_sunday,,,,,,gradual,"Psalm 73:1–3, 24; 22:2–9, 18–19, 22, 24, 32"
+palm_sunday,,,,,,gospel,Matthew 26:36–75; 27:1–60
+holy_week:1,,,,,,introit,Psalm 35:1–3
+holy_week:1,,,,,,epistle,Isaiah 50:5–10
+holy_week:1,,,,,,gradual,"Psalm 35:3, 23; 103:10; 79:8–9"
+holy_week:1,,,,,,gospel,John 12:1–9
+holy_week:2,,,,,,introit,Galatians 6:14; Psalm 67:2
+holy_week:2,,,,,,epistle,Jeremiah 11:18–20
+holy_week:2,,,,,,gradual,"Psalm 35:1–2, 13"
+holy_week:2,,,,,,gospel,Mark 14:32–72; 15:1–46
+holy_week:3,,,,,,introit,"Philippians 2:8, 10–11; Psalm 102:2"
+holy_week:3,,,,,,lesson,Isaiah 63:1–7
+holy_week:3,,,,,,epistle,Isaiah 53:1–12
+holy_week:3,,,,,,gradual,"Psalm 102:2–5, 14"
+holy_week:3,,,,,,gospel,Luke 22:39–71; 23:1–53
+holy_thursday,,,,,,introit,Galatians 6:14; Psalm 67:2
+holy_thursday,,,,,,epistle,1 Corinthians 11:20–32
+holy_thursday,,,,,,gradual,Philippians 2:8–9
+holy_thursday,,,,,,gospel,John 13:1–15
+easter,,,,,,introit,"Psalm 139:1–2, 5–6, 18"
+easter,,,,,,epistle,1 Corinthians 5:7–8
+easter,,,,,,gradual,"Psalm 118:1, 24; 1 Corinthians 5:7"
+easter,,,,,,gospel,Mark 16:1–7
+easter_octave:1,,,,,,introit,"Exodus 13:5, 9; Psalm 105:1"
+easter_octave:1,,,,,,epistle,Acts 10:37–43
+easter_octave:1,,,,,,gradual,"Psalm 118:2, 24; Matthew 28:2"
+easter_octave:1,,,,,,gospel,Luke 24:13–35
+easter_octave:2,,,,,,introit,Sirach 15:3–4; Psalm 105:1
+easter_octave:2,,,,,,epistle,"Acts 13:16, 26–33"
+easter_octave:2,,,,,,gradual,Psalm 118:24; 107:2
+easter_octave:2,,,,,,gospel,Luke 24:36–47
+easter_octave:3,,,,,,introit,Matthew 25:34; Psalm 96:1
+easter_octave:3,,,,,,epistle,"Acts 3:13–15, 17–19"
+easter_octave:3,,,,,,gradual,"Psalm 118:16, 24; Luke 24:34"
+easter_octave:3,,,,,,gospel,John 21:1–14
+easter_octave:4,,,,,,introit,Wisdom 10:20–21; Psalm 98:1
+easter_octave:4,,,,,,epistle,Acts 8:26–40
+easter_octave:4,,,,,,gradual,Psalm 118:22–24
+easter_octave:4,,,,,,gospel,John 20:11–18
+easter_octave:5,,,,,,introit,"Psalm 78:1, 53"
+easter_octave:5,,,,,,epistle,1 Peter 3:18–22
+easter_octave:5,,,,,,gradual,"Psalm 118:24, 26–27; 96:10"
+easter_octave:5,,,,,,gospel,Matthew 28:16–20
+easter_octave:6,,,,,,introit,"Psalm 105:1, 43"
+easter_octave:6,,,,,,epistle,1 Peter 2:1–10
+easter_octave:6,,,,,,gradual,Psalm 118:24; 113:1
+easter_octave:6,,,,,,gospel,John 20:1–9
+low_sunday,,,,,,introit,1 Peter 2:2; Psalm 81:2
+low_sunday,,,,,,epistle,1 John 5:4–10
+low_sunday,,,,,,gradual,Matthew 28:7; John 20:26
+low_sunday,,,,,,gospel,John 20:19–31
+after_easter:2,,,,,,introit,"Psalm 33:1, 5–6"
+after_easter:2,,,,,,epistle,1 Peter 2:21–25
+after_easter:2,,,,,,gradual,Luke 24:35; John 10:14
+after_easter:2,,,,,,gospel,John 10:11–16
+after_easter:3,,,,,,introit,Psalm 66:1–3
+after_easter:3,,,,,,epistle,1 Peter 2:11–19
+after_easter:3,,,,,,gradual,Psalm 111:9; Luke 24:46
+after_easter:3,,,,,,gospel,John 16:16–22
+after_easter:4,,,,,,introit,Psalm 98:1–2
+after_easter:4,,,,,,epistle,James 1:17–21
+after_easter:4,,,,,,gradual,Psalm 118:16; Romans 6:9
+after_easter:4,,,,,,gospel,John 16:5–14
+after_easter:5,,,,,,introit,Isaiah 48:20; Psalm 66:1–2
+after_easter:5,,,,,,epistle,James 1:22–27
+after_easter:5,,,,,,gradual,John 16:28
+after_easter:5,,,,,,gospel,John 16:23–30
+rogation:1,,,,,,introit,"Psalm 18:2–3, 7"
+rogation:1,,,,,,epistle,James 5:16–20
+rogation:1,,,,,,gradual,Psalm 118:1
+rogation:1,,,,,,gospel,Luke 11:5–13
+rogation:3,,,,,Vigil of the Ascension,introit,Isaiah 48:20; Psalm 66:1–2
+rogation:3,,,,,Vigil of the Ascension,epistle,Ephesians 4:7–13
+rogation:3,,,,,Vigil of the Ascension,gradual,John 16:28
+rogation:3,,,,,Vigil of the Ascension,gospel,John 17:1–11
+ascension,,,,,,introit,Acts 1:11; Psalm 47:2
+ascension,,,,,,epistle,Acts 1:1–11
+ascension,,,,,,gradual,Psalm 47:6; 68:18–19
+ascension,,,,,,gospel,Mark 16:14–20
+after_ascension,,,,,,introit,"Psalm 27:1, 7–9"
+after_ascension,,,,,,epistle,1 Peter 4:7–11
+after_ascension,,,,,,gradual,Psalm 47:9; John 14:18
+after_ascension,,,,,,gospel,John 15:26–27; 16:1–4
+pentecost_vigil,,,,,,introit,Ezekiel 36:23–26; Psalm 34:2
+pentecost_vigil,,,,,,epistle,Acts 19:1–8
+pentecost_vigil,,,,,,gradual,Psalm 107:1; 117:1–2
+pentecost_vigil,,,,,,gospel,John 14:15–21
+pentecost,,,,,,introit,Wisdom 1:7; Psalm 68:2
+pentecost,,,,,,epistle,Acts 2:1–11
+pentecost,,,,,,gradual,Psalm 104:30
+pentecost,,,,,,gospel,John 14:23–31
+pentecost_octave:1,,,,,,introit,"Psalm 81:2, 17"
+pentecost_octave:1,,,,,,epistle,"Acts 10:34, 42–48"
+pentecost_octave:1,,,,,,gradual,Acts 2:4
+pentecost_octave:1,,,,,,gospel,John 3:16–21
+pentecost_octave:2,,,,,,introit,Ezra 2:36–37; Psalm 78:1
+pentecost_octave:2,,,,,,epistle,Acts 8:14–17
+pentecost_octave:2,,,,,,gradual,John 14:26
+pentecost_octave:2,,,,,,gospel,John 10:1–10
+pentecost_octave:3,,,,,,introit,"Psalm 68:2, 8–9"
+pentecost_octave:3,,,,,,lesson,Acts 2:14–21
+pentecost_octave:3,,,,,,epistle,Acts 5:12–16
+pentecost_octave:3,,,,,,gospel,John 6:44–52
+pentecost_octave:4,,,,,,introit,Wisdom 1:7; Psalm 68:2
+pentecost_octave:4,,,,,,epistle,Acts 8:5–8
+pentecost_octave:4,,,,,,gradual,Psalm 104:30
+pentecost_octave:4,,,,,,gospel,Luke 9:1–6
+pentecost_octave:5,,,,,,introit,"Psalm 71:1–2, 8, 23"
+pentecost_octave:5,,,,,,epistle,"Joel 2:23–24, 26–27"
+pentecost_octave:5,,,,,,gradual,Wisdom 12:1
+pentecost_octave:5,,,,,,gospel,Luke 5:17–26
+pentecost_octave:6,,,,,,introit,Romans 5:5; Psalm 103:1
+pentecost_octave:6,,,,,,lesson,Joel 3:1–5
+pentecost_octave:6,,,,,,lesson,"Leviticus 23:9–11, 15–17, 21"
+pentecost_octave:6,,,,,,lesson,"Deuteronomy 26:1–3, 7–11"
+pentecost_octave:6,,,,,,lesson,Leviticus 26:3–12
+pentecost_octave:6,,,,,,lesson,Daniel 3:47–51
+pentecost_octave:6,,,,,,epistle,Romans 5:1–5
+pentecost_octave:6,,,,,,gradual,Psalm 117:1–2
+pentecost_octave:6,,,,,,gospel,Luke 4:38–44
+trinity,,,,,,introit,Tobit 12:6; Psalm 8:2
+trinity,,,,,,epistle,Romans 11:33–36
+trinity,,,,,,gradual,"Daniel 3:52, 55–56"
+trinity,,,,,,gospel,Matthew 28:18–20
+corpus_christi,,,,,,introit,"Psalm 81:2, 17"
+corpus_christi,,,,,,epistle,1 Corinthians 11:23–29
+corpus_christi,,,,,,gradual,Psalm 145:15–16; John 6:56–57
+corpus_christi,,,,,,gospel,John 6:56–59
+sacred_heart,,,,,,introit,"Psalm 33:1, 11, 19"
+sacred_heart,,,,,,epistle,"Ephesians 3:8–12, 14–19"
+sacred_heart,,,,,,gradual,Psalm 25:8–9; Matthew 11:29
+sacred_heart,,,,,,gospel,John 19:31–37
+after_pentecost:2,,,,,,introit,"Psalm 18:2–3, 19–20"
+after_pentecost:2,,,,,,epistle,1 John 3:13–18
+after_pentecost:2,,,,,,gradual,Psalm 120:1–2; 7:2
+after_pentecost:2,,,,,,gospel,Luke 14:16–24
+after_pentecost:3,,,,,,introit,"Psalm 25:1–2, 16, 18"
+after_pentecost:3,,,,,,epistle,1 Peter 5:6–11
+after_pentecost:3,,,,,,gradual,"Psalm 55:17, 19, 23; 7:12"
+after_pentecost:3,,,,,,gospel,Luke 15:1–10
+after_pentecost:4,,,,,,introit,Psalm 27:1–3
+after_pentecost:4,,,,,,epistle,Romans 8:18–23
+after_pentecost:4,,,,,,gradual,"Psalm 79:9–10; 9:5, 10"
+after_pentecost:4,,,,,,gospel,Luke 5:1–11
+after_pentecost:5,,,,,,introit,"Psalm 27:1, 7, 9"
+after_pentecost:5,,,,,,epistle,1 Peter 3:8–15
+after_pentecost:5,,,,,,gradual,Psalm 84:9–10; 21:1
+after_pentecost:5,,,,,,gospel,Matthew 5:20–24
+after_pentecost:6,,,,,,introit,"Psalm 28:1, 8–9"
+after_pentecost:6,,,,,,epistle,Romans 6:3–11
+after_pentecost:6,,,,,,gradual,"Psalm 90:1, 13; 31:2–3"
+after_pentecost:6,,,,,,gospel,Mark 8:1–9
+after_pentecost:7,,,,,,introit,Psalm 47:2–3
+after_pentecost:7,,,,,,epistle,Romans 6:19–23
+after_pentecost:7,,,,,,gradual,"Psalm 34:6, 12; 47:2"
+after_pentecost:7,,,,,,gospel,Matthew 7:15–21
+after_pentecost:8,,,,,,introit,"Psalm 48:2, 10–11"
+after_pentecost:8,,,,,,epistle,Romans 8:12–17
+after_pentecost:8,,,,,,gradual,Psalm 31:3; 71:1; 48:2
+after_pentecost:8,,,,,,gospel,Luke 16:1–9
+after_pentecost:9,,,,,,introit,"Psalm 54:3, 6–7"
+after_pentecost:9,,,,,,epistle,1 Corinthians 10:6–13
+after_pentecost:9,,,,,,gradual,Psalm 8:2; 59:2
+after_pentecost:9,,,,,,gospel,Luke 19:41–47
+after_pentecost:10,,,,,,introit,"Psalm 55:2–3, 17–20, 23"
+after_pentecost:10,,,,,,epistle,1 Corinthians 12:2–11
+after_pentecost:10,,,,,,gradual,"Psalm 17:2, 8; 65:2"
+after_pentecost:10,,,,,,gospel,Luke 18:9–14
+after_pentecost:11,,,,,,introit,"Psalm 68:2, 6–7, 36"
+after_pentecost:11,,,,,,epistle,1 Corinthians 15:1–10
+after_pentecost:11,,,,,,gradual,"Psalm 28:1, 7; 81:2–3"
+after_pentecost:11,,,,,,gospel,Mark 7:31–37
+after_pentecost:12,,,,,,introit,Psalm 70:2–4
+after_pentecost:12,,,,,,epistle,2 Corinthians 3:4–9
+after_pentecost:12,,,,,,gradual,Psalm 34:2–3; 88:2
+after_pentecost:12,,,,,,gospel,Luke 10:23–37
+after_pentecost:13,,,,,,introit,"Psalm 74:1, 19–20, 23"
+after_pentecost:13,,,,,,epistle,Galatians 3:16–22
+after_pentecost:13,,,,,,gradual,"Psalm 74:19–20, 22; 90:1"
+after_pentecost:13,,,,,,gospel,Luke 17:11–19
+after_pentecost:14,,,,,,introit,"Psalm 84:2–3, 10–11"
+after_pentecost:14,,,,,,epistle,Galatians 5:16–24
+after_pentecost:14,,,,,,gradual,Psalm 118:8–9; 95:1
+after_pentecost:14,,,,,,gospel,Matthew 6:24–33
+after_pentecost:15,,,,,,introit,Psalm 86:1–4
+after_pentecost:15,,,,,,epistle,Galatians 5:25–26; 6:1–10
+after_pentecost:15,,,,,,gradual,Psalm 92:2–3; 95:3
+after_pentecost:15,,,,,,gospel,Luke 7:11–16
+after_pentecost:16,,,,,,introit,"Psalm 86:1, 3, 5"
+after_pentecost:16,,,,,,epistle,Ephesians 3:13–21
+after_pentecost:16,,,,,,gradual,Psalm 102:16–17; 98:1
+after_pentecost:16,,,,,,gospel,Luke 14:1–11
+after_pentecost:17,,,,,,introit,"Psalm 119:1, 124, 137"
+after_pentecost:17,,,,,,epistle,Ephesians 4:1–6
+after_pentecost:17,,,,,,gradual,"Psalm 33:6, 12; 102:2"
+after_pentecost:17,,,,,,gospel,Matthew 22:34–46
+after_pentecost:18,,,,,,introit,Sirach 36:18; Psalm 122:1
+after_pentecost:18,,,,,,epistle,1 Corinthians 1:4–8
+after_pentecost:18,,,,,,gradual,"Psalm 122:1, 7; 102:16"
+after_pentecost:18,,,,,,gospel,Matthew 9:1–8
+after_pentecost:19,,,,,,introit,Psalm 78:1
+after_pentecost:19,,,,,,epistle,Ephesians 4:23–28
+after_pentecost:19,,,,,,gradual,Psalm 141:2; 105:1
+after_pentecost:19,,,,,,gospel,Matthew 22:1–14
+after_pentecost:20,,,,,,introit,"Daniel 3:29, 31, 35; Psalm 119:1"
+after_pentecost:20,,,,,,epistle,Ephesians 5:15–21
+after_pentecost:20,,,,,,gradual,Psalm 145:15–16; 108:2
+after_pentecost:20,,,,,,gospel,John 4:46–53
+after_pentecost:21,,,,,,introit,Esther 13:9–11; Psalm 119:1
+after_pentecost:21,,,,,,epistle,Ephesians 6:10–17
+after_pentecost:21,,,,,,gradual,Psalm 90:1–2; 114:1
+after_pentecost:21,,,,,,gospel,Matthew 18:23–35
+after_pentecost:22,,,,,,introit,Psalm 130:1–4
+after_pentecost:22,,,,,,epistle,Philippians 1:6–11
+after_pentecost:22,,,,,,gradual,Psalm 133:1–2; 115:3
+after_pentecost:22,,,,,,gospel,Matthew 22:15–21
+after_pentecost:23,,,,,,introit,"Jeremiah 29:11–12, 14; Psalm 85:2"
+after_pentecost:23,,,,,,epistle,Philippians 3:17–21; 4:1–3
+after_pentecost:23,,,,,,gradual,Psalm 44:8–9; 130:1–2
+after_pentecost:23,,,,,,gospel,Matthew 9:18–26
+resumed_epiphany:3,,,,,,introit,"Jeremiah 29:11–12, 14; Psalm 85:2"
+resumed_epiphany:3,,,,,,epistle,Romans 12:16–21
+resumed_epiphany:3,,,,,,gradual,Psalm 44:8–9; 130:1–2
+resumed_epiphany:3,,,,,,gospel,Matthew 8:1–13
+resumed_epiphany:4,,,,,,introit,"Jeremiah 29:11–12, 14; Psalm 85:2"
+resumed_epiphany:4,,,,,,epistle,Romans 13:8–10
+resumed_epiphany:4,,,,,,gradual,Psalm 44:8–9; 130:1–2
+resumed_epiphany:4,,,,,,gospel,Matthew 8:23–27
+resumed_epiphany:5,,,,,,introit,"Jeremiah 29:11–12, 14; Psalm 85:2"
+resumed_epiphany:5,,,,,,epistle,Colossians 3:12–17
+resumed_epiphany:5,,,,,,gradual,Psalm 44:8–9; 130:1–2
+resumed_epiphany:5,,,,,,gospel,Matthew 13:24–30
+resumed_epiphany:6,,,,,,introit,"Jeremiah 29:11–12, 14; Psalm 85:2"
+resumed_epiphany:6,,,,,,epistle,1 Thessalonians 1:2–10
+resumed_epiphany:6,,,,,,gradual,Psalm 44:8–9; 130:1–2
+resumed_epiphany:6,,,,,,gospel,Matthew 13:31–35
+last_pentecost,,,,,,introit,"Jeremiah 29:11–12, 14; Psalm 85:2"
+last_pentecost,,,,,,epistle,Colossians 1:9–14
+last_pentecost,,,,,,gradual,Psalm 44:8–9; 130:1–2
+last_pentecost,,,,,,gospel,Matthew 24:15–35
+ember_sept_wed,,date ne 09-21,,,,introit,Psalm 81:2–6
+ember_sept_wed,,date ne 09-21,,,,lesson,Amos 9:13–15
+ember_sept_wed,,date ne 09-21,,,,epistle,Nehemiah 8:1–10
+ember_sept_wed,,date ne 09-21,,,,gradual,"Psalm 33:6, 12"
+ember_sept_wed,,date ne 09-21,,,,gospel,Mark 9:16–28
+ember_sept_fri,,date ne 09-21,,,,introit,"Psalm 105:1, 3–4"
+ember_sept_fri,,date ne 09-21,,,,epistle,Hosea 14:2–10
+ember_sept_fri,,date ne 09-21,,,,gradual,"Psalm 90:1, 13"
+ember_sept_fri,,date ne 09-21,,,,gospel,Luke 7:36–50
+ember_sept_sat,,date ne 09-21,,,,introit,"Psalm 95:1, 6–7"
+ember_sept_sat,,date ne 09-21,,,,lesson,Leviticus 23:26–32
+ember_sept_sat,,date ne 09-21,,,,lesson,Leviticus 23:39–43
+ember_sept_sat,,date ne 09-21,,,,lesson,"Micah 7:14, 16, 18–20"
+ember_sept_sat,,date ne 09-21,,,,lesson,Zechariah 8:14–19
+ember_sept_sat,,date ne 09-21,,,,lesson,Daniel 3:47–51
+ember_sept_sat,,date ne 09-21,,,,epistle,Hebrews 9:2–12
+ember_sept_sat,,date ne 09-21,,,,gradual,Psalm 117:1–2
+ember_sept_sat,,date ne 09-21,,,,gospel,Luke 13:6–17
+good_friday,,,,,,lesson,Hosea 6:1–6
+good_friday,,,,,,lesson,Exodus 12:1–11
+good_friday,,,,,,gradual,"Psalm 140:2–10, 14"
+good_friday,,,,,,gospel,John 18:1–40; 19:1–42
+holy_saturday,,,,,,lesson,Genesis 1:1–31; 2:1–2
+holy_saturday,,,,,,lesson,Exodus 14:24–31; 15:1
+holy_saturday,,,,,,lesson,Isaiah 4:2–6
+holy_saturday,,,,,,lesson,Deuteronomy 31:22–30
+holy_saturday,,,,,,epistle,Colossians 3:1–4
+holy_saturday,,,,,,gradual,Psalm 118:1; 117
+holy_saturday,,,,,,gospel,Matthew 28:1–7
+christmas_eve,,,,,,introit,Exodus 16:6–7; Psalm 24:1
+christmas_eve,,,,,,epistle,Romans 1:1–6
+christmas_eve,,,,,,gradual,Exodus 16:6–7; Psalm 80:2–3
+christmas_eve,,,,,,gospel,Matthew 1:18–21
+christmas,,,,,First Mass (at Midnight),introit,"Psalm 2:1, 7"
+christmas,,,,,First Mass (at Midnight),epistle,Titus 2:11–15
+christmas,,,,,First Mass (at Midnight),gradual,"Psalm 110:1, 3; 2:7"
+christmas,,,,,First Mass (at Midnight),gospel,Luke 2:1–14
+christmas,,,,,Second Mass (at Dawn),introit,"Isaiah 9:1, 5; Psalm 93:1"
+christmas,,,,,Second Mass (at Dawn),epistle,Titus 3:4–7
+christmas,,,,,Second Mass (at Dawn),gradual,"Psalm 118:23, 26–27; 93:1"
+christmas,,,,,Second Mass (at Dawn),gospel,Luke 2:15–20
+christmas,,,,,Third Mass (during the Day),introit,Isaiah 9:5; Psalm 98:1
+christmas,,,,,Third Mass (during the Day),epistle,Hebrews 1:1–12
+christmas,,,,,Third Mass (during the Day),gradual,Psalm 98:2–4
+christmas,,,,,Third Mass (during the Day),gospel,John 1:1–14
+octave_day,,,,,,introit,Isaiah 9:5; Psalm 98:1
+octave_day,,,,,,epistle,Titus 2:11–15
+octave_day,,,,,,gradual,Psalm 98:2–4; Hebrews 1:1–2
+octave_day,,,,,,gospel,Luke 2:21
+epiphany,,,,,,introit,Malachi 3:1; 1 Chronicles 29:12; Psalm 72:1
+epiphany,,,,,,epistle,Isaiah 60:1–6
+epiphany,,,,,,gradual,"Isaiah 60:1, 6; Matthew 2:2"
+epiphany,,,,,,gospel,Matthew 2:1–12
+baptism,,,,,,introit,Malachi 3:1; 1 Chronicles 29:12; Psalm 72:1
+baptism,,,,,,epistle,Isaiah 60:1–6
+baptism,,,,,,gradual,"Isaiah 60:1, 6; Matthew 2:2"
+baptism,,,,,,gospel,John 1:29–34
+christ_the_king,,,,,,introit,Revelation 5:12; 1:6; Psalm 72:1
+christ_the_king,,,,,,epistle,Colossians 1:12–20
+christ_the_king,,,,,,gradual,"Psalm 72:8, 11; Daniel 7:14"
+christ_the_king,,,,,,gospel,John 18:33–37
+all_souls,,,,,First Mass,introit,2 Esdras 2:34–35; Psalm 65:2–3
+all_souls,,,,,First Mass,epistle,1 Corinthians 15:51–57
+all_souls,,,,,First Mass,gradual,2 Esdras 2:34–35; Psalm 112:7
+all_souls,,,,,First Mass,gospel,John 5:25–29
+all_souls,,,,,Second Mass,introit,2 Esdras 2:34–35; Psalm 65:2–3
+all_souls,,,,,Second Mass,epistle,2 Maccabees 12:43–46
+all_souls,,,,,Second Mass,gradual,2 Esdras 2:34–35; Psalm 112:7
+all_souls,,,,,Second Mass,gospel,John 6:37–40
+all_souls,,,,,Third Mass,introit,2 Esdras 2:34–35; Psalm 65:2–3
+all_souls,,,,,Third Mass,epistle,Revelation 14:13
+all_souls,,,,,Third Mass,gradual,2 Esdras 2:34–35; Psalm 112:7
+all_souls,,,,,Third Mass,gospel,John 6:51–55
+all_souls_3,,,,,First Mass,introit,2 Esdras 2:34–35; Psalm 65:2–3
+all_souls_3,,,,,First Mass,epistle,1 Corinthians 15:51–57
+all_souls_3,,,,,First Mass,gradual,2 Esdras 2:34–35; Psalm 112:7
+all_souls_3,,,,,First Mass,gospel,John 5:25–29
+all_souls_3,,,,,Second Mass,introit,2 Esdras 2:34–35; Psalm 65:2–3
+all_souls_3,,,,,Second Mass,epistle,2 Maccabees 12:43–46
+all_souls_3,,,,,Second Mass,gradual,2 Esdras 2:34–35; Psalm 112:7
+all_souls_3,,,,,Second Mass,gospel,John 6:37–40
+all_souls_3,,,,,Third Mass,introit,2 Esdras 2:34–35; Psalm 65:2–3
+all_souls_3,,,,,Third Mass,epistle,Revelation 14:13
+all_souls_3,,,,,Third Mass,gradual,2 Esdras 2:34–35; Psalm 112:7
+all_souls_3,,,,,Third Mass,gospel,John 6:51–55
+st_hilary_0114,,,,,,introit,Sirach 15:5; Psalm 92:2
+st_hilary_0114,,,,,,epistle,2 Timothy 4:1–8
+st_hilary_0114,,,,,,gradual,Psalm 37:30–31; Sirach 45:9
+st_hilary_0114,,,,,,gospel,Matthew 5:13–19
+st_paul_the_first_hermit_0115,,,,,,introit,"Psalm 92:2, 13–14"
+st_paul_the_first_hermit_0115,,,,,,epistle,Philippians 3:7–12
+st_paul_the_first_hermit_0115,,,,,,gradual,"Psalm 92:3, 13–14; Hosea 14:6"
+st_paul_the_first_hermit_0115,,,,,,gospel,Matthew 11:25–30
+st_marcellus_i_0116,,,,,,introit,John 21:15–17; Psalm 30:2
+st_marcellus_i_0116,,,,,,epistle,"1 Peter 5:1–4, 10–11"
+st_marcellus_i_0116,,,,,,gradual,Psalm 107:31–32; Matthew 16:18
+st_marcellus_i_0116,,,,,,gospel,Matthew 16:13–19
+st_anthony_0117,,,,,,introit,"Psalm 37:1, 30–31"
+st_anthony_0117,,,,,,epistle,Sirach 45:1–6
+st_anthony_0117,,,,,,gradual,Psalm 21:4–5; 92:13
+st_anthony_0117,,,,,,gospel,Luke 12:35–40
+ss_fabian_and_sebastian_0120,,,,,,introit,"Psalm 79:1, 10–12"
+ss_fabian_and_sebastian_0120,,,,,,epistle,Hebrews 11:33–39
+ss_fabian_and_sebastian_0120,,date lt @septuagesima,,,,gradual,"Exodus 15:6, 11; Psalm 145:10–11"
+ss_fabian_and_sebastian_0120,,date ge @septuagesima & date lt @easter,,,,gradual,"Exodus 15:6, 11; Psalm 126:5–6"
+ss_fabian_and_sebastian_0120,,,,,,gospel,Luke 6:17–23
+st_agnes_0121,,,,,,introit,"Psalm 119:1, 95–96"
+st_agnes_0121,,,,,,epistle,"Sirach 51:1–8, 12"
+st_agnes_0121,,date lt @septuagesima,,,,gradual,"Psalm 45:3, 5; Matthew 25:4, 6"
+st_agnes_0121,,date ge @septuagesima & date lt @easter,,,,gradual,"Psalm 45:3, 5, 8"
+st_agnes_0121,,,,,,gospel,Matthew 25:1–13
+ss_vincent_and_anastasius_0122,,,,,,introit,"Psalm 79:1, 10–12"
+ss_vincent_and_anastasius_0122,,,,,,epistle,Wisdom 3:1–8
+ss_vincent_and_anastasius_0122,,date lt @septuagesima,,,,gradual,"Exodus 15:6, 11; Sirach 44:14"
+ss_vincent_and_anastasius_0122,,date ge @septuagesima & date lt @easter,,,,gradual,"Exodus 15:6, 11; Psalm 126:5–6"
+ss_vincent_and_anastasius_0122,,,,,,gospel,Luke 21:9–19
+st_raymund_of_pe_afort_0123,,,,,,introit,"Psalm 37:1, 30–31"
+st_raymund_of_pe_afort_0123,,,,,,epistle,Sirach 31:8–11
+st_raymund_of_pe_afort_0123,,date lt @septuagesima,,,,gradual,"Psalm 92:3, 13–14; James 1:12"
+st_raymund_of_pe_afort_0123,,date ge @septuagesima & date lt @easter,,,,gradual,"Psalm 92:3, 13–14; 112:1–3"
+st_raymund_of_pe_afort_0123,,,,,,gospel,Luke 12:35–40
+st_timothy_0124,,,,,,introit,Sirach 45:30; Psalm 132:1
+st_timothy_0124,,,,,,epistle,1 Timothy 6:11–16
+st_timothy_0124,,date lt @septuagesima,,,,gradual,Psalm 89:21–23; 110:4
+st_timothy_0124,,date ge @septuagesima & date lt @easter,,,,gradual,Psalm 89:21–23; 21:3–4
+st_timothy_0124,,,,,,gospel,Luke 14:26–33
+conversion_of_st_paul_0125,,,,,,introit,2 Timothy 1:12; Psalm 139:1–2
+conversion_of_st_paul_0125,,,,,,epistle,Acts 9:1–22
+conversion_of_st_paul_0125,,,,,,gradual,Galatians 2:8–9
+conversion_of_st_paul_0125,,,,,,gospel,Luke 12:32–34
+st_polycarp_0126,,,,,,introit,"Daniel 3:57, 84, 87"
+st_polycarp_0126,,,,,,epistle,1 John 3:10–16
+st_polycarp_0126,,date lt @septuagesima,,,,gradual,Psalm 8:6–7
+st_polycarp_0126,,date ge @septuagesima & date lt @easter,,,,gradual,Psalm 8:6–7; 112:1–3
+st_polycarp_0126,,,,,,gospel,Matthew 10:26–32
+st_john_chrysostom_0127,,,,,,introit,Sirach 15:5; Psalm 92:2
+st_john_chrysostom_0127,,,,,,epistle,2 Timothy 4:1–8
+st_john_chrysostom_0127,,date lt @septuagesima,,,,gradual,"Sirach 44:16, 20; James 1:12"
+st_john_chrysostom_0127,,date ge @septuagesima & date lt @easter,,,,gradual,Psalm 112:1–3
+st_john_chrysostom_0127,,,,,,gospel,Matthew 5:13–19
+st_peter_nolasco_0128,,,,,,introit,"Psalm 92:2, 13–14"
+st_peter_nolasco_0128,,,,,,epistle,1 Corinthians 4:9–14
+st_peter_nolasco_0128,,,,,,gradual,Psalm 37:30–31; 112:1
+st_peter_nolasco_0128,,,,,,gospel,Luke 12:32–34
+st_francis_de_sales_0129,,,,,,introit,Sirach 15:5; Psalm 92:2
+st_francis_de_sales_0129,,,,,,epistle,2 Timothy 4:1–8
+st_francis_de_sales_0129,,date lt @septuagesima,,,,gradual,Psalm 37:30–31; Sirach 45:9
+st_francis_de_sales_0129,,date ge @septuagesima & date lt @easter,,,,gradual,Psalm 37:30–31; 112:1–3
+st_francis_de_sales_0129,,,,,,gospel,Matthew 5:13–19
+st_martina_0130,,,,,,introit,"Psalm 119:1, 46–47"
+st_martina_0130,,,,,,epistle,"Sirach 51:1–8, 12"
+st_martina_0130,,date lt @septuagesima,,,,gradual,"Psalm 45:8, 15–16"
+st_martina_0130,,date ge @septuagesima & date lt @easter,,,,gradual,"Psalm 45:5, 8"
+st_martina_0130,,,,,,gospel,Matthew 25:1–13
+st_john_bosco_0131,,,,,,introit,1 Kings 4:29; Psalm 113:1
+st_john_bosco_0131,,,,,,epistle,Philippians 4:4–9
+st_john_bosco_0131,,date lt @septuagesima,,,,gradual,Psalm 37:3–5; 74:21
+st_john_bosco_0131,,date ge @septuagesima & date lt @easter,,,,gradual,Psalm 61:4–6
+st_john_bosco_0131,,,,,,gospel,Matthew 18:1–5
+st_ignatius_of_antioch_0201,,,,,,introit,Galatians 6:14; Psalm 132:1
+st_ignatius_of_antioch_0201,,,,,,epistle,Romans 8:35–39
+st_ignatius_of_antioch_0201,,date lt @septuagesima,,,,gradual,"Sirach 44:16, 20; Galatians 2:19–20"
+st_ignatius_of_antioch_0201,,date ge @septuagesima & date lt @easter,,,,gradual,"Sirach 44:16, 20; Psalm 21:3–4"
+st_ignatius_of_antioch_0201,,,,,,gospel,John 12:24–26
+purification_of_the_bvm_0202,,,,,,introit,"Psalm 48:2, 10–11"
+purification_of_the_bvm_0202,,,,,,epistle,Malachi 3:1–4
+purification_of_the_bvm_0202,,date lt @septuagesima,,,,gradual,Psalm 48:9–11
+purification_of_the_bvm_0202,,date ge @septuagesima & date lt @easter,,,,gradual,Psalm 48:9–11; Luke 2:29–32
+purification_of_the_bvm_0202,,,,,,gospel,Luke 2:22–32
+st_andrew_corsini_0204,,date lt @ash_wednesday,,,,introit,Sirach 45:30; Psalm 132:1
+st_andrew_corsini_0204,,date lt @ash_wednesday,,,,epistle,Sirach 44:16–27; 45:3–20
+st_andrew_corsini_0204,,date lt @septuagesima & date lt @ash_wednesday,,,,gradual,"Sirach 44:16, 20; Psalm 110:4"
+st_andrew_corsini_0204,,date ge @septuagesima & date lt @easter & date lt @ash_wednesday,,,,gradual,"Sirach 44:16, 20; Psalm 112:1–3"
+st_andrew_corsini_0204,,date lt @ash_wednesday,,,,gospel,Matthew 25:14–23
+st_andrew_corsini_0204,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Andrew Corsini,introit,Sirach 45:30; Psalm 132:1
+st_andrew_corsini_0204,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Andrew Corsini,epistle,Sirach 44:16–27; 45:3–20
+st_andrew_corsini_0204,,date ge @septuagesima & date lt @easter & date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Andrew Corsini,gradual,"Sirach 44:16, 20; Psalm 112:1–3"
+st_andrew_corsini_0204,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Andrew Corsini,gospel,Matthew 25:14–23
+st_agatha_0205,,date lt @ash_wednesday,,,,introit,Psalm 45:2
+st_agatha_0205,,date lt @ash_wednesday,,,,epistle,1 Corinthians 1:26–31
+st_agatha_0205,,date lt @septuagesima & date lt @ash_wednesday,,,,gradual,Psalm 46:5–6; 119:46
+st_agatha_0205,,date ge @septuagesima & date lt @easter & date lt @ash_wednesday,,,,gradual,Psalm 46:5–6; 126:5–6
+st_agatha_0205,,date lt @ash_wednesday,,,,gospel,Matthew 19:3–12
+st_agatha_0205,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Agatha,introit,Psalm 45:2
+st_agatha_0205,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Agatha,epistle,1 Corinthians 1:26–31
+st_agatha_0205,,date ge @septuagesima & date lt @easter & date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Agatha,gradual,Psalm 46:5–6; 126:5–6
+st_agatha_0205,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Agatha,gospel,Matthew 19:3–12
+st_titus_0206,,date lt @ash_wednesday,,,,introit,Sirach 45:30; Psalm 132:1
+st_titus_0206,,date lt @ash_wednesday,,,,epistle,Sirach 44:16–27; 45:3–20
+st_titus_0206,,date lt @septuagesima & date lt @ash_wednesday,,,,gradual,"Sirach 44:16, 20; Psalm 110:4"
+st_titus_0206,,date ge @septuagesima & date lt @easter & date lt @ash_wednesday,,,,gradual,"Sirach 44:16, 20; Psalm 112:1–3"
+st_titus_0206,,date lt @ash_wednesday,,,,gospel,Luke 10:1–9
+st_titus_0206,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Titus,introit,Sirach 45:30; Psalm 132:1
+st_titus_0206,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Titus,epistle,Sirach 44:16–27; 45:3–20
+st_titus_0206,,date ge @septuagesima & date lt @easter & date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Titus,gradual,"Sirach 44:16, 20; Psalm 112:1–3"
+st_titus_0206,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Titus,gospel,Luke 10:1–9
+st_romuald_0207,,date lt @ash_wednesday,,,,introit,"Psalm 37:1, 30–31"
+st_romuald_0207,,date lt @ash_wednesday,,,,epistle,Sirach 45:1–6
+st_romuald_0207,,date lt @septuagesima & date lt @ash_wednesday,,,,gradual,Psalm 21:4–5; 92:13
+st_romuald_0207,,date ge @septuagesima & date lt @easter & date lt @ash_wednesday,,,,gradual,Psalm 21:4–5; 112:1–3
+st_romuald_0207,,date lt @ash_wednesday,,,,gospel,Matthew 19:27–29
+st_romuald_0207,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Romuald,introit,"Psalm 37:1, 30–31"
+st_romuald_0207,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Romuald,epistle,Sirach 45:1–6
+st_romuald_0207,,date ge @septuagesima & date lt @easter & date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Romuald,gradual,Psalm 21:4–5; 112:1–3
+st_romuald_0207,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Romuald,gospel,Matthew 19:27–29
+st_john_of_matha_0208,,date lt @ash_wednesday,,,,introit,"Psalm 37:1, 30–31"
+st_john_of_matha_0208,,date lt @ash_wednesday,,,,epistle,Sirach 31:8–11
+st_john_of_matha_0208,,date lt @septuagesima & date lt @ash_wednesday,,,,gradual,"Psalm 92:3, 13–14; James 1:12"
+st_john_of_matha_0208,,date ge @septuagesima & date lt @easter & date lt @ash_wednesday,,,,gradual,"Psalm 92:3, 13–14; 112:1–3"
+st_john_of_matha_0208,,date lt @ash_wednesday,,,,gospel,Luke 12:35–40
+st_john_of_matha_0208,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. John of Matha,introit,"Psalm 37:1, 30–31"
+st_john_of_matha_0208,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. John of Matha,epistle,Sirach 31:8–11
+st_john_of_matha_0208,,date ge @septuagesima & date lt @easter & date ge @ash_wednesday & date lt @easter,,,Commemoration of St. John of Matha,gradual,"Psalm 92:3, 13–14; 112:1–3"
+st_john_of_matha_0208,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. John of Matha,gospel,Luke 12:35–40
+st_cyril_of_alexandria_0209,,date lt @ash_wednesday,,,,introit,Sirach 15:5; Psalm 92:2
+st_cyril_of_alexandria_0209,,date lt @ash_wednesday,,,,epistle,2 Timothy 4:1–8
+st_cyril_of_alexandria_0209,,date lt @septuagesima & date lt @ash_wednesday,,,,gradual,Psalm 37:30–31; Sirach 45:9
+st_cyril_of_alexandria_0209,,date ge @septuagesima & date lt @easter & date lt @ash_wednesday,,,,gradual,Psalm 37:30–31; 112:1–3
+st_cyril_of_alexandria_0209,,date lt @ash_wednesday,,,,gospel,Matthew 5:13–19
+st_cyril_of_alexandria_0209,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Cyril of Alexandria,introit,Sirach 15:5; Psalm 92:2
+st_cyril_of_alexandria_0209,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Cyril of Alexandria,epistle,2 Timothy 4:1–8
+st_cyril_of_alexandria_0209,,date ge @septuagesima & date lt @easter & date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Cyril of Alexandria,gradual,Psalm 37:30–31; 112:1–3
+st_cyril_of_alexandria_0209,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Cyril of Alexandria,gospel,Matthew 5:13–19
+st_scholastica_0210,,date lt @ash_wednesday,,,,introit,"Psalm 45:2, 8"
+st_scholastica_0210,,date lt @ash_wednesday,,,,epistle,2 Corinthians 10:17–18; 11:1–2
+st_scholastica_0210,,date lt @septuagesima & date lt @ash_wednesday,,,,gradual,"Psalm 45:5, 15–16"
+st_scholastica_0210,,date ge @septuagesima & date lt @easter & date lt @ash_wednesday,,,,gradual,"Psalm 45:5, 10–13, 15–16"
+st_scholastica_0210,,date lt @ash_wednesday,,,,gospel,Matthew 25:1–13
+st_scholastica_0210,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Scholastica,introit,"Psalm 45:2, 8"
+st_scholastica_0210,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Scholastica,epistle,2 Corinthians 10:17–18; 11:1–2
+st_scholastica_0210,,date ge @septuagesima & date lt @easter & date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Scholastica,gradual,"Psalm 45:5, 10–13, 15–16"
+st_scholastica_0210,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Scholastica,gospel,Matthew 25:1–13
+our_lady_of_lourdes_0211,,date lt @ash_wednesday,,,,introit,Revelation 21:2; Psalm 45:2
+our_lady_of_lourdes_0211,,date lt @ash_wednesday,,,,epistle,"Revelation 11:19; 12:1, 10"
+our_lady_of_lourdes_0211,,date lt @septuagesima & date lt @ash_wednesday,,,,gradual,"Song of Songs 2:10, 12, 14"
+our_lady_of_lourdes_0211,,date ge @septuagesima & date lt @easter & date lt @ash_wednesday,,,,gradual,"Song of Songs 2:10, 12, 14; Judith 15:10; Song of Songs 4:7"
+our_lady_of_lourdes_0211,,date lt @ash_wednesday,,,,gospel,Luke 1:26–31
+our_lady_of_lourdes_0211,,date ge @ash_wednesday & date lt @easter,,,Commemoration of Our Lady of Lourdes,introit,Revelation 21:2; Psalm 45:2
+our_lady_of_lourdes_0211,,date ge @ash_wednesday & date lt @easter,,,Commemoration of Our Lady of Lourdes,epistle,"Revelation 11:19; 12:1, 10"
+our_lady_of_lourdes_0211,,date ge @septuagesima & date lt @easter & date ge @ash_wednesday & date lt @easter,,,Commemoration of Our Lady of Lourdes,gradual,"Song of Songs 2:10, 12, 14; Judith 15:10; Song of Songs 4:7"
+our_lady_of_lourdes_0211,,date ge @ash_wednesday & date lt @easter,,,Commemoration of Our Lady of Lourdes,gospel,Luke 1:26–31
+seven_holy_founders_0212,,date lt @ash_wednesday,,,,introit,Wisdom 10:20–21; Psalm 8:2
+seven_holy_founders_0212,,date lt @ash_wednesday,,,,epistle,Sirach 44:1–15
+seven_holy_founders_0212,,date lt @septuagesima & date lt @ash_wednesday,,,,gradual,Isaiah 65:23; Sirach 44:14–15
+seven_holy_founders_0212,,date ge @septuagesima & date lt @easter & date lt @ash_wednesday,,,,gradual,Isaiah 65:23; Sirach 44:14; Psalm 126:5–6
+seven_holy_founders_0212,,date lt @ash_wednesday,,,,gospel,Matthew 19:27–29
+seven_holy_founders_0212,,date ge @ash_wednesday & date lt @easter,,,Commemoration of Seven Holy Founders,introit,Wisdom 10:20–21; Psalm 8:2
+seven_holy_founders_0212,,date ge @ash_wednesday & date lt @easter,,,Commemoration of Seven Holy Founders,epistle,Sirach 44:1–15
+seven_holy_founders_0212,,date ge @septuagesima & date lt @easter & date ge @ash_wednesday & date lt @easter,,,Commemoration of Seven Holy Founders,gradual,Isaiah 65:23; Sirach 44:14; Psalm 126:5–6
+seven_holy_founders_0212,,date ge @ash_wednesday & date lt @easter,,,Commemoration of Seven Holy Founders,gospel,Matthew 19:27–29
+chair_of_st_peter_0222,,,,,,introit,Psalm 21:2–4
+chair_of_st_peter_0222,,,,,,epistle,1 Peter 1:1–7
+chair_of_st_peter_0222,,,,,,gradual,Psalm 107:31–32; Matthew 16:18–19
+chair_of_st_peter_0222,,,,,,gospel,Matthew 16:13–19
+st_peter_damian_0223,,date lt @ash_wednesday,,,,introit,Sirach 15:5; Psalm 92:2
+st_peter_damian_0223,,date lt @ash_wednesday,,,,epistle,2 Timothy 4:1–8
+st_peter_damian_0223,,date lt @ash_wednesday,,,,gradual,Psalm 37:30–31; 112:1–3
+st_peter_damian_0223,,date lt @ash_wednesday,,,,gospel,Matthew 5:13–19
+st_peter_damian_0223,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Peter Damian,introit,Sirach 15:5; Psalm 92:2
+st_peter_damian_0223,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Peter Damian,epistle,2 Timothy 4:1–8
+st_peter_damian_0223,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Peter Damian,gradual,Psalm 37:30–31; 112:1–3
+st_peter_damian_0223,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Peter Damian,gospel,Matthew 5:13–19
+st_matthias_0224,,,,,,introit,"Psalm 139:1–2, 17"
+st_matthias_0224,,,,,,epistle,Acts 1:15–26
+st_matthias_0224,,,,,,gradual,Psalm 139:17–18; 21:3–4
+st_matthias_0224,,,,,,gospel,Matthew 11:25–30
+st_matthias_0224_leap,,,,,,introit,"Psalm 139:1–2, 17"
+st_matthias_0224_leap,,,,,,epistle,Acts 1:15–26
+st_matthias_0224_leap,,,,,,gradual,Psalm 139:17–18; 21:3–4
+st_matthias_0224_leap,,,,,,gospel,Matthew 11:25–30
+st_gabriel_of_our_lady_of_sorrows_0227,,date lt @ash_wednesday,,,,introit,Sirach 11:13; Psalm 73:1
+st_gabriel_of_our_lady_of_sorrows_0227,,date lt @ash_wednesday,,,,epistle,1 John 2:14–17
+st_gabriel_of_our_lady_of_sorrows_0227,,date lt @ash_wednesday,,,,gradual,"Psalm 31:20; 84:6–7, 11, 13"
+st_gabriel_of_our_lady_of_sorrows_0227,,date lt @ash_wednesday,,,,gospel,Mark 10:13–21
+st_gabriel_of_our_lady_of_sorrows_0227,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Gabriel of Our Lady of Sorrows,introit,Sirach 11:13; Psalm 73:1
+st_gabriel_of_our_lady_of_sorrows_0227,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Gabriel of Our Lady of Sorrows,epistle,1 John 2:14–17
+st_gabriel_of_our_lady_of_sorrows_0227,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Gabriel of Our Lady of Sorrows,gradual,"Psalm 31:20; 84:6–7, 11, 13"
+st_gabriel_of_our_lady_of_sorrows_0227,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Gabriel of Our Lady of Sorrows,gospel,Mark 10:13–21
+st_gabriel_of_our_lady_of_sorrows_0227_leap,,date lt @ash_wednesday,,,,introit,Sirach 11:13; Psalm 73:1
+st_gabriel_of_our_lady_of_sorrows_0227_leap,,date lt @ash_wednesday,,,,epistle,1 John 2:14–17
+st_gabriel_of_our_lady_of_sorrows_0227_leap,,date lt @ash_wednesday,,,,gradual,"Psalm 31:20; 84:6–7, 11, 13"
+st_gabriel_of_our_lady_of_sorrows_0227_leap,,date lt @ash_wednesday,,,,gospel,Mark 10:13–21
+st_gabriel_of_our_lady_of_sorrows_0227_leap,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Gabriel of Our Lady of Sorrows,introit,Sirach 11:13; Psalm 73:1
+st_gabriel_of_our_lady_of_sorrows_0227_leap,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Gabriel of Our Lady of Sorrows,epistle,1 John 2:14–17
+st_gabriel_of_our_lady_of_sorrows_0227_leap,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Gabriel of Our Lady of Sorrows,gradual,"Psalm 31:20; 84:6–7, 11, 13"
+st_gabriel_of_our_lady_of_sorrows_0227_leap,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Gabriel of Our Lady of Sorrows,gospel,Mark 10:13–21
+st_casimir_0304,,date lt @ash_wednesday,,,,introit,"Psalm 37:1, 30–31"
+st_casimir_0304,,date lt @ash_wednesday,,,,epistle,Sirach 31:8–11
+st_casimir_0304,,date lt @ash_wednesday,,,,gradual,"Psalm 92:3, 13–14; 112:1–3"
+st_casimir_0304,,date lt @ash_wednesday,,,,gospel,Luke 12:35–40
+st_casimir_0304,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Casimir,introit,"Psalm 37:1, 30–31"
+st_casimir_0304,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Casimir,epistle,Sirach 31:8–11
+st_casimir_0304,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Casimir,gradual,"Psalm 92:3, 13–14; 112:1–3"
+st_casimir_0304,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Casimir,gospel,Luke 12:35–40
+ss_perpetua_and_felicity_0306,,date lt @ash_wednesday,,,,introit,"Psalm 119:1, 95–96"
+ss_perpetua_and_felicity_0306,,date lt @ash_wednesday,,,,epistle,"Sirach 51:1–8, 12"
+ss_perpetua_and_felicity_0306,,date lt @ash_wednesday,,,,gradual,"Psalm 46:5–6; 45:5, 8"
+ss_perpetua_and_felicity_0306,,date lt @ash_wednesday,,,,gospel,Matthew 13:44–52
+ss_perpetua_and_felicity_0306,,date ge @ash_wednesday & date lt @easter,,,Commemoration of Ss. Perpetua and Felicity,introit,"Psalm 119:1, 95–96"
+ss_perpetua_and_felicity_0306,,date ge @ash_wednesday & date lt @easter,,,Commemoration of Ss. Perpetua and Felicity,epistle,"Sirach 51:1–8, 12"
+ss_perpetua_and_felicity_0306,,date ge @ash_wednesday & date lt @easter,,,Commemoration of Ss. Perpetua and Felicity,gradual,"Psalm 46:5–6; 45:5, 8"
+ss_perpetua_and_felicity_0306,,date ge @ash_wednesday & date lt @easter,,,Commemoration of Ss. Perpetua and Felicity,gospel,Matthew 13:44–52
+st_thomas_aquinas_0307,,date lt @ash_wednesday,,,,introit,Sirach 15:5; Psalm 92:2
+st_thomas_aquinas_0307,,date lt @ash_wednesday,,,,epistle,Wisdom 7:7–14
+st_thomas_aquinas_0307,,date lt @ash_wednesday,,,,gradual,Psalm 37:30–31; 112:1–3
+st_thomas_aquinas_0307,,date lt @ash_wednesday,,,,gospel,Matthew 5:13–19
+st_thomas_aquinas_0307,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Thomas Aquinas,introit,Sirach 15:5; Psalm 92:2
+st_thomas_aquinas_0307,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Thomas Aquinas,epistle,Wisdom 7:7–14
+st_thomas_aquinas_0307,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Thomas Aquinas,gradual,Psalm 37:30–31; 112:1–3
+st_thomas_aquinas_0307,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Thomas Aquinas,gospel,Matthew 5:13–19
+st_john_of_god_0308,,date lt @ash_wednesday,,,,introit,"Psalm 37:1, 30–31"
+st_john_of_god_0308,,date lt @ash_wednesday,,,,epistle,Sirach 31:8–11
+st_john_of_god_0308,,date lt @ash_wednesday,,,,gradual,"Psalm 92:3, 13–14; 112:1–3"
+st_john_of_god_0308,,date lt @ash_wednesday,,,,gospel,Matthew 22:34–46
+st_john_of_god_0308,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. John of God,introit,"Psalm 37:1, 30–31"
+st_john_of_god_0308,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. John of God,epistle,Sirach 31:8–11
+st_john_of_god_0308,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. John of God,gradual,"Psalm 92:3, 13–14; 112:1–3"
+st_john_of_god_0308,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. John of God,gospel,Matthew 22:34–46
+st_frances_of_rome_0309,,date lt @ash_wednesday,,,,introit,"Psalm 119:1, 75, 120"
+st_frances_of_rome_0309,,date lt @ash_wednesday,,,,epistle,Proverbs 31:10–31
+st_frances_of_rome_0309,,date lt @ash_wednesday,,,,gradual,"Psalm 45:3, 5, 8"
+st_frances_of_rome_0309,,date lt @ash_wednesday,,,,gospel,Matthew 13:44–52
+st_frances_of_rome_0309,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Frances of Rome,introit,"Psalm 119:1, 75, 120"
+st_frances_of_rome_0309,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Frances of Rome,epistle,Proverbs 31:10–31
+st_frances_of_rome_0309,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Frances of Rome,gradual,"Psalm 45:3, 5, 8"
+st_frances_of_rome_0309,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Frances of Rome,gospel,Matthew 13:44–52
+forty_holy_martyrs_0310,,date lt @ash_wednesday,,,,introit,"Psalm 34:2, 18"
+forty_holy_martyrs_0310,,date lt @ash_wednesday,,,,epistle,Hebrews 11:33–39
+forty_holy_martyrs_0310,,date lt @ash_wednesday,,,,gradual,Psalm 133:1–2; 126:5–6
+forty_holy_martyrs_0310,,date lt @ash_wednesday,,,,gospel,Luke 6:17–23
+forty_holy_martyrs_0310,,date ge @ash_wednesday & date lt @easter,,,Commemoration of Forty Holy Martyrs,introit,"Psalm 34:2, 18"
+forty_holy_martyrs_0310,,date ge @ash_wednesday & date lt @easter,,,Commemoration of Forty Holy Martyrs,epistle,Hebrews 11:33–39
+forty_holy_martyrs_0310,,date ge @ash_wednesday & date lt @easter,,,Commemoration of Forty Holy Martyrs,gradual,Psalm 133:1–2; 126:5–6
+forty_holy_martyrs_0310,,date ge @ash_wednesday & date lt @easter,,,Commemoration of Forty Holy Martyrs,gospel,Luke 6:17–23
+st_gregory_the_great_0312,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Gregory the Great,introit,Sirach 15:5; Psalm 92:2
+st_gregory_the_great_0312,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Gregory the Great,epistle,2 Timothy 4:1–8
+st_gregory_the_great_0312,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Gregory the Great,gradual,Psalm 37:30–31; 112:1–3
+st_gregory_the_great_0312,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Gregory the Great,gospel,Matthew 5:13–19
+st_patrick_0317,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Patrick,introit,Sirach 45:30; Psalm 132:1
+st_patrick_0317,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Patrick,epistle,Sirach 44:16–27; 45:3–20
+st_patrick_0317,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Patrick,gradual,"Sirach 44:16, 20; Psalm 112:1–3"
+st_patrick_0317,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Patrick,gospel,Matthew 25:14–23
+st_cyril_of_jerusalem_0318,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Cyril of Jerusalem,introit,Sirach 15:5; Psalm 92:2
+st_cyril_of_jerusalem_0318,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Cyril of Jerusalem,epistle,Sirach 39:6–14
+st_cyril_of_jerusalem_0318,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Cyril of Jerusalem,gradual,Psalm 37:30–31; 112:1–3
+st_cyril_of_jerusalem_0318,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Cyril of Jerusalem,gospel,Matthew 10:23–28
+st_joseph_0319,,,,,,introit,"Psalm 92:2, 13–14"
+st_joseph_0319,,,,,,epistle,Sirach 45:1–6
+st_joseph_0319,,,,,,gradual,Psalm 21:4–5; 112:1–3
+st_joseph_0319,,,,,,gospel,Matthew 1:18–21
+st_benedict_0321,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Benedict,introit,"Psalm 37:1, 30–31"
+st_benedict_0321,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Benedict,epistle,Sirach 45:1–6
+st_benedict_0321,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Benedict,gradual,Psalm 21:4–5; 112:1–3
+st_benedict_0321,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Benedict,gospel,Matthew 19:27–29
+st_gabriel_the_archangel_0324,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Gabriel the Archangel,introit,"Psalm 103:1, 20"
+st_gabriel_the_archangel_0324,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Gabriel the Archangel,epistle,Daniel 9:21–26
+st_gabriel_the_archangel_0324,,date ge @septuagesima & date lt @easter & date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Gabriel the Archangel,gradual,"Psalm 103:1, 20; Luke 1:28, 31, 35, 42"
+st_gabriel_the_archangel_0324,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Gabriel the Archangel,gospel,Luke 1:26–38
+st_gabriel_the_archangel_0324,,date ge @easter,,,,introit,"Psalm 103:1, 20"
+st_gabriel_the_archangel_0324,,date ge @easter,,,,epistle,Daniel 9:21–26
+st_gabriel_the_archangel_0324,,date ge @easter & date lt @trinity & date ge @easter,,,,gradual,Psalm 104:4; Luke 1:28
+st_gabriel_the_archangel_0324,,date ge @easter,,,,gospel,Luke 1:26–38
+annunciation_0325,,,,,,introit,"Psalm 45:2, 13, 15–16"
+annunciation_0325,,,,,,epistle,Isaiah 7:10–15
+annunciation_0325,,date ge @septuagesima & date lt @easter,,,,gradual,"Psalm 45:3, 5, 10–13, 15–16"
+annunciation_0325,,date ge @easter & date lt @trinity,,,,gradual,Luke 1:28; Numbers 17:8
+annunciation_0325,,,,,,gospel,Luke 1:26–38
+st_john_damascene_0327,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. John Damascene,introit,"Psalm 73:1, 24"
+st_john_damascene_0327,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. John Damascene,epistle,Wisdom 10:10–17
+st_john_damascene_0327,,date ge @septuagesima & date lt @easter & date ge @ash_wednesday & date lt @easter,,,Commemoration of St. John Damascene,gradual,"Psalm 18:33, 35, 38–39, 50"
+st_john_damascene_0327,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. John Damascene,gospel,Luke 6:6–11
+st_john_damascene_0327,,date ge @easter,,,,introit,"Psalm 73:1, 24"
+st_john_damascene_0327,,date ge @easter,,,,epistle,Wisdom 10:10–17
+st_john_damascene_0327,,date ge @easter & date lt @trinity & date ge @easter,,,,gradual,"1 Samuel 25:26, 28; Psalm 144:1"
+st_john_damascene_0327,,date ge @easter,,,,gospel,Luke 6:6–11
+st_john_capistran_0328,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. John Capistran,introit,Habakkuk 3:18–19; Psalm 81:2
+st_john_capistran_0328,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. John Capistran,epistle,Wisdom 10:10–14
+st_john_capistran_0328,,date ge @septuagesima & date lt @easter & date ge @ash_wednesday & date lt @easter,,,Commemoration of St. John Capistran,gradual,Psalm 22:24–25; Exodus 15:2–3; Judith 16:3
+st_john_capistran_0328,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. John Capistran,gospel,Luke 9:1–6
+st_john_capistran_0328,,date ge @easter,,,,introit,Habakkuk 3:18–19; Psalm 81:2
+st_john_capistran_0328,,date ge @easter,,,,epistle,Wisdom 10:10–14
+st_john_capistran_0328,,date ge @easter & date lt @trinity & date ge @easter,,,,gradual,Psalm 59:17
+st_john_capistran_0328,,date ge @easter,,,,gospel,Luke 9:1–6
+st_francis_of_paola_0402,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Francis of Paola,introit,"Psalm 92:2, 13–14"
+st_francis_of_paola_0402,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Francis of Paola,epistle,Philippians 3:7–12
+st_francis_of_paola_0402,,date ge @septuagesima & date lt @easter & date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Francis of Paola,gradual,Psalm 37:30–31; 112:1–3
+st_francis_of_paola_0402,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Francis of Paola,gospel,Luke 12:32–34
+st_francis_of_paola_0402,,date ge @easter,,,,introit,"Psalm 92:2, 13–14"
+st_francis_of_paola_0402,,date ge @easter,,,,epistle,Philippians 3:7–12
+st_francis_of_paola_0402,,date ge @easter & date lt @trinity & date ge @easter,,,,gradual,Psalm 112:1; Hosea 14:6
+st_francis_of_paola_0402,,date ge @easter,,,,gospel,Luke 12:32–34
+st_isidore_0404,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Isidore,introit,Sirach 15:5; Psalm 92:2
+st_isidore_0404,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Isidore,epistle,2 Timothy 4:1–8
+st_isidore_0404,,date ge @septuagesima & date lt @easter & date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Isidore,gradual,Psalm 37:30–31; 112:1–3
+st_isidore_0404,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Isidore,gospel,Matthew 5:13–19
+st_isidore_0404,,date ge @easter,,,,introit,Sirach 15:5; Psalm 92:2
+st_isidore_0404,,date ge @easter,,,,epistle,2 Timothy 4:1–8
+st_isidore_0404,,date ge @easter & date lt @trinity & date ge @easter,,,,gradual,Sirach 45:9; Hosea 14:6
+st_isidore_0404,,date ge @easter,,,,gospel,Matthew 5:13–19
+st_vincent_ferrer_0405,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Vincent Ferrer,introit,"Psalm 37:1, 30–31"
+st_vincent_ferrer_0405,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Vincent Ferrer,epistle,Sirach 31:8–11
+st_vincent_ferrer_0405,,date ge @septuagesima & date lt @easter & date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Vincent Ferrer,gradual,"Psalm 92:3, 13–14; 112:1–3"
+st_vincent_ferrer_0405,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Vincent Ferrer,gospel,Luke 12:35–40
+st_vincent_ferrer_0405,,date ge @easter,,,,introit,"Psalm 37:1, 30–31"
+st_vincent_ferrer_0405,,date ge @easter,,,,epistle,Sirach 31:8–11
+st_vincent_ferrer_0405,,date ge @easter & date lt @trinity & date ge @easter,,,,gradual,James 1:12; Sirach 45:9
+st_vincent_ferrer_0405,,date ge @easter,,,,gospel,Luke 12:35–40
+st_leo_the_great_0411,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Leo the Great,introit,John 21:15–17; Psalm 30:2
+st_leo_the_great_0411,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Leo the Great,epistle,"1 Peter 5:1–4, 10–11"
+st_leo_the_great_0411,,date ge @septuagesima & date lt @easter & date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Leo the Great,gradual,Psalm 107:31–32; 40:10–11
+st_leo_the_great_0411,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Leo the Great,gospel,Matthew 16:13–19
+st_leo_the_great_0411,,date ge @easter,,,,introit,John 21:15–17; Psalm 30:2
+st_leo_the_great_0411,,date ge @easter,,,,epistle,"1 Peter 5:1–4, 10–11"
+st_leo_the_great_0411,,date ge @easter & date lt @trinity & date ge @easter,,,,gradual,Matthew 16:18; Psalm 45:17–18
+st_leo_the_great_0411,,date ge @easter,,,,gospel,Matthew 16:13–19
+st_hermenegild_0413,,date ge @septuagesima & date lt @easter & date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Hermenegild,introit,Psalm 21:2–4
+st_hermenegild_0413,,date ge @septuagesima & date lt @easter & date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Hermenegild,epistle,Wisdom 10:10–14
+st_hermenegild_0413,,date ge @septuagesima & date lt @easter & date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Hermenegild,gradual,Psalm 112:1–2; 21:3–4
+st_hermenegild_0413,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Hermenegild,gospel,Luke 14:26–33
+st_hermenegild_0413,,date ge @easter & date lt @trinity & date ge @easter,,,,introit,Psalm 64:2–3
+st_hermenegild_0413,,date ge @easter & date lt @trinity & date ge @easter,,,,epistle,Wisdom 5:1–5
+st_hermenegild_0413,,date ge @easter & date lt @trinity & date ge @easter,,,,gradual,Psalm 89:6; 21:4
+st_hermenegild_0413,,date ge @easter,,,,gospel,Luke 14:26–33
+st_justin_0414,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Justin,introit,"Psalm 119:1, 46, 85"
+st_justin_0414,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Justin,epistle,"1 Corinthians 1:18–25, 30"
+st_justin_0414,,date ge @septuagesima & date lt @easter & date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Justin,gradual,"1 Corinthians 2:2, 7–8"
+st_justin_0414,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Justin,gospel,Luke 12:2–8
+st_justin_0414,,date ge @easter,,,,introit,"Psalm 119:1, 46, 85"
+st_justin_0414,,date ge @easter,,,,epistle,"1 Corinthians 1:18–25, 30"
+st_justin_0414,,date ge @easter & date lt @trinity & date ge @easter,,,,gradual,1 Corinthians 3:19–20; 1:19; Philippians 3:8
+st_justin_0414,,date ge @easter,,,,gospel,Luke 12:2–8
+st_anselm_0421,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Anselm,introit,Sirach 15:5; Psalm 92:2
+st_anselm_0421,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Anselm,epistle,2 Timothy 4:1–8
+st_anselm_0421,,date ge @septuagesima & date lt @easter & date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Anselm,gradual,Psalm 37:30–31; 112:1–3
+st_anselm_0421,,date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Anselm,gospel,Matthew 5:13–19
+st_anselm_0421,,date ge @easter,,,,introit,Sirach 15:5; Psalm 92:2
+st_anselm_0421,,date ge @easter,,,,epistle,2 Timothy 4:1–8
+st_anselm_0421,,date ge @easter & date lt @trinity & date ge @easter,,,,gradual,Sirach 45:9; Hosea 14:6
+st_anselm_0421,,date ge @easter,,,,gospel,Matthew 5:13–19
+ss_soter_and_caius_0422,,date ge @ash_wednesday & date lt @easter,,,Commemoration of Ss. Soter and Caius,introit,John 21:15–17; Psalm 30:2
+ss_soter_and_caius_0422,,date ge @ash_wednesday & date lt @easter,,,Commemoration of Ss. Soter and Caius,epistle,"1 Peter 5:1–4, 10–11"
+ss_soter_and_caius_0422,,date ge @septuagesima & date lt @easter & date ge @ash_wednesday & date lt @easter,,,Commemoration of Ss. Soter and Caius,gradual,Psalm 107:31–32; 40:10–11
+ss_soter_and_caius_0422,,date ge @ash_wednesday & date lt @easter,,,Commemoration of Ss. Soter and Caius,gospel,Matthew 16:13–19
+ss_soter_and_caius_0422,,date ge @easter,,,,introit,John 21:15–17; Psalm 30:2
+ss_soter_and_caius_0422,,date ge @easter,,,,epistle,"1 Peter 5:1–4, 10–11"
+ss_soter_and_caius_0422,,date ge @easter & date lt @trinity & date ge @easter,,,,gradual,Matthew 16:18; Psalm 45:17–18
+ss_soter_and_caius_0422,,date ge @easter,,,,gospel,Matthew 16:13–19
+st_fidelis_of_sigmaringen_0424,,date ge @septuagesima & date lt @easter & date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Fidelis of Sigmaringen,introit,Psalm 21:2–4
+st_fidelis_of_sigmaringen_0424,,date ge @septuagesima & date lt @easter & date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Fidelis of Sigmaringen,epistle,Wisdom 10:10–14
+st_fidelis_of_sigmaringen_0424,,date ge @septuagesima & date lt @easter & date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Fidelis of Sigmaringen,gradual,Psalm 112:1–2; 21:3–4
+st_fidelis_of_sigmaringen_0424,,date ge @septuagesima & date lt @easter & date ge @ash_wednesday & date lt @easter,,,Commemoration of St. Fidelis of Sigmaringen,gospel,Matthew 10:34–42
+st_fidelis_of_sigmaringen_0424,,date ge @easter & date lt @trinity & date ge @easter,,,,introit,Psalm 64:2–3
+st_fidelis_of_sigmaringen_0424,,date ge @easter & date lt @trinity & date ge @easter,,,,epistle,Wisdom 5:1–5
+st_fidelis_of_sigmaringen_0424,,date ge @easter & date lt @trinity & date ge @easter,,,,gradual,Psalm 89:6; 21:4
+st_fidelis_of_sigmaringen_0424,,date ge @easter & date lt @trinity & date ge @easter,,,,gospel,John 15:1–7
+st_mark_0425,,,,,,introit,Psalm 64:2–3
+st_mark_0425,,,,,,epistle,Ezekiel 1:10–14
+st_mark_0425,,,,,,gradual,Psalm 89:6; 21:4
+st_mark_0425,,,,,,gospel,Luke 10:1–9
+ss_cletus_and_marcellinus_0426,,,,,,introit,John 21:15–17; Psalm 30:2
+ss_cletus_and_marcellinus_0426,,,,,,epistle,"1 Peter 5:1–4, 10–11"
+ss_cletus_and_marcellinus_0426,,,,,,gradual,Matthew 16:18; Psalm 45:17–18
+ss_cletus_and_marcellinus_0426,,,,,,gospel,Matthew 16:13–19
+st_peter_canisius_0427,,,,,,introit,Sirach 15:5; Psalm 92:2
+st_peter_canisius_0427,,,,,,epistle,2 Timothy 4:1–8
+st_peter_canisius_0427,,,,,,gradual,Sirach 45:9; Hosea 14:6
+st_peter_canisius_0427,,,,,,gospel,Matthew 5:13–19
+st_paul_of_the_cross_0428,,,,,,introit,Galatians 2:19–20; Psalm 41:2
+st_paul_of_the_cross_0428,,,,,,epistle,1 Corinthians 1:17–25
+st_paul_of_the_cross_0428,,,,,,gradual,2 Corinthians 5:15; Romans 8:17
+st_paul_of_the_cross_0428,,,,,,gospel,Luke 10:1–9
+st_peter_of_verona_0429,,,,,,introit,Psalm 64:2–3
+st_peter_of_verona_0429,,,,,,epistle,2 Timothy 2:8–10; 3:10–12
+st_peter_of_verona_0429,,,,,,gradual,Psalm 89:6; 21:4
+st_peter_of_verona_0429,,,,,,gospel,John 15:1–7
+st_catherine_of_siena_0430,,,,,,introit,"Psalm 45:2, 8"
+st_catherine_of_siena_0430,,,,,,epistle,2 Corinthians 10:17–18; 11:1–2
+st_catherine_of_siena_0430,,,,,,gradual,"Psalm 45:5, 15–16"
+st_catherine_of_siena_0430,,,,,,gospel,Matthew 25:1–13
+st_joseph_the_workman_0501,,,,,,introit,Wisdom 10:17; Psalm 127:1
+st_joseph_the_workman_0501,,,,,,epistle,"Colossians 3:14–15, 17, 23–24"
+st_joseph_the_workman_0501,,,,,,gospel,Matthew 13:54–58
+st_athanasius_0502,,,,,,introit,Sirach 15:5; Psalm 92:2
+st_athanasius_0502,,,,,,epistle,2 Corinthians 4:5–14
+st_athanasius_0502,,,,,,gradual,Psalm 110:4; James 1:12
+st_athanasius_0502,,,,,,gospel,Matthew 10:23–28
+st_monica_0504,,,,,,introit,"Psalm 119:1, 75, 120"
+st_monica_0504,,,,,,epistle,1 Timothy 5:3–10
+st_monica_0504,,,,,,gradual,Psalm 45:5
+st_monica_0504,,,,,,gospel,Luke 7:11–16
+st_pius_v_0505,,,,,,introit,John 21:15–17; Psalm 30:2
+st_pius_v_0505,,,,,,epistle,"1 Peter 5:1–4, 10–11"
+st_pius_v_0505,,,,,,gradual,Matthew 16:18; Psalm 45:17–18
+st_pius_v_0505,,,,,,gospel,Matthew 16:13–19
+st_stanislaus_0507,,,,,,introit,Psalm 64:2–3
+st_stanislaus_0507,,,,,,epistle,Wisdom 5:1–5
+st_stanislaus_0507,,,,,,gradual,Psalm 89:6; 21:4
+st_stanislaus_0507,,,,,,gospel,John 15:1–7
+st_gregory_nazianzen_0509,,,,,,introit,Sirach 15:5; Psalm 92:2
+st_gregory_nazianzen_0509,,,,,,epistle,Sirach 39:6–14
+st_gregory_nazianzen_0509,,,,,,gradual,Sirach 45:9; Hosea 14:6
+st_gregory_nazianzen_0509,,,,,,gospel,Matthew 5:13–19
+st_antoninus_0510,,,,,,introit,Sirach 45:30; Psalm 132:1
+st_antoninus_0510,,,,,,epistle,Sirach 44:16–27; 45:3–20
+st_antoninus_0510,,,,,,gradual,Psalm 110:4
+st_antoninus_0510,,,,,,gospel,Matthew 25:14–23
+ss_philip_and_james_0511,,,,,,introit,Nehemiah 9:27; Psalm 33:1
+ss_philip_and_james_0511,,,,,,epistle,Wisdom 5:1–5
+ss_philip_and_james_0511,,,,,,gradual,Psalm 89:6; John 14:9
+ss_philip_and_james_0511,,,,,,gospel,John 14:1–13
+ss_nereus_achilleus_domitilla_and_pancras_0512,,,,,,introit,"Psalm 33:1, 18–20"
+ss_nereus_achilleus_domitilla_and_pancras_0512,,,,,,epistle,Wisdom 5:1–5
+ss_nereus_achilleus_domitilla_and_pancras_0512,,,,,,gospel,John 4:46–53
+st_robert_bellarmine_0513,,,,,,introit,Sirach 15:5; Psalm 92:2
+st_robert_bellarmine_0513,,,,,,epistle,Wisdom 7:7–14
+st_robert_bellarmine_0513,,,,,,gradual,Daniel 12:3
+st_robert_bellarmine_0513,,,,,,gospel,Matthew 5:13–19
+st_john_baptist_de_la_salle_0515,,,,,,introit,"Psalm 37:1, 30–31"
+st_john_baptist_de_la_salle_0515,,,,,,epistle,Sirach 31:8–11
+st_john_baptist_de_la_salle_0515,,,,,,gradual,James 1:12; Sirach 45:9
+st_john_baptist_de_la_salle_0515,,,,,,gospel,Matthew 18:1–5
+st_ubald_0516,,,,,,introit,Sirach 45:30; Psalm 132:1
+st_ubald_0516,,,,,,epistle,Sirach 44:16–27; 45:3–20
+st_ubald_0516,,,,,,gradual,Psalm 110:4
+st_ubald_0516,,,,,,gospel,Matthew 25:14–23
+st_paschal_baylon_0517,,,,,,introit,"Psalm 37:1, 30–31"
+st_paschal_baylon_0517,,,,,,epistle,Sirach 31:8–11
+st_paschal_baylon_0517,,date ge @trinity,,,,gradual,"Psalm 92:3, 13–14; James 1:12"
+st_paschal_baylon_0517,,date ge @easter & date lt @trinity,,,,gradual,James 1:12; Sirach 45:9
+st_paschal_baylon_0517,,,,,,gospel,Luke 12:35–40
+st_venantius_0518,,date ge @trinity,,,,introit,Psalm 21:2–4
+st_venantius_0518,,date ge @easter & date lt @trinity,,,,introit,Psalm 64:2–3
+st_venantius_0518,,date ge @trinity,,,,epistle,Wisdom 10:10–14
+st_venantius_0518,,date ge @easter & date lt @trinity,,,,epistle,Wisdom 5:1–5
+st_venantius_0518,,date ge @trinity,,,,gradual,Psalm 112:1–2; 21:4
+st_venantius_0518,,date ge @easter & date lt @trinity,,,,gradual,Psalm 89:6; 21:4
+st_venantius_0518,,date ge @trinity,,,,gospel,Matthew 10:34–42
+st_venantius_0518,,date ge @easter & date lt @trinity,,,,gospel,John 15:1–7
+st_peter_celestine_0519,,,,,,introit,John 21:15–17; Psalm 30:2
+st_peter_celestine_0519,,,,,,epistle,"1 Peter 5:1–4, 10–11"
+st_peter_celestine_0519,,date ge @trinity,,,,gradual,Psalm 107:31–32; Matthew 16:18
+st_peter_celestine_0519,,date ge @easter & date lt @trinity,,,,gradual,Matthew 16:18; Psalm 45:17–18
+st_peter_celestine_0519,,,,,,gospel,Matthew 16:13–19
+st_bernardine_of_siena_0520,,,,,,introit,"Psalm 37:1, 30–31"
+st_bernardine_of_siena_0520,,,,,,epistle,Sirach 31:8–11
+st_bernardine_of_siena_0520,,date ge @trinity,,,,gradual,"Psalm 92:3, 13–14; James 1:12"
+st_bernardine_of_siena_0520,,date ge @easter & date lt @trinity,,,,gradual,James 1:12; Sirach 45:9
+st_bernardine_of_siena_0520,,,,,,gospel,Matthew 19:27–29
+st_gregory_vii_0525,,,,,,introit,John 21:15–17; Psalm 30:2
+st_gregory_vii_0525,,,,,,epistle,"1 Peter 5:1–4, 10–11"
+st_gregory_vii_0525,,date ge @trinity,,,,gradual,Psalm 107:31–32; Matthew 16:18
+st_gregory_vii_0525,,date ge @easter & date lt @trinity,,,,gradual,Matthew 16:18; Psalm 45:17–18
+st_gregory_vii_0525,,,,,,gospel,Matthew 16:13–19
+st_philip_neri_0526,,,,,,introit,Romans 5:5; Psalm 103:1
+st_philip_neri_0526,,,,,,epistle,Wisdom 7:7–14
+st_philip_neri_0526,,date ge @trinity,,,,gradual,"Psalm 34:6, 12; Lamentations 1:13"
+st_philip_neri_0526,,date ge @easter & date lt @trinity,,,,gradual,Lamentations 1:13; Psalm 39:4
+st_philip_neri_0526,,,,,,gospel,Luke 12:35–40
+st_bede_the_venerable_0527,,,,,,introit,Sirach 15:5; Psalm 92:2
+st_bede_the_venerable_0527,,,,,,epistle,2 Timothy 4:1–8
+st_bede_the_venerable_0527,,date ge @trinity,,,,gradual,Psalm 37:30–31; Sirach 45:9
+st_bede_the_venerable_0527,,date ge @easter & date lt @trinity,,,,gradual,Sirach 45:9; Hosea 14:6
+st_bede_the_venerable_0527,,,,,,gospel,Matthew 5:13–19
+st_augustine_of_canterbury_0528,,,,,,introit,"Psalm 132:1, 9–10"
+st_augustine_of_canterbury_0528,,,,,,epistle,1 Thessalonians 2:2–9
+st_augustine_of_canterbury_0528,,date ge @trinity,,,,gradual,Psalm 132:16–17; 110:4
+st_augustine_of_canterbury_0528,,date ge @easter & date lt @trinity,,,,gradual,Psalm 110:4; Sirach 45:9
+st_augustine_of_canterbury_0528,,,,,,gospel,Luke 10:1–9
+st_mary_magdalen_de_pazzi_0529,,,,,,introit,"Psalm 45:2, 8"
+st_mary_magdalen_de_pazzi_0529,,,,,,epistle,2 Corinthians 10:17–18; 11:1–2
+st_mary_magdalen_de_pazzi_0529,,,,,,gradual,"Psalm 45:5, 15–16"
+st_mary_magdalen_de_pazzi_0529,,,,,,gospel,Matthew 25:1–13
+queenship_of_the_bvm_0531,,,,,,introit,Psalm 45:2
+queenship_of_the_bvm_0531,,,,,,epistle,"Sirach 24:5, 7, 9–11, 30–31"
+queenship_of_the_bvm_0531,,date ge @trinity,,,,gradual,Revelation 19:16; Psalm 45:10
+queenship_of_the_bvm_0531,,,,,,gospel,Luke 1:26–33
+st_angela_merici_0601,,,,,,introit,"Psalm 45:2, 8"
+st_angela_merici_0601,,,,,,epistle,2 Corinthians 10:17–18; 11:1–2
+st_angela_merici_0601,,,,,,gradual,"Psalm 45:5, 15–16"
+st_angela_merici_0601,,,,,,gospel,Matthew 25:1–13
+st_francis_caracciolo_0604,,,,,,introit,Psalm 22:15; 69:10; 73:1
+st_francis_caracciolo_0604,,,,,,epistle,Wisdom 4:7–14
+st_francis_caracciolo_0604,,date ge @trinity,,,,gradual,Psalm 42:2–3; 73:26
+st_francis_caracciolo_0604,,date ge @easter & date lt @trinity,,,,gradual,Psalm 65:5; 112:9
+st_francis_caracciolo_0604,,,,,,gospel,Luke 12:35–40
+st_boniface_0605,,,,,,introit,"Isaiah 65:19, 23; Psalm 44:2"
+st_boniface_0605,,,,,,epistle,Sirach 44:1–15
+st_boniface_0605,,date ge @trinity,,,,gradual,1 Peter 4:13–14; Isaiah 66:12
+st_boniface_0605,,date ge @easter & date lt @trinity,,,,gradual,"Isaiah 66:10, 14"
+st_boniface_0605,,,,,,gospel,Matthew 5:1–12
+st_norbert_0606,,,,,,introit,Sirach 45:30; Psalm 132:1
+st_norbert_0606,,,,,,epistle,Sirach 44:16–27; 45:3–20
+st_norbert_0606,,date ge @trinity,,,,gradual,"Sirach 44:16, 20; Psalm 110:4"
+st_norbert_0606,,date ge @easter & date lt @trinity,,,,gradual,Psalm 110:4
+st_norbert_0606,,,,,,gospel,Matthew 25:14–23
+st_margaret_of_scotland_0610,,,,,,introit,"Psalm 119:1, 75, 120"
+st_margaret_of_scotland_0610,,,,,,epistle,Proverbs 31:10–31
+st_margaret_of_scotland_0610,,date ge @trinity,,,,gradual,"Psalm 45:3, 5"
+st_margaret_of_scotland_0610,,date ge @easter & date lt @trinity,,,,gradual,Psalm 45:5
+st_margaret_of_scotland_0610,,,,,,gospel,Matthew 13:44–52
+st_barnabas_0611,,,,,,introit,"Psalm 139:1–2, 17"
+st_barnabas_0611,,,,,,epistle,Acts 11:21–26; 13:1–3
+st_barnabas_0611,,,,,,gradual,"Psalm 19:2, 5; John 15:16"
+st_barnabas_0611,,,,,,gospel,Matthew 10:16–22
+st_john_of_san_facundo_0612,,,,,,introit,"Psalm 37:1, 30–31"
+st_john_of_san_facundo_0612,,,,,,epistle,Sirach 31:8–11
+st_john_of_san_facundo_0612,,,,,,gradual,"Psalm 92:3, 13–14; James 1:12"
+st_john_of_san_facundo_0612,,,,,,gospel,Luke 12:35–40
+st_anthony_of_padua_0613,,,,,,introit,Sirach 15:5; Psalm 92:2
+st_anthony_of_padua_0613,,,,,,epistle,2 Timothy 4:1–8
+st_anthony_of_padua_0613,,date ge @trinity,,,,gradual,Psalm 37:30–31; Sirach 45:9
+st_anthony_of_padua_0613,,date ge @easter & date lt @trinity,,,,gradual,Sirach 45:9; Hosea 14:6
+st_anthony_of_padua_0613,,,,,,gospel,Matthew 5:13–19
+st_basil_the_great_0614,,,,,,introit,Sirach 15:5; Psalm 92:2
+st_basil_the_great_0614,,,,,,epistle,2 Timothy 4:1–8
+st_basil_the_great_0614,,,,,,gradual,Psalm 37:30–31; 89:21
+st_basil_the_great_0614,,,,,,gospel,Luke 14:26–35
+st_gregory_barbarigo_0617,,,,,,introit,Sirach 45:30; Psalm 132:1
+st_gregory_barbarigo_0617,,,,,,epistle,Sirach 44:16–27; 45:3–20
+st_gregory_barbarigo_0617,,date ge @trinity,,,,gradual,"Sirach 44:16, 20; Psalm 110:4"
+st_gregory_barbarigo_0617,,date ge @easter & date lt @trinity,,,,gradual,Psalm 110:4
+st_gregory_barbarigo_0617,,,,,,gospel,Matthew 25:14–23
+st_ephrem_0618,,,,,,introit,Sirach 15:5; Psalm 92:2
+st_ephrem_0618,,,,,,epistle,2 Timothy 4:1–8
+st_ephrem_0618,,date ge @trinity,,,,gradual,Psalm 37:30–31; Sirach 45:9
+st_ephrem_0618,,date ge @easter & date lt @trinity,,,,gradual,Sirach 45:9; Hosea 14:6
+st_ephrem_0618,,,,,,gospel,Matthew 5:13–19
+st_juliana_falconieri_0619,,,,,,introit,"Psalm 45:2, 8"
+st_juliana_falconieri_0619,,,,,,epistle,2 Corinthians 10:17–18; 11:1–2
+st_juliana_falconieri_0619,,,,,,gradual,"Psalm 45:5, 15–16"
+st_juliana_falconieri_0619,,,,,,gospel,Matthew 25:1–13
+st_aloysius_gonzaga_0621,,,,,,introit,Psalm 8:6; 148:2
+st_aloysius_gonzaga_0621,,,,,,epistle,Sirach 31:8–11
+st_aloysius_gonzaga_0621,,,,,,gradual,Psalm 71:5–6; 41:13; 65:5
+st_aloysius_gonzaga_0621,,,,,,gospel,Matthew 22:29–40
+st_paulinus_of_nola_0622,,,,,,introit,"Psalm 132:1, 9–10"
+st_paulinus_of_nola_0622,,,,,,epistle,2 Corinthians 8:9–15
+st_paulinus_of_nola_0622,,,,,,gradual,"Sirach 44:16, 20; Psalm 110:4"
+st_paulinus_of_nola_0622,,,,,,gospel,Luke 12:32–34
+vigil_of_st_john_the_baptist_0623,,,,,,introit,Luke 1:13–15; Psalm 21:2
+vigil_of_st_john_the_baptist_0623,,,,,,epistle,Jeremiah 1:4–10
+vigil_of_st_john_the_baptist_0623,,,,,,gradual,John 1:6–7
+vigil_of_st_john_the_baptist_0623,,,,,,gospel,Luke 1:5–17
+nativity_of_st_john_the_baptist_0624,,,,,,introit,Isaiah 49:1–2; Psalm 92:2
+nativity_of_st_john_the_baptist_0624,,,,,,epistle,"Isaiah 49:1–3, 5–7"
+nativity_of_st_john_the_baptist_0624,,,,,,gradual,"Jeremiah 1:5, 9; Luke 1:76"
+nativity_of_st_john_the_baptist_0624,,,,,,gospel,Luke 1:57–68
+st_william_0625,,,,,,introit,"Psalm 37:1, 30–31"
+st_william_0625,,,,,,epistle,Sirach 45:1–6
+st_william_0625,,,,,,gradual,Psalm 21:4–5; 92:13
+st_william_0625,,,,,,gospel,Matthew 19:27–29
+ss_john_and_paul_0626,,,,,,introit,"Psalm 34:2, 20–21"
+ss_john_and_paul_0626,,,,,,epistle,Sirach 44:10–15
+ss_john_and_paul_0626,,,,,,gradual,Psalm 133:1–2
+ss_john_and_paul_0626,,,,,,gospel,Luke 12:1–8
+vigil_of_ss_peter_and_paul_0628,,,,,,introit,John 21:18–19; Psalm 19:2
+vigil_of_ss_peter_and_paul_0628,,,,,,epistle,Acts 3:1–10
+vigil_of_ss_peter_and_paul_0628,,,,,,gradual,"Psalm 19:2, 5"
+vigil_of_ss_peter_and_paul_0628,,,,,,gospel,John 21:15–19
+ss_peter_and_paul_0629,,,,,,introit,Acts 12:11; Psalm 139:1–2
+ss_peter_and_paul_0629,,,,,,epistle,Acts 12:1–11
+ss_peter_and_paul_0629,,,,,,gradual,Psalm 45:17–18; Matthew 16:18
+ss_peter_and_paul_0629,,,,,,gospel,Matthew 16:13–19
+commemoration_of_st_paul_0630,,,,,,introit,2 Timothy 1:12; Psalm 139:1–2
+commemoration_of_st_paul_0630,,,,,,epistle,Galatians 1:11–20
+commemoration_of_st_paul_0630,,,,,,gradual,Galatians 2:8–9; 1 Corinthians 15:10
+commemoration_of_st_paul_0630,,,,,,gospel,Matthew 10:16–22
+most_precious_blood_0701,,,,,,introit,Revelation 5:9–10; Psalm 89:2
+most_precious_blood_0701,,,,,,epistle,Hebrews 9:11–15
+most_precious_blood_0701,,,,,,gradual,1 John 5:6–9
+most_precious_blood_0701,,,,,,gospel,John 19:30–35
+visitation_of_the_bvm_0702,,,,,,introit,Psalm 45:2
+visitation_of_the_bvm_0702,,,,,,epistle,Song of Songs 2:8–14
+visitation_of_the_bvm_0702,,,,,,gospel,Luke 1:39–47
+st_irenaeus_0703,,,,,,introit,Malachi 2:6; Psalm 78:1
+st_irenaeus_0703,,,,,,epistle,2 Timothy 3:14–17; 4:1–5
+st_irenaeus_0703,,,,,,gradual,Psalm 122:8; 37:37; Sirach 6:35
+st_irenaeus_0703,,,,,,gospel,Matthew 10:28–33
+st_anthony_mary_zaccaria_0705,,,,,,introit,1 Corinthians 2:4; Psalm 111:1
+st_anthony_mary_zaccaria_0705,,,,,,epistle,1 Timothy 4:8–16
+st_anthony_mary_zaccaria_0705,,,,,,gradual,Philippians 1:8–11
+st_anthony_mary_zaccaria_0705,,,,,,gospel,Mark 10:15–21
+ss_cyril_and_methodius_0707,,,,,,introit,"Psalm 132:1, 9–10"
+ss_cyril_and_methodius_0707,,,,,,epistle,Hebrews 7:23–27
+ss_cyril_and_methodius_0707,,,,,,gradual,Psalm 132:16–17; 110:4
+ss_cyril_and_methodius_0707,,,,,,gospel,Luke 10:1–9
+st_elizabeth_of_portugal_0708,,,,,,introit,"Psalm 119:1, 75, 120"
+st_elizabeth_of_portugal_0708,,,,,,epistle,Proverbs 31:10–31
+st_elizabeth_of_portugal_0708,,,,,,gradual,"Psalm 45:3, 5"
+st_elizabeth_of_portugal_0708,,,,,,gospel,Matthew 13:44–52
+seven_holy_brothers_0710,,,,,,introit,"Psalm 113:1–2, 9"
+seven_holy_brothers_0710,,,,,,epistle,Proverbs 31:10–31
+seven_holy_brothers_0710,,,,,,gradual,Psalm 124:7–8
+seven_holy_brothers_0710,,,,,,gospel,Matthew 12:46–50
+st_john_gualbert_0712,,,,,,introit,"Psalm 37:1, 30–31"
+st_john_gualbert_0712,,,,,,epistle,Sirach 31:8–11
+st_john_gualbert_0712,,,,,,gradual,"Psalm 92:3, 13–14; James 1:12"
+st_john_gualbert_0712,,,,,,gospel,Matthew 5:43–48
+st_bonaventure_0714,,,,,,introit,Sirach 15:5; Psalm 92:2
+st_bonaventure_0714,,,,,,epistle,2 Timothy 4:1–8
+st_bonaventure_0714,,,,,,gradual,Psalm 37:30–31; 110:4
+st_bonaventure_0714,,,,,,gospel,Matthew 5:13–19
+st_henry_0715,,,,,,introit,"Psalm 37:1, 30–31"
+st_henry_0715,,,,,,epistle,Sirach 31:8–11
+st_henry_0715,,,,,,gradual,"Psalm 92:3, 13–14; James 1:12"
+st_henry_0715,,,,,,gospel,Luke 12:35–40
+st_camillus_de_lellis_0718,,,,,,introit,John 15:13; Psalm 41:2
+st_camillus_de_lellis_0718,,,,,,epistle,1 John 3:13–18
+st_camillus_de_lellis_0718,,,,,,gradual,Psalm 37:30–31; 112:1
+st_camillus_de_lellis_0718,,,,,,gospel,John 15:12–16
+st_vincent_de_paul_0719,,,,,,introit,"Psalm 92:2, 13–14"
+st_vincent_de_paul_0719,,,,,,epistle,1 Corinthians 4:9–14
+st_vincent_de_paul_0719,,,,,,gradual,Psalm 37:30–31; 112:1
+st_vincent_de_paul_0719,,,,,,gospel,Luke 10:1–9
+st_jerome_emiliani_0720,,,,,,introit,Lamentations 2:11; Psalm 113:1
+st_jerome_emiliani_0720,,,,,,epistle,Isaiah 58:7–11
+st_jerome_emiliani_0720,,,,,,gradual,"Proverbs 5:16; Psalm 112:5–6, 9"
+st_jerome_emiliani_0720,,,,,,gospel,Matthew 19:13–21
+st_lawrence_of_brindisi_0721,,,,,,introit,Sirach 15:5; Psalm 92:2
+st_lawrence_of_brindisi_0721,,,,,,epistle,2 Timothy 4:1–8
+st_lawrence_of_brindisi_0721,,,,,,gradual,Psalm 37:30–31; Sirach 45:9
+st_lawrence_of_brindisi_0721,,,,,,gospel,Matthew 5:13–19
+st_mary_magdalene_0722,,,,,,introit,"Psalm 119:1, 95–96"
+st_mary_magdalene_0722,,,,,,epistle,Song of Songs 3:2–5; 8:6–7
+st_mary_magdalene_0722,,,,,,gradual,"Psalm 45:3, 8"
+st_mary_magdalene_0722,,,,,,gospel,Luke 7:36–50
+st_apollinaris_0723,,,,,,introit,"Psalm 64:2, 11"
+st_apollinaris_0723,,,,,,epistle,1 Peter 5:1–11
+st_apollinaris_0723,,,,,,gradual,Psalm 89:21–23; 110:4
+st_apollinaris_0723,,,,,,gospel,Luke 22:24–30
+st_james_0725,,,,,,introit,"Psalm 139:1–2, 17"
+st_james_0725,,,,,,epistle,1 Corinthians 4:9–15
+st_james_0725,,,,,,gradual,Psalm 45:17–18; John 15:16
+st_james_0725,,,,,,gospel,Matthew 20:20–23
+st_anne_0726,,,,,,introit,Psalm 45:2
+st_anne_0726,,,,,,epistle,Proverbs 31:10–31
+st_anne_0726,,,,,,gradual,"Psalm 45:3, 8"
+st_anne_0726,,,,,,gospel,Matthew 13:44–52
+ss_nazarius_celsus_victor_and_innocent_0728,,,,,,introit,"Psalm 79:1, 10–12"
+ss_nazarius_celsus_victor_and_innocent_0728,,,,,,epistle,Wisdom 10:17–20
+ss_nazarius_celsus_victor_and_innocent_0728,,,,,,gradual,"Exodus 15:6, 11; Sirach 44:14"
+ss_nazarius_celsus_victor_and_innocent_0728,,,,,,gospel,Luke 21:9–19
+st_martha_0729,,,,,,introit,"Psalm 45:2, 8"
+st_martha_0729,,,,,,epistle,2 Corinthians 10:17–18; 11:1–2
+st_martha_0729,,,,,,gradual,"Psalm 45:5, 15–16"
+st_martha_0729,,,,,,gospel,Luke 10:38–42
+st_ignatius_of_loyola_0731,,,,,,introit,Philippians 2:10–11; Psalm 5:12–13
+st_ignatius_of_loyola_0731,,,,,,epistle,2 Timothy 2:8–10; 3:10–12
+st_ignatius_of_loyola_0731,,,,,,gradual,"Psalm 92:3, 13–14; James 1:12"
+st_ignatius_of_loyola_0731,,,,,,gospel,Luke 10:1–9
+st_alphonsus_liguori_0802,,,,,,introit,Luke 4:18; Psalm 78:1
+st_alphonsus_liguori_0802,,,,,,epistle,2 Timothy 2:1–7
+st_alphonsus_liguori_0802,,,,,,gradual,Psalm 119:52–53; 40:11; Sirach 49:3–4
+st_alphonsus_liguori_0802,,,,,,gospel,Luke 10:1–9
+st_dominic_0804,,,,,,introit,"Psalm 37:1, 30–31"
+st_dominic_0804,,,,,,epistle,2 Timothy 4:1–8
+st_dominic_0804,,,,,,gradual,"Psalm 92:3, 13–14; Hosea 14:6"
+st_dominic_0804,,,,,,gospel,Luke 12:35–40
+our_lady_of_the_snows_0805,,,,,,introit,Psalm 45:2
+our_lady_of_the_snows_0805,,,,,,epistle,Sirach 24:14–16
+our_lady_of_the_snows_0805,,,,,,gospel,Luke 11:27–28
+transfiguration_0806,,,,,,introit,Psalm 77:19; 84:2–3
+transfiguration_0806,,,,,,epistle,2 Peter 1:16–19
+transfiguration_0806,,,,,,gradual,Psalm 45:2–3; Wisdom 7:26
+transfiguration_0806,,,,,,gospel,Matthew 17:1–9
+st_cajetan_0807,,,,,,introit,"Psalm 37:1, 30–31"
+st_cajetan_0807,,,,,,epistle,Sirach 31:8–11
+st_cajetan_0807,,,,,,gradual,"Psalm 92:3, 13–14; James 1:12"
+st_cajetan_0807,,,,,,gospel,Matthew 6:24–33
+st_john_vianney_0808,,,,,,introit,"Psalm 37:1, 30–31"
+st_john_vianney_0808,,,,,,epistle,Sirach 31:8–11
+st_john_vianney_0808,,,,,,gradual,"Psalm 92:3, 13–14; James 1:12"
+st_john_vianney_0808,,,,,,gospel,Luke 12:35–40
+vigil_of_st_laurence_0809,,,,,,introit,"Psalm 112:1, 9"
+vigil_of_st_laurence_0809,,,,,,epistle,"Sirach 51:1–8, 12"
+vigil_of_st_laurence_0809,,,,,,gradual,"Psalm 112:2, 9"
+vigil_of_st_laurence_0809,,,,,,gospel,Matthew 16:24–27
+st_laurence_0810,,,,,,introit,"Psalm 96:1, 6"
+st_laurence_0810,,,,,,epistle,2 Corinthians 9:6–10
+st_laurence_0810,,,,,,gradual,Psalm 17:3
+st_laurence_0810,,,,,,gospel,John 12:24–26
+st_clare_0812,,,,,,introit,"Psalm 45:2, 8"
+st_clare_0812,,,,,,epistle,2 Corinthians 10:17–18; 11:1–2
+st_clare_0812,,,,,,gradual,"Psalm 45:5, 15–16"
+st_clare_0812,,,,,,gospel,Matthew 25:1–13
+vigil_of_the_assumption_0814,,,,,,introit,"Psalm 45:2, 13, 15–16"
+vigil_of_the_assumption_0814,,,,,,epistle,Sirach 24:23–31
+vigil_of_the_assumption_0814,,,,,,gospel,Luke 11:27–28
+assumption_of_the_bvm_0815,,,,,,introit,Revelation 12:1; Psalm 98:1
+assumption_of_the_bvm_0815,,,,,,epistle,Judith 13:22–25; 15:10
+assumption_of_the_bvm_0815,,,,,,gradual,"Psalm 45:11–12, 14"
+assumption_of_the_bvm_0815,,,,,,gospel,Luke 1:41–50
+st_joachim_0816,,,,,,introit,"Psalm 112:1, 9"
+st_joachim_0816,,,,,,epistle,Sirach 31:8–11
+st_joachim_0816,,,,,,gradual,"Psalm 112:2, 9"
+st_joachim_0816,,,,,,gospel,Matthew 1:1–16
+st_hyacinth_0817,,,,,,introit,"Psalm 37:1, 30–31"
+st_hyacinth_0817,,,,,,epistle,Sirach 31:8–11
+st_hyacinth_0817,,,,,,gradual,"Psalm 92:3, 13–14; James 1:12"
+st_hyacinth_0817,,,,,,gospel,Luke 12:35–40
+st_john_eudes_0819,,,,,,introit,"Psalm 37:1, 30–31"
+st_john_eudes_0819,,,,,,epistle,Sirach 31:8–11
+st_john_eudes_0819,,,,,,gradual,"Psalm 92:3, 13–14; James 1:12"
+st_john_eudes_0819,,,,,,gospel,Luke 12:35–40
+st_bernard_0820,,,,,,introit,Sirach 15:5; Psalm 92:2
+st_bernard_0820,,,,,,epistle,Sirach 39:6–14
+st_bernard_0820,,,,,,gradual,Psalm 37:30–31; Sirach 45:9
+st_bernard_0820,,,,,,gospel,Matthew 5:13–19
+st_jane_frances_de_chantal_0821,,,,,,introit,"Psalm 119:1, 75, 120"
+st_jane_frances_de_chantal_0821,,,,,,epistle,Proverbs 31:10–31
+st_jane_frances_de_chantal_0821,,,,,,gradual,"Psalm 45:3, 5"
+st_jane_frances_de_chantal_0821,,,,,,gospel,Matthew 13:44–52
+immaculate_heart_of_mary_0822,,,,,,introit,Hebrews 4:16; Psalm 45:2
+immaculate_heart_of_mary_0822,,,,,,epistle,Sirach 24:23–31
+immaculate_heart_of_mary_0822,,,,,,gradual,Psalm 13:6; 45:18; Luke 1:46–47
+immaculate_heart_of_mary_0822,,,,,,gospel,John 19:25–27
+st_philip_benizi_0823,,,,,,introit,"Psalm 92:2, 13–14"
+st_philip_benizi_0823,,,,,,epistle,1 Corinthians 4:9–14
+st_philip_benizi_0823,,,,,,gradual,Psalm 37:30–31; 112:1
+st_philip_benizi_0823,,,,,,gospel,Luke 12:32–34
+st_bartholomew_0824,,,,,,introit,"Psalm 139:1–2, 17"
+st_bartholomew_0824,,,,,,epistle,1 Corinthians 12:27–31
+st_bartholomew_0824,,,,,,gradual,Psalm 45:17–18
+st_bartholomew_0824,,,,,,gospel,Luke 6:12–19
+st_louis_0825,,,,,,introit,"Psalm 37:1, 30–31"
+st_louis_0825,,,,,,epistle,Wisdom 10:10–14
+st_louis_0825,,,,,,gradual,"Psalm 92:3, 13–14; James 1:12"
+st_louis_0825,,,,,,gospel,Luke 19:12–26
+st_joseph_calasanctius_0827,,,,,,introit,"Psalm 34:2, 12"
+st_joseph_calasanctius_0827,,,,,,epistle,Wisdom 10:10–14
+st_joseph_calasanctius_0827,,,,,,gradual,Psalm 37:30–31; James 1:12
+st_joseph_calasanctius_0827,,,,,,gospel,Matthew 18:1–5
+st_augustine_0828,,,,,,introit,Sirach 15:5; Psalm 92:2
+st_augustine_0828,,,,,,epistle,2 Timothy 4:1–8
+st_augustine_0828,,,,,,gradual,Psalm 37:30–31; 89:21
+st_augustine_0828,,,,,,gospel,Matthew 5:13–19
+beheading_of_st_john_the_baptist_0829,,,,,,introit,Psalm 119:46–47; 92:2
+beheading_of_st_john_the_baptist_0829,,,,,,epistle,Jeremiah 1:17–19
+beheading_of_st_john_the_baptist_0829,,,,,,gradual,"Psalm 92:3, 13–14; Hosea 14:6"
+beheading_of_st_john_the_baptist_0829,,,,,,gospel,Mark 6:17–29
+st_rose_of_lima_0830,,,,,,introit,"Psalm 45:2, 8"
+st_rose_of_lima_0830,,,,,,epistle,2 Corinthians 10:17–18; 11:1–2
+st_rose_of_lima_0830,,,,,,gradual,"Psalm 45:5, 15–16"
+st_rose_of_lima_0830,,,,,,gospel,Matthew 25:1–13
+st_raymond_nonnatus_0831,,,,,,introit,"Psalm 37:1, 30–31"
+st_raymond_nonnatus_0831,,,,,,epistle,Sirach 31:8–11
+st_raymond_nonnatus_0831,,,,,,gradual,"Psalm 92:3, 13–14; James 1:12"
+st_raymond_nonnatus_0831,,,,,,gospel,Luke 12:35–40
+st_stephen_of_hungary_0902,,,,,,introit,"Psalm 37:1, 30–31"
+st_stephen_of_hungary_0902,,,,,,epistle,Sirach 31:8–11
+st_stephen_of_hungary_0902,,,,,,gradual,"Psalm 92:3, 13–14; James 1:12"
+st_stephen_of_hungary_0902,,,,,,gospel,Luke 19:12–26
+st_pius_x_0903,,,,,,introit,"Psalm 89:2, 20–22"
+st_pius_x_0903,,,,,,epistle,1 Thessalonians 2:2–8
+st_pius_x_0903,,,,,,gradual,Psalm 40:10–11; 23:5–6
+st_pius_x_0903,,,,,,gospel,John 21:15–17
+st_laurence_justinian_0905,,,,,,introit,Sirach 45:30; Psalm 132:1
+st_laurence_justinian_0905,,,,,,epistle,Sirach 44:16–27; 45:3–20
+st_laurence_justinian_0905,,,,,,gradual,"Sirach 44:16, 20; Psalm 110:4"
+st_laurence_justinian_0905,,,,,,gospel,Matthew 25:14–23
+nativity_of_the_bvm_0908,,,,,,introit,Psalm 45:2
+nativity_of_the_bvm_0908,,,,,,epistle,Proverbs 8:22–35
+nativity_of_the_bvm_0908,,,,,,gospel,Matthew 1:1–16
+st_nicholas_of_tolentino_0910,,,,,,introit,"Psalm 92:2, 13–14"
+st_nicholas_of_tolentino_0910,,,,,,epistle,1 Corinthians 4:9–14
+st_nicholas_of_tolentino_0910,,,,,,gradual,Psalm 37:30–31; 112:1
+st_nicholas_of_tolentino_0910,,,,,,gospel,Luke 12:32–34
+holy_name_of_mary_0912,,,,,,introit,"Psalm 45:2, 13, 15–16"
+holy_name_of_mary_0912,,,,,,epistle,Sirach 24:23–31
+holy_name_of_mary_0912,,,,,,gospel,Luke 1:26–38
+exaltation_of_the_holy_cross_0914,,,,,,introit,Galatians 6:14; Psalm 67:2
+exaltation_of_the_holy_cross_0914,,,,,,epistle,Philippians 2:5–11
+exaltation_of_the_holy_cross_0914,,,,,,gradual,Philippians 2:8–9
+exaltation_of_the_holy_cross_0914,,,,,,gospel,John 12:31–36
+seven_sorrows_of_the_bvm_0915,,,,,,introit,John 19:25–27
+seven_sorrows_of_the_bvm_0915,,,,,,epistle,"Judith 13:22, 23–25"
+seven_sorrows_of_the_bvm_0915,,,,,,gospel,John 19:25–27
+ss_cornelius_and_cyprian_0916,,,,,,introit,"Psalm 79:1, 10–12"
+ss_cornelius_and_cyprian_0916,,,,,,epistle,Wisdom 3:1–8
+ss_cornelius_and_cyprian_0916,,,,,,gradual,"Exodus 15:6, 11; Sirach 44:14"
+ss_cornelius_and_cyprian_0916,,,,,,gospel,Luke 21:9–19
+st_joseph_of_cupertino_0918,,date ne @ember_sept_wed,,,,introit,Sirach 1:14–15; Psalm 84:2
+st_joseph_of_cupertino_0918,,date ne @ember_sept_wed,,,,epistle,1 Corinthians 13:1–8
+st_joseph_of_cupertino_0918,,date ne @ember_sept_wed,,,,gradual,Psalm 21:4–5; Sirach 11:13
+st_joseph_of_cupertino_0918,,date ne @ember_sept_wed,,,,gospel,Matthew 22:1–14
+st_joseph_of_cupertino_0918,,date ge @ember_sept_wed & date le @ember_sept_sat & date ne @ember_sept_wed+1,,,Commemoration of St. Joseph of Cupertino,introit,Sirach 1:14–15; Psalm 84:2
+st_joseph_of_cupertino_0918,,date ge @ember_sept_wed & date le @ember_sept_sat & date ne @ember_sept_wed+1,,,Commemoration of St. Joseph of Cupertino,epistle,1 Corinthians 13:1–8
+st_joseph_of_cupertino_0918,,date ge @ember_sept_wed & date le @ember_sept_sat & date ne @ember_sept_wed+1,,,Commemoration of St. Joseph of Cupertino,gradual,Psalm 21:4–5; Sirach 11:13
+st_joseph_of_cupertino_0918,,date ge @ember_sept_wed & date le @ember_sept_sat & date ne @ember_sept_wed+1,,,Commemoration of St. Joseph of Cupertino,gospel,Matthew 22:1–14
+st_januarius_0919,,date ne @ember_sept_wed,,,,introit,"Psalm 37:1, 39"
+st_januarius_0919,,date ne @ember_sept_wed,,,,epistle,Hebrews 10:32–38
+st_januarius_0919,,date ne @ember_sept_wed,,,,gradual,Psalm 34:18–19
+st_januarius_0919,,date ne @ember_sept_wed,,,,gospel,Matthew 24:3–13
+st_januarius_0919,,date ge @ember_sept_wed & date le @ember_sept_sat & date ne @ember_sept_wed+1,,,Commemoration of St. Januarius,introit,"Psalm 37:1, 39"
+st_januarius_0919,,date ge @ember_sept_wed & date le @ember_sept_sat & date ne @ember_sept_wed+1,,,Commemoration of St. Januarius,epistle,Hebrews 10:32–38
+st_januarius_0919,,date ge @ember_sept_wed & date le @ember_sept_sat & date ne @ember_sept_wed+1,,,Commemoration of St. Januarius,gradual,Psalm 34:18–19
+st_januarius_0919,,date ge @ember_sept_wed & date le @ember_sept_sat & date ne @ember_sept_wed+1,,,Commemoration of St. Januarius,gospel,Matthew 24:3–13
+st_matthew_0921,,,,,,introit,"Psalm 37:1, 30–31"
+st_matthew_0921,,,,,,epistle,Ezekiel 1:10–14
+st_matthew_0921,,,,,,gradual,Psalm 112:1–2
+st_matthew_0921,,,,,,gospel,Matthew 9:9–13
+st_thomas_of_villanova_0922,,date ne @ember_sept_wed & date ne @ember_sept_fri & date ne @ember_sept_sat,,,,introit,Sirach 45:30; Psalm 132:1
+st_thomas_of_villanova_0922,,date ne @ember_sept_wed & date ne @ember_sept_fri & date ne @ember_sept_sat,,,,epistle,Sirach 44:16–27; 45:3–20
+st_thomas_of_villanova_0922,,date ne @ember_sept_wed & date ne @ember_sept_fri & date ne @ember_sept_sat,,,,gradual,"Sirach 44:16, 20; Psalm 110:4"
+st_thomas_of_villanova_0922,,date ne @ember_sept_wed & date ne @ember_sept_fri & date ne @ember_sept_sat,,,,gospel,Matthew 25:14–23
+st_thomas_of_villanova_0922,,date ge @ember_sept_wed & date le @ember_sept_sat & date ne @ember_sept_wed+1,,,Commemoration of St. Thomas of Villanova,introit,Sirach 45:30; Psalm 132:1
+st_thomas_of_villanova_0922,,date ge @ember_sept_wed & date le @ember_sept_sat & date ne @ember_sept_wed+1,,,Commemoration of St. Thomas of Villanova,epistle,Sirach 44:16–27; 45:3–20
+st_thomas_of_villanova_0922,,date ge @ember_sept_wed & date le @ember_sept_sat & date ne @ember_sept_wed+1,,,Commemoration of St. Thomas of Villanova,gradual,"Sirach 44:16, 20; Psalm 110:4"
+st_thomas_of_villanova_0922,,date ge @ember_sept_wed & date le @ember_sept_sat & date ne @ember_sept_wed+1,,,Commemoration of St. Thomas of Villanova,gospel,Matthew 25:14–23
+st_linus_0923,,date ne @ember_sept_wed & date ne @ember_sept_fri & date ne @ember_sept_sat,,,,introit,John 21:15–17; Psalm 30:2
+st_linus_0923,,date ne @ember_sept_wed & date ne @ember_sept_fri & date ne @ember_sept_sat,,,,epistle,"1 Peter 5:1–4, 10–11"
+st_linus_0923,,date ne @ember_sept_wed & date ne @ember_sept_fri & date ne @ember_sept_sat,,,,gradual,Psalm 107:31–32; Matthew 16:18
+st_linus_0923,,date ne @ember_sept_wed & date ne @ember_sept_fri & date ne @ember_sept_sat,,,,gospel,Matthew 16:13–19
+st_linus_0923,,date ge @ember_sept_wed & date le @ember_sept_sat & date ne @ember_sept_wed+1,,,Commemoration of St. Linus,introit,John 21:15–17; Psalm 30:2
+st_linus_0923,,date ge @ember_sept_wed & date le @ember_sept_sat & date ne @ember_sept_wed+1,,,Commemoration of St. Linus,epistle,"1 Peter 5:1–4, 10–11"
+st_linus_0923,,date ge @ember_sept_wed & date le @ember_sept_sat & date ne @ember_sept_wed+1,,,Commemoration of St. Linus,gradual,Psalm 107:31–32; Matthew 16:18
+st_linus_0923,,date ge @ember_sept_wed & date le @ember_sept_sat & date ne @ember_sept_wed+1,,,Commemoration of St. Linus,gospel,Matthew 16:13–19
+ss_cosmas_and_damian_0927,,date ne @ember_sept_sat,,,,introit,Sirach 44:14–15; Psalm 33:1
+ss_cosmas_and_damian_0927,,date ne @ember_sept_sat,,,,epistle,Wisdom 5:16–20
+ss_cosmas_and_damian_0927,,date ne @ember_sept_sat,,,,gradual,Psalm 34:18–19
+ss_cosmas_and_damian_0927,,date ne @ember_sept_sat,,,,gospel,Luke 6:17–23
+ss_cosmas_and_damian_0927,,date ge @ember_sept_wed & date le @ember_sept_sat & date ne @ember_sept_wed+1,,,Commemoration of Ss. Cosmas and Damian,introit,Sirach 44:14–15; Psalm 33:1
+ss_cosmas_and_damian_0927,,date ge @ember_sept_wed & date le @ember_sept_sat & date ne @ember_sept_wed+1,,,Commemoration of Ss. Cosmas and Damian,epistle,Wisdom 5:16–20
+ss_cosmas_and_damian_0927,,date ge @ember_sept_wed & date le @ember_sept_sat & date ne @ember_sept_wed+1,,,Commemoration of Ss. Cosmas and Damian,gradual,Psalm 34:18–19
+ss_cosmas_and_damian_0927,,date ge @ember_sept_wed & date le @ember_sept_sat & date ne @ember_sept_wed+1,,,Commemoration of Ss. Cosmas and Damian,gospel,Luke 6:17–23
+st_wenceslaus_0928,,,,,,introit,Psalm 21:2–4
+st_wenceslaus_0928,,,,,,epistle,Wisdom 10:10–14
+st_wenceslaus_0928,,,,,,gradual,Psalm 112:1–2; 21:4
+st_wenceslaus_0928,,,,,,gospel,Matthew 10:34–42
+st_michael_the_archangel_0929,,,,,,introit,"Psalm 103:1, 20"
+st_michael_the_archangel_0929,,,,,,epistle,Revelation 1:1–5
+st_michael_the_archangel_0929,,,,,,gradual,"Psalm 103:1, 20"
+st_michael_the_archangel_0929,,,,,,gospel,Matthew 18:1–10
+st_jerome_0930,,,,,,introit,Sirach 15:5; Psalm 92:2
+st_jerome_0930,,,,,,epistle,2 Timothy 4:1–8
+st_jerome_0930,,,,,,gradual,Psalm 37:30–31; Sirach 45:9
+st_jerome_0930,,,,,,gospel,Matthew 5:13–19
+holy_guardian_angels_1002,,,,,,introit,"Psalm 103:1, 20"
+holy_guardian_angels_1002,,,,,,epistle,Exodus 23:20–23
+holy_guardian_angels_1002,,,,,,gradual,Psalm 91:11–12; 103:21
+holy_guardian_angels_1002,,,,,,gospel,Matthew 18:1–10
+st_th_r_se_of_the_child_jesus_1003,,,,,,introit,Song of Songs 4:8–9; Psalm 113:1
+st_th_r_se_of_the_child_jesus_1003,,,,,,epistle,Isaiah 66:12–14
+st_th_r_se_of_the_child_jesus_1003,,,,,,gradual,Matthew 11:25; Psalm 71:5; Sirach 39:17–19
+st_th_r_se_of_the_child_jesus_1003,,,,,,gospel,Matthew 18:1–4
+st_francis_of_assisi_1004,,,,,,introit,Galatians 6:14; Psalm 142:2
+st_francis_of_assisi_1004,,,,,,epistle,Galatians 6:14–18
+st_francis_of_assisi_1004,,,,,,gradual,Psalm 37:30–31
+st_francis_of_assisi_1004,,,,,,gospel,Matthew 11:25–30
+st_bruno_1006,,,,,,introit,"Psalm 37:1, 30–31"
+st_bruno_1006,,,,,,epistle,Sirach 31:8–11
+st_bruno_1006,,,,,,gradual,"Psalm 92:3, 13–14; James 1:12"
+st_bruno_1006,,,,,,gospel,Luke 12:35–40
+our_lady_of_the_rosary_1007,,,,,,introit,Psalm 45:2
+our_lady_of_the_rosary_1007,,,,,,epistle,"Proverbs 8:22–24, 32–35"
+our_lady_of_the_rosary_1007,,,,,,gradual,"Psalm 45:5, 11–12"
+our_lady_of_the_rosary_1007,,,,,,gospel,Luke 1:26–38
+st_bridget_of_sweden_1008,,,,,,introit,"Psalm 119:1, 75, 120"
+st_bridget_of_sweden_1008,,,,,,epistle,1 Timothy 5:3–10
+st_bridget_of_sweden_1008,,,,,,gradual,"Psalm 45:3, 5"
+st_bridget_of_sweden_1008,,,,,,gospel,Matthew 13:44–52
+st_john_leonardi_1009,,,,,,introit,Sirach 42:15–16; Psalm 96:1
+st_john_leonardi_1009,,,,,,epistle,"2 Corinthians 4:1–6, 15–18"
+st_john_leonardi_1009,,,,,,gradual,Psalm 73:21; 69:10; Isaiah 49:2; Psalm 71:7
+st_john_leonardi_1009,,,,,,gospel,Luke 10:1–9
+st_francis_borgia_1010,,,,,,introit,"Psalm 37:1, 30–31"
+st_francis_borgia_1010,,,,,,epistle,Sirach 45:1–6
+st_francis_borgia_1010,,,,,,gradual,Psalm 21:4–5; 92:13
+st_francis_borgia_1010,,,,,,gospel,Matthew 19:27–29
+maternity_of_the_bvm_1011,,,,,,introit,Isaiah 7:14; Psalm 98:1
+maternity_of_the_bvm_1011,,,,,,epistle,Sirach 24:23–31
+maternity_of_the_bvm_1011,,,,,,gradual,Isaiah 11:1–2
+maternity_of_the_bvm_1011,,,,,,gospel,Luke 2:43–51
+st_edward_the_confessor_1013,,,,,,introit,"Psalm 37:1, 30–31"
+st_edward_the_confessor_1013,,,,,,epistle,Sirach 31:8–11
+st_edward_the_confessor_1013,,,,,,gradual,"Psalm 92:3, 13–14; James 1:12"
+st_edward_the_confessor_1013,,,,,,gospel,Luke 12:35–40
+st_callistus_i_1014,,,,,,introit,John 21:15–17; Psalm 30:2
+st_callistus_i_1014,,,,,,epistle,"1 Peter 5:1–4, 10–11"
+st_callistus_i_1014,,,,,,gradual,Psalm 107:31–32; Matthew 16:18
+st_callistus_i_1014,,,,,,gospel,Matthew 16:13–19
+st_teresa_of_vila_1015,,,,,,introit,"Psalm 45:2, 8"
+st_teresa_of_vila_1015,,,,,,epistle,2 Corinthians 10:17–18; 11:1–2
+st_teresa_of_vila_1015,,,,,,gradual,"Psalm 45:5, 15–16"
+st_teresa_of_vila_1015,,,,,,gospel,Matthew 25:1–13
+st_hedwig_1016,,,,,,introit,"Psalm 119:1, 75, 120"
+st_hedwig_1016,,,,,,epistle,Proverbs 31:10–31
+st_hedwig_1016,,,,,,gradual,"Psalm 45:3, 5"
+st_hedwig_1016,,,,,,gospel,Matthew 13:44–52
+st_margaret_mary_alacoque_1017,,,,,,introit,Song of Songs 2:3; Psalm 84:2–3
+st_margaret_mary_alacoque_1017,,,,,,epistle,"Ephesians 3:8–9, 14–19"
+st_margaret_mary_alacoque_1017,,,,,,gradual,Song of Songs 8:7; Psalm 73:26; Song of Songs 7:10
+st_margaret_mary_alacoque_1017,,,,,,gospel,Matthew 11:25–30
+st_luke_1018,,,,,,introit,"Psalm 139:1–2, 17"
+st_luke_1018,,,,,,epistle,2 Corinthians 8:16–24
+st_luke_1018,,,,,,gradual,"Psalm 19:2, 5; John 15:16"
+st_luke_1018,,,,,,gospel,Luke 10:1–9
+st_peter_of_alcantara_1019,,,,,,introit,"Psalm 92:2, 13–14"
+st_peter_of_alcantara_1019,,,,,,epistle,Philippians 3:7–12
+st_peter_of_alcantara_1019,,,,,,gradual,Psalm 37:30–31; 112:1
+st_peter_of_alcantara_1019,,,,,,gospel,Luke 12:32–34
+st_john_cantius_1020,,,,,,introit,Sirach 18:12–13; Psalm 1:1
+st_john_cantius_1020,,,,,,epistle,James 2:12–17
+st_john_cantius_1020,,,,,,gradual,Psalm 107:8–9; Proverbs 31:20
+st_john_cantius_1020,,,,,,gospel,Luke 12:35–40
+st_anthony_mary_claret_1023,,,,,,introit,"Psalm 132:1, 9–10"
+st_anthony_mary_claret_1023,,,,,,epistle,Hebrews 7:23–27
+st_anthony_mary_claret_1023,,,,,,gradual,Psalm 132:16–17; 110:4
+st_anthony_mary_claret_1023,,,,,,gospel,Matthew 24:42–47
+st_raphael_the_archangel_1024,,,,,,introit,"Psalm 103:1, 20"
+st_raphael_the_archangel_1024,,,,,,epistle,Tobit 12:7–15
+st_raphael_the_archangel_1024,,,,,,gradual,Tobit 8:3; Psalm 147:5; 138:1–2
+st_raphael_the_archangel_1024,,,,,,gospel,John 5:1–4
+ss_simon_and_jude_1028,,,,,,introit,"Psalm 139:1–2, 17"
+ss_simon_and_jude_1028,,,,,,epistle,Ephesians 4:7–13
+ss_simon_and_jude_1028,,,,,,gradual,Psalm 45:17–18; 139:17
+ss_simon_and_jude_1028,,,,,,gospel,John 15:17–25
+all_saints_1101,,,,,,introit,Psalm 33:1
+all_saints_1101,,,,,,epistle,Revelation 7:2–12
+all_saints_1101,,,,,,gradual,Psalm 34:10–11; Matthew 11:28
+all_saints_1101,,,,,,gospel,Matthew 5:1–12
+st_charles_borromeo_1104,,,,,,introit,Psalm 21:2–4
+st_charles_borromeo_1104,,,,,,epistle,Sirach 44:16–27; 45:3–20
+st_charles_borromeo_1104,,,,,,gradual,"Sirach 44:16, 20; Psalm 110:4"
+st_charles_borromeo_1104,,,,,,gospel,Matthew 25:14–23
+dedication_of_the_lateran_basilica_1109,,,,,,introit,Genesis 28:17; Psalm 84:2–3
+dedication_of_the_lateran_basilica_1109,,,,,,epistle,Revelation 21:2–5
+dedication_of_the_lateran_basilica_1109,,,,,,gradual,Psalm 138:2
+dedication_of_the_lateran_basilica_1109,,,,,,gospel,Luke 19:1–10
+st_andrew_avellino_1110,,,,,,introit,"Psalm 37:1, 30–31"
+st_andrew_avellino_1110,,,,,,epistle,Sirach 31:8–11
+st_andrew_avellino_1110,,,,,,gradual,"Psalm 92:3, 13–14; James 1:12"
+st_andrew_avellino_1110,,,,,,gospel,Luke 12:35–40
+st_martin_of_tours_1111,,,,,,introit,Sirach 45:30; Psalm 132:1
+st_martin_of_tours_1111,,,,,,epistle,Sirach 44:16–27; 45:3–20
+st_martin_of_tours_1111,,,,,,gradual,"Sirach 44:16, 20"
+st_martin_of_tours_1111,,,,,,gospel,Luke 11:33–36
+st_martin_i_1112,,,,,,introit,John 21:15–17; Psalm 30:2
+st_martin_i_1112,,,,,,epistle,"1 Peter 5:1–4, 10–11"
+st_martin_i_1112,,,,,,gradual,Psalm 107:31–32; Matthew 16:18
+st_martin_i_1112,,,,,,gospel,Matthew 16:13–19
+st_didacus_1113,,,,,,introit,"Psalm 92:2, 13–14"
+st_didacus_1113,,,,,,epistle,1 Corinthians 4:9–14
+st_didacus_1113,,,,,,gradual,Psalm 37:30–31; 112:1
+st_didacus_1113,,,,,,gospel,Luke 12:32–34
+st_josaphat_1114,,,,,,introit,Psalm 33:1
+st_josaphat_1114,,,,,,epistle,Hebrews 5:1–6
+st_josaphat_1114,,,,,,gradual,Psalm 89:21–23
+st_josaphat_1114,,,,,,gospel,John 10:11–16
+st_albert_the_great_1115,,,,,,introit,Sirach 15:5; Psalm 92:2
+st_albert_the_great_1115,,,,,,epistle,2 Timothy 4:1–8
+st_albert_the_great_1115,,,,,,gradual,Psalm 37:30–31; Sirach 45:9
+st_albert_the_great_1115,,,,,,gospel,Matthew 5:13–19
+st_gertrude_1116,,,,,,introit,"Psalm 45:2, 8"
+st_gertrude_1116,,,,,,epistle,2 Corinthians 10:17–18; 11:1–2
+st_gertrude_1116,,,,,,gradual,"Psalm 45:5, 15–16"
+st_gertrude_1116,,,,,,gospel,Matthew 25:1–13
+st_gregory_thaumaturgus_1117,,,,,,introit,Sirach 45:30; Psalm 132:1
+st_gregory_thaumaturgus_1117,,,,,,epistle,Sirach 44:16–27; 45:3–20
+st_gregory_thaumaturgus_1117,,,,,,gradual,"Sirach 44:16, 20; Psalm 110:4"
+st_gregory_thaumaturgus_1117,,,,,,gospel,Mark 11:22–24
+dedication_of_ss_peter_and_paul_1118,,,,,,introit,Genesis 28:17; Psalm 84:2–3
+dedication_of_ss_peter_and_paul_1118,,,,,,epistle,Revelation 21:2–5
+dedication_of_ss_peter_and_paul_1118,,,,,,gradual,Psalm 138:2
+dedication_of_ss_peter_and_paul_1118,,,,,,gospel,Luke 19:1–10
+st_elizabeth_of_hungary_1119,,,,,,introit,"Psalm 119:1, 75, 120"
+st_elizabeth_of_hungary_1119,,,,,,epistle,Proverbs 31:10–31
+st_elizabeth_of_hungary_1119,,,,,,gradual,"Psalm 45:3, 5"
+st_elizabeth_of_hungary_1119,,,,,,gospel,Matthew 13:44–52
+st_felix_of_valois_1120,,,,,,introit,"Psalm 92:2, 13–14"
+st_felix_of_valois_1120,,,,,,epistle,1 Corinthians 4:9–14
+st_felix_of_valois_1120,,,,,,gradual,Psalm 37:30–31; 112:1
+st_felix_of_valois_1120,,,,,,gospel,Luke 12:32–34
+presentation_of_the_bvm_1121,,,,,,introit,Psalm 45:2
+presentation_of_the_bvm_1121,,,,,,epistle,Sirach 24:14–16
+presentation_of_the_bvm_1121,,,,,,gospel,Luke 11:27–28
+st_cecilia_1122,,,,,,introit,"Psalm 119:1, 46–47"
+st_cecilia_1122,,,,,,epistle,Sirach 51:13–17
+st_cecilia_1122,,,,,,gradual,"Psalm 45:5, 11–12; Matthew 25:4, 6"
+st_cecilia_1122,,,,,,gospel,Matthew 25:1–13
+st_clement_i_1123,,,,,,introit,Isaiah 59:21; 56:7; Psalm 112:1
+st_clement_i_1123,,,,,,epistle,Philippians 3:17–21; 4:1–3
+st_clement_i_1123,,,,,,gradual,Psalm 107:31–32; Matthew 16:18
+st_clement_i_1123,,,,,,gospel,Matthew 16:13–19
+st_john_of_the_cross_1124,,,,,,introit,Sirach 15:5; Psalm 92:2
+st_john_of_the_cross_1124,,,,,,epistle,2 Timothy 4:1–8
+st_john_of_the_cross_1124,,,,,,gradual,Psalm 37:30–31; Sirach 45:9
+st_john_of_the_cross_1124,,,,,,gospel,Matthew 5:13–19
+st_catherine_of_alexandria_1125,,,,,,introit,"Psalm 119:1, 46–47"
+st_catherine_of_alexandria_1125,,,,,,epistle,"Sirach 51:1–8, 12"
+st_catherine_of_alexandria_1125,,,,,,gradual,"Psalm 45:8, 15–16"
+st_catherine_of_alexandria_1125,,,,,,gospel,Matthew 25:1–13
+st_sylvester_gozzolini_1126,,,,,,introit,"Psalm 37:1, 30–31"
+st_sylvester_gozzolini_1126,,,,,,epistle,Sirach 45:1–6
+st_sylvester_gozzolini_1126,,,,,,gradual,Psalm 21:4–5; 92:13
+st_sylvester_gozzolini_1126,,,,,,gospel,Matthew 19:27–29
+st_andrew_1130,,,,,,introit,"Psalm 139:1–2, 17"
+st_andrew_1130,,,,,,epistle,Romans 10:10–18
+st_andrew_1130,,,,,,gradual,Psalm 45:17–18
+st_andrew_1130,,,,,,gospel,Matthew 4:18–22
+st_bibiana_1202,,,,,,introit,"Psalm 119:1, 95–96"
+st_bibiana_1202,,,,,,epistle,Sirach 51:13–17
+st_bibiana_1202,,,,,,gradual,Psalm 46:5–6
+st_bibiana_1202,,,,,,gospel,Matthew 13:44–52
+st_francis_xavier_1203,,,,,,introit,Psalm 119:46–47; 117:1–2
+st_francis_xavier_1203,,,,,,epistle,Romans 10:10–18
+st_francis_xavier_1203,,,,,,gradual,Psalm 37:30–31; 112:1
+st_francis_xavier_1203,,,,,,gospel,Mark 16:15–18
+st_peter_chrysologus_1204,,,,,,introit,Sirach 15:5; Psalm 92:2
+st_peter_chrysologus_1204,,,,,,epistle,2 Timothy 4:1–8
+st_peter_chrysologus_1204,,,,,,gradual,"Sirach 44:16, 20; Psalm 110:4"
+st_peter_chrysologus_1204,,,,,,gospel,Matthew 5:13–19
+st_nicholas_1206,,,,,,introit,Psalm 21:2–4
+st_nicholas_1206,,,,,,epistle,Hebrews 13:7–17
+st_nicholas_1206,,,,,,gradual,Psalm 89:21–23; 92:13
+st_nicholas_1206,,,,,,gospel,Matthew 25:14–23
+st_ambrose_1207,,,,,,introit,Sirach 15:5; Psalm 92:2
+st_ambrose_1207,,,,,,epistle,2 Timothy 4:1–8
+st_ambrose_1207,,,,,,gradual,"Sirach 44:16, 20; Psalm 110:4"
+st_ambrose_1207,,,,,,gospel,Matthew 5:13–19
+immaculate_conception_1208,,,,,,introit,Isaiah 61:10; Psalm 30:2
+immaculate_conception_1208,,,,,,epistle,Proverbs 8:22–35
+immaculate_conception_1208,,,,,,gradual,Judith 13:23; 15:10; Song of Songs 4:7
+immaculate_conception_1208,,,,,,gospel,Luke 1:26–28
+st_damasus_i_1211,,,,,,introit,John 21:15–17; Psalm 30:2
+st_damasus_i_1211,,,,,,epistle,"1 Peter 5:1–4, 10–11"
+st_damasus_i_1211,,,,,,gradual,Psalm 107:31–32; Matthew 16:18
+st_damasus_i_1211,,,,,,gospel,Matthew 16:13–19
+st_lucy_1213,,,,,,introit,"Psalm 45:2, 8"
+st_lucy_1213,,,,,,epistle,2 Corinthians 10:17–18; 11:1–2
+st_lucy_1213,,,,,,gradual,"Psalm 45:3, 8"
+st_lucy_1213,,,,,,gospel,Matthew 13:44–52
+st_eusebius_1216,,date ne @ember_advent_wed & date ne @ember_advent_fri,,,,introit,"Daniel 3:57, 84, 87"
+st_eusebius_1216,,date ne @ember_advent_wed & date ne @ember_advent_fri,,,,epistle,2 Corinthians 1:3–7
+st_eusebius_1216,,date ne @ember_advent_wed & date ne @ember_advent_fri,,,,gradual,Psalm 8:6–7
+st_eusebius_1216,,date ne @ember_advent_wed & date ne @ember_advent_fri,,,,gospel,Matthew 16:24–27
+st_eusebius_1216,,date ge @ember_advent_wed & date le @ember_advent_sat & date ne @ember_advent_wed+1,,,Commemoration of St. Eusebius,introit,"Daniel 3:57, 84, 87"
+st_eusebius_1216,,date ge @ember_advent_wed & date le @ember_advent_sat & date ne @ember_advent_wed+1,,,Commemoration of St. Eusebius,epistle,2 Corinthians 1:3–7
+st_eusebius_1216,,date ge @ember_advent_wed & date le @ember_advent_sat & date ne @ember_advent_wed+1,,,Commemoration of St. Eusebius,gradual,Psalm 8:6–7
+st_eusebius_1216,,date ge @ember_advent_wed & date le @ember_advent_sat & date ne @ember_advent_wed+1,,,Commemoration of St. Eusebius,gospel,Matthew 16:24–27
+st_thomas_1221,,,,,,introit,"Psalm 139:1–2, 17"
+st_thomas_1221,,,,,,epistle,Ephesians 2:19–22
+st_thomas_1221,,,,,,gradual,Psalm 139:17–18; 33:1
+st_thomas_1221,,,,,,gospel,John 20:24–29
+st_stephen_1226,,,,,,introit,"Psalm 119:1, 23, 86"
+st_stephen_1226,,,,,,epistle,Acts 6:8–10; 7:54–59
+st_stephen_1226,,,,,,gradual,"Psalm 119:23, 86; 6:5; Acts 7:56"
+st_stephen_1226,,,,,,gospel,Matthew 23:34–39
+st_john_the_evangelist_1227,,,,,,introit,Sirach 15:5; Psalm 92:2
+st_john_the_evangelist_1227,,,,,,epistle,Sirach 15:1–6
+st_john_the_evangelist_1227,,,,,,gradual,"John 21:19, 23–24"
+st_john_the_evangelist_1227,,,,,,gospel,John 21:19–24
+holy_innocents_1228,,,,,,introit,Psalm 8:2–3
+holy_innocents_1228,,,,,,epistle,Revelation 14:1–5
+holy_innocents_1228,,,,,,gradual,Psalm 124:7–8; 113:1
+holy_innocents_1228,,,,,,gospel,Matthew 2:13–18

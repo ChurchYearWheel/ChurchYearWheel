@@ -1,0 +1,30 @@
+setting,value,variant
+# ===========================================================================,,
+# The Nordic Lutheran churches.  Each church is a variant of this folder.,,
+# ===========================================================================,,
+year_start,sun<12-25-21,
+center_art,lutherrose,
+"# readings.csv: Sweden's three series (årgångar, the first from Advent 2005) and its four Easter series (Matthew from Advent 2003).",,
+reading_cycle,I II III 2005; MATTEUS MARKUS LUKAS JOHANNES 2003,sweden
+# The Bible version the page opens readings in (bible_version).,,
+bible_version,SFB15,sweden
+"# Readings in the order the services read them: Old Testament, psalm, Epistle, Gospel.",,
+reading_order,ot | psalm | epistle | gospel,sweden
+# Norway's three text series (tekstrekker): series I from Advent 2025.,,
+reading_cycle,I II III 2025,norway
+bible_version,DNB1930,norway
+# Denmark's two text series (tekstrækker): the second from Advent 2025.,,
+reading_cycle,I II 2026,denmark
+bible_version,DN1933,denmark
+reading_order,ot | epistle | gospel,denmark
+reading_labels,ot=First Reading,denmark
+# Finland's three text series (vuosikerrat): the second from Advent 2025.,,
+reading_cycle,I II III 2024,finland
+bible_version,R1933,finland
+reading_order,psalm | ot | epistle | gospel,finland
+reading_labels,ot=First Reading; epistle=Second Reading,finland
+"# The verse numbering the readings are cited in, where it is the Hebrew one the church's Bible still uses (hebrew: every book; else the books): links translate it for Bible sites (docs/versification.md).",,
+verse_numbering,hebrew,norway denmark finland
+verse_numbering,Psalms,sweden
+# The page names no weekdays from their Sundays (weekday_titles): the calendars' names are not in English.,,
+weekday_titles,none,

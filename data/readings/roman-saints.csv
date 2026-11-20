@@ -1,0 +1,122 @@
+day,offset,when,cycle,variant,title,kind,reading
+# ===========================================================================
+"# The Roman Lectionary for Mass: the Proper of Saints, as the Lectionary for"
+"# Mass for use in the dioceses of the United States (second typical edition,"
+"# 2002) gives it, from Felix Just's table at"
+# https://catholic-resources.org/Lectionary/2002USL-Sanctoral.htm (saved by
+"# the maintainer, October 2026), checked against the USCCB's daily readings"
+# (https://bible.usccb.org/bible/readings) for 21 of the days.
+"# Given: the feasts that roman.csv does not have (Conversion of St. Paul to"
+"# the Holy Innocents, 26-28 December), and the memorials and optional"
+"# memorials the Lectionary gives proper readings for, wholly or in part"
+"# (the Holy Name, Timothy and Titus, Joseph the Worker, Mary Mother of the"
+"# Church, the Immaculate Heart, Barnabas, Martha, Mary and Lazarus, the"
+"# Passion of John the Baptist, Our Lady of Sorrows, the Guardian Angels, the"
+"# Dedication of the Basilicas of Peter and Paul), with the readings the"
+"# Lectionary appoints from the Commons for the rest of the set.  Our Lady of"
+"# Guadalupe is a feast with its own readings in the United States only."
+"# Not given: the memorials whose readings are all from the Commons, and Sts."
+"# Joachim and Anne, whose readings the Lectionary marks as chosen but not"
+"# proper.  A feast that falls on a Sunday is not kept, so has no readings;"
+# on a memorial the weekday's readings are listed too.
+# Keyed by the feasts' ids in data/Roman/feasts.csv.  Verses follow the New
+"# American Bible; a psalm's stanzas are joined where they run on, as in"
+"# roman.csv.  The table's Rev 12:7-12a (Archangels) and Ps 124:7b-8 (Holy"
+# Innocents) are given as the USCCB prints them (docs/source-errors.csv).
+# ===========================================================================
+holy_name_of_jesus,,,,,,ot,Philippians 2:1–11
+holy_name_of_jesus,,,,,,psalm,Psalm 8:4–9
+holy_name_of_jesus,,,,,,gospel,Luke 2:21–24
+conversion_of_st_paul,,,,,,ot,Acts 22:3–16 or Acts 9:1–22
+conversion_of_st_paul,,,,,,psalm,"Psalm 117:1bc, 2"
+conversion_of_st_paul,,,,,,gospel,Mark 16:15–18
+sts_timothy_and_titus,,,,,,ot,2 Timothy 1:1–8 or Titus 1:1–5
+sts_timothy_and_titus,,,,,,psalm,"Psalm 96:1–3, 7–8a, 10"
+sts_timothy_and_titus,,,,,,gospel,Luke 10:1–9
+chair_of_st_peter,,,,,,ot,1 Peter 5:1–4
+chair_of_st_peter,,,,,,psalm,"Psalm 23:1–3a, 4–6"
+chair_of_st_peter,,,,,,gospel,Matthew 16:13–19
+st_mark,,,,,,ot,1 Peter 5:5b–14
+st_mark,,,,,,psalm,"Psalm 89:2–3, 6–7, 16–17"
+st_mark,,,,,,gospel,Mark 16:15–20
+st_joseph_the_worker,,,,,,ot,"Genesis 1:26–2:3 or Colossians 3:14–15, 17, 23–24"
+st_joseph_the_worker,,,,,,psalm,"Psalm 90:2–4, 12–14, 16"
+st_joseph_the_worker,,,,,,gospel,Matthew 13:54–58
+sts_philip_and_james,,,,,,ot,1 Corinthians 15:1–8
+sts_philip_and_james,,,,,,psalm,Psalm 19:2–5
+sts_philip_and_james,,,,,,gospel,John 14:6–14
+st_matthias,,,,,,ot,"Acts 1:15–17, 20–26"
+st_matthias,,,,,,psalm,Psalm 113:1–8
+st_matthias,,,,,,gospel,John 15:9–17
+visitation_of_mary,,,,,,ot,Zephaniah 3:14–18a or Romans 12:9–16
+visitation_of_mary,,,,,,psalm,"Isaiah 12:2–3, 4bcd, 5–6"
+visitation_of_mary,,,,,,gospel,Luke 1:39–56
+mary_mother_of_the_church,,,,,,ot,"Genesis 3:9–15, 20 or Acts 1:12–14"
+mary_mother_of_the_church,,,,,,psalm,"Psalm 87:1–3, 5–7"
+mary_mother_of_the_church,,,,,,gospel,John 19:25–34
+immaculate_heart,,,,,,ot,Isaiah 61:9–11
+immaculate_heart,,,,,,psalm,"1 Samuel 2:1, 4–7, 8abcd"
+immaculate_heart,,,,,,gospel,Luke 2:41–51
+st_barnabas,,,,,,ot,Acts 11:21b–26; 13:1–3
+st_barnabas,,,,,,psalm,Psalm 98:1–6
+st_barnabas,,,,,,gospel,Matthew 10:7–13
+st_thomas,,,,,,ot,Ephesians 2:19–22
+st_thomas,,,,,,psalm,"Psalm 117:1bc, 2"
+st_thomas,,,,,,gospel,John 20:24–29
+st_mary_magdalene,,,,,,ot,Song of Songs 3:1–4b or 2 Corinthians 5:14–17
+st_mary_magdalene,,,,,,psalm,"Psalm 63:2–6, 8–9"
+st_mary_magdalene,,,,,,gospel,"John 20:1–2, 11–18"
+st_james,,,,,,ot,2 Corinthians 4:7–15
+st_james,,,,,,psalm,Psalm 126:1bc–6
+st_james,,,,,,gospel,Matthew 20:20–28
+sts_martha_mary_and_lazarus,,,,,,ot,1 John 4:7–16
+sts_martha_mary_and_lazarus,,,,,,psalm,Psalm 34:2–11
+sts_martha_mary_and_lazarus,,,,,,gospel,John 11:19–27 or Luke 10:38–42
+st_lawrence,,,,,,ot,2 Corinthians 9:6–10
+st_lawrence,,,,,,psalm,"Psalm 112:1–2, 5–9"
+st_lawrence,,,,,,gospel,John 12:24–26
+st_bartholomew,,,,,,ot,Revelation 21:9b–14
+st_bartholomew,,,,,,psalm,"Psalm 145:10–13, 17–18"
+st_bartholomew,,,,,,gospel,John 1:45–51
+passion_of_st_john_the_baptist,,,,,,ot,Jeremiah 1:17–19
+passion_of_st_john_the_baptist,,,,,,psalm,"Psalm 71:1–4a, 5–6ab, 15ab, 17"
+passion_of_st_john_the_baptist,,,,,,gospel,Mark 6:17–29
+nativity_of_mary,,,,,,ot,Micah 5:1–4a or Romans 8:28–30
+nativity_of_mary,,,,,,psalm,"Psalm 13:6ab, 6c"
+nativity_of_mary,,,,,,gospel,"Matthew 1:1–16, 18–23 or Matthew 1:18–23"
+our_lady_of_sorrows,,,,,,ot,Hebrews 5:7–9
+our_lady_of_sorrows,,,,,,psalm,"Psalm 31:2–6, 15–16, 20"
+our_lady_of_sorrows,,,,,,gospel,John 19:25–27 or Luke 2:33–35
+st_matthew,,,,,,ot,"Ephesians 4:1–7, 11–13"
+st_matthew,,,,,,psalm,Psalm 19:2–5
+st_matthew,,,,,,gospel,Matthew 9:9–13
+sts_michael_gabriel_and_raphael,,,,,,ot,"Daniel 7:9–10, 13–14 or Revelation 12:7–12ab"
+sts_michael_gabriel_and_raphael,,,,,,psalm,Psalm 138:1–5
+sts_michael_gabriel_and_raphael,,,,,,gospel,John 1:47–51
+holy_guardian_angels,,,,,,ot,Exodus 23:20–23
+holy_guardian_angels,,,,,,psalm,"Psalm 91:1–6, 10–11"
+holy_guardian_angels,,,,,,gospel,"Matthew 18:1–5, 10"
+st_luke,,,,,,ot,2 Timothy 4:10–17b
+st_luke,,,,,,psalm,"Psalm 145:10–13, 17–18"
+st_luke,,,,,,gospel,Luke 10:1–9
+sts_simon_and_jude,,,,,,ot,Ephesians 2:19–22
+sts_simon_and_jude,,,,,,psalm,Psalm 19:2–5
+sts_simon_and_jude,,,,,,gospel,Luke 6:12–19
+dedication_of_sts_peter_and_paul_apostle,,,,,,ot,"Acts 28:11–16, 30–31"
+dedication_of_sts_peter_and_paul_apostle,,,,,,psalm,Psalm 98:1–6
+dedication_of_sts_peter_and_paul_apostle,,,,,,gospel,Matthew 14:22–33
+st_andrew,,,,,,ot,Romans 10:9–18
+st_andrew,,,,,,psalm,Psalm 19:8–11
+st_andrew,,,,,,gospel,Matthew 4:18–22
+guadalupe,,sub:united_states,,,,ot,"Zechariah 2:14–17 or Revelation 11:19a; 12:1–6a, 10ab"
+guadalupe,,sub:united_states,,,,psalm,"Judith 13:18bcde, 19"
+guadalupe,,sub:united_states,,,,gospel,Luke 1:26–38 or Luke 1:39–47
+st_stephen,,,,,,ot,Acts 6:8–10; 7:54–59
+st_stephen,,,,,,psalm,"Psalm 31:3cd–4, 6, 8ab, 16bc, 17"
+st_stephen,,,,,,gospel,Matthew 10:17–22
+st_john,,,,,,ot,1 John 1:1–4
+st_john,,,,,,psalm,"Psalm 97:1–2, 5–6, 11–12"
+st_john,,,,,,gospel,"John 20:1a, 2–8"
+holy_innocents,,,,,,ot,1 John 1:5–2:2
+holy_innocents,,,,,,psalm,"Psalm 124:2–5, 7cd–8"
+holy_innocents,,,,,,gospel,Matthew 2:13–18

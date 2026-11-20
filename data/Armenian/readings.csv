@@ -1,0 +1,1539 @@
+day,offset,when,cycle,variant,title,kind,reading
+# ===========================================================================
+"# The Armenian Apostolic Church's daily Bible readings, by date, for the"
+# years the Prelacy's calendars give: Advent 2025 (23 November) to 6 January
+"# 2027 (church years 2025 and 2026, ""year eq"").  From the Armenian Prelacy"
+"# (Eastern USA), ""Daily Bible Readings ... According to the Lectionary of the"
+"# Armenian Apostolic Church"", monthly PDFs for November-December 2025"
+# (https://armenianprelacy.org/wp-content/uploads/2025/01/11-November-2025.pdf ...)
+# and for 2026 (https://armenianprelacy.org/wp-content/uploads/2026/01/01-January-2026.pdf
+"# ... 12-December-2026.pdf), read October 2026."
+"# A day's readings in the order printed, without a title; the services the"
+"# calendar names (Christmas Eve's Divine Liturgy and Dismissal, the Blessing"
+"# of Water, Holy Week's morning and evening offices, the Office of Penitents,"
+"# the Washing of the Feet, the Passion, Crucifixion and Burial, Easter Eve,"
+# the Blessing of Grapes ...) as sets of their own; in Eastertide the four
+"# Gospels read through, ""1) Morning - Luke; 2) Midday - John; 3) Evening -"
+"# Matthew; 4) Evening dismissal - Mark"", each its own set, with the Acts and"
+# Catholic Epistle at Midday.  Where a saint's day also prints the weekday's
+"# readings after its Gospel, those are ""Daily Readings"".  The Armenian Bible's"
+# own verse numbers are kept (Song of Songs 8:14-26); corrected misprints:
+# docs/source-errors.csv.
+# ===========================================================================
+11-23,,year eq 2025,,,,ot,Isaiah 36:1–9
+11-23,,year eq 2025,,,,epistle,1 Thessalonians 1:1–10
+11-23,,year eq 2025,,,,gospel,Luke 12:13–31
+11-24,,year eq 2025,,,,ot,Song of Songs 8:14–26 (with six verses more in the Armenian)
+11-24,,year eq 2025,,,,ot,Hosea 14:6–8
+11-24,,year eq 2025,,,,epistle,2 Corinthians 6:16–7:1
+11-24,,year eq 2025,,,,gospel,Luke 8:1–3
+11-25,,year eq 2025,,,,ot,Wisdom 9:9–12
+11-25,,year eq 2025,,,,ot,Isaiah 41:15–19
+11-25,,year eq 2025,,,,epistle,2 Corinthians 2:14–17
+11-25,,year eq 2025,,,,gospel,Luke 6:13–20
+11-26,,year eq 2025,,,,epistle,1 Thessalonians 2:1–12
+11-26,,year eq 2025,,,,gospel,Luke 12:41–48
+11-27,,year eq 2025,,,,ot,Proverbs 8:33–36
+11-27,,year eq 2025,,,,ot,Isaiah 66:18–21
+11-27,,year eq 2025,,,,epistle,Philippians 4:1–7
+11-27,,year eq 2025,,,,gospel,Luke 9:1–6
+11-28,,year eq 2025,,,,epistle,1 Thessalonians 2:17–19
+11-28,,year eq 2025,,,,gospel,Luke 12:49–59
+11-29,,year eq 2025,,,,ot,Wisdom 9:13–10:2
+11-29,,year eq 2025,,,,ot,Jeremiah 16:16–19
+11-29,,year eq 2025,,,,epistle,1 Corinthians 12:26–13:10
+11-29,,year eq 2025,,,,gospel,Matthew 9:35–10:7
+11-30,,year eq 2025,,,,ot,Isaiah 36:22–37:11
+11-30,,year eq 2025,,,,epistle,1 Thessalonians 4:1–11
+11-30,,year eq 2025,,,,gospel,Luke 13:1–9
+12-01,,year eq 2025,,,,ot,Isaiah 35:4–8
+12-01,,year eq 2025,,,,epistle,2 Corinthians 3:18–4:6
+12-01,,year eq 2025,,,,gospel,Luke 21:12–19
+12-02,,year eq 2025,,,,ot,Wisdom 1:1–7
+12-02,,year eq 2025,,,,ot,Jeremiah 16:16–21
+12-02,,year eq 2025,,,,acts,Acts 1:12–14
+12-02,,year eq 2025,,,,gospel,Mark 6:6–13
+12-03,,year eq 2025,,,,epistle,1 Thessalonians 5:1–11
+12-03,,year eq 2025,,,,gospel,Luke 13:10–17
+12-04,,year eq 2025,,,,ot,Proverbs 21:15–25
+12-04,,year eq 2025,,,,ot,Isaiah 19:19–21
+12-04,,year eq 2025,,,,epistle,Hebrews 11:32–40
+12-04,,year eq 2025,,,,gospel,Matthew 10:37–42
+12-05,,year eq 2025,,,,epistle,1 Thessalonians 5:12–28
+12-05,,year eq 2025,,,,gospel,Luke 14:1–11
+12-06,,year eq 2025,,,,ot,Ezekiel 3:16–19
+12-06,,year eq 2025,,,,epistle,2 Timothy 3:10–15
+12-06,,year eq 2025,,,,gospel,John 10:11–16
+12-07,,year eq 2025,,,,ot,Isaiah 37:14–38
+12-07,,year eq 2025,,,,epistle,2 Thessalonians 1:1–12
+12-07,,year eq 2025,,,,gospel,Luke 14:12–24
+12-08,,year eq 2025,,,,ot,Proverbs 15:33–16:7
+12-08,,year eq 2025,,,,ot,Isaiah 18:7
+12-08,,year eq 2025,,,,epistle,Philippians 1:27–2:4
+12-08,,year eq 2025,,,,gospel,Matthew 10:37–42
+12-09,,year eq 2025,,,,ot,Song of Songs 6:3–8
+12-09,,year eq 2025,,,,ot,Malachi 3:1–2
+12-09,,year eq 2025,,,,epistle,Galatians 3:24–29
+12-09,,year eq 2025,,,,gospel,Luke 1:39–56
+12-10,,year eq 2025,,,,epistle,2 Thessalonians 2:1–16
+12-10,,year eq 2025,,,,gospel,Luke 14:25–27
+12-11,,year eq 2025,,,,ot,Proverbs 1:1–9
+12-11,,year eq 2025,,,,ot,Nahum 2:1–7
+12-11,,year eq 2025,,,,epistle,Romans 5:1–5
+12-11,,year eq 2025,,,,gospel,Matthew 5:1–12
+12-12,,year eq 2025,,,,epistle,2 Thessalonians 3:1–18
+12-12,,year eq 2025,,,,gospel,Luke 15:1–7
+12-13,,year eq 2025,,,,ot,Wisdom 7:12–20
+12-13,,year eq 2025,,,,ot,Isaiah 44:1–5
+12-13,,year eq 2025,,,,epistle,Hebrews 13:17–21
+12-13,,year eq 2025,,,,gospel,John 9:39–10:10
+12-14,,year eq 2025,,,,ot,Isaiah 38:1–8
+12-14,,year eq 2025,,,,epistle,Hebrews 1:1–14
+12-14,,year eq 2025,,,,gospel,Luke 17:1–10
+12-15,,year eq 2025,,,,ot,Wisdom 5:1–8
+12-15,,year eq 2025,,,,ot,Jeremiah 6:16–21
+12-15,,year eq 2025,,,,epistle,1 Corinthians 4:9–16
+12-15,,year eq 2025,,,,gospel,Mark 9:32–36
+12-16,,year eq 2025,,,,ot,Proverbs 24:1–12
+12-16,,year eq 2025,,,,ot,Jeremiah 15:19–20
+12-16,,year eq 2025,,,,epistle,Hebrews 12:1–7
+12-16,,year eq 2025,,,,gospel,Matthew 10:26–33
+12-17,,year eq 2025,,,,epistle,Hebrews 2:1–10
+12-17,,year eq 2025,,,,gospel,Luke 17:11–19
+12-18,,year eq 2025,,,,ot,Wisdom 3:1–8
+12-18,,year eq 2025,,,,ot,Jeremiah 30:18–22
+12-18,,year eq 2025,,,,epistle,1 Peter 4:12–19
+12-18,,year eq 2025,,,,gospel,John 15:17–25
+12-19,,year eq 2025,,,,epistle,Hebrews 3:12–4:10
+12-19,,year eq 2025,,,,gospel,Luke 18:1–8
+12-20,,year eq 2025,,,,ot,Wisdom 6:2–10
+12-20,,year eq 2025,,,,ot,Isaiah 45:1–3
+12-20,,year eq 2025,,,,epistle,1 Timothy 2:1–7
+12-20,,year eq 2025,,,,gospel,Luke 7:1–10
+12-21,,year eq 2025,,,,ot,Isaiah 40:18–31
+12-21,,year eq 2025,,,,epistle,Hebrews 4:16–5:10
+12-21,,year eq 2025,,,,gospel,Luke 18:9–14
+12-22,,year eq 2025,,,,ot,Wisdom 5:16–18
+12-22,,year eq 2025,,,,ot,Lamentations 3:22–56
+12-22,,year eq 2025,,,,epistle,2 Timothy 3:10–15
+12-22,,year eq 2025,,,,gospel,Luke 12:32–40
+12-23,,year eq 2025,,,,ot,2 Samuel 5:1–10
+12-23,,year eq 2025,,,,ot,1 Kings 2:1–11
+12-23,,year eq 2025,,,,ot,Ezekiel 34:20–27
+12-23,,year eq 2025,,,,epistle,James 1:1–12
+12-23,,year eq 2025,,,,gospel,Matthew 22:41–46
+12-24,,year eq 2025,,,,epistle,Hebrews 5:11–6:8
+12-24,,year eq 2025,,,,gospel,Luke 18:18–27
+12-25,,year eq 2025,,,,acts,Acts 6:8–8:2
+12-25,,year eq 2025,,,,gospel,John 12:24–26
+12-26,,year eq 2025,,,,epistle,Hebrews 6:9–7:10
+12-26,,year eq 2025,,,,gospel,Luke 19:1–10
+12-27,,year eq 2025,,,,ot,Wisdom 9:13–10:2
+12-27,,year eq 2025,,,,ot,Isaiah 28:16–19
+12-27,,year eq 2025,,,,epistle,2 Peter 1:12–19
+12-27,,year eq 2025,,,,epistle,2 Timothy 4:1–8
+12-27,,year eq 2025,,,,gospel,John 21:15–22
+12-28,,year eq 2025,,,,ot,Isaiah 41:4–14
+12-28,,year eq 2025,,,,epistle,Hebrews 7:11–25
+12-28,,year eq 2025,,,,gospel,Luke 19:12–28
+12-29,,year eq 2025,,,,ot,Wisdom 7:21–24
+12-29,,year eq 2025,,,,ot,Jeremiah 16:16–21
+12-29,,year eq 2025,,,,acts,Acts 12:1–11
+12-29,,year eq 2025,,,,epistle,James 1:1–10
+12-29,,year eq 2025,,,,epistle,1 John 1:1–7
+12-29,,year eq 2025,,,,gospel,John 21:20–25
+12-30,,year eq 2025,,,,epistle,Hebrews 7:26–8:13
+12-30,,year eq 2025,,,,gospel,Luke 20:1–8
+12-31,,year eq 2025,,,,epistle,Hebrews 10:1–18
+12-31,,year eq 2025,,,,gospel,Luke 20:9–18
+01-01,,year eq 2025,,,,epistle,Hebrews 12:5–17
+01-01,,year eq 2025,,,,gospel,Luke 20:41–21:4
+01-02,,year eq 2025,,,,epistle,Hebrews 13:10–16
+01-02,,year eq 2025,,,,gospel,Luke 21:34–38
+01-03,,year eq 2025,,,,ot,Proverbs 11:2–11
+01-03,,year eq 2025,,,,ot,Isaiah 4:2–6
+01-03,,year eq 2025,,,,epistle,Colossians 1:21–29
+01-03,,year eq 2025,,,,gospel,John 10:11–16
+01-04,,year eq 2025,,,,ot,Isaiah 51:15–52:3
+01-04,,year eq 2025,,,,epistle,Hebrews 13:18–25
+01-04,,year eq 2025,,,,gospel,Luke 22:24–30
+01-05,,year eq 2025,,,,ot,Genesis 1:1–3:24
+01-05,,year eq 2025,,,,ot,Isaiah 7:10–17
+01-05,,year eq 2025,,,,ot,Exodus 14:24–15:21
+01-05,,year eq 2025,,,,ot,Micah 5:2–7
+01-05,,year eq 2025,,,,ot,Proverbs 1:1–9
+01-05,,year eq 2025,,,,ot,Isaiah 9:5–7
+01-05,,year eq 2025,,,,ot,Isaiah 11:1–9
+01-05,,year eq 2025,,,,ot,Isaiah 35:3–8
+01-05,,year eq 2025,,,,ot,Isaiah 40:10–17
+01-05,,year eq 2025,,,,ot,Isaiah 42:1–8
+01-05,,year eq 2025,,,,ot,Daniel 3:1–90
+01-05,,year eq 2025,,,Divine Liturgy,epistle,Titus 2:11–15
+01-05,,year eq 2025,,,Divine Liturgy,gospel,Matthew 2:1–12
+01-05,,year eq 2025,,,Dismissal,gospel,Luke 2:8–14
+01-06,,year eq 2025,,,,epistle,Titus 2:1–15
+01-06,,year eq 2025,,,,gospel,Matthew 1:18–25
+01-06,,year eq 2025,,,Blessing of Water,ot,Isaiah 12:3–6
+01-06,,year eq 2025,,,Blessing of Water,ot,Joshua 3:14–17
+01-06,,year eq 2025,,,Blessing of Water,ot,Exodus 15:22–27
+01-06,,year eq 2025,,,Blessing of Water,ot,2 Kings 2:19–22
+01-06,,year eq 2025,,,Blessing of Water,ot,Ezekiel 47:1–12
+01-06,,year eq 2025,,,Blessing of Water,epistle,1 Corinthians 10:1–4
+01-06,,year eq 2025,,,Blessing of Water,gospel,Matthew 3:1–17
+01-07,,year eq 2025,,,,acts,Acts 6:8–8:2
+01-07,,year eq 2025,,,,gospel,John 12:24–26
+01-08,,year eq 2025,,,,epistle,Hebrews 1:1–12
+01-08,,year eq 2025,,,,gospel,Matthew 2:13–23
+01-09,,year eq 2025,,,,epistle,Galatians 4:1–7
+01-09,,year eq 2025,,,,gospel,Luke 1:26–38
+01-10,,year eq 2025,,,,epistle,Hebrews 12:18–27
+01-10,,year eq 2025,,,,gospel,Luke 1:39–56
+01-11,,year eq 2025,,,,epistle,1 Thessalonians 4:12–17
+01-11,,year eq 2025,,,,gospel,John 11:1–46
+01-12,,year eq 2025,,,,epistle,Romans 1:1–7
+01-12,,year eq 2025,,,,gospel,Luke 2:1–7
+01-13,,year eq 2025,,,,epistle,Colossians 2:8–15
+01-13,,year eq 2025,,,,gospel,Luke 2:21
+01-14,,year eq 2025,,,,epistle,1 Timothy 2:8–3:13
+01-14,,year eq 2025,,,,gospel,John 2:12–22
+01-15,,year eq 2025,,,,ot,Proverbs 8:4–11
+01-15,,year eq 2025,,,,ot,Malachi 4:5–7
+01-15,,year eq 2025,,,,ot,Isaiah 40:3–5
+01-15,,year eq 2025,,,,acts,Acts 13:25–33
+01-15,,year eq 2025,,,,gospel,Luke 1:57–80
+01-16,,year eq 2025,,,,epistle,1 Timothy 4:1–12
+01-16,,year eq 2025,,,,gospel,John 2:23–3:12
+01-17,,year eq 2025,,,,ot,Wisdom 5:1–8
+01-17,,year eq 2025,,,,ot,Baruch 3:31–4:4
+01-17,,year eq 2025,,,,epistle,Romans 8:28–39
+01-17,,year eq 2025,,,,gospel,John 10:11–16
+01-18,,year eq 2025,,,,ot,Isaiah 54:1–14
+01-18,,year eq 2025,,,,epistle,1 Timothy 1:1–11
+01-18,,year eq 2025,,,,gospel,John 2:1–11
+01-19,,year eq 2025,,,,ot,Proverbs 21:16–24
+01-19,,year eq 2025,,,,ot,Isaiah 19:19–21
+01-19,,year eq 2025,,,,epistle,Hebrews 11:32–40
+01-19,,year eq 2025,,,,gospel,Matthew 10:37–42
+01-20,,year eq 2025,,,,ot,Wisdom 6:2–10
+01-20,,year eq 2025,,,,ot,Jeremiah 45:1–2
+01-20,,year eq 2025,,,,epistle,1 Timothy 2:1–7
+01-20,,year eq 2025,,,,gospel,Luke 7:1–10
+01-21,,year eq 2025,,,,epistle,1 Timothy 5:17–6:5
+01-21,,year eq 2025,,,,gospel,John 3:22–36
+01-22,,year eq 2025,,,,ot,Proverbs 14:1–6
+01-22,,year eq 2025,,,,ot,Zechariah 8:4–5
+01-22,,year eq 2025,,,,ot,Isaiah 60:8–9
+01-22,,year eq 2025,,,,epistle,Hebrews 2:14–18
+01-22,,year eq 2025,,,,gospel,Luke 9:44–48
+01-23,,year eq 2025,,,,epistle,2 Timothy 2:3–14
+01-23,,year eq 2025,,,,gospel,John 5:31–47
+01-24,,year eq 2025,,,,ot,Ezekiel 3:16–19
+01-24,,year eq 2025,,,,epistle,2 Corinthians 6:1–14
+01-24,,year eq 2025,,,,gospel,Matthew 12:22–32
+01-25,,year eq 2025,,,,ot,Isaiah 61:10–62:9
+01-25,,year eq 2025,,,,epistle,2 Timothy 2:15–26
+01-25,,year eq 2025,,,,gospel,John 6:15–21
+01-30,,year eq 2025,,,,ot,Jonah 1:1–4:11
+01-31,,year eq 2025,,,,ot,Proverbs 3:13–17
+01-31,,year eq 2025,,,,ot,Isaiah 41:1–3
+01-31,,year eq 2025,,,,epistle,Ephesians 6:10–17
+01-31,,year eq 2025,,,,gospel,Luke 21:10–19
+02-01,,year eq 2025,,,,ot,Isaiah 63:7–18
+02-01,,year eq 2025,,,,epistle,2 Timothy 3:1–12
+02-01,,year eq 2025,,,,gospel,John 6:22–38
+02-02,,year eq 2025,,,,ot,Wisdom 6:12–21
+02-02,,year eq 2025,,,,ot,Isaiah 18:7–19:7
+02-02,,year eq 2025,,,,epistle,2 Corinthians 4:10–5:5
+02-02,,year eq 2025,,,,gospel,John 16:1–5
+02-03,,year eq 2025,,,,ot,Proverbs 22:1–12
+02-03,,year eq 2025,,,,ot,Isaiah 56:6–7
+02-03,,year eq 2025,,,,epistle,Hebrews 11:30–40
+02-03,,year eq 2025,,,,gospel,Luke 12:4–9
+02-04,,year eq 2025,,,,epistle,2 Timothy 3:16–4:8
+02-04,,year eq 2025,,,,gospel,John 7:1–13
+02-05,,year eq 2025,,,,ot,Proverbs 24:1–12
+02-05,,year eq 2025,,,,ot,Jeremiah 30:18–22
+02-05,,year eq 2025,,,,epistle,2 Timothy 3:10–12
+02-05,,year eq 2025,,,,gospel,Matthew 5:1–12
+02-06,,year eq 2025,,,,epistle,2 Timothy 4:9–22
+02-06,,year eq 2025,,,,gospel,John 7:14–23
+02-07,,year eq 2025,,,,ot,Wisdom 7:12–18
+02-07,,year eq 2025,,,,ot,Isaiah 61:3–7
+02-07,,year eq 2025,,,,epistle,Hebrews 13:17–21
+02-07,,year eq 2025,,,,gospel,John 10:11–16
+02-08,,year eq 2025,,,,ot,Isaiah 63:18–64:12
+02-08,,year eq 2025,,,,epistle,Titus 1:1–11
+02-08,,year eq 2025,,,,gospel,John 7:37–52
+02-09,,year eq 2025,,,,ot,Zechariah 8:1–3
+02-09,,year eq 2025,,,,epistle,Romans 8:28–39
+02-09,,year eq 2025,,,,gospel,John 15:17–21
+02-10,,year eq 2025,,,,ot,Wisdom 5:16–23
+02-10,,year eq 2025,,,,ot,Isaiah 35:1–2
+02-10,,year eq 2025,,,,ot,Isaiah 61:6–7
+02-10,,year eq 2025,,,,epistle,1 Peter 1:3–9
+02-10,,year eq 2025,,,,gospel,Luke 12:4–10
+02-11,,year eq 2025,,,,epistle,Titus 1:12–2:10
+02-11,,year eq 2025,,,,gospel,John 8:12–20
+02-12,,year eq 2025,,,,ot,Wisdom 3:1–8
+02-12,,year eq 2025,,,,ot,Isaiah 49:8–9
+02-12,,year eq 2025,,,,epistle,Hebrews 12:1–7
+02-12,,year eq 2025,,,,gospel,Luke 6:20–26
+02-13,,year eq 2025,,,,epistle,Titus 3:1–15
+02-13,,year eq 2025,,,,gospel,John 8:21–30
+02-14,,year eq 2025,,,Eve of the Presentation,ot,Leviticus 12:6–8
+02-14,,year eq 2025,,,Eve of the Presentation,ot,Proverbs 8:22–24
+02-14,,year eq 2025,,,Eve of the Presentation,ot,Ezekiel 44:1–2
+02-14,,year eq 2025,,,Eve of the Presentation,ot,Malachi 3:1–4
+02-14,,year eq 2025,,,Eve of the Presentation,epistle,Galatians 3:24–29
+02-14,,year eq 2025,,,Eve of the Presentation,gospel,Luke 2:22–40
+02-14,,year eq 2025,,,Divine Liturgy,ot,Isaiah 24:21–25:8
+02-14,,year eq 2025,,,Divine Liturgy,acts,Acts 7:47–50
+02-14,,year eq 2025,,,Divine Liturgy,epistle,Galatians 4:1–7
+02-14,,year eq 2025,,,Divine Liturgy,gospel,Luke 2:41–52
+02-15,,year eq 2025,,,,ot,Isaiah 58:1–14
+02-15,,year eq 2025,,,,epistle,Romans 13:11–14:25
+02-15,,year eq 2025,,,,gospel,Matthew 6:1–21
+02-16,,year eq 2025,,,,ot,Isaiah 1:16–20
+02-17,,year eq 2025,,,,ot,Ezekiel 18:20–23
+02-18,,year eq 2025,,,,ot,Exodus 1:1–2:10
+02-18,,year eq 2025,,,,ot,Joel 1:14–20
+02-19,,year eq 2025,,,,epistle,Romans 6:3–14
+02-20,,year eq 2025,,,,ot,Deuteronomy 6:4–7:10
+02-20,,year eq 2025,,,,ot,Job 6:13–7:13
+02-20,,year eq 2025,,,,ot,Isaiah 40:1–8
+02-21,,year eq 2025,,,,ot,Wisdom 8:19–9:5
+02-21,,year eq 2025,,,,ot,Isaiah 62:6–9
+02-21,,year eq 2025,,,,epistle,Romans 8:28–39
+02-21,,year eq 2025,,,,gospel,Matthew 10:16–22
+02-22,,year eq 2025,,,,ot,Isaiah 33:2–22
+02-22,,year eq 2025,,,,epistle,Romans 12:1–13:10
+02-22,,year eq 2025,,,,gospel,Matthew 5:17–48
+02-23,,year eq 2025,,,,ot,1 Samuel 1:1–23
+02-23,,year eq 2025,,,,ot,Proverbs 1:1–33
+02-23,,year eq 2025,,,,ot,Jeremiah 1:1–10
+02-24,,year eq 2025,,,,ot,1 Samuel 1:23–2:26
+02-24,,year eq 2025,,,,ot,Proverbs 2:1–3:10
+02-24,,year eq 2025,,,,ot,Jeremiah 1:11–2:3
+02-25,,year eq 2025,,,,ot,Exodus 2:11–22
+02-25,,year eq 2025,,,,ot,Joel 2:1–11
+02-25,,year eq 2025,,,,ot,Micah 4:1–7
+02-26,,year eq 2025,,,,ot,1 Samuel 3:21–4:18
+02-26,,year eq 2025,,,,ot,Proverbs 3:11–4:14
+02-26,,year eq 2025,,,,ot,Jeremiah 2:31–3:16
+02-27,,year eq 2025,,,,ot,Deuteronomy 7:11–8:1
+02-27,,year eq 2025,,,,ot,Job 9:1–10:2
+02-27,,year eq 2025,,,,ot,Isaiah 40:9–17
+02-28,,year eq 2025,,,,ot,Proverbs 11:2–11
+02-28,,year eq 2025,,,,ot,Isaiah 61:3–7
+02-28,,year eq 2025,,,,epistle,2 Timothy 4:1–8
+02-28,,year eq 2025,,,,gospel,John 10:11–16
+03-01,,year eq 2025,,,,ot,Isaiah 54:11–55:13
+03-01,,year eq 2025,,,,epistle,2 Corinthians 6:1–7:1
+03-01,,year eq 2025,,,,gospel,Luke 15:1–32
+03-02,,year eq 2025,,,,epistle,Colossians 2:8–3:4
+03-03,,year eq 2025,,,,epistle,Hebrews 11:1–31
+03-04,,year eq 2025,,,,ot,Exodus 2:23–3:15
+03-04,,year eq 2025,,,,ot,Joel 2:21–32
+03-05,,year eq 2025,,,,ot,Isaiah 45:17–26
+03-05,,year eq 2025,,,,epistle,Ephesians 3:14–4:13
+03-06,,year eq 2025,,,,ot,Deuteronomy 8:11–9:10
+03-06,,year eq 2025,,,,ot,Job 12:1–13:6
+03-06,,year eq 2025,,,,ot,Isaiah 42:1–8
+03-07,,year eq 2025,,,,ot,Proverbs 20:6–22
+03-07,,year eq 2025,,,,ot,Jeremiah 4:21–24
+03-07,,year eq 2025,,,,epistle,2 Corinthians 4:1–11
+03-07,,year eq 2025,,,,gospel,John 9:39–10:10
+03-08,,year eq 2025,,,,ot,Isaiah 56:1–57:21
+03-08,,year eq 2025,,,,epistle,Ephesians 4:17–5:14
+03-08,,year eq 2025,,,,gospel,Luke 16:1–31
+03-09,,year eq 2025,,,,ot,Jeremiah 32:19–44
+03-10,,year eq 2025,,,,ot,Job 38:2–40:5
+03-11,,year eq 2025,,,,ot,Exodus 3:16–22
+03-11,,year eq 2025,,,,ot,Joel 3:1–8
+03-12,,year eq 2025,,,,epistle,1 Corinthians 8:5–9:23
+03-13,,year eq 2025,,,,ot,Deuteronomy 9:11–23
+03-13,,year eq 2025,,,,ot,Job 16:1–17:16
+03-13,,year eq 2025,,,,ot,Isaiah 43:22–44:8
+03-14,,year eq 2025,,,,ot,Wisdom 3:1–8
+03-14,,year eq 2025,,,,ot,Nahum 2:1–4
+03-14,,year eq 2025,,,,ot,Isaiah 43:1–3
+03-14,,year eq 2025,,,,epistle,Ephesians 6:10–18
+03-14,,year eq 2025,,,,gospel,Matthew 13:43–52
+03-15,,year eq 2025,,,,ot,Isaiah 65:8–25
+03-15,,year eq 2025,,,,epistle,Philippians 3:1–4:9
+03-15,,year eq 2025,,,,gospel,Luke 17:20–18:14
+03-16,,year eq 2025,,,,epistle,Hebrews 1:1–14
+03-17,,year eq 2025,,,,ot,Isaiah 7:10–8:10
+03-18,,year eq 2025,,,,ot,Exodus 4:1–21
+03-18,,year eq 2025,,,,ot,Joel 3:9–21
+03-19,,year eq 2025,,,,ot,Isaiah 53:1–54:5
+03-19,,year eq 2025,,,,epistle,1 Corinthians 15:1–28
+03-20,,year eq 2025,,,,ot,Deuteronomy 10:1–15
+03-20,,year eq 2025,,,,ot,Job 19:1–29
+03-20,,year eq 2025,,,,ot,Isaiah 45:1–13
+03-21,,year eq 2025,,,,ot,Wisdom 1:15–2:22
+03-21,,year eq 2025,,,,ot,Micah 7:7–10
+03-21,,year eq 2025,,,,epistle,Philippians 1:12–21
+03-21,,year eq 2025,,,,gospel,Matthew 16:24–28
+03-22,,year eq 2025,,,,ot,Isaiah 66:1–24
+03-22,,year eq 2025,,,,epistle,Colossians 2:8–3:17
+03-22,,year eq 2025,,,,gospel,Matthew 22:34–23:39
+03-23,,year eq 2025,,,,ot,Daniel 7:2–27
+03-23,,year eq 2025,,,,epistle,1 Corinthians 12:1–7
+03-24,,year eq 2025,,,,epistle,1 Corinthians 12:8–27
+03-25,,year eq 2025,,,,ot,Exodus 4:21–5:3
+03-25,,year eq 2025,,,,ot,Zechariah 9:9–16
+03-26,,year eq 2025,,,,ot,Ezekiel 37:1–14
+03-26,,year eq 2025,,,,epistle,1 Timothy 3:14–16
+03-27,,year eq 2025,,,,ot,Deuteronomy 11:10–25
+03-27,,year eq 2025,,,,ot,Job 21:1–34
+03-27,,year eq 2025,,,,ot,Isaiah 46:3–47:4
+03-28,,year eq 2025,,,,ot,Proverbs 14:27–35
+03-28,,year eq 2025,,,,epistle,1 Thessalonians 4:12–17
+03-28,,year eq 2025,,,,gospel,John 11:55–12:11
+03-29,,year eq 2025,,,,ot,Song of Songs 1:1–2:3
+03-29,,year eq 2025,,,,ot,Zechariah 9:9–15
+03-29,,year eq 2025,,,,epistle,Philippians 4:4–7
+03-29,,year eq 2025,,,,gospel,Matthew 20:29–21:17
+03-30,,year eq 2025,,,Morning,gospel,Matthew 21:18–22:14
+03-30,,year eq 2025,,,Evening,ot,Genesis 1:1–3:24
+03-30,,year eq 2025,,,Evening,ot,Proverbs 1:1–9
+03-30,,year eq 2025,,,Evening,ot,Isaiah 40:1–8
+03-30,,year eq 2025,,,Evening,gospel,Matthew 20:17–28
+03-31,,year eq 2025,,,Morning,gospel,Mark 12:13–44
+03-31,,year eq 2025,,,Evening,ot,Genesis 6:9–9:17
+03-31,,year eq 2025,,,Evening,ot,Proverbs 9:1–10:6
+03-31,,year eq 2025,,,Evening,ot,Isaiah 40:9–17
+03-31,,year eq 2025,,,Evening,gospel,Matthew 24:1–26:2
+04-01,,year eq 2025,,,Morning,gospel,Mark 14:1–11
+04-01,,year eq 2025,,,Evening,ot,Genesis 18:1–19:30
+04-01,,year eq 2025,,,Evening,ot,Proverbs 1:10–19
+04-01,,year eq 2025,,,Evening,ot,Zechariah 11:11–14
+04-01,,year eq 2025,,,Evening,gospel,Matthew 26:3–16
+04-02,,year eq 2025,,,Morning,gospel,John 12:27–43
+04-02,,year eq 2025,,,Office of Penitents,ot,Isaiah 60:20–22
+04-02,,year eq 2025,,,Office of Penitents,ot,Ezekiel 36:24–31
+04-02,,year eq 2025,,,Office of Penitents,epistle,Hebrews 10:19–31
+04-02,,year eq 2025,,,Office of Penitents,gospel,Luke 7:36–50
+04-02,,year eq 2025,,,Holy Eucharist,ot,Genesis 22:1–18
+04-02,,year eq 2025,,,Holy Eucharist,ot,Isaiah 61:1–7
+04-02,,year eq 2025,,,Holy Eucharist,acts,Acts 1:15–26
+04-02,,year eq 2025,,,Holy Eucharist,gospel,Mark 14:1–26
+04-02,,year eq 2025,,,Holy Eucharist,epistle,1 Corinthians 11:23–32
+04-02,,year eq 2025,,,Holy Eucharist,gospel,Matthew 26:17–30
+04-02,,year eq 2025,,,Washing of the Feet,ot,Exodus 30:17–21
+04-02,,year eq 2025,,,Washing of the Feet,ot,1 Kings 7:38–40
+04-02,,year eq 2025,,,Washing of the Feet,ot,2 Chronicles 4:2–6
+04-02,,year eq 2025,,,Washing of the Feet,ot,Isaiah 44:2–6
+04-02,,year eq 2025,,,Washing of the Feet,epistle,1 Corinthians 10:1–4
+04-02,,year eq 2025,,,Washing of the Feet,epistle,1 John 4:7–21
+04-02,,year eq 2025,,,Washing of the Feet,gospel,John 13:1–11
+04-02,,year eq 2025,,,Washing of the Feet,gospel,John 13:12–15
+04-03,,year eq 2025,,,Passion,gospel,John 13:16–18:1
+04-03,,year eq 2025,,,Passion,gospel,Luke 22:1–65
+04-03,,year eq 2025,,,Passion,gospel,Mark 14:27–72
+04-03,,year eq 2025,,,Passion,gospel,Matthew 26:31–56
+04-03,,year eq 2025,,,Passion,gospel,Matthew 26:47–75
+04-03,,year eq 2025,,,Passion,gospel,John 18:2–27
+04-03,,year eq 2025,,,Passion,gospel,John 18:28–19:16
+04-03,,year eq 2025,,,Crucifixion,ot,Zechariah 11:11–14
+04-03,,year eq 2025,,,Crucifixion,epistle,Galatians 6:14–18
+04-03,,year eq 2025,,,Crucifixion,ot,Isaiah 3:9–15
+04-03,,year eq 2025,,,Crucifixion,epistle,Philippians 2:5–11
+04-03,,year eq 2025,,,Crucifixion,ot,Isaiah 50:4–9
+04-03,,year eq 2025,,,Crucifixion,epistle,Romans 5:6–11
+04-03,,year eq 2025,,,Crucifixion,ot,Amos 8:9–12
+04-03,,year eq 2025,,,Crucifixion,epistle,1 Corinthians 1:18–31
+04-03,,year eq 2025,,,Crucifixion,ot,Isaiah 52:13–53:12
+04-03,,year eq 2025,,,Crucifixion,epistle,Hebrews 2:11–18
+04-03,,year eq 2025,,,Crucifixion,gospel,Matthew 27:1–56
+04-03,,year eq 2025,,,Crucifixion,ot,Isaiah 63:1–6
+04-03,,year eq 2025,,,Crucifixion,epistle,Hebrews 9:11–28
+04-03,,year eq 2025,,,Crucifixion,gospel,Mark 15:1–41
+04-03,,year eq 2025,,,Crucifixion,ot,Jeremiah 11:18–12:8
+04-03,,year eq 2025,,,Crucifixion,epistle,Hebrews 10:19–31
+04-03,,year eq 2025,,,Crucifixion,gospel,Luke 22:66–23:49
+04-03,,year eq 2025,,,Crucifixion,ot,Zechariah 14:5–11
+04-03,,year eq 2025,,,Crucifixion,epistle,1 Timothy 6:13–16
+04-03,,year eq 2025,,,Crucifixion,gospel,John 19:17–37
+04-03,,year eq 2025,,,Burial,ot,Jeremiah 11:18–12:8
+04-03,,year eq 2025,,,Burial,ot,Isaiah 52:13–53:12
+04-03,,year eq 2025,,,Burial,ot,Wisdom 2:1–22
+04-03,,year eq 2025,,,Burial,ot,Zechariah 12:8–14
+04-03,,year eq 2025,,,Burial,epistle,1 Peter 3:17–20
+04-03,,year eq 2025,,,Burial,gospel,Matthew 27:57–61
+04-04,,year eq 2025,,,Morning,gospel,Matthew 27:62–66
+04-04,,year eq 2025,,,Easter Eve,ot,Genesis 1:1–3:24
+04-04,,year eq 2025,,,Easter Eve,ot,Genesis 22:1–18
+04-04,,year eq 2025,,,Easter Eve,ot,Exodus 12:1–24
+04-04,,year eq 2025,,,Easter Eve,ot,Jonah 1:1–4:11
+04-04,,year eq 2025,,,Easter Eve,ot,Exodus 13:24–15:21
+04-04,,year eq 2025,,,Easter Eve,ot,Isaiah 60:1–13
+04-04,,year eq 2025,,,Easter Eve,ot,Job 38:1–28
+04-04,,year eq 2025,,,Easter Eve,ot,Joshua 1:1–9
+04-04,,year eq 2025,,,Easter Eve,ot,2 Kings 2:1–22
+04-04,,year eq 2025,,,Easter Eve,ot,Jeremiah 31:31–34
+04-04,,year eq 2025,,,Easter Eve,ot,Ezekiel 37:1–14
+04-04,,year eq 2025,,,Easter Eve,ot,Daniel 3:1–90
+04-04,,year eq 2025,,,Easter Eve,epistle,1 Corinthians 15:1–11
+04-04,,year eq 2025,,,Easter Eve,gospel,Matthew 28:1–20
+04-05,,year eq 2025,,,,acts,Acts 1:15–26
+04-05,,year eq 2025,,,,gospel,Mark 16:2–8
+04-05,,year eq 2025,,,Evening,acts,Acts 1:1–8
+04-05,,year eq 2025,,,Evening,gospel,Luke 24:13–36
+04-05,,year eq 2025,,,Evening,gospel,John 20:1–18
+04-05,,year eq 2025,,,Evening,gospel,John 5:24–30
+04-05,,year eq 2025,,,Evening,gospel,John 19:31–37
+04-05,,year eq 2025,,,Evening,gospel,John 20:19–25
+04-06,,year eq 2025,,,,acts,Acts 2:22–41
+04-06,,year eq 2025,,,,gospel,Luke 24:1–12
+04-06,,year eq 2025,,,Evening,gospel,Mark 16:2–8
+04-06,,year eq 2025,,,Evening,gospel,Luke 24:1–12
+04-07,,year eq 2025,,,,acts,Acts 2:42–3:21
+04-07,,year eq 2025,,,,gospel,Luke 24:13–35
+04-07,,year eq 2025,,,Evening,gospel,Luke 24:1–12
+04-07,,year eq 2025,,,Evening,gospel,Luke 24:13–35
+04-07,,year eq 2025,,,Annunciation,ot,Song of Songs 1:1–11
+04-07,,year eq 2025,,,Annunciation,ot,Proverbs 11:30–12:4
+04-07,,year eq 2025,,,Annunciation,ot,Isaiah 52:7–10
+04-07,,year eq 2025,,,Annunciation,ot,Zechariah 2:10–13
+04-07,,year eq 2025,,,Annunciation,ot,Malachi 3:1–2
+04-07,,year eq 2025,,,Annunciation,epistle,2 Corinthians 6:16–7:1
+04-07,,year eq 2025,,,Annunciation,gospel,Luke 1:26–38
+04-08,,year eq 2025,,,,acts,Acts 3:22–4:12
+04-08,,year eq 2025,,,,epistle,James 1:1–12
+04-08,,year eq 2025,,,,gospel,Luke 24:36–40
+04-08,,year eq 2025,,,Evening,gospel,Luke 24:13–35
+04-08,,year eq 2025,,,Evening,gospel,Luke 24:36–40
+04-09,,year eq 2025,,,,acts,Acts 4:13–31
+04-09,,year eq 2025,,,,epistle,James 1:13–27
+04-09,,year eq 2025,,,,gospel,Matthew 5:1–12
+04-09,,year eq 2025,,,Evening,gospel,Luke 24:36–40
+04-09,,year eq 2025,,,Evening,gospel,Matthew 5:1–12
+04-10,,year eq 2025,,,,acts,Acts 4:32–5:11
+04-10,,year eq 2025,,,,epistle,James 2:1–13
+04-10,,year eq 2025,,,,gospel,John 21:1–14
+04-10,,year eq 2025,,,Evening,gospel,Matthew 5:1–12
+04-10,,year eq 2025,,,Evening,gospel,John 21:1–14
+04-11,,year eq 2025,,,,ot,Proverbs 8:4–11
+04-11,,year eq 2025,,,,ot,Isaiah 40:3–8
+04-11,,year eq 2025,,,,ot,Malachi 4:4–6
+04-11,,year eq 2025,,,,acts,Acts 13:26–33
+04-11,,year eq 2025,,,,gospel,Mark 6:14–29
+04-11,,year eq 2025,,,Daily Readings,acts,Acts 5:12–33
+04-11,,year eq 2025,,,Daily Readings,epistle,James 2:14–26
+04-11,,year eq 2025,,,Evening,gospel,John 21:1–14
+04-11,,year eq 2025,,,Evening,gospel,John 21:15–25
+04-12,,year eq 2025,,,,gospel,Luke 4:14–30
+04-12,,year eq 2025,,,Daily Readings,acts,Acts 5:34–6:7
+04-12,,year eq 2025,,,Daily Readings,epistle,James 3:1–12
+04-12,,year eq 2025,,,Daily Readings,gospel,John 1:1–17
+04-12,,year eq 2025,,,Evening,gospel,John 21:15–25
+04-12,,year eq 2025,,,Evening,gospel,Matthew 27:50–61
+04-12,,year eq 2025,,,Evening,gospel,John 20:26–31
+04-13,,year eq 2025,,,Morning,gospel,Luke 4:31–41
+04-13,,year eq 2025,,,Midday,acts,Acts 6:8–7:29
+04-13,,year eq 2025,,,Midday,epistle,James 3:13–4:6
+04-13,,year eq 2025,,,Midday,gospel,John 1:18–28
+04-13,,year eq 2025,,,Evening,gospel,Matthew 4:12–25
+04-13,,year eq 2025,,,Evening Dismissal,gospel,Mark 1:14–20
+04-14,,year eq 2025,,,Morning,gospel,Luke 4:42–5:11
+04-14,,year eq 2025,,,Midday,acts,Acts 7:30–8:2
+04-14,,year eq 2025,,,Midday,epistle,James 4:7–17
+04-14,,year eq 2025,,,Midday,gospel,John 1:29–34
+04-14,,year eq 2025,,,Evening,gospel,Matthew 5:1–16
+04-14,,year eq 2025,,,Evening Dismissal,gospel,Mark 1:21–34
+04-15,,year eq 2025,,,Morning,gospel,Luke 5:12–16
+04-15,,year eq 2025,,,Midday,acts,Acts 8:3–13
+04-15,,year eq 2025,,,Midday,epistle,James 5:1–11
+04-15,,year eq 2025,,,Midday,gospel,John 1:35–42
+04-15,,year eq 2025,,,Evening,gospel,Matthew 5:17–48
+04-15,,year eq 2025,,,Evening Dismissal,gospel,Mark 1:35–45
+04-16,,year eq 2025,,,Morning,gospel,Luke 5:17–26
+04-16,,year eq 2025,,,Midday,acts,Acts 8:14–25
+04-16,,year eq 2025,,,Midday,epistle,James 5:12–20
+04-16,,year eq 2025,,,Midday,gospel,John 1:43–51
+04-16,,year eq 2025,,,Evening,gospel,Matthew 6:1–21
+04-16,,year eq 2025,,,Evening Dismissal,gospel,Mark 2:1–12
+04-17,,year eq 2025,,,Morning,gospel,Luke 5:27–39
+04-17,,year eq 2025,,,Midday,acts,Acts 8:26–40
+04-17,,year eq 2025,,,Midday,epistle,1 Peter 1:1–12
+04-17,,year eq 2025,,,Midday,gospel,John 2:1–11
+04-17,,year eq 2025,,,Evening,gospel,Matthew 6:22–34
+04-17,,year eq 2025,,,Evening Dismissal,gospel,Mark 2:13–22
+04-18,,year eq 2025,,,Morning,gospel,Luke 6:1–11
+04-18,,year eq 2025,,,Midday,acts,Acts 9:1–22
+04-18,,year eq 2025,,,Midday,epistle,1 Peter 1:13–25
+04-18,,year eq 2025,,,Midday,gospel,John 2:12–22
+04-18,,year eq 2025,,,Evening,gospel,Matthew 7:1–8:17
+04-18,,year eq 2025,,,Evening Dismissal,gospel,Mark 2:23–3:5
+04-19,,year eq 2025,,,Morning,gospel,Luke 6:12–45
+04-19,,year eq 2025,,,Midday,acts,Acts 9:23–31
+04-19,,year eq 2025,,,Midday,epistle,1 Peter 2:1–10
+04-19,,year eq 2025,,,Midday,gospel,John 2:23–3:12
+04-19,,year eq 2025,,,Evening,gospel,Matthew 8:18–9:8
+04-19,,year eq 2025,,,Evening Dismissal,gospel,Mark 3:6–12
+04-20,,year eq 2025,,,Morning,gospel,Luke 7:1–10
+04-20,,year eq 2025,,,Midday,acts,Acts 9:32–43
+04-20,,year eq 2025,,,Midday,epistle,1 Peter 2:11–17
+04-20,,year eq 2025,,,Midday,gospel,John 3:13–21
+04-20,,year eq 2025,,,Evening,gospel,Matthew 9:9–17
+04-20,,year eq 2025,,,Evening Dismissal,gospel,Mark 3:13–19
+04-21,,year eq 2025,,,Morning,gospel,Luke 7:11–35
+04-21,,year eq 2025,,,Midday,acts,Acts 10:1–23
+04-21,,year eq 2025,,,Midday,epistle,1 Peter 2:18–25
+04-21,,year eq 2025,,,Midday,gospel,John 3:22–36
+04-21,,year eq 2025,,,Evening,gospel,Matthew 9:18–26
+04-21,,year eq 2025,,,Evening Dismissal,gospel,Mark 3:20–30
+04-22,,year eq 2025,,,Morning,gospel,Luke 7:36–50
+04-22,,year eq 2025,,,Midday,acts,Acts 10:24–48
+04-22,,year eq 2025,,,Midday,epistle,1 Peter 3:1–9
+04-22,,year eq 2025,,,Midday,gospel,John 4:1–23
+04-22,,year eq 2025,,,Evening,gospel,Matthew 9:27–34
+04-22,,year eq 2025,,,Evening Dismissal,gospel,Mark 3:31–35
+04-23,,year eq 2025,,,Morning,gospel,Luke 8:1–21
+04-23,,year eq 2025,,,Midday,acts,Acts 11:1–26
+04-23,,year eq 2025,,,Midday,epistle,1 Peter 3:10–22
+04-23,,year eq 2025,,,Midday,gospel,John 4:24–42
+04-23,,year eq 2025,,,Evening,gospel,Matthew 9:35–10:15
+04-23,,year eq 2025,,,Evening Dismissal,gospel,Mark 4:1–9
+04-24,,year eq 2025,,,Morning,gospel,Luke 8:22–56
+04-24,,year eq 2025,,,Midday,acts,Acts 11:27–12:24
+04-24,,year eq 2025,,,Midday,epistle,1 Peter 4:1–11
+04-24,,year eq 2025,,,Midday,gospel,John 4:43–54
+04-24,,year eq 2025,,,Evening,gospel,Matthew 10:16–42
+04-24,,year eq 2025,,,Evening Dismissal,gospel,Mark 4:10–20
+04-25,,year eq 2025,,,Morning,gospel,Luke 9:1–17
+04-25,,year eq 2025,,,Midday,acts,Acts 12:25–13:15
+04-25,,year eq 2025,,,Midday,epistle,1 Peter 4:12–19
+04-25,,year eq 2025,,,Midday,gospel,John 5:1–18
+04-25,,year eq 2025,,,Evening,gospel,Matthew 11:1–24
+04-25,,year eq 2025,,,Evening Dismissal,gospel,Mark 4:21–25
+04-26,,year eq 2025,,,Morning,gospel,Luke 9:18–36
+04-26,,year eq 2025,,,Midday,acts,Acts 13:16–43
+04-26,,year eq 2025,,,Midday,epistle,1 Peter 5:1–14
+04-26,,year eq 2025,,,Midday,gospel,John 5:19–30
+04-26,,year eq 2025,,,Evening,gospel,Matthew 11:25–30
+04-26,,year eq 2025,,,Evening Dismissal,gospel,Mark 4:26–34
+04-27,,year eq 2025,,,Morning,gospel,Luke 9:37–50
+04-27,,year eq 2025,,,Midday,acts,Acts 13:44–14:6
+04-27,,year eq 2025,,,Midday,epistle,2 Peter 1:1–11
+04-27,,year eq 2025,,,Midday,gospel,John 5:31–47
+04-27,,year eq 2025,,,Evening,gospel,Matthew 12:1–21
+04-27,,year eq 2025,,,Evening Dismissal,gospel,Mark 4:35–5:20
+04-28,,year eq 2025,,,Morning,gospel,Luke 9:51–62
+04-28,,year eq 2025,,,Midday,acts,Acts 14:7–17
+04-28,,year eq 2025,,,Midday,epistle,2 Peter 1:12–19
+04-28,,year eq 2025,,,Midday,gospel,John 6:1–14
+04-28,,year eq 2025,,,Evening,gospel,Matthew 12:22–37
+04-28,,year eq 2025,,,Evening Dismissal,gospel,Mark 5:21–34
+04-29,,year eq 2025,,,Morning,gospel,Luke 10:1–24
+04-29,,year eq 2025,,,Midday,acts,Acts 14:18–27
+04-29,,year eq 2025,,,Midday,epistle,2 Peter 1:20–2:8
+04-29,,year eq 2025,,,Midday,gospel,John 6:15–21
+04-29,,year eq 2025,,,Evening,gospel,Matthew 12:38–50
+04-29,,year eq 2025,,,Evening Dismissal,gospel,Mark 5:35–43
+04-30,,year eq 2025,,,Morning,gospel,Luke 10:25–42
+04-30,,year eq 2025,,,Midday,acts,Acts 15:1–29
+04-30,,year eq 2025,,,Midday,epistle,2 Peter 2:9–22
+04-30,,year eq 2025,,,Midday,gospel,John 6:22–38
+04-30,,year eq 2025,,,Evening,gospel,Matthew 13:1–23
+04-30,,year eq 2025,,,Evening Dismissal,gospel,Mark 6:1–6
+05-01,,year eq 2025,,,Morning,gospel,Luke 11:1–13
+05-01,,year eq 2025,,,Midday,acts,Acts 15:30–16:5
+05-01,,year eq 2025,,,Midday,epistle,2 Peter 3:1–9
+05-01,,year eq 2025,,,Midday,gospel,John 6:39–72
+05-01,,year eq 2025,,,Evening,gospel,Matthew 13:24–35
+05-01,,year eq 2025,,,Evening Dismissal,gospel,Mark 6:7–13
+05-02,,year eq 2025,,,Morning,gospel,Luke 11:14–32
+05-02,,year eq 2025,,,Midday,acts,Acts 16:6–40
+05-02,,year eq 2025,,,Midday,epistle,2 Peter 3:10–18
+05-02,,year eq 2025,,,Midday,gospel,John 7:1–13
+05-02,,year eq 2025,,,Evening,gospel,Matthew 13:36–52
+05-02,,year eq 2025,,,Evening Dismissal,gospel,Mark 6:14–29
+05-03,,year eq 2025,,,Morning,gospel,Luke 11:33–12:12
+05-03,,year eq 2025,,,Midday,acts,Acts 17:1–15
+05-03,,year eq 2025,,,Midday,epistle,1 John 1:1–10
+05-03,,year eq 2025,,,Midday,gospel,John 7:14–23
+05-03,,year eq 2025,,,Evening,gospel,Matthew 13:53–58
+05-03,,year eq 2025,,,Evening,gospel,John 19:25–30
+05-03,,year eq 2025,,,Evening Dismissal,gospel,Mark 6:30–44
+05-04,,year eq 2025,,,Morning,gospel,Luke 12:13–31
+05-04,,year eq 2025,,,Midday,acts,Acts 17:16–34
+05-04,,year eq 2025,,,Midday,epistle,1 John 2:1–6
+05-04,,year eq 2025,,,Midday,gospel,John 7:24–36
+05-04,,year eq 2025,,,Evening,gospel,Matthew 14:1–12
+05-04,,year eq 2025,,,Evening Dismissal,gospel,Mark 6:45–56
+05-05,,year eq 2025,,,Morning,gospel,Luke 12:32–48
+05-05,,year eq 2025,,,Midday,acts,Acts 18:1–11
+05-05,,year eq 2025,,,Midday,epistle,1 John 2:7–17
+05-05,,year eq 2025,,,Midday,gospel,John 7:37–8:11
+05-05,,year eq 2025,,,Evening,gospel,Matthew 14:13–21
+05-05,,year eq 2025,,,Evening Dismissal,gospel,Mark 7:1–16
+05-06,,year eq 2025,,,Morning,gospel,Luke 12:49–13:9
+05-06,,year eq 2025,,,Midday,acts,Acts 18:12–28
+05-06,,year eq 2025,,,Midday,epistle,1 John 2:18–23
+05-06,,year eq 2025,,,Midday,gospel,John 8:12–20
+05-06,,year eq 2025,,,Evening,gospel,Matthew 14:22–36
+05-06,,year eq 2025,,,Evening Dismissal,gospel,Mark 7:17–30
+05-07,,year eq 2025,,,Morning,gospel,Luke 13:10–21
+05-07,,year eq 2025,,,Midday,acts,Acts 19:1–20
+05-07,,year eq 2025,,,Midday,epistle,1 John 2:24–25
+05-07,,year eq 2025,,,Midday,gospel,John 8:21–30
+05-07,,year eq 2025,,,Evening,gospel,Matthew 15:1–20
+05-07,,year eq 2025,,,Evening Dismissal,gospel,Mark 7:31–37
+05-08,,year eq 2025,,,Morning,gospel,Luke 13:22–35
+05-08,,year eq 2025,,,Midday,acts,Acts 19:21–40
+05-08,,year eq 2025,,,Midday,epistle,1 John 2:26–28
+05-08,,year eq 2025,,,Midday,gospel,John 8:31–59
+05-08,,year eq 2025,,,Evening,gospel,Matthew 15:21–28
+05-08,,year eq 2025,,,Evening Dismissal,gospel,Mark 8:1–9
+05-09,,year eq 2025,,,Morning,gospel,Luke 14:1–24
+05-09,,year eq 2025,,,Midday,acts,Acts 9:1–16
+05-09,,year eq 2025,,,Midday,epistle,1 John 2:28–3:1
+05-09,,year eq 2025,,,Midday,gospel,John 9:1–38
+05-09,,year eq 2025,,,Evening,gospel,Matthew 15:29–16:12
+05-09,,year eq 2025,,,Evening Dismissal,gospel,Mark 8:10–26
+05-10,,year eq 2025,,,Morning,gospel,Luke 14:25–15:32
+05-10,,year eq 2025,,,Midday,acts,Acts 20:17–38
+05-10,,year eq 2025,,,Midday,epistle,1 John 3:2–6
+05-10,,year eq 2025,,,Midday,gospel,John 9:39–10:10
+05-10,,year eq 2025,,,Evening,gospel,Matthew 16:13–17:13
+05-10,,year eq 2025,,,Evening Dismissal,gospel,Mark 8:27–9:13
+05-11,,year eq 2025,,,Morning,gospel,Luke 16:1–31
+05-11,,year eq 2025,,,Midday,acts,Acts 21:1–14
+05-11,,year eq 2025,,,Midday,epistle,1 John 3:7–10
+05-11,,year eq 2025,,,Midday,gospel,John 10:11–21
+05-11,,year eq 2025,,,Evening,gospel,Matthew 17:14–20
+05-11,,year eq 2025,,,Evening Dismissal,gospel,Mark 9:14–28
+05-12,,year eq 2025,,,Morning,gospel,Luke 17:1–19
+05-12,,year eq 2025,,,Midday,acts,Acts 21:15–26
+05-12,,year eq 2025,,,Midday,epistle,1 John 3:10–20
+05-12,,year eq 2025,,,Midday,gospel,John 10:22–42
+05-12,,year eq 2025,,,Evening,gospel,Matthew 17:21–18:9
+05-12,,year eq 2025,,,Evening Dismissal,gospel,Mark 9:29–49
+05-13,,year eq 2025,,,Morning,gospel,Luke 17:20–37
+05-13,,year eq 2025,,,Midday,acts,Acts 21:27–36
+05-13,,year eq 2025,,,Midday,epistle,1 John 3:21–4:6
+05-13,,year eq 2025,,,Midday,gospel,John 11:1–46
+05-13,,year eq 2025,,,Evening,gospel,Matthew 18:10–35
+05-13,,year eq 2025,,,Evening Dismissal,gospel,Mark 10:1–12
+05-14,,year eq 2025,,,Morning,gospel,Luke 18:1–14
+05-14,,year eq 2025,,,Midday,acts,Acts 1:1–14
+05-14,,year eq 2025,,,Midday,gospel,Matthew 28:16–20
+05-14,,year eq 2025,,,Evening,gospel,Matthew 19:1–15
+05-14,,year eq 2025,,,Evening Dismissal,gospel,Mark 10:13–27
+05-15,,year eq 2025,,,Morning,gospel,Luke 18:15–34
+05-15,,year eq 2025,,,Midday,acts,Acts 21:37–22:29
+05-15,,year eq 2025,,,Midday,epistle,1 John 4:7–21
+05-15,,year eq 2025,,,Midday,gospel,John 11:47–54
+05-15,,year eq 2025,,,Evening,gospel,Matthew 19:16–20:16
+05-15,,year eq 2025,,,Evening Dismissal,gospel,Mark 10:28–32
+05-16,,year eq 2025,,,Morning,gospel,Luke 18:35–19:28
+05-16,,year eq 2025,,,Midday,acts,Acts 22:30–23:11
+05-16,,year eq 2025,,,Midday,epistle,1 John 5:1–12
+05-16,,year eq 2025,,,Midday,gospel,John 11:55–12:11
+05-16,,year eq 2025,,,Evening,gospel,Matthew 20:17–28
+05-16,,year eq 2025,,,Evening Dismissal,gospel,Mark 10:33–45
+05-17,,year eq 2025,,,Morning,gospel,Luke 19:29–48
+05-17,,year eq 2025,,,Midday,acts,Acts 23:12–35
+05-17,,year eq 2025,,,Midday,epistle,1 John 5:13–21
+05-17,,year eq 2025,,,Midday,gospel,John 12:12–23
+05-17,,year eq 2025,,,Evening,gospel,Matthew 20:29–21:17
+05-17,,year eq 2025,,,Evening Dismissal,gospel,Mark 10:46–11:11
+05-18,,year eq 2025,,,Morning,gospel,Luke 20:1–8
+05-18,,year eq 2025,,,Midday,acts,Acts 24:1–26
+05-18,,year eq 2025,,,Midday,epistle,2 John 1–13
+05-18,,year eq 2025,,,Midday,gospel,John 12:24–26
+05-18,,year eq 2025,,,Evening,gospel,Matthew 21:18–32
+05-18,,year eq 2025,,,Evening Dismissal,gospel,Mark 11:12–26
+05-19,,year eq 2025,,,Morning,gospel,Luke 20:9–19
+05-19,,year eq 2025,,,Midday,acts,Acts 24:27–25:12
+05-19,,year eq 2025,,,Midday,epistle,3 John 1–15
+05-19,,year eq 2025,,,Midday,gospel,John 12:27–43
+05-19,,year eq 2025,,,Evening,gospel,Matthew 21:33–46
+05-19,,year eq 2025,,,Evening Dismissal,gospel,Mark 11:27–12:17
+05-20,,year eq 2025,,,Morning,gospel,Luke 20:20–26
+05-20,,year eq 2025,,,Midday,acts,Acts 25:13–22
+05-20,,year eq 2025,,,Midday,epistle,Jude 1–7
+05-20,,year eq 2025,,,Midday,gospel,John 12:44–50
+05-20,,year eq 2025,,,Evening,gospel,Matthew 22:1–14
+05-20,,year eq 2025,,,Evening Dismissal,gospel,Mark 12:18–34
+05-21,,year eq 2025,,,Morning,gospel,Luke 20:27–21:4
+05-21,,year eq 2025,,,Midday,acts,Acts 25:23–26:32
+05-21,,year eq 2025,,,Midday,epistle,Jude 8–15
+05-21,,year eq 2025,,,Midday,gospel,John 13:1–15
+05-21,,year eq 2025,,,Evening,gospel,Matthew 22:15–46
+05-21,,year eq 2025,,,Evening Dismissal,gospel,Mark 12:35–44
+05-22,,year eq 2025,,,Morning,gospel,Luke 21:5–38
+05-22,,year eq 2025,,,Midday,acts,Acts 27:1–28:16
+05-22,,year eq 2025,,,Midday,epistle,Jude 16
+05-22,,year eq 2025,,,Midday,gospel,John 13:16–30
+05-22,,year eq 2025,,,Evening,gospel,Matthew 23:1–39
+05-22,,year eq 2025,,,Evening Dismissal,gospel,Mark 13:1–37
+05-23,,year eq 2025,,,Morning,gospel,Luke 22:1–30
+05-23,,year eq 2025,,,Midday,acts,Acts 28:17–32
+05-23,,year eq 2025,,,Midday,epistle,Jude 17–25
+05-23,,year eq 2025,,,Midday,gospel,John 13:31–14:13
+05-23,,year eq 2025,,,Evening,gospel,Matthew 24:1–26:2
+05-23,,year eq 2025,,,Evening Dismissal,gospel,Mark 14:1–26
+05-24,,year eq 2025,,,,acts,Acts 2:1–21
+05-24,,year eq 2025,,,,gospel,John 14:25–31
+05-25,,year eq 2025,,,,epistle,Romans 1:1–17
+05-25,,year eq 2025,,,,gospel,Matthew 7:28–8:4
+05-26,,year eq 2025,,,,epistle,Romans 1:18–25
+05-26,,year eq 2025,,,,gospel,Matthew 8:5–13
+05-27,,year eq 2025,,,,epistle,Romans 2:2–11
+05-27,,year eq 2025,,,,gospel,Matthew 8:18–27
+05-28,,year eq 2025,,,,epistle,Romans 2:12–24
+05-28,,year eq 2025,,,,gospel,Matthew 8:28–34
+05-29,,year eq 2025,,,,epistle,Romans 2:25–3:9
+05-29,,year eq 2025,,,,gospel,Matthew 9:1–8
+05-30,,year eq 2025,,,,ot,Jeremiah 1:1–10; 38:1–13
+05-30,,year eq 2025,,,,epistle,2 Peter 2:9–22
+05-30,,year eq 2025,,,,gospel,Matthew 2:16–18
+05-31,,year eq 2025,,,,ot,1 Kings 18:29–46
+05-31,,year eq 2025,,,,ot,2 Kings 2:1–15
+05-31,,year eq 2025,,,,epistle,James 5:16–20
+05-31,,year eq 2025,,,,gospel,Luke 4:25–30
+06-01,,year eq 2025,,,,ot,Proverbs 31:29–31
+06-01,,year eq 2025,,,,ot,Isaiah 61:10–62:3
+06-01,,year eq 2025,,,,epistle,Romans 15:30–16:2
+06-01,,year eq 2025,,,,gospel,Matthew 10:26–33
+06-02,,year eq 2025,,,,ot,Proverbs 1:20–23
+06-02,,year eq 2025,,,,ot,Baruch 4:36–5:4
+06-02,,year eq 2025,,,,epistle,2 Corinthians 6:16–7:1
+06-02,,year eq 2025,,,,gospel,John 16:1–5
+06-03,,year eq 2025,,,,epistle,Romans 3:19–31
+06-03,,year eq 2025,,,,gospel,Matthew 9:9–15
+06-04,,year eq 2025,,,,ot,Proverbs 15:21–26
+06-04,,year eq 2025,,,,ot,Isaiah 22:20–25
+06-04,,year eq 2025,,,,epistle,1 Peter 5:1–7
+06-04,,year eq 2025,,,,gospel,Matthew 11:2–14
+06-05,,year eq 2025,,,,epistle,Romans 4:1–12
+06-05,,year eq 2025,,,,gospel,Matthew 9:27–34
+06-06,,year eq 2025,,,,ot,Wisdom 5:1–8
+06-06,,year eq 2025,,,,ot,Isaiah 60:20–61:7
+06-06,,year eq 2025,,,,epistle,Hebrews 13:17–21
+06-06,,year eq 2025,,,,gospel,Matthew 19:27–29
+06-07,,year eq 2025,,,,ot,Proverbs 9:1–6
+06-07,,year eq 2025,,,,ot,Zechariah 3:7–4:9
+06-07,,year eq 2025,,,,epistle,Hebrews 9:1–10
+06-07,,year eq 2025,,,,gospel,John 10:22–30
+06-08,,year eq 2025,,,,ot,Proverbs 29:2–7
+06-08,,year eq 2025,,,,ot,Isaiah 18:7
+06-08,,year eq 2025,,,,epistle,Hebrews 2:14–18
+06-08,,year eq 2025,,,,gospel,Matthew 2:16–18
+06-09,,year eq 2025,,,,ot,Song of Songs 8:14–24
+06-09,,year eq 2025,,,,ot,Isaiah 27:11–13
+06-09,,year eq 2025,,,,epistle,1 Peter 5:8–11
+06-09,,year eq 2025,,,,gospel,John 12:24–26
+06-10,,year eq 2025,,,,epistle,Romans 4:13–22
+06-10,,year eq 2025,,,,gospel,Matthew 10:34–42
+06-11,,year eq 2025,,,,ot,Proverbs 6:1–5
+06-11,,year eq 2025,,,,ot,Isaiah 33:5–8
+06-11,,year eq 2025,,,,epistle,Romans 8:18–27
+06-11,,year eq 2025,,,,gospel,Luke 21:12–19
+06-12,,year eq 2025,,,,epistle,Romans 5:12–21
+06-12,,year eq 2025,,,,gospel,Matthew 11:25–30
+06-13,,year eq 2025,,,,ot,Wisdom 2:23–3:8
+06-13,,year eq 2025,,,,ot,Isaiah 57:15–16
+06-13,,year eq 2025,,,,epistle,Hebrews 13:7–9
+06-13,,year eq 2025,,,,gospel,Matthew 10:16–22
+06-14,,year eq 2025,,,,ot,Isaiah 1:2–15
+06-14,,year eq 2025,,,,epistle,Romans 6:12–23
+06-14,,year eq 2025,,,,gospel,Matthew 12:1–8
+06-15,,year eq 2025,,,,ot,Wisdom 8:7–10
+06-15,,year eq 2025,,,,ot,Nahum 1:7–9
+06-15,,year eq 2025,,,,epistle,1 Corinthians 12:4–11
+06-15,,year eq 2025,,,,gospel,Mark 6:45–52
+06-16,,year eq 2025,,,,ot,Proverbs 16:9–17
+06-16,,year eq 2025,,,,ot,Baruch 3:31–4:4
+06-16,,year eq 2025,,,,epistle,1 Timothy 2:1–7
+06-16,,year eq 2025,,,,gospel,Luke 7:1–10
+06-17,,year eq 2025,,,,epistle,Romans 7:1–11
+06-17,,year eq 2025,,,,gospel,Matthew 12:9–15
+06-18,,year eq 2025,,,,ot,Wisdom 6:11–21
+06-18,,year eq 2025,,,,epistle,2 Corinthians 6:1–10
+06-18,,year eq 2025,,,,gospel,John 16:1–5
+06-19,,year eq 2025,,,,epistle,Romans 7:12–25
+06-19,,year eq 2025,,,,gospel,Matthew 12:15–21
+06-20,,year eq 2025,,,,ot,Wisdom 4:7–15
+06-20,,year eq 2025,,,,ot,Micah 7:7–10
+06-20,,year eq 2025,,,,acts,Acts 20:22–32
+06-20,,year eq 2025,,,,gospel,John 10:11–16
+06-21,,year eq 2025,,,,ot,Isaiah 1:21–31
+06-21,,year eq 2025,,,,epistle,Romans 7:25–8:11
+06-21,,year eq 2025,,,,gospel,Matthew 12:38–45
+06-22,,year eq 2025,,,,ot,Wisdom 3:1–8
+06-22,,year eq 2025,,,,ot,Isaiah 48:16–17
+06-22,,year eq 2025,,,,epistle,2 Timothy 3:10–15
+06-22,,year eq 2025,,,,gospel,John 15:11–16
+06-23,,year eq 2025,,,,ot,Daniel 2:1–49
+06-23,,year eq 2025,,,,epistle,Hebrews 11:32–40
+06-23,,year eq 2025,,,,gospel,Matthew 24:9–15
+06-24,,year eq 2025,,,,epistle,Romans 9:1–16
+06-24,,year eq 2025,,,,gospel,Matthew 13:1–8
+06-25,,year eq 2025,,,,ot,Wisdom 8:7–10
+06-25,,year eq 2025,,,,ot,Isaiah 61:6–9
+06-25,,year eq 2025,,,,epistle,1 Corinthians 12:4–11
+06-25,,year eq 2025,,,,gospel,Luke 12:32–40
+06-26,,year eq 2025,,,,epistle,Romans 9:17–27
+06-26,,year eq 2025,,,,gospel,Matthew 13:16–23
+06-27,,year eq 2025,,,,ot,Wisdom 6:2–10
+06-27,,year eq 2025,,,,ot,Isaiah 45:1–2
+06-27,,year eq 2025,,,,epistle,1 Timothy 2:1–7
+06-27,,year eq 2025,,,,gospel,Luke 11:14–23
+06-28,,year eq 2025,,,,ot,Isaiah 2:5–11
+06-28,,year eq 2025,,,,epistle,Romans 9:30–10:4
+06-28,,year eq 2025,,,,gospel,Matthew 13:24–30
+06-29,,year eq 2025,,,,ot,Proverbs 1:1–9
+06-29,,year eq 2025,,,,ot,Isaiah 41:1–3
+06-29,,year eq 2025,,,,epistle,Hebrews 12:1–7
+06-29,,year eq 2025,,,,gospel,Mark 13:9–13
+06-30,,year eq 2025,,,,ot,Zechariah 3:7–4:9
+06-30,,year eq 2025,,,,epistle,1 Corinthians 12:28–13:3
+06-30,,year eq 2025,,,,gospel,Matthew 23:34–39
+07-01,,year eq 2025,,,,epistle,Romans 10:5–17
+07-01,,year eq 2025,,,,gospel,Matthew 13:31–42
+07-02,,year eq 2025,,,,ot,2 Kings 13:14–21
+07-02,,year eq 2025,,,,epistle,1 Corinthians 2:6–10
+07-02,,year eq 2025,,,,gospel,Luke 4:25–30
+07-03,,year eq 2025,,,,epistle,Romans 11:1–12
+07-03,,year eq 2025,,,,gospel,Matthew 14:43–52
+07-04,,year eq 2025,,,,ot,Wisdom 9:9–10:2
+07-04,,year eq 2025,,,,ot,Exodus 15:23–27
+07-04,,year eq 2025,,,,epistle,1 Thessalonians 2:9–16
+07-04,,year eq 2025,,,,gospel,Matthew 9:36–10:7
+07-05,,year eq 2025,,,,ot,Isaiah 3:1–11
+07-05,,year eq 2025,,,,epistle,Romans 11:13–24
+07-05,,year eq 2025,,,,gospel,Matthew 14:13–21
+07-06,,year eq 2025,,,,epistle,Romans 11:25–36
+07-06,,year eq 2025,,,,gospel,Matthew 14:22–36
+07-07,,year eq 2025,,,,epistle,Romans 15:1–13
+07-07,,year eq 2025,,,,gospel,Matthew 15:1–20
+07-08,,year eq 2025,,,,epistle,Romans 15:14–29
+07-08,,year eq 2025,,,,gospel,Matthew 15:21–28
+07-09,,year eq 2025,,,,epistle,Romans 15:30–16:16
+07-09,,year eq 2025,,,,gospel,Matthew 15:29–38
+07-10,,year eq 2025,,,,epistle,Romans 16:17–27
+07-10,,year eq 2025,,,,gospel,Matthew 15:39–16:12
+07-11,,year eq 2025,,,,ot,Exodus 25:10–14
+07-11,,year eq 2025,,,,ot,Joshua 3:14–4:18
+07-11,,year eq 2025,,,,ot,1 Samuel 6:18–7:2
+07-11,,year eq 2025,,,,ot,2 Samuel 6:12–19
+07-11,,year eq 2025,,,,epistle,Hebrews 9:1–10
+07-11,,year eq 2025,,,,gospel,Matthew 5:17–20
+07-12,,year eq 2025,,,,ot,Wisdom 7:25–8:4
+07-12,,year eq 2025,,,,ot,Zechariah 14:16–21
+07-12,,year eq 2025,,,,epistle,1 John 1:1–7
+07-12,,year eq 2025,,,,gospel,Matthew 16:13–17:13
+07-13,,year eq 2025,,,,ot,Exodus 19:9–13
+07-13,,year eq 2025,,,,ot,2 Kings 2:9–12
+07-13,,year eq 2025,,,,epistle,1 John 5:9–12
+07-13,,year eq 2025,,,,gospel,John 1:1–17
+07-14,,year eq 2025,,,,ot,Exodus 19:16–20
+07-14,,year eq 2025,,,,ot,1 Kings 19:11–16
+07-14,,year eq 2025,,,,epistle,Hebrews 12:18–27
+07-14,,year eq 2025,,,,gospel,Luke 9:27–36
+07-15,,year eq 2025,,,,epistle,1 Corinthians 1:1–8
+07-15,,year eq 2025,,,,gospel,Matthew 17:21–18:4
+07-16,,year eq 2025,,,,ot,Isaiah 6:1–10
+07-16,,year eq 2025,,,,epistle,Hebrews 11:32–40
+07-16,,year eq 2025,,,,gospel,Luke 4:14–23
+07-17,,year eq 2025,,,,epistle,1 Corinthians 1:10–18
+07-17,,year eq 2025,,,,gospel,Matthew 18:2–9
+07-18,,year eq 2025,,,,ot,Wisdom 1:1–7
+07-18,,year eq 2025,,,,ot,Jeremiah 16:16–21
+07-18,,year eq 2025,,,,epistle,1 Corinthians 12:28–13:10
+07-18,,year eq 2025,,,,gospel,Luke 9:1–6
+07-19,,year eq 2025,,,,ot,Isaiah 3:16–4:1
+07-19,,year eq 2025,,,,epistle,1 Corinthians 1:22–2:5
+07-19,,year eq 2025,,,,gospel,Matthew 18:10–14
+07-20,,year eq 2025,,,,ot,Isaiah 46:12–13
+07-20,,year eq 2025,,,,epistle,Galatians 3:13–22
+07-20,,year eq 2025,,,,gospel,Luke 15:1–10
+07-21,,year eq 2025,,,,ot,Proverbs 8:1–4
+07-21,,year eq 2025,,,,ot,Malachi 2:5–7
+07-21,,year eq 2025,,,,epistle,1 Peter 5:1–7
+07-21,,year eq 2025,,,,gospel,John 16:33–17:8
+07-22,,year eq 2025,,,,epistle,1 Corinthians 2:12–3:10
+07-22,,year eq 2025,,,,gospel,Matthew 18:15–22
+07-23,,year eq 2025,,,,ot,Genesis 4:1–50:26 (selections)
+07-23,,year eq 2025,,,,ot,Numbers 20:23–30
+07-23,,year eq 2025,,,,ot,Deuteronomy 34:5–12
+07-23,,year eq 2025,,,,ot,Joshua 24:29–33
+07-23,,year eq 2025,,,,ot,1 Samuel 15:34–16:13
+07-23,,year eq 2025,,,,epistle,Hebrews 11:1–31
+07-23,,year eq 2025,,,,gospel,Luke 20:34–40
+07-24,,year eq 2025,,,,epistle,1 Corinthians 5:9–6:10
+07-24,,year eq 2025,,,,gospel,Matthew 18:23–35
+07-25,,year eq 2025,,,,ot,Jeremiah 17:7–8
+07-25,,year eq 2025,,,,ot,Isaiah 61:3–7
+07-25,,year eq 2025,,,,epistle,2 Timothy 1:6–14
+07-25,,year eq 2025,,,,gospel,Luke 11:29–32
+07-26,,year eq 2025,,,,ot,Isaiah 5:1–10
+07-26,,year eq 2025,,,,epistle,1 Corinthians 6:18–7:11
+07-26,,year eq 2025,,,,gospel,Matthew 19:3–12
+07-27,,year eq 2025,,,,ot,Proverbs 29:2–7
+07-27,,year eq 2025,,,,ot,2 Maccabees 6:18–7:42
+07-27,,year eq 2025,,,,epistle,Hebrews 11:32–40
+07-27,,year eq 2025,,,,gospel,Matthew 5:17–20
+07-28,,year eq 2025,,,,ot,Hosea 10:11–12
+07-28,,year eq 2025,,,,ot,Amos 5:10–14
+07-28,,year eq 2025,,,,ot,Micah 7:7–9
+07-28,,year eq 2025,,,,ot,Joel 2:12–13
+07-28,,year eq 2025,,,,ot,Obadiah 20–21
+07-28,,year eq 2025,,,,ot,Jonah 4:2
+07-28,,year eq 2025,,,,ot,Nahum 1:7–9
+07-28,,year eq 2025,,,,ot,Habakkuk 1:2–3
+07-28,,year eq 2025,,,,ot,Zephaniah 1:7–8
+07-28,,year eq 2025,,,,ot,Haggai 2:6–9
+07-28,,year eq 2025,,,,ot,Zechariah 7:9–13
+07-28,,year eq 2025,,,,ot,Malachi 1:4–6
+07-28,,year eq 2025,,,,epistle,Romans 11:2–5
+07-28,,year eq 2025,,,,gospel,Luke 13:31–35
+07-29,,year eq 2025,,,,epistle,1 Corinthians 7:25–35
+07-29,,year eq 2025,,,,gospel,Matthew 19:13–26
+07-30,,year eq 2025,,,,ot,Proverbs 11:30–12:4
+07-30,,year eq 2025,,,,ot,Hosea 12:6–9
+07-30,,year eq 2025,,,,epistle,2 Corinthians 4:6–14
+07-30,,year eq 2025,,,,gospel,Luke 12:2–10
+07-31,,year eq 2025,,,,epistle,1 Corinthians 11:1–16
+07-31,,year eq 2025,,,,gospel,Mark 1:35–45
+08-01,,year eq 2025,,,,ot,Proverbs 11:2–11
+08-01,,year eq 2025,,,,ot,Isaiah 61:3–7
+08-01,,year eq 2025,,,,epistle,Hebrews 13:7–9
+08-01,,year eq 2025,,,,gospel,John 16:33–17:8
+08-02,,year eq 2025,,,,ot,Isaiah 58:13–59:7
+08-02,,year eq 2025,,,,epistle,1 Timothy 4:12–5:10
+08-02,,year eq 2025,,,,gospel,John 3:13–21
+08-03,,year eq 2025,,,,ot,Zephaniah 3:19–20
+08-03,,year eq 2025,,,,epistle,2 Corinthians 10:3–6
+08-03,,year eq 2025,,,,gospel,Matthew 10:23–33
+08-04,,year eq 2025,,,,ot,Proverbs 4:10–27
+08-04,,year eq 2025,,,,ot,Isaiah 48:17–21
+08-04,,year eq 2025,,,,epistle,2 Corinthians 10:3–6
+08-04,,year eq 2025,,,,gospel,Matthew 10:37–42
+08-05,,year eq 2025,,,,epistle,2 Timothy 2:20–26
+08-05,,year eq 2025,,,,gospel,John 6:48–55
+08-06,,year eq 2025,,,,ot,Lamentations 3:22–56
+08-06,,year eq 2025,,,,epistle,Romans 8:18–27
+08-06,,year eq 2025,,,,gospel,John 16:1–4
+08-07,,year eq 2025,,,,epistle,2 Timothy 3:1–7
+08-07,,year eq 2025,,,,gospel,John 6:64–72
+08-08,,year eq 2025,,,,ot,Ezekiel 3:16–19
+08-08,,year eq 2025,,,,epistle,2 Timothy 1:6–14
+08-08,,year eq 2025,,,,gospel,Luke 10:16–20
+08-09,,year eq 2025,,,,ot,Isaiah 7:1–9
+08-09,,year eq 2025,,,,epistle,1 Corinthians 13:11–14:5
+08-09,,year eq 2025,,,,gospel,Mark 2:1–12
+08-10,,year eq 2025,,,,epistle,1 Corinthians 14:18–25
+08-10,,year eq 2025,,,,gospel,Mark 2:13–20
+08-11,,year eq 2025,,,,epistle,1 Corinthians 14:26–40
+08-11,,year eq 2025,,,,gospel,Mark 2:23–3:5
+08-12,,year eq 2025,,,,epistle,1 Corinthians 15:20–33
+08-12,,year eq 2025,,,,gospel,Matthew 3:6–12
+08-13,,year eq 2025,,,,epistle,1 Corinthians 15:34–49
+08-13,,year eq 2025,,,,gospel,Mark 3:20–30
+08-14,,year eq 2025,,,,epistle,1 Corinthians 15:50–57
+08-14,,year eq 2025,,,,gospel,Mark 3:31–4:8
+08-15,,year eq 2025,,,,ot,Proverbs 3:19–26
+08-15,,year eq 2025,,,,ot,Ezekiel 40:3–10
+08-15,,year eq 2025,,,,epistle,1 Peter 2:1–10
+08-15,,year eq 2025,,,,gospel,Matthew 16:13–19
+08-16,,year eq 2025,,,,ot,Song of Songs 4:9–15; 8:14
+08-16,,year eq 2025,,,,ot,Isaiah 7:10–16
+08-16,,year eq 2025,,,,epistle,Galatians 3:29–4:7
+08-16,,year eq 2025,,,,gospel,Luke 2:1–7
+08-16,,year eq 2025,,,Blessing of Grapes,ot,Proverbs 3:9–10
+08-16,,year eq 2025,,,Blessing of Grapes,ot,Isaiah 65:8–10
+08-16,,year eq 2025,,,Blessing of Grapes,epistle,Hebrews 6:16–7:7
+08-16,,year eq 2025,,,Blessing of Grapes,gospel,John 15:1–8
+08-17,,year eq 2025,,,,ot,Proverbs 11:30–12:4
+08-17,,year eq 2025,,,,ot,Zechariah 2:10–13
+08-17,,year eq 2025,,,,epistle,2 Corinthians 6:16–7:1
+08-17,,year eq 2025,,,,gospel,Luke 1:39–56
+08-18,,year eq 2025,,,,ot,Song of Songs 6:3–8
+08-18,,year eq 2025,,,,ot,Malachi 3:1–2
+08-18,,year eq 2025,,,,epistle,Galatians 3:24–29
+08-18,,year eq 2025,,,,gospel,Luke 2:1–7
+08-19,,year eq 2025,,,,ot,Song of Songs 4:9–15; 8:14
+08-19,,year eq 2025,,,,ot,Isaiah 7:10–16
+08-19,,year eq 2025,,,,epistle,Galatians 3:29–4:7
+08-19,,year eq 2025,,,,gospel,Luke 2:1–7
+08-20,,year eq 2025,,,,ot,Proverbs 11:30–12:4
+08-20,,year eq 2025,,,,ot,Zechariah 2:10–13
+08-20,,year eq 2025,,,,epistle,2 Corinthians 6:16–7:1
+08-20,,year eq 2025,,,,gospel,Luke 1:39–56
+08-21,,year eq 2025,,,,ot,Song of Songs 6:3–8
+08-21,,year eq 2025,,,,ot,Malachi 3:1–2
+08-21,,year eq 2025,,,,epistle,Galatians 3:24–29
+08-21,,year eq 2025,,,,gospel,Luke 2:1–7
+08-22,,year eq 2025,,,,ot,Song of Songs 4:9–15; 8:14
+08-22,,year eq 2025,,,,ot,Isaiah 7:10–16
+08-22,,year eq 2025,,,,epistle,Galatians 3:29–4:7
+08-22,,year eq 2025,,,,gospel,Luke 2:1–7
+08-23,,year eq 2025,,,,ot,Proverbs 11:30–12:4
+08-23,,year eq 2025,,,,ot,Zechariah 2:10–13
+08-23,,year eq 2025,,,,epistle,2 Corinthians 6:16–7:1
+08-23,,year eq 2025,,,,gospel,Luke 1:39–56
+08-24,,year eq 2025,,,,ot,Song of Songs 6:3–8
+08-24,,year eq 2025,,,,ot,Malachi 3:1–2
+08-24,,year eq 2025,,,,epistle,Galatians 3:24–29
+08-24,,year eq 2025,,,,gospel,Luke 2:1–7
+08-25,,year eq 2025,,,,ot,Wisdom 9:9–10:2
+08-25,,year eq 2025,,,,ot,Esther 10:4–9
+08-25,,year eq 2025,,,,ot,Judith 15:8–16:4
+08-25,,year eq 2025,,,,epistle,Ephesians 1:3–12
+08-25,,year eq 2025,,,,gospel,Matthew 1:17–21
+08-26,,year eq 2025,,,,epistle,1 Corinthians 15:58–16:11
+08-26,,year eq 2025,,,,gospel,Mark 4:10–20
+08-27,,year eq 2025,,,,ot,Jeremiah 1:1–10; 38:1–13
+08-27,,year eq 2025,,,,epistle,2 Peter 2:9–22
+08-27,,year eq 2025,,,,gospel,Matthew 2:16–18
+08-28,,year eq 2025,,,,epistle,1 Corinthians 16:12–24
+08-28,,year eq 2025,,,,gospel,Mark 4:26–34
+08-29,,year eq 2025,,,,ot,Wisdom 9:13–10:3
+08-29,,year eq 2025,,,,ot,Micah 7:18–20
+08-29,,year eq 2025,,,,epistle,1 Corinthians 12:28–13:3
+08-29,,year eq 2025,,,,gospel,John 20:24–31
+08-30,,year eq 2025,,,,ot,Isaiah 9:8–19
+08-30,,year eq 2025,,,,epistle,2 Corinthians 1:1–11
+08-30,,year eq 2025,,,,gospel,Mark 4:35–41
+08-31,,year eq 2025,,,,ot,Proverbs 10:1–7
+08-31,,year eq 2025,,,,ot,Isaiah 44:24–26
+08-31,,year eq 2025,,,,epistle,Hebrews 4:11–15
+08-31,,year eq 2025,,,,gospel,Matthew 5:1–12
+09-01,,year eq 2025,,,,ot,Ezekiel 18:30–32
+09-01,,year eq 2025,,,,epistle,1 Corinthians 2:6–10
+09-01,,year eq 2025,,,,gospel,Matthew 23:34–39
+09-02,,year eq 2025,,,,epistle,2 Corinthians 3:4–17
+09-02,,year eq 2025,,,,gospel,Mark 6:45–56
+09-03,,year eq 2025,,,,ot,Proverbs 20:6–22
+09-03,,year eq 2025,,,,ot,Job 42:12–16
+09-03,,year eq 2025,,,,ot,Lamentations 3:22–56
+09-03,,year eq 2025,,,,acts,Acts 13:25–33
+09-03,,year eq 2025,,,,epistle,James 5:7–11
+09-03,,year eq 2025,,,,gospel,Matthew 14:1–12
+09-04,,year eq 2025,,,,epistle,2 Corinthians 5:6–18
+09-04,,year eq 2025,,,,gospel,Mark 7:24–30
+09-05,,year eq 2025,,,,ot,Ezekiel 44:23–24
+09-05,,year eq 2025,,,,epistle,Hebrews 12:1–7
+09-05,,year eq 2025,,,,gospel,John 14:25–31
+09-06,,year eq 2025,,,,ot,Isaiah 13:1–11
+09-06,,year eq 2025,,,,epistle,2 Corinthians 7:4–16
+09-06,,year eq 2025,,,,gospel,Mark 7:31–37
+09-07,,year eq 2025,,,,epistle,2 Corinthians 8:1–15
+09-07,,year eq 2025,,,,gospel,Mark 8:1–9
+09-08,,year eq 2025,,,,ot,Proverbs 31:29–31
+09-08,,year eq 2025,,,,ot,Isaiah 61:9
+09-08,,year eq 2025,,,,epistle,Galatians 3:24–29
+09-08,,year eq 2025,,,,gospel,Matthew 1:1–17
+09-08,,year eq 2025,,,Daily Readings,epistle,2 Corinthians 8:16–24
+09-08,,year eq 2025,,,Daily Readings,gospel,Mark 8:10–21
+09-09,,year eq 2025,,,,epistle,2 Corinthians 9:1–9
+09-09,,year eq 2025,,,,gospel,Mark 8:22–26
+09-10,,year eq 2025,,,,epistle,2 Corinthians 9:19–10:6
+09-10,,year eq 2025,,,,gospel,Mark 9:13–26
+09-11,,year eq 2025,,,,epistle,2 Corinthians 10:7–17
+09-11,,year eq 2025,,,,gospel,Mark 9:37–49
+09-12,,year eq 2025,,,,ot,Proverbs 3:9–17
+09-12,,year eq 2025,,,,ot,Isaiah 66:12–16
+09-12,,year eq 2025,,,,epistle,1 Timothy 3:14–16
+09-12,,year eq 2025,,,,gospel,John 10:22–42
+09-13,,year eq 2025,,,,ot,Isaiah 49:13–23
+09-13,,year eq 2025,,,,epistle,Galatians 6:14–18
+09-13,,year eq 2025,,,,gospel,John 3:13–21
+09-14,,year eq 2025,,,,ot,Isaiah 65:22–25
+09-14,,year eq 2025,,,,epistle,1 Corinthians 2:6–10
+09-14,,year eq 2025,,,,gospel,John 3:22–36
+09-15,,year eq 2025,,,,ot,Baruch 4:36–5:9
+09-15,,year eq 2025,,,,epistle,Hebrews 3:1–6
+09-15,,year eq 2025,,,,gospel,John 2:12–22
+09-16,,year eq 2025,,,,ot,Zephaniah 3:14–18
+09-16,,year eq 2025,,,,epistle,Hebrews 9:11–15
+09-16,,year eq 2025,,,,gospel,Matthew 16:13–19
+09-17,,year eq 2025,,,,ot,Isaiah 2:1–6
+09-17,,year eq 2025,,,,epistle,Hebrews 12:18–27
+09-17,,year eq 2025,,,,gospel,Matthew 21:12–17
+09-18,,year eq 2025,,,,ot,Zechariah 14:5–11
+09-18,,year eq 2025,,,,epistle,Philippians 2:5–11
+09-18,,year eq 2025,,,,gospel,John 19:16–22
+09-19,,year eq 2025,,,,ot,Isaiah 51:4–11
+09-19,,year eq 2025,,,,epistle,1 Timothy 6:13–16
+09-19,,year eq 2025,,,,gospel,John 7:37–52
+09-20,,year eq 2025,,,,ot,Isaiah 14:3–17
+09-20,,year eq 2025,,,,epistle,2 Corinthians 10:18–11:10
+09-20,,year eq 2025,,,,gospel,Mark 10:1–12
+09-21,,year eq 2025,,,,ot,Proverbs 8:9–11
+09-21,,year eq 2025,,,,ot,Isaiah 55:10–13
+09-21,,year eq 2025,,,,epistle,2 Corinthians 5:1–5
+09-21,,year eq 2025,,,,gospel,Luke 21:12–19
+09-22,,year eq 2025,,,,ot,Proverbs 23:15–25
+09-22,,year eq 2025,,,,ot,Hosea 14:6–8
+09-22,,year eq 2025,,,,epistle,2 Corinthians 6:16–7:1
+09-22,,year eq 2025,,,,gospel,Luke 6:20–23
+09-23,,year eq 2025,,,,epistle,2 Corinthians 11:10–23
+09-23,,year eq 2025,,,,gospel,Mark 10:17–23
+09-24,,year eq 2025,,,,ot,Wisdom 10:9–12
+09-24,,year eq 2025,,,,ot,Malachi 2:5–7
+09-24,,year eq 2025,,,,epistle,1 Peter 5:1–7
+09-24,,year eq 2025,,,,gospel,John 10:11–16
+09-25,,year eq 2025,,,,epistle,2 Corinthians 11:30–12:9
+09-25,,year eq 2025,,,,gospel,Mark 10:28–34
+09-26,,year eq 2025,,,,ot,Wisdom 8:19–9:5
+09-26,,year eq 2025,,,,ot,Isaiah 42:1–8
+09-26,,year eq 2025,,,,epistle,2 Corinthians 1:3–7
+09-26,,year eq 2025,,,,gospel,Luke 12:2–9
+09-27,,year eq 2025,,,,ot,Proverbs 3:18–26
+09-27,,year eq 2025,,,,ot,Isaiah 65:22–25
+09-27,,year eq 2025,,,,epistle,Galatians 6:14–18
+09-27,,year eq 2025,,,,gospel,Matthew 24:30–36
+09-28,,year eq 2025,,,,ot,Proverbs 13:1–7
+09-28,,year eq 2025,,,,ot,Micah 7:18–20
+09-28,,year eq 2025,,,,epistle,Hebrews 12:1–7
+09-28,,year eq 2025,,,,gospel,Luke 13:22–30
+09-29,,year eq 2025,,,,ot,Lamentations 3:22–56
+09-29,,year eq 2025,,,,epistle,2 Timothy 3:10–15
+09-29,,year eq 2025,,,,gospel,Matthew 5:1–12
+09-30,,year eq 2025,,,,epistle,2 Corinthians 12:10–18
+09-30,,year eq 2025,,,,gospel,Mark 10:35–45
+10-01,,year eq 2025,,,,ot,Wisdom 6:11–21
+10-01,,year eq 2025,,,,ot,Jeremiah 17:7–8
+10-01,,year eq 2025,,,,epistle,Romans 8:18–26
+10-01,,year eq 2025,,,,gospel,John 16:1–4
+10-02,,year eq 2025,,,,epistle,2 Corinthians 12:19–13:4
+10-02,,year eq 2025,,,,gospel,Mark 11:15–26
+10-03,,year eq 2025,,,,ot,Wisdom 9:9–10:2
+10-03,,year eq 2025,,,,ot,Exodus 15:27–16:1
+10-03,,year eq 2025,,,,epistle,2 Corinthians 2:14–3:3
+10-03,,year eq 2025,,,,gospel,Luke 10:1–9
+10-04,,year eq 2025,,,,ot,Isaiah 17:7–14
+10-04,,year eq 2025,,,,epistle,2 Corinthians 13:5–13
+10-04,,year eq 2025,,,,gospel,Mark 11:27–33
+10-05,,year eq 2025,,,,ot,Proverbs 27:1–6
+10-05,,year eq 2025,,,,ot,Isaiah 43:16–21
+10-05,,year eq 2025,,,,epistle,2 Corinthians 11:21–29
+10-05,,year eq 2025,,,,gospel,Mark 6:45–56
+10-06,,year eq 2025,,,,ot,Song of Songs 8:14–9:16
+10-06,,year eq 2025,,,,ot,Isaiah 61:9–11
+10-06,,year eq 2025,,,,epistle,1 Peter 5:8–11
+10-06,,year eq 2025,,,,gospel,Luke 12:32–40
+10-07,,year eq 2025,,,,epistle,Galatians 1:1–10
+10-07,,year eq 2025,,,,gospel,Mark 12:1–12
+10-08,,year eq 2025,,,,ot,Proverbs 4:20–27
+10-08,,year eq 2025,,,,ot,Jeremiah 15:19–20
+10-08,,year eq 2025,,,,epistle,1 Corinthians 12:1–7
+10-08,,year eq 2025,,,,gospel,Matthew 9:35–10:1
+10-09,,year eq 2025,,,,epistle,Galatians 1:11–24
+10-09,,year eq 2025,,,,gospel,Mark 12:18–34
+10-10,,year eq 2025,,,,ot,Wisdom 8:7–10
+10-10,,year eq 2025,,,,ot,Amos 5:10–14
+10-10,,year eq 2025,,,,epistle,1 Corinthians 12:5–11
+10-10,,year eq 2025,,,,gospel,Matthew 7:6–12
+10-11,,year eq 2025,,,,ot,Isaiah 19:1–11
+10-11,,year eq 2025,,,,epistle,Galatians 2:1–10
+10-11,,year eq 2025,,,,gospel,Mark 12:35–44
+10-12,,year eq 2025,,,,ot,Jeremiah 33:14–22
+10-12,,year eq 2025,,,,ot,Isaiah 18:7
+10-12,,year eq 2025,,,,epistle,Hebrews 10:32–36
+10-12,,year eq 2025,,,,gospel,Luke 10:21–23
+10-13,,year eq 2025,,,,ot,Zechariah 8:1–3
+10-13,,year eq 2025,,,,acts,Acts 9:1–22
+10-13,,year eq 2025,,,,gospel,Luke 9:1–6
+10-14,,year eq 2025,,,,epistle,Galatians 2:11–20
+10-14,,year eq 2025,,,,gospel,Mark 13:14–23
+10-15,,year eq 2025,,,,ot,Isaiah 33:2–6
+10-15,,year eq 2025,,,,acts,Acts 17:16–34
+10-15,,year eq 2025,,,,epistle,2 Thessalonians 1:1–12
+10-15,,year eq 2025,,,,gospel,Luke 10:1–7
+10-16,,year eq 2025,,,,epistle,Galatians 2:20–3:12
+10-16,,year eq 2025,,,,gospel,Mark 13:24–37
+10-17,,year eq 2025,,,,ot,Wisdom 9:13–10:2
+10-17,,year eq 2025,,,,ot,Ezekiel 1:3–11
+10-17,,year eq 2025,,,,ot,Zechariah 6:1–8
+10-17,,year eq 2025,,,,epistle,Ephesians 4:7–13
+10-17,,year eq 2025,,,,gospel,Luke 6:13–19
+10-18,,year eq 2025,,,,ot,Isaiah 20:2–21:6
+10-18,,year eq 2025,,,,epistle,Galatians 4:3–18
+10-18,,year eq 2025,,,,gospel,Luke 4:14–23
+10-19,,year eq 2025,,,,ot,Proverbs 15:27–32
+10-19,,year eq 2025,,,,ot,Joel 2:12–13
+10-19,,year eq 2025,,,,epistle,1 Timothy 1:12–17
+10-19,,year eq 2025,,,,gospel,Matthew 27:50–61
+10-20,,year eq 2025,,,,ot,Wisdom 1:11–15
+10-20,,year eq 2025,,,,ot,Lamentations 3:22–56
+10-20,,year eq 2025,,,,epistle,1 Timothy 5:17–21
+10-20,,year eq 2025,,,,gospel,Matthew 10:26–33
+10-21,,year eq 2025,,,,epistle,Galatians 4:19–5:1
+10-21,,year eq 2025,,,,gospel,Luke 4:31–40
+10-22,,year eq 2025,,,,ot,Wisdom 3:11–17
+10-22,,year eq 2025,,,,ot,Isaiah 51:22–52:3
+10-22,,year eq 2025,,,,epistle,1 Thessalonians 2:13–16
+10-22,,year eq 2025,,,,gospel,John 15:11–16
+10-23,,year eq 2025,,,,epistle,Galatians 5:2–15
+10-23,,year eq 2025,,,,gospel,Luke 5:17–26
+10-24,,year eq 2025,,,,ot,Proverbs 11:2–11
+10-24,,year eq 2025,,,,ot,Isaiah 61:3–7
+10-24,,year eq 2025,,,,epistle,Hebrews 13:7–9
+10-24,,year eq 2025,,,,gospel,John 16:33–17:8
+10-25,,year eq 2025,,,,ot,Wisdom 14:1–8
+10-25,,year eq 2025,,,,ot,Isaiah 33:22–34:1
+10-25,,year eq 2025,,,,epistle,1 Corinthians 1:18–24
+10-25,,year eq 2025,,,,gospel,Matthew 24:27–36
+10-26,,year eq 2025,,,,ot,Proverbs 3:1–6
+10-26,,year eq 2025,,,,ot,Jeremiah 17:7–8
+10-26,,year eq 2025,,,,epistle,2 Timothy 2:3–10
+10-26,,year eq 2025,,,,gospel,Matthew 19:27–29
+10-27,,year eq 2025,,,,ot,Proverbs 12:8–13
+10-27,,year eq 2025,,,,ot,Isaiah 49:8–11
+10-27,,year eq 2025,,,,epistle,2 Corinthians 4:6–14
+10-27,,year eq 2025,,,,gospel,Luke 10:21–24
+10-28,,year eq 2025,,,,epistle,Galatians 5:16–26
+10-28,,year eq 2025,,,,gospel,Luke 7:36–48
+10-29,,year eq 2025,,,,ot,Isaiah 49:1–6
+10-29,,year eq 2025,,,,acts,Acts 20:25–38
+10-29,,year eq 2025,,,,gospel,John 15:17–25
+10-30,,year eq 2025,,,,epistle,Galatians 6:1–13
+10-30,,year eq 2025,,,,gospel,Luke 8:4–16
+10-31,,year eq 2025,,,,ot,Wisdom 3:1–8
+10-31,,year eq 2025,,,,ot,Isaiah 33:5–8
+10-31,,year eq 2025,,,,epistle,Hebrews 11:32–12:2
+10-31,,year eq 2025,,,,gospel,Luke 12:4–9
+11-01,,year eq 2025,,,,ot,Isaiah 22:15–25
+11-01,,year eq 2025,,,,epistle,Ephesians 1:1–14
+11-01,,year eq 2025,,,,gospel,Luke 8:17–21
+11-02,,year eq 2025,,,,ot,Wisdom 5:1–8
+11-02,,year eq 2025,,,,ot,Amos 3:12–15
+11-02,,year eq 2025,,,,epistle,Ephesians 3:1–10
+11-02,,year eq 2025,,,,gospel,John 10:11–16
+11-03,,year eq 2025,,,,ot,Proverbs 8:12–21
+11-03,,year eq 2025,,,,ot,Nahum 2:1–7
+11-03,,year eq 2025,,,,epistle,1 Timothy 5:17–21
+11-03,,year eq 2025,,,,gospel,Luke 9:23–27
+11-04,,year eq 2025,,,,epistle,Ephesians 1:15–2:3
+11-04,,year eq 2025,,,,gospel,Luke 8:22–25
+11-05,,year eq 2025,,,,ot,Wisdom 6:22–26
+11-05,,year eq 2025,,,,ot,Zechariah 12:6–10
+11-05,,year eq 2025,,,,epistle,Hebrews 13:7–9
+11-05,,year eq 2025,,,,gospel,Matthew 4:23–25
+11-06,,year eq 2025,,,,epistle,Ephesians 2:4–22
+11-06,,year eq 2025,,,,gospel,Luke 8:40–48
+11-07,,year eq 2025,,,,ot,Genesis 18:33–19:2
+11-07,,year eq 2025,,,,ot,Job 38:4–7
+11-07,,year eq 2025,,,,ot,Isaiah 6:1–7
+11-07,,year eq 2025,,,,ot,Ezekiel 1:1–20
+11-07,,year eq 2025,,,,epistle,Hebrews 1:6–14
+11-07,,year eq 2025,,,,gospel,Matthew 18:10–14
+11-08,,year eq 2025,,,,ot,Isaiah 24:1–13
+11-08,,year eq 2025,,,,epistle,Ephesians 5:15–33
+11-08,,year eq 2025,,,,gospel,Luke 8:49–57
+11-09,,year eq 2025,,,,ot,Wisdom 4:7–15
+11-09,,year eq 2025,,,,ot,Isaiah 12:1–6
+11-09,,year eq 2025,,,,epistle,1 John 5:1–6
+11-09,,year eq 2025,,,,gospel,Luke 9:23–27
+11-10,,year eq 2025,,,,ot,Proverbs 15:33–16:7
+11-10,,year eq 2025,,,,ot,Hosea 14:9–10
+11-10,,year eq 2025,,,,epistle,Titus 3:3–8
+11-10,,year eq 2025,,,,gospel,Mark 13:9–13
+11-11,,year eq 2025,,,,epistle,Ephesians 6:1–9
+11-11,,year eq 2025,,,,gospel,Luke 9:10–17
+11-12,,year eq 2025,,,,ot,Proverbs 28:10–18
+11-12,,year eq 2025,,,,ot,Baruch 3:31–4:4
+11-12,,year eq 2025,,,,epistle,2 Timothy 1:6–12
+11-12,,year eq 2025,,,,gospel,Matthew 19:27–29
+11-13,,year eq 2025,,,,epistle,Ephesians 6:13–24
+11-13,,year eq 2025,,,,gospel,Luke 9:37–44
+11-14,,year eq 2025,,,,ot,Wisdom 9:13–10:2
+11-14,,year eq 2025,,,,ot,Jeremiah 16:16–19
+11-14,,year eq 2025,,,,acts,Acts 8:26–40
+11-14,,year eq 2025,,,,gospel,John 1:35–51
+11-15,,year eq 2025,,,,ot,Isaiah 25:9–26:7
+11-15,,year eq 2025,,,,epistle,Philippians 1:1–11
+11-15,,year eq 2025,,,,gospel,Luke 9:43–50
+11-16,,year eq 2025,,,,epistle,Colossians 1:1–11
+11-16,,year eq 2025,,,,gospel,Luke 11:14–23
+11-17,,year eq 2025,,,,epistle,Colossians 1:12–23
+11-17,,year eq 2025,,,,gospel,Luke 11:27–33
+11-18,,year eq 2025,,,,epistle,Colossians 1:24–2:7
+11-18,,year eq 2025,,,,gospel,Luke 11:33–42
+11-19,,year eq 2025,,,,epistle,Colossians 3:15–4:4
+11-19,,year eq 2025,,,,gospel,Luke 11:49–54
+11-20,,year eq 2025,,,,epistle,Colossians 4:5–18
+11-20,,year eq 2025,,,,gospel,Luke 12:1–12
+11-21,,year eq 2025,,,,ot,Song of Songs 1:1–11
+11-21,,year eq 2025,,,,ot,Proverbs 11:30–12:4
+11-21,,year eq 2025,,,,ot,Isaiah 52:7–10
+11-21,,year eq 2025,,,,ot,Zechariah 2:10–13
+11-21,,year eq 2025,,,,ot,Malachi 3:1–2
+11-21,,year eq 2025,,,,epistle,2 Corinthians 6:16–7:1
+11-21,,year eq 2025,,,,gospel,Luke 1:39–56
+11-22,,year eq 2026,,,,ot,Isaiah 36:1–9
+11-22,,year eq 2026,,,,epistle,1 Thessalonians 1:1–10
+11-22,,year eq 2026,,,,gospel,Luke 12:13–31
+11-23,,year eq 2026,,,,ot,Song of Songs 8:14–26 (with six verses more in the Armenian)
+11-23,,year eq 2026,,,,ot,Hosea 14:6–8
+11-23,,year eq 2026,,,,epistle,2 Corinthians 6:16–7:1
+11-23,,year eq 2026,,,,gospel,Luke 8:1–3
+11-24,,year eq 2026,,,,ot,Wisdom 9:9–12
+11-24,,year eq 2026,,,,ot,Isaiah 41:15–19
+11-24,,year eq 2026,,,,epistle,2 Corinthians 2:14–17
+11-24,,year eq 2026,,,,gospel,Luke 6:13–20
+11-25,,year eq 2026,,,,epistle,1 Thessalonians 2:1–12
+11-25,,year eq 2026,,,,gospel,Luke 12:41–48
+11-26,,year eq 2026,,,,ot,Proverbs 8:33–36
+11-26,,year eq 2026,,,,ot,Isaiah 66:18–21
+11-26,,year eq 2026,,,,epistle,Philippians 4:1–7
+11-26,,year eq 2026,,,,gospel,Luke 9:1–6
+11-27,,year eq 2026,,,,epistle,1 Thessalonians 2:17–19
+11-27,,year eq 2026,,,,gospel,Luke 12:49–59
+11-28,,year eq 2026,,,,ot,Wisdom 9:13–10:2
+11-28,,year eq 2026,,,,ot,Jeremiah 16:16–19
+11-28,,year eq 2026,,,,epistle,1 Corinthians 12:26–13:10
+11-28,,year eq 2026,,,,gospel,Matthew 9:35–10:7
+11-29,,year eq 2026,,,,ot,Isaiah 36:22–37:11
+11-29,,year eq 2026,,,,epistle,1 Thessalonians 4:1–11
+11-29,,year eq 2026,,,,gospel,Luke 13:1–9
+11-30,,year eq 2026,,,,ot,Isaiah 35:4–8
+11-30,,year eq 2026,,,,epistle,2 Corinthians 3:18–4:6
+11-30,,year eq 2026,,,,gospel,Luke 21:12–19
+12-01,,year eq 2026,,,,ot,Proverbs 12:9–17
+12-01,,year eq 2026,,,,ot,Lamentations 3:22–56
+12-01,,year eq 2026,,,,epistle,Romans 5:1–5
+12-01,,year eq 2026,,,,gospel,Luke 12:2–9
+12-02,,year eq 2026,,,,epistle,1 Thessalonians 5:1–11
+12-02,,year eq 2026,,,,gospel,Luke 13:10–17
+12-03,,year eq 2026,,,,ot,Proverbs 21:15–25
+12-03,,year eq 2026,,,,ot,Isaiah 19:19–21
+12-03,,year eq 2026,,,,epistle,Hebrews 11:32–40
+12-03,,year eq 2026,,,,gospel,Matthew 10:37–42
+12-04,,year eq 2026,,,,epistle,1 Thessalonians 5:12–28
+12-04,,year eq 2026,,,,gospel,Luke 14:1–11
+12-05,,year eq 2026,,,,ot,Ezekiel 3:16–19
+12-05,,year eq 2026,,,,epistle,2 Timothy 3:10–15
+12-05,,year eq 2026,,,,gospel,John 10:11–16
+12-06,,year eq 2026,,,,ot,Isaiah 37:14–38
+12-06,,year eq 2026,,,,epistle,2 Thessalonians 1:1–12
+12-06,,year eq 2026,,,,gospel,Luke 14:12–24
+12-07,,year eq 2026,,,,ot,Proverbs 15:33–16:7
+12-07,,year eq 2026,,,,ot,Isaiah 18:7
+12-07,,year eq 2026,,,,epistle,Philippians 1:27–2:4
+12-07,,year eq 2026,,,,gospel,Matthew 10:37–42
+12-08,,year eq 2026,,,,ot,Wisdom 1:1–7
+12-08,,year eq 2026,,,,ot,Jeremiah 16:16–21
+12-08,,year eq 2026,,,,acts,Acts 1:12–14
+12-08,,year eq 2026,,,,gospel,Mark 6:6–13
+12-09,,year eq 2026,,,,ot,Song of Songs 6:3–8
+12-09,,year eq 2026,,,,ot,Malachi 3:1–2
+12-09,,year eq 2026,,,,epistle,Galatians 3:24–29
+12-09,,year eq 2026,,,,gospel,Luke 1:39–56
+12-09,,year eq 2026,,,Daily Readings,epistle,2 Thessalonians 2:1–16
+12-09,,year eq 2026,,,Daily Readings,gospel,Luke 14:25–27
+12-10,,year eq 2026,,,,ot,Proverbs 1:1–9
+12-10,,year eq 2026,,,,ot,Nahum 2:1–7
+12-10,,year eq 2026,,,,epistle,Romans 5:1–5
+12-10,,year eq 2026,,,,gospel,Matthew 5:1–12
+12-11,,year eq 2026,,,,epistle,2 Thessalonians 3:1–18
+12-11,,year eq 2026,,,,gospel,Luke 15:1–7
+12-12,,year eq 2026,,,,ot,Wisdom 7:12–20
+12-12,,year eq 2026,,,,ot,Isaiah 44:1–5
+12-12,,year eq 2026,,,,epistle,Hebrews 13:17–21
+12-12,,year eq 2026,,,,gospel,John 9:39–10:10
+12-13,,year eq 2026,,,,ot,Isaiah 38:1–8
+12-13,,year eq 2026,,,,epistle,Hebrews 1:1–14
+12-13,,year eq 2026,,,,gospel,Luke 17:1–10
+12-14,,year eq 2026,,,,ot,Wisdom 5:1–8
+12-14,,year eq 2026,,,,ot,Jeremiah 6:16–21
+12-14,,year eq 2026,,,,epistle,1 Corinthians 4:9–16
+12-14,,year eq 2026,,,,gospel,Mark 9:32–36
+12-15,,year eq 2026,,,,ot,Proverbs 24:1–12
+12-15,,year eq 2026,,,,ot,Jeremiah 15:19–20
+12-15,,year eq 2026,,,,epistle,Hebrews 12:1–7
+12-15,,year eq 2026,,,,gospel,Matthew 10:26–33
+12-16,,year eq 2026,,,,epistle,Hebrews 2:1–10
+12-16,,year eq 2026,,,,gospel,Luke 17:11–19
+12-17,,year eq 2026,,,,ot,Wisdom 3:1–8
+12-17,,year eq 2026,,,,ot,Jeremiah 30:18–22
+12-17,,year eq 2026,,,,epistle,1 Peter 4:12–19
+12-17,,year eq 2026,,,,gospel,John 15:17–25
+12-18,,year eq 2026,,,,epistle,Hebrews 3:12–4:10
+12-18,,year eq 2026,,,,gospel,Luke 18:1–8
+12-19,,year eq 2026,,,,ot,Wisdom 6:2–10
+12-19,,year eq 2026,,,,ot,Isaiah 45:1–3
+12-19,,year eq 2026,,,,epistle,1 Timothy 2:1–7
+12-19,,year eq 2026,,,,gospel,Luke 7:1–10
+12-20,,year eq 2026,,,,ot,Isaiah 40:18–31
+12-20,,year eq 2026,,,,epistle,Hebrews 4:16–5:10
+12-20,,year eq 2026,,,,gospel,Luke 18:9–14
+12-21,,year eq 2026,,,,ot,Wisdom 5:16–18
+12-21,,year eq 2026,,,,ot,Lamentations 3:22–56
+12-21,,year eq 2026,,,,epistle,2 Timothy 3:10–15
+12-21,,year eq 2026,,,,gospel,Luke 12:32–40
+12-22,,year eq 2026,,,,ot,Proverbs 10:1–6
+12-22,,year eq 2026,,,,ot,Isaiah 56:3–8
+12-22,,year eq 2026,,,,epistle,2 Timothy 2:3–10
+12-22,,year eq 2026,,,,gospel,Matthew 10:16–22
+12-23,,year eq 2026,,,,epistle,Hebrews 5:11–6:8
+12-23,,year eq 2026,,,,gospel,Luke 18:18–27
+12-24,,year eq 2026,,,,ot,2 Samuel 5:1–10
+12-24,,year eq 2026,,,,ot,1 Kings 2:1–11
+12-24,,year eq 2026,,,,ot,Ezekiel 34:20–27
+12-24,,year eq 2026,,,,epistle,James 1:1–12
+12-24,,year eq 2026,,,,gospel,Matthew 22:41–46
+12-25,,year eq 2026,,,,epistle,Hebrews 6:9–7:10
+12-25,,year eq 2026,,,,gospel,Luke 19:1–10
+12-26,,year eq 2026,,,,acts,Acts 6:8–8:2
+12-26,,year eq 2026,,,,gospel,John 12:24–26
+12-27,,year eq 2026,,,,ot,Isaiah 41:4–14
+12-27,,year eq 2026,,,,epistle,Hebrews 7:11–25
+12-27,,year eq 2026,,,,gospel,Luke 19:12–28
+12-28,,year eq 2026,,,,ot,Wisdom 9:13–10:2
+12-28,,year eq 2026,,,,ot,Isaiah 28:16–19
+12-28,,year eq 2026,,,,epistle,2 Peter 1:12–19
+12-28,,year eq 2026,,,,epistle,2 Timothy 4:1–8
+12-28,,year eq 2026,,,,gospel,John 21:15–22
+12-29,,year eq 2026,,,,ot,Wisdom 7:21–24
+12-29,,year eq 2026,,,,ot,Jeremiah 16:16–21
+12-29,,year eq 2026,,,,acts,Acts 12:1–11
+12-29,,year eq 2026,,,,epistle,James 1:1–10
+12-29,,year eq 2026,,,,epistle,1 John 1:1–7
+12-29,,year eq 2026,,,,gospel,John 21:20–25
+12-30,,year eq 2026,,,,epistle,Hebrews 12:25–13:6
+12-30,,year eq 2026,,,,gospel,Luke 21:20–33
+12-31,,year eq 2026,,,,epistle,Hebrews 7:26–8:13
+12-31,,year eq 2026,,,,gospel,Luke 20:1–8
+01-01,,year eq 2026,,,,epistle,Hebrews 13:10–16
+01-01,,year eq 2026,,,,gospel,Luke 21:34–38
+01-02,,year eq 2026,,,,ot,Proverbs 11:2–11
+01-02,,year eq 2026,,,,ot,Isaiah 4:2–6
+01-02,,year eq 2026,,,,epistle,Colossians 1:21–29
+01-02,,year eq 2026,,,,gospel,John 10:11–16
+01-03,,year eq 2026,,,,ot,Isaiah 51:15–52:3
+01-03,,year eq 2026,,,,epistle,Hebrews 13:18–25
+01-03,,year eq 2026,,,,gospel,Luke 22:24–30
+01-04,,year eq 2026,,,,epistle,Hebrews 10:1–18
+01-04,,year eq 2026,,,,gospel,Luke 20:9–18
+01-05,,year eq 2026,,,,ot,Genesis 1:1–3:24
+01-05,,year eq 2026,,,,ot,Isaiah 7:10–17
+01-05,,year eq 2026,,,,ot,Exodus 14:24–15:21
+01-05,,year eq 2026,,,,ot,Micah 5:2–7
+01-05,,year eq 2026,,,,ot,Proverbs 1:1–9
+01-05,,year eq 2026,,,,ot,Isaiah 9:5–7
+01-05,,year eq 2026,,,,ot,Isaiah 11:1–9
+01-05,,year eq 2026,,,,ot,Isaiah 35:3–8
+01-05,,year eq 2026,,,,ot,Isaiah 40:10–17
+01-05,,year eq 2026,,,,ot,Isaiah 42:1–8
+01-05,,year eq 2026,,,,ot,Daniel 3:1–90
+01-05,,year eq 2026,,,Divine Liturgy,epistle,Titus 2:11–15
+01-05,,year eq 2026,,,Divine Liturgy,gospel,Matthew 2:1–12
+01-05,,year eq 2026,,,Dismissal,gospel,Luke 2:8–14
+01-06,,year eq 2026,,,,epistle,Titus 2:1–15
+01-06,,year eq 2026,,,,gospel,Matthew 1:18–25
+01-06,,year eq 2026,,,Blessing of Water,ot,Isaiah 12:3–6
+01-06,,year eq 2026,,,Blessing of Water,ot,Joshua 3:14–17
+01-06,,year eq 2026,,,Blessing of Water,ot,Exodus 15:22–27
+01-06,,year eq 2026,,,Blessing of Water,ot,2 Kings 2:19–22
+01-06,,year eq 2026,,,Blessing of Water,ot,Ezekiel 47:1–12
+01-06,,year eq 2026,,,Blessing of Water,epistle,1 Corinthians 10:1–4
+01-06,,year eq 2026,,,Blessing of Water,gospel,Matthew 3:1–17

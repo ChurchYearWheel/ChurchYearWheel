@@ -1,0 +1,17 @@
+id,date,name,full_name,rank,style,color_override,color_override_bottom,icon,icon_when,transfer,variant,when,action,link
+,01-22,St. Publius,"Saint Publius, bishop",11,memorial,,,,,,,,,
+,02-10,Shipwreck of St. Paul,"Shipwreck of Saint Paul, apostle",4,solemnity,RED,,,,,,,,
+sts_cyril_and_methodius,,,"Saints Cyril, monk and Methodius, bishop",8,feast_rank,WHITE,,,,,,,,
+,02-25,Bl. Maria Adeodata Pisani,"Blessed Maria Adeodata Pisani, virgin",12,optional_memorial,,,,,,,,,
+,easter-9,Our Lady of Sorrows,,8,feast_rank,WHITE,,,,,,,,https://www.franciscanmedia.org/saint-of-the-day/our-lady-of-sorrows/
+st_george,,,"Saint George, martyr",11,memorial,-,,,,,,,,
+st_catherine_of_siena,,,"Saint Catherine of Siena, virgin and doctor of the Church",8,feast_rank,WHITE,,,,,,,,
+st_pius_v,,,"Saint Pius V, pope",11,memorial,-,,,,,,,,
+st_joseph_the_worker,,,Saint Joseph the Worker,11,memorial,-,,,,,,,,
+,05-09,St. George Preca,"Saint George Preca, priest",8,feast_rank,WHITE,,,,,,,,
+,07-01,Bl. Nazju Falzon,Blessed Nazju Falzon,12,optional_memorial,,,,,,,,,
+st_benedict,,,"Saint Benedict, abbot",8,feast_rank,WHITE,,,,,,,,
+our_lady_of_mount_carmel,,,Our Lady of Mount Carmel,11,memorial,-,,,,,,,,
+,07-23,St. Birgitta,"Saint Birgitta, religious",8,feast_rank,WHITE,,,,,,,,
+st_teresa_benedicta_of_the_cross,,,"Saint Teresa Benedicta of the Cross (Edith Stein), virgin and martyr",8,feast_rank,RED,,,,,,,,
+nativity_of_mary,,,Birth of the Blessed Virgin Mary,7,feast_rank,WHITE,,,,,,,,

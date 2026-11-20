@@ -1,0 +1,10 @@
+key,label,path
+# ===========================================================================
+"# Small signs drawn along the inner edge of a day's cell, in the color its"
+"# text takes.  `path` is SVG path data in a 100 x 100 box, filled with the"
+# even-odd rule so an inner shape cuts a hole.  A tradition's rows name
+# these keys in their `icon` column; the page lists what each one means.
+# ===========================================================================
+obligation,Holy day of obligation,M37 17a13 13 0 1 0 26 0a13 13 0 1 0 -26 0Z M47.5 9h5v5.5h5.5v5h-5.5v5.5h-5v-5.5h-5.5v-5h5.5Z M22 34H78C78 56 66 67 55 69V84C63 85 71 89 73 95H27C29 89 37 85 45 84V69C34 67 22 56 22 34Z
+fast,Day of fasting and abstinence,M6 38H94C94 66 75 84 50 84C25 84 6 66 6 38Z M16 44C18 60 32 74 50 74C68 74 82 60 84 44Z M34 88H66V96H34Z
+abstinence,Day of abstinence from meat,M6 50C22 26 52 22 74 44L94 28V72L74 56C52 78 22 74 6 50Z M24 46a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z

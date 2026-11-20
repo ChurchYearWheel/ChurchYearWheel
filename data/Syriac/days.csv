@@ -1,0 +1,53 @@
+id,variant,when,date,from,to,every,first,count,first2,count2,title,names,notes,latin,color,color_bottom,rank,style,icon,claims,yield,full_name
+# ===========================================================================,,,,,,,,,,,,,,,,,,,,,,
+# The West Syriac year of the Syriac Orthodox Church of Antioch and the,,,,,,,,,,,,,,,,,,,,,,
+# Malankara churches of India: from the Sanctification of the Church through,,,,,,,,,,,,,,,,,,,,,,
+"# the Sundays of the Annunciation, the Nativity and Denho, the Great Fast, the",,,,,,,,,,,,,,,,,,,,,,
+"# Resurrection, Pentecost and the Cross.",,,,,,,,,,,,,,,,,,,,,,
+# ===========================================================================,,,,,,,,,,,,,,,,,,,,,,
+"# The year begins with the Sanctification of the Church, the eighth",,,,,,,,,,,,,,,,,,,,,,
+# Sunday before the Nativity.,,,,,,,,,,,,,,,,,,,,,,
+qudosh_idto,,,start,,,,,,,,Sanctification of the Church,,,,WHITE,,,,,TRUE,,Qudosh Idto: the Sanctification of the Church
+hudosh_idto,,,start+7,,,,,,,,Dedication of the Church,,,,,,,,,TRUE,,Hudosh Idto: the Renewal (Dedication) of the Church
+annunciation_zechariah,,,start+14,,,,,,,,Annunciation to Zechariah,,,,,,,,,TRUE,,
+annunciation_mary,,,start+21,,,,,,,,Annunciation to Mary,,,,,,,,,TRUE,,Annunciation to the Virgin Mary
+visitation,,,start+28,,,,,,,,Visitation,,,,,,,,,TRUE,,The Visit of Mary to Elizabeth
+birth_baptist,,,start+35,,,,,,,,Birth of John the Baptist,,,,,,,,,TRUE,,
+revelation_joseph,,,start+42,,,,,,,,Revelation to Joseph,,,,,,,,,TRUE,,
+genealogy,,,start+49,,,,,,,,Sunday before the Nativity,,,,,,,,,TRUE,,Sunday before the Nativity: the Genealogy
+nativity,,,12-25,,,,,,,,Nativity,,,,WHITE,,,,,TRUE,,Yeldo: the Nativity of our Lord
+praise_mother,,,12-26,,,,,,,,Praise of the Mother of God,,,,,,,,,,,
+after_nativity,,,,12-27,01-05,sun,1,,,,{ordinal} Sunday after the Nativity,,,,,,,,,,,
+circumcision,,,01-01,,,,,,,,Circumcision,,,,,,,,,,,The Circumcision of our Lord
+denho,,,01-06,,,,,,,,Denho,,,,WHITE,,,,,TRUE,,Denho: the Baptism of our Lord
+baptist,,,01-07,,,,,,,,John the Baptist,,,,,,,,,,,
+after_denho,,,,01-07,easter-50,sun,1,,,,{ordinal} Sunday after Denho,,,,,,,,,,,
+nineveh,,,easter-69,,,,,,,,Fast of Nineveh,,,,,,,,,,,"The Fast of Nineveh (Baoutho), Monday to Wednesday"
+severius,,,easter-66,,,,,,,,St Severius of Antioch,,,,,,,,,,,"St Severius, Patriarch of Antioch (Thursday after the Fast of Nineveh)"
+ephrem,,,easter-43,,,,,,,,Sts Ephrem and Theodore,,,,,,,,,,,St Ephrem the Syrian and St Theodore the Martyr
+kothne,,,easter-49,,,,,,,,Kothne Sunday,,,,,,,,,TRUE,,Kothne: the Wedding at Cana; Great Lent begins (Pethurtha)
+leper,,,easter-42,,,,,,,,Sunday of the Leper,,,,,,,,,TRUE,,
+paralytic,,,easter-35,,,,,,,,Sunday of the Paralytic,,,,,,,,,TRUE,,
+canaanite,,,easter-28,,,,,,,,Sunday of the Canaanite Woman,,,,,,,,,TRUE,,
+mid_lent,,,easter-25,,,,,,,,Mid-Lent,,,,,,,,,,,Mid-Lent: the Elevation of the Cross; King Abgar; the martyrs of the Syriac Church
+bent_woman,,,easter-21,,,,,,,,Sunday of the Bent Woman,,,,,,,,,TRUE,,
+blind,,,easter-14,,,,,,,,Sunday of the Blind Man,,,,,,,,,TRUE,,
+fortieth_friday,,,easter-9,,,,,,,,Fortieth Friday,,,,,,,,,,,
+lazarus,,,easter-8,,,,,,,,Lazarus Saturday,,,,,,,,,,,
+hosanna,,,easter-7,,,,,,,,Hosanna,,,,WHITE,,,,,TRUE,,Hosanna: Palm Sunday
+pesaha,,,easter-3,,,,,,,,Pesaha,,,,WHITE,,,,,,,Pesaha: Holy Thursday
+good_friday,,,easter-2,,,,,,,,Good Friday,,,,BLACK,,,,,,,
+holy_saturday,,,easter-1,,,,,,,,Holy Saturday,,,,BLACK,WHITE,,,,,,
+easter,,,easter,,,,,,,,Qyomtho,,,,WHITE,,,,,TRUE,,Qyomtho: the Resurrection
+confessors,,,easter+5,,,,,,,,Friday of the Confessors,,,,,,,,,,,
+new_sunday,,,easter+7,,,,,,,,New Sunday,,,,,,,,,TRUE,,
+after_easter,,,,easter+14,easter+35,sun,2,,,,{ordinal} Sunday after the Resurrection,,,,,,,,,,,
+ascension,,,easter+39,,,,,,,,Ascension,,,,WHITE,,,,,,,Sulogo: the Ascension
+after_ascension,,,easter+42,,,,,,,,Sunday after the Ascension,,,,,,,,,TRUE,,
+pentecost,,,easter+49,,,,,,,,Pentecost,,,,WHITE,,,,,TRUE,,Pentecost: the Descent of the Holy Spirit
+after_pentecost,,,,easter+56,09-13,sun,1,,,,{ordinal} Sunday after Pentecost,,,,,,,,,,,
+transfiguration,,,08-06,,,,,,,,Transfiguration,,,,WHITE,,,,,TRUE,,
+shunoyo,,,08-15,,,,,,,,Shunoyo,,,,WHITE,,,,,TRUE,,Shunoyo: the Assumption of the Mother of God
+nativity_mary,,,09-08,,,,,,,,Nativity of St Mary,,,,,,,,,,,
+sleebo,,,09-14,,,,,,,,Sleebo,,,,WHITE,,,,,TRUE,,Sleebo: the Feast of the Holy Cross
+after_cross,,,,09-15,end,sun,1,,,,{ordinal} Sunday after the Cross,,,,,,,,,,,

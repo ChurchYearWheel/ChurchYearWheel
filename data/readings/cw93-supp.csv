@@ -1,0 +1,644 @@
+day,offset,when,cycle,variant,title,kind,reading
+# ===========================================================================
+"# The supplemental lectionary of Christian Worship Supplement (NPH, 2008) for"
+"# the Christian Worship (1993) three-year series of the WELS (""CWS Series A, B",
+"# C""), an alternative full set for the day. From the SUPPLEMENTAL LECTIONARY"
+# column of "Planning Christian Worship" (PCWR); where that column is blank the
+# day's Christian Worship reading stands (as the CWS study guides,
+"# CW-*Supp*.txt, also show). Only days where at least one reading differs from"
+# cw93.csv are listed. Disagreements between PCWR and the CWS guides are in
+# REPORT.md; PCWR is kept.
+# ===========================================================================
+advent:1,,year lt 2021,A,,Supplemental Lectionary,ot,Genesis 6:9–22; 7:11–23
+advent:1,,year lt 2021,A,,Supplemental Lectionary,psalm,Psalm 18
+advent:1,,year lt 2021,A,,Supplemental Lectionary,epistle,Romans 13:11–14
+advent:1,,year lt 2021,A,,Supplemental Lectionary,gospel,Matthew 24:36–44
+advent:2,,year lt 2021,A,,Supplemental Lectionary,ot,Daniel 4:19–37
+advent:2,,year lt 2021,A,,Supplemental Lectionary,psalm,Psalm 14
+advent:2,,year lt 2021,A,,Supplemental Lectionary,epistle,Acts 3:19–26
+advent:2,,year lt 2021,A,,Supplemental Lectionary,gospel,Matthew 3:1–12
+advent:3,,year lt 2021,A,,Supplemental Lectionary,ot,Job 1:6–22
+advent:3,,year lt 2021,A,,Supplemental Lectionary,psalm,Psalm 146
+advent:3,,year lt 2021,A,,Supplemental Lectionary,epistle,James 5:7–11
+advent:3,,year lt 2021,A,,Supplemental Lectionary,gospel,Matthew 11:2–11
+advent:4,,year lt 2021,A,,Supplemental Lectionary,ot,Isaiah 7:1–17
+advent:4,,year lt 2021,A,,Supplemental Lectionary,psalm,Psalm 24
+advent:4,,year lt 2021,A,,Supplemental Lectionary,epistle,Romans 1:1–7
+advent:4,,year lt 2021,A,,Supplemental Lectionary,gospel,Matthew 1:18–25
+after_christmas:1,,year lt 2021,A,,Supplemental Lectionary,ot,Hosea 11:1–7
+after_christmas:1,,year lt 2021,A,,Supplemental Lectionary,psalm,Psalm 2
+after_christmas:1,,year lt 2021,A,,Supplemental Lectionary,epistle,Galatians 4:4–7
+after_christmas:1,,year lt 2021,A,,Supplemental Lectionary,gospel,"Matthew 2:13–15, 19–23"
+after_christmas:2,,year lt 2021,A,,Supplemental Lectionary,ot,Genesis 16:1–16
+after_christmas:2,,year lt 2021,A,,Supplemental Lectionary,psalm,Psalm 148
+after_christmas:2,,year lt 2021,A,,Supplemental Lectionary,epistle,Ephesians 1:3–14
+after_christmas:2,,year lt 2021,A,,Supplemental Lectionary,gospel,John 1:14–18
+after_epiphany:2,,year lt 2021,A,,Supplemental Lectionary,ot,Isaiah 49:1–7
+after_epiphany:2,,year lt 2021,A,,Supplemental Lectionary,psalm,Psalm 89
+after_epiphany:2,,year lt 2021,A,,Supplemental Lectionary,epistle,Acts 13:38–49
+after_epiphany:2,,year lt 2021,A,,Supplemental Lectionary,gospel,John 1:29–41
+after_epiphany:3,,year lt 2021,A,,Supplemental Lectionary,ot,Isaiah 8:19–9:2
+after_epiphany:3,,year lt 2021,A,,Supplemental Lectionary,psalm,Psalm 27
+after_epiphany:3,,year lt 2021,A,,Supplemental Lectionary,epistle,1 John 2:3–11
+after_epiphany:3,,year lt 2021,A,,Supplemental Lectionary,gospel,Matthew 4:12–23
+after_epiphany:4,,year lt 2021,A,,Supplemental Lectionary,ot,Daniel 3:13–27
+after_epiphany:4,,year lt 2021,A,,Supplemental Lectionary,psalm,Psalm 37
+after_epiphany:4,,year lt 2021,A,,Supplemental Lectionary,epistle,1 Corinthians 1:26–31
+after_epiphany:4,,year lt 2021,A,,Supplemental Lectionary,gospel,Matthew 5:1–12
+after_epiphany:5,,year lt 2021,A,,Supplemental Lectionary,ot,Joshua 24:14–24
+after_epiphany:5,,year lt 2021,A,,Supplemental Lectionary,psalm,Psalm 111
+after_epiphany:5,,year lt 2021,A,,Supplemental Lectionary,epistle,1 Peter 2:9–12
+after_epiphany:5,,year lt 2021,A,,Supplemental Lectionary,gospel,Matthew 5:13–20
+after_epiphany:6,,year lt 2021,A,,Supplemental Lectionary,ot,"2 Samuel 11:1–17, 26–27"
+after_epiphany:6,,year lt 2021,A,,Supplemental Lectionary,psalm,Psalm 119a
+after_epiphany:6,,year lt 2021,A,,Supplemental Lectionary,epistle,1 Thessalonians 4:1–12
+after_epiphany:6,,year lt 2021,A,,Supplemental Lectionary,gospel,Matthew 5:21–37
+after_epiphany:7,,year lt 2021,A,,Supplemental Lectionary,ot,1 Samuel 26:(1–6) 7–25
+after_epiphany:7,,year lt 2021,A,,Supplemental Lectionary,psalm,Psalm 103
+after_epiphany:7,,year lt 2021,A,,Supplemental Lectionary,epistle,Romans 12:9–21
+after_epiphany:7,,year lt 2021,A,,Supplemental Lectionary,gospel,Matthew 5:38–48
+after_epiphany:8,,year lt 2021,A,,Supplemental Lectionary,ot,Genesis 32:6–12
+after_epiphany:8,,year lt 2021,A,,Supplemental Lectionary,psalm,Psalm 37
+after_epiphany:8,,year lt 2021,A,,Supplemental Lectionary,epistle,Philippians 4:8–13 (14–20)
+after_epiphany:8,,year lt 2021,A,,Supplemental Lectionary,gospel,Matthew 6:24–34
+transfiguration,,year lt 2021,A,,Supplemental Lectionary,ot,"Exodus 24:12, 15–18"
+transfiguration,,year lt 2021,A,,Supplemental Lectionary,psalm,Psalm 110
+transfiguration,,year lt 2021,A,,Supplemental Lectionary,epistle,2 Peter 1:16–21
+transfiguration,,year lt 2021,A,,Supplemental Lectionary,gospel,Matthew 17:1–9
+ash_wednesday,,year lt 2021,A,,Supplemental Lectionary,ot,Numbers 21:4–9
+ash_wednesday,,year lt 2021,A,,Supplemental Lectionary,psalm,Psalm 32
+ash_wednesday,,year lt 2021,A,,Supplemental Lectionary,epistle,2 Corinthians 7:8–13a
+ash_wednesday,,year lt 2021,A,,Supplemental Lectionary,gospel,Luke 18:9–14
+lent:1,,year lt 2021,A,,Supplemental Lectionary,ot,Genesis 3:1–15
+lent:1,,year lt 2021,A,,Supplemental Lectionary,psalm,Psalm 3
+lent:1,,year lt 2021,A,,Supplemental Lectionary,epistle,Romans 5:12–19
+lent:1,,year lt 2021,A,,Supplemental Lectionary,gospel,Matthew 4:1–11
+lent:4,,year lt 2021,A,,Supplemental Lectionary,ot,Genesis 37:1–11
+lent:4,,year lt 2021,A,,Supplemental Lectionary,psalm,Psalm 42–43
+lent:4,,year lt 2021,A,,Supplemental Lectionary,epistle,Romans 8:1–10
+lent:4,,year lt 2021,A,,Supplemental Lectionary,gospel,Matthew 20:17–28
+lent:5,,year lt 2021,A,,Supplemental Lectionary,ot,2 Kings 4:18–37
+lent:5,,year lt 2021,A,,Supplemental Lectionary,psalm,Psalm 116
+lent:5,,year lt 2021,A,,Supplemental Lectionary,epistle,Romans 8:11–19
+lent:5,,year lt 2021,A,,Supplemental Lectionary,gospel,"John 11:17–27, 38–45"
+maundy_thursday,,year lt 2021,A,,Supplemental Lectionary,ot,Exodus 12:1–14
+maundy_thursday,,year lt 2021,A,,Supplemental Lectionary,psalm,Psalm 115
+maundy_thursday,,year lt 2021,A,,Supplemental Lectionary,epistle,1 Corinthians 11:23–28
+maundy_thursday,,year lt 2021,A,,Supplemental Lectionary,gospel,"John 13:1–15, 34"
+after_easter:2,,year lt 2021,A,,Supplemental Lectionary,ot,"Acts 10:34a, 36, 39–43"
+after_easter:2,,year lt 2021,A,,Supplemental Lectionary,psalm,Psalm 16
+after_easter:2,,year lt 2021,A,,Supplemental Lectionary,epistle,1 Peter 1:3–9
+after_easter:2,,year lt 2021,A,,Supplemental Lectionary,gospel,John 20:19–31
+after_easter:3,,year lt 2021,A,,Supplemental Lectionary,ot,Acts 24:10–21
+after_easter:3,,year lt 2021,A,,Supplemental Lectionary,psalm,Psalm 67
+after_easter:3,,year lt 2021,A,,Supplemental Lectionary,epistle,1 Peter 1:17–21
+after_easter:3,,year lt 2021,A,,Supplemental Lectionary,gospel,Luke 24:13–35
+after_easter:4,,year lt 2021,A,,Supplemental Lectionary,ot,1 Samuel 17:34–37
+after_easter:4,,year lt 2021,A,,Supplemental Lectionary,psalm,Psalm 23
+after_easter:4,,year lt 2021,A,,Supplemental Lectionary,epistle,Hebrews 13:20–21
+after_easter:4,,year lt 2021,A,,Supplemental Lectionary,gospel,John 10:1–10
+after_easter:5,,year lt 2021,A,,Supplemental Lectionary,ot,1 Kings 18:16–45
+after_easter:5,,year lt 2021,A,,Supplemental Lectionary,psalm,Psalm 33
+after_easter:5,,year lt 2021,A,,Supplemental Lectionary,epistle,1 Peter 2:4–10
+after_easter:5,,year lt 2021,A,,Supplemental Lectionary,gospel,John 14:1–12
+after_easter:6,,year lt 2021,A,,Supplemental Lectionary,ot,Genesis 4:1–16
+after_easter:6,,year lt 2021,A,,Supplemental Lectionary,psalm,Psalm 66
+after_easter:6,,year lt 2021,A,,Supplemental Lectionary,epistle,1 John 3:13–18
+after_easter:6,,year lt 2021,A,,Supplemental Lectionary,gospel,John 14:15–21
+ascension,,year lt 2021,A,,Supplemental Lectionary,ot,Esther 6
+ascension,,year lt 2021,A,,Supplemental Lectionary,psalm,Psalm 110
+ascension,,year lt 2021,A,,Supplemental Lectionary,epistle,Colossians 3:1–4
+ascension,,year lt 2021,A,,Supplemental Lectionary,gospel,Luke 24:44–53
+after_easter:7,,year lt 2021,A,,Supplemental Lectionary,ot,1 Samuel 1:21–28
+after_easter:7,,year lt 2021,A,,Supplemental Lectionary,psalm,Psalm 124
+after_easter:7,,year lt 2021,A,,Supplemental Lectionary,epistle,2 Corinthians 4:13–18
+after_easter:7,,year lt 2021,A,,Supplemental Lectionary,gospel,John 17:1–11a
+after_pentecost:2,,year lt 2021,A,,Supplemental Lectionary,ot,1 Kings 22:10–28
+after_pentecost:2,,year lt 2021,A,,Supplemental Lectionary,psalm,Psalm 78
+after_pentecost:2,,year lt 2021,A,,Supplemental Lectionary,epistle,2 Peter 1:20–2:3
+after_pentecost:2,,year lt 2021,A,,Supplemental Lectionary,gospel,Matthew 7:15–29
+after_pentecost:3,,year lt 2021,A,,Supplemental Lectionary,ot,Exodus 3:1–15
+after_pentecost:3,,year lt 2021,A,,Supplemental Lectionary,psalm,Psalm 119c
+after_pentecost:3,,year lt 2021,A,,Supplemental Lectionary,epistle,1 Timothy 1:12–17
+after_pentecost:3,,year lt 2021,A,,Supplemental Lectionary,gospel,Matthew 9:9–13
+after_pentecost:4,,year lt 2021,A,,Supplemental Lectionary,ot,Numbers 27:15–23
+after_pentecost:4,,year lt 2021,A,,Supplemental Lectionary,psalm,Psalm 100
+after_pentecost:4,,year lt 2021,A,,Supplemental Lectionary,epistle,2 Thessalonians 2:16–3:5
+after_pentecost:4,,year lt 2021,A,,Supplemental Lectionary,gospel,Matthew 9:35–10:8
+after_pentecost:5,,year lt 2021,A,,Supplemental Lectionary,ot,Jeremiah 19:14–20:6
+after_pentecost:5,,year lt 2021,A,,Supplemental Lectionary,psalm,Psalm 31
+after_pentecost:5,,year lt 2021,A,,Supplemental Lectionary,epistle,Acts 23:1–11
+after_pentecost:5,,year lt 2021,A,,Supplemental Lectionary,gospel,Matthew 10:24–33
+after_pentecost:6,,year lt 2021,A,,Supplemental Lectionary,ot,Exodus 32:15–29
+after_pentecost:6,,year lt 2021,A,,Supplemental Lectionary,psalm,Psalm 89
+after_pentecost:6,,year lt 2021,A,,Supplemental Lectionary,epistle,1 John 2:15–17
+after_pentecost:6,,year lt 2021,A,,Supplemental Lectionary,gospel,Matthew 10:34–42
+after_pentecost:7,,year lt 2021,A,,Supplemental Lectionary,ot,Joshua 23:1–11
+after_pentecost:7,,year lt 2021,A,,Supplemental Lectionary,psalm,Psalm 122
+after_pentecost:7,,year lt 2021,A,,Supplemental Lectionary,epistle,Hebrews 4:1–11
+after_pentecost:7,,year lt 2021,A,,Supplemental Lectionary,gospel,Matthew 11:25–30
+after_pentecost:8,,year lt 2021,A,,Supplemental Lectionary,ot,Isaiah 55:10–13
+after_pentecost:8,,year lt 2021,A,,Supplemental Lectionary,psalm,Psalm 65
+after_pentecost:8,,year lt 2021,A,,Supplemental Lectionary,epistle,Acts 18:1–11
+after_pentecost:8,,year lt 2021,A,,Supplemental Lectionary,gospel,"Matthew 13:1–9, 18–23"
+after_pentecost:9,,year lt 2021,A,,Supplemental Lectionary,ot,Joel 3:12–16
+after_pentecost:9,,year lt 2021,A,,Supplemental Lectionary,psalm,Psalm 18
+after_pentecost:9,,year lt 2021,A,,Supplemental Lectionary,epistle,1 Peter 4:1–8
+after_pentecost:9,,year lt 2021,A,,Supplemental Lectionary,gospel,"Matthew 13:24–30, 36–43"
+after_pentecost:10,,year lt 2021,A,,Supplemental Lectionary,ot,1 Kings 3:5–12
+after_pentecost:10,,year lt 2021,A,,Supplemental Lectionary,psalm,Psalm 119b
+after_pentecost:10,,year lt 2021,A,,Supplemental Lectionary,epistle,1 Timothy 6:17–21
+after_pentecost:10,,year lt 2021,A,,Supplemental Lectionary,gospel,Matthew 13:44–52
+after_pentecost:11,,year lt 2021,A,,Supplemental Lectionary,ot,Genesis 41:41–49
+after_pentecost:11,,year lt 2021,A,,Supplemental Lectionary,psalm,Psalm 42–43
+after_pentecost:11,,year lt 2021,A,,Supplemental Lectionary,epistle,1 Timothy 4:4–5
+after_pentecost:11,,year lt 2021,A,,Supplemental Lectionary,gospel,Matthew 14:13–21
+after_pentecost:12,,year lt 2021,A,,Supplemental Lectionary,ot,Exodus 14:10–31
+after_pentecost:12,,year lt 2021,A,,Supplemental Lectionary,psalm,Psalm 73
+after_pentecost:12,,year lt 2021,A,,Supplemental Lectionary,epistle,"James 1:2–8, 12"
+after_pentecost:12,,year lt 2021,A,,Supplemental Lectionary,gospel,Matthew 14:22–33
+after_pentecost:13,,year lt 2021,A,,Supplemental Lectionary,ot,Joshua 2:8–21
+after_pentecost:13,,year lt 2021,A,,Supplemental Lectionary,psalm,Psalm 142
+after_pentecost:13,,year lt 2021,A,,Supplemental Lectionary,epistle,"Romans 11:13–15, 28–32"
+after_pentecost:13,,year lt 2021,A,,Supplemental Lectionary,gospel,Matthew 15:21–28
+after_pentecost:14,,year lt 2021,A,,Supplemental Lectionary,ot,Joshua 4:1–9
+after_pentecost:14,,year lt 2021,A,,Supplemental Lectionary,psalm,Psalm 34
+after_pentecost:14,,year lt 2021,A,,Supplemental Lectionary,epistle,Revelation 7:1–8
+after_pentecost:14,,year lt 2021,A,,Supplemental Lectionary,gospel,Matthew 16:13–20
+after_pentecost:15,,year lt 2021,A,,Supplemental Lectionary,ot,Judges 16:22–31
+after_pentecost:15,,year lt 2021,A,,Supplemental Lectionary,psalm,Psalm 121
+after_pentecost:15,,year lt 2021,A,,Supplemental Lectionary,epistle,Galatians 6:12–16
+after_pentecost:15,,year lt 2021,A,,Supplemental Lectionary,gospel,Matthew 16:21–26
+after_pentecost:16,,year lt 2021,A,,Supplemental Lectionary,ot,Ezekiel 33:7–11
+after_pentecost:16,,year lt 2021,A,,Supplemental Lectionary,psalm,Psalm 51a
+after_pentecost:16,,year lt 2021,A,,Supplemental Lectionary,epistle,Galatians 2:11–21
+after_pentecost:16,,year lt 2021,A,,Supplemental Lectionary,gospel,Matthew 18:15–20
+after_pentecost:17,,year lt 2021,A,,Supplemental Lectionary,ot,Genesis 50:15–21
+after_pentecost:17,,year lt 2021,A,,Supplemental Lectionary,psalm,Psalm 103
+after_pentecost:17,,year lt 2021,A,,Supplemental Lectionary,epistle,Ephesians 4:29–5:2
+after_pentecost:17,,year lt 2021,A,,Supplemental Lectionary,gospel,Matthew 18:21–35
+after_pentecost:18,,year lt 2021,A,,Supplemental Lectionary,ot,Jonah 4:5–11
+after_pentecost:18,,year lt 2021,A,,Supplemental Lectionary,psalm,Psalm 27
+after_pentecost:18,,year lt 2021,A,,Supplemental Lectionary,epistle,Romans 9:6b–16
+after_pentecost:18,,year lt 2021,A,,Supplemental Lectionary,gospel,Matthew 20:1–16
+after_pentecost:19,,year lt 2021,A,,Supplemental Lectionary,ot,"Ezekiel 18:1–4, 25–32"
+after_pentecost:19,,year lt 2021,A,,Supplemental Lectionary,psalm,Psalm 25
+after_pentecost:19,,year lt 2021,A,,Supplemental Lectionary,epistle,2 Corinthians 13:5–8
+after_pentecost:19,,year lt 2021,A,,Supplemental Lectionary,gospel,Matthew 21:28–32
+after_pentecost:20,,year lt 2021,A,,Supplemental Lectionary,ot,2 Kings 21:1–15
+after_pentecost:20,,year lt 2021,A,,Supplemental Lectionary,psalm,Psalm 118
+after_pentecost:20,,year lt 2021,A,,Supplemental Lectionary,epistle,2 Corinthians 6:1–13
+after_pentecost:20,,year lt 2021,A,,Supplemental Lectionary,gospel,Matthew 21:33–43
+after_pentecost:21,,year lt 2021,A,,Supplemental Lectionary,ot,"2 Chronicles 30:1–5, 10–22"
+after_pentecost:21,,year lt 2021,A,,Supplemental Lectionary,epistle,Romans 11:1–10
+after_pentecost:21,,year lt 2021,A,,Supplemental Lectionary,gospel,Matthew 22:1–14
+after_pentecost:22,,year lt 2021,A,,Supplemental Lectionary,ot,Daniel 1:3–21
+after_pentecost:22,,year lt 2021,A,,Supplemental Lectionary,epistle,Romans 13:1–7
+after_pentecost:22,,year lt 2021,A,,Supplemental Lectionary,gospel,Matthew 22:15–21
+after_pentecost:23,,year lt 2021,A,,Supplemental Lectionary,ot,"Leviticus 19:1–2, 15–18"
+after_pentecost:23,,year lt 2021,A,,Supplemental Lectionary,epistle,2 John 1–6
+after_pentecost:23,,year lt 2021,A,,Supplemental Lectionary,gospel,Matthew 22:34–46
+reformation,,year lt 2021,A,,Supplemental Lectionary,ot,"Daniel 6:10–12, 16–23"
+reformation,,year lt 2021,A,,Supplemental Lectionary,psalm,Psalm 46
+reformation,,year lt 2021,A,,Supplemental Lectionary,epistle,2 Timothy 4:9–18
+reformation,,year lt 2021,A,,Supplemental Lectionary,gospel,Matthew 10:16–23
+last_judgment,,year lt 2021,A,,Supplemental Lectionary,ot,"Daniel 7:9, 10"
+last_judgment,,year lt 2021,A,,Supplemental Lectionary,psalm,Psalm 90
+last_judgment,,year lt 2021,A,,Supplemental Lectionary,epistle,Romans 2:2–11
+last_judgment,,year lt 2021,A,,Supplemental Lectionary,gospel,Matthew 25:31–46
+saints_triumphant,,year lt 2021,A,,Supplemental Lectionary,ot,Ezekiel 37:15–28
+saints_triumphant,,year lt 2021,A,,Supplemental Lectionary,psalm,Psalm 84
+saints_triumphant,,year lt 2021,A,,Supplemental Lectionary,epistle,Revelation 19:1–9
+saints_triumphant,,year lt 2021,A,,Supplemental Lectionary,gospel,Matthew 25:1–13
+advent:1,,year lt 2021,B,,Supplemental Lectionary,ot,"Genesis 6:1–3, 5–14, 17–22"
+advent:1,,year lt 2021,B,,Supplemental Lectionary,psalm,Psalm 24
+advent:1,,year lt 2021,B,,Supplemental Lectionary,epistle,1 Peter 3:18–22
+advent:1,,year lt 2021,B,,Supplemental Lectionary,gospel,Mark 13:32–37
+advent:2,,year lt 2021,B,,Supplemental Lectionary,ot,Isaiah 40:1–11
+advent:2,,year lt 2021,B,,Supplemental Lectionary,psalm,Psalm 14
+advent:2,,year lt 2021,B,,Supplemental Lectionary,epistle,2 Peter 3:8–14
+advent:2,,year lt 2021,B,,Supplemental Lectionary,gospel,Mark 1:1–8
+advent:3,,year lt 2021,B,,Supplemental Lectionary,ot,Malachi 4:1–6
+advent:3,,year lt 2021,B,,Supplemental Lectionary,psalm,Psalm 71
+advent:3,,year lt 2021,B,,Supplemental Lectionary,epistle,1 Thessalonians 5:16–24
+advent:3,,year lt 2021,B,,Supplemental Lectionary,gospel,"John 1:6–8, 19–28"
+epiphany,,year lt 2021,B,,Supplemental Lectionary,ot,Ruth 4:13–17
+epiphany,,year lt 2021,B,,Supplemental Lectionary,psalm,Psalm 72
+epiphany,,year lt 2021,B,,Supplemental Lectionary,epistle,Ephesians 3:2–12
+epiphany,,year lt 2021,B,,Supplemental Lectionary,gospel,Matthew 2:1–12
+after_epiphany:2,,year lt 2021,B,,Supplemental Lectionary,ot,1 Samuel 3:1–10
+after_epiphany:2,,year lt 2021,B,,Supplemental Lectionary,psalm,Psalm 67
+after_epiphany:2,,year lt 2021,B,,Supplemental Lectionary,epistle,2 Thessalonians 2:13–17
+after_epiphany:2,,year lt 2021,B,,Supplemental Lectionary,gospel,John 1:43–51
+after_epiphany:3,,year lt 2021,B,,Supplemental Lectionary,ot,1 Kings 19:19–21
+after_epiphany:3,,year lt 2021,B,,Supplemental Lectionary,psalm,Psalm 37
+after_epiphany:3,,year lt 2021,B,,Supplemental Lectionary,epistle,Acts 13:1–5
+after_epiphany:3,,year lt 2021,B,,Supplemental Lectionary,gospel,Mark 1:14–20
+after_epiphany:4,,year lt 2021,B,,Supplemental Lectionary,ot,Deuteronomy 18:15–20
+after_epiphany:4,,year lt 2021,B,,Supplemental Lectionary,psalm,Psalm 1
+after_epiphany:4,,year lt 2021,B,,Supplemental Lectionary,epistle,Hebrews 3:1–6
+after_epiphany:4,,year lt 2021,B,,Supplemental Lectionary,gospel,Mark 1:21–28
+after_epiphany:5,,year lt 2021,B,,Supplemental Lectionary,ot,Job 7:1–7
+after_epiphany:5,,year lt 2021,B,,Supplemental Lectionary,psalm,Psalm 103
+after_epiphany:5,,year lt 2021,B,,Supplemental Lectionary,epistle,Romans 8:28–30
+after_epiphany:5,,year lt 2021,B,,Supplemental Lectionary,gospel,Mark 1:29–39
+after_epiphany:6,,year lt 2021,B,,Supplemental Lectionary,ot,2 Kings 5:1–14
+after_epiphany:6,,year lt 2021,B,,Supplemental Lectionary,psalm,Psalm 32
+after_epiphany:6,,year lt 2021,B,,Supplemental Lectionary,epistle,2 Corinthians 1:3–7
+after_epiphany:6,,year lt 2021,B,,Supplemental Lectionary,gospel,Mark 1:40–45
+after_epiphany:7,,year lt 2021,B,,Supplemental Lectionary,ot,Isaiah 43:18–25
+after_epiphany:7,,year lt 2021,B,,Supplemental Lectionary,psalm,Psalm 40
+after_epiphany:7,,year lt 2021,B,,Supplemental Lectionary,epistle,2 Corinthians 1:18–22
+after_epiphany:7,,year lt 2021,B,,Supplemental Lectionary,gospel,Mark 2:1–12
+after_epiphany:8,,year lt 2021,B,,Supplemental Lectionary,ot,"Hosea 2:14–16, 19, 20"
+after_epiphany:8,,year lt 2021,B,,Supplemental Lectionary,psalm,Psalm 133–134
+after_epiphany:8,,year lt 2021,B,,Supplemental Lectionary,epistle,Revelation 21:1–6
+after_epiphany:8,,year lt 2021,B,,Supplemental Lectionary,gospel,Mark 2:18–22
+transfiguration,,year lt 2021,B,,Supplemental Lectionary,ot,2 Kings 2:1–12a
+transfiguration,,year lt 2021,B,,Supplemental Lectionary,psalm,Psalm 148
+transfiguration,,year lt 2021,B,,Supplemental Lectionary,epistle,2 Corinthians 4:3–6
+transfiguration,,year lt 2021,B,,Supplemental Lectionary,gospel,Mark 9:2–9
+ash_wednesday,,year lt 2021,B,,Supplemental Lectionary,ot,2 Samuel 12:1–13
+ash_wednesday,,year lt 2021,B,,Supplemental Lectionary,psalm,Psalm 51a
+ash_wednesday,,year lt 2021,B,,Supplemental Lectionary,epistle,Acts 5:1–11
+ash_wednesday,,year lt 2021,B,,Supplemental Lectionary,gospel,Luke 18:9–14
+lent:1,,year lt 2021,B,,Supplemental Lectionary,ot,Genesis 22:1–18
+lent:1,,year lt 2021,B,,Supplemental Lectionary,psalm,Psalm 3
+lent:1,,year lt 2021,B,,Supplemental Lectionary,epistle,Romans 8:31–39
+lent:1,,year lt 2021,B,,Supplemental Lectionary,gospel,Mark 1:12–15
+lent:3,,year lt 2021,B,,Supplemental Lectionary,ot,Exodus 20:1–17
+lent:3,,year lt 2021,B,,Supplemental Lectionary,psalm,Psalm 69
+lent:3,,year lt 2021,B,,Supplemental Lectionary,epistle,Romans 8:1–10
+lent:3,,year lt 2021,B,,Supplemental Lectionary,gospel,John 2:13–22
+lent:5,,year lt 2021,B,,Supplemental Lectionary,ot,Jeremiah 31:31–34
+lent:5,,year lt 2021,B,,Supplemental Lectionary,psalm,Psalm 115
+lent:5,,year lt 2021,B,,Supplemental Lectionary,epistle,Hebrews 5:7–10
+lent:5,,year lt 2021,B,,Supplemental Lectionary,gospel,John 12:20–33
+palm_sunday,,year lt 2021,B,,Supplemental Lectionary,ot,"Zechariah 9:9, 10"
+palm_sunday,,year lt 2021,B,,Supplemental Lectionary,psalm,Psalm 24
+palm_sunday,,year lt 2021,B,,Supplemental Lectionary,epistle,Philippians 2:5–11
+palm_sunday,,year lt 2021,B,,Supplemental Lectionary,gospel,Mark 11:1–10
+maundy_thursday,,year lt 2021,B,,Supplemental Lectionary,ot,Exodus 12:21–30
+maundy_thursday,,year lt 2021,B,,Supplemental Lectionary,psalm,Psalm 116
+maundy_thursday,,year lt 2021,B,,Supplemental Lectionary,epistle,"1 Corinthians 10:16, 17"
+maundy_thursday,,year lt 2021,B,,Supplemental Lectionary,gospel,Mark 14:12–26
+good_friday,,year lt 2021,B,,Supplemental Lectionary,ot,Leviticus 16:11–19
+good_friday,,year lt 2021,B,,Supplemental Lectionary,psalm,Psalm 22
+good_friday,,year lt 2021,B,,Supplemental Lectionary,epistle,Hebrews 7:26–28
+good_friday,,year lt 2021,B,,Supplemental Lectionary,gospel,John 19:17–30
+after_easter:2,,year lt 2021,B,,Supplemental Lectionary,ot,Acts 26:19–29
+after_easter:2,,year lt 2021,B,,Supplemental Lectionary,psalm,Psalm 16
+after_easter:2,,year lt 2021,B,,Supplemental Lectionary,epistle,1 Corinthians 15:12–22
+after_easter:2,,year lt 2021,B,,Supplemental Lectionary,gospel,John 20:19–31
+after_easter:3,,year lt 2021,B,,Supplemental Lectionary,ot,Acts 12:1–19
+after_easter:3,,year lt 2021,B,,Supplemental Lectionary,psalm,Psalm 118
+after_easter:3,,year lt 2021,B,,Supplemental Lectionary,epistle,2 Corinthians 2:12–3:6
+after_easter:3,,year lt 2021,B,,Supplemental Lectionary,gospel,Luke 24:36–49
+after_easter:4,,year lt 2021,B,,Supplemental Lectionary,ot,Acts 20:28–32
+after_easter:4,,year lt 2021,B,,Supplemental Lectionary,psalm,Psalm 23
+after_easter:4,,year lt 2021,B,,Supplemental Lectionary,epistle,1 Peter 5:1–4
+after_easter:4,,year lt 2021,B,,Supplemental Lectionary,gospel,John 10:11–18
+after_easter:5,,year lt 2021,B,,Supplemental Lectionary,ot,Acts 16:11–15
+after_easter:5,,year lt 2021,B,,Supplemental Lectionary,psalm,Psalm 67
+after_easter:5,,year lt 2021,B,,Supplemental Lectionary,epistle,1 John 3:18–24
+after_easter:5,,year lt 2021,B,,Supplemental Lectionary,gospel,John 15:1–8
+after_easter:6,,year lt 2021,B,,Supplemental Lectionary,ot,Acts 9:36–42
+after_easter:6,,year lt 2021,B,,Supplemental Lectionary,psalm,Psalm 98
+after_easter:6,,year lt 2021,B,,Supplemental Lectionary,epistle,1 John 4:1–11
+after_easter:6,,year lt 2021,B,,Supplemental Lectionary,gospel,John 15:9–17
+ascension,,year lt 2021,B,,Supplemental Lectionary,ot,Deuteronomy 33:26–29
+ascension,,year lt 2021,B,,Supplemental Lectionary,psalm,Psalm 110
+ascension,,year lt 2021,B,,Supplemental Lectionary,epistle,Ephesians 4:7–16
+ascension,,year lt 2021,B,,Supplemental Lectionary,gospel,Luke 24:44–53
+after_easter:7,,year lt 2021,B,,Supplemental Lectionary,ot,Acts 7:54–60
+after_easter:7,,year lt 2021,B,,Supplemental Lectionary,psalm,Psalm 124
+after_easter:7,,year lt 2021,B,,Supplemental Lectionary,epistle,Hebrews 7:11–27
+after_easter:7,,year lt 2021,B,,Supplemental Lectionary,gospel,John 17:11b–19
+after_pentecost:2,,year lt 2021,B,,Supplemental Lectionary,ot,1 Samuel 21:1–6
+after_pentecost:2,,year lt 2021,B,,Supplemental Lectionary,psalm,Psalm 122
+after_pentecost:2,,year lt 2021,B,,Supplemental Lectionary,epistle,Colossians 2:13–17
+after_pentecost:2,,year lt 2021,B,,Supplemental Lectionary,gospel,Mark 2:23–28
+after_pentecost:3,,year lt 2021,B,,Supplemental Lectionary,ot,Genesis 3:8–15
+after_pentecost:3,,year lt 2021,B,,Supplemental Lectionary,psalm,Psalm 51a
+after_pentecost:3,,year lt 2021,B,,Supplemental Lectionary,epistle,Revelation 20:1–6
+after_pentecost:3,,year lt 2021,B,,Supplemental Lectionary,gospel,Mark 3:20–35
+after_pentecost:4,,year lt 2021,B,,Supplemental Lectionary,ot,Jonah 3:1–10
+after_pentecost:4,,year lt 2021,B,,Supplemental Lectionary,psalm,Psalm 115
+after_pentecost:4,,year lt 2021,B,,Supplemental Lectionary,epistle,Colossians 1:3–8
+after_pentecost:4,,year lt 2021,B,,Supplemental Lectionary,gospel,Mark 4:26–34
+after_pentecost:5,,year lt 2021,B,,Supplemental Lectionary,ot,"Proverbs 30:4, 5"
+after_pentecost:5,,year lt 2021,B,,Supplemental Lectionary,psalm,Psalm 46
+after_pentecost:5,,year lt 2021,B,,Supplemental Lectionary,epistle,Acts 27:13–26
+after_pentecost:5,,year lt 2021,B,,Supplemental Lectionary,gospel,Mark 4:35–41
+after_pentecost:6,,year lt 2021,B,,Supplemental Lectionary,ot,2 Samuel 12:11–25
+after_pentecost:6,,year lt 2021,B,,Supplemental Lectionary,psalm,Psalm 30
+after_pentecost:6,,year lt 2021,B,,Supplemental Lectionary,epistle,2 Timothy 1:8–14
+after_pentecost:6,,year lt 2021,B,,Supplemental Lectionary,gospel,"Mark 5:21–24a, 35–43"
+after_pentecost:7,,year lt 2021,B,,Supplemental Lectionary,ot,Ezekiel 2:1–3:4
+after_pentecost:7,,year lt 2021,B,,Supplemental Lectionary,psalm,Psalm 143
+after_pentecost:7,,year lt 2021,B,,Supplemental Lectionary,epistle,2 Timothy 3:10–4:5
+after_pentecost:7,,year lt 2021,B,,Supplemental Lectionary,gospel,Mark 6:1–6
+after_pentecost:8,,year lt 2021,B,,Supplemental Lectionary,ot,Amos 7:10–17
+after_pentecost:8,,year lt 2021,B,,Supplemental Lectionary,psalm,Psalm 78
+after_pentecost:8,,year lt 2021,B,,Supplemental Lectionary,epistle,1 Timothy 3:1–7
+after_pentecost:8,,year lt 2021,B,,Supplemental Lectionary,gospel,Mark 6:7–13
+after_pentecost:9,,year lt 2021,B,,Supplemental Lectionary,ot,Numbers 27:12–23
+after_pentecost:9,,year lt 2021,B,,Supplemental Lectionary,psalm,Psalm 23
+after_pentecost:9,,year lt 2021,B,,Supplemental Lectionary,epistle,"Hebrews 13:7–8, 17–21"
+after_pentecost:9,,year lt 2021,B,,Supplemental Lectionary,gospel,Mark 6:30–34
+after_pentecost:10,,year lt 2021,B,,Supplemental Lectionary,ot,2 Kings 4:42–44
+after_pentecost:10,,year lt 2021,B,,Supplemental Lectionary,psalm,Psalm 84
+after_pentecost:10,,year lt 2021,B,,Supplemental Lectionary,epistle,2 Corinthians 9:8–11
+after_pentecost:10,,year lt 2021,B,,Supplemental Lectionary,gospel,John 6:1–15
+after_pentecost:11,,year lt 2021,B,,Supplemental Lectionary,ot,Exodus 16:2–20
+after_pentecost:11,,year lt 2021,B,,Supplemental Lectionary,psalm,Psalm 145
+after_pentecost:11,,year lt 2021,B,,Supplemental Lectionary,epistle,"1 Corinthians 10:1–5, 11–13"
+after_pentecost:11,,year lt 2021,B,,Supplemental Lectionary,gospel,John 6:24–35
+after_pentecost:12,,year lt 2021,B,,Supplemental Lectionary,ot,1 Kings 19:3–8
+after_pentecost:12,,year lt 2021,B,,Supplemental Lectionary,psalm,Psalm 34
+after_pentecost:12,,year lt 2021,B,,Supplemental Lectionary,epistle,Hebrews 5:11–6:3
+after_pentecost:12,,year lt 2021,B,,Supplemental Lectionary,gospel,John 6:41–51
+after_pentecost:14,,year lt 2021,B,,Supplemental Lectionary,ot,Exodus 7:8–13
+after_pentecost:14,,year lt 2021,B,,Supplemental Lectionary,psalm,Psalm 71
+after_pentecost:14,,year lt 2021,B,,Supplemental Lectionary,epistle,Hebrews 11:24–28
+after_pentecost:14,,year lt 2021,B,,Supplemental Lectionary,gospel,John 6:60–69
+after_pentecost:15,,year lt 2021,B,,Supplemental Lectionary,ot,"Deuteronomy 4:1, 2, 6–9"
+after_pentecost:15,,year lt 2021,B,,Supplemental Lectionary,psalm,Psalm 119c
+after_pentecost:15,,year lt 2021,B,,Supplemental Lectionary,epistle,James 1:17–27
+after_pentecost:15,,year lt 2021,B,,Supplemental Lectionary,gospel,"Mark 7:1–8, 14, 15, 21–23"
+after_pentecost:16,,year lt 2021,B,,Supplemental Lectionary,ot,Isaiah 35:4–7a
+after_pentecost:16,,year lt 2021,B,,Supplemental Lectionary,psalm,Psalm 146
+after_pentecost:16,,year lt 2021,B,,Supplemental Lectionary,epistle,Acts 3:1–10
+after_pentecost:16,,year lt 2021,B,,Supplemental Lectionary,gospel,Mark 7:31–37
+after_pentecost:17,,year lt 2021,B,,Supplemental Lectionary,ot,Jeremiah 38:1–13
+after_pentecost:17,,year lt 2021,B,,Supplemental Lectionary,psalm,Psalm 116
+after_pentecost:17,,year lt 2021,B,,Supplemental Lectionary,epistle,1 Peter 4:12–19
+after_pentecost:17,,year lt 2021,B,,Supplemental Lectionary,gospel,Mark 8:27–35
+after_pentecost:18,,year lt 2021,B,,Supplemental Lectionary,ot,Numbers 12:1–15
+after_pentecost:18,,year lt 2021,B,,Supplemental Lectionary,psalm,Psalm 31
+after_pentecost:18,,year lt 2021,B,,Supplemental Lectionary,epistle,James 3:13–18
+after_pentecost:18,,year lt 2021,B,,Supplemental Lectionary,gospel,Mark 9:30–37
+after_pentecost:19,,year lt 2021,B,,Supplemental Lectionary,ot,"Numbers 11:16, 24–29"
+after_pentecost:19,,year lt 2021,B,,Supplemental Lectionary,psalm,Psalm 51b
+after_pentecost:19,,year lt 2021,B,,Supplemental Lectionary,epistle,Philippians 1:12–18a
+after_pentecost:19,,year lt 2021,B,,Supplemental Lectionary,gospel,Mark 9:38–50
+after_pentecost:20,,year lt 2021,B,,Supplemental Lectionary,ot,Genesis 2:18–24
+after_pentecost:20,,year lt 2021,B,,Supplemental Lectionary,psalm,Psalm 139b
+after_pentecost:20,,year lt 2021,B,,Supplemental Lectionary,epistle,Ephesians 5:21–6:4
+after_pentecost:20,,year lt 2021,B,,Supplemental Lectionary,gospel,Mark 10:2–16
+after_pentecost:21,,year lt 2021,B,,Supplemental Lectionary,ot,2 Kings 5:14–27
+after_pentecost:21,,year lt 2021,B,,Supplemental Lectionary,psalm,Psalm 90
+after_pentecost:21,,year lt 2021,B,,Supplemental Lectionary,epistle,Hebrews 13:1–6
+after_pentecost:21,,year lt 2021,B,,Supplemental Lectionary,gospel,Mark 10:17–27
+after_pentecost:22,,year lt 2021,B,,Supplemental Lectionary,ot,2 Chronicles 26:16–23
+after_pentecost:22,,year lt 2021,B,,Supplemental Lectionary,psalm,Psalm 22
+after_pentecost:22,,year lt 2021,B,,Supplemental Lectionary,epistle,"1 Corinthians 9:7–12, 19–23"
+after_pentecost:22,,year lt 2021,B,,Supplemental Lectionary,gospel,Mark 10:35–45
+after_pentecost:23,,year lt 2021,B,,Supplemental Lectionary,ot,Exodus 4:1–17
+after_pentecost:23,,year lt 2021,B,,Supplemental Lectionary,psalm,Psalm 142
+after_pentecost:23,,year lt 2021,B,,Supplemental Lectionary,epistle,Acts 2:22–32
+after_pentecost:23,,year lt 2021,B,,Supplemental Lectionary,gospel,Mark 10:46–52
+after_pentecost:24,,year lt 2021,B,,Supplemental Lectionary,ot,Deuteronomy 6:1–9
+after_pentecost:24,,year lt 2021,B,,Supplemental Lectionary,psalm,Psalm 119a
+after_pentecost:24,,year lt 2021,B,,Supplemental Lectionary,epistle,Romans 13:8–14
+after_pentecost:24,,year lt 2021,B,,Supplemental Lectionary,gospel,Mark 12:28–34
+reformation,,year lt 2021,B,,Supplemental Lectionary,ot,Daniel 3:16–28
+reformation,,year lt 2021,B,,Supplemental Lectionary,psalm,Psalm 46
+reformation,,year lt 2021,B,,Supplemental Lectionary,epistle,"Revelation 14:6, 7"
+reformation,,year lt 2021,B,,Supplemental Lectionary,gospel,Mark 13:5–11
+last_judgment,,year lt 2021,B,,Supplemental Lectionary,ot,Malachi 4:1–3
+last_judgment,,year lt 2021,B,,Supplemental Lectionary,psalm,Psalm 90
+last_judgment,,year lt 2021,B,,Supplemental Lectionary,epistle,Hebrews 9:24–28
+last_judgment,,year lt 2021,B,,Supplemental Lectionary,gospel,John 5:19–30
+saints_triumphant,,year lt 2021,B,,Supplemental Lectionary,ot,Daniel 12:1–3
+saints_triumphant,,year lt 2021,B,,Supplemental Lectionary,psalm,Psalm 118
+saints_triumphant,,year lt 2021,B,,Supplemental Lectionary,epistle,1 Thessalonians 4:13–18
+saints_triumphant,,year lt 2021,B,,Supplemental Lectionary,gospel,Mark 13:24–27
+advent:1,,year lt 2021,C,,Supplemental Lectionary,ot,"Genesis 19:15–17, 23–29"
+advent:1,,year lt 2021,C,,Supplemental Lectionary,psalm,Psalm 25
+advent:1,,year lt 2021,C,,Supplemental Lectionary,epistle,1 Thessalonians 3:9–13
+advent:1,,year lt 2021,C,,Supplemental Lectionary,gospel,Luke 21:25–36
+advent:2,,year lt 2021,C,,Supplemental Lectionary,ot,Malachi 3:1–4
+advent:2,,year lt 2021,C,,Supplemental Lectionary,psalm,Psalm 24
+advent:2,,year lt 2021,C,,Supplemental Lectionary,epistle,1 Corinthians 4:1–5
+advent:2,,year lt 2021,C,,Supplemental Lectionary,gospel,Luke 3:1–6
+advent:3,,year lt 2021,C,,Supplemental Lectionary,ot,Nehemiah 8:9–18
+advent:3,,year lt 2021,C,,Supplemental Lectionary,psalm,Psalm 14
+advent:3,,year lt 2021,C,,Supplemental Lectionary,epistle,Philippians 4:4–7
+advent:3,,year lt 2021,C,,Supplemental Lectionary,gospel,Luke 3:7–18
+advent:4,,year lt 2021,C,,Supplemental Lectionary,ot,"Genesis 4:1, 2, 6–8, 25–5:5"
+advent:4,,year lt 2021,C,,Supplemental Lectionary,psalm,Psalm 85
+advent:4,,year lt 2021,C,,Supplemental Lectionary,epistle,Revelation 12:1–6
+advent:4,,year lt 2021,C,,Supplemental Lectionary,gospel,Luke 1:39–55
+christmas_eve,,year lt 2021,C,,Supplemental Lectionary,ot,Micah 5:2–5a
+christmas_eve,,year lt 2021,C,,Supplemental Lectionary,psalm,Psalm 96
+christmas_eve,,year lt 2021,C,,Supplemental Lectionary,epistle,1 John 1:1–9
+christmas_eve,,year lt 2021,C,,Supplemental Lectionary,gospel,Luke 2:1–20
+christmas,,year lt 2021,C,,Supplemental Lectionary,ot,Exodus 33:18–23; 34:5–7
+christmas,,year lt 2021,C,,Supplemental Lectionary,psalm,Psalm 98
+christmas,,year lt 2021,C,,Supplemental Lectionary,epistle,Hebrews 1:1–9
+christmas,,year lt 2021,C,,Supplemental Lectionary,gospel,John 1:1–18
+after_christmas:2,,year lt 2021,C,,Supplemental Lectionary,ot,2 Samuel 7:8–16
+after_christmas:2,,year lt 2021,C,,Supplemental Lectionary,psalm,Psalm 148
+after_christmas:2,,year lt 2021,C,,Supplemental Lectionary,epistle,Colossians 1:13–20
+after_christmas:2,,year lt 2021,C,,Supplemental Lectionary,gospel,Luke 1:68–75
+epiphany,,year lt 2021,C,,Supplemental Lectionary,ot,1 Kings 10:1–9
+epiphany,,year lt 2021,C,,Supplemental Lectionary,psalm,Psalm 72
+epiphany,,year lt 2021,C,,Supplemental Lectionary,epistle,Ephesians 3:2–12
+epiphany,,year lt 2021,C,,Supplemental Lectionary,gospel,Matthew 2:1–12
+after_epiphany:2,,year lt 2021,C,,Supplemental Lectionary,ot,Exodus 7:14–24
+after_epiphany:2,,year lt 2021,C,,Supplemental Lectionary,psalm,Psalm 133–134
+after_epiphany:2,,year lt 2021,C,,Supplemental Lectionary,epistle,Ephesians 3:14–21
+after_epiphany:2,,year lt 2021,C,,Supplemental Lectionary,gospel,John 2:1–11
+after_epiphany:3,,year lt 2021,C,,Supplemental Lectionary,ot,"Nehemiah 8:1–3, 5–6, 8–10"
+after_epiphany:3,,year lt 2021,C,,Supplemental Lectionary,psalm,Psalm 19
+after_epiphany:3,,year lt 2021,C,,Supplemental Lectionary,epistle,Acts 4:23–31
+after_epiphany:3,,year lt 2021,C,,Supplemental Lectionary,gospel,Luke 4:14–21
+after_epiphany:4,,year lt 2021,C,,Supplemental Lectionary,ot,1 Kings 17:7–16
+after_epiphany:4,,year lt 2021,C,,Supplemental Lectionary,psalm,Psalm 78
+after_epiphany:4,,year lt 2021,C,,Supplemental Lectionary,epistle,Romans 10:18–11:6
+after_epiphany:4,,year lt 2021,C,,Supplemental Lectionary,gospel,Luke 4:20–32
+after_epiphany:5,,year lt 2021,C,,Supplemental Lectionary,ot,Judges 13:6–24
+after_epiphany:5,,year lt 2021,C,,Supplemental Lectionary,psalm,Psalm 85
+after_epiphany:5,,year lt 2021,C,,Supplemental Lectionary,epistle,Romans 10:13–17
+after_epiphany:5,,year lt 2021,C,,Supplemental Lectionary,gospel,Luke 5:1–11
+after_epiphany:6,,year lt 2021,C,,Supplemental Lectionary,ot,Deuteronomy 30:1–10
+after_epiphany:6,,year lt 2021,C,,Supplemental Lectionary,psalm,Psalm 37
+after_epiphany:6,,year lt 2021,C,,Supplemental Lectionary,epistle,2 Corinthians 12:7–10
+after_epiphany:6,,year lt 2021,C,,Supplemental Lectionary,gospel,Luke 6:17–26
+after_epiphany:7,,year lt 2021,C,,Supplemental Lectionary,ot,"Genesis 45:3–8a, 15"
+after_epiphany:7,,year lt 2021,C,,Supplemental Lectionary,psalm,Psalm 103
+after_epiphany:7,,year lt 2021,C,,Supplemental Lectionary,epistle,Romans 12:14–21
+after_epiphany:7,,year lt 2021,C,,Supplemental Lectionary,gospel,Luke 6:27–38
+after_epiphany:8,,year lt 2021,C,,Supplemental Lectionary,ot,Genesis 6:11–22
+after_epiphany:8,,year lt 2021,C,,Supplemental Lectionary,psalm,Psalm 92
+after_epiphany:8,,year lt 2021,C,,Supplemental Lectionary,epistle,1 Corinthians 5:9–6:4
+after_epiphany:8,,year lt 2021,C,,Supplemental Lectionary,gospel,Luke 6:39–49
+transfiguration,,year lt 2021,C,,Supplemental Lectionary,ot,Exodus 34:29–35
+transfiguration,,year lt 2021,C,,Supplemental Lectionary,psalm,Psalm 148
+transfiguration,,year lt 2021,C,,Supplemental Lectionary,epistle,2 Corinthians 3:12–4:2
+transfiguration,,year lt 2021,C,,Supplemental Lectionary,gospel,Luke 9:28–36
+ash_wednesday,,year lt 2021,C,,Supplemental Lectionary,ot,2 Samuel 24:10–25
+ash_wednesday,,year lt 2021,C,,Supplemental Lectionary,psalm,Psalm 51a
+ash_wednesday,,year lt 2021,C,,Supplemental Lectionary,epistle,Revelation 3:14–22
+ash_wednesday,,year lt 2021,C,,Supplemental Lectionary,gospel,Luke 18:9–14
+lent:1,,year lt 2021,C,,Supplemental Lectionary,ot,Joshua 7:16–26
+lent:1,,year lt 2021,C,,Supplemental Lectionary,psalm,Psalm 3
+lent:1,,year lt 2021,C,,Supplemental Lectionary,epistle,Hebrews 4:14–16
+lent:1,,year lt 2021,C,,Supplemental Lectionary,gospel,Luke 4:1–13
+lent:3,,year lt 2021,C,,Supplemental Lectionary,ot,Numbers 16:23–40
+lent:3,,year lt 2021,C,,Supplemental Lectionary,psalm,Psalm 38
+lent:3,,year lt 2021,C,,Supplemental Lectionary,epistle,1 Corinthians 10:1–13
+lent:3,,year lt 2021,C,,Supplemental Lectionary,gospel,Luke 13:1–9
+lent:4,,year lt 2021,C,,Supplemental Lectionary,ot,Judges 10:6–16
+lent:4,,year lt 2021,C,,Supplemental Lectionary,psalm,Psalm 115
+lent:4,,year lt 2021,C,,Supplemental Lectionary,epistle,James 4:7–10
+lent:4,,year lt 2021,C,,Supplemental Lectionary,gospel,"Luke 15:1–3, 11b–32"
+lent:5,,year lt 2021,C,,Supplemental Lectionary,ot,Isaiah 43:16–24
+lent:5,,year lt 2021,C,,Supplemental Lectionary,psalm,Psalm 73
+lent:5,,year lt 2021,C,,Supplemental Lectionary,epistle,Romans 11:11–21
+lent:5,,year lt 2021,C,,Supplemental Lectionary,gospel,Luke 20:9–19
+palm_sunday,,year lt 2021,C,,Supplemental Lectionary,ot,Isaiah 45:22–25
+palm_sunday,,year lt 2021,C,,Supplemental Lectionary,psalm,Psalm 24
+palm_sunday,,year lt 2021,C,,Supplemental Lectionary,epistle,Hebrews 12:1–3
+palm_sunday,,year lt 2021,C,,Supplemental Lectionary,gospel,Luke 19:28–40
+maundy_thursday,,year lt 2021,C,,Supplemental Lectionary,ot,Jeremiah 31:31–34
+maundy_thursday,,year lt 2021,C,,Supplemental Lectionary,psalm,Psalm 116
+maundy_thursday,,year lt 2021,C,,Supplemental Lectionary,epistle,Hebrews 10:15–25
+maundy_thursday,,year lt 2021,C,,Supplemental Lectionary,gospel,Luke 22:7–20
+good_friday,,year lt 2021,C,,Supplemental Lectionary,ot,Isaiah 52:13–53:12
+good_friday,,year lt 2021,C,,Supplemental Lectionary,psalm,Psalm 22
+good_friday,,year lt 2021,C,,Supplemental Lectionary,epistle,Galatians 3:10–13
+good_friday,,year lt 2021,C,,Supplemental Lectionary,gospel,John 19:17–30
+after_easter:2,,year lt 2021,C,,Supplemental Lectionary,ot,Genesis 15:1–6
+after_easter:2,,year lt 2021,C,,Supplemental Lectionary,psalm,Psalm 16
+after_easter:2,,year lt 2021,C,,Supplemental Lectionary,epistle,2 Peter 1:16–21
+after_easter:2,,year lt 2021,C,,Supplemental Lectionary,gospel,John 20:19–31
+after_easter:4,,year lt 2021,C,,Supplemental Lectionary,ot,Ezekiel 34:25–31
+after_easter:4,,year lt 2021,C,,Supplemental Lectionary,psalm,Psalm 23
+after_easter:4,,year lt 2021,C,,Supplemental Lectionary,epistle,Revelation 7:9–17
+after_easter:4,,year lt 2021,C,,Supplemental Lectionary,gospel,John 10:22–30
+after_easter:5,,year lt 2021,C,,Supplemental Lectionary,ot,1 Samuel 20:12–17
+after_easter:5,,year lt 2021,C,,Supplemental Lectionary,psalm,Psalm 145
+after_easter:5,,year lt 2021,C,,Supplemental Lectionary,epistle,1 Corinthians 13:1–13
+after_easter:5,,year lt 2021,C,,Supplemental Lectionary,gospel,John 13:31–35
+after_easter:6,,year lt 2021,C,,Supplemental Lectionary,ot,2 Kings 6:15–17
+after_easter:6,,year lt 2021,C,,Supplemental Lectionary,psalm,Psalm 65
+after_easter:6,,year lt 2021,C,,Supplemental Lectionary,epistle,Revelation 3:14–22
+after_easter:6,,year lt 2021,C,,Supplemental Lectionary,gospel,John 14:23–29
+ascension,,year lt 2021,C,,Supplemental Lectionary,ot,Exodus 14:21–31
+ascension,,year lt 2021,C,,Supplemental Lectionary,psalm,Psalm 47
+ascension,,year lt 2021,C,,Supplemental Lectionary,epistle,Revelation 19:11–16
+ascension,,year lt 2021,C,,Supplemental Lectionary,gospel,Luke 24:44–53
+after_easter:7,,year lt 2021,C,,Supplemental Lectionary,ot,Acts 16:6–10
+after_easter:7,,year lt 2021,C,,Supplemental Lectionary,psalm,Psalm 14
+after_easter:7,,year lt 2021,C,,Supplemental Lectionary,epistle,Romans 15:14–20
+after_easter:7,,year lt 2021,C,,Supplemental Lectionary,gospel,John 17:20–26
+trinity,,year lt 2021,C,,Supplemental Lectionary,ot,Numbers 6:22–27
+trinity,,year lt 2021,C,,Supplemental Lectionary,psalm,Psalm 150
+trinity,,year lt 2021,C,,Supplemental Lectionary,epistle,1 John 5:5–12
+trinity,,year lt 2021,C,,Supplemental Lectionary,gospel,John 16:12–15
+after_pentecost:2,,year lt 2021,C,,Supplemental Lectionary,ot,"Joshua 5:13–6:5, 20"
+after_pentecost:2,,year lt 2021,C,,Supplemental Lectionary,psalm,Psalm 142
+after_pentecost:2,,year lt 2021,C,,Supplemental Lectionary,epistle,James 1:2–12
+after_pentecost:2,,year lt 2021,C,,Supplemental Lectionary,gospel,Luke 7:1–10
+after_pentecost:3,,year lt 2021,C,,Supplemental Lectionary,ot,1 Kings 17:17–24
+after_pentecost:3,,year lt 2021,C,,Supplemental Lectionary,psalm,Psalm 30
+after_pentecost:3,,year lt 2021,C,,Supplemental Lectionary,epistle,Philippians 1:18b–26
+after_pentecost:3,,year lt 2021,C,,Supplemental Lectionary,gospel,Luke 7:11–17
+after_pentecost:4,,year lt 2021,C,,Supplemental Lectionary,ot,"2 Chronicles 33:1–6, 10–18"
+after_pentecost:4,,year lt 2021,C,,Supplemental Lectionary,psalm,Psalm 40
+after_pentecost:4,,year lt 2021,C,,Supplemental Lectionary,epistle,1 Corinthians 6:9–11
+after_pentecost:4,,year lt 2021,C,,Supplemental Lectionary,gospel,Luke 7:36–50
+after_pentecost:5,,year lt 2021,C,,Supplemental Lectionary,ot,"Genesis 39:6b–12, 16–23"
+after_pentecost:5,,year lt 2021,C,,Supplemental Lectionary,psalm,Psalm 22
+after_pentecost:5,,year lt 2021,C,,Supplemental Lectionary,epistle,Hebrews 11:24–26
+after_pentecost:5,,year lt 2021,C,,Supplemental Lectionary,gospel,Luke 9:18–24
+after_pentecost:6,,year lt 2021,C,,Supplemental Lectionary,ot,Jonah 3:3–4:4
+after_pentecost:6,,year lt 2021,C,,Supplemental Lectionary,psalm,Psalm 62
+after_pentecost:6,,year lt 2021,C,,Supplemental Lectionary,epistle,2 Corinthians 11:21b–30
+after_pentecost:6,,year lt 2021,C,,Supplemental Lectionary,gospel,Luke 9:51–62
+after_pentecost:7,,year lt 2021,C,,Supplemental Lectionary,ot,1 Kings 17:1–16
+after_pentecost:7,,year lt 2021,C,,Supplemental Lectionary,psalm,Psalm 66
+after_pentecost:7,,year lt 2021,C,,Supplemental Lectionary,epistle,Philippians 4:10–20
+after_pentecost:7,,year lt 2021,C,,Supplemental Lectionary,gospel,"Luke 10:1–12, 16–20"
+after_pentecost:8,,year lt 2021,C,,Supplemental Lectionary,ot,Deuteronomy 24:17–22
+after_pentecost:8,,year lt 2021,C,,Supplemental Lectionary,psalm,Psalm 25
+after_pentecost:8,,year lt 2021,C,,Supplemental Lectionary,epistle,Romans 12:9–21
+after_pentecost:8,,year lt 2021,C,,Supplemental Lectionary,gospel,Luke 10:25–37
+after_pentecost:9,,year lt 2021,C,,Supplemental Lectionary,ot,1 Samuel 3:1–10
+after_pentecost:9,,year lt 2021,C,,Supplemental Lectionary,psalm,Psalm 122
+after_pentecost:9,,year lt 2021,C,,Supplemental Lectionary,epistle,Colossians 3:12–17
+after_pentecost:9,,year lt 2021,C,,Supplemental Lectionary,gospel,Luke 10:38–42
+after_pentecost:10,,year lt 2021,C,,Supplemental Lectionary,ot,Genesis 18:20–32
+after_pentecost:10,,year lt 2021,C,,Supplemental Lectionary,psalm,Psalm 6
+after_pentecost:10,,year lt 2021,C,,Supplemental Lectionary,epistle,James 5:13–18
+after_pentecost:10,,year lt 2021,C,,Supplemental Lectionary,gospel,Luke 11:1–13
+after_pentecost:11,,year lt 2021,C,,Supplemental Lectionary,ot,Ecclesiastes 1:2; 2:18–26
+after_pentecost:11,,year lt 2021,C,,Supplemental Lectionary,psalm,Psalm 34
+after_pentecost:11,,year lt 2021,C,,Supplemental Lectionary,epistle,James 5:1–11
+after_pentecost:11,,year lt 2021,C,,Supplemental Lectionary,gospel,Luke 12:13–21
+after_pentecost:12,,year lt 2021,C,,Supplemental Lectionary,ot,Haggai 1:2–14
+after_pentecost:12,,year lt 2021,C,,Supplemental Lectionary,psalm,Psalm 33
+after_pentecost:12,,year lt 2021,C,,Supplemental Lectionary,epistle,Revelation 3:1–6
+after_pentecost:12,,year lt 2021,C,,Supplemental Lectionary,gospel,Luke 12:32–40
+after_pentecost:13,,year lt 2021,C,,Supplemental Lectionary,ot,"2 Kings 11:1–3, 12–18"
+after_pentecost:13,,year lt 2021,C,,Supplemental Lectionary,psalm,Psalm 139a
+after_pentecost:13,,year lt 2021,C,,Supplemental Lectionary,epistle,Ephesians 6:10–20
+after_pentecost:13,,year lt 2021,C,,Supplemental Lectionary,gospel,Luke 12:49–53
+after_pentecost:14,,year lt 2021,C,,Supplemental Lectionary,ot,Judges 7:1–8
+after_pentecost:14,,year lt 2021,C,,Supplemental Lectionary,psalm,Psalm 72
+after_pentecost:14,,year lt 2021,C,,Supplemental Lectionary,epistle,Romans 9:1–9
+after_pentecost:14,,year lt 2021,C,,Supplemental Lectionary,gospel,Luke 13:22–30
+after_pentecost:15,,year lt 2021,C,,Supplemental Lectionary,ot,"Proverbs 25:6, 7"
+after_pentecost:15,,year lt 2021,C,,Supplemental Lectionary,psalm,Psalm 119a
+after_pentecost:15,,year lt 2021,C,,Supplemental Lectionary,epistle,James 2:1–13
+after_pentecost:15,,year lt 2021,C,,Supplemental Lectionary,gospel,"Luke 14:1, 7–14"
+after_pentecost:16,,year lt 2021,C,,Supplemental Lectionary,ot,Genesis 12:1–8
+after_pentecost:16,,year lt 2021,C,,Supplemental Lectionary,psalm,Psalm 19
+after_pentecost:16,,year lt 2021,C,,Supplemental Lectionary,epistle,Philippians 3:4b–11
+after_pentecost:16,,year lt 2021,C,,Supplemental Lectionary,gospel,Luke 14:25–33
+after_pentecost:17,,year lt 2021,C,,Supplemental Lectionary,ot,Hosea 3:1–5
+after_pentecost:17,,year lt 2021,C,,Supplemental Lectionary,psalm,Psalm 51a
+after_pentecost:17,,year lt 2021,C,,Supplemental Lectionary,epistle,2 Corinthians 2:5–11
+after_pentecost:17,,year lt 2021,C,,Supplemental Lectionary,gospel,Luke 15:1–10
+after_pentecost:18,,year lt 2021,C,,Supplemental Lectionary,ot,Genesis 14:8–24
+after_pentecost:18,,year lt 2021,C,,Supplemental Lectionary,psalm,Psalm 38
+after_pentecost:18,,year lt 2021,C,,Supplemental Lectionary,epistle,1 Timothy 6:6–16
+after_pentecost:18,,year lt 2021,C,,Supplemental Lectionary,gospel,Luke 16:1–13
+after_pentecost:19,,year lt 2021,C,,Supplemental Lectionary,ot,Ecclesiastes 5:8–20
+after_pentecost:19,,year lt 2021,C,,Supplemental Lectionary,psalm,Psalm 146
+after_pentecost:19,,year lt 2021,C,,Supplemental Lectionary,epistle,Revelation 2:8–11
+after_pentecost:19,,year lt 2021,C,,Supplemental Lectionary,gospel,Luke 16:19–31
+after_pentecost:20,,year lt 2021,C,,Supplemental Lectionary,ot,"1 Chronicles 29:1–2, 10–18"
+after_pentecost:20,,year lt 2021,C,,Supplemental Lectionary,psalm,Psalm 27
+after_pentecost:20,,year lt 2021,C,,Supplemental Lectionary,epistle,Romans 6:15–23
+after_pentecost:20,,year lt 2021,C,,Supplemental Lectionary,gospel,Luke 17:1–10
+after_pentecost:21,,year lt 2021,C,,Supplemental Lectionary,ot,1 Samuel 12:20–24
+after_pentecost:21,,year lt 2021,C,,Supplemental Lectionary,psalm,Psalm 111
+after_pentecost:21,,year lt 2021,C,,Supplemental Lectionary,epistle,2 Corinthians 1:8–11
+after_pentecost:21,,year lt 2021,C,,Supplemental Lectionary,gospel,Luke 17:11–19
+after_pentecost:22,,year lt 2021,C,,Supplemental Lectionary,ot,Genesis 32:22–30
+after_pentecost:22,,year lt 2021,C,,Supplemental Lectionary,psalm,Psalm 40
+after_pentecost:22,,year lt 2021,C,,Supplemental Lectionary,epistle,1 John 5:13–15
+after_pentecost:22,,year lt 2021,C,,Supplemental Lectionary,gospel,Luke 18:1–8a
+after_pentecost:23,,year lt 2021,C,,Supplemental Lectionary,ot,"Joshua 7:1, 19–26"
+after_pentecost:23,,year lt 2021,C,,Supplemental Lectionary,psalm,Psalm 119b
+after_pentecost:23,,year lt 2021,C,,Supplemental Lectionary,epistle,1 John 2:15–17
+after_pentecost:23,,year lt 2021,C,,Supplemental Lectionary,gospel,Luke 18:18–27
+after_pentecost:24,,year lt 2021,C,,Supplemental Lectionary,ot,Micah 7:18–20
+after_pentecost:24,,year lt 2021,C,,Supplemental Lectionary,psalm,Psalm 145
+after_pentecost:24,,year lt 2021,C,,Supplemental Lectionary,epistle,Romans 5:6–11
+after_pentecost:24,,year lt 2021,C,,Supplemental Lectionary,gospel,Luke 19:1–10
+last_judgment,,year lt 2021,C,,Supplemental Lectionary,ot,Ezekiel 9:1–11
+last_judgment,,year lt 2021,C,,Supplemental Lectionary,psalm,Psalm 90
+last_judgment,,year lt 2021,C,,Supplemental Lectionary,epistle,2 Thessalonians 1:5–10
+last_judgment,,year lt 2021,C,,Supplemental Lectionary,gospel,Luke 19:11–27
+saints_triumphant,,year lt 2021,C,,Supplemental Lectionary,ot,Isaiah 65:17–25
+saints_triumphant,,year lt 2021,C,,Supplemental Lectionary,psalm,Psalm 150
+saints_triumphant,,year lt 2021,C,,Supplemental Lectionary,epistle,Revelation 22:1–5
+saints_triumphant,,year lt 2021,C,,Supplemental Lectionary,gospel,Luke 20:27–38
+christ_the_king,,year lt 2021,C,,Supplemental Lectionary,ot,Genesis 49:8–12
+christ_the_king,,year lt 2021,C,,Supplemental Lectionary,psalm,Psalm 98
+christ_the_king,,year lt 2021,C,,Supplemental Lectionary,epistle,Colossians 1:13–20
+christ_the_king,,year lt 2021,C,,Supplemental Lectionary,gospel,Luke 23:35–43

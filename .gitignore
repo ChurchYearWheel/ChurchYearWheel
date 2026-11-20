@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+# Listings made on demand (colors.py -o ., lectionary.py -o ., feasts.py -o .)
+church_year_*_colors.*
+# Pictures kept for private use only: church logos, and one whose license asks
+# for credit.  The folder's README, which says why, is published.
+artwork/church-emblems/*
+!artwork/church-emblems/README.md
+# Built from the rest, and rebuilt when out of date: the web page (GitHub
+# Pages builds it: .github/workflows/pages.yml), its frozen tables, and the
+# workflow's output folder
+church_year.html
+web/data.json
+_site/

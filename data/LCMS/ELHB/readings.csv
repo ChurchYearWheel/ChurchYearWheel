@@ -1,0 +1,1157 @@
+day,offset,when,cycle,variant,title,kind,reading
+# ===========================================================================
+# The readings of the Evangelical Lutheran Hymn-Book (1912; read in the 1909
+"# printing, https://archive.org/details/evangelicalluthe09evan): its tables of"
+"# Epistles and Gospels, of Old Testament lessons (one from the Historical and one"
+"# from the Poetical Books), of New Testament lessons (one from the Gospels and one"
+# from the Epistles) and its Table of Lessons for Morning and Evening.
+# Columns: see docs/data-files.md.  Misprints corrected (checked against the
+"#   print by the project's owner): Lent 1, Historical Books, printed ""i. 3-22""",
+"#   is Exodus 1:8-22; Easter Monday, Poetical Books, Ezekiel 37:1-14; St. John"
+#   the Baptist and the Visitation have Isaiah 40:1-5 and 11:1-5 (xl and xi
+"#   transposed in print); Friday after Trinity 7, evening, 2 Samuel 16:5-23"
+"#   (printed ""xvi. 5-35""); Thursday after Trinity 9, morning, 2 Corinthians"
+"#   11:1-18 (printed ""ix. 1-18"").  Uncertain: Friday after Lent 5, evening",
+#   Isaiah 66:1-9.
+# The book's rubric for the Morning and Evening table: the lessons for days
+# between the Fourth Sunday in Advent and the First after the Epiphany that do
+# not occur are left out; from the Twentieth Sunday after Trinity to the end of
+"# the year all the lessons are read, earlier weeks being left out as needed --"
+# so those last eight weeks are counted back from Advent here.  (When there are
+# fewer than six Sundays after the Epiphany the book moves the weeks about;
+# here they simply follow the Sundays' numbers.)
+# ===========================================================================
+advent:1,,,,,,ot,Genesis 3:1–15
+advent:1,,,,,,ot2,Psalm 40
+advent:1,,,,,,epistle,Romans 13:11–14
+advent:1,,,,,,gospel,Matthew 21:1–9
+advent:1,,,,,,nt_gospel,Luke 1:1–25
+advent:1,,,,,,nt_epistle,Colossians 1:16–23
+advent:2,,,,,,ot,Jeremiah 31:31–36
+advent:2,,,,,,ot2,Proverbs 8:22–31
+advent:2,,,,,,epistle,Romans 15:4–13
+advent:2,,,,,,gospel,Luke 21:25–36
+advent:2,,,,,,nt_gospel,Luke 1:26–35
+advent:2,,,,,,nt_epistle,Romans 1:16–25
+advent:3,,,,,,ot,Isaiah 55:3–13
+advent:3,,,,,,ot2,Isaiah 40:1–9
+advent:3,,,,,,epistle,1 Corinthians 4:1–5
+advent:3,,,,,,gospel,Matthew 11:2–10
+advent:3,,,,,,nt_gospel,Luke 1:39–56
+advent:3,,,,,,nt_epistle,Romans 2:1–12
+advent:4,,,,,,ot,Psalm 100
+advent:4,,,,,,ot2,Psalm 24
+advent:4,,,,,,epistle,Philippians 4:4–7
+advent:4,,,,,,gospel,John 1:19–28
+advent:4,,,,,,nt_gospel,Luke 1:67–80
+advent:4,,,,,,nt_epistle,Hebrews 12:15–25
+christmas,,,,,,ot,Isaiah 9:2–7
+christmas,,,,,,ot2,Micah 5:2–4
+christmas,,,,,,epistle,Titus 2:11–14 or Isaiah 9:2–7
+christmas,,,,,,gospel,Luke 2:1–14
+christmas,,,,,,nt_gospel,John 1:1–14
+christmas,,,,,,nt_epistle,Hebrews 1:1–12
+christmas_2,,,,,,ot,Isaiah 11:1–5
+christmas_2,,,,,,ot2,Psalm 148
+christmas_2,,,,,,epistle,Titus 3:4–7
+christmas_2,,,,,,gospel,Luke 2:15–20
+christmas_2,,,,,,nt_gospel,John 1:15–18
+christmas_2,,,,,,nt_epistle,1 John 4:7–16
+after_christmas,,,,,,ot,Isaiah 12:1–6
+after_christmas,,,,,,ot2,Psalm 2
+after_christmas,,,,,,epistle,Galatians 4:1–7
+after_christmas,,,,,,gospel,Luke 2:33–40
+after_christmas,,,,,,nt_gospel,Luke 2:22–32
+after_christmas,,,,,,nt_epistle,Hebrews 3:1–6
+new_years_eve,,,,,,ot,Psalm 90
+new_years_eve,,,,,,ot2,Psalm 139
+new_years_eve,,,,,,nt_gospel,Matthew 16:1–12
+new_years_eve,,,,,,nt_epistle,1 Peter 1:22–25
+new_year,,,,,,ot,Psalm 121
+new_year,,,,,,ot2,Isaiah 40:26–31
+new_year,,,,,,epistle,Galatians 3:23–29
+new_year,,,,,,gospel,Luke 2:21
+new_year,,,,,,nt_gospel,Luke 4:16–21
+new_year,,,,,,nt_epistle,1 Peter 2:1–10
+after_new_year,,,,,,ot,Genesis 11:1–9
+after_new_year,,,,,,ot2,1 Samuel 2:1–10
+after_new_year,,,,,,epistle,1 Peter 4:12–19
+after_new_year,,,,,,gospel,Matthew 2:13–23
+after_new_year,,,,,,nt_gospel,Matthew 3:1–12
+after_new_year,,,,,,nt_epistle,Romans 7:7–25
+epiphany,,,,,,ot,Genesis 12:1–4; 13:5–11
+epiphany,,,,,,ot2,Isaiah 2:1–5
+epiphany,,,,,,epistle,Isaiah 60:1–6
+epiphany,,,,,,gospel,Matthew 2:1–12
+epiphany,,,,,,nt_gospel,Matthew 3:13–17
+epiphany,,,,,,nt_epistle,Romans 3:23–31
+after_epiphany:1,,,,,,ot,Genesis 14:8–20
+after_epiphany:1,,,,,,ot2,Deuteronomy 18:15–19
+after_epiphany:1,,,,,,epistle,Romans 12:1–5
+after_epiphany:1,,,,,,gospel,Luke 2:41–52
+after_epiphany:1,,,,,,nt_gospel,John 1:35–51
+after_epiphany:1,,,,,,nt_epistle,Ephesians 2:11–22
+after_epiphany:2,,,,,,ot,Genesis 15:1–17
+after_epiphany:2,,,,,,ot2,Isaiah 61:1–6
+after_epiphany:2,,,,,,epistle,Romans 12:6–16a
+after_epiphany:2,,,,,,gospel,John 2:1–11
+after_epiphany:2,,,,,,nt_gospel,John 3:22–36
+after_epiphany:2,,,,,,nt_epistle,Romans 4:16–25
+after_epiphany:3,,,,,,ot,Genesis 18:20–33
+after_epiphany:3,,,,,,ot2,Amos 3:1–8
+after_epiphany:3,,,,,,epistle,Romans 12:16b–21
+after_epiphany:3,,,,,,gospel,Matthew 8:1–13
+after_epiphany:3,,,,,,nt_gospel,Matthew 4:12–17
+after_epiphany:3,,,,,,nt_epistle,Romans 5:1–5
+after_epiphany:4,,,,,,ot,Genesis 22:1–9
+after_epiphany:4,,,,,,ot2,Micah 6:1–8
+after_epiphany:4,,,,,,epistle,Romans 13:8–10
+after_epiphany:4,,,,,,gospel,Matthew 8:23–27
+after_epiphany:4,,,,,,nt_gospel,John 4:4–24
+after_epiphany:4,,,,,,nt_epistle,Romans 8:1–11
+after_epiphany:5,,,,,,ot,Genesis 24:34–51
+after_epiphany:5,,,,,,ot2,Micah 7:14–20
+after_epiphany:5,,,,,,epistle,Colossians 3:12–17
+after_epiphany:5,,,,,,gospel,Matthew 13:24–30
+after_epiphany:5,,,,,,nt_gospel,John 4:25–42
+after_epiphany:5,,,,,,nt_epistle,1 Corinthians 2:1–10
+after_epiphany:6,,,,,,ot,Genesis 28:10–22
+after_epiphany:6,,,,,,ot2,Haggai 2:1–9
+after_epiphany:6,,,,,,epistle,2 Peter 1:16–21
+after_epiphany:6,,,,,,gospel,Matthew 17:1–9
+after_epiphany:6,,,,,,nt_gospel,Matthew 11:25–30
+after_epiphany:6,,,,,,nt_epistle,James 3:13–18
+septuagesima,,,,,,ot,Genesis 41:28–43
+septuagesima,,,,,,ot2,Malachi 2:4–10
+septuagesima,,,,,,epistle,1 Corinthians 9:24–10:5
+septuagesima,,,,,,gospel,Matthew 20:1–16
+septuagesima,,,,,,nt_gospel,Matthew 16:13–20
+septuagesima,,,,,,nt_epistle,2 Corinthians 8:1–9
+sexagesima,,,,,,ot,Genesis 49:1–33
+sexagesima,,,,,,ot2,Amos 8:1–14
+sexagesima,,,,,,epistle,2 Corinthians 11:19–12:9
+sexagesima,,,,,,gospel,Luke 8:4–15
+sexagesima,,,,,,nt_gospel,Matthew 17:1–9
+sexagesima,,,,,,nt_epistle,Romans 14:13–19
+quinquagesima,,,,,,ot,Genesis 50:15–22
+quinquagesima,,,,,,ot2,Habakkuk 2:1–14
+quinquagesima,,,,,,epistle,1 Corinthians 13:1–13
+quinquagesima,,,,,,gospel,Luke 18:31–43
+quinquagesima,,,,,,nt_gospel,John 8:12–20
+quinquagesima,,,,,,nt_epistle,Romans 10:8–18
+ash_wednesday,,,,,,epistle,Joel 2:12–19
+ash_wednesday,,,,,,gospel,Matthew 6:16–21
+lent:1,,,,,,ot,Exodus 1:8–22
+lent:1,,,,,,ot2,Isaiah 1:4–10
+lent:1,,,,,,epistle,2 Corinthians 6:1–10
+lent:1,,,,,,gospel,Matthew 4:1–11
+lent:1,,,,,,nt_gospel,John 8:23–40
+lent:1,,,,,,nt_epistle,Hebrews 12:1–6
+lent:2,,,,,,ot,Exodus 2:1–10
+lent:2,,,,,,ot2,Psalm 51
+lent:2,,,,,,epistle,1 Thessalonians 4:1–7
+lent:2,,,,,,gospel,Matthew 15:21–28
+lent:2,,,,,,nt_gospel,John 9:1–22
+lent:2,,,,,,nt_epistle,Romans 8:28–39
+lent:3,,,,,,ot,Exodus 2:11–15
+lent:3,,,,,,ot2,Psalm 22
+lent:3,,,,,,epistle,Ephesians 5:1–9
+lent:3,,,,,,gospel,Luke 11:14–28
+lent:3,,,,,,nt_gospel,John 10:23–38
+lent:3,,,,,,nt_epistle,2 Corinthians 4:7–14
+lent:4,,,,,,ot,Exodus 3:1–14
+lent:4,,,,,,ot2,Isaiah 64:1–12
+lent:4,,,,,,epistle,Galatians 4:21–31
+lent:4,,,,,,gospel,John 6:1–15
+lent:4,,,,,,nt_gospel,John 11:1–27
+lent:4,,,,,,nt_epistle,2 Corinthians 5:14–21
+lent:5,,,,,,ot,Exodus 5:1–21
+lent:5,,,,,,ot2,Job 33:13–30
+lent:5,,,,,,epistle,Hebrews 9:11–15
+lent:5,,,,,,gospel,John 8:46–59
+lent:5,,,,,,nt_gospel,John 11:28–57
+lent:5,,,,,,nt_epistle,1 Peter 1:13–21
+palm_sunday,,,,,,ot,Exodus 5:22–6:9
+palm_sunday,,,,,,ot2,Zechariah 9:8–12
+palm_sunday,,,,,,epistle,Philippians 2:5–11
+palm_sunday,,,,,,gospel,Matthew 21:1–9
+palm_sunday,,,,,,nt_gospel,John 12:1–19
+palm_sunday,,,,,,nt_epistle,Hebrews 10:19–27
+holy_monday,,,,,,epistle,Isaiah 50:5–10
+holy_monday,,,,,,gospel,John 12:1–23
+holy_tuesday,,,,,,epistle,Jeremiah 11:18–20
+holy_tuesday,,,,,,gospel,John 12:24–43
+holy_wednesday,,,,,,epistle,Isaiah 62:11–63:7
+holy_wednesday,,,,,,gospel,Luke 22:1–23:42
+maundy_thursday,,,,,,ot,Psalm 23
+maundy_thursday,,,,,,ot2,Psalm 25
+maundy_thursday,,,,,,epistle,1 Corinthians 11:21–32
+maundy_thursday,,,,,,gospel,John 13:1–15
+maundy_thursday,,,,,,nt_gospel,Luke 22:7–23
+maundy_thursday,,,,,,nt_epistle,1 Corinthians 10:16–22
+good_friday,,,,,,ot,Exodus 12:1–14
+good_friday,,,,,,ot2,Isaiah 52:13–53:12
+good_friday,,,,,,epistle,Isaiah 52:13–53:12
+good_friday,,,,,,gospel,John 18:1–19:42
+good_friday,,,,,,nt_gospel,Matthew 27:33–54
+good_friday,,,,,,nt_epistle,Revelation 5:1–14
+easter,,,,,,ot,Job 19:22–27
+easter,,,,,,ot2,Isaiah 25:1–8
+easter,,,,,,epistle,1 Corinthians 5:6–8
+easter,,,,,,gospel,Mark 16:1–8
+easter,,,,,,nt_gospel,Matthew 28:1–10
+easter,,,,,,nt_epistle,1 Corinthians 15:12–28
+easter_monday,,,,,,ot,Psalm 118:14–29
+easter_monday,,,,,,ot2,Ezekiel 37:1–14
+easter_monday,,,,,,epistle,Acts 10:34–41
+easter_monday,,,,,,gospel,Luke 24:13–35
+easter_monday,,,,,,nt_gospel,John 20:11–18
+easter_monday,,,,,,nt_epistle,1 Corinthians 15:35–49
+after_easter:1,,,,,,ot,Exodus 15:1–21
+after_easter:1,,,,,,ot2,Isaiah 4:2–6
+after_easter:1,,,,,,epistle,1 John 5:4–12
+after_easter:1,,,,,,gospel,John 20:19–31
+after_easter:1,,,,,,nt_gospel,Luke 24:36–47
+after_easter:1,,,,,,nt_epistle,1 Corinthians 15:50–58
+after_easter:2,,,,,,ot,Exodus 15:22–26
+after_easter:2,,,,,,ot2,Ezekiel 34:11–16
+after_easter:2,,,,,,epistle,1 Peter 2:21–25
+after_easter:2,,,,,,gospel,John 10:11–16
+after_easter:2,,,,,,nt_gospel,John 21:1–19
+after_easter:2,,,,,,nt_epistle,1 John 1:1–7
+after_easter:3,,,,,,ot,Exodus 16:1–15
+after_easter:3,,,,,,ot2,Hosea 2:18–23
+after_easter:3,,,,,,epistle,1 Peter 2:11–20
+after_easter:3,,,,,,gospel,John 16:16–23a
+after_easter:3,,,,,,nt_gospel,John 17:1–8
+after_easter:3,,,,,,nt_epistle,1 John 2:12–17
+after_easter:4,,,,,,ot,Exodus 17:1–16
+after_easter:4,,,,,,ot2,Isaiah 49:8–15
+after_easter:4,,,,,,epistle,James 1:16–21
+after_easter:4,,,,,,gospel,John 16:5–15
+after_easter:4,,,,,,nt_gospel,John 17:9–19
+after_easter:4,,,,,,nt_epistle,1 John 3:1–11
+after_easter:5,,,,,,ot,Psalm 116
+after_easter:5,,,,,,ot2,Psalm 86
+after_easter:5,,,,,,epistle,James 1:22–27
+after_easter:5,,,,,,gospel,John 16:23b–30
+after_easter:5,,,,,,nt_gospel,John 17:20–26
+after_easter:5,,,,,,nt_epistle,1 John 5:12–21
+ascension,,,,,,ot,Genesis 5:21–24
+ascension,,,,,,ot2,Psalm 110
+ascension,,,,,,epistle,Acts 1:1–11
+ascension,,,,,,gospel,Mark 16:14–20
+ascension,,,,,,nt_gospel,Luke 24:44–53
+ascension,,,,,,nt_epistle,Ephesians 4:7–16
+exaudi,,,,,,ot,Exodus 19:3–8
+exaudi,,,,,,ot2,Isaiah 32:14–20
+exaudi,,,,,,epistle,1 Peter 4:7–11
+exaudi,,,,,,gospel,John 15:26–16:4
+exaudi,,,,,,nt_gospel,John 14:1–14
+exaudi,,,,,,nt_epistle,Acts 1:12–26
+pentecost,,,,,,ot,Joel 2:21–27
+pentecost,,,,,,ot2,Joel 2:28–32
+pentecost,,,,,,epistle,Acts 2:1–13
+pentecost,,,,,,gospel,John 14:23–31
+pentecost,,,,,,nt_gospel,John 14:15–21
+pentecost,,,,,,nt_epistle,Acts 2:14–21
+whit_monday,,,,,,ot,Psalm 122
+whit_monday,,,,,,ot2,Ezekiel 36:25–28
+whit_monday,,,,,,epistle,Acts 10:42–48
+whit_monday,,,,,,gospel,John 3:16–21
+whit_monday,,,,,,nt_gospel,John 15:1–8
+whit_monday,,,,,,nt_epistle,Romans 10:11–17
+trinity,,,,,,ot,Numbers 6:22–27
+trinity,,,,,,ot2,Isaiah 6:1–8
+trinity,,,,,,epistle,Romans 11:33–36
+trinity,,,,,,gospel,John 3:1–15
+trinity,,,,,,nt_gospel,Matthew 28:18–20
+trinity,,,,,,nt_epistle,Ephesians 1:3–14
+after_trinity:1,,,,,,ot,Exodus 34:1–10
+after_trinity:1,,,,,,ot2,Psalm 62
+after_trinity:1,,,,,,epistle,1 John 4:16b–21
+after_trinity:1,,,,,,gospel,Luke 16:19–31
+after_trinity:1,,,,,,nt_gospel,Matthew 5:1–12
+after_trinity:1,,,,,,nt_epistle,Acts 2:42–47
+after_trinity:2,,,,,,ot,Numbers 21:4–9
+after_trinity:2,,,,,,ot2,Job 36:26–37:13
+after_trinity:2,,,,,,epistle,1 John 3:13–18
+after_trinity:2,,,,,,gospel,Luke 14:16–24
+after_trinity:2,,,,,,nt_gospel,Matthew 5:13–19
+after_trinity:2,,,,,,nt_epistle,Acts 3:1–10
+after_trinity:3,,,,,,ot,Numbers 23:7–12
+after_trinity:3,,,,,,ot2,Ezekiel 18:20–24
+after_trinity:3,,,,,,epistle,1 Peter 5:6–11
+after_trinity:3,,,,,,gospel,Luke 15:1–10
+after_trinity:3,,,,,,nt_gospel,Matthew 5:27–42
+after_trinity:3,,,,,,nt_epistle,Acts 3:11–26
+after_trinity:4,,,,,,ot,Joshua 24:14–28
+after_trinity:4,,,,,,ot2,Psalm 103
+after_trinity:4,,,,,,epistle,Romans 8:18–23
+after_trinity:4,,,,,,gospel,Luke 6:36–42
+after_trinity:4,,,,,,nt_gospel,Matthew 5:43–48
+after_trinity:4,,,,,,nt_epistle,Acts 4:1–22
+after_trinity:5,,,,,,ot,Judges 2:1–12
+after_trinity:5,,,,,,ot2,Lamentations 3:22–40
+after_trinity:5,,,,,,epistle,1 Peter 3:8–15a
+after_trinity:5,,,,,,gospel,Luke 5:1–11
+after_trinity:5,,,,,,nt_gospel,Matthew 6:1–15
+after_trinity:5,,,,,,nt_epistle,Acts 4:23–31
+after_trinity:6,,,,,,ot,Ruth 1:1–17
+after_trinity:6,,,,,,ot2,Psalm 91
+after_trinity:6,,,,,,epistle,Romans 6:3–11
+after_trinity:6,,,,,,gospel,Matthew 5:20–26
+after_trinity:6,,,,,,nt_gospel,Matthew 6:16–23
+after_trinity:6,,,,,,nt_epistle,Acts 4:32–5:11
+after_trinity:7,,,,,,ot,1 Samuel 3:1–18
+after_trinity:7,,,,,,ot2,Ecclesiastes 3:1–17
+after_trinity:7,,,,,,epistle,Romans 6:19–23
+after_trinity:7,,,,,,gospel,Mark 8:1–9
+after_trinity:7,,,,,,nt_gospel,Matthew 7:1–14
+after_trinity:7,,,,,,nt_epistle,Acts 5:12–42
+after_trinity:8,,,,,,ot,1 Samuel 10:17–27
+after_trinity:8,,,,,,ot2,Psalm 119:105–112
+after_trinity:8,,,,,,epistle,Romans 8:12–17
+after_trinity:8,,,,,,gospel,Matthew 7:15–23
+after_trinity:8,,,,,,nt_gospel,Matthew 7:24–29
+after_trinity:8,,,,,,nt_epistle,Acts 6:1–7
+after_trinity:9,,,,,,ot,1 Samuel 15:16–23
+after_trinity:9,,,,,,ot2,Psalm 53
+after_trinity:9,,,,,,epistle,1 Corinthians 10:6–13
+after_trinity:9,,,,,,gospel,Luke 16:1–9
+after_trinity:9,,,,,,nt_gospel,John 5:19–29
+after_trinity:9,,,,,,nt_epistle,Acts 7:51–60
+after_trinity:10,,,,,,ot,1 Samuel 24:2–22
+after_trinity:10,,,,,,ot2,Jeremiah 8:4–9
+after_trinity:10,,,,,,epistle,1 Corinthians 12:1–11
+after_trinity:10,,,,,,gospel,Luke 19:41–48
+after_trinity:10,,,,,,nt_gospel,John 5:30–36
+after_trinity:10,,,,,,nt_epistle,Acts 8:9–25
+after_trinity:11,,,,,,ot,2 Samuel 7:1–16
+after_trinity:11,,,,,,ot2,Ezekiel 13:9–16
+after_trinity:11,,,,,,epistle,1 Corinthians 15:1–10
+after_trinity:11,,,,,,gospel,Luke 18:9–14
+after_trinity:11,,,,,,nt_gospel,John 5:37–47
+after_trinity:11,,,,,,nt_epistle,Acts 8:26–39
+after_trinity:12,,,,,,ot,2 Samuel 7:17–29
+after_trinity:12,,,,,,ot2,Proverbs 9:1–18
+after_trinity:12,,,,,,epistle,2 Corinthians 3:4–11
+after_trinity:12,,,,,,gospel,Mark 7:31–37
+after_trinity:12,,,,,,nt_gospel,John 6:30–51
+after_trinity:12,,,,,,nt_epistle,Acts 9:1–22
+after_trinity:13,,,,,,ot,2 Samuel 12:1–10
+after_trinity:13,,,,,,ot2,Job 38:1–11
+after_trinity:13,,,,,,epistle,Galatians 3:15–22
+after_trinity:13,,,,,,gospel,Luke 10:23–37
+after_trinity:13,,,,,,nt_gospel,Mark 4:26–34
+after_trinity:13,,,,,,nt_epistle,Acts 10:21–11:13
+after_trinity:14,,,,,,ot,2 Samuel 13:1–7
+after_trinity:14,,,,,,ot2,Proverbs 3:1–16
+after_trinity:14,,,,,,epistle,Galatians 5:16–24
+after_trinity:14,,,,,,gospel,Luke 17:11–19
+after_trinity:14,,,,,,nt_gospel,Luke 12:32–38
+after_trinity:14,,,,,,nt_epistle,Acts 14:1–20
+after_trinity:15,,,,,,ot,1 Kings 3:5–15
+after_trinity:15,,,,,,ot2,Deuteronomy 6:4–13
+after_trinity:15,,,,,,epistle,Galatians 5:25–6:10
+after_trinity:15,,,,,,gospel,Matthew 6:24–34
+after_trinity:15,,,,,,nt_gospel,Luke 13:1–9
+after_trinity:15,,,,,,nt_epistle,Acts 16:13–40
+after_trinity:16,,,,,,ot,2 Chronicles 7:12–22
+after_trinity:16,,,,,,ot2,Jeremiah 17:5–10
+after_trinity:16,,,,,,epistle,Ephesians 3:13–21
+after_trinity:16,,,,,,gospel,Luke 7:11–17
+after_trinity:16,,,,,,nt_gospel,Matthew 13:44–52
+after_trinity:16,,,,,,nt_epistle,Acts 17:15–34
+after_trinity:17,,,,,,ot,2 Chronicles 13:3–18
+after_trinity:17,,,,,,ot2,Leviticus 19:9–18
+after_trinity:17,,,,,,epistle,Ephesians 4:1–6
+after_trinity:17,,,,,,gospel,Luke 14:1–11
+after_trinity:17,,,,,,nt_gospel,Luke 15:11–32
+after_trinity:17,,,,,,nt_epistle,Acts 18:1–11
+after_trinity:18,,,,,,ot,1 Kings 18:21–40
+after_trinity:18,,,,,,ot2,Deuteronomy 21:18–21
+after_trinity:18,,,,,,epistle,1 Corinthians 1:4–9
+after_trinity:18,,,,,,gospel,Matthew 22:34–46
+after_trinity:18,,,,,,nt_gospel,Mark 10:1–12
+after_trinity:18,,,,,,nt_epistle,Acts 19:1–11
+after_trinity:19,,,,,,ot,1 Kings 19:4–18
+after_trinity:19,,,,,,ot2,Deuteronomy 24:17–22
+after_trinity:19,,,,,,epistle,Ephesians 4:22–28
+after_trinity:19,,,,,,gospel,Matthew 9:1–8
+after_trinity:19,,,,,,nt_gospel,Matthew 15:1–11
+after_trinity:19,,,,,,nt_epistle,Acts 20:17–38
+after_trinity:20,,,,,,ot,2 Kings 5:1–14
+after_trinity:20,,,,,,ot2,Proverbs 6:6–11
+after_trinity:20,,,,,,epistle,Ephesians 5:15–21
+after_trinity:20,,,,,,gospel,Matthew 22:1–14
+after_trinity:20,,,,,,nt_gospel,Matthew 20:16–26
+after_trinity:20,,,,,,nt_epistle,Acts 24:10–27
+after_trinity:21,,,,,,ot,Jonah 3:1–4:11
+after_trinity:21,,,,,,ot2,Proverbs 23:19–35
+after_trinity:21,,,,,,epistle,Ephesians 6:10–17
+after_trinity:21,,,,,,gospel,John 4:46b–54
+after_trinity:21,,,,,,nt_gospel,Matthew 21:33–44
+after_trinity:21,,,,,,nt_epistle,Acts 26:1–29
+after_trinity:22,,,,,,ot,2 Chronicles 32:1–21
+after_trinity:22,,,,,,ot2,Proverbs 24:13–22
+after_trinity:22,,,,,,epistle,Philippians 1:3–11
+after_trinity:22,,,,,,gospel,Matthew 18:23–35
+after_trinity:22,,,,,,nt_gospel,John 15:18–25
+after_trinity:22,,,,,,nt_epistle,Acts 28:1–31
+after_trinity:23,,,,,,ot,2 Chronicles 34:14–28
+after_trinity:23,,,,,,ot2,Ecclesiastes 11:9–12:14
+after_trinity:23,,,,,,epistle,Philippians 3:17–21
+after_trinity:23,,,,,,gospel,Matthew 22:15–22
+after_trinity:23,,,,,,nt_gospel,Mark 12:18–27
+after_trinity:23,,,,,,nt_epistle,Revelation 2:1–11
+after_trinity:24,,,,,,ot,2 Chronicles 36:11–21
+after_trinity:24,,,,,,ot2,Proverbs 30:1–14
+after_trinity:24,,,,,,epistle,Colossians 1:9–14
+after_trinity:24,,,,,,gospel,Matthew 9:18–26
+after_trinity:24,,,,,,nt_gospel,Mark 13:1–13
+after_trinity:24,,,,,,nt_epistle,Revelation 3:1–22
+after_trinity:25,,,,,,ot,Daniel 2:31–48
+after_trinity:25,,,,,,ot2,Malachi 3:13–4:6
+after_trinity:25,,,,,,epistle,1 Thessalonians 4:13–18
+after_trinity:25,,,,,,gospel,Matthew 24:15–28
+after_trinity:25,,,,,,nt_gospel,Luke 17:20–37
+after_trinity:25,,,,,,nt_epistle,Revelation 7:9–17
+after_trinity:26,,,,,,ot,Ezra 3:10–13
+after_trinity:26,,,,,,ot2,Deuteronomy 32:21–43
+after_trinity:26,,,,,,epistle,2 Peter 3:3–14 or 2 Thessalonians 1:3–10
+after_trinity:26,,,,,,gospel,Matthew 25:31–46
+after_trinity:26,,,,,,nt_gospel,Matthew 25:14–30
+after_trinity:26,,,,,,nt_epistle,Revelation 20:11–15
+after_trinity:27,,,,,,ot,Malachi 3:1–5
+after_trinity:27,,,,,,ot2,Psalm 92
+after_trinity:27,,,,,,epistle,1 Thessalonians 5:1–11
+after_trinity:27,,,,,,gospel,Matthew 25:1–13
+after_trinity:27,,,,,,nt_gospel,Luke 13:23–30
+after_trinity:27,,,,,,nt_epistle,Revelation 22:6–21
+10-31,,,,,The Festival of the Reformation,ot,2 Chronicles 34:29–33
+10-31,,,,,The Festival of the Reformation,ot2,Psalm 46
+10-31,,,,,The Festival of the Reformation,nt_gospel,John 2:13–17
+10-31,,,,,The Festival of the Reformation,nt_epistle,Galatians 2:16–21
+thu#4:11,,,,,Thanksgiving Day,ot,Psalm 95:1–8
+thu#4:11,,,,,Thanksgiving Day,ot2,Psalm 68
+thu#4:11,,,,,Thanksgiving Day,nt_gospel,Psalm 146
+thu#4:11,,,,,Thanksgiving Day,nt_epistle,Psalm 145
+11-30,,,,,St. Andrew,epistle,Romans 10:10–18
+11-30,,,,,St. Andrew,gospel,Matthew 4:18–22
+12-21,,,,,St. Thomas,epistle,Ephesians 1:3–6
+12-21,,,,,St. Thomas,gospel,John 20:24–31
+12-26,,,,,St. Stephen,epistle,Acts 6:8–7:60
+12-26,,,,,St. Stephen,gospel,Matthew 23:34–39
+12-27,,,,,St. John,epistle,1 John 1:1–10
+12-27,,,,,St. John,gospel,John 21:19–24
+01-25,,,,,The Conversion of St. Paul,epistle,Acts 9:1–22
+01-25,,,,,The Conversion of St. Paul,gospel,Matthew 19:27–30
+02-02,,,,,The Presentation of Christ,epistle,Malachi 3:1–4
+02-02,,,,,The Presentation of Christ,gospel,Luke 2:22–32
+02-24,,,,,St. Matthias,epistle,Acts 1:15–26
+02-24,,,,,St. Matthias,gospel,Matthew 11:25–30
+03-25,,,,,The Annunciation,epistle,Isaiah 7:10–16
+03-25,,,,,The Annunciation,gospel,Luke 1:26–38
+05-01,,,,,St. Philip and St. James,epistle,Ephesians 2:19–22
+05-01,,,,,St. Philip and St. James,gospel,John 14:1–14
+06-24,,,,,The Birthday of St. John the Baptist,epistle,Isaiah 40:1–5
+06-24,,,,,The Birthday of St. John the Baptist,gospel,Luke 1:57–80
+06-29,,,,,St. Peter and St. Paul,epistle,Acts 12:1–11
+06-29,,,,,St. Peter and St. Paul,gospel,Matthew 16:13–20
+07-02,,,,,The Visitation,epistle,Isaiah 11:1–5
+07-02,,,,,The Visitation,gospel,Luke 1:39–56
+07-25,,,,,St. James the Elder,epistle,Romans 8:28–39
+07-25,,,,,St. James the Elder,gospel,Matthew 20:20–23
+08-24,,,,,St. Bartholomew,epistle,2 Corinthians 4:7–10
+08-24,,,,,St. Bartholomew,gospel,Luke 22:24–30
+09-21,,,,,St. Matthew,epistle,Ephesians 4:7–14
+09-21,,,,,St. Matthew,gospel,Matthew 9:9–13
+09-29,,,,,St. Michael the Archangel,epistle,Revelation 12:7–12
+09-29,,,,,St. Michael the Archangel,gospel,Matthew 18:1–11
+10-28,,,,,St. Simon and St. Jude,epistle,1 Peter 1:3–9
+10-28,,,,,St. Simon and St. Jude,gospel,John 15:17–21
+advent:1,1,,,,Morning and Evening Lessons,morning,Matthew 11:25–30
+advent:1,1,,,,Morning and Evening Lessons,evening,Genesis 3:1–24
+advent:1,2,,,,Morning and Evening Lessons,morning,Acts 3:22–26
+advent:1,2,,,,Morning and Evening Lessons,evening,Genesis 9:1–19
+advent:1,3,,,,Morning and Evening Lessons,morning,Colossians 1:15–29
+advent:1,3,,,,Morning and Evening Lessons,evening,Genesis 22:1–19
+advent:1,4,,,,Morning and Evening Lessons,morning,Hebrews 1:1–4
+advent:1,4,,,,Morning and Evening Lessons,evening,Genesis 49:1–28
+advent:1,5,,,,Morning and Evening Lessons,morning,Hebrews 2:1–4
+advent:1,5,,,,Morning and Evening Lessons,evening,Numbers 24:14–25
+advent:1,6,,,,Morning and Evening Lessons,morning,Ephesians 3:1–12
+advent:1,6,,,,Morning and Evening Lessons,evening,Deuteronomy 18:15–19
+advent:2,1,,,,Morning and Evening Lessons,morning,Acts 17:16–34
+advent:2,1,,,,Morning and Evening Lessons,evening,1 Chronicles 17:1–27
+advent:2,2,,,,Morning and Evening Lessons,morning,1 John 4:9–16
+advent:2,2,,,,Morning and Evening Lessons,evening,2 Chronicles 7:11–22
+advent:2,3,,,,Morning and Evening Lessons,morning,Colossians 1:1–8
+advent:2,3,,,,Morning and Evening Lessons,evening,Isaiah 11:1–10
+advent:2,4,,,,Morning and Evening Lessons,morning,Philippians 2:12–18
+advent:2,4,,,,Morning and Evening Lessons,evening,Jeremiah 23:2–8
+advent:2,5,,,,Morning and Evening Lessons,morning,Philippians 3:12–16
+advent:2,5,,,,Morning and Evening Lessons,evening,Jeremiah 30:1–22
+advent:2,6,,,,Morning and Evening Lessons,morning,Colossians 3:1–11
+advent:2,6,,,,Morning and Evening Lessons,evening,Jeremiah 33:14–26
+advent:3,1,,,,Morning and Evening Lessons,morning,Hebrews 10:35–39
+advent:3,1,,,,Morning and Evening Lessons,evening,Isaiah 2:1–5
+advent:3,2,,,,Morning and Evening Lessons,morning,Luke 21:5–24
+advent:3,2,,,,Morning and Evening Lessons,evening,Isaiah 24:21–25:5
+advent:3,3,,,,Morning and Evening Lessons,morning,Luke 12:35–59
+advent:3,3,,,,Morning and Evening Lessons,evening,Isaiah 25:6–10
+advent:3,4,,,,Morning and Evening Lessons,morning,James 5:7–11
+advent:3,4,,,,Morning and Evening Lessons,evening,Isaiah 26:1–21
+advent:3,5,,,,Morning and Evening Lessons,morning,Luke 1:1–25
+advent:3,5,,,,Morning and Evening Lessons,evening,Isaiah 51:1–16
+advent:3,6,,,,Morning and Evening Lessons,morning,Luke 1:26–38
+advent:3,6,,,,Morning and Evening Lessons,evening,Isaiah 52:1–12
+advent:4,1,date lt 12-25,,,Morning and Evening Lessons,morning,Matthew 1:18–25
+advent:4,1,date lt 12-25,,,Morning and Evening Lessons,evening,Isaiah 40:1–11
+advent:4,2,date lt 12-25,,,Morning and Evening Lessons,morning,Luke 1:39–45
+advent:4,2,date lt 12-25,,,Morning and Evening Lessons,evening,Malachi 3:1–7
+advent:4,3,date lt 12-25,,,Morning and Evening Lessons,morning,Luke 1:46–56
+advent:4,3,date lt 12-25,,,Morning and Evening Lessons,evening,Malachi 4:1–6
+advent:4,4,date lt 12-25,,,Morning and Evening Lessons,morning,Luke 1:57–66
+advent:4,4,date lt 12-25,,,Morning and Evening Lessons,evening,Isaiah 28:14–19
+advent:4,5,date lt 12-25,,,Morning and Evening Lessons,morning,Luke 1:67–80
+advent:4,5,date lt 12-25,,,Morning and Evening Lessons,evening,Isaiah 7:1–17
+advent:4,6,date lt 12-25,,,Morning and Evening Lessons,morning,Matthew 1:1–17
+advent:4,6,date lt 12-25,,,Morning and Evening Lessons,evening,Micah 5:1–15
+12-27,,date nwd sun,,,Morning and Evening Lessons,morning,John 1:15–18
+12-27,,date nwd sun,,,Morning and Evening Lessons,evening,Micah 4:1–8
+12-28,,date nwd sun,,,Morning and Evening Lessons,morning,Luke 2:15–20
+12-28,,date nwd sun,,,Morning and Evening Lessons,evening,Isaiah 32:1–8
+12-29,,date nwd sun,,,Morning and Evening Lessons,morning,Luke 2:22–24
+12-29,,date nwd sun,,,Morning and Evening Lessons,evening,Isaiah 46:3–13
+12-30,,date nwd sun,,,Morning and Evening Lessons,morning,Luke 2:25–32
+12-30,,date nwd sun,,,Morning and Evening Lessons,evening,Isaiah 49:1–13
+12-31,,date nwd sun,,,Morning and Evening Lessons,morning,Matthew 2:13–15
+12-31,,date nwd sun,,,Morning and Evening Lessons,evening,Isaiah 55:1–13
+01-02,,date nwd sun,,,Morning and Evening Lessons,morning,Matthew 2:16–18
+01-02,,date nwd sun,,,Morning and Evening Lessons,evening,Isaiah 42:1–9
+01-03,,date nwd sun,,,Morning and Evening Lessons,morning,Matthew 2:19–23
+01-03,,date nwd sun,,,Morning and Evening Lessons,evening,Isaiah 61:1–11
+01-04,,date nwd sun,,,Morning and Evening Lessons,morning,Matthew 3:1–12
+01-04,,date nwd sun,,,Morning and Evening Lessons,evening,Isaiah 56:1–8
+01-05,,date nwd sun,,,Morning and Evening Lessons,morning,Luke 3:1–9
+01-05,,date nwd sun,,,Morning and Evening Lessons,evening,Isaiah 12:1–6
+after_epiphany:1,-6,date gt @epiphany,,,Morning and Evening Lessons,morning,Luke 3:10–14
+after_epiphany:1,-6,date gt @epiphany,,,Morning and Evening Lessons,evening,Genesis 1:1–31
+after_epiphany:1,-5,date gt @epiphany,,,Morning and Evening Lessons,morning,Luke 3:15–20
+after_epiphany:1,-5,date gt @epiphany,,,Morning and Evening Lessons,evening,Genesis 2:1–25
+after_epiphany:1,-4,date gt @epiphany,,,Morning and Evening Lessons,morning,Mark 1:1–8
+after_epiphany:1,-4,date gt @epiphany,,,Morning and Evening Lessons,evening,Genesis 4:1–26
+after_epiphany:1,-3,date gt @epiphany,,,Morning and Evening Lessons,morning,Mark 1:9–11
+after_epiphany:1,-3,date gt @epiphany,,,Morning and Evening Lessons,evening,Genesis 5:1–32
+after_epiphany:1,-2,date gt @epiphany,,,Morning and Evening Lessons,morning,Luke 3:21–22
+after_epiphany:1,-2,date gt @epiphany,,,Morning and Evening Lessons,evening,Genesis 6:9–22
+after_epiphany:1,-1,date gt @epiphany,,,Morning and Evening Lessons,morning,Luke 3:23–28
+after_epiphany:1,-1,date gt @epiphany,,,Morning and Evening Lessons,evening,Genesis 7:1–24
+after_epiphany:1,1,,,,Morning and Evening Lessons,morning,John 1:29–34
+after_epiphany:1,1,,,,Morning and Evening Lessons,evening,Genesis 8:1–22
+after_epiphany:1,2,,,,Morning and Evening Lessons,morning,John 1:35–42
+after_epiphany:1,2,,,,Morning and Evening Lessons,evening,Genesis 11:1–9
+after_epiphany:1,3,,,,Morning and Evening Lessons,morning,John 1:43–51
+after_epiphany:1,3,,,,Morning and Evening Lessons,evening,Genesis 12:1–20
+after_epiphany:1,4,,,,Morning and Evening Lessons,morning,Luke 4:1–13
+after_epiphany:1,4,,,,Morning and Evening Lessons,evening,Genesis 13:1–18
+after_epiphany:1,5,,,,Morning and Evening Lessons,morning,Mark 1:12–15
+after_epiphany:1,5,,,,Morning and Evening Lessons,evening,Genesis 14:8–24
+after_epiphany:1,6,,,,Morning and Evening Lessons,morning,Matthew 4:12–17
+after_epiphany:1,6,,,,Morning and Evening Lessons,evening,Genesis 15:1–21
+after_epiphany:2,1,,,,Morning and Evening Lessons,morning,Matthew 4:18–25
+after_epiphany:2,1,,,,Morning and Evening Lessons,evening,Genesis 17:1–22
+after_epiphany:2,2,,,,Morning and Evening Lessons,morning,Matthew 5:1–19
+after_epiphany:2,2,,,,Morning and Evening Lessons,evening,Genesis 18:1–33
+after_epiphany:2,3,,,,Morning and Evening Lessons,morning,Matthew 5:27–48
+after_epiphany:2,3,,,,Morning and Evening Lessons,evening,Genesis 19:1–29
+after_epiphany:2,4,,,,Morning and Evening Lessons,morning,Matthew 6:1–23
+after_epiphany:2,4,,,,Morning and Evening Lessons,evening,Genesis 21:1–8
+after_epiphany:2,5,,,,Morning and Evening Lessons,morning,Matthew 7:1–14
+after_epiphany:2,5,,,,Morning and Evening Lessons,evening,Genesis 24:1–28
+after_epiphany:2,6,,,,Morning and Evening Lessons,morning,Matthew 7:24–29
+after_epiphany:2,6,,,,Morning and Evening Lessons,evening,Genesis 24:29–67
+after_epiphany:3,1,,,,Morning and Evening Lessons,morning,Matthew 8:14–22
+after_epiphany:3,1,,,,Morning and Evening Lessons,evening,Genesis 25:19–34
+after_epiphany:3,2,,,,Morning and Evening Lessons,morning,Matthew 8:28–34
+after_epiphany:3,2,,,,Morning and Evening Lessons,evening,Genesis 27:1–45
+after_epiphany:3,3,,,,Morning and Evening Lessons,morning,Matthew 9:9–17
+after_epiphany:3,3,,,,Morning and Evening Lessons,evening,Genesis 27:46–28:22
+after_epiphany:3,4,,,,Morning and Evening Lessons,morning,Matthew 9:27–38
+after_epiphany:3,4,,,,Morning and Evening Lessons,evening,Genesis 29:1–20
+after_epiphany:3,5,,,,Morning and Evening Lessons,morning,Matthew 10:1–16
+after_epiphany:3,5,,,,Morning and Evening Lessons,evening,Genesis 31:1–18
+after_epiphany:3,6,,,,Morning and Evening Lessons,morning,Matthew 10:17–11:1
+after_epiphany:3,6,,,,Morning and Evening Lessons,evening,Genesis 32:3–32
+after_epiphany:4,1,,,,Morning and Evening Lessons,morning,Matthew 11:11–24
+after_epiphany:4,1,,,,Morning and Evening Lessons,evening,Genesis 33:1–20
+after_epiphany:4,2,,,,Morning and Evening Lessons,morning,Matthew 12:1–21
+after_epiphany:4,2,,,,Morning and Evening Lessons,evening,Genesis 35:1–21
+after_epiphany:4,3,,,,Morning and Evening Lessons,morning,Matthew 12:22–50
+after_epiphany:4,3,,,,Morning and Evening Lessons,evening,Genesis 37:1–36
+after_epiphany:4,4,,,,Morning and Evening Lessons,morning,Matthew 13:1–23
+after_epiphany:4,4,,,,Morning and Evening Lessons,evening,Genesis 39:1–23
+after_epiphany:4,5,,,,Morning and Evening Lessons,morning,Matthew 14:1–36
+after_epiphany:4,5,,,,Morning and Evening Lessons,evening,Genesis 40:1–23
+after_epiphany:4,6,,,,Morning and Evening Lessons,morning,Matthew 15:1–20
+after_epiphany:4,6,,,,Morning and Evening Lessons,evening,Genesis 41:1–37
+after_epiphany:5,1,,,,Morning and Evening Lessons,morning,Matthew 15:29–39
+after_epiphany:5,1,,,,Morning and Evening Lessons,evening,Genesis 41:38–57
+after_epiphany:5,2,,,,Morning and Evening Lessons,morning,Matthew 16:1–12
+after_epiphany:5,2,,,,Morning and Evening Lessons,evening,Genesis 42:1–38
+after_epiphany:5,3,,,,Morning and Evening Lessons,morning,Matthew 16:21–28
+after_epiphany:5,3,,,,Morning and Evening Lessons,evening,Genesis 43:1–34
+after_epiphany:5,4,,,,Morning and Evening Lessons,morning,Matthew 17:9–27
+after_epiphany:5,4,,,,Morning and Evening Lessons,evening,Genesis 44:1–34
+after_epiphany:5,5,,,,Morning and Evening Lessons,morning,Matthew 19:1–15
+after_epiphany:5,5,,,,Morning and Evening Lessons,evening,Genesis 45:1–28
+after_epiphany:5,6,,,,Morning and Evening Lessons,morning,Matthew 20:17–34
+after_epiphany:5,6,,,,Morning and Evening Lessons,evening,Genesis 46:1–34
+after_epiphany:6,1,,,,Morning and Evening Lessons,morning,Matthew 21:10–46
+after_epiphany:6,1,,,,Morning and Evening Lessons,evening,Genesis 47:1–31
+after_epiphany:6,2,,,,Morning and Evening Lessons,morning,Matthew 23:1–39
+after_epiphany:6,2,,,,Morning and Evening Lessons,evening,Genesis 48:1–22
+after_epiphany:6,3,,,,Morning and Evening Lessons,morning,Mark 1:16–45
+after_epiphany:6,3,,,,Morning and Evening Lessons,evening,Exodus 1:1–22
+after_epiphany:6,4,,,,Morning and Evening Lessons,morning,Mark 2:1–28
+after_epiphany:6,4,,,,Morning and Evening Lessons,evening,Exodus 2:1–25
+after_epiphany:6,5,,,,Morning and Evening Lessons,morning,Mark 3:1–35
+after_epiphany:6,5,,,,Morning and Evening Lessons,evening,Exodus 3:1–22
+after_epiphany:6,6,,,,Morning and Evening Lessons,morning,Mark 5:1–20
+after_epiphany:6,6,,,,Morning and Evening Lessons,evening,Exodus 4:1–31
+septuagesima,1,,,,Morning and Evening Lessons,morning,Mark 5:21–43
+septuagesima,1,,,,Morning and Evening Lessons,evening,Exodus 5:1–23
+septuagesima,2,,,,Morning and Evening Lessons,morning,Mark 6:1–29
+septuagesima,2,,,,Morning and Evening Lessons,evening,Exodus 6:1–13
+septuagesima,3,,,,Morning and Evening Lessons,morning,Mark 6:30–56
+septuagesima,3,,,,Morning and Evening Lessons,evening,Exodus 11:1–10
+septuagesima,4,,,,Morning and Evening Lessons,morning,Mark 7:1–30
+septuagesima,4,,,,Morning and Evening Lessons,evening,Exodus 12:1–28
+septuagesima,5,,,,Morning and Evening Lessons,morning,Mark 8:10–9:1
+septuagesima,5,,,,Morning and Evening Lessons,evening,Exodus 12:29–42
+septuagesima,6,,,,Morning and Evening Lessons,morning,Mark 9:2–32
+septuagesima,6,,,,Morning and Evening Lessons,evening,Exodus 13:1–22
+sexagesima,1,,,,Morning and Evening Lessons,morning,Mark 10:1–31
+sexagesima,1,,,,Morning and Evening Lessons,evening,Exodus 14:1–31
+sexagesima,2,,,,Morning and Evening Lessons,morning,Mark 10:32–52
+sexagesima,2,,,,Morning and Evening Lessons,evening,Exodus 15:1–21
+sexagesima,3,,,,Morning and Evening Lessons,morning,Mark 11:1–33
+sexagesima,3,,,,Morning and Evening Lessons,evening,Exodus 15:22–16:36
+sexagesima,4,,,,Morning and Evening Lessons,morning,Mark 12:13–44
+sexagesima,4,,,,Morning and Evening Lessons,evening,Exodus 17:1–16
+sexagesima,5,,,,Morning and Evening Lessons,morning,Luke 4:14–44
+sexagesima,5,,,,Morning and Evening Lessons,evening,Exodus 19:1–25
+sexagesima,6,,,,Morning and Evening Lessons,morning,Luke 5:12–39
+sexagesima,6,,,,Morning and Evening Lessons,evening,Exodus 20:1–23
+quinquagesima,1,,,,Morning and Evening Lessons,morning,Luke 6:1–35
+quinquagesima,1,,,,Morning and Evening Lessons,evening,Exodus 24:1–25:9
+quinquagesima,2,,,,Morning and Evening Lessons,morning,Luke 6:43–49
+quinquagesima,2,,,,Morning and Evening Lessons,evening,Exodus 31:18–32:35
+quinquagesima,3,,,,Morning and Evening Lessons,morning,Luke 7:1–10
+quinquagesima,3,,,,Morning and Evening Lessons,evening,Exodus 33:1–23
+quinquagesima,4,,,,Morning and Evening Lessons,morning,Luke 7:18–8:3
+quinquagesima,4,,,,Morning and Evening Lessons,evening,Exodus 34:1–16
+quinquagesima,5,,,,Morning and Evening Lessons,morning,Luke 8:16–56
+quinquagesima,5,,,,Morning and Evening Lessons,evening,Exodus 34:27–35
+quinquagesima,6,,,,Morning and Evening Lessons,morning,Luke 9:1–27
+quinquagesima,6,,,,Morning and Evening Lessons,evening,Exodus 40:1–38
+lent:1,1,,,,Morning and Evening Lessons,morning,Luke 9:28–62
+lent:1,1,,,,Morning and Evening Lessons,evening,Numbers 3:5–13
+lent:1,2,,,,Morning and Evening Lessons,morning,Luke 10:1–22
+lent:1,2,,,,Morning and Evening Lessons,evening,Numbers 10:11–36
+lent:1,3,,,,Morning and Evening Lessons,morning,Luke 10:38–11:13
+lent:1,3,,,,Morning and Evening Lessons,evening,Numbers 11:1–35
+lent:1,4,,,,Morning and Evening Lessons,morning,Luke 11:29–36
+lent:1,4,,,,Morning and Evening Lessons,evening,Numbers 12:1–15
+lent:1,5,,,,Morning and Evening Lessons,morning,Luke 11:37–54
+lent:1,5,,,,Morning and Evening Lessons,evening,Numbers 13:1–25
+lent:1,6,,,,Morning and Evening Lessons,morning,Luke 12:1–34
+lent:1,6,,,,Morning and Evening Lessons,evening,Numbers 13:26–33
+lent:2,1,,,,Morning and Evening Lessons,morning,Luke 13:1–17
+lent:2,1,,,,Morning and Evening Lessons,evening,Numbers 14:1–45
+lent:2,2,,,,Morning and Evening Lessons,morning,Luke 14:25–35
+lent:2,2,,,,Morning and Evening Lessons,evening,Numbers 16:1–22
+lent:2,3,,,,Morning and Evening Lessons,morning,Luke 15:11–32
+lent:2,3,,,,Morning and Evening Lessons,evening,Numbers 16:23–50
+lent:2,4,,,,Morning and Evening Lessons,morning,Luke 16:10–18
+lent:2,4,,,,Morning and Evening Lessons,evening,Numbers 17:1–13
+lent:2,5,,,,Morning and Evening Lessons,morning,Luke 17:1–10
+lent:2,5,,,,Morning and Evening Lessons,evening,Numbers 20:1–29
+lent:2,6,,,,Morning and Evening Lessons,morning,Luke 18:1–8
+lent:2,6,,,,Morning and Evening Lessons,evening,Numbers 21:1–22:1
+lent:3,1,,,,Morning and Evening Lessons,morning,Luke 18:15–30
+lent:3,1,,,,Morning and Evening Lessons,evening,Numbers 22:2–41
+lent:3,2,,,,Morning and Evening Lessons,morning,Luke 19:1–40
+lent:3,2,,,,Morning and Evening Lessons,evening,Numbers 23:1–30
+lent:3,3,,,,Morning and Evening Lessons,morning,Luke 20:1–21:4
+lent:3,3,,,,Morning and Evening Lessons,evening,Numbers 24:1–13
+lent:3,4,,,,Morning and Evening Lessons,morning,Luke 21:37–22:38
+lent:3,4,,,,Morning and Evening Lessons,evening,Numbers 27:12–23
+lent:3,5,,,,Morning and Evening Lessons,morning,Luke 22:39–71
+lent:3,5,,,,Morning and Evening Lessons,evening,Deuteronomy 5:1–33
+lent:3,6,,,,Morning and Evening Lessons,morning,Luke 23:1–25
+lent:3,6,,,,Morning and Evening Lessons,evening,Deuteronomy 8:1–20
+lent:4,1,,,,Morning and Evening Lessons,morning,Luke 23:26–56
+lent:4,1,,,,Morning and Evening Lessons,evening,Deuteronomy 9:1–29
+lent:4,2,,,,Morning and Evening Lessons,morning,Matthew 26:1–35
+lent:4,2,,,,Morning and Evening Lessons,evening,Deuteronomy 10:1–22
+lent:4,3,,,,Morning and Evening Lessons,morning,Matthew 26:36–75
+lent:4,3,,,,Morning and Evening Lessons,evening,Deuteronomy 11:1–32
+lent:4,4,,,,Morning and Evening Lessons,morning,Matthew 27:1–38
+lent:4,4,,,,Morning and Evening Lessons,evening,Deuteronomy 28:1–14
+lent:4,5,,,,Morning and Evening Lessons,morning,Matthew 27:39–66
+lent:4,5,,,,Morning and Evening Lessons,evening,Deuteronomy 28:15–68
+lent:4,6,,,,Morning and Evening Lessons,morning,Mark 14:1–31
+lent:4,6,,,,Morning and Evening Lessons,evening,Deuteronomy 34:1–12
+lent:5,1,,,,Morning and Evening Lessons,morning,Mark 14:32–72
+lent:5,1,,,,Morning and Evening Lessons,evening,Jeremiah 2:1–19
+lent:5,2,,,,Morning and Evening Lessons,morning,Mark 15:1–19
+lent:5,2,,,,Morning and Evening Lessons,evening,Hosea 13:9–14
+lent:5,3,,,,Morning and Evening Lessons,morning,Mark 15:20–47
+lent:5,3,,,,Morning and Evening Lessons,evening,Zephaniah 3:1–8
+lent:5,4,,,,Morning and Evening Lessons,morning,John 12:1–19
+lent:5,4,,,,Morning and Evening Lessons,evening,Micah 3:9–12
+lent:5,5,,,,Morning and Evening Lessons,morning,John 12:20–50
+lent:5,5,,,,Morning and Evening Lessons,evening,Isaiah 66:1–9
+lent:5,6,,,,Morning and Evening Lessons,morning,John 13:16–38
+lent:5,6,,,,Morning and Evening Lessons,evening,Zechariah 9:1–17
+palm_sunday,1,,,,Morning and Evening Lessons,morning,John 18:1–18
+palm_sunday,1,,,,Morning and Evening Lessons,evening,Jeremiah 7:1–15
+palm_sunday,2,,,,Morning and Evening Lessons,morning,John 18:19–40
+palm_sunday,2,,,,Morning and Evening Lessons,evening,Isaiah 50:4–11
+palm_sunday,3,,,,Morning and Evening Lessons,morning,John 19:1–12
+palm_sunday,3,,,,Morning and Evening Lessons,evening,Jeremiah 11:18–23
+palm_sunday,4,,,,Morning and Evening Lessons,morning,John 19:13–24
+palm_sunday,4,,,,Morning and Evening Lessons,evening,Zechariah 3:1–10
+palm_sunday,5,,,,Morning and Evening Lessons,morning,John 19:25–37
+palm_sunday,5,,,,Morning and Evening Lessons,evening,Lamentations 2:8–15
+palm_sunday,6,,,,Morning and Evening Lessons,morning,John 19:38–42
+palm_sunday,6,,,,Morning and Evening Lessons,evening,Isaiah 52:13–15
+easter,2,,,,Morning and Evening Lessons,morning,Matthew 28:1–15
+easter,2,,,,Morning and Evening Lessons,evening,Ezekiel 21:25–27
+easter,3,,,,Morning and Evening Lessons,morning,John 20:1–18
+easter,3,,,,Morning and Evening Lessons,evening,Haggai 2:20–23
+easter,4,,,,Morning and Evening Lessons,morning,Luke 24:1–12
+easter,4,,,,Morning and Evening Lessons,evening,Zechariah 6:9–15
+easter,5,,,,Morning and Evening Lessons,morning,Luke 24:36–49
+easter,5,,,,Morning and Evening Lessons,evening,Ezekiel 17:22–24
+easter,6,,,,Morning and Evening Lessons,morning,Mark 16:9–14
+easter,6,,,,Morning and Evening Lessons,evening,Isaiah 44:21–28
+after_easter:1,1,,,,Morning and Evening Lessons,morning,John 21:1–25
+after_easter:1,1,,,,Morning and Evening Lessons,evening,Jonah 1:1–16
+after_easter:1,2,,,,Morning and Evening Lessons,morning,John 2:12–25
+after_easter:1,2,,,,Morning and Evening Lessons,evening,Jonah 1:17–2:10
+after_easter:1,3,,,,Morning and Evening Lessons,morning,John 3:22–36
+after_easter:1,3,,,,Morning and Evening Lessons,evening,Jonah 3:1–10
+after_easter:1,4,,,,Morning and Evening Lessons,morning,John 4:1–27
+after_easter:1,4,,,,Morning and Evening Lessons,evening,Jonah 4:1–11
+after_easter:1,5,,,,Morning and Evening Lessons,morning,John 4:28–38
+after_easter:1,5,,,,Morning and Evening Lessons,evening,Isaiah 33:2–6
+after_easter:1,6,,,,Morning and Evening Lessons,morning,John 4:39–45
+after_easter:1,6,,,,Morning and Evening Lessons,evening,Isaiah 42:10–17
+after_easter:2,1,,,,Morning and Evening Lessons,morning,John 5:1–17
+after_easter:2,1,,,,Morning and Evening Lessons,evening,Micah 2:12–13
+after_easter:2,2,,,,Morning and Evening Lessons,morning,John 5:18–30
+after_easter:2,2,,,,Morning and Evening Lessons,evening,Isaiah 30:19–26
+after_easter:2,3,,,,Morning and Evening Lessons,morning,John 5:31–47
+after_easter:2,3,,,,Morning and Evening Lessons,evening,Jeremiah 3:11–19
+after_easter:2,4,,,,Morning and Evening Lessons,morning,John 6:16–29
+after_easter:2,4,,,,Morning and Evening Lessons,evening,Ezekiel 34:1–11
+after_easter:2,5,,,,Morning and Evening Lessons,morning,John 6:30–40
+after_easter:2,5,,,,Morning and Evening Lessons,evening,Ezekiel 34:12–22
+after_easter:2,6,,,,Morning and Evening Lessons,morning,John 6:41–59
+after_easter:2,6,,,,Morning and Evening Lessons,evening,Ezekiel 34:23–31
+after_easter:3,1,,,,Morning and Evening Lessons,morning,John 6:60–71
+after_easter:3,1,,,,Morning and Evening Lessons,evening,Ezekiel 36:1–15
+after_easter:3,2,,,,Morning and Evening Lessons,morning,John 7:1–13
+after_easter:3,2,,,,Morning and Evening Lessons,evening,Ezekiel 36:16–32
+after_easter:3,3,,,,Morning and Evening Lessons,morning,John 7:14–24
+after_easter:3,3,,,,Morning and Evening Lessons,evening,Ezekiel 36:33–38
+after_easter:3,4,,,,Morning and Evening Lessons,morning,John 7:25–36
+after_easter:3,4,,,,Morning and Evening Lessons,evening,Haggai 2:2–9
+after_easter:3,5,,,,Morning and Evening Lessons,morning,John 7:37–53
+after_easter:3,5,,,,Morning and Evening Lessons,evening,Zechariah 2:1–13
+after_easter:3,6,,,,Morning and Evening Lessons,morning,John 8:1–11
+after_easter:3,6,,,,Morning and Evening Lessons,evening,Zechariah 11:1–17
+after_easter:4,1,,,,Morning and Evening Lessons,morning,John 8:12–20
+after_easter:4,1,,,,Morning and Evening Lessons,evening,Zechariah 12:1–13
+after_easter:4,2,,,,Morning and Evening Lessons,morning,John 8:21–29
+after_easter:4,2,,,,Morning and Evening Lessons,evening,Isaiah 65:1–7
+after_easter:4,3,,,,Morning and Evening Lessons,morning,John 8:30–45
+after_easter:4,3,,,,Morning and Evening Lessons,evening,Isaiah 65:8–16
+after_easter:4,4,,,,Morning and Evening Lessons,morning,John 9:1–13
+after_easter:4,4,,,,Morning and Evening Lessons,evening,Jeremiah 8:4–13
+after_easter:4,5,,,,Morning and Evening Lessons,morning,John 9:14–34
+after_easter:4,5,,,,Morning and Evening Lessons,evening,Zechariah 8:18–23
+after_easter:4,6,,,,Morning and Evening Lessons,morning,John 9:35–41
+after_easter:4,6,,,,Morning and Evening Lessons,evening,Isaiah 49:22–26
+after_easter:5,1,,,,Morning and Evening Lessons,morning,John 10:1–5
+after_easter:5,1,,,,Morning and Evening Lessons,evening,Amos 9:8–15
+after_easter:5,2,,,,Morning and Evening Lessons,morning,John 10:6–10
+after_easter:5,2,,,,Morning and Evening Lessons,evening,Isaiah 4:2–6
+after_easter:5,3,,,,Morning and Evening Lessons,morning,Matthew 28:16–20
+after_easter:5,3,,,,Morning and Evening Lessons,evening,Isaiah 29:18–24
+after_easter:5,5,,,,Morning and Evening Lessons,morning,Luke 24:50–53
+after_easter:5,5,,,,Morning and Evening Lessons,evening,Micah 7:7–13
+after_easter:5,6,,,,Morning and Evening Lessons,morning,Acts 1:12–26
+after_easter:5,6,,,,Morning and Evening Lessons,evening,Micah 7:14–20
+exaudi,1,,,,Morning and Evening Lessons,morning,John 10:17–21
+exaudi,1,,,,Morning and Evening Lessons,evening,Zechariah 13:7–9
+exaudi,2,,,,Morning and Evening Lessons,morning,John 10:22–31
+exaudi,2,,,,Morning and Evening Lessons,evening,Zechariah 14:1–21
+exaudi,3,,,,Morning and Evening Lessons,morning,John 10:32–42
+exaudi,3,,,,Morning and Evening Lessons,evening,Isaiah 66:10–24
+exaudi,4,,,,Morning and Evening Lessons,morning,John 11:1–27
+exaudi,4,,,,Morning and Evening Lessons,evening,Jeremiah 46:27–28
+exaudi,5,,,,Morning and Evening Lessons,morning,John 11:28–44
+exaudi,5,,,,Morning and Evening Lessons,evening,Isaiah 32:9–20
+exaudi,6,,,,Morning and Evening Lessons,morning,John 11:45–57
+exaudi,6,,,,Morning and Evening Lessons,evening,Isaiah 57:15–21
+pentecost,2,,,,Morning and Evening Lessons,morning,Acts 2:14–36
+pentecost,2,,,,Morning and Evening Lessons,evening,Ezekiel 47:1–12
+pentecost,3,,,,Morning and Evening Lessons,morning,Acts 2:37–47
+pentecost,3,,,,Morning and Evening Lessons,evening,Isaiah 45:18–21
+pentecost,4,,,,Morning and Evening Lessons,morning,John 14:1–22
+pentecost,4,,,,Morning and Evening Lessons,evening,Isaiah 45:22–25
+pentecost,5,,,,Morning and Evening Lessons,morning,John 15:1–25
+pentecost,5,,,,Morning and Evening Lessons,evening,Jeremiah 9:23–26
+pentecost,6,,,,Morning and Evening Lessons,morning,John 16:31–17:26
+pentecost,6,,,,Morning and Evening Lessons,evening,Isaiah 44:6–8
+trinity,1,,,,Morning and Evening Lessons,morning,Acts 3:1–21
+trinity,1,,,,Morning and Evening Lessons,evening,Joshua 1:1–18
+trinity,2,,,,Morning and Evening Lessons,morning,Acts 4:1–37
+trinity,2,,,,Morning and Evening Lessons,evening,Joshua 3:1–17
+trinity,3,,,,Morning and Evening Lessons,morning,Acts 5:1–42
+trinity,3,,,,Morning and Evening Lessons,evening,Joshua 4:1–24
+trinity,4,,,,Morning and Evening Lessons,morning,Acts 6:1–15
+trinity,4,,,,Morning and Evening Lessons,evening,Joshua 6:1–27
+trinity,5,,,,Morning and Evening Lessons,morning,Acts 7:1–60
+trinity,5,,,,Morning and Evening Lessons,evening,Joshua 8:1–35
+trinity,6,,,,Morning and Evening Lessons,morning,Acts 8:1–40
+trinity,6,,,,Morning and Evening Lessons,evening,Joshua 9:1–27
+after_trinity:1,1,date lt next_start-56,,,Morning and Evening Lessons,morning,Acts 9:1–43
+after_trinity:1,1,date lt next_start-56,,,Morning and Evening Lessons,evening,Joshua 10:1–15
+after_trinity:1,2,date lt next_start-56,,,Morning and Evening Lessons,morning,Acts 10:1–33
+after_trinity:1,2,date lt next_start-56,,,Morning and Evening Lessons,evening,Joshua 11:1–23
+after_trinity:1,3,date lt next_start-56,,,Morning and Evening Lessons,morning,Acts 11:1–30
+after_trinity:1,3,date lt next_start-56,,,Morning and Evening Lessons,evening,Joshua 23:1–16
+after_trinity:1,4,date lt next_start-56,,,Morning and Evening Lessons,morning,Acts 12:1–25
+after_trinity:1,4,date lt next_start-56,,,Morning and Evening Lessons,evening,Joshua 24:1–31
+after_trinity:1,5,date lt next_start-56,,,Morning and Evening Lessons,morning,Acts 13:1–52
+after_trinity:1,5,date lt next_start-56,,,Morning and Evening Lessons,evening,Judges 2:1–23
+after_trinity:1,6,date lt next_start-56,,,Morning and Evening Lessons,morning,Acts 14:1–28
+after_trinity:1,6,date lt next_start-56,,,Morning and Evening Lessons,evening,Judges 6:1–40
+after_trinity:2,1,date lt next_start-56,,,Morning and Evening Lessons,morning,Acts 15:1–41
+after_trinity:2,1,date lt next_start-56,,,Morning and Evening Lessons,evening,Judges 7:1–25
+after_trinity:2,2,date lt next_start-56,,,Morning and Evening Lessons,morning,Acts 16:1–40
+after_trinity:2,2,date lt next_start-56,,,Morning and Evening Lessons,evening,Judges 13:1–25
+after_trinity:2,3,date lt next_start-56,,,Morning and Evening Lessons,morning,Acts 17:1–15
+after_trinity:2,3,date lt next_start-56,,,Morning and Evening Lessons,evening,Judges 14:1–20
+after_trinity:2,4,date lt next_start-56,,,Morning and Evening Lessons,morning,Acts 18:1–28
+after_trinity:2,4,date lt next_start-56,,,Morning and Evening Lessons,evening,Judges 15:1–20
+after_trinity:2,5,date lt next_start-56,,,Morning and Evening Lessons,morning,Acts 19:1–41
+after_trinity:2,5,date lt next_start-56,,,Morning and Evening Lessons,evening,Judges 16:4–31
+after_trinity:2,6,date lt next_start-56,,,Morning and Evening Lessons,morning,Acts 20:1–38
+after_trinity:2,6,date lt next_start-56,,,Morning and Evening Lessons,evening,1 Samuel 1:1–28
+after_trinity:3,1,date lt next_start-56,,,Morning and Evening Lessons,morning,Acts 21:1–39
+after_trinity:3,1,date lt next_start-56,,,Morning and Evening Lessons,evening,1 Samuel 2:1–21
+after_trinity:3,2,date lt next_start-56,,,Morning and Evening Lessons,morning,Acts 21:40–22:29
+after_trinity:3,2,date lt next_start-56,,,Morning and Evening Lessons,evening,1 Samuel 3:1–21
+after_trinity:3,3,date lt next_start-56,,,Morning and Evening Lessons,morning,Acts 22:30–23:35
+after_trinity:3,3,date lt next_start-56,,,Morning and Evening Lessons,evening,1 Samuel 4:1–22
+after_trinity:3,4,date lt next_start-56,,,Morning and Evening Lessons,morning,Acts 24:1–27
+after_trinity:3,4,date lt next_start-56,,,Morning and Evening Lessons,evening,1 Samuel 5:1–12
+after_trinity:3,5,date lt next_start-56,,,Morning and Evening Lessons,morning,Acts 25:1–27
+after_trinity:3,5,date lt next_start-56,,,Morning and Evening Lessons,evening,1 Samuel 7:1–17
+after_trinity:3,6,date lt next_start-56,,,Morning and Evening Lessons,morning,Acts 26:1–32
+after_trinity:3,6,date lt next_start-56,,,Morning and Evening Lessons,evening,1 Samuel 8:1–22
+after_trinity:4,1,date lt next_start-56,,,Morning and Evening Lessons,morning,Acts 27:1–44
+after_trinity:4,1,date lt next_start-56,,,Morning and Evening Lessons,evening,1 Samuel 9:1–27
+after_trinity:4,2,date lt next_start-56,,,Morning and Evening Lessons,morning,Acts 28:1–31
+after_trinity:4,2,date lt next_start-56,,,Morning and Evening Lessons,evening,1 Samuel 10:1–27
+after_trinity:4,3,date lt next_start-56,,,Morning and Evening Lessons,morning,Romans 1:1–15
+after_trinity:4,3,date lt next_start-56,,,Morning and Evening Lessons,evening,1 Samuel 12:1–25
+after_trinity:4,4,date lt next_start-56,,,Morning and Evening Lessons,morning,Romans 1:16–32
+after_trinity:4,4,date lt next_start-56,,,Morning and Evening Lessons,evening,1 Samuel 13:1–14
+after_trinity:4,5,date lt next_start-56,,,Morning and Evening Lessons,morning,Romans 2:1–29
+after_trinity:4,5,date lt next_start-56,,,Morning and Evening Lessons,evening,1 Samuel 15:1–35
+after_trinity:4,6,date lt next_start-56,,,Morning and Evening Lessons,morning,Romans 3:1–31
+after_trinity:4,6,date lt next_start-56,,,Morning and Evening Lessons,evening,1 Samuel 16:1–23
+after_trinity:5,1,date lt next_start-56,,,Morning and Evening Lessons,morning,Romans 4:1–25
+after_trinity:5,1,date lt next_start-56,,,Morning and Evening Lessons,evening,1 Samuel 17:1–58
+after_trinity:5,2,date lt next_start-56,,,Morning and Evening Lessons,morning,Romans 5:1–6:2
+after_trinity:5,2,date lt next_start-56,,,Morning and Evening Lessons,evening,1 Samuel 18:1–21
+after_trinity:5,3,date lt next_start-56,,,Morning and Evening Lessons,morning,Romans 6:12–18
+after_trinity:5,3,date lt next_start-56,,,Morning and Evening Lessons,evening,1 Samuel 19:1–24
+after_trinity:5,4,date lt next_start-56,,,Morning and Evening Lessons,morning,Romans 7:1–25
+after_trinity:5,4,date lt next_start-56,,,Morning and Evening Lessons,evening,1 Samuel 20:1–42
+after_trinity:5,5,date lt next_start-56,,,Morning and Evening Lessons,morning,Romans 8:1–11
+after_trinity:5,5,date lt next_start-56,,,Morning and Evening Lessons,evening,1 Samuel 22:1–23
+after_trinity:5,6,date lt next_start-56,,,Morning and Evening Lessons,morning,Romans 13:1–7
+after_trinity:5,6,date lt next_start-56,,,Morning and Evening Lessons,evening,1 Samuel 24:1–22
+after_trinity:6,1,date lt next_start-56,,,Morning and Evening Lessons,morning,Romans 14:1–15:3
+after_trinity:6,1,date lt next_start-56,,,Morning and Evening Lessons,evening,1 Samuel 26:1–25
+after_trinity:6,2,date lt next_start-56,,,Morning and Evening Lessons,morning,Romans 15:14–33
+after_trinity:6,2,date lt next_start-56,,,Morning and Evening Lessons,evening,1 Samuel 28:3–25
+after_trinity:6,3,date lt next_start-56,,,Morning and Evening Lessons,morning,Romans 16:1–27
+after_trinity:6,3,date lt next_start-56,,,Morning and Evening Lessons,evening,1 Samuel 31:1–13
+after_trinity:6,4,date lt next_start-56,,,Morning and Evening Lessons,morning,1 Corinthians 1:10–31
+after_trinity:6,4,date lt next_start-56,,,Morning and Evening Lessons,evening,2 Samuel 1:1–27
+after_trinity:6,5,date lt next_start-56,,,Morning and Evening Lessons,morning,1 Corinthians 2:1–16
+after_trinity:6,5,date lt next_start-56,,,Morning and Evening Lessons,evening,2 Samuel 5:1–25
+after_trinity:6,6,date lt next_start-56,,,Morning and Evening Lessons,morning,1 Corinthians 4:6–5:5
+after_trinity:6,6,date lt next_start-56,,,Morning and Evening Lessons,evening,2 Samuel 6:1–23
+after_trinity:7,1,date lt next_start-56,,,Morning and Evening Lessons,morning,1 Corinthians 5:9–6:20
+after_trinity:7,1,date lt next_start-56,,,Morning and Evening Lessons,evening,1 Chronicles 16:1–43
+after_trinity:7,2,date lt next_start-56,,,Morning and Evening Lessons,morning,1 Corinthians 7:1–40
+after_trinity:7,2,date lt next_start-56,,,Morning and Evening Lessons,evening,2 Samuel 7:1–29
+after_trinity:7,3,date lt next_start-56,,,Morning and Evening Lessons,morning,1 Corinthians 8:1–13
+after_trinity:7,3,date lt next_start-56,,,Morning and Evening Lessons,evening,2 Samuel 12:1–23
+after_trinity:7,4,date lt next_start-56,,,Morning and Evening Lessons,morning,1 Corinthians 9:1–23
+after_trinity:7,4,date lt next_start-56,,,Morning and Evening Lessons,evening,2 Samuel 15:1–15
+after_trinity:7,5,date lt next_start-56,,,Morning and Evening Lessons,morning,1 Corinthians 10:14–33
+after_trinity:7,5,date lt next_start-56,,,Morning and Evening Lessons,evening,2 Samuel 16:5–23
+after_trinity:7,6,date lt next_start-56,,,Morning and Evening Lessons,morning,1 Corinthians 11:1–22
+after_trinity:7,6,date lt next_start-56,,,Morning and Evening Lessons,evening,2 Samuel 18:1–13
+after_trinity:8,1,date lt next_start-56,,,Morning and Evening Lessons,morning,1 Corinthians 12:12–31
+after_trinity:8,1,date lt next_start-56,,,Morning and Evening Lessons,evening,2 Samuel 19:1–23
+after_trinity:8,2,date lt next_start-56,,,Morning and Evening Lessons,morning,1 Corinthians 14:1–40
+after_trinity:8,2,date lt next_start-56,,,Morning and Evening Lessons,evening,1 Chronicles 21:1–30
+after_trinity:8,3,date lt next_start-56,,,Morning and Evening Lessons,morning,1 Corinthians 15:58–16:24
+after_trinity:8,3,date lt next_start-56,,,Morning and Evening Lessons,evening,1 Chronicles 22:1–19
+after_trinity:8,4,date lt next_start-56,,,Morning and Evening Lessons,morning,2 Corinthians 1:1–24
+after_trinity:8,4,date lt next_start-56,,,Morning and Evening Lessons,evening,1 Chronicles 28:1–21
+after_trinity:8,5,date lt next_start-56,,,Morning and Evening Lessons,morning,2 Corinthians 2:1–3:3
+after_trinity:8,5,date lt next_start-56,,,Morning and Evening Lessons,evening,1 Chronicles 29:1–23
+after_trinity:8,6,date lt next_start-56,,,Morning and Evening Lessons,morning,2 Corinthians 6:11–7:16
+after_trinity:8,6,date lt next_start-56,,,Morning and Evening Lessons,evening,2 Chronicles 1:1–13
+after_trinity:9,1,date lt next_start-56,,,Morning and Evening Lessons,morning,2 Corinthians 8:1–24
+after_trinity:9,1,date lt next_start-56,,,Morning and Evening Lessons,evening,1 Kings 3:16–28
+after_trinity:9,2,date lt next_start-56,,,Morning and Evening Lessons,morning,2 Corinthians 9:1–15
+after_trinity:9,2,date lt next_start-56,,,Morning and Evening Lessons,evening,1 Kings 4:22–34
+after_trinity:9,3,date lt next_start-56,,,Morning and Evening Lessons,morning,2 Corinthians 10:1–18
+after_trinity:9,3,date lt next_start-56,,,Morning and Evening Lessons,evening,1 Kings 5:1–18
+after_trinity:9,4,date lt next_start-56,,,Morning and Evening Lessons,morning,2 Corinthians 11:1–18
+after_trinity:9,4,date lt next_start-56,,,Morning and Evening Lessons,evening,2 Chronicles 3:1–17
+after_trinity:9,5,date lt next_start-56,,,Morning and Evening Lessons,morning,2 Corinthians 12:10–13:13
+after_trinity:9,5,date lt next_start-56,,,Morning and Evening Lessons,evening,1 Kings 8:1–66
+after_trinity:9,6,date lt next_start-56,,,Morning and Evening Lessons,morning,Galatians 1:1–24
+after_trinity:9,6,date lt next_start-56,,,Morning and Evening Lessons,evening,1 Kings 7:1–12
+after_trinity:10,1,date lt next_start-56,,,Morning and Evening Lessons,morning,Galatians 2:1–21
+after_trinity:10,1,date lt next_start-56,,,Morning and Evening Lessons,evening,1 Kings 9:1–28
+after_trinity:10,2,date lt next_start-56,,,Morning and Evening Lessons,morning,Galatians 3:1–14
+after_trinity:10,2,date lt next_start-56,,,Morning and Evening Lessons,evening,1 Kings 10:1–29
+after_trinity:10,3,date lt next_start-56,,,Morning and Evening Lessons,morning,Galatians 4:8–20
+after_trinity:10,3,date lt next_start-56,,,Morning and Evening Lessons,evening,1 Kings 11:1–43
+after_trinity:10,4,date lt next_start-56,,,Morning and Evening Lessons,morning,Galatians 5:1–15
+after_trinity:10,4,date lt next_start-56,,,Morning and Evening Lessons,evening,1 Kings 12:1–33
+after_trinity:10,5,date lt next_start-56,,,Morning and Evening Lessons,morning,Galatians 6:11–18
+after_trinity:10,5,date lt next_start-56,,,Morning and Evening Lessons,evening,1 Kings 13:1–34
+after_trinity:10,6,date lt next_start-56,,,Morning and Evening Lessons,morning,Ephesians 6:1–9
+after_trinity:10,6,date lt next_start-56,,,Morning and Evening Lessons,evening,1 Kings 14:1–31
+after_trinity:11,1,date lt next_start-56,,,Morning and Evening Lessons,morning,Ephesians 6:18–24
+after_trinity:11,1,date lt next_start-56,,,Morning and Evening Lessons,evening,1 Kings 16:29–17:24
+after_trinity:11,2,date lt next_start-56,,,Morning and Evening Lessons,morning,Philippians 1:12–2:4
+after_trinity:11,2,date lt next_start-56,,,Morning and Evening Lessons,evening,1 Kings 18:1–46
+after_trinity:11,3,date lt next_start-56,,,Morning and Evening Lessons,morning,Philippians 2:19–30
+after_trinity:11,3,date lt next_start-56,,,Morning and Evening Lessons,evening,1 Kings 19:1–21
+after_trinity:11,4,date lt next_start-56,,,Morning and Evening Lessons,morning,Philippians 3:1–11
+after_trinity:11,4,date lt next_start-56,,,Morning and Evening Lessons,evening,1 Kings 21:1–29
+after_trinity:11,5,date lt next_start-56,,,Morning and Evening Lessons,morning,Philippians 4:1–3
+after_trinity:11,5,date lt next_start-56,,,Morning and Evening Lessons,evening,1 Kings 22:51–2 Kings 1:17
+after_trinity:11,6,date lt next_start-56,,,Morning and Evening Lessons,morning,Philippians 4:8–23
+after_trinity:11,6,date lt next_start-56,,,Morning and Evening Lessons,evening,2 Kings 2:1–25
+after_trinity:12,1,date lt next_start-56,,,Morning and Evening Lessons,morning,Colossians 2:1–23
+after_trinity:12,1,date lt next_start-56,,,Morning and Evening Lessons,evening,2 Kings 4:1–44
+after_trinity:12,2,date lt next_start-56,,,Morning and Evening Lessons,morning,Colossians 3:18–4:18
+after_trinity:12,2,date lt next_start-56,,,Morning and Evening Lessons,evening,2 Kings 5:1–27
+after_trinity:12,3,date lt next_start-56,,,Morning and Evening Lessons,morning,1 Thessalonians 1:1–10
+after_trinity:12,3,date lt next_start-56,,,Morning and Evening Lessons,evening,2 Kings 6:1–23
+after_trinity:12,4,date lt next_start-56,,,Morning and Evening Lessons,morning,1 Thessalonians 2:1–20
+after_trinity:12,4,date lt next_start-56,,,Morning and Evening Lessons,evening,2 Kings 6:24–7:20
+after_trinity:12,5,date lt next_start-56,,,Morning and Evening Lessons,morning,1 Thessalonians 3:1–13
+after_trinity:12,5,date lt next_start-56,,,Morning and Evening Lessons,evening,2 Kings 8:1–15
+after_trinity:12,6,date lt next_start-56,,,Morning and Evening Lessons,morning,1 Thessalonians 4:8–12
+after_trinity:12,6,date lt next_start-56,,,Morning and Evening Lessons,evening,2 Kings 9:1–37
+after_trinity:13,1,date lt next_start-56,,,Morning and Evening Lessons,morning,1 Thessalonians 5:12–28
+after_trinity:13,1,date lt next_start-56,,,Morning and Evening Lessons,evening,2 Kings 10:1–36
+after_trinity:13,2,date lt next_start-56,,,Morning and Evening Lessons,morning,1 Timothy 1:1–20
+after_trinity:13,2,date lt next_start-56,,,Morning and Evening Lessons,evening,2 Chronicles 22:1–12
+after_trinity:13,3,date lt next_start-56,,,Morning and Evening Lessons,morning,1 Timothy 2:1–15
+after_trinity:13,3,date lt next_start-56,,,Morning and Evening Lessons,evening,2 Chronicles 23:1–21
+after_trinity:13,4,date lt next_start-56,,,Morning and Evening Lessons,morning,1 Timothy 3:1–16
+after_trinity:13,4,date lt next_start-56,,,Morning and Evening Lessons,evening,2 Chronicles 24:1–27
+after_trinity:13,5,date lt next_start-56,,,Morning and Evening Lessons,morning,1 Timothy 4:1–16
+after_trinity:13,5,date lt next_start-56,,,Morning and Evening Lessons,evening,2 Kings 14:1–29
+after_trinity:13,6,date lt next_start-56,,,Morning and Evening Lessons,morning,1 Timothy 5:1–25
+after_trinity:13,6,date lt next_start-56,,,Morning and Evening Lessons,evening,2 Kings 15:1–38
+after_trinity:14,1,date lt next_start-56,,,Morning and Evening Lessons,morning,1 Timothy 6:1–21
+after_trinity:14,1,date lt next_start-56,,,Morning and Evening Lessons,evening,Isaiah 6:1–13
+after_trinity:14,2,date lt next_start-56,,,Morning and Evening Lessons,morning,2 Timothy 1:1–18
+after_trinity:14,2,date lt next_start-56,,,Morning and Evening Lessons,evening,Amos 7:7–17
+after_trinity:14,3,date lt next_start-56,,,Morning and Evening Lessons,morning,2 Timothy 2:1–26
+after_trinity:14,3,date lt next_start-56,,,Morning and Evening Lessons,evening,2 Kings 16:1–20
+after_trinity:14,4,date lt next_start-56,,,Morning and Evening Lessons,morning,Titus 1:1–16
+after_trinity:14,4,date lt next_start-56,,,Morning and Evening Lessons,evening,2 Kings 17:1–23
+after_trinity:14,5,date lt next_start-56,,,Morning and Evening Lessons,morning,Titus 2:1–10
+after_trinity:14,5,date lt next_start-56,,,Morning and Evening Lessons,evening,2 Kings 18:1–37
+after_trinity:14,6,date lt next_start-56,,,Morning and Evening Lessons,morning,Titus 2:15–3:3
+after_trinity:14,6,date lt next_start-56,,,Morning and Evening Lessons,evening,2 Kings 19:1–37
+after_trinity:15,1,date lt next_start-56,,,Morning and Evening Lessons,morning,Titus 3:8–15
+after_trinity:15,1,date lt next_start-56,,,Morning and Evening Lessons,evening,2 Kings 20:1–21
+after_trinity:15,2,date lt next_start-56,,,Morning and Evening Lessons,morning,Philemon 1–25
+after_trinity:15,2,date lt next_start-56,,,Morning and Evening Lessons,evening,2 Kings 21:1–26
+after_trinity:15,3,date lt next_start-56,,,Morning and Evening Lessons,morning,Hebrews 1:1–14
+after_trinity:15,3,date lt next_start-56,,,Morning and Evening Lessons,evening,2 Chronicles 34:1–33
+after_trinity:15,4,date lt next_start-56,,,Morning and Evening Lessons,morning,Hebrews 2:5–3:6
+after_trinity:15,4,date lt next_start-56,,,Morning and Evening Lessons,evening,2 Chronicles 35:20–36:10
+after_trinity:15,5,date lt next_start-56,,,Morning and Evening Lessons,morning,Hebrews 4:14–5:14
+after_trinity:15,5,date lt next_start-56,,,Morning and Evening Lessons,evening,Jeremiah 22:1–30
+after_trinity:15,6,date lt next_start-56,,,Morning and Evening Lessons,morning,Hebrews 6:1–20
+after_trinity:15,6,date lt next_start-56,,,Morning and Evening Lessons,evening,Jeremiah 25:1–14
+after_trinity:16,1,date lt next_start-56,,,Morning and Evening Lessons,morning,Hebrews 7:1–28
+after_trinity:16,1,date lt next_start-56,,,Morning and Evening Lessons,evening,Jeremiah 37:1–21
+after_trinity:16,2,date lt next_start-56,,,Morning and Evening Lessons,morning,Hebrews 8:1–13
+after_trinity:16,2,date lt next_start-56,,,Morning and Evening Lessons,evening,Jeremiah 38:1–28
+after_trinity:16,3,date lt next_start-56,,,Morning and Evening Lessons,morning,Hebrews 9:1–10
+after_trinity:16,3,date lt next_start-56,,,Morning and Evening Lessons,evening,Jeremiah 32:1–44
+after_trinity:16,4,date lt next_start-56,,,Morning and Evening Lessons,morning,Hebrews 9:16–28
+after_trinity:16,4,date lt next_start-56,,,Morning and Evening Lessons,evening,Jeremiah 39:1–18
+after_trinity:16,5,date lt next_start-56,,,Morning and Evening Lessons,morning,Hebrews 10:1–34
+after_trinity:16,5,date lt next_start-56,,,Morning and Evening Lessons,evening,Jeremiah 29:1–23
+after_trinity:16,6,date lt next_start-56,,,Morning and Evening Lessons,morning,Hebrews 11:1–7
+after_trinity:16,6,date lt next_start-56,,,Morning and Evening Lessons,evening,Daniel 1:1–21
+after_trinity:17,1,date lt next_start-56,,,Morning and Evening Lessons,morning,Hebrews 11:17–40
+after_trinity:17,1,date lt next_start-56,,,Morning and Evening Lessons,evening,Daniel 3:1–30
+after_trinity:17,2,date lt next_start-56,,,Morning and Evening Lessons,morning,Hebrews 12:1–17
+after_trinity:17,2,date lt next_start-56,,,Morning and Evening Lessons,evening,Daniel 4:1–37
+after_trinity:17,3,date lt next_start-56,,,Morning and Evening Lessons,morning,Hebrews 13:1–25
+after_trinity:17,3,date lt next_start-56,,,Morning and Evening Lessons,evening,Daniel 5:1–30
+after_trinity:17,4,date lt next_start-56,,,Morning and Evening Lessons,morning,James 1:1–15
+after_trinity:17,4,date lt next_start-56,,,Morning and Evening Lessons,evening,Daniel 5:31–6:28
+after_trinity:17,5,date lt next_start-56,,,Morning and Evening Lessons,morning,James 2:1–13
+after_trinity:17,5,date lt next_start-56,,,Morning and Evening Lessons,evening,Ezra 1:1–11
+after_trinity:17,6,date lt next_start-56,,,Morning and Evening Lessons,morning,James 2:14–26
+after_trinity:17,6,date lt next_start-56,,,Morning and Evening Lessons,evening,Ezra 3:1–13
+after_trinity:18,1,date lt next_start-56,,,Morning and Evening Lessons,morning,James 3:1–18
+after_trinity:18,1,date lt next_start-56,,,Morning and Evening Lessons,evening,Ezra 4:1–24
+after_trinity:18,2,date lt next_start-56,,,Morning and Evening Lessons,morning,James 4:1–5:6
+after_trinity:18,2,date lt next_start-56,,,Morning and Evening Lessons,evening,Haggai 1:1–15
+after_trinity:18,3,date lt next_start-56,,,Morning and Evening Lessons,morning,James 5:12–20
+after_trinity:18,3,date lt next_start-56,,,Morning and Evening Lessons,evening,Ezra 5:1–17
+after_trinity:18,4,date lt next_start-56,,,Morning and Evening Lessons,morning,1 Peter 3:1–7
+after_trinity:18,4,date lt next_start-56,,,Morning and Evening Lessons,evening,Ezra 6:1–22
+after_trinity:18,5,date lt next_start-56,,,Morning and Evening Lessons,morning,1 Peter 3:15–22
+after_trinity:18,5,date lt next_start-56,,,Morning and Evening Lessons,evening,Ezra 7:1–28
+after_trinity:18,6,date lt next_start-56,,,Morning and Evening Lessons,morning,1 Peter 5:1–5
+after_trinity:18,6,date lt next_start-56,,,Morning and Evening Lessons,evening,Ezra 8:31–9:15
+after_trinity:19,1,date lt next_start-56,,,Morning and Evening Lessons,morning,1 John 1:1–10
+after_trinity:19,1,date lt next_start-56,,,Morning and Evening Lessons,evening,Nehemiah 1:1–11
+after_trinity:19,2,date lt next_start-56,,,Morning and Evening Lessons,morning,1 John 2:1–17
+after_trinity:19,2,date lt next_start-56,,,Morning and Evening Lessons,evening,Nehemiah 2:1–20
+after_trinity:19,3,date lt next_start-56,,,Morning and Evening Lessons,morning,1 John 5:1–3
+after_trinity:19,3,date lt next_start-56,,,Morning and Evening Lessons,evening,Nehemiah 4:1–23
+after_trinity:19,4,date lt next_start-56,,,Morning and Evening Lessons,morning,1 John 5:10–21
+after_trinity:19,4,date lt next_start-56,,,Morning and Evening Lessons,evening,Nehemiah 8:1–18
+after_trinity:19,5,date lt next_start-56,,,Morning and Evening Lessons,morning,2 John 1–13
+after_trinity:19,5,date lt next_start-56,,,Morning and Evening Lessons,evening,Nehemiah 9:1–38
+after_trinity:19,6,date lt next_start-56,,,Morning and Evening Lessons,morning,3 John 1–14
+after_trinity:19,6,date lt next_start-56,,,Morning and Evening Lessons,evening,Zechariah 8:1–23
+next_start-56,1,date gt @trinity,,,Morning and Evening Lessons,morning,Mark 4:1–11
+next_start-56,1,date gt @trinity,,,Morning and Evening Lessons,evening,Isaiah 43:1–13
+next_start-56,2,date gt @trinity,,,Morning and Evening Lessons,morning,Luke 13:18–35
+next_start-56,2,date gt @trinity,,,Morning and Evening Lessons,evening,Isaiah 41:1–20
+next_start-56,3,date gt @trinity,,,Morning and Evening Lessons,morning,Matthew 13:31–58
+next_start-56,3,date gt @trinity,,,Morning and Evening Lessons,evening,Habakkuk 2:1–4
+next_start-56,4,date gt @trinity,,,Morning and Evening Lessons,morning,Matthew 16:13–20
+next_start-56,4,date gt @trinity,,,Morning and Evening Lessons,evening,Isaiah 63:7–19
+next_start-56,5,date gt @trinity,,,Morning and Evening Lessons,morning,2 Corinthians 3:10–4:18
+next_start-56,5,date gt @trinity,,,Morning and Evening Lessons,evening,Isaiah 64:1–12
+next_start-56,6,date gt @trinity,,,Morning and Evening Lessons,morning,2 Corinthians 5:1–21
+next_start-56,6,date gt @trinity,,,Morning and Evening Lessons,evening,Isaiah 5:1–7
+next_start-49,1,date gt @trinity,,,Morning and Evening Lessons,morning,Ephesians 1:1–23
+next_start-49,1,date gt @trinity,,,Morning and Evening Lessons,evening,Micah 6:1–9
+next_start-49,2,date gt @trinity,,,Morning and Evening Lessons,morning,Ephesians 2:1–22
+next_start-49,2,date gt @trinity,,,Morning and Evening Lessons,evening,Isaiah 58:1–14
+next_start-49,3,date gt @trinity,,,Morning and Evening Lessons,morning,Ephesians 4:7–21
+next_start-49,3,date gt @trinity,,,Morning and Evening Lessons,evening,Isaiah 59:1–21
+next_start-49,4,date gt @trinity,,,Morning and Evening Lessons,morning,Ephesians 4:29–32
+next_start-49,4,date gt @trinity,,,Morning and Evening Lessons,evening,Jeremiah 31:1–22
+next_start-49,5,date gt @trinity,,,Morning and Evening Lessons,morning,Ephesians 5:10–14
+next_start-49,5,date gt @trinity,,,Morning and Evening Lessons,evening,Jeremiah 31:23–40
+next_start-49,6,date gt @trinity,,,Morning and Evening Lessons,morning,Ephesians 5:22–33
+next_start-49,6,date gt @trinity,,,Morning and Evening Lessons,evening,Isaiah 48:1–22
+next_start-42,1,date gt @trinity,,,Morning and Evening Lessons,morning,Matthew 18:1–22
+next_start-42,1,date gt @trinity,,,Morning and Evening Lessons,evening,Micah 4:9–5:1
+next_start-42,2,date gt @trinity,,,Morning and Evening Lessons,morning,Mark 9:33–50
+next_start-42,2,date gt @trinity,,,Morning and Evening Lessons,evening,Isaiah 49:14–21
+next_start-42,3,date gt @trinity,,,Morning and Evening Lessons,morning,Luke 17:20–27
+next_start-42,3,date gt @trinity,,,Morning and Evening Lessons,evening,Isaiah 2:10–21
+next_start-42,4,date gt @trinity,,,Morning and Evening Lessons,morning,Romans 8:24–39
+next_start-42,4,date gt @trinity,,,Morning and Evening Lessons,evening,Isaiah 63:1–6
+next_start-42,5,date gt @trinity,,,Morning and Evening Lessons,morning,Mark 12:1–12
+next_start-42,5,date gt @trinity,,,Morning and Evening Lessons,evening,Joel 2:1–11
+next_start-42,6,date gt @trinity,,,Morning and Evening Lessons,morning,Matthew 25:14–30
+next_start-42,6,date gt @trinity,,,Morning and Evening Lessons,evening,Joel 2:12–27
+next_start-35,1,date gt @trinity,,,Morning and Evening Lessons,morning,1 Corinthians 3:1–23
+next_start-35,1,date gt @trinity,,,Morning and Evening Lessons,evening,Joel 3:1–13
+next_start-35,2,date gt @trinity,,,Morning and Evening Lessons,morning,Matthew 19:16–30
+next_start-35,2,date gt @trinity,,,Morning and Evening Lessons,evening,Joel 3:14–21
+next_start-35,3,date gt @trinity,,,Morning and Evening Lessons,morning,Luke 14:12–15
+next_start-35,3,date gt @trinity,,,Morning and Evening Lessons,evening,Obadiah 1–21
+next_start-35,4,date gt @trinity,,,Morning and Evening Lessons,morning,Mark 13:1–37
+next_start-35,4,date gt @trinity,,,Morning and Evening Lessons,evening,Nahum 1:1–14
+next_start-35,5,date gt @trinity,,,Morning and Evening Lessons,morning,Romans 9:1–33
+next_start-35,5,date gt @trinity,,,Morning and Evening Lessons,evening,Nahum 1:15–3:19
+next_start-35,6,date gt @trinity,,,Morning and Evening Lessons,morning,Romans 10:1–21
+next_start-35,6,date gt @trinity,,,Morning and Evening Lessons,evening,Isaiah 10:5–27
+next_start-28,1,date gt @trinity,,,Morning and Evening Lessons,morning,Romans 11:1–33
+next_start-28,1,date gt @trinity,,,Morning and Evening Lessons,evening,Isaiah 13:1–22
+next_start-28,2,date gt @trinity,,,Morning and Evening Lessons,morning,2 Thessalonians 1:11–2:17
+next_start-28,2,date gt @trinity,,,Morning and Evening Lessons,evening,Isaiah 14:1–27
+next_start-28,3,date gt @trinity,,,Morning and Evening Lessons,morning,2 Thessalonians 3:1–18
+next_start-28,3,date gt @trinity,,,Morning and Evening Lessons,evening,Isaiah 47:1–15
+next_start-28,4,date gt @trinity,,,Morning and Evening Lessons,morning,2 Timothy 3:1–17
+next_start-28,4,date gt @trinity,,,Morning and Evening Lessons,evening,Daniel 2:27–45
+next_start-28,5,date gt @trinity,,,Morning and Evening Lessons,morning,2 Timothy 4:1–22
+next_start-28,5,date gt @trinity,,,Morning and Evening Lessons,evening,Daniel 7:1–28
+next_start-28,6,date gt @trinity,,,Morning and Evening Lessons,morning,Matthew 24:1–14
+next_start-28,6,date gt @trinity,,,Morning and Evening Lessons,evening,Daniel 9:1–27
+next_start-21,1,date gt @trinity,,,Morning and Evening Lessons,morning,Matthew 24:29–51
+next_start-21,1,date gt @trinity,,,Morning and Evening Lessons,evening,Daniel 11:36–12:13
+next_start-21,2,date gt @trinity,,,Morning and Evening Lessons,morning,Matthew 22:23–33
+next_start-21,2,date gt @trinity,,,Morning and Evening Lessons,evening,Ezekiel 38:1–23
+next_start-21,3,date gt @trinity,,,Morning and Evening Lessons,morning,1 Corinthians 15:11–50
+next_start-21,3,date gt @trinity,,,Morning and Evening Lessons,evening,Ezekiel 39:16–29
+next_start-21,4,date gt @trinity,,,Morning and Evening Lessons,morning,Hebrews 3:7–4:13
+next_start-21,4,date gt @trinity,,,Morning and Evening Lessons,evening,Isaiah 43:14–25
+next_start-21,5,date gt @trinity,,,Morning and Evening Lessons,morning,Hebrews 11:8–16
+next_start-21,5,date gt @trinity,,,Morning and Evening Lessons,evening,Isaiah 33:17–24
+next_start-21,6,date gt @trinity,,,Morning and Evening Lessons,morning,Hebrews 12:18–29
+next_start-21,6,date gt @trinity,,,Morning and Evening Lessons,evening,Ezekiel 37:1–14
+next_start-14,1,date gt @trinity,,,Morning and Evening Lessons,morning,1 Peter 1:1–12
+next_start-14,1,date gt @trinity,,,Morning and Evening Lessons,evening,Zephaniah 3:9–20
+next_start-14,2,date gt @trinity,,,Morning and Evening Lessons,morning,1 Peter 1:13–2:10
+next_start-14,2,date gt @trinity,,,Morning and Evening Lessons,evening,Isaiah 34:1–17
+next_start-14,3,date gt @trinity,,,Morning and Evening Lessons,morning,1 Peter 4:1–7
+next_start-14,3,date gt @trinity,,,Morning and Evening Lessons,evening,Isaiah 35:1–10
+next_start-14,4,date gt @trinity,,,Morning and Evening Lessons,morning,1 Peter 4:12–19
+next_start-14,4,date gt @trinity,,,Morning and Evening Lessons,evening,Isaiah 54:1–17
+next_start-14,5,date gt @trinity,,,Morning and Evening Lessons,morning,2 Peter 1:1–15
+next_start-14,5,date gt @trinity,,,Morning and Evening Lessons,evening,Isaiah 60:7–22
+next_start-14,6,date gt @trinity,,,Morning and Evening Lessons,morning,2 Peter 2:1–22
+next_start-14,6,date gt @trinity,,,Morning and Evening Lessons,evening,Isaiah 62:1–12
+next_start-7,1,date gt @trinity,,,Morning and Evening Lessons,morning,2 Peter 3:1–18
+next_start-7,1,date gt @trinity,,,Morning and Evening Lessons,evening,Isaiah 65:17–25
+next_start-7,2,date gt @trinity,,,Morning and Evening Lessons,morning,Jude 1–25
+next_start-7,2,date gt @trinity,,,Morning and Evening Lessons,evening,Ezekiel 37:15–28
+next_start-7,3,date gt @trinity,,,Morning and Evening Lessons,morning,1 John 2:18–29
+next_start-7,3,date gt @trinity,,,Morning and Evening Lessons,evening,Habakkuk 3:1–19
+next_start-7,4,date gt @trinity,,,Morning and Evening Lessons,morning,1 John 3:1–12
+next_start-7,4,date gt @trinity,,,Morning and Evening Lessons,evening,Isaiah 40:27–31
+next_start-7,5,date gt @trinity,,,Morning and Evening Lessons,morning,1 John 3:19–24
+next_start-7,5,date gt @trinity,,,Morning and Evening Lessons,evening,Jeremiah 14:7–9
+next_start-7,6,date gt @trinity,,,Morning and Evening Lessons,morning,1 John 4:1–8
+next_start-7,6,date gt @trinity,,,Morning and Evening Lessons,evening,Malachi 3:7–18

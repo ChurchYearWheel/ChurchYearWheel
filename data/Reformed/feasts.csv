@@ -1,0 +1,10 @@
+id,date,name,full_name,color_override,color_override_bottom,style,variant,when,link
+# ===========================================================================,,,,,,,,,
+# The Reformed calendar keeps few days besides the Lord's: All Saints Day;,,,,,,,,,
+"# and among the RCA's observances, Reformation Sunday, ""Sunday before October",,,,,,,,,
+"# 31 (unless October 31 falls on a Sunday, then it is just called Reformation",,,,,,,,,
+"# Day)"", and Reformation Day (rca.org/liturgical-calendar).",,,,,,,,,
+# ===========================================================================,,,,,,,,,
+,sun<=10-31,Reformation Sunday,,,,,,date ne 10-31,https://en.wikipedia.org/wiki/Reformation_Day
+,10-31,Reformation Day,,,,,,,https://en.wikipedia.org/wiki/Reformation_Day
+,11-01,All Saints Day,,WHITE,,,,,https://en.wikipedia.org/wiki/All_Saints'_Day

@@ -1,0 +1,8 @@
+id,date,name,full_name,rank,style,color_override,color_override_bottom,icon,icon_when,transfer,variant,when,action,link
+,02-04,St. Maria de Mattias,"Saint Maria de Mattias, virgin",11,memorial,,,,,,,,,
+,05-12,"Our Lady, Mother of Mercy",,12,optional_memorial,,,,,,,,,
+,05-24,"Our Lady, Help of Christians",,11,memorial,,,,,,,,,
+,07-01,Most Precious Blood of Our Lord Jesus Christ,"The Most Precious Blood of Our Lord Jesus Christ, Titular Feast of the Congregation",4,solemnity,RED,,,,,,,,
+,09-15,"Our Lady of Sorrows, Woman of the New Covenant",,11,memorial,,,,,,,,,https://www.franciscanmedia.org/saint-of-the-day/our-lady-of-sorrows/
+,10-21,St. Gaspar del Bufalo,"Saint Gaspar del Bufalo, priest and founder",4,solemnity,WHITE,,,,,,,,
+st_francis_xavier,,,"Saint Francis Xavier, priest; Patron of the Congregation",8,feast_rank,WHITE,,,,,,,,

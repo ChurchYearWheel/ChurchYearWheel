@@ -1,0 +1,101 @@
+id,date,name,full_name,color_override,color_override_bottom,style,variant,when,link
+# ===========================================================================,,,,,,,,,
+# Each church's festivals and special days.,,,,,,,,,
+# ===========================================================================,,,,,,,,,
+,thu#4:11,Thanksgiving Day,,,WHITE,,wels wels-one-year,,https://en.wikipedia.org/wiki/Thanksgiving_(United_States)
+,01-01,Name of Jesus,,,WHITE,,wels wels-one-year,,https://blog.cph.org/read/church-year/circumcision-name-of-jesus
+"# WELS minor festivals: the ones Christian Worship (2021) gives readings for (cw21.csv), from 2021-22 on, and the ones the CW (1993) guides cover (cw93.csv) before it.",,,,,,,,,
+,11-30,St. Andrew,"St. Andrew, Apostle",,,,wels,year ge 2021,https://blog.cph.org/read/church-year/st-andrew-apostle
+,11-30,St. Andrew,"St. Andrew, Apostle",,,,wels-one-year,,https://blog.cph.org/read/church-year/st-andrew-apostle
+,12-21,St. Thomas,"St. Thomas, Apostle",,,,wels,year ge 2021,https://blog.cph.org/read/church-year/st-thomas-apostle
+,12-21,St. Thomas,"St. Thomas, Apostle",,,,wels-one-year,,https://blog.cph.org/read/church-year/st-thomas-apostle
+,12-26,St. Stephen,"St. Stephen, Deacon and Martyr",,,,wels,year ge 2021,https://blog.cph.org/read/church-year/st-stephen-martyr
+,12-26,St. Stephen,"St. Stephen, Deacon and Martyr",,,,wels-one-year,,https://blog.cph.org/read/church-year/st-stephen-martyr
+,12-27,St. John,"St. John, Apostle and Evangelist",,,,wels,year ge 2021,https://blog.cph.org/read/church-year/st-john-apostle-evangelist
+,12-27,St. John,"St. John, Apostle and Evangelist",,,,wels-one-year,,https://blog.cph.org/read/church-year/st-john-apostle-evangelist
+,12-28,Holy Innocents,,,,,wels,year ge 2021,https://blog.cph.org/read/church-year/holy-innocents
+,12-28,Holy Innocents,,,,,wels-one-year,,https://blog.cph.org/read/church-year/holy-innocents
+,01-18,Confession of St. Peter,,,,,wels,year ge 2021,https://blog.cph.org/read/church-year/confession-st-peter
+,01-18,Confession of St. Peter,,,,,wels-one-year,,https://blog.cph.org/read/church-year/confession-st-peter
+,01-24,St. Timothy,"St. Timothy, Pastor and Confessor",,,,wels,year ge 2021,https://blog.cph.org/read/church-year/st-timothy
+,01-24,St. Timothy,"St. Timothy, Pastor and Confessor",,,,wels-one-year,,https://blog.cph.org/read/church-year/st-timothy
+,01-25,Conversion of St. Paul,,,,,wels,year ge 2021,https://blog.cph.org/read/church-year/conversion-st-paul
+,01-25,Conversion of St. Paul,,,,,wels-one-year,,https://blog.cph.org/read/church-year/conversion-st-paul
+,01-26,St. Titus,"St. Titus, Pastor and Confessor",,,,wels,year ge 2021,https://blog.cph.org/read/church-year/st-titus
+,01-26,St. Titus,"St. Titus, Pastor and Confessor",,,,wels-one-year,,https://blog.cph.org/read/church-year/st-titus
+,02-02,Presentation of Our Lord,,,,,wels,year ge 2021,https://blog.cph.org/read/church-year/purification-presentation
+,02-02,Presentation of Our Lord,,,,,wels-one-year,,https://blog.cph.org/read/church-year/purification-presentation
+,02-24,St. Matthias,"St. Matthias, Apostle",,,,wels,year ge 2021,https://blog.cph.org/read/church-year/st-matthias-apostle
+,02-24,St. Matthias,"St. Matthias, Apostle",,,,wels-one-year,,https://blog.cph.org/read/church-year/st-matthias-apostle
+,03-19,St. Joseph,"St. Joseph, Guardian of Our Lord",,,,wels,year ge 2021,https://blog.cph.org/read/church-year/st-joseph-guardian-of-jesus
+,03-19,St. Joseph,"St. Joseph, Guardian of Our Lord",,,,wels-one-year,,https://blog.cph.org/read/church-year/st-joseph-guardian-of-jesus
+,03-25,Annunciation of Our Lord,,,,,wels,year ge 2021,https://blog.cph.org/read/church-year/annunciation-name-of-jesus
+,03-25,Annunciation of Our Lord,,,,,wels-one-year,,https://blog.cph.org/read/church-year/annunciation-name-of-jesus
+,04-25,St. Mark,"St. Mark, Evangelist",,,,wels,year ge 2021,https://blog.cph.org/read/church-year/st-mark-evangelist
+,04-25,St. Mark,"St. Mark, Evangelist",,,,wels-one-year,,https://blog.cph.org/read/church-year/st-mark-evangelist
+,05-01,St. Philip and St. James,"St. Philip and St. James, Apostles",,,,wels,year ge 2021,https://blog.cph.org/read/church-year/philip-james
+,05-01,St. Philip and St. James,"St. Philip and St. James, Apostles",,,,wels-one-year,,https://blog.cph.org/read/church-year/philip-james
+,05-31,Visitation,,,,,wels,year ge 2021,https://blog.cph.org/read/church-year/the-visitation
+,05-31,Visitation,,,,,wels-one-year,,https://blog.cph.org/read/church-year/the-visitation
+,06-11,St. Barnabas,"St. Barnabas, Apostle",,,,wels,year ge 2021,https://blog.cph.org/read/church-year/st-barnabas-apostle-acts
+,06-11,St. Barnabas,"St. Barnabas, Apostle",,,,wels-one-year,,https://blog.cph.org/read/church-year/st-barnabas-apostle-acts
+,06-24,Nativity of St. John the Baptist,,,,,wels,year ge 2021,https://blog.cph.org/read/church-year/nativity-of-st-john-the-baptist-luke-1
+,06-24,Nativity of St. John the Baptist,,,,,wels-one-year,,https://blog.cph.org/read/church-year/nativity-of-st-john-the-baptist-luke-1
+,06-25,Presentation of the Augsburg Confession,,,,,wels,year ge 2021,https://blog.cph.org/read/church-year/commemoration/presentation-of-the-augsburg-confession
+,06-25,Presentation of the Augsburg Confession,,,,,wels-one-year,,https://blog.cph.org/read/church-year/commemoration/presentation-of-the-augsburg-confession
+,06-29,St. Peter and St. Paul,"St. Peter and St. Paul, Apostles",,,,wels,year ge 2021,https://blog.cph.org/read/church-year/feast-of-st-peter-and-st-paul
+,06-29,St. Peter and St. Paul,"St. Peter and St. Paul, Apostles",,,,wels-one-year,,https://blog.cph.org/read/church-year/feast-of-st-peter-and-st-paul
+,07-22,St. Mary Magdalene,,,,,wels,year ge 2021,https://blog.cph.org/read/church-year/mary-magdalene-john-20
+,07-22,St. Mary Magdalene,,,,,wels-one-year,,https://blog.cph.org/read/church-year/mary-magdalene-john-20
+,07-25,St. James the Elder,"St. James the Elder, Apostle",,,,wels,year ge 2021,https://blog.cph.org/read/church-year/st-james-the-elder-apostle
+,07-25,St. James the Elder,"St. James the Elder, Apostle",,,,wels-one-year,,https://blog.cph.org/read/church-year/st-james-the-elder-apostle
+,08-15,St. Mary,"St. Mary, Mother of Our Lord",,,,wels,year ge 2021,https://blog.cph.org/read/church-year/mary-mother-of-our-lord
+,08-15,St. Mary,"St. Mary, Mother of Our Lord",,,,wels-one-year,,https://blog.cph.org/read/church-year/mary-mother-of-our-lord
+,08-24,St. Bartholomew,"St. Bartholomew, Apostle",,,,wels,year ge 2021,https://blog.cph.org/read/church-year/bartholomew-apostle
+,08-24,St. Bartholomew,"St. Bartholomew, Apostle",,,,wels-one-year,,https://blog.cph.org/read/church-year/bartholomew-apostle
+,08-29,Martyrdom of St. John the Baptist,,,,,wels,year ge 2021,https://blog.cph.org/read/church-year/martyrdom-john-the-baptist
+,08-29,Martyrdom of St. John the Baptist,,,,,wels-one-year,,https://blog.cph.org/read/church-year/martyrdom-john-the-baptist
+,09-21,St. Matthew,"St. Matthew, Apostle and Evangelist",,,,wels,year ge 2021,https://blog.cph.org/read/church-year/feast-st-matthew
+,09-21,St. Matthew,"St. Matthew, Apostle and Evangelist",,,,wels-one-year,,https://blog.cph.org/read/church-year/feast-st-matthew
+,09-29,St. Michael and All Angels,,,,,wels,year ge 2021,https://blog.cph.org/read/church-year/st-michael-and-all-angels-daniel-12
+,09-29,St. Michael and All Angels,,,,,wels-one-year,,https://blog.cph.org/read/church-year/st-michael-and-all-angels-daniel-12
+,10-18,St. Luke,"St. Luke, Evangelist",,,,wels,year ge 2021,https://blog.cph.org/read/church-year/luke-the-evangelist
+,10-18,St. Luke,"St. Luke, Evangelist",,,,wels-one-year,,https://blog.cph.org/read/church-year/luke-the-evangelist
+,10-23,St. James of Jerusalem,,,,,wels,year ge 2021,"https://blog.cph.org/read/church-year/james-of-jerusalem,_brother_of_Jesus"
+,10-23,St. James of Jerusalem,,,,,wels-one-year,,"https://blog.cph.org/read/church-year/james-of-jerusalem,_brother_of_Jesus"
+,10-28,St. Simon and St. Jude,"St. Simon and St. Jude, Apostles",,,,wels,year ge 2021,https://blog.cph.org/read/church-year/simon-jude-apostles-john-15
+,10-28,St. Simon and St. Jude,"St. Simon and St. Jude, Apostles",,,,wels-one-year,,https://blog.cph.org/read/church-year/simon-jude-apostles-john-15
+,01-18,Confession of St. Peter,,,,,wels,year lt 2021,https://blog.cph.org/read/church-year/confession-st-peter
+,01-25,Conversion of St. Paul,,,,,wels,year lt 2021,https://blog.cph.org/read/church-year/conversion-st-paul
+,02-02,Presentation of Our Lord,,,,,wels,year lt 2021,https://blog.cph.org/read/church-year/purification-presentation
+,07-25,St. James the Elder,"St. James the Elder, Apostle",,,,wels,year lt 2021,https://blog.cph.org/read/church-year/st-james-the-elder-apostle
+,08-15,St. Mary,"St. Mary, Mother of Our Lord",,,,wels,year lt 2021,https://blog.cph.org/read/church-year/mary-mother-of-our-lord
+,08-24,St. Bartholomew,"St. Bartholomew, Apostle",,,,wels,year lt 2021,https://blog.cph.org/read/church-year/bartholomew-apostle
+,12-26,St. Stephen,"St. Stephen, Deacon and Martyr",,,,wels,year lt 2021,https://blog.cph.org/read/church-year/st-stephen-martyr
+"# LCANZ festivals, and the Australian and New Zealand days in its calendar.",,,,,,,,,
+,10-31,Reformation,Commemoration of the Reformation,,RED,,lca,,
+,11-01,All Saints,,,WHITE,,lca,,https://en.wikipedia.org/wiki/All_Saints'_Day
+,01-26,Australia Day,,,,,lca,,
+,02-06,Waitangi Day,,,,,lca,,
+,04-25,Anzac Day,,,,,lca,,
+mothers_day,sun#2:05,Mother's Day,,,,,lca,,
+fathers_day,sun#1:09,Father's Day,,,,,lca,,
+"# The Moravian festival days, with their colors where the 2026 lectionary gives them.",,,,,,,,,
+,03-01,Founding of the Unitas Fratrum,Commemoration of the founding of the ancient Unitas Fratrum (1457),,,,moravian,,
+,05-12,Brotherly Agreement,Adoption of the Brotherly Agreement (1727),,,,moravian,,
+,06-17,Founding of Herrnhut,Anniversary of the beginning of Herrnhut (1722),,,,moravian,,
+,07-06,John Hus Festival,,,RED,,moravian,,
+,08-13,August Thirteenth Festival,,,RED,,moravian,,
+,08-17,Children's Festival,,,,,moravian,,
+,09-16,Ministers' Covenant Day,,,,,moravian,,
+,11-13,Chief Elder Festival,,,WHITE,,moravian,,
+,11-01,All Saints' Day,,,WHITE,,moravian,date nwd sun,https://en.wikipedia.org/wiki/All_Saints'_Day
+# Covenant Sunday is often the first Sunday of the year; Watchnight on 31 December;,,,,,,,,,
+"# Remembrance Sunday the second Sunday in November (methodist.org.uk, special Sundays).",,,,,,,,,
+covenant,sun#1:01,Covenant Sunday,,,,,methodist-gb,,
+,12-31,Watchnight,,,,,methodist-gb,,
+remembrance_sunday,sun#2:11,Remembrance Sunday,,,,,methodist-gb,,
+,05-24,Wesley Day,"Wesley Day (Aldersgate, 24 May 1738)",,RED,,methodist-gb,,
+# Aldersgate Sunday: the Sunday before 24 May.,,,,,,,,,
+aldersgate,sun<05-24,Aldersgate Sunday,Aldersgate Sunday (Conversion of John and Charles Wesley),,RED,,methodist-gb,,
+,11-30,St Andrew's Day,,,WHITE,,scotland,,

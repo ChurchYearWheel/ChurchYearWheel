@@ -1,0 +1,37 @@
+id,date,name,full_name,rank,style,color_override,color_override_bottom,icon,icon_when,transfer,variant,when,action,from,to,every,first,count,title,claims,link
+# ===========================================================================
+# The Personal Ordinariate of the Chair of Saint Peter (the United States and
+"# Canada), from Wikipedia's ""Personal jurisdiction calendars of the Roman"
+# Rite": the calendar of the United States with these additions and changes,,
+# and the Sundays named as Divine Worship: the Missal names them.
+# ===========================================================================
+ordinary_1,,,,,,,,,,,,,,,easter-64,,,,{ordinal} Sunday after Epiphany,,
+septuagesima,easter-63,,"The Sunday called Septuagesima, or the Third Sunday before Lent",6,,,,,,,,,,,,,,,Septuagesima,TRUE,
+sexagesima,easter-56,,"The Sunday called Sexagesima, or the Second Sunday before Lent",6,,,,,,,,,,,,,,,Sexagesima,TRUE,
+quinquagesima,easter-49,,"The Sunday called Quinquagesima, or the Sunday next before Lent",6,,,,,,,,,,,,,,,Quinquagesima,TRUE,
+ordinary_2,,,,,,,,,,,,,,@trinity+1,,,1,-,{ordinal} Sunday after Trinity,,
+,01-12,St. Benedict Biscop,"Saint Benedict Biscop, abbot",12,optional_memorial,,,,,,,,,,,,,,,,
+,02-04,St. Gilbert of Sempringham,"Saint Gilbert of Sempringham, religious",12,optional_memorial,,,,,,,,,,,,,,,,
+chair_of_st_peter,,,"The Chair of Saint Peter the Apostle, titular of the Ordinariate",4,solemnity,WHITE,,,,,,,,,,,,,,,
+,03-01,St. David,"Saint David, bishop",12,optional_memorial,,,,,,,,,,,,,,,,
+st_george,,,"Saint George, martyr",11,memorial,,,,,,,,,,,,,,,,
+st_adalbert,04-24,,"Saint Adalbert, bishop and martyr (24 April in the Ordinariate)",,,,,,,,,,,,,,,,,,
+,05-04,English Martyrs,The English Martyrs,11,memorial,,,,,,,,,,,,,,,,
+,05-19,"Sts. Dunstan, Ethelwold and Oswald","Saints Dunstan, Ethelwold, and Oswald, bishops",12,optional_memorial,,,,,,,,,,,,,,,,
+,06-09,St. Columba,"Saint Columba, abbot",12,optional_memorial,,,,,,,,,,,,,,,,
+,06-16,St. Richard of Chichester,"Saint Richard of Chichester, bishop",12,optional_memorial,,,,,,,,,,,,,,,,
+,06-20,St. Alban,"Saint Alban, protomartyr of England",12,optional_memorial,,,,,,,,,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-alban/
+sts_john_fisher_and_thomas_more,,,"Saints John Fisher, bishop, and Thomas More, martyrs",11,memorial,,,,,,,,,,,,,,,,
+st_paulinus_of_nola,06-23,,"Saint Paulinus of Nola, bishop (23 June in the Ordinariate)",,,,,,,,,,,,,,,,,,
+,06-23,"Sts. Hilda, Etheldreda and Mildred","Saints Hilda, Etheldreda, and Mildred, and All Holy Nuns",12,optional_memorial,,,,,,,,,,,,,,,,
+,07-09,Our Lady of the Atonement,,12,optional_memorial,,,,,,,,,,,,,,,,
+,08-30,"Sts. Margaret Clitherow, Anne Line and Margaret Ward","Saints Margaret Clitherow, Anne Line, and Margaret Ward, martyrs",12,optional_memorial,,,,,,,,,,,,,,,,
+,08-31,St. Aidan and the Saints of Lindisfarne,"Saint Aidan, bishop, and the Saints of Lindisfarne",12,optional_memorial,,,,,,,,,,,,,,,,
+,09-04,St. Cuthbert,"Saint Cuthbert, bishop",12,optional_memorial,,,,,,,,,,,,,,,,
+,09-19,St. Theodore of Canterbury or St. Adrian,"Saint Theodore of Canterbury, bishop, or Saint Adrian, abbot",12,optional_memorial,,,,,,,,,,,,,,,,
+,09-24,Our Lady of Walsingham,"Our Lady of Walsingham, Patroness of the Ordinariate",8,feast_rank,WHITE,,,,,,,,,,,,,,,
+st_denis_and_companions,10-08,,"Saint Denis and companions, martyrs (8 October in the Ordinariate)",,,,,,,,,,,,,,,,,,
+st_john_leonardi,10-08,,"Saint John Leonardi, priest (8 October in the Ordinariate)",,,,,,,,,,,,,,,,,,
+,10-12,St. Wilfrid,Saint Wilfrid,12,optional_memorial,,,,,,,,,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-wilfrid/
+,10-13,St. Edward the Confessor,Saint Edward the Confessor,12,optional_memorial,,,,,,,,,,,,,,,,
+,11-20,St. Edmund,"Saint Edmund, martyr",12,optional_memorial,,,,,,,,,,,,,,,,

@@ -1,0 +1,46 @@
+id,variant,when,date,from,to,every,first,count,first2,count2,title,names,notes,latin,color,color_bottom,rank,style,icon,claims,yield,full_name
+# ===========================================================================,,,,,,,,,,,,,,,,,,,,,,
+"# The year of the Ambrosian Rite (Archdiocese of Milan), from the Sunday after",,,,,,,,,,,,,,,,,,,,,,
+# St. Martin.,,,,,,,,,,,,,,,,,,,,,,
+# ===========================================================================,,,,,,,,,,,,,,,,,,,,,,
+# Avvento: six Sundays from the Sunday after St. Martin (11 November).,,,,,,,,,,,,,,,,,,,,,,
+advent,,,,start,start+28,sun,1,,,,{roman} domenica di Avvento,,,,,,,,,,,
+incarnation,,,start+35,,,,,,,,Domenica dell'Incarnazione,,,,WHITE,,,,,TRUE,,VI domenica di Avvento: Domenica dell'Incarnazione o della divina Maternità della beata sempre Vergine Maria
+prenatal_sunday,,date wd sun,12-24,,,,,,,,Domenica prenatalizia,,,,,,,,,TRUE,,"Domenica prenatalizia (la VII feria prenatalizia, 24 dicembre)"
+christmas,,,12-25,,,,,,,,Natale del Signore,,,,WHITE,,,,obligation,TRUE,,
+octave_sunday,,date lt 01-01,sun>12-25,,,,,,,,Domenica nell'Ottava del Natale,,,,,,,,,TRUE,,
+circumcision,,,01-01,,,,,,,,Ottava del Natale nella Circoncisione del Signore,,,,WHITE,,,,obligation,,,
+after_octave,,date lt 01-06,sun>01-01,,,,,,,,Domenica dopo l'Ottava del Natale,,,,,,,,,TRUE,,
+epiphany,,,01-06,,,,,,,,Epifania del Signore,,,,WHITE,,,,obligation,TRUE,,
+baptism,,,sun>01-06,,,,,,,,Battesimo del Signore,,,,WHITE,,,,,TRUE,,
+after_epiphany,,,,@baptism+1,easter-63,sun,2,,,,{roman} domenica dopo l'Epifania,,,,,,,,,,,
+holy_family,,date lt easter-56,sun#-1:01,,,,,,,,"Santa Famiglia di Gesù, Maria e Giuseppe",,,,WHITE,,,,,TRUE,,
+penultimate,,,easter-56,,,,,,,,Penultima domenica dopo l'Epifania,,della divina clemenza,,,,,,,TRUE,,
+last_epiphany,,,easter-49,,,,,,,,Ultima domenica dopo l'Epifania,,del perdono,,,,,,,TRUE,,
+# Quaresima: from the Sunday six weeks before Easter; no Ash Wednesday.,,,,,,,,,,,,,,,,,,,,,,
+lent1,,,easter-42,,,,,,,,I domenica di Quaresima,,,,,,,,,TRUE,,
+samaritan,,,easter-35,,,,,,,,II domenica di Quaresima,,della Samaritana,,,,,,,TRUE,,
+abraham,,,easter-28,,,,,,,,III domenica di Quaresima,,di Abramo,,,,,,,TRUE,,
+blind,,,easter-21,,,,,,,,IV domenica di Quaresima,,del Cieco,,,,,,,TRUE,,
+lazarus,,,easter-14,,,,,,,,V domenica di Quaresima,,di Lazzaro,,,,,,,TRUE,,
+palms,,,easter-7,,,,,,,,Domenica delle Palme,,,,RED,,,,,TRUE,,Domenica delle Palme nella Passione del Signore
+holy_thursday,,,easter-3,,,,,,,,Giovedì santo,,,,WHITE,,,,,,,Giovedì santo nella Cena del Signore
+good_friday,,,easter-2,,,,,,,,Venerdì santo,,,,RED,,,,fast,,,Venerdì santo nella Passione e Morte del Signore
+holy_saturday,,,easter-1,,,,,,,,Sabato santo,,,,RED,WHITE,,,,,,
+# Pasqua.,,,,,,,,,,,,,,,,,,,,,,
+easter,,,easter,,,,,,,,Pasqua di Risurrezione,,,,WHITE,,,,,TRUE,,
+after_easter,,,,easter+7,easter+42,sun,2,,,,{roman} domenica di Pasqua,,,,,,,,,,,
+ascension,,,easter+39,,,,,,,,Ascensione del Signore,,,,WHITE,,,,,,,
+pentecost,,,easter+49,,,,,,,,Pentecoste,,,,RED,,,,,TRUE,,
+trinity,,,easter+56,,,,,,,,Santissima Trinità,,,,WHITE,,,,,TRUE,,
+corpus_domini,,,easter+60,,,,,,,,Corpus Domini,,,,WHITE,,,,,,,Santissimo Corpo e Sangue di Cristo
+"# Sundays after Pentecost to the Martyrdom of St. John the Baptist (29 August, itself the Sunday before it when a Sunday, as the Archdiocese kept 2021).",,,,,,,,,,,,,,,,,,,,,,
+after_pentecost,,,,easter+57,@before_martyrdom-1,sun,2,,,,{roman} domenica dopo Pentecoste,,,,RED,,,,,,,
+before_martyrdom,,,sun<=08-29,,,,,,,,Domenica che precede il Martirio di san Giovanni,,,,RED,,,,,TRUE,,Domenica che precede il Martirio di san Giovanni il Precursore
+after_martyrdom,,,,@before_martyrdom+1,@dedication-1,sun,1,,,,{roman} domenica dopo il Martirio di san Giovanni,,,,,,,,,,,
+dedication,,,sun#3:10,,,,,,,,Dedicazione del Duomo di Milano,,,,WHITE,,,,,TRUE,,"Dedicazione del Duomo di Milano, chiesa madre di tutti i fedeli ambrosiani"
+after_dedication,,,,@dedication+1,next_start-8,sun,1,,,,{roman} domenica dopo la Dedicazione,,,,,,,,,,,
+christ_king,,,next_start-7,,,,,,,,Nostro Signore Gesù Cristo Re dell'universo,,,,WHITE,,,,,TRUE,,
+"# Fast and abstinence on the first Friday of Lent (in place of Ash Wednesday) and abstinence on the other Fridays of Lent (CEI, Il senso cristiano del digiuno e dell'astinenza, 1994, n. 13).",,,,,,,,,,,,,,,,,,,,,,
+lent_first_friday,,,@lent1+5,,,,,,,,,,,,,,,,fast,,,
+lent_fridays,,,,@lent1+12,@good_friday-7,fri,,,,,,,,,,,,,abstinence,,,

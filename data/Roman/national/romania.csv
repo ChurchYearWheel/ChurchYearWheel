@@ -1,0 +1,8 @@
+id,date,name,full_name,rank,style,color_override,color_override_bottom,icon,icon_when,transfer,variant,when,action,link
+sts_cyril_and_methodius,,,"Saints Cyril, monk and Methodius, bishop",8,feast_rank,WHITE,,,,,,,,
+,02-28,St. John Cassian,"Saint John Cassian, priest",11,memorial,,,,,,,,,https://www.loyolapress.com/catholic-resources/saints/saints-stories-for-all-ages/saint-john-cassian/
+st_catherine_of_siena,,,"Saint Catherine of Siena, virgin and doctor of the Church",8,feast_rank,WHITE,,,,,,,,
+,05-16,Bl. Vladimir Ghika,"Blessed Vladimir Ghika, priest and martyr",12,optional_memorial,,,,,,,,,
+st_benedict,,,"Saint Benedict, abbot",8,feast_rank,WHITE,,,,,,,,
+,07-23,St. Birgitta,"Saint Birgitta, religious",8,feast_rank,WHITE,,,,,,,,
+st_teresa_benedicta_of_the_cross,,,"Saint Teresa Benedicta of the Cross (Edith Stein), virgin and martyr",8,feast_rank,RED,,,,,,,,

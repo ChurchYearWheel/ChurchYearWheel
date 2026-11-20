@@ -1,0 +1,28 @@
+id,variant,when,date,from,to,every,first,count,first2,count2,title,names,notes,latin,color,color_bottom,rank,style,icon,claims,yield,full_name
+# ===========================================================================,,,,,,,,,,,,,,,,,,,,,,
+"# The principal days of the PC(USA) year (Book of Common Worship, 2018, and the",,,,,,,,,,,,,,,,,,,,,,
+"# Revised Common Lectionary), as rules.  Colors as the denomination's planning",,,,,,,,,,,,,,,,,,,,,,
+"# calendars show them: purple Advent and Lent, Maundy Thursday purple and",,,,,,,,,,,,,,,,,,,,,,
+"# white, no color on Good Friday and Holy Saturday.",,,,,,,,,,,,,,,,,,,,,,
+# ===========================================================================,,,,,,,,,,,,,,,,,,,,,,
+advent,,,,start,start+27,sun,1,,,,{ordinal} Sunday of Advent,,,,,,,,,,,
+christmas_eve,,,12-24,,,,,,,,Christmas Eve,,,,,WHITE,,,,,,
+christmas,,,12-25,,,,,,,,Nativity of the Lord,,,,,,,,,,,Nativity of the Lord / Christmas Day
+after_christmas,,,,@christmas+1,@epiphany-1,sun,1,,,,{ordinal} Sunday after Christmas,,,,,,,,,,,
+epiphany,,,01-06,,,,,,,,Epiphany of the Lord,,,,WHITE,,,,,,,
+baptism,,,sun>@epiphany,,,,,,,,Baptism of the Lord,,,,WHITE,,,,,TRUE,,
+after_epiphany,,,,@epiphany+1,@transfiguration,sun,1,,,,{ordinal} Sunday after the Epiphany,,,,,,,,,,,
+transfiguration,,,easter-49,,,,,,,,Transfiguration of the Lord,,,,WHITE,,,,,TRUE,,
+ash_wednesday,,,easter-46,,,,,,,,Ash Wednesday,,,,PURPLE,,,,,,,
+lent,,,,@ash_wednesday,@palm_sunday-1,sun,1,,,,{ordinal} Sunday in Lent,,,,,,,,,,,
+palm_sunday,,,easter-7,,,,,,,,Palm/Passion Sunday,,,,,,,,,,,
+maundy_thursday,,,easter-3,,,,,,,,Maundy Thursday,,,,PURPLE,WHITE,,,,,,
+good_friday,,,easter-2,,,,,,,,Good Friday,,,,NONE,,,,,,,
+holy_saturday,,,easter-1,,,,,,,,Holy Saturday,,,,NONE,,,,,,,
+easter,,,easter,,,,,,,,Resurrection of the Lord,,,,WHITE,,,,,,,Resurrection of the Lord / Easter Day
+after_easter,,,,easter+1,@pentecost-1,sun,2,,,,{ordinal} Sunday of Easter,,,,,,,,,,,
+ascension,,,easter+39,,,,,,,,Ascension of the Lord,,,,WHITE,,,,,,,
+pentecost,,,easter+49,,,,,,,,Day of Pentecost,,,,RED,,,,,,,
+trinity,,,easter+56,,,,,,,,Trinity Sunday,,,,WHITE,,,,,,,
+after_pentecost,,,,@trinity+1,end,sun,2,,29,down,{ordinal} Sunday after Pentecost,,Proper {number2},,,,,,,,,
+christ_the_king,,,next_start-7,,,,,,,,Christ the King,,,,WHITE,,,,,TRUE,,Christ the King / Reign of Christ

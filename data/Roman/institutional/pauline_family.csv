@@ -1,0 +1,8 @@
+id,date,name,full_name,rank,style,color_override,color_override_bottom,icon,icon_when,transfer,variant,when,action
+,@ascension+2,"Our Lady, Queen of the Apostles",,8,feast_rank,WHITE,,,,,,,
+,06-30,St. Paul,"Saint Paul the Apostle, Patron Saint of the Congregation",4,solemnity,RED,,,,,,,
+,09-03,"Our Lady, Mother of the Good Shepherd",,11,memorial,,,,,,,,
+st_gregory_the_great,09-04,,"Saint Gregory the Great, pope and Doctor of the Church",10,memorial,-,,,,,,,
+,10-22,Bl. Timothy Giaccardo,"Blessed Timothy Giaccardo, priest",11,memorial,,,,,,,,
+,sun#-1:10,"Jesus, Divine Master",,4,solemnity,WHITE,,,,,,,
+,11-26,Bl. James Alberione,"Blessed James Alberione, priest and founder",8,feast_rank,WHITE,,,,,,,

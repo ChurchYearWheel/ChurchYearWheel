@@ -1,0 +1,753 @@
+day,offset,when,cycle,variant,title,kind,reading
+# ===========================================================================
+"# The Maronite Lectionary's Epistle and Gospel for every day, from the"
+"# Liturgical Calendar for the Eparchy of Our Lady of Lebanon of Los Angeles,"
+"# 2020-2021 (the Mass Ordo), https://www.stsharbel.org/wp-content/uploads/2020/11/Mass-20-21-ORDO.pdf,"
+"# read October 2026: each Sunday's readings and the week's after it, keyed to"
+"# the Sunday.  The Sundays of Epiphany the 2020-21 Ordo does not reach (the"
+"# third and fourth) and the Sundays of Pentecost it gives to feasts (the sixth,"
+"# twelfth and thirteenth) are from the Eparchy's Qurbono Liturgical Calendar"
+"# 2019-2021, https://www.stsharbel.org/wp-content/uploads/2018/12/Qurbono-2019-2021-Liturgical-Calendar.pdf."
+"# Weekdays taken that year by a saint's feast are left out; the feasts of the"
+"# calendar have their own readings.  No readings are known for the fifth and"
+"# sixth Sundays of Epiphany, the eighteenth and nineteenth of Pentecost or the"
+"# week of the Holy Cross; Great Friday and Saturday of the Light have their"
+"# rites instead of the Divine Liturgy.  Printing errors corrected are in"
+# docs/source-errors.csv.
+# ===========================================================================
+consecration,,,,,,epistle,Hebrews 9:1–12
+consecration,,,,,,gospel,Matthew 16:13–20
+consecration,1,,,,,epistle,Hebrews 10:11–18
+consecration,1,,,,,gospel,John 17:1–8
+consecration,2,,,,,epistle,Hebrews 10:19–25
+consecration,2,,,,,gospel,John 17:9–13
+consecration,3,,,,,epistle,Hebrews 10:26–31
+consecration,3,,,,,gospel,John 17:14–19
+consecration,4,,,,,epistle,Hebrews 10:32–39
+consecration,4,,,,,gospel,John 17:20–23
+consecration,5,,,,,epistle,Romans 5:12–16
+consecration,5,,,,,gospel,John 17:24–26
+consecration,6,,,,,epistle,Romans 5:17–21
+consecration,6,,,,,gospel,John 15:15–21
+renewal,,,,,,epistle,Hebrews 9:11–15
+renewal,,,,,,gospel,John 10:22–42
+renewal,1,,,,,epistle,Hebrews 8:1–6
+renewal,1,,,,,gospel,John 10:1–16
+renewal,2,,,,,epistle,Hebrews 8:7–13
+renewal,2,,,,,gospel,John 10:7–10
+renewal,3,,,,,epistle,Hebrews 9:15–23
+renewal,3,,,,,gospel,John 10:11–16
+renewal,4,,,,,epistle,Hebrews 9:24–28
+renewal,4,,,,,gospel,John 10:17–21
+renewal,5,,,,,epistle,Hebrews 10:1–10
+renewal,5,,,,,gospel,Mark 2:18–22
+renewal,6,,,,,epistle,Hebrews 3:1–6
+renewal,6,,,,,gospel,Mark 1:21–28
+zechariah,,,,,,epistle,Romans 3:13–25
+zechariah,,,,,,gospel,Luke 1:1–25
+zechariah,1,,,,,epistle,Romans 4:1–12
+zechariah,1,,,,,gospel,John 8:31–37
+zechariah,2,,,,,epistle,Romans 2:1–8
+zechariah,2,,,,,gospel,John 8:38–40
+zechariah,3,,,,,epistle,Romans 2:9–16
+zechariah,3,,,,,gospel,John 8:41–45
+zechariah,4,,,,,epistle,Romans 2:17–29
+zechariah,4,,,,,gospel,John 8:46–50
+zechariah,5,,,,,epistle,Romans 3:1–12
+zechariah,5,,,,,gospel,John 8:51–55
+zechariah,6,,,,,epistle,Romans 3:21–31
+zechariah,6,,,,,gospel,John 8:56–59
+annunciation_mary,,,,,,epistle,Galatians 3:15–22
+annunciation_mary,,,,,,gospel,Luke 1:26–38
+annunciation_mary,1,,,,,epistle,Galatians 3:1–6
+annunciation_mary,1,,,,,gospel,Luke 11:27–32
+annunciation_mary,2,,,,,epistle,Galatians 3:7–14
+annunciation_mary,2,,,,,gospel,Matthew 11:25–30
+annunciation_mary,3,,,,,epistle,Galatians 3:23–29
+annunciation_mary,3,,,,,gospel,Matthew 13:54–58
+annunciation_mary,4,,,,,epistle,Galatians 4:1–7
+annunciation_mary,4,,,,,gospel,Matthew 12:46–50
+annunciation_mary,5,,,,,epistle,Galatians 4:8–12
+annunciation_mary,5,,,,,gospel,John 6:40–44
+annunciation_mary,6,,,,,epistle,Galatians 4:13–20
+annunciation_mary,6,,,,,gospel,Luke 10:21–24
+visitation,,,,,,epistle,Ephesians 1:1–14
+visitation,,,,,,gospel,Luke 1:39–45
+visitation,1,,,,,epistle,Ephesians 1:15–23
+visitation,1,,,,,gospel,Luke 1:46–56
+visitation,2,,,,,epistle,Ephesians 2:1–10
+visitation,2,,,,,gospel,Luke 10:38–42
+visitation,3,,,,,epistle,Ephesians 2:11–16
+visitation,3,,,,,gospel,Luke 19:1–10
+visitation,4,,,,,epistle,Ephesians 2:17–22
+visitation,4,,,,,gospel,John 4:39–42
+visitation,5,,,,,epistle,Ephesians 3:14–21
+visitation,5,,,,,gospel,Mark 7:24–30
+visitation,6,,,,,epistle,Ephesians 4:1–7
+visitation,6,,,,,gospel,Luke 5:27–32
+birth_baptist,,,,,,epistle,Galatians 4:21–5:1
+birth_baptist,,,,,,gospel,Luke 1:57–66
+birth_baptist,1,,,,,epistle,Romans 9:1–5
+birth_baptist,1,,,,,gospel,Luke 1:67–80
+birth_baptist,3,,,,,epistle,Romans 9:14–18
+birth_baptist,3,,,,,gospel,Matthew 17:9–13
+birth_baptist,4,,,,,epistle,Romans 9:19–29
+birth_baptist,4,,,,,gospel,Matthew 21:23–27
+birth_baptist,5,,,,,epistle,Romans 9:30–33
+birth_baptist,5,,,,,gospel,Matthew 11:16–19
+birth_baptist,6,,,,,epistle,Romans 10:1–13
+birth_baptist,6,,,,,gospel,John 5:31–36
+joseph,,,,,,epistle,Ephesians 3:1–13
+joseph,,,,,,gospel,Matthew 1:18–25
+joseph,2,,,,,epistle,Romans 11:1–12
+joseph,2,,,,,gospel,John 7:11–18
+joseph,3,,,,,epistle,Romans 11:13–24
+joseph,3,,,,,gospel,John 7:25–30
+joseph,4,,,,,epistle,Romans 11:25–36
+joseph,4,,,,,gospel,John 7:31–36
+joseph,5,,,,,epistle,Romans 12:1–8
+joseph,5,,,,,gospel,John 7:37–44
+joseph,6,,,,,epistle,Romans 12:9–21
+joseph,6,,,,,gospel,John 7:45–53
+genealogy,,,,,,epistle,Romans 1:1–12
+genealogy,,,,,,gospel,Matthew 1:1–17
+genealogy,1,date lt 12-25,,,,epistle,Hebrews 11:1–6
+genealogy,1,date lt 12-25,,,,gospel,John 8:1–11
+genealogy,2,date lt 12-25,,,,epistle,Hebrews 11:7–10
+genealogy,2,date lt 12-25,,,,gospel,John 8:12–20
+genealogy,3,date lt 12-25,,,,epistle,Hebrews 11:11–16
+genealogy,3,date lt 12-25,,,,gospel,John 8:21–24
+genealogy,4,date lt 12-25,,,,epistle,Hebrews 11:17–22
+genealogy,4,date lt 12-25,,,,gospel,John 8:25–30
+after_epiphany:1,,,,,,epistle,2 Corinthians 10:1–11
+after_epiphany:1,,,,,,gospel,John 1:29–34
+after_epiphany:1,1,date lt @priests,,,,epistle,2 Corinthians 10:12–18
+after_epiphany:1,1,date lt @priests,,,,gospel,Mark 1:1–8
+after_epiphany:1,2,date lt @priests,,,,epistle,2 Corinthians 11:1–6
+after_epiphany:1,2,date lt @priests,,,,gospel,John 1:19–28
+after_epiphany:1,3,date lt @priests,,,,epistle,2 Corinthians 11:7–15
+after_epiphany:1,3,date lt @priests,,,,gospel,John 3:22–30
+after_epiphany:1,4,date lt @priests,,,,epistle,"2 Corinthians 11:18, 22–30"
+after_epiphany:1,4,date lt @priests,,,,gospel,John 3:31–36
+after_epiphany:1,5,date lt @priests,,,,epistle,2 Corinthians 12:1–10
+after_epiphany:1,5,date lt @priests,,,,gospel,Matthew 14:1–12
+after_epiphany:1,6,date lt @priests,,,,epistle,2 Corinthians 12:11–16
+after_epiphany:1,6,date lt @priests,,,,gospel,John 10:40–42
+after_epiphany:2,,,,,,epistle,2 Corinthians 4:5–15
+after_epiphany:2,,,,,,gospel,John 1:35–42
+after_epiphany:2,1,date lt @priests,,,,epistle,2 Corinthians 1:1–11
+after_epiphany:2,1,date lt @priests,,,,gospel,John 1:43–51
+after_epiphany:2,2,date lt @priests,,,,epistle,2 Corinthians 1:12–24
+after_epiphany:2,2,date lt @priests,,,,gospel,Luke 5:1–11
+after_epiphany:2,3,date lt @priests,,,,epistle,2 Corinthians 2:1–11
+after_epiphany:2,3,date lt @priests,,,,gospel,Matthew 4:18–25
+after_epiphany:2,4,date lt @priests,,,,epistle,2 Corinthians 2:12–17
+after_epiphany:2,4,date lt @priests,,,,gospel,Matthew 9:9–13
+after_epiphany:2,5,date lt @priests,,,,epistle,2 Corinthians 12:17–13:4
+after_epiphany:2,5,date lt @priests,,,,gospel,Matthew 9:35–38
+after_epiphany:2,6,date lt @priests,,,,epistle,2 Corinthians 13:5–13
+after_epiphany:2,6,date lt @priests,,,,gospel,Matthew 10:1–6
+after_epiphany:3,,,,,,epistle,Galatians 3:23–29
+after_epiphany:3,,,,,,gospel,John 3:1–16
+after_epiphany:4,,,,,,epistle,Romans 7:1–6
+after_epiphany:4,,,,,,gospel,"John 4:5–7, 9–26"
+priests,,,,,,epistle,1 Timothy 4:6–16
+priests,,,,,,gospel,Luke 12:42–48
+priests,1,,,,,epistle,2 Timothy 1:1–11
+priests,1,,,,,gospel,Matthew 16:24–28
+priests,2,,,,,epistle,2 Timothy 2:1–13
+priests,2,,,,,gospel,Matthew 18:1–5
+priests,3,,,,,epistle,2 Timothy 2:14–26
+priests,3,,,,,gospel,Matthew 20:20–28
+priests,4,,,,,epistle,2 Timothy 3:10–17
+priests,4,,,,,gospel,Luke 17:7–10
+priests,5,,,,,epistle,2 Timothy 4:1–8
+priests,5,,,,,gospel,Luke 22:24–30
+priests,6,,,,,epistle,Titus 1:1–9
+priests,6,,,,,gospel,John 13:13–17
+righteous,,,,,,epistle,Hebrews 12:18–24
+righteous,,,,,,gospel,Matthew 25:31–46
+righteous,1,,,,,epistle,Hebrews 12:1–13
+righteous,1,,,,,gospel,Matthew 5:1–12
+righteous,3,,,,,epistle,Hebrews 12:25–29
+righteous,3,,,,,gospel,Matthew 5:17–20
+righteous,4,,,,,epistle,Hebrews 13:1–8
+righteous,4,,,,,gospel,Matthew 5:21–26
+righteous,5,,,,,epistle,Hebrews 13:9–16
+righteous,5,,,,,gospel,Matthew 5:27–37
+righteous,6,,,,,epistle,Hebrews 13:17–25
+righteous,6,,,,,gospel,Matthew 5:38–48
+faithful_departed,,,,,,epistle,1 Thessalonians 5:1–11
+faithful_departed,,,,,,gospel,Luke 16:19–31
+faithful_departed,1,,,,,epistle,1 Thessalonians 4:13–18
+faithful_departed,1,,,,,gospel,Luke 12:1–7
+faithful_departed,3,,,,,epistle,2 Thessalonians 2:1–12
+faithful_departed,3,,,,,gospel,Luke 12:13–21
+faithful_departed,4,,,,,epistle,2 Thessalonians 2:13–3:5
+faithful_departed,4,,,,,gospel,Luke 12:22–32
+faithful_departed,5,,,,,epistle,1 Corinthians 15:35–44a
+faithful_departed,5,,,,,gospel,Luke 12:33–40
+faithful_departed,6,,,,,epistle,1 Corinthians 15:51–58
+faithful_departed,6,,,,,gospel,Luke 12:49–59
+cana,,,,,,epistle,Romans 14:14–23
+cana,,,,,,gospel,John 2:1–11
+cana,1,,,,,epistle,2 Corinthians 5:20–6:7
+cana,1,,,,,gospel,Matthew 6:16–21
+cana,2,,,,,epistle,Romans 15:1–13
+cana,2,,,,,gospel,Matthew 6:5–15
+cana,3,,,,,epistle,Romans 15:14–21
+cana,3,,,,,gospel,Matthew 6:1–4
+cana,4,,,,,epistle,1 Timothy 6:6–12
+cana,4,,,,,gospel,Matthew 6:25–34
+cana,5,,,,,epistle,2 Thessalonians 3:6–14
+cana,5,,,,,gospel,Matthew 7:13–27
+cana,6,,,,,epistle,Hebrews 3:14–4:4
+cana,6,,,,,gospel,Luke 12:32–34
+leper,,,,,,epistle,Romans 6:12–23
+leper,,,,,,gospel,Mark 1:35–43
+leper,1,,,,,epistle,1 Thessalonians 3:6–13
+leper,1,,,,,gospel,Matthew 6:22–24
+leper,2,,,,,epistle,Galatians 2:11–17
+leper,2,,,,,gospel,Matthew 7:1–12
+leper,3,,,,,epistle,Romans 3:19–27
+leper,3,,,,,gospel,Matthew 12:38–45
+leper,4,,,,,epistle,Philippians 4:4–10
+leper,4,,,,,gospel,Luke 8:4–15
+leper,5,,,,,epistle,Romans 1:18–25
+leper,5,,,,,gospel,Matthew 18:23–35
+leper,6,,,,,epistle,Hebrews 12:28–13:9
+leper,6,,,,,gospel,Mark 11:19–25
+hemorrhaging,,,,,,epistle,2 Corinthians 7:4–11
+hemorrhaging,,,,,,gospel,Luke 8:40–56
+hemorrhaging,1,,,,,epistle,1 Timothy 4:9–16
+hemorrhaging,1,,,,,gospel,John 8:21–27
+hemorrhaging,3,,,,,epistle,Galatians 2:1–7
+hemorrhaging,3,,,,,gospel,Matthew 17:10–13
+hemorrhaging,4,,,,,epistle,Galatians 1:1–10
+hemorrhaging,4,,,,,gospel,Luke 17:20–37
+hemorrhaging,5,,,,,epistle,Romans 3:1–7
+hemorrhaging,5,,,,,gospel,Luke 12:16–21
+hemorrhaging,6,,,,,epistle,2 Timothy 3:1–9
+hemorrhaging,6,,,,,gospel,Matthew 12:1–14
+prodigal,,,,,,epistle,2 Corinthians 13:5–13
+prodigal,,,,,,gospel,Luke 15:11–32
+prodigal,1,,,,,epistle,"2 Corinthians 9:1a, 5–15"
+prodigal,1,,,,,gospel,Luke 9:37–45
+prodigal,2,,,,,epistle,1 Corinthians 16:15–24
+prodigal,2,,,,,gospel,Mark 8:22–26
+prodigal,3,,,,,epistle,Romans 14:1–13
+prodigal,3,,,,,gospel,Luke 7:1–10
+prodigal,4,,,,,epistle,2 Corinthians 1:23–2:5
+prodigal,4,,,,,gospel,Matthew 15:29–39
+prodigal,5,,,,,epistle,2 Corinthians 12:21–13:5
+prodigal,5,,,,,gospel,Matthew 9:27–35
+prodigal,6,,,,,epistle,2 Timothy 4:9–19
+prodigal,6,,,,,gospel,Mark 3:1–12
+paralytic,,,,,,epistle,1 Timothy 5:24–6:5
+paralytic,,,,,,gospel,Mark 2:1–12
+paralytic,1,,,,,epistle,Ephesians 5:3–13
+paralytic,1,,,,,gospel,Mark 5:1–20
+paralytic,2,,,,,epistle,1 Timothy 1:1–8
+paralytic,2,,,,,gospel,Mark 6:47–56
+paralytic,3,,,,,epistle,Ephesians 6:1–9
+paralytic,3,,,,,gospel,Luke 7:11–17
+paralytic,4,,,,,epistle,2 Timothy 1:6–14
+paralytic,4,,,,,gospel,Mark 4:33–41
+paralytic,6,,,,,epistle,Colossians 3:23–4:7
+paralytic,6,,,,,gospel,Mark 7:31–37
+blind,,,,,,epistle,2 Corinthians 10:1–7
+blind,,,,,,gospel,Mark 10:46–52
+blind,1,,,,,epistle,Romans 15:25–33
+blind,1,,,,,gospel,John 7:32–36
+blind,3,,,,,epistle,1 Thessalonians 4:1–9
+blind,3,,,,,gospel,Luke 11:37–48
+blind,5,,,,,epistle,2 Thessalonians 3:6–18
+blind,5,,,,,gospel,Luke 4:1–13
+lazarus,,,,,,epistle,1 Thessalonians 2:17–3:5
+lazarus,,,,,,gospel,John 11:55–12:11
+hosanna,,,,,,epistle,Philippians 1:1–13
+hosanna,,,,,,gospel,John 12:12–22
+hosanna,1,,,,,epistle,Hebrews 6:1–9
+hosanna,1,,,,,gospel,Matthew 21:17–27
+hosanna,2,,,,,epistle,1 Thessalonians 2:13–17
+hosanna,2,,,,,gospel,Luke 13:22–30
+hosanna,3,,,,,epistle,Hebrews 2:5–12
+hosanna,3,,,,,gospel,John 11:47–54
+thursday_mysteries,,,,,,epistle,1 Corinthians 11:23–32
+thursday_mysteries,,,,,,gospel,Luke 22:1–23
+easter,1,,,,,epistle,1 Corinthians 15:1–11
+easter,1,,,,,gospel,Mark 16:9–14
+easter,2,,,,,epistle,Romans 6:3–11
+easter,2,,,,,gospel,John 21:1–14
+easter,3,,,,,epistle,Colossians 3:1–11
+easter,3,,,,,gospel,John 21:15–25
+easter,4,,,,,epistle,Ephesians 2:1–10
+easter,4,,,,,gospel,Mark 16:15–18
+easter,5,,,,,epistle,Romans 10:4–12
+easter,5,,,,,gospel,Luke 24:36–45
+easter,6,,,,,epistle,Colossians 2:8–15
+easter,6,,,,,gospel,John 20:19–25
+new_sunday,,,,,,epistle,2 Corinthians 5:11–21
+new_sunday,,,,,,gospel,John 20:26–31
+new_sunday,1,,,,,epistle,1 Peter 1:1–9
+new_sunday,1,,,,,gospel,John 20:1–10
+new_sunday,2,,,,,epistle,1 Peter 1:10–16
+new_sunday,2,,,,,gospel,John 20:11–18
+new_sunday,3,,,,,epistle,1 Peter 1:17–21
+new_sunday,3,,,,,gospel,Matthew 28:11–15
+new_sunday,4,,,,,epistle,1 Peter 1:22–25
+new_sunday,4,,,,,gospel,Matthew 28:16–20
+new_sunday,5,,,,,epistle,1 Peter 2:1–10
+new_sunday,5,,,,,gospel,John 2:13–25
+new_sunday,6,,,,,epistle,1 Peter 2:11–17
+new_sunday,6,,,,,gospel,Matthew 22:41–46
+after_easter:3,,,,,,epistle,2 Timothy 2:8–13
+after_easter:3,,,,,,gospel,Luke 24:13–35
+after_easter:3,1,,,,,epistle,1 Peter 2:18–25
+after_easter:3,1,,,,,gospel,Luke 24:44–49
+after_easter:3,2,,,,,epistle,1 Peter 3:1–12
+after_easter:3,2,,,,,gospel,John 6:28–34
+after_easter:3,3,,,,,epistle,1 Peter 3:13–22
+after_easter:3,3,,,,,gospel,John 6:34–40
+after_easter:3,4,,,,,epistle,1 Peter 4:1–11
+after_easter:3,4,,,,,gospel,John 6:41–47
+after_easter:3,5,,,,,epistle,1 Peter 4:12–19
+after_easter:3,5,,,,,gospel,John 6:48–59
+after_easter:3,6,,,,,epistle,1 Peter 5:1–14
+after_easter:3,6,,,,,gospel,John 6:60–71
+after_easter:4,,,,,,epistle,Hebrews 13:18–25
+after_easter:4,,,,,,gospel,John 21:1–14
+after_easter:4,1,,,,,epistle,1 Thessalonians 1:1–10
+after_easter:4,1,,,,,gospel,Luke 5:1–11
+after_easter:4,2,,,,,epistle,1 Thessalonians 2:1–12
+after_easter:4,2,,,,,gospel,Luke 8:22–25
+after_easter:4,3,,,,,epistle,1 Thessalonians 2:13–20
+after_easter:4,3,,,,,gospel,John 6:1–15
+after_easter:4,4,,,,,epistle,1 Thessalonians 3:1–13
+after_easter:4,4,,,,,gospel,John 6:16–21
+after_easter:4,5,,,,,epistle,1 Thessalonians 4:1–12
+after_easter:4,5,,,,,gospel,John 6:22–27
+after_easter:4,6,,,,,epistle,1 Thessalonians 5:12–28
+after_easter:4,6,,,,,gospel,Matthew 14:22–33
+after_easter:5,,,,,,epistle,Ephesians 2:1–10
+after_easter:5,,,,,,gospel,John 21:15–19
+after_easter:5,1,,,,,epistle,Philippians 1:1–10
+after_easter:5,1,,,,,gospel,Luke 22:28–34
+after_easter:5,2,,,,,epistle,Philippians 1:12–20
+after_easter:5,2,,,,,gospel,John 1:35–42
+after_easter:5,3,,,,,epistle,Philippians 1:21–30
+after_easter:5,3,,,,,gospel,Matthew 16:21–28
+after_easter:5,4,,,,,epistle,Philippians 2:1–11
+after_easter:5,4,,,,,gospel,Matthew 16:11–20
+after_easter:5,5,,,,,epistle,Philippians 2:12–18
+after_easter:5,5,,,,,gospel,Matthew 18:18–22
+after_easter:5,6,,,,,epistle,Philippians 2:19–30
+after_easter:5,6,,,,,gospel,Matthew 17:24–27
+after_easter:6,,,,,,epistle,Romans 10:1–13
+after_easter:6,,,,,,gospel,Luke 24:36–48
+after_easter:6,1,,,,,epistle,Philippians 3:1–12
+after_easter:6,1,,,,,gospel,John 11:1–16
+after_easter:6,2,,,,,epistle,Philippians 3:13–21
+after_easter:6,2,,,,,gospel,John 11:17–27
+after_easter:6,3,,,,,epistle,Philippians 4:1–7
+after_easter:6,3,,,,,gospel,John 11:32–44
+ascension,,,,,,epistle,Acts 1:1–14
+ascension,,,,,,gospel,Mark 16:15–20
+after_easter:6,5,,,,,epistle,Philippians 4:8–14
+after_easter:6,5,,,,,gospel,John 3:12–15
+after_easter:6,6,,,,,epistle,Philippians 4:15–23
+after_easter:6,6,,,,,gospel,John 14:1–6
+after_ascension,,,,,,epistle,Acts 1:1–14
+after_ascension,,,,,,gospel,Mark 16:15–20
+after_ascension,1,,,,,epistle,Ephesians 4:1–13
+after_ascension,1,,,,,gospel,John 12:20–25
+after_ascension,2,,,,,epistle,Ephesians 4:17–24
+after_ascension,2,,,,,gospel,John 12:26–30
+after_ascension,3,,,,,epistle,Ephesians 4:25–32
+after_ascension,3,,,,,gospel,John 12:31–36
+after_ascension,4,,,,,epistle,Ephesians 5:1–7
+after_ascension,4,,,,,gospel,John 12:37–43
+after_ascension,5,,,,,epistle,Ephesians 5:8–21
+after_ascension,5,,,,,gospel,Mark 12:28–34
+after_ascension,6,,,,,epistle,"Ephesians 6:10–20, 23–24"
+after_ascension,6,,,,,gospel,Matthew 5:43–48
+pentecost,,,,,,epistle,Acts 2:1–21
+pentecost,,,,,,gospel,John 14:15–20
+pentecost,1,,,,,epistle,Acts 2:22–28
+pentecost,1,,,,,gospel,John 3:5–8
+pentecost,2,,,,,epistle,Acts 2:29–39
+pentecost,2,,,,,gospel,John 4:21–24
+pentecost,3,,,,,epistle,Acts 2:40–47
+pentecost,3,,,,,gospel,John 7:37–39
+pentecost,4,,,,,epistle,Acts 3:1–10
+pentecost,4,,,,,gospel,John 14:1–7
+pentecost,5,,,,,epistle,Acts 3:11–21
+pentecost,5,,,,,gospel,John 14:8–14
+pentecost,6,,,,,epistle,Acts 3:22–4:4
+pentecost,6,,,,,gospel,John 14:27–31a
+after_pentecost:2,,date lt 09-14,,,,epistle,Romans 11:25–36
+after_pentecost:2,,date lt 09-14,,,,gospel,Matthew 28:16–20
+after_pentecost:2,1,date lt 09-14,,,,epistle,Acts 4:5–12
+after_pentecost:2,1,date lt 09-14,,,,gospel,John 15:1–8
+after_pentecost:2,2,date lt 09-14,,,,epistle,Acts 4:13–22
+after_pentecost:2,2,date lt 09-14,,,,gospel,John 15:9–14
+after_pentecost:2,3,date lt 09-14,,,,epistle,Acts 4:23–31
+after_pentecost:2,3,date lt 09-14,,,,gospel,John 15:15–17
+after_pentecost:2,4,date lt 09-14,,,,epistle,Acts 5:1–11
+after_pentecost:2,4,date lt 09-14,,,,gospel,John 15:18–21
+after_pentecost:2,5,date lt 09-14,,,,epistle,Acts 5:12–21a
+after_pentecost:2,5,date lt 09-14,,,,gospel,John 15:22–27
+after_pentecost:2,6,date lt 09-14,,,,epistle,Acts 5:21b–33
+after_pentecost:2,6,date lt 09-14,,,,gospel,John 16:1–4
+after_pentecost:3,,date lt 09-14,,,,epistle,1 Corinthians 2:1–10
+after_pentecost:3,,date lt 09-14,,,,gospel,John 14:21–27
+after_pentecost:3,1,date lt 09-14,,,,epistle,Acts 5:34–42
+after_pentecost:3,1,date lt 09-14,,,,gospel,John 16:5–11
+after_pentecost:3,2,date lt 09-14,,,,epistle,Acts 6:1–12
+after_pentecost:3,2,date lt 09-14,,,,gospel,John 16:12–15
+after_pentecost:3,3,date lt 09-14,,,,epistle,Acts 7:1–8
+after_pentecost:3,3,date lt 09-14,,,,gospel,John 16:16–19
+after_pentecost:3,4,date lt 09-14,,,,epistle,Acts 7:9–16
+after_pentecost:3,4,date lt 09-14,,,,gospel,John 16:20–24
+after_pentecost:3,5,date lt 09-14,,,,epistle,Acts 7:17–29
+after_pentecost:3,5,date lt 09-14,,,,gospel,John 16:25–28
+after_pentecost:3,6,date lt 09-14,,,,epistle,Acts 7:30–38
+after_pentecost:3,6,date lt 09-14,,,,gospel,John 16:29–33
+after_pentecost:4,,date lt 09-14,,,,epistle,1 Corinthians 2:11–16
+after_pentecost:4,,date lt 09-14,,,,gospel,Luke 10:21–24
+after_pentecost:4,1,date lt 09-14,,,,epistle,Acts 7:44–50
+after_pentecost:4,1,date lt 09-14,,,,gospel,Matthew 18:1–5
+after_pentecost:4,2,date lt 09-14,,,,epistle,Acts 7:51–8:1a
+after_pentecost:4,2,date lt 09-14,,,,gospel,Matthew 18:6–10
+after_pentecost:4,3,date lt 09-14,,,,epistle,Acts 8:1b–8
+after_pentecost:4,3,date lt 09-14,,,,gospel,Matthew 18:12–14
+after_pentecost:4,4,date lt 09-14,,,,epistle,"Acts 8:9, 13b–25"
+after_pentecost:4,4,date lt 09-14,,,,gospel,Matthew 18:15–20
+after_pentecost:4,5,date lt 09-14,,,,epistle,Acts 8:26–40
+after_pentecost:4,5,date lt 09-14,,,,gospel,Matthew 18:21–35
+after_pentecost:4,6,date lt 09-14,,,,epistle,"Acts 9:1–6, 10–11, 15–19"
+after_pentecost:4,6,date lt 09-14,,,,gospel,Matthew 11:25–30
+after_pentecost:5,,date lt 09-14,,,,epistle,Philippians 3:7–14
+after_pentecost:5,,date lt 09-14,,,,gospel,Matthew 10:1–7
+after_pentecost:5,1,date lt 09-14,,,,epistle,Acts 9:19b–30
+after_pentecost:5,1,date lt 09-14,,,,gospel,Matthew 10:8–15
+after_pentecost:5,2,date lt 09-14,,,,epistle,Acts 9:31–43
+after_pentecost:5,2,date lt 09-14,,,,gospel,Mark 13:9–13
+after_pentecost:5,3,date lt 09-14,,,,epistle,"Acts 10:1–9, 19–23a"
+after_pentecost:5,3,date lt 09-14,,,,gospel,Matthew 10:21–26
+after_pentecost:5,4,date lt 09-14,,,,epistle,"Acts 10:23b–27, 34–43"
+after_pentecost:5,4,date lt 09-14,,,,gospel,Matthew 10:27–33
+after_pentecost:5,5,date lt 09-14,,,,epistle,Acts 10:44–49
+after_pentecost:5,5,date lt 09-14,,,,gospel,Matthew 10:40–11:1
+after_pentecost:5,6,date lt 09-14,,,,epistle,Acts 11:19–30
+after_pentecost:5,6,date lt 09-14,,,,gospel,Matthew 10:16–25
+after_pentecost:6,,date lt 09-14,,,,epistle,"1 Corinthians 12:12–13, 27–30"
+after_pentecost:6,,date lt 09-14,,,,gospel,Matthew 10:16–25
+after_pentecost:6,1,date lt 09-14,,,,epistle,Acts 12:1–11
+after_pentecost:6,1,date lt 09-14,,,,gospel,Matthew 15:1–9
+after_pentecost:6,2,date lt 09-14,,,,epistle,Acts 12:12–24
+after_pentecost:6,2,date lt 09-14,,,,gospel,Matthew 15:10–20
+after_pentecost:6,4,date lt 09-14,,,,epistle,Acts 13:13–25
+after_pentecost:6,4,date lt 09-14,,,,gospel,Matthew 16:1–4
+after_pentecost:6,5,date lt 09-14,,,,epistle,Acts 13:26–39
+after_pentecost:6,5,date lt 09-14,,,,gospel,Matthew 16:5–12
+after_pentecost:6,6,date lt 09-14,,,,epistle,Acts 13:44–52
+after_pentecost:6,6,date lt 09-14,,,,gospel,John 3:31–36
+after_pentecost:7,,date lt 09-14,,,,epistle,2 Corinthians 3:1–6
+after_pentecost:7,,date lt 09-14,,,,gospel,Luke 10:1–7
+after_pentecost:7,1,date lt 09-14,,,,epistle,Acts 14:1–7
+after_pentecost:7,1,date lt 09-14,,,,gospel,Luke 10:8–12
+after_pentecost:7,2,date lt 09-14,,,,epistle,Acts 14:8–18
+after_pentecost:7,2,date lt 09-14,,,,gospel,Luke 10:13–16
+after_pentecost:7,3,date lt 09-14,,,,epistle,Acts 14:19–28
+after_pentecost:7,3,date lt 09-14,,,,gospel,Luke 10:17–20
+after_pentecost:7,4,date lt 09-14,,,,epistle,Acts 15:1–12
+after_pentecost:7,4,date lt 09-14,,,,gospel,Luke 10:25–28
+after_pentecost:7,5,date lt 09-14,,,,epistle,Acts 15:13–21
+after_pentecost:7,5,date lt 09-14,,,,gospel,Luke 10:29–37
+after_pentecost:8,,date lt 09-14,,,,epistle,Romans 8:1–11
+after_pentecost:8,,date lt 09-14,,,,gospel,Matthew 12:14–21
+after_pentecost:8,1,date lt 09-14,,,,epistle,"Acts 15:36–16:3, 6–10"
+after_pentecost:8,1,date lt 09-14,,,,gospel,Luke 11:1–4
+after_pentecost:8,2,date lt 09-14,,,,epistle,Acts 16:11–23
+after_pentecost:8,2,date lt 09-14,,,,gospel,Luke 11:5–8
+after_pentecost:8,3,date lt 09-14,,,,epistle,Acts 16:25–34
+after_pentecost:8,3,date lt 09-14,,,,gospel,Luke 11:9–13
+after_pentecost:8,4,date lt 09-14,,,,epistle,Acts 17:1–12
+after_pentecost:8,4,date lt 09-14,,,,gospel,Luke 11:14–23
+after_pentecost:8,5,date lt 09-14,,,,epistle,"Acts 17:16–20, 22–24, 30–34"
+after_pentecost:8,5,date lt 09-14,,,,gospel,Luke 11:24–26
+after_pentecost:8,6,date lt 09-14,,,,epistle,Acts 18:1–11
+after_pentecost:8,6,date lt 09-14,,,,gospel,Luke 11:27–32
+after_pentecost:9,,date lt 09-14,,,,epistle,2 Corinthians 5:20–6:10
+after_pentecost:9,,date lt 09-14,,,,gospel,Luke 4:14–21
+after_pentecost:9,1,date lt 09-14,,,,epistle,Acts 18:18–28
+after_pentecost:9,1,date lt 09-14,,,,gospel,Luke 11:33–36
+after_pentecost:9,2,date lt 09-14,,,,epistle,Acts 19:1–10
+after_pentecost:9,2,date lt 09-14,,,,gospel,Luke 11:37–41
+after_pentecost:9,3,date lt 09-14,,,,epistle,Acts 19:11–22
+after_pentecost:9,3,date lt 09-14,,,,gospel,Luke 11:42–46
+after_pentecost:9,4,date lt 09-14,,,,epistle,"Acts 19:23–29, 35–40"
+after_pentecost:9,4,date lt 09-14,,,,gospel,Luke 11:47–51
+after_pentecost:9,6,date lt 09-14,,,,epistle,"Acts 20:17–24, 28, 32, 35"
+after_pentecost:9,6,date lt 09-14,,,,gospel,Matthew 23:1–12
+after_pentecost:10,,date lt 09-14,,,,epistle,1 Corinthians 12:1–11
+after_pentecost:10,,date lt 09-14,,,,gospel,Matthew 12:22–32
+after_pentecost:10,1,date lt 09-14,,,,epistle,Acts 21:1–14
+after_pentecost:10,1,date lt 09-14,,,,gospel,Matthew 23:13–15
+after_pentecost:10,2,date lt 09-14,,,,epistle,Acts 21:15–26
+after_pentecost:10,2,date lt 09-14,,,,gospel,Matthew 23:16–22
+after_pentecost:10,3,date lt 09-14,,,,epistle,"Acts 21:27–28, 30b–40a"
+after_pentecost:10,3,date lt 09-14,,,,gospel,Matthew 23:23–26
+after_pentecost:10,4,date lt 09-14,,,,epistle,Acts 21:40–22:10
+after_pentecost:10,4,date lt 09-14,,,,gospel,Luke 12:1–5
+after_pentecost:10,5,date lt 09-14,,,,epistle,Acts 22:17–29
+after_pentecost:10,5,date lt 09-14,,,,gospel,Luke 12:6–9
+after_pentecost:11,,date lt 09-14,,,,epistle,Ephesians 2:17–22
+after_pentecost:11,,date lt 09-14,,,,gospel,Luke 19:1–10
+after_pentecost:11,1,date lt 09-14,,,,epistle,Acts 23:12–22
+after_pentecost:11,1,date lt 09-14,,,,gospel,Luke 12:13–21
+after_pentecost:11,2,date lt 09-14,,,,epistle,Acts 23:23–35
+after_pentecost:11,2,date lt 09-14,,,,gospel,Luke 12:22–31
+after_pentecost:11,3,date lt 09-14,,,,epistle,"Acts 24:1–2a, 5–6b, 9–13, 17–21"
+after_pentecost:11,3,date lt 09-14,,,,gospel,Luke 12:32–34
+after_pentecost:11,4,date lt 09-14,,,,epistle,Acts 24:27–25:12
+after_pentecost:11,4,date lt 09-14,,,,gospel,Luke 12:35–40
+after_pentecost:11,6,date lt 09-14,,,,epistle,"Acts 26:1–2, 6–10, 12–19"
+after_pentecost:11,6,date lt 09-14,,,,gospel,Luke 12:49–53
+after_pentecost:12,,date lt 09-14,,,,epistle,Ephesians 3:1–13
+after_pentecost:12,,date lt 09-14,,,,gospel,Matthew 15:21–28
+after_pentecost:12,1,date lt 09-14,,,,epistle,"Acts 27:1–4, 8a, 14–15, 18–26"
+after_pentecost:12,1,date lt 09-14,,,,gospel,Luke 12:54–59
+after_pentecost:12,2,date lt 09-14,,,,epistle,"Acts 27:27, 33–37, 39–44"
+after_pentecost:12,2,date lt 09-14,,,,gospel,Luke 13:1–5
+after_pentecost:12,3,date lt 09-14,,,,epistle,Acts 28:1–10
+after_pentecost:12,3,date lt 09-14,,,,gospel,Luke 13:6–9
+after_pentecost:12,4,date lt 09-14,,,,epistle,Acts 28:11–15
+after_pentecost:12,4,date lt 09-14,,,,gospel,Luke 13:10–17
+after_pentecost:12,5,date lt 09-14,,,,epistle,Acts 28:16–22
+after_pentecost:12,5,date lt 09-14,,,,gospel,Luke 13:18–21
+after_pentecost:12,6,date lt 09-14,,,,epistle,Acts 28:23–31
+after_pentecost:12,6,date lt 09-14,,,,gospel,Luke 13:22–30
+after_pentecost:13,,date lt 09-14,,,,epistle,1 Corinthians 3:1–11
+after_pentecost:13,,date lt 09-14,,,,gospel,Luke 8:1–15
+after_pentecost:13,1,date lt 09-14,,,,epistle,1 John 1:1–10
+after_pentecost:13,1,date lt 09-14,,,,gospel,Luke 13:31–35
+after_pentecost:13,2,date lt 09-14,,,,epistle,1 John 2:1–11
+after_pentecost:13,2,date lt 09-14,,,,gospel,Luke 14:1–6
+after_pentecost:13,3,date lt 09-14,,,,epistle,1 John 2:12–20
+after_pentecost:13,3,date lt 09-14,,,,gospel,Luke 14:7–11
+after_pentecost:13,4,date lt 09-14,,,,epistle,1 John 2:21–29
+after_pentecost:13,4,date lt 09-14,,,,gospel,Luke 14:12–15
+after_pentecost:13,5,date lt 09-14,,,,epistle,1 John 3:1–10
+after_pentecost:13,5,date lt 09-14,,,,gospel,Luke 14:16–24
+after_pentecost:13,6,date lt 09-14,,,,epistle,1 John 3:11–22
+after_pentecost:13,6,date lt 09-14,,,,gospel,Luke 14:25–35
+after_pentecost:14,,date lt 09-14,,,,epistle,1 Thessalonians 2:1–13
+after_pentecost:14,,date lt 09-14,,,,gospel,Luke 10:38–42
+after_pentecost:14,1,date lt 09-14,,,,epistle,1 John 3:23–4:6
+after_pentecost:14,1,date lt 09-14,,,,gospel,Luke 15:1–7
+after_pentecost:14,2,date lt 09-14,,,,epistle,1 John 4:7–21
+after_pentecost:14,2,date lt 09-14,,,,gospel,Luke 15:8–10
+after_pentecost:14,3,date lt 09-14,,,,epistle,1 John 5:1–12
+after_pentecost:14,3,date lt 09-14,,,,gospel,Luke 16:1–8
+after_pentecost:14,4,date lt 09-14,,,,epistle,1 John 5:13–21
+after_pentecost:14,4,date lt 09-14,,,,gospel,Luke 16:9–12
+after_pentecost:14,5,date lt 09-14,,,,epistle,2 John
+after_pentecost:14,5,date lt 09-14,,,,gospel,Luke 16:13–17
+after_pentecost:14,6,date lt 09-14,,,,epistle,3 John
+after_pentecost:14,6,date lt 09-14,,,,gospel,Luke 17:1–4
+after_pentecost:15,,date lt 09-14,,,,epistle,1 Thessalonians 1:1–10
+after_pentecost:15,,date lt 09-14,,,,gospel,Luke 7:36–50
+after_pentecost:15,1,date lt 09-14,,,,epistle,James 1:1–8
+after_pentecost:15,1,date lt 09-14,,,,gospel,Luke 17:5–10
+after_pentecost:15,2,date lt 09-14,,,,epistle,James 1:9–18
+after_pentecost:15,2,date lt 09-14,,,,gospel,Luke 17:11–19
+after_pentecost:15,3,date lt 09-14,,,,epistle,James 1:19–27
+after_pentecost:15,3,date lt 09-14,,,,gospel,Luke 17:20–25
+after_pentecost:15,4,date lt 09-14,,,,epistle,James 2:1–13
+after_pentecost:15,4,date lt 09-14,,,,gospel,Luke 17:26–30
+after_pentecost:15,5,date lt 09-14,,,,epistle,James 2:14–26
+after_pentecost:15,5,date lt 09-14,,,,gospel,Luke 17:31–37
+after_pentecost:15,6,date lt 09-14,,,,epistle,James 3:1–12
+after_pentecost:15,6,date lt 09-14,,,,gospel,Luke 18:1–8
+after_pentecost:16,,date lt 09-14,,,,epistle,Romans 8:18–27
+after_pentecost:16,,date lt 09-14,,,,gospel,Luke 18:9–14
+after_pentecost:16,1,date lt 09-14,,,,epistle,James 3:13–18
+after_pentecost:16,1,date lt 09-14,,,,gospel,Luke 18:15–17
+after_pentecost:16,2,date lt 09-14,,,,epistle,James 4:1–10
+after_pentecost:16,2,date lt 09-14,,,,gospel,Luke 18:18–23
+after_pentecost:16,3,date lt 09-14,,,,epistle,James 4:11–17
+after_pentecost:16,3,date lt 09-14,,,,gospel,Luke 18:24–30
+after_pentecost:16,4,date lt 09-14,,,,epistle,James 5:1–6
+after_pentecost:16,4,date lt 09-14,,,,gospel,Luke 18:31–34
+after_pentecost:16,5,date lt 09-14,,,,epistle,James 5:7–12
+after_pentecost:16,5,date lt 09-14,,,,gospel,Luke 19:11–28
+after_pentecost:16,6,date lt 09-14,,,,epistle,James 5:13–20
+after_pentecost:16,6,date lt 09-14,,,,gospel,Luke 19:41–44
+after_pentecost:17,,date lt 09-14,,,,epistle,Romans 13:8–14
+after_pentecost:17,,date lt 09-14,,,,gospel,Luke 10:25–37
+after_pentecost:17,1,date lt 09-14,,,,epistle,"1 Timothy 1:1–7, 12–17"
+after_pentecost:17,1,date lt 09-14,,,,gospel,Matthew 5:43–48
+after_pentecost:17,2,date lt 09-14,,,,epistle,1 Timothy 1:18–2:7
+after_pentecost:17,2,date lt 09-14,,,,gospel,John 13:31–35
+after_pentecost:17,3,date lt 09-14,,,,epistle,1 Timothy 2:8–15
+after_pentecost:17,3,date lt 09-14,,,,gospel,John 15:12–17
+after_pentecost:17,4,date lt 09-14,,,,epistle,1 Timothy 3:1–13
+after_pentecost:17,4,date lt 09-14,,,,gospel,Matthew 22:35–40
+after_pentecost:17,5,date lt 09-14,,,,epistle,1 Timothy 3:14–4:5
+after_pentecost:17,5,date lt 09-14,,,,gospel,Luke 6:31–38
+after_pentecost:17,6,date lt 09-14,,,,epistle,1 Timothy 4:6–16
+after_pentecost:17,6,date lt 09-14,,,,gospel,John 17:20–26
+after_cross:1,,,,,,epistle,2 Timothy 2:1–10
+after_cross:1,,,,,,gospel,Mark 10:35–45
+after_cross:1,1,,,,,epistle,Revelation 1:1–8
+after_cross:1,1,,,,,gospel,Mark 8:34–9:1
+after_cross:1,2,,,,,epistle,Revelation 1:9–20
+after_cross:1,2,,,,,gospel,Mark 9:33–37
+after_cross:1,3,,,,,epistle,Revelation 2:1–7
+after_cross:1,3,,,,,gospel,Mark 9:38–50
+after_cross:1,4,,,,,epistle,Revelation 2:8–11
+after_cross:1,4,,,,,gospel,Mark 10:17–27
+after_cross:1,5,,,,,epistle,Revelation 2:12–17
+after_cross:1,5,,,,,gospel,Mark 10:28–31
+after_cross:1,6,,,,,epistle,Revelation 2:18–29
+after_cross:1,6,,,,,gospel,Matthew 20:1–16
+after_cross:2,,,,,,epistle,1 Corinthians 15:19–34
+after_cross:2,,,,,,gospel,Matthew 24:1–14
+after_cross:2,1,,,,,epistle,Revelation 3:1–6
+after_cross:2,1,,,,,gospel,Matthew 10:16–22
+after_cross:2,2,,,,,epistle,Revelation 3:7–13
+after_cross:2,2,,,,,gospel,Matthew 11:20–24
+after_cross:2,3,,,,,epistle,Revelation 3:14–22
+after_cross:2,3,,,,,gospel,Matthew 12:29–32
+after_cross:2,4,,,,,epistle,Revelation 4:1–11
+after_cross:2,4,,,,,gospel,Matthew 12:33–37
+after_cross:2,5,,,,,epistle,Revelation 5:1–10
+after_cross:2,5,,,,,gospel,Matthew 12:38–42
+after_cross:2,6,,,,,epistle,Revelation 6:9–17
+after_cross:2,6,,,,,gospel,Matthew 12:43–45
+after_cross:3,,,,,,epistle,Philippians 3:17–4:1
+after_cross:3,,,,,,gospel,Matthew 24:23–31
+after_cross:3,1,,,,,epistle,Revelation 7:9–17
+after_cross:3,1,,,,,gospel,Matthew 24:32–44
+after_cross:3,2,,,,,epistle,Revelation 10:1–11
+after_cross:3,2,,,,,gospel,Luke 6:20–26
+after_cross:3,3,,,,,epistle,Revelation 11:1–12
+after_cross:3,3,,,,,gospel,Luke 5:33–39
+after_cross:3,4,,,,,epistle,Revelation 12:1–12
+after_cross:3,4,,,,,gospel,Luke 21:34–38
+after_cross:3,5,,,,,epistle,"Revelation 13:1, 2b–4, 6–7, 11–12, 15–18"
+after_cross:3,5,,,,,gospel,John 5:17–23
+after_cross:3,6,,,,,epistle,"Revelation 14:1–8, 13"
+after_cross:3,6,,,,,gospel,John 5:24–30
+after_cross:4,,,,,,epistle,1 Thessalonians 5:1–11
+after_cross:4,,,,,,gospel,Matthew 24:45–51
+after_cross:4,1,,,,,epistle,Revelation 15:1–8
+after_cross:4,1,,,,,gospel,John 12:20–28
+after_cross:4,2,,,,,epistle,Revelation 18:1–8
+after_cross:4,2,,,,,gospel,John 16:20–24
+after_cross:4,3,,,,,epistle,"Revelation 19:1–2, 5–9, 11–13, 16"
+after_cross:4,3,,,,,gospel,Luke 12:16–21
+after_cross:4,4,,,,,epistle,"Revelation 21:1–12, 14"
+after_cross:4,4,,,,,gospel,Luke 13:6–9
+after_cross:4,5,,,,,epistle,Revelation 21:22–22:5
+after_cross:4,5,,,,,gospel,Luke 15:3–7
+after_cross:4,6,,,,,epistle,Revelation 22:16–21
+after_cross:4,6,,,,,gospel,Luke 15:8–10
+after_cross:5,,,,,,epistle,Philippians 2:12–18
+after_cross:5,,,,,,gospel,Matthew 25:1–13
+after_cross:5,1,,,,,epistle,1 Corinthians 1:1–9
+after_cross:5,1,,,,,gospel,Luke 16:1–12
+after_cross:5,2,,,,,epistle,1 Corinthians 1:10–17
+after_cross:5,2,,,,,gospel,Luke 18:1–8
+after_cross:5,3,,,,,epistle,1 Corinthians 1:26–31
+after_cross:5,3,,,,,gospel,Luke 19:11–28
+after_cross:5,4,,,,,epistle,1 Corinthians 3:10–23
+after_cross:5,4,,,,,gospel,Mark 4:21–25
+after_cross:5,5,,,,,epistle,1 Corinthians 4:1–13
+after_cross:5,5,,,,,gospel,Mark 4:26–29
+after_cross:5,6,,,,,epistle,1 Corinthians 4:14–21
+after_cross:5,6,,,,,gospel,Matthew 22:1–14
+after_cross:6,,,,,,epistle,Galatians 6:1–10
+after_cross:6,,,,,,gospel,Matthew 25:14–30
+after_cross:6,1,,,,,epistle,1 Corinthians 6:1–11
+after_cross:6,1,,,,,gospel,Matthew 13:1–9
+after_cross:6,2,,,,,epistle,1 Corinthians 6:12–20
+after_cross:6,2,,,,,gospel,Matthew 13:10–17
+after_cross:6,3,,,,,epistle,"1 Corinthians 7:1–3, 8–14, 17, 24"
+after_cross:6,3,,,,,gospel,Matthew 13:18–23
+after_cross:6,4,,,,,epistle,1 Corinthians 7:25–35
+after_cross:6,4,,,,,gospel,Matthew 13:24–30
+after_cross:6,5,,,,,epistle,1 Corinthians 9:13–18
+after_cross:6,5,,,,,gospel,Matthew 13:31–35
+after_cross:6,6,,,,,epistle,1 Corinthians 9:19–27
+after_cross:6,6,,,,,gospel,Matthew 13:36–43
+after_cross:7,,,,,,epistle,Romans 12:9–21
+after_cross:7,,,,,,gospel,Matthew 25:31–46
+after_cross:7,1,,,,,epistle,1 Corinthians 10:1–13
+after_cross:7,1,,,,,gospel,Matthew 13:44–46
+after_cross:7,2,,,,,epistle,1 Corinthians 10:14–24
+after_cross:7,2,,,,,gospel,Matthew 13:47–53
+after_cross:7,3,,,,,epistle,1 Corinthians 12:1–11
+after_cross:7,3,,,,,gospel,Matthew 18:23–35
+after_cross:7,4,,,,,epistle,1 Corinthians 12:12–27
+after_cross:7,4,,,,,gospel,Matthew 22:15–22
+after_cross:7,5,,,,,epistle,1 Corinthians 13:1–13
+after_cross:7,5,,,,,gospel,Matthew 21:28–32
+after_cross:7,6,,,,,epistle,"1 Corinthians 14:1–5, 13–14, 20, 26"
+after_cross:7,6,,,,,gospel,Matthew 21:33–46
+easter,,,,,Midnight,epistle,Philippians 2:1–11
+easter,,,,,Midnight,gospel,Matthew 28:1–10
+easter,,,,,Morning,epistle,1 Corinthians 15:12–26
+easter,,,,,Morning,gospel,Mark 16:1–8
+nativity,,,,,,epistle,Hebrews 1:1–12
+nativity,,,,,,gospel,Luke 2:1–20
+12-26,,,,,Praises to the Mother of God,epistle,Ephesians 1:3–14
+12-26,,,,,Praises to the Mother of God,gospel,Luke 1:46–55
+12-27,,,,,"St. Stephen, the First Martyr",epistle,2 Corinthians 11:19
+12-27,,,,,"St. Stephen, the First Martyr",gospel,Matthew 23:29–24:2
+12-28,,date nwd sun,,,,epistle,"Revelation 21:9–10, 21–27"
+12-28,,date nwd sun,,,,gospel,Matthew 2:1–12
+12-29,,,,,Holy Innocents,epistle,Hebrews 11:23–31
+12-29,,,,,Holy Innocents,gospel,Matthew 2:13–18
+12-30,,date nwd sun,,,,epistle,"Acts 7:2, 30–37"
+12-30,,date nwd sun,,,,gospel,Matthew 2:19–23
+12-31,,date nwd sun,,,,epistle,Colossians 1:9b–20
+12-31,,date nwd sun,,,,gospel,John 1:1–18
+new_year,,,,,,epistle,Ephesians 2:11–22
+new_year,,,,,,gospel,Luke 2:21–24
+01-02,,date nwd sun,,,,epistle,Hebrews 7:1–10
+01-02,,date nwd sun,,,,gospel,John 14:27–31
+sun<01-06,,date ne 01-01,,,Finding of the Lord in the Temple,epistle,Hebrews 7:11–19
+sun<01-06,,date ne 01-01,,,Finding of the Lord in the Temple,gospel,Luke 2:41–52
+01-04,,date nwd sun,,,,epistle,Hebrews 6:9–12
+01-04,,date nwd sun,,,,gospel,Luke 2:26–40
+01-05,,date nwd sun,,,,epistle,Romans 5:1–11
+01-05,,date nwd sun,,,,gospel,Luke 3:1–6
+epiphany,,,,,,epistle,Titus 2:11–3:7
+epiphany,,,,,,gospel,Luke 3:15–22
+01-07,,,,,Praises to John the Baptist,epistle,Colossians 1:24–29
+01-07,,,,,Praises to John the Baptist,gospel,Luke 7:18–30
+01-08,,date nwd sun & date lt sun>01-06,,,,epistle,Colossians 2:1–7
+01-08,,date nwd sun & date lt sun>01-06,,,,gospel,Matthew 3:13–17
+01-09,,date nwd sun & date lt sun>01-06,,,,epistle,Galatians 5:2–15
+01-09,,date nwd sun & date lt sun>01-06,,,,gospel,John 5:31–38
+holy_cross,,,,,,epistle,1 Corinthians 1:18–25
+holy_cross,,,,,,gospel,John 12:20–32
+02-02,,,,,Presentation of Our Lord,epistle,Romans 9:30–10:4
+02-02,,,,,Presentation of Our Lord,gospel,Luke 2:22–35
+02-09,,,,,St. Maron,epistle,2 Timothy 3:10–17
+02-09,,,,,St. Maron,gospel,John 12:23–30
+03-25,,,,,Annunciation,epistle,Galatians 3:15–22
+03-25,,,,,Annunciation,gospel,Luke 1:26–38
+06-29,,,,,Sts. Peter and Paul,epistle,2 Corinthians 11:21–30
+06-29,,,,,Sts. Peter and Paul,gospel,Matthew 16:13–20
+08-06,,,,,Transfiguration,epistle,2 Corinthians 3:7–17
+08-06,,,,,Transfiguration,gospel,Mark 9:1–7
+12-08,,,,,Immaculate Conception,epistle,Hebrews 7:11–17
+12-08,,,,,Immaculate Conception,gospel,Luke 11:27–32
+sun#3:07,,,,,St. Sharbel,epistle,Romans 8:28–39
+sun#3:07,,,,,St. Sharbel,gospel,Matthew 13:36–43
+08-15,,,,,Assumption,epistle,Romans 12:9–15
+08-15,,,,,Assumption,gospel,Luke 1:46–55 or Luke 10:38–42
