@@ -55,6 +55,9 @@
   Wheel//…//EN`, and every event's UID ends `@churchyearwheel`, the same for
   the colors, the feasts and the readings, from Python and from the page
   (they were `church-year-calendar`, and `church-year` for the readings).
+- **The Pages workflow uses the actions' Node 24 versions** (checkout v6,
+  configure-pages v6, upload-pages-artifact v5, deploy-pages v5), so GitHub no
+  longer warns that Node.js 20 is deprecated.
 - `.gitignore` leaves out what is built: `church_year.html`, `web/data.json`
   and the workflow's `_site/`.
 
