@@ -58,6 +58,10 @@
 - **The Pages workflow uses the actions' Node 24 versions** (checkout v6,
   configure-pages v6, upload-pages-artifact v5, deploy-pages v5), so GitHub no
   longer warns that Node.js 20 is deprecated.
+- **The gold band round the center pictures** now has its black lines at its
+  edges: the outer line lies at the very edge of the picture, where a thin
+  sliver of gold showed beyond it under the month ring, and both lines are
+  drawn over the picture so nothing inside reaches across them.
 - `.gitignore` leaves out what is built: `church_year.html`, `web/data.json`
   and the workflow's `_site/`.
 

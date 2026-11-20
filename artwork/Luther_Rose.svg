@@ -1,7 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
 <circle cx="250" cy="250" r="250" fill="#e3b21a"/>
-<circle cx="250" cy="250" r="247" fill="none" stroke="#1a1a1a" stroke-width="3"/>
-<circle cx="250" cy="250" r="225" fill="#2f74b8" stroke="#1a1a1a" stroke-width="3"/>
+<circle cx="250" cy="250" r="225" fill="#2f74b8"/>
 <g transform="translate(250 250)" stroke-linejoin="round">
 <g fill="#2e8b3e" stroke="#1a1a1a" stroke-width="2.5"><path transform="rotate(36)" d="M0-118C-30-150-24-190 0-224C24-190 30-150 0-118Z"/><path transform="rotate(108)" d="M0-118C-30-150-24-190 0-224C24-190 30-150 0-118Z"/><path transform="rotate(180)" d="M0-118C-30-150-24-190 0-224C24-190 30-150 0-118Z"/><path transform="rotate(252)" d="M0-118C-30-150-24-190 0-224C24-190 30-150 0-118Z"/><path transform="rotate(324)" d="M0-118C-30-150-24-190 0-224C24-190 30-150 0-118Z"/></g>
 <g stroke="#14602a" stroke-width="2" fill="none"><path transform="rotate(36)" d="M0-150V-214"/><path transform="rotate(108)" d="M0-150V-214"/><path transform="rotate(180)" d="M0-150V-214"/><path transform="rotate(252)" d="M0-150V-214"/><path transform="rotate(324)" d="M0-150V-214"/></g>
@@ -12,4 +11,6 @@
 <path d="M0 86C-110 10-94-84-46-84C-22-84-6-76 0-65C6-76 22-84 46-84C94-84 110 10 0 86Z" fill="#d81e2c" stroke="#1a1a1a" stroke-width="3"/>
 <path d="M-13-58h26v25h29v27h-29v74h-26v-74h-29v-27h29z"/>
 </g>
+<circle cx="250" cy="250" r="248.5" fill="none" stroke="#1a1a1a" stroke-width="3"/>
+<circle cx="250" cy="250" r="225" fill="none" stroke="#1a1a1a" stroke-width="3"/>
 </svg>

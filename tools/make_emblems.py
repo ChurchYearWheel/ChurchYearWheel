@@ -45,10 +45,18 @@ def turned(path: str, degrees: float) -> str:
 
 
 def rim(field: str) -> str:
-    """The gold ring every picture sits in, and the field that fills it."""
+    """The gold ring every picture sits in, and the field that fills it.  Its
+    two black lines are drawn by picture(), over the picture, so that they
+    stay the band's edges whatever the picture reaches into."""
     return ('<circle cx="250" cy="250" r="250" fill="#e3b21a"/>\n'
-            f'<circle cx="250" cy="250" r="247" fill="none" stroke="{INK}" stroke-width="3"/>\n'
-            f'<circle cx="250" cy="250" r="225" fill="{field}" stroke="{INK}" stroke-width="3"/>\n')
+            f'<circle cx="250" cy="250" r="225" fill="{field}"/>\n')
+
+
+# The band's two edges: the outer line lies inside the circle's edge, so the
+# picture ends in black where the month ring meets it, with no gold showing
+# beyond; the inner line is the field's edge.
+RIM_LINES = (f'<circle cx="250" cy="250" r="248.5" fill="none" stroke="{INK}" stroke-width="3"/>\n'
+             f'<circle cx="250" cy="250" r="225" fill="none" stroke="{INK}" stroke-width="3"/>\n')
 
 
 def rays(count: int, color: str, radius: float = 223.5, turn: float = 0.0) -> str:
@@ -63,7 +71,7 @@ def rays(count: int, color: str, radius: float = 223.5, turn: float = 0.0) -> st
 
 
 def picture(field: str, inner: str) -> str:
-    return SVG.format(rim(field) + f'<g transform="translate(250 250)" stroke-linejoin="round">\n{inner}\n</g>\n')
+    return SVG.format(rim(field) + f'<g transform="translate(250 250)" stroke-linejoin="round">\n{inner}\n</g>\n' + RIM_LINES)
 
 
 def luther_rose() -> str:
