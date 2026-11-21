@@ -1,0 +1,45 @@
+id,variant,when,date,from,to,every,first,count,title,names,notes,latin,color,color_bottom,rank,style,icon,claims,yield,full_name
+# ===========================================================================
+"# The principal days of the Iglesia Evangélica Luterana en España (IELE), in its one-year series (Serie Anual): the"
+"# calendar of Lutheran Service Book's one-year lectionary, in Spanish, as the IELE's 2025-26 calendar names and colors"
+"# it.  A row with `from` and `to` is a run of Sundays, numbered from `first`.  See docs/traditions.md for the date language."
+"# Colors as the calendar shades its rows: Advent and Lent violet, Gaudete rose; Palm Sunday and Holy Monday red, Holy"
+"# Tuesday and Wednesday violet; Holy Saturday (Sábado de Gloria) white; Pentecost Monday and Tuesday red."
+# ===========================================================================
+advent,,,,start,start+27,sun,1,,Adviento {number},,,Ad Te Levavi|Populus Zion|Gaudete|Rorate Coeli,||ROSE|,,,,,,,
+christmas_eve,,,12-24,,,,,,Nochebuena,,,,,WHITE,,,,,,
+christmas,,,12-25,,,,,,Día de Navidad,,,,,,,,,,,
+after_christmas,,,,@christmas+1,@epiphany-1,sun,1,,Navidad {number},,,,,,,,,,,
+epiphany,,,01-06,,,,,,Epifanía de Nuestro Señor,,,,WHITE,,,,,,,
+baptism,,date lt @transfiguration,sun>@epiphany,,,,,,Bautismo de Nuestro Señor,,,,WHITE,,,,,TRUE,,
+transfiguration,,date gt @epiphany,easter-70,,,,,,Transfiguración de Nuestro Señor,,,,WHITE,,,,,TRUE,,
+after_epiphany,,,,@epiphany+1,@transfiguration,sun,1,,Epifanía {number},,,,,,,,,,,
+septuagesima,,,easter-63,,,,,,Septuagésima,,,,,,,,,,,
+sexagesima,,,easter-56,,,,,,Sexagésima,,,,,,,,,,,
+quinquagesima,,,easter-49,,,,,,Quincuagésima,,,,,,,,,,,
+ash_wednesday,,,easter-46,,,,,,Miércoles de Cenizas,,,,BLACK; violet,,,,,,,
+lent,,,,@ash_wednesday,@palm_sunday-1,sun,1,,Cuaresma {number},,,Invocabit|Reminiscere|Oculi|Laetare|Judica,,,,,,,,
+palm_sunday,,,easter-7,,,,,,Domingo de Ramos,,,Palmarum,,,,,,,,
+holy_monday,,,easter-6,,,,,,Lunes Santo,,,,SCARLET,,,,,,,
+holy_tuesday,,,easter-5,,,,,,Martes Santo,,,,PURPLE,,,,,,,
+holy_wednesday,,,easter-4,,,,,,Miércoles Santo,,,,PURPLE,,,,,,,
+maundy_thursday,,,easter-3,,,,,,Jueves Santo,,,,WHITE; scarlet; violet,,,,,,,
+good_friday,,,easter-2,,,,,,Viernes Santo,,,,BLACK,,,,,,,
+holy_saturday,,,easter-1,,,,,,Sábado de Gloria,,,,WHITE,,,,,,,
+easter,,,easter,,,,,,Día de Pascua,,,,WHITE; gold,,,,,,,
+easter_monday,,,easter+1,,,,,,Lunes de Pascua,,,,,,,,,,,
+easter_tuesday,,,easter+2,,,,,,Martes de Pascua,,,,,,,,,,,
+easter_wednesday,,,easter+3,,,,,,Miércoles de Pascua,,,,,,,,,,,
+after_easter,,,,easter+1,@pentecost-1,sun,2,,Pascua {number},,,Quasimodo Geniti|Misericordias Domini|Jubilate|Cantate|Rogate|Exaudi,,,,,,,,
+ascension,,,easter+39,,,,,,Ascensión de Nuestro Señor,,,,,,,,,,,
+pentecost_eve,,,easter+48,,,,,,Vísperas de Pentecostés,,,,,,,,,,,
+pentecost,,,easter+49,,,,,,Día de Pentecostés,,,,RED,,,,,,,
+pentecost_monday,,,easter+50,,,,,,Lunes de Pentecostés,,,,RED,,,,,,,
+pentecost_tuesday,,,easter+51,,,,,,Martes de Pentecostés,,,,RED,,,,,,,
+trinity,,,easter+56,,,,,,Domingo de Trinidad,,,,WHITE,,,,,,,
+after_trinity,,,,@trinity+1,@last_sunday,sun,1,,Trinidad {number},,,,,,,,,,,
+reformation,,date ne 10-31,sun<=10-31,,,,,,Día de la Reforma (observado),,,,RED,GREEN,,,,TRUE,,
+reformation_day,,date eq 10-31,sun<=10-31,,,,,,Día de la Reforma,,,,RED,,,,,TRUE,,
+all_saints,,date ne 11-01,sun#1:11,,,,,,Día de Todos los Santos (observado),,,,WHITE,,,,,TRUE,,
+all_saints_day,,date eq 11-01,sun#1:11,,,,,,Día de Todos los Santos,,,,WHITE,,,,,TRUE,,
+last_sunday,,,next_start-7,,,,,,Último Domingo del Año Litúrgico,,,,,,,,,TRUE,,

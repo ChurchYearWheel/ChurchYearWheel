@@ -1,0 +1,33 @@
+kind,name,start,end,season,color,subtitle,scale,variant,when,rank_weekday,rank_sunday
+# ===========================================================================
+"# The seasons (the season ring and the colors of the days), the two cycles",
+"# and the halves of the year, as rules.  A season row with a name and no"
+# season labels the ring and colors nothing; one with a season and no name
+# colors its days and puts nothing on the ring.  See docs/liturgy.md.
+# ===========================================================================
+season,Adviento,start,12-24,ADVENT,,,,,,,
+season,Navidad,12-25,01-05,CHRISTMAS,,,,,,,
+season,Epifanía,01-06,easter-64,EPIPHANY,,,,,,,
+season,Pre-Cuaresma,easter-63,easter-47,PRE_LENT,,,,,,,
+season,Cuaresma,easter-46,easter-8,LENT,,,,,,,
+season,Semana Santa,easter-7,easter-1,HOLY_WEEK,,,,,,,
+# The one-year series divides the weeks after Easter the way the historic
+# calendar does; the labels and the colors do not divide in the same places.
+season,Pascua,easter,easter+13,,,,,,,,
+season,Post-Pascua,easter+14,easter+27,,,,,,,,
+season,Pre-Pentecostés,easter+28,easter+38,,,,,,,,
+season,Pentecostés,easter+39,easter+55,,,,,,,,
+season,,easter,easter+6,EASTER,,,,,,,
+season,,easter+7,easter+38,POST_EASTER,,,,,,,
+season,,easter+39,easter+48,PRE_PENTECOST,,,,,,,
+season,,easter+49,easter+55,PENTECOST,,,,,,,
+season,Trinidad,easter+56,easter+62,TRINITY,,,,,,,
+season,Tiempo después de Trinidad,easter+63,end,SEASON_AFTER_TRINITY,,,,,,,
+# The two cycles of the festival half (not drawn unless a ring asks for them).
+broad,CHRISTMAS,start,easter-47,,,,,,,,
+broad,EASTER,easter-46,half_end,,,,,,,,
+"# The halves, with the cycles nested inside the first at a subtitle's size."
+half,MITAD FESTIVA,start,half_end,,,SOBRE EL SALVADOR,,,,,
+half,NAVIDAD,start,easter-47,,,,subtitle,,,,
+half,PASCUA,easter-46,half_end,,,,subtitle,,,,
+half,MITAD NO FESTIVA,half_end+1,end,,,SOBRE LA IGLESIA,,,,,

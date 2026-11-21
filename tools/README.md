@@ -17,6 +17,5 @@ Each prints its usage with `-h`.
 The checks of the renderers themselves (`verify.py`, `verify_bc.py`,
 `verify_readings.py`, `verify_links.py`, `verify_lists.py`, `verify_pages.py`) are in `web/`; see the README.
 
-The scripts that redraw the church emblems kept for private use (`make_roundels.py`
-and the `trace_*.py` tracers) are kept with those pictures in
-`artwork/church-emblems/tools/`, and are not published.
+Scripts for pictures kept for private use are kept with them in
+`artwork/church-emblems/`, and are not published.

@@ -49,6 +49,7 @@ it is named by its key (`lectionary`, `--lectionary`).
 | `lutheran-poland` | Lutheran → Kościół Ewangelicko-Augsburski (Poland) | `data/LutheranWorld` (variant `poland`) |
 | `lutheran-latvia` | Lutheran → Latvijas Evaņģēliski luteriskā baznīca (Latvia) | `data/LutheranWorld` (variant `latvia`) |
 | `lutheran-lca` | Lutheran → LCA (Lutheran Church of Australia and New Zealand) | `data/RCLWorld` (variant `lca`) |
+| `lutheran-iele` | Lutheran → IELE (Iglesia Evangélica Luterana en España) | `data/IELE` (variant `one-year`) |
 | `lcc-one-year` | Lutheran → LCC (Lutheran Church–Canada) → One-year | `data/LCC` (variant `one-year`) |
 | `lcc-three-year` | Lutheran → LCC (Lutheran Church–Canada) → Three-year | `data/LCC` (variant `three-year`) |
 | `lcms-one-year` | Lutheran → LCMS (Lutheran Church–Missouri Synod) → LSB (2006) → One-year | `data/LCMS/LSB` (variant `one-year`) |
@@ -196,10 +197,19 @@ Wikipedia article, else a Wikipedia search for the name and its place.
 H. R. Curtis's *Daily Divine Service Book* (2010), which builds propers for
 every day on Loehe's calendar and LSB, is under copyright and is not drawn on.
 
-## The ELS, LCC and WELS
+## The ELS, IELE, LCC and WELS
 
 **Lutheran Church–Canada** uses Lutheran Service Book as the LCMS does, in
 both series; only Thanksgiving differs (the second Monday in October).
+
+**The Iglesia Evangélica Luterana en España** (IELE) keeps Lutheran Service
+Book's one-year series in Spanish, as its *Calendario Litúrgico de la Iglesia,
+Serie Anual* (2025–26) gives it: the readings and propers are LSB's set for
+set, the feasts and festivals without the commemorations, and the colors are
+the calendar's (violet Advent with a rose Gaudete, white Holy Saturday, red
+Pentecost Monday and Tuesday). The Bible citations keep LSB's English book
+names; the Bible links open the Reina-Valera 1995. LSB's daily lectionary is
+left out, since the IELE's hymnal, *Himnario Luterano* (2021), has its own.
 
 **The Evangelical Lutheran Synod** (Evangelical Lutheran Hymnary) is taken
 from its own calendars, *ELS Historic*, *ELS 3-year* and *ELS Saint Days*
@@ -631,8 +641,7 @@ Septuagesima, Sexagesima and Estomihi in green; the five Passion Sundays
 in black; Paskah I and II and the Sundays to Exaudi in white; Pentakosta I and
 II in red; Trinitatis in white; the Sundays after Trinitatis in green; and the
 **Minggu Akhir Tahun Gereja** in black, when the dead are remembered. Reformation
-Day is kept on 31 October. The center artwork is the church's logo, traced
-from the almanac.
+Day is kept on 31 October. The center artwork is the Luther rose.
 
 **Madagascar (FLM).** The Malagasy Lutheran Church, from the weekly Sunday
 titles of its *Hira sy Filazantsara* (2020–2024): Alahady I–IV amin'ny
@@ -806,7 +815,7 @@ The colors are those the parish describes: blue for Advent, white for the
 feasts and Eastertide, green after the Theophany and after the Trinity, purple
 for the Great Fast, and red for Pentecost and Trinity Monday, the martyrs, the
 Cross and the Reformation. Black on Good Friday is assumed. The middle holds
-the church's seal, the Luther rose with an Orthodox cross.
+the Luther rose.
 
 ## The Oriental Orthodox churches
 

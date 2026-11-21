@@ -1639,7 +1639,7 @@ const BIBLE_VERSIONS = [
   ['SFB15', 'Svenska Folkbibeln 2015', 'sv'], ['DNB1930', 'Det Norsk Bibelselskap 1930', 'no'],
   ['DN1933', 'Dette er Biblen på dansk', 'da'], ['R1933', 'Raamattu 1933/38', 'fi'],
   ['ICELAND', 'Icelandic Bible', 'is'], ['KAR', 'Hungarian Károli', 'hu'], ['UKR', 'Ukrainian Bible', 'uk'],
-  ['ARC', 'Almeida Revista e Corrigida 2009', 'pt'],
+  ['ARC', 'Almeida Revista e Corrigida 2009', 'pt'], ['RVR1995', 'Reina-Valera 1995', 'es'],
   ['TB', 'Alkitab Terjemahan Baru', 'id'],
 ];
 // The versions a page offers (--bible / page_bibles): codes, languages
@@ -2320,7 +2320,7 @@ function feastUrlFor(name, link, pattern) {
 // by language name, each A to Z by abbreviation, as it shows them.  With only
 // one language offered there are no group headings.
 const LANGUAGE_NAMES = { da: 'Danish', de: 'German', en: 'English', fi: 'Finnish', hu: 'Hungarian',
-  id: 'Indonesian', is: 'Icelandic', no: 'Norwegian', pt: 'Portuguese', sv: 'Swedish', uk: 'Ukrainian' };
+  id: 'Indonesian', is: 'Icelandic', no: 'Norwegian', pt: 'Portuguese', es: 'Spanish', sv: 'Swedish', uk: 'Ukrainian' };
 {
   const langName = l => LANGUAGE_NAMES[l] || l;
   const offered = BIBLE_VERSIONS.filter(v => bibleAllowed(v[0]));

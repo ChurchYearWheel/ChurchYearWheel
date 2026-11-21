@@ -39,7 +39,7 @@ BIBLE_VERSIONS = [
     ("SFB15", "Svenska Folkbibeln 2015", "sv"), ("DNB1930", "Det Norsk Bibelselskap 1930", "no"),
     ("DN1933", "Dette er Biblen på dansk", "da"), ("R1933", "Raamattu 1933/38", "fi"),
     ("ICELAND", "Icelandic Bible", "is"), ("KAR", "Hungarian Károli", "hu"), ("UKR", "Ukrainian Bible", "uk"),
-    ("ARC", "Almeida Revista e Corrigida 2009", "pt"),
+    ("ARC", "Almeida Revista e Corrigida 2009", "pt"), ("RVR1995", "Reina-Valera 1995", "es"),
     ("TB", "Alkitab Terjemahan Baru", "id"),
 ]
 VERSION_CODES = sorted(code for code, _, _ in BIBLE_VERSIONS)

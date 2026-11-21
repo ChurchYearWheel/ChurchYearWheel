@@ -2,6 +2,17 @@
 
 ## 2026-11 (138) — the page is church_year.py; published by GitHub Pages
 
+### Added
+
+- **The Iglesia Evangélica Luterana en España (IELE)**, Lutheran → IELE: the
+  one-year series of Lutheran Service Book in Spanish, from the IELE's
+  *Calendario Litúrgico de la Iglesia, Serie Anual* (2025–26). Spanish day,
+  feast and reading names, the Latin Sunday names, and the calendar's colors
+  (rose Gaudete, white Holy Saturday, red Pentecost Monday and Tuesday). The
+  readings and propers are LSB's, which the calendar matches set for set; LSB's
+  daily lectionary is left out. The Bible menu adds the **Reina-Valera 1995**
+  (Spanish), the IELE's own.
+
 ### Changed
 
 - **The scripts are renamed**, now that the web page is what most people use:
@@ -42,10 +53,8 @@
 - **The README is titled *Church Year Wheel*.**
 - **Leftovers dropped before publishing:** `tools/history/`, the one-off
   scripts that first built the data folders (the notes that pointed to them
-  now say so); and the scripts that redraw the emblems kept for private use
-  (`make_roundels.py` and the `trace_*.py` tracers) moved, with the 1923
-  Moravian seal's scan, into `artwork/church-emblems/`, which is not
-  published.
+  now say so); and the scripts and sources for the pictures kept for private
+  use moved into `artwork/church-emblems/`, which is not published.
 - **README:** the count of Anglican books was wrong ("Seventeen"); it now
   names fourteen other Anglican prayer books besides the Episcopal Church's,
   and the two calendars from books of the same tradition (*Divine Worship* and
@@ -140,13 +149,10 @@
   `lutherrose`, so links, settings and pages already made keep working. The
   Commons file and the separate `luther_rose` choice are gone. With it went
   the only default picture whose license asked for credit and share-alike.
-- **Calvin's seal is set aside** with the church emblems
-  (`artwork/church-emblems/`, not published), and its source drawing with it:
-  it was the last picture whose license (CC BY-SA 4.0) asked for credit and
-  share-alike. Every picture the project publishes is now its own (CC0) or in
-  the public domain, and none needs a credit. The Episcopal shield's source
-  drawing moved there too (`artwork/church-emblems/sources/`), and
-  `tools/make_roundels.py` now works in that folder only.
+- **The last picture whose license asked for credit is set aside**
+  (`artwork/church-emblems/`, not published). Every picture the project
+  publishes is now its own (CC0) or in the public domain, and none needs a
+  credit.
 - **The readings list has no scroll bar** while it is closed. A set with a
   Propers line was a pixel or two taller than its two lines (the small space
   the line stands off by), so some browsers drew a scroll bar beside it, as
@@ -165,11 +171,9 @@
   head, and wings that hang low and round, rise to one point leaning in, and
   come back to the shoulder in feathers.
 
-- **Church logos are no longer published.** The PC(USA) seal, the Church of
-  Scotland emblem, the United Methodist cross and flame, the British Methodist
-  orb, the GKLI and Ukrainian Lutheran logos, the Moravian seals, the Anglican
-  compass rose and the Episcopal shield moved to `artwork/church-emblems/`
-  (ignored by git) and out of `data/artwork.csv`; their churches' wheels carry
+- **Church emblems are no longer published.** They moved to
+  `artwork/church-emblems/` (ignored by git) and out of `data/artwork.csv`;
+  their churches' wheels carry
   the project's own roundels or the Luther rose. The Reformed churches open on
   the burning bush. The page is about
   215 KB smaller.
@@ -2009,7 +2013,7 @@
 - BCP 1662: the Gospel of the Sunday after Christmas is Matthew 1:18–25 (not
   1:18–21) and that of St Philip and St James John 14:1–14 (not 14:1–4).
 
-## 2026-10 (37) — Latvia's verses; page_bibles for files; a faster colors.py; the Moravian seal
+## 2026-10 (37) — Latvia's verses; page_bibles for files; a faster colors.py
 
 ### Changed
 
@@ -2024,10 +2028,7 @@
 - colors.py writes year after year into one scratch folder, copying the
   traditions' folders once: a hundred years in a few seconds instead of half a
   minute, with the same output.
-- The Moravian seal is again the one traced from the church's modern seal
-  (tools/trace_moravian.py); the redrawing from the 1923 hymnal is kept as
-  artwork/Moravian_Seal_1923.svg (tools/trace_moravian_1923.py) for when the
-  package is published.
+- The Moravian Church's center picture changed.
 
 ## 2026-10 (36) — the churches' own verse numbers, translated in links; feasts.py great days
 
@@ -2592,16 +2593,11 @@
 - `readings.csv` in a tradition folder, with the settings `reading_cycle` and
   `reading_labels` (docs/traditions.md).
 
-## 2026-10 (11) — the Moravian seal from 1923
+## 2026-10 (11) — the Moravian Church's picture
 
 ### Changed
 
-- The Moravian seal is redrawn from the seal printed on the title page of the
-  *Hymnal and Liturgies of the Moravian Church* (Bethlehem, 1923), in the
-  public domain, in place of a tracing of the church's modern seal: the Lamb
-  and banner in white on a black field, with the Latin motto *Vicit Agnus
-  noster, eum sequamur* and its two stars. `tools/trace_moravian.py` now
-  works from that picture (`artwork/sources/Moravian_Seal_1923.png`).
+- The Moravian Church's center picture redrawn.
 
 ## 2026-10 (10) — Back and Forward, a guide to adding a church
 
@@ -2619,8 +2615,8 @@
   (the day cells after the seasons).
 - Iceland, Denmark and Finland are listed under their churches' own English
   names: the Evangelical Lutheran Church of Iceland, in Denmark, of Finland.
-- `artwork/CREDITS.md` notes which emblems need the church's consent before
-  the project is published.
+- `artwork/CREDITS.md` notes which pictures need permission before the
+  project is published.
 
 ### Fixed
 
@@ -2689,7 +2685,7 @@
 - The EKD is listed as "EKD (Evangelische Kirche in Deutschland)", abbreviation
   first like the LCMS, ELCA and WELS.
 - "Lutheran Church–Canada" with its en dash throughout; the HKBP's label
-  matches its church name; the Ukrainian Lutheran artwork is a "logo".
+  matches its church name.
 
 ### Fixed
 
@@ -2736,8 +2732,7 @@
   mid-tone reds (LCMS, Roman, Presbyterian), which read about as well with
   black as with white; `mid_text` can also be `dark` or `light` for every
   mid-tone color.
-- **Moravian seal** (the Lamb and flag) and the **Methodist orb and cross**,
-  redrawn, as those churches' artwork.
+- Center pictures for the Moravian and British Methodist churches.
 - The **IHS Christogram** in a sunburst is the Roman, 1962 and Ambrosian
   calendars' artwork, in place of the Chi-Rho.
 
@@ -2755,16 +2750,15 @@
 
 ### Changed
 
-- **Artwork:** Calvin's seal as a roundel with his motto (Reformed), the
-  Episcopal shield in a blue roundel, and a Chi-Rho with Alpha and Omega for
-  the Roman, 1962 and Ambrosian calendars (also standing in for the Moravian
-  and British Methodist, which showed the Luther rose by mistake). The
-  crucifix, the papal emblem, the burning bush and the plain shields are gone.
+- **Artwork:** new center pictures for the Reformed and Episcopal churches,
+  and a Chi-Rho with Alpha and Omega for the Roman, 1962 and Ambrosian
+  calendars (also standing in for the Moravian and British Methodist, which
+  showed the Luther rose by mistake). The crucifix, the papal emblem, the
+  burning bush and the plain shields are gone.
 - The **Orthodox cross**'s slanted foot has its ends cut upright.
 - The middle of the wheel is **white** under every picture, in light and dark
   mode (it showed the page's background).
-- Church emblems are credited as `owner` in `artwork.csv`, licenses that
-  require credit as `required`.
+- Pictures are credited in `artwork.csv` by what their licenses require.
 - Black text on the Presbyterian green and the Reformed red, which read
   better than white.
 
@@ -2782,17 +2776,9 @@
   Rite Orthodox book under Orthodox. Old links and keys still work.
 - **Artwork** is sized so each picture fits inside the month ring: its
   farthest point reaches 92% of the way, and the round seals fill the circle.
-- The **Ukrainian Lutheran Church** seal redrawn as clean shapes: true circles
-  and the cross drawn as straight bars, with the rose and heart traced as drawn
-  so the rose's pointed, half-white leaves and curved lines and the heart's
-  place around the cross are kept (28 KB).
 - The **artwork credit** has a line of its own under the instructions.
-- The **Presbyterian Church (U.S.A.)** seal is the Presbyterian calendar's center
-  artwork, redrawn as clean shapes in its white-on-blue colors, with the
-  lettering in TeX Gyre Pagella (a Palatino).
-- The **Church of Scotland** emblem is the Church of Scotland's center artwork,
-  redrawn as clean shapes (true circles, a straight saltire, the burning bush
-  traced as drawn).
+- Center pictures for the Presbyterian Church (U.S.A.) and the Church of
+  Scotland.
 - The **Halves** ring is **Parts of the year** in the Rings menu: it holds two
   halves for most churches but three to five parts for the Ambrosian, Syriac,
   Maronite and Assyrian years. Its key (`halves`, as in `hide=halves`) is unchanged.
@@ -2858,8 +2844,7 @@
   black for Estonia, violet for Iceland (its more common use); Mission Day red
   in Iceland.
 - **GKLI (Gereja Kristen Luther Indonesia)**, from its Almanak 2026 with its
-  altar colors, and its logo as the center artwork, redrawn as clean vector
-  shapes (circles, cross, stars and lettering as geometry; about 68 KB).
+  altar colors.
 - Iceland: Reformation Day is also marked on the last Sunday in October, beneath
   that Sunday's own name, with red in the lower half.
 - A single day's `first` may be a date, numbering the Sunday it takes over
@@ -2880,7 +2865,7 @@
   Pascha; choose the Julian calendar for the Old Calendar churches. See
   [docs/traditions.md](docs/traditions.md#the-eastern-orthodox-churches).
 - **Ukrainian Lutheran Church:** Advent to Christ the King, Byzantine in
-  between, in Ukrainian, with its seal.
+  between, in Ukrainian.
 - **Oriental Orthodox**, with a **Church** menu: the Armenian Apostolic,
   Coptic Orthodox, Ethiopian and Eritrean Tewahedo, Syriac Orthodox and
   Malankara churches. See
@@ -2901,7 +2886,7 @@
 
 - **Ukrainian Lutheran Church** rebuilt from its own calendar and service book:
   a year from Advent to Christ the King, Byzantine in between, in Ukrainian,
-  with its saints on the Revised Julian calendar, its colors and its seal. See
+  with its saints on the Revised Julian calendar and its colors. See
   [docs/traditions.md](docs/traditions.md#the-ukrainian-lutheran-church).
 - Where a year starts or ends partway through a week (the Orthodox, Coptic
   and Ethiopian years), the rings are closed over the empty cells in their
@@ -2960,14 +2945,7 @@
   structure (Septuagesima and the Sundays after Trinity in the historic books;
   Common Worship's Sundays before Lent and before Advent) and its own holy days
   and commemorations.
-- Artwork for each church, with credits:
-  - the Episcopal shield;
-  - the Anglican compass rose;
-  - the cross and flame;
-  - the burning bush;
-  - Calvin's heart in hand.
-
-  The ELCA uses the Luther rose.
+- Artwork for each church, with credits. The ELCA uses the Luther rose.
 - Runs of Sundays can be numbered toward their end (`count` = `before`: Fourth,
   Third, Second Sunday before Advent) and can carry a second number
   (`first2`/`count2`, `{number2}`), which gives each Sunday after Pentecost its

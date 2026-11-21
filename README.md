@@ -33,7 +33,7 @@ Hymn-Book* (1912). It also follows:
   the same tradition: the Catholic Personal Ordinariates' *Divine Worship* and a
   Western Rite Orthodox prayer book;
 - The Lutheran churches of Sweden, Norway, Denmark, Finland, Iceland, Estonia,
-  Latvia, Germany, Austria, Poland, Slovakia and Hungary, the HKBP and GKLI of
+  Latvia, Germany, Austria, Poland, Slovakia, Hungary and Spain, the HKBP and GKLI of
   Indonesia, Tanzania, Madagascar, and Australia and New Zealand, in their
   own languages;
 - The Eastern Orthodox year, on the Revised Julian or Julian calendar, the

@@ -1,0 +1,22 @@
+setting,value,variant
+# ===========================================================================
+"# The calendar of the Iglesia Evangélica Luterana en España (IELE): Lutheran Service Book's one-year series, in Spanish,"
+"# as the IELE's 2025-26 calendar (Calendario Litúrgico de la Iglesia, Serie Anual) gives it.  Any setting from"
+# config.csv may be given here and wins over it for this tradition.  See docs/traditions.md.
+# ===========================================================================
+year_start,sun<12-25-21,
+center_art,lutherrose,
+latin_names_available,TRUE,
+"# The calendar gives the Sundays' Latin names (Ad Te Levavi, Invocavit ...)."
+latin_names_default,TRUE,
+festival_half_end_auto,trinity-week,
+"# The weekdays are not named after the Sunday before them in English."
+weekday_titles,none,
+"# Lutheran Service Book's readings (data/readings/lsb.csv), with the sets named in Spanish (readings.csv)."
+readings,lsb,
+reading_order,introit | ot | psalm | epistle | gradual | verse | gospel,
+reading_propers,introit gradual verse,
+"# The calendar's own names for the readings and propers."
+reading_labels,introit=Introito; ot=Primera lectura; psalm=Salmo; epistle=Epístola; gradual=Gradual; verse=Versículo del día; gospel=Evangelio,
+"# The Bible the IELE reads: Reina-Valera 1995."
+bible_version,RVR1995,
