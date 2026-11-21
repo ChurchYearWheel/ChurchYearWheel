@@ -1,0 +1,101 @@
+key,value
+"# Italiano: month names (the month ring: months; dates: date_months), date patterns and Bible book names."
+"# month_day writes a day's date on the wheel ({day} {month}); full_date the first day's, with | where it may break onto a second line."
+"# Book names as citations name them, after CEI, by USFM code; chapter_verse is what stands between chapter and verse."
+name,Italiano
+months,Gennaio|Febbraio|Marzo|Aprile|Maggio|Giugno|Luglio|Agosto|Settembre|Ottobre|Novembre|Dicembre
+date_months,gennaio|febbraio|marzo|aprile|maggio|giugno|luglio|agosto|settembre|ottobre|novembre|dicembre
+month_day,{day} {month}
+full_date,{day} {month}|{year}
+chapter_verse,","
+"# color_...: the header's names for the day's colors, and or: the word between a color and its alternatives."
+color_black,nero
+color_blue,azzurro
+color_gold,oro
+color_green,verde
+color_purple,viola
+color_red,rosso
+color_rose,rosaceo
+color_scarlet,scarlatto
+color_violet,violaceo
+color_white,bianco
+color_none,nessun colore
+or,o
+color_morello,morello
+GEN,Genesi
+EXO,Esodo
+LEV,Levitico
+NUM,Numeri
+DEU,Deuteronomio
+JOS,Giosuè
+JDG,Giudici
+RUT,Rut
+1SA,1 Samuele
+2SA,2 Samuele
+1KI,1 Re
+2KI,2 Re
+1CH,1 Cronache
+2CH,2 Cronache
+EZR,Esdra
+NEH,Neemia
+EST,Ester
+JOB,Giobbe
+PSA,Salmo
+PRO,Proverbi
+ECC,Qoèlet
+SNG,Cantico dei Cantici
+ISA,Isaia
+JER,Geremia
+LAM,Lamentazioni
+EZK,Ezechiele
+DAN,Daniele
+HOS,Osea
+JOL,Gioele
+AMO,Amos
+OBA,Abdia
+JON,Giona
+MIC,Michea
+NAM,Naum
+HAB,Abacuc
+ZEP,Sofonia
+HAG,Aggeo
+ZEC,Zaccaria
+MAL,Malachia
+MAT,Matteo
+MRK,Marco
+LUK,Luca
+JHN,Giovanni
+ACT,Atti
+ROM,Romani
+1CO,1 Corinzi
+2CO,2 Corinzi
+GAL,Galati
+EPH,Efesini
+PHP,Filippesi
+COL,Colossesi
+1TH,1 Tessalonicesi
+2TH,2 Tessalonicesi
+1TI,1 Timoteo
+2TI,2 Timoteo
+TIT,Tito
+PHM,Filemone
+HEB,Ebrei
+JAS,Giacomo
+1PE,1 Pietro
+2PE,2 Pietro
+1JN,1 Giovanni
+2JN,2 Giovanni
+3JN,3 Giovanni
+JUD,Giuda
+REV,Apocalisse
+TOB,Tobia
+JDT,Giuditta
+WIS,Sapienza
+SIR,Siracide
+BAR,Baruc
+1MA,1 Maccabei
+2MA,2 Maccabei
+1ES,3 Esdra
+2ES,4 Esdra
+SUS,Susanna
+LJE,Lettera di Geremia

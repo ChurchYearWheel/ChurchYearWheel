@@ -68,7 +68,7 @@ annunciation,norway,date lt easter-7,sun>=03-22,,,,,,,,Maria budskapsdag,,,,WHIT
 annunciation_early,norway,(sun>=03-22) ge easter-7,easter-14,,,,,,,,Maria budskapsdag,,,,WHITE,,,,,TRUE,,
 palm_sunday,norway,,easter-7,,,,,,,,Palmesøndag,,,,,,,,,,,
 maundy_thursday,norway,,easter-3,,,,,,,,Skjærtorsdag,,,,,,,,,,,
-good_friday,norway,,easter-2,,,,,,,,Langfredag,,,,,,,,,,,
+good_friday,norway,,easter-2,,,,,,,,Langfredag,,,,PURPLE; black,,,,,,,
 easter_eve,norway,,easter-1,,,,,,,,Påskeaften,,,,,,,,,,,
 easter,norway,,easter,,,,,,,,Påskedag,,,,WHITE,,,,,,,Påskenatt og påskedag
 easter_monday,norway,,easter+1,,,,,,,,2. påskedag,,,,WHITE,,,,,,,

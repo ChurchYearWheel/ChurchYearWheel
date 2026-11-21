@@ -94,6 +94,9 @@ const document = { createElement: () => ({}) };
 let CURRENT = null;
 const currentTradition = () => CURRENT;
 const traditionOf = key => CY.findTradition(DATA, key);
+// The citations as written in English: the book names in the church's own
+// language are only what the page shows (page.js: localCite), not the links.
+const localCite = text => text;
 %s
 const cases = JSON.parse(require('fs').readFileSync(0, 'utf8'));
 const out = {

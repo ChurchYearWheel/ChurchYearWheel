@@ -56,3 +56,7 @@ hymnary_hymnal,CP1998,bcp-1962
 hymnary_hymnal_name,Common Praise (1998),bcp-1962
 hymnary_hymnal,AM2013 CAH2000 CPAM2000 NEH1985,common-worship bcp-1662
 hymnary_hymnal_name,Ancient and Modern (2013)|Complete Anglican Hymns Old and New (2000)|Common Praise (2000)|The New English Hymnal (1986),common-worship bcp-1662
+"# The language the wheel writes its months and dates in, and the page its date line and Bible book names (data/languages).",,
+language,pt,ieab-2015 iab-2021 iecb-1987 iarb-1662 locb-2008 lusitana-1991 reb-2027
+"# The church's own words for its colors where they differ from data/languages: the IEAB calendar's ""azul escuro"" for Advent.",,
+color_labels,blue=azul escuro,ieab-2015

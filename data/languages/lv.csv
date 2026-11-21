@@ -1,0 +1,100 @@
+key,value
+"# Latviešu: month names (the month ring: months; dates: date_months), date patterns and Bible book names."
+"# month_day writes a day's date on the wheel ({day} {month}); full_date the first day's, with | where it may break onto a second line."
+"# Book names as citations name them, after Bībele (1965/2012), by USFM code; chapter_verse is what stands between chapter and verse."
+name,Latviešu
+months,Janvāris|Februāris|Marts|Aprīlis|Maijs|Jūnijs|Jūlijs|Augusts|Septembris|Oktobris|Novembris|Decembris
+date_months,janvāris|februāris|marts|aprīlis|maijs|jūnijs|jūlijs|augusts|septembris|oktobris|novembris|decembris
+month_day,{day}. {month}
+full_date,{year}. gada|{day}. {month}
+chapter_verse,:
+"# color_...: the header's names for the day's colors, and or: the word between a color and its alternatives."
+color_black,melna
+color_blue,zila
+color_gold,zelta
+color_green,zaļa
+color_purple,violeta
+color_red,sarkana
+color_rose,rozā
+color_scarlet,koši sarkana
+color_violet,violeta
+color_white,balta
+color_none,bez krāsas
+or,vai
+GEN,1. Mozus
+EXO,2. Mozus
+LEV,3. Mozus
+NUM,4. Mozus
+DEU,5. Mozus
+JOS,Jozua
+JDG,Soģu
+RUT,Rute
+1SA,1. Samuēla
+2SA,2. Samuēla
+1KI,1. Ķēniņu
+2KI,2. Ķēniņu
+1CH,1. Laiku
+2CH,2. Laiku
+EZR,Ezra
+NEH,Nehemija
+EST,Estere
+JOB,Ījabs
+PSA,Psalms
+PRO,Salamana pamācības
+ECC,Salamans mācītājs
+SNG,Augstā dziesma
+ISA,Jesaja
+JER,Jeremija
+LAM,Raudu dziesmas
+EZK,Ecēhiēls
+DAN,Daniēls
+HOS,Hozeja
+JOL,Joēls
+AMO,Amoss
+OBA,Obadja
+JON,Jona
+MIC,Miha
+NAM,Nahums
+HAB,Habakuks
+ZEP,Cefanja
+HAG,Hagajs
+ZEC,Caharija
+MAL,Maleahija
+MAT,Mateja
+MRK,Marka
+LUK,Lūkas
+JHN,Jāņa
+ACT,Apustuļu darbi
+ROM,Romiešiem
+1CO,1. korintiešiem
+2CO,2. korintiešiem
+GAL,Galatiešiem
+EPH,Efeziešiem
+PHP,Filipiešiem
+COL,Kolosiešiem
+1TH,1. tesaloniķiešiem
+2TH,2. tesaloniķiešiem
+1TI,1. Timotejam
+2TI,2. Timotejam
+TIT,Titam
+PHM,Filemonam
+HEB,Ebrejiem
+JAS,Jēkaba
+1PE,1. Pētera
+2PE,2. Pētera
+1JN,1. Jāņa
+2JN,2. Jāņa
+3JN,3. Jāņa
+JUD,Jūdas
+REV,Atklāsmes grāmata
+TOB,Tobīts
+JDT,Judīte
+WIS,Salamana gudrības grāmata
+SIR,Sīraha grāmata
+BAR,Baruhs
+1MA,1. Makabiešu
+2MA,2. Makabiešu
+1ES,3. Ezras
+2ES,4. Ezras
+SUS,Zuzanna
+LJE,Jeremijas vēstule

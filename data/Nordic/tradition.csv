@@ -28,3 +28,8 @@ verse_numbering,hebrew,norway denmark finland
 verse_numbering,Psalms,sweden
 # The page names no weekdays from their Sundays (weekday_titles): the calendars' names are not in English.,,
 weekday_titles,none,
+"# The language the wheel writes its months and dates in, and the page its date line and Bible book names (data/languages).",,
+language,sv,sweden
+language,da,denmark
+language,fi,finland
+language,nb,norway

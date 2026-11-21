@@ -1,0 +1,100 @@
+key,value
+"# Eesti: month names (the month ring: months; dates: date_months), date patterns and Bible book names."
+"# month_day writes a day's date on the wheel ({day} {month}); full_date the first day's, with | where it may break onto a second line."
+"# Book names as citations name them, after Piibel (1997), by USFM code; chapter_verse is what stands between chapter and verse."
+name,Eesti
+months,Jaanuar|Veebruar|Märts|Aprill|Mai|Juuni|Juuli|August|September|Oktoober|November|Detsember
+date_months,jaanuar|veebruar|märts|aprill|mai|juuni|juuli|august|september|oktoober|november|detsember
+month_day,{day}. {month}
+full_date,{day}. {month}|{year}
+chapter_verse,:
+"# color_...: the header's names for the day's colors, and or: the word between a color and its alternatives."
+color_black,must
+color_blue,sinine
+color_gold,kuldne
+color_green,roheline
+color_purple,lilla
+color_red,punane
+color_rose,roosa
+color_scarlet,sarlakpunane
+color_violet,violetne
+color_white,valge
+color_none,värvita
+or,või
+GEN,1. Moosese
+EXO,2. Moosese
+LEV,3. Moosese
+NUM,4. Moosese
+DEU,5. Moosese
+JOS,Joosua
+JDG,Kohtumõistjate
+RUT,Rutt
+1SA,1. Saamueli
+2SA,2. Saamueli
+1KI,1. Kuningate
+2KI,2. Kuningate
+1CH,1. Ajaraamat
+2CH,2. Ajaraamat
+EZR,Esra
+NEH,Nehemja
+EST,Ester
+JOB,Iiob
+PSA,Psalm
+PRO,Õpetussõnad
+ECC,Koguja
+SNG,Ülemlaul
+ISA,Jesaja
+JER,Jeremija
+LAM,Nutulaulud
+EZK,Hesekiel
+DAN,Taaniel
+HOS,Hoosea
+JOL,Joel
+AMO,Aamos
+OBA,Obadja
+JON,Joona
+MIC,Miika
+NAM,Nahum
+HAB,Habakuk
+ZEP,Sefanja
+HAG,Haggai
+ZEC,Sakarja
+MAL,Malaki
+MAT,Matteuse
+MRK,Markuse
+LUK,Luuka
+JHN,Johannese
+ACT,Apostlite teod
+ROM,Roomlastele
+1CO,1. Korintlastele
+2CO,2. Korintlastele
+GAL,Galaatlastele
+EPH,Efeslastele
+PHP,Filiplastele
+COL,Koloslastele
+1TH,1. Tessalooniklastele
+2TH,2. Tessalooniklastele
+1TI,1. Timoteosele
+2TI,2. Timoteosele
+TIT,Tiitusele
+PHM,Fileemonile
+HEB,Heebrealastele
+JAS,Jaakobuse
+1PE,1. Peetruse
+2PE,2. Peetruse
+1JN,1. Johannese
+2JN,2. Johannese
+3JN,3. Johannese
+JUD,Juuda
+REV,Johannese ilmutus
+TOB,Toobit
+JDT,Juudit
+WIS,Saalomoni tarkuse raamat
+SIR,Siirak
+BAR,Baaruk
+1MA,1. Makabeide
+2MA,2. Makabeide
+1ES,3. Esra
+2ES,4. Esra
+SUS,Susanna
+LJE,Jeremija kiri

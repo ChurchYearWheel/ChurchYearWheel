@@ -15,3 +15,5 @@ reading_order,resurrection | vigil | ot | psalm | ot2 | epistle | verse | gospel
 reading_propers,verse,
 # The Lectionary's psalm verses are numbered as the Hebrew (and Italian) Bible numbers them.,,
 verse_numbering,Psalms,
+"# The language the wheel writes its months and dates in, and the page its date line and Bible book names (data/languages).",,
+language,it,

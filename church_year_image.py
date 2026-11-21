@@ -36,7 +36,7 @@ import csv
 import math
 import re
 import sys
-from dataclasses import dataclass, replace
+from dataclasses import dataclass, field, replace
 from datetime import date
 from pathlib import Path
 
@@ -268,6 +268,8 @@ SETTING_SPEC: dict[str, tuple[Callable[[Any], Any], Any, str]] = {
     "reading_cycle":              (_as_str, "", "readings.csv: abc = three-year series, Year A beginning Advent 2025, 2028 ... (page only)"),
     "hymnary_hymnal":             (_as_str, "", "Hymnary.org's code for the church's hymnal (lsb2006): the web page's Hymn search looks in it for hymns on each set of readings (page only)"),
     "hymnary_hymnal_name":        (_as_str, "", "That hymnal's name, for the Hymn search mark's title (Lutheran Service Book (2006)) (page only)"),
+    "color_labels":               (_as_str, "", "The church's own words for its colors in the page's header, where they differ from its language's (data/languages): purple=morado; scarlet=rojo; none=sin color"),
+    "language":                   (_as_str, "en", "The church's language, by code (data/languages/<code>.csv): the month ring and the dates on the wheel in it, and on the page the date line and the Bible book names"),
     "weekday_titles":             (_as_str, "", "How the web page names a weekday that has no name of its own, from the Sunday before it: after (blank; Tuesday after the Sixth Sunday after Pentecost, Wednesday of Laetare) or week (Tuesday of the Sixth Week after Pentecost) (page only)"),
     "reading_order":              (_as_str, "", "readings: groups of kinds (split by |) put in this order within each set, the others staying put (ELCA: complementary series first; page only)"),
     "reading_labels":             (_as_str, "", "readings.csv: the page's names for reading kinds, as kind=Name; kind=Name (page only)"),
@@ -837,6 +839,65 @@ def load_month_names(path: Path) -> dict[int, str]:
             ["January", "February", "March", "April", "May", "June", "July",
              "August", "September", "October", "November", "December"], start=1)}
     return names
+
+
+ENGLISH_MONTH_DAY = "{month} {day}"
+ENGLISH_FULL_DATE = "{month} {day},|{year}"
+
+
+@dataclass
+class Language:
+    """A church's language, as the wheel writes dates in it (data/languages/<code>.csv;
+    English from month_names.csv): the month ring's names, the names in a
+    date, and the patterns for a day ({day} {month}) and for the year's first
+    day, whose | marks where it may break onto a second line."""
+    code: str
+    months: dict[int, str]
+    date_months: dict[int, str]
+    month_day: str = ENGLISH_MONTH_DAY
+    full_date: str = ENGLISH_FULL_DATE
+    chapter_verse: str = ":"
+    books: dict[str, str] = field(default_factory=dict)
+    colors: dict[str, str] = field(default_factory=dict)   # "purple" -> "morado" (the page's header)
+    or_word: str = "or"
+
+    def day_text(self, month: int, day: int) -> str:
+        """church_year.js: Language.dayText."""
+        return (self.month_day.replace("{month}", self.date_months.get(month, str(month)))
+                .replace("{day}", str(day)))
+
+    def full_text(self, month: int, day: int, year: str) -> str:
+        """church_year.js: Language.fullText.  Keeps the | break mark."""
+        return (self.full_date.replace("{month}", self.date_months.get(month, str(month)))
+                .replace("{day}", str(day)).replace("{year}", year))
+
+
+def load_language(data_dir: Path, code: str) -> Language:
+    """data/languages/<code>.csv, what it leaves out in English (church_year.js: languageOf)."""
+    english = load_month_names(data_dir / "month_names.csv")
+    code = (code or "en").strip().lower() or "en"
+    values = {}
+    if code != "en":
+        path = data_dir / "languages" / f"{code}.csv"
+        if not path.exists():
+            print(f"  ! language '{code}': no {path}; the wheel writes dates in English", file=sys.stderr)
+        for row in read_rows(path, required=False):
+            key = _cell(row, "key")
+            if key:
+                values[key] = _cell(row, "value")
+
+    def twelve(key: str, fallback: dict[int, str]) -> dict[int, str]:
+        names = [n.strip() for n in values.get(key, "").split("|")]
+        return {i + 1: n for i, n in enumerate(names)} if len(names) == 12 and all(names) else dict(fallback)
+    months = twelve("months", english)
+    return Language(
+        code=code, months=months, date_months=twelve("date_months", months),
+        month_day=values.get("month_day") or ENGLISH_MONTH_DAY,
+        full_date=values.get("full_date") or ENGLISH_FULL_DATE,
+        chapter_verse=values.get("chapter_verse") or ":",
+        books={k: v for k, v in values.items() if re.fullmatch(r"[1-4]?[A-Z]{2,3}", k) and v},
+        colors={k[6:].replace("_", " "): v for k, v in values.items() if k.startswith("color_") and v},
+        or_word=values.get("or") or "or")
 
 
 def load_text_styles(path: Path, *more: Path) -> dict[str, TextStyle]:
@@ -2437,7 +2498,8 @@ class Calendar:
                           cfg.mid_text),
             changes.days)
         self.season_colors = load_season_colors(self.folder / "seasons.csv", self.colors)
-        self.month_names = load_month_names(data_dir / "month_names.csv")
+        self.language = load_language(data_dir, cfg.language)
+        self.month_names = self.language.months
         self.styles = load_text_styles(data_dir / "text_styles.csv",
                                        self.folder / "text_styles.csv")
         hidden = {k.lower() for k in hide}
@@ -3749,7 +3811,6 @@ class Renderer:
         band_height = wedge.radial_extent
         r_label = wedge.r_outer - cfg.day_number_vertical_ratio * band_height
         is_first_day = day == cal.settings.church_year_start
-        month_name = cal.month_names.get(day.month, str(day.month))
 
         if is_first_day:
             style = cal.styles["first_day_label"]
@@ -3761,7 +3822,7 @@ class Renderer:
             style = cal.styles["month_day_label"]
             r_label -= cal.month_overrides["vertical"].get(day.month, 0.0)
             angle = wedge.angle_mid + cal.month_overrides["horizontal"].get(day.month, 0.0)
-            text = f"{month_name} {day.day}"
+            text = cal.language.day_text(day.month, day.day)
             self._centered_date_label(text, style, wedge, r_label, fill,
                                       cal.month_overrides["font_size"].get(day.month),
                                       angle_override=angle)
@@ -3775,19 +3836,20 @@ class Renderer:
         return False
 
     def _first_day_text(self, day: date) -> str:
-        month_name = self.cal.month_names.get(day.month, str(day.month))
-        return f"{month_name} {day.day}, {day.year}"
+        """The year's first day in the church's language, | where it may break."""
+        return self.cal.language.full_text(day.month, day.day, str(day.year))
 
     def _date_label_fit(self, text: str, style: TextStyle, wedge: Wedge, radius: float,
                         pinned: Optional[float]) -> tuple[list[str], float]:
         """The lines and size of a 'January 1' style label: one line, shrunk
         if the wedge is too narrow for it; one that does not fit even at the
-        style's smallest size breaks after its comma onto a second line
+        style's smallest size breaks where its | marks onto a second line
         ("September 11," / "2026"), each line fitted to the width at its own
         radius (church_year.js: dateLabelFit)."""
         cfg = self.cfg
+        whole = text.replace("|", " ")
         if pinned is not None or not cfg.autofit:
-            return [text], (pinned if pinned is not None else style.font_size)
+            return [whole], (pinned if pinned is not None else style.font_size)
 
         def fits(lines: list[str], size: float) -> bool:
             for i, line in enumerate(lines):
@@ -3797,10 +3859,10 @@ class Renderer:
                                            style.font_style) > room:
                     return False
             return True
-        candidates = [[text]]
-        if ", " in text:
-            head, tail = text.rsplit(", ", 1)
-            candidates.append([head + ",", tail])
+        candidates = [[whole]]
+        if "|" in text:
+            head, tail = text.rsplit("|", 1)
+            candidates.append([head.replace("|", " ").strip(), tail.strip()])
         for lines in candidates:
             size = style.font_size
             while size > style.min_font_size and not fits(lines, size):

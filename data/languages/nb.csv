@@ -1,0 +1,100 @@
+key,value
+"# Norsk (bokmål): month names (the month ring: months; dates: date_months), date patterns and Bible book names."
+"# month_day writes a day's date on the wheel ({day} {month}); full_date the first day's, with | where it may break onto a second line."
+"# Book names as citations name them, after Bibel 2011, by USFM code; chapter_verse is what stands between chapter and verse."
+name,Norsk (bokmål)
+months,Januar|Februar|Mars|April|Mai|Juni|Juli|August|September|Oktober|November|Desember
+date_months,januar|februar|mars|april|mai|juni|juli|august|september|oktober|november|desember
+month_day,{day}. {month}
+full_date,{day}. {month}|{year}
+chapter_verse,","
+"# color_...: the header's names for the day's colors, and or: the word between a color and its alternatives."
+color_black,svart
+color_blue,blått
+color_gold,gyllent
+color_green,grønt
+color_purple,fiolett
+color_red,rødt
+color_rose,rosa
+color_scarlet,skarlagen
+color_violet,fiolett
+color_white,hvitt
+color_none,ingen farge
+or,eller
+GEN,1 Mosebok
+EXO,2 Mosebok
+LEV,3 Mosebok
+NUM,4 Mosebok
+DEU,5 Mosebok
+JOS,Josva
+JDG,Dommerne
+RUT,Rut
+1SA,1 Samuelsbok
+2SA,2 Samuelsbok
+1KI,1 Kongebok
+2KI,2 Kongebok
+1CH,1 Krønikebok
+2CH,2 Krønikebok
+EZR,Esra
+NEH,Nehemja
+EST,Ester
+JOB,Job
+PSA,Salme
+PRO,Ordspråkene
+ECC,Forkynneren
+SNG,Høysangen
+ISA,Jesaja
+JER,Jeremia
+LAM,Klagesangene
+EZK,Esekiel
+DAN,Daniel
+HOS,Hosea
+JOL,Joel
+AMO,Amos
+OBA,Obadja
+JON,Jona
+MIC,Mika
+NAM,Nahum
+HAB,Habakkuk
+ZEP,Sefanja
+HAG,Haggai
+ZEC,Sakarja
+MAL,Malaki
+MAT,Matteus
+MRK,Markus
+LUK,Lukas
+JHN,Johannes
+ACT,Apostlenes gjerninger
+ROM,Romerne
+1CO,1 Korinter
+2CO,2 Korinter
+GAL,Galaterne
+EPH,Efeserne
+PHP,Filipperne
+COL,Kolosserne
+1TH,1 Tessaloniker
+2TH,2 Tessaloniker
+1TI,1 Timoteus
+2TI,2 Timoteus
+TIT,Titus
+PHM,Filemon
+HEB,Hebreerne
+JAS,Jakob
+1PE,1 Peter
+2PE,2 Peter
+1JN,1 Johannes
+2JN,2 Johannes
+3JN,3 Johannes
+JUD,Judas
+REV,Johannes' åpenbaring
+TOB,Tobit
+JDT,Judit
+WIS,Visdommens bok
+SIR,Siraks bok
+BAR,Baruks bok
+1MA,1 Makkabeerbok
+2MA,2 Makkabeerbok
+1ES,3 Esra
+2ES,4 Esra
+SUS,Susanna
+LJE,Jeremias brev

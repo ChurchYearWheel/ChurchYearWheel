@@ -4,6 +4,27 @@
 
 ### Added
 
+- **Months, dates and Bible books in each church's language.** A church's
+  `language` (tradition.csv; files in `data/languages/`) puts the wheel's
+  month ring and dates in it ("29 de noviembre de 2026", "2026. november
+  29.", "29 листопада 2026 р."), the page's date line too, and the Bible book
+  names in the page's readings ("Römer 13,11–14", "Mateo 21:1–9"). Set for the
+  25 churches whose calendars are not in English, in 18 languages; the book
+  names for the 15 whose churches have readings. The readings stay in English
+  in the data, so the links, verse numbering and searches are unchanged; the
+  printed lists (lectionary.py and the page's Lists) are still in English.
+- **The header's color words** in the church's language too ("Adviento ·
+  morado", "Semana Santa · blanco (o escarlata o violeta)"): `color_...` and
+  `or` in each language file. Settings → Colors still names them in English.
+  The words follow the churches' documents where found: Swedish and Norwegian
+  in the neuter their churches use ("vitt", "hvitt", "gyllent"), Danish
+  "gylden", German as capitalized nouns ("Violett"); a church's own words go
+  in its new `color_labels` setting (the IEAB's "azul escuro").
+- **Colors from church documents.** The IEAB's Advent is violet or dark blue,
+  and its Good Friday black or red, from the IEAB's *Calendário Eclesiástico*
+  (2025) (Good Friday was no color, uncited). The Church of Norway's Good
+  Friday adds black as the alternative to violet, as its 2010 color rule
+  allows.
 - **The Iglesia Evangélica Luterana en España (IELE)**, Lutheran → IELE: the
   one-year series of Lutheran Service Book in Spanish, from the IELE's
   *Calendario Litúrgico de la Iglesia, Serie Anual* (2025–26). Spanish day,

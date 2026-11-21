@@ -1,0 +1,103 @@
+key,value
+"# Português: month names (the month ring: months; dates: date_months), date patterns and Bible book names."
+"# month_day writes a day's date on the wheel ({day} {month}); full_date the first day's, with | where it may break onto a second line."
+"# Book names as citations name them, after Almeida Revista e Corrigida, by USFM code; chapter_verse is what stands between chapter and verse."
+name,Português
+months,Janeiro|Fevereiro|Março|Abril|Maio|Junho|Julho|Agosto|Setembro|Outubro|Novembro|Dezembro
+date_months,janeiro|fevereiro|março|abril|maio|junho|julho|agosto|setembro|outubro|novembro|dezembro
+month_day,{day} de {month}
+full_date,{day} de {month}| de {year}
+chapter_verse,:
+"# color_...: the header's names for the day's colors, and or: the word between a color and its alternatives."
+color_black,preto
+color_blue,azul
+color_gold,dourado
+color_green,verde
+color_purple,roxo
+color_red,vermelho
+color_rose,rosa
+color_scarlet,escarlate
+color_violet,violeta
+color_white,branco
+color_none,sem cor
+or,ou
+color_passion_red,vermelho da Paixão
+color_hangings_removed,sem paramentos
+color_bare_altar,altar despido
+GEN,Gênesis
+EXO,Êxodo
+LEV,Levítico
+NUM,Números
+DEU,Deuteronômio
+JOS,Josué
+JDG,Juízes
+RUT,Rute
+1SA,1 Samuel
+2SA,2 Samuel
+1KI,1 Reis
+2KI,2 Reis
+1CH,1 Crônicas
+2CH,2 Crônicas
+EZR,Esdras
+NEH,Neemias
+EST,Ester
+JOB,Jó
+PSA,Salmo
+PRO,Provérbios
+ECC,Eclesiastes
+SNG,Cantares
+ISA,Isaías
+JER,Jeremias
+LAM,Lamentações
+EZK,Ezequiel
+DAN,Daniel
+HOS,Oseias
+JOL,Joel
+AMO,Amós
+OBA,Obadias
+JON,Jonas
+MIC,Miqueias
+NAM,Naum
+HAB,Habacuque
+ZEP,Sofonias
+HAG,Ageu
+ZEC,Zacarias
+MAL,Malaquias
+MAT,Mateus
+MRK,Marcos
+LUK,Lucas
+JHN,João
+ACT,Atos
+ROM,Romanos
+1CO,1 Coríntios
+2CO,2 Coríntios
+GAL,Gálatas
+EPH,Efésios
+PHP,Filipenses
+COL,Colossenses
+1TH,1 Tessalonicenses
+2TH,2 Tessalonicenses
+1TI,1 Timóteo
+2TI,2 Timóteo
+TIT,Tito
+PHM,Filemom
+HEB,Hebreus
+JAS,Tiago
+1PE,1 Pedro
+2PE,2 Pedro
+1JN,1 João
+2JN,2 João
+3JN,3 João
+JUD,Judas
+REV,Apocalipse
+TOB,Tobias
+JDT,Judite
+WIS,Sabedoria
+SIR,Eclesiástico
+BAR,Baruque
+1MA,1 Macabeus
+2MA,2 Macabeus
+1ES,3 Esdras
+2ES,4 Esdras
+SUS,Susana
+LJE,Carta de Jeremias

@@ -254,6 +254,9 @@ def write_year(cy: ChurchYear, source: Path, out: Path, latin: bool = False,
         if _same_file(origin, destination):
             continue          # regenerating in place; it is already there
         shutil.copy(origin, destination)
+    # The languages the wheel writes its months and dates in.
+    if (source / "languages").is_dir() and not _same_file(source / "languages", out / "languages"):
+        shutil.copytree(source / "languages", out / "languages", dirs_exist_ok=True)
     # Every tradition's folder goes along, so the year folder can be switched
     # to another tradition without reaching back to the source; and the
     # artwork, which config.csv names by key.

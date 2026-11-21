@@ -991,6 +991,16 @@ function utcOn(y, m, d) {
   return at;
 }
 
+/**
+ * The language the date line is written in: the church's own where it is not
+ * English (tradition.csv `language`), else the reader's.
+ */
+function dateLocale() {
+  const code = String(CY.traditionSettings(DATA, traditionOf(currentTradition())).language || 'en').trim();
+  if (!code || code === 'en') return undefined;
+  try { return Intl.DateTimeFormat.supportedLocalesOf([code]).length ? code : undefined; } catch (e) { return undefined; }
+}
+
 function pretty(iso) {
   const day = CY.fromIso(iso);
   const options = { weekday: 'long', year: 'numeric', month: 'long',
@@ -1001,18 +1011,18 @@ function pretty(iso) {
   const here = CY.reckoningNow();
   const named = here.fromDay(day);
   if (here === CY.GREGORIAN) return utcOn(named.y, named.m, named.d)
-    .toLocaleDateString(undefined, options);
+    .toLocaleDateString(dateLocale(), options);
 
   // Outside the Gregorian calendar the label and the weekday come from
   // different places: the month and year are what this calendar calls the day,
   // while the weekday belongs to the day itself and is the same in every
   // calendar.  Formatting the label as if it were Gregorian would name the
   // wrong weekday, so the two are formatted apart and joined.
-  const weekday = new Intl.DateTimeFormat(undefined, { weekday: 'long', timeZone: 'UTC' })
+  const weekday = new Intl.DateTimeFormat(dateLocale(), { weekday: 'long', timeZone: 'UTC' })
     .format(utcOn(CY.gregorianOf(day).y, CY.gregorianOf(day).m, CY.gregorianOf(day).d));
   const rest = Object.assign({}, options);
   delete rest.weekday;
-  const label = utcOn(named.y, named.m, named.d).toLocaleDateString(undefined, rest);
+  const label = utcOn(named.y, named.m, named.d).toLocaleDateString(dateLocale(), rest);
   const said = weekday + ', ' + label + ' (' + here.label + ')';
 
   // Where this calendar names a day differently from the one the reader's own
@@ -1024,15 +1034,39 @@ function pretty(iso) {
   // nothing is added.
   const g = CY.gregorianOf(day);
   if (g.y === named.y && g.m === named.m && g.d === named.d) return said;
-  return said + ' \u2014 ' + utcOn(g.y, g.m, g.d).toLocaleDateString(undefined, rest)
+  return said + ' \u2014 ' + utcOn(g.y, g.m, g.d).toLocaleDateString(dateLocale(), rest)
               + ' Gregorian';
 }
 
-/** "purple (or blue)"; NONE is "no color". */
+/**
+ * The church's own words for its colors (tradition.csv color_labels:
+ * "purple=morado; scarlet=rojo"), by the color's name in lower case.
+ */
+function churchColorLabels() {
+  const p = DATA.profiles[currentTradition()];
+  const out = {};
+  String(p && p.settings ? p.settings.color_labels || '' : '').split(';').forEach(pair => {
+    const at = pair.indexOf('=');
+    if (at > 0) out[pair.slice(0, at).trim().toLowerCase().replace(/_/g, ' ')] = pair.slice(at + 1).trim();
+  });
+  return out;
+}
+
+/**
+ * "purple (or blue)"; NONE is "no color".  In the church's language where its
+ * file names the color (data/languages: color_purple, or): "morado (o azul)".
+ * Only what the page shows: the colors themselves keep their names.
+ */
 function colorWords(name, alt) {
-  const say = c => (/^none$/i.test(c) ? 'no color' : c.toLowerCase().replace(/_/g, ' '));
+  const lang = citeLanguage();
+  const own = churchColorLabels();
+  const say = c => {
+    const word = /^none$/i.test(c) ? 'none' : c.toLowerCase().replace(/_/g, ' ');
+    return own[word] || lang.colors[word] || (word === 'none' ? 'no color' : word);
+  };
+  const or = own.or || (Object.keys(lang.colors).length ? lang.orWord : 'or');
   const others = String(alt || '').split(';').map(s => s.trim()).filter(Boolean).map(say);
-  return say(name) + (others.length ? ' (or ' + others.join(' or ') + ')' : '');
+  return say(name) + (others.length ? ' (' + or + ' ' + others.join(' ' + or + ' ') + ')' : '');
 }
 
 /** A colors.csv fill as CSS paints it: "#ffffff/#bfbfbf" is the hatch of no color. */
@@ -2175,6 +2209,38 @@ function concordUrl(text) {
   return concordPage(pages[''], null);
 }
 
+// ---- Book names in the church's language -----------------------------------
+// The readings are kept in English (the links, the verse numbering and the
+// hymn and song searches read them); only what the page shows is the church's
+// own: its book names (data/languages/<code>.csv), and where it writes a comma
+// between chapter and verse, a comma there and a point between verses
+// ("Römer 13,11.12"), in each part of a citation that names a verse.
+const ENGLISH_BOOK = new RegExp('(^|[^A-Za-z])(' + Object.keys(USFM).sort((x, y) => y.length - x.length)
+  .join('|') + ')(?= \\d)', 'g');
+
+/** The church's language as the page writes citations (church_year.js: languageOf). */
+function citeLanguage() {
+  const p = DATA.profiles[currentTradition()];
+  return CY.languageOf(DATA, p && p.settings ? p.settings.language : 'en');
+}
+
+/** A citation as the church writes it: "Romans 13:11-14" -> "Römer 13,11-14". */
+function localCite(text) {
+  const lang = citeLanguage();
+  if (!Object.keys(lang.books).length) return text;
+  let out = String(text).replace(ENGLISH_BOOK, (m, before, name) => before + (lang.books[USFM[name]] || name));
+  const cv = lang.chapterVerse;
+  if (cv !== ':') {
+    out = out.split(';').map(part => {
+      const at = part.indexOf(':');
+      if (at < 0) return part;
+      const turned = part.replace(/(\d):(?=\d)/g, '$1' + cv);
+      return turned.slice(0, at + 1) + turned.slice(at + 1).replace(/(\d[a-c]?), (?=\d|[a-c](?![A-Za-z]))/g, '$1.');
+    }).join(';');
+  }
+  return out;
+}
+
 /** A reading's parts, [text, url]: each alternative ("A or B") opens on its own, the words between have no url (links.py: reading_links). */
 function readingParts(text, version, site, numbering, cite) {
   const out = [];
@@ -2195,8 +2261,9 @@ function readingParts(text, version, site, numbering, cite) {
 
 /** A reading as links: each alternative ("A or B") opens on its own; `cite`, the reading in the English verses, is where they open. */
 function readingLinks(text, cite) {
-  if (!bibleLinks) return [text];
-  return readingParts(text, bibleBox.value || bibleDefault(), siteBox.value, verseNumbering(), cite).map(([t, url]) => {
+  if (!bibleLinks) return [localCite(text)];
+  return readingParts(text, bibleBox.value || bibleDefault(), siteBox.value, verseNumbering(), cite).map(([part, url]) => {
+    const t = localCite(part);
     if (!url) return t;
     const a = document.createElement('a');
     a.href = url;
@@ -2474,7 +2541,7 @@ function readingLinesFor(iso) {
         text = text.replace('Old Testament', 'First Reading');
       }
       // "Psalm 122" says what it is without a "Psalm" before it.
-      if (it.reading.indexOf(text + ' ') !== 0) {
+      if (localCite(it.reading).indexOf(text + ' ') !== 0 && it.reading.indexOf(text + ' ') !== 0) {
         const label = document.createElement('span');
         label.className = 'kind';
         label.textContent = text + ' ';
@@ -3025,8 +3092,8 @@ addEventListener('keydown', ev => {
 function shortDate(iso) {
   const day = CY.fromIso(iso);
   const named = CY.reckoningNow().fromDay(day), g = CY.gregorianOf(day);
-  const wd = new Intl.DateTimeFormat(undefined, { weekday: 'short', timeZone: 'UTC' }).format(utcOn(g.y, g.m, g.d));
-  return wd + ', ' + utcOn(named.y, named.m, named.d).toLocaleDateString(undefined, { month: 'short', day: 'numeric', timeZone: 'UTC' });
+  const wd = new Intl.DateTimeFormat(dateLocale(), { weekday: 'short', timeZone: 'UTC' }).format(utcOn(g.y, g.m, g.d));
+  return wd + ', ' + utcOn(named.y, named.m, named.d).toLocaleDateString(dateLocale(), { month: 'short', day: 'numeric', timeZone: 'UTC' });
 }
 /** Text as it is matched: lower case, without accents, one kind of apostrophe, single spaces. */
 const findForm = text => String(text || '').normalize('NFD').replace(/[̀-ͯ]/g, '')

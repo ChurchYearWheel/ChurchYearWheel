@@ -1,0 +1,100 @@
+key,value
+"# Svenska: month names (the month ring: months; dates: date_months), date patterns and Bible book names."
+"# month_day writes a day's date on the wheel ({day} {month}); full_date the first day's, with | where it may break onto a second line."
+"# Book names as citations name them, after Bibel 2000 / Svenska Folkbibeln, by USFM code; chapter_verse is what stands between chapter and verse."
+name,Svenska
+months,Januari|Februari|Mars|April|Maj|Juni|Juli|Augusti|September|Oktober|November|December
+date_months,januari|februari|mars|april|maj|juni|juli|augusti|september|oktober|november|december
+month_day,{day} {month}
+full_date,{day} {month}|{year}
+chapter_verse,:
+"# color_...: the header's names for the day's colors, and or: the word between a color and its alternatives."
+color_black,svart
+color_blue,blått
+color_gold,guld
+color_green,grönt
+color_purple,violett
+color_red,rött
+color_rose,rosa
+color_scarlet,scharlakansrött
+color_violet,violett
+color_white,vitt
+color_none,ingen färg
+or,eller
+GEN,1 Mosebok
+EXO,2 Mosebok
+LEV,3 Mosebok
+NUM,4 Mosebok
+DEU,5 Mosebok
+JOS,Josua
+JDG,Domarboken
+RUT,Rut
+1SA,1 Samuelsboken
+2SA,2 Samuelsboken
+1KI,1 Kungaboken
+2KI,2 Kungaboken
+1CH,1 Krönikeboken
+2CH,2 Krönikeboken
+EZR,Esra
+NEH,Nehemja
+EST,Ester
+JOB,Job
+PSA,Psaltaren
+PRO,Ordspråksboken
+ECC,Predikaren
+SNG,Höga visan
+ISA,Jesaja
+JER,Jeremia
+LAM,Klagovisorna
+EZK,Hesekiel
+DAN,Daniel
+HOS,Hosea
+JOL,Joel
+AMO,Amos
+OBA,Obadja
+JON,Jona
+MIC,Mika
+NAM,Nahum
+HAB,Habackuk
+ZEP,Sefanja
+HAG,Haggaj
+ZEC,Sakarja
+MAL,Malaki
+MAT,Matteus
+MRK,Markus
+LUK,Lukas
+JHN,Johannes
+ACT,Apostlagärningarna
+ROM,Romarbrevet
+1CO,1 Korinthierbrevet
+2CO,2 Korinthierbrevet
+GAL,Galaterbrevet
+EPH,Efesierbrevet
+PHP,Filipperbrevet
+COL,Kolosserbrevet
+1TH,1 Thessalonikerbrevet
+2TH,2 Thessalonikerbrevet
+1TI,1 Timotheosbrevet
+2TI,2 Timotheosbrevet
+TIT,Titusbrevet
+PHM,Filemonbrevet
+HEB,Hebreerbrevet
+JAS,Jakobsbrevet
+1PE,1 Petrusbrevet
+2PE,2 Petrusbrevet
+1JN,1 Johannesbrevet
+2JN,2 Johannesbrevet
+3JN,3 Johannesbrevet
+JUD,Judasbrevet
+REV,Uppenbarelseboken
+TOB,Tobit
+JDT,Judit
+WIS,Salomos vishet
+SIR,Syrak
+BAR,Baruk
+1MA,1 Mackabeerboken
+2MA,2 Mackabeerboken
+1ES,3 Esra
+2ES,4 Esra
+SUS,Susanna
+LJE,Jeremias brev

@@ -1,0 +1,100 @@
+key,value
+"# Slovenčina: month names (the month ring: months; dates: date_months), date patterns and Bible book names."
+"# month_day writes a day's date on the wheel ({day} {month}); full_date the first day's, with | where it may break onto a second line."
+"# Book names as citations name them, after Slovenský ekumenický preklad, by USFM code; chapter_verse is what stands between chapter and verse."
+name,Slovenčina
+months,Január|Február|Marec|Apríl|Máj|Jún|Júl|August|September|Október|November|December
+date_months,januára|februára|marca|apríla|mája|júna|júla|augusta|septembra|októbra|novembra|decembra
+month_day,{day}. {month}
+full_date,{day}. {month}|{year}
+chapter_verse,","
+"# color_...: the header's names for the day's colors, and or: the word between a color and its alternatives."
+color_black,čierna
+color_blue,modrá
+color_gold,zlatá
+color_green,zelená
+color_purple,fialová
+color_red,červená
+color_rose,ružová
+color_scarlet,šarlátová
+color_violet,fialová
+color_white,biela
+color_none,bez farby
+or,alebo
+GEN,1. Mojžišova
+EXO,2. Mojžišova
+LEV,3. Mojžišova
+NUM,4. Mojžišova
+DEU,5. Mojžišova
+JOS,Jozua
+JDG,Sudcov
+RUT,Rút
+1SA,1. Samuelova
+2SA,2. Samuelova
+1KI,1. Kráľov
+2KI,2. Kráľov
+1CH,1. Kroník
+2CH,2. Kroník
+EZR,Ezdráš
+NEH,Nehemiáš
+EST,Ester
+JOB,Jób
+PSA,Žalm
+PRO,Príslovia
+ECC,Kazateľ
+SNG,Pieseň piesní
+ISA,Izaiáš
+JER,Jeremiáš
+LAM,Plač
+EZK,Ezechiel
+DAN,Daniel
+HOS,Hozeáš
+JOL,Joel
+AMO,Ámos
+OBA,Abdiáš
+JON,Jonáš
+MIC,Micheáš
+NAM,Náhum
+HAB,Habakuk
+ZEP,Sofoniáš
+HAG,Aggeus
+ZEC,Zachariáš
+MAL,Malachiáš
+MAT,Matúš
+MRK,Marek
+LUK,Lukáš
+JHN,Ján
+ACT,Skutky
+ROM,Rimanom
+1CO,1. Korinťanom
+2CO,2. Korinťanom
+GAL,Galaťanom
+EPH,Efezanom
+PHP,Filipanom
+COL,Kolosanom
+1TH,1. Tesaloničanom
+2TH,2. Tesaloničanom
+1TI,1. Timotejovi
+2TI,2. Timotejovi
+TIT,Títovi
+PHM,Filemonovi
+HEB,Hebrejom
+JAS,Jakub
+1PE,1. Petra
+2PE,2. Petra
+1JN,1. Jána
+2JN,2. Jána
+3JN,3. Jána
+JUD,Júda
+REV,Zjavenie
+TOB,Tobiáš
+JDT,Judita
+WIS,Múdrosť
+SIR,Sirachovec
+BAR,Baruch
+1MA,1. Machabejcov
+2MA,2. Machabejcov
+1ES,3. Ezdrášova
+2ES,4. Ezdrášova
+SUS,Zuzana
+LJE,Jeremiášov list

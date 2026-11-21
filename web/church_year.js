@@ -2091,6 +2091,39 @@ function seasonArt(data, church, name, word, week) {
  * 2026-12-25: the middle holds the picture of that day's season, where
  * season_art.csv gives it one).
  */
+/**
+ * A church's language, as the wheel writes dates in it (church_year_image.py:
+ * load_language): the month ring's names, the names in a date, the patterns
+ * for a day and for the year's first day (| where it may break), and the
+ * Bible book names the page shows.  What a language leaves out is English.
+ */
+function languageOf(data, code) {
+  const all = data.languages || {};
+  const english = all.en || { months: Object.keys(data.monthNames || {}).sort((a, b) => a - b).map(k => data.monthNames[k]) };
+  const lang = all[String(code || 'en').trim().toLowerCase()] || english;
+  const months = lang.months || english.months;
+  return {
+    months: months,
+    dateMonths: lang.dateMonths || months,
+    monthDay: lang.monthDay || '{month} {day}',
+    fullDate: lang.fullDate || '{month} {day},|{year}',
+    chapterVerse: lang.chapterVerse || ':',
+    books: lang.books || {},
+    colors: lang.colors || {},
+    orWord: lang.or || 'or',
+    /** church_year_image.py: Language.day_text. */
+    dayText(month, day) {
+      return this.monthDay.split('{month}').join(this.dateMonths[month - 1] || String(month))
+        .split('{day}').join(String(day));
+    },
+    /** church_year_image.py: Language.full_text.  Keeps the | break mark. */
+    fullText(month, day, year) {
+      return this.fullDate.split('{month}').join(this.dateMonths[month - 1] || String(month))
+        .split('{day}').join(String(day)).split('{year}').join(year);
+    },
+  };
+}
+
 function Calendar(data, opts) {
   opts = opts || {};
   const tradition = findTradition(data, opts.tradition || data.defaultTradition);
@@ -2145,7 +2178,9 @@ function Calendar(data, opts) {
     const fill = (over.rings || {})[r.key], text = (over.ringText || {})[r.key];
     return fill || text ? Object.assign({}, r, fill ? { fill: fill } : {}, text ? { textColor: text } : {}) : r;
   });
-  this.monthNames = data.monthNames;
+  this.language = languageOf(data, cfg.language);
+  this.monthNames = {};
+  this.language.months.forEach((name, i) => { this.monthNames[String(i + 1)] = name; });
   this.monthOverrides = data.monthOverrides;
   this.iconDefs = data.icons || {};
   this.art = artworkKey(data, cfg, profile, opts.art);
@@ -3255,14 +3290,13 @@ Renderer.prototype.topLabelRoom = function (day, wedge) {
 /** church_year_image.py: _first_day_text. */
 Renderer.prototype.firstDayText = function (day) {
   const month = monthOf(day);
-  return (this.cal.monthNames[String(month)] || String(month)) + ' ' + dayOf(day) + ', ' + yearName(yearOf(day));
+  return this.cal.language.fullText(month, dayOf(day), yearName(yearOf(day)));
 };
 
 Renderer.prototype.renderDayNumber = function (day, wedge, fill) {
   const cfg = this.cfg, cal = this.cal;
   let rLabel = wedge.rOuter - cfg.day_number_vertical_ratio * wedge.radialExtent;
   const month = monthOf(day), dayNum = dayOf(day);
-  const monthName = cal.monthNames[String(month)] || String(month);
 
   if (iso(day) === cfg.church_year_start) {
     const style = cal.styles.first_day_label;
@@ -3277,7 +3311,7 @@ Renderer.prototype.renderDayNumber = function (day, wedge, fill) {
     rLabel -= cal.monthOverrides.vertical[key] || 0.0;
     const angle = wedge.angleMid + (cal.monthOverrides.horizontal[key] || 0.0);
     const pinned = cal.monthOverrides.fontSize[key];
-    this.centeredDateLabel(monthName + ' ' + dayNum, style, wedge, rLabel, fill,
+    this.centeredDateLabel(cal.language.dayText(month, dayNum), style, wedge, rLabel, fill,
                            pinned === undefined ? null : pinned, angle);
     return true;
   }
@@ -3294,21 +3328,22 @@ Renderer.prototype.renderDayNumber = function (day, wedge, fill) {
 /**
  * The lines and size of a "January 1" style label: one line, shrunk if the
  * wedge is too narrow for it; one that does not fit even at the style's
- * smallest size breaks after its comma onto a second line ("September 11," /
+ * smallest size breaks where its | marks onto a second line ("September 11," /
  * "2026"), each line fitted to the width at its own radius (church_year_image.py:
  * _date_label_fit).
  */
 Renderer.prototype.dateLabelFit = function (text, style, wedge, radius, pinned) {
   const cfg = this.cfg;
-  if (pinned != null || !cfg.autofit) return [[text], pinned != null ? pinned : style.fontSize];
+  const whole = text.split('|').join(' ');
+  if (pinned != null || !cfg.autofit) return [[whole], pinned != null ? pinned : style.fontSize];
   const fits = (lines, size) => lines.every((line, i) => {
     const r = radius - i * size * DATE_LINE_HEIGHT;
     const room = wedge.chordAt(r) * cfg.text_fill_ratio - 2 * cfg.cell_padding;
     return this.cal.measurer.width(line, size, style.fontFamily, style.fontWeight, style.fontStyle) <= room;
   });
-  const candidates = [[text]];
-  const at = text.lastIndexOf(', ');
-  if (at >= 0) candidates.push([text.slice(0, at) + ',', text.slice(at + 2)]);
+  const candidates = [[whole]];
+  const at = text.lastIndexOf('|');
+  if (at >= 0) candidates.push([text.slice(0, at).split('|').join(' ').trim(), text.slice(at + 1).trim()]);
   let lines = candidates[0], size = style.fontSize;
   for (lines of candidates) {
     size = style.fontSize;
@@ -4321,6 +4356,7 @@ root.ChurchYear = {
   renderDocument: renderDocument,
   Year: Year, Source: Source, findTradition: findTradition,
   traditionSettings: traditionSettings,
+  languageOf: languageOf,
   yearStart: (data, key, year) => yearStart(data, key, year),
   yearFor: yearFor,
   readingCategories: readingCategories, READING_CATEGORIES: READING_CATEGORIES,

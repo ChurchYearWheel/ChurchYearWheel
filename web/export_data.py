@@ -218,6 +218,14 @@ def csv_layouts(data_dir: Path, out: dict) -> dict:
     return found
 
 
+def language_dict(lang: cy.Language) -> dict:
+    return {"months": [lang.months[i] for i in range(1, 13)],
+            "dateMonths": [lang.date_months[i] for i in range(1, 13)],
+            "monthDay": lang.month_day, "fullDate": lang.full_date,
+            "chapterVerse": lang.chapter_verse, "books": lang.books,
+            "colors": lang.colors, "or": lang.or_word}
+
+
 def profile(data_dir: Path, tradition: T.Tradition) -> dict:
     """What drawing this tradition needs besides its rules: settings, colors, styles."""
     folder = T.folder_path(data_dir, tradition)
@@ -308,6 +316,10 @@ def build(data_dir: Path) -> dict:
         "settings": settings_dict(base),
         "rings": [ring_dict(r) for r in cy.close_ring_gaps(cy.load_rings(data_dir / "rings.csv"))],
         "monthNames": {str(k): v for k, v in cy.load_month_names(data_dir / "month_names.csv").items()},
+        # The churches' languages: the wheel's months and dates, the page's
+        # Bible book names (church_year.js: languageOf).
+        "languages": {code: language_dict(cy.load_language(data_dir, code))
+                      for code in ["en"] + sorted(p.stem for p in (data_dir / "languages").glob("*.csv"))},
         "monthOverrides": month_overrides(data_dir),
         # Which picture a season shows when the middle follows the season.
         "seasonArt": [{"season": season, "art": art, "church": church, "week": week}

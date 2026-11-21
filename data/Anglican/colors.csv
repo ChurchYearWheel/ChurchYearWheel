@@ -3,3 +3,5 @@ name,fill,text
 # No color: hangings removed on Good Friday and Easter Eve.,,
 # ===========================================================================,,
 NONE,#ffffff/#bfbfbf,#000000
+"# Violet: the IEAB calendar's word for Advent; drawn as the default purple.",,
+VIOLET,#660066,#ffffff

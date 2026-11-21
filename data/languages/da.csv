@@ -1,0 +1,100 @@
+key,value
+"# Dansk: month names (the month ring: months; dates: date_months), date patterns and Bible book names."
+"# month_day writes a day's date on the wheel ({day} {month}); full_date the first day's, with | where it may break onto a second line."
+"# Book names as citations name them, after Den Danske Bibel, by USFM code; chapter_verse is what stands between chapter and verse."
+name,Dansk
+months,Januar|Februar|Marts|April|Maj|Juni|Juli|August|September|Oktober|November|December
+date_months,januar|februar|marts|april|maj|juni|juli|august|september|oktober|november|december
+month_day,{day}. {month}
+full_date,{day}. {month}|{year}
+chapter_verse,","
+"# color_...: the header's names for the day's colors, and or: the word between a color and its alternatives."
+color_black,sort
+color_blue,blå
+color_gold,gylden
+color_green,grøn
+color_purple,violet
+color_red,rød
+color_rose,rosa
+color_scarlet,skarlagen
+color_violet,violet
+color_white,hvid
+color_none,ingen farve
+or,eller
+GEN,1. Mosebog
+EXO,2. Mosebog
+LEV,3. Mosebog
+NUM,4. Mosebog
+DEU,5. Mosebog
+JOS,Josva
+JDG,Dommerbogen
+RUT,Ruth
+1SA,1. Samuelsbog
+2SA,2. Samuelsbog
+1KI,1. Kongebog
+2KI,2. Kongebog
+1CH,1. Krønikebog
+2CH,2. Krønikebog
+EZR,Ezra
+NEH,Nehemias
+EST,Ester
+JOB,Job
+PSA,Salme
+PRO,Ordsprogene
+ECC,Prædikeren
+SNG,Højsangen
+ISA,Esajas
+JER,Jeremias
+LAM,Klagesangene
+EZK,Ezekiel
+DAN,Daniel
+HOS,Hoseas
+JOL,Joel
+AMO,Amos
+OBA,Obadias
+JON,Jonas
+MIC,Mika
+NAM,Nahum
+HAB,Habakkuk
+ZEP,Zefanias
+HAG,Haggaj
+ZEC,Zakarias
+MAL,Malakias
+MAT,Matthæus
+MRK,Markus
+LUK,Lukas
+JHN,Johannes
+ACT,Apostlenes Gerninger
+ROM,Romerbrevet
+1CO,1. Korintherbrev
+2CO,2. Korintherbrev
+GAL,Galaterbrevet
+EPH,Efeserbrevet
+PHP,Filipperbrevet
+COL,Kolossenserbrevet
+1TH,1. Thessalonikerbrev
+2TH,2. Thessalonikerbrev
+1TI,1. Timotheusbrev
+2TI,2. Timotheusbrev
+TIT,Titusbrevet
+PHM,Filemonbrevet
+HEB,Hebræerbrevet
+JAS,Jakobs Brev
+1PE,1. Petersbrev
+2PE,2. Petersbrev
+1JN,1. Johannes' Brev
+2JN,2. Johannes' Brev
+3JN,3. Johannes' Brev
+JUD,Judas' Brev
+REV,Johannes' Åbenbaring
+TOB,Tobits Bog
+JDT,Judits Bog
+WIS,Visdommens Bog
+SIR,Siraks Bog
+BAR,Baruks Bog
+1MA,1. Makkabæerbog
+2MA,2. Makkabæerbog
+1ES,3. Ezrabog
+2ES,4. Ezrabog
+SUS,Susanna
+LJE,Jeremias' Brev

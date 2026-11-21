@@ -20,3 +20,5 @@ reading_propers,introit gradual verse,
 reading_labels,introit=Introito; ot=Primera lectura; psalm=Salmo; epistle=Epístola; gradual=Gradual; verse=Versículo del día; gospel=Evangelio,
 "# The Bible the IELE reads: Reina-Valera 1995."
 bible_version,RVR1995,
+"# The language the wheel writes its months and dates in, and the page its date line and Bible book names (data/languages).",,
+language,es,

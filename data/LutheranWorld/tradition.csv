@@ -41,3 +41,14 @@ verse_numbering,Psalms Joel,slovakia
 verse_numbering,Psalms Isaiah Joel Micah,hkbp
 # The page names no weekdays from their Sundays (weekday_titles): the calendars' names are not in English.,,
 weekday_titles,none,
+"# The language the wheel writes its months and dates in, and the page its date line and Bible book names (data/languages).",,
+language,de,ekd
+language,sw,elct
+language,id,hkbp gkli
+language,mg,flm
+language,sk,slovakia
+language,lv,latvia
+language,is,iceland
+language,hu,hungary
+language,et,estonia
+language,pl,poland

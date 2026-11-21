@@ -13,7 +13,8 @@
 | `sundays_seasons.csv` | dated Sundays, festivals and principal days |
 | `year_feasts.csv` | the year's commemorations, dated, with each one's level, rank and icons (written by `new_year.py`) |
 | `month_overrides.csv` | optional nudges for individual month labels |
-| `month_names.csv` | month number → printed name |
+| `month_names.csv` | month number → printed name (English) |
+| `languages/` | each church language's month names, date patterns and Bible book names (below) |
 | `rings.csv` | the concentric rings and their geometry |
 | `text_styles.csv` | the named text appearances used in the day cells |
 | `traditions.csv` | the Tradition, Church, Hymnal and Lectionary (or Prayer book, Calendar) menus: each calendar's key, label, place in the menus, folder and variant |
@@ -26,6 +27,38 @@ The dated files (`sundays_seasons.csv`, `season_periods.csv`,
 `broad_seasons.csv`, `halves.csv`, `year_feasts.csv`) are written by
 `new_year.py` from the tradition's rules. Edit the rules in the tradition's
 folder and regenerate, or edit a year's dated files by hand for that year alone.
+
+### languages/
+
+One file per language, named by its code (`es.csv`, `de.csv`, ...), which a
+church names with the `language` setting in its `tradition.csv`. Rows are
+`key,value`:
+
+| key | what |
+|---|---|
+| `name` | the language's own name |
+| `months` | the twelve names on the month ring, separated by `\|` |
+| `date_months` | the twelve as a date writes them, where that differs (Polish *stycznia*, Finnish *tammikuuta*) |
+| `month_day` | a day's date on the wheel: `{day} de {month}`, `{day}. {month}`, `{month} {day}.` |
+| `full_date` | the year's first day: `{day} de {month}\| de {year}`, the `\|` where it may break onto a second line |
+| `chapter_verse` | what the page writes between chapter and verse: `:` or `,` (with `,`, verses are listed with `.`: *Römer 13,11.12*) |
+| `GEN`, `EXO`, ... | the Bible books' names, by USFM code, as the page shows them in a citation |
+| `color_purple`, `color_white`, ... `color_none`, `or` | the page header's words for the day's color and its alternatives ("morado (o azul)"), by the color's name in lower case, spaces as `_`; `color_none` stands for "no color", `or` between a color and its alternatives |
+
+The words follow the churches' own documents where one was found: the Church of
+Sweden's *vitt, grönt, rött*, the Church of Norway's 2010 color rule (*hvitt,
+grønt, rødt, gyllent*), Danish *gylden*, German capitalized (*Violett, Weiß*).
+A church whose own documents use another word sets `color_labels` in its
+`tradition.csv`.
+
+What a file leaves out stays English, and a church without a `language` is
+English (`month_names.csv`, and `{month} {day}` and `{month} {day},|{year}`).
+The colors keep their names everywhere else (colors.csv, the overrides, links
+and settings); only the header's words change. The readings themselves stay in
+English in the data: the Bible links, the verse
+numbering and the hymn and song searches read them; only what the page shows
+is translated. The book names follow each church's Bible (`source` is noted at
+the top of each file) and are worth a check by a reader of the language.
 
 ### colors.csv
 
