@@ -21,6 +21,20 @@ color_violet,ibolya
 color_white,fehér
 color_none,nincs szín
 or,vagy
+"# reading_...: the page's words for its kinds of reading, by their English names (reading_Readings heads the list)."
+reading_Readings,Olvasmányok
+reading_Old Testament,Ószövetség
+reading_Psalm,Zsoltár
+reading_Epistle,Epistola
+reading_Gospel,Evangélium
+reading_First Reading,Első olvasmány
+reading_Second Reading,Második olvasmány
+reading_Reading,Olvasmány
+reading_Sermon Text,Igehirdetési alapige
+reading_Story Text,Elbeszélés
+reading_Prophecy,Prófécia
+reading_Procession,Körmenet
+reading_New Testament,Újszövetség
 GEN,1Mózes
 EXO,2Mózes
 LEV,3Mózes

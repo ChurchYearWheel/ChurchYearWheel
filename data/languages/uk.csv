@@ -20,3 +20,17 @@ color_violet,фіолетовий
 color_white,білий
 color_none,без кольору
 or,або
+"# reading_...: the page's words for its kinds of reading, by their English names (reading_Readings heads the list)."
+reading_Readings,Читання
+reading_Old Testament,Старий Заповіт
+reading_Psalm,Псалом
+reading_Epistle,Апостол
+reading_Gospel,Євангеліє
+reading_First Reading,Перше читання
+reading_Second Reading,Друге читання
+reading_Reading,Читання
+reading_Sermon Text,Текст проповіді
+reading_Story Text,Розповідь
+reading_Prophecy,Пророцтво
+reading_Procession,Процесія
+reading_New Testament,Новий Заповіт

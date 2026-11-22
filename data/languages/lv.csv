@@ -21,6 +21,20 @@ color_violet,violeta
 color_white,balta
 color_none,bez krāsas
 or,vai
+"# reading_...: the page's words for its kinds of reading, by their English names (reading_Readings heads the list)."
+reading_Readings,Lasījumi
+reading_Old Testament,Vecā Derība
+reading_Psalm,Psalms
+reading_Epistle,Epistula
+reading_Gospel,Evaņģēlijs
+reading_First Reading,Pirmais lasījums
+reading_Second Reading,Otrais lasījums
+reading_Reading,Lasījums
+reading_Sermon Text,Sprediķa teksts
+reading_Story Text,Stāsts
+reading_Prophecy,Pravietojums
+reading_Procession,Procesija
+reading_New Testament,Jaunā Derība
 GEN,1. Mozus
 EXO,2. Mozus
 LEV,3. Mozus

@@ -21,6 +21,20 @@ color_violet,violet
 color_white,hvid
 color_none,ingen farve
 or,eller
+"# reading_...: the page's words for its kinds of reading, by their English names (reading_Readings heads the list)."
+reading_Readings,Læsninger
+reading_Old Testament,Gammeltestamentlig læsning
+reading_Psalm,Salme
+reading_Epistle,Epistel
+reading_Gospel,Evangelium
+reading_First Reading,Første læsning
+reading_Second Reading,Anden læsning
+reading_Reading,Læsning
+reading_Sermon Text,Prædiketekst
+reading_Story Text,Fortælling
+reading_Prophecy,Profeti
+reading_Procession,Procession
+reading_New Testament,Det Nye Testamente
 GEN,1. Mosebog
 EXO,2. Mosebog
 LEV,3. Mosebog

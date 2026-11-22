@@ -1,0 +1,487 @@
+english,translation
+"# The page's own words (buttons, menus, settings and their notes) in this language: the English as the page writes it, then its translation. {0}, {1} ... stand for what the page fills in. A missing or blank line stays English."
+Settings,Nastavenia
+Simple,Jednoduché
+All,Všetky
+Language,Jazyk
+Match the church,Ako cirkev
+Browser ({0}),Prehliadač ({0})
+Year,Rok
+Tradition,Tradícia
+Church,Cirkev
+Hymnal,Spevník
+Lectionary,Perikopový rad
+Feasts,Sviatky
+Festivals,Slávnosti
+Principal only,Len hlavné sviatky
+None,Žiadne
+Bible,Biblia
+Readings shown as,Čítania zobraziť ako
+Tabs,Karty
+Columns,Stĺpce
+Calendar and names,Kalendár a názvy
+Calendar,Kalendár
+Gregorian,Gregoriánsky
+Julian (Old Calendar),Juliánsky (starý kalendár)
+Revised Julian (New Calendar),Revidovaný juliánsky (nový kalendár)
+Easter,Veľká noc
+With the calendar,Podľa kalendára
+Western,Západná
+Eastern,Východná
+Latin names,Latinské názvy
+Readings,Čítania
+The day's propers,Vlastné čítania dňa
+Feasts and festivals,Sviatky a slávnosti
+Other dated days,Ďalšie dni s dátumom
+Daily lectionary,Denné čítania
+Additional readings,Ďalšie čítania
+Psalm table,Tabuľka žalmov
+Bible reading plan,Plán čítania Biblie
+Office lessons,Čítania hodiniek
+Open in,Otvoriť v
+Slide,Posun
+Off,Vypnutý
+Quick,Rýchly
+Medium,Stredný
+Slow,Pomalý
+Propers,Propriá
+Hymn search,Hľadanie piesní
+Contemporary song search,Hľadanie súčasných chválospevov
+The wheel,Koleso
+Artwork,Obrázok
+Thicker line where the year begins,"Hrubšia čiara, kde sa začína rok"
+Arrow keys go on into the next year,Šípky pokračujú do ďalšieho roka
+Dark text on reds,Tmavý text na červenej
+Under the wheel,Pod kolesom
+Instructions and notes,Pokyny a poznámky
+Artwork credit,Autor obrázka
+Rings,Kruhy
+Outer band,Vonkajší pás
+Seasons,Obdobia
+Months,Mesiace
+Parts of the year,Časti roka
+Day cells,Bunky dní
+Center artwork,Obrázok v strede
+Colors…,Farby…
+Colors,Farby
+Days,Dni
+Close,Zavrieť
+Reset colors,Obnoviť farby
+Reset settings,Obnoviť nastavenia
+Share,Zdieľať
+Copy link,Kopírovať odkaz
+Copy embed code,Kopírovať kód na vloženie
+Print,Tlačiť
+Download…,Stiahnuť…
+Download,Stiahnuť
+Years,Roky
+From,Od
+to,do
+pixels wide,pixelov na šírku
+Background,Pozadie
+clear,priehľadné
+white,biele
+Lists,Zoznamy
+Sundays,Nedele
+Sundays and principal days,Nedele a hlavné sviatky
+every day,každý deň
+every named day,každý pomenovaný deň
+with links,s odkazmi
+with major days,s hlavnými sviatkami
+other colors,ďalšie farby
+Format,Formát
+CSV (spreadsheet),CSV (tabuľka)
+HTML (to print),HTML (na tlač)
+iCalendar (.ics),iCalendar (.ics)
+PNG (a picture),PNG (obrázok)
+"SVG (a drawing, sharp at any size)","SVG (kresba, ostrá v každej veľkosti)"
+The year at a glance,Rok na prvý pohľad
+Today,Dnes
+Week,Týždeň
+Find a day,Nájsť deň
+Help,Pomoc
+Feedback,Spätná väzba
+About the artwork,O obrázku
+Choose a date,Vybrať dátum
+Previous day,Predchádzajúci deň
+Next day,Nasledujúci deň
+Zoom in,Priblížiť
+Zoom out,Oddialiť
+Zoom in (+),Priblížiť (+)
+Zoom out (−),Oddialiť (−)
+Magnification,Zväčšenie
+The week before,Predchádzajúci týždeň
+The week after,Nasledujúci týždeň
+Days with that name,Dni s týmto názvom
+Find a day by its name,Nájsť deň podľa názvu
+Church Year {0},Cirkevný rok {0}
+Jump to today (T) — {0},Prejsť na dnešok (T) — {0}
+Read about {0},Čítať o {0}
+{0} ({1} hymns) in {2},{0} ({1} piesní) v {2}
+Hymns on {0} in {1} at Hymnary.org,Piesne o {0} v {1} na Hymnary.org
+Hymns for these readings in {0} at Hymnary.org,Piesne k týmto čítaniam v {0} na Hymnary.org
+Hymns for these propers in {0} at Hymnary.org,Piesne k týmto propriám v {0} na Hymnary.org
+the church's hymnal,spevníku cirkvi
+Contemporary worship songs for these readings at Word to Worship,Súčasné chválospevy k týmto čítaniam na Word to Worship
+Contemporary worship songs for these propers at Word to Worship,Súčasné chválospevy k týmto propriám na Word to Worship
+Open all these readings together at Bible Gateway,Otvoriť všetky tieto čítania spolu na Bible Gateway
+Open these propers together at Bible Gateway,Otvoriť tieto propriá spolu na Bible Gateway
+▴ less,▴ menej
+▾ more,▾ viac
+▾ {0} more,▾ ďalšie {0}
+Show two lines again,Znova zobraziť dva riadky
+Show all of this set’s readings,Zobraziť všetky čítania tohto radu
+Show all the day’s readings,Zobraziť všetky čítania dňa
+Show the readings in three lines again,Znova zobraziť čítania v troch riadkoch
+No day of {0} by that name,V {0} nie je deň s týmto názvom
+Choose {0} on the wheel,Vybrať {0} na kolese
+In another church year: choose the day to draw it.,"V inom cirkevnom roku: vyberte deň, aby sa nakreslil."
+Copied,Skopírované
+Copy failed,Kopírovanie zlyhalo
+"The language of the page's buttons, menus and settings. The calendar's names, dates and readings stay in the church's language.","Jazyk tlačidiel, ponúk a nastavení stránky. Názvy, dátumy a čítania kalendára zostávajú v jazyku cirkvi."
+"The church year wheel: left and right arrow keys step a week, up and down a day","Koleso cirkevného roka: šípky doľava a doprava posúvajú o týždeň, hore a dole o deň"
+"The settings most often changed: the year, the church, the feasts, the Bible and how the readings are shown","Najčastejšie menené nastavenia: rok, cirkev, sviatky, Biblia a ako sa zobrazujú čítania"
+"Every setting: the calendar, the kinds of reading, the searches, the artwork, the rings and colors, and making a page or editing the data","Všetky nastavenia: kalendár, druhy čítaní, vyhľadávania, obrázok, kruhy a farby a vytvorenie stránky alebo úprava údajov"
+"The year the church year begins in: Advent for most traditions, September for the Eastern Orthodox","Rok, v ktorom sa začína cirkevný rok: v advente pre väčšinu tradícií, v septembri pre pravoslávnych"
+The family of churches,Rodina cirkví
+Which church's calendar the wheel follows,Kalendár ktorej cirkvi koleso nasleduje
+"All: every commemoration. Festivals: the festivals and feasts (in the Roman calendar, solemnities and feasts). Principal: only the principal days (solemnities). None: the saints' days are left off.",Všetky: každá pamiatka. Slávnosti: slávnosti a sviatky (v rímskom kalendári slávnosti a sviatky). Len hlavné sviatky: len hlavné dni (slávnosti). Žiadne: dni svätých sa vynechajú.
+The translation the readings open in. Each church starts on the one it uses (ESV where it names none).,"Preklad, v ktorom sa čítania otvárajú. Každá cirkev začína tým, ktorý používa (ESV, kde žiadny neuvádza)."
+"How the day's readings are shown when there are several sets: one at a time under tabs, or all of them in columns (on the right, and across two columns when opened with more)","Ako sa zobrazujú čítania dňa, keď je radov viac: po jednom na kartách alebo všetky v stĺpcoch (vpravo a cez dva stĺpce, keď sa otvoria cez viac)"
+Which calendar the dates are reckoned in,V ktorom kalendári sa počítajú dátumy
+"How Easter is dated, which is a separate question from how the days are named. Left to follow the calendar, a Gregorian wheel keeps Western Easter and the other two keep the Eastern one.","Ako sa určuje dátum Veľkej noci, čo je iná otázka než pomenovanie dní. Podľa kalendára gregoriánske koleso drží západnú Veľkú noc a ostatné dve východnú."
+"Name the one-year Sundays as the historic calendar does, from the first words of the day's Introit: Ad Te Levavi, Laetare, Quasimodo Geniti","Pomenovať nedele jednoročného radu ako historický kalendár, podľa prvých slov introitu dňa: Ad Te Levavi, Laetare, Quasimodo Geniti"
+List the day's Bible readings under its name. Each kind can be left out; only the kinds this church's lectionary has are offered.,"Uviesť biblické čítania dňa pod jeho názvom. Každý druh možno vynechať; ponúkajú sa len druhy, ktoré má perikopový rad tejto cirkvi."
+"The lessons of the day's own propers: its Sunday, holy day or season, and any other service its book appoints for it","Čítania vlastného propria dňa: jeho nedeľa, sviatok alebo obdobie a každá ďalšia bohoslužba, ktorú mu jeho kniha určuje"
+"The lessons of a saint's day or festival, listed only while the wheel shows it (see Feasts)","Čítania dňa svätého alebo sviatku, uvedené len kým ho koleso zobrazuje (pozri Sviatky)"
+"The lessons of a day the calendar does not name, kept by its date or a date rule: Ember and Rogation Days, Thanksgiving, New Year's and national days, the Saturdays before and after a feast","Čítania dňa, ktorý kalendár nepomenúva, podľa dátumu alebo pravidla: kántrové a prosebné dni, deň vďakyvzdania, Nový rok a štátne sviatky, soboty pred sviatkom a po ňom"
+The hymnal's or prayer book's daily or weekday lectionary,Denné alebo všednodenné čítania spevníka alebo modlitebnej knihy
+"The additional readings a daily lectionary offers beside its own, for reading more of the Bible (Lutheran Service Book prints them in italics)","Ďalšie čítania, ktoré denný poriadok čítaní ponúka popri vlastných, na čítanie väčšej časti Biblie (Lutheran Service Book ich tlačí kurzívou)"
+"A table of psalms for daily prayer, morning and evening, by season and weekday (Lutheran Service Book, p. 304)","Tabuľka žalmov na dennú modlitbu, ráno a večer, podľa obdobia a dňa v týždni (Lutheran Service Book, s. 304)"
+"A plan of daily Bible reading kept by the calendar year: Reading the Word of God (LCMS, LCC and NALC), through the Old Testament in three years and the Psalms and New Testament twice","Plán denného čítania Biblie podľa kalendárneho roka: Reading the Word of God (LCMS, LCC a NALC), Starý zákon za tri roky a Žalmy a Nový zákon dvakrát"
+"The lessons of the Office: Morning and Evening Prayer, Matins, a second or third service","Čítania hodiniek: ranná a večerná modlitba, matutínum, druhá alebo tretia bohoslužba"
+"Where a reading opens. On a phone or tablet either one opens in its own app when the app is installed, and in the browser otherwise.","Kde sa čítanie otvorí. V telefóne alebo tablete sa každé otvorí vo vlastnej aplikácii, ak je nainštalovaná, inak v prehliadači."
+How fast the sets slide between the columns when more or less is clicked (kept in this browser),Ako rýchlo sa rady posúvajú medzi stĺpcami po kliknutí na viac alebo menej (uložené v tomto prehliadači)
+"The parts of the service the church lists with each day's readings (an Introit, a Gradual and a Verse), on a line of their own after them; a set's heading opens only its readings together","Časti bohoslužby, ktoré cirkev uvádza s čítaniami každého dňa (introit, graduál a verš), na vlastnom riadku za nimi; nadpis radu otvára len jeho čítania spolu"
+A hymnal mark after each set of readings that searches Hymnary.org for the hymns on them in this church's hymnal,"Značka spevníka za každým radom čítaní, ktorá hľadá na Hymnary.org piesne k nim v spevníku tejto cirkvi"
+"The hymnal Hymn search looks in, where the church has several","Spevník, v ktorom hľadá Hľadanie piesní, ak má cirkev viac spevníkov"
+A circled note after each set of readings that searches Word to Worship (wordtoworship.com) for contemporary worship songs on them,"Nota v krúžku za každým radom čítaní, ktorá hľadá na Word to Worship (wordtoworship.com) súčasné chválospevy k nim"
+"The picture in the middle of the wheel. Each tradition has its own; any of them can be chosen. By season changes it with the day chosen: the wreath in Advent, the manger at Christmas, the empty tomb at Easter, and the church's own picture in the seasons that have none.","Obrázok v strede kolesa. Každá tradícia má svoj; vybrať možno ktorýkoľvek. „Podľa obdobia“ ho mení s vybraným dňom: veniec v advente, jasličky na Vianoce, prázdny hrob na Veľkú noc a vlastný obrázok cirkvi v obdobiach, ktoré žiadny nemajú."
+"A thicker line where the year's last week meets its first, which are a year apart","Hrubšia čiara, kde sa posledný týždeň roka stretáva s prvým, ktoré delí rok"
+"Checked: at the end of the church year the arrow keys go on into the next year's wheel, and back into the last. Unchecked: they go round the year on the wheel, from its last week to its first. Page Up and Page Down and the ◀ ▶ buttons always go on.","Zaškrtnuté: na konci cirkevného roka šípky pokračujú do kolesa ďalšieho roka a späť do predchádzajúceho. Nezaškrtnuté: idú dookola roka na kolese, od posledného týždňa po prvý. Page Up, Page Down a tlačidlá ◀ ▶ pokračujú vždy."
+"The reds in the middle of the range (the LCMS, Roman and Presbyterian reds) read about as well with black text as with white. Checked: black on them.","Červené uprostred škály (červená LCMS, rímska a presbyteriánska) sa čítajú s čiernym textom asi rovnako dobre ako s bielym. Zaškrtnuté: čierny na nich."
+"How to use the wheel, the calendar's notes and how long it took to draw","Ako používať koleso, poznámky kalendára a ako dlho trvalo kreslenie"
+"Who made the picture in the middle, and its license. When it is off and the license asks for credit, a small i button keeps it a click away.","Kto vytvoril obrázok v strede a jeho licencia. Keď je to vypnuté a licencia žiada uvedenie autora, malé tlačidlo i ho drží na jedno kliknutie."
+"The colors the days and the rings are painted in, each of which can be changed for this page","Farby, ktorými sú namaľované dni a kruhy; každú možno pre túto stránku zmeniť"
+The colors on the wheel this year. Click a swatch to change it; the change is kept in the page's link. Text on a day stays readable: it turns black or white if it would not.,"Farby na kolese v tomto roku. Kliknutím na vzorku ju zmeníte; zmena sa uloží v odkaze stránky. Text na dni zostane čitateľný: zmení sa na čierny alebo biely, ak by nebol."
+Put every color back to the page's own,Vrátiť každú farbu na farbu stránky
+"Put every setting here back to what config.csv asks for, keeping the day on the wheel","Vrátiť každé nastavenie na to, čo určuje config.csv, a ponechať deň na kolese"
+"Copy a link that opens on this day, with these settings","Skopírovať odkaz, ktorý sa otvorí na tomto dni s týmito nastaveniami"
+"Copy a line of HTML that shows this page inside a page of your own website (an iframe), opening on the day it is read, with these settings","Skopírovať riadok HTML, ktorý zobrazí túto stránku vo vašej vlastnej webovej stránke (iframe), otvorenú na deň čítania, s týmito nastaveniami"
+Print the whole wheel on one page,Vytlačiť celé koleso na jednu stranu
+"Download the wheel (SVG, PNG) and lists of its readings, colors and feasts, for this year or a run of years","Stiahnuť koleso (SVG, PNG) a zoznamy jeho čítaní, farieb a sviatkov na tento rok alebo rad rokov"
+"The wheel and its lists as they are here, with these settings: the church, calendars, feasts, readings, rings, colors and artwork.","Koleso a jeho zoznamy tak, ako sú tu, s týmito nastaveniami: cirkev, kalendáre, sviatky, čítania, kruhy, farby a obrázok."
+"Each day's readings, as the Readings boxes and the Feasts setting choose them","Čítania každého dňa, ako ich vyberajú políčka Čítania a nastavenie Sviatky"
+Each reading opens where Open in and Bible say; each set's heading opens all its readings,"Každé čítanie sa otvorí tam, kde hovoria Otvoriť v a Biblia; nadpis každého radu otvorí všetky jeho čítania"
+The Sundays and principal days (or every day) with the color the wheel paints them,"Nedele a hlavné sviatky (alebo každý deň) s farbou, ktorou ich koleso maľuje"
+"The other colors the church allows, and the lower half's where the wheel splits a cell (in the feasts list too)","Ďalšie farby, ktoré cirkev dovoľuje, a farba dolnej polovice, kde koleso delí bunku (aj v zozname sviatkov)"
+"The festivals, saints' days and commemorations the Feasts setting keeps, on the days they fall","Slávnosti, dni svätých a pamiatky, ktoré nastavenie Sviatky ponecháva, v dňoch, na ktoré pripadnú"
+"Also Christmas, Easter, Pentecost and the other principal days on dates of their own","Aj Vianoce, Veľká noc, Turíce a ďalšie hlavné sviatky na vlastných dátumoch"
+"Where to read about each, as the readout links it","Kde si o každom prečítať, ako to zobrazenie prepája"
+"Previous day (up arrow; left arrow: a week, Shift: a month)","Predchádzajúci deň (šípka hore; šípka doľava: týždeň, Shift: mesiac)"
+"Next day (down arrow; right arrow: a week, Shift: a month)","Nasledujúci deň (šípka dole; šípka doprava: týždeň, Shift: mesiac)"
+Magnification: 1× (the whole wheel) to 6×,Zväčšenie: 1× (celé koleso) až 6×
+"Type a Sunday's, a season's or a feast's name and pick it: the wheel goes to that day in the year shown (F)","Napíšte názov nedele, obdobia alebo sviatku a vyberte ho: koleso prejde na ten deň v zobrazenom roku (F)"
+"The chosen day's week in a list: each day's names, color and readings (W)","Týždeň vybraného dňa v zozname: názvy, farba a čítania každého dňa (W)"
+"Print this week's days and readings, a page or two to hand round","Vytlačiť dni a čítania tohto týždňa, stranu či dve na rozdanie"
+"How to use this page: every control, key and setting","Ako používať túto stránku: každý ovládací prvok, kláves a nastavenie"
+"Send feedback about this page: the day, church and settings on screen go with it","Poslať spätnú väzbu k tejto stránke: deň, cirkev a nastavenia na obrazovke sa pošlú s ňou"
+"Type any year and the wheel is drawn for it. Click a cell, use the arrow keys, or pick a date.","Napíšte ľubovoľný rok a koleso sa preň nakreslí. Kliknite na bunku, použite šípky alebo vyberte dátum."
+"Tap a cell, pinch to zoom, or pick a date.","Ťuknite na bunku, roztiahnutím prstov priblížte alebo vyberte dátum."
+A new kind…,Nový druh…
+About the feasts only,Len o sviatkoch
+Add,Pridať
+Add a color,Pridať farbu
+Add a feast on this date,Pridať sviatok v tento deň
+Add a picture of your own…,Pridať vlastný obrázok…
+Add a reading to this set,Pridať čítanie do tohto radu
+Add a season,Pridať obdobie
+Add a set of readings on this date,Pridať rad čítaní v tento deň
+Additional,Ďalšie
+Advent: four candles lit,Advent: horia štyri sviečky
+Advent: one candle lit,Advent: horí jedna sviečka
+Advent: three candles lit,Advent: horia tri sviečky
+Advent: two candles lit,Advent: horia dve sviečky
+Armenian cross,Arménsky kríž
+As each color sets it,Ako to určuje každá farba
+As on screen,Ako na obrazovke
+As this page opens,Ako sa táto stránka otvára
+Black,Čierna
+Blue,Modrá
+Burning bush,Horiaci ker
+Buttons it shows,"Tlačidlá, ktoré zobrazuje"
+By season,Podľa obdobia
+"Calendar (Gregorian, Julian, Revised Julian)","Kalendár (gregoriánsky, juliánsky, revidovaný juliánsky)"
+Canterbury cross,Canterburský kríž
+Celtic cross,Keltský kríž
+Chalice and host,Kalich a hostia
+Change for,Zmeniť pre
+Changes,Zmeny
+Chi-Rho,Kristov monogram
+Christmas: the manger,Vianoce: jasličky
+Churches it offers,"Cirkvi, ktoré ponúka"
+Color,Farba
+Columns only,Len stĺpce
+"Columns, or tabs in Settings","Stĺpce, alebo karty v Nastaveniach"
+Coptic cross,Koptský kríž
+Copy,Kopírovať
+Daily,Denné
+Dark,Tmavý
+Dark on reds,Tmavý na červenej
+Day,Deň
+Download changed files,Stiahnuť zmenené súbory
+Each church's first,Prvá každej cirkvi
+Each church's own,Vlastná každej cirkvi
+Earlier,Skôr
+Easter (Western or Eastern),Veľká noc (západná alebo východná)
+Easter: the empty tomb,Veľká noc: prázdny hrob
+Edit the data,Upraviť údaje
+Edit the data…,Upraviť údaje…
+Epiphany: the star and crowns,Zjavenie Pána: hviezda a koruny
+Ethiopian cross,Etiópsky kríž
+Every church,Každá cirkev
+Every version,Každý preklad
+Feedback link,Odkaz na spätnú väzbu
+File name,Názov súboru
+Fill,Výplň
+Full name,Celý názov
+Gold,Zlatá
+Green,Zelená
+Help link,Odkaz na pomoc
+Holy Week: three crosses,Veľký týždeň: tri kríže
+"Instructions, notes and credit","Pokyny, poznámky a autor"
+It opens,Otvára sa
+Kinds of reading,Druhy čítaní
+Later,Neskôr
+Lent: the cross and thorns,Pôst: kríž a tŕne
+Light,Svetlý
+Link,Odkaz
+Links,Odkazy
+Load settings…,Načítať nastavenia…
+Lower half,Dolná polovica
+Luther rose,Lutherova ruža
+Make a page,Vytvoriť stránku
+Make a page…,Vytvoriť stránku…
+Make the page,Vytvoriť stránku
+Moravian star,Ochranovská hviezda
+Morello,Morello
+Name,Názov
+Names (a pattern),Názvy (vzor)
+Names and colors,Názvy a farby
+No changes on this page yet.,Na tejto stránke zatiaľ nie sú zmeny.
+None (each church's own version),Žiadna (vlastný preklad každej cirkvi)
+None (no box and no marks),"Žiadne (ani políčko, ani značky)"
+None (plain text),Žiadne (obyčajný text)
+Nothing,Nič
+Off (the box unchecked),Vypnuté (políčko nezaškrtnuté)
+Office,Hodinky
+On,Zapnuté
+On the year beginning in Advent,"V roku, ktorý sa začína v advente"
+Only this one,Len táto
+Outside the year,Mimo roka
+"Packed, about a third of the size","Zbalená, asi tretina veľkosti"
+Pentecost: the dove and flames,Turíce: holubica a plamene
+Pictures kept,Ponechané obrázky
+Purple,Fialová
+Reading plan,Plán čítania
+Readings and links,Čítania a odkazy
+Red,Červená
+Remove,Odstrániť
+Remove this reading,Odstrániť toto čítanie
+Rose,Ružová
+Save,Uložiť
+Save settings…,Uložiť nastavenia…
+Scarlet,Šarlátová
+Season,Obdobie
+Set the window from it,Nastaviť okno podľa neho
+Settings it shows,"Nastavenia, ktoré zobrazuje"
+Syriac cross,Sýrsky kríž
+Tabs only,Len karty
+"Tabs, or columns in Settings","Karty, alebo stĺpce v Nastaveniach"
+Text,Text
+Text on mid-tone colors,Text na farbách stredného tónu
+The artwork's credit only,Len autor obrázka
+"The church, calendars and settings on screen now","Cirkev, kalendáre a nastavenia, ktoré sú teraz na obrazovke"
+The same page from Python; save or load these settings,Tá istá stránka z Pythonu; uložiť alebo načítať tieto nastavenia
+The tradition's own,Vlastný tradície
+These:,Tieto:
+This church,Táto cirkev
+This day,Tento deň
+This tradition,Táto tradícia
+Title,Nadpis
+To paste into another page’s HTML,Na vloženie do HTML inej stránky
+Violet,Fialová
+What this page opens with,S čím sa táto stránka otvára
+White,Biela
+Zoom,Priblíženie
+every church,každá cirkev
+https://… (blank: none),https://… (prázdne: žiadny)
+OK,OK
+Undo these,Vrátiť tieto
+Undo the last change,Vrátiť poslednú zmenu
+Undo every change,Vrátiť všetky zmeny
+Periods with a color of their own,Obdobia s vlastnou farbou
+Credit,Autor
+Artist or owner,Umelec alebo vlastník
+License or copyright,Licencia alebo autorské práva
+License link,Odkaz na licenciu
+Source link,Odkaz na zdroj
+Added.,Pridané.
+Saved.,Uložené.
+Undone.,Vrátené.
+Removed.,Odstránené.
+Every change undone.,Všetky zmeny vrátené.
+A feast needs a name.,Sviatok potrebuje názov.
+A kind needs a key of letters and numbers.,Druh potrebuje kľúč z písmen a číslic.
+A reading cannot be blank: Remove takes it away.,Čítanie nemôže byť prázdne: Odstrániť ho odstráni.
+Choose its kind and write the reading.,Vyberte jeho druh a napíšte čítanie.
+This page cannot write this church’s tradition.csv.,Táto stránka nemôže zapísať tradition.csv tejto cirkvi.
+Added: further readings join it with Add a reading.,Pridané: ďalšie čítania sa pridajú cez „Pridať čítanie“.
+Nothing on this day comes from a file this page can write.,"Nič v tento deň nepochádza zo súboru, ktorý táto stránka môže zapísať."
+The day’s own,Vlastné dňa
+(not in a file this page can write),"(nie je v súbore, ktorý táto stránka môže zapísať)"
+Kept in this browser for this page. Make a page writes them into the page it makes.,"Uložené v tomto prehliadači pre túto stránku. „Vytvoriť stránku“ ich zapíše do stránky, ktorú vytvorí."
+"A .zip of the data files the changes make, laid out as the project's data folder","Súbor .zip s dátovými súbormi, ktoré vzniknú zmenami, usporiadanými ako dátový priečinok projektu"
+"A page like this one, in one HTML file to put on a website or open from a folder: the page church_year.py makes with the same options (below). Each choice starts as the page is now.","Stránka ako táto, v jednom súbore HTML na umiestnenie na web alebo na otvorenie z priečinka: stránka, ktorú church_year.py vytvorí s rovnakými voľbami (nižšie). Každá voľba sa začína tak, ako je stránka teraz."
+A picture beside the page (center.svg…),Obrázok vedľa stránky (center.svg…)
+Changes show on the wheel at once and are kept in this browser for this page; Make a page writes them into the page it makes.,"Zmeny sa na kolese ukážu hneď a uložia sa v tomto prehliadači pre túto stránku; „Vytvoriť stránku“ ich zapíše do stránky, ktorú vytvorí."
+"Copy the command, to make this page with the script or to set this window from it later","Skopírovať príkaz, aby ste túto stránku vytvorili skriptom alebo neskôr podľa neho nastavili toto okno"
+"Not a whole page: its contents go into your own page’s HTML. To show a page that is already on a website,","Nie celá stránka: jej obsah ide do HTML vašej stránky. Ak chcete zobraziť stránku, ktorá už je na webe,"
+"One row a year: Advent, Christmas, Ash Wednesday, Easter, Pentecost and the other movable dates, and how many Sundays after the Epiphany and Pentecost or Trinity (colors.py --overview). It has no iCalendar form, so with that format it comes as CSV.","Jeden riadok na rok: advent, Vianoce, Popolcová streda, Veľká noc, Turíce a ďalšie pohyblivé dátumy a koľko nedieľ po Zjavení Pána a po Turíciach alebo Svätej Trojici (colors.py --overview). Nemá podobu iCalendar, takže v tom formáte príde ako CSV."
+"Save these settings as a small text file (the command), to load here again later",Uložiť tieto nastavenia ako malý textový súbor (príkaz) na neskoršie načítanie tu
+Set the window from a command: paste one copied here before (or written for church_year.py),Nastaviť okno podľa príkazu: vložte príkaz skopírovaný tu predtým (alebo napísaný pre church_year.py)
+Set the window from a settings file saved here before,Nastaviť okno podľa súboru nastavení uloženého tu predtým
+What each color looks like on the wheel: its fill and the color of text on it. A color changed for this tradition only goes into its own colors.csv; one for every church into data/colors.csv.,Ako vyzerá každá farba na kolese: jej výplň a farba textu na nej. Farba zmenená len pre túto tradíciu ide do jej vlastného colors.csv; pre každú cirkev do data/colors.csv.
+a word in capitals: ROSE,slovo veľkými písmenami: ROSE
+blank: the day’s own readings; a feast’s name keeps them to that feast,prázdne: vlastné čítania dňa; názov sviatku ich obmedzí na ten sviatok
+"gives the data files they change, to put over the project’s own for the Python scripts.","dáva dátové súbory, ktoré menia, na prepísanie súborov projektu pre skripty v Pythone."
+"its key, as periods.csv names it: ADVENT","jeho kľúč, ako ho nazýva periods.csv: ADVENT"
+under Share is simpler.,v časti Zdieľať je jednoduchšie.
+"--arrows-next-year, --arrows-same-year: whether the arrow keys go on into the next church year at the year's end, or round the year on the wheel (a box in the page's Settings changes it)","--arrows-next-year, --arrows-same-year: či šípky na konci roka pokračujú do ďalšieho cirkevného roka alebo dookola roka na kolese (políčko v Nastaveniach stránky to mení)"
+"--art: the picture the page opens on. By season: the picture of the chosen day's season, and the church's own in a season without one","--art: obrázok, s ktorým sa stránka otvorí. Podľa obdobia: obrázok obdobia vybraného dňa a vlastný obrázok cirkvi v období bez neho"
+--drop-art: untick a picture to leave it out of the page,"--drop-art: zrušte označenie obrázka, aby sa vynechal zo stránky"
+"--fragment: no <html>, <head> or <body>, to paste into a page of your own","--fragment: bez <html>, <head> alebo <body>, na vloženie do vlastnej stránky"
+"--help-link: the page the Help button opens, the user guide unless changed","--help-link: stránka, ktorú otvára tlačidlo Pomoc, príručka, ak sa nezmení"
+"--language: the language of the page's buttons, menus and settings until the reader chooses another (Settings > Language)","--language: jazyk tlačidiel, ponúk a nastavení stránky, kým si čitateľ nevyberie iný (Nastavenia > Jazyk)"
+"--local-art: look for center.svg (or .png, .jpg ...) beside the page when it opens and offer it in the middle. Off, the page asks for no files beside it","--local-art: pri otvorení hľadať center.svg (alebo .png, .jpg ...) vedľa stránky a ponúknuť ho v strede. Vypnuté — stránka nežiada súbory vedľa seba"
+"--no-compress when off: the tables as plain JSON, about three times the size, to read in the page's source or for a browser older than 2023","--no-compress keď je vypnuté: tabuľky ako obyčajný JSON, asi trikrát väčšie, na čítanie v zdrojovom kóde stránky alebo pre prehliadač starší ako 2023"
+"--no-download: the wheel as SVG and PNG, and its lists",--no-download: koleso ako SVG a PNG a jeho zoznamy
+"--no-edit: changes to the titles, colors and readings, kept in the reader's browser, and the changed files to download","--no-edit: zmeny názvov, farieb a čítaní, uložené v prehliadači čitateľa, a zmenené súbory na stiahnutie"
+"--no-make-page: a page like itself, as this window makes","--no-make-page: stránka ako ona sama, ako ju vytvára toto okno"
+"--own-art: a picture of your own, for the churches you choose","--own-art: vlastný obrázok pre cirkvi, ktoré vyberiete"
+--zoom: 1 (the whole wheel) to 6,--zoom: 1 (celé koleso) až 6
+Show or hide the {0} churches,Zobraziť alebo skryť cirkvi tradície {0}
+{0} of {1},{0} z {1}
+Left with no picture of their own (add one for them below): {0}.,Bez vlastného obrázka (pridajte im nejaký nižšie): {0}.
+choose this file again with Add a picture (a command names it but cannot carry it),"vyberte tento súbor znova cez „Pridať vlastný obrázok“ (príkaz ho pomenuje, ale nemôže ho preniesť)"
+The own picture of: {0},Vlastný obrázok pre: {0}
+{0} church,{0} cirkev
+{0} churches,{0} cirkví
+no church (the Artwork menu only),žiadnu cirkev (len ponuka Obrázok)
+as drawn,ako je nakreslené
+(click to use it),(kliknutím použiť)
+Put {0} back,Vrátiť {0}
+{0} changed,{0} zmenených
+Every church (unless changed below),Každá cirkev (ak nie je nižšie zmenené)
+{0} change for single traditions or churches still apply; change them “tradition by tradition” or “church by church” to see it.,"{0} zmena pre jednotlivé tradície alebo cirkvi stále platí; zmeňte na „tradíciu po tradícii“ alebo „cirkev po cirkvi“, aby ste ju videli."
+{0} changes for single traditions or churches still apply; change them “tradition by tradition” or “church by church” to see them.,"{0} zmien pre jednotlivé tradície alebo cirkvi stále platí; zmeňte na „tradíciu po tradícii“ alebo „cirkev po cirkvi“, aby ste ich videli."
+{0} change for single churches still apply; change them “church by church” to see it.,"{0} zmena pre jednotlivé cirkvi stále platí; zmeňte na „cirkev po cirkvi“, aby ste ju videli."
+{0} changes for single churches still apply; change them “church by church” to see them.,"{0} zmien pre jednotlivé cirkvi stále platí; zmeňte na „cirkev po cirkvi“, aby ste ich videli."
+Put them back,Vrátiť ich
+Rings and the rest,Kruhy a ostatné
+{0} words,{0}: text
+as each church has them,ako ich má každá cirkev
+Set from the command.,Nastavené podľa príkazu.
+Note: {0}.,Poznámka: {0}.
+Could not read the command: {0},Príkaz sa nepodarilo prečítať: {0}
+Nothing to save yet: {0}.,Zatiaľ nie je čo uložiť: {0}.
+Saved {0}.,Uložené {0}.
+Set from {0}.,Nastavené podľa {0}.
+Could not read {0}: {1},{0} sa nepodarilo prečítať: {1}
+Copied.,Skopírované.
+Selected: copy it with Ctrl+C (⌘C on a Mac).,Označené: skopírujte cez Ctrl+C (⌘C na Macu).
+The kind {0} is kept; give it a reading.,Druh {0} sa ponecháva; dajte mu čítanie.
+"The kinds of reading {0} has, in the order a set lists them. A new kind is added with a reading of it (This day).","Druhy čítaní, ktoré má {0}, v poradí, v akom ich rad uvádza. Nový druh sa pridá s jeho čítaním (Tento deň)."
+Kept as reading_labels and reading_order in {0}.,Uložené ako reading_labels a reading_order v {0}.
+The colors of {0}’s seasons. A color may name others the church allows after it: PURPLE; blue.,"Farby období {0}. Farba môže za sebou uviesť ďalšie, ktoré cirkev dovoľuje: PURPLE; blue."
+This page cannot write {0}.,Táto stránka nemôže zapísať {0}.
+This tradition ({0}),Táto tradícia ({0})
+"This page was made with changes to: {0}. They are part of it, and Download changed files includes these files.",Táto stránka bola vytvorená so zmenami v: {0}. Sú jej súčasťou a „Stiahnuť zmenené súbory“ zahŕňa tieto súbory.
+{0}: {1} change,{0}: {1} zmena
+{0}: {1} changes,{0}: {1} zmien
+Downloaded {0} file.,Stiahnutý {0} súbor.
+Downloaded {0} files.,Stiahnutých {0} súborov.
+"Saved {0} ({1} MB, {2} church).","Uložené {0} ({1} MB, {2} cirkev)."
+"Saved {0} ({1} MB, {2} churches).","Uložené {0} ({1} MB, {2} cirkví)."
+Could not make the page: {0},Stránku sa nepodarilo vytvoriť: {0}
+"Choose the wheel, a list, or both.","Vyberte koleso, zoznam alebo oboje."
+"The Feasts setting is None: choose another, or “with major days”, for a feasts list.",Nastavenie Sviatky je Žiadne: vyberte iné alebo „s hlavnými sviatkami“ pre zoznam sviatkov.
+Drawing {0}…,Kreslí sa {0}…
+Listing the readings…,Zoznam čítaní…
+Listing the colors…,Zoznam farieb…
+Listing the years…,Zoznam rokov…
+Listing the feasts…,Zoznam sviatkov…
+Saved {0} files in a .zip.,Uložených {0} súborov v .zip.
+Your own picture could not be read from here and is left out.,Váš vlastný obrázok sa odtiaľto nepodarilo prečítať a je vynechaný.
+Could not make the files: {0},Súbory sa nepodarilo vytvoriť: {0}
+The last year is before the first.,Posledný rok je pred prvým.
+At most {0} years at a time.,Najviac {0} rokov naraz.
+The church year {0}.,Cirkevný rok {0}.
+"{0} church years, {1} to {2}.","{0} cirkevných rokov, {1} až {2}."
+The PNGs make this about {0} and take a while; a narrower PNG makes it smaller.,PNG súbory budú mať asi {0} a chvíľu to potrvá; užší PNG to zmenší.
+{0}: {1} for {2},{0}: {1} na {2}
+{0} to {1},{0} až {1}
+readings,čítania
+colors,farby
+the year at a glance,rok na prvý pohľad
+feasts and major days,sviatky a hlavné sviatky
+feasts,sviatky
+"{0}, {1} {2}, {3}",{0} {2}. {1} {3}
+Monday,pondelok
+Tuesday,utorok
+Wednesday,streda
+Thursday,štvrtok
+Friday,piatok
+Saturday,sobota
+Sunday,nedeľa
+January,januára
+February,februára
+March,marca
+April,apríla
+May,mája
+June,júna
+July,júla
+August,augusta
+September,septembra
+October,októbra
+November,novembra
+December,decembra
+Made by {0} from the church year calendar's data.,Vytvoril {0} z údajov kalendára cirkevného roka.
+Each reading opens at {0} in the {1}; each heading opens its set's readings together at Bible Gateway (its propers apart).,Každé čítanie sa otvorí na {0} v preklade {1}; každý nadpis otvorí čítania svojho radu spolu na Bible Gateway (propriá zvlášť).
+"Each color is the day's own, the top of its cell on the wheel; the others the church allows follow in parentheses, and the lower half's is given where the wheel splits the cell.","Každá farba je vlastná farba dňa, horná časť jeho bunky na kolese; ostatné, ktoré cirkev dovoľuje, nasledujú v zátvorkách a farba dolnej polovice je uvedená tam, kde koleso bunku delí."
+"Each color is the day's own, the top of its cell on the wheel.","Každá farba je vlastná farba dňa, horná časť jeho bunky na kolese."
+Date,Dátum
+Feast,Sviatok
+Level,Stupeň
+Liturgical color: {0},Liturgická farba: {0}
+; lower half {0},; dolná polovica {0}
+transferred from {0} {1},presunuté z {1}. {0}
+Principal feasts only: those whose color replaces the season's.,"Len hlavné sviatky: tie, ktorých farba nahrádza farbu obdobia."
+Festivals: the feasts that color their day or its lower half.,"Slávnosti: sviatky, ktoré sfarbujú svoj deň alebo jeho dolnú polovicu."
+"With the major days: the principal days set on dates of their own, Christmas, Easter, Pentecost and the like; a blank color is the season's.","S hlavnými sviatkami: hlavné sviatky na vlastných dátumoch, Vianoce, Veľká noc, Turíce a podobne; prázdna farba je farba obdobia."
+principal,hlavný sviatok
+festival,slávnosť
+commemoration,pamiatka
+major day,hlavný sviatok
+read by {0} churches: a change here changes them all,číta {0} cirkví: zmena tu zmení všetky
+a run of days: the change is the whole run’s,rad dní: zmena platí pre celý rad

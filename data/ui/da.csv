@@ -1,0 +1,487 @@
+english,translation
+"# The page's own words (buttons, menus, settings and their notes) in this language: the English as the page writes it, then its translation. {0}, {1} ... stand for what the page fills in. A missing or blank line stays English."
+Settings,Indstillinger
+Simple,Enkle
+All,Alle
+Language,Sprog
+Match the church,Som kirken
+Browser ({0}),Browseren ({0})
+Year,År
+Tradition,Tradition
+Church,Kirke
+Hymnal,Salmebog
+Lectionary,Tekstrække
+Feasts,Helligdage
+Festivals,Højtider
+Principal only,Kun hovedhelligdage
+None,Ingen
+Bible,Bibel
+Readings shown as,Læsninger vist som
+Tabs,Faner
+Columns,Kolonner
+Calendar and names,Kalender og navne
+Calendar,Kalender
+Gregorian,Gregoriansk
+Julian (Old Calendar),Juliansk (gammel kalender)
+Revised Julian (New Calendar),Revideret juliansk (ny kalender)
+Easter,Påske
+With the calendar,Som kalenderen
+Western,Vestlig
+Eastern,Østlig
+Latin names,Latinske navne
+Readings,Læsninger
+The day's propers,Dagens tekster
+Feasts and festivals,Højtider og helligdage
+Other dated days,Andre daterede dage
+Daily lectionary,Daglig læseplan
+Additional readings,Ekstra læsninger
+Psalm table,Salmetabel
+Bible reading plan,Bibellæseplan
+Office lessons,Tidebønnens læsninger
+Open in,Åbn i
+Slide,Glid
+Off,Fra
+Quick,Hurtig
+Medium,Mellem
+Slow,Langsom
+Propers,Proprium
+Hymn search,Salmesøgning
+Contemporary song search,Søgning efter lovsange
+The wheel,Hjulet
+Artwork,Billede
+Thicker line where the year begins,Tykkere linje hvor året begynder
+Arrow keys go on into the next year,Piletasterne går videre til næste år
+Dark text on reds,Mørk tekst på rødt
+Under the wheel,Under hjulet
+Instructions and notes,Vejledning og noter
+Artwork credit,Billedkreditering
+Rings,Ringe
+Outer band,Ydre bånd
+Seasons,Tider
+Months,Måneder
+Parts of the year,Årets dele
+Day cells,Dagceller
+Center artwork,Billede i midten
+Colors…,Farver…
+Colors,Farver
+Days,Dage
+Close,Luk
+Reset colors,Nulstil farver
+Reset settings,Nulstil indstillinger
+Share,Del
+Copy link,Kopiér link
+Copy embed code,Kopiér indlejringskode
+Print,Udskriv
+Download…,Hent…
+Download,Hent
+Years,År
+From,Fra
+to,til
+pixels wide,pixel bred
+Background,Baggrund
+clear,gennemsigtig
+white,hvid
+Lists,Lister
+Sundays,Søndage
+Sundays and principal days,Søndage og hovedhelligdage
+every day,hver dag
+every named day,hver navngiven dag
+with links,med links
+with major days,med hovedhelligdage
+other colors,andre farver
+Format,Format
+CSV (spreadsheet),CSV (regneark)
+HTML (to print),HTML (til udskrift)
+iCalendar (.ics),iCalendar (.ics)
+PNG (a picture),PNG (et billede)
+"SVG (a drawing, sharp at any size)","SVG (en tegning, skarp i alle størrelser)"
+The year at a glance,Året i overblik
+Today,I dag
+Week,Uge
+Find a day,Find en dag
+Help,Hjælp
+Feedback,Feedback
+About the artwork,Om billedet
+Choose a date,Vælg en dato
+Previous day,Forrige dag
+Next day,Næste dag
+Zoom in,Zoom ind
+Zoom out,Zoom ud
+Zoom in (+),Zoom ind (+)
+Zoom out (−),Zoom ud (−)
+Magnification,Forstørrelse
+The week before,Ugen før
+The week after,Ugen efter
+Days with that name,Dage med det navn
+Find a day by its name,Find en dag ud fra dens navn
+Church Year {0},Kirkeåret {0}
+Jump to today (T) — {0},Gå til i dag (T) — {0}
+Read about {0},Læs om {0}
+{0} ({1} hymns) in {2},{0} ({1} salmer) i {2}
+Hymns on {0} in {1} at Hymnary.org,Salmer om {0} i {1} på Hymnary.org
+Hymns for these readings in {0} at Hymnary.org,Salmer til disse læsninger i {0} på Hymnary.org
+Hymns for these propers in {0} at Hymnary.org,Salmer til dette proprium i {0} på Hymnary.org
+the church's hymnal,kirkens salmebog
+Contemporary worship songs for these readings at Word to Worship,Lovsange til disse læsninger på Word to Worship
+Contemporary worship songs for these propers at Word to Worship,Lovsange til dette proprium på Word to Worship
+Open all these readings together at Bible Gateway,Åbn alle disse læsninger sammen på Bible Gateway
+Open these propers together at Bible Gateway,Åbn dette proprium samlet på Bible Gateway
+▴ less,▴ mindre
+▾ more,▾ mere
+▾ {0} more,▾ {0} mere
+Show two lines again,Vis to linjer igen
+Show all of this set’s readings,Vis alle læsninger i denne række
+Show all the day’s readings,Vis alle dagens læsninger
+Show the readings in three lines again,Vis læsningerne på tre linjer igen
+No day of {0} by that name,Ingen dag i {0} med det navn
+Choose {0} on the wheel,Vælg {0} på hjulet
+In another church year: choose the day to draw it.,I et andet kirkeår: vælg dagen for at tegne det.
+Copied,Kopieret
+Copy failed,Kunne ikke kopiere
+"The language of the page's buttons, menus and settings. The calendar's names, dates and readings stay in the church's language.","Sproget for sidens knapper, menuer og indstillinger. Kalenderens navne, datoer og læsninger forbliver på kirkens sprog."
+"The church year wheel: left and right arrow keys step a week, up and down a day","Kirkeårshjulet: piletasterne venstre og højre går en uge, op og ned en dag"
+"The settings most often changed: the year, the church, the feasts, the Bible and how the readings are shown","De indstillinger der oftest ændres: året, kirken, helligdagene, bibelen og hvordan læsningerne vises"
+"Every setting: the calendar, the kinds of reading, the searches, the artwork, the rings and colors, and making a page or editing the data","Alle indstillinger: kalenderen, slags læsninger, søgningerne, billedet, ringene og farverne, og at lave en side eller redigere data"
+"The year the church year begins in: Advent for most traditions, September for the Eastern Orthodox","Det år kirkeåret begynder i: i advent for de fleste traditioner, i september for de ortodokse"
+The family of churches,Kirkefamilien
+Which church's calendar the wheel follows,Hvilken kirkes kalender hjulet følger
+"All: every commemoration. Festivals: the festivals and feasts (in the Roman calendar, solemnities and feasts). Principal: only the principal days (solemnities). None: the saints' days are left off.",Alle: hver mindedag. Højtider: højtiderne og helligdagene (i den romerske kalender højtider og fester). Kun hovedhelligdage: kun hovedhelligdagene (højtider). Ingen: helgendagene udelades.
+The translation the readings open in. Each church starts on the one it uses (ESV where it names none).,"Den oversættelse læsningerne åbnes i. Hver kirke begynder med den, den bruger (ESV hvor den ikke nævner nogen)."
+"How the day's readings are shown when there are several sets: one at a time under tabs, or all of them in columns (on the right, and across two columns when opened with more)","Hvordan dagens læsninger vises når der er flere rækker: én ad gangen under faner, eller alle i kolonner (til højre, og over to kolonner når de åbnes med mere)"
+Which calendar the dates are reckoned in,Hvilken kalender datoerne regnes i
+"How Easter is dated, which is a separate question from how the days are named. Left to follow the calendar, a Gregorian wheel keeps Western Easter and the other two keep the Eastern one.","Hvordan påsken dateres, hvilket er et andet spørgsmål end hvordan dagene navngives. Følger den kalenderen, beholder et gregoriansk hjul den vestlige påske og de to andre den østlige."
+"Name the one-year Sundays as the historic calendar does, from the first words of the day's Introit: Ad Te Levavi, Laetare, Quasimodo Geniti","Navngiv etårsrækkens søndage som den historiske kalender, efter de første ord i dagens introitus: Ad Te Levavi, Laetare, Quasimodo Geniti"
+List the day's Bible readings under its name. Each kind can be left out; only the kinds this church's lectionary has are offered.,Vis dagens bibellæsninger under dens navn. Hver slags kan udelades; kun de slags denne kirkes tekstrække har tilbydes.
+"The lessons of the day's own propers: its Sunday, holy day or season, and any other service its book appoints for it","Læsningerne i dagens eget proprium: dens søndag, helligdag eller tid, og enhver anden gudstjeneste dens bog anviser for den"
+"The lessons of a saint's day or festival, listed only while the wheel shows it (see Feasts)","Læsningerne til en helgendag eller højtid, vist kun mens hjulet viser den (se Helligdage)"
+"The lessons of a day the calendar does not name, kept by its date or a date rule: Ember and Rogation Days, Thanksgiving, New Year's and national days, the Saturdays before and after a feast","Læsningerne til en dag kalenderen ikke navngiver, givet ved sin dato eller en datoregel: tamperdage og bededage, høstgudstjeneste, nytår og nationaldage, lørdagene før og efter en højtid"
+The hymnal's or prayer book's daily or weekday lectionary,Salmebogens eller bønnebogens daglige læseplan eller hverdagslæseplan
+"The additional readings a daily lectionary offers beside its own, for reading more of the Bible (Lutheran Service Book prints them in italics)","De ekstra læsninger en daglig læseplan tilbyder ud over sine egne, for at læse mere af Bibelen (Lutheran Service Book trykker dem i kursiv)"
+"A table of psalms for daily prayer, morning and evening, by season and weekday (Lutheran Service Book, p. 304)","En salmetabel til daglig bøn, morgen og aften, efter tid og ugedag (Lutheran Service Book, s. 304)"
+"A plan of daily Bible reading kept by the calendar year: Reading the Word of God (LCMS, LCC and NALC), through the Old Testament in three years and the Psalms and New Testament twice","En plan for daglig bibellæsning efter kalenderåret: Reading the Word of God (LCMS, LCC og NALC), gennem Det Gamle Testamente på tre år og Salmernes Bog og Det Nye Testamente to gange"
+"The lessons of the Office: Morning and Evening Prayer, Matins, a second or third service","Tidebønnens læsninger: morgen- og aftenbøn, matutin, en anden eller tredje gudstjeneste"
+"Where a reading opens. On a phone or tablet either one opens in its own app when the app is installed, and in the browser otherwise.","Hvor en læsning åbnes. På en telefon eller tablet åbnes hver i sin egen app når den er installeret, ellers i browseren."
+How fast the sets slide between the columns when more or less is clicked (kept in this browser),Hvor hurtigt rækkerne glider mellem kolonnerne når der klikkes på mere eller mindre (gemt i denne browser)
+"The parts of the service the church lists with each day's readings (an Introit, a Gradual and a Verse), on a line of their own after them; a set's heading opens only its readings together","De dele af gudstjenesten kirken angiver med hver dags læsninger (introitus, graduale og vers), på en egen linje efter dem; en rækkes overskrift åbner kun dens læsninger samlet"
+A hymnal mark after each set of readings that searches Hymnary.org for the hymns on them in this church's hymnal,Et salmebogsmærke efter hver række læsninger der søger på Hymnary.org efter salmer om dem i denne kirkes salmebog
+"The hymnal Hymn search looks in, where the church has several","Den salmebog salmesøgningen søger i, hvor kirken har flere"
+A circled note after each set of readings that searches Word to Worship (wordtoworship.com) for contemporary worship songs on them,En node i en cirkel efter hver række læsninger der søger på Word to Worship (wordtoworship.com) efter lovsange om dem
+"The picture in the middle of the wheel. Each tradition has its own; any of them can be chosen. By season changes it with the day chosen: the wreath in Advent, the manger at Christmas, the empty tomb at Easter, and the church's own picture in the seasons that have none.","Billedet i midten af hjulet. Hver tradition har sit eget; ethvert kan vælges. ""Efter tid"" skifter det med den valgte dag: kransen i advent, krybben ved jul, den tomme grav ved påske og kirkens eget billede i de tider der ikke har noget."
+"A thicker line where the year's last week meets its first, which are a year apart","En tykkere linje hvor årets sidste uge møder dets første, som ligger et år fra hinanden"
+"Checked: at the end of the church year the arrow keys go on into the next year's wheel, and back into the last. Unchecked: they go round the year on the wheel, from its last week to its first. Page Up and Page Down and the ◀ ▶ buttons always go on.","Afkrydset: ved kirkeårets slutning går piletasterne videre til næste års hjul og tilbage til det forrige. Ikke afkrydset: de går rundt i året på hjulet, fra dets sidste uge til dets første. Page Up, Page Down og knapperne ◀ ▶ går altid videre."
+"The reds in the middle of the range (the LCMS, Roman and Presbyterian reds) read about as well with black text as with white. Checked: black on them.","De røde farver midt i skalaen (LCMS', den romerske og den presbyterianske røde) læses omtrent lige så godt med sort tekst som med hvid. Afkrydset: sort på dem."
+"How to use the wheel, the calendar's notes and how long it took to draw","Hvordan man bruger hjulet, kalenderens noter og hvor lang tid det tog at tegne"
+"Who made the picture in the middle, and its license. When it is off and the license asks for credit, a small i button keeps it a click away.","Hvem der lavede billedet i midten, og dets licens. Når det er slået fra og licensen kræver kreditering, holder en lille i-knap det et klik væk."
+"The colors the days and the rings are painted in, each of which can be changed for this page",De farver dagene og ringene males i; hver kan ændres for denne side
+The colors on the wheel this year. Click a swatch to change it; the change is kept in the page's link. Text on a day stays readable: it turns black or white if it would not.,"Farverne på hjulet i år. Klik på en farveprøve for at ændre den; ændringen gemmes i sidens link. Teksten på en dag forbliver læselig: den bliver sort eller hvid, hvis den ellers ikke ville være det."
+Put every color back to the page's own,Sæt hver farve tilbage til sidens egen
+"Put every setting here back to what config.csv asks for, keeping the day on the wheel","Sæt hver indstilling her tilbage til det config.csv angiver, med dagen bevaret på hjulet"
+"Copy a link that opens on this day, with these settings","Kopiér et link der åbner på denne dag, med disse indstillinger"
+"Copy a line of HTML that shows this page inside a page of your own website (an iframe), opening on the day it is read, with these settings","Kopiér en linje HTML der viser denne side inde i en side på dit eget websted (en iframe), åbnet på den dag den læses, med disse indstillinger"
+Print the whole wheel on one page,Udskriv hele hjulet på én side
+"Download the wheel (SVG, PNG) and lists of its readings, colors and feasts, for this year or a run of years","Hent hjulet (SVG, PNG) og lister over dets læsninger, farver og helligdage, for dette år eller en række år"
+"The wheel and its lists as they are here, with these settings: the church, calendars, feasts, readings, rings, colors and artwork.","Hjulet og dets lister som de er her, med disse indstillinger: kirken, kalenderne, helligdagene, læsningerne, ringene, farverne og billedet."
+"Each day's readings, as the Readings boxes and the Feasts setting choose them","Hver dags læsninger, som felterne under Læsninger og indstillingen Helligdage vælger dem"
+Each reading opens where Open in and Bible say; each set's heading opens all its readings,Hver læsning åbnes hvor Åbn i og Bibel siger; hver rækkes overskrift åbner alle dens læsninger
+The Sundays and principal days (or every day) with the color the wheel paints them,Søndagene og hovedhelligdagene (eller hver dag) med den farve hjulet maler dem i
+"The other colors the church allows, and the lower half's where the wheel splits a cell (in the feasts list too)","De andre farver kirken tillader, og den nederste halvdels hvor hjulet deler en celle (også i listen over helligdage)"
+"The festivals, saints' days and commemorations the Feasts setting keeps, on the days they fall","Højtiderne, helgendagene og mindedagene som indstillingen Helligdage beholder, på de dage de falder"
+"Also Christmas, Easter, Pentecost and the other principal days on dates of their own","Også jul, påske, pinse og de andre hovedhelligdage på egne datoer"
+"Where to read about each, as the readout links it","Hvor man kan læse om hver, som visningen linker det"
+"Previous day (up arrow; left arrow: a week, Shift: a month)","Forrige dag (pil op; pil venstre: en uge, Skift: en måned)"
+"Next day (down arrow; right arrow: a week, Shift: a month)","Næste dag (pil ned; pil højre: en uge, Skift: en måned)"
+Magnification: 1× (the whole wheel) to 6×,Forstørrelse: 1× (hele hjulet) til 6×
+"Type a Sunday's, a season's or a feast's name and pick it: the wheel goes to that day in the year shown (F)","Skriv navnet på en søndag, en tid eller en højtid og vælg det: hjulet går til den dag i det viste år (F)"
+"The chosen day's week in a list: each day's names, color and readings (W)","Den valgte dags uge i en liste: hver dags navne, farve og læsninger (W)"
+"Print this week's days and readings, a page or two to hand round","Udskriv denne uges dage og læsninger, en side eller to at dele ud"
+"How to use this page: every control, key and setting","Hvordan man bruger denne side: hver knap, tast og indstilling"
+"Send feedback about this page: the day, church and settings on screen go with it","Send feedback om denne side: dagen, kirken og indstillingerne på skærmen sendes med"
+"Type any year and the wheel is drawn for it. Click a cell, use the arrow keys, or pick a date.","Skriv et hvilket som helst år, så tegnes hjulet for det. Klik på en celle, brug piletasterne eller vælg en dato."
+"Tap a cell, pinch to zoom, or pick a date.","Tryk på en celle, knib for at zoome eller vælg en dato."
+A new kind…,En ny slags…
+About the feasts only,Kun om helligdagene
+Add,Tilføj
+Add a color,Tilføj en farve
+Add a feast on this date,Tilføj en helligdag på denne dato
+Add a picture of your own…,Tilføj et eget billede…
+Add a reading to this set,Tilføj en læsning til denne række
+Add a season,Tilføj en tid
+Add a set of readings on this date,Tilføj en række læsninger på denne dato
+Additional,Ekstra
+Advent: four candles lit,Advent: fire lys tændt
+Advent: one candle lit,Advent: ét lys tændt
+Advent: three candles lit,Advent: tre lys tændt
+Advent: two candles lit,Advent: to lys tændt
+Armenian cross,Armensk kors
+As each color sets it,Som hver farve angiver
+As on screen,Som på skærmen
+As this page opens,Som denne side åbner
+Black,Sort
+Blue,Blå
+Burning bush,Den brændende tornebusk
+Buttons it shows,Knapper den viser
+By season,Efter tid
+"Calendar (Gregorian, Julian, Revised Julian)","Kalender (gregoriansk, juliansk, revideret juliansk)"
+Canterbury cross,Canterbury-kors
+Celtic cross,Keltisk kors
+Chalice and host,Kalk og oblat
+Change for,Ændr for
+Changes,Ændringer
+Chi-Rho,Kristusmonogram
+Christmas: the manger,Jul: krybben
+Churches it offers,Kirker den tilbyder
+Color,Farve
+Columns only,Kun kolonner
+"Columns, or tabs in Settings","Kolonner, eller faner i Indstillinger"
+Coptic cross,Koptisk kors
+Copy,Kopiér
+Daily,Daglige
+Dark,Mørk
+Dark on reds,Mørk på rødt
+Day,Dag
+Download changed files,Hent ændrede filer
+Each church's first,Hver kirkes første
+Each church's own,Hver kirkes egen
+Earlier,Før
+Easter (Western or Eastern),Påske (vestlig eller østlig)
+Easter: the empty tomb,Påske: den tomme grav
+Edit the data,Redigér data
+Edit the data…,Redigér data…
+Epiphany: the star and crowns,Helligtrekonger: stjernen og kronerne
+Ethiopian cross,Etiopisk kors
+Every church,Hver kirke
+Every version,Hver oversættelse
+Feedback link,Link til feedback
+File name,Filnavn
+Fill,Udfyldning
+Full name,Fulde navn
+Gold,Gylden
+Green,Grøn
+Help link,Link til hjælp
+Holy Week: three crosses,Den stille uge: tre kors
+"Instructions, notes and credit","Vejledning, noter og kreditering"
+It opens,Den åbner
+Kinds of reading,Slags læsninger
+Later,Senere
+Lent: the cross and thorns,Fasten: korset og tornene
+Light,Lys
+Link,Link
+Links,Links
+Load settings…,Indlæs indstillinger…
+Lower half,Nederste halvdel
+Luther rose,Lutherrosen
+Make a page,Lav en side
+Make a page…,Lav en side…
+Make the page,Lav siden
+Moravian star,Herrnhutstjerne
+Morello,Morello
+Name,Navn
+Names (a pattern),Navne (et mønster)
+Names and colors,Navne og farver
+No changes on this page yet.,Ingen ændringer på denne side endnu.
+None (each church's own version),Ingen (hver kirkes egen oversættelse)
+None (no box and no marks),Ingen (ingen boks og ingen mærker)
+None (plain text),Ingen (ren tekst)
+Nothing,Intet
+Off (the box unchecked),Fra (boksen ikke afkrydset)
+Office,Tidebøn
+On,Til
+On the year beginning in Advent,I året der begynder i advent
+Only this one,Kun denne
+Outside the year,Uden for året
+"Packed, about a third of the size","Pakket, omkring en tredjedel så stor"
+Pentecost: the dove and flames,Pinse: duen og flammerne
+Pictures kept,Beholdte billeder
+Purple,Violet
+Reading plan,Læseplan
+Readings and links,Læsninger og links
+Red,Rød
+Remove,Fjern
+Remove this reading,Fjern denne læsning
+Rose,Rosa
+Save,Gem
+Save settings…,Gem indstillinger…
+Scarlet,Skarlagen
+Season,Tid
+Set the window from it,Indstil vinduet efter den
+Settings it shows,Indstillinger den viser
+Syriac cross,Syrisk kors
+Tabs only,Kun faner
+"Tabs, or columns in Settings","Faner, eller kolonner i Indstillinger"
+Text,Tekst
+Text on mid-tone colors,Tekst på mellemtoner
+The artwork's credit only,Kun billedkrediteringen
+"The church, calendars and settings on screen now","Kirken, kalenderne og indstillingerne på skærmen nu"
+The same page from Python; save or load these settings,Den samme side fra Python; gem eller indlæs disse indstillinger
+The tradition's own,Traditionens egen
+These:,Disse:
+This church,Denne kirke
+This day,Denne dag
+This tradition,Denne tradition
+Title,Titel
+To paste into another page’s HTML,Til at indsætte i en anden sides HTML
+Violet,Violet
+What this page opens with,Hvad denne side åbner med
+White,Hvid
+Zoom,Zoom
+every church,hver kirke
+https://… (blank: none),https://… (tomt: intet)
+OK,OK
+Undo these,Fortryd disse
+Undo the last change,Fortryd den sidste ændring
+Undo every change,Fortryd alle ændringer
+Periods with a color of their own,Perioder med en egen farve
+Credit,Kreditering
+Artist or owner,Kunstner eller ejer
+License or copyright,Licens eller ophavsret
+License link,Link til licensen
+Source link,Link til kilden
+Added.,Tilføjet.
+Saved.,Gemt.
+Undone.,Fortrudt.
+Removed.,Fjernet.
+Every change undone.,Alle ændringer fortrudt.
+A feast needs a name.,En helligdag skal have et navn.
+A kind needs a key of letters and numbers.,En slags skal have en nøgle af bogstaver og tal.
+A reading cannot be blank: Remove takes it away.,En læsning må ikke være tom: Fjern tager den væk.
+Choose its kind and write the reading.,Vælg dens slags og skriv læsningen.
+This page cannot write this church’s tradition.csv.,Denne side kan ikke skrive denne kirkes tradition.csv.
+Added: further readings join it with Add a reading.,"Tilføjet: flere læsninger kommer til med ""Tilføj en læsning""."
+Nothing on this day comes from a file this page can write.,Intet på denne dag kommer fra en fil denne side kan skrive.
+The day’s own,Dagens egen
+(not in a file this page can write),(ikke i en fil denne side kan skrive)
+Kept in this browser for this page. Make a page writes them into the page it makes.,"Gemt i denne browser for denne side. ""Lav en side"" skriver dem ind i den side, den laver."
+"A .zip of the data files the changes make, laid out as the project's data folder","En .zip med de datafiler ændringerne giver, ordnet som projektets datamappe"
+"A page like this one, in one HTML file to put on a website or open from a folder: the page church_year.py makes with the same options (below). Each choice starts as the page is now.","En side som denne, i én HTML-fil til at lægge på et websted eller åbne fra en mappe: den side church_year.py laver med de samme valg (nedenfor). Hvert valg begynder, som siden er nu."
+A picture beside the page (center.svg…),Et billede ved siden af siden (center.svg…)
+Changes show on the wheel at once and are kept in this browser for this page; Make a page writes them into the page it makes.,"Ændringer ses straks på hjulet og gemmes i denne browser for denne side; ""Lav en side"" skriver dem ind i den side, den laver."
+"Copy the command, to make this page with the script or to set this window from it later","Kopiér kommandoen, for at lave denne side med scriptet eller indstille dette vindue efter den senere"
+"Not a whole page: its contents go into your own page’s HTML. To show a page that is already on a website,","Ikke en hel side: indholdet kommer ind i din egen sides HTML. For at vise en side, der allerede er på et websted,"
+"One row a year: Advent, Christmas, Ash Wednesday, Easter, Pentecost and the other movable dates, and how many Sundays after the Epiphany and Pentecost or Trinity (colors.py --overview). It has no iCalendar form, so with that format it comes as CSV.","Én række pr. år: advent, jul, askeonsdag, påske, pinse og de andre bevægelige datoer, og hvor mange søndage efter helligtrekonger og efter pinse eller trinitatis (colors.py --overview). Den har ingen iCalendar-form, så i det format kommer den som CSV."
+"Save these settings as a small text file (the command), to load here again later","Gem disse indstillinger som en lille tekstfil (kommandoen), til at indlæse her igen senere"
+Set the window from a command: paste one copied here before (or written for church_year.py),"Indstil vinduet efter en kommando: indsæt en, der er kopieret her før (eller skrevet til church_year.py)"
+Set the window from a settings file saved here before,"Indstil vinduet efter en indstillingsfil, der er gemt her før"
+What each color looks like on the wheel: its fill and the color of text on it. A color changed for this tradition only goes into its own colors.csv; one for every church into data/colors.csv.,Hvordan hver farve ser ud på hjulet: dens udfyldning og farven på teksten på den. En farve ændret kun for denne tradition kommer i dens egen colors.csv; en for alle kirker i data/colors.csv.
+a word in capitals: ROSE,et ord med store bogstaver: ROSE
+blank: the day’s own readings; a feast’s name keeps them to that feast,tomt: dagens egne læsninger; en helligdags navn begrænser dem til den helligdag
+"gives the data files they change, to put over the project’s own for the Python scripts.","giver de datafiler, de ændrer, til at lægge over projektets egne til Python-scriptene."
+"its key, as periods.csv names it: ADVENT","dens nøgle, som periods.csv kalder den: ADVENT"
+under Share is simpler.,under Del er enklere.
+"--arrows-next-year, --arrows-same-year: whether the arrow keys go on into the next church year at the year's end, or round the year on the wheel (a box in the page's Settings changes it)","--arrows-next-year, --arrows-same-year: om piletasterne går videre til næste kirkeår ved årets slutning eller rundt i året på hjulet (en boks i sidens Indstillinger ændrer det)"
+"--art: the picture the page opens on. By season: the picture of the chosen day's season, and the church's own in a season without one","--art: billedet siden åbner med. Efter tid: billedet for den valgte dags tid, og kirkens eget i en tid uden noget"
+--drop-art: untick a picture to leave it out of the page,--drop-art: fjern fluebenet ved et billede for at udelade det fra siden
+"--fragment: no <html>, <head> or <body>, to paste into a page of your own","--fragment: ingen <html>, <head> eller <body>, til at indsætte i en egen side"
+"--help-link: the page the Help button opens, the user guide unless changed","--help-link: den side Hjælp-knappen åbner, brugervejledningen hvis den ikke ændres"
+"--language: the language of the page's buttons, menus and settings until the reader chooses another (Settings > Language)","--language: sproget for sidens knapper, menuer og indstillinger, indtil læseren vælger et andet (Indstillinger > Sprog)"
+"--local-art: look for center.svg (or .png, .jpg ...) beside the page when it opens and offer it in the middle. Off, the page asks for no files beside it","--local-art: led efter center.svg (eller .png, .jpg ...) ved siden af siden, når den åbner, og tilbyd det i midten. Fra beder siden ikke om filer ved siden af sig"
+"--no-compress when off: the tables as plain JSON, about three times the size, to read in the page's source or for a browser older than 2023","--no-compress når fra: tabellerne som ren JSON, omkring tre gange så store, til at læse i sidens kildekode eller til en browser ældre end 2023"
+"--no-download: the wheel as SVG and PNG, and its lists","--no-download: hjulet som SVG og PNG, og dets lister"
+"--no-edit: changes to the titles, colors and readings, kept in the reader's browser, and the changed files to download","--no-edit: ændringer af titler, farver og læsninger, gemt i læserens browser, og de ændrede filer til at hente"
+"--no-make-page: a page like itself, as this window makes","--no-make-page: en side som den selv, som dette vindue laver"
+"--own-art: a picture of your own, for the churches you choose","--own-art: et eget billede, til de kirker du vælger"
+--zoom: 1 (the whole wheel) to 6,--zoom: 1 (hele hjulet) til 6
+Show or hide the {0} churches,Vis eller skjul kirkerne i traditionen {0}
+{0} of {1},{0} af {1}
+Left with no picture of their own (add one for them below): {0}.,Uden eget billede (tilføj et til dem nedenfor): {0}.
+choose this file again with Add a picture (a command names it but cannot carry it),"vælg denne fil igen med ""Tilføj et eget billede"" (en kommando nævner den, men kan ikke bære den med)"
+The own picture of: {0},Eget billede for: {0}
+{0} church,{0} kirke
+{0} churches,{0} kirker
+no church (the Artwork menu only),ingen kirke (kun menuen Billede)
+as drawn,som tegnet
+(click to use it),(klik for at bruge)
+Put {0} back,Nulstil {0}
+{0} changed,{0} ændret
+Every church (unless changed below),Hver kirke (medmindre ændret nedenfor)
+{0} change for single traditions or churches still apply; change them “tradition by tradition” or “church by church” to see it.,"{0} ændring for enkelte traditioner eller kirker gælder stadig; ændr ""tradition for tradition"" eller ""kirke for kirke"" for at se den."
+{0} changes for single traditions or churches still apply; change them “tradition by tradition” or “church by church” to see them.,"{0} ændringer for enkelte traditioner eller kirker gælder stadig; ændr ""tradition for tradition"" eller ""kirke for kirke"" for at se dem."
+{0} change for single churches still apply; change them “church by church” to see it.,"{0} ændring for enkelte kirker gælder stadig; ændr ""kirke for kirke"" for at se den."
+{0} changes for single churches still apply; change them “church by church” to see them.,"{0} ændringer for enkelte kirker gælder stadig; ændr ""kirke for kirke"" for at se dem."
+Put them back,Nulstil dem
+Rings and the rest,Ringe og resten
+{0} words,{0}: tekst
+as each church has them,som hver kirke har dem
+Set from the command.,Indstillet efter kommandoen.
+Note: {0}.,Bemærk: {0}.
+Could not read the command: {0},Kunne ikke læse kommandoen: {0}
+Nothing to save yet: {0}.,Intet at gemme endnu: {0}.
+Saved {0}.,Gemte {0}.
+Set from {0}.,Indstillet efter {0}.
+Could not read {0}: {1},Kunne ikke læse {0}: {1}
+Copied.,Kopieret.
+Selected: copy it with Ctrl+C (⌘C on a Mac).,Markeret: kopiér med Ctrl+C (⌘C på en Mac).
+The kind {0} is kept; give it a reading.,Slagsen {0} beholdes; giv den en læsning.
+"The kinds of reading {0} has, in the order a set lists them. A new kind is added with a reading of it (This day).","De slags læsninger, {0} har, i den rækkefølge en række nævner dem. En ny slags tilføjes med en læsning af den (Denne dag)."
+Kept as reading_labels and reading_order in {0}.,Gemt som reading_labels og reading_order i {0}.
+The colors of {0}’s seasons. A color may name others the church allows after it: PURPLE; blue.,"Farverne for tiderne i {0}. En farve kan efter sig nævne andre, kirken tillader: PURPLE; blue."
+This page cannot write {0}.,Denne side kan ikke skrive {0}.
+This tradition ({0}),Denne tradition ({0})
+"This page was made with changes to: {0}. They are part of it, and Download changed files includes these files.","Denne side blev lavet med ændringer i: {0}. De er en del af den, og ""Hent ændrede filer"" tager disse filer med."
+{0}: {1} change,{0}: {1} ændring
+{0}: {1} changes,{0}: {1} ændringer
+Downloaded {0} file.,Hentede {0} fil.
+Downloaded {0} files.,Hentede {0} filer.
+"Saved {0} ({1} MB, {2} church).","Gemte {0} ({1} MB, {2} kirke)."
+"Saved {0} ({1} MB, {2} churches).","Gemte {0} ({1} MB, {2} kirker)."
+Could not make the page: {0},Kunne ikke lave siden: {0}
+"Choose the wheel, a list, or both.","Vælg hjulet, en liste eller begge."
+"The Feasts setting is None: choose another, or “with major days”, for a feasts list.","Indstillingen Helligdage er Ingen: vælg en anden, eller ""med hovedhelligdage"", for en liste over helligdage."
+Drawing {0}…,Tegner {0}…
+Listing the readings…,Laver liste over læsningerne…
+Listing the colors…,Laver liste over farverne…
+Listing the years…,Laver liste over årene…
+Listing the feasts…,Laver liste over helligdagene…
+Saved {0} files in a .zip.,Gemte {0} filer i en .zip.
+Your own picture could not be read from here and is left out.,Dit eget billede kunne ikke læses herfra og er udeladt.
+Could not make the files: {0},Kunne ikke lave filerne: {0}
+The last year is before the first.,Det sidste år ligger før det første.
+At most {0} years at a time.,Højst {0} år ad gangen.
+The church year {0}.,Kirkeåret {0}.
+"{0} church years, {1} to {2}.","{0} kirkeår, {1} til {2}."
+The PNGs make this about {0} and take a while; a narrower PNG makes it smaller.,PNG-filerne fylder omkring {0} og tager et stykke tid; en smallere PNG gør det mindre.
+{0}: {1} for {2},{0}: {1} for {2}
+{0} to {1},{0} til {1}
+readings,læsninger
+colors,farver
+the year at a glance,året i overblik
+feasts and major days,helligdage og hovedhelligdage
+feasts,helligdage
+"{0}, {1} {2}, {3}",{0} den {2}. {1} {3}
+Monday,mandag
+Tuesday,tirsdag
+Wednesday,onsdag
+Thursday,torsdag
+Friday,fredag
+Saturday,lørdag
+Sunday,søndag
+January,januar
+February,februar
+March,marts
+April,april
+May,maj
+June,juni
+July,juli
+August,august
+September,september
+October,oktober
+November,november
+December,december
+Made by {0} from the church year calendar's data.,Lavet af {0} ud fra kirkeårskalenderens data.
+Each reading opens at {0} in the {1}; each heading opens its set's readings together at Bible Gateway (its propers apart).,Hver læsning åbner på {0} i {1}; hver overskrift åbner rækkens læsninger samlet på Bible Gateway (propriet for sig).
+"Each color is the day's own, the top of its cell on the wheel; the others the church allows follow in parentheses, and the lower half's is given where the wheel splits the cell.","Hver farve er dagens egen, den øverste del af dens celle på hjulet; de andre, kirken tillader, følger i parentes, og den nederste halvdels angives, hvor hjulet deler cellen."
+"Each color is the day's own, the top of its cell on the wheel.","Hver farve er dagens egen, den øverste del af dens celle på hjulet."
+Date,Dato
+Feast,Helligdag
+Level,Rang
+Liturgical color: {0},Liturgisk farve: {0}
+; lower half {0},; nederste halvdel {0}
+transferred from {0} {1},flyttet fra den {1}. {0}
+Principal feasts only: those whose color replaces the season's.,"Kun hovedhelligdage: dem, hvis farve erstatter tidens."
+Festivals: the feasts that color their day or its lower half.,"Højtider: de helligdage, der farver deres dag eller dens nederste halvdel."
+"With the major days: the principal days set on dates of their own, Christmas, Easter, Pentecost and the like; a blank color is the season's.","Med hovedhelligdagene: hovedhelligdagene på egne datoer, jul, påske, pinse og lignende; en tom farve er tidens."
+principal,hovedhelligdag
+festival,højtid
+commemoration,mindedag
+major day,hovedhelligdag
+read by {0} churches: a change here changes them all,læses af {0} kirker: en ændring her ændrer dem alle
+a run of days: the change is the whole run’s,en række dage: ændringen gælder hele rækken

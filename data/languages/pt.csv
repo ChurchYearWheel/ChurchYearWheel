@@ -24,6 +24,20 @@ or,ou
 color_passion_red,vermelho da Paixão
 color_hangings_removed,sem paramentos
 color_bare_altar,altar despido
+"# reading_...: the page's words for its kinds of reading, by their English names (reading_Readings heads the list)."
+reading_Readings,Leituras
+reading_Old Testament,Antigo Testamento
+reading_Psalm,Salmo
+reading_Epistle,Epístola
+reading_Gospel,Evangelho
+reading_First Reading,Primeira leitura
+reading_Second Reading,Segunda leitura
+reading_Reading,Leitura
+reading_Sermon Text,Texto da pregação
+reading_Story Text,Relato
+reading_Prophecy,Profecia
+reading_Procession,Procissão
+reading_New Testament,Novo Testamento
 GEN,Gênesis
 EXO,Êxodo
 LEV,Levítico

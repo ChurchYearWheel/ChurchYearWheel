@@ -69,6 +69,9 @@ setting. In short:
 - **Print** gives the whole wheel on one page; **Download** saves it as an
   image, or the year's colors, feasts and readings as a table or calendar
   feed.
+- The buttons, menus and settings come in the browser's language when the
+  page has it (18 languages besides English); **Settings > Language** picks
+  another, or follows the church's.
 - To keep a copy that works offline, save the page from your browser
   (Ctrl+S, or ⌘S on a Mac). It is a single file.
 - **Help**, in the bottom left corner, opens the user guide.

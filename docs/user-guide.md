@@ -92,6 +92,7 @@ The gear shows a dot when any setting differs from the page's defaults.
 
 | Setting | What it does |
 |---|---|
+| Language | the language of the page's buttons, menus and settings: the browser's (the first of its languages the page has, English otherwise), the church's (Match the church), or one chosen; kept in the browser. A page made with Make a page can start in a language of its own (its Language choice), until the reader picks another. The calendar's own names, dates and readings stay in the church's language |
 | Year | draw another church year by the year it begins in |
 | Tradition, Church | the family of churches and the church (hidden when the page offers only one) |
 | Hymnal, Prayer book, Lectionary, Calendar | the church's book or series, when it has more than one |

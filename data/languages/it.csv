@@ -22,6 +22,23 @@ color_white,bianco
 color_none,nessun colore
 or,o
 color_morello,morello
+"# reading_...: the page's words for its kinds of reading, by their English names (reading_Readings heads the list)."
+reading_Readings,Letture
+reading_Old Testament,Antico Testamento
+reading_Psalm,Salmo
+reading_Epistle,Epistola
+reading_Gospel,Vangelo
+reading_First Reading,Prima lettura
+reading_Second Reading,Seconda lettura
+reading_Reading,Lettura
+reading_Sermon Text,Testo della predicazione
+reading_Story Text,Racconto
+reading_Prophecy,Profezia
+reading_Procession,Processione
+reading_New Testament,Nuovo Testamento
+reading_Verse before the Gospel,Canto al Vangelo
+reading_Gospel of the Resurrection,Vangelo della Risurrezione
+reading_Vigil Reading,Lettura vigiliare
 GEN,Genesi
 EXO,Esodo
 LEV,Levitico

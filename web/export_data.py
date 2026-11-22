@@ -17,6 +17,7 @@ own loaders, so a change to a CSV reaches the browser the next time this runs.
 from __future__ import annotations
 
 import argparse
+import csv
 import json
 import sys
 from pathlib import Path
@@ -218,12 +219,23 @@ def csv_layouts(data_dir: Path, out: dict) -> dict:
     return found
 
 
+def ui_words(path: Path) -> dict:
+    """data/ui/<code>.csv: the page's English words (key) and this language's (value)."""
+    out = {}
+    with path.open(encoding="utf-8", newline="") as f:
+        for row in csv.DictReader(r for r in f if not r.startswith('"#') and not r.startswith("#")):
+            if row.get("english") and row.get("translation"):
+                out[row["english"]] = row["translation"]
+    return out
+
+
 def language_dict(lang: cy.Language) -> dict:
     return {"months": [lang.months[i] for i in range(1, 13)],
             "dateMonths": [lang.date_months[i] for i in range(1, 13)],
             "monthDay": lang.month_day, "fullDate": lang.full_date,
             "chapterVerse": lang.chapter_verse, "books": lang.books,
-            "colors": lang.colors, "or": lang.or_word}
+            "colors": lang.colors, "or": lang.or_word,
+            "readings": lang.readings, "name": lang.name}
 
 
 def profile(data_dir: Path, tradition: T.Tradition) -> dict:
@@ -320,6 +332,9 @@ def build(data_dir: Path) -> dict:
         # Bible book names (church_year.js: languageOf).
         "languages": {code: language_dict(cy.load_language(data_dir, code))
                       for code in ["en"] + sorted(p.stem for p in (data_dir / "languages").glob("*.csv"))},
+        # The page's own words in other languages (data/ui/<code>.csv: the
+        # English words and theirs; page.js: T and the Language setting).
+        "ui": {p.stem: ui_words(p) for p in sorted((data_dir / "ui").glob("*.csv"))},
         "monthOverrides": month_overrides(data_dir),
         # Which picture a season shows when the middle follows the season.
         "seasonArt": [{"season": season, "art": art, "church": church, "week": week}

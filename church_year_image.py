@@ -860,6 +860,8 @@ class Language:
     books: dict[str, str] = field(default_factory=dict)
     colors: dict[str, str] = field(default_factory=dict)   # "purple" -> "morado" (the page's header)
     or_word: str = "or"
+    readings: dict[str, str] = field(default_factory=dict)  # "Gospel" -> "Evangelio" (the page's readings)
+    name: str = "English"                                    # the language in its own words ("Español")
 
     def day_text(self, month: int, day: int) -> str:
         """church_year.js: Language.dayText."""
@@ -897,7 +899,9 @@ def load_language(data_dir: Path, code: str) -> Language:
         chapter_verse=values.get("chapter_verse") or ":",
         books={k: v for k, v in values.items() if re.fullmatch(r"[1-4]?[A-Z]{2,3}", k) and v},
         colors={k[6:].replace("_", " "): v for k, v in values.items() if k.startswith("color_") and v},
-        or_word=values.get("or") or "or")
+        or_word=values.get("or") or "or",
+        readings={k[8:]: v for k, v in values.items() if k.startswith("reading_") and v},
+        name=values.get("name") or "English")
 
 
 def load_text_styles(path: Path, *more: Path) -> dict[str, TextStyle]:

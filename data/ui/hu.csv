@@ -1,0 +1,487 @@
+english,translation
+"# The page's own words (buttons, menus, settings and their notes) in this language: the English as the page writes it, then its translation. {0}, {1} ... stand for what the page fills in. A missing or blank line stays English."
+Settings,Beállítások
+Simple,Egyszerű
+All,Összes
+Language,Nyelv
+Match the church,Mint az egyház
+Browser ({0}),Böngésző ({0})
+Year,Év
+Tradition,Hagyomány
+Church,Egyház
+Hymnal,Énekeskönyv
+Lectionary,Perikóparend
+Feasts,Ünnepek
+Festivals,Főünnepek és ünnepek
+Principal only,Csak a főünnepek
+None,Nincs
+Bible,Biblia
+Readings shown as,Olvasmányok megjelenítése
+Tabs,Lapfülek
+Columns,Oszlopok
+Calendar and names,Naptár és nevek
+Calendar,Naptár
+Gregorian,Gergely-naptár
+Julian (Old Calendar),Julián (régi naptár)
+Revised Julian (New Calendar),Javított Julián (új naptár)
+Easter,Húsvét
+With the calendar,A naptár szerint
+Western,Nyugati
+Eastern,Keleti
+Latin names,Latin nevek
+Readings,Olvasmányok
+The day's propers,A nap saját igéi
+Feasts and festivals,Ünnepek és főünnepek
+Other dated days,Egyéb dátumos napok
+Daily lectionary,Napi olvasmányok
+Additional readings,További olvasmányok
+Psalm table,Zsoltártáblázat
+Bible reading plan,Bibliaolvasási terv
+Office lessons,Az imaórák olvasmányai
+Open in,Megnyitás itt
+Slide,Csúszás
+Off,Ki
+Quick,Gyors
+Medium,Közepes
+Slow,Lassú
+Propers,Proprium
+Hymn search,Énekkeresés
+Contemporary song search,Mai dicsőítő énekek keresése
+The wheel,A kerék
+Artwork,Kép
+Thicker line where the year begins,Vastagabb vonal az év kezdeténél
+Arrow keys go on into the next year,A nyílbillentyűk továbbmennek a következő évbe
+Dark text on reds,Sötét szöveg a pirosakon
+Under the wheel,A kerék alatt
+Instructions and notes,Útmutató és megjegyzések
+Artwork credit,A kép készítője
+Rings,Gyűrűk
+Outer band,Külső sáv
+Seasons,Időszakok
+Months,Hónapok
+Parts of the year,Az év részei
+Day cells,Napcellák
+Center artwork,Középső kép
+Colors…,Színek…
+Colors,Színek
+Days,Napok
+Close,Bezárás
+Reset colors,Színek visszaállítása
+Reset settings,Beállítások visszaállítása
+Share,Megosztás
+Copy link,Hivatkozás másolása
+Copy embed code,Beágyazó kód másolása
+Print,Nyomtatás
+Download…,Letöltés…
+Download,Letöltés
+Years,Évek
+From,Ettől
+to,eddig
+pixels wide,képpont széles
+Background,Háttér
+clear,átlátszó
+white,fehér
+Lists,Listák
+Sundays,Vasárnapok
+Sundays and principal days,Vasárnapok és főünnepek
+every day,minden nap
+every named day,minden megnevezett nap
+with links,hivatkozásokkal
+with major days,a főünnepekkel
+other colors,további színek
+Format,Formátum
+CSV (spreadsheet),CSV (táblázat)
+HTML (to print),HTML (nyomtatáshoz)
+iCalendar (.ics),iCalendar (.ics)
+PNG (a picture),PNG (kép)
+"SVG (a drawing, sharp at any size)","SVG (rajz, bármekkora méretben éles)"
+The year at a glance,Az év egy pillantásra
+Today,Ma
+Week,Hét
+Find a day,Nap keresése
+Help,Súgó
+Feedback,Visszajelzés
+About the artwork,A képről
+Choose a date,Dátum választása
+Previous day,Előző nap
+Next day,Következő nap
+Zoom in,Nagyítás
+Zoom out,Kicsinyítés
+Zoom in (+),Nagyítás (+)
+Zoom out (−),Kicsinyítés (−)
+Magnification,Nagyítás mértéke
+The week before,Az előző hét
+The week after,A következő hét
+Days with that name,Ilyen nevű napok
+Find a day by its name,Nap keresése a neve alapján
+Church Year {0},Egyházi év {0}
+Jump to today (T) — {0},Ugrás a mai napra (T) — {0}
+Read about {0},Olvass erről: {0}
+{0} ({1} hymns) in {2},{0} ({1} ének) – {2}
+Hymns on {0} in {1} at Hymnary.org,"Énekek erről: {0} – {1}, Hymnary.org"
+Hymns for these readings in {0} at Hymnary.org,"Énekek ezekhez az olvasmányokhoz – {0}, Hymnary.org"
+Hymns for these propers in {0} at Hymnary.org,"Énekek ehhez a propriumhoz – {0}, Hymnary.org"
+the church's hymnal,az egyház énekeskönyve
+Contemporary worship songs for these readings at Word to Worship,Mai dicsőítő énekek ezekhez az olvasmányokhoz – Word to Worship
+Contemporary worship songs for these propers at Word to Worship,Mai dicsőítő énekek ehhez a propriumhoz – Word to Worship
+Open all these readings together at Bible Gateway,Mindezen olvasmányok együttes megnyitása a Bible Gateway oldalon
+Open these propers together at Bible Gateway,E proprium együttes megnyitása a Bible Gateway oldalon
+▴ less,▴ kevesebb
+▾ more,▾ több
+▾ {0} more,▾ még {0}
+Show two lines again,Ismét két sor mutatása
+Show all of this set’s readings,E sorozat összes olvasmányának mutatása
+Show all the day’s readings,A nap összes olvasmányának mutatása
+Show the readings in three lines again,Az olvasmányok ismét három sorban
+No day of {0} by that name,{0} évben nincs ilyen nevű nap
+Choose {0} on the wheel,{0} kiválasztása a keréken
+In another church year: choose the day to draw it.,"Másik egyházi évben: válaszd ki a napot, hogy megrajzolódjon."
+Copied,Másolva
+Copy failed,A másolás nem sikerült
+"The language of the page's buttons, menus and settings. The calendar's names, dates and readings stay in the church's language.","Az oldal gombjainak, menüinek és beállításainak nyelve. A naptár nevei, dátumai és olvasmányai az egyház nyelvén maradnak."
+"The church year wheel: left and right arrow keys step a week, up and down a day","Az egyházi év kereke: a bal és jobb nyíl egy hetet lép, a fel és le egy napot"
+"The settings most often changed: the year, the church, the feasts, the Bible and how the readings are shown","A leggyakrabban módosított beállítások: az év, az egyház, az ünnepek, a Biblia és az olvasmányok megjelenése"
+"Every setting: the calendar, the kinds of reading, the searches, the artwork, the rings and colors, and making a page or editing the data","Minden beállítás: a naptár, az olvasmányok fajtái, a keresések, a kép, a gyűrűk és színek, valamint oldal készítése vagy az adatok szerkesztése"
+"The year the church year begins in: Advent for most traditions, September for the Eastern Orthodox","Az év, amelyben az egyházi év kezdődik: adventben a legtöbb hagyományban, szeptemberben az ortodoxoknál"
+The family of churches,Az egyházcsalád
+Which church's calendar the wheel follows,Melyik egyház naptárát követi a kerék
+"All: every commemoration. Festivals: the festivals and feasts (in the Roman calendar, solemnities and feasts). Principal: only the principal days (solemnities). None: the saints' days are left off.",Összes: minden emléknap. Főünnepek és ünnepek: az ünnepek (a római naptárban főünnepek és ünnepek). Csak a főünnepek: csak a fő napok. Nincs: a szentek napjai kimaradnak.
+The translation the readings open in. Each church starts on the one it uses (ESV where it names none).,"A fordítás, amelyben az olvasmányok megnyílnak. Minden egyház a sajátjával kezd (ESV, ha nem nevez meg egyet sem)."
+"How the day's readings are shown when there are several sets: one at a time under tabs, or all of them in columns (on the right, and across two columns when opened with more)","Hogyan jelennek meg a nap olvasmányai, ha több sorozat van: egyszerre egy lapfülek alatt, vagy mind oszlopokban (jobb oldalt, és két oszlopon át, ha a több gombbal nyitják meg)"
+Which calendar the dates are reckoned in,Melyik naptár szerint számítják a dátumokat
+"How Easter is dated, which is a separate question from how the days are named. Left to follow the calendar, a Gregorian wheel keeps Western Easter and the other two keep the Eastern one.","Hogyan számítják húsvét dátumát, ami más kérdés, mint a napok elnevezése. A naptár szerint a Gergely-kerék a nyugati húsvétot tartja, a másik kettő a keletit."
+"Name the one-year Sundays as the historic calendar does, from the first words of the day's Introit: Ad Te Levavi, Laetare, Quasimodo Geniti","Az egyéves sorozat vasárnapjainak elnevezése a történeti naptár szerint, a nap introitusának első szavaiból: Ad Te Levavi, Laetare, Quasimodo Geniti"
+List the day's Bible readings under its name. Each kind can be left out; only the kinds this church's lectionary has are offered.,"A nap bibliai olvasmányainak felsorolása a neve alatt. Minden fajta elhagyható; csak azok a fajták szerepelnek, amelyek ennek az egyháznak a perikóparendjében megvannak."
+"The lessons of the day's own propers: its Sunday, holy day or season, and any other service its book appoints for it","A nap saját propriumának olvasmányai: vasárnapja, ünnepe vagy időszaka, és minden más istentisztelet, amelyet könyve kijelöl rá"
+"The lessons of a saint's day or festival, listed only while the wheel shows it (see Feasts)","Egy szent napjának vagy ünnepnek az olvasmányai, csak amíg a kerék mutatja (lásd Ünnepek)"
+"The lessons of a day the calendar does not name, kept by its date or a date rule: Ember and Rogation Days, Thanksgiving, New Year's and national days, the Saturdays before and after a feast","Olyan nap olvasmányai, amelyet a naptár nem nevez meg, dátuma vagy szabály szerint: kántorböjtök és könyörgőnapok, hálaadás, újév és nemzeti ünnepek, az ünnep előtti és utáni szombatok"
+The hymnal's or prayer book's daily or weekday lectionary,Az énekeskönyv vagy imakönyv napi vagy hétköznapi olvasmányrendje
+"The additional readings a daily lectionary offers beside its own, for reading more of the Bible (Lutheran Service Book prints them in italics)","A további olvasmányok, amelyeket a napi olvasmányrend a sajátjai mellett kínál, hogy többet olvassunk a Bibliából (a Lutheran Service Book dőlt betűvel nyomtatja őket)"
+"A table of psalms for daily prayer, morning and evening, by season and weekday (Lutheran Service Book, p. 304)","Zsoltártáblázat a napi imádsághoz, reggel és este, időszak és hétnap szerint (Lutheran Service Book, 304. o.)"
+"A plan of daily Bible reading kept by the calendar year: Reading the Word of God (LCMS, LCC and NALC), through the Old Testament in three years and the Psalms and New Testament twice","Napi bibliaolvasási terv a naptári év szerint: Reading the Word of God (LCMS, LCC és NALC), az Ószövetség három év alatt, a Zsoltárok és az Újszövetség kétszer"
+"The lessons of the Office: Morning and Evening Prayer, Matins, a second or third service","Az imaórák olvasmányai: reggeli és esti imádság, matutinum, második vagy harmadik istentisztelet"
+"Where a reading opens. On a phone or tablet either one opens in its own app when the app is installed, and in the browser otherwise.","Hol nyílik meg egy olvasmány. Telefonon vagy táblagépen mindkettő a saját alkalmazásában nyílik meg, ha telepítve van, egyébként a böngészőben."
+How fast the sets slide between the columns when more or less is clicked (kept in this browser),Milyen gyorsan csúsznak a sorozatok az oszlopok között a több vagy kevesebb gombra kattintva (ebben a böngészőben tárolva)
+"The parts of the service the church lists with each day's readings (an Introit, a Gradual and a Verse), on a line of their own after them; a set's heading opens only its readings together","Az istentisztelet részei, amelyeket az egyház minden nap olvasmányaival felsorol (introitus, graduale és vers), saját sorban utánuk; egy sorozat címe csak annak olvasmányait nyitja meg együtt"
+A hymnal mark after each set of readings that searches Hymnary.org for the hymns on them in this church's hymnal,"Énekeskönyv-jel minden olvasmánysorozat után, amely a Hymnary.org oldalon keres hozzájuk illő énekeket ennek az egyháznak az énekeskönyvében"
+"The hymnal Hymn search looks in, where the church has several","Az énekeskönyv, amelyben az énekkeresés keres, ha az egyháznak több van"
+A circled note after each set of readings that searches Word to Worship (wordtoworship.com) for contemporary worship songs on them,"Bekarikázott hangjegy minden olvasmánysorozat után, amely a Word to Worship oldalon (wordtoworship.com) keres hozzájuk mai dicsőítő énekeket"
+"The picture in the middle of the wheel. Each tradition has its own; any of them can be chosen. By season changes it with the day chosen: the wreath in Advent, the manger at Christmas, the empty tomb at Easter, and the church's own picture in the seasons that have none.","A kép a kerék közepén. Minden hagyománynak saját van; bármelyik választható. Az „Időszak szerint” a választott nappal változtatja: koszorú adventben, jászol karácsonykor, az üres sír húsvétkor, és az egyház saját képe azokban az időszakokban, amelyeknek nincs."
+"A thicker line where the year's last week meets its first, which are a year apart","Vastagabb vonal ott, ahol az év utolsó hete találkozik az elsővel, amelyek között egy év van"
+"Checked: at the end of the church year the arrow keys go on into the next year's wheel, and back into the last. Unchecked: they go round the year on the wheel, from its last week to its first. Page Up and Page Down and the ◀ ▶ buttons always go on.","Bejelölve: az egyházi év végén a nyílbillentyűk továbbmennek a következő év kerekére, és vissza az előzőre. Nincs bejelölve: körbejárnak az éven a keréken, az utolsó héttől az elsőig. A Page Up, Page Down és a ◀ ▶ gombok mindig továbbmennek."
+"The reds in the middle of the range (the LCMS, Roman and Presbyterian reds) read about as well with black text as with white. Checked: black on them.","A skála közepén lévő pirosak (az LCMS, a római és a presbiteriánus piros) fekete szöveggel nagyjából olyan jól olvashatók, mint fehérrel. Bejelölve: fekete rajtuk."
+"How to use the wheel, the calendar's notes and how long it took to draw","Hogyan használd a kereket, a naptár megjegyzései és mennyi ideig tartott a rajzolás"
+"Who made the picture in the middle, and its license. When it is off and the license asks for credit, a small i button keeps it a click away.","Ki készítette a középső képet, és a licence. Ha ez ki van kapcsolva, és a licenc forrásmegjelölést kér, egy kis i gomb egy kattintásnyira tartja."
+"The colors the days and the rings are painted in, each of which can be changed for this page","A színek, amelyekkel a napok és a gyűrűk festve vannak; mindegyik módosítható ehhez az oldalhoz"
+The colors on the wheel this year. Click a swatch to change it; the change is kept in the page's link. Text on a day stays readable: it turns black or white if it would not.,"A kerék színei ebben az évben. Kattints egy színmintára a módosításhoz; a változás az oldal hivatkozásában marad. Egy nap szövege olvasható marad: feketére vagy fehérre vált, ha különben nem lenne az."
+Put every color back to the page's own,Minden szín visszaállítása az oldal sajátjára
+"Put every setting here back to what config.csv asks for, keeping the day on the wheel","Minden beállítás visszaállítása arra, amit a config.csv kér, a nap a keréken marad"
+"Copy a link that opens on this day, with these settings","Hivatkozás másolása, amely ezen a napon nyílik meg ezekkel a beállításokkal"
+"Copy a line of HTML that shows this page inside a page of your own website (an iframe), opening on the day it is read, with these settings","Egy HTML-sor másolása, amely ezt az oldalt a saját weboldalad egy oldalán belül mutatja (iframe), az olvasás napján megnyitva, ezekkel a beállításokkal"
+Print the whole wheel on one page,Az egész kerék nyomtatása egy oldalra
+"Download the wheel (SVG, PNG) and lists of its readings, colors and feasts, for this year or a run of years","A kerék (SVG, PNG) és olvasmányainak, színeinek és ünnepeinek listái letöltése erre az évre vagy évek sorára"
+"The wheel and its lists as they are here, with these settings: the church, calendars, feasts, readings, rings, colors and artwork.","A kerék és listái, ahogy itt vannak, ezekkel a beállításokkal: az egyház, a naptárak, az ünnepek, az olvasmányok, a gyűrűk, a színek és a kép."
+"Each day's readings, as the Readings boxes and the Feasts setting choose them","Minden nap olvasmányai, ahogy az Olvasmányok jelölőnégyzetei és az Ünnepek beállítás kiválasztja őket"
+Each reading opens where Open in and Bible say; each set's heading opens all its readings,"Minden olvasmány ott nyílik meg, ahol a Megnyitás itt és a Biblia mondja; minden sorozat címe megnyitja összes olvasmányát"
+The Sundays and principal days (or every day) with the color the wheel paints them,"A vasárnapok és főünnepek (vagy minden nap) azzal a színnel, amellyel a kerék festi őket"
+"The other colors the church allows, and the lower half's where the wheel splits a cell (in the feasts list too)","Az egyház által megengedett további színek, és az alsó fél színe, ahol a kerék megoszt egy cellát (az ünneplistában is)"
+"The festivals, saints' days and commemorations the Feasts setting keeps, on the days they fall","A főünnepek, a szentek napjai és az emléknapok, amelyeket az Ünnepek beállítás megtart, azokon a napokon, amelyekre esnek"
+"Also Christmas, Easter, Pentecost and the other principal days on dates of their own","Karácsony, húsvét, pünkösd és a többi főünnep is saját dátumán"
+"Where to read about each, as the readout links it","Hol lehet olvasni mindegyikről, ahogy a kijelzés hivatkozik rá"
+"Previous day (up arrow; left arrow: a week, Shift: a month)","Előző nap (fel nyíl; bal nyíl: egy hét, Shift: egy hónap)"
+"Next day (down arrow; right arrow: a week, Shift: a month)","Következő nap (le nyíl; jobb nyíl: egy hét, Shift: egy hónap)"
+Magnification: 1× (the whole wheel) to 6×,Nagyítás: 1× (az egész kerék) – 6×
+"Type a Sunday's, a season's or a feast's name and pick it: the wheel goes to that day in the year shown (F)","Írd be egy vasárnap, időszak vagy ünnep nevét és válaszd ki: a kerék arra a napra ugrik a mutatott évben (F)"
+"The chosen day's week in a list: each day's names, color and readings (W)","A választott nap hete listában: minden nap nevei, színe és olvasmányai (W)"
+"Print this week's days and readings, a page or two to hand round","E hét napjainak és olvasmányainak nyomtatása, egy-két oldal kiosztásra"
+"How to use this page: every control, key and setting","Az oldal használata: minden vezérlő, billentyű és beállítás"
+"Send feedback about this page: the day, church and settings on screen go with it","Visszajelzés küldése erről az oldalról: a képernyőn látható nap, egyház és beállítások is mennek vele"
+"Type any year and the wheel is drawn for it. Click a cell, use the arrow keys, or pick a date.","Írj be bármely évet, és a kerék megrajzolódik rá. Kattints egy cellára, használd a nyílbillentyűket, vagy válassz dátumot."
+"Tap a cell, pinch to zoom, or pick a date.","Koppints egy cellára, csippentsd a nagyításhoz, vagy válassz dátumot."
+A new kind…,Új fajta…
+About the feasts only,Csak az ünnepekről
+Add,Hozzáadás
+Add a color,Szín hozzáadása
+Add a feast on this date,Ünnep hozzáadása erre a napra
+Add a picture of your own…,Saját kép hozzáadása…
+Add a reading to this set,Olvasmány hozzáadása ehhez a sorozathoz
+Add a season,Időszak hozzáadása
+Add a set of readings on this date,Olvasmánysorozat hozzáadása erre a napra
+Additional,További
+Advent: four candles lit,Advent: négy gyertya ég
+Advent: one candle lit,Advent: egy gyertya ég
+Advent: three candles lit,Advent: három gyertya ég
+Advent: two candles lit,Advent: két gyertya ég
+Armenian cross,Örmény kereszt
+As each color sets it,Ahogy az egyes színek beállítják
+As on screen,Ahogy a képernyőn
+As this page opens,Ahogy ez az oldal megnyílik
+Black,Fekete
+Blue,Kék
+Burning bush,Égő csipkebokor
+Buttons it shows,"Gombok, amelyeket mutat"
+By season,Időszak szerint
+"Calendar (Gregorian, Julian, Revised Julian)","Naptár (Gergely, Julián, javított Julián)"
+Canterbury cross,Canterbury kereszt
+Celtic cross,Kelta kereszt
+Chalice and host,Kehely és ostya
+Change for,Módosítás erre:
+Changes,Módosítások
+Chi-Rho,Krisztus-monogram
+Christmas: the manger,Karácsony: a jászol
+Churches it offers,"Egyházak, amelyeket kínál"
+Color,Szín
+Columns only,Csak oszlopok
+"Columns, or tabs in Settings","Oszlopok, vagy lapfülek a Beállításokban"
+Coptic cross,Kopt kereszt
+Copy,Másolás
+Daily,Napi
+Dark,Sötét
+Dark on reds,Sötét a pirosakon
+Day,Nap
+Download changed files,Módosított fájlok letöltése
+Each church's first,Minden egyház első
+Each church's own,Minden egyház sajátja
+Earlier,Korábban
+Easter (Western or Eastern),Húsvét (nyugati vagy keleti)
+Easter: the empty tomb,Húsvét: az üres sír
+Edit the data,Adatok szerkesztése
+Edit the data…,Adatok szerkesztése…
+Epiphany: the star and crowns,Vízkereszt: a csillag és a koronák
+Ethiopian cross,Etióp kereszt
+Every church,Minden egyház
+Every version,Minden fordítás
+Feedback link,Visszajelzési hivatkozás
+File name,Fájlnév
+Fill,Kitöltés
+Full name,Teljes név
+Gold,Arany
+Green,Zöld
+Help link,Súgó hivatkozás
+Holy Week: three crosses,Nagyhét: három kereszt
+"Instructions, notes and credit","Útmutató, megjegyzések és forrás"
+It opens,Megnyílik
+Kinds of reading,Az olvasmányok fajtái
+Later,Később
+Lent: the cross and thorns,Böjt: a kereszt és a tövisek
+Light,Világos
+Link,Hivatkozás
+Links,Hivatkozások
+Load settings…,Beállítások betöltése…
+Lower half,Alsó fél
+Luther rose,Luther-rózsa
+Make a page,Oldal készítése
+Make a page…,Oldal készítése…
+Make the page,Az oldal elkészítése
+Moravian star,Herrnhuti csillag
+Morello,Morello
+Name,Név
+Names (a pattern),Nevek (minta)
+Names and colors,Nevek és színek
+No changes on this page yet.,Ezen az oldalon még nincs módosítás.
+None (each church's own version),Nincs (minden egyház saját fordítása)
+None (no box and no marks),"Nincs (sem jelölőnégyzet, sem jel)"
+None (plain text),Nincs (egyszerű szöveg)
+Nothing,Semmi
+Off (the box unchecked),Ki (a jelölőnégyzet üresen)
+Office,Imaórák
+On,Be
+On the year beginning in Advent,Az adventben kezdődő évben
+Only this one,Csak ez
+Outside the year,Az éven kívül
+"Packed, about a third of the size","Tömörítve, nagyjából a méret harmada"
+Pentecost: the dove and flames,Pünkösd: a galamb és a lángok
+Pictures kept,Megtartott képek
+Purple,Lila
+Reading plan,Olvasási terv
+Readings and links,Olvasmányok és hivatkozások
+Red,Piros
+Remove,Eltávolítás
+Remove this reading,Ennek az olvasmánynak az eltávolítása
+Rose,Rózsaszín
+Save,Mentés
+Save settings…,Beállítások mentése…
+Scarlet,Skarlátvörös
+Season,Időszak
+Set the window from it,Az ablak beállítása ez alapján
+Settings it shows,"Beállítások, amelyeket mutat"
+Syriac cross,Szír kereszt
+Tabs only,Csak lapfülek
+"Tabs, or columns in Settings","Lapfülek, vagy oszlopok a Beállításokban"
+Text,Szöveg
+Text on mid-tone colors,Szöveg középtónusú színeken
+The artwork's credit only,Csak a kép forrása
+"The church, calendars and settings on screen now","Az egyház, a naptárak és a beállítások, amelyek most a képernyőn vannak"
+The same page from Python; save or load these settings,Ugyanez az oldal Pythonból; ezeknek a beállításoknak a mentése vagy betöltése
+The tradition's own,A hagyomány saját képe
+These:,Ezek:
+This church,Ez az egyház
+This day,Ez a nap
+This tradition,Ez a hagyomány
+Title,Cím
+To paste into another page’s HTML,Egy másik oldal HTML-jébe illesztéshez
+Violet,Ibolya
+What this page opens with,Amivel ez az oldal megnyílik
+White,Fehér
+Zoom,Nagyítás
+every church,minden egyház
+https://… (blank: none),https://… (üres: nincs)
+OK,OK
+Undo these,Ezek visszavonása
+Undo the last change,Az utolsó módosítás visszavonása
+Undo every change,Minden módosítás visszavonása
+Periods with a color of their own,Saját színű időszakok
+Credit,Forrás
+Artist or owner,Alkotó vagy tulajdonos
+License or copyright,Licenc vagy szerzői jog
+License link,A licenc hivatkozása
+Source link,A forrás hivatkozása
+Added.,Hozzáadva.
+Saved.,Mentve.
+Undone.,Visszavonva.
+Removed.,Eltávolítva.
+Every change undone.,Minden módosítás visszavonva.
+A feast needs a name.,Az ünnepnek névre van szüksége.
+A kind needs a key of letters and numbers.,A fajtának betűkből és számokból álló kulcsra van szüksége.
+A reading cannot be blank: Remove takes it away.,Az olvasmány nem lehet üres: az Eltávolítás elveszi.
+Choose its kind and write the reading.,"Válaszd ki a fajtáját, és írd be az olvasmányt."
+This page cannot write this church’s tradition.csv.,Ez az oldal nem tudja írni ennek az egyháznak a tradition.csv fájlját.
+Added: further readings join it with Add a reading.,Hozzáadva: további olvasmányok az „Olvasmány hozzáadása” gombbal kerülnek mellé.
+Nothing on this day comes from a file this page can write.,"Ezen a napon semmi sem olyan fájlból származik, amelyet ez az oldal írni tud."
+The day’s own,A nap sajátja
+(not in a file this page can write),"(nem olyan fájlban, amelyet ez az oldal írni tud)"
+Kept in this browser for this page. Make a page writes them into the page it makes.,Ebben a böngészőben tárolva ehhez az oldalhoz. Az „Oldal készítése” beírja őket az általa készített oldalba.
+"A .zip of the data files the changes make, laid out as the project's data folder",".zip a módosításokból adódó adatfájlokkal, a projekt adatmappájának elrendezésében"
+"A page like this one, in one HTML file to put on a website or open from a folder: the page church_year.py makes with the same options (below). Each choice starts as the page is now.","Egy ehhez hasonló oldal egyetlen HTML-fájlban, weboldalra tételhez vagy mappából megnyitáshoz: az az oldal, amelyet a church_year.py ugyanezekkel a beállításokkal (lent) készít. Minden választás úgy kezdődik, ahogy az oldal most áll."
+A picture beside the page (center.svg…),Egy kép az oldal mellett (center.svg…)
+Changes show on the wheel at once and are kept in this browser for this page; Make a page writes them into the page it makes.,"A módosítások azonnal látszanak a keréken, és ebben a böngészőben tárolódnak ehhez az oldalhoz; az „Oldal készítése” beírja őket az általa készített oldalba."
+"Copy the command, to make this page with the script or to set this window from it later","A parancs másolása, hogy a szkripttel elkészítsd ezt az oldalt, vagy később ez alapján állítsd be ezt az ablakot"
+"Not a whole page: its contents go into your own page’s HTML. To show a page that is already on a website,","Nem teljes oldal: a tartalma a saját oldalad HTML-jébe kerül. Ha egy már weboldalon lévő oldalt szeretnél mutatni,"
+"One row a year: Advent, Christmas, Ash Wednesday, Easter, Pentecost and the other movable dates, and how many Sundays after the Epiphany and Pentecost or Trinity (colors.py --overview). It has no iCalendar form, so with that format it comes as CSV.","Évente egy sor: advent, karácsony, hamvazószerda, húsvét, pünkösd és a többi mozgó dátum, valamint hány vasárnap van vízkereszt és pünkösd vagy Szentháromság után (colors.py --overview). Nincs iCalendar formája, így abban a formátumban CSV-ként jön."
+"Save these settings as a small text file (the command), to load here again later","Ezeknek a beállításoknak a mentése kis szövegfájlként (a parancs), hogy később itt újra betöltsd"
+Set the window from a command: paste one copied here before (or written for church_year.py),"Az ablak beállítása parancs alapján: illessz be egyet, amelyet korábban itt másoltál (vagy amelyet a church_year.py számára írtak)"
+Set the window from a settings file saved here before,Az ablak beállítása egy korábban itt mentett beállításfájl alapján
+What each color looks like on the wheel: its fill and the color of text on it. A color changed for this tradition only goes into its own colors.csv; one for every church into data/colors.csv.,Hogyan néz ki az egyes színek a keréken: a kitöltése és a rajta lévő szöveg színe. A csak erre a hagyományra módosított szín a saját colors.csv fájljába kerül; a minden egyházra vonatkozó a data/colors.csv-be.
+a word in capitals: ROSE,egy szó nagybetűkkel: ROSE
+blank: the day’s own readings; a feast’s name keeps them to that feast,üres: a nap saját olvasmányai; egy ünnep neve arra az ünnepre szűkíti őket
+"gives the data files they change, to put over the project’s own for the Python scripts.","adja az általuk módosított adatfájlokat, hogy a projekt saját fájljaira tedd a Python-szkriptekhez."
+"its key, as periods.csv names it: ADVENT","a kulcsa, ahogy a periods.csv nevezi: ADVENT"
+under Share is simpler.,a Megosztás alatt egyszerűbb.
+"--arrows-next-year, --arrows-same-year: whether the arrow keys go on into the next church year at the year's end, or round the year on the wheel (a box in the page's Settings changes it)","--arrows-next-year, --arrows-same-year: hogy a nyílbillentyűk az év végén a következő egyházi évbe mennek-e tovább, vagy körbejárnak az éven a keréken (az oldal Beállításainak egy jelölőnégyzete módosítja)"
+"--art: the picture the page opens on. By season: the picture of the chosen day's season, and the church's own in a season without one","--art: a kép, amellyel az oldal megnyílik. Időszak szerint: a választott nap időszakának képe, és az egyház saját képe egy kép nélküli időszakban"
+--drop-art: untick a picture to leave it out of the page,"--drop-art: vedd ki a jelölést egy képnél, hogy kimaradjon az oldalból"
+"--fragment: no <html>, <head> or <body>, to paste into a page of your own","--fragment: nincs <html>, <head> vagy <body>, saját oldalba illesztéshez"
+"--help-link: the page the Help button opens, the user guide unless changed","--help-link: az oldal, amelyet a Súgó gomb megnyit, a használati útmutató, ha nem módosítják"
+"--language: the language of the page's buttons, menus and settings until the reader chooses another (Settings > Language)","--language: az oldal gombjainak, menüinek és beállításainak nyelve, amíg az olvasó másikat nem választ (Beállítások > Nyelv)"
+"--local-art: look for center.svg (or .png, .jpg ...) beside the page when it opens and offer it in the middle. Off, the page asks for no files beside it","--local-art: megnyitáskor keresse a center.svg (vagy .png, .jpg ...) fájlt az oldal mellett, és kínálja középen. Kikapcsolva az oldal nem kér fájlokat maga mellől"
+"--no-compress when off: the tables as plain JSON, about three times the size, to read in the page's source or for a browser older than 2023","--no-compress kikapcsolva: a táblázatok egyszerű JSON-ként, nagyjából háromszor akkorák, az oldal forrásában olvasáshoz vagy 2023-nál régebbi böngészőhöz"
+"--no-download: the wheel as SVG and PNG, and its lists","--no-download: a kerék SVG-ként és PNG-ként, és a listái"
+"--no-edit: changes to the titles, colors and readings, kept in the reader's browser, and the changed files to download","--no-edit: a címek, színek és olvasmányok módosításai az olvasó böngészőjében tárolva, és a módosított fájlok letöltéshez"
+"--no-make-page: a page like itself, as this window makes","--no-make-page: egy önmagához hasonló oldal, ahogy ez az ablak készíti"
+"--own-art: a picture of your own, for the churches you choose",--own-art: saját kép a választott egyházakhoz
+--zoom: 1 (the whole wheel) to 6,--zoom: 1 (az egész kerék) – 6
+Show or hide the {0} churches,A(z) {0} egyházak mutatása vagy elrejtése
+{0} of {1},{0}/{1}
+Left with no picture of their own (add one for them below): {0}.,Saját kép nélkül maradt (adj hozzájuk egyet lent): {0}.
+choose this file again with Add a picture (a command names it but cannot carry it),"válaszd újra ezt a fájlt a „Saját kép hozzáadása” gombbal (egy parancs megnevezi, de nem tudja magával vinni)"
+The own picture of: {0},Saját kép ezekhez: {0}
+{0} church,{0} egyház
+{0} churches,{0} egyház
+no church (the Artwork menu only),egyik egyházhoz sem (csak a Kép menü)
+as drawn,ahogy rajzolva
+(click to use it),(kattints a használathoz)
+Put {0} back,{0} visszaállítása
+{0} changed,{0} módosítva
+Every church (unless changed below),Minden egyház (hacsak lent nincs módosítva)
+{0} change for single traditions or churches still apply; change them “tradition by tradition” or “church by church” to see it.,"{0} módosítás egyes hagyományokra vagy egyházakra továbbra is érvényes; válts „hagyományonként” vagy „egyházanként” nézetre, hogy lásd."
+{0} changes for single traditions or churches still apply; change them “tradition by tradition” or “church by church” to see them.,"{0} módosítás egyes hagyományokra vagy egyházakra továbbra is érvényes; válts „hagyományonként” vagy „egyházanként” nézetre, hogy lásd őket."
+{0} change for single churches still apply; change them “church by church” to see it.,"{0} módosítás egyes egyházakra továbbra is érvényes; válts „egyházanként” nézetre, hogy lásd."
+{0} changes for single churches still apply; change them “church by church” to see them.,"{0} módosítás egyes egyházakra továbbra is érvényes; válts „egyházanként” nézetre, hogy lásd őket."
+Put them back,Visszaállításuk
+Rings and the rest,Gyűrűk és a többi
+{0} words,{0}: szöveg
+as each church has them,ahogy az egyes egyházaknál van
+Set from the command.,Beállítva a parancs alapján.
+Note: {0}.,Megjegyzés: {0}.
+Could not read the command: {0},A parancsot nem sikerült beolvasni: {0}
+Nothing to save yet: {0}.,Még nincs mit menteni: {0}.
+Saved {0}.,Mentve: {0}.
+Set from {0}.,Beállítva ez alapján: {0}.
+Could not read {0}: {1},Nem sikerült beolvasni: {0}: {1}
+Copied.,Másolva.
+Selected: copy it with Ctrl+C (⌘C on a Mac).,Kijelölve: másold Ctrl+C-vel (Macen ⌘C).
+The kind {0} is kept; give it a reading.,A(z) {0} fajta megmarad; adj neki egy olvasmányt.
+"The kinds of reading {0} has, in the order a set lists them. A new kind is added with a reading of it (This day).","Az olvasmányok fajtái, amelyek {0} egyházban vannak, abban a sorrendben, ahogy egy sorozat felsorolja őket. Új fajta egy hozzá tartozó olvasmánnyal kerül be (Ez a nap)."
+Kept as reading_labels and reading_order in {0}.,Mentve reading_labels és reading_order néven ide: {0}.
+The colors of {0}’s seasons. A color may name others the church allows after it: PURPLE; blue.,"{0} időszakainak színei. Egy szín után más, az egyház által megengedett színek is állhatnak: PURPLE; blue."
+This page cannot write {0}.,Ez az oldal nem tudja írni: {0}.
+This tradition ({0}),Ez a hagyomány ({0})
+"This page was made with changes to: {0}. They are part of it, and Download changed files includes these files.","Ez az oldal módosításokkal készült ezekben: {0}. Ezek hozzá tartoznak, és a „Módosított fájlok letöltése” ezeket a fájlokat is tartalmazza."
+{0}: {1} change,{0}: {1} módosítás
+{0}: {1} changes,{0}: {1} módosítás
+Downloaded {0} file.,{0} fájl letöltve.
+Downloaded {0} files.,{0} fájl letöltve.
+"Saved {0} ({1} MB, {2} church).","Mentve: {0} ({1} MB, {2} egyház)."
+"Saved {0} ({1} MB, {2} churches).","Mentve: {0} ({1} MB, {2} egyház)."
+Could not make the page: {0},Az oldalt nem sikerült elkészíteni: {0}
+"Choose the wheel, a list, or both.","Válaszd a kereket, egy listát vagy mindkettőt."
+"The Feasts setting is None: choose another, or “with major days”, for a feasts list.","Az Ünnepek beállítás értéke Nincs: válassz mást, vagy a „főünnepekkel” lehetőséget az ünneplistához."
+Drawing {0}…,{0} rajzolása…
+Listing the readings…,Az olvasmányok listázása…
+Listing the colors…,A színek listázása…
+Listing the years…,Az évek listázása…
+Listing the feasts…,Az ünnepek listázása…
+Saved {0} files in a .zip.,{0} fájl mentve egy .zip-be.
+Your own picture could not be read from here and is left out.,"A saját képedet nem sikerült innen beolvasni, ezért kimarad."
+Could not make the files: {0},A fájlokat nem sikerült elkészíteni: {0}
+The last year is before the first.,Az utolsó év az első előtt van.
+At most {0} years at a time.,Egyszerre legfeljebb {0} év.
+The church year {0}.,A(z) {0} egyházi év.
+"{0} church years, {1} to {2}.","{0} egyházi év, {1} – {2}."
+The PNGs make this about {0} and take a while; a narrower PNG makes it smaller.,"A PNG-k nagyjából {0} méretűek lesznek, és eltart egy ideig; egy keskenyebb PNG kisebbé teszi."
+{0}: {1} for {2},"{0}: {1}, {2}"
+{0} to {1},{0} – {1}
+readings,olvasmányok
+colors,színek
+the year at a glance,az év egy pillantásra
+feasts and major days,ünnepek és főünnepek
+feasts,ünnepek
+"{0}, {1} {2}, {3}","{3}. {1} {2}., {0}"
+Monday,hétfő
+Tuesday,kedd
+Wednesday,szerda
+Thursday,csütörtök
+Friday,péntek
+Saturday,szombat
+Sunday,vasárnap
+January,január
+February,február
+March,március
+April,április
+May,május
+June,június
+July,július
+August,augusztus
+September,szeptember
+October,október
+November,november
+December,december
+Made by {0} from the church year calendar's data.,Készítette a(z) {0} az egyházi év naptárának adataiból.
+Each reading opens at {0} in the {1}; each heading opens its set's readings together at Bible Gateway (its propers apart).,"Minden olvasmány a(z) {0} oldalon nyílik meg, a(z) {1} fordításban; minden cím a sorozat olvasmányait együtt nyitja meg a Bible Gateway oldalon (a propriumot külön)."
+"Each color is the day's own, the top of its cell on the wheel; the others the church allows follow in parentheses, and the lower half's is given where the wheel splits the cell.","Minden szín a nap saját színe, a cellája felső része a keréken; az egyház által megengedett többi szín zárójelben következik, és az alsó fél színe ott áll, ahol a kerék megosztja a cellát."
+"Each color is the day's own, the top of its cell on the wheel.","Minden szín a nap saját színe, a cellája felső része a keréken."
+Date,Dátum
+Feast,Ünnep
+Level,Fokozat
+Liturgical color: {0},Liturgikus szín: {0}
+; lower half {0},; alsó fél: {0}
+transferred from {0} {1},áthelyezve innen: {0} {1}.
+Principal feasts only: those whose color replaces the season's.,"Csak főünnepek: azok, amelyeknek a színe felváltja az időszakét."
+Festivals: the feasts that color their day or its lower half.,"Főünnepek és ünnepek: azok az ünnepek, amelyek a napjukat vagy annak alsó felét színezik."
+"With the major days: the principal days set on dates of their own, Christmas, Easter, Pentecost and the like; a blank color is the season's.","A főünnepekkel: a főünnepek saját dátumukon, karácsony, húsvét, pünkösd és hasonlók; az üres szín az időszaké."
+principal,főünnep
+festival,ünnep
+commemoration,emléknap
+major day,főünnep
+read by {0} churches: a change here changes them all,{0} egyház olvassa: egy itteni módosítás mindegyiket módosítja
+a run of days: the change is the whole run’s,napok sora: a módosítás az egész sorra vonatkozik

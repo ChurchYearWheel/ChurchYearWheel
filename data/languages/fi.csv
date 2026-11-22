@@ -21,6 +21,20 @@ color_violet,violetti
 color_white,valkoinen
 color_none,ei väriä
 or,tai
+"# reading_...: the page's words for its kinds of reading, by their English names (reading_Readings heads the list)."
+reading_Readings,Raamatunluvut
+reading_Old Testament,Vanha testamentti
+reading_Psalm,Psalmi
+reading_Epistle,Epistola
+reading_Gospel,Evankeliumi
+reading_First Reading,Ensimmäinen lukukappale
+reading_Second Reading,Toinen lukukappale
+reading_Reading,Lukukappale
+reading_Sermon Text,Saarnateksti
+reading_Story Text,Kertomus
+reading_Prophecy,Profetia
+reading_Procession,Kulkue
+reading_New Testament,Uusi testamentti
 GEN,1. Mooseksen kirja
 EXO,2. Mooseksen kirja
 LEV,3. Mooseksen kirja

@@ -4,6 +4,26 @@
 
 ### Added
 
+- **The page in the reader's language.** Its buttons, menus, settings and
+  their notes come in 18 languages besides English (`data/ui/<code>.csv`):
+  the browser's first language the page has, unless Settings > Language
+  chooses another or *Match the church* (the church's language, changing
+  with the church). The calendar's own names, dates and readings stay in the
+  church's language; an English calendar's dates follow the page's language.
+  Make a page, Edit the data and the Download window are translated too, and
+  the lists it downloads as HTML, Markdown and iCalendar take the page's
+  language for their headings, notes, column names and dates (CSV and JSON
+  keep their English field names; in English every list is still the
+  scripts' own). Make a page has a Language choice (`--language`,
+  `page_language` in config.csv): the browser's, the church's or one
+  language, until the reader picks another. The User Guide is still English.
+  The keys (T, F, W ...) are the same in every language.
+- **Readings in the church's language.** The page's readings say
+  "Readings", each kind ("Epistle", "Gospel", Hungary's "Prophecy" ...) and
+  the "or" between choices in the church's language ("Čítania: Žalm 110
+  alebo Žalm 47 · Epištola ..."; `reading_...` in `data/languages/`).
+  Verses after a chapter in parentheses now take the church's mark too
+  ("Lukas 11,(1–4) 5–13").
 - **Months, dates and Bible books in each church's language.** A church's
   `language` (tradition.csv; files in `data/languages/`) puts the wheel's
   month ring and dates in it ("29 de noviembre de 2026", "2026. november

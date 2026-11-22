@@ -385,6 +385,8 @@ off unless asked for: each name it tries and does not find is a "file not
 found" in the browser's console, and a page that is not looking asks for no
 files at all. `--no-local-art` turns it off over `config.csv`.
 
+`--language CODE` (or `page_language`) sets the language of the page's buttons, menus and settings until the reader chooses another under Settings > Language: `auto` (the reader's browser, the default), `church` (each church's own language), `en`, or a language in `data/ui`.
+
 `--zoom N` (or `page_zoom` in `config.csv`) makes the page open magnified,
 1 (the whole wheel, the default) to 6, centered on the day it opens on. A
 link's own `zoom=` wins, the `0` key and Reset zoom still show the whole

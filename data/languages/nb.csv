@@ -21,6 +21,20 @@ color_violet,fiolett
 color_white,hvitt
 color_none,ingen farge
 or,eller
+"# reading_...: the page's words for its kinds of reading, by their English names (reading_Readings heads the list)."
+reading_Readings,Tekster
+reading_Old Testament,Gammeltestamentlig tekst
+reading_Psalm,Salme
+reading_Epistle,Epistel
+reading_Gospel,Evangelium
+reading_First Reading,Første lesning
+reading_Second Reading,Andre lesning
+reading_Reading,Lesning
+reading_Sermon Text,Prekentekst
+reading_Story Text,Fortellingstekst
+reading_Prophecy,Profeti
+reading_Procession,Prosesjon
+reading_New Testament,Det nye testamente
 GEN,1 Mosebok
 EXO,2 Mosebok
 LEV,3 Mosebok

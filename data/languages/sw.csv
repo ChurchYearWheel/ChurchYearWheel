@@ -20,3 +20,17 @@ color_violet,zambarau
 color_white,nyeupe
 color_none,bila rangi
 or,au
+"# reading_...: the page's words for its kinds of reading, by their English names (reading_Readings heads the list)."
+reading_Readings,Masomo
+reading_Old Testament,Agano la Kale
+reading_Psalm,Zaburi
+reading_Epistle,Waraka
+reading_Gospel,Injili
+reading_First Reading,Somo la Kwanza
+reading_Second Reading,Somo la Pili
+reading_Reading,Somo
+reading_Sermon Text,Neno la Mahubiri
+reading_Story Text,Hadithi
+reading_Prophecy,Unabii
+reading_Procession,Maandamano
+reading_New Testament,Agano Jipya

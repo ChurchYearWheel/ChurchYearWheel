@@ -14,6 +14,7 @@
 | `year_feasts.csv` | the year's commemorations, dated, with each one's level, rank and icons (written by `new_year.py`) |
 | `month_overrides.csv` | optional nudges for individual month labels |
 | `month_names.csv` | month number → printed name (English) |
+| `ui/` | the page's own words (buttons, menus, settings and their notes) in other languages: `english,translation` rows, one file a language (`de.csv`); what a file leaves out stays English |
 | `languages/` | each church language's month names, date patterns and Bible book names (below) |
 | `rings.csv` | the concentric rings and their geometry |
 | `text_styles.csv` | the named text appearances used in the day cells |
@@ -44,6 +45,7 @@ church names with the `language` setting in its `tradition.csv`. Rows are
 | `chapter_verse` | what the page writes between chapter and verse: `:` or `,` (with `,`, verses are listed with `.`: *Römer 13,11.12*) |
 | `GEN`, `EXO`, ... | the Bible books' names, by USFM code, as the page shows them in a citation |
 | `color_purple`, `color_white`, ... `color_none`, `or` | the page header's words for the day's color and its alternatives ("morado (o azul)"), by the color's name in lower case, spaces as `_`; `color_none` stands for "no color", `or` between a color and its alternatives |
+| `reading_Readings`, `reading_Gospel`, ... | the page's words for its readings, by their English names: `reading_Readings` heads the list, the others name a kind of reading (`reading_Old Testament`, `reading_First Reading`, `reading_Prophecy` ...). A church's own `reading_labels` (in English) are put into its language the same way; `or` also stands between a reading's choices ("Lukáš 2,15–20 alebo Matúš 23,34–39") |
 
 The words follow the churches' own documents where one was found: the Church of
 Sweden's *vitt, grönt, rött*, the Church of Norway's 2010 color rule (*hvitt,
@@ -283,6 +285,7 @@ fail silently.
 | `page_arrows_next_year` | FALSE | Whether the web page's arrow keys go on into the next church year (and back into the last) at the year's end; `FALSE`, they go round the year on the wheel. The page's Settings has a box for it (`--arrows-next-year`, `--arrows-same-year`) |
 | `page_local_art` | FALSE | Whether the web page looks for a picture beside it (`center.svg`, or `.png`, `.jpg`, `.jpeg`, `.webp`, `.gif`) to offer in the middle; off, it asks for no files beside it, so the browser logs none missing (`--local-art`) |
 | `page_edit` | TRUE | Whether the web page offers **Edit the data…** (changes to its titles, colors and readings, kept in the browser, and the changed files to download); see docs/web-page.md |
+| `page_language` | auto | The language of the web page's buttons, menus and settings until the reader chooses another: `auto` (the reader's browser), `church` (each church's own), `en`, or a language in `data/ui` (`de`, `es` ...) (`--language`) |
 | `page_zoom` | 1 | The magnification the web page opens at, 1 (the whole wheel) to 6, centered on the day it opens on; a link's `zoom=` wins; see docs/web-page.md |
 | `page_show` | (none) | Settings the web page leaves out unless named here: `calendar`, `easter`; see docs/web-page.md |
 | `icon_size` | 9 | Height of a day's icons, in user units |

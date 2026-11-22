@@ -21,6 +21,20 @@ color_violet,fialová
 color_white,biela
 color_none,bez farby
 or,alebo
+"# reading_...: the page's words for its kinds of reading, by their English names (reading_Readings heads the list)."
+reading_Readings,Čítania
+reading_Old Testament,Starý zákon
+reading_Psalm,Žalm
+reading_Epistle,Epištola
+reading_Gospel,Evanjelium
+reading_First Reading,Prvé čítanie
+reading_Second Reading,Druhé čítanie
+reading_Reading,Čítanie
+reading_Sermon Text,Kázňový text
+reading_Story Text,Príbeh
+reading_Prophecy,Proroctvo
+reading_Procession,Procesia
+reading_New Testament,Nový zákon
 GEN,1. Mojžišova
 EXO,2. Mojžišova
 LEV,3. Mojžišova

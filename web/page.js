@@ -60,6 +60,125 @@ async function packTables(text) {
 
 function start(DATA) {
 
+// ---- The page's own language ------------------------------------------------
+// The buttons, menus and settings are in the reader's language: the browser's
+// first one the page has words for (data/ui/<code>.csv), English otherwise,
+// unless Settings > Language chooses another or the church's.  The calendar
+// itself (its names, dates and readings) stays in the church's language.
+// Text the page writes goes through T; the page's fixed words are swapped
+// where they stand, as they appear (uiWalk), and put back for English.
+const UI_KEY = 'cy-ui-language';
+const UI_LANGS = Object.keys(DATA.ui || {});
+let UI = {};
+let uiCode = 'en';
+/** English words in the page's language; {0}, {1} ... take the values given. */
+function T(s) {
+  let t = UI[s] || s;
+  for (let i = 1; i < arguments.length; i++) t = t.split('{' + (i - 1) + '}').join(arguments[i]);
+  return t;
+}
+/** The browser's first language the page has words for ('en' for none). */
+function browserUiLanguage() {
+  const list = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || 'en'];
+  for (const l of list) {
+    const c = String(l || '').toLowerCase();
+    const base = c.split('-')[0];
+    if (base === 'en') return 'en';
+    if (UI_LANGS.indexOf(c) >= 0) return c;
+    if (UI_LANGS.indexOf(base) >= 0) return base;
+    if ((base === 'no' || base === 'nn') && UI_LANGS.indexOf('nb') >= 0) return 'nb';
+  }
+  return 'en';
+}
+/** The reader's choice, else the page's own (--language), else the browser's. */
+function uiChoice() {
+  try { const c = localStorage.getItem(UI_KEY); if (c) return c; } catch (err) { /* the page's own */ }
+  return DATA.uiLanguage || 'auto';
+}
+/** The choices of language, as Settings and Make a page offer them. */
+function uiOptions() {
+  const name = c => c === 'en' ? 'English' : ((DATA.languages || {})[c] || {}).name || c;
+  return [['auto', T('Browser ({0})', name(browserUiLanguage()))], ['church', T('Match the church')], ['en', 'English']]
+    .concat(UI_LANGS.map(c => [c, name(c)]).sort((x, y) => x[1].localeCompare(y[1])));
+}
+/** The language the page's words are in now, from the choice (and the church's language). */
+function uiResolve() {
+  const c = uiChoice();
+  if (c === 'church') {
+    let p;
+    try { p = DATA.profiles[currentTradition()]; } catch (err) { return 'en'; }   // the menus not made yet
+    const code = String(p && p.settings && p.settings.language || 'en').toLowerCase();
+    return UI_LANGS.indexOf(code) >= 0 ? code : 'en';
+  }
+  if (c === 'auto') return browserUiLanguage();
+  return c === 'en' || UI_LANGS.indexOf(c) >= 0 ? c : 'en';
+}
+// Not the page's words: the wheel, the day's names and readings, and the
+// names of churches, Bibles and hymnals.
+const UI_SKIP = 'svg, #readings, #what, #when, #headChurch, #findList, #weekList, #weekHead, #note, #timing, '
+  + '#credit, #church, #tradition, #bibleVersion, #book, #series, #hymnal, #pageCmd, #pageCmdIn, '
+  + '#editDialog .settitle, #editDialog .kind, #editDialog .card .text, #pageTree .name, #pageChurch';
+const UI_ATTRS = ['title', 'placeholder', 'aria-label'];
+const uiOrig = new WeakMap();   // node -> { en, shown } (text) or { attr: { en, shown } } (element)
+function uiSwap(en) {
+  const m = /^(\s*)([\s\S]*?)(\s*)$/.exec(en);
+  const t = UI[m[2].replace(/\s+/g, ' ')];
+  return t ? m[1] + t + m[3] : en;
+}
+function uiText(n) {
+  const cur = n.nodeValue;
+  let o = uiOrig.get(n);
+  if (!o || o.shown !== cur) { o = { en: cur, shown: cur }; uiOrig.set(n, o); }
+  const want = uiSwap(o.en);
+  if (want !== cur) { o.shown = want; n.nodeValue = want; }
+}
+function uiAttrs(el) {
+  let o = uiOrig.get(el);
+  for (const a of UI_ATTRS) {
+    const cur = el.getAttribute(a);
+    if (cur === null) continue;
+    if (!o) { o = {}; uiOrig.set(el, o); }
+    if (!o[a] || o[a].shown !== cur) o[a] = { en: cur, shown: cur };
+    const want = uiSwap(o[a].en);
+    if (want !== cur) { o[a].shown = want; el.setAttribute(a, want); }
+  }
+}
+function uiWalk(root) {
+  if (root.nodeType === 3) {
+    if (root.parentElement && !root.parentElement.closest(UI_SKIP)) uiText(root);
+    return;
+  }
+  if (root.nodeType !== 1 || (root.parentElement && root.parentElement.closest(UI_SKIP))) return;
+  // A skipped part's own title and label are the page's words; what it holds is not.
+  uiAttrs(root);
+  if (root.matches(UI_SKIP)) return;
+  const w = document.createTreeWalker(root, NodeFilter.SHOW_ELEMENT | NodeFilter.SHOW_TEXT, {
+    acceptNode: n => {
+      if (n.nodeType === 1 && n.matches(UI_SKIP)) { uiAttrs(n); return NodeFilter.FILTER_REJECT; }
+      return NodeFilter.FILTER_ACCEPT;
+    } });
+  let n;
+  while ((n = w.nextNode())) { if (n.nodeType === 3) uiText(n); else uiAttrs(n); }
+}
+/** Put the page's words in its language now (and English back for English). */
+function uiApply() {
+  const code = uiResolve();
+  if (code === uiCode && Object.keys(UI).length === Object.keys((DATA.ui || {})[code] || {}).length) return false;
+  uiCode = code;
+  UI = code === 'en' ? {} : (DATA.ui[code] || {});
+  app.setAttribute('data-ui-language', code);
+  uiWalk(app);
+  return true;
+}
+new MutationObserver(list => {
+  for (const m of list) {
+    if (m.type === 'characterData') uiWalk(m.target);
+    else if (m.type === 'attributes') { if (!(m.target.parentElement && m.target.parentElement.closest(UI_SKIP))) uiAttrs(m.target); }
+    else m.addedNodes.forEach(uiWalk);
+  }
+}).observe(app, { subtree: true, childList: true, characterData: true, attributes: true, attributeFilter: UI_ATTRS });
+uiApply();
+
 // ---- Edits to the page's tables ---------------------------------------------
 // Edit the data... changes the rows of the tables the page draws from, each
 // table the rows of one file under data/ (export_data.py: csv_layouts).  The
@@ -658,6 +777,11 @@ function setTradition(key) {
  * None first.  Only a tradition that has them shows them.
  */
 let subFolder = null;
+/** Settings: Propers, and the kinds of reading it puts on their own line. */
+function propersLabel() {
+  const parts = propersOf(currentTradition());
+  $('propersName').textContent = T('Propers') + (parts.length ? ' (' + parts.map(k => kindLabel(currentTradition(), k)).join(', ') + ')' : '');
+}
 function buildSubMenus() {
   const t = traditionOf(currentTradition());
   latinRow.hidden = !/^(true|1|yes|y|on)$/i.test(
@@ -671,7 +795,7 @@ function buildSubMenus() {
   // The parts of the service a church lists with its readings: the box names them.
   const parts = propersOf(currentTradition());
   propersRow.hidden = !hasReadings() || !parts.length;
-  $('propersName').textContent = 'Propers' + (parts.length ? ' (' + parts.map(k => kindLabel(currentTradition(), k)).join(', ') + ')' : '');
+  propersLabel();
   // A church with several hymnals: the Hymnal menu, keeping the one chosen.
   const hymnals = hymnalsOf(currentTradition());
   const keep = hymnalBox.value;
@@ -919,7 +1043,7 @@ function drawYear(adventYear, iso) {
     bandHeight = (G.rOuter - G.rInner) / G.bands;
     const name = traditionOf(tradition).label;
     // Two lines: the year, and under it the church, which can be long.
-    headYear.textContent = 'Church Year ' + built.label;
+    headYear.textContent = T('Church Year {0}', built.label);
     headChurch.textContent = name;
     headChurch.title = name;
     pageTitle = 'Church Year ' + built.label + ' \u00b7 ' + name;
@@ -996,7 +1120,9 @@ function utcOn(y, m, d) {
  * English (tradition.csv `language`), else the reader's.
  */
 function dateLocale() {
-  const code = String(CY.traditionSettings(DATA, traditionOf(currentTradition())).language || 'en').trim();
+  let code = String(CY.traditionSettings(DATA, traditionOf(currentTradition())).language || 'en').trim();
+  // An English calendar's dates are in the page's language (the browser's own way for English).
+  if (!code || code === 'en') code = uiCode;
   if (!code || code === 'en') return undefined;
   try { return Intl.DateTimeFormat.supportedLocalesOf([code]).length ? code : undefined; } catch (e) { return undefined; }
 }
@@ -1111,7 +1237,7 @@ function choose(iso, turn) {
     a.target = '_blank';
     a.rel = 'noopener';
     a.textContent = f;
-    a.title = 'Read about ' + f;
+    a.title = T('Read about {0}', f);
     parts.push(a);
   });
   const signs = (info.i || []).map(k => DATA.icons[k].label);
@@ -1130,11 +1256,11 @@ function choose(iso, turn) {
       // A section of the hymnal's contents: its hymns, listed here.
       const nums = hymnNumbers(x.n);
       a.href = hymnaryHymnUrl(x.h, nums[0]);
-      a.title = x.t + ' (' + nums.length + ' hymns) in ' + book;
+      a.title = T('{0} ({1} hymns) in {2}', x.t, nums.length, book);
       a.onclick = ev => { ev.preventDefault(); showHymnList(x, book); };
     } else {
       a.href = hymnaryTopicUrl(x.h, x.t, x.s);
-      a.title = 'Hymns on ' + x.t + (x.s ? ', ' + x.s : '') + ' in ' + book + ' at Hymnary.org';
+      a.title = T('Hymns on {0} in {1} at Hymnary.org', x.t + (x.s ? ', ' + x.s : ''), book);
     }
     a.setAttribute('aria-label', a.title);
     a.innerHTML = HYMN_ICON;
@@ -1152,7 +1278,7 @@ function choose(iso, turn) {
   // browser's own local date, and when a machine's time zone is not the one on
   // the clock in front of you -- a remote session, or a browser set to report
   // UTC -- the two disagree silently.  Naming it makes that visible.
-  nowBtn.title = 'Jump to today (T) \u2014 ' + pretty(isoToday());
+  nowBtn.title = T('Jump to today (T) \u2014 {0}', pretty(isoToday()));
   syncLink();
 }
 
@@ -2228,13 +2354,15 @@ function citeLanguage() {
 function localCite(text) {
   const lang = citeLanguage();
   if (!Object.keys(lang.books).length) return text;
-  let out = String(text).replace(ENGLISH_BOOK, (m, before, name) => before + (lang.books[USFM[name]] || name));
+  // "A or B": the church's word between the choices.
+  let out = String(text).replace(/ or (?=$|[1-4]? ?[A-Z\d(])/g, ' ' + lang.orWord + ' ');
+  out = out.replace(ENGLISH_BOOK, (m, before, name) => before + (lang.books[USFM[name]] || name));
   const cv = lang.chapterVerse;
   if (cv !== ':') {
     out = out.split(';').map(part => {
       const at = part.indexOf(':');
       if (at < 0) return part;
-      const turned = part.replace(/(\d):(?=\d)/g, '$1' + cv);
+      const turned = part.replace(/(\d):(?=\(?\d)/g, '$1' + cv);
       return turned.slice(0, at + 1) + turned.slice(at + 1).replace(/(\d[a-c]?), (?=\d|[a-c](?![A-Za-z]))/g, '$1.');
     }).join(';');
   }
@@ -2472,6 +2600,10 @@ function readingsParam() {
 function propersOf(key) {
   return String((((DATA.profiles[key] || {}).settings || {}).reading_propers) || '').replace(/,/g, ' ').split(/\s+/).filter(Boolean);
 }
+/** A reading's kind, or "Readings", in the church's language (data/languages: reading_...). */
+function readingWord(english) {
+  return citeLanguage().readings[english] || english;
+}
 /** What the page calls a kind of reading for a church (reading_labels, else its own name). */
 function kindLabel(key, kind) {
   for (const part of String(((DATA.profiles[key] || {}).settings || {}).reading_labels || '').split(';')) {
@@ -2519,12 +2651,12 @@ function readingLinesFor(iso) {
       head.href = together;
       head.target = '_blank';
       head.rel = 'noopener';
-      head.title = 'Open all these readings together at Bible Gateway';
+      head.title = T('Open all these readings together at Bible Gateway');
     }
     // The first set, when it is the day named above, is just "Readings"; any
     // other set says whose it is.
     const plain = !g.title || (appointed.indexOf(g) === 0 && names.indexOf(g.title) >= 0);
-    head.textContent = plain ? 'Readings' : g.title;
+    head.textContent = plain ? readingWord('Readings') : g.title;
     line.dataset.cat = g.category;
     line.dataset.tab = TAB_NAMES[g.category] || head.textContent;
     line.append(head, ': ');
@@ -2544,7 +2676,7 @@ function readingLinesFor(iso) {
       if (localCite(it.reading).indexOf(text + ' ') !== 0 && it.reading.indexOf(text + ' ') !== 0) {
         const label = document.createElement('span');
         label.className = 'kind';
-        label.textContent = text + ' ';
+        label.textContent = readingWord(text) + ' ';
         item.append(label);
       }
       item.append(...readingLinks(it.reading, it.cite));
@@ -2563,7 +2695,7 @@ function readingLinesFor(iso) {
         a.target = '_blank';
         a.rel = 'noopener';
         const hymnal = (chosenHymnal(currentTradition()) || {}).name;
-        a.title = 'Hymns for these ' + what + ' in ' + (hymnal || 'the church\'s hymnal') + ' at Hymnary.org';
+        a.title = T('Hymns for these ' + what + ' in {0} at Hymnary.org', hymnal || T('the church\'s hymnal'));
         a.setAttribute('aria-label', a.title);
         a.innerHTML = HYMN_ICON;
         into.append(' ', a);
@@ -2575,7 +2707,7 @@ function readingLinesFor(iso) {
         a.href = songs;
         a.target = '_blank';
         a.rel = 'noopener';
-        a.title = 'Contemporary worship songs for these ' + what + ' at Word to Worship';
+        a.title = T('Contemporary worship songs for these ' + what + ' at Word to Worship');
         a.setAttribute('aria-label', a.title);
         a.innerHTML = W2W_ICON;
         into.append(' ', a);
@@ -2588,8 +2720,8 @@ function readingLinesFor(iso) {
       const url = bibleLinks ? groupUrl(parts.map(it => it.cite || it.reading), bibleBox.value || bibleDefault(), numbering) : '';
       const h = document.createElement(url ? 'a' : 'span');
       h.className = 'set';
-      if (url) { h.href = url; h.target = '_blank'; h.rel = 'noopener'; h.title = 'Open these propers together at Bible Gateway'; }
-      h.textContent = 'Propers';
+      if (url) { h.href = url; h.target = '_blank'; h.rel = 'noopener'; h.title = T('Open these propers together at Bible Gateway'); }
+      h.textContent = readingWord('Propers');
       block.append(h, ': ');
       listItems(block, parts);
       marks(block, parts.map(it => it.cite || it.reading), 'propers');
@@ -2664,8 +2796,8 @@ function layTabs() {
   if (right.scrollHeight > right.clientHeight + 2) {
     if (readingsOpen) readingsBox.classList.add('open');
     markMore(right);
-    readingsMore.textContent = readingsOpen ? '\u25b4 less' : '\u25be more';
-    readingsMore.title = readingsOpen ? 'Show two lines again' : 'Show all of this set\u2019s readings';
+    readingsMore.textContent = readingsOpen ? T('\u25b4 less') : T('\u25be more');
+    readingsMore.title = readingsOpen ? T('Show two lines again') : T('Show all of this set\u2019s readings');
     readingsBox.append(readingsMore);
   }
 }
@@ -2699,8 +2831,8 @@ function layReadings() {
   const hidden = hiddenSets(right);
   if (!hidden) { slideSets(before); return; }
   if (!readingsOpen) {
-    readingsMore.textContent = '\u25be ' + hidden + ' more';
-    readingsMore.title = 'Show all the day\u2019s readings';
+    readingsMore.textContent = T('\u25be {0} more', hidden);
+    readingsMore.title = T('Show all the day\u2019s readings');
     readingsBox.append(readingsMore);
     slideSets(before);
     return;
@@ -2720,8 +2852,8 @@ function layReadings() {
     right.replaceChildren(...lines.slice(best));
   }
   for (const col of [left, right]) { col.scrollTop = 0; markMore(col); }
-  readingsMore.textContent = '\u25b4 less';
-  readingsMore.title = 'Show the readings in three lines again';
+  readingsMore.textContent = T('\u25b4 less');
+  readingsMore.title = T('Show the readings in three lines again');
   readingsBox.append(readingsMore);
   slideSets(before);
 }
@@ -3135,7 +3267,7 @@ function findShow() {
   if (!findHits.length) {
     const li = document.createElement('li');
     li.className = 'none';
-    li.textContent = 'No day of ' + headYear.textContent + ' by that name';
+    li.textContent = T('No day of {0} by that name', headYear.textContent);
     findList.replaceChildren(li);
   } else {
     findList.replaceChildren(...findHits.map((n, i) => {
@@ -3217,7 +3349,7 @@ function showWeek(from) {
     const go = document.createElement('button');
     go.type = 'button';
     go.textContent = shortDate(iso);
-    go.title = 'Choose ' + pretty(iso) + ' on the wheel';
+    go.title = T('Choose {0} on the wheel', pretty(iso));
     go.addEventListener('click', () => {
       pushNext = iso !== chosen;
       choose(iso);
@@ -3247,7 +3379,7 @@ function showWeek(from) {
     } else {
       const sea = document.createElement('span');
       sea.className = 'season';
-      sea.textContent = 'In another church year: choose the day to draw it.';
+      sea.textContent = T('In another church year: choose the day to draw it.');
       head.append(sea);
       li.append(head);
     }
@@ -3310,6 +3442,36 @@ $('weekNext').addEventListener('click', () => showWeek(weekFrom + 7));
 buildTraditionMenu();
 buildArtMenu();
 applyDefaults();
+
+// Settings > Language: the browser's (the default), the church's, or one chosen.
+const uiBox = $('uiLanguage');
+function buildUiMenu() {
+  const opts = uiOptions();
+  const pageUi = $('pageUiLang'), keepPage = pageUi.value;
+  pageUi.replaceChildren(...opts.map(([v, t]) => { const o = document.createElement('option'); o.value = v; o.textContent = t; return o; }));
+  pageUi.value = keepPage || DATA.uiLanguage || 'auto';
+  uiBox.replaceChildren(...opts.map(([v, t]) => { const o = document.createElement('option'); o.value = v; o.textContent = t; return o; }));
+  uiBox.value = uiChoice();
+  if (uiBox.selectedIndex < 0) uiBox.value = 'auto';
+}
+/** The page's words in the language now chosen, the text the page wrote included. */
+function uiRefresh() {
+  if (!uiApply()) return;
+  buildUiMenu();
+  propersLabel();
+  drawn = null;
+  drawYear(parseInt(yearBox.value, 10), chosen);
+}
+uiBox.addEventListener('change', () => {
+  try { localStorage.setItem(UI_KEY, uiBox.value); } catch (err) { /* this visit only */ }
+  uiRefresh();
+});
+// Match the church: a new church may bring a new language, once the menus'
+// own handlers have made it the church on the wheel.
+app.addEventListener('change', e => { if (e.target !== uiBox && uiChoice() === 'church') uiRefresh(); });
+addEventListener('hashchange', () => { if (uiChoice() === 'church') uiRefresh(); });
+uiApply();
+buildUiMenu();
 
 box.min = PICKABLE_FIRST;
 box.max = PICKABLE_LAST;
@@ -3572,7 +3734,7 @@ async function copyText(text) {
 
 /** Say on a button whether its copy worked, then put its name back. */
 function copied(btn, ok, label) {
-  btn.textContent = ok ? 'Copied' : 'Copy failed';
+  btn.textContent = ok ? T('Copied') : T('Copy failed');
   setTimeout(() => { btn.textContent = label; }, 1600);
 }
 
@@ -3663,16 +3825,16 @@ const filesYears = $('filesYears');
 function filesYearsNote() {
   const a = Math.round(+filesFrom.value), b = Math.round(+filesTo.value);
   const n = b - a + 1;
-  filesYears.textContent = !(n > 0) ? 'The last year is before the first.'
-    : n > MAX_FILE_YEARS ? 'At most ' + MAX_FILE_YEARS + ' years at a time.'
-    : n === 1 ? 'The church year ' + CY.spanName(a, a + 1) + '.'
-    : n + ' church years, ' + CY.spanName(a, a + 1) + ' to ' + CY.spanName(b, b + 1) + '.';
+  filesYears.textContent = !(n > 0) ? T('The last year is before the first.')
+    : n > MAX_FILE_YEARS ? T('At most {0} years at a time.', MAX_FILE_YEARS)
+    : n === 1 ? T('The church year {0}.', CY.spanName(a, a + 1))
+    : T('{0} church years, {1} to {2}.', n, CY.spanName(a, a + 1), CY.spanName(b, b + 1));
   // A long run of PNGs is large: about 4.8 MB each at 5,000 pixels, growing with the area.
   if (n > 1 && n <= MAX_FILE_YEARS && filesPng.checked) {
     const w = Math.max(500, Math.min(16000, Math.round(+filesWidth.value) || 5000));
     const mb = n * (4.8 * (w / 5000) * (w / 5000) + (filesSvg.checked ? 0.26 : 0));
-    if (mb >= 50) filesYears.textContent += ' The PNGs make this about ' + (mb >= 1000 ? (mb / 1024).toFixed(1) + ' GB' : Math.round(mb / 10) * 10 + ' MB')
-      + ' and take a while; a narrower PNG makes it smaller.';
+    if (mb >= 50) filesYears.textContent += ' ' + T('The PNGs make this about {0} and take a while; a narrower PNG makes it smaller.',
+      mb >= 1000 ? (mb / 1024).toFixed(1) + ' GB' : Math.round(mb / 10) * 10 + ' MB');
   }
 }
 
@@ -3804,9 +3966,9 @@ filesMake.addEventListener('click', async () => {
   const width = Math.max(500, Math.min(16000, Math.round(+filesWidth.value) || 5000));
   if (!(to >= from) || to - from + 1 > MAX_FILE_YEARS || from < FIRST_YEAR || to > LAST_YEAR) { filesYearsNote(); return; }
   const lists = [listReadings, listColors, listFeasts, listOverview].filter(b => b.checked && !b.closest('[hidden]'));
-  if (!filesSvg.checked && !filesPng.checked && !lists.length) { filesStatus.textContent = 'Choose the wheel, a list, or both.'; return; }
+  if (!filesSvg.checked && !filesPng.checked && !lists.length) { filesStatus.textContent = T('Choose the wheel, a list, or both.'); return; }
   if (listFeasts.checked && feastBox.value === 'none' && !listMajor.checked) {
-    filesStatus.textContent = 'The Feasts setting is None: choose another, or “with major days”, for a feasts list.'; return;
+    filesStatus.textContent = T('The Feasts setting is None: choose another, or “with major days”, for a feasts list.'); return;
   }
   filesMake.disabled = true;
   const key = currentTradition();
@@ -3814,7 +3976,7 @@ filesMake.addEventListener('click', async () => {
   try {
     const artData = artBox.value === 'local' ? await localArtData() : '';
     for (let y = from; y <= to && (filesSvg.checked || filesPng.checked); y++) {
-      filesStatus.textContent = 'Drawing ' + yearLabel(y) + '…';
+      filesStatus.textContent = T('Drawing {0}…', yearLabel(y));
       await new Promise(r => setTimeout(r));          // let the note show
       const svg = wheelSvg(y, artData);
       const base = key + '_' + yearLabel(y) + '_calendar';
@@ -3823,13 +3985,14 @@ filesMake.addEventListener('click', async () => {
     }
     // The lists, each over the whole run of years, as the scripts write them.
     const fmt = listFormat.value;
+    LISTS.setWords(s => T(s), uiCode);
     const o = { tradition: key, first: from, last: to, subcalendars: chosenSubs(), latinNames: latinBox.checked,
                 calendar: chosenCalendar(), paschalion: chosenPaschalion(), feastDetail: feastBox.value };
     const type = { csv: 'text/csv', html: 'text/html', ics: 'text/calendar', json: 'application/json', md: 'text/markdown' }[fmt];
     const add = (made, t) => files.push({ name: made.name, blob: new Blob([made.text], { type: (t || type) + ';charset=utf-8' }) });
     for (const box of lists) {
-      filesStatus.textContent = 'Listing ' + (box === listReadings ? 'the readings' : box === listColors ? 'the colors'
-        : box === listOverview ? 'the years' : 'the feasts') + '…';
+      filesStatus.textContent = box === listReadings ? T('Listing the readings…') : box === listColors ? T('Listing the colors…')
+        : box === listOverview ? T('Listing the years…') : T('Listing the feasts…');
       await new Promise(r => setTimeout(r));
       if (box === listReadings) {
         add(LISTS.readingsList(DATA, Object.assign({}, o, { kinds: readingsOn(), propers: propersBox.checked,
@@ -3847,10 +4010,10 @@ filesMake.addEventListener('click', async () => {
     }
     if (files.length === 1) saveBlob(files[0].blob, files[0].name);
     else saveBlob(await makeZip(files), key + '_' + (from === to ? yearLabel(from) : yearLabel(from) + '_to_' + yearLabel(to)) + '_files.zip');
-    filesStatus.textContent = (files.length === 1 ? 'Saved ' + files[0].name : 'Saved ' + files.length + ' files in a .zip')
-      + (artBox.value === 'local' && !artData ? '. Your own picture could not be read from here and is left out.' : '.');
+    filesStatus.textContent = (files.length === 1 ? T('Saved {0}.', files[0].name) : T('Saved {0} files in a .zip.', files.length))
+      + (artBox.value === 'local' && !artData ? ' ' + T('Your own picture could not be read from here and is left out.') : '');
   } catch (e) {
-    filesStatus.textContent = 'Could not make the files: ' + (e && e.message || e);
+    filesStatus.textContent = T('Could not make the files: {0}', e && e.message || e);
   } finally {
     filesMake.disabled = false;
   }
@@ -4027,7 +4190,7 @@ function buildChurchTree() {
     tb.setAttribute('aria-label', 'Every ' + trad + ' church');
     const name = document.createElement('span'); name.className = 'name'; name.textContent = trad;
     const n = document.createElement('span'); n.className = 'n';
-    s.title = 'Show or hide the ' + trad + ' churches';
+    s.title = T('Show or hide the {0} churches', trad);
     s.append(tw, tb, name, n); d.append(s);
     const churches = tree.get(trad);
     for (const church of [...churches.keys()].sort(byLabel)) {
@@ -4068,10 +4231,10 @@ function churchesChanged() {
   }
   for (const d of pageTree.querySelectorAll('details.trad')) {
     const leaves = Array.from(d.querySelectorAll('label.leaf input')), n = leaves.filter(b => b.checked).length;
-    d.querySelector('summary .n').textContent = n + ' of ' + leaves.length;
+    d.querySelector('summary .n').textContent = T('{0} of {1}', n, leaves.length);
   }
   const keys = pageKeys();
-  pageCount.textContent = '(' + keys.length + ' of ' + ALL_CHURCHES.length + ')';
+  pageCount.textContent = '(' + T('{0} of {1}', keys.length, ALL_CHURCHES.length) + ')';
   const was = pageChurch.value;
   pageChurch.replaceChildren(...ALL_CHURCHES.filter(t => keys.indexOf(t.key) >= 0)
     .sort((a, b) => byLabel(a.label, b.label)).map(t => new Option(t.label, t.key)));
@@ -4235,8 +4398,8 @@ function artMenu() {
   const mine = ownChurches();
   const none = keys.filter(k => !mine[k] && (artDropped.has(churchArt(k)) || churchArt(k) === 'none'));
   pageArtNone.hidden = !none.length;
-  pageArtNone.textContent = none.length ? 'Left with no picture of their own (add one for them below): '
-    + none.map(k => traditionOf(k).label).join('; ') + '.' : '';
+  pageArtNone.textContent = none.length ? T('Left with no picture of their own (add one for them below): {0}.',
+    none.map(k => traditionOf(k).label).join('; ')) : '';
   artCardsShow();
 }
 /** A picture of your own as the page will carry it: from its file, else as this page already carries it. */
@@ -4300,7 +4463,7 @@ function artCardsShow() {
     if (!a.data && !DATA.artwork[ownKey(a.name)]) {
       const warn = document.createElement('span');
       warn.className = 'warn';
-      warn.textContent = ' — choose this file again with Add a picture (a command names it but cannot carry it)';
+      warn.textContent = ' — ' + T('choose this file again with Add a picture (a command names it but cannot carry it)');
       head.append(warn);
     }
     const remove = document.createElement('button');
@@ -4343,7 +4506,7 @@ function artCardsShow() {
     used.className = 'tree usedby';
     const sum = document.createElement('summary');
     const n = keys.filter(k => a.churches.has(k)).length;
-    sum.textContent = 'The own picture of: ' + (n ? n + (n === 1 ? ' church' : ' churches') : 'no church (the Artwork menu only)');
+    sum.textContent = T('The own picture of: {0}', n ? T(n === 1 ? '{0} church' : '{0} churches', n) : T('no church (the Artwork menu only)'));
     used.append(sum);
     if (a.open) used.open = true;
     used.addEventListener('toggle', () => { a.open = used.open; });
@@ -4465,7 +4628,7 @@ function pageColorsShow() {
   const changed = () => { setPageColorMap(m); pageColorsShow(); pageCommandShow(); };
   const swatch = (fill, who, key, mine) => {
     const b = document.createElement('button'); b.type = 'button'; b.className = 'sw' + (mine ? '' : ' other');
-    b.style.background = fill; b.title = fill + ': ' + who.join(', ') + ' (click to use it)';
+    b.style.background = fill; b.title = fill + ': ' + who.map(w => T(w)).join(', ') + ' ' + T('(click to use it)');
     b.setAttribute('aria-label', fill + ', ' + who.join(', '));
     b.addEventListener('click', () => { m[key] = fill; changed(); });
     return b;
@@ -4483,7 +4646,7 @@ function pageColorsShow() {
     if (others.length) { const sep = document.createElement('span'); sep.className = 'sep'; opts.append(sep); }
     for (const [fill, who] of others) opts.append(swatch(fill, who, key, false));
     const x = document.createElement('button'); x.type = 'button'; x.className = 'undo'; x.textContent = '×';
-    x.title = 'Put ' + label.toLowerCase() + ' back'; x.hidden = !m[key];
+    x.title = T('Put {0} back', uiCode === 'en' ? label.toLowerCase() : T(label)); x.hidden = !m[key];
     x.addEventListener('click', () => { delete m[key]; changed(); });
     r.append(box, name, opts, x); return r;
   };
@@ -4497,12 +4660,12 @@ function pageColorsShow() {
     const n = Object.keys(m).filter(k => k.indexOf(prefix) === 0 && (cls || scopeDepth(k) === 1)).length;
     const tw = document.createElement('span'); tw.className = 'twisty'; tw.setAttribute('aria-hidden', 'true');
     const nm = document.createElement('span'); nm.className = 'name'; nm.textContent = label;
-    const cnt = document.createElement('span'); cnt.className = 'n'; cnt.textContent = n ? n + ' changed' : '';
+    const cnt = document.createElement('span'); cnt.className = 'n'; cnt.textContent = n ? T('{0} changed', n) : '';
     s.append(tw, nm, cnt); d.append(s); return d;
   };
   /** The other shades of a color: whose they are, leaving out the ones already shown as `own`. */
   const othersOf = (c, own, book) => Object.entries(page[c] || {}).filter(([f]) => !(f in book[c]));
-  const rows = [head(mode === 'all' ? 'Every church' : 'Every church (unless changed below)')];
+  const rows = [head(mode === 'all' ? T('Every church') : T('Every church (unless changed below)'))];
   for (const n of byName(all)) {
     const fills = Object.entries(all[n]);
     rows.push(row(n, colorName(n), m[n] || fills[0][0], fills, othersOf(n, fills, all)));
@@ -4536,25 +4699,28 @@ function pageColorsShow() {
   const hidden = Object.keys(m).filter(k => scopeDepth(k) > ({ all: 0, tradition: 1, church: 2 })[mode]).length;
   if (hidden) {
     const p = document.createElement('p'); p.className = 'text';
-    p.textContent = hidden + (hidden === 1 ? ' change' : ' changes') + ' for single ' + (mode === 'all' ? 'traditions or churches' : 'churches')
-      + ' still apply; change them ' + (mode === 'all' ? '“tradition by tradition” or “church by church”' : '“church by church”') + ' to see ' + (hidden === 1 ? 'it' : 'them') + '. ';
+    p.textContent = T(mode === 'all'
+      ? (hidden === 1 ? '{0} change for single traditions or churches still apply; change them “tradition by tradition” or “church by church” to see it.'
+        : '{0} changes for single traditions or churches still apply; change them “tradition by tradition” or “church by church” to see them.')
+      : (hidden === 1 ? '{0} change for single churches still apply; change them “church by church” to see it.'
+        : '{0} changes for single churches still apply; change them “church by church” to see them.'), hidden) + ' ';
     const clear = document.createElement('button'); clear.type = 'button'; clear.textContent = 'Put them back';
     clear.addEventListener('click', () => { for (const k of Object.keys(m)) if (scopeDepth(k) > ({ all: 0, tradition: 1, church: 2 })[mode]) delete m[k]; changed(); });
     p.append(clear); rows.push(p);
   }
-  rows.push(head('Rings and the rest'));
+  rows.push(head(T('Rings and the rest')));
   const empty = hex6(DATA.settings.empty_cell_fill);
   if (empty) rows.push(row('empty', 'Outside the year', m.empty || empty, [[empty, ['every church']]], []));
   const rings = (DATA.rings || []).filter(r => hex6(r.fill)).sort((a, b) => (b.rOuter - a.rOuter) || (b.rInner - a.rInner));
   for (const r of rings) {
     rows.push(row('ring.' + r.key, ringName(r.key), m['ring.' + r.key] || hex6(r.fill), [[hex6(r.fill), ['as drawn']]], []));
     if (r.labelMode && r.labelMode !== 'none' && hex6(r.textColor)) {
-      rows.push(row('text.' + r.key, ringName(r.key) + ' words', m['text.' + r.key] || hex6(r.textColor), [[hex6(r.textColor), ['as drawn']]], []));
+      rows.push(row('text.' + r.key, T('{0} words', T(ringName(r.key))), m['text.' + r.key] || hex6(r.textColor), [[hex6(r.textColor), ['as drawn']]], []));
     }
   }
   pageColorRows.replaceChildren(...rows);
   const total = Object.keys(m).length;
-  pageColorsN.textContent = total ? total + ' changed' : 'as each church has them';
+  pageColorsN.textContent = total ? T('{0} changed', total) : T('as each church has them');
 }
 /** List the colors as finely as the changes already made are. */
 function pageColorModeFit() {
@@ -4574,6 +4740,7 @@ function pageOpensAs(now) {
   pageYear.checked = (now ? DATA.openOn : P.openOn) != null;
   pageYearNum.value = year != null && !isNaN(year) ? year : drawnYear();
   pageZoom.value = now ? +magnify.toFixed(2) : (P.openZoom || 1);
+  $('pageUiLang').value = now ? uiChoice() : (P.uiLanguage || 'auto');
   pageFeasts.value = now ? feastBox.value : (P.settings.feast_detail || 'all');
   pageMid.value = now ? midValue() : (P.settings.mid_text || 'as-set');
   const latinSet = typeof P.latinDefault === 'boolean' ? (P.latinDefault ? 'on' : 'off') : '';
@@ -4692,6 +4859,7 @@ function pageOptions() {
   if (o.year !== null && !isFinite(o.year)) throw new Error('the year is not a number');
   o.zoom = +pageZoom.value || 1;
   if (!(o.zoom >= 1 && o.zoom <= 6)) throw new Error('the zoom must be from 1 to 6');
+  o.uiLang = $('pageUiLang').value || 'auto';
   o.feasts = pageFeasts.value;
   o.latin = pageLatin.value === '' ? null : pageLatin.value === 'on';
   o.midText = pageMid.value;
@@ -4760,6 +4928,7 @@ function pageCommand(o) {
   if (o.subcalendar.join(',') !== words(rawText('subcalendars')).join(',')) add('--subcalendar', o.subcalendar.length ? o.subcalendar.join(',') : 'none');
   if (o.year !== null) add('--year', String(o.year));
   if (o.zoom !== (parseFloat(rawText('page_zoom')) || 1)) add('--zoom', String(o.zoom));
+  if (o.uiLang !== (rawText('page_language').toLowerCase() || 'auto')) add('--language', o.uiLang);
   if (o.feasts !== rawText('feast_detail').toLowerCase()) add('--feasts', o.feasts);
   if (o.latin !== null) add(o.latin ? '--latin-names' : '--no-latin-names');
   if (o.midText !== rawText('mid_text').toLowerCase()) add('--mid-text', o.midText);
@@ -4839,7 +5008,7 @@ function shellWords(text) {
 // church_year.py's options: the name each spelling stands for, and whether it takes a value.
 const CMD_OPTIONS = {
   '--churches': 'churches', '--church': 'church', '--subcalendar': 'subcalendar', '--year': 'year',
-  '--zoom': 'zoom', '--feasts': 'feasts', '--latin-names': 'latin+', '--no-latin-names': 'latin-',
+  '--zoom': 'zoom', '--language': 'uiLang', '--feasts': 'feasts', '--latin-names': 'latin+', '--no-latin-names': 'latin-',
   '--mid-text': 'mid', '--readings': 'readings', '--bible-default': 'bibleDefault', '--bible-site': 'site',
   '--word-to-worship': 'w2w', '--hymnary': 'hymns', '--hymnal': 'hymnal', '--year-line': 'yearLine+', '--no-year-line': 'yearLine-', '--readings-layout': 'layout', '--hide': 'hide', '--color-changes': 'colors', '--art': 'art',
   '--own-art': 'ownArt', '--drop-art': 'dropArt', '--fixed': 'fixed', '--show': 'show',
@@ -4928,6 +5097,12 @@ function useCommand(text) {
   pageYear.checked = o.year !== undefined;
   if (o.year !== undefined) pageYearNum.value = parseInt(o.year, 10);
   pageZoom.value = o.zoom !== undefined ? o.zoom : (parseFloat(rawText('page_zoom')) || 1);
+  {
+    const want = String(o.uiLang !== undefined ? o.uiLang : (rawText('page_language') || 'auto')).toLowerCase();
+    const box = $('pageUiLang');
+    box.value = want;
+    if (box.value !== want) { box.value = 'auto'; notes.push('--language ' + want + ' is not a language this page has'); }
+  }
   pageFeasts.value = String(o.feasts || rawText('feast_detail') || 'all').toLowerCase();
   pageMid.value = String(o.mid || rawText('mid_text') || 'as-set').toLowerCase();
   pageLatin.value = o.latin === undefined ? '' : (o.latin ? 'on' : 'off');
@@ -5027,21 +5202,21 @@ $('pageCmdUse').addEventListener('click', () => {
   const note = $('pageCmdNote');
   try {
     const notes = useCommand($('pageCmdIn').value);
-    note.textContent = 'Set from the command.' + (notes.length ? ' Note: ' + notes.join('; ') + '.' : '');
+    note.textContent = T('Set from the command.') + (notes.length ? ' ' + T('Note: {0}.', notes.join('; ')) : '');
   } catch (e) {
-    note.textContent = 'Could not read the command: ' + (e && e.message || e);
+    note.textContent = T('Could not read the command: {0}', e && e.message || e);
   }
 });
 // Settings as a small file: the command, with a note of what it is.
 $('pageCmdSave').addEventListener('click', () => {
   const cmd = pageCmd.textContent;
-  if (/^\(/.test(cmd)) { $('pageCmdNote').textContent = 'Nothing to save yet: ' + cmd.slice(1, -1) + '.'; return; }
+  if (/^\(/.test(cmd)) { $('pageCmdNote').textContent = T('Nothing to save yet: {0}.', cmd.slice(1, -1)); return; }
   const text = '# Church Year Wheel: Make a page settings, saved ' + isoToday() + '.\n'
     + '# Load this file in Make a page to set the window again, or run the command in the project folder.\n'
     + cmd + '\n';
   const name = (pageName.value.trim().replace(/\.html?$/i, '') || 'church_year').replace(/[\\/:*?"<>|]+/g, '_') + '_settings.txt';
   saveBlob(new Blob([text], { type: 'text/plain;charset=utf-8' }), name);
-  $('pageCmdNote').textContent = 'Saved ' + name + '.';
+  $('pageCmdNote').textContent = T('Saved {0}.', name);
 });
 $('pageCmdLoad').addEventListener('click', () => $('pageCmdFile').click());
 $('pageCmdFile').addEventListener('change', async () => {
@@ -5051,9 +5226,9 @@ $('pageCmdFile').addEventListener('change', async () => {
     const text = await f.text();
     $('pageCmdIn').value = text.split(/\r?\n/).filter(l => !/^\s*#/.test(l)).join('\n').trim();
     const notes = useCommand(text);
-    note.textContent = 'Set from ' + f.name + '.' + (notes.length ? ' Note: ' + notes.join('; ') + '.' : '');
+    note.textContent = T('Set from {0}.', f.name) + (notes.length ? ' ' + T('Note: {0}.', notes.join('; ')) : '');
   } catch (e) {
-    note.textContent = 'Could not read ' + f.name + ': ' + (e && e.message || e);
+    note.textContent = T('Could not read {0}: {1}', f.name, e && e.message || e);
   }
   $('pageCmdFile').value = '';
 });
@@ -5164,7 +5339,7 @@ const field = (label, value, title, attrs) => {
 const fileNote = (path, row) => {
   const v = row ? words(row.variant) : [];
   const users = churchesReading(path).filter(k => !v.length || v.indexOf(traditionOf(k).variant) >= 0);
-  return 'data/' + path + (users.length > 1 ? ' · read by ' + users.length + ' churches: a change here changes them all' : '');
+  return 'data/' + path + (users.length > 1 ? ' · ' + T('read by {0} churches: a change here changes them all', users.length) : '');
 };
 /** The churches whose drawing or readings a file feeds. */
 function churchesReading(path) {
@@ -5236,7 +5411,7 @@ function saveSetting(key, name, value) {
 function editShow() {
   for (const b of editTabs) b.setAttribute('aria-selected', String(b.dataset.tab === editTab));
   const key = currentTradition();
-  editTabs.find(b => b.dataset.tab === 'changes').textContent = 'Changes' + (EDITS.length ? ' (' + EDITS.length + ')' : '');
+  editTabs.find(b => b.dataset.tab === 'changes').textContent = T('Changes') + (EDITS.length ? ' (' + EDITS.length + ')' : '');
   const body = { day: editDayView, kinds: editKindsView, seasons: editSeasonsView, colors: editColorsView, changes: editChangesView }[editTab](key);
   editBody.replaceChildren(...body);
   $('editExport').disabled = !changedFiles().length;
@@ -5280,7 +5455,7 @@ function editDayView(key) {
       del.addEventListener('click', () => { editDel(place); editsChanged('Removed.'); });
       acts.append(del);
     }
-    card.append(acts, el('p', { class: 'text small' }, fileNote(place.path, r) + (run ? ' · a run of days: the change is the whole run’s' : '')));
+    card.append(acts, el('p', { class: 'text small' }, fileNote(place.path, r) + (run ? ' · ' + T('a run of days: the change is the whole run’s') : '')));
     names.append(card);
   }
   if (!entries.length) names.append(el('p', { class: 'text' }, 'Nothing on this day comes from a file this page can write.'));
@@ -5331,7 +5506,7 @@ function editDayView(key) {
         own.push(kk + '=' + name);
         if (!saveSetting(key, 'reading_labels', own.join('; '))) { editStatus.textContent = 'This page cannot write this church’s tradition.csv.'; return; }
         labels[kk] = name;
-        editsChanged('The kind ' + name + ' is kept; give it a reading.', true);
+        editsChanged(T('The kind {0} is kept; give it a reading.', name), true);
       }
       if (kinds.indexOf(kk) < 0) kinds.push(kk);
       s.insertBefore(el('option', { value: kk, textContent: name + ' (' + kk + ')' }), s.lastChild);
@@ -5343,7 +5518,7 @@ function editDayView(key) {
   };
   const reads = el('div', { class: 'group' }, 'Readings');
   for (const g of READINGS[chosen] || []) {
-    const set = el('div', { class: 'card' }, el('div', { class: 'settitle' }, g.title || 'The day’s own'));
+    const set = el('div', { class: 'card' }, el('div', { class: 'settitle' }, g.title || T('The day’s own')));
     let last = null, lastPath = null, proto = null;
     for (const it of g.items) {
       const place = it.row ? rowPlace(it.row) : null;
@@ -5411,7 +5586,7 @@ function editDayView(key) {
 function editKindsView(key) {
   const { kinds, labels } = editKindsOf(key);
   const order = kinds.slice(), names = Object.assign({}, labels);
-  const out = [el('p', { class: 'text' }, 'The kinds of reading ' + traditionOf(key).label + ' has, in the order a set lists them. A new kind is added with a reading of it (This day).')];
+  const out = [el('p', { class: 'text' }, T('The kinds of reading {0} has, in the order a set lists them. A new kind is added with a reading of it (This day).', traditionOf(key).label))];
   const list = el('ol', { class: 'kinds' });
   const draw = () => {
     list.replaceChildren(...order.map((k, i) => {
@@ -5440,18 +5615,18 @@ function editKindsView(key) {
     if (!ok) { editStatus.textContent = 'This page cannot write this church’s tradition.csv.'; return; }
     editsChanged('Saved.');
   });
-  out.push(list, el('div', { class: 'row' }, save), el('p', { class: 'text small' }, 'Kept as reading_labels and reading_order in data/' + traditionOf(key).folder + '/tradition.csv.'));
+  out.push(list, el('div', { class: 'row' }, save), el('p', { class: 'text small' }, T('Kept as reading_labels and reading_order in {0}.', 'data/' + traditionOf(key).folder + '/tradition.csv')));
   return out;
 }
 
 // The seasons' colors (seasons.csv) and the colors the church's periods give (periods.csv).
 function editSeasonsView(key) {
   const t = traditionOf(key);
-  const out = [el('p', { class: 'text' }, 'The colors of ' + t.label + '’s seasons. A color may name others the church allows after it: PURPLE; blue.')];
+  const out = [el('p', { class: 'text' }, T('The colors of {0}’s seasons. A color may name others the church allows after it: PURPLE; blue.', t.label))];
   const path = t.folder + '/seasons.csv';
   const group = el('div', { class: 'group' }, 'Seasons');
   const rows = DATA.folders[t.folder].seasons || [];
-  if (!layoutOf(DATA, path)) group.append(el('p', { class: 'text' }, 'This page cannot write data/' + path + '.'));
+  if (!layoutOf(DATA, path)) group.append(el('p', { class: 'text' }, T('This page cannot write {0}.', 'data/' + path)));
   else {
     rows.forEach((r, i) => {
       const [l, c] = colorField(r.season, r.color, 'color');
@@ -5496,7 +5671,7 @@ function editColorsView(key) {
   const t = traditionOf(key);
   const own = t.folder + '/colors.csv';
   const out = [el('p', { class: 'text' }, 'What each color looks like on the wheel: its fill and the color of text on it. A color changed for this tradition only goes into its own colors.csv; one for every church into data/colors.csv.')];
-  const scope = el('select', {}, el('option', { value: 'own', textContent: 'This tradition (' + t.folder + ')' }), el('option', { value: 'all', textContent: 'Every church' }));
+  const scope = el('select', {}, el('option', { value: 'own', textContent: T('This tradition ({0})', t.folder) }), el('option', { value: 'all', textContent: 'Every church' }));
   out.push(el('label', {}, 'Change for ', scope));
   const list = el('div', { class: 'group palette' });
   const p = DATA.profiles[key];
@@ -5507,7 +5682,7 @@ function editColorsView(key) {
   };
   const save = (name, fill, text) => {
     const path = scope.value === 'own' ? own : 'colors.csv';
-    if (!layoutOf(DATA, path)) { editStatus.textContent = 'This page cannot write data/' + path + '.'; return; }
+    if (!layoutOf(DATA, path)) { editStatus.textContent = T('This page cannot write {0}.', 'data/' + path); return; }
     const r = rowIn(path, name);
     if (r) editSet(rowPlace(r) || { path: path, key: tableRows(tableAt(DATA, path), tableAt(DATA, path).get()).indexOf(r), row: r },
                    Object.assign({}, r, { fill: fill, text: text }));
@@ -5547,7 +5722,7 @@ function editChangesView() {
   const out = [];
   if (EDITS_SET_ASIDE) out.push(el('p', { class: 'text' }, EDITS_SET_ASIDE + ' change(s) kept for an earlier form of this page were set aside: the page has changed since.'));
   if (Array.isArray(DATA.edited) && DATA.edited.length) {
-    out.push(el('p', { class: 'text' }, 'This page was made with changes to: ' + DATA.edited.map(p => 'data/' + p).join(', ') + '. They are part of it, and Download changed files includes these files.'));
+    out.push(el('p', { class: 'text' }, T('This page was made with changes to: {0}. They are part of it, and Download changed files includes these files.', DATA.edited.map(p => 'data/' + p).join(', '))));
   }
   if (!EDITS.length) { out.push(el('p', { class: 'text' }, 'No changes on this page yet.')); return out; }
   const files = {};
@@ -5556,7 +5731,7 @@ function editChangesView() {
   for (const p of Object.keys(files).sort()) {
     const undo = el('button', { type: 'button', textContent: 'Undo these' });
     undo.addEventListener('click', () => { EDITS = EDITS.filter(e => e.p !== p); editsChanged('Undone.'); });
-    list.append(el('li', {}, 'data/' + p + ': ' + files[p] + ' change' + (files[p] === 1 ? '' : 's') + ' ', undo));
+    list.append(el('li', {}, T(files[p] === 1 ? '{0}: {1} change' : '{0}: {1} changes', 'data/' + p, files[p]) + ' ', undo));
   }
   const last = el('button', { type: 'button', textContent: 'Undo the last change' });
   last.addEventListener('click', () => { EDITS.pop(); editsChanged('Undone.'); });
@@ -5586,7 +5761,7 @@ $('editExport').addEventListener('click', async () => {
     + 'then run church_year_image.py, the listing scripts or church_year.py as usual: they read the changes.\n\n'
     + files.map(f => '  ' + f.name).join('\n') + '\n'], { type: 'text/plain' }) });
   saveBlob(await makeZip(files), 'church-year-data-changes.zip');
-  editStatus.textContent = 'Downloaded ' + (files.length - 1) + ' file' + (files.length === 2 ? '' : 's') + '.';
+  editStatus.textContent = T(files.length === 2 ? 'Downloaded {0} file.' : 'Downloaded {0} files.', files.length - 1);
 });
 for (const b of editTabs) b.addEventListener('click', () => { editTab = b.dataset.tab; editStatus.textContent = ''; editShow(); });
 $('editBtn').addEventListener('click', () => {
@@ -5832,7 +6007,7 @@ function buildPage(o) {
   if (EDITS.length) bakeEdits(d, EDITS);
   // What the script reads from data.json rather than from an earlier page.
   for (const k of ['latinDefault', 'bibleDefault', 'readingsDefault', 'hiddenDefault', 'colorsDefault',
-                   'bibleSite', 'wordToWorship', 'hymnary', 'hymnalDefault', 'readingsLayout', 'feedback', 'help', 'openZoom', 'openOn', 'noDownload', 'noMakePage', 'noEdit', 'arrowsNext', 'localArt', 'links']) delete d[k];
+                   'bibleSite', 'wordToWorship', 'hymnary', 'hymnalDefault', 'readingsLayout', 'feedback', 'help', 'openZoom', 'uiLanguage', 'openOn', 'noDownload', 'noMakePage', 'noEdit', 'arrowsNext', 'localArt', 'links']) delete d[k];
   d.defaultTradition = o.church;
   d.defaultSubcalendars = o.subcalendar.slice();
   d.settings.feast_detail = o.feasts;
@@ -5921,6 +6096,7 @@ function buildPage(o) {
   if (o.arrows) d.arrowsNext = true;
   if (o.localArt) d.localArt = true;
   if (o.zoom !== 1) d.openZoom = o.zoom;
+  if (o.uiLang && o.uiLang !== 'auto') d.uiLanguage = o.uiLang;
   return d;
 }
 
@@ -5944,12 +6120,15 @@ $('pageMake').addEventListener('click', async () => {
     const html = await pageHtml(d, o.fragment, o.compress);
     saveBlob(new Blob([html], { type: 'text/html;charset=utf-8' }), o.out);
     const n = d.traditions.length;
-    pageStatus.textContent = 'Saved ' + o.out + ' (' + (new Blob([html]).size / 1048576).toFixed(1) + ' MB, '
-      + n + (n === 1 ? ' church).' : ' churches).');
+    pageStatus.textContent = T(n === 1 ? 'Saved {0} ({1} MB, {2} church).' : 'Saved {0} ({1} MB, {2} churches).',
+      o.out, (new Blob([html]).size / 1048576).toFixed(1), n);
   } catch (e) {
-    pageStatus.textContent = 'Could not make the page: ' + (e && e.message || e);
+    pageStatus.textContent = T('Could not make the page: {0}', e && e.message || e);
   }
 });
+
+// The church a link opens on is known only now: Match the church follows it.
+uiRefresh();
 
 }
 

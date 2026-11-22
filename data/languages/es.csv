@@ -21,6 +21,20 @@ color_violet,violeta
 color_white,blanco
 color_none,sin color
 or,o
+"# reading_...: the page's words for its kinds of reading, by their English names (reading_Readings heads the list)."
+reading_Readings,Lecturas
+reading_Old Testament,Antiguo Testamento
+reading_Psalm,Salmo
+reading_Epistle,Epístola
+reading_Gospel,Evangelio
+reading_First Reading,Primera lectura
+reading_Second Reading,Segunda lectura
+reading_Reading,Lectura
+reading_Sermon Text,Texto del sermón
+reading_Story Text,Relato
+reading_Prophecy,Profecía
+reading_Procession,Procesión
+reading_New Testament,Nuevo Testamento
 GEN,Génesis
 EXO,Éxodo
 LEV,Levítico

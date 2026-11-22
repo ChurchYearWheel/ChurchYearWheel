@@ -19,6 +19,18 @@
 
 const CY = root.ChurchYear || (typeof require !== 'undefined' ? require('./church_year.js').ChurchYear : null);
 
+// The words of a list's headings, notes and dates in the reader's language
+// (page.js: setWords; English, as the Python scripts write them, otherwise).
+let TR = s => s;
+let LANG = 'en';
+/** English words in the list's language; {0}, {1} ... take the values given. */
+function tf(s) {
+  let t = TR(s);
+  for (let i = 1; i < arguments.length; i++) t = t.split('{' + (i - 1) + '}').join(arguments[i]);
+  return t;
+}
+function setWords(fn, code) { TR = fn || (s => s); LANG = code || 'en'; }
+
 const WEEKDAY_NAMES = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
 const MONTH_NAMES = ['January', 'February', 'March', 'April', 'May', 'June', 'July',
                      'August', 'September', 'October', 'November', 'December'];
@@ -36,7 +48,7 @@ function yearLabel(y) {
 }
 
 function heading(label, what, first, last) {
-  return label + ': ' + what + ' for ' + yearLabel(first) + (first === last ? '' : ' to ' + yearLabel(last));
+  return tf('{0}: {1} for {2}', label, TR(what), first === last ? yearLabel(first) : tf('{0} to {1}', yearLabel(first), yearLabel(last)));
 }
 
 function spanLabel(first, last) { return first === last ? yearLabel(first) : first + '-' + last; }
@@ -59,7 +71,7 @@ const titleCase = s => s.replace(/[A-Za-z]+/g, w => w[0].toUpperCase() + w.slice
 
 function longDate(r, calendar) {
   const m = /^([+-]?\d+)-(\d\d)-(\d\d)$/.exec(r.date);
-  let text = r.weekday + ', ' + MONTH_NAMES[+m[2] - 1] + ' ' + (+m[3]) + ', ' + (+m[1]);
+  let text = tf('{0}, {1} {2}, {3}', TR(r.weekday), TR(MONTH_NAMES[+m[2] - 1]), +m[3], +m[1]);
   if (r.own_date) {
     text += ' (' + r.own_date + (calendar ? ' ' + titleCase(calendar.replace(/-/g, ' ')) + ')' : ')');
   }
@@ -132,7 +144,7 @@ function mdTable(header, rows) {
   return lines.concat(['']);
 }
 
-const footer = script => 'Made by ' + script + " from the church year calendar's data.";
+const footer = script => tf("Made by {0} from the church year calendar's data.", script);
 
 function mdPage(title, notes, body, script) {
   let lines = ['# ' + mdEscape(title), ''];
@@ -176,7 +188,7 @@ function htmlTable(header, rows, cls) {
 }
 
 function htmlPage(title, notes, body, script) {
-  const out = ['<!doctype html>', '<html lang="en"><head><meta charset="utf-8">',
+  const out = ['<!doctype html>', '<html lang="' + LANG + '"><head><meta charset="utf-8">',
                '<meta name="viewport" content="width=device-width, initial-scale=1">',
                '<title>' + esc(title) + '</title>', '<style>' + HTML_STYLE + '</style>',
                '</head><body><h1>' + esc(title) + '</h1>']
@@ -308,14 +320,13 @@ function readingRecords(cal, o, links) {
 }
 
 const urls = it => (it.links || []).filter(p => p[1]).map(p => p[1]);
-const setHeading = s => s.title || 'Readings';
+const setHeading = s => s.title || TR('Readings');
 // What a set's parts of the service (reading_propers) are headed (lectionary.py: PROPERS).
-const PROPERS = 'Propers';
+const propersWord = () => TR('Propers');
 
 function lectionaryNotes(linked, site, version) {
   const where = { biblegateway: 'Bible Gateway', youversion: 'Bible.com' }[site] || '';
-  return linked ? ['Each reading opens at ' + where + ' in the ' + version + "; each heading opens its set's "
-                   + 'readings together at Bible Gateway (its propers apart).'] : [];
+  return linked ? [tf("Each reading opens at {0} in the {1}; each heading opens its set's readings together at Bible Gateway (its propers apart).", where, version)] : [];
 }
 
 const LECTIONARY = {
@@ -353,7 +364,7 @@ const LECTIONARY = {
           + (a.linked ? it.links.map(p => mdLink(p[0], p[1])).join('') : mdEscape(it.reading));
         body = body.concat(s.readings.map(line), ['']);
         if (s.propers && s.propers.length) {
-          body = body.concat(['*' + ('propers_link' in s ? mdLink(PROPERS, s.propers_link) : PROPERS) + '*', ''], s.propers.map(line), ['']);
+          body = body.concat(['*' + ('propers_link' in s ? mdLink(propersWord(), s.propers_link) : propersWord()) + '*', ''], s.propers.map(line), ['']);
         }
       }
     }
@@ -364,13 +375,13 @@ const LECTIONARY = {
     for (const r of recs) {
       body.push('<h2>' + esc(longDate(r, a.calendar)) + (r.names.length ? ' — ' + esc(r.names.join(' / ')) : '') + '</h2>');
       for (const s of r.sets) {
-        if (a.linked) body.push('<h3>' + htmlLink(s.title || 'Readings', s.link) + '</h3>');
+        if (a.linked) body.push('<h3>' + htmlLink(s.title || TR('Readings'), s.link) + '</h3>');
         else if (s.title || r.sets.length > 1) body.push('<h3>' + esc(setHeading(s)) + '</h3>');
         const table = (items, cls) => '<table class="' + cls + '">' + items.map(it => '<tr><td>' + esc(it.label) + '</td><td>'
           + (a.linked ? it.links.map(p => htmlLink(p[0], p[1])).join('') : esc(it.reading)) + '</td></tr>').join('') + '</table>';
         if (s.readings.length) body.push(table(s.readings, 'readings'));
         if (s.propers && s.propers.length) {
-          body.push('<h4>' + ('propers_link' in s ? htmlLink(PROPERS, s.propers_link) : esc(PROPERS)) + '</h4>');
+          body.push('<h4>' + ('propers_link' in s ? htmlLink(propersWord(), s.propers_link) : esc(propersWord())) + '</h4>');
           body.push(table(s.propers, 'readings propers'));
         }
       }
@@ -385,12 +396,12 @@ const LECTIONARY = {
         if (s.title || r.sets.length > 1) body.push(setHeading(s) + ':');
         for (const it of s.readings) body = body.concat([it.label + ': ' + it.reading], urls(it));
         if (s.propers && s.propers.length) {
-          body.push(PROPERS + ':');
+          body.push(propersWord() + ':');
           for (const it of s.propers) body = body.concat([it.label + ': ' + it.reading], urls(it));
         }
       }
       return icsEvent(a.key + '-' + r.date.replace(/-/g, '') + '@churchyearwheel', r.date, stamp,
-                      r.names.join(' / ') || 'Readings', body.join('\n'));
+                      r.names.join(' / ') || TR('Readings'), body.join('\n'));
     });
     return icsCalendar(a.heading, 'lectionary.py', events);
   },
@@ -467,10 +478,9 @@ function icsSeries(cal, o) {
 }
 
 const colorNotes = every => (every
-  ? ["Each color is the day's own, the top of its cell on the wheel; the others the church allows follow "
-     + "in parentheses, and the lower half's is given where the wheel splits the cell."]
-  : ["Each color is the day's own, the top of its cell on the wheel."]);
-const colorHeader = every => ['Date', 'Day', 'Color'].concat(every ? ['Lower half'] : []);
+  ? [TR("Each color is the day's own, the top of its cell on the wheel; the others the church allows follow in parentheses, and the lower half's is given where the wheel splits the cell.")]
+  : [TR("Each color is the day's own, the top of its cell on the wheel.")]);
+const colorHeader = every => ['Date', 'Day', 'Color'].concat(every ? ['Lower half'] : []).map(h => TR(h));
 const colorWordsOf = (r, every, lower) => (lower
   ? (r.lower_color ? colorWords(r.lower_color, r.lower_alternatives) : '')
   : colorWords(r.color, every ? r.alternatives : []));
@@ -538,8 +548,8 @@ const COLORS = {
     const stamps = {};
     for (const y of a.years) stamps[y.church_year] = icsStamp(y.start);
     const events = recs.map(r => {
-      let words = 'Liturgical color: ' + capitalize(colorWordsOf(r, a.every));
-      if (a.every && r.lower_color) words += '; lower half ' + colorWordsOf(r, a.every, true);
+      let words = tf('Liturgical color: {0}', capitalize(colorWordsOf(r, a.every)));
+      if (a.every && r.lower_color) words += tf('; lower half {0}', colorWordsOf(r, a.every, true));
       const names = [r.color].concat(a.every && r.lower_color ? [r.lower_color] : []);
       return icsEvent(r.date + '-' + a.series[r.church_year] + '@churchyearwheel', r.date, stamps[r.church_year],
         r.titles.join(' / ') || r.weekday, words,
@@ -698,18 +708,17 @@ function feastRecords(year, detail, everyColor, withLinks, major, links) {
 function moved(r) {
   if (!r.transferred_from) return '';
   const p = r.transferred_from.split('-');
-  return ' (transferred from ' + MONTH_NAMES[+p[1] - 1] + ' ' + (+p[2]) + ')';
+  return ' (' + tf('transferred from {0} {1}', TR(MONTH_NAMES[+p[1] - 1]), +p[2]) + ')';
 }
 
 function feastNotes(detail, major) {
-  return ({ none: [], principal: ["Principal feasts only: those whose color replaces the season's."],
-            festivals: ['Festivals: the feasts that color their day or its lower half.'], all: [] }[detail])
-    .concat(major ? ['With the major days: the principal days set on dates of their own, '
-                     + "Christmas, Easter, Pentecost and the like; a blank color is the season's."] : []);
+  return ({ none: [], principal: [TR("Principal feasts only: those whose color replaces the season's.")],
+            festivals: [TR('Festivals: the feasts that color their day or its lower half.')], all: [] }[detail])
+    .concat(major ? [TR("With the major days: the principal days set on dates of their own, Christmas, Easter, Pentecost and the like; a blank color is the season's.")] : []);
 }
 
 const feastRows = (recs, calendar, cellName, cellColor) =>
-  recs.map(r => [longDate(r, calendar), cellName(r), r.level, cellColor(r)]);
+  recs.map(r => [longDate(r, calendar), cellName(r), TR(r.level), cellColor(r)]);
 
 const FEASTS = {
   csv(recs, a) {
@@ -729,12 +738,12 @@ const FEASTS = {
   md(recs, a) {
     const rows = feastRows(recs, a.calendar, r => mdLink(r.full_name, r.url) + mdEscape(moved(r)),
                            r => (r.color ? colorWords(r.color, r.alternatives) : ''));
-    return mdPage(a.heading, feastNotes(a.detail, a.major), mdTable(['Date', 'Feast', 'Level', 'Color'], rows), 'feasts.py');
+    return mdPage(a.heading, feastNotes(a.detail, a.major), mdTable(['Date', 'Feast', 'Level', 'Color'].map(h => TR(h)), rows), 'feasts.py');
   },
   html(recs, a) {
     const rows = feastRows(recs, a.calendar, r => htmlLink(r.full_name, r.url) + esc(moved(r)),
                            r => (r.color ? htmlSwatch(a.fills[r.color] || '') + esc(colorWords(r.color, r.alternatives)) : ''));
-    return htmlPage(a.heading, feastNotes(a.detail, a.major), [htmlTable(['Date', 'Feast', 'Level', 'Color'], rows)], 'feasts.py');
+    return htmlPage(a.heading, feastNotes(a.detail, a.major), [htmlTable(['Date', 'Feast', 'Level', 'Color'].map(h => TR(h)), rows)], 'feasts.py');
   },
   ics(recs, a) {
     const stamp = recs.length ? icsStamp(recs[0].date) : '20000101T000000Z';
@@ -779,6 +788,6 @@ function feastsList(data, o, fmt, links) {
 
 root.ChurchYearLists = { readingsList: readingsList, colorsList: colorsList, feastsList: feastsList,
                          overviewList: overviewList,
-                         yearLabel: yearLabel, FORMATS: ['csv', 'html', 'ics', 'json', 'md'] };
+                         yearLabel: yearLabel, setWords: setWords, FORMATS: ['csv', 'html', 'ics', 'json', 'md'] };
 
 })(typeof module !== 'undefined' && module.exports ? module.exports : window);

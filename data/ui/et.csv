@@ -1,0 +1,487 @@
+english,translation
+"# The page's own words (buttons, menus, settings and their notes) in this language: the English as the page writes it, then its translation. {0}, {1} ... stand for what the page fills in. A missing or blank line stays English."
+Settings,Seaded
+Simple,Lihtsad
+All,Kõik
+Language,Keel
+Match the church,Nagu kirik
+Browser ({0}),Brauser ({0})
+Year,Aasta
+Tradition,Traditsioon
+Church,Kirik
+Hymnal,Lauluraamat
+Lectionary,Perikoopide rida
+Feasts,Pühad
+Festivals,Suured pühad
+Principal only,Ainult peamised pühad
+None,Puudub
+Bible,Piibel
+Readings shown as,Lugemised kuvatakse
+Tabs,Sakkidena
+Columns,Veergudena
+Calendar and names,Kalender ja nimed
+Calendar,Kalender
+Gregorian,Gregoriuse
+Julian (Old Calendar),Juliuse (vana kalender)
+Revised Julian (New Calendar),Parandatud Juliuse (uus kalender)
+Easter,Lihavõtted
+With the calendar,Kalendri järgi
+Western,Lääne
+Eastern,Ida
+Latin names,Ladinakeelsed nimed
+Readings,Lugemised
+The day's propers,Päeva propriumi lugemised
+Feasts and festivals,Pühad ja suured pühad
+Other dated days,Muud kuupäevaga päevad
+Daily lectionary,Igapäevane lugemiskord
+Additional readings,Lisalugemised
+Psalm table,Psalmide tabel
+Bible reading plan,Piiblilugemise kava
+Office lessons,Palvetundide lugemised
+Open in,Ava saidil
+Slide,Libisemine
+Off,Väljas
+Quick,Kiire
+Medium,Keskmine
+Slow,Aeglane
+Propers,Proprium
+Hymn search,Laulude otsing
+Contemporary song search,Kaasaegsete ülistuslaulude otsing
+The wheel,Ratas
+Artwork,Pilt
+Thicker line where the year begins,Paksem joon aasta alguses
+Arrow keys go on into the next year,Nooleklahvid lähevad järgmisse aastasse
+Dark text on reds,Tume tekst punasel
+Under the wheel,Ratta all
+Instructions and notes,Juhised ja märkused
+Artwork credit,Pildi autor
+Rings,Rõngad
+Outer band,Välimine vöö
+Seasons,Ajad
+Months,Kuud
+Parts of the year,Aasta osad
+Day cells,Päevalahtrid
+Center artwork,Keskne pilt
+Colors…,Värvid…
+Colors,Värvid
+Days,Päevad
+Close,Sulge
+Reset colors,Lähtesta värvid
+Reset settings,Lähtesta seaded
+Share,Jaga
+Copy link,Kopeeri link
+Copy embed code,Kopeeri manustamiskood
+Print,Prindi
+Download…,Laadi alla…
+Download,Laadi alla
+Years,Aastad
+From,Alates
+to,kuni
+pixels wide,pikslit lai
+Background,Taust
+clear,läbipaistev
+white,valge
+Lists,Loendid
+Sundays,Pühapäevad
+Sundays and principal days,Pühapäevad ja peamised pühad
+every day,iga päev
+every named day,iga nimega päev
+with links,linkidega
+with major days,peamiste pühadega
+other colors,muud värvid
+Format,Vorming
+CSV (spreadsheet),CSV (tabel)
+HTML (to print),HTML (printimiseks)
+iCalendar (.ics),iCalendar (.ics)
+PNG (a picture),PNG (pilt)
+"SVG (a drawing, sharp at any size)","SVG (joonis, terav igas suuruses)"
+The year at a glance,Aasta ühe pilguga
+Today,Täna
+Week,Nädal
+Find a day,Leia päev
+Help,Abi
+Feedback,Tagasiside
+About the artwork,Pildist
+Choose a date,Vali kuupäev
+Previous day,Eelmine päev
+Next day,Järgmine päev
+Zoom in,Suurenda
+Zoom out,Vähenda
+Zoom in (+),Suurenda (+)
+Zoom out (−),Vähenda (−)
+Magnification,Suurendus
+The week before,Eelmine nädal
+The week after,Järgmine nädal
+Days with that name,Selle nimega päevad
+Find a day by its name,Leia päev nime järgi
+Church Year {0},Kirikuaasta {0}
+Jump to today (T) — {0},Mine tänasele (T) — {0}
+Read about {0},Loe teemal {0}
+{0} ({1} hymns) in {2},{0} ({1} laulu) – {2}
+Hymns on {0} in {1} at Hymnary.org,"Laulud teemal {0} – {1}, Hymnary.org"
+Hymns for these readings in {0} at Hymnary.org,"Laulud nendele lugemistele – {0}, Hymnary.org"
+Hymns for these propers in {0} at Hymnary.org,"Laulud sellele propriumile – {0}, Hymnary.org"
+the church's hymnal,kiriku lauluraamat
+Contemporary worship songs for these readings at Word to Worship,"Kaasaegsed ülistuslaulud nendele lugemistele, Word to Worship"
+Contemporary worship songs for these propers at Word to Worship,"Kaasaegsed ülistuslaulud sellele propriumile, Word to Worship"
+Open all these readings together at Bible Gateway,Ava kõik need lugemised koos Bible Gateway's
+Open these propers together at Bible Gateway,Ava see proprium koos Bible Gateway's
+▴ less,▴ vähem
+▾ more,▾ rohkem
+▾ {0} more,▾ veel {0}
+Show two lines again,Näita jälle kahte rida
+Show all of this set’s readings,Näita kõiki selle rea lugemisi
+Show all the day’s readings,Näita kõiki päeva lugemisi
+Show the readings in three lines again,Näita lugemisi jälle kolmel real
+No day of {0} by that name,Aastas {0} pole selle nimega päeva
+Choose {0} on the wheel,Vali rattal {0}
+In another church year: choose the day to draw it.,"Teises kirikuaastas: vali päev, et see joonistada."
+Copied,Kopeeritud
+Copy failed,Kopeerimine ebaõnnestus
+"The language of the page's buttons, menus and settings. The calendar's names, dates and readings stay in the church's language.","Lehe nuppude, menüüde ja seadete keel. Kalendri nimed, kuupäevad ja lugemised jäävad kiriku keelde."
+"The church year wheel: left and right arrow keys step a week, up and down a day","Kirikuaasta ratas: vasak- ja paremnool liiguvad nädala, üles- ja allanool päeva"
+"The settings most often changed: the year, the church, the feasts, the Bible and how the readings are shown","Kõige sagedamini muudetavad seaded: aasta, kirik, pühad, Piibel ja see, kuidas lugemisi näidatakse"
+"Every setting: the calendar, the kinds of reading, the searches, the artwork, the rings and colors, and making a page or editing the data","Kõik seaded: kalender, lugemiste liigid, otsingud, pilt, rõngad ja värvid ning lehe tegemine või andmete muutmine"
+"The year the church year begins in: Advent for most traditions, September for the Eastern Orthodox","Aasta, millal kirikuaasta algab: advendiajal enamikus traditsioonides, septembris õigeusklikel"
+The family of churches,Kirikute perekond
+Which church's calendar the wheel follows,Millise kiriku kalendrit ratas järgib
+"All: every commemoration. Festivals: the festivals and feasts (in the Roman calendar, solemnities and feasts). Principal: only the principal days (solemnities). None: the saints' days are left off.",Kõik: iga mälestuspäev. Suured pühad: suured pühad ja pühad (Rooma kalendris suurpühad ja pühad). Ainult peamised pühad: ainult peamised päevad. Puudub: pühakute päevad jäetakse välja.
+The translation the readings open in. Each church starts on the one it uses (ESV where it names none).,"Tõlge, milles lugemised avanevad. Iga kirik alustab sellega, mida kasutab (ESV, kui ta ühtegi ei nimeta)."
+"How the day's readings are shown when there are several sets: one at a time under tabs, or all of them in columns (on the right, and across two columns when opened with more)","Kuidas päeva lugemisi näidatakse, kui ridu on mitu: üks korraga sakkide all või kõik veergudes (paremal ja kahes veerus, kui avatakse rohkemaga)"
+Which calendar the dates are reckoned in,Millise kalendri järgi kuupäevi arvestatakse
+"How Easter is dated, which is a separate question from how the days are named. Left to follow the calendar, a Gregorian wheel keeps Western Easter and the other two keep the Eastern one.","Kuidas lihavõtted dateeritakse, mis on teine küsimus kui päevade nimetamine. Kalendri järgi hoiab Gregoriuse ratas lääne lihavõtteid ja teised kaks ida omi."
+"Name the one-year Sundays as the historic calendar does, from the first words of the day's Introit: Ad Te Levavi, Laetare, Quasimodo Geniti","Nimeta üheaastase rea pühapäevad nagu ajalooline kalender, päeva introituse algussõnade järgi: Ad Te Levavi, Laetare, Quasimodo Geniti"
+List the day's Bible readings under its name. Each kind can be left out; only the kinds this church's lectionary has are offered.,"Näita päeva piiblilugemisi tema nime all. Iga liigi võib välja jätta; pakutakse ainult neid liike, mis selle kiriku lugemiskorras on."
+"The lessons of the day's own propers: its Sunday, holy day or season, and any other service its book appoints for it","Päeva enda propriumi lugemised: tema pühapäev, püha või aeg ja iga muu jumalateenistus, mille raamat talle määrab"
+"The lessons of a saint's day or festival, listed only while the wheel shows it (see Feasts)","Pühakupäeva või püha lugemised, näidatakse ainult siis, kui ratas seda näitab (vt Pühad)"
+"The lessons of a day the calendar does not name, kept by its date or a date rule: Ember and Rogation Days, Thanksgiving, New Year's and national days, the Saturdays before and after a feast","Päeva lugemised, mida kalender ei nimeta, kuupäeva või reegli järgi: kantsipäevad ja palvepäevad, tänupüha, uusaasta ja rahvuspühad, laupäevad enne ja pärast püha"
+The hymnal's or prayer book's daily or weekday lectionary,Lauluraamatu või palveraamatu igapäevane või argipäevade lugemiskord
+"The additional readings a daily lectionary offers beside its own, for reading more of the Bible (Lutheran Service Book prints them in italics)","Lisalugemised, mida igapäevane lugemiskord pakub oma lugemiste kõrval, et lugeda Piiblit rohkem (Lutheran Service Book trükib need kaldkirjas)"
+"A table of psalms for daily prayer, morning and evening, by season and weekday (Lutheran Service Book, p. 304)","Psalmide tabel igapäevaseks palveks, hommikul ja õhtul, aja ja nädalapäeva järgi (Lutheran Service Book, lk 304)"
+"A plan of daily Bible reading kept by the calendar year: Reading the Word of God (LCMS, LCC and NALC), through the Old Testament in three years and the Psalms and New Testament twice","Igapäevase piiblilugemise kava kalendriaasta järgi: Reading the Word of God (LCMS, LCC ja NALC), Vana Testament kolme aastaga ning Psalmid ja Uus Testament kaks korda"
+"The lessons of the Office: Morning and Evening Prayer, Matins, a second or third service","Palvetundide lugemised: hommiku- ja õhtupalvus, matutiin, teine või kolmas jumalateenistus"
+"Where a reading opens. On a phone or tablet either one opens in its own app when the app is installed, and in the browser otherwise.","Kus lugemine avaneb. Telefonis või tahvelarvutis avaneb kumbki oma rakenduses, kui see on paigaldatud, muidu brauseris."
+How fast the sets slide between the columns when more or less is clicked (kept in this browser),"Kui kiiresti read veergude vahel libisevad, kui klõpsatakse rohkem või vähem (salvestatakse selles brauseris)"
+"The parts of the service the church lists with each day's readings (an Introit, a Gradual and a Verse), on a line of their own after them; a set's heading opens only its readings together","Jumalateenistuse osad, mida kirik iga päeva lugemistega loetleb (introitus, graduaal ja salm), omal real nende järel; rea pealkiri avab ainult selle lugemised koos"
+A hymnal mark after each set of readings that searches Hymnary.org for the hymns on them in this church's hymnal,"Lauluraamatu märk iga lugemisrea järel, mis otsib Hymnary.org-ist nende kohta laule selle kiriku lauluraamatus"
+"The hymnal Hymn search looks in, where the church has several","Lauluraamat, millest laulude otsing otsib, kui kirikul on mitu"
+A circled note after each set of readings that searches Word to Worship (wordtoworship.com) for contemporary worship songs on them,"Ringis noot iga lugemisrea järel, mis otsib Word to Worshipist (wordtoworship.com) nende kohta kaasaegseid ülistuslaule"
+"The picture in the middle of the wheel. Each tradition has its own; any of them can be chosen. By season changes it with the day chosen: the wreath in Advent, the manger at Christmas, the empty tomb at Easter, and the church's own picture in the seasons that have none.","Pilt ratta keskel. Igal traditsioonil on oma; valida võib ükskõik millise. „Aja järgi“ vahetab seda valitud päevaga: pärg advendiajal, sõim jõulude ajal, tühi haud lihavõtete ajal ja kiriku oma pilt aegadel, millel oma pole."
+"A thicker line where the year's last week meets its first, which are a year apart","Paksem joon, kus aasta viimane nädal kohtub esimesega, mille vahel on aasta"
+"Checked: at the end of the church year the arrow keys go on into the next year's wheel, and back into the last. Unchecked: they go round the year on the wheel, from its last week to its first. Page Up and Page Down and the ◀ ▶ buttons always go on.","Märgitud: kirikuaasta lõpus lähevad nooleklahvid edasi järgmise aasta rattale ja tagasi eelmisele. Märkimata: nad käivad aasta rattal ringi, viimasest nädalast esimeseni. Page Up, Page Down ja nupud ◀ ▶ lähevad alati edasi."
+"The reds in the middle of the range (the LCMS, Roman and Presbyterian reds) read about as well with black text as with white. Checked: black on them.","Skaala keskmised punased (LCMS-i, Rooma ja presbüterlaste punane) on musta tekstiga umbes sama hästi loetavad kui valgega. Märgitud: must nende peal."
+"How to use the wheel, the calendar's notes and how long it took to draw","Kuidas ratast kasutada, kalendri märkused ja kui kaua joonistamine aega võttis"
+"Who made the picture in the middle, and its license. When it is off and the license asks for credit, a small i button keeps it a click away.","Kes tegi keskel oleva pildi ja selle litsents. Kui see on väljas ja litsents nõuab viidet, hoiab väike i-nupp seda ühe klõpsu kaugusel."
+"The colors the days and the rings are painted in, each of which can be changed for this page","Värvid, millega päevad ja rõngad värvitakse; igaüht saab selle lehe jaoks muuta"
+The colors on the wheel this year. Click a swatch to change it; the change is kept in the page's link. Text on a day stays readable: it turns black or white if it would not.,"Ratta värvid sel aastal. Klõpsa näidisel, et seda muuta; muudatus jääb lehe linki. Päeva tekst jääb loetavaks: see muutub mustaks või valgeks, kui muidu ei oleks."
+Put every color back to the page's own,Pane iga värv tagasi lehe omaks
+"Put every setting here back to what config.csv asks for, keeping the day on the wheel","Pane iga seade siin tagasi selleks, mida config.csv nõuab, jättes ratta päeva alles"
+"Copy a link that opens on this day, with these settings","Kopeeri link, mis avaneb sellel päeval nende seadetega"
+"Copy a line of HTML that shows this page inside a page of your own website (an iframe), opening on the day it is read, with these settings","Kopeeri HTML-rida, mis näitab seda lehte sinu oma veebisaidi lehel (iframe), avanedes lugemise päeval, nende seadetega"
+Print the whole wheel on one page,Prindi kogu ratas ühele lehele
+"Download the wheel (SVG, PNG) and lists of its readings, colors and feasts, for this year or a run of years","Laadi alla ratas (SVG, PNG) ning selle lugemiste, värvide ja pühade loendid sel aastal või aastate reale"
+"The wheel and its lists as they are here, with these settings: the church, calendars, feasts, readings, rings, colors and artwork.","Ratas ja selle loendid nii, nagu need siin on, nende seadetega: kirik, kalendrid, pühad, lugemised, rõngad, värvid ja pilt."
+"Each day's readings, as the Readings boxes and the Feasts setting choose them","Iga päeva lugemised, nagu Lugemiste märkeruudud ja Pühade seade need valivad"
+Each reading opens where Open in and Bible say; each set's heading opens all its readings,"Iga lugemine avaneb seal, kuhu Ava saidil ja Piibel ütlevad; iga rea pealkiri avab kõik selle lugemised"
+The Sundays and principal days (or every day) with the color the wheel paints them,"Pühapäevad ja peamised pühad (või iga päev) värviga, millega ratas neid värvib"
+"The other colors the church allows, and the lower half's where the wheel splits a cell (in the feasts list too)","Muud värvid, mida kirik lubab, ja alumise poole oma, kus ratas lahtri jagab (ka pühade loendis)"
+"The festivals, saints' days and commemorations the Feasts setting keeps, on the days they fall","Pühad, pühakute päevad ja mälestuspäevad, mida Pühade seade hoiab, päevadel, mil need langevad"
+"Also Christmas, Easter, Pentecost and the other principal days on dates of their own","Ka jõulud, lihavõtted, nelipühad ja muud peamised pühad omal kuupäeval"
+"Where to read about each, as the readout links it","Kust igaühe kohta lugeda, nagu vaade sellele lingib"
+"Previous day (up arrow; left arrow: a week, Shift: a month)","Eelmine päev (nool üles; nool vasakule: nädal, Shift: kuu)"
+"Next day (down arrow; right arrow: a week, Shift: a month)","Järgmine päev (nool alla; nool paremale: nädal, Shift: kuu)"
+Magnification: 1× (the whole wheel) to 6×,Suurendus: 1× (kogu ratas) kuni 6×
+"Type a Sunday's, a season's or a feast's name and pick it: the wheel goes to that day in the year shown (F)","Kirjuta pühapäeva, aja või püha nimi ja vali see: ratas läheb sellele päevale näidatud aastas (F)"
+"The chosen day's week in a list: each day's names, color and readings (W)","Valitud päeva nädal loendina: iga päeva nimed, värv ja lugemised (W)"
+"Print this week's days and readings, a page or two to hand round","Prindi selle nädala päevad ja lugemised, lehekülg või kaks jagamiseks"
+"How to use this page: every control, key and setting","Kuidas seda lehte kasutada: iga nupp, klahv ja seade"
+"Send feedback about this page: the day, church and settings on screen go with it","Saada selle lehe kohta tagasisidet: ekraanil olev päev, kirik ja seaded lähevad kaasa"
+"Type any year and the wheel is drawn for it. Click a cell, use the arrow keys, or pick a date.","Kirjuta ükskõik milline aasta ja ratas joonistatakse selle jaoks. Klõpsa lahtril, kasuta nooleklahve või vali kuupäev."
+"Tap a cell, pinch to zoom, or pick a date.","Puuduta lahtrit, suumi kahe sõrmega või vali kuupäev."
+A new kind…,Uus liik…
+About the feasts only,Ainult pühade kohta
+Add,Lisa
+Add a color,Lisa värv
+Add a feast on this date,Lisa sellele kuupäevale püha
+Add a picture of your own…,Lisa oma pilt…
+Add a reading to this set,Lisa sellesse ritta lugemine
+Add a season,Lisa aeg
+Add a set of readings on this date,Lisa sellele kuupäevale lugemiste rida
+Additional,Lisalugemised
+Advent: four candles lit,Advent: neli küünalt põleb
+Advent: one candle lit,Advent: üks küünal põleb
+Advent: three candles lit,Advent: kolm küünalt põleb
+Advent: two candles lit,Advent: kaks küünalt põleb
+Armenian cross,Armeenia rist
+As each color sets it,Nagu iga värv määrab
+As on screen,Nagu ekraanil
+As this page opens,Nagu see leht avaneb
+Black,Must
+Blue,Sinine
+Burning bush,Põlev põõsas
+Buttons it shows,"Nupud, mida see näitab"
+By season,Aja järgi
+"Calendar (Gregorian, Julian, Revised Julian)","Kalender (Gregoriuse, Juliuse, parandatud Juliuse)"
+Canterbury cross,Canterbury rist
+Celtic cross,Keldi rist
+Chalice and host,Karikas ja armulaualeib
+Change for,Muuda
+Changes,Muudatused
+Chi-Rho,Kristuse monogramm
+Christmas: the manger,Jõulud: sõim
+Churches it offers,"Kirikud, mida see pakub"
+Color,Värv
+Columns only,Ainult veerud
+"Columns, or tabs in Settings","Veerud, või sakid seadetes"
+Coptic cross,Kopti rist
+Copy,Kopeeri
+Daily,Igapäevased
+Dark,Tume
+Dark on reds,Tume punasel
+Day,Päev
+Download changed files,Laadi alla muudetud failid
+Each church's first,Iga kiriku esimene
+Each church's own,Iga kiriku oma
+Earlier,Varem
+Easter (Western or Eastern),Lihavõtted (lääne või ida)
+Easter: the empty tomb,Lihavõtted: tühi haud
+Edit the data,Muuda andmeid
+Edit the data…,Muuda andmeid…
+Epiphany: the star and crowns,Ilmumispüha: täht ja kroonid
+Ethiopian cross,Etioopia rist
+Every church,Iga kirik
+Every version,Iga tõlge
+Feedback link,Tagasiside link
+File name,Faili nimi
+Fill,Täide
+Full name,Täisnimi
+Gold,Kuldne
+Green,Roheline
+Help link,Abi link
+Holy Week: three crosses,Suur nädal: kolm risti
+"Instructions, notes and credit","Juhised, märkused ja autor"
+It opens,See avaneb
+Kinds of reading,Lugemiste liigid
+Later,Hiljem
+Lent: the cross and thorns,Paastuaeg: rist ja okkad
+Light,Hele
+Link,Link
+Links,Lingid
+Load settings…,Laadi seaded…
+Lower half,Alumine pool
+Luther rose,Lutheri roos
+Make a page,Tee leht
+Make a page…,Tee leht…
+Make the page,Tee leht
+Moravian star,Herrnhuti täht
+Morello,Morello
+Name,Nimi
+Names (a pattern),Nimed (muster)
+Names and colors,Nimed ja värvid
+No changes on this page yet.,Sellel lehel pole veel muudatusi.
+None (each church's own version),Puudub (iga kiriku oma tõlge)
+None (no box and no marks),Puudub (pole kasti ega märke)
+None (plain text),Puudub (lihttekst)
+Nothing,Mitte midagi
+Off (the box unchecked),Väljas (kast märkimata)
+Office,Palvetunnid
+On,Sees
+On the year beginning in Advent,"Aastal, mis algab advendiajal"
+Only this one,Ainult see
+Outside the year,Väljaspool aastat
+"Packed, about a third of the size","Pakitud, umbes kolmandik suurusest"
+Pentecost: the dove and flames,Nelipühad: tuvi ja leegid
+Pictures kept,Alles jäetud pildid
+Purple,Lilla
+Reading plan,Lugemiskava
+Readings and links,Lugemised ja lingid
+Red,Punane
+Remove,Eemalda
+Remove this reading,Eemalda see lugemine
+Rose,Roosa
+Save,Salvesta
+Save settings…,Salvesta seaded…
+Scarlet,Sarlakpunane
+Season,Aeg
+Set the window from it,Sea aken selle järgi
+Settings it shows,"Seaded, mida see näitab"
+Syriac cross,Süüria rist
+Tabs only,Ainult sakid
+"Tabs, or columns in Settings","Sakid, või veerud seadetes"
+Text,Tekst
+Text on mid-tone colors,Tekst keskmistel toonidel
+The artwork's credit only,Ainult pildi autor
+"The church, calendars and settings on screen now","Kirik, kalendrid ja seaded, mis praegu ekraanil on"
+The same page from Python; save or load these settings,Sama leht Pythonist; salvesta või laadi need seaded
+The tradition's own,Traditsiooni oma
+These:,Need:
+This church,See kirik
+This day,See päev
+This tradition,See traditsioon
+Title,Pealkiri
+To paste into another page’s HTML,Teise lehe HTML-i kleepimiseks
+Violet,Violetne
+What this page opens with,Millega see leht avaneb
+White,Valge
+Zoom,Suum
+every church,iga kirik
+https://… (blank: none),https://… (tühi: puudub)
+OK,OK
+Undo these,Võta need tagasi
+Undo the last change,Võta viimane muudatus tagasi
+Undo every change,Võta kõik muudatused tagasi
+Periods with a color of their own,Oma värviga perioodid
+Credit,Autor
+Artist or owner,Kunstnik või omanik
+License or copyright,Litsents või autoriõigus
+License link,Litsentsi link
+Source link,Allika link
+Added.,Lisatud.
+Saved.,Salvestatud.
+Undone.,Tagasi võetud.
+Removed.,Eemaldatud.
+Every change undone.,Kõik muudatused tagasi võetud.
+A feast needs a name.,Pühal peab olema nimi.
+A kind needs a key of letters and numbers.,Liigil peab olema tähtedest ja numbritest võti.
+A reading cannot be blank: Remove takes it away.,Lugemine ei saa olla tühi: Eemalda võtab selle ära.
+Choose its kind and write the reading.,Vali selle liik ja kirjuta lugemine.
+This page cannot write this church’s tradition.csv.,See leht ei saa kirjutada selle kiriku faili tradition.csv.
+Added: further readings join it with Add a reading.,Lisatud: rohkem lugemisi lisandub nupuga „Lisa lugemine“.
+Nothing on this day comes from a file this page can write.,"Miski sellel päeval ei pärine failist, mida see leht saab kirjutada."
+The day’s own,Päeva oma
+(not in a file this page can write),"(pole failis, mida see leht saab kirjutada)"
+Kept in this browser for this page. Make a page writes them into the page it makes.,Hoitakse selles brauseris selle lehe jaoks. „Tee leht“ kirjutab need tehtavasse lehte.
+"A .zip of the data files the changes make, laid out as the project's data folder",".zip muudatustest tulenevate andmefailidega, paigutatud nagu projekti andmekaust"
+"A page like this one, in one HTML file to put on a website or open from a folder: the page church_year.py makes with the same options (below). Each choice starts as the page is now.","Selline leht nagu see, ühes HTML-failis veebisaidile panemiseks või kaustast avamiseks: leht, mille church_year.py samade valikutega (allpool) teeb. Iga valik algab nii, nagu leht praegu on."
+A picture beside the page (center.svg…),Pilt lehe kõrval (center.svg…)
+Changes show on the wheel at once and are kept in this browser for this page; Make a page writes them into the page it makes.,Muudatused paistavad rattal kohe ja jäävad selle lehe jaoks sellesse brauserisse; „Tee leht“ kirjutab need tehtavasse lehte.
+"Copy the command, to make this page with the script or to set this window from it later","Kopeeri käsk, et teha see leht skriptiga või seada see aken hiljem selle järgi"
+"Not a whole page: its contents go into your own page’s HTML. To show a page that is already on a website,","Pole terve leht: selle sisu läheb sinu oma lehe HTML-i. Et näidata lehte, mis on juba veebisaidil,"
+"One row a year: Advent, Christmas, Ash Wednesday, Easter, Pentecost and the other movable dates, and how many Sundays after the Epiphany and Pentecost or Trinity (colors.py --overview). It has no iCalendar form, so with that format it comes as CSV.","Üks rida aasta kohta: advent, jõulud, tuhkapäev, lihavõtted, nelipühad ja muud liikuvad kuupäevad ning mitu pühapäeva pärast ilmumispüha ja pärast nelipühi või kolmainupüha (colors.py --overview). Sellel pole iCalendari vormi, nii et selles vormingus tuleb see CSV-na."
+"Save these settings as a small text file (the command), to load here again later","Salvesta need seaded väikese tekstifailina (käsk), et hiljem siin uuesti laadida"
+Set the window from a command: paste one copied here before (or written for church_year.py),Sea aken käsu järgi: kleebi siit varem kopeeritud (või church_year.py jaoks kirjutatud) käsk
+Set the window from a settings file saved here before,Sea aken siin varem salvestatud seadete faili järgi
+What each color looks like on the wheel: its fill and the color of text on it. A color changed for this tradition only goes into its own colors.csv; one for every church into data/colors.csv.,Kuidas iga värv rattal välja näeb: selle täide ja selle peal oleva teksti värv. Ainult selle traditsiooni jaoks muudetud värv läheb tema enda colors.csv-sse; kõigi kirikute jaoks faili data/colors.csv.
+a word in capitals: ROSE,suurtähtedes sõna: ROSE
+blank: the day’s own readings; a feast’s name keeps them to that feast,tühi: päeva enda lugemised; püha nimi piirab need selle pühaga
+"gives the data files they change, to put over the project’s own for the Python scripts.","annab muudetud andmefailid, et need projekti omadele peale panna Pythoni skriptide jaoks."
+"its key, as periods.csv names it: ADVENT","selle võti, nagu periods.csv seda nimetab: ADVENT"
+under Share is simpler.,jaotises Jaga on lihtsam.
+"--arrows-next-year, --arrows-same-year: whether the arrow keys go on into the next church year at the year's end, or round the year on the wheel (a box in the page's Settings changes it)","--arrows-next-year, --arrows-same-year: kas nooleklahvid lähevad aasta lõpus järgmisse kirikuaastasse või ringi ümber aasta rattal (lehe seadete kast muudab seda)"
+"--art: the picture the page opens on. By season: the picture of the chosen day's season, and the church's own in a season without one","--art: pilt, millega leht avaneb. Aja järgi: valitud päeva aja pilt ja kiriku oma ajal, millel pilti pole"
+--drop-art: untick a picture to leave it out of the page,"--drop-art: võta pildilt märge ära, et see lehelt välja jätta"
+"--fragment: no <html>, <head> or <body>, to paste into a page of your own","--fragment: pole <html>, <head> ega <body>, oma lehte kleepimiseks"
+"--help-link: the page the Help button opens, the user guide unless changed","--help-link: leht, mille nupp Abi avab, kasutusjuhend, kui seda ei muudeta"
+"--language: the language of the page's buttons, menus and settings until the reader chooses another (Settings > Language)","--language: lehe nuppude, menüüde ja seadete keel, kuni lugeja valib teise (Seaded > Keel)"
+"--local-art: look for center.svg (or .png, .jpg ...) beside the page when it opens and offer it in the middle. Off, the page asks for no files beside it","--local-art: otsi avamisel lehe kõrvalt center.svg (või .png, .jpg ...) ja paku seda keskele. Väljas ei küsi leht enda kõrvalt faile"
+"--no-compress when off: the tables as plain JSON, about three times the size, to read in the page's source or for a browser older than 2023","--no-compress kui väljas: tabelid lihtsa JSON-ina, umbes kolm korda suuremad, lehe lähtekoodis lugemiseks või 2023. aastast vanema brauseri jaoks"
+"--no-download: the wheel as SVG and PNG, and its lists",--no-download: ratas SVG ja PNG-na ning selle loendid
+"--no-edit: changes to the titles, colors and readings, kept in the reader's browser, and the changed files to download","--no-edit: pealkirjade, värvide ja lugemiste muudatused lugeja brauseris ning muudetud failid allalaadimiseks"
+"--no-make-page: a page like itself, as this window makes","--no-make-page: leht nagu ta ise, nagu see aken teeb"
+"--own-art: a picture of your own, for the churches you choose",--own-art: oma pilt sinu valitud kirikutele
+--zoom: 1 (the whole wheel) to 6,--zoom: 1 (kogu ratas) kuni 6
+Show or hide the {0} churches,Näita või peida traditsiooni {0} kirikud
+{0} of {1},{0}/{1}
+Left with no picture of their own (add one for them below): {0}.,Oma pildita (lisa neile allpool üks): {0}.
+choose this file again with Add a picture (a command names it but cannot carry it),"vali see fail uuesti nupuga „Lisa oma pilt“ (käsk nimetab seda, kuid ei saa seda kaasa võtta)"
+The own picture of: {0},Oma pilt kirikutele: {0}
+{0} church,{0} kirik
+{0} churches,{0} kirikut
+no church (the Artwork menu only),ükski kirik (ainult menüü Pilt)
+as drawn,nagu joonistatud
+(click to use it),(klõpsa kasutamiseks)
+Put {0} back,Taasta {0}
+{0} changed,{0} muudetud
+Every church (unless changed below),Iga kirik (kui allpool pole muudetud)
+{0} change for single traditions or churches still apply; change them “tradition by tradition” or “church by church” to see it.,"{0} muudatus üksikutele traditsioonidele või kirikutele kehtib endiselt; muuda „traditsioon traditsiooni haaval“ või „kirik kiriku haaval“, et seda näha."
+{0} changes for single traditions or churches still apply; change them “tradition by tradition” or “church by church” to see them.,"{0} muudatust üksikutele traditsioonidele või kirikutele kehtivad endiselt; muuda „traditsioon traditsiooni haaval“ või „kirik kiriku haaval“, et neid näha."
+{0} change for single churches still apply; change them “church by church” to see it.,"{0} muudatus üksikutele kirikutele kehtib endiselt; muuda „kirik kiriku haaval“, et seda näha."
+{0} changes for single churches still apply; change them “church by church” to see them.,"{0} muudatust üksikutele kirikutele kehtivad endiselt; muuda „kirik kiriku haaval“, et neid näha."
+Put them back,Taasta need
+Rings and the rest,Rõngad ja muu
+{0} words,{0}: tekst
+as each church has them,nagu igal kirikul
+Set from the command.,Seatud käsu järgi.
+Note: {0}.,Märkus: {0}.
+Could not read the command: {0},Käsku ei õnnestunud lugeda: {0}
+Nothing to save yet: {0}.,Veel pole midagi salvestada: {0}.
+Saved {0}.,Salvestatud {0}.
+Set from {0}.,Seatud faili {0} järgi.
+Could not read {0}: {1},Faili {0} ei õnnestunud lugeda: {1}
+Copied.,Kopeeritud.
+Selected: copy it with Ctrl+C (⌘C on a Mac).,Valitud: kopeeri klahvidega Ctrl+C (⌘C Macis).
+The kind {0} is kept; give it a reading.,Liik {0} jääb alles; anna sellele lugemine.
+"The kinds of reading {0} has, in the order a set lists them. A new kind is added with a reading of it (This day).","Lugemiste liigid, mis kirikul {0} on, selles järjekorras, nagu rida neid loetleb. Uus liik lisandub selle lugemisega (See päev)."
+Kept as reading_labels and reading_order in {0}.,Salvestatud kui reading_labels ja reading_order failis {0}.
+The colors of {0}’s seasons. A color may name others the church allows after it: PURPLE; blue.,"Kiriku {0} aegade värvid. Värv võib enda järel nimetada teisi, mida kirik lubab: PURPLE; blue."
+This page cannot write {0}.,See leht ei saa kirjutada faili {0}.
+This tradition ({0}),See traditsioon ({0})
+"This page was made with changes to: {0}. They are part of it, and Download changed files includes these files.",See leht tehti muudatustega failides: {0}. Need on selle osa ja „Laadi alla muudetud failid“ võtab need failid kaasa.
+{0}: {1} change,{0}: {1} muudatus
+{0}: {1} changes,{0}: {1} muudatust
+Downloaded {0} file.,Laaditi alla {0} fail.
+Downloaded {0} files.,Laaditi alla {0} faili.
+"Saved {0} ({1} MB, {2} church).","Salvestatud {0} ({1} MB, {2} kirik)."
+"Saved {0} ({1} MB, {2} churches).","Salvestatud {0} ({1} MB, {2} kirikut)."
+Could not make the page: {0},Lehte ei õnnestunud teha: {0}
+"Choose the wheel, a list, or both.","Vali ratas, loend või mõlemad."
+"The Feasts setting is None: choose another, or “with major days”, for a feasts list.",Pühade seade on Puudub: vali muu või „peamiste pühadega“ pühade loendi jaoks.
+Drawing {0}…,Joonistan {0}…
+Listing the readings…,Loetlen lugemisi…
+Listing the colors…,Loetlen värve…
+Listing the years…,Loetlen aastaid…
+Listing the feasts…,Loetlen pühi…
+Saved {0} files in a .zip.,Salvestatud {0} faili .zip-failina.
+Your own picture could not be read from here and is left out.,Sinu oma pilti ei õnnestunud siit lugeda ja see jäetakse välja.
+Could not make the files: {0},Faile ei õnnestunud teha: {0}
+The last year is before the first.,Viimane aasta on enne esimest.
+At most {0} years at a time.,Korraga kõige rohkem {0} aastat.
+The church year {0}.,Kirikuaasta {0}.
+"{0} church years, {1} to {2}.","{0} kirikuaastat, {1} kuni {2}."
+The PNGs make this about {0} and take a while; a narrower PNG makes it smaller.,PNG-failid tulevad umbes {0} ja võtavad aega; kitsam PNG teeb need väiksemaks.
+{0}: {1} for {2},"{0}: {1}, {2}"
+{0} to {1},{0} kuni {1}
+readings,lugemised
+colors,värvid
+the year at a glance,aasta ühe pilguga
+feasts and major days,pühad ja peamised pühad
+feasts,pühad
+"{0}, {1} {2}, {3}","{0}, {2}. {1} {3}"
+Monday,esmaspäev
+Tuesday,teisipäev
+Wednesday,kolmapäev
+Thursday,neljapäev
+Friday,reede
+Saturday,laupäev
+Sunday,pühapäev
+January,jaanuar
+February,veebruar
+March,märts
+April,aprill
+May,mai
+June,juuni
+July,juuli
+August,august
+September,september
+October,oktoober
+November,november
+December,detsember
+Made by {0} from the church year calendar's data.,Tegi {0} kirikuaasta kalendri andmetest.
+Each reading opens at {0} in the {1}; each heading opens its set's readings together at Bible Gateway (its propers apart).,Iga lugemine avaneb saidil {0} tõlkes {1}; iga pealkiri avab rea lugemised koos Bible Gateway's (proprium eraldi).
+"Each color is the day's own, the top of its cell on the wheel; the others the church allows follow in parentheses, and the lower half's is given where the wheel splits the cell.","Iga värv on päeva enda oma, selle lahtri ülaosa rattal; teised, mida kirik lubab, järgnevad sulgudes, ja alumise poole oma antakse seal, kus ratas lahtri jagab."
+"Each color is the day's own, the top of its cell on the wheel.","Iga värv on päeva enda oma, selle lahtri ülaosa rattal."
+Date,Kuupäev
+Feast,Püha
+Level,Aste
+Liturgical color: {0},Liturgiline värv: {0}
+; lower half {0},; alumine pool {0}
+transferred from {0} {1},viidud üle {1}. {0}
+Principal feasts only: those whose color replaces the season's.,"Ainult peamised pühad: need, mille värv asendab aja oma."
+Festivals: the feasts that color their day or its lower half.,"Suured pühad: pühad, mis värvivad oma päeva või selle alumise poole."
+"With the major days: the principal days set on dates of their own, Christmas, Easter, Pentecost and the like; a blank color is the season's.","Peamiste pühadega: peamised pühad omal kuupäeval, jõulud, lihavõtted, nelipühad ja muud sellised; tühi värv on aja oma."
+principal,peamine püha
+festival,suur püha
+commemoration,mälestuspäev
+major day,peamine püha
+read by {0} churches: a change here changes them all,loevad {0} kirikut: muudatus siin muudab neid kõiki
+a run of days: the change is the whole run’s,päevade rida: muudatus kehtib kogu reale

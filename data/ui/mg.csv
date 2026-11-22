@@ -1,0 +1,487 @@
+english,translation
+"# The page's own words (buttons, menus, settings and their notes) in this language: the English as the page writes it, then its translation. {0}, {1} ... stand for what the page fills in. A missing or blank line stays English."
+Settings,Fandrindrana
+Simple,Tsotra
+All,Rehetra
+Language,Fiteny
+Match the church,Araka ny fiangonana
+Browser ({0}),Mpitety ({0})
+Year,Taona
+Tradition,Fomban-drazana
+Church,Fiangonana
+Hymnal,Fihirana
+Lectionary,Filaharan'ny famakiana
+Feasts,Fety
+Festivals,Fety lehibe
+Principal only,Ireo fety lehibe ihany
+None,Tsy misy
+Bible,Baiboly
+Readings shown as,Aseho ho
+Tabs,Takelaka
+Columns,Tsanganana
+Calendar and names,Tetiandro sy anarana
+Calendar,Tetiandro
+Gregorian,Gregoriana
+Julian (Old Calendar),Joliana (tetiandro taloha)
+Revised Julian (New Calendar),Joliana nohavaozina (tetiandro vaovao)
+Easter,Paska
+With the calendar,Araka ny tetiandro
+Western,Tandrefana
+Eastern,Atsinanana
+Latin names,Anarana latina
+Readings,Famakiana
+The day's propers,Famakian'ny andro
+Feasts and festivals,Fety sy fankalazana
+Other dated days,Andro hafa misy daty
+Daily lectionary,Famakiana isan'andro
+Additional readings,Famakiana fanampiny
+Psalm table,Tabilaon'ny salamo
+Bible reading plan,Drafitra famakiana Baiboly
+Office lessons,Famakiana amin'ny vavaka isan'ora
+Open in,Sokafy ao amin'ny
+Slide,Fikorisana
+Off,Maty
+Quick,Haingana
+Medium,Antonony
+Slow,Miadana
+Propers,Fizarana fanompoam-pivavahana
+Hymn search,Fitadiavana hira
+Contemporary song search,Fitadiavana hira fiderana maoderina
+The wheel,Kodiarana
+Artwork,Sary
+Thicker line where the year begins,Tsipika matevina kokoa amin'ny fiandoham-taona
+Arrow keys go on into the next year,Ny zana-tsipika dia mitohy amin'ny taona manaraka
+Dark text on reds,Soratra maizina amin'ny mena
+Under the wheel,Ambanin'ny kodiarana
+Instructions and notes,Torolalana sy fanamarihana
+Artwork credit,Mpanao ny sary
+Rings,Peratra
+Outer band,Fehikibo ivelany
+Seasons,Fotoana
+Months,Volana
+Parts of the year,Ampahan'ny taona
+Day cells,Efajoron'ny andro
+Center artwork,Sary afovoany
+Colors…,Loko…
+Colors,Loko
+Days,Andro
+Close,Hidio
+Reset colors,Averina ny loko
+Reset settings,Averina ny fandrindrana
+Share,Zarao
+Copy link,Adikao ny rohy
+Copy embed code,Adikao ny kaody hampidirina
+Print,Atontay
+Download…,Ampidino…
+Download,Ampidino
+Years,Taona
+From,Manomboka
+to,hatramin'ny
+pixels wide,piksely ny sakany
+Background,Ambadika
+clear,mangarahara
+white,fotsy
+Lists,Lisitra
+Sundays,Alahady
+Sundays and principal days,Alahady sy fety lehibe
+every day,isan'andro
+every named day,isaky ny andro manana anarana
+with links,misy rohy
+with major days,miaraka amin'ny fety lehibe
+other colors,loko hafa
+Format,Endrika
+CSV (spreadsheet),CSV (tabilao)
+HTML (to print),HTML (hatonta)
+iCalendar (.ics),iCalendar (.ics)
+PNG (a picture),PNG (sary)
+"SVG (a drawing, sharp at any size)","SVG (sary vita amin'ny tsipika, mazava amin'ny habe rehetra)"
+The year at a glance,Ny taona raha jerena indray mandeha
+Today,Androany
+Week,Herinandro
+Find a day,Hitady andro
+Help,Fanampiana
+Feedback,Hevitra
+About the artwork,Momba ny sary
+Choose a date,Mifidiana daty
+Previous day,Andro teo aloha
+Next day,Andro manaraka
+Zoom in,Ahalehibe
+Zoom out,Ahakely
+Zoom in (+),Ahalehibe (+)
+Zoom out (−),Ahakely (−)
+Magnification,Fanalehibiazana
+The week before,Ny herinandro teo aloha
+The week after,Ny herinandro manaraka
+Days with that name,Andro mitondra io anarana io
+Find a day by its name,Hitady andro amin'ny anarany
+Church Year {0},Taom-piangonana {0}
+Jump to today (T) — {0},Mankany androany (T) — {0}
+Read about {0},Vakio momba ny {0}
+{0} ({1} hymns) in {2},{0} (hira {1}) ao amin'ny {2}
+Hymns on {0} in {1} at Hymnary.org,Hira momba ny {0} ao amin'ny {1} ao amin'ny Hymnary.org
+Hymns for these readings in {0} at Hymnary.org,Hira ho an'ireo famakiana ireo ao amin'ny {0} ao amin'ny Hymnary.org
+Hymns for these propers in {0} at Hymnary.org,Hira ho an'ireo fizarana ireo ao amin'ny {0} ao amin'ny Hymnary.org
+the church's hymnal,fihiran'ny fiangonana
+Contemporary worship songs for these readings at Word to Worship,Hira fiderana maoderina ho an'ireo famakiana ireo ao amin'ny Word to Worship
+Contemporary worship songs for these propers at Word to Worship,Hira fiderana maoderina ho an'ireo fizarana ireo ao amin'ny Word to Worship
+Open all these readings together at Bible Gateway,Sokafy miaraka ao amin'ny Bible Gateway ireo famakiana rehetra ireo
+Open these propers together at Bible Gateway,Sokafy miaraka ao amin'ny Bible Gateway ireo fizarana ireo
+▴ less,▴ kely kokoa
+▾ more,▾ bebe kokoa
+▾ {0} more,▾ {0} hafa
+Show two lines again,Asehoy andalana roa indray
+Show all of this set’s readings,Asehoy ny famakiana rehetra amin'ity andiany ity
+Show all the day’s readings,Asehoy ny famakiana rehetran'ny andro
+Show the readings in three lines again,Asehoy amin'ny andalana telo indray ny famakiana
+No day of {0} by that name,Tsy misy andro ao amin'ny {0} mitondra io anarana io
+Choose {0} on the wheel,Fidio eo amin'ny kodiarana ny {0}
+In another church year: choose the day to draw it.,Amin'ny taom-piangonana hafa: fidio ny andro mba hanaovana azy.
+Copied,Voadika
+Copy failed,Tsy nahomby ny fandikana
+"The language of the page's buttons, menus and settings. The calendar's names, dates and readings stay in the church's language.","Ny fitenin'ny bokotra, menio ary fandrindrana ny pejy. Ny anarana, daty ary famakiana ao amin'ny tetiandro dia mijanona amin'ny fitenin'ny fiangonana."
+"The church year wheel: left and right arrow keys step a week, up and down a day","Ny kodiaran'ny taom-piangonana: ny zana-tsipika havia sy havanana dia mandroso herinandro, ambony sy ambany andro iray"
+"The settings most often changed: the year, the church, the feasts, the Bible and how the readings are shown","Ireo fandrindrana ovaina matetika indrindra: ny taona, ny fiangonana, ny fety, ny Baiboly ary ny fomba anehoana ny famakiana"
+"Every setting: the calendar, the kinds of reading, the searches, the artwork, the rings and colors, and making a page or editing the data","Ny fandrindrana rehetra: ny tetiandro, ny karazana famakiana, ny fikarohana, ny sary, ny peratra sy loko, ary ny fanaovana pejy na fanovana ny angona"
+"The year the church year begins in: Advent for most traditions, September for the Eastern Orthodox","Ny taona anombohan'ny taom-piangonana: amin'ny Advento ho an'ny ankamaroan'ny fomban-drazana, amin'ny septambra ho an'ny Ortodoksa"
+The family of churches,Ny fianakavian'ny fiangonana
+Which church's calendar the wheel follows,Ny tetiandron'ny fiangonana arahin'ny kodiarana
+"All: every commemoration. Festivals: the festivals and feasts (in the Roman calendar, solemnities and feasts). Principal: only the principal days (solemnities). None: the saints' days are left off.","Rehetra: ny fahatsiarovana rehetra. Fety lehibe: ny fety lehibe sy ny fety (ao amin'ny tetiandro romana, fankalazana lehibe sy fety). Ireo fety lehibe ihany: ireo andro lehibe ihany. Tsy misy: esorina ny andron'ny olomasina."
+The translation the readings open in. Each church starts on the one it uses (ESV where it names none).,Ny dikan-teny anokafana ny famakiana. Ny fiangonana tsirairay dia manomboka amin'izay ampiasainy (ESV raha tsy misy tononina).
+"How the day's readings are shown when there are several sets: one at a time under tabs, or all of them in columns (on the right, and across two columns when opened with more)","Ny fomba anehoana ny famakian'ny andro raha misy andiany maromaro: tsirairay ao ambanin'ny takelaka, na izy rehetra amin'ny tsanganana (eo ankavanana, ary amin'ny tsanganana roa raha sokafana amin'ny bebe kokoa)"
+Which calendar the dates are reckoned in,Ny tetiandro anisana ny daty
+"How Easter is dated, which is a separate question from how the days are named. Left to follow the calendar, a Gregorian wheel keeps Western Easter and the other two keep the Eastern one.","Ny fomba amaritana ny datin'ny Paska, izay fanontaniana hafa noho ny fomba fanomezana anarana ny andro. Raha manaraka ny tetiandro, ny kodiarana gregoriana dia mitazona ny Paska tandrefana ary ny roa hafa ny an'ny atsinanana."
+"Name the one-year Sundays as the historic calendar does, from the first words of the day's Introit: Ad Te Levavi, Laetare, Quasimodo Geniti","Omeo anarana toy ny ao amin'ny tetiandro ara-tantara ny Alahadin'ny filaharana iray taona, avy amin'ny teny voalohan'ny introitus amin'ny andro: Ad Te Levavi, Laetare, Quasimodo Geniti"
+List the day's Bible readings under its name. Each kind can be left out; only the kinds this church's lectionary has are offered.,Ataovy lisitra eo ambanin'ny anaran'ny andro ny famakiana Baiboly. Azo esorina ny karazana tsirairay; ireo karazana ananan'ny filaharan'ny famakian'ity fiangonana ity ihany no atolotra.
+"The lessons of the day's own propers: its Sunday, holy day or season, and any other service its book appoints for it","Ny famakiana voatokana ho an'ny andro: ny Alahadiny, ny andro masina na ny fotoana, ary izay fanompoam-pivavahana hafa voatendrin'ny bokiny ho azy"
+"The lessons of a saint's day or festival, listed only while the wheel shows it (see Feasts)","Ny famakian'ny andron'olomasina na fety, aseho raha mbola asehon'ny kodiarana ihany (jereo Fety)"
+"The lessons of a day the calendar does not name, kept by its date or a date rule: Ember and Rogation Days, Thanksgiving, New Year's and national days, the Saturdays before and after a feast","Ny famakian'ny andro tsy omen'ny tetiandro anarana, araka ny daty na fitsipika: andro fifadian-kanina sy fivavahana, Fisaorana, Taom-baovao sy andro nasionaly, ireo Asabotsy alohan'ny fety sy aorian'izany"
+The hymnal's or prayer book's daily or weekday lectionary,Ny filaharan'ny famakiana isan'andro na andro fiasana ao amin'ny fihirana na boky fivavahana
+"The additional readings a daily lectionary offers beside its own, for reading more of the Bible (Lutheran Service Book prints them in italics)","Ny famakiana fanampiny atolotry ny filaharana isan'andro ankoatra ny azy, mba hamakiana bebe kokoa ny Baiboly (soratan'ny Lutheran Service Book amin'ny sora-mandry izy ireo)"
+"A table of psalms for daily prayer, morning and evening, by season and weekday (Lutheran Service Book, p. 304)","Tabilaon'ny salamo ho an'ny vavaka isan'andro, maraina sy hariva, araka ny fotoana sy ny andro amin'ny herinandro (Lutheran Service Book, p. 304)"
+"A plan of daily Bible reading kept by the calendar year: Reading the Word of God (LCMS, LCC and NALC), through the Old Testament in three years and the Psalms and New Testament twice","Drafitra famakiana Baiboly isan'andro araka ny taona: Reading the Word of God (LCMS, LCC ary NALC), ny Testamenta Taloha ao anatin'ny telo taona ary ny Salamo sy ny Testamenta Vaovao indroa"
+"The lessons of the Office: Morning and Evening Prayer, Matins, a second or third service","Ny famakiana amin'ny vavaka isan'ora: vavaka maraina sy hariva, matina, fanompoam-pivavahana faharoa na fahatelo"
+"Where a reading opens. On a phone or tablet either one opens in its own app when the app is installed, and in the browser otherwise.","Ny toerana anokafana ny famakiana. Amin'ny finday na takelaka, samy misokatra ao amin'ny fampiharana azy raha voapetraka izy, raha tsy izany ao amin'ny mpitety."
+How fast the sets slide between the columns when more or less is clicked (kept in this browser),Ny hafainganan'ny fikorisan'ny andiany eo anelanelan'ny tsanganana rehefa tsindriana ny bebe kokoa na kely kokoa (voatahiry ao amin'ity mpitety ity)
+"The parts of the service the church lists with each day's readings (an Introit, a Gradual and a Verse), on a line of their own after them; a set's heading opens only its readings together","Ny fizaran'ny fanompoam-pivavahana tanisain'ny fiangonana miaraka amin'ny famakiana isan'andro (introitus, graduale ary andininy), amin'ny andalana manokana aoriany; ny lohatenin'ny andiany dia manokatra ny famakiany ihany miaraka"
+A hymnal mark after each set of readings that searches Hymnary.org for the hymns on them in this church's hymnal,Marika fihirana aorian'ny andiana famakiana tsirairay izay mitady ao amin'ny Hymnary.org ny hira momba azy ireo ao amin'ny fihiran'ity fiangonana ity
+"The hymnal Hymn search looks in, where the church has several","Ny fihirana itadiavan'ny Fitadiavana hira, raha manana maromaro ny fiangonana"
+A circled note after each set of readings that searches Word to Worship (wordtoworship.com) for contemporary worship songs on them,Naoty ao anaty faribolana aorian'ny andiana famakiana tsirairay izay mitady ao amin'ny Word to Worship (wordtoworship.com) hira fiderana maoderina momba azy ireo
+"The picture in the middle of the wheel. Each tradition has its own; any of them can be chosen. By season changes it with the day chosen: the wreath in Advent, the manger at Christmas, the empty tomb at Easter, and the church's own picture in the seasons that have none.","Ny sary eo afovoan'ny kodiarana. Samy manana ny azy ny fomban-drazana tsirairay; azo fidiana izay tianao. «Araka ny fotoana» dia manova azy araka ny andro voafidy: ny fehiloha amin'ny Advento, ny fihinanam-bilona amin'ny Krismasy, ny fasana foana amin'ny Paska, ary ny sarin'ny fiangonana amin'ireo fotoana tsy manana."
+"A thicker line where the year's last week meets its first, which are a year apart","Tsipika matevina kokoa izay ifanenan'ny herinandro farany amin'ny taona sy ny voalohany, izay misy elanelana taona iray"
+"Checked: at the end of the church year the arrow keys go on into the next year's wheel, and back into the last. Unchecked: they go round the year on the wheel, from its last week to its first. Page Up and Page Down and the ◀ ▶ buttons always go on.","Voamarika: amin'ny fiafaran'ny taom-piangonana, ny zana-tsipika dia mitohy amin'ny kodiaran'ny taona manaraka ary miverina amin'ny teo aloha. Tsy voamarika: mihodina amin'ny taona eo amin'ny kodiarana izy, avy amin'ny herinandro farany ka hatramin'ny voalohany. Ny Page Up, Page Down ary ny bokotra ◀ ▶ dia mitohy foana."
+"The reds in the middle of the range (the LCMS, Roman and Presbyterian reds) read about as well with black text as with white. Checked: black on them.","Ny mena eo afovoan'ny tari-dalana (ny mena LCMS, romana ary presbyteriana) dia mamakiana tsara amin'ny soratra mainty toy ny amin'ny fotsy. Voamarika: mainty eo amboniny."
+"How to use the wheel, the calendar's notes and how long it took to draw","Ny fomba fampiasana ny kodiarana, ny fanamarihan'ny tetiandro ary ny faharetan'ny fanaovana azy"
+"Who made the picture in the middle, and its license. When it is off and the license asks for credit, a small i button keeps it a click away.","Ny nanao ny sary eo afovoany sy ny fahazoan-dàlana. Raha maty izy ary mitaky fanononana ny fahazoan-dàlana, misy bokotra i kely mitahiry izany ho tsindry iray monja."
+"The colors the days and the rings are painted in, each of which can be changed for this page",Ny loko andokoana ny andro sy ny peratra; samy azo ovaina ho an'ity pejy ity
+The colors on the wheel this year. Click a swatch to change it; the change is kept in the page's link. Text on a day stays readable: it turns black or white if it would not.,Ny loko eo amin'ny kodiarana amin'ity taona ity. Tsindrio ny santionany raha hanova azy; voatahiry ao amin'ny rohin'ny pejy ny fanovana. Mbola azo vakiana ny soratra amin'ny andro: lasa mainty na fotsy izy raha tsy izany.
+Put every color back to the page's own,Avereno amin'ny lokon'ny pejy ny loko tsirairay
+"Put every setting here back to what config.csv asks for, keeping the day on the wheel","Avereno amin'izay takian'ny config.csv ny fandrindrana rehetra eto, tazonina eo amin'ny kodiarana ny andro"
+"Copy a link that opens on this day, with these settings","Adikao rohy misokatra amin'ity andro ity, miaraka amin'ireo fandrindrana ireo"
+"Copy a line of HTML that shows this page inside a page of your own website (an iframe), opening on the day it is read, with these settings","Adikao andalana HTML izay mampiseho ity pejy ity ao anatin'ny pejin'ny tranonkalanao (iframe), misokatra amin'ny andro amakiana azy, miaraka amin'ireo fandrindrana ireo"
+Print the whole wheel on one page,Atontay amin'ny pejy iray ny kodiarana manontolo
+"Download the wheel (SVG, PNG) and lists of its readings, colors and feasts, for this year or a run of years","Ampidino ny kodiarana (SVG, PNG) sy ny lisitry ny famakiana, loko ary fetiny, ho an'ity taona ity na taona maromaro misesy"
+"The wheel and its lists as they are here, with these settings: the church, calendars, feasts, readings, rings, colors and artwork.","Ny kodiarana sy ny lisitra araka ny eto, miaraka amin'ireo fandrindrana ireo: ny fiangonana, ny tetiandro, ny fety, ny famakiana, ny peratra, ny loko ary ny sary."
+"Each day's readings, as the Readings boxes and the Feasts setting choose them","Ny famakiana isan'andro, araka ny ifidianan'ny boatin'ny Famakiana sy ny fandrindrana Fety azy"
+Each reading opens where Open in and Bible say; each set's heading opens all its readings,Ny famakiana tsirairay dia misokatra amin'izay lazain'ny Sokafy ao amin'ny sy Baiboly; ny lohatenin'ny andiany tsirairay dia manokatra ny famakiany rehetra
+The Sundays and principal days (or every day) with the color the wheel paints them,Ny Alahady sy ny fety lehibe (na isan'andro) miaraka amin'ny loko andokoan'ny kodiarana azy
+"The other colors the church allows, and the lower half's where the wheel splits a cell (in the feasts list too)","Ny loko hafa avelan'ny fiangonana, ary ny an'ny antsasany ambany raha mizara efajoro ny kodiarana (ao amin'ny lisitry ny fety koa)"
+"The festivals, saints' days and commemorations the Feasts setting keeps, on the days they fall","Ny fety lehibe, ny andron'ny olomasina ary ny fahatsiarovana tazonin'ny fandrindrana Fety, amin'ny andro ianjerany"
+"Also Christmas, Easter, Pentecost and the other principal days on dates of their own","Ary koa ny Krismasy, Paska, Pentekosta ary ny fety lehibe hafa amin'ny daty manokana"
+"Where to read about each, as the readout links it","Ny toerana hamakiana momba ny tsirairay, araka ny rohy ataon'ny fampisehoana"
+"Previous day (up arrow; left arrow: a week, Shift: a month)","Andro teo aloha (zana-tsipika miakatra; havia: herinandro, Shift: volana)"
+"Next day (down arrow; right arrow: a week, Shift: a month)","Andro manaraka (zana-tsipika midina; havanana: herinandro, Shift: volana)"
+Magnification: 1× (the whole wheel) to 6×,Fanalehibiazana: 1× (ny kodiarana manontolo) hatramin'ny 6×
+"Type a Sunday's, a season's or a feast's name and pick it: the wheel goes to that day in the year shown (F)","Soraty ny anaran'ny Alahady, fotoana na fety ary fidio: mankany amin'io andro io amin'ny taona aseho ny kodiarana (F)"
+"The chosen day's week in a list: each day's names, color and readings (W)","Ny herinandron'ny andro voafidy amin'ny lisitra: ny anarana, loko ary famakiana isan'andro (W)"
+"Print this week's days and readings, a page or two to hand round","Atontay ny andro sy famakiana amin'ity herinandro ity, pejy iray na roa hozaraina"
+"How to use this page: every control, key and setting","Ny fomba fampiasana ity pejy ity: ny bokotra, ny lakile ary ny fandrindrana rehetra"
+"Send feedback about this page: the day, church and settings on screen go with it","Alefaso ny hevitrao momba ity pejy ity: miaraka aminy ny andro, ny fiangonana ary ny fandrindrana eo amin'ny efijery"
+"Type any year and the wheel is drawn for it. Click a cell, use the arrow keys, or pick a date.","Soraty izay taona tianao dia hosoritana ho azy ny kodiarana. Tsindrio ny efajoro iray, ampiasao ny zana-tsipika, na mifidiana daty."
+"Tap a cell, pinch to zoom, or pick a date.","Kasiho ny efajoro iray, sokafy amin'ny rantsan-tanana mba hanalehibe, na mifidiana daty."
+A new kind…,Karazany vaovao…
+About the feasts only,Momba ny fety ihany
+Add,Ampio
+Add a color,Ampio loko
+Add a feast on this date,Ampio fety amin'ity daty ity
+Add a picture of your own…,Ampio sary anao manokana…
+Add a reading to this set,Ampio famakiana amin'ity andiany ity
+Add a season,Ampio fotoana
+Add a set of readings on this date,Ampio andiana famakiana amin'ity daty ity
+Additional,Fanampiny
+Advent: four candles lit,Advento: labozia efatra mirehitra
+Advent: one candle lit,Advento: labozia iray mirehitra
+Advent: three candles lit,Advento: labozia telo mirehitra
+Advent: two candles lit,Advento: labozia roa mirehitra
+Armenian cross,Lakroa armeniana
+As each color sets it,Araka ny apetraky ny loko tsirairay
+As on screen,Araka ny eo amin'ny efijery
+As this page opens,Araka ny fisokafan'ity pejy ity
+Black,Mainty
+Blue,Manga
+Burning bush,Ala kirihitra nirehitra
+Buttons it shows,Bokotra asehony
+By season,Araka ny fotoana
+"Calendar (Gregorian, Julian, Revised Julian)","Tetiandro (gregoriana, joliana, joliana nohavaozina)"
+Canterbury cross,Lakroan'i Canterbury
+Celtic cross,Lakroa kelta
+Chalice and host,Kalisy sy mofo
+Change for,Ovay ho an'ny
+Changes,Fanovana
+Chi-Rho,Mariky ny anaran'i Kristy
+Christmas: the manger,Krismasy: ny fihinanam-bilona
+Churches it offers,Fiangonana atolony
+Color,Loko
+Columns only,Tsanganana ihany
+"Columns, or tabs in Settings","Tsanganana, na takelaka ao amin'ny Fandrindrana"
+Coptic cross,Lakroa kopta
+Copy,Adikao
+Daily,Isan'andro
+Dark,Maizina
+Dark on reds,Maizina amin'ny mena
+Day,Andro
+Download changed files,Ampidino ireo rakitra niova
+Each church's first,Ny voalohan'ny fiangonana tsirairay
+Each church's own,Ny an'ny fiangonana tsirairay
+Earlier,Teo aloha
+Easter (Western or Eastern),Paska (tandrefana na atsinanana)
+Easter: the empty tomb,Paska: ny fasana foana
+Edit the data,Ovay ny angona
+Edit the data…,Ovay ny angona…
+Epiphany: the star and crowns,Epifania: ny kintana sy ny satroboninahitra
+Ethiopian cross,Lakroa etiopiana
+Every church,Fiangonana rehetra
+Every version,Dikan-teny rehetra
+Feedback link,Rohy ho an'ny hevitra
+File name,Anaran'ny rakitra
+Fill,Fameno
+Full name,Anarana feno
+Gold,Volamena
+Green,Maitso
+Help link,Rohy ho an'ny fanampiana
+Holy Week: three crosses,Herinandro Masina: lakroa telo
+"Instructions, notes and credit","Torolalana, fanamarihana ary mpanao"
+It opens,Misokatra
+Kinds of reading,Karazana famakiana
+Later,Taty aoriana
+Lent: the cross and thorns,Fiomanana amin'ny Paska: ny lakroa sy ny tsilo
+Light,Mazava
+Link,Rohy
+Links,Rohy
+Load settings…,Hampiditra fandrindrana…
+Lower half,Antsasany ambany
+Luther rose,Raozin'i Lotera
+Make a page,Hanao pejy
+Make a page…,Hanao pejy…
+Make the page,Ataovy ny pejy
+Moravian star,Kintana moraviana
+Morello,Morello
+Name,Anarana
+Names (a pattern),Anarana (modely)
+Names and colors,Anarana sy loko
+No changes on this page yet.,Mbola tsy misy fanovana amin'ity pejy ity.
+None (each church's own version),Tsy misy (ny dikan-tenin'ny fiangonana tsirairay)
+None (no box and no marks),Tsy misy (tsy misy boaty na marika)
+None (plain text),Tsy misy (soratra tsotra)
+Nothing,Tsy misy na inona na inona
+Off (the box unchecked),Maty (tsy voamarika ny boaty)
+Office,Vavaka isan'ora
+On,Velona
+On the year beginning in Advent,Amin'ny taona manomboka amin'ny Advento
+Only this one,Ity ihany
+Outside the year,Ivelan'ny taona
+"Packed, about a third of the size","Voafintina, eo amin'ny ampahatelon'ny habeny"
+Pentecost: the dove and flames,Pentekosta: ny voromailala sy ny lelafo
+Pictures kept,Sary voatazona
+Purple,Volomparasy
+Reading plan,Drafitra famakiana
+Readings and links,Famakiana sy rohy
+Red,Mena
+Remove,Esory
+Remove this reading,Esory ity famakiana ity
+Rose,Mavokely
+Save,Tehirizo
+Save settings…,Tehirizo ny fandrindrana…
+Scarlet,Mena midorehitra
+Season,Fotoana
+Set the window from it,Ampifanaraho aminy ny varavarankely
+Settings it shows,Fandrindrana asehony
+Syriac cross,Lakroa syriana
+Tabs only,Takelaka ihany
+"Tabs, or columns in Settings","Takelaka, na tsanganana ao amin'ny Fandrindrana"
+Text,Soratra
+Text on mid-tone colors,Soratra amin'ny loko antonony
+The artwork's credit only,Ny mpanao ny sary ihany
+"The church, calendars and settings on screen now","Ny fiangonana, ny tetiandro ary ny fandrindrana eo amin'ny efijery ankehitriny"
+The same page from Python; save or load these settings,Ilay pejy ihany avy amin'ny Python; tehirizo na ampidiro ireo fandrindrana ireo
+The tradition's own,Ny an'ny fomban-drazana
+These:,Ireto:
+This church,Ity fiangonana ity
+This day,Ity andro ity
+This tradition,Ity fomban-drazana ity
+Title,Lohateny
+To paste into another page’s HTML,Hapetaka ao amin'ny HTML-n'ny pejy hafa
+Violet,Volomparasy manjelanjelatra
+What this page opens with,Izay anokafan'ity pejy ity
+White,Fotsy
+Zoom,Fanalehibiazana
+every church,fiangonana rehetra
+https://… (blank: none),https://… (foana: tsy misy)
+OK,OK
+Undo these,Foano ireo
+Undo the last change,Foano ny fanovana farany
+Undo every change,Foano ny fanovana rehetra
+Periods with a color of their own,Vanim-potoana manana loko manokana
+Credit,Mpanao
+Artist or owner,Mpanakanto na tompony
+License or copyright,Fahazoan-dàlana na zon'ny mpamorona
+License link,Rohin'ny fahazoan-dàlana
+Source link,Rohin'ny loharano
+Added.,Nampiana.
+Saved.,Voatahiry.
+Undone.,Nofoanana.
+Removed.,Nesorina.
+Every change undone.,Nofoanana ny fanovana rehetra.
+A feast needs a name.,Mila anarana ny fety.
+A kind needs a key of letters and numbers.,Mila lakile vita amin'ny litera sy isa ny karazany.
+A reading cannot be blank: Remove takes it away.,Tsy azo atao foana ny famakiana: ny Esory no manala azy.
+Choose its kind and write the reading.,Fidio ny karazany ary soraty ny famakiana.
+This page cannot write this church’s tradition.csv.,Tsy afaka manoratra ny tradition.csv an'ity fiangonana ity ity pejy ity.
+Added: further readings join it with Add a reading.,Nampiana: ny famakiana hafa dia ampiana amin'ny “Ampio famakiana”.
+Nothing on this day comes from a file this page can write.,Tsy misy avy amin'ny rakitra azon'ity pejy ity soratana ny eto amin'ity andro ity.
+The day’s own,Ny an'ny andro
+(not in a file this page can write),(tsy ao amin'ny rakitra azon'ity pejy ity soratana)
+Kept in this browser for this page. Make a page writes them into the page it makes.,Voatahiry ao amin'ity mpitety ity ho an'ity pejy ity. Ny “Hanao pejy” no manoratra azy ireo ao amin'ny pejy ataony.
+"A .zip of the data files the changes make, laid out as the project's data folder","Rakitra .zip misy ireo rakitra angona vokatry ny fanovana, voalamina toy ny lahatahiry angon'ny tetikasa"
+"A page like this one, in one HTML file to put on a website or open from a folder: the page church_year.py makes with the same options (below). Each choice starts as the page is now.","Pejy toy ity, ao anaty rakitra HTML iray hapetraka amin'ny tranonkala na hosokafana avy amin'ny lahatahiry: ny pejy ataon'ny church_year.py miaraka amin'ireo safidy ireo ihany (eto ambany). Manomboka araka ny pejy ankehitriny ny safidy tsirairay."
+A picture beside the page (center.svg…),Sary eo anilan'ny pejy (center.svg…)
+Changes show on the wheel at once and are kept in this browser for this page; Make a page writes them into the page it makes.,Hita avy hatrany eo amin'ny kodiarana ny fanovana ary voatahiry ao amin'ity mpitety ity ho an'ity pejy ity; ny “Hanao pejy” no manoratra azy ireo ao amin'ny pejy ataony.
+"Copy the command, to make this page with the script or to set this window from it later","Adikao ny baiko, mba hanaovana ity pejy ity amin'ny script na hampifanarahana ity varavarankely ity aminy any aoriana"
+"Not a whole page: its contents go into your own page’s HTML. To show a page that is already on a website,","Tsy pejy manontolo: miditra ao amin'ny HTML-n'ny pejinao ny votoatiny. Mba hampisehoana pejy efa misy amin'ny tranonkala,"
+"One row a year: Advent, Christmas, Ash Wednesday, Easter, Pentecost and the other movable dates, and how many Sundays after the Epiphany and Pentecost or Trinity (colors.py --overview). It has no iCalendar form, so with that format it comes as CSV.","Andalana iray isan-taona: Advento, Krismasy, Alarobian'ny Lavenona, Paska, Pentekosta ary ireo daty mihetsika hafa, ary ny isan'ny Alahady aorian'ny Epifania sy aorian'ny Pentekosta na ny Trinite (colors.py --overview). Tsy manana endrika iCalendar izy, ka amin'io endrika io dia tonga ho CSV."
+"Save these settings as a small text file (the command), to load here again later","Tehirizo ho rakitra soratra kely (ny baiko) ireo fandrindrana ireo, mba hampidirina eto indray any aoriana"
+Set the window from a command: paste one copied here before (or written for church_year.py),Ampifanaraho amin'ny baiko ny varavarankely: apetaho ny baiko nadika teto taloha (na nosoratana ho an'ny church_year.py)
+Set the window from a settings file saved here before,Ampifanaraho amin'ny rakitra fandrindrana notehirizina teto taloha ny varavarankely
+What each color looks like on the wheel: its fill and the color of text on it. A color changed for this tradition only goes into its own colors.csv; one for every church into data/colors.csv.,Ny endriky ny loko tsirairay eo amin'ny kodiarana: ny famenony sy ny lokon'ny soratra eo amboniny. Ny loko novaina ho an'ity fomban-drazana ity ihany dia mankao amin'ny colors.csv azy; ho an'ny fiangonana rehetra ao amin'ny data/colors.csv.
+a word in capitals: ROSE,teny soratana amin'ny litera renibe: ROSE
+blank: the day’s own readings; a feast’s name keeps them to that feast,foana: ny famakian'ny andro; ny anaran'ny fety dia mametra azy ho amin'io fety io
+"gives the data files they change, to put over the project’s own for the Python scripts.","manome ireo rakitra angona ovainy, hapetraka eo ambonin'ny an'ny tetikasa ho an'ny script Python."
+"its key, as periods.csv names it: ADVENT","ny lakileny, araka ny anarana omen'ny periods.csv: ADVENT"
+under Share is simpler.,ao amin'ny Zarao no tsotra kokoa.
+"--arrows-next-year, --arrows-same-year: whether the arrow keys go on into the next church year at the year's end, or round the year on the wheel (a box in the page's Settings changes it)","--arrows-next-year, --arrows-same-year: na mitohy amin'ny taom-piangonana manaraka ny zana-tsipika amin'ny fiafaran'ny taona na mihodina amin'ny taona eo amin'ny kodiarana (boaty ao amin'ny Fandrindran'ny pejy no manova izany)"
+"--art: the picture the page opens on. By season: the picture of the chosen day's season, and the church's own in a season without one","--art: ny sary anokafan'ny pejy. Araka ny fotoana: ny sarin'ny fotoan'ny andro voafidy, ary ny an'ny fiangonana amin'ny fotoana tsy manana"
+--drop-art: untick a picture to leave it out of the page,--drop-art: esory ny marika amin'ny sary iray mba tsy hampidirina ao amin'ny pejy
+"--fragment: no <html>, <head> or <body>, to paste into a page of your own","--fragment: tsy misy <html>, <head> na <body>, hapetaka ao amin'ny pejinao"
+"--help-link: the page the Help button opens, the user guide unless changed","--help-link: ny pejy sokafan'ny bokotra Fanampiana, ny torolalana raha tsy ovaina"
+"--language: the language of the page's buttons, menus and settings until the reader chooses another (Settings > Language)","--language: ny fitenin'ny bokotra, menio ary fandrindran'ny pejy mandra-pifidin'ny mpamaky hafa (Fandrindrana > Fiteny)"
+"--local-art: look for center.svg (or .png, .jpg ...) beside the page when it opens and offer it in the middle. Off, the page asks for no files beside it","--local-art: rehefa misokatra dia mitadiava center.svg (na .png, .jpg ...) eo anilan'ny pejy ary atolory eo afovoany. Raha maty dia tsy mangataka rakitra eo anilany ny pejy"
+"--no-compress when off: the tables as plain JSON, about three times the size, to read in the page's source or for a browser older than 2023","--no-compress raha maty: ny tabilao ho JSON tsotra, eo amin'ny intelo ny habeny, hovakiana ao amin'ny loharanon'ny pejy na ho an'ny mpitety talohan'ny 2023"
+"--no-download: the wheel as SVG and PNG, and its lists","--no-download: ny kodiarana ho SVG sy PNG, ary ny lisiny"
+"--no-edit: changes to the titles, colors and readings, kept in the reader's browser, and the changed files to download","--no-edit: ny fanovana lohateny, loko ary famakiana voatahiry ao amin'ny mpitetin'ny mpamaky, ary ireo rakitra niova hampidinina"
+"--no-make-page: a page like itself, as this window makes","--no-make-page: pejy toy ny tenany, araka ny ataon'ity varavarankely ity"
+"--own-art: a picture of your own, for the churches you choose","--own-art: sary anao manokana, ho an'ny fiangonana fidinao"
+--zoom: 1 (the whole wheel) to 6,--zoom: 1 (ny kodiarana manontolo) hatramin'ny 6
+Show or hide the {0} churches,Asehoy na afeno ny fiangonana {0}
+{0} of {1},{0} amin'ny {1}
+Left with no picture of their own (add one for them below): {0}.,Tsy manana sary manokana (ampio iray ho azy eto ambany): {0}.
+choose this file again with Add a picture (a command names it but cannot carry it),fidio indray ity rakitra ity amin'ny “Ampio sary anao manokana” (ny baiko manonona azy fa tsy afaka mitondra azy)
+The own picture of: {0},Ny sary manokan'ny: {0}
+{0} church,fiangonana {0}
+{0} churches,fiangonana {0}
+no church (the Artwork menu only),tsy misy fiangonana (ny menio Sary ihany)
+as drawn,araka ny nosoritana
+(click to use it),(tsindrio raha hampiasa azy)
+Put {0} back,Avereno ny {0}
+{0} changed,{0} niova
+Every church (unless changed below),Fiangonana rehetra (raha tsy novaina eto ambany)
+{0} change for single traditions or churches still apply; change them “tradition by tradition” or “church by church” to see it.,Mbola manan-kery ny fanovana {0} ho an'ny fomban-drazana na fiangonana tsirairay; ovay ho “isaky ny fomban-drazana” na “isaky ny fiangonana” raha hahita azy.
+{0} changes for single traditions or churches still apply; change them “tradition by tradition” or “church by church” to see them.,Mbola manan-kery ny fanovana {0} ho an'ny fomban-drazana na fiangonana tsirairay; ovay ho “isaky ny fomban-drazana” na “isaky ny fiangonana” raha hahita azy ireo.
+{0} change for single churches still apply; change them “church by church” to see it.,Mbola manan-kery ny fanovana {0} ho an'ny fiangonana tsirairay; ovay ho “isaky ny fiangonana” raha hahita azy.
+{0} changes for single churches still apply; change them “church by church” to see them.,Mbola manan-kery ny fanovana {0} ho an'ny fiangonana tsirairay; ovay ho “isaky ny fiangonana” raha hahita azy ireo.
+Put them back,Avereno izy ireo
+Rings and the rest,Peratra sy ny sisa
+{0} words,{0}: soratra
+as each church has them,araka ny ananan'ny fiangonana tsirairay
+Set from the command.,Nampifanarahina tamin'ny baiko.
+Note: {0}.,Fanamarihana: {0}.
+Could not read the command: {0},Tsy voavaky ny baiko: {0}
+Nothing to save yet: {0}.,Mbola tsy misy hotehirizina: {0}.
+Saved {0}.,Voatahiry {0}.
+Set from {0}.,Nampifanarahina tamin'ny {0}.
+Could not read {0}: {1},Tsy voavaky {0}: {1}
+Copied.,Voadika.
+Selected: copy it with Ctrl+C (⌘C on a Mac).,Voafantina: adikao amin'ny Ctrl+C (⌘C amin'ny Mac).
+The kind {0} is kept; give it a reading.,Voatazona ny karazany {0}; omeo famakiana iray izy.
+"The kinds of reading {0} has, in the order a set lists them. A new kind is added with a reading of it (This day).","Ireo karazana famakiana ananan'ny {0}, araka ny filaharana anisian'ny andiany azy. Ny karazana vaovao dia ampiana miaraka amin'ny famakiana iray aminy (Ity andro ity)."
+Kept as reading_labels and reading_order in {0}.,Voatahiry ho reading_labels sy reading_order ao amin'ny {0}.
+The colors of {0}’s seasons. A color may name others the church allows after it: PURPLE; blue.,Ny lokon'ny fotoan'ny {0}. Ny loko iray dia afaka manonona aoriany ireo loko hafa avelan'ny fiangonana: PURPLE; blue.
+This page cannot write {0}.,Tsy afaka manoratra ny {0} ity pejy ity.
+This tradition ({0}),Ity fomban-drazana ity ({0})
+"This page was made with changes to: {0}. They are part of it, and Download changed files includes these files.","Natao niaraka tamin'ny fanovana tao amin'ny {0} ity pejy ity. Anisany ireo, ary ampidirin'ny “Ampidino ireo rakitra niova” ireo rakitra ireo."
+{0}: {1} change,{0}: fanovana {1}
+{0}: {1} changes,{0}: fanovana {1}
+Downloaded {0} file.,Rakitra {0} nampidinina.
+Downloaded {0} files.,Rakitra {0} nampidinina.
+"Saved {0} ({1} MB, {2} church).","Voatahiry {0} ({1} MB, fiangonana {2})."
+"Saved {0} ({1} MB, {2} churches).","Voatahiry {0} ({1} MB, fiangonana {2})."
+Could not make the page: {0},Tsy vita ny pejy: {0}
+"Choose the wheel, a list, or both.","Fidio ny kodiarana, lisitra iray, na izy roa."
+"The Feasts setting is None: choose another, or “with major days”, for a feasts list.","Tsy misy no fandrindrana Fety: fidio hafa, na “miaraka amin'ny fety lehibe”, ho an'ny lisitry ny fety."
+Drawing {0}…,Manoritra {0}…
+Listing the readings…,Manao lisitry ny famakiana…
+Listing the colors…,Manao lisitry ny loko…
+Listing the years…,Manao lisitry ny taona…
+Listing the feasts…,Manao lisitry ny fety…
+Saved {0} files in a .zip.,Rakitra {0} voatahiry ao anaty .zip.
+Your own picture could not be read from here and is left out.,Tsy voavaky avy eto ny sarinao manokana ka navela.
+Could not make the files: {0},Tsy vita ny rakitra: {0}
+The last year is before the first.,Ny taona farany dia alohan'ny voalohany.
+At most {0} years at a time.,Taona {0} farafahabetsany indray mandeha.
+The church year {0}.,Ny taom-piangonana {0}.
+"{0} church years, {1} to {2}.","Taom-piangonana {0}, {1} hatramin'ny {2}."
+The PNGs make this about {0} and take a while; a narrower PNG makes it smaller.,Eo amin'ny {0} ny PNG ary maharitra kely; ny PNG tery kokoa no mahakely azy.
+{0}: {1} for {2},{0}: {1} ho an'ny {2}
+{0} to {1},{0} hatramin'ny {1}
+readings,famakiana
+colors,loko
+the year at a glance,ny taona raha jerena indray mandeha
+feasts and major days,fety sy fety lehibe
+feasts,fety
+"{0}, {1} {2}, {3}",{0} {2} {1} {3}
+Monday,Alatsinainy
+Tuesday,Talata
+Wednesday,Alarobia
+Thursday,Alakamisy
+Friday,Zoma
+Saturday,Asabotsy
+Sunday,Alahady
+January,Janoary
+February,Febroary
+March,Martsa
+April,Aprily
+May,Mey
+June,Jona
+July,Jolay
+August,Aogositra
+September,Septambra
+October,Oktobra
+November,Novambra
+December,Desambra
+Made by {0} from the church year calendar's data.,Nataon'ny {0} avy amin'ny angon'ny tetiandron'ny taom-piangonana.
+Each reading opens at {0} in the {1}; each heading opens its set's readings together at Bible Gateway (its propers apart).,Ny famakiana tsirairay dia misokatra ao amin'ny {0} amin'ny {1}; ny lohateny tsirairay dia manokatra miaraka ny famakian'ny andiany ao amin'ny Bible Gateway (ny fizarana fanompoam-pivavahana manokana).
+"Each color is the day's own, the top of its cell on the wheel; the others the church allows follow in parentheses, and the lower half's is given where the wheel splits the cell.","Ny loko tsirairay dia ny an'ny andro, ny ambonin'ny efajorony eo amin'ny kodiarana; ny loko hafa avelan'ny fiangonana dia manaraka ao anaty fonon-teny, ary ny an'ny antsasany ambany dia omena izay mizara ny efajoro ny kodiarana."
+"Each color is the day's own, the top of its cell on the wheel.","Ny loko tsirairay dia ny an'ny andro, ny ambonin'ny efajorony eo amin'ny kodiarana."
+Date,Daty
+Feast,Fety
+Level,Ambaratonga
+Liturgical color: {0},Loko litorjika: {0}
+; lower half {0},; antsasany ambany {0}
+transferred from {0} {1},nafindra avy amin'ny {1} {0}
+Principal feasts only: those whose color replaces the season's.,Fety lehibe ihany: ireo izay manolo ny lokon'ny fotoana ny lokony.
+Festivals: the feasts that color their day or its lower half.,Fety lehibe: ireo fety mandoko ny androny na ny antsasany ambany.
+"With the major days: the principal days set on dates of their own, Christmas, Easter, Pentecost and the like; a blank color is the season's.","Miaraka amin'ny fety lehibe: ireo fety lehibe amin'ny datiny manokana, Krismasy, Paska, Pentekosta sy ny toy izany; ny loko foana dia ny an'ny fotoana."
+principal,fety lehibe
+festival,fety
+commemoration,fahatsiarovana
+major day,fety lehibe
+read by {0} churches: a change here changes them all,vakian'ny fiangonana {0}: manova azy rehetra ny fanovana eto
+a run of days: the change is the whole run’s,andiana andro: ho an'ny andiany manontolo ny fanovana

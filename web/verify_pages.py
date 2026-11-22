@@ -49,7 +49,7 @@ CASES = [
         ["pageBible", "EHV"], ["pageSite", "youversion"], ["pageW2w", "none"], ["pageRings:halves", False],
         ["pageColors", "PURPLE-7a1f7a,lutheran:WHITE-fffff0,ring.halves-e6c3f7"], ["pageArt", False],
         ["pageBibles", "some"], ["pageBibleList:english", True], ["pageBibleList:LUTH1545", True],
-        ["pageFooter", "credit"], ["pageFeedback", "https://example.org/form"], ["pageHelp", "https://example.org/help"], ["pageCompress", False]]),
+        ["pageFooter", "credit"], ["pageFeedback", "https://example.org/form"], ["pageHelp", "https://example.org/help"], ["pageCompress", False], ["pageUiLang", "de"]]),
     ("lutheran", "#lectionary=elca&date=2026-04-05", [
         ["pick", "tradition"], ["untick", ["elca", "lutheran-sweden"]], ["pageCal", True],
         ["pageMid", "dark"], ["pageLatin", "on"], ["pageReadings:day", False], ["pageReadings:feasts", False],
@@ -57,7 +57,7 @@ CASES = [
         ["pageColors", "lutheran:PURPLE-88023c,GREEN-117711,text.months-333333"],
         ["pageBibles", "own"], ["pageW2w", "off"], ["pageFeedback", ""], ["pageHelp", ""], ["pageArtwork", "none"],
         ["pageFragment", True], ["pageName", "lutheran wheel"], ["pageDownload", False], ["pageEdit", False], ["pageLinks", "none"],
-        ["pageArrows", True]]),
+        ["pageArrows", True], ["pageUiLang", "church"]]),
     ("roman-svg", "#lectionary=roman&sub=united_states&date=2025-12-25", [
         ["pick", "church"], ["pageEaster", True], ["pageReds", False], ["pageMid", "dark-reds"],
         ["file", "Rose Window.svg"], ["css:#pageOwnArts .ownart:nth-child(1) label[title^=\"credit=\"] input", "Drawn by A. Friend & co."],

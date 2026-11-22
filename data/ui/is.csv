@@ -1,0 +1,487 @@
+english,translation
+"# The page's own words (buttons, menus, settings and their notes) in this language: the English as the page writes it, then its translation. {0}, {1} ... stand for what the page fills in. A missing or blank line stays English."
+Settings,Stillingar
+Simple,Einfaldar
+All,Allar
+Language,Tungumál
+Match the church,Eins og kirkjan
+Browser ({0}),Vafrinn ({0})
+Year,Ár
+Tradition,Hefð
+Church,Kirkja
+Hymnal,Sálmabók
+Lectionary,Textaröð
+Feasts,Hátíðir
+Festivals,Hátíðisdagar
+Principal only,Aðeins stórhátíðir
+None,Engar
+Bible,Biblía
+Readings shown as,Lestrar sýndir sem
+Tabs,Flipar
+Columns,Dálkar
+Calendar and names,Tímatal og heiti
+Calendar,Tímatal
+Gregorian,Gregoríanskt
+Julian (Old Calendar),Júlíanskt (gamla tímatalið)
+Revised Julian (New Calendar),Endurskoðað júlíanskt (nýja tímatalið)
+Easter,Páskar
+With the calendar,Eftir tímatalinu
+Western,Vestrænir
+Eastern,Austrænir
+Latin names,Latnesk heiti
+Readings,Ritningarlestrar
+The day's propers,Lestrar dagsins
+Feasts and festivals,Hátíðir og hátíðisdagar
+Other dated days,Aðrir dagsettir dagar
+Daily lectionary,Daglegir lestrar
+Additional readings,Viðbótarlestrar
+Psalm table,Sálmatafla
+Bible reading plan,Biblíulestraráætlun
+Office lessons,Lestrar tíðagjörðar
+Open in,Opna í
+Slide,Renna
+Off,Af
+Quick,Hratt
+Medium,Miðlungs
+Slow,Hægt
+Propers,Sérefni dagsins
+Hymn search,Sálmaleit
+Contemporary song search,Leit að lofgjörðarsöngvum
+The wheel,Hjólið
+Artwork,Mynd
+Thicker line where the year begins,Þykkari lína þar sem árið hefst
+Arrow keys go on into the next year,Örvalyklar halda áfram yfir á næsta ár
+Dark text on reds,Dökkur texti á rauðu
+Under the wheel,Undir hjólinu
+Instructions and notes,Leiðbeiningar og athugasemdir
+Artwork credit,Höfundur myndar
+Rings,Hringir
+Outer band,Ytri borði
+Seasons,Tímabil
+Months,Mánuðir
+Parts of the year,Hlutar ársins
+Day cells,Dagreitir
+Center artwork,Mynd í miðju
+Colors…,Litir…
+Colors,Litir
+Days,Dagar
+Close,Loka
+Reset colors,Endurstilla liti
+Reset settings,Endurstilla stillingar
+Share,Deila
+Copy link,Afrita tengil
+Copy embed code,Afrita ívafskóða
+Print,Prenta
+Download…,Sækja…
+Download,Sækja
+Years,Ár
+From,Frá
+to,til
+pixels wide,díla breitt
+Background,Bakgrunnur
+clear,gegnsær
+white,hvítur
+Lists,Listar
+Sundays,Sunnudagar
+Sundays and principal days,Sunnudagar og stórhátíðir
+every day,hvern dag
+every named day,hvern nefndan dag
+with links,með tenglum
+with major days,með stórhátíðum
+other colors,aðrir litir
+Format,Snið
+CSV (spreadsheet),CSV (töflureiknir)
+HTML (to print),HTML (til prentunar)
+iCalendar (.ics),iCalendar (.ics)
+PNG (a picture),PNG (mynd)
+"SVG (a drawing, sharp at any size)","SVG (teikning, skörp í hvaða stærð sem er)"
+The year at a glance,Árið í hnotskurn
+Today,Í dag
+Week,Vika
+Find a day,Finna dag
+Help,Hjálp
+Feedback,Ábendingar
+About the artwork,Um myndina
+Choose a date,Veldu dagsetningu
+Previous day,Fyrri dagur
+Next day,Næsti dagur
+Zoom in,Auka aðdrátt
+Zoom out,Minnka aðdrátt
+Zoom in (+),Auka aðdrátt (+)
+Zoom out (−),Minnka aðdrátt (−)
+Magnification,Stækkun
+The week before,Vikan á undan
+The week after,Vikan á eftir
+Days with that name,Dagar með þessu heiti
+Find a day by its name,Finna dag eftir heiti
+Church Year {0},Kirkjuárið {0}
+Jump to today (T) — {0},Fara á daginn í dag (T) — {0}
+Read about {0},Lesa um {0}
+{0} ({1} hymns) in {2},{0} ({1} sálmar) í {2}
+Hymns on {0} in {1} at Hymnary.org,Sálmar um {0} í {1} á Hymnary.org
+Hymns for these readings in {0} at Hymnary.org,Sálmar við þessa lestra í {0} á Hymnary.org
+Hymns for these propers in {0} at Hymnary.org,Sálmar við þetta sérefni í {0} á Hymnary.org
+the church's hymnal,sálmabók kirkjunnar
+Contemporary worship songs for these readings at Word to Worship,Nýir lofgjörðarsöngvar við þessa lestra á Word to Worship
+Contemporary worship songs for these propers at Word to Worship,Nýir lofgjörðarsöngvar við þetta sérefni á Word to Worship
+Open all these readings together at Bible Gateway,Opna alla þessa lestra saman á Bible Gateway
+Open these propers together at Bible Gateway,Opna þetta sérefni saman á Bible Gateway
+▴ less,▴ minna
+▾ more,▾ meira
+▾ {0} more,▾ {0} í viðbót
+Show two lines again,Sýna tvær línur aftur
+Show all of this set’s readings,Sýna alla lestra þessarar raðar
+Show all the day’s readings,Sýna alla lestra dagsins
+Show the readings in three lines again,Sýna lestrana í þremur línum aftur
+No day of {0} by that name,Enginn dagur í {0} með þessu heiti
+Choose {0} on the wheel,Velja {0} á hjólinu
+In another church year: choose the day to draw it.,Á öðru kirkjuári: veldu daginn til að teikna það.
+Copied,Afritað
+Copy failed,Ekki tókst að afrita
+"The language of the page's buttons, menus and settings. The calendar's names, dates and readings stay in the church's language.","Tungumál hnappa, valmynda og stillinga síðunnar. Heiti, dagsetningar og lestrar tímatalsins haldast á máli kirkjunnar."
+"The church year wheel: left and right arrow keys step a week, up and down a day","Kirkjuárshjólið: vinstri og hægri örvalyklar færa um viku, upp og niður um dag"
+"The settings most often changed: the year, the church, the feasts, the Bible and how the readings are shown","Stillingarnar sem oftast er breytt: árið, kirkjan, hátíðirnar, Biblían og hvernig lestrarnir eru sýndir"
+"Every setting: the calendar, the kinds of reading, the searches, the artwork, the rings and colors, and making a page or editing the data","Allar stillingar: tímatalið, tegundir lestra, leitirnar, myndin, hringirnir og litirnir, og að búa til síðu eða breyta gögnunum"
+"The year the church year begins in: Advent for most traditions, September for the Eastern Orthodox","Árið sem kirkjuárið hefst á: á aðventu í flestum hefðum, í september hjá rétttrúnaðarkirkjum"
+The family of churches,Kirkjufjölskyldan
+Which church's calendar the wheel follows,Tímatali hvaða kirkju hjólið fylgir
+"All: every commemoration. Festivals: the festivals and feasts (in the Roman calendar, solemnities and feasts). Principal: only the principal days (solemnities). None: the saints' days are left off.",Allar: hver minningardagur. Hátíðisdagar: hátíðirnar og hátíðisdagarnir (í rómverska tímatalinu stórhátíðir og hátíðir). Aðeins stórhátíðir: aðeins helstu dagarnir. Engar: dagar dýrlinga eru felldir niður.
+The translation the readings open in. Each church starts on the one it uses (ESV where it names none).,Þýðingin sem lestrarnir opnast í. Hver kirkja byrjar á þeirri sem hún notar (ESV þar sem hún nefnir enga).
+"How the day's readings are shown when there are several sets: one at a time under tabs, or all of them in columns (on the right, and across two columns when opened with more)","Hvernig lestrar dagsins eru sýndir þegar raðirnar eru fleiri: ein í einu undir flipum eða allar í dálkum (til hægri, og yfir tvo dálka þegar opnað er með meira)"
+Which calendar the dates are reckoned in,Í hvaða tímatali dagsetningarnar eru reiknaðar
+"How Easter is dated, which is a separate question from how the days are named. Left to follow the calendar, a Gregorian wheel keeps Western Easter and the other two keep the Eastern one.","Hvernig páskar eru dagsettir, sem er önnur spurning en hvernig dagarnir eru nefndir. Eftir tímatalinu heldur gregoríanskt hjól vestrænum páskum og hin tvö austrænum."
+"Name the one-year Sundays as the historic calendar does, from the first words of the day's Introit: Ad Te Levavi, Laetare, Quasimodo Geniti","Nefna sunnudaga eins árs raðarinnar eins og sögulega tímatalið, eftir upphafsorðum inngöngusálms dagsins: Ad Te Levavi, Laetare, Quasimodo Geniti"
+List the day's Bible readings under its name. Each kind can be left out; only the kinds this church's lectionary has are offered.,Sýna biblíulestra dagsins undir heiti hans. Sleppa má hverri tegund; aðeins þær tegundir sem textaröð þessarar kirkju hefur eru í boði.
+"The lessons of the day's own propers: its Sunday, holy day or season, and any other service its book appoints for it","Lestrar sérefnis dagsins: sunnudagur hans, helgidagur eða tímabil, og hver önnur guðsþjónusta sem bók hans ætlar honum"
+"The lessons of a saint's day or festival, listed only while the wheel shows it (see Feasts)","Lestrar dýrlingadags eða hátíðar, sýndir aðeins meðan hjólið sýnir hann (sjá Hátíðir)"
+"The lessons of a day the calendar does not name, kept by its date or a date rule: Ember and Rogation Days, Thanksgiving, New Year's and national days, the Saturdays before and after a feast","Lestrar dags sem tímatalið nefnir ekki, eftir dagsetningu eða reglu: imbrudagar og gangdagar, þakkargjörð, nýár og þjóðhátíðardagar, laugardagar fyrir og eftir hátíð"
+The hymnal's or prayer book's daily or weekday lectionary,Daglegir lestrar eða virkra daga lestrar sálmabókar eða bænabókar
+"The additional readings a daily lectionary offers beside its own, for reading more of the Bible (Lutheran Service Book prints them in italics)","Viðbótarlestrarnir sem daglegir lestrar bjóða auk sinna eigin, til að lesa meira í Biblíunni (Lutheran Service Book prentar þá skáletraða)"
+"A table of psalms for daily prayer, morning and evening, by season and weekday (Lutheran Service Book, p. 304)","Sálmatafla fyrir daglega bæn, kvölds og morgna, eftir tímabili og vikudegi (Lutheran Service Book, bls. 304)"
+"A plan of daily Bible reading kept by the calendar year: Reading the Word of God (LCMS, LCC and NALC), through the Old Testament in three years and the Psalms and New Testament twice","Áætlun um daglegan biblíulestur eftir almanaksárinu: Reading the Word of God (LCMS, LCC og NALC), Gamla testamentið á þremur árum og Sálmarnir og Nýja testamentið tvisvar"
+"The lessons of the Office: Morning and Evening Prayer, Matins, a second or third service","Lestrar tíðagjörðar: morgun- og kvöldbæn, óttusöngur, önnur eða þriðja guðsþjónusta"
+"Where a reading opens. On a phone or tablet either one opens in its own app when the app is installed, and in the browser otherwise.","Hvar lestur opnast. Í síma eða spjaldtölvu opnast hvor um sig í eigin forriti ef það er uppsett, annars í vafranum."
+How fast the sets slide between the columns when more or less is clicked (kept in this browser),Hversu hratt raðirnar renna milli dálka þegar smellt er á meira eða minna (vistað í þessum vafra)
+"The parts of the service the church lists with each day's readings (an Introit, a Gradual and a Verse), on a line of their own after them; a set's heading opens only its readings together","Þeir hlutar guðsþjónustunnar sem kirkjan tilgreinir með lestrum hvers dags (inngöngusálmur, millisöngur og vers), í eigin línu á eftir þeim; fyrirsögn raðar opnar aðeins lestra hennar saman"
+A hymnal mark after each set of readings that searches Hymnary.org for the hymns on them in this church's hymnal,Sálmabókarmerki á eftir hverri lestraröð sem leitar á Hymnary.org að sálmum um þá í sálmabók þessarar kirkju
+"The hymnal Hymn search looks in, where the church has several","Sálmabókin sem sálmaleitin leitar í, þar sem kirkjan hefur fleiri en eina"
+A circled note after each set of readings that searches Word to Worship (wordtoworship.com) for contemporary worship songs on them,Nóta í hring á eftir hverri lestraröð sem leitar á Word to Worship (wordtoworship.com) að nýjum lofgjörðarsöngvum um þá
+"The picture in the middle of the wheel. Each tradition has its own; any of them can be chosen. By season changes it with the day chosen: the wreath in Advent, the manger at Christmas, the empty tomb at Easter, and the church's own picture in the seasons that have none.","Myndin í miðju hjólsins. Hver hefð á sína; velja má hverja sem er. „Eftir tímabili“ skiptir henni eftir völdum degi: kransinn á aðventu, jatan á jólum, tóma gröfin á páskum og eigin mynd kirkjunnar á tímabilum sem hafa enga."
+"A thicker line where the year's last week meets its first, which are a year apart","Þykkari lína þar sem síðasta vika ársins mætir þeirri fyrstu, sem eru ár hvor frá annarri"
+"Checked: at the end of the church year the arrow keys go on into the next year's wheel, and back into the last. Unchecked: they go round the year on the wheel, from its last week to its first. Page Up and Page Down and the ◀ ▶ buttons always go on.","Hakað: í lok kirkjuársins halda örvalyklarnir áfram á hjól næsta árs og aftur á það síðasta. Óhakað: þeir fara hringinn um árið á hjólinu, frá síðustu viku þess til þeirrar fyrstu. Page Up, Page Down og hnapparnir ◀ ▶ halda alltaf áfram."
+"The reds in the middle of the range (the LCMS, Roman and Presbyterian reds) read about as well with black text as with white. Checked: black on them.","Rauðu litirnir á miðju sviðinu (rauður LCMS, rómverskur og öldungakirkju) lesast álíka vel með svörtum texta og hvítum. Hakað: svartur á þeim."
+"How to use the wheel, the calendar's notes and how long it took to draw","Hvernig á að nota hjólið, athugasemdir tímatalsins og hve langan tíma tók að teikna"
+"Who made the picture in the middle, and its license. When it is off and the license asks for credit, a small i button keeps it a click away.",Hver gerði myndina í miðjunni og leyfi hennar. Þegar slökkt er á þessu og leyfið krefst tilvísunar heldur lítill i-hnappur henni í smellifjarlægð.
+"The colors the days and the rings are painted in, each of which can be changed for this page",Litirnir sem dagarnir og hringirnir eru málaðir í; breyta má hverjum fyrir þessa síðu
+The colors on the wheel this year. Click a swatch to change it; the change is kept in the page's link. Text on a day stays readable: it turns black or white if it would not.,Litirnir á hjólinu í ár. Smelltu á litaprufu til að breyta henni; breytingin geymist í tengli síðunnar. Texti á degi helst læsilegur: hann verður svartur eða hvítur ef hann væri það annars ekki.
+Put every color back to the page's own,Setja hvern lit aftur í lit síðunnar
+"Put every setting here back to what config.csv asks for, keeping the day on the wheel","Setja hverja stillingu hér aftur í það sem config.csv segir, með daginn áfram á hjólinu"
+"Copy a link that opens on this day, with these settings","Afrita tengil sem opnast á þessum degi, með þessum stillingum"
+"Copy a line of HTML that shows this page inside a page of your own website (an iframe), opening on the day it is read, with these settings","Afrita HTML-línu sem sýnir þessa síðu inni í síðu á þínum eigin vef (iframe), opnaða á þeim degi sem hún er lesin, með þessum stillingum"
+Print the whole wheel on one page,Prenta allt hjólið á eina síðu
+"Download the wheel (SVG, PNG) and lists of its readings, colors and feasts, for this year or a run of years","Sækja hjólið (SVG, PNG) og lista yfir lestra þess, liti og hátíðir, fyrir þetta ár eða röð ára"
+"The wheel and its lists as they are here, with these settings: the church, calendars, feasts, readings, rings, colors and artwork.","Hjólið og listar þess eins og þeir eru hér, með þessum stillingum: kirkjan, tímatölin, hátíðirnar, lestrarnir, hringirnir, litirnir og myndin."
+"Each day's readings, as the Readings boxes and the Feasts setting choose them","Lestrar hvers dags, eins og reitirnir undir Ritningarlestrar og stillingin Hátíðir velja þá"
+Each reading opens where Open in and Bible say; each set's heading opens all its readings,Hver lestur opnast þar sem Opna í og Biblía segja; fyrirsögn hverrar raðar opnar alla lestra hennar
+The Sundays and principal days (or every day) with the color the wheel paints them,Sunnudagarnir og stórhátíðirnar (eða hver dagur) með litnum sem hjólið málar þá
+"The other colors the church allows, and the lower half's where the wheel splits a cell (in the feasts list too)","Hinir litirnir sem kirkjan leyfir, og litur neðri helmings þar sem hjólið skiptir reit (einnig í hátíðalistanum)"
+"The festivals, saints' days and commemorations the Feasts setting keeps, on the days they fall","Hátíðirnar, dýrlingadagarnir og minningardagarnir sem stillingin Hátíðir heldur, á þeim dögum sem þeir falla"
+"Also Christmas, Easter, Pentecost and the other principal days on dates of their own","Einnig jól, páskar, hvítasunna og hinar stórhátíðirnar á eigin dagsetningum"
+"Where to read about each, as the readout links it","Hvar lesa má um hvert, eins og skjárinn tengir það"
+"Previous day (up arrow; left arrow: a week, Shift: a month)","Fyrri dagur (ör upp; ör til vinstri: vika, Shift: mánuður)"
+"Next day (down arrow; right arrow: a week, Shift: a month)","Næsti dagur (ör niður; ör til hægri: vika, Shift: mánuður)"
+Magnification: 1× (the whole wheel) to 6×,Stækkun: 1× (allt hjólið) til 6×
+"Type a Sunday's, a season's or a feast's name and pick it: the wheel goes to that day in the year shown (F)","Sláðu inn heiti sunnudags, tímabils eða hátíðar og veldu það: hjólið fer á þann dag á sýndu ári (F)"
+"The chosen day's week in a list: each day's names, color and readings (W)","Vika valins dags í lista: heiti, litur og lestrar hvers dags (W)"
+"Print this week's days and readings, a page or two to hand round","Prenta daga og lestra þessarar viku, eina eða tvær síður til að dreifa"
+"How to use this page: every control, key and setting","Hvernig á að nota þessa síðu: hver stýring, lykill og stilling"
+"Send feedback about this page: the day, church and settings on screen go with it","Senda ábendingu um þessa síðu: dagurinn, kirkjan og stillingarnar á skjánum fylgja með"
+"Type any year and the wheel is drawn for it. Click a cell, use the arrow keys, or pick a date.","Sláðu inn hvaða ár sem er og hjólið er teiknað fyrir það. Smelltu á reit, notaðu örvalyklana eða veldu dagsetningu."
+"Tap a cell, pinch to zoom, or pick a date.","Pikkaðu á reit, klíptu til að auka aðdrátt eða veldu dagsetningu."
+A new kind…,Ný tegund…
+About the feasts only,Aðeins um hátíðirnar
+Add,Bæta við
+Add a color,Bæta við lit
+Add a feast on this date,Bæta við hátíð á þessum degi
+Add a picture of your own…,Bæta við eigin mynd…
+Add a reading to this set,Bæta lestri við þessa röð
+Add a season,Bæta við tímabili
+Add a set of readings on this date,Bæta við lestraröð á þessum degi
+Additional,Viðbót
+Advent: four candles lit,Aðventa: fjögur kerti logandi
+Advent: one candle lit,Aðventa: eitt kerti logandi
+Advent: three candles lit,Aðventa: þrjú kerti logandi
+Advent: two candles lit,Aðventa: tvö kerti logandi
+Armenian cross,Armenskur kross
+As each color sets it,Eins og hver litur segir til um
+As on screen,Eins og á skjánum
+As this page opens,Eins og þessi síða opnast
+Black,Svartur
+Blue,Blár
+Burning bush,Logandi runninn
+Buttons it shows,Hnappar sem hún sýnir
+By season,Eftir tímabili
+"Calendar (Gregorian, Julian, Revised Julian)","Tímatal (gregoríanskt, júlíanskt, endurskoðað júlíanskt)"
+Canterbury cross,Kantaraborgarkross
+Celtic cross,Keltneskur kross
+Chalice and host,Kaleikur og oblata
+Change for,Breyta fyrir
+Changes,Breytingar
+Chi-Rho,Kristsfangamark
+Christmas: the manger,Jól: jatan
+Churches it offers,Kirkjur sem hún býður
+Color,Litur
+Columns only,Aðeins dálkar
+"Columns, or tabs in Settings","Dálkar, eða flipar í Stillingum"
+Coptic cross,Koptískur kross
+Copy,Afrita
+Daily,Daglegir
+Dark,Dökkt
+Dark on reds,Dökkt á rauðu
+Day,Dagur
+Download changed files,Sækja breyttar skrár
+Each church's first,Fyrsta hverrar kirkju
+Each church's own,Eigin hverrar kirkju
+Earlier,Fyrr
+Easter (Western or Eastern),Páskar (vestrænir eða austrænir)
+Easter: the empty tomb,Páskar: tóma gröfin
+Edit the data,Breyta gögnunum
+Edit the data…,Breyta gögnunum…
+Epiphany: the star and crowns,Þrettándinn: stjarnan og krónurnar
+Ethiopian cross,Eþíópískur kross
+Every church,Hver kirkja
+Every version,Hver þýðing
+Feedback link,Tengill fyrir ábendingar
+File name,Skráarheiti
+Fill,Fylling
+Full name,Fullt heiti
+Gold,Gylltur
+Green,Grænn
+Help link,Tengill fyrir hjálp
+Holy Week: three crosses,Dymbilvika: þrír krossar
+"Instructions, notes and credit","Leiðbeiningar, athugasemdir og höfundur"
+It opens,Hún opnast
+Kinds of reading,Tegundir lestra
+Later,Síðar
+Lent: the cross and thorns,Fasta: krossinn og þyrnarnir
+Light,Ljóst
+Link,Tengill
+Links,Tenglar
+Load settings…,Hlaða stillingum…
+Lower half,Neðri helmingur
+Luther rose,Lúthersrósin
+Make a page,Búa til síðu
+Make a page…,Búa til síðu…
+Make the page,Búa til síðuna
+Moravian star,Herrnhut-stjarna
+Morello,Morello
+Name,Heiti
+Names (a pattern),Heiti (mynstur)
+Names and colors,Heiti og litir
+No changes on this page yet.,Engar breytingar á þessari síðu enn.
+None (each church's own version),Engin (eigin þýðing hverrar kirkju)
+None (no box and no marks),Engin (enginn reitur og engin merki)
+None (plain text),Ekkert (hreinn texti)
+Nothing,Ekkert
+Off (the box unchecked),Af (reiturinn óhakaður)
+Office,Tíðagjörð
+On,Á
+On the year beginning in Advent,Á árinu sem hefst á aðventu
+Only this one,Aðeins þessi
+Outside the year,Utan ársins
+"Packed, about a third of the size","Þjappað, um þriðjungur stærðarinnar"
+Pentecost: the dove and flames,Hvítasunna: dúfan og logarnir
+Pictures kept,Myndir sem haldið er
+Purple,Fjólublár
+Reading plan,Lestraráætlun
+Readings and links,Lestrar og tenglar
+Red,Rauður
+Remove,Fjarlægja
+Remove this reading,Fjarlægja þennan lestur
+Rose,Bleikur
+Save,Vista
+Save settings…,Vista stillingar…
+Scarlet,Skarlatsrauður
+Season,Tímabil
+Set the window from it,Stilla gluggann eftir því
+Settings it shows,Stillingar sem hún sýnir
+Syriac cross,Sýrlenskur kross
+Tabs only,Aðeins flipar
+"Tabs, or columns in Settings","Flipar, eða dálkar í Stillingum"
+Text,Texti
+Text on mid-tone colors,Texti á miðlungsdökkum litum
+The artwork's credit only,Aðeins höfundur myndar
+"The church, calendars and settings on screen now","Kirkjan, tímatölin og stillingarnar sem eru á skjánum núna"
+The same page from Python; save or load these settings,Sama síða úr Python; vista eða hlaða þessum stillingum
+The tradition's own,Eigin mynd hefðarinnar
+These:,Þessar:
+This church,Þessi kirkja
+This day,Þessi dagur
+This tradition,Þessi hefð
+Title,Titill
+To paste into another page’s HTML,Til að líma inn í HTML annarrar síðu
+Violet,Fjólublár
+What this page opens with,Það sem þessi síða opnast með
+White,Hvítur
+Zoom,Aðdráttur
+every church,hver kirkja
+https://… (blank: none),https://… (autt: enginn)
+OK,Í lagi
+Undo these,Afturkalla þessar
+Undo the last change,Afturkalla síðustu breytingu
+Undo every change,Afturkalla allar breytingar
+Periods with a color of their own,Tímabil með eigin lit
+Credit,Höfundur
+Artist or owner,Listamaður eða eigandi
+License or copyright,Leyfi eða höfundarréttur
+License link,Tengill á leyfið
+Source link,Tengill á uppruna
+Added.,Bætt við.
+Saved.,Vistað.
+Undone.,Afturkallað.
+Removed.,Fjarlægt.
+Every change undone.,Allar breytingar afturkallaðar.
+A feast needs a name.,Hátíð þarf heiti.
+A kind needs a key of letters and numbers.,Tegund þarf lykil úr bókstöfum og tölustöfum.
+A reading cannot be blank: Remove takes it away.,Lestur má ekki vera auður: Fjarlægja tekur hann burt.
+Choose its kind and write the reading.,Veldu tegund hans og skrifaðu lesturinn.
+This page cannot write this church’s tradition.csv.,Þessi síða getur ekki skrifað tradition.csv þessarar kirkju.
+Added: further readings join it with Add a reading.,Bætt við: fleiri lestrar bætast við með „Bæta lestri við“.
+Nothing on this day comes from a file this page can write.,Ekkert á þessum degi kemur úr skrá sem þessi síða getur skrifað.
+The day’s own,Eigið efni dagsins
+(not in a file this page can write),(ekki í skrá sem þessi síða getur skrifað)
+Kept in this browser for this page. Make a page writes them into the page it makes.,Geymt í þessum vafra fyrir þessa síðu. „Búa til síðu“ skrifar þær inn í síðuna sem hún býr til.
+"A .zip of the data files the changes make, laid out as the project's data folder",".zip-skrá með gagnaskránum sem breytingarnar gefa, raðað eins og gagnamöppu verkefnisins"
+"A page like this one, in one HTML file to put on a website or open from a folder: the page church_year.py makes with the same options (below). Each choice starts as the page is now.","Síða eins og þessi, í einni HTML-skrá til að setja á vef eða opna úr möppu: síðan sem church_year.py býr til með sömu valkostum (hér fyrir neðan). Hvert val byrjar eins og síðan er núna."
+A picture beside the page (center.svg…),Mynd við hlið síðunnar (center.svg…)
+Changes show on the wheel at once and are kept in this browser for this page; Make a page writes them into the page it makes.,Breytingar sjást strax á hjólinu og geymast í þessum vafra fyrir þessa síðu; „Búa til síðu“ skrifar þær inn í síðuna sem hún býr til.
+"Copy the command, to make this page with the script or to set this window from it later","Afrita skipunina, til að búa síðuna til með skriftunni eða stilla þennan glugga eftir henni síðar"
+"Not a whole page: its contents go into your own page’s HTML. To show a page that is already on a website,","Ekki heil síða: innihald hennar fer í HTML þinnar eigin síðu. Til að sýna síðu sem er þegar á vef,"
+"One row a year: Advent, Christmas, Ash Wednesday, Easter, Pentecost and the other movable dates, and how many Sundays after the Epiphany and Pentecost or Trinity (colors.py --overview). It has no iCalendar form, so with that format it comes as CSV.","Ein lína á ári: aðventa, jól, öskudagur, páskar, hvítasunna og hinir hreyfanlegu dagarnir, og hve margir sunnudagar eftir þrettánda og eftir hvítasunnu eða þrenningarhátíð (colors.py --overview). Hún hefur ekkert iCalendar-snið, svo á því sniði kemur hún sem CSV."
+"Save these settings as a small text file (the command), to load here again later","Vista þessar stillingar sem litla textaskrá (skipunina), til að hlaða hér aftur síðar"
+Set the window from a command: paste one copied here before (or written for church_year.py),Stilla gluggann eftir skipun: límdu inn eina sem var afrituð hér áður (eða skrifuð fyrir church_year.py)
+Set the window from a settings file saved here before,Stilla gluggann eftir stillingaskrá sem var vistuð hér áður
+What each color looks like on the wheel: its fill and the color of text on it. A color changed for this tradition only goes into its own colors.csv; one for every church into data/colors.csv.,Hvernig hver litur lítur út á hjólinu: fylling hans og litur textans á honum. Litur sem breytt er aðeins fyrir þessa hefð fer í hennar eigin colors.csv; litur fyrir allar kirkjur í data/colors.csv.
+a word in capitals: ROSE,orð með hástöfum: ROSE
+blank: the day’s own readings; a feast’s name keeps them to that feast,autt: eigin lestrar dagsins; heiti hátíðar takmarkar þá við þá hátíð
+"gives the data files they change, to put over the project’s own for the Python scripts.","gefur gagnaskrárnar sem þær breyta, til að setja yfir skrár verkefnisins fyrir Python-skriftirnar."
+"its key, as periods.csv names it: ADVENT","lykill þess, eins og periods.csv nefnir hann: ADVENT"
+under Share is simpler.,undir Deila er einfaldara.
+"--arrows-next-year, --arrows-same-year: whether the arrow keys go on into the next church year at the year's end, or round the year on the wheel (a box in the page's Settings changes it)","--arrows-next-year, --arrows-same-year: hvort örvalyklarnir halda áfram á næsta kirkjuár í lok ársins eða hringinn um árið á hjólinu (reitur í Stillingum síðunnar breytir því)"
+"--art: the picture the page opens on. By season: the picture of the chosen day's season, and the church's own in a season without one","--art: myndin sem síðan opnast á. Eftir tímabili: mynd tímabils valins dags, og eigin mynd kirkjunnar á tímabili án myndar"
+--drop-art: untick a picture to leave it out of the page,--drop-art: taktu hakið af mynd til að sleppa henni af síðunni
+"--fragment: no <html>, <head> or <body>, to paste into a page of your own","--fragment: ekkert <html>, <head> eða <body>, til að líma inn í eigin síðu"
+"--help-link: the page the Help button opens, the user guide unless changed","--help-link: síðan sem Hjálp-hnappurinn opnar, notendahandbókin ef henni er ekki breytt"
+"--language: the language of the page's buttons, menus and settings until the reader chooses another (Settings > Language)","--language: tungumál hnappa, valmynda og stillinga síðunnar þar til lesandinn velur annað (Stillingar > Tungumál)"
+"--local-art: look for center.svg (or .png, .jpg ...) beside the page when it opens and offer it in the middle. Off, the page asks for no files beside it","--local-art: leita að center.svg (eða .png, .jpg ...) við hlið síðunnar þegar hún opnast og bjóða hana í miðjunni. Af biður síðan ekki um skrár við hlið sér"
+"--no-compress when off: the tables as plain JSON, about three times the size, to read in the page's source or for a browser older than 2023","--no-compress þegar af: töflurnar sem hreint JSON, um þrisvar sinnum stærri, til að lesa í frumkóða síðunnar eða fyrir vafra eldri en 2023"
+"--no-download: the wheel as SVG and PNG, and its lists","--no-download: hjólið sem SVG og PNG, og listar þess"
+"--no-edit: changes to the titles, colors and readings, kept in the reader's browser, and the changed files to download","--no-edit: breytingar á titlum, litum og lestrum, geymdar í vafra lesandans, og breyttu skrárnar til niðurhals"
+"--no-make-page: a page like itself, as this window makes","--no-make-page: síða eins og hún sjálf, eins og þessi gluggi býr til"
+"--own-art: a picture of your own, for the churches you choose","--own-art: eigin mynd, fyrir kirkjurnar sem þú velur"
+--zoom: 1 (the whole wheel) to 6,--zoom: 1 (allt hjólið) til 6
+Show or hide the {0} churches,Sýna eða fela kirkjur hefðarinnar {0}
+{0} of {1},{0} af {1}
+Left with no picture of their own (add one for them below): {0}.,Án eigin myndar (bættu við mynd fyrir þær hér fyrir neðan): {0}.
+choose this file again with Add a picture (a command names it but cannot carry it),veldu þessa skrá aftur með „Bæta við eigin mynd“ (skipun nefnir hana en getur ekki borið hana)
+The own picture of: {0},Eigin mynd fyrir: {0}
+{0} church,{0} kirkja
+{0} churches,{0} kirkjur
+no church (the Artwork menu only),enga kirkju (aðeins Mynd-valmyndin)
+as drawn,eins og teiknað
+(click to use it),(smelltu til að nota)
+Put {0} back,Setja {0} aftur
+{0} changed,{0} breytt
+Every church (unless changed below),Hver kirkja (nema breytt hér fyrir neðan)
+{0} change for single traditions or churches still apply; change them “tradition by tradition” or “church by church” to see it.,{0} breyting fyrir einstakar hefðir eða kirkjur gildir enn; breyttu „hefð fyrir hefð“ eða „kirkju fyrir kirkju“ til að sjá hana.
+{0} changes for single traditions or churches still apply; change them “tradition by tradition” or “church by church” to see them.,{0} breytingar fyrir einstakar hefðir eða kirkjur gilda enn; breyttu „hefð fyrir hefð“ eða „kirkju fyrir kirkju“ til að sjá þær.
+{0} change for single churches still apply; change them “church by church” to see it.,{0} breyting fyrir einstakar kirkjur gildir enn; breyttu „kirkju fyrir kirkju“ til að sjá hana.
+{0} changes for single churches still apply; change them “church by church” to see them.,{0} breytingar fyrir einstakar kirkjur gilda enn; breyttu „kirkju fyrir kirkju“ til að sjá þær.
+Put them back,Setja þær aftur
+Rings and the rest,Hringir og annað
+{0} words,{0}: texti
+as each church has them,eins og hver kirkja hefur þá
+Set from the command.,Stillt eftir skipuninni.
+Note: {0}.,Athugið: {0}.
+Could not read the command: {0},Ekki tókst að lesa skipunina: {0}
+Nothing to save yet: {0}.,Ekkert að vista enn: {0}.
+Saved {0}.,Vistaði {0}.
+Set from {0}.,Stillt eftir {0}.
+Could not read {0}: {1},Ekki tókst að lesa {0}: {1}
+Copied.,Afritað.
+Selected: copy it with Ctrl+C (⌘C on a Mac).,Valið: afritaðu með Ctrl+C (⌘C á Mac).
+The kind {0} is kept; give it a reading.,Tegundinni {0} er haldið; gefðu henni lestur.
+"The kinds of reading {0} has, in the order a set lists them. A new kind is added with a reading of it (This day).","Tegundir lestra sem {0} hefur, í þeirri röð sem lestraröð telur þær upp. Ný tegund bætist við með lestri af henni (Þessi dagur)."
+Kept as reading_labels and reading_order in {0}.,Geymt sem reading_labels og reading_order í {0}.
+The colors of {0}’s seasons. A color may name others the church allows after it: PURPLE; blue.,Litir tímabila {0}. Litur getur nefnt á eftir sér aðra sem kirkjan leyfir: PURPLE; blue.
+This page cannot write {0}.,Þessi síða getur ekki skrifað {0}.
+This tradition ({0}),Þessi hefð ({0})
+"This page was made with changes to: {0}. They are part of it, and Download changed files includes these files.","Þessi síða var búin til með breytingum á: {0}. Þær eru hluti af henni, og „Sækja breyttar skrár“ tekur þessar skrár með."
+{0}: {1} change,{0}: {1} breyting
+{0}: {1} changes,{0}: {1} breytingar
+Downloaded {0} file.,Sótti {0} skrá.
+Downloaded {0} files.,Sótti {0} skrár.
+"Saved {0} ({1} MB, {2} church).","Vistaði {0} ({1} MB, {2} kirkja)."
+"Saved {0} ({1} MB, {2} churches).","Vistaði {0} ({1} MB, {2} kirkjur)."
+Could not make the page: {0},Ekki tókst að búa til síðuna: {0}
+"Choose the wheel, a list, or both.","Veldu hjólið, lista eða hvort tveggja."
+"The Feasts setting is None: choose another, or “with major days”, for a feasts list.","Stillingin Hátíðir er Engar: veldu aðra, eða „með stórhátíðum“, fyrir hátíðalista."
+Drawing {0}…,Teikna {0}…
+Listing the readings…,Lista lestrana…
+Listing the colors…,Lista litina…
+Listing the years…,Lista árin…
+Listing the feasts…,Lista hátíðirnar…
+Saved {0} files in a .zip.,Vistaði {0} skrár í .zip.
+Your own picture could not be read from here and is left out.,Ekki tókst að lesa eigin mynd héðan og henni er sleppt.
+Could not make the files: {0},Ekki tókst að búa til skrárnar: {0}
+The last year is before the first.,Síðasta árið er á undan því fyrsta.
+At most {0} years at a time.,Í mesta lagi {0} ár í einu.
+The church year {0}.,Kirkjuárið {0}.
+"{0} church years, {1} to {2}.","{0} kirkjuár, {1} til {2}."
+The PNGs make this about {0} and take a while; a narrower PNG makes it smaller.,PNG-skrárnar verða um {0} og taka sinn tíma; mjórri PNG gerir þetta minna.
+{0}: {1} for {2},{0}: {1} fyrir {2}
+{0} to {1},{0} til {1}
+readings,lestrar
+colors,litir
+the year at a glance,árið í hnotskurn
+feasts and major days,hátíðir og stórhátíðir
+feasts,hátíðir
+"{0}, {1} {2}, {3}",{0} {2}. {1} {3}
+Monday,mánudagur
+Tuesday,þriðjudagur
+Wednesday,miðvikudagur
+Thursday,fimmtudagur
+Friday,föstudagur
+Saturday,laugardagur
+Sunday,sunnudagur
+January,janúar
+February,febrúar
+March,mars
+April,apríl
+May,maí
+June,júní
+July,júlí
+August,ágúst
+September,september
+October,október
+November,nóvember
+December,desember
+Made by {0} from the church year calendar's data.,Búið til af {0} úr gögnum kirkjuársdagatalsins.
+Each reading opens at {0} in the {1}; each heading opens its set's readings together at Bible Gateway (its propers apart).,Hver lestur opnast á {0} í {1}; hver fyrirsögn opnar lestra raðar sinnar saman á Bible Gateway (sérefnið sér).
+"Each color is the day's own, the top of its cell on the wheel; the others the church allows follow in parentheses, and the lower half's is given where the wheel splits the cell.","Hver litur er eigin litur dagsins, efri hluti reits hans á hjólinu; hinir sem kirkjan leyfir fylgja í svigum, og litur neðri helmings er gefinn þar sem hjólið skiptir reitnum."
+"Each color is the day's own, the top of its cell on the wheel.","Hver litur er eigin litur dagsins, efri hluti reits hans á hjólinu."
+Date,Dagsetning
+Feast,Hátíð
+Level,Stig
+Liturgical color: {0},Litúrgískur litur: {0}
+; lower half {0},; neðri helmingur {0}
+transferred from {0} {1},flutt frá {1}. {0}
+Principal feasts only: those whose color replaces the season's.,Aðeins stórhátíðir: þær sem hafa lit sem kemur í stað litar tímabilsins.
+Festivals: the feasts that color their day or its lower half.,Hátíðisdagar: hátíðirnar sem lita dag sinn eða neðri helming hans.
+"With the major days: the principal days set on dates of their own, Christmas, Easter, Pentecost and the like; a blank color is the season's.","Með stórhátíðunum: stórhátíðirnar á eigin dagsetningum, jól, páskar, hvítasunna og þess háttar; auður litur er litur tímabilsins."
+principal,stórhátíð
+festival,hátíðisdagur
+commemoration,minningardagur
+major day,stórhátíð
+read by {0} churches: a change here changes them all,lesið af {0} kirkjum: breyting hér breytir þeim öllum
+a run of days: the change is the whole run’s,röð daga: breytingin gildir um alla röðina

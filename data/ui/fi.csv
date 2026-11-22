@@ -1,0 +1,487 @@
+english,translation
+"# The page's own words (buttons, menus, settings and their notes) in this language: the English as the page writes it, then its translation. {0}, {1} ... stand for what the page fills in. A missing or blank line stays English."
+Settings,Asetukset
+Simple,Perus
+All,Kaikki
+Language,Kieli
+Match the church,Kuten kirkko
+Browser ({0}),Selain ({0})
+Year,Vuosi
+Tradition,Perinne
+Church,Kirkko
+Hymnal,Virsikirja
+Lectionary,Tekstisarja
+Feasts,Juhlat
+Festivals,Juhlapyhät
+Principal only,Vain pääjuhlat
+None,Ei mitään
+Bible,Raamattu
+Readings shown as,Lukukappaleet näytetään
+Tabs,Välilehdillä
+Columns,Sarakkeissa
+Calendar and names,Kalenteri ja nimet
+Calendar,Kalenteri
+Gregorian,Gregoriaaninen
+Julian (Old Calendar),Juliaaninen (vanha kalenteri)
+Revised Julian (New Calendar),Uudistettu juliaaninen (uusi kalenteri)
+Easter,Pääsiäinen
+With the calendar,Kalenterin mukaan
+Western,Läntinen
+Eastern,Itäinen
+Latin names,Latinankieliset nimet
+Readings,Raamatunluvut
+The day's propers,Päivän omat tekstit
+Feasts and festivals,Juhlat ja juhlapyhät
+Other dated days,Muut päivätyt päivät
+Daily lectionary,Päivittäinen lukujärjestys
+Additional readings,Lisäluvut
+Psalm table,Psalmitaulukko
+Bible reading plan,Raamatunlukusuunnitelma
+Office lessons,Hetkipalvelusten tekstit
+Open in,Avaa palvelussa
+Slide,Liuku
+Off,Ei
+Quick,Nopea
+Medium,Keskitaso
+Slow,Hidas
+Propers,Proprium
+Hymn search,Virsihaku
+Contemporary song search,Ylistyslaulujen haku
+The wheel,Pyörä
+Artwork,Kuva
+Thicker line where the year begins,Paksumpi viiva vuoden alussa
+Arrow keys go on into the next year,Nuolinäppäimet jatkavat seuraavaan vuoteen
+Dark text on reds,Tumma teksti punaisilla
+Under the wheel,Pyörän alla
+Instructions and notes,Ohjeet ja huomautukset
+Artwork credit,Kuvan tekijätiedot
+Rings,Renkaat
+Outer band,Ulkoreuna
+Seasons,Ajat
+Months,Kuukaudet
+Parts of the year,Vuoden osat
+Day cells,Päiväsolut
+Center artwork,Keskikuva
+Colors…,Värit…
+Colors,Värit
+Days,Päivät
+Close,Sulje
+Reset colors,Palauta värit
+Reset settings,Palauta asetukset
+Share,Jaa
+Copy link,Kopioi linkki
+Copy embed code,Kopioi upotuskoodi
+Print,Tulosta
+Download…,Lataa…
+Download,Lataa
+Years,Vuodet
+From,Alkaen
+to,–
+pixels wide,pikseliä leveä
+Background,Tausta
+clear,läpinäkyvä
+white,valkoinen
+Lists,Luettelot
+Sundays,Sunnuntait
+Sundays and principal days,Sunnuntait ja pääjuhlat
+every day,joka päivä
+every named day,jokainen nimetty päivä
+with links,linkkien kanssa
+with major days,pääjuhlien kanssa
+other colors,muut värit
+Format,Muoto
+CSV (spreadsheet),CSV (taulukko)
+HTML (to print),HTML (tulostettavaksi)
+iCalendar (.ics),iCalendar (.ics)
+PNG (a picture),PNG (kuva)
+"SVG (a drawing, sharp at any size)","SVG (piirros, terävä kaikissa koissa)"
+The year at a glance,Vuosi yhdellä silmäyksellä
+Today,Tänään
+Week,Viikko
+Find a day,Etsi päivä
+Help,Ohje
+Feedback,Palaute
+About the artwork,Tietoa kuvasta
+Choose a date,Valitse päivämäärä
+Previous day,Edellinen päivä
+Next day,Seuraava päivä
+Zoom in,Lähennä
+Zoom out,Loitonna
+Zoom in (+),Lähennä (+)
+Zoom out (−),Loitonna (−)
+Magnification,Suurennus
+The week before,Edellinen viikko
+The week after,Seuraava viikko
+Days with that name,"Päivät, joilla on tämä nimi"
+Find a day by its name,Etsi päivä nimen perusteella
+Church Year {0},Kirkkovuosi {0}
+Jump to today (T) — {0},Siirry tähän päivään (T) — {0}
+Read about {0},Lue aiheesta {0}
+{0} ({1} hymns) in {2},{0} ({1} virttä) – {2}
+Hymns on {0} in {1} at Hymnary.org,"Virret aiheesta {0} – {1}, Hymnary.org"
+Hymns for these readings in {0} at Hymnary.org,"Virret näihin lukukappaleisiin – {0}, Hymnary.org"
+Hymns for these propers in {0} at Hymnary.org,"Virret tähän propriumiin – {0}, Hymnary.org"
+the church's hymnal,kirkon virsikirja
+Contemporary worship songs for these readings at Word to Worship,"Nykyiset ylistyslaulut näihin lukukappaleisiin, Word to Worship"
+Contemporary worship songs for these propers at Word to Worship,"Nykyiset ylistyslaulut tähän propriumiin, Word to Worship"
+Open all these readings together at Bible Gateway,Avaa kaikki nämä lukukappaleet yhdessä Bible Gatewayssa
+Open these propers together at Bible Gateway,Avaa tämä proprium yhdessä Bible Gatewayssa
+▴ less,▴ vähemmän
+▾ more,▾ enemmän
+▾ {0} more,▾ {0} lisää
+Show two lines again,Näytä taas kaksi riviä
+Show all of this set’s readings,Näytä kaikki tämän sarjan lukukappaleet
+Show all the day’s readings,Näytä kaikki päivän lukukappaleet
+Show the readings in three lines again,Näytä lukukappaleet taas kolmella rivillä
+No day of {0} by that name,Vuodessa {0} ei ole päivää tällä nimellä
+Choose {0} on the wheel,Valitse {0} pyörästä
+In another church year: choose the day to draw it.,Toisessa kirkkovuodessa: valitse päivä piirtääksesi sen.
+Copied,Kopioitu
+Copy failed,Kopiointi epäonnistui
+"The language of the page's buttons, menus and settings. The calendar's names, dates and readings stay in the church's language.","Sivun painikkeiden, valikoiden ja asetusten kieli. Kalenterin nimet, päivämäärät ja lukukappaleet pysyvät kirkon kielellä."
+"The church year wheel: left and right arrow keys step a week, up and down a day","Kirkkovuoden pyörä: vasen ja oikea nuolinäppäin siirtävät viikon, ylös ja alas päivän"
+"The settings most often changed: the year, the church, the feasts, the Bible and how the readings are shown","Useimmin muutetut asetukset: vuosi, kirkko, juhlat, Raamattu ja miten lukukappaleet näytetään"
+"Every setting: the calendar, the kinds of reading, the searches, the artwork, the rings and colors, and making a page or editing the data","Kaikki asetukset: kalenteri, lukukappaleiden lajit, haut, kuva, renkaat ja värit sekä sivun tekeminen tai tietojen muokkaus"
+"The year the church year begins in: Advent for most traditions, September for the Eastern Orthodox","Vuosi, jona kirkkovuosi alkaa: adventtina useimmissa perinteissä, syyskuussa ortodokseilla"
+The family of churches,Kirkkoperhe
+Which church's calendar the wheel follows,Minkä kirkon kalenteria pyörä seuraa
+"All: every commemoration. Festivals: the festivals and feasts (in the Roman calendar, solemnities and feasts). Principal: only the principal days (solemnities). None: the saints' days are left off.",Kaikki: jokainen muistopäivä. Juhlapyhät: juhlapyhät ja juhlat (roomalaisessa kalenterissa juhlapyhät ja juhlat). Vain pääjuhlat: vain pääjuhlat (juhlapyhät). Ei mitään: pyhimysten päivät jätetään pois.
+The translation the readings open in. Each church starts on the one it uses (ESV where it names none).,"Käännös, jossa lukukappaleet avataan. Jokainen kirkko aloittaa omallaan (ESV, jos se ei nimeä mitään)."
+"How the day's readings are shown when there are several sets: one at a time under tabs, or all of them in columns (on the right, and across two columns when opened with more)","Miten päivän lukukappaleet näytetään, kun sarjoja on useita: yksi kerrallaan välilehdillä tai kaikki sarakkeissa (oikealla, ja kahdessa sarakkeessa, kun avataan enemmän)"
+Which calendar the dates are reckoned in,Missä kalenterissa päivämäärät lasketaan
+"How Easter is dated, which is a separate question from how the days are named. Left to follow the calendar, a Gregorian wheel keeps Western Easter and the other two keep the Eastern one.","Miten pääsiäinen ajoitetaan, mikä on eri kysymys kuin päivien nimeäminen. Kalenterin mukaan gregoriaaninen pyörä pitää läntisen pääsiäisen ja kaksi muuta itäisen."
+"Name the one-year Sundays as the historic calendar does, from the first words of the day's Introit: Ad Te Levavi, Laetare, Quasimodo Geniti","Nimeä yksivuotisen sarjan sunnuntait historiallisen kalenterin tapaan päivän introitusin alkusanoista: Ad Te Levavi, Laetare, Quasimodo Geniti"
+List the day's Bible readings under its name. Each kind can be left out; only the kinds this church's lectionary has are offered.,Näytä päivän raamatunluvut sen nimen alla. Jokaisen lajin voi jättää pois; tarjolla ovat vain tämän kirkon tekstisarjan lajit.
+"The lessons of the day's own propers: its Sunday, holy day or season, and any other service its book appoints for it","Päivän oman propriumin tekstit: sen sunnuntai, pyhäpäivä tai aika sekä muut jumalanpalvelukset, jotka sen kirja sille määrää"
+"The lessons of a saint's day or festival, listed only while the wheel shows it (see Feasts)","Pyhimyksen päivän tai juhlan tekstit, näkyvissä vain kun pyörä näyttää sen (ks. Juhlat)"
+"The lessons of a day the calendar does not name, kept by its date or a date rule: Ember and Rogation Days, Thanksgiving, New Year's and national days, the Saturdays before and after a feast","Päivän tekstit, jota kalenteri ei nimeä, päivämäärän tai sääntöjen mukaan: kvatemberit ja rukouspäivät, kiitospäivä, uusivuosi ja kansalliset päivät, juhlaa edeltävät ja seuraavat lauantait"
+The hymnal's or prayer book's daily or weekday lectionary,Virsikirjan tai rukouskirjan päivittäinen tai arkipäivien lukujärjestys
+"The additional readings a daily lectionary offers beside its own, for reading more of the Bible (Lutheran Service Book prints them in italics)","Lisäluvut, joita päivittäinen lukujärjestys tarjoaa omiensa lisäksi Raamatun laajempaan lukemiseen (Lutheran Service Book painaa ne kursiivilla)"
+"A table of psalms for daily prayer, morning and evening, by season and weekday (Lutheran Service Book, p. 304)","Psalmitaulukko päivittäiseen rukoukseen, aamuin ja illoin, ajan ja viikonpäivän mukaan (Lutheran Service Book, s. 304)"
+"A plan of daily Bible reading kept by the calendar year: Reading the Word of God (LCMS, LCC and NALC), through the Old Testament in three years and the Psalms and New Testament twice","Päivittäisen raamatunlukemisen suunnitelma kalenterivuoden mukaan: Reading the Word of God (LCMS, LCC ja NALC), Vanha testamentti kolmessa vuodessa ja Psalmit ja Uusi testamentti kahdesti"
+"The lessons of the Office: Morning and Evening Prayer, Matins, a second or third service","Hetkipalvelusten tekstit: aamu- ja iltarukous, matutina, toinen tai kolmas jumalanpalvelus"
+"Where a reading opens. On a phone or tablet either one opens in its own app when the app is installed, and in the browser otherwise.","Missä lukukappale avataan. Puhelimessa tai tabletissa kumpikin avautuu omaan sovellukseensa, jos se on asennettu, muuten selaimeen."
+How fast the sets slide between the columns when more or less is clicked (kept in this browser),"Kuinka nopeasti sarjat liukuvat sarakkeiden välillä, kun napsautetaan enemmän tai vähemmän (tallennetaan tähän selaimeen)"
+"The parts of the service the church lists with each day's readings (an Introit, a Gradual and a Verse), on a line of their own after them; a set's heading opens only its readings together","Jumalanpalveluksen osat, jotka kirkko luettelee kunkin päivän lukukappaleiden kanssa (introitus, graduale ja jae), omalla rivillään niiden jälkeen; sarjan otsikko avaa vain sen lukukappaleet yhdessä"
+A hymnal mark after each set of readings that searches Hymnary.org for the hymns on them in this church's hymnal,"Virsikirjamerkki jokaisen lukukappalesarjan perässä, joka hakee Hymnary.orgista niihin liittyviä virsiä tämän kirkon virsikirjasta"
+"The hymnal Hymn search looks in, where the church has several","Virsikirja, josta virsihaku hakee, jos kirkolla on useita"
+A circled note after each set of readings that searches Word to Worship (wordtoworship.com) for contemporary worship songs on them,"Ympyröity nuotti jokaisen lukukappalesarjan perässä, joka hakee Word to Worshipista (wordtoworship.com) niihin liittyviä nykyisiä ylistyslauluja"
+"The picture in the middle of the wheel. Each tradition has its own; any of them can be chosen. By season changes it with the day chosen: the wreath in Advent, the manger at Christmas, the empty tomb at Easter, and the church's own picture in the seasons that have none.","Kuva pyörän keskellä. Jokaisella perinteellä on omansa; mikä tahansa voidaan valita. ”Ajan mukaan” vaihtaa sen valitun päivän mukaan: seppele adventtina, seimi jouluna, tyhjä hauta pääsiäisenä ja kirkon oma kuva ajoissa, joilla ei ole omaa."
+"A thicker line where the year's last week meets its first, which are a year apart","Paksumpi viiva, jossa vuoden viimeinen viikko kohtaa ensimmäisen, joiden välillä on vuosi"
+"Checked: at the end of the church year the arrow keys go on into the next year's wheel, and back into the last. Unchecked: they go round the year on the wheel, from its last week to its first. Page Up and Page Down and the ◀ ▶ buttons always go on.","Valittuna: kirkkovuoden lopussa nuolinäppäimet jatkavat seuraavan vuoden pyörään ja takaisin edelliseen. Ei valittuna: ne kiertävät vuoden pyörällä viimeisestä viikosta ensimmäiseen. Page Up, Page Down ja painikkeet ◀ ▶ jatkavat aina."
+"The reds in the middle of the range (the LCMS, Roman and Presbyterian reds) read about as well with black text as with white. Checked: black on them.","Asteikon keskivaiheen punaiset (LCMS:n, roomalainen ja presbyteerinen punainen) erottuvat mustalla tekstillä suunnilleen yhtä hyvin kuin valkoisella. Valittuna: musta niiden päällä."
+"How to use the wheel, the calendar's notes and how long it took to draw","Miten pyörää käytetään, kalenterin huomautukset ja kuinka kauan piirtäminen kesti"
+"Who made the picture in the middle, and its license. When it is off and the license asks for credit, a small i button keeps it a click away.","Kuka teki keskikuvan ja sen lisenssi. Kun tämä on pois päältä ja lisenssi vaatii tekijätiedot, pieni i-painike pitää ne napsautuksen päässä."
+"The colors the days and the rings are painted in, each of which can be changed for this page","Värit, joilla päivät ja renkaat maalataan; kunkin voi muuttaa tätä sivua varten"
+The colors on the wheel this year. Click a swatch to change it; the change is kept in the page's link. Text on a day stays readable: it turns black or white if it would not.,"Pyörän värit tänä vuonna. Muuta väriä napsauttamalla näytettä; muutos tallentuu sivun linkkiin. Päivän teksti pysyy luettavana: siitä tulee musta tai valkoinen, jos se ei muuten olisi."
+Put every color back to the page's own,Palauta jokainen väri sivun omaksi
+"Put every setting here back to what config.csv asks for, keeping the day on the wheel","Palauta jokainen asetus siihen, mitä config.csv määrää, päivä pyörällä säilyttäen"
+"Copy a link that opens on this day, with these settings","Kopioi linkki, joka avautuu tähän päivään näillä asetuksilla"
+"Copy a line of HTML that shows this page inside a page of your own website (an iframe), opening on the day it is read, with these settings","Kopioi HTML-rivi, joka näyttää tämän sivun oman verkkosivustosi sivulla (iframe), avautuen lukupäivään, näillä asetuksilla"
+Print the whole wheel on one page,Tulosta koko pyörä yhdelle sivulle
+"Download the wheel (SVG, PNG) and lists of its readings, colors and feasts, for this year or a run of years","Lataa pyörä (SVG, PNG) ja luettelot sen lukukappaleista, väreistä ja juhlista tälle vuodelle tai vuosijaksolle"
+"The wheel and its lists as they are here, with these settings: the church, calendars, feasts, readings, rings, colors and artwork.","Pyörä ja sen luettelot sellaisina kuin ne ovat tässä, näillä asetuksilla: kirkko, kalenterit, juhlat, lukukappaleet, renkaat, värit ja kuva."
+"Each day's readings, as the Readings boxes and the Feasts setting choose them","Kunkin päivän lukukappaleet, sellaisina kuin Raamatunluvut-valinnat ja Juhlat-asetus ne valitsevat"
+Each reading opens where Open in and Bible say; each set's heading opens all its readings,"Jokainen lukukappale avautuu sinne, minne Avaa palvelussa ja Raamattu osoittavat; jokaisen sarjan otsikko avaa kaikki sen lukukappaleet"
+The Sundays and principal days (or every day) with the color the wheel paints them,"Sunnuntait ja pääjuhlat (tai joka päivä) värillä, jolla pyörä ne maalaa"
+"The other colors the church allows, and the lower half's where the wheel splits a cell (in the feasts list too)","Muut värit, jotka kirkko sallii, ja alapuoliskon väri, kun pyörä jakaa solun (myös juhlaluettelossa)"
+"The festivals, saints' days and commemorations the Feasts setting keeps, on the days they fall","Juhlapyhät, pyhimysten päivät ja muistopäivät, jotka Juhlat-asetus säilyttää, niinä päivinä kuin ne osuvat"
+"Also Christmas, Easter, Pentecost and the other principal days on dates of their own","Myös joulu, pääsiäinen, helluntai ja muut pääjuhlat omina päivinään"
+"Where to read about each, as the readout links it","Mistä kustakin voi lukea, sellaisena kuin näkymä siihen linkittää"
+"Previous day (up arrow; left arrow: a week, Shift: a month)","Edellinen päivä (nuoli ylös; nuoli vasemmalle: viikko, Vaihto: kuukausi)"
+"Next day (down arrow; right arrow: a week, Shift: a month)","Seuraava päivä (nuoli alas; nuoli oikealle: viikko, Vaihto: kuukausi)"
+Magnification: 1× (the whole wheel) to 6×,Suurennus: 1× (koko pyörä) – 6×
+"Type a Sunday's, a season's or a feast's name and pick it: the wheel goes to that day in the year shown (F)","Kirjoita sunnuntain, ajan tai juhlan nimi ja valitse se: pyörä siirtyy siihen päivään näytetyssä vuodessa (F)"
+"The chosen day's week in a list: each day's names, color and readings (W)","Valitun päivän viikko luettelona: kunkin päivän nimet, väri ja lukukappaleet (W)"
+"Print this week's days and readings, a page or two to hand round","Tulosta tämän viikon päivät ja lukukappaleet, sivu tai kaksi jaettavaksi"
+"How to use this page: every control, key and setting","Miten tätä sivua käytetään: jokainen säädin, näppäin ja asetus"
+"Send feedback about this page: the day, church and settings on screen go with it","Lähetä palautetta tästä sivusta: näytöllä oleva päivä, kirkko ja asetukset lähetetään mukana"
+"Type any year and the wheel is drawn for it. Click a cell, use the arrow keys, or pick a date.","Kirjoita mikä tahansa vuosi, niin pyörä piirretään sille. Napsauta solua, käytä nuolinäppäimiä tai valitse päivämäärä."
+"Tap a cell, pinch to zoom, or pick a date.","Napauta solua, nipistä zoomataksesi tai valitse päivämäärä."
+A new kind…,Uusi laji…
+About the feasts only,Vain juhlista
+Add,Lisää
+Add a color,Lisää väri
+Add a feast on this date,Lisää juhla tälle päivälle
+Add a picture of your own…,Lisää oma kuva…
+Add a reading to this set,Lisää lukukappale tähän sarjaan
+Add a season,Lisää aika
+Add a set of readings on this date,Lisää lukukappalesarja tälle päivälle
+Additional,Lisäluvut
+Advent: four candles lit,Adventti: neljä kynttilää palaa
+Advent: one candle lit,Adventti: yksi kynttilä palaa
+Advent: three candles lit,Adventti: kolme kynttilää palaa
+Advent: two candles lit,Adventti: kaksi kynttilää palaa
+Armenian cross,Armenialainen risti
+As each color sets it,Kuten kukin väri määrää
+As on screen,Kuten näytöllä
+As this page opens,Kuten tämä sivu avautuu
+Black,Musta
+Blue,Sininen
+Burning bush,Palava pensas
+Buttons it shows,"Painikkeet, jotka se näyttää"
+By season,Ajan mukaan
+"Calendar (Gregorian, Julian, Revised Julian)","Kalenteri (gregoriaaninen, juliaaninen, uudistettu juliaaninen)"
+Canterbury cross,Canterburyn risti
+Celtic cross,Kelttiläinen risti
+Chalice and host,Malja ja öylätti
+Change for,Muuta kohteelle
+Changes,Muutokset
+Chi-Rho,Kristusmonogrammi
+Christmas: the manger,Joulu: seimi
+Churches it offers,"Kirkot, joita se tarjoaa"
+Color,Väri
+Columns only,Vain sarakkeet
+"Columns, or tabs in Settings","Sarakkeet, tai välilehdet Asetuksissa"
+Coptic cross,Koptilainen risti
+Copy,Kopioi
+Daily,Päivittäiset
+Dark,Tumma
+Dark on reds,Tumma punaisilla
+Day,Päivä
+Download changed files,Lataa muutetut tiedostot
+Each church's first,Kunkin kirkon ensimmäinen
+Each church's own,Kunkin kirkon oma
+Earlier,Aiemmin
+Easter (Western or Eastern),Pääsiäinen (läntinen tai itäinen)
+Easter: the empty tomb,Pääsiäinen: tyhjä hauta
+Edit the data,Muokkaa tietoja
+Edit the data…,Muokkaa tietoja…
+Epiphany: the star and crowns,Loppiainen: tähti ja kruunut
+Ethiopian cross,Etiopialainen risti
+Every church,Jokainen kirkko
+Every version,Jokainen käännös
+Feedback link,Palautelinkki
+File name,Tiedoston nimi
+Fill,Täyttö
+Full name,Koko nimi
+Gold,Kulta
+Green,Vihreä
+Help link,Ohjelinkki
+Holy Week: three crosses,Hiljainen viikko: kolme ristiä
+"Instructions, notes and credit","Ohjeet, huomautukset ja tekijätiedot"
+It opens,Se avautuu
+Kinds of reading,Lukukappaleiden lajit
+Later,Myöhemmin
+Lent: the cross and thorns,Paastonaika: risti ja orjantappurat
+Light,Vaalea
+Link,Linkki
+Links,Linkit
+Load settings…,Lataa asetukset…
+Lower half,Alapuolisko
+Luther rose,Lutherin ruusu
+Make a page,Tee sivu
+Make a page…,Tee sivu…
+Make the page,Tee sivu
+Moravian star,Herrnhutin tähti
+Morello,Morello
+Name,Nimi
+Names (a pattern),Nimet (malli)
+Names and colors,Nimet ja värit
+No changes on this page yet.,Tällä sivulla ei ole vielä muutoksia.
+None (each church's own version),Ei mitään (kunkin kirkon oma käännös)
+None (no box and no marks),Ei mitään (ei ruutua eikä merkkejä)
+None (plain text),Ei mitään (pelkkä teksti)
+Nothing,Ei mitään
+Off (the box unchecked),Pois (ruutu valitsematta)
+Office,Hetkipalvelus
+On,Päällä
+On the year beginning in Advent,"Vuonna, joka alkaa adventtina"
+Only this one,Vain tämä
+Outside the year,Vuoden ulkopuolella
+"Packed, about a third of the size","Pakattu, noin kolmasosa koosta"
+Pentecost: the dove and flames,Helluntai: kyyhky ja liekit
+Pictures kept,Säilytetyt kuvat
+Purple,Violetti
+Reading plan,Lukusuunnitelma
+Readings and links,Lukukappaleet ja linkit
+Red,Punainen
+Remove,Poista
+Remove this reading,Poista tämä lukukappale
+Rose,Ruusunpunainen
+Save,Tallenna
+Save settings…,Tallenna asetukset…
+Scarlet,Helakanpunainen
+Season,Aika
+Set the window from it,Aseta ikkuna sen mukaan
+Settings it shows,"Asetukset, jotka se näyttää"
+Syriac cross,Syyrialainen risti
+Tabs only,Vain välilehdet
+"Tabs, or columns in Settings","Välilehdet, tai sarakkeet Asetuksissa"
+Text,Teksti
+Text on mid-tone colors,Teksti keskisävyisillä väreillä
+The artwork's credit only,Vain kuvan tekijätiedot
+"The church, calendars and settings on screen now","Kirkko, kalenterit ja asetukset, jotka ovat nyt näytöllä"
+The same page from Python; save or load these settings,Sama sivu Pythonista; tallenna tai lataa nämä asetukset
+The tradition's own,Perinteen oma
+These:,Nämä:
+This church,Tämä kirkko
+This day,Tämä päivä
+This tradition,Tämä perinne
+Title,Otsikko
+To paste into another page’s HTML,Liitettäväksi toisen sivun HTML:ään
+Violet,Violetti
+What this page opens with,Millä tämä sivu avautuu
+White,Valkoinen
+Zoom,Zoomaus
+every church,jokainen kirkko
+https://… (blank: none),https://… (tyhjä: ei mitään)
+OK,OK
+Undo these,Kumoa nämä
+Undo the last change,Kumoa viimeisin muutos
+Undo every change,Kumoa kaikki muutokset
+Periods with a color of their own,"Ajanjaksot, joilla on oma väri"
+Credit,Tekijätiedot
+Artist or owner,Taiteilija tai omistaja
+License or copyright,Lisenssi tai tekijänoikeus
+License link,Lisenssin linkki
+Source link,Lähteen linkki
+Added.,Lisätty.
+Saved.,Tallennettu.
+Undone.,Kumottu.
+Removed.,Poistettu.
+Every change undone.,Kaikki muutokset kumottu.
+A feast needs a name.,Juhla tarvitsee nimen.
+A kind needs a key of letters and numbers.,Laji tarvitsee kirjaimista ja numeroista koostuvan avaimen.
+A reading cannot be blank: Remove takes it away.,Lukukappale ei voi olla tyhjä: Poista ottaa sen pois.
+Choose its kind and write the reading.,Valitse sen laji ja kirjoita lukukappale.
+This page cannot write this church’s tradition.csv.,Tämä sivu ei voi kirjoittaa tämän kirkon tradition.csv-tiedostoa.
+Added: further readings join it with Add a reading.,Lisätty: lisää lukukappaleita liitetään valinnalla ”Lisää lukukappale”.
+Nothing on this day comes from a file this page can write.,"Mikään tämän päivän tieto ei tule tiedostosta, jota tämä sivu voi kirjoittaa."
+The day’s own,Päivän oma
+(not in a file this page can write),"(ei tiedostossa, jota tämä sivu voi kirjoittaa)"
+Kept in this browser for this page. Make a page writes them into the page it makes.,Tallennettu tähän selaimeen tälle sivulle. ”Tee sivu” kirjoittaa ne tekemäänsä sivuun.
+"A .zip of the data files the changes make, laid out as the project's data folder",".zip-tiedosto muutosten tuottamista datatiedostoista, järjestettynä kuten projektin data-kansio"
+"A page like this one, in one HTML file to put on a website or open from a folder: the page church_year.py makes with the same options (below). Each choice starts as the page is now.","Tämän kaltainen sivu yhtenä HTML-tiedostona verkkosivustolle laitettavaksi tai kansiosta avattavaksi: sivu, jonka church_year.py tekee samoilla valinnoilla (alla). Jokainen valinta alkaa sellaisena kuin sivu nyt on."
+A picture beside the page (center.svg…),Kuva sivun vieressä (center.svg…)
+Changes show on the wheel at once and are kept in this browser for this page; Make a page writes them into the page it makes.,Muutokset näkyvät pyörällä heti ja tallentuvat tähän selaimeen tälle sivulle; ”Tee sivu” kirjoittaa ne tekemäänsä sivuun.
+"Copy the command, to make this page with the script or to set this window from it later","Kopioi komento, jotta voit tehdä tämän sivun skriptillä tai asettaa tämän ikkunan sen mukaan myöhemmin"
+"Not a whole page: its contents go into your own page’s HTML. To show a page that is already on a website,","Ei kokonainen sivu: sen sisältö menee oman sivusi HTML:ään. Kun haluat näyttää sivun, joka on jo verkkosivustolla,"
+"One row a year: Advent, Christmas, Ash Wednesday, Easter, Pentecost and the other movable dates, and how many Sundays after the Epiphany and Pentecost or Trinity (colors.py --overview). It has no iCalendar form, so with that format it comes as CSV.","Rivi vuotta kohti: adventti, joulu, tuhkakeskiviikko, pääsiäinen, helluntai ja muut liikkuvat päivät sekä montako sunnuntaita loppiaisen ja helluntain tai kolminaisuudenpäivän jälkeen (colors.py --overview). Sillä ei ole iCalendar-muotoa, joten siinä muodossa se tulee CSV:nä."
+"Save these settings as a small text file (the command), to load here again later",Tallenna nämä asetukset pieneksi tekstitiedostoksi (komento) ladattavaksi tänne myöhemmin
+Set the window from a command: paste one copied here before (or written for church_year.py),Aseta ikkuna komennon mukaan: liitä aiemmin täältä kopioitu (tai church_year.py:lle kirjoitettu)
+Set the window from a settings file saved here before,Aseta ikkuna aiemmin täällä tallennetun asetustiedoston mukaan
+What each color looks like on the wheel: its fill and the color of text on it. A color changed for this tradition only goes into its own colors.csv; one for every church into data/colors.csv.,Miltä kukin väri näyttää pyörällä: sen täyttö ja sen päällä olevan tekstin väri. Vain tälle perinteelle muutettu väri menee sen omaan colors.csv-tiedostoon; kaikille kirkoille tiedostoon data/colors.csv.
+a word in capitals: ROSE,sana isoin kirjaimin: ROSE
+blank: the day’s own readings; a feast’s name keeps them to that feast,tyhjä: päivän omat lukukappaleet; juhlan nimi rajaa ne siihen juhlaan
+"gives the data files they change, to put over the project’s own for the Python scripts.","antaa muuttamansa datatiedostot, laitettaviksi projektin omien päälle Python-skriptejä varten."
+"its key, as periods.csv names it: ADVENT","sen avain, kuten periods.csv sen nimeää: ADVENT"
+under Share is simpler.,kohdassa Jaa on yksinkertaisempi.
+"--arrows-next-year, --arrows-same-year: whether the arrow keys go on into the next church year at the year's end, or round the year on the wheel (a box in the page's Settings changes it)","--arrows-next-year, --arrows-same-year: jatkavatko nuolinäppäimet vuoden lopussa seuraavaan kirkkovuoteen vai kiertävät vuoden pyörällä (sivun Asetusten ruutu muuttaa sen)"
+"--art: the picture the page opens on. By season: the picture of the chosen day's season, and the church's own in a season without one","--art: kuva, jolla sivu avautuu. Ajan mukaan: valitun päivän ajan kuva, ja kirkon oma ajassa, jolla ei ole kuvaa"
+--drop-art: untick a picture to leave it out of the page,--drop-art: poista kuvan valinta jättääksesi sen pois sivulta
+"--fragment: no <html>, <head> or <body>, to paste into a page of your own","--fragment: ei <html>-, <head>- tai <body>-osaa, liitettäväksi omaan sivuun"
+"--help-link: the page the Help button opens, the user guide unless changed","--help-link: sivu, jonka Ohje-painike avaa, käyttöopas ellei muuteta"
+"--language: the language of the page's buttons, menus and settings until the reader chooses another (Settings > Language)","--language: sivun painikkeiden, valikoiden ja asetusten kieli, kunnes lukija valitsee toisen (Asetukset > Kieli)"
+"--local-art: look for center.svg (or .png, .jpg ...) beside the page when it opens and offer it in the middle. Off, the page asks for no files beside it","--local-art: etsi center.svg (tai .png, .jpg ...) sivun vierestä sen avautuessa ja tarjoa se keskelle. Pois päältä sivu ei pyydä tiedostoja vierestään"
+"--no-compress when off: the tables as plain JSON, about three times the size, to read in the page's source or for a browser older than 2023","--no-compress kun pois: taulukot pelkkänä JSONina, noin kolme kertaa suurempina, luettaviksi sivun lähdekoodissa tai vanhemmalle kuin vuoden 2023 selaimelle"
+"--no-download: the wheel as SVG and PNG, and its lists",--no-download: pyörä SVG- ja PNG-muodossa sekä sen luettelot
+"--no-edit: changes to the titles, colors and readings, kept in the reader's browser, and the changed files to download","--no-edit: otsikoiden, värien ja lukukappaleiden muutokset lukijan selaimessa sekä muutetut tiedostot ladattaviksi"
+"--no-make-page: a page like itself, as this window makes","--no-make-page: itsensä kaltainen sivu, kuten tämä ikkuna tekee"
+"--own-art: a picture of your own, for the churches you choose",--own-art: oma kuva valitsemillesi kirkoille
+--zoom: 1 (the whole wheel) to 6,--zoom: 1 (koko pyörä) – 6
+Show or hide the {0} churches,Näytä tai piilota perinteen {0} kirkot
+{0} of {1},{0}/{1}
+Left with no picture of their own (add one for them below): {0}.,Ilman omaa kuvaa (lisää niille kuva alla): {0}.
+choose this file again with Add a picture (a command names it but cannot carry it),"valitse tämä tiedosto uudelleen valinnalla ”Lisää oma kuva” (komento nimeää sen, mutta ei voi kuljettaa sitä)"
+The own picture of: {0},Oma kuva kirkoille: {0}
+{0} church,{0} kirkko
+{0} churches,{0} kirkkoa
+no church (the Artwork menu only),ei yhtään kirkkoa (vain Kuva-valikko)
+as drawn,kuten piirretty
+(click to use it),(käytä napsauttamalla)
+Put {0} back,Palauta {0}
+{0} changed,{0} muutettu
+Every church (unless changed below),Jokainen kirkko (ellei muutettu alla)
+{0} change for single traditions or churches still apply; change them “tradition by tradition” or “church by church” to see it.,{0} yksittäisten perinteiden tai kirkkojen muutos on yhä voimassa; vaihda ”perinne kerrallaan” tai ”kirkko kerrallaan” nähdäksesi sen.
+{0} changes for single traditions or churches still apply; change them “tradition by tradition” or “church by church” to see them.,{0} yksittäisten perinteiden tai kirkkojen muutosta on yhä voimassa; vaihda ”perinne kerrallaan” tai ”kirkko kerrallaan” nähdäksesi ne.
+{0} change for single churches still apply; change them “church by church” to see it.,{0} yksittäisten kirkkojen muutos on yhä voimassa; vaihda ”kirkko kerrallaan” nähdäksesi sen.
+{0} changes for single churches still apply; change them “church by church” to see them.,{0} yksittäisten kirkkojen muutosta on yhä voimassa; vaihda ”kirkko kerrallaan” nähdäksesi ne.
+Put them back,Palauta ne
+Rings and the rest,Renkaat ja muut
+{0} words,{0}: teksti
+as each church has them,kuten kullakin kirkolla
+Set from the command.,Asetettu komennon mukaan.
+Note: {0}.,Huom: {0}.
+Could not read the command: {0},Komentoa ei voitu lukea: {0}
+Nothing to save yet: {0}.,Ei vielä mitään tallennettavaa: {0}.
+Saved {0}.,Tallennettu {0}.
+Set from {0}.,Asetettu tiedoston {0} mukaan.
+Could not read {0}: {1},Tiedostoa {0} ei voitu lukea: {1}
+Copied.,Kopioitu.
+Selected: copy it with Ctrl+C (⌘C on a Mac).,Valittu: kopioi näppäimillä Ctrl+C (⌘C Macissa).
+The kind {0} is kept; give it a reading.,Laji {0} säilyy; anna sille lukukappale.
+"The kinds of reading {0} has, in the order a set lists them. A new kind is added with a reading of it (This day).","Lukukappaleiden lajit, jotka kirkolla {0} on, siinä järjestyksessä kuin sarja ne luettelee. Uusi laji lisätään sen lukukappaleen kanssa (Tämä päivä)."
+Kept as reading_labels and reading_order in {0}.,Tallennettu nimillä reading_labels ja reading_order tiedostoon {0}.
+The colors of {0}’s seasons. A color may name others the church allows after it: PURPLE; blue.,"Kirkon {0} aikojen värit. Väri voi nimetä perässään muita, jotka kirkko sallii: PURPLE; blue."
+This page cannot write {0}.,Tämä sivu ei voi kirjoittaa tiedostoa {0}.
+This tradition ({0}),Tämä perinne ({0})
+"This page was made with changes to: {0}. They are part of it, and Download changed files includes these files.","Tämä sivu tehtiin muutoksin tiedostoihin: {0}. Ne kuuluvat siihen, ja ”Lataa muutetut tiedostot” ottaa nämä tiedostot mukaan."
+{0}: {1} change,{0}: {1} muutos
+{0}: {1} changes,{0}: {1} muutosta
+Downloaded {0} file.,Ladattiin {0} tiedosto.
+Downloaded {0} files.,Ladattiin {0} tiedostoa.
+"Saved {0} ({1} MB, {2} church).","Tallennettu {0} ({1} Mt, {2} kirkko)."
+"Saved {0} ({1} MB, {2} churches).","Tallennettu {0} ({1} Mt, {2} kirkkoa)."
+Could not make the page: {0},Sivua ei voitu tehdä: {0}
+"Choose the wheel, a list, or both.","Valitse pyörä, luettelo tai molemmat."
+"The Feasts setting is None: choose another, or “with major days”, for a feasts list.",Juhlat-asetus on Ei mitään: valitse jokin muu tai ”pääjuhlien kanssa” juhlaluetteloa varten.
+Drawing {0}…,Piirretään {0}…
+Listing the readings…,Luetellaan lukukappaleita…
+Listing the colors…,Luetellaan värejä…
+Listing the years…,Luetellaan vuosia…
+Listing the feasts…,Luetellaan juhlia…
+Saved {0} files in a .zip.,Tallennettu {0} tiedostoa .zip-tiedostoon.
+Your own picture could not be read from here and is left out.,"Omaa kuvaasi ei voitu lukea täältä, ja se jätetään pois."
+Could not make the files: {0},Tiedostoja ei voitu tehdä: {0}
+The last year is before the first.,Viimeinen vuosi on ennen ensimmäistä.
+At most {0} years at a time.,Enintään {0} vuotta kerrallaan.
+The church year {0}.,Kirkkovuosi {0}.
+"{0} church years, {1} to {2}.","{0} kirkkovuotta, {1}–{2}."
+The PNGs make this about {0} and take a while; a narrower PNG makes it smaller.,PNG-tiedostot vievät noin {0} ja niiden tekeminen kestää; kapeampi PNG pienentää kokoa.
+{0}: {1} for {2},"{0}: {1}, {2}"
+{0} to {1},{0}–{1}
+readings,lukukappaleet
+colors,värit
+the year at a glance,vuosi yhdellä silmäyksellä
+feasts and major days,juhlat ja pääjuhlat
+feasts,juhlat
+"{0}, {1} {2}, {3}",{0} {2}. {1} {3}
+Monday,maanantai
+Tuesday,tiistai
+Wednesday,keskiviikko
+Thursday,torstai
+Friday,perjantai
+Saturday,lauantai
+Sunday,sunnuntai
+January,tammikuuta
+February,helmikuuta
+March,maaliskuuta
+April,huhtikuuta
+May,toukokuuta
+June,kesäkuuta
+July,heinäkuuta
+August,elokuuta
+September,syyskuuta
+October,lokakuuta
+November,marraskuuta
+December,joulukuuta
+Made by {0} from the church year calendar's data.,Tehnyt {0} kirkkovuosikalenterin tiedoista.
+Each reading opens at {0} in the {1}; each heading opens its set's readings together at Bible Gateway (its propers apart).,Jokainen lukukappale avautuu palvelussa {0} käännöksessä {1}; jokainen otsikko avaa sarjansa lukukappaleet yhdessä Bible Gatewayssa (proprium erikseen).
+"Each color is the day's own, the top of its cell on the wheel; the others the church allows follow in parentheses, and the lower half's is given where the wheel splits the cell.","Jokainen väri on päivän oma, sen solun yläosa pyörällä; muut kirkon sallimat seuraavat suluissa, ja alapuoliskon väri annetaan, kun pyörä jakaa solun."
+"Each color is the day's own, the top of its cell on the wheel.","Jokainen väri on päivän oma, sen solun yläosa pyörällä."
+Date,Päivämäärä
+Feast,Juhla
+Level,Taso
+Liturgical color: {0},Liturginen väri: {0}
+; lower half {0},; alapuolisko {0}
+transferred from {0} {1},siirretty päivältä {1}. {0}
+Principal feasts only: those whose color replaces the season's.,"Vain pääjuhlat: ne, joiden väri korvaa ajan värin."
+Festivals: the feasts that color their day or its lower half.,"Juhlapyhät: juhlat, jotka värittävät päivänsä tai sen alapuoliskon."
+"With the major days: the principal days set on dates of their own, Christmas, Easter, Pentecost and the like; a blank color is the season's.","Pääjuhlien kanssa: pääjuhlat omina päivinään, joulu, pääsiäinen, helluntai ja vastaavat; tyhjä väri on ajan väri."
+principal,pääjuhla
+festival,juhlapyhä
+commemoration,muistopäivä
+major day,pääjuhla
+read by {0} churches: a change here changes them all,{0} kirkkoa lukee tätä: muutos tässä muuttaa ne kaikki
+a run of days: the change is the whole run’s,päivien jakso: muutos koskee koko jaksoa

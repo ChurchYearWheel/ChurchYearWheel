@@ -21,6 +21,20 @@ color_violet,violetne
 color_white,valge
 color_none,värvita
 or,või
+"# reading_...: the page's words for its kinds of reading, by their English names (reading_Readings heads the list)."
+reading_Readings,Lugemised
+reading_Old Testament,Vana Testament
+reading_Psalm,Psalm
+reading_Epistle,Epistel
+reading_Gospel,Evangeelium
+reading_First Reading,Esimene lugemine
+reading_Second Reading,Teine lugemine
+reading_Reading,Lugemine
+reading_Sermon Text,Jutlusetekst
+reading_Story Text,Jutustus
+reading_Prophecy,Prohvetikuulutus
+reading_Procession,Protsessioon
+reading_New Testament,Uus Testament
 GEN,1. Moosese
 EXO,2. Moosese
 LEV,3. Moosese

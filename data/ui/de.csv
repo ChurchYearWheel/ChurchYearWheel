@@ -1,0 +1,487 @@
+english,translation
+"# The page's own words (buttons, menus, settings and their notes) in this language: the English as the page writes it, then its translation. {0}, {1} ... stand for what the page fills in. A missing or blank line stays English."
+Settings,Einstellungen
+Simple,Einfach
+All,Alle
+Language,Sprache
+Match the church,Wie die Kirche
+Browser ({0}),Browser ({0})
+Year,Jahr
+Tradition,Tradition
+Church,Kirche
+Hymnal,Gesangbuch
+Lectionary,Leseordnung
+Feasts,Feste
+Festivals,Hochfeste und Feste
+Principal only,Nur Hauptfeste
+None,Keine
+Bible,Bibel
+Readings shown as,Lesungen anzeigen als
+Tabs,Reiter
+Columns,Spalten
+Calendar and names,Kalender und Namen
+Calendar,Kalender
+Gregorian,Gregorianisch
+Julian (Old Calendar),Julianisch (alter Kalender)
+Revised Julian (New Calendar),Neujulianisch (neuer Kalender)
+Easter,Ostern
+With the calendar,Mit dem Kalender
+Western,Westlich
+Eastern,Östlich
+Latin names,Lateinische Namen
+Readings,Lesungen
+The day's propers,Die Propriumslesungen des Tages
+Feasts and festivals,Feste und Gedenktage
+Other dated days,Weitere datierte Tage
+Daily lectionary,Tägliche Leseordnung
+Additional readings,Zusätzliche Lesungen
+Psalm table,Psalmentafel
+Bible reading plan,Bibelleseplan
+Office lessons,Lesungen des Stundengebets
+Open in,Öffnen in
+Slide,Gleiten
+Off,Aus
+Quick,Schnell
+Medium,Mittel
+Slow,Langsam
+Propers,Proprium
+Hymn search,Liedsuche
+Contemporary song search,Suche nach neuen Liedern
+The wheel,Das Rad
+Artwork,Bild
+Thicker line where the year begins,"Dickere Linie, wo das Jahr beginnt"
+Arrow keys go on into the next year,Pfeiltasten gehen ins nächste Jahr weiter
+Dark text on reds,Dunkle Schrift auf Rot
+Under the wheel,Unter dem Rad
+Instructions and notes,Anleitung und Hinweise
+Artwork credit,Bildnachweis
+Rings,Ringe
+Outer band,Äußeres Band
+Seasons,Zeiten
+Months,Monate
+Parts of the year,Teile des Jahres
+Day cells,Tageszellen
+Center artwork,Bild in der Mitte
+Colors…,Farben…
+Colors,Farben
+Days,Tage
+Close,Schließen
+Reset colors,Farben zurücksetzen
+Reset settings,Einstellungen zurücksetzen
+Share,Teilen
+Copy link,Link kopieren
+Copy embed code,Einbettungscode kopieren
+Print,Drucken
+Download…,Herunterladen…
+Download,Herunterladen
+Years,Jahre
+From,Von
+to,bis
+pixels wide,Pixel breit
+Background,Hintergrund
+clear,transparent
+white,weiß
+Lists,Listen
+Sundays,Sonntage
+Sundays and principal days,Sonntage und Hauptfeste
+every day,jeden Tag
+every named day,jeden benannten Tag
+with links,mit Links
+with major days,mit Hauptfesten
+other colors,weitere Farben
+Format,Format
+CSV (spreadsheet),CSV (Tabelle)
+HTML (to print),HTML (zum Drucken)
+iCalendar (.ics),iCalendar (.ics)
+PNG (a picture),PNG (ein Bild)
+"SVG (a drawing, sharp at any size)","SVG (eine Zeichnung, in jeder Größe scharf)"
+The year at a glance,Das Jahr auf einen Blick
+Today,Heute
+Week,Woche
+Find a day,Tag suchen
+Help,Hilfe
+Feedback,Rückmeldung
+About the artwork,Über das Bild
+Choose a date,Datum wählen
+Previous day,Vorheriger Tag
+Next day,Nächster Tag
+Zoom in,Vergrößern
+Zoom out,Verkleinern
+Zoom in (+),Vergrößern (+)
+Zoom out (−),Verkleinern (−)
+Magnification,Vergrößerung
+The week before,Die Woche davor
+The week after,Die Woche danach
+Days with that name,Tage mit diesem Namen
+Find a day by its name,Einen Tag nach seinem Namen suchen
+Church Year {0},Kirchenjahr {0}
+Jump to today (T) — {0},Zu heute springen (T) — {0}
+Read about {0},Über {0} lesen
+{0} ({1} hymns) in {2},{0} ({1} Lieder) in {2}
+Hymns on {0} in {1} at Hymnary.org,Lieder zu {0} in {1} bei Hymnary.org
+Hymns for these readings in {0} at Hymnary.org,Lieder zu diesen Lesungen in {0} bei Hymnary.org
+Hymns for these propers in {0} at Hymnary.org,Lieder zu diesem Proprium in {0} bei Hymnary.org
+the church's hymnal,dem Gesangbuch der Kirche
+Contemporary worship songs for these readings at Word to Worship,Neue geistliche Lieder zu diesen Lesungen bei Word to Worship
+Contemporary worship songs for these propers at Word to Worship,Neue geistliche Lieder zu diesem Proprium bei Word to Worship
+Open all these readings together at Bible Gateway,Alle diese Lesungen zusammen bei Bible Gateway öffnen
+Open these propers together at Bible Gateway,Dieses Proprium zusammen bei Bible Gateway öffnen
+▴ less,▴ weniger
+▾ more,▾ mehr
+▾ {0} more,▾ {0} mehr
+Show two lines again,Wieder zwei Zeilen zeigen
+Show all of this set’s readings,Alle Lesungen dieser Reihe zeigen
+Show all the day’s readings,Alle Lesungen des Tages zeigen
+Show the readings in three lines again,Die Lesungen wieder in drei Zeilen zeigen
+No day of {0} by that name,Kein Tag in {0} mit diesem Namen
+Choose {0} on the wheel,{0} auf dem Rad wählen
+In another church year: choose the day to draw it.,"In einem anderen Kirchenjahr: den Tag wählen, um es zu zeichnen."
+Copied,Kopiert
+Copy failed,Kopieren fehlgeschlagen
+"The language of the page's buttons, menus and settings. The calendar's names, dates and readings stay in the church's language.","Die Sprache der Schaltflächen, Menüs und Einstellungen. Die Namen, Daten und Lesungen des Kalenders bleiben in der Sprache der Kirche."
+"The church year wheel: left and right arrow keys step a week, up and down a day","Das Kirchenjahresrad: Pfeiltasten links und rechts gehen eine Woche, auf und ab einen Tag"
+"The settings most often changed: the year, the church, the feasts, the Bible and how the readings are shown","Die am häufigsten geänderten Einstellungen: das Jahr, die Kirche, die Feste, die Bibel und wie die Lesungen gezeigt werden"
+"Every setting: the calendar, the kinds of reading, the searches, the artwork, the rings and colors, and making a page or editing the data","Alle Einstellungen: der Kalender, die Arten von Lesungen, die Suchen, das Bild, die Ringe und Farben, eine Seite erstellen oder die Daten bearbeiten"
+"The year the church year begins in: Advent for most traditions, September for the Eastern Orthodox","Das Jahr, in dem das Kirchenjahr beginnt: im Advent für die meisten Traditionen, im September für die Orthodoxen"
+The family of churches,Die Kirchenfamilie
+Which church's calendar the wheel follows,Welchem Kalender einer Kirche das Rad folgt
+"All: every commemoration. Festivals: the festivals and feasts (in the Roman calendar, solemnities and feasts). Principal: only the principal days (solemnities). None: the saints' days are left off.",Alle: jedes Gedenken. Hochfeste und Feste: die Feste (im römischen Kalender Hochfeste und Feste). Nur Hauptfeste: nur die Hauptfeste (Hochfeste). Keine: die Heiligentage werden weggelassen.
+The translation the readings open in. Each church starts on the one it uses (ESV where it names none).,"Die Übersetzung, in der die Lesungen geöffnet werden. Jede Kirche beginnt mit ihrer eigenen (ESV, wo sie keine nennt)."
+"How the day's readings are shown when there are several sets: one at a time under tabs, or all of them in columns (on the right, and across two columns when opened with more)","Wie die Lesungen des Tages gezeigt werden, wenn es mehrere Reihen gibt: eine nach der anderen unter Reitern oder alle in Spalten (rechts, und über zwei Spalten, wenn mit „mehr“ geöffnet)"
+Which calendar the dates are reckoned in,In welchem Kalender die Daten gerechnet werden
+"How Easter is dated, which is a separate question from how the days are named. Left to follow the calendar, a Gregorian wheel keeps Western Easter and the other two keep the Eastern one.","Wie Ostern datiert wird, was eine andere Frage ist als die Benennung der Tage. Mit dem Kalender behält ein gregorianisches Rad das westliche Ostern und die beiden anderen das östliche."
+"Name the one-year Sundays as the historic calendar does, from the first words of the day's Introit: Ad Te Levavi, Laetare, Quasimodo Geniti","Die Sonntage der einjährigen Reihe wie im historischen Kalender benennen, nach den ersten Worten des Introitus: Ad Te Levavi, Laetare, Quasimodo Geniti"
+List the day's Bible readings under its name. Each kind can be left out; only the kinds this church's lectionary has are offered.,"Die Bibellesungen des Tages unter seinem Namen aufführen. Jede Art kann weggelassen werden; angeboten werden nur die Arten, die die Leseordnung dieser Kirche hat."
+"The lessons of the day's own propers: its Sunday, holy day or season, and any other service its book appoints for it","Die Lesungen des eigenen Propriums des Tages: sein Sonntag, Feiertag oder seine Zeit und jeder weitere Gottesdienst, den sein Buch dafür vorsieht"
+"The lessons of a saint's day or festival, listed only while the wheel shows it (see Feasts)","Die Lesungen eines Heiligentags oder Festes, nur aufgeführt, solange das Rad ihn zeigt (siehe Feste)"
+"The lessons of a day the calendar does not name, kept by its date or a date rule: Ember and Rogation Days, Thanksgiving, New Year's and national days, the Saturdays before and after a feast","Die Lesungen eines Tages, den der Kalender nicht benennt, nach Datum oder einer Datumsregel: Quatember- und Bittage, Erntedank, Neujahr und Nationalfeiertage, die Samstage vor und nach einem Fest"
+The hymnal's or prayer book's daily or weekday lectionary,Die tägliche oder werktägliche Leseordnung des Gesangbuchs oder Gebetbuchs
+"The additional readings a daily lectionary offers beside its own, for reading more of the Bible (Lutheran Service Book prints them in italics)","Die zusätzlichen Lesungen einer täglichen Leseordnung, um mehr von der Bibel zu lesen (das Lutheran Service Book druckt sie kursiv)"
+"A table of psalms for daily prayer, morning and evening, by season and weekday (Lutheran Service Book, p. 304)","Eine Psalmentafel für das tägliche Gebet, morgens und abends, nach Zeit und Wochentag (Lutheran Service Book, S. 304)"
+"A plan of daily Bible reading kept by the calendar year: Reading the Word of God (LCMS, LCC and NALC), through the Old Testament in three years and the Psalms and New Testament twice","Ein Plan für das tägliche Bibellesen nach dem Kalenderjahr: Reading the Word of God (LCMS, LCC und NALC), durch das Alte Testament in drei Jahren und die Psalmen und das Neue Testament zweimal"
+"The lessons of the Office: Morning and Evening Prayer, Matins, a second or third service","Die Lesungen des Stundengebets: Morgen- und Abendgebet, Mette, ein zweiter oder dritter Gottesdienst"
+"Where a reading opens. On a phone or tablet either one opens in its own app when the app is installed, and in the browser otherwise.","Wo eine Lesung geöffnet wird. Auf einem Telefon oder Tablet öffnet jede in ihrer eigenen App, wenn sie installiert ist, sonst im Browser."
+How fast the sets slide between the columns when more or less is clicked (kept in this browser),"Wie schnell die Reihen zwischen den Spalten gleiten, wenn auf mehr oder weniger geklickt wird (in diesem Browser gespeichert)"
+"The parts of the service the church lists with each day's readings (an Introit, a Gradual and a Verse), on a line of their own after them; a set's heading opens only its readings together","Die Teile des Gottesdienstes, die die Kirche mit den Lesungen jedes Tages aufführt (Introitus, Graduale und Vers), in einer eigenen Zeile danach; die Überschrift einer Reihe öffnet nur ihre Lesungen zusammen"
+A hymnal mark after each set of readings that searches Hymnary.org for the hymns on them in this church's hymnal,"Ein Gesangbuchzeichen nach jeder Lesereihe, das bei Hymnary.org die Lieder dazu im Gesangbuch dieser Kirche sucht"
+"The hymnal Hymn search looks in, where the church has several","Das Gesangbuch, in dem die Liedsuche sucht, wenn die Kirche mehrere hat"
+A circled note after each set of readings that searches Word to Worship (wordtoworship.com) for contemporary worship songs on them,"Eine Note im Kreis nach jeder Lesereihe, die bei Word to Worship (wordtoworship.com) neue geistliche Lieder dazu sucht"
+"The picture in the middle of the wheel. Each tradition has its own; any of them can be chosen. By season changes it with the day chosen: the wreath in Advent, the manger at Christmas, the empty tomb at Easter, and the church's own picture in the seasons that have none.","Das Bild in der Mitte des Rades. Jede Tradition hat ihr eigenes; jedes kann gewählt werden. „Nach Zeit“ wechselt es mit dem gewählten Tag: der Kranz im Advent, die Krippe zu Weihnachten, das leere Grab zu Ostern und das eigene Bild der Kirche in den Zeiten, die keines haben."
+"A thicker line where the year's last week meets its first, which are a year apart","Eine dickere Linie, wo die letzte Woche des Jahres auf die erste trifft, die ein Jahr auseinander liegen"
+"Checked: at the end of the church year the arrow keys go on into the next year's wheel, and back into the last. Unchecked: they go round the year on the wheel, from its last week to its first. Page Up and Page Down and the ◀ ▶ buttons always go on.","Angekreuzt: am Ende des Kirchenjahres gehen die Pfeiltasten ins Rad des nächsten Jahres weiter und zurück ins letzte. Nicht angekreuzt: sie gehen rund um das Jahr auf dem Rad, von seiner letzten Woche zur ersten. Bild auf, Bild ab und die Schaltflächen ◀ ▶ gehen immer weiter."
+"The reds in the middle of the range (the LCMS, Roman and Presbyterian reds) read about as well with black text as with white. Checked: black on them.","Die Rottöne in der Mitte der Skala (die Rottöne der LCMS, der römischen und der presbyterianischen Kirche) sind mit schwarzer Schrift etwa so gut lesbar wie mit weißer. Angekreuzt: schwarz darauf."
+"How to use the wheel, the calendar's notes and how long it took to draw","Wie man das Rad benutzt, die Hinweise des Kalenders und wie lange das Zeichnen dauerte"
+"Who made the picture in the middle, and its license. When it is off and the license asks for credit, a small i button keeps it a click away.","Wer das Bild in der Mitte gemacht hat und seine Lizenz. Ist dies aus und verlangt die Lizenz einen Nachweis, hält eine kleine i-Schaltfläche ihn einen Klick entfernt."
+"The colors the days and the rings are painted in, each of which can be changed for this page","Die Farben, in denen die Tage und die Ringe gemalt sind; jede kann für diese Seite geändert werden"
+The colors on the wheel this year. Click a swatch to change it; the change is kept in the page's link. Text on a day stays readable: it turns black or white if it would not.,"Die Farben auf dem Rad in diesem Jahr. Klicken Sie auf ein Farbfeld, um es zu ändern; die Änderung bleibt im Link der Seite. Die Schrift auf einem Tag bleibt lesbar: sie wird schwarz oder weiß, wenn sie es sonst nicht wäre."
+Put every color back to the page's own,Jede Farbe auf die der Seite zurücksetzen
+"Put every setting here back to what config.csv asks for, keeping the day on the wheel","Jede Einstellung hier auf das zurücksetzen, was config.csv vorsieht, mit dem Tag auf dem Rad"
+"Copy a link that opens on this day, with these settings","Einen Link kopieren, der mit diesem Tag und diesen Einstellungen öffnet"
+"Copy a line of HTML that shows this page inside a page of your own website (an iframe), opening on the day it is read, with these settings","Eine Zeile HTML kopieren, die diese Seite in einer Seite Ihrer eigenen Website zeigt (ein iframe), am Tag, an dem sie gelesen wird, mit diesen Einstellungen"
+Print the whole wheel on one page,Das ganze Rad auf einer Seite drucken
+"Download the wheel (SVG, PNG) and lists of its readings, colors and feasts, for this year or a run of years","Das Rad (SVG, PNG) und Listen seiner Lesungen, Farben und Feste herunterladen, für dieses Jahr oder eine Reihe von Jahren"
+"The wheel and its lists as they are here, with these settings: the church, calendars, feasts, readings, rings, colors and artwork.","Das Rad und seine Listen, wie sie hier sind, mit diesen Einstellungen: Kirche, Kalender, Feste, Lesungen, Ringe, Farben und Bild."
+"Each day's readings, as the Readings boxes and the Feasts setting choose them","Die Lesungen jedes Tages, wie die Lesungen-Kästchen und die Einstellung Feste sie wählen"
+Each reading opens where Open in and Bible say; each set's heading opens all its readings,"Jede Lesung öffnet dort, wo „Öffnen in“ und „Bibel“ es sagen; die Überschrift jeder Reihe öffnet alle ihre Lesungen"
+The Sundays and principal days (or every day) with the color the wheel paints them,"Die Sonntage und Hauptfeste (oder jeder Tag) mit der Farbe, in der das Rad sie malt"
+"The other colors the church allows, and the lower half's where the wheel splits a cell (in the feasts list too)","Die weiteren Farben, die die Kirche erlaubt, und die der unteren Hälfte, wo das Rad eine Zelle teilt (auch in der Festliste)"
+"The festivals, saints' days and commemorations the Feasts setting keeps, on the days they fall","Die Feste, Heiligentage und Gedenktage, die die Einstellung Feste behält, an den Tagen, auf die sie fallen"
+"Also Christmas, Easter, Pentecost and the other principal days on dates of their own","Auch Weihnachten, Ostern, Pfingsten und die anderen Hauptfeste an eigenen Daten"
+"Where to read about each, as the readout links it","Wo man über jedes lesen kann, wie die Anzeige es verlinkt"
+"Previous day (up arrow; left arrow: a week, Shift: a month)","Vorheriger Tag (Pfeil nach oben; Pfeil nach links: eine Woche, Umschalt: ein Monat)"
+"Next day (down arrow; right arrow: a week, Shift: a month)","Nächster Tag (Pfeil nach unten; Pfeil nach rechts: eine Woche, Umschalt: ein Monat)"
+Magnification: 1× (the whole wheel) to 6×,Vergrößerung: 1× (das ganze Rad) bis 6×
+"Type a Sunday's, a season's or a feast's name and pick it: the wheel goes to that day in the year shown (F)","Den Namen eines Sonntags, einer Zeit oder eines Festes eingeben und wählen: das Rad geht zu diesem Tag im gezeigten Jahr (F)"
+"The chosen day's week in a list: each day's names, color and readings (W)","Die Woche des gewählten Tages als Liste: die Namen, die Farbe und die Lesungen jedes Tages (W)"
+"Print this week's days and readings, a page or two to hand round","Die Tage und Lesungen dieser Woche drucken, ein oder zwei Seiten zum Verteilen"
+"How to use this page: every control, key and setting","Wie man diese Seite benutzt: jede Schaltfläche, Taste und Einstellung"
+"Send feedback about this page: the day, church and settings on screen go with it","Eine Rückmeldung zu dieser Seite senden: der Tag, die Kirche und die Einstellungen auf dem Bildschirm gehen mit"
+"Type any year and the wheel is drawn for it. Click a cell, use the arrow keys, or pick a date.","Geben Sie ein beliebiges Jahr ein, und das Rad wird dafür gezeichnet. Klicken Sie auf eine Zelle, benutzen Sie die Pfeiltasten oder wählen Sie ein Datum."
+"Tap a cell, pinch to zoom, or pick a date.","Tippen Sie auf eine Zelle, ziehen Sie zum Zoomen auseinander oder wählen Sie ein Datum."
+A new kind…,Eine neue Art…
+About the feasts only,Nur zu den Festen
+Add,Hinzufügen
+Add a color,Eine Farbe hinzufügen
+Add a feast on this date,Ein Fest an diesem Datum hinzufügen
+Add a picture of your own…,Ein eigenes Bild hinzufügen…
+Add a reading to this set,Eine Lesung zu dieser Reihe hinzufügen
+Add a season,Eine Zeit hinzufügen
+Add a set of readings on this date,Eine Lesereihe an diesem Datum hinzufügen
+Additional,Zusätzlich
+Advent: four candles lit,Advent: vier Kerzen brennen
+Advent: one candle lit,Advent: eine Kerze brennt
+Advent: three candles lit,Advent: drei Kerzen brennen
+Advent: two candles lit,Advent: zwei Kerzen brennen
+Armenian cross,Armenisches Kreuz
+As each color sets it,Wie jede Farbe es festlegt
+As on screen,Wie auf dem Bildschirm
+As this page opens,Wie diese Seite öffnet
+Black,Schwarz
+Blue,Blau
+Burning bush,Brennender Dornbusch
+Buttons it shows,"Schaltflächen, die sie zeigt"
+By season,Nach Zeit
+"Calendar (Gregorian, Julian, Revised Julian)","Kalender (gregorianisch, julianisch, neujulianisch)"
+Canterbury cross,Canterbury-Kreuz
+Celtic cross,Keltisches Kreuz
+Chalice and host,Kelch und Hostie
+Change for,Ändern für
+Changes,Änderungen
+Chi-Rho,Christusmonogramm
+Christmas: the manger,Weihnachten: die Krippe
+Churches it offers,"Kirchen, die sie anbietet"
+Color,Farbe
+Columns only,Nur Spalten
+"Columns, or tabs in Settings","Spalten, oder Reiter in den Einstellungen"
+Coptic cross,Koptisches Kreuz
+Copy,Kopieren
+Daily,Täglich
+Dark,Dunkel
+Dark on reds,Dunkel auf Rot
+Day,Tag
+Download changed files,Geänderte Dateien herunterladen
+Each church's first,Die erste jeder Kirche
+Each church's own,Die eigene jeder Kirche
+Earlier,Früher
+Easter (Western or Eastern),Ostern (westlich oder östlich)
+Easter: the empty tomb,Ostern: das leere Grab
+Edit the data,Daten bearbeiten
+Edit the data…,Daten bearbeiten…
+Epiphany: the star and crowns,Epiphanias: der Stern und die Kronen
+Ethiopian cross,Äthiopisches Kreuz
+Every church,Jede Kirche
+Every version,Jede Übersetzung
+Feedback link,Link für Rückmeldungen
+File name,Dateiname
+Fill,Füllung
+Full name,Voller Name
+Gold,Gold
+Green,Grün
+Help link,Link für die Hilfe
+Holy Week: three crosses,Karwoche: drei Kreuze
+"Instructions, notes and credit","Anleitung, Hinweise und Bildnachweis"
+It opens,Sie öffnet
+Kinds of reading,Arten von Lesungen
+Later,Später
+Lent: the cross and thorns,Passionszeit: das Kreuz und die Dornen
+Light,Hell
+Link,Link
+Links,Links
+Load settings…,Einstellungen laden…
+Lower half,Untere Hälfte
+Luther rose,Lutherrose
+Make a page,Eine Seite erstellen
+Make a page…,Eine Seite erstellen…
+Make the page,Die Seite erstellen
+Moravian star,Herrnhuter Stern
+Morello,Morello
+Name,Name
+Names (a pattern),Namen (ein Muster)
+Names and colors,Namen und Farben
+No changes on this page yet.,Noch keine Änderungen auf dieser Seite.
+None (each church's own version),Keine (die eigene Übersetzung jeder Kirche)
+None (no box and no marks),Keine (kein Kästchen und keine Zeichen)
+None (plain text),Keine (reiner Text)
+Nothing,Nichts
+Off (the box unchecked),Aus (das Kästchen nicht angekreuzt)
+Office,Stundengebet
+On,Ein
+On the year beginning in Advent,"Im Jahr, das im Advent beginnt"
+Only this one,Nur diese
+Outside the year,Außerhalb des Jahres
+"Packed, about a third of the size","Gepackt, etwa ein Drittel so groß"
+Pentecost: the dove and flames,Pfingsten: die Taube und die Flammen
+Pictures kept,Behaltene Bilder
+Purple,Violett
+Reading plan,Leseplan
+Readings and links,Lesungen und Links
+Red,Rot
+Remove,Entfernen
+Remove this reading,Diese Lesung entfernen
+Rose,Rosa
+Save,Speichern
+Save settings…,Einstellungen speichern…
+Scarlet,Scharlachrot
+Season,Zeit
+Set the window from it,Das Fenster danach einstellen
+Settings it shows,"Einstellungen, die sie zeigt"
+Syriac cross,Syrisches Kreuz
+Tabs only,Nur Reiter
+"Tabs, or columns in Settings","Reiter, oder Spalten in den Einstellungen"
+Text,Schrift
+Text on mid-tone colors,Schrift auf mittleren Farbtönen
+The artwork's credit only,Nur der Bildnachweis
+"The church, calendars and settings on screen now","Die Kirche, die Kalender und die Einstellungen, die jetzt zu sehen sind"
+The same page from Python; save or load these settings,Dieselbe Seite aus Python; diese Einstellungen speichern oder laden
+The tradition's own,Das eigene der Tradition
+These:,Diese:
+This church,Diese Kirche
+This day,Dieser Tag
+This tradition,Diese Tradition
+Title,Titel
+To paste into another page’s HTML,Zum Einfügen in das HTML einer anderen Seite
+Violet,Violett
+What this page opens with,Womit diese Seite öffnet
+White,Weiß
+Zoom,Zoom
+every church,jede Kirche
+https://… (blank: none),https://… (leer: keiner)
+OK,OK
+Undo these,Diese rückgängig machen
+Undo the last change,Die letzte Änderung rückgängig machen
+Undo every change,Jede Änderung rückgängig machen
+Periods with a color of their own,Zeiträume mit eigener Farbe
+Credit,Nachweis
+Artist or owner,Künstler oder Inhaber
+License or copyright,Lizenz oder Urheberrecht
+License link,Link zur Lizenz
+Source link,Link zur Quelle
+Added.,Hinzugefügt.
+Saved.,Gespeichert.
+Undone.,Rückgängig gemacht.
+Removed.,Entfernt.
+Every change undone.,Jede Änderung rückgängig gemacht.
+A feast needs a name.,Ein Fest braucht einen Namen.
+A kind needs a key of letters and numbers.,Eine Art braucht einen Schlüssel aus Buchstaben und Ziffern.
+A reading cannot be blank: Remove takes it away.,Eine Lesung darf nicht leer sein: Entfernen nimmt sie weg.
+Choose its kind and write the reading.,Wählen Sie ihre Art und schreiben Sie die Lesung.
+This page cannot write this church’s tradition.csv.,Diese Seite kann die tradition.csv dieser Kirche nicht schreiben.
+Added: further readings join it with Add a reading.,Hinzugefügt: weitere Lesungen kommen mit „Eine Lesung hinzufügen“ dazu.
+Nothing on this day comes from a file this page can write.,"Nichts an diesem Tag stammt aus einer Datei, die diese Seite schreiben kann."
+The day’s own,Das Eigene des Tages
+(not in a file this page can write),"(nicht in einer Datei, die diese Seite schreiben kann)"
+Kept in this browser for this page. Make a page writes them into the page it makes.,"In diesem Browser für diese Seite gespeichert. „Eine Seite erstellen“ schreibt sie in die Seite, die es erstellt."
+"A .zip of the data files the changes make, laid out as the project's data folder","Eine .zip-Datei mit den Datendateien, die die Änderungen ergeben, angelegt wie der Datenordner des Projekts"
+"A page like this one, in one HTML file to put on a website or open from a folder: the page church_year.py makes with the same options (below). Each choice starts as the page is now.","Eine Seite wie diese, in einer HTML-Datei zum Einstellen auf eine Website oder zum Öffnen aus einem Ordner: die Seite, die church_year.py mit denselben Optionen (unten) erstellt. Jede Wahl beginnt so, wie die Seite jetzt ist."
+A picture beside the page (center.svg…),Ein Bild neben der Seite (center.svg…)
+Changes show on the wheel at once and are kept in this browser for this page; Make a page writes them into the page it makes.,"Änderungen erscheinen sofort auf dem Rad und bleiben in diesem Browser für diese Seite gespeichert; „Eine Seite erstellen“ schreibt sie in die Seite, die es erstellt."
+"Copy the command, to make this page with the script or to set this window from it later","Den Befehl kopieren, um diese Seite mit dem Skript zu erstellen oder dieses Fenster später danach einzustellen"
+"Not a whole page: its contents go into your own page’s HTML. To show a page that is already on a website,","Keine ganze Seite: ihr Inhalt kommt in das HTML Ihrer eigenen Seite. Um eine Seite zu zeigen, die schon auf einer Website steht,"
+"One row a year: Advent, Christmas, Ash Wednesday, Easter, Pentecost and the other movable dates, and how many Sundays after the Epiphany and Pentecost or Trinity (colors.py --overview). It has no iCalendar form, so with that format it comes as CSV.","Eine Zeile je Jahr: Advent, Weihnachten, Aschermittwoch, Ostern, Pfingsten und die anderen beweglichen Daten, und wie viele Sonntage nach Epiphanias und nach Pfingsten oder Trinitatis (colors.py --overview). Sie hat keine iCalendar-Form; in diesem Format kommt sie als CSV."
+"Save these settings as a small text file (the command), to load here again later","Diese Einstellungen als kleine Textdatei (den Befehl) speichern, um sie später hier wieder zu laden"
+Set the window from a command: paste one copied here before (or written for church_year.py),Das Fenster nach einem Befehl einstellen: einen hier zuvor kopierten einfügen (oder einen für church_year.py geschriebenen)
+Set the window from a settings file saved here before,Das Fenster nach einer hier zuvor gespeicherten Einstellungsdatei einstellen
+What each color looks like on the wheel: its fill and the color of text on it. A color changed for this tradition only goes into its own colors.csv; one for every church into data/colors.csv.,"Wie jede Farbe auf dem Rad aussieht: ihre Füllung und die Farbe der Schrift darauf. Eine nur für diese Tradition geänderte Farbe kommt in ihre eigene colors.csv, eine für jede Kirche in data/colors.csv."
+a word in capitals: ROSE,ein Wort in Großbuchstaben: ROSE
+blank: the day’s own readings; a feast’s name keeps them to that feast,leer: die eigenen Lesungen des Tages; der Name eines Festes beschränkt sie auf dieses Fest
+"gives the data files they change, to put over the project’s own for the Python scripts.","liefert die Datendateien, die sie ändern, zum Ersetzen der eigenen des Projekts für die Python-Skripte."
+"its key, as periods.csv names it: ADVENT","ihr Schlüssel, wie periods.csv ihn nennt: ADVENT"
+under Share is simpler.,unter „Teilen“ ist einfacher.
+"--arrows-next-year, --arrows-same-year: whether the arrow keys go on into the next church year at the year's end, or round the year on the wheel (a box in the page's Settings changes it)","--arrows-next-year, --arrows-same-year: ob die Pfeiltasten am Ende des Jahres ins nächste Kirchenjahr weitergehen oder rund um das Jahr auf dem Rad (ein Kästchen in den Einstellungen der Seite ändert es)"
+"--art: the picture the page opens on. By season: the picture of the chosen day's season, and the church's own in a season without one","--art: das Bild, mit dem die Seite öffnet. Nach Zeit: das Bild der Zeit des gewählten Tages und das eigene der Kirche in einer Zeit ohne eigenes"
+--drop-art: untick a picture to leave it out of the page,"--drop-art: ein Bild abwählen, um es aus der Seite wegzulassen"
+"--fragment: no <html>, <head> or <body>, to paste into a page of your own","--fragment: kein <html>, <head> oder <body>, zum Einfügen in eine eigene Seite"
+"--help-link: the page the Help button opens, the user guide unless changed","--help-link: die Seite, die die Schaltfläche Hilfe öffnet, die Anleitung, wenn nicht geändert"
+"--language: the language of the page's buttons, menus and settings until the reader chooses another (Settings > Language)","--language: die Sprache der Schaltflächen, Menüs und Einstellungen der Seite, bis der Leser eine andere wählt (Einstellungen > Sprache)"
+"--local-art: look for center.svg (or .png, .jpg ...) beside the page when it opens and offer it in the middle. Off, the page asks for no files beside it","--local-art: beim Öffnen nach center.svg (oder .png, .jpg ...) neben der Seite suchen und es in der Mitte anbieten. Aus fragt die Seite nach keinen Dateien neben ihr"
+"--no-compress when off: the tables as plain JSON, about three times the size, to read in the page's source or for a browser older than 2023","--no-compress wenn aus: die Tabellen als reines JSON, etwa dreimal so groß, zum Lesen im Quelltext der Seite oder für einen Browser vor 2023"
+"--no-download: the wheel as SVG and PNG, and its lists",--no-download: das Rad als SVG und PNG und seine Listen
+"--no-edit: changes to the titles, colors and readings, kept in the reader's browser, and the changed files to download","--no-edit: Änderungen an Titeln, Farben und Lesungen, im Browser des Lesers gespeichert, und die geänderten Dateien zum Herunterladen"
+"--no-make-page: a page like itself, as this window makes","--no-make-page: eine Seite wie sie selbst, wie dieses Fenster sie erstellt"
+"--own-art: a picture of your own, for the churches you choose","--own-art: ein eigenes Bild für die Kirchen, die Sie wählen"
+--zoom: 1 (the whole wheel) to 6,--zoom: 1 (das ganze Rad) bis 6
+Show or hide the {0} churches,Die {0} Kirchen zeigen oder verbergen
+{0} of {1},{0} von {1}
+Left with no picture of their own (add one for them below): {0}.,Ohne eigenes Bild geblieben (unten eines für sie hinzufügen): {0}.
+choose this file again with Add a picture (a command names it but cannot carry it),"diese Datei erneut mit „Ein eigenes Bild hinzufügen“ wählen (ein Befehl nennt sie, kann sie aber nicht mitbringen)"
+The own picture of: {0},Das eigene Bild von: {0}
+{0} church,{0} Kirche
+{0} churches,{0} Kirchen
+no church (the Artwork menu only),keiner Kirche (nur das Menü Bild)
+as drawn,wie gezeichnet
+(click to use it),(zum Verwenden klicken)
+Put {0} back,{0} zurücksetzen
+{0} changed,{0} geändert
+Every church (unless changed below),Jede Kirche (wenn unten nicht geändert)
+{0} change for single traditions or churches still apply; change them “tradition by tradition” or “church by church” to see it.,"{0} Änderung für einzelne Traditionen oder Kirchen gilt weiter; ändern Sie „Tradition für Tradition“ oder „Kirche für Kirche“, um sie zu sehen."
+{0} changes for single traditions or churches still apply; change them “tradition by tradition” or “church by church” to see them.,"{0} Änderungen für einzelne Traditionen oder Kirchen gelten weiter; ändern Sie „Tradition für Tradition“ oder „Kirche für Kirche“, um sie zu sehen."
+{0} change for single churches still apply; change them “church by church” to see it.,"{0} Änderung für einzelne Kirchen gilt weiter; ändern Sie „Kirche für Kirche“, um sie zu sehen."
+{0} changes for single churches still apply; change them “church by church” to see them.,"{0} Änderungen für einzelne Kirchen gelten weiter; ändern Sie „Kirche für Kirche“, um sie zu sehen."
+Put them back,Zurücksetzen
+Rings and the rest,Ringe und der Rest
+{0} words,{0}: Schrift
+as each church has them,wie jede Kirche sie hat
+Set from the command.,Nach dem Befehl eingestellt.
+Note: {0}.,Hinweis: {0}.
+Could not read the command: {0},Der Befehl konnte nicht gelesen werden: {0}
+Nothing to save yet: {0}.,Noch nichts zu speichern: {0}.
+Saved {0}.,{0} gespeichert.
+Set from {0}.,Nach {0} eingestellt.
+Could not read {0}: {1},{0} konnte nicht gelesen werden: {1}
+Copied.,Kopiert.
+Selected: copy it with Ctrl+C (⌘C on a Mac).,Markiert: mit Strg+C kopieren (⌘C auf einem Mac).
+The kind {0} is kept; give it a reading.,Die Art {0} bleibt erhalten; geben Sie ihr eine Lesung.
+"The kinds of reading {0} has, in the order a set lists them. A new kind is added with a reading of it (This day).","Die Arten von Lesungen, die {0} hat, in der Reihenfolge, in der eine Reihe sie aufführt. Eine neue Art kommt mit einer Lesung von ihr hinzu (Dieser Tag)."
+Kept as reading_labels and reading_order in {0}.,Gespeichert als reading_labels und reading_order in {0}.
+The colors of {0}’s seasons. A color may name others the church allows after it: PURPLE; blue.,"Die Farben der Zeiten von {0}. Eine Farbe kann danach andere nennen, die die Kirche erlaubt: PURPLE; blue."
+This page cannot write {0}.,Diese Seite kann {0} nicht schreiben.
+This tradition ({0}),Diese Tradition ({0})
+"This page was made with changes to: {0}. They are part of it, and Download changed files includes these files.","Diese Seite wurde mit Änderungen an {0} erstellt. Sie gehören zu ihr, und „Geänderte Dateien herunterladen“ schließt diese Dateien ein."
+{0}: {1} change,{0}: {1} Änderung
+{0}: {1} changes,{0}: {1} Änderungen
+Downloaded {0} file.,{0} Datei heruntergeladen.
+Downloaded {0} files.,{0} Dateien heruntergeladen.
+"Saved {0} ({1} MB, {2} church).","{0} gespeichert ({1} MB, {2} Kirche)."
+"Saved {0} ({1} MB, {2} churches).","{0} gespeichert ({1} MB, {2} Kirchen)."
+Could not make the page: {0},Die Seite konnte nicht erstellt werden: {0}
+"Choose the wheel, a list, or both.","Wählen Sie das Rad, eine Liste oder beides."
+"The Feasts setting is None: choose another, or “with major days”, for a feasts list.",Die Einstellung Feste ist Keine: wählen Sie eine andere oder „mit Hauptfesten“ für eine Festliste.
+Drawing {0}…,{0} wird gezeichnet…
+Listing the readings…,Die Lesungen werden aufgelistet…
+Listing the colors…,Die Farben werden aufgelistet…
+Listing the years…,Die Jahre werden aufgelistet…
+Listing the feasts…,Die Feste werden aufgelistet…
+Saved {0} files in a .zip.,{0} Dateien in einer .zip gespeichert.
+Your own picture could not be read from here and is left out.,Ihr eigenes Bild konnte von hier aus nicht gelesen werden und fehlt.
+Could not make the files: {0},Die Dateien konnten nicht erstellt werden: {0}
+The last year is before the first.,Das letzte Jahr liegt vor dem ersten.
+At most {0} years at a time.,Höchstens {0} Jahre auf einmal.
+The church year {0}.,Das Kirchenjahr {0}.
+"{0} church years, {1} to {2}.","{0} Kirchenjahre, {1} bis {2}."
+The PNGs make this about {0} and take a while; a narrower PNG makes it smaller.,Die PNGs ergeben etwa {0} und brauchen eine Weile; ein schmaleres PNG macht es kleiner.
+{0}: {1} for {2},{0}: {1} für {2}
+{0} to {1},{0} bis {1}
+readings,Lesungen
+colors,Farben
+the year at a glance,das Jahr auf einen Blick
+feasts and major days,Feste und Hauptfeste
+feasts,Feste
+"{0}, {1} {2}, {3}","{0}, {2}. {1} {3}"
+Monday,Montag
+Tuesday,Dienstag
+Wednesday,Mittwoch
+Thursday,Donnerstag
+Friday,Freitag
+Saturday,Samstag
+Sunday,Sonntag
+January,Januar
+February,Februar
+March,März
+April,April
+May,Mai
+June,Juni
+July,Juli
+August,August
+September,September
+October,Oktober
+November,November
+December,Dezember
+Made by {0} from the church year calendar's data.,Erstellt von {0} aus den Daten des Kirchenjahreskalenders.
+Each reading opens at {0} in the {1}; each heading opens its set's readings together at Bible Gateway (its propers apart).,Jede Lesung öffnet bei {0} in der {1}; jede Überschrift öffnet die Lesungen ihrer Reihe zusammen bei Bible Gateway (ihr Proprium getrennt).
+"Each color is the day's own, the top of its cell on the wheel; the others the church allows follow in parentheses, and the lower half's is given where the wheel splits the cell.","Jede Farbe ist die eigene des Tages, die obere seiner Zelle auf dem Rad; die anderen, die die Kirche erlaubt, folgen in Klammern, und die der unteren Hälfte steht dort, wo das Rad die Zelle teilt."
+"Each color is the day's own, the top of its cell on the wheel.","Jede Farbe ist die eigene des Tages, die obere seiner Zelle auf dem Rad."
+Date,Datum
+Feast,Fest
+Level,Rang
+Liturgical color: {0},Liturgische Farbe: {0}
+; lower half {0},; untere Hälfte {0}
+transferred from {0} {1},verlegt vom {1}. {0}
+Principal feasts only: those whose color replaces the season's.,"Nur Hauptfeste: die, deren Farbe die der Zeit ersetzt."
+Festivals: the feasts that color their day or its lower half.,"Feste: die Feste, die ihren Tag oder seine untere Hälfte färben."
+"With the major days: the principal days set on dates of their own, Christmas, Easter, Pentecost and the like; a blank color is the season's.","Mit den Hauptfesten: die Hauptfeste an eigenen Daten, Weihnachten, Ostern, Pfingsten und dergleichen; eine leere Farbe ist die der Zeit."
+principal,Hauptfest
+festival,Fest
+commemoration,Gedenktag
+major day,Hauptfest
+read by {0} churches: a change here changes them all,von {0} Kirchen gelesen: eine Änderung hier ändert sie alle
+a run of days: the change is the whole run’s,eine Reihe von Tagen: die Änderung gilt für die ganze Reihe

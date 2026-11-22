@@ -21,6 +21,20 @@ color_violet,fjólublár
 color_white,hvítur
 color_none,enginn litur
 or,eða
+"# reading_...: the page's words for its kinds of reading, by their English names (reading_Readings heads the list)."
+reading_Readings,Ritningarlestrar
+reading_Old Testament,Lexía
+reading_Psalm,Sálmur
+reading_Epistle,Pistill
+reading_Gospel,Guðspjall
+reading_First Reading,Fyrsti lestur
+reading_Second Reading,Annar lestur
+reading_Reading,Lestur
+reading_Sermon Text,Prédikunartexti
+reading_Story Text,Frásögn
+reading_Prophecy,Spádómur
+reading_Procession,Prósessía
+reading_New Testament,Nýja testamentið
 GEN,1. Mósebók
 EXO,2. Mósebók
 LEV,3. Mósebók

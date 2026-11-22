@@ -1,0 +1,487 @@
+english,translation
+"# The page's own words (buttons, menus, settings and their notes) in this language: the English as the page writes it, then its translation. {0}, {1} ... stand for what the page fills in. A missing or blank line stays English."
+Settings,Mipangilio
+Simple,Rahisi
+All,Yote
+Language,Lugha
+Match the church,Kama kanisa
+Browser ({0}),Kivinjari ({0})
+Year,Mwaka
+Tradition,Mapokeo
+Church,Kanisa
+Hymnal,Kitabu cha nyimbo
+Lectionary,Mpangilio wa masomo
+Feasts,Sikukuu
+Festivals,Sikukuu kuu
+Principal only,Sikukuu kuu pekee
+None,Hakuna
+Bible,Biblia
+Readings shown as,Masomo yaonyeshwe kama
+Tabs,Vichupo
+Columns,Safu
+Calendar and names,Kalenda na majina
+Calendar,Kalenda
+Gregorian,Gregori
+Julian (Old Calendar),Juliani (kalenda ya zamani)
+Revised Julian (New Calendar),Juliani iliyorekebishwa (kalenda mpya)
+Easter,Pasaka
+With the calendar,Kufuata kalenda
+Western,Magharibi
+Eastern,Mashariki
+Latin names,Majina ya Kilatini
+Readings,Masomo
+The day's propers,Masomo ya siku yenyewe
+Feasts and festivals,Sikukuu na maadhimisho
+Other dated days,Siku nyingine zenye tarehe
+Daily lectionary,Masomo ya kila siku
+Additional readings,Masomo ya ziada
+Psalm table,Jedwali la zaburi
+Bible reading plan,Mpango wa kusoma Biblia
+Office lessons,Masomo ya sala za saa
+Open in,Fungua katika
+Slide,Kuteleza
+Off,Imezimwa
+Quick,Haraka
+Medium,Wastani
+Slow,Polepole
+Propers,Sehemu za ibada
+Hymn search,Kutafuta nyimbo
+Contemporary song search,Kutafuta nyimbo za kisasa za sifa
+The wheel,Gurudumu
+Artwork,Picha
+Thicker line where the year begins,Mstari mnene mahali mwaka unapoanza
+Arrow keys go on into the next year,Vitufe vya mishale vinaendelea hadi mwaka ujao
+Dark text on reds,Maandishi meusi juu ya rangi nyekundu
+Under the wheel,Chini ya gurudumu
+Instructions and notes,Maelekezo na maelezo
+Artwork credit,Aliyetengeneza picha
+Rings,Pete
+Outer band,Ukanda wa nje
+Seasons,Majira
+Months,Miezi
+Parts of the year,Sehemu za mwaka
+Day cells,Visanduku vya siku
+Center artwork,Picha ya katikati
+Colors…,Rangi…
+Colors,Rangi
+Days,Siku
+Close,Funga
+Reset colors,Rejesha rangi
+Reset settings,Rejesha mipangilio
+Share,Shiriki
+Copy link,Nakili kiungo
+Copy embed code,Nakili msimbo wa kupachika
+Print,Chapisha
+Download…,Pakua…
+Download,Pakua
+Years,Miaka
+From,Kuanzia
+to,hadi
+pixels wide,pikseli upana
+Background,Mandharinyuma
+clear,angavu
+white,nyeupe
+Lists,Orodha
+Sundays,Jumapili
+Sundays and principal days,Jumapili na sikukuu kuu
+every day,kila siku
+every named day,kila siku yenye jina
+with links,pamoja na viungo
+with major days,pamoja na sikukuu kuu
+other colors,rangi nyingine
+Format,Muundo
+CSV (spreadsheet),CSV (jedwali)
+HTML (to print),HTML (kwa kuchapisha)
+iCalendar (.ics),iCalendar (.ics)
+PNG (a picture),PNG (picha)
+"SVG (a drawing, sharp at any size)","SVG (mchoro, angavu kwa ukubwa wowote)"
+The year at a glance,Mwaka kwa mtazamo mmoja
+Today,Leo
+Week,Wiki
+Find a day,Tafuta siku
+Help,Msaada
+Feedback,Maoni
+About the artwork,Kuhusu picha
+Choose a date,Chagua tarehe
+Previous day,Siku iliyotangulia
+Next day,Siku inayofuata
+Zoom in,Kuza
+Zoom out,Punguza
+Zoom in (+),Kuza (+)
+Zoom out (−),Punguza (−)
+Magnification,Ukuzaji
+The week before,Wiki iliyotangulia
+The week after,Wiki inayofuata
+Days with that name,Siku zenye jina hilo
+Find a day by its name,Tafuta siku kwa jina lake
+Church Year {0},Mwaka wa Kanisa {0}
+Jump to today (T) — {0},Nenda leo (T) — {0}
+Read about {0},Soma kuhusu {0}
+{0} ({1} hymns) in {2},{0} (nyimbo {1}) katika {2}
+Hymns on {0} in {1} at Hymnary.org,Nyimbo kuhusu {0} katika {1} kwenye Hymnary.org
+Hymns for these readings in {0} at Hymnary.org,Nyimbo za masomo haya katika {0} kwenye Hymnary.org
+Hymns for these propers in {0} at Hymnary.org,Nyimbo za sehemu hizi za ibada katika {0} kwenye Hymnary.org
+the church's hymnal,kitabu cha nyimbo cha kanisa
+Contemporary worship songs for these readings at Word to Worship,Nyimbo za kisasa za sifa za masomo haya kwenye Word to Worship
+Contemporary worship songs for these propers at Word to Worship,Nyimbo za kisasa za sifa za sehemu hizi za ibada kwenye Word to Worship
+Open all these readings together at Bible Gateway,Fungua masomo haya yote pamoja kwenye Bible Gateway
+Open these propers together at Bible Gateway,Fungua sehemu hizi za ibada pamoja kwenye Bible Gateway
+▴ less,▴ punguza
+▾ more,▾ zaidi
+▾ {0} more,▾ {0} zaidi
+Show two lines again,Onyesha mistari miwili tena
+Show all of this set’s readings,Onyesha masomo yote ya mfululizo huu
+Show all the day’s readings,Onyesha masomo yote ya siku
+Show the readings in three lines again,Onyesha masomo katika mistari mitatu tena
+No day of {0} by that name,Hakuna siku katika {0} yenye jina hilo
+Choose {0} on the wheel,Chagua {0} kwenye gurudumu
+In another church year: choose the day to draw it.,Katika mwaka mwingine wa kanisa: chagua siku ili kuuchora.
+Copied,Imenakiliwa
+Copy failed,Imeshindwa kunakili
+"The language of the page's buttons, menus and settings. The calendar's names, dates and readings stay in the church's language.","Lugha ya vitufe, menyu na mipangilio ya ukurasa. Majina, tarehe na masomo ya kalenda yanabaki katika lugha ya kanisa."
+"The church year wheel: left and right arrow keys step a week, up and down a day","Gurudumu la mwaka wa kanisa: mishale ya kushoto na kulia husogeza wiki moja, juu na chini siku moja"
+"The settings most often changed: the year, the church, the feasts, the Bible and how the readings are shown","Mipangilio inayobadilishwa mara nyingi zaidi: mwaka, kanisa, sikukuu, Biblia na jinsi masomo yanavyoonyeshwa"
+"Every setting: the calendar, the kinds of reading, the searches, the artwork, the rings and colors, and making a page or editing the data","Mipangilio yote: kalenda, aina za masomo, utafutaji, picha, pete na rangi, na kutengeneza ukurasa au kuhariri data"
+"The year the church year begins in: Advent for most traditions, September for the Eastern Orthodox","Mwaka ambao mwaka wa kanisa unaanza: katika Majilio kwa mapokeo mengi, Septemba kwa Waorthodoksi"
+The family of churches,Familia ya makanisa
+Which church's calendar the wheel follows,Kalenda ya kanisa lipi ambayo gurudumu linafuata
+"All: every commemoration. Festivals: the festivals and feasts (in the Roman calendar, solemnities and feasts). Principal: only the principal days (solemnities). None: the saints' days are left off.","Yote: kila kumbukumbu. Sikukuu kuu: sikukuu kuu na sikukuu (katika kalenda ya Kiroma, sherehe na sikukuu). Sikukuu kuu pekee: siku kuu pekee. Hakuna: siku za watakatifu zinaachwa."
+The translation the readings open in. Each church starts on the one it uses (ESV where it names none).,Tafsiri ambayo masomo yanafunguka. Kila kanisa linaanza na lile linalotumia (ESV pasipo kutaja lolote).
+"How the day's readings are shown when there are several sets: one at a time under tabs, or all of them in columns (on the right, and across two columns when opened with more)","Jinsi masomo ya siku yanavyoonyeshwa yanapokuwa na mifululizo kadhaa: mmoja kwa wakati chini ya vichupo, au yote katika safu (upande wa kulia, na katika safu mbili yanapofunguliwa kwa zaidi)"
+Which calendar the dates are reckoned in,Kalenda ambayo tarehe zinahesabiwa nayo
+"How Easter is dated, which is a separate question from how the days are named. Left to follow the calendar, a Gregorian wheel keeps Western Easter and the other two keep the Eastern one.","Jinsi tarehe ya Pasaka inavyowekwa, ambalo ni swali tofauti na jinsi siku zinavyoitwa. Ikifuata kalenda, gurudumu la Gregori linashika Pasaka ya Magharibi na mengine mawili ya Mashariki."
+"Name the one-year Sundays as the historic calendar does, from the first words of the day's Introit: Ad Te Levavi, Laetare, Quasimodo Geniti","Ita Jumapili za mpangilio wa mwaka mmoja kama kalenda ya kihistoria, kwa maneno ya kwanza ya introitus ya siku: Ad Te Levavi, Laetare, Quasimodo Geniti"
+List the day's Bible readings under its name. Each kind can be left out; only the kinds this church's lectionary has are offered.,Orodhesha masomo ya Biblia ya siku chini ya jina lake. Kila aina inaweza kuachwa; ni aina tu zilizo katika mpangilio wa masomo wa kanisa hili zinazotolewa.
+"The lessons of the day's own propers: its Sunday, holy day or season, and any other service its book appoints for it","Masomo ya sehemu za ibada za siku yenyewe: Jumapili yake, siku takatifu au majira, na ibada nyingine yoyote ambayo kitabu chake kinaipangia"
+"The lessons of a saint's day or festival, listed only while the wheel shows it (see Feasts)","Masomo ya siku ya mtakatifu au sikukuu, yanayoorodheshwa tu wakati gurudumu linaionyesha (ona Sikukuu)"
+"The lessons of a day the calendar does not name, kept by its date or a date rule: Ember and Rogation Days, Thanksgiving, New Year's and national days, the Saturdays before and after a feast","Masomo ya siku ambayo kalenda haiitaji, kwa tarehe yake au kanuni ya tarehe: siku za kufunga na za maombi, Shukrani, Mwaka Mpya na siku za kitaifa, Jumamosi kabla na baada ya sikukuu"
+The hymnal's or prayer book's daily or weekday lectionary,Mpangilio wa masomo wa kila siku au wa siku za kazi wa kitabu cha nyimbo au kitabu cha sala
+"The additional readings a daily lectionary offers beside its own, for reading more of the Bible (Lutheran Service Book prints them in italics)","Masomo ya ziada ambayo mpangilio wa kila siku unatoa kando ya yake, ili kusoma zaidi Biblia (Lutheran Service Book inayachapisha kwa herufi za mlalo)"
+"A table of psalms for daily prayer, morning and evening, by season and weekday (Lutheran Service Book, p. 304)","Jedwali la zaburi kwa sala ya kila siku, asubuhi na jioni, kwa majira na siku ya wiki (Lutheran Service Book, uk. 304)"
+"A plan of daily Bible reading kept by the calendar year: Reading the Word of God (LCMS, LCC and NALC), through the Old Testament in three years and the Psalms and New Testament twice","Mpango wa kusoma Biblia kila siku kwa mwaka wa kalenda: Reading the Word of God (LCMS, LCC na NALC), Agano la Kale katika miaka mitatu na Zaburi na Agano Jipya mara mbili"
+"The lessons of the Office: Morning and Evening Prayer, Matins, a second or third service","Masomo ya sala za saa: sala ya asubuhi na ya jioni, sala ya alfajiri, ibada ya pili au ya tatu"
+"Where a reading opens. On a phone or tablet either one opens in its own app when the app is installed, and in the browser otherwise.","Mahali somo linapofunguka. Kwenye simu au kishikwambi kila moja hufunguka katika programu yake ikiwa imesakinishwa, na kwenye kivinjari vinginevyo."
+How fast the sets slide between the columns when more or less is clicked (kept in this browser),Jinsi mifululizo inavyoteleza kwa haraka kati ya safu unapobofya zaidi au punguza (huhifadhiwa katika kivinjari hiki)
+"The parts of the service the church lists with each day's readings (an Introit, a Gradual and a Verse), on a line of their own after them; a set's heading opens only its readings together","Sehemu za ibada ambazo kanisa linaorodhesha pamoja na masomo ya kila siku (introitus, gradual na mstari), kwenye mstari wake baada yake; kichwa cha mfululizo kinafungua masomo yake tu pamoja"
+A hymnal mark after each set of readings that searches Hymnary.org for the hymns on them in this church's hymnal,Alama ya kitabu cha nyimbo baada ya kila mfululizo wa masomo inayotafuta kwenye Hymnary.org nyimbo kuhusu masomo hayo katika kitabu cha nyimbo cha kanisa hili
+"The hymnal Hymn search looks in, where the church has several","Kitabu cha nyimbo ambacho Kutafuta nyimbo kinatafuta, pale kanisa lina vitabu kadhaa"
+A circled note after each set of readings that searches Word to Worship (wordtoworship.com) for contemporary worship songs on them,Noti ndani ya duara baada ya kila mfululizo wa masomo inayotafuta kwenye Word to Worship (wordtoworship.com) nyimbo za kisasa za sifa kuhusu masomo hayo
+"The picture in the middle of the wheel. Each tradition has its own; any of them can be chosen. By season changes it with the day chosen: the wreath in Advent, the manger at Christmas, the empty tomb at Easter, and the church's own picture in the seasons that have none.","Picha katikati ya gurudumu. Kila mapokeo yana yake; yoyote inaweza kuchaguliwa. «Kwa majira» huibadilisha kulingana na siku iliyochaguliwa: shada katika Majilio, hori wakati wa Krismasi, kaburi tupu wakati wa Pasaka, na picha ya kanisa lenyewe katika majira yasiyo na picha."
+"A thicker line where the year's last week meets its first, which are a year apart","Mstari mnene mahali wiki ya mwisho ya mwaka inapokutana na ya kwanza, zilizo mbali kwa mwaka mmoja"
+"Checked: at the end of the church year the arrow keys go on into the next year's wheel, and back into the last. Unchecked: they go round the year on the wheel, from its last week to its first. Page Up and Page Down and the ◀ ▶ buttons always go on.","Imewekwa alama: mwishoni mwa mwaka wa kanisa vitufe vya mishale vinaendelea hadi gurudumu la mwaka ujao, na kurudi la uliopita. Bila alama: vinazunguka mwaka kwenye gurudumu, kutoka wiki yake ya mwisho hadi ya kwanza. Page Up, Page Down na vitufe ◀ ▶ huendelea daima."
+"The reds in the middle of the range (the LCMS, Roman and Presbyterian reds) read about as well with black text as with white. Checked: black on them.","Rangi nyekundu za katikati ya kiwango (nyekundu ya LCMS, ya Kiroma na ya Kipresbiteri) zinasomeka karibu sawa kwa maandishi meusi kama kwa meupe. Imewekwa alama: meusi juu yake."
+"How to use the wheel, the calendar's notes and how long it took to draw","Jinsi ya kutumia gurudumu, maelezo ya kalenda na muda uliochukuliwa kuchora"
+"Who made the picture in the middle, and its license. When it is off and the license asks for credit, a small i button keeps it a click away.","Aliyetengeneza picha ya katikati na leseni yake. Ikizimwa na leseni ikitaka kutajwa, kitufe kidogo cha i kinakiweka umbali wa mbofyo mmoja."
+"The colors the days and the rings are painted in, each of which can be changed for this page",Rangi ambazo siku na pete zinapakwa; kila moja inaweza kubadilishwa kwa ukurasa huu
+The colors on the wheel this year. Click a swatch to change it; the change is kept in the page's link. Text on a day stays readable: it turns black or white if it would not.,Rangi kwenye gurudumu mwaka huu. Bofya sampuli ili kuibadilisha; badiliko linahifadhiwa katika kiungo cha ukurasa. Maandishi kwenye siku yanabaki yanasomeka: yanakuwa meusi au meupe yasipokuwa hivyo.
+Put every color back to the page's own,Rudisha kila rangi kwenye rangi ya ukurasa
+"Put every setting here back to what config.csv asks for, keeping the day on the wheel","Rudisha kila mpangilio hapa kwenye kile ambacho config.csv inataka, ukiacha siku kwenye gurudumu"
+"Copy a link that opens on this day, with these settings","Nakili kiungo kinachofunguka katika siku hii, pamoja na mipangilio hii"
+"Copy a line of HTML that shows this page inside a page of your own website (an iframe), opening on the day it is read, with these settings","Nakili mstari wa HTML unaoonyesha ukurasa huu ndani ya ukurasa wa tovuti yako mwenyewe (iframe), ukifunguka katika siku unaposomwa, pamoja na mipangilio hii"
+Print the whole wheel on one page,Chapisha gurudumu zima kwenye ukurasa mmoja
+"Download the wheel (SVG, PNG) and lists of its readings, colors and feasts, for this year or a run of years","Pakua gurudumu (SVG, PNG) na orodha za masomo, rangi na sikukuu zake, kwa mwaka huu au mfululizo wa miaka"
+"The wheel and its lists as they are here, with these settings: the church, calendars, feasts, readings, rings, colors and artwork.","Gurudumu na orodha zake jinsi zilivyo hapa, pamoja na mipangilio hii: kanisa, kalenda, sikukuu, masomo, pete, rangi na picha."
+"Each day's readings, as the Readings boxes and the Feasts setting choose them","Masomo ya kila siku, kama visanduku vya Masomo na mpangilio wa Sikukuu vinavyoyachagua"
+Each reading opens where Open in and Bible say; each set's heading opens all its readings,Kila somo linafunguka mahali Fungua katika na Biblia zinaposema; kichwa cha kila mfululizo kinafungua masomo yake yote
+The Sundays and principal days (or every day) with the color the wheel paints them,Jumapili na sikukuu kuu (au kila siku) pamoja na rangi ambayo gurudumu linazipaka
+"The other colors the church allows, and the lower half's where the wheel splits a cell (in the feasts list too)","Rangi nyingine ambazo kanisa linaruhusu, na ya nusu ya chini pale gurudumu linapogawa kisanduku (pia katika orodha ya sikukuu)"
+"The festivals, saints' days and commemorations the Feasts setting keeps, on the days they fall","Sikukuu kuu, siku za watakatifu na kumbukumbu ambazo mpangilio wa Sikukuu unashika, katika siku zinazoangukia"
+"Also Christmas, Easter, Pentecost and the other principal days on dates of their own","Pia Krismasi, Pasaka, Pentekoste na sikukuu kuu nyingine katika tarehe zake"
+"Where to read about each, as the readout links it","Mahali pa kusoma kuhusu kila moja, kama onyesho linavyokiunganisha"
+"Previous day (up arrow; left arrow: a week, Shift: a month)","Siku iliyotangulia (mshale wa juu; mshale wa kushoto: wiki, Shift: mwezi)"
+"Next day (down arrow; right arrow: a week, Shift: a month)","Siku inayofuata (mshale wa chini; mshale wa kulia: wiki, Shift: mwezi)"
+Magnification: 1× (the whole wheel) to 6×,Ukuzaji: 1× (gurudumu zima) hadi 6×
+"Type a Sunday's, a season's or a feast's name and pick it: the wheel goes to that day in the year shown (F)","Andika jina la Jumapili, majira au sikukuu na ulichague: gurudumu linaenda kwenye siku hiyo katika mwaka unaoonyeshwa (F)"
+"The chosen day's week in a list: each day's names, color and readings (W)","Wiki ya siku iliyochaguliwa katika orodha: majina, rangi na masomo ya kila siku (W)"
+"Print this week's days and readings, a page or two to hand round","Chapisha siku na masomo ya wiki hii, ukurasa mmoja au miwili ya kugawa"
+"How to use this page: every control, key and setting","Jinsi ya kutumia ukurasa huu: kila kidhibiti, kitufe na mpangilio"
+"Send feedback about this page: the day, church and settings on screen go with it","Tuma maoni kuhusu ukurasa huu: siku, kanisa na mipangilio iliyo kwenye skrini vinaenda pamoja nayo"
+"Type any year and the wheel is drawn for it. Click a cell, use the arrow keys, or pick a date.","Andika mwaka wowote na gurudumu linachorwa kwa ajili yake. Bofya kisanduku, tumia vitufe vya mishale, au chagua tarehe."
+"Tap a cell, pinch to zoom, or pick a date.","Gusa kisanduku, bana ili kukuza, au chagua tarehe."
+A new kind…,Aina mpya…
+About the feasts only,Kuhusu sikukuu pekee
+Add,Ongeza
+Add a color,Ongeza rangi
+Add a feast on this date,Ongeza sikukuu katika tarehe hii
+Add a picture of your own…,Ongeza picha yako mwenyewe…
+Add a reading to this set,Ongeza somo kwenye mfululizo huu
+Add a season,Ongeza majira
+Add a set of readings on this date,Ongeza mfululizo wa masomo katika tarehe hii
+Additional,Ziada
+Advent: four candles lit,Majilio: mishumaa minne inawaka
+Advent: one candle lit,Majilio: mshumaa mmoja unawaka
+Advent: three candles lit,Majilio: mishumaa mitatu inawaka
+Advent: two candles lit,Majilio: mishumaa miwili inawaka
+Armenian cross,Msalaba wa Kiarmenia
+As each color sets it,Kama kila rangi inavyoweka
+As on screen,Kama kwenye skrini
+As this page opens,Kama ukurasa huu unavyofunguka
+Black,Nyeusi
+Blue,Bluu
+Burning bush,Kichaka kinachowaka
+Buttons it shows,Vitufe unavyoonyesha
+By season,Kwa majira
+"Calendar (Gregorian, Julian, Revised Julian)","Kalenda (Gregori, Juliani, Juliani iliyorekebishwa)"
+Canterbury cross,Msalaba wa Canterbury
+Celtic cross,Msalaba wa Kiselti
+Chalice and host,Kikombe na mkate
+Change for,Badilisha kwa
+Changes,Mabadiliko
+Chi-Rho,Kifupi cha jina la Kristo
+Christmas: the manger,Krismasi: hori
+Churches it offers,Makanisa unayotoa
+Color,Rangi
+Columns only,Safu pekee
+"Columns, or tabs in Settings","Safu, au vichupo katika Mipangilio"
+Coptic cross,Msalaba wa Kikopti
+Copy,Nakili
+Daily,Kila siku
+Dark,Giza
+Dark on reds,Giza juu ya nyekundu
+Day,Siku
+Download changed files,Pakua faili zilizobadilishwa
+Each church's first,La kwanza la kila kanisa
+Each church's own,La kila kanisa lenyewe
+Earlier,Mapema
+Easter (Western or Eastern),Pasaka (ya Magharibi au ya Mashariki)
+Easter: the empty tomb,Pasaka: kaburi tupu
+Edit the data,Hariri data
+Edit the data…,Hariri data…
+Epiphany: the star and crowns,Epifania: nyota na taji
+Ethiopian cross,Msalaba wa Kiethiopia
+Every church,Kila kanisa
+Every version,Kila tafsiri
+Feedback link,Kiungo cha maoni
+File name,Jina la faili
+Fill,Kujaza
+Full name,Jina kamili
+Gold,Dhahabu
+Green,Kijani
+Help link,Kiungo cha msaada
+Holy Week: three crosses,Wiki Takatifu: misalaba mitatu
+"Instructions, notes and credit","Maelekezo, maelezo na aliyetengeneza"
+It opens,Unafunguka
+Kinds of reading,Aina za masomo
+Later,Baadaye
+Lent: the cross and thorns,Kwaresima: msalaba na miiba
+Light,Mwanga
+Link,Kiungo
+Links,Viungo
+Load settings…,Pakia mipangilio…
+Lower half,Nusu ya chini
+Luther rose,Waridi la Luther
+Make a page,Tengeneza ukurasa
+Make a page…,Tengeneza ukurasa…
+Make the page,Tengeneza ukurasa huo
+Moravian star,Nyota ya Moravia
+Morello,Morello
+Name,Jina
+Names (a pattern),Majina (kielelezo)
+Names and colors,Majina na rangi
+No changes on this page yet.,Bado hakuna mabadiliko kwenye ukurasa huu.
+None (each church's own version),Hakuna (tafsiri ya kila kanisa lenyewe)
+None (no box and no marks),Hakuna (hakuna kisanduku wala alama)
+None (plain text),Hakuna (maandishi matupu)
+Nothing,Hakuna kitu
+Off (the box unchecked),Imezimwa (kisanduku hakijawekwa alama)
+Office,Sala za saa
+On,Imewashwa
+On the year beginning in Advent,Katika mwaka unaoanza katika Majilio
+Only this one,Hili pekee
+Outside the year,Nje ya mwaka
+"Packed, about a third of the size","Imefinywa, karibu theluthi ya ukubwa"
+Pentecost: the dove and flames,Pentekoste: njiwa na miali
+Pictures kept,Picha zilizohifadhiwa
+Purple,Zambarau
+Reading plan,Mpango wa kusoma
+Readings and links,Masomo na viungo
+Red,Nyekundu
+Remove,Ondoa
+Remove this reading,Ondoa somo hili
+Rose,Waridi
+Save,Hifadhi
+Save settings…,Hifadhi mipangilio…
+Scarlet,Nyekundu iliyokolea
+Season,Majira
+Set the window from it,Weka dirisha kulingana nao
+Settings it shows,Mipangilio unayoonyesha
+Syriac cross,Msalaba wa Kisiria
+Tabs only,Vichupo pekee
+"Tabs, or columns in Settings","Vichupo, au safu katika Mipangilio"
+Text,Maandishi
+Text on mid-tone colors,Maandishi juu ya rangi za kiwango cha kati
+The artwork's credit only,Aliyetengeneza picha pekee
+"The church, calendars and settings on screen now","Kanisa, kalenda na mipangilio iliyo kwenye skrini sasa"
+The same page from Python; save or load these settings,Ukurasa huo huo kutoka Python; hifadhi au pakia mipangilio hii
+The tradition's own,Ya mapokeo yenyewe
+These:,Hizi:
+This church,Kanisa hili
+This day,Siku hii
+This tradition,Mapokeo haya
+Title,Kichwa
+To paste into another page’s HTML,Kwa kubandika kwenye HTML ya ukurasa mwingine
+Violet,Zambarau angavu
+What this page opens with,Kile ukurasa huu unachofunguka nacho
+White,Nyeupe
+Zoom,Ukuzaji
+every church,kila kanisa
+https://… (blank: none),https://… (tupu: hakuna)
+OK,Sawa
+Undo these,Tendua haya
+Undo the last change,Tendua badiliko la mwisho
+Undo every change,Tendua kila badiliko
+Periods with a color of their own,Vipindi vyenye rangi yake
+Credit,Aliyetengeneza
+Artist or owner,Msanii au mmiliki
+License or copyright,Leseni au hakimiliki
+License link,Kiungo cha leseni
+Source link,Kiungo cha chanzo
+Added.,Imeongezwa.
+Saved.,Imehifadhiwa.
+Undone.,Imetenduliwa.
+Removed.,Imeondolewa.
+Every change undone.,Kila badiliko limetenduliwa.
+A feast needs a name.,Sikukuu inahitaji jina.
+A kind needs a key of letters and numbers.,Aina inahitaji ufunguo wa herufi na tarakimu.
+A reading cannot be blank: Remove takes it away.,Somo haliwezi kuwa tupu: Ondoa hulitoa.
+Choose its kind and write the reading.,Chagua aina yake na uandike somo.
+This page cannot write this church’s tradition.csv.,Ukurasa huu hauwezi kuandika tradition.csv ya kanisa hili.
+Added: further readings join it with Add a reading.,Imeongezwa: masomo mengine yanaungana kupitia “Ongeza somo”.
+Nothing on this day comes from a file this page can write.,Hakuna kitu cha siku hii kinachotoka katika faili ambayo ukurasa huu unaweza kuandika.
+The day’s own,Ya siku yenyewe
+(not in a file this page can write),(haimo katika faili ambayo ukurasa huu unaweza kuandika)
+Kept in this browser for this page. Make a page writes them into the page it makes.,Yamehifadhiwa katika kivinjari hiki kwa ukurasa huu. “Tengeneza ukurasa” huyaandika katika ukurasa unaoutengeneza.
+"A .zip of the data files the changes make, laid out as the project's data folder","Faili .zip ya faili za data zinazotokana na mabadiliko, zimepangwa kama folda ya data ya mradi"
+"A page like this one, in one HTML file to put on a website or open from a folder: the page church_year.py makes with the same options (below). Each choice starts as the page is now.","Ukurasa kama huu, katika faili moja ya HTML ya kuweka kwenye tovuti au kufungua kutoka folda: ukurasa ambao church_year.py hutengeneza kwa machaguo yale yale (hapa chini). Kila chaguo linaanza kama ukurasa ulivyo sasa."
+A picture beside the page (center.svg…),Picha kando ya ukurasa (center.svg…)
+Changes show on the wheel at once and are kept in this browser for this page; Make a page writes them into the page it makes.,Mabadiliko yanaonekana kwenye gurudumu mara moja na yanahifadhiwa katika kivinjari hiki kwa ukurasa huu; “Tengeneza ukurasa” huyaandika katika ukurasa unaoutengeneza.
+"Copy the command, to make this page with the script or to set this window from it later","Nakili amri, ili kutengeneza ukurasa huu kwa hati au kuweka dirisha hili kulingana nayo baadaye"
+"Not a whole page: its contents go into your own page’s HTML. To show a page that is already on a website,","Si ukurasa mzima: maudhui yake yanaingia katika HTML ya ukurasa wako mwenyewe. Ili kuonyesha ukurasa ambao tayari uko kwenye tovuti,"
+"One row a year: Advent, Christmas, Ash Wednesday, Easter, Pentecost and the other movable dates, and how many Sundays after the Epiphany and Pentecost or Trinity (colors.py --overview). It has no iCalendar form, so with that format it comes as CSV.","Mstari mmoja kwa mwaka: Majilio, Krismasi, Jumatano ya Majivu, Pasaka, Pentekoste na tarehe nyingine zinazohama, na Jumapili ngapi baada ya Epifania na baada ya Pentekoste au Utatu (colors.py --overview). Haina muundo wa iCalendar, kwa hiyo katika muundo huo inakuja kama CSV."
+"Save these settings as a small text file (the command), to load here again later","Hifadhi mipangilio hii kama faili ndogo ya maandishi (amri), ili kuipakia hapa tena baadaye"
+Set the window from a command: paste one copied here before (or written for church_year.py),Weka dirisha kulingana na amri: bandika iliyonakiliwa hapa awali (au iliyoandikwa kwa ajili ya church_year.py)
+Set the window from a settings file saved here before,Weka dirisha kulingana na faili ya mipangilio iliyohifadhiwa hapa awali
+What each color looks like on the wheel: its fill and the color of text on it. A color changed for this tradition only goes into its own colors.csv; one for every church into data/colors.csv.,Jinsi kila rangi inavyoonekana kwenye gurudumu: kujaza kwake na rangi ya maandishi juu yake. Rangi iliyobadilishwa kwa mapokeo haya pekee inaingia katika colors.csv yake; kwa kila kanisa katika data/colors.csv.
+a word in capitals: ROSE,neno kwa herufi kubwa: ROSE
+blank: the day’s own readings; a feast’s name keeps them to that feast,tupu: masomo ya siku yenyewe; jina la sikukuu linayabana kwa sikukuu hiyo
+"gives the data files they change, to put over the project’s own for the Python scripts.","inatoa faili za data zinazobadilishwa, za kuweka juu ya zile za mradi kwa ajili ya hati za Python."
+"its key, as periods.csv names it: ADVENT","ufunguo wake, kama periods.csv inavyouita: ADVENT"
+under Share is simpler.,chini ya Shiriki ni rahisi zaidi.
+"--arrows-next-year, --arrows-same-year: whether the arrow keys go on into the next church year at the year's end, or round the year on the wheel (a box in the page's Settings changes it)","--arrows-next-year, --arrows-same-year: kama vitufe vya mishale vinaendelea hadi mwaka ujao wa kanisa mwishoni mwa mwaka au vinazunguka mwaka kwenye gurudumu (kisanduku katika Mipangilio ya ukurasa kinabadilisha hili)"
+"--art: the picture the page opens on. By season: the picture of the chosen day's season, and the church's own in a season without one","--art: picha ambayo ukurasa unafunguka nayo. Kwa majira: picha ya majira ya siku iliyochaguliwa, na ya kanisa lenyewe katika majira yasiyo na picha"
+--drop-art: untick a picture to leave it out of the page,--drop-art: ondoa alama kwenye picha ili kuiacha nje ya ukurasa
+"--fragment: no <html>, <head> or <body>, to paste into a page of your own","--fragment: hakuna <html>, <head> wala <body>, kwa kubandika katika ukurasa wako mwenyewe"
+"--help-link: the page the Help button opens, the user guide unless changed","--help-link: ukurasa ambao kitufe cha Msaada kinafungua, mwongozo wa mtumiaji usipobadilishwa"
+"--language: the language of the page's buttons, menus and settings until the reader chooses another (Settings > Language)","--language: lugha ya vitufe, menyu na mipangilio ya ukurasa hadi msomaji achague nyingine (Mipangilio > Lugha)"
+"--local-art: look for center.svg (or .png, .jpg ...) beside the page when it opens and offer it in the middle. Off, the page asks for no files beside it","--local-art: tafuta center.svg (au .png, .jpg ...) kando ya ukurasa unapofunguka na uipendekeze katikati. Ikizimwa, ukurasa hauombi faili kando yake"
+"--no-compress when off: the tables as plain JSON, about three times the size, to read in the page's source or for a browser older than 2023","--no-compress ikizimwa: majedwali kama JSON tupu, karibu mara tatu kwa ukubwa, kwa kusoma katika msimbo wa ukurasa au kwa kivinjari cha zamani kuliko 2023"
+"--no-download: the wheel as SVG and PNG, and its lists","--no-download: gurudumu kama SVG na PNG, na orodha zake"
+"--no-edit: changes to the titles, colors and readings, kept in the reader's browser, and the changed files to download","--no-edit: mabadiliko ya vichwa, rangi na masomo, yaliyohifadhiwa katika kivinjari cha msomaji, na faili zilizobadilishwa za kupakua"
+"--no-make-page: a page like itself, as this window makes","--no-make-page: ukurasa kama wenyewe, kama dirisha hili linavyoutengeneza"
+"--own-art: a picture of your own, for the churches you choose","--own-art: picha yako mwenyewe, kwa makanisa unayochagua"
+--zoom: 1 (the whole wheel) to 6,--zoom: 1 (gurudumu zima) hadi 6
+Show or hide the {0} churches,Onyesha au ficha makanisa ya mapokeo ya {0}
+{0} of {1},{0} kati ya {1}
+Left with no picture of their own (add one for them below): {0}.,Bila picha yao wenyewe (ongeza moja kwa ajili yao hapa chini): {0}.
+choose this file again with Add a picture (a command names it but cannot carry it),chagua faili hii tena kwa “Ongeza picha yako mwenyewe” (amri inaitaja lakini haiwezi kuibeba)
+The own picture of: {0},Picha yenyewe ya: {0}
+{0} church,kanisa {0}
+{0} churches,makanisa {0}
+no church (the Artwork menu only),hakuna kanisa (menyu ya Picha pekee)
+as drawn,kama ilivyochorwa
+(click to use it),(bofya ili kuitumia)
+Put {0} back,Rejesha {0}
+{0} changed,{0} zimebadilishwa
+Every church (unless changed below),Kila kanisa (isipokuwa imebadilishwa hapa chini)
+{0} change for single traditions or churches still apply; change them “tradition by tradition” or “church by church” to see it.,Badiliko {0} kwa mapokeo au makanisa mahususi bado linatumika; badilisha kuwa “mapokeo kwa mapokeo” au “kanisa kwa kanisa” ili kuliona.
+{0} changes for single traditions or churches still apply; change them “tradition by tradition” or “church by church” to see them.,Mabadiliko {0} kwa mapokeo au makanisa mahususi bado yanatumika; badilisha kuwa “mapokeo kwa mapokeo” au “kanisa kwa kanisa” ili kuyaona.
+{0} change for single churches still apply; change them “church by church” to see it.,Badiliko {0} kwa makanisa mahususi bado linatumika; badilisha kuwa “kanisa kwa kanisa” ili kuliona.
+{0} changes for single churches still apply; change them “church by church” to see them.,Mabadiliko {0} kwa makanisa mahususi bado yanatumika; badilisha kuwa “kanisa kwa kanisa” ili kuyaona.
+Put them back,Yarejeshe
+Rings and the rest,Pete na mengineyo
+{0} words,{0}: maandishi
+as each church has them,kama kila kanisa linavyozitumia
+Set from the command.,Imewekwa kulingana na amri.
+Note: {0}.,Kumbuka: {0}.
+Could not read the command: {0},Imeshindwa kusoma amri: {0}
+Nothing to save yet: {0}.,Bado hakuna cha kuhifadhi: {0}.
+Saved {0}.,{0} imehifadhiwa.
+Set from {0}.,Imewekwa kulingana na {0}.
+Could not read {0}: {1},Imeshindwa kusoma {0}: {1}
+Copied.,Imenakiliwa.
+Selected: copy it with Ctrl+C (⌘C on a Mac).,Imechaguliwa: inakili kwa Ctrl+C (⌘C kwenye Mac).
+The kind {0} is kept; give it a reading.,Aina {0} imehifadhiwa; ipe somo.
+"The kinds of reading {0} has, in the order a set lists them. A new kind is added with a reading of it (This day).","Aina za masomo ambazo {0} inazo, kwa mpangilio ambao mfululizo unaziorodhesha. Aina mpya inaongezwa pamoja na somo lake (Siku hii)."
+Kept as reading_labels and reading_order in {0}.,Imehifadhiwa kama reading_labels na reading_order katika {0}.
+The colors of {0}’s seasons. A color may name others the church allows after it: PURPLE; blue.,Rangi za majira ya {0}. Rangi inaweza kutaja baada yake nyingine ambazo kanisa linaruhusu: PURPLE; blue.
+This page cannot write {0}.,Ukurasa huu hauwezi kuandika {0}.
+This tradition ({0}),Mapokeo haya ({0})
+"This page was made with changes to: {0}. They are part of it, and Download changed files includes these files.","Ukurasa huu ulitengenezwa kwa mabadiliko katika: {0}. Ni sehemu yake, na “Pakua faili zilizobadilishwa” inajumuisha faili hizi."
+{0}: {1} change,{0}: badiliko {1}
+{0}: {1} changes,{0}: mabadiliko {1}
+Downloaded {0} file.,Faili {0} imepakuliwa.
+Downloaded {0} files.,Faili {0} zimepakuliwa.
+"Saved {0} ({1} MB, {2} church).","{0} imehifadhiwa ({1} MB, kanisa {2})."
+"Saved {0} ({1} MB, {2} churches).","{0} imehifadhiwa ({1} MB, makanisa {2})."
+Could not make the page: {0},Imeshindwa kutengeneza ukurasa: {0}
+"Choose the wheel, a list, or both.","Chagua gurudumu, orodha, au vyote viwili."
+"The Feasts setting is None: choose another, or “with major days”, for a feasts list.","Mpangilio wa Sikukuu ni Hakuna: chagua mwingine, au “pamoja na sikukuu kuu”, kwa orodha ya sikukuu."
+Drawing {0}…,Inachora {0}…
+Listing the readings…,Inaorodhesha masomo…
+Listing the colors…,Inaorodhesha rangi…
+Listing the years…,Inaorodhesha miaka…
+Listing the feasts…,Inaorodhesha sikukuu…
+Saved {0} files in a .zip.,Faili {0} zimehifadhiwa katika .zip.
+Your own picture could not be read from here and is left out.,Picha yako mwenyewe haikuweza kusomwa kutoka hapa na imeachwa.
+Could not make the files: {0},Imeshindwa kutengeneza faili: {0}
+The last year is before the first.,Mwaka wa mwisho uko kabla ya wa kwanza.
+At most {0} years at a time.,Si zaidi ya miaka {0} kwa wakati mmoja.
+The church year {0}.,Mwaka wa kanisa {0}.
+"{0} church years, {1} to {2}.","Miaka {0} ya kanisa, {1} hadi {2}."
+The PNGs make this about {0} and take a while; a narrower PNG makes it smaller.,PNG zitakuwa karibu {0} na zitachukua muda; PNG nyembamba zaidi inaifanya ndogo.
+{0}: {1} for {2},{0}: {1} kwa {2}
+{0} to {1},{0} hadi {1}
+readings,masomo
+colors,rangi
+the year at a glance,mwaka kwa mtazamo mmoja
+feasts and major days,sikukuu na sikukuu kuu
+feasts,sikukuu
+"{0}, {1} {2}, {3}","{0}, {2} {1} {3}"
+Monday,Jumatatu
+Tuesday,Jumanne
+Wednesday,Jumatano
+Thursday,Alhamisi
+Friday,Ijumaa
+Saturday,Jumamosi
+Sunday,Jumapili
+January,Januari
+February,Februari
+March,Machi
+April,Aprili
+May,Mei
+June,Juni
+July,Julai
+August,Agosti
+September,Septemba
+October,Oktoba
+November,Novemba
+December,Desemba
+Made by {0} from the church year calendar's data.,Imetengenezwa na {0} kutoka data ya kalenda ya mwaka wa kanisa.
+Each reading opens at {0} in the {1}; each heading opens its set's readings together at Bible Gateway (its propers apart).,Kila somo linafunguka kwenye {0} katika {1}; kila kichwa kinafungua masomo ya mfululizo wake pamoja kwenye Bible Gateway (sehemu za ibada kando).
+"Each color is the day's own, the top of its cell on the wheel; the others the church allows follow in parentheses, and the lower half's is given where the wheel splits the cell.","Kila rangi ni ya siku yenyewe, juu ya kisanduku chake kwenye gurudumu; nyingine ambazo kanisa linaruhusu zinafuata katika mabano, na ya nusu ya chini inatolewa pale gurudumu linapogawa kisanduku."
+"Each color is the day's own, the top of its cell on the wheel.","Kila rangi ni ya siku yenyewe, juu ya kisanduku chake kwenye gurudumu."
+Date,Tarehe
+Feast,Sikukuu
+Level,Ngazi
+Liturgical color: {0},Rangi ya kiliturujia: {0}
+; lower half {0},; nusu ya chini {0}
+transferred from {0} {1},imehamishwa kutoka {1} {0}
+Principal feasts only: those whose color replaces the season's.,Sikukuu kuu pekee: zile ambazo rangi yake inachukua nafasi ya ya majira.
+Festivals: the feasts that color their day or its lower half.,Sikukuu kuu: sikukuu zinazopaka rangi siku yao au nusu yake ya chini.
+"With the major days: the principal days set on dates of their own, Christmas, Easter, Pentecost and the like; a blank color is the season's.","Pamoja na sikukuu kuu: sikukuu kuu katika tarehe zake, Krismasi, Pasaka, Pentekoste na kadhalika; rangi tupu ni ya majira."
+principal,sikukuu kuu
+festival,sikukuu
+commemoration,kumbukumbu
+major day,sikukuu kuu
+read by {0} churches: a change here changes them all,inasomwa na makanisa {0}: badiliko hapa linayabadilisha yote
+a run of days: the change is the whole run’s,mfululizo wa siku: badiliko ni la mfululizo wote

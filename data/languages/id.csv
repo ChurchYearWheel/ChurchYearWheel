@@ -21,6 +21,20 @@ color_violet,ungu
 color_white,putih
 color_none,tanpa warna
 or,atau
+"# reading_...: the page's words for its kinds of reading, by their English names (reading_Readings heads the list)."
+reading_Readings,Bacaan
+reading_Old Testament,Perjanjian Lama
+reading_Psalm,Mazmur
+reading_Epistle,Epistel
+reading_Gospel,Injil
+reading_First Reading,Bacaan Pertama
+reading_Second Reading,Bacaan Kedua
+reading_Reading,Bacaan
+reading_Sermon Text,Nas Khotbah
+reading_Story Text,Kisah
+reading_Prophecy,Nubuat
+reading_Procession,Prosesi
+reading_New Testament,Perjanjian Baru
 GEN,Kejadian
 EXO,Keluaran
 LEV,Imamat

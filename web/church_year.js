@@ -2111,6 +2111,7 @@ function languageOf(data, code) {
     books: lang.books || {},
     colors: lang.colors || {},
     orWord: lang.or || 'or',
+    readings: lang.readings || {},
     /** church_year_image.py: Language.day_text. */
     dayText(month, day) {
       return this.monthDay.split('{month}').join(this.dateMonths[month - 1] || String(month))

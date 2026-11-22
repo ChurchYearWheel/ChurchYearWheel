@@ -20,3 +20,17 @@ color_violet,volomparasy
 color_white,fotsy
 color_none,tsy misy loko
 or,na
+"# reading_...: the page's words for its kinds of reading, by their English names (reading_Readings heads the list)."
+reading_Readings,Famakiana
+reading_Old Testament,Testamenta Taloha
+reading_Psalm,Salamo
+reading_Epistle,Epistily
+reading_Gospel,Filazantsara
+reading_First Reading,Famakiana voalohany
+reading_Second Reading,Famakiana faharoa
+reading_Reading,Famakiana
+reading_Sermon Text,Teny hitoriana
+reading_Story Text,Tantara
+reading_Prophecy,Faminaniana
+reading_Procession,Filaharana
+reading_New Testament,Testamenta Vaovao

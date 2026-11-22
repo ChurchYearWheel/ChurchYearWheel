@@ -1,0 +1,487 @@
+english,translation
+"# The page's own words (buttons, menus, settings and their notes) in this language: the English as the page writes it, then its translation. {0}, {1} ... stand for what the page fills in. A missing or blank line stays English."
+Settings,Налаштування
+Simple,Прості
+All,Усі
+Language,Мова
+Match the church,Як у церкві
+Browser ({0}),Браузер ({0})
+Year,Рік
+Tradition,Традиція
+Church,Церква
+Hymnal,Співаник
+Lectionary,Порядок читань
+Feasts,Свята
+Festivals,Великі свята
+Principal only,Лише головні свята
+None,Немає
+Bible,Біблія
+Readings shown as,Читання показувати як
+Tabs,Вкладки
+Columns,Стовпці
+Calendar and names,Календар і назви
+Calendar,Календар
+Gregorian,Григоріанський
+Julian (Old Calendar),Юліанський (старий стиль)
+Revised Julian (New Calendar),Новоюліанський (новий стиль)
+Easter,Великдень
+With the calendar,За календарем
+Western,Західний
+Eastern,Східний
+Latin names,Латинські назви
+Readings,Читання
+The day's propers,Власні читання дня
+Feasts and festivals,Свята і великі свята
+Other dated days,Інші дні з датою
+Daily lectionary,Щоденні читання
+Additional readings,Додаткові читання
+Psalm table,Таблиця псалмів
+Bible reading plan,План читання Біблії
+Office lessons,Читання богослужінь годин
+Open in,Відкривати в
+Slide,Ковзання
+Off,Вимк.
+Quick,Швидко
+Medium,Середньо
+Slow,Повільно
+Propers,Пропрії
+Hymn search,Пошук пісень
+Contemporary song search,Пошук сучасних пісень прославлення
+The wheel,Коло
+Artwork,Зображення
+Thicker line where the year begins,"Товща лінія там, де починається рік"
+Arrow keys go on into the next year,Клавіші зі стрілками переходять у наступний рік
+Dark text on reds,Темний текст на червоному
+Under the wheel,Під колом
+Instructions and notes,Вказівки й примітки
+Artwork credit,Автор зображення
+Rings,Кільця
+Outer band,Зовнішня смуга
+Seasons,Періоди
+Months,Місяці
+Parts of the year,Частини року
+Day cells,Клітинки днів
+Center artwork,Зображення в центрі
+Colors…,Кольори…
+Colors,Кольори
+Days,Дні
+Close,Закрити
+Reset colors,Скинути кольори
+Reset settings,Скинути налаштування
+Share,Поділитися
+Copy link,Копіювати посилання
+Copy embed code,Копіювати код для вбудовування
+Print,Друкувати
+Download…,Завантажити…
+Download,Завантажити
+Years,Роки
+From,Від
+to,до
+pixels wide,пікселів завширшки
+Background,Тло
+clear,прозоре
+white,біле
+Lists,Списки
+Sundays,Неділі
+Sundays and principal days,Неділі й головні свята
+every day,кожен день
+every named day,кожен названий день
+with links,з посиланнями
+with major days,з головними святами
+other colors,інші кольори
+Format,Формат
+CSV (spreadsheet),CSV (таблиця)
+HTML (to print),HTML (для друку)
+iCalendar (.ics),iCalendar (.ics)
+PNG (a picture),PNG (зображення)
+"SVG (a drawing, sharp at any size)","SVG (рисунок, чіткий за будь-якого розміру)"
+The year at a glance,Рік з одного погляду
+Today,Сьогодні
+Week,Тиждень
+Find a day,Знайти день
+Help,Довідка
+Feedback,Відгук
+About the artwork,Про зображення
+Choose a date,Вибрати дату
+Previous day,Попередній день
+Next day,Наступний день
+Zoom in,Збільшити
+Zoom out,Зменшити
+Zoom in (+),Збільшити (+)
+Zoom out (−),Зменшити (−)
+Magnification,Збільшення
+The week before,Тиждень перед тим
+The week after,Тиждень після того
+Days with that name,Дні з цією назвою
+Find a day by its name,Знайти день за назвою
+Church Year {0},Церковний рік {0}
+Jump to today (T) — {0},Перейти до сьогодні (T) — {0}
+Read about {0},Читати про {0}
+{0} ({1} hymns) in {2},{0} ({1} пісень) у {2}
+Hymns on {0} in {1} at Hymnary.org,Пісні про {0} у {1} на Hymnary.org
+Hymns for these readings in {0} at Hymnary.org,Пісні до цих читань у {0} на Hymnary.org
+Hymns for these propers in {0} at Hymnary.org,Пісні до цих пропріїв у {0} на Hymnary.org
+the church's hymnal,співанику церкви
+Contemporary worship songs for these readings at Word to Worship,Сучасні пісні прославлення до цих читань на Word to Worship
+Contemporary worship songs for these propers at Word to Worship,Сучасні пісні прославлення до цих пропріїв на Word to Worship
+Open all these readings together at Bible Gateway,Відкрити всі ці читання разом на Bible Gateway
+Open these propers together at Bible Gateway,Відкрити ці пропрії разом на Bible Gateway
+▴ less,▴ менше
+▾ more,▾ більше
+▾ {0} more,▾ ще {0}
+Show two lines again,Знову показати два рядки
+Show all of this set’s readings,Показати всі читання цього ряду
+Show all the day’s readings,Показати всі читання дня
+Show the readings in three lines again,Знову показати читання у трьох рядках
+No day of {0} by that name,У {0} немає дня з цією назвою
+Choose {0} on the wheel,Вибрати {0} на колі
+In another church year: choose the day to draw it.,"В іншому церковному році: виберіть день, щоб його намалювати."
+Copied,Скопійовано
+Copy failed,Не вдалося скопіювати
+"The language of the page's buttons, menus and settings. The calendar's names, dates and readings stay in the church's language.","Мова кнопок, меню й налаштувань сторінки. Назви, дати й читання календаря залишаються мовою церкви."
+"The church year wheel: left and right arrow keys step a week, up and down a day","Коло церковного року: стрілки ліворуч і праворуч переходять на тиждень, угору й униз — на день"
+"The settings most often changed: the year, the church, the feasts, the Bible and how the readings are shown","Налаштування, які змінюють найчастіше: рік, церква, свята, Біблія і як показано читання"
+"Every setting: the calendar, the kinds of reading, the searches, the artwork, the rings and colors, and making a page or editing the data","Усі налаштування: календар, види читань, пошуки, зображення, кільця й кольори, а також створення сторінки чи редагування даних"
+"The year the church year begins in: Advent for most traditions, September for the Eastern Orthodox","Рік, у якому починається церковний рік: в Адвент для більшості традицій, у вересні для православних"
+The family of churches,Родина церков
+Which church's calendar the wheel follows,Календар якої церкви показує коло
+"All: every commemoration. Festivals: the festivals and feasts (in the Roman calendar, solemnities and feasts). Principal: only the principal days (solemnities). None: the saints' days are left off.",Усі: кожне вшанування. Великі свята: великі свята і свята (у римському календарі урочистості й свята). Лише головні свята: лише головні дні. Немає: дні святих пропущено.
+The translation the readings open in. Each church starts on the one it uses (ESV where it names none).,"Переклад, у якому відкриваються читання. Кожна церква починає з того, яким користується (ESV, якщо жодного не вказано)."
+"How the day's readings are shown when there are several sets: one at a time under tabs, or all of them in columns (on the right, and across two columns when opened with more)","Як показано читання дня, коли рядів кілька: по одному у вкладках або всі в стовпцях (праворуч, і на два стовпці, коли відкрито кнопкою «більше»)"
+Which calendar the dates are reckoned in,У якому календарі лічать дати
+"How Easter is dated, which is a separate question from how the days are named. Left to follow the calendar, a Gregorian wheel keeps Western Easter and the other two keep the Eastern one.","Як визначають дату Великодня, що є іншим питанням, ніж назви днів. За календарем григоріанське коло тримає західний Великдень, а два інші — східний."
+"Name the one-year Sundays as the historic calendar does, from the first words of the day's Introit: Ad Te Levavi, Laetare, Quasimodo Geniti","Називати неділі однорічного ряду, як історичний календар, за першими словами інтроїту дня: Ad Te Levavi, Laetare, Quasimodo Geniti"
+List the day's Bible readings under its name. Each kind can be left out; only the kinds this church's lectionary has are offered.,"Подавати біблійні читання дня під його назвою. Кожен вид можна пропустити; пропонуються лише ті види, що є в порядку читань цієї церкви."
+"The lessons of the day's own propers: its Sunday, holy day or season, and any other service its book appoints for it","Читання власного пропрію дня: його неділя, свято чи період і будь-яке інше богослужіння, яке йому призначає його книга"
+"The lessons of a saint's day or festival, listed only while the wheel shows it (see Feasts)","Читання дня святого чи свята, подані лише поки коло його показує (див. Свята)"
+"The lessons of a day the calendar does not name, kept by its date or a date rule: Ember and Rogation Days, Thanksgiving, New Year's and national days, the Saturdays before and after a feast","Читання дня, якого календар не називає, за датою чи правилом: дні пощення й молитви, День подяки, Новий рік і державні свята, суботи перед святом і після нього"
+The hymnal's or prayer book's daily or weekday lectionary,Щоденний або буденний порядок читань співаника чи молитовника
+"The additional readings a daily lectionary offers beside its own, for reading more of the Bible (Lutheran Service Book prints them in italics)","Додаткові читання, які щоденний порядок пропонує поряд із власними, щоб читати більше Біблії (Lutheran Service Book друкує їх курсивом)"
+"A table of psalms for daily prayer, morning and evening, by season and weekday (Lutheran Service Book, p. 304)","Таблиця псалмів для щоденної молитви, вранці й увечері, за періодом і днем тижня (Lutheran Service Book, с. 304)"
+"A plan of daily Bible reading kept by the calendar year: Reading the Word of God (LCMS, LCC and NALC), through the Old Testament in three years and the Psalms and New Testament twice","План щоденного читання Біблії за календарним роком: Reading the Word of God (LCMS, LCC і NALC), Старий Заповіт за три роки, а Псалми й Новий Заповіт двічі"
+"The lessons of the Office: Morning and Evening Prayer, Matins, a second or third service","Читання богослужінь годин: ранкова й вечірня молитва, утреня, друге чи третє богослужіння"
+"Where a reading opens. On a phone or tablet either one opens in its own app when the app is installed, and in the browser otherwise.","Де відкривається читання. На телефоні чи планшеті кожне відкривається у власному застосунку, якщо його встановлено, інакше в браузері."
+How fast the sets slide between the columns when more or less is clicked (kept in this browser),Як швидко ряди ковзають між стовпцями після натискання «більше» чи «менше» (зберігається в цьому браузері)
+"The parts of the service the church lists with each day's readings (an Introit, a Gradual and a Verse), on a line of their own after them; a set's heading opens only its readings together","Частини богослужіння, які церква подає з читаннями кожного дня (інтроїт, градуал і вірш), окремим рядком після них; заголовок ряду відкриває разом лише його читання"
+A hymnal mark after each set of readings that searches Hymnary.org for the hymns on them in this church's hymnal,"Позначка співаника після кожного ряду читань, що шукає на Hymnary.org пісні до них у співанику цієї церкви"
+"The hymnal Hymn search looks in, where the church has several","Співаник, у якому шукає Пошук пісень, якщо в церкви їх кілька"
+A circled note after each set of readings that searches Word to Worship (wordtoworship.com) for contemporary worship songs on them,"Нота в колі після кожного ряду читань, що шукає на Word to Worship (wordtoworship.com) сучасні пісні прославлення до них"
+"The picture in the middle of the wheel. Each tradition has its own; any of them can be chosen. By season changes it with the day chosen: the wreath in Advent, the manger at Christmas, the empty tomb at Easter, and the church's own picture in the seasons that have none.","Зображення в центрі кола. Кожна традиція має своє; можна вибрати будь-яке. «За періодом» змінює його з вибраним днем: вінок в Адвент, ясла на Різдво, порожній гріб на Великдень і власне зображення церкви в періоди, що свого не мають."
+"A thicker line where the year's last week meets its first, which are a year apart","Товща лінія там, де останній тиждень року зустрічається з першим, між якими рік"
+"Checked: at the end of the church year the arrow keys go on into the next year's wheel, and back into the last. Unchecked: they go round the year on the wheel, from its last week to its first. Page Up and Page Down and the ◀ ▶ buttons always go on.","Позначено: наприкінці церковного року клавіші зі стрілками переходять до кола наступного року і назад до попереднього. Не позначено: вони ходять по колу року, від останнього тижня до першого. Page Up, Page Down і кнопки ◀ ▶ завжди переходять далі."
+"The reds in the middle of the range (the LCMS, Roman and Presbyterian reds) read about as well with black text as with white. Checked: black on them.","Червоні посередині шкали (червоний LCMS, римський і пресвітеріанський) читаються з чорним текстом приблизно так само добре, як із білим. Позначено: чорний на них."
+"How to use the wheel, the calendar's notes and how long it took to draw","Як користуватися колом, примітки календаря і скільки тривало малювання"
+"Who made the picture in the middle, and its license. When it is off and the license asks for credit, a small i button keeps it a click away.","Хто створив зображення в центрі та його ліцензія. Коли це вимкнено, а ліцензія вимагає зазначити автора, маленька кнопка i тримає це на відстані одного клацання."
+"The colors the days and the rings are painted in, each of which can be changed for this page","Кольори, якими пофарбовано дні й кільця; кожен можна змінити для цієї сторінки"
+The colors on the wheel this year. Click a swatch to change it; the change is kept in the page's link. Text on a day stays readable: it turns black or white if it would not.,"Кольори на колі цього року. Клацніть зразок, щоб змінити його; зміна зберігається в посиланні сторінки. Текст на дні залишається читабельним: стає чорним чи білим, якщо інакше не був би."
+Put every color back to the page's own,Повернути кожен колір до кольору сторінки
+"Put every setting here back to what config.csv asks for, keeping the day on the wheel","Повернути кожне налаштування до того, що вказує config.csv, зберігши день на колі"
+"Copy a link that opens on this day, with these settings","Копіювати посилання, яке відкривається на цьому дні з цими налаштуваннями"
+"Copy a line of HTML that shows this page inside a page of your own website (an iframe), opening on the day it is read, with these settings","Копіювати рядок HTML, що показує цю сторінку всередині сторінки вашого сайту (iframe), відкриту на день читання, з цими налаштуваннями"
+Print the whole wheel on one page,Надрукувати все коло на одній сторінці
+"Download the wheel (SVG, PNG) and lists of its readings, colors and feasts, for this year or a run of years","Завантажити коло (SVG, PNG) і списки його читань, кольорів і свят на цей рік або низку років"
+"The wheel and its lists as they are here, with these settings: the church, calendars, feasts, readings, rings, colors and artwork.","Коло та його списки такими, як тут, із цими налаштуваннями: церква, календарі, свята, читання, кільця, кольори й зображення."
+"Each day's readings, as the Readings boxes and the Feasts setting choose them","Читання кожного дня, як їх вибирають прапорці «Читання» та налаштування «Свята»"
+Each reading opens where Open in and Bible say; each set's heading opens all its readings,"Кожне читання відкривається там, куди вказують «Відкривати в» і «Біблія»; заголовок кожного ряду відкриває всі його читання"
+The Sundays and principal days (or every day) with the color the wheel paints them,"Неділі й головні свята (або кожен день) з кольором, яким їх фарбує коло"
+"The other colors the church allows, and the lower half's where the wheel splits a cell (in the feasts list too)","Інші кольори, які дозволяє церква, і колір нижньої половини, де коло ділить клітинку (також у списку свят)"
+"The festivals, saints' days and commemorations the Feasts setting keeps, on the days they fall","Великі свята, дні святих і вшанування, які зберігає налаштування «Свята», у дні, на які вони припадають"
+"Also Christmas, Easter, Pentecost and the other principal days on dates of their own","Також Різдво, Великдень, Трійця та інші головні свята під власними датами"
+"Where to read about each, as the readout links it","Де прочитати про кожне, як його пов’язує показ"
+"Previous day (up arrow; left arrow: a week, Shift: a month)","Попередній день (стрілка вгору; стрілка ліворуч: тиждень, Shift: місяць)"
+"Next day (down arrow; right arrow: a week, Shift: a month)","Наступний день (стрілка вниз; стрілка праворуч: тиждень, Shift: місяць)"
+Magnification: 1× (the whole wheel) to 6×,Збільшення: від 1× (усе коло) до 6×
+"Type a Sunday's, a season's or a feast's name and pick it: the wheel goes to that day in the year shown (F)","Введіть назву неділі, періоду чи свята й виберіть її: коло переходить до цього дня в показаному році (F)"
+"The chosen day's week in a list: each day's names, color and readings (W)","Тиждень вибраного дня списком: назви, колір і читання кожного дня (W)"
+"Print this week's days and readings, a page or two to hand round","Надрукувати дні й читання цього тижня, сторінку чи дві для роздачі"
+"How to use this page: every control, key and setting","Як користуватися цією сторінкою: кожен елемент керування, клавіша й налаштування"
+"Send feedback about this page: the day, church and settings on screen go with it","Надіслати відгук про цю сторінку: день, церква й налаштування на екрані додаються"
+"Type any year and the wheel is drawn for it. Click a cell, use the arrow keys, or pick a date.","Введіть будь-який рік, і коло буде намальоване для нього. Клацніть клітинку, скористайтеся стрілками або виберіть дату."
+"Tap a cell, pinch to zoom, or pick a date.","Торкніться клітинки, зведіть чи розведіть пальці для масштабу або виберіть дату."
+A new kind…,Новий вид…
+About the feasts only,Лише про свята
+Add,Додати
+Add a color,Додати колір
+Add a feast on this date,Додати свято на цю дату
+Add a picture of your own…,Додати власне зображення…
+Add a reading to this set,Додати читання до цього ряду
+Add a season,Додати період
+Add a set of readings on this date,Додати ряд читань на цю дату
+Additional,Додаткові
+Advent: four candles lit,Адвент: горять чотири свічки
+Advent: one candle lit,Адвент: горить одна свічка
+Advent: three candles lit,Адвент: горять три свічки
+Advent: two candles lit,Адвент: горять дві свічки
+Armenian cross,Вірменський хрест
+As each color sets it,Як визначає кожен колір
+As on screen,Як на екрані
+As this page opens,Як відкривається ця сторінка
+Black,Чорний
+Blue,Синій
+Burning bush,Неопалима купина
+Buttons it shows,"Кнопки, які вона показує"
+By season,За періодом
+"Calendar (Gregorian, Julian, Revised Julian)","Календар (григоріанський, юліанський, новоюліанський)"
+Canterbury cross,Кентерберійський хрест
+Celtic cross,Кельтський хрест
+Chalice and host,Чаша й облатка
+Change for,Змінити для
+Changes,Зміни
+Chi-Rho,Христограма
+Christmas: the manger,Різдво: ясла
+Churches it offers,"Церкви, які вона пропонує"
+Color,Колір
+Columns only,Лише стовпці
+"Columns, or tabs in Settings","Стовпці, або вкладки в Налаштуваннях"
+Coptic cross,Коптський хрест
+Copy,Копіювати
+Daily,Щоденні
+Dark,Темний
+Dark on reds,Темний на червоному
+Day,День
+Download changed files,Завантажити змінені файли
+Each church's first,Перший кожної церкви
+Each church's own,Власний кожної церкви
+Earlier,Раніше
+Easter (Western or Eastern),Великдень (західний чи східний)
+Easter: the empty tomb,Великдень: порожній гріб
+Edit the data,Редагувати дані
+Edit the data…,Редагувати дані…
+Epiphany: the star and crowns,Богоявлення: зірка й корони
+Ethiopian cross,Ефіопський хрест
+Every church,Кожна церква
+Every version,Кожен переклад
+Feedback link,Посилання для відгуків
+File name,Назва файлу
+Fill,Заливка
+Full name,Повна назва
+Gold,Золотий
+Green,Зелений
+Help link,Посилання на довідку
+Holy Week: three crosses,Страсний тиждень: три хрести
+"Instructions, notes and credit","Вказівки, примітки й автор"
+It opens,Вона відкривається
+Kinds of reading,Види читань
+Later,Пізніше
+Lent: the cross and thorns,Піст: хрест і терни
+Light,Світлий
+Link,Посилання
+Links,Посилання
+Load settings…,Завантажити налаштування…
+Lower half,Нижня половина
+Luther rose,Троянда Лютера
+Make a page,Створити сторінку
+Make a page…,Створити сторінку…
+Make the page,Створити сторінку
+Moravian star,Гернгутська зірка
+Morello,Морелло
+Name,Назва
+Names (a pattern),Назви (шаблон)
+Names and colors,Назви й кольори
+No changes on this page yet.,На цій сторінці ще немає змін.
+None (each church's own version),Немає (власний переклад кожної церкви)
+None (no box and no marks),"Немає (ні прапорця, ні позначок)"
+None (plain text),Немає (простий текст)
+Nothing,Нічого
+Off (the box unchecked),Вимк. (прапорець не позначено)
+Office,Богослужіння годин
+On,Увімк.
+On the year beginning in Advent,"У році, що починається в Адвент"
+Only this one,Лише ця
+Outside the year,Поза роком
+"Packed, about a third of the size","Стиснута, приблизно третина розміру"
+Pentecost: the dove and flames,П'ятидесятниця: голуб і полум'я
+Pictures kept,Залишені зображення
+Purple,Фіолетовий
+Reading plan,План читання
+Readings and links,Читання й посилання
+Red,Червоний
+Remove,Вилучити
+Remove this reading,Вилучити це читання
+Rose,Рожевий
+Save,Зберегти
+Save settings…,Зберегти налаштування…
+Scarlet,Багряний
+Season,Період
+Set the window from it,Налаштувати вікно за ним
+Settings it shows,"Налаштування, які вона показує"
+Syriac cross,Сирійський хрест
+Tabs only,Лише вкладки
+"Tabs, or columns in Settings","Вкладки, або стовпці в Налаштуваннях"
+Text,Текст
+Text on mid-tone colors,Текст на кольорах середнього тону
+The artwork's credit only,Лише автор зображення
+"The church, calendars and settings on screen now","Церква, календарі й налаштування, які зараз на екрані"
+The same page from Python; save or load these settings,Та сама сторінка з Python; зберегти або завантажити ці налаштування
+The tradition's own,Власне традиції
+These:,Ці:
+This church,Ця церква
+This day,Цей день
+This tradition,Ця традиція
+Title,Заголовок
+To paste into another page’s HTML,Щоб вставити в HTML іншої сторінки
+Violet,Фіолетовий
+What this page opens with,З чим відкривається ця сторінка
+White,Білий
+Zoom,Масштаб
+every church,кожна церква
+https://… (blank: none),https://… (порожньо: немає)
+OK,OK
+Undo these,Скасувати ці
+Undo the last change,Скасувати останню зміну
+Undo every change,Скасувати всі зміни
+Periods with a color of their own,Періоди з власним кольором
+Credit,Автор
+Artist or owner,Митець або власник
+License or copyright,Ліцензія або авторське право
+License link,Посилання на ліцензію
+Source link,Посилання на джерело
+Added.,Додано.
+Saved.,Збережено.
+Undone.,Скасовано.
+Removed.,Вилучено.
+Every change undone.,Усі зміни скасовано.
+A feast needs a name.,Свято потребує назви.
+A kind needs a key of letters and numbers.,Вид потребує ключа з літер і цифр.
+A reading cannot be blank: Remove takes it away.,Читання не може бути порожнім: «Вилучити» його прибирає.
+Choose its kind and write the reading.,Виберіть його вид і напишіть читання.
+This page cannot write this church’s tradition.csv.,Ця сторінка не може записати tradition.csv цієї церкви.
+Added: further readings join it with Add a reading.,Додано: інші читання додаються через «Додати читання».
+Nothing on this day comes from a file this page can write.,"Ніщо в цей день не походить із файлу, який ця сторінка може записати."
+The day’s own,Власне дня
+(not in a file this page can write),"(не у файлі, який ця сторінка може записати)"
+Kept in this browser for this page. Make a page writes them into the page it makes.,"Збережено в цьому браузері для цієї сторінки. «Створити сторінку» записує їх у сторінку, яку створює."
+"A .zip of the data files the changes make, laid out as the project's data folder","Архів .zip із файлами даних, що виходять зі змін, упорядкованими як тека даних проєкту"
+"A page like this one, in one HTML file to put on a website or open from a folder: the page church_year.py makes with the same options (below). Each choice starts as the page is now.","Сторінка, як ця, в одному файлі HTML, щоб розмістити на сайті або відкрити з теки: сторінка, яку church_year.py створює з тими самими параметрами (нижче). Кожен вибір починається таким, як сторінка зараз."
+A picture beside the page (center.svg…),Зображення поруч зі сторінкою (center.svg…)
+Changes show on the wheel at once and are kept in this browser for this page; Make a page writes them into the page it makes.,"Зміни одразу видно на колі, і вони зберігаються в цьому браузері для цієї сторінки; «Створити сторінку» записує їх у сторінку, яку створює."
+"Copy the command, to make this page with the script or to set this window from it later","Скопіювати команду, щоб створити цю сторінку скриптом або пізніше налаштувати за нею це вікно"
+"Not a whole page: its contents go into your own page’s HTML. To show a page that is already on a website,","Не ціла сторінка: її вміст іде в HTML вашої сторінки. Щоб показати сторінку, яка вже є на сайті,"
+"One row a year: Advent, Christmas, Ash Wednesday, Easter, Pentecost and the other movable dates, and how many Sundays after the Epiphany and Pentecost or Trinity (colors.py --overview). It has no iCalendar form, so with that format it comes as CSV.","Один рядок на рік: Адвент, Різдво, Попільна середа, Великдень, П'ятидесятниця та інші рухомі дати, і скільки неділь після Богоявлення та після П'ятидесятниці чи Трійці (colors.py --overview). Він не має форми iCalendar, тож у цьому форматі надходить як CSV."
+"Save these settings as a small text file (the command), to load here again later","Зберегти ці налаштування як невеликий текстовий файл (команду), щоб пізніше знову завантажити тут"
+Set the window from a command: paste one copied here before (or written for church_year.py),Налаштувати вікно за командою: вставте скопійовану тут раніше (або написану для church_year.py)
+Set the window from a settings file saved here before,"Налаштувати вікно за файлом налаштувань, збереженим тут раніше"
+What each color looks like on the wheel: its fill and the color of text on it. A color changed for this tradition only goes into its own colors.csv; one for every church into data/colors.csv.,"Як кожен колір виглядає на колі: його заливка й колір тексту на ньому. Колір, змінений лише для цієї традиції, іде в її власний colors.csv; для кожної церкви — у data/colors.csv."
+a word in capitals: ROSE,слово великими літерами: ROSE
+blank: the day’s own readings; a feast’s name keeps them to that feast,порожньо: власні читання дня; назва свята обмежує їх цим святом
+"gives the data files they change, to put over the project’s own for the Python scripts.","дає файли даних, які вони змінюють, щоб покласти поверх власних файлів проєкту для скриптів Python."
+"its key, as periods.csv names it: ADVENT","його ключ, як його називає periods.csv: ADVENT"
+under Share is simpler.,у розділі «Поділитися» простіше.
+"--arrows-next-year, --arrows-same-year: whether the arrow keys go on into the next church year at the year's end, or round the year on the wheel (a box in the page's Settings changes it)","--arrows-next-year, --arrows-same-year: чи переходять клавіші зі стрілками наприкінці року в наступний церковний рік, чи ходять по колу року (прапорець у Налаштуваннях сторінки змінює це)"
+"--art: the picture the page opens on. By season: the picture of the chosen day's season, and the church's own in a season without one","--art: зображення, з яким відкривається сторінка. За періодом: зображення періоду вибраного дня, а власне зображення церкви в періоді без нього"
+--drop-art: untick a picture to leave it out of the page,"--drop-art: зніміть позначку із зображення, щоб не включати його в сторінку"
+"--fragment: no <html>, <head> or <body>, to paste into a page of your own","--fragment: без <html>, <head> чи <body>, щоб вставити у власну сторінку"
+"--help-link: the page the Help button opens, the user guide unless changed","--help-link: сторінка, яку відкриває кнопка «Довідка», посібник, якщо не змінено"
+"--language: the language of the page's buttons, menus and settings until the reader chooses another (Settings > Language)","--language: мова кнопок, меню й налаштувань сторінки, доки читач не вибере іншу (Налаштування > Мова)"
+"--local-art: look for center.svg (or .png, .jpg ...) beside the page when it opens and offer it in the middle. Off, the page asks for no files beside it","--local-art: під час відкриття шукати center.svg (або .png, .jpg ...) поруч зі сторінкою і пропонувати його в центрі. Вимкнено — сторінка не просить файлів поруч із собою"
+"--no-compress when off: the tables as plain JSON, about three times the size, to read in the page's source or for a browser older than 2023","--no-compress коли вимкнено: таблиці як простий JSON, приблизно втричі більші, щоб читати в коді сторінки або для браузера, старшого за 2023 рік"
+"--no-download: the wheel as SVG and PNG, and its lists","--no-download: коло як SVG і PNG, і його списки"
+"--no-edit: changes to the titles, colors and readings, kept in the reader's browser, and the changed files to download","--no-edit: зміни назв, кольорів і читань, збережені в браузері читача, і змінені файли для завантаження"
+"--no-make-page: a page like itself, as this window makes","--no-make-page: сторінка, як вона сама, як її створює це вікно"
+"--own-art: a picture of your own, for the churches you choose",--own-art: власне зображення для вибраних церков
+--zoom: 1 (the whole wheel) to 6,--zoom: від 1 (усе коло) до 6
+Show or hide the {0} churches,Показати чи сховати церкви традиції {0}
+{0} of {1},{0} з {1}
+Left with no picture of their own (add one for them below): {0}.,Без власного зображення (додайте їм зображення нижче): {0}.
+choose this file again with Add a picture (a command names it but cannot carry it),"виберіть цей файл знову через «Додати власне зображення» (команда називає його, але не може його перенести)"
+The own picture of: {0},Власне зображення для: {0}
+{0} church,{0} церква
+{0} churches,{0} церков
+no church (the Artwork menu only),жодної церкви (лише меню «Зображення»)
+as drawn,як намальовано
+(click to use it),"(клацніть, щоб використати)"
+Put {0} back,Повернути: {0}
+{0} changed,змінено: {0}
+Every church (unless changed below),Кожна церква (якщо нижче не змінено)
+{0} change for single traditions or churches still apply; change them “tradition by tradition” or “church by church” to see it.,"{0} зміна для окремих традицій чи церков досі діє; перемкніть на «традицію за традицією» або «церкву за церквою», щоб її побачити."
+{0} changes for single traditions or churches still apply; change them “tradition by tradition” or “church by church” to see them.,"{0} змін для окремих традицій чи церков досі діють; перемкніть на «традицію за традицією» або «церкву за церквою», щоб їх побачити."
+{0} change for single churches still apply; change them “church by church” to see it.,"{0} зміна для окремих церков досі діє; перемкніть на «церкву за церквою», щоб її побачити."
+{0} changes for single churches still apply; change them “church by church” to see them.,"{0} змін для окремих церков досі діють; перемкніть на «церкву за церквою», щоб їх побачити."
+Put them back,Повернути їх
+Rings and the rest,Кільця й решта
+{0} words,{0}: текст
+as each church has them,як їх має кожна церква
+Set from the command.,Налаштовано за командою.
+Note: {0}.,Примітка: {0}.
+Could not read the command: {0},Не вдалося прочитати команду: {0}
+Nothing to save yet: {0}.,Ще нічого зберегти: {0}.
+Saved {0}.,Збережено {0}.
+Set from {0}.,Налаштовано за {0}.
+Could not read {0}: {1},Не вдалося прочитати {0}: {1}
+Copied.,Скопійовано.
+Selected: copy it with Ctrl+C (⌘C on a Mac).,Виділено: скопіюйте через Ctrl+C (⌘C на Mac).
+The kind {0} is kept; give it a reading.,Вид {0} залишено; дайте йому читання.
+"The kinds of reading {0} has, in the order a set lists them. A new kind is added with a reading of it (This day).","Види читань, які має {0}, у порядку, в якому їх подає ряд. Новий вид додається з його читанням (Цей день)."
+Kept as reading_labels and reading_order in {0}.,Збережено як reading_labels і reading_order у {0}.
+The colors of {0}’s seasons. A color may name others the church allows after it: PURPLE; blue.,"Кольори періодів {0}. Колір може називати після себе інші, які дозволяє церква: PURPLE; blue."
+This page cannot write {0}.,Ця сторінка не може записати {0}.
+This tradition ({0}),Ця традиція ({0})
+"This page was made with changes to: {0}. They are part of it, and Download changed files includes these files.","Цю сторінку створено зі змінами в: {0}. Вони є її частиною, і «Завантажити змінені файли» включає ці файли."
+{0}: {1} change,{0}: {1} зміна
+{0}: {1} changes,{0}: {1} змін
+Downloaded {0} file.,Завантажено {0} файл.
+Downloaded {0} files.,Завантажено {0} файлів.
+"Saved {0} ({1} MB, {2} church).","Збережено {0} ({1} МБ, {2} церква)."
+"Saved {0} ({1} MB, {2} churches).","Збережено {0} ({1} МБ, {2} церков)."
+Could not make the page: {0},Не вдалося створити сторінку: {0}
+"Choose the wheel, a list, or both.","Виберіть коло, список або обидва."
+"The Feasts setting is None: choose another, or “with major days”, for a feasts list.",Налаштування «Свята» має значення «Немає»: виберіть інше або «з головними святами» для списку свят.
+Drawing {0}…,Малювання {0}…
+Listing the readings…,Список читань…
+Listing the colors…,Список кольорів…
+Listing the years…,Список років…
+Listing the feasts…,Список свят…
+Saved {0} files in a .zip.,Збережено {0} файлів у .zip.
+Your own picture could not be read from here and is left out.,"Ваше власне зображення не вдалося прочитати звідси, і його пропущено."
+Could not make the files: {0},Не вдалося створити файли: {0}
+The last year is before the first.,Останній рік раніше за перший.
+At most {0} years at a time.,Не більше {0} років за раз.
+The church year {0}.,Церковний рік {0}.
+"{0} church years, {1} to {2}.","Церковних років: {0}, від {1} до {2}."
+The PNGs make this about {0} and take a while; a narrower PNG makes it smaller.,"PNG займуть приблизно {0}, і це забере час; вужчий PNG зменшить розмір."
+{0}: {1} for {2},{0}: {1} на {2}
+{0} to {1},{0}–{1}
+readings,читання
+colors,кольори
+the year at a glance,рік з одного погляду
+feasts and major days,свята й головні свята
+feasts,свята
+"{0}, {1} {2}, {3}","{0}, {2} {1} {3} р."
+Monday,понеділок
+Tuesday,вівторок
+Wednesday,середа
+Thursday,четвер
+Friday,п'ятниця
+Saturday,субота
+Sunday,неділя
+January,січня
+February,лютого
+March,березня
+April,квітня
+May,травня
+June,червня
+July,липня
+August,серпня
+September,вересня
+October,жовтня
+November,листопада
+December,грудня
+Made by {0} from the church year calendar's data.,Створено {0} з даних календаря церковного року.
+Each reading opens at {0} in the {1}; each heading opens its set's readings together at Bible Gateway (its propers apart).,Кожне читання відкривається на {0} у перекладі {1}; кожен заголовок відкриває разом читання свого ряду на Bible Gateway (пропрії окремо).
+"Each color is the day's own, the top of its cell on the wheel; the others the church allows follow in parentheses, and the lower half's is given where the wheel splits the cell.","Кожен колір — власний колір дня, верх його клітинки на колі; інші, які дозволяє церква, подано в дужках, а колір нижньої половини — там, де коло ділить клітинку."
+"Each color is the day's own, the top of its cell on the wheel.","Кожен колір — власний колір дня, верх його клітинки на колі."
+Date,Дата
+Feast,Свято
+Level,Ранг
+Liturgical color: {0},Літургійний колір: {0}
+; lower half {0},; нижня половина {0}
+transferred from {0} {1},перенесено з {1} {0}
+Principal feasts only: those whose color replaces the season's.,"Лише головні свята: ті, чий колір замінює колір періоду."
+Festivals: the feasts that color their day or its lower half.,"Великі свята: свята, що забарвлюють свій день або його нижню половину."
+"With the major days: the principal days set on dates of their own, Christmas, Easter, Pentecost and the like; a blank color is the season's.","З головними святами: головні свята під власними датами, Різдво, Великдень, П'ятидесятниця тощо; порожній колір — колір періоду."
+principal,головне свято
+festival,велике свято
+commemoration,вшанування
+major day,головне свято
+read by {0} churches: a change here changes them all,читають {0} церков: зміна тут змінює їх усі
+a run of days: the change is the whole run’s,низка днів: зміна стосується всієї низки

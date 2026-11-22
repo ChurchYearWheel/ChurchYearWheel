@@ -1,0 +1,487 @@
+english,translation
+"# The page's own words (buttons, menus, settings and their notes) in this language: the English as the page writes it, then its translation. {0}, {1} ... stand for what the page fills in. A missing or blank line stays English."
+Settings,Pengaturan
+Simple,Sederhana
+All,Semua
+Language,Bahasa
+Match the church,Sesuai gereja
+Browser ({0}),Peramban ({0})
+Year,Tahun
+Tradition,Tradisi
+Church,Gereja
+Hymnal,Buku nyanyian
+Lectionary,Leksionari
+Feasts,Hari raya
+Festivals,Hari raya besar
+Principal only,Hanya hari raya utama
+None,Tidak ada
+Bible,Alkitab
+Readings shown as,Bacaan ditampilkan sebagai
+Tabs,Tab
+Columns,Kolom
+Calendar and names,Kalender dan nama
+Calendar,Kalender
+Gregorian,Gregorian
+Julian (Old Calendar),Julian (kalender lama)
+Revised Julian (New Calendar),Julian revisi (kalender baru)
+Easter,Paskah
+With the calendar,Mengikuti kalender
+Western,Barat
+Eastern,Timur
+Latin names,Nama Latin
+Readings,Bacaan
+The day's propers,Bacaan khusus hari itu
+Feasts and festivals,Hari raya dan perayaan
+Other dated days,Hari bertanggal lainnya
+Daily lectionary,Leksionari harian
+Additional readings,Bacaan tambahan
+Psalm table,Tabel mazmur
+Bible reading plan,Rencana pembacaan Alkitab
+Office lessons,Bacaan ibadah harian
+Open in,Buka di
+Slide,Geser
+Off,Mati
+Quick,Cepat
+Medium,Sedang
+Slow,Lambat
+Propers,Propria
+Hymn search,Cari nyanyian
+Contemporary song search,Cari lagu pujian kontemporer
+The wheel,Roda
+Artwork,Gambar
+Thicker line where the year begins,Garis lebih tebal di awal tahun
+Arrow keys go on into the next year,Tombol panah berlanjut ke tahun berikutnya
+Dark text on reds,Teks gelap di atas merah
+Under the wheel,Di bawah roda
+Instructions and notes,Petunjuk dan catatan
+Artwork credit,Pembuat gambar
+Rings,Cincin
+Outer band,Pita luar
+Seasons,Masa
+Months,Bulan
+Parts of the year,Bagian-bagian tahun
+Day cells,Sel hari
+Center artwork,Gambar tengah
+Colors…,Warna…
+Colors,Warna
+Days,Hari
+Close,Tutup
+Reset colors,Atur ulang warna
+Reset settings,Atur ulang pengaturan
+Share,Bagikan
+Copy link,Salin tautan
+Copy embed code,Salin kode sematan
+Print,Cetak
+Download…,Unduh…
+Download,Unduh
+Years,Tahun
+From,Dari
+to,sampai
+pixels wide,piksel lebarnya
+Background,Latar
+clear,transparan
+white,putih
+Lists,Daftar
+Sundays,Hari Minggu
+Sundays and principal days,Hari Minggu dan hari raya utama
+every day,setiap hari
+every named day,setiap hari yang bernama
+with links,dengan tautan
+with major days,dengan hari raya utama
+other colors,warna lain
+Format,Format
+CSV (spreadsheet),CSV (lembar kerja)
+HTML (to print),HTML (untuk dicetak)
+iCalendar (.ics),iCalendar (.ics)
+PNG (a picture),PNG (gambar)
+"SVG (a drawing, sharp at any size)","SVG (gambar vektor, tajam di ukuran apa pun)"
+The year at a glance,Setahun sekilas
+Today,Hari ini
+Week,Minggu
+Find a day,Cari hari
+Help,Bantuan
+Feedback,Masukan
+About the artwork,Tentang gambar
+Choose a date,Pilih tanggal
+Previous day,Hari sebelumnya
+Next day,Hari berikutnya
+Zoom in,Perbesar
+Zoom out,Perkecil
+Zoom in (+),Perbesar (+)
+Zoom out (−),Perkecil (−)
+Magnification,Pembesaran
+The week before,Minggu sebelumnya
+The week after,Minggu berikutnya
+Days with that name,Hari dengan nama itu
+Find a day by its name,Cari hari menurut namanya
+Church Year {0},Tahun Gereja {0}
+Jump to today (T) — {0},Ke hari ini (T) — {0}
+Read about {0},Baca tentang {0}
+{0} ({1} hymns) in {2},{0} ({1} nyanyian) dalam {2}
+Hymns on {0} in {1} at Hymnary.org,Nyanyian tentang {0} dalam {1} di Hymnary.org
+Hymns for these readings in {0} at Hymnary.org,Nyanyian untuk bacaan ini dalam {0} di Hymnary.org
+Hymns for these propers in {0} at Hymnary.org,Nyanyian untuk propria ini dalam {0} di Hymnary.org
+the church's hymnal,buku nyanyian gereja
+Contemporary worship songs for these readings at Word to Worship,Lagu pujian kontemporer untuk bacaan ini di Word to Worship
+Contemporary worship songs for these propers at Word to Worship,Lagu pujian kontemporer untuk propria ini di Word to Worship
+Open all these readings together at Bible Gateway,Buka semua bacaan ini bersama di Bible Gateway
+Open these propers together at Bible Gateway,Buka propria ini bersama di Bible Gateway
+▴ less,▴ lebih sedikit
+▾ more,▾ lebih banyak
+▾ {0} more,▾ {0} lagi
+Show two lines again,Tampilkan dua baris lagi
+Show all of this set’s readings,Tampilkan semua bacaan rangkaian ini
+Show all the day’s readings,Tampilkan semua bacaan hari ini
+Show the readings in three lines again,Tampilkan bacaan dalam tiga baris lagi
+No day of {0} by that name,Tidak ada hari di {0} dengan nama itu
+Choose {0} on the wheel,Pilih {0} pada roda
+In another church year: choose the day to draw it.,Di tahun gereja lain: pilih harinya untuk menggambarnya.
+Copied,Tersalin
+Copy failed,Gagal menyalin
+"The language of the page's buttons, menus and settings. The calendar's names, dates and readings stay in the church's language.","Bahasa tombol, menu, dan pengaturan halaman. Nama, tanggal, dan bacaan kalender tetap dalam bahasa gereja."
+"The church year wheel: left and right arrow keys step a week, up and down a day","Roda tahun gereja: panah kiri dan kanan berpindah seminggu, atas dan bawah sehari"
+"The settings most often changed: the year, the church, the feasts, the Bible and how the readings are shown","Pengaturan yang paling sering diubah: tahun, gereja, hari raya, Alkitab, dan cara bacaan ditampilkan"
+"Every setting: the calendar, the kinds of reading, the searches, the artwork, the rings and colors, and making a page or editing the data","Semua pengaturan: kalender, jenis bacaan, pencarian, gambar, cincin dan warna, serta membuat halaman atau menyunting data"
+"The year the church year begins in: Advent for most traditions, September for the Eastern Orthodox","Tahun tempat tahun gereja dimulai: pada masa Adven bagi kebanyakan tradisi, pada bulan September bagi gereja Ortodoks"
+The family of churches,Keluarga gereja
+Which church's calendar the wheel follows,Kalender gereja mana yang diikuti roda
+"All: every commemoration. Festivals: the festivals and feasts (in the Roman calendar, solemnities and feasts). Principal: only the principal days (solemnities). None: the saints' days are left off.","Semua: setiap peringatan. Hari raya besar: hari raya besar dan hari raya (dalam kalender Roma, hari raya agung dan pesta). Hanya hari raya utama: hanya hari-hari utama. Tidak ada: hari-hari orang kudus ditiadakan."
+The translation the readings open in. Each church starts on the one it uses (ESV where it names none).,Terjemahan tempat bacaan dibuka. Setiap gereja mulai dengan yang dipakainya (ESV bila tidak menyebut satu pun).
+"How the day's readings are shown when there are several sets: one at a time under tabs, or all of them in columns (on the right, and across two columns when opened with more)","Cara bacaan hari itu ditampilkan bila ada beberapa rangkaian: satu per satu dalam tab, atau semuanya dalam kolom (di kanan, dan melintasi dua kolom bila dibuka dengan lebih banyak)"
+Which calendar the dates are reckoned in,Kalender yang dipakai untuk menghitung tanggal
+"How Easter is dated, which is a separate question from how the days are named. Left to follow the calendar, a Gregorian wheel keeps Western Easter and the other two keep the Eastern one.","Cara Paskah ditentukan tanggalnya, yang merupakan soal lain dari cara hari-hari dinamai. Bila mengikuti kalender, roda Gregorian memakai Paskah Barat dan dua lainnya Paskah Timur."
+"Name the one-year Sundays as the historic calendar does, from the first words of the day's Introit: Ad Te Levavi, Laetare, Quasimodo Geniti","Namai hari-hari Minggu rangkaian satu tahun seperti kalender historis, dari kata-kata pertama introitus hari itu: Ad Te Levavi, Laetare, Quasimodo Geniti"
+List the day's Bible readings under its name. Each kind can be left out; only the kinds this church's lectionary has are offered.,Cantumkan bacaan Alkitab hari itu di bawah namanya. Setiap jenis dapat dihilangkan; hanya jenis yang dimiliki leksionari gereja ini yang ditawarkan.
+"The lessons of the day's own propers: its Sunday, holy day or season, and any other service its book appoints for it","Bacaan propria hari itu sendiri: hari Minggunya, hari raya atau masanya, dan setiap ibadah lain yang ditetapkan bukunya untuk hari itu"
+"The lessons of a saint's day or festival, listed only while the wheel shows it (see Feasts)","Bacaan hari orang kudus atau hari raya, dicantumkan hanya selama roda menampilkannya (lihat Hari raya)"
+"The lessons of a day the calendar does not name, kept by its date or a date rule: Ember and Rogation Days, Thanksgiving, New Year's and national days, the Saturdays before and after a feast","Bacaan hari yang tidak dinamai kalender, menurut tanggal atau aturan: hari-hari puasa dan doa, Pengucapan Syukur, Tahun Baru dan hari nasional, hari Sabtu sebelum dan sesudah hari raya"
+The hymnal's or prayer book's daily or weekday lectionary,Leksionari harian atau hari kerja dari buku nyanyian atau buku doa
+"The additional readings a daily lectionary offers beside its own, for reading more of the Bible (Lutheran Service Book prints them in italics)","Bacaan tambahan yang ditawarkan leksionari harian di samping bacaannya sendiri, untuk membaca lebih banyak Alkitab (Lutheran Service Book mencetaknya miring)"
+"A table of psalms for daily prayer, morning and evening, by season and weekday (Lutheran Service Book, p. 304)","Tabel mazmur untuk doa harian, pagi dan petang, menurut masa dan hari (Lutheran Service Book, hlm. 304)"
+"A plan of daily Bible reading kept by the calendar year: Reading the Word of God (LCMS, LCC and NALC), through the Old Testament in three years and the Psalms and New Testament twice","Rencana pembacaan Alkitab harian menurut tahun kalender: Reading the Word of God (LCMS, LCC, dan NALC), Perjanjian Lama dalam tiga tahun serta Mazmur dan Perjanjian Baru dua kali"
+"The lessons of the Office: Morning and Evening Prayer, Matins, a second or third service","Bacaan ibadah harian: doa pagi dan petang, matin, ibadah kedua atau ketiga"
+"Where a reading opens. On a phone or tablet either one opens in its own app when the app is installed, and in the browser otherwise.","Tempat bacaan dibuka. Di ponsel atau tablet masing-masing dibuka di aplikasinya sendiri bila terpasang, dan di peramban bila tidak."
+How fast the sets slide between the columns when more or less is clicked (kept in this browser),Seberapa cepat rangkaian bergeser di antara kolom bila lebih banyak atau lebih sedikit diklik (disimpan di peramban ini)
+"The parts of the service the church lists with each day's readings (an Introit, a Gradual and a Verse), on a line of their own after them; a set's heading opens only its readings together","Bagian-bagian ibadah yang dicantumkan gereja bersama bacaan setiap hari (introitus, graduale, dan ayat), pada baris tersendiri sesudahnya; judul sebuah rangkaian hanya membuka bacaannya bersama-sama"
+A hymnal mark after each set of readings that searches Hymnary.org for the hymns on them in this church's hymnal,Tanda buku nyanyian sesudah setiap rangkaian bacaan yang mencari di Hymnary.org nyanyian tentangnya dalam buku nyanyian gereja ini
+"The hymnal Hymn search looks in, where the church has several","Buku nyanyian tempat Cari nyanyian mencari, bila gereja memiliki beberapa"
+A circled note after each set of readings that searches Word to Worship (wordtoworship.com) for contemporary worship songs on them,Not dalam lingkaran sesudah setiap rangkaian bacaan yang mencari di Word to Worship (wordtoworship.com) lagu pujian kontemporer tentangnya
+"The picture in the middle of the wheel. Each tradition has its own; any of them can be chosen. By season changes it with the day chosen: the wreath in Advent, the manger at Christmas, the empty tomb at Easter, and the church's own picture in the seasons that have none.","Gambar di tengah roda. Setiap tradisi punya gambarnya sendiri; mana pun dapat dipilih. “Menurut masa” menggantinya sesuai hari yang dipilih: karangan bunga pada masa Adven, palungan pada Natal, kubur kosong pada Paskah, dan gambar gereja sendiri pada masa yang tidak punya gambar."
+"A thicker line where the year's last week meets its first, which are a year apart","Garis lebih tebal tempat minggu terakhir tahun bertemu minggu pertamanya, yang berjarak setahun"
+"Checked: at the end of the church year the arrow keys go on into the next year's wheel, and back into the last. Unchecked: they go round the year on the wheel, from its last week to its first. Page Up and Page Down and the ◀ ▶ buttons always go on.","Dicentang: di akhir tahun gereja tombol panah berlanjut ke roda tahun berikutnya, dan kembali ke yang sebelumnya. Tidak dicentang: tombol itu berputar mengelilingi tahun pada roda, dari minggu terakhir ke minggu pertama. Page Up, Page Down, dan tombol ◀ ▶ selalu berlanjut."
+"The reds in the middle of the range (the LCMS, Roman and Presbyterian reds) read about as well with black text as with white. Checked: black on them.","Warna merah di tengah rentang (merah LCMS, Roma, dan Presbiterian) terbaca hampir sama baiknya dengan teks hitam maupun putih. Dicentang: hitam di atasnya."
+"How to use the wheel, the calendar's notes and how long it took to draw","Cara memakai roda, catatan kalender, dan berapa lama penggambarannya"
+"Who made the picture in the middle, and its license. When it is off and the license asks for credit, a small i button keeps it a click away.","Siapa pembuat gambar di tengah dan lisensinya. Bila ini dimatikan dan lisensi meminta pencantuman, tombol i kecil menyimpannya sejauh satu klik."
+"The colors the days and the rings are painted in, each of which can be changed for this page",Warna yang dipakai untuk mewarnai hari dan cincin; masing-masing dapat diubah untuk halaman ini
+The colors on the wheel this year. Click a swatch to change it; the change is kept in the page's link. Text on a day stays readable: it turns black or white if it would not.,Warna-warna pada roda tahun ini. Klik contoh warna untuk mengubahnya; perubahan disimpan dalam tautan halaman. Teks pada suatu hari tetap terbaca: berubah hitam atau putih bila tidak.
+Put every color back to the page's own,Kembalikan setiap warna ke warna halaman
+"Put every setting here back to what config.csv asks for, keeping the day on the wheel","Kembalikan setiap pengaturan ke yang diminta config.csv, dengan hari tetap pada roda"
+"Copy a link that opens on this day, with these settings","Salin tautan yang terbuka pada hari ini, dengan pengaturan ini"
+"Copy a line of HTML that shows this page inside a page of your own website (an iframe), opening on the day it is read, with these settings","Salin satu baris HTML yang menampilkan halaman ini di dalam halaman situs web Anda sendiri (iframe), terbuka pada hari dibaca, dengan pengaturan ini"
+Print the whole wheel on one page,Cetak seluruh roda pada satu halaman
+"Download the wheel (SVG, PNG) and lists of its readings, colors and feasts, for this year or a run of years","Unduh roda (SVG, PNG) dan daftar bacaan, warna, dan hari rayanya, untuk tahun ini atau serangkaian tahun"
+"The wheel and its lists as they are here, with these settings: the church, calendars, feasts, readings, rings, colors and artwork.","Roda dan daftarnya seperti di sini, dengan pengaturan ini: gereja, kalender, hari raya, bacaan, cincin, warna, dan gambar."
+"Each day's readings, as the Readings boxes and the Feasts setting choose them","Bacaan setiap hari, sebagaimana dipilih oleh kotak Bacaan dan pengaturan Hari raya"
+Each reading opens where Open in and Bible say; each set's heading opens all its readings,Setiap bacaan dibuka di tempat yang ditunjukkan Buka di dan Alkitab; judul setiap rangkaian membuka semua bacaannya
+The Sundays and principal days (or every day) with the color the wheel paints them,Hari-hari Minggu dan hari raya utama (atau setiap hari) dengan warna yang dipakai roda
+"The other colors the church allows, and the lower half's where the wheel splits a cell (in the feasts list too)","Warna lain yang diizinkan gereja, dan warna separuh bawah bila roda membagi sebuah sel (juga dalam daftar hari raya)"
+"The festivals, saints' days and commemorations the Feasts setting keeps, on the days they fall","Hari raya, hari orang kudus, dan peringatan yang dipertahankan pengaturan Hari raya, pada hari jatuhnya"
+"Also Christmas, Easter, Pentecost and the other principal days on dates of their own","Juga Natal, Paskah, Pentakosta, dan hari raya utama lainnya pada tanggalnya sendiri"
+"Where to read about each, as the readout links it","Tempat membaca tentang masing-masing, sebagaimana tampilan menautkannya"
+"Previous day (up arrow; left arrow: a week, Shift: a month)","Hari sebelumnya (panah atas; panah kiri: seminggu, Shift: sebulan)"
+"Next day (down arrow; right arrow: a week, Shift: a month)","Hari berikutnya (panah bawah; panah kanan: seminggu, Shift: sebulan)"
+Magnification: 1× (the whole wheel) to 6×,Pembesaran: 1× (seluruh roda) sampai 6×
+"Type a Sunday's, a season's or a feast's name and pick it: the wheel goes to that day in the year shown (F)","Ketik nama hari Minggu, masa, atau hari raya lalu pilih: roda pindah ke hari itu pada tahun yang ditampilkan (F)"
+"The chosen day's week in a list: each day's names, color and readings (W)","Minggu dari hari yang dipilih dalam daftar: nama, warna, dan bacaan setiap hari (W)"
+"Print this week's days and readings, a page or two to hand round","Cetak hari dan bacaan minggu ini, satu atau dua halaman untuk dibagikan"
+"How to use this page: every control, key and setting","Cara memakai halaman ini: setiap kontrol, tombol, dan pengaturan"
+"Send feedback about this page: the day, church and settings on screen go with it","Kirim masukan tentang halaman ini: hari, gereja, dan pengaturan di layar ikut terkirim"
+"Type any year and the wheel is drawn for it. Click a cell, use the arrow keys, or pick a date.","Ketik tahun berapa pun dan roda digambar untuknya. Klik sebuah sel, pakai tombol panah, atau pilih tanggal."
+"Tap a cell, pinch to zoom, or pick a date.","Ketuk sebuah sel, cubit untuk memperbesar, atau pilih tanggal."
+A new kind…,Jenis baru…
+About the feasts only,Hanya tentang hari raya
+Add,Tambah
+Add a color,Tambah warna
+Add a feast on this date,Tambah hari raya pada tanggal ini
+Add a picture of your own…,Tambah gambar sendiri…
+Add a reading to this set,Tambah bacaan ke rangkaian ini
+Add a season,Tambah masa
+Add a set of readings on this date,Tambah rangkaian bacaan pada tanggal ini
+Additional,Tambahan
+Advent: four candles lit,Adven: empat lilin menyala
+Advent: one candle lit,Adven: satu lilin menyala
+Advent: three candles lit,Adven: tiga lilin menyala
+Advent: two candles lit,Adven: dua lilin menyala
+Armenian cross,Salib Armenia
+As each color sets it,Sesuai pengaturan tiap warna
+As on screen,Seperti di layar
+As this page opens,Seperti halaman ini dibuka
+Black,Hitam
+Blue,Biru
+Burning bush,Semak yang menyala
+Buttons it shows,Tombol yang ditampilkannya
+By season,Menurut masa
+"Calendar (Gregorian, Julian, Revised Julian)","Kalender (Gregorian, Julian, Julian revisi)"
+Canterbury cross,Salib Canterbury
+Celtic cross,Salib Kelt
+Chalice and host,Cawan dan hosti
+Change for,Ubah untuk
+Changes,Perubahan
+Chi-Rho,Monogram Kristus
+Christmas: the manger,Natal: palungan
+Churches it offers,Gereja yang ditawarkannya
+Color,Warna
+Columns only,Hanya kolom
+"Columns, or tabs in Settings","Kolom, atau tab di Pengaturan"
+Coptic cross,Salib Koptik
+Copy,Salin
+Daily,Harian
+Dark,Gelap
+Dark on reds,Gelap di atas merah
+Day,Hari
+Download changed files,Unduh berkas yang diubah
+Each church's first,Yang pertama dari tiap gereja
+Each church's own,Milik tiap gereja
+Earlier,Lebih awal
+Easter (Western or Eastern),Paskah (Barat atau Timur)
+Easter: the empty tomb,Paskah: kubur kosong
+Edit the data,Sunting data
+Edit the data…,Sunting data…
+Epiphany: the star and crowns,Epifani: bintang dan mahkota
+Ethiopian cross,Salib Etiopia
+Every church,Setiap gereja
+Every version,Setiap terjemahan
+Feedback link,Tautan masukan
+File name,Nama berkas
+Fill,Isian
+Full name,Nama lengkap
+Gold,Emas
+Green,Hijau
+Help link,Tautan bantuan
+Holy Week: three crosses,Pekan Suci: tiga salib
+"Instructions, notes and credit","Petunjuk, catatan, dan pembuat"
+It opens,Halaman terbuka
+Kinds of reading,Jenis bacaan
+Later,Lebih lambat
+Lent: the cross and thorns,Masa Pra-Paskah: salib dan duri
+Light,Terang
+Link,Tautan
+Links,Tautan
+Load settings…,Muat pengaturan…
+Lower half,Separuh bawah
+Luther rose,Mawar Luther
+Make a page,Buat halaman
+Make a page…,Buat halaman…
+Make the page,Buat halamannya
+Moravian star,Bintang Herrnhut
+Morello,Morello
+Name,Nama
+Names (a pattern),Nama (pola)
+Names and colors,Nama dan warna
+No changes on this page yet.,Belum ada perubahan di halaman ini.
+None (each church's own version),Tidak ada (terjemahan milik tiap gereja)
+None (no box and no marks),Tidak ada (tanpa kotak dan tanpa tanda)
+None (plain text),Tidak ada (teks biasa)
+Nothing,Tidak ada apa-apa
+Off (the box unchecked),Mati (kotak tidak dicentang)
+Office,Ibadah harian
+On,Nyala
+On the year beginning in Advent,Pada tahun yang dimulai pada Adven
+Only this one,Hanya ini
+Outside the year,Di luar tahun
+"Packed, about a third of the size","Dipadatkan, kira-kira sepertiga ukurannya"
+Pentecost: the dove and flames,Pentakosta: merpati dan nyala api
+Pictures kept,Gambar yang dipertahankan
+Purple,Ungu
+Reading plan,Rencana bacaan
+Readings and links,Bacaan dan tautan
+Red,Merah
+Remove,Hapus
+Remove this reading,Hapus bacaan ini
+Rose,Merah muda
+Save,Simpan
+Save settings…,Simpan pengaturan…
+Scarlet,Merah tua
+Season,Masa
+Set the window from it,Atur jendela menurut itu
+Settings it shows,Pengaturan yang ditampilkannya
+Syriac cross,Salib Suriah
+Tabs only,Hanya tab
+"Tabs, or columns in Settings","Tab, atau kolom di Pengaturan"
+Text,Teks
+Text on mid-tone colors,Teks di atas warna nada tengah
+The artwork's credit only,Hanya pembuat gambar
+"The church, calendars and settings on screen now","Gereja, kalender, dan pengaturan yang ada di layar sekarang"
+The same page from Python; save or load these settings,Halaman yang sama dari Python; simpan atau muat pengaturan ini
+The tradition's own,Milik tradisi
+These:,Ini:
+This church,Gereja ini
+This day,Hari ini
+This tradition,Tradisi ini
+Title,Judul
+To paste into another page’s HTML,Untuk ditempel ke HTML halaman lain
+Violet,Ungu muda
+What this page opens with,Isi halaman ini saat dibuka
+White,Putih
+Zoom,Perbesaran
+every church,setiap gereja
+https://… (blank: none),https://… (kosong: tidak ada)
+OK,OK
+Undo these,Batalkan ini
+Undo the last change,Batalkan perubahan terakhir
+Undo every change,Batalkan semua perubahan
+Periods with a color of their own,Periode dengan warna sendiri
+Credit,Pembuat
+Artist or owner,Seniman atau pemilik
+License or copyright,Lisensi atau hak cipta
+License link,Tautan lisensi
+Source link,Tautan sumber
+Added.,Ditambahkan.
+Saved.,Disimpan.
+Undone.,Dibatalkan.
+Removed.,Dihapus.
+Every change undone.,Semua perubahan dibatalkan.
+A feast needs a name.,Hari raya perlu nama.
+A kind needs a key of letters and numbers.,Jenis perlu kunci berupa huruf dan angka.
+A reading cannot be blank: Remove takes it away.,Bacaan tidak boleh kosong: Hapus akan menghilangkannya.
+Choose its kind and write the reading.,Pilih jenisnya dan tulis bacaannya.
+This page cannot write this church’s tradition.csv.,Halaman ini tidak dapat menulis tradition.csv gereja ini.
+Added: further readings join it with Add a reading.,Ditambahkan: bacaan lain bergabung lewat “Tambah bacaan”.
+Nothing on this day comes from a file this page can write.,Tidak ada di hari ini yang berasal dari berkas yang dapat ditulis halaman ini.
+The day’s own,Milik hari itu
+(not in a file this page can write),(tidak dalam berkas yang dapat ditulis halaman ini)
+Kept in this browser for this page. Make a page writes them into the page it makes.,Disimpan di peramban ini untuk halaman ini. “Buat halaman” menuliskannya ke halaman yang dibuatnya.
+"A .zip of the data files the changes make, laid out as the project's data folder","Berkas .zip berisi berkas data hasil perubahan, disusun seperti folder data proyek"
+"A page like this one, in one HTML file to put on a website or open from a folder: the page church_year.py makes with the same options (below). Each choice starts as the page is now.","Halaman seperti ini, dalam satu berkas HTML untuk dipasang di situs web atau dibuka dari folder: halaman yang dibuat church_year.py dengan pilihan yang sama (di bawah). Setiap pilihan dimulai seperti halaman sekarang."
+A picture beside the page (center.svg…),Gambar di samping halaman (center.svg…)
+Changes show on the wheel at once and are kept in this browser for this page; Make a page writes them into the page it makes.,Perubahan langsung terlihat pada roda dan disimpan di peramban ini untuk halaman ini; “Buat halaman” menuliskannya ke halaman yang dibuatnya.
+"Copy the command, to make this page with the script or to set this window from it later","Salin perintah, untuk membuat halaman ini dengan skrip atau mengatur jendela ini menurutnya nanti"
+"Not a whole page: its contents go into your own page’s HTML. To show a page that is already on a website,","Bukan halaman utuh: isinya masuk ke HTML halaman Anda sendiri. Untuk menampilkan halaman yang sudah ada di situs web,"
+"One row a year: Advent, Christmas, Ash Wednesday, Easter, Pentecost and the other movable dates, and how many Sundays after the Epiphany and Pentecost or Trinity (colors.py --overview). It has no iCalendar form, so with that format it comes as CSV.","Satu baris setahun: Adven, Natal, Rabu Abu, Paskah, Pentakosta, dan tanggal bergerak lainnya, serta berapa hari Minggu sesudah Epifani dan sesudah Pentakosta atau Trinitatis (colors.py --overview). Tidak ada bentuk iCalendar, jadi dalam format itu ia datang sebagai CSV."
+"Save these settings as a small text file (the command), to load here again later","Simpan pengaturan ini sebagai berkas teks kecil (perintah), untuk dimuat lagi di sini nanti"
+Set the window from a command: paste one copied here before (or written for church_year.py),Atur jendela menurut perintah: tempel yang pernah disalin di sini (atau ditulis untuk church_year.py)
+Set the window from a settings file saved here before,Atur jendela menurut berkas pengaturan yang pernah disimpan di sini
+What each color looks like on the wheel: its fill and the color of text on it. A color changed for this tradition only goes into its own colors.csv; one for every church into data/colors.csv.,Bagaimana tiap warna tampak pada roda: isiannya dan warna teks di atasnya. Warna yang diubah hanya untuk tradisi ini masuk ke colors.csv miliknya; untuk setiap gereja ke data/colors.csv.
+a word in capitals: ROSE,satu kata huruf kapital: ROSE
+blank: the day’s own readings; a feast’s name keeps them to that feast,kosong: bacaan milik hari itu; nama hari raya membatasinya pada hari raya itu
+"gives the data files they change, to put over the project’s own for the Python scripts.","memberikan berkas data yang diubahnya, untuk ditimpakan ke berkas proyek bagi skrip Python."
+"its key, as periods.csv names it: ADVENT","kuncinya, sebagaimana periods.csv menyebutnya: ADVENT"
+under Share is simpler.,di Bagikan lebih mudah.
+"--arrows-next-year, --arrows-same-year: whether the arrow keys go on into the next church year at the year's end, or round the year on the wheel (a box in the page's Settings changes it)","--arrows-next-year, --arrows-same-year: apakah tombol panah di akhir tahun berlanjut ke tahun gereja berikutnya atau berputar mengelilingi tahun pada roda (kotak di Pengaturan halaman mengubahnya)"
+"--art: the picture the page opens on. By season: the picture of the chosen day's season, and the church's own in a season without one","--art: gambar saat halaman dibuka. Menurut masa: gambar masa dari hari yang dipilih, dan gambar gereja sendiri pada masa tanpa gambar"
+--drop-art: untick a picture to leave it out of the page,--drop-art: hilangkan centang gambar agar tidak dimasukkan ke halaman
+"--fragment: no <html>, <head> or <body>, to paste into a page of your own","--fragment: tanpa <html>, <head>, atau <body>, untuk ditempel ke halaman sendiri"
+"--help-link: the page the Help button opens, the user guide unless changed","--help-link: halaman yang dibuka tombol Bantuan, panduan penggunaan bila tidak diubah"
+"--language: the language of the page's buttons, menus and settings until the reader chooses another (Settings > Language)","--language: bahasa tombol, menu, dan pengaturan halaman sampai pembaca memilih yang lain (Pengaturan > Bahasa)"
+"--local-art: look for center.svg (or .png, .jpg ...) beside the page when it opens and offer it in the middle. Off, the page asks for no files beside it","--local-art: saat dibuka, cari center.svg (atau .png, .jpg ...) di samping halaman dan tawarkan di tengah. Bila mati, halaman tidak meminta berkas di sampingnya"
+"--no-compress when off: the tables as plain JSON, about three times the size, to read in the page's source or for a browser older than 2023","--no-compress bila mati: tabel sebagai JSON biasa, kira-kira tiga kali lebih besar, untuk dibaca di sumber halaman atau untuk peramban yang lebih tua dari 2023"
+"--no-download: the wheel as SVG and PNG, and its lists","--no-download: roda sebagai SVG dan PNG, serta daftarnya"
+"--no-edit: changes to the titles, colors and readings, kept in the reader's browser, and the changed files to download","--no-edit: perubahan judul, warna, dan bacaan yang disimpan di peramban pembaca, serta berkas yang diubah untuk diunduh"
+"--no-make-page: a page like itself, as this window makes","--no-make-page: halaman seperti dirinya sendiri, sebagaimana dibuat jendela ini"
+"--own-art: a picture of your own, for the churches you choose","--own-art: gambar sendiri, untuk gereja yang Anda pilih"
+--zoom: 1 (the whole wheel) to 6,--zoom: 1 (seluruh roda) sampai 6
+Show or hide the {0} churches,Tampilkan atau sembunyikan gereja tradisi {0}
+{0} of {1},{0} dari {1}
+Left with no picture of their own (add one for them below): {0}.,Tanpa gambar sendiri (tambahkan satu untuk mereka di bawah): {0}.
+choose this file again with Add a picture (a command names it but cannot carry it),pilih berkas ini lagi dengan “Tambah gambar sendiri” (perintah menyebutkannya tetapi tidak dapat membawanya)
+The own picture of: {0},Gambar sendiri untuk: {0}
+{0} church,{0} gereja
+{0} churches,{0} gereja
+no church (the Artwork menu only),tidak ada gereja (hanya menu Gambar)
+as drawn,seperti digambar
+(click to use it),(klik untuk memakainya)
+Put {0} back,Kembalikan {0}
+{0} changed,{0} diubah
+Every church (unless changed below),Setiap gereja (kecuali diubah di bawah)
+{0} change for single traditions or churches still apply; change them “tradition by tradition” or “church by church” to see it.,{0} perubahan untuk tradisi atau gereja tertentu masih berlaku; ganti ke “tradisi demi tradisi” atau “gereja demi gereja” untuk melihatnya.
+{0} changes for single traditions or churches still apply; change them “tradition by tradition” or “church by church” to see them.,{0} perubahan untuk tradisi atau gereja tertentu masih berlaku; ganti ke “tradisi demi tradisi” atau “gereja demi gereja” untuk melihatnya.
+{0} change for single churches still apply; change them “church by church” to see it.,{0} perubahan untuk gereja tertentu masih berlaku; ganti ke “gereja demi gereja” untuk melihatnya.
+{0} changes for single churches still apply; change them “church by church” to see them.,{0} perubahan untuk gereja tertentu masih berlaku; ganti ke “gereja demi gereja” untuk melihatnya.
+Put them back,Kembalikan semuanya
+Rings and the rest,Cincin dan lainnya
+{0} words,{0}: teks
+as each church has them,seperti yang dimiliki tiap gereja
+Set from the command.,Diatur menurut perintah.
+Note: {0}.,Catatan: {0}.
+Could not read the command: {0},Perintah tidak dapat dibaca: {0}
+Nothing to save yet: {0}.,Belum ada yang perlu disimpan: {0}.
+Saved {0}.,{0} disimpan.
+Set from {0}.,Diatur menurut {0}.
+Could not read {0}: {1},{0} tidak dapat dibaca: {1}
+Copied.,Tersalin.
+Selected: copy it with Ctrl+C (⌘C on a Mac).,Dipilih: salin dengan Ctrl+C (⌘C di Mac).
+The kind {0} is kept; give it a reading.,Jenis {0} dipertahankan; berikan satu bacaan.
+"The kinds of reading {0} has, in the order a set lists them. A new kind is added with a reading of it (This day).","Jenis bacaan yang dimiliki {0}, dalam urutan sebuah rangkaian mencantumkannya. Jenis baru ditambahkan bersama bacaannya (Hari ini)."
+Kept as reading_labels and reading_order in {0}.,Disimpan sebagai reading_labels dan reading_order di {0}.
+The colors of {0}’s seasons. A color may name others the church allows after it: PURPLE; blue.,Warna masa-masa {0}. Sebuah warna dapat menyebut sesudahnya warna lain yang diizinkan gereja: PURPLE; blue.
+This page cannot write {0}.,Halaman ini tidak dapat menulis {0}.
+This tradition ({0}),Tradisi ini ({0})
+"This page was made with changes to: {0}. They are part of it, and Download changed files includes these files.","Halaman ini dibuat dengan perubahan pada: {0}. Perubahan itu bagian darinya, dan “Unduh berkas yang diubah” menyertakan berkas ini."
+{0}: {1} change,{0}: {1} perubahan
+{0}: {1} changes,{0}: {1} perubahan
+Downloaded {0} file.,{0} berkas diunduh.
+Downloaded {0} files.,{0} berkas diunduh.
+"Saved {0} ({1} MB, {2} church).","{0} disimpan ({1} MB, {2} gereja)."
+"Saved {0} ({1} MB, {2} churches).","{0} disimpan ({1} MB, {2} gereja)."
+Could not make the page: {0},Halaman tidak dapat dibuat: {0}
+"Choose the wheel, a list, or both.","Pilih roda, daftar, atau keduanya."
+"The Feasts setting is None: choose another, or “with major days”, for a feasts list.","Pengaturan Hari raya adalah Tidak ada: pilih yang lain, atau “dengan hari raya utama”, untuk daftar hari raya."
+Drawing {0}…,Menggambar {0}…
+Listing the readings…,Mendaftar bacaan…
+Listing the colors…,Mendaftar warna…
+Listing the years…,Mendaftar tahun…
+Listing the feasts…,Mendaftar hari raya…
+Saved {0} files in a .zip.,{0} berkas disimpan dalam .zip.
+Your own picture could not be read from here and is left out.,Gambar Anda sendiri tidak dapat dibaca dari sini dan ditinggalkan.
+Could not make the files: {0},Berkas tidak dapat dibuat: {0}
+The last year is before the first.,Tahun terakhir sebelum yang pertama.
+At most {0} years at a time.,Paling banyak {0} tahun sekaligus.
+The church year {0}.,Tahun gereja {0}.
+"{0} church years, {1} to {2}.","{0} tahun gereja, {1} sampai {2}."
+The PNGs make this about {0} and take a while; a narrower PNG makes it smaller.,PNG-nya kira-kira {0} dan perlu waktu; PNG yang lebih sempit membuatnya lebih kecil.
+{0}: {1} for {2},{0}: {1} untuk {2}
+{0} to {1},{0} sampai {1}
+readings,bacaan
+colors,warna
+the year at a glance,setahun sekilas
+feasts and major days,hari raya dan hari raya utama
+feasts,hari raya
+"{0}, {1} {2}, {3}","{0}, {2} {1} {3}"
+Monday,Senin
+Tuesday,Selasa
+Wednesday,Rabu
+Thursday,Kamis
+Friday,Jumat
+Saturday,Sabtu
+Sunday,Minggu
+January,Januari
+February,Februari
+March,Maret
+April,April
+May,Mei
+June,Juni
+July,Juli
+August,Agustus
+September,September
+October,Oktober
+November,November
+December,Desember
+Made by {0} from the church year calendar's data.,Dibuat oleh {0} dari data kalender tahun gereja.
+Each reading opens at {0} in the {1}; each heading opens its set's readings together at Bible Gateway (its propers apart).,Setiap bacaan dibuka di {0} dalam {1}; setiap judul membuka bacaan rangkaiannya bersama-sama di Bible Gateway (propria terpisah).
+"Each color is the day's own, the top of its cell on the wheel; the others the church allows follow in parentheses, and the lower half's is given where the wheel splits the cell.","Setiap warna adalah warna hari itu sendiri, bagian atas selnya pada roda; warna lain yang diizinkan gereja menyusul dalam kurung, dan warna separuh bawah diberikan bila roda membagi sel."
+"Each color is the day's own, the top of its cell on the wheel.","Setiap warna adalah warna hari itu sendiri, bagian atas selnya pada roda."
+Date,Tanggal
+Feast,Hari raya
+Level,Tingkat
+Liturgical color: {0},Warna liturgi: {0}
+; lower half {0},; separuh bawah {0}
+transferred from {0} {1},dipindahkan dari {1} {0}
+Principal feasts only: those whose color replaces the season's.,Hanya hari raya utama: yang warnanya menggantikan warna masa.
+Festivals: the feasts that color their day or its lower half.,Hari raya besar: hari raya yang mewarnai harinya atau separuh bawahnya.
+"With the major days: the principal days set on dates of their own, Christmas, Easter, Pentecost and the like; a blank color is the season's.","Dengan hari raya utama: hari raya utama pada tanggalnya sendiri, Natal, Paskah, Pentakosta, dan sejenisnya; warna kosong adalah warna masa."
+principal,hari raya utama
+festival,hari raya besar
+commemoration,peringatan
+major day,hari raya utama
+read by {0} churches: a change here changes them all,dibaca oleh {0} gereja: perubahan di sini mengubah semuanya
+a run of days: the change is the whole run’s,rangkaian hari: perubahan berlaku untuk seluruh rangkaian

@@ -415,6 +415,8 @@ def build(data: dict, fragment: bool = False, compress: bool = True) -> str:
     <summary id="gear" title="Settings" aria-label="Settings"><svg viewBox="0 0 24 24" class="icon" aria-hidden="true" focusable="false"><path fill="currentColor" fill-rule="evenodd" d="M8.71 4.05 L10.19 3.59 L10.19 1.15 L13.81 1.15 L13.81 3.59 L15.29 4.05 L16.66 4.78 L18.40 3.05 L20.95 5.60 L19.22 7.34 L19.95 8.71 L20.41 10.19 L22.85 10.19 L22.85 13.81 L20.41 13.81 L19.95 15.29 L19.22 16.66 L20.95 18.40 L18.40 20.95 L16.66 19.22 L15.29 19.95 L13.81 20.41 L13.81 22.85 L10.19 22.85 L10.19 20.41 L8.71 19.95 L7.34 19.22 L5.60 20.95 L3.05 18.40 L4.78 16.66 L4.05 15.29 L3.59 13.81 L1.15 13.81 L1.15 10.19 L3.59 10.19 L4.05 8.71 L4.78 7.34 L3.05 5.60 L5.60 3.05 L7.34 4.78Z M15.2 12a3.2 3.2 0 1 0 -6.4 0a3.2 3.2 0 1 0 6.4 0Z"/></svg></summary>
     <div class="panel">
       <div class="viewrow"><span id="viewLabel">Settings</span><span class="seg" role="group" aria-labelledby="viewLabel"><button type="button" data-view="simple" aria-pressed="true" title="The settings most often changed: the year, the church, the feasts, the Bible and how the readings are shown">Simple</button><button type="button" data-view="all" aria-pressed="false" title="Every setting: the calendar, the kinds of reading, the searches, the artwork, the rings and colors, and making a page or editing the data">All</button></span></div>
+      <label id="uiRow" title="The language of the page's buttons, menus and settings. The calendar's names, dates and readings stay in the church's language.">Language
+        <select id="uiLanguage"></select></label>
       <label title="The year the church year begins in: Advent for most traditions, September for the Eastern Orthodox">Year
         <input type="number" id="yearBox" min="-9999" max="9998" step="1"></label>
       <label id="tradRow" title="The family of churches">Tradition
@@ -564,6 +566,7 @@ def build(data: dict, fragment: bool = False, compress: bool = True) -> str:
               <div id="pageSubs"></div>
               <label class="check" title="--year (otherwise the church year that holds the day it is opened)"><input type="checkbox" id="pageYear"> <span>On the year beginning in Advent</span> <input type="number" id="pageYearNum" step="1"></label>
               <label title="--zoom: 1 (the whole wheel) to 6">Zoom <input type="number" id="pageZoom" min="1" max="6" step="0.1"></label>
+              <label title="--language: the language of the page's buttons, menus and settings until the reader chooses another (Settings > Language)">Language <select id="pageUiLang"></select></label>
             </div>
             <div class="group">The wheel
               <label title="--feasts">Feasts <select id="pageFeasts"><option value="all">All</option><option value="festivals">Festivals</option><option value="principal">Principal only</option><option value="none">None</option></select></label>
@@ -814,6 +817,11 @@ def main(argv: Optional[list[str]] = None) -> int:
                              "(default: church_year.html)")
     parser.add_argument("--year", type=int, default=None,
                         help="Advent year to open on (default: whichever contains today)")
+    parser.add_argument("--language", default=None, metavar="CODE",
+                        help="the language of the page's buttons, menus and settings until the reader "
+                             "chooses another: auto (the reader's browser), church (each church's own), "
+                             "en, or a language in data/ui (de, es ...) (default: config.csv's "
+                             "page_language, or auto)")
     parser.add_argument("--zoom", default=None, metavar="N",
                         help="the magnification the page opens at, 1 (the whole wheel) to 6, "
                              "centered on the day it opens on (default: config.csv's page_zoom, or 1)")
@@ -1148,6 +1156,12 @@ def main(argv: Optional[list[str]] = None) -> int:
         local = text.lower() in ("true", "1", "yes", "on", "y")
     if local:
         data["localArt"] = True
+    ui = (args.language if args.language is not None else str(raw.get("page_language") or "")).strip().lower() or "auto"
+    ui_codes = ["auto", "church", "en"] + sorted(data.get("ui", {}))
+    if ui not in ui_codes:
+        sys.exit(f"✗ page_language must be one of {', '.join(ui_codes)} (not '{ui}')")
+    if ui != "auto":
+        data["uiLanguage"] = ui
     zoom = args.zoom if args.zoom is not None else str(raw.get("page_zoom") or "").strip()
     if zoom not in (None, ""):
         try:

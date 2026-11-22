@@ -1,0 +1,487 @@
+english,translation
+"# The page's own words (buttons, menus, settings and their notes) in this language: the English as the page writes it, then its translation. {0}, {1} ... stand for what the page fills in. A missing or blank line stays English."
+Settings,Iestatījumi
+Simple,Vienkāršie
+All,Visi
+Language,Valoda
+Match the church,Kā baznīcai
+Browser ({0}),Pārlūks ({0})
+Year,Gads
+Tradition,Tradīcija
+Church,Baznīca
+Hymnal,Dziesmu grāmata
+Lectionary,Lasījumu kārtība
+Feasts,Svētki
+Festivals,Lielie svētki
+Principal only,Tikai galvenie svētki
+None,Nav
+Bible,Bībele
+Readings shown as,Lasījumus rādīt kā
+Tabs,Cilnes
+Columns,Kolonnas
+Calendar and names,Kalendārs un nosaukumi
+Calendar,Kalendārs
+Gregorian,Gregora
+Julian (Old Calendar),Jūlija (vecais kalendārs)
+Revised Julian (New Calendar),Pārskatītais Jūlija (jaunais kalendārs)
+Easter,Lieldienas
+With the calendar,Pēc kalendāra
+Western,Rietumu
+Eastern,Austrumu
+Latin names,Latīņu nosaukumi
+Readings,Lasījumi
+The day's propers,Dienas propriju lasījumi
+Feasts and festivals,Svētki un lielie svētki
+Other dated days,Citas dienas ar datumu
+Daily lectionary,Ikdienas lasījumi
+Additional readings,Papildu lasījumi
+Psalm table,Psalmu tabula
+Bible reading plan,Bībeles lasīšanas plāns
+Office lessons,Stundu lūgšanu lasījumi
+Open in,Atvērt
+Slide,Slīdēšana
+Off,Izslēgta
+Quick,Ātra
+Medium,Vidēja
+Slow,Lēna
+Propers,Proprijs
+Hymn search,Dziesmu meklēšana
+Contemporary song search,Mūsdienu slavas dziesmu meklēšana
+The wheel,Rats
+Artwork,Attēls
+Thicker line where the year begins,"Biezāka līnija, kur sākas gads"
+Arrow keys go on into the next year,Bultiņu taustiņi turpina nākamajā gadā
+Dark text on reds,Tumšs teksts uz sarkanā
+Under the wheel,Zem rata
+Instructions and notes,Norādījumi un piezīmes
+Artwork credit,Attēla autors
+Rings,Gredzeni
+Outer band,Ārējā josla
+Seasons,Laiki
+Months,Mēneši
+Parts of the year,Gada daļas
+Day cells,Dienu šūnas
+Center artwork,Attēls centrā
+Colors…,Krāsas…
+Colors,Krāsas
+Days,Dienas
+Close,Aizvērt
+Reset colors,Atiestatīt krāsas
+Reset settings,Atiestatīt iestatījumus
+Share,Kopīgot
+Copy link,Kopēt saiti
+Copy embed code,Kopēt iegulšanas kodu
+Print,Drukāt
+Download…,Lejupielādēt…
+Download,Lejupielādēt
+Years,Gadi
+From,No
+to,līdz
+pixels wide,pikseļi plats
+Background,Fons
+clear,caurspīdīgs
+white,balts
+Lists,Saraksti
+Sundays,Svētdienas
+Sundays and principal days,Svētdienas un galvenie svētki
+every day,katru dienu
+every named day,katru nosaukto dienu
+with links,ar saitēm
+with major days,ar galvenajiem svētkiem
+other colors,citas krāsas
+Format,Formāts
+CSV (spreadsheet),CSV (izklājlapa)
+HTML (to print),HTML (drukāšanai)
+iCalendar (.ics),iCalendar (.ics)
+PNG (a picture),PNG (attēls)
+"SVG (a drawing, sharp at any size)","SVG (zīmējums, ass jebkurā izmērā)"
+The year at a glance,Gads vienā skatienā
+Today,Šodien
+Week,Nedēļa
+Find a day,Atrast dienu
+Help,Palīdzība
+Feedback,Atsauksmes
+About the artwork,Par attēlu
+Choose a date,Izvēlēties datumu
+Previous day,Iepriekšējā diena
+Next day,Nākamā diena
+Zoom in,Tuvināt
+Zoom out,Tālināt
+Zoom in (+),Tuvināt (+)
+Zoom out (−),Tālināt (−)
+Magnification,Palielinājums
+The week before,Iepriekšējā nedēļa
+The week after,Nākamā nedēļa
+Days with that name,Dienas ar šo nosaukumu
+Find a day by its name,Atrast dienu pēc nosaukuma
+Church Year {0},Baznīcas gads {0}
+Jump to today (T) — {0},Pāriet uz šodienu (T) — {0}
+Read about {0},Lasīt par {0}
+{0} ({1} hymns) in {2},{0} ({1} dziesmas) – {2}
+Hymns on {0} in {1} at Hymnary.org,"Dziesmas par {0} – {1}, Hymnary.org"
+Hymns for these readings in {0} at Hymnary.org,"Dziesmas šiem lasījumiem – {0}, Hymnary.org"
+Hymns for these propers in {0} at Hymnary.org,"Dziesmas šim proprijam – {0}, Hymnary.org"
+the church's hymnal,baznīcas dziesmu grāmata
+Contemporary worship songs for these readings at Word to Worship,"Mūsdienu slavas dziesmas šiem lasījumiem, Word to Worship"
+Contemporary worship songs for these propers at Word to Worship,"Mūsdienu slavas dziesmas šim proprijam, Word to Worship"
+Open all these readings together at Bible Gateway,Atvērt visus šos lasījumus kopā Bible Gateway
+Open these propers together at Bible Gateway,Atvērt šo propriju kopā Bible Gateway
+▴ less,▴ mazāk
+▾ more,▾ vairāk
+▾ {0} more,▾ vēl {0}
+Show two lines again,Atkal rādīt divas rindas
+Show all of this set’s readings,Rādīt visus šīs sērijas lasījumus
+Show all the day’s readings,Rādīt visus dienas lasījumus
+Show the readings in three lines again,Atkal rādīt lasījumus trīs rindās
+No day of {0} by that name,{0} nav dienas ar šo nosaukumu
+Choose {0} on the wheel,Izvēlēties {0} uz rata
+In another church year: choose the day to draw it.,"Citā baznīcas gadā: izvēlies dienu, lai to uzzīmētu."
+Copied,Nokopēts
+Copy failed,Neizdevās nokopēt
+"The language of the page's buttons, menus and settings. The calendar's names, dates and readings stay in the church's language.","Lapas pogu, izvēlņu un iestatījumu valoda. Kalendāra nosaukumi, datumi un lasījumi paliek baznīcas valodā."
+"The church year wheel: left and right arrow keys step a week, up and down a day","Baznīcas gada rats: kreisā un labā bultiņa pārvietojas par nedēļu, augšup un lejup par dienu"
+"The settings most often changed: the year, the church, the feasts, the Bible and how the readings are shown","Visbiežāk mainītie iestatījumi: gads, baznīca, svētki, Bībele un tas, kā rāda lasījumus"
+"Every setting: the calendar, the kinds of reading, the searches, the artwork, the rings and colors, and making a page or editing the data","Visi iestatījumi: kalendārs, lasījumu veidi, meklēšana, attēls, gredzeni un krāsas, kā arī lapas izveide vai datu labošana"
+"The year the church year begins in: Advent for most traditions, September for the Eastern Orthodox","Gads, kurā sākas baznīcas gads: Adventē lielākajā daļā tradīciju, septembrī pareizticīgajiem"
+The family of churches,Baznīcu saime
+Which church's calendar the wheel follows,Kuras baznīcas kalendāram seko rats
+"All: every commemoration. Festivals: the festivals and feasts (in the Roman calendar, solemnities and feasts). Principal: only the principal days (solemnities). None: the saints' days are left off.",Visi: katra piemiņas diena. Lielie svētki: lielie svētki un svētki (Romas kalendārā svinības un svētki). Tikai galvenie svētki: tikai galvenās dienas. Nav: svēto dienas izlaistas.
+The translation the readings open in. Each church starts on the one it uses (ESV where it names none).,"Tulkojums, kurā atveras lasījumi. Katra baznīca sāk ar savu (ESV, ja tā nevienu nenosauc)."
+"How the day's readings are shown when there are several sets: one at a time under tabs, or all of them in columns (on the right, and across two columns when opened with more)","Kā rāda dienas lasījumus, ja ir vairākas sērijas: pa vienai cilnēs vai visas kolonnās (labajā pusē un divās kolonnās, ja atvērtas ar „vairāk“)"
+Which calendar the dates are reckoned in,Kurā kalendārā skaita datumus
+"How Easter is dated, which is a separate question from how the days are named. Left to follow the calendar, a Gregorian wheel keeps Western Easter and the other two keep the Eastern one.","Kā nosaka Lieldienu datumu, kas ir cits jautājums nekā dienu nosaukšana. Pēc kalendāra Gregora rats patur Rietumu Lieldienas, bet pārējie divi — Austrumu."
+"Name the one-year Sundays as the historic calendar does, from the first words of the day's Introit: Ad Te Levavi, Laetare, Quasimodo Geniti","Nosaukt viengadīgās sērijas svētdienas kā vēsturiskajā kalendārā, pēc dienas introita pirmajiem vārdiem: Ad Te Levavi, Laetare, Quasimodo Geniti"
+List the day's Bible readings under its name. Each kind can be left out; only the kinds this church's lectionary has are offered.,"Rādīt dienas Bībeles lasījumus zem tās nosaukuma. Katru veidu var izlaist; piedāvāti tikai tie veidi, kas ir šīs baznīcas lasījumu kārtībā."
+"The lessons of the day's own propers: its Sunday, holy day or season, and any other service its book appoints for it","Dienas paša proprija lasījumi: tās svētdiena, svētā diena vai laiks un jebkurš cits dievkalpojums, ko tās grāmata tai nosaka"
+"The lessons of a saint's day or festival, listed only while the wheel shows it (see Feasts)","Svētā dienas vai svētku lasījumi, rādīti tikai tik ilgi, kamēr rats to rāda (sk. Svētki)"
+"The lessons of a day the calendar does not name, kept by its date or a date rule: Ember and Rogation Days, Thanksgiving, New Year's and national days, the Saturdays before and after a feast","Tādas dienas lasījumi, ko kalendārs nenosauc, pēc datuma vai noteikuma: gavēņa ceturkšņa un lūgšanu dienas, Pateicības diena, Jaungads un valsts svētki, sestdienas pirms un pēc svētkiem"
+The hymnal's or prayer book's daily or weekday lectionary,Dziesmu grāmatas vai lūgšanu grāmatas ikdienas vai darbdienu lasījumi
+"The additional readings a daily lectionary offers beside its own, for reading more of the Bible (Lutheran Service Book prints them in italics)","Papildu lasījumi, ko ikdienas lasījumu kārtība piedāvā līdzās saviem, lai lasītu vairāk Bībeles (Lutheran Service Book tos drukā slīprakstā)"
+"A table of psalms for daily prayer, morning and evening, by season and weekday (Lutheran Service Book, p. 304)","Psalmu tabula ikdienas lūgšanai, rītā un vakarā, pēc laika un nedēļas dienas (Lutheran Service Book, 304. lpp.)"
+"A plan of daily Bible reading kept by the calendar year: Reading the Word of God (LCMS, LCC and NALC), through the Old Testament in three years and the Psalms and New Testament twice","Ikdienas Bībeles lasīšanas plāns pēc kalendārā gada: Reading the Word of God (LCMS, LCC un NALC), Vecā Derība trijos gados un Psalmi un Jaunā Derība divreiz"
+"The lessons of the Office: Morning and Evening Prayer, Matins, a second or third service","Stundu lūgšanu lasījumi: rīta un vakara lūgšana, matutīns, otrais vai trešais dievkalpojums"
+"Where a reading opens. On a phone or tablet either one opens in its own app when the app is installed, and in the browser otherwise.","Kur atveras lasījums. Tālrunī vai planšetē katrs atveras savā lietotnē, ja tā ir instalēta, citādi pārlūkā."
+How fast the sets slide between the columns when more or less is clicked (kept in this browser),"Cik ātri sērijas slīd starp kolonnām, noklikšķinot „vairāk“ vai „mazāk“ (saglabāts šajā pārlūkā)"
+"The parts of the service the church lists with each day's readings (an Introit, a Gradual and a Verse), on a line of their own after them; a set's heading opens only its readings together","Dievkalpojuma daļas, ko baznīca norāda ar katras dienas lasījumiem (introits, graduāls un pants), atsevišķā rindā pēc tiem; sērijas virsraksts atver tikai tās lasījumus kopā"
+A hymnal mark after each set of readings that searches Hymnary.org for the hymns on them in this church's hymnal,"Dziesmu grāmatas zīme pēc katras lasījumu sērijas, kas meklē Hymnary.org dziesmas par tiem šīs baznīcas dziesmu grāmatā"
+"The hymnal Hymn search looks in, where the church has several","Dziesmu grāmata, kurā meklē dziesmu meklēšana, ja baznīcai ir vairākas"
+A circled note after each set of readings that searches Word to Worship (wordtoworship.com) for contemporary worship songs on them,"Apvilkta nots pēc katras lasījumu sērijas, kas meklē Word to Worship (wordtoworship.com) mūsdienu slavas dziesmas par tiem"
+"The picture in the middle of the wheel. Each tradition has its own; any of them can be chosen. By season changes it with the day chosen: the wreath in Advent, the manger at Christmas, the empty tomb at Easter, and the church's own picture in the seasons that have none.","Attēls rata centrā. Katrai tradīcijai ir savs; var izvēlēties jebkuru. „Pēc laika“ to maina līdz ar izvēlēto dienu: vainags Adventē, silīte Ziemassvētkos, tukšais kaps Lieldienās un baznīcas pašas attēls laikos, kam sava nav."
+"A thicker line where the year's last week meets its first, which are a year apart","Biezāka līnija, kur gada pēdējā nedēļa satiek pirmo, starp kurām ir gads"
+"Checked: at the end of the church year the arrow keys go on into the next year's wheel, and back into the last. Unchecked: they go round the year on the wheel, from its last week to its first. Page Up and Page Down and the ◀ ▶ buttons always go on.","Atzīmēts: baznīcas gada beigās bultiņu taustiņi turpina nākamā gada ratā un atpakaļ iepriekšējā. Neatzīmēts: tie iet pa gadu uz rata, no pēdējās nedēļas uz pirmo. Page Up, Page Down un pogas ◀ ▶ vienmēr turpina."
+"The reds in the middle of the range (the LCMS, Roman and Presbyterian reds) read about as well with black text as with white. Checked: black on them.","Skalas vidus sarkanie (LCMS, Romas un presbiteriāņu sarkanais) ir lasāmi ar melnu tekstu apmēram tikpat labi kā ar baltu. Atzīmēts: melns uz tiem."
+"How to use the wheel, the calendar's notes and how long it took to draw","Kā lietot ratu, kalendāra piezīmes un cik ilgi zīmēja"
+"Who made the picture in the middle, and its license. When it is off and the license asks for credit, a small i button keeps it a click away.","Kas veidoja attēlu centrā un tā licence. Ja tas ir izslēgts un licence prasa norādi, maza i poga to tur viena klikšķa attālumā."
+"The colors the days and the rings are painted in, each of which can be changed for this page","Krāsas, kurās krāso dienas un gredzenus; katru var mainīt šai lapai"
+The colors on the wheel this year. Click a swatch to change it; the change is kept in the page's link. Text on a day stays readable: it turns black or white if it would not.,"Rata krāsas šogad. Noklikšķini uz parauga, lai to mainītu; izmaiņa saglabājas lapas saitē. Teksts uz dienas paliek salasāms: tas kļūst melns vai balts, ja citādi nebūtu."
+Put every color back to the page's own,Atjaunot katru krāsu uz lapas pašas
+"Put every setting here back to what config.csv asks for, keeping the day on the wheel","Atjaunot katru iestatījumu uz to, ko prasa config.csv, paturot dienu uz rata"
+"Copy a link that opens on this day, with these settings","Kopēt saiti, kas atveras šajā dienā ar šiem iestatījumiem"
+"Copy a line of HTML that shows this page inside a page of your own website (an iframe), opening on the day it is read, with these settings","Kopēt HTML rindu, kas rāda šo lapu tavas vietnes lapā (iframe), atverot lasīšanas dienā, ar šiem iestatījumiem"
+Print the whole wheel on one page,Drukāt visu ratu uz vienas lapas
+"Download the wheel (SVG, PNG) and lists of its readings, colors and feasts, for this year or a run of years","Lejupielādēt ratu (SVG, PNG) un tā lasījumu, krāsu un svētku sarakstus šim gadam vai gadu virknei"
+"The wheel and its lists as they are here, with these settings: the church, calendars, feasts, readings, rings, colors and artwork.","Rats un tā saraksti tādi, kādi tie ir šeit, ar šiem iestatījumiem: baznīca, kalendāri, svētki, lasījumi, gredzeni, krāsas un attēls."
+"Each day's readings, as the Readings boxes and the Feasts setting choose them","Katras dienas lasījumi, kā tos izvēlas Lasījumu rūtiņas un Svētku iestatījums"
+Each reading opens where Open in and Bible say; each set's heading opens all its readings,"Katrs lasījums atveras tur, kur saka „Atvērt“ un „Bībele“; katras sērijas virsraksts atver visus tās lasījumus"
+The Sundays and principal days (or every day) with the color the wheel paints them,"Svētdienas un galvenie svētki (vai katra diena) ar krāsu, kurā rats tos krāso"
+"The other colors the church allows, and the lower half's where the wheel splits a cell (in the feasts list too)","Citas krāsas, ko baznīca atļauj, un apakšējās puses krāsa, kur rats šūnu dala (arī svētku sarakstā)"
+"The festivals, saints' days and commemorations the Feasts setting keeps, on the days they fall","Svētki, svēto dienas un piemiņas dienas, ko Svētku iestatījums patur, dienās, kad tās iekrīt"
+"Also Christmas, Easter, Pentecost and the other principal days on dates of their own","Arī Ziemassvētki, Lieldienas, Vasarsvētki un citi galvenie svētki savos datumos"
+"Where to read about each, as the readout links it","Kur lasīt par katru, kā to sasaista skats"
+"Previous day (up arrow; left arrow: a week, Shift: a month)","Iepriekšējā diena (bultiņa augšup; bultiņa pa kreisi: nedēļa, Shift: mēnesis)"
+"Next day (down arrow; right arrow: a week, Shift: a month)","Nākamā diena (bultiņa lejup; bultiņa pa labi: nedēļa, Shift: mēnesis)"
+Magnification: 1× (the whole wheel) to 6×,Palielinājums: no 1× (viss rats) līdz 6×
+"Type a Sunday's, a season's or a feast's name and pick it: the wheel goes to that day in the year shown (F)","Ieraksti svētdienas, laika vai svētku nosaukumu un izvēlies to: rats pāriet uz šo dienu rādītajā gadā (F)"
+"The chosen day's week in a list: each day's names, color and readings (W)","Izvēlētās dienas nedēļa sarakstā: katras dienas nosaukumi, krāsa un lasījumi (W)"
+"Print this week's days and readings, a page or two to hand round","Drukāt šīs nedēļas dienas un lasījumus, lapu vai divas izdalīšanai"
+"How to use this page: every control, key and setting","Kā lietot šo lapu: katra vadīkla, taustiņš un iestatījums"
+"Send feedback about this page: the day, church and settings on screen go with it","Sūtīt atsauksmi par šo lapu: ekrānā redzamā diena, baznīca un iestatījumi tiek pievienoti"
+"Type any year and the wheel is drawn for it. Click a cell, use the arrow keys, or pick a date.","Ieraksti jebkuru gadu, un rats tiek uzzīmēts tam. Noklikšķini uz šūnas, lieto bultiņu taustiņus vai izvēlies datumu."
+"Tap a cell, pinch to zoom, or pick a date.","Pieskaries šūnai, savelc pirkstus tālummaiņai vai izvēlies datumu."
+A new kind…,Jauns veids…
+About the feasts only,Tikai par svētkiem
+Add,Pievienot
+Add a color,Pievienot krāsu
+Add a feast on this date,Pievienot svētkus šajā datumā
+Add a picture of your own…,Pievienot savu attēlu…
+Add a reading to this set,Pievienot lasījumu šai sērijai
+Add a season,Pievienot laiku
+Add a set of readings on this date,Pievienot lasījumu sēriju šajā datumā
+Additional,Papildu
+Advent: four candles lit,Advents: deg četras sveces
+Advent: one candle lit,Advents: deg viena svece
+Advent: three candles lit,Advents: deg trīs sveces
+Advent: two candles lit,Advents: deg divas sveces
+Armenian cross,Armēņu krusts
+As each color sets it,Kā katra krāsa nosaka
+As on screen,Kā ekrānā
+As this page opens,Kā šī lapa atveras
+Black,Melna
+Blue,Zila
+Burning bush,Degošais krūms
+Buttons it shows,"Pogas, ko tā rāda"
+By season,Pēc laika
+"Calendar (Gregorian, Julian, Revised Julian)","Kalendārs (Gregora, Jūlija, pārskatītais Jūlija)"
+Canterbury cross,Kenterberijas krusts
+Celtic cross,Ķeltu krusts
+Chalice and host,Biķeris un hostija
+Change for,Mainīt
+Changes,Izmaiņas
+Chi-Rho,Kristus monogramma
+Christmas: the manger,Ziemassvētki: silīte
+Churches it offers,"Baznīcas, ko tā piedāvā"
+Color,Krāsa
+Columns only,Tikai kolonnas
+"Columns, or tabs in Settings","Kolonnas, vai cilnes iestatījumos"
+Coptic cross,Koptu krusts
+Copy,Kopēt
+Daily,Ikdienas
+Dark,Tumšs
+Dark on reds,Tumšs uz sarkanā
+Day,Diena
+Download changed files,Lejupielādēt mainītos failus
+Each church's first,Katras baznīcas pirmā
+Each church's own,Katras baznīcas paša
+Earlier,Agrāk
+Easter (Western or Eastern),Lieldienas (Rietumu vai Austrumu)
+Easter: the empty tomb,Lieldienas: tukšais kaps
+Edit the data,Labot datus
+Edit the data…,Labot datus…
+Epiphany: the star and crowns,Zvaigznes diena: zvaigzne un kroņi
+Ethiopian cross,Etiopiešu krusts
+Every church,Katra baznīca
+Every version,Katrs tulkojums
+Feedback link,Atsauksmju saite
+File name,Faila nosaukums
+Fill,Aizpildījums
+Full name,Pilns nosaukums
+Gold,Zelta
+Green,Zaļa
+Help link,Palīdzības saite
+Holy Week: three crosses,Klusā nedēļa: trīs krusti
+"Instructions, notes and credit","Norādījumi, piezīmes un autors"
+It opens,Tā atveras
+Kinds of reading,Lasījumu veidi
+Later,Vēlāk
+Lent: the cross and thorns,Ciešanu laiks: krusts un ērkšķi
+Light,Gaišs
+Link,Saite
+Links,Saites
+Load settings…,Ielādēt iestatījumus…
+Lower half,Apakšējā puse
+Luther rose,Lutera roze
+Make a page,Izveidot lapu
+Make a page…,Izveidot lapu…
+Make the page,Izveidot lapu
+Moravian star,Hernhūtes zvaigzne
+Morello,Morello
+Name,Nosaukums
+Names (a pattern),Nosaukumi (paraugs)
+Names and colors,Nosaukumi un krāsas
+No changes on this page yet.,Šajā lapā vēl nav izmaiņu.
+None (each church's own version),Nav (katras baznīcas paša tulkojums)
+None (no box and no marks),"Nav (ne rūtiņas, ne zīmju)"
+None (plain text),Nav (vienkāršs teksts)
+Nothing,Nekas
+Off (the box unchecked),Izslēgts (rūtiņa neatzīmēta)
+Office,Stundu lūgšanas
+On,Ieslēgts
+On the year beginning in Advent,"Gadā, kas sākas Adventē"
+Only this one,Tikai šī
+Outside the year,Ārpus gada
+"Packed, about a third of the size","Saspiests, apmēram trešdaļa lieluma"
+Pentecost: the dove and flames,Vasarsvētki: balodis un liesmas
+Pictures kept,Paturētie attēli
+Purple,Violeta
+Reading plan,Lasīšanas plāns
+Readings and links,Lasījumi un saites
+Red,Sarkana
+Remove,Noņemt
+Remove this reading,Noņemt šo lasījumu
+Rose,Rozā
+Save,Saglabāt
+Save settings…,Saglabāt iestatījumus…
+Scarlet,Koši sarkana
+Season,Laiks
+Set the window from it,Iestatīt logu pēc tās
+Settings it shows,"Iestatījumi, ko tā rāda"
+Syriac cross,Sīriešu krusts
+Tabs only,Tikai cilnes
+"Tabs, or columns in Settings","Cilnes, vai kolonnas iestatījumos"
+Text,Teksts
+Text on mid-tone colors,Teksts uz vidēja toņa krāsām
+The artwork's credit only,Tikai attēla autors
+"The church, calendars and settings on screen now","Baznīca, kalendāri un iestatījumi, kas tagad ekrānā"
+The same page from Python; save or load these settings,Tā pati lapa no Python; saglabāt vai ielādēt šos iestatījumus
+The tradition's own,Tradīcijas paša
+These:,Šie:
+This church,Šī baznīca
+This day,Šī diena
+This tradition,Šī tradīcija
+Title,Virsraksts
+To paste into another page’s HTML,Ielīmēšanai citas lapas HTML
+Violet,Violeta
+What this page opens with,Ar ko šī lapa atveras
+White,Balta
+Zoom,Tālummaiņa
+every church,katra baznīca
+https://… (blank: none),https://… (tukšs: nav)
+OK,Labi
+Undo these,Atsaukt šīs
+Undo the last change,Atsaukt pēdējo izmaiņu
+Undo every change,Atsaukt visas izmaiņas
+Periods with a color of their own,Periodi ar savu krāsu
+Credit,Autors
+Artist or owner,Mākslinieks vai īpašnieks
+License or copyright,Licence vai autortiesības
+License link,Licences saite
+Source link,Avota saite
+Added.,Pievienots.
+Saved.,Saglabāts.
+Undone.,Atsaukts.
+Removed.,Noņemts.
+Every change undone.,Visas izmaiņas atsauktas.
+A feast needs a name.,Svētkiem vajag nosaukumu.
+A kind needs a key of letters and numbers.,Veidam vajag atslēgu no burtiem un cipariem.
+A reading cannot be blank: Remove takes it away.,Lasījums nevar būt tukšs: „Noņemt“ to aizvāc.
+Choose its kind and write the reading.,Izvēlies tā veidu un ieraksti lasījumu.
+This page cannot write this church’s tradition.csv.,Šī lapa nevar rakstīt šīs baznīcas tradition.csv.
+Added: further readings join it with Add a reading.,Pievienots: citi lasījumi pievienojas ar „Pievienot lasījumu“.
+Nothing on this day comes from a file this page can write.,"Nekas šajā dienā nenāk no faila, ko šī lapa var rakstīt."
+The day’s own,Dienas paša
+(not in a file this page can write),"(nav failā, ko šī lapa var rakstīt)"
+Kept in this browser for this page. Make a page writes them into the page it makes.,"Saglabāts šajā pārlūkā šai lapai. „Izveidot lapu“ tās ieraksta lapā, ko izveido."
+"A .zip of the data files the changes make, laid out as the project's data folder",".zip ar datu failiem, ko dod izmaiņas, sakārtotiem kā projekta datu mape"
+"A page like this one, in one HTML file to put on a website or open from a folder: the page church_year.py makes with the same options (below). Each choice starts as the page is now.","Lapa kā šī, vienā HTML failā, ko likt vietnē vai atvērt no mapes: lapa, ko church_year.py izveido ar tām pašām iespējām (zemāk). Katra izvēle sākas tāda, kāda lapa ir tagad."
+A picture beside the page (center.svg…),Attēls blakus lapai (center.svg…)
+Changes show on the wheel at once and are kept in this browser for this page; Make a page writes them into the page it makes.,"Izmaiņas uz rata redzamas uzreiz un saglabājas šajā pārlūkā šai lapai; „Izveidot lapu“ tās ieraksta lapā, ko izveido."
+"Copy the command, to make this page with the script or to set this window from it later","Kopēt komandu, lai izveidotu šo lapu ar skriptu vai vēlāk iestatītu šo logu pēc tās"
+"Not a whole page: its contents go into your own page’s HTML. To show a page that is already on a website,","Nav vesela lapa: tās saturs ieiet tavas lapas HTML. Lai rādītu lapu, kas jau ir vietnē,"
+"One row a year: Advent, Christmas, Ash Wednesday, Easter, Pentecost and the other movable dates, and how many Sundays after the Epiphany and Pentecost or Trinity (colors.py --overview). It has no iCalendar form, so with that format it comes as CSV.","Viena rinda gadā: Advents, Ziemassvētki, Pelnu diena, Lieldienas, Vasarsvētki un citi kustīgie datumi, un cik svētdienu pēc Zvaigznes dienas un pēc Vasarsvētkiem vai Trīsvienības (colors.py --overview). Tam nav iCalendar formas, tāpēc šajā formātā tas nāk kā CSV."
+"Save these settings as a small text file (the command), to load here again later","Saglabāt šos iestatījumus kā mazu teksta failu (komandu), ko vēlāk šeit atkal ielādēt"
+Set the window from a command: paste one copied here before (or written for church_year.py),Iestatīt logu pēc komandas: ielīmē šeit agrāk nokopētu (vai church_year.py rakstītu)
+Set the window from a settings file saved here before,Iestatīt logu pēc šeit agrāk saglabāta iestatījumu faila
+What each color looks like on the wheel: its fill and the color of text on it. A color changed for this tradition only goes into its own colors.csv; one for every church into data/colors.csv.,"Kā katra krāsa izskatās uz rata: tās aizpildījums un teksta krāsa uz tās. Krāsa, kas mainīta tikai šai tradīcijai, nonāk tās colors.csv; visām baznīcām — data/colors.csv."
+a word in capitals: ROSE,vārds lielajiem burtiem: ROSE
+blank: the day’s own readings; a feast’s name keeps them to that feast,tukšs: dienas paša lasījumi; svētku nosaukums tos ierobežo ar tiem svētkiem
+"gives the data files they change, to put over the project’s own for the Python scripts.","dod datu failus, ko tās maina, lai liktu virs projekta pašu failiem Python skriptiem."
+"its key, as periods.csv names it: ADVENT","tā atslēga, kā to nosauc periods.csv: ADVENT"
+under Share is simpler.,sadaļā „Kopīgot“ ir vienkāršāk.
+"--arrows-next-year, --arrows-same-year: whether the arrow keys go on into the next church year at the year's end, or round the year on the wheel (a box in the page's Settings changes it)","--arrows-next-year, --arrows-same-year: vai bultiņu taustiņi gada beigās turpina nākamajā baznīcas gadā vai iet pa gadu uz rata (rūtiņa lapas iestatījumos to maina)"
+"--art: the picture the page opens on. By season: the picture of the chosen day's season, and the church's own in a season without one","--art: attēls, ar ko lapa atveras. Pēc laika: izvēlētās dienas laika attēls, un baznīcas paša laikā, kam attēla nav"
+--drop-art: untick a picture to leave it out of the page,"--drop-art: noņem atzīmi attēlam, lai to izlaistu no lapas"
+"--fragment: no <html>, <head> or <body>, to paste into a page of your own","--fragment: bez <html>, <head> vai <body>, ielīmēšanai savā lapā"
+"--help-link: the page the Help button opens, the user guide unless changed","--help-link: lapa, ko atver poga „Palīdzība“, lietošanas pamācība, ja nemaina"
+"--language: the language of the page's buttons, menus and settings until the reader chooses another (Settings > Language)","--language: lapas pogu, izvēlņu un iestatījumu valoda, līdz lasītājs izvēlas citu (Iestatījumi > Valoda)"
+"--local-art: look for center.svg (or .png, .jpg ...) beside the page when it opens and offer it in the middle. Off, the page asks for no files beside it","--local-art: atverot meklēt center.svg (vai .png, .jpg ...) blakus lapai un piedāvāt to centrā. Izslēgts — lapa neprasa failus sev blakus"
+"--no-compress when off: the tables as plain JSON, about three times the size, to read in the page's source or for a browser older than 2023","--no-compress, ja izslēgts: tabulas kā vienkāršs JSON, apmēram trīsreiz lielākas, lasīšanai lapas pirmkodā vai pārlūkam, kas vecāks par 2023"
+"--no-download: the wheel as SVG and PNG, and its lists","--no-download: rats kā SVG un PNG, un tā saraksti"
+"--no-edit: changes to the titles, colors and readings, kept in the reader's browser, and the changed files to download","--no-edit: virsrakstu, krāsu un lasījumu izmaiņas lasītāja pārlūkā un mainītie faili lejupielādei"
+"--no-make-page: a page like itself, as this window makes","--no-make-page: lapa kā tā pati, kā šis logs veido"
+"--own-art: a picture of your own, for the churches you choose",--own-art: savs attēls tavām izvēlētajām baznīcām
+--zoom: 1 (the whole wheel) to 6,--zoom: no 1 (viss rats) līdz 6
+Show or hide the {0} churches,Rādīt vai slēpt tradīcijas {0} baznīcas
+{0} of {1},{0} no {1}
+Left with no picture of their own (add one for them below): {0}.,Bez sava attēla (pievieno tiem kādu zemāk): {0}.
+choose this file again with Add a picture (a command names it but cannot carry it),"izvēlies šo failu vēlreiz ar „Pievienot savu attēlu“ (komanda to nosauc, bet nevar to aiznest)"
+The own picture of: {0},Savs attēls baznīcām: {0}
+{0} church,{0} baznīca
+{0} churches,{0} baznīcas
+no church (the Artwork menu only),nevienai baznīcai (tikai izvēlne „Attēls“)
+as drawn,kā uzzīmēts
+(click to use it),"(noklikšķini, lai lietotu)"
+Put {0} back,Atjaunot: {0}
+{0} changed,{0} mainītas
+Every church (unless changed below),Katra baznīca (ja zemāk nav mainīts)
+{0} change for single traditions or churches still apply; change them “tradition by tradition” or “church by church” to see it.,"{0} izmaiņa atsevišķām tradīcijām vai baznīcām joprojām ir spēkā; maini „tradīciju pa tradīcijai“ vai „baznīcu pa baznīcai“, lai to redzētu."
+{0} changes for single traditions or churches still apply; change them “tradition by tradition” or “church by church” to see them.,"{0} izmaiņas atsevišķām tradīcijām vai baznīcām joprojām ir spēkā; maini „tradīciju pa tradīcijai“ vai „baznīcu pa baznīcai“, lai tās redzētu."
+{0} change for single churches still apply; change them “church by church” to see it.,"{0} izmaiņa atsevišķām baznīcām joprojām ir spēkā; maini „baznīcu pa baznīcai“, lai to redzētu."
+{0} changes for single churches still apply; change them “church by church” to see them.,"{0} izmaiņas atsevišķām baznīcām joprojām ir spēkā; maini „baznīcu pa baznīcai“, lai tās redzētu."
+Put them back,Atjaunot tās
+Rings and the rest,Gredzeni un pārējais
+{0} words,{0}: teksts
+as each church has them,kā tās ir katrai baznīcai
+Set from the command.,Iestatīts pēc komandas.
+Note: {0}.,Piezīme: {0}.
+Could not read the command: {0},Neizdevās nolasīt komandu: {0}
+Nothing to save yet: {0}.,Vēl nav ko saglabāt: {0}.
+Saved {0}.,Saglabāts {0}.
+Set from {0}.,Iestatīts pēc {0}.
+Could not read {0}: {1},Neizdevās nolasīt {0}: {1}
+Copied.,Nokopēts.
+Selected: copy it with Ctrl+C (⌘C on a Mac).,Atlasīts: kopē ar Ctrl+C (⌘C Mac datorā).
+The kind {0} is kept; give it a reading.,Veids {0} ir paturēts; dod tam lasījumu.
+"The kinds of reading {0} has, in the order a set lists them. A new kind is added with a reading of it (This day).","Lasījumu veidi, kas ir {0}, tādā secībā, kā sērija tos uzskaita. Jauns veids tiek pievienots ar tā lasījumu (Šī diena)."
+Kept as reading_labels and reading_order in {0}.,Saglabāts kā reading_labels un reading_order failā {0}.
+The colors of {0}’s seasons. A color may name others the church allows after it: PURPLE; blue.,"{0} laiku krāsas. Krāsa pēc sevis var nosaukt citas, ko baznīca atļauj: PURPLE; blue."
+This page cannot write {0}.,Šī lapa nevar rakstīt {0}.
+This tradition ({0}),Šī tradīcija ({0})
+"This page was made with changes to: {0}. They are part of it, and Download changed files includes these files.","Šī lapa izveidota ar izmaiņām failos: {0}. Tās ir tās daļa, un „Lejupielādēt mainītos failus“ ietver šos failus."
+{0}: {1} change,{0}: {1} izmaiņa
+{0}: {1} changes,{0}: {1} izmaiņas
+Downloaded {0} file.,Lejupielādēts {0} fails.
+Downloaded {0} files.,Lejupielādēti {0} faili.
+"Saved {0} ({1} MB, {2} church).","Saglabāts {0} ({1} MB, {2} baznīca)."
+"Saved {0} ({1} MB, {2} churches).","Saglabāts {0} ({1} MB, {2} baznīcas)."
+Could not make the page: {0},Neizdevās izveidot lapu: {0}
+"Choose the wheel, a list, or both.","Izvēlies ratu, sarakstu vai abus."
+"The Feasts setting is None: choose another, or “with major days”, for a feasts list.","Svētku iestatījums ir „Nav“: izvēlies citu vai „ar galvenajiem svētkiem“, lai būtu svētku saraksts."
+Drawing {0}…,Zīmē {0}…
+Listing the readings…,Saraksta lasījumus…
+Listing the colors…,Saraksta krāsas…
+Listing the years…,Saraksta gadus…
+Listing the feasts…,Saraksta svētkus…
+Saved {0} files in a .zip.,Saglabāti {0} faili .zip arhīvā.
+Your own picture could not be read from here and is left out.,"Tavu attēlu neizdevās nolasīt no šejienes, un tas ir izlaists."
+Could not make the files: {0},Neizdevās izveidot failus: {0}
+The last year is before the first.,Pēdējais gads ir pirms pirmā.
+At most {0} years at a time.,Ne vairāk kā {0} gadi vienlaikus.
+The church year {0}.,Baznīcas gads {0}.
+"{0} church years, {1} to {2}.","{0} baznīcas gadi, no {1} līdz {2}."
+The PNGs make this about {0} and take a while; a narrower PNG makes it smaller.,PNG faili būs apmēram {0} un prasīs laiku; šaurāks PNG to samazina.
+{0}: {1} for {2},"{0}: {1}, {2}"
+{0} to {1},{0}–{1}
+readings,lasījumi
+colors,krāsas
+the year at a glance,gads vienā skatienā
+feasts and major days,svētki un galvenie svētki
+feasts,svētki
+"{0}, {1} {2}, {3}","{0}, {3}. gada {2}. {1}"
+Monday,pirmdiena
+Tuesday,otrdiena
+Wednesday,trešdiena
+Thursday,ceturtdiena
+Friday,piektdiena
+Saturday,sestdiena
+Sunday,svētdiena
+January,janvāra
+February,februāra
+March,marta
+April,aprīļa
+May,maija
+June,jūnija
+July,jūlija
+August,augusta
+September,septembra
+October,oktobra
+November,novembra
+December,decembra
+Made by {0} from the church year calendar's data.,Izveidoja {0} no baznīcas gada kalendāra datiem.
+Each reading opens at {0} in the {1}; each heading opens its set's readings together at Bible Gateway (its propers apart).,Katrs lasījums atveras {0} tulkojumā {1}; katrs virsraksts atver savas sērijas lasījumus kopā Bible Gateway (proprijs atsevišķi).
+"Each color is the day's own, the top of its cell on the wheel; the others the church allows follow in parentheses, and the lower half's is given where the wheel splits the cell.","Katra krāsa ir dienas paša, tās šūnas augšdaļa uz rata; citas, ko baznīca atļauj, seko iekavās, un apakšējās puses krāsa dota tur, kur rats šūnu dala."
+"Each color is the day's own, the top of its cell on the wheel.","Katra krāsa ir dienas paša, tās šūnas augšdaļa uz rata."
+Date,Datums
+Feast,Svētki
+Level,Pakāpe
+Liturgical color: {0},Liturģiskā krāsa: {0}
+; lower half {0},; apakšējā puse {0}
+transferred from {0} {1},pārcelts no {1}. {0}
+Principal feasts only: those whose color replaces the season's.,"Tikai galvenie svētki: tie, kuru krāsa aizstāj laika krāsu."
+Festivals: the feasts that color their day or its lower half.,"Lielie svētki: svētki, kas iekrāso savu dienu vai tās apakšējo pusi."
+"With the major days: the principal days set on dates of their own, Christmas, Easter, Pentecost and the like; a blank color is the season's.","Ar galvenajiem svētkiem: galvenie svētki savos datumos, Ziemassvētki, Lieldienas, Vasarsvētki un tamlīdzīgi; tukša krāsa ir laika krāsa."
+principal,galvenie svētki
+festival,lielie svētki
+commemoration,piemiņas diena
+major day,galvenā diena
+read by {0} churches: a change here changes them all,lasa {0} baznīcas: izmaiņa šeit maina tās visas
+a run of days: the change is the whole run’s,dienu virkne: izmaiņa attiecas uz visu virkni

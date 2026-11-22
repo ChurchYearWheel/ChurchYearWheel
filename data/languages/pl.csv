@@ -21,6 +21,20 @@ color_violet,fioletowy
 color_white,biały
 color_none,bez koloru
 or,lub
+"# reading_...: the page's words for its kinds of reading, by their English names (reading_Readings heads the list)."
+reading_Readings,Czytania
+reading_Old Testament,Stary Testament
+reading_Psalm,Psalm
+reading_Epistle,Epistoła
+reading_Gospel,Ewangelia
+reading_First Reading,Pierwsze czytanie
+reading_Second Reading,Drugie czytanie
+reading_Reading,Czytanie
+reading_Sermon Text,Tekst kazalny
+reading_Story Text,Opowiadanie
+reading_Prophecy,Proroctwo
+reading_Procession,Procesja
+reading_New Testament,Nowy Testament
 GEN,1 Mojżeszowa
 EXO,2 Mojżeszowa
 LEV,3 Mojżeszowa
