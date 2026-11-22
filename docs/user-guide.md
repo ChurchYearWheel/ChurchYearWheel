@@ -1,5 +1,7 @@
 # Using the church year wheel
 
+*Also in: [Dansk](user-guide.da.md), [Deutsch](user-guide.de.md), [Eesti](user-guide.et.md), [Español](user-guide.es.md), [Bahasa Indonesia](user-guide.id.md), [Íslenska](user-guide.is.md), [Italiano](user-guide.it.md), [Kiswahili](user-guide.sw.md), [Latviešu](user-guide.lv.md), [Magyar](user-guide.hu.md), [Malagasy](user-guide.mg.md), [Norsk (bokmål)](user-guide.nb.md), [Polski](user-guide.pl.md), [Português](user-guide.pt.md), [Slovenčina](user-guide.sk.md), [Suomi](user-guide.fi.md), [Svenska](user-guide.sv.md), [Українська](user-guide.uk.md).*
+
 How to use the web page (`church_year.html`): every control, key and gesture,
 and how to share what you see. It works the same in any modern browser,
 on a computer, tablet or phone, with no internet connection needed except
@@ -40,7 +42,7 @@ for the links that open a Bible passage or a saint's page.
 | **Week** | the chosen day's week, Sunday to Saturday, in a list with each day's names, color and readings; ◀ ▶ step a week and a day's date chooses it, and **Print** prints the week by itself, ready to hand round. On a phone this is the easy way to read a day's readings and the days around it |
 | − and + , the slider and the menu beside it | magnify the wheel, 1× to 6× (the menu by halves) |
 | the gear | the settings (below) |
-| **Help** (bottom left corner) | opens this guide in a new tab |
+| **Help** (bottom left corner) | opens this guide in a new tab, in the page's language when the guide has been translated into it |
 | **Feedback** (bottom left corner) | opens the feedback form in a new tab; the day, church and settings on screen are sent with it, so a report can be followed up exactly |
 
 ## Keys
@@ -60,6 +62,11 @@ is set inside another web page).
 | + and − | magnify or shrink |
 | 0 | the whole wheel again (1×, centered); pressed again, back to the zoom it left (or the page's own) |
 | Esc | close the Colors window, then the settings |
+
+T, F and W come from English (Today, Find, Week) and are the same in every
+language the page speaks. They work on any keyboard: on one that types
+another alphabet there (Cyrillic, for example), the key in the T, F or W
+place does.
 
 The arrow keys stay in the church year on the wheel: past its last week they
 come round to its first, and back from its first to its last, as the wheel
@@ -222,6 +229,8 @@ with nothing to install, for the church year on the wheel or a run of up to 101:
 
   Each list comes in the format chosen: CSV (a spreadsheet), HTML (a page to
   print), iCalendar (.ics, to import into a calendar app), JSON or Markdown.
+  The lists' headings, notes and dates are in the page's language; CSV and
+  JSON keep their English field names.
 
 Each file is named as the scripts name it
 (`lcms-three-year_2025-26_calendar.svg`, `lcms-three-year_2025-26_readings.csv`),
@@ -255,7 +264,7 @@ own website or hand to someone, without running Python. Everything
   tradition and church, with buttons for all of them, the tradition or church
   shown, only the one shown, or none. Click a tradition's + (or its name) to open it;
   its box ticks every church in it.
-- **It opens:** the church and calendars, the year and the zoom. *As this
+- **It opens:** the church and calendars, the year, the zoom and the language. *As this
   page opens* sets this group and the next two back to what the page itself
   opens with.
 - **The wheel:** Feasts, Latin names, the rings, the colors (every color the
@@ -312,7 +321,8 @@ credits it and makes it the own picture of churches, and `--drop-art` leaves
 the churches' own pictures out. `--readings day` (or
 `page_readings`) keeps only those readings: the page leaves the other sets
 out, and is smaller for it. `--zoom 2.5` (or `page_zoom`) makes the page open magnified on its day; a
-link's own `zoom=` still wins, and `0` shows the whole wheel and, pressed again, goes back. `--footer full`,
+link's own `zoom=` still wins, and `0` shows the whole wheel and, pressed again, goes back. `--language de`
+(or `page_language`) makes the page start in German until the reader picks another language. `--footer full`,
 `credit` or `none` sets the lines under the wheel, and `--fragment` leaves out
 the `<html>`, `<head>` and `<body>` for pasting into another page. See
 [web-page.md](web-page.md) for building and embedding the page.

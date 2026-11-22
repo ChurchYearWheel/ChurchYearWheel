@@ -33,7 +33,7 @@ Hymn-Book* (1912). It also follows:
   the same tradition: the Catholic Personal Ordinariates' *Divine Worship* and a
   Western Rite Orthodox prayer book;
 - The Lutheran churches of Sweden, Norway, Denmark, Finland, Iceland, Estonia,
-  Latvia, Germany, Austria, Poland, Slovakia, Hungary and Spain, the HKBP and GKLI of
+  Latvia, Germany, Austria, Poland, Slovakia, Hungary, Spain, the HKBP and GKLI of
   Indonesia, Tanzania, Madagascar, and Australia and New Zealand, in their
   own languages;
 - The Eastern Orthodox year, on the Revised Julian or Julian calendar, the
@@ -50,7 +50,8 @@ your browser, on a computer, tablet or phone, and needs no account or
 installation.
 
 **[The user guide](docs/user-guide.md)** explains every control, key and
-setting. In short:
+setting, in English and the page's 18 other languages (Help opens the one in
+the page's language). In short:
 
 - It opens on today, magnified on the current week at the top; `0` shows the
   whole wheel. Pick a date,

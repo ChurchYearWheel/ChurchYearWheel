@@ -16,8 +16,13 @@
   keep their English field names; in English every list is still the
   scripts' own). Make a page has a Language choice (`--language`,
   `page_language` in config.csv): the browser's, the church's or one
-  language, until the reader picks another. The User Guide is still English.
-  The keys (T, F, W ...) are the same in every language.
+  language, until the reader picks another. The keys (T, F, W ...) are the
+  same in every language.
+- **The User Guide in the same 18 languages** (`docs/user-guide.<code>.md`),
+  its settings and buttons named as the page names them in each; the English
+  guide stays the reference and links to them. Help opens the guide in the
+  page's language when there is one (`guides` in data.json), otherwise the
+  English one. The guide now says where T, F and W come from.
 - **Readings in the church's language.** The page's readings say
   "Readings", each kind ("Epistle", "Gospel", Hungary's "Prophecy" ...) and
   the "or" between choices in the church's language ("Čítania: Žalm 110
@@ -114,6 +119,13 @@
   drawn over the picture so nothing inside reaches across them.
 - `.gitignore` leaves out what is built: `church_year.html`, `web/data.json`
   and the workflow's `_site/`.
+
+### Fixed
+
+- **T, F and W on any keyboard.** On a layout that types another alphabet
+  there (Cyrillic, Greek ...), the key in their place works.
+- README: the churches of Slovakia, Hungary and Spain are no longer joined
+  with "and" to the HKBP and GKLI.
 
 ## 2026-11 (137) — 2026-27 the scripts' year; the seasons' pictures last
 

@@ -335,6 +335,11 @@ def build(data_dir: Path) -> dict:
         # The page's own words in other languages (data/ui/<code>.csv: the
         # English words and theirs; page.js: T and the Language setting).
         "ui": {p.stem: ui_words(p) for p in sorted((data_dir / "ui").glob("*.csv"))},
+        # The user guide's translations (docs/user-guide.<code>.md, beside the
+        # scripts whatever data folder is read): Help opens the one in the
+        # page's language.
+        "guides": sorted(p.name.split(".")[1] for p in
+                         (Path(__file__).resolve().parent.parent / "docs").glob("user-guide.*.md")),
         "monthOverrides": month_overrides(data_dir),
         # Which picture a season shows when the middle follows the season.
         "seasonArt": [{"season": season, "art": art, "church": church, "week": week}

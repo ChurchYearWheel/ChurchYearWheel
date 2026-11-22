@@ -160,6 +160,12 @@ function uiWalk(root) {
   let n;
   while ((n = w.nextNode())) { if (n.nodeType === 3) uiText(n); else uiAttrs(n); }
 }
+/** The Help link: the user guide in the page's language when it has been translated (docs/user-guide.<code>.md). */
+function helpHref() {
+  const base = String(DATA.help || '');
+  if (uiCode === 'en' || (DATA.guides || []).indexOf(uiCode) < 0) return base;
+  return base.replace(/user-guide\.md(?=$|[#?])/, 'user-guide.' + uiCode + '.md');
+}
 /** Put the page's words in its language now (and English back for English). */
 function uiApply() {
   const code = uiResolve();
@@ -167,6 +173,8 @@ function uiApply() {
   uiCode = code;
   UI = code === 'en' ? {} : (DATA.ui[code] || {});
   app.setAttribute('data-ui-language', code);
+  const helpLink = $('help');
+  if (helpLink && DATA.help) helpLink.href = helpHref();
   uiWalk(app);
   return true;
 }
@@ -3188,6 +3196,19 @@ for (const done of ['pointerup', 'pointercancel', 'pointerleave']) {
   });
 }
 
+/**
+ * A letter key as the T, F and W shortcuts read it: the letter it types, or,
+ * on a keyboard that types no Latin letter there (Cyrillic, Greek ...), the
+ * letter of the key in that place (its code: KeyT).  So QWERTZ and AZERTY
+ * keep the letter printed on the key, and the T key works on a Ukrainian one.
+ */
+function letterKey(ev) {
+  const k = String(ev.key || '').toLowerCase();
+  if (/^[a-z]$/.test(k)) return k;
+  const m = /^Key([A-Z])$/.exec(ev.code || '');
+  return k.length === 1 && m ? m[1].toLowerCase() : '';
+}
+
 addEventListener('keydown', ev => {
   const t = ev.target;
   if (t && (/^(INPUT|SELECT|TEXTAREA)$/.test(t.tagName) || t.isContentEditable)) return;
@@ -3206,9 +3227,9 @@ addEventListener('keydown', ev => {
   else if (ev.key === '+' || ev.key === '=') { setZoom(magnify + 0.5); ev.preventDefault(); }
   else if (ev.key === '-' || ev.key === '_') { setZoom(magnify - 0.5); ev.preventDefault(); }
   else if (ev.key === '0') { toggleWholeWheel(); ev.preventDefault(); }
-  else if (ev.key.toLowerCase() === 't') { pushNext = true; choose(isoToday()); }
-  else if (ev.key.toLowerCase() === 'f') { findBox.focus(); findBox.select(); ev.preventDefault(); }
-  else if (ev.key.toLowerCase() === 'w') { openWeek(); ev.preventDefault(); }
+  else if (letterKey(ev) === 't') { pushNext = true; choose(isoToday()); }
+  else if (letterKey(ev) === 'f') { findBox.focus(); findBox.select(); ev.preventDefault(); }
+  else if (letterKey(ev) === 'w') { openWeek(); ev.preventDefault(); }
   // The Year box now lives behind the gear, so the keyboard steps whole
   // years rather than making that a trip into the panel each time: PageDown
   // goes on a year and PageUp back, as they do in a date picker.
@@ -3782,7 +3803,7 @@ function feedbackUrl() {
     + Object.keys(values).map(k => k + '=' + encodeURIComponent(values[k])).join('&');
 }
 // The Help button beside it (church_year.py --help-link / page_help): the user guide.
-if (DATA.help) { const helpLink = $('help'); helpLink.hidden = false; helpLink.href = DATA.help; }
+if (DATA.help) { const helpLink = $('help'); helpLink.hidden = false; helpLink.href = helpHref(); }
 if (DATA.feedback) {
   feedbackLink.hidden = false;
   feedbackLink.href = DATA.feedback;
