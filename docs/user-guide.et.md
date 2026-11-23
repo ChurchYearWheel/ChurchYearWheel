@@ -81,7 +81,7 @@ endiselt tagasi.
 |---|---|
 | klõpsa või puuduta lahtrit | vali see päev |
 | keri hiireratast | suumi kursori ümber; selle all olev jääb paigale |
-| näpista (puuteekraan või puuteplaat) | suumi sõrmede ümber ja liiguta näpistamise ajal |
+| näpista (puuteekraan või puuteplaat) | suumi sõrmede ümber ja liiguta näpistamise ajal; üle 1x või 6x piiri venib veidi ja põrkab tagasi |
 | libista kahe sõrmega puuteplaadil | liigu suurendatud rattas |
 | lohista (kui ratas on suurendatud) | liigu rattas |
 | lohista telefonis ühe sõrmega | liigu, kui see on suurendatud |

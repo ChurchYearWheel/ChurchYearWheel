@@ -84,7 +84,7 @@ indietro.
 |---|---|
 | fare clic o toccare una cella | scegliere quel giorno |
 | girare la rotella del mouse | ingrandire intorno al puntatore; ciò che vi sta sotto resta fermo |
-| pizzicare (schermo tattile o trackpad) | ingrandire intorno alle dita, e spostarsi mentre si pizzica |
+| pizzicare (schermo tattile o trackpad) | ingrandire intorno alle dita, e spostarsi mentre si pizzica; oltre 1x o 6x cede un poco e torna indietro con un rimbalzo |
 | scorrere con due dita sul trackpad | muoversi nella ruota ingrandita |
 | trascinare (a ruota ingrandita) | muoversi nella ruota |
 | trascinare con un dito sul telefono | muoversi quando è ingrandita |

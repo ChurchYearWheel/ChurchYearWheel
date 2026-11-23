@@ -173,7 +173,9 @@ the part from `#` onward added to that address.
 
 Pinching magnifies about the point between your fingers and carries it with
 them, so pinching and moving at once zooms and pans in one gesture, the way a
-map does. One finger drags while magnified; a tap picks the day under it. The
+map does. Held past 1x or 6x a pinch gives way less and less, and springs back
+when the fingers lift, as iOS's own zooming does. One finger drags while
+magnified; a tap picks the day under it. The
 page never scrolls, so the wheel claims every touch on it rather than letting
 the browser zoom the whole page. The hint line under the wheel switches its
 wording for touch screens. On a narrow screen the zoom slider is left out (the
@@ -646,7 +648,11 @@ knowing:
   it, the way a map behaves. Measured drift over six notches, from 1x to 2.7x,
   at three different places on the wheel: **zero**.
 - **Pinching** on a touch screen does the same about the point between your
-  fingers, and moving the fingers pans at the same time.
+  fingers, and moving the fingers pans at the same time. Past either end
+  (1x, 6x) it stretches with resistance, to about a third more or less at
+  most, and eases back when the fingers lift. Safari on an iPhone or iPad
+  sends a pinch both as touches and as gesture events; only the touches are
+  followed, since taking both moved the wheel twice and made it shake.
 - **A trackpad** sends wheel events too, but many small ones a second (with
   momentum after the fingers lift) and in both axes. A two-finger swipe pans
   the magnified wheel; a pinch (a wheel event with Ctrl held in Chrome, Edge

@@ -1302,11 +1302,16 @@ function choose(iso, turn) {
  */
 function applyTransform(animate, live) {
   if (!live) syncMagMenu();
-  if (mag && Math.round(magnify * 100) !== +mag.value) {
-    mag.value = Math.round(magnify * 100);
+  const shown = withinRange(magnify);
+  if (mag && Math.round(shown * 100) !== +mag.value) {
+    mag.value = Math.round(shown * 100);
   }
-  zoomG.style.transition = animate ? '' : 'none';
-  zoomG.style.transform = (magnify === 1 && !panX && !panY) ? ''
+  // `animate` 'bounce': a pinch let go past either end springs back, quicker
+  // than the menu's glide, the way iOS settles a zoom held past its limit.
+  zoomG.style.transition = animate === 'bounce' ? 'transform .4s cubic-bezier(.25,.9,.3,1)' : animate ? '' : 'none';
+  // Mid-gesture the transform is kept even at 1x: clearing it and setting it
+  // again as a pinch crosses 1x would drop the drawing's layer and redraw it.
+  zoomG.style.transform = (magnify === 1 && !panX && !panY && !live) ? ''
     : `translate(${panX}px, ${panY}px) scale(${magnify})`;
   // In the middle of a gesture (`live`) the easing stays off until it ends,
   // so no frame is caught mid-flight and nothing forces a layout each event.
@@ -1315,7 +1320,7 @@ function applyTransform(animate, live) {
     zoomG.getBoundingClientRect();
     zoomG.style.transition = '';
   }
-  stage.classList.toggle('grabbable', magnify > 1);
+  if (!live) stage.classList.toggle('grabbable', magnify > 1);
   clearTimeout(applyTransform.later);
   applyTransform.later = setTimeout(syncLink, 300);
 }
@@ -1333,7 +1338,7 @@ function applyTransform(animate, live) {
 function clampPan() {
   if (!G) return;
   const midX = G.width / 2, midY = G.height / 2;
-  const leash = magnify * Math.min(1, 2 * (magnify - 1));
+  const leash = magnify * Math.max(0, Math.min(1, 2 * (magnify - 1)));
   const homeX = (1 - magnify) * midX, homeY = (1 - magnify) * midY;
   panX = Math.min(homeX + leash * midX, Math.max(homeX - leash * midX, panX));
   panY = Math.min(homeY + leash * midY, Math.max(homeY - leash * midY, panY));
@@ -3304,18 +3309,60 @@ const WHEEL_LINE = 16, WHEEL_PAGE = 800;        // pixels per line, per page
 // the old fixed step of 18 per cent.
 const ZOOM_PER_PIXEL = Math.log(1.18) / 100;
 const gestureRange = k => Math.min(6, Math.max(1, k));
+/**
+ * A pinch held past 1x or 6x gives way less and less, as iOS's own zooming
+ * does, rather than stopping dead: the magnification the fingers ask for
+ * (`raw`) is eased past the end, to at most about a third more (or less),
+ * and springs back when they let go (settleZoom).
+ */
+const STRETCH = Math.log(1.35);
+function rubberBand(raw) {
+  const ease = x => STRETCH * (1 - 1 / (1 + x / STRETCH));
+  if (raw < 1) return Math.exp(-ease(-Math.log(Math.max(raw, 1e-6))));
+  if (raw > 6) return 6 * Math.exp(ease(Math.log(raw / 6)));
+  return raw;
+}
+/**
+ * After a pinch: back within 1x to 6x, on a step the menu and the link can
+ * name (to the nearest 0.05), holding the point at (vx, vy) in the wheel's
+ * coordinates; eased when it was held past an end, else in place.
+ */
+function settleZoom(vx, vy) {
+  const k = withinRange(magnify);
+  const past = magnify < 1 || magnify > 6;
+  if (k === 1) {
+    if (magnify === 1 && !panX && !panY) { applyTransform(false); return; }
+    magnify = 1; panX = 0; panY = 0;
+    applyTransform(past ? 'bounce' : false);
+    return;
+  }
+  if (k !== magnify) {
+    const holdX = (vx - panX) / magnify, holdY = (vy - panY) / magnify;
+    magnify = k;
+    panX = vx - k * holdX;
+    panY = vy - k * holdY;
+    clampPan();
+  }
+  applyTransform(past ? 'bounce' : false);
+}
 let wheelZoom = 1, wheelPanX = 0, wheelPanY = 0, wheelAt = null, wheelFrame = 0, gestureIdle = 0;
+// A trackpad pinch's own magnification, unbounded, while it lasts (rubberBand).
+let wheelRaw = null, wheelPinch = false;
 
 /** Apply what the wheel and the gestures have gathered since the last frame. */
 function flushWheel() {
   wheelFrame = 0;
   if (wheelZoom !== 1 && wheelAt) {
-    const next = gestureRange(magnify * wheelZoom);
+    // A pinch stretches past the ends; a mouse wheel stops at them.
+    let next;
+    if (wheelPinch) {
+      wheelRaw = (wheelRaw === null ? magnify : wheelRaw) * wheelZoom;
+      next = rubberBand(wheelRaw);
+    } else next = gestureRange(magnify * wheelZoom);
     if (next !== magnify) {
       const holdX = (wheelAt.x - panX) / magnify, holdY = (wheelAt.y - panY) / magnify;
       magnify = next;
-      if (magnify === 1) { panX = 0; panY = 0; }
-      else { panX = wheelAt.x - next * holdX; panY = wheelAt.y - next * holdY; }
+      panX = wheelAt.x - next * holdX; panY = wheelAt.y - next * holdY;
     }
   }
   if ((wheelPanX || wheelPanY) && magnify > 1) {
@@ -3330,9 +3377,9 @@ function flushWheel() {
   // menu and the link can name (to the nearest 0.05) without moving the view.
   clearTimeout(gestureIdle);
   gestureIdle = setTimeout(() => {
-    const k = withinRange(magnify);
-    if (k !== magnify && wheelAt) { wheelZoom = k / magnify; flushWheel(); }
-    applyTransform(false);
+    wheelRaw = null; wheelPinch = false;
+    const at = wheelAt || { x: G.width / 2, y: G.height / 2 };
+    settleZoom(at.x, at.y);
   }, 200);
 }
 const queueWheel = () => { if (!wheelFrame) wheelFrame = requestAnimationFrame(flushWheel); };
@@ -3367,6 +3414,7 @@ stage.addEventListener('wheel', ev => {
     // A pinch (Ctrl) is gentle per event, so it is given more weight than a
     // mouse notch, close to the fingers' own spread.
     wheelZoom *= Math.exp(-d.y * ZOOM_PER_PIXEL * (ev.ctrlKey ? 4 : 1));
+    wheelPinch = ev.ctrlKey;
   }
   queueWheel();
 }, { passive: false });
@@ -3380,7 +3428,11 @@ stage.addEventListener('gesturestart', ev => {
 });
 stage.addEventListener('gesturechange', ev => {
   ev.preventDefault();
-  if (!gestureFrom) return;
+  // On an iPhone or iPad a two-finger pinch sends these as well as its
+  // touches, which movePinch already follows: taking both moved the wheel
+  // twice, each undoing the other, and it shook (most of all at 1x).
+  if (!gestureFrom || pinch || touches.size) return;
+  wheelPinch = true;
   wheelAt = atCursor(ev);
   wheelZoom *= (ev.scale || 1) / gestureFrom.scale;
   gestureFrom.scale = ev.scale || 1;
@@ -3423,9 +3475,9 @@ function startPinch() {
 function movePinch() {
   const f = fingers();
   const v = atCursor(f.mid);
-  magnify = gestureRange(pinch.magnify * f.dist / pinch.dist);
-  if (magnify === 1) { panX = 0; panY = 0; }
-  else { panX = v.x - magnify * pinch.holdX; panY = v.y - magnify * pinch.holdY; }
+  magnify = rubberBand(pinch.magnify * f.dist / pinch.dist);
+  panX = v.x - magnify * pinch.holdX; panY = v.y - magnify * pinch.holdY;
+  pinch.at = v;
   clampPan();
   applyTransform(false, true);
 }
@@ -3457,12 +3509,11 @@ for (const done of ['pointerup', 'pointercancel', 'pointerleave']) {
     dragFrom = null;
     if (touches.delete(ev.pointerId) && pinch && touches.size < 2) {
       // The finger left behind must not become a drag or a tap on its own.
-      pinch = null;
       quietUntil = performance.now() + 400;
       wheelAt = null;
-      const k = withinRange(magnify);
-      if (k !== magnify) zoomAbout(k, G.width / 2, G.height / 2);
-      applyTransform(false);
+      const at = pinch.at || { x: G.width / 2, y: G.height / 2 };
+      pinch = null;
+      settleZoom(at.x, at.y);
     }
   });
 }

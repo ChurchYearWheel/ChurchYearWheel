@@ -81,7 +81,7 @@ Ctrl − zoomer fortsatt hele siden, og Alt+← går fortsatt tilbake.
 |---|---|
 | klikk eller trykk på en celle | velg den dagen |
 | rull med musehjulet | zoom rundt pekeren; det som er under den, blir stående |
-| knip (berøringsskjerm eller styreflate) | zoom rundt fingrene, og flytt mens du kniper |
+| knip (berøringsskjerm eller styreflate) | zoom rundt fingrene, og flytt mens du kniper; holdt forbi 1x eller 6x gir den litt etter og fjærer tilbake |
 | sveip med to fingre på styreflaten | beveg deg rundt i det forstørrede hjulet |
 | dra (når hjulet er forstørret) | beveg deg rundt i hjulet |
 | dra med én finger på telefonen | beveg deg når det er forstørret |

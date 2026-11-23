@@ -83,7 +83,7 @@ Ctrl − continuam ampliando a página toda e Alt+← continua voltando.
 |---|---|
 | clicar ou tocar numa célula | escolher esse dia |
 | girar a roda do mouse | ampliar em volta do ponteiro; o que está embaixo dele fica no lugar |
-| pinçar (tela sensível ou trackpad) | ampliar em volta dos dedos, e mover ao pinçar |
+| pinçar (tela sensível ou trackpad) | ampliar em volta dos dedos, e mover ao pinçar; além de 1x ou 6x cede um pouco e volta com um ressalto |
 | deslizar dois dedos no trackpad | mover-se pela roda ampliada |
 | arrastar (com a roda ampliada) | mover-se pela roda |
 | arrastar com um dedo no celular | mover-se quando ampliada |

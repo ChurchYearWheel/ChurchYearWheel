@@ -86,7 +86,7 @@ Ctrl + na Ctrl − bado hukuza ukurasa wote na Alt+← bado hurudi nyuma.
 |---|---|
 | kubofya au kugusa kisanduku | kuchagua siku hiyo |
 | kuzungusha gurudumu la kipanya | kukuza kuzunguka kiashiria; kilicho chini yake kinabaki pale pale |
-| kubana (skrini ya mguso au padi ya mguso) | kukuza kuzunguka vidole, na kusogeza huku ukibana |
+| kubana (skrini ya mguso au padi ya mguso) | kukuza kuzunguka vidole, na kusogeza huku ukibana; ukipita 1x au 6x hunyooka kidogo na kurudi |
 | kutelezesha vidole viwili kwenye padi ya mguso | kuzunguka ndani ya gurudumu lililokuzwa |
 | kuburuta (gurudumu likiwa limekuzwa) | kuzunguka ndani ya gurudumu |
 | kuburuta kwa kidole kimoja kwenye simu | kuzunguka likiwa limekuzwa |

@@ -85,7 +85,7 @@ yhä takaisin.
 |---|---|
 | napsauta tai napauta solua | valitse se päivä |
 | pyöritä hiiren rullaa | zoomaa osoittimen ympäriltä; sen alla oleva pysyy paikallaan |
-| nipistä (kosketusnäyttö tai kosketuslevy) | zoomaa sormien ympäriltä ja siirrä nipistäessä |
+| nipistä (kosketusnäyttö tai kosketuslevy) | zoomaa sormien ympäriltä ja siirrä nipistäessä; yli 1x:n tai 6x:n se joustaa hieman ja palautuu takaisin |
 | pyyhkäise kahdella sormella kosketuslevyllä | liiku suurennetussa pyörässä |
 | vedä (kun pyörä on suurennettu) | liiku pyörässä |
 | vedä yhdellä sormella puhelimessa | liiku, kun pyörä on suurennettu |

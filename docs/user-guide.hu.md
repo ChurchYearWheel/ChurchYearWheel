@@ -85,7 +85,7 @@ nagyítja, az Alt+← pedig továbbra is visszalép.
 |---|---|
 | kattintás vagy koppintás egy cellára | azt a napot választja |
 | az egérgörgő forgatása | nagyítás a mutató körül; ami alatta van, a helyén marad |
-| csippentés (érintőképernyő vagy érintőpad) | nagyítás az ujjak körül, és mozgatás csippentés közben |
+| csippentés (érintőképernyő vagy érintőpad) | nagyítás az ujjak körül, és mozgatás csippentés közben; 1x-en vagy 6x-on túl kissé enged, majd visszarugózik |
 | húzás két ujjal az érintőpadon | mozgás a felnagyított keréken |
 | húzás (amikor a kerék nagyítva van) | mozgás a keréken |
 | húzás egy ujjal telefonon | mozgás, amikor nagyítva van |

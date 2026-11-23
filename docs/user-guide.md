@@ -83,7 +83,7 @@ Ctrl + and Ctrl − still enlarge the whole page and Alt+← still goes Back.
 |---|---|
 | click or tap a cell | choose that day |
 | roll the mouse wheel | magnify about the pointer; what is under it stays put |
-| pinch (touch screen or trackpad) | magnify about your fingers, and move as you pinch |
+| pinch (touch screen or trackpad) | magnify about your fingers, and move as you pinch; held past 1x or 6x it stretches a little and springs back |
 | swipe two fingers on a trackpad | move around the magnified wheel |
 | drag (when magnified) | move around the wheel |
 | one-finger drag on a phone | move around when magnified |

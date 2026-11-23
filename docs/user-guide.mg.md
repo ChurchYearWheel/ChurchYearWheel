@@ -91,7 +91,7 @@ mbola miverina ny Alt+←.
 |---|---|
 | tsindrio na kasiho ny efajoro | mifidy io andro io |
 | ahodino ny kodiaran'ny totozy | manalehibe manodidina ny tondro; tsy mihetsika izay eo ambaniny |
-| fehezo ny rantsantanana (efijery kasihina na takelaka kasihina) | manalehibe manodidina ny rantsantanana, ary manetsika eo am-pamehezana |
+| fehezo ny rantsantanana (efijery kasihina na takelaka kasihina) | manalehibe manodidina ny rantsantanana, ary manetsika eo am-pamehezana; mihoatra ny 1x na 6x dia mivelatra kely ary miverina |
 | ataovy mikorisa amin'ny rantsantanana roa ny takelaka kasihina | mivezivezy ao amin'ny kodiarana nohalebeina |
 | sintony (rehefa nohalebeina ny kodiarana) | mivezivezy ao amin'ny kodiarana |
 | sintony amin'ny rantsantanana iray amin'ny finday | mivezivezy rehefa nohalebeina |

@@ -80,7 +80,7 @@ Ctrl − joprojām tuvina visu lapu, un Alt+← joprojām iet atpakaļ.
 |---|---|
 | noklikšķini vai pieskaries šūnai | izvēlēties šo dienu |
 | griez peles ritenīti | tuvināt ap rādītāju; tas, kas ir zem tā, paliek uz vietas |
-| savelc (skārienekrāns vai skārienpaliktnis) | tuvināt ap pirkstiem un pārvietot savilkšanas laikā |
+| savelc (skārienekrāns vai skārienpaliktnis) | tuvināt ap pirkstiem un pārvietot savilkšanas laikā; aiz 1x vai 6x tas nedaudz padodas un atsperīgi atgriežas |
 | velc ar diviem pirkstiem pa skārienpaliktni | pārvietoties tuvinātajā ratā |
 | velc (kad rats ir tuvināts) | pārvietoties ratā |
 | velc ar vienu pirkstu tālrunī | pārvietoties, kad tas ir tuvināts |

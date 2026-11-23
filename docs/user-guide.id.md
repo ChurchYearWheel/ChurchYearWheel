@@ -85,7 +85,7 @@ Ctrl − tetap memperbesar seluruh halaman dan Alt+← tetap kembali.
 |---|---|
 | klik atau ketuk sel | memilih hari itu |
 | putar roda tetikus | memperbesar di sekitar penunjuk; yang ada di bawahnya tetap di tempat |
-| cubit (layar sentuh atau trackpad) | memperbesar di sekitar jari, dan menggeser sambil mencubit |
+| cubit (layar sentuh atau trackpad) | memperbesar di sekitar jari, dan menggeser sambil mencubit; melewati 1x atau 6x sedikit meregang lalu memantul kembali |
 | usap dua jari di trackpad | bergerak di roda yang diperbesar |
 | seret (saat roda diperbesar) | bergerak di roda |
 | seret satu jari di ponsel | bergerak saat diperbesar |

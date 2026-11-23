@@ -83,7 +83,7 @@ Ctrl − nadal powiększają całą stronę, a Alt+← nadal cofa.
 |---|---|
 | kliknięcie lub dotknięcie komórki | wybiera ten dzień |
 | obracanie kółkiem myszy | powiększa wokół wskaźnika; to, co jest pod nim, zostaje na miejscu |
-| szczypanie (ekran dotykowy lub gładzik) | powiększa wokół palców i przesuwa w trakcie |
+| szczypanie (ekran dotykowy lub gładzik) | powiększa wokół palców i przesuwa w trakcie; poza 1x lub 6x lekko ustępuje i sprężyście wraca |
 | przesuwanie dwoma palcami po gładziku | poruszanie się po powiększonym kole |
 | przeciąganie (gdy koło jest powiększone) | poruszanie się po kole |
 | przeciąganie jednym palcem na telefonie | poruszanie się, gdy jest powiększone |

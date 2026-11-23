@@ -85,7 +85,7 @@ Strg − vergrößern weiterhin die ganze Seite, und Alt+← geht weiterhin zur�
 |---|---|
 | auf eine Zelle klicken oder tippen | diesen Tag wählen |
 | das Mausrad drehen | um den Zeiger vergrößern; was darunter ist, bleibt stehen |
-| mit zwei Fingern auseinanderziehen (Touchscreen oder Trackpad) | um die Finger vergrößern und beim Ziehen bewegen |
+| mit zwei Fingern auseinanderziehen (Touchscreen oder Trackpad) | um die Finger vergrößern und beim Ziehen bewegen; über 1x oder 6x hinaus gibt es ein wenig nach und federt zurück |
 | mit zwei Fingern auf dem Trackpad wischen | im vergrößerten Rad umherbewegen |
 | ziehen (wenn vergrößert) | im Rad umherbewegen |
 | mit einem Finger ziehen auf dem Telefon | umherbewegen, wenn vergrößert |

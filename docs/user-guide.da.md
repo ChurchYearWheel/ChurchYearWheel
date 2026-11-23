@@ -80,7 +80,7 @@ Ctrl − zoomer stadig hele siden, og Alt+← går stadig tilbage.
 |---|---|
 | klik eller tryk på en celle | vælg den dag |
 | rul med musehjulet | zoom omkring markøren; det, der er under den, bliver stående |
-| knib (berøringsskærm eller pegefelt) | zoom omkring fingrene, og flyt mens du kniber |
+| knib (berøringsskærm eller pegefelt) | zoom omkring fingrene, og flyt mens du kniber; holdt forbi 1x eller 6x giver den lidt efter og fjedrer tilbage |
 | stryg med to fingre på pegefeltet | bevæg dig rundt i det forstørrede hjul |
 | træk (når hjulet er forstørret) | bevæg dig rundt i hjulet |
 | træk med én finger på telefonen | bevæg dig, når det er forstørret |

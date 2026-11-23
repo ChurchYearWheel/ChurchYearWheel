@@ -80,7 +80,7 @@ Ctrl − stækka enn alla síðuna og Alt+← fer enn til baka.
 |---|---|
 | smella eða pikka á reit | velja þann dag |
 | snúa músarhjólinu | stækka í kringum bendilinn; það sem er undir honum helst kyrrt |
-| klípa (snertiskjár eða snertiflötur) | stækka í kringum fingurna, og færa á meðan klipið er |
+| klípa (snertiskjár eða snertiflötur) | stækka í kringum fingurna, og færa á meðan klipið er; út fyrir 1x eða 6x gefur það aðeins eftir og fjaðrar til baka |
 | strjúka með tveimur fingrum á snertifleti | fara um stækkað hjólið |
 | draga (þegar hjólið er stækkað) | fara um hjólið |
 | draga með einum fingri í síma | fara um þegar það er stækkað |

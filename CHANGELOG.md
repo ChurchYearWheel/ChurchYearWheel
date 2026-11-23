@@ -1,5 +1,24 @@
 # Changelog
 
+## 2026-11 (140) — a smoother pinch on the iPhone
+
+### Fixed
+
+- **Pinching on an iPhone or iPad shook near 1x.** Safari sends a two-finger
+  pinch both as touches and as its own gesture events, and the page followed
+  both, each undoing the other; at 1x the transform was also cleared and set
+  again as the pinch crossed it. Only the touches are followed now, and the
+  transform stays on until the pinch ends.
+
+### Changed
+
+- **A pinch held past 1x or 6x stretches and springs back**, as iOS's own
+  zooming does: it gives way less and less (to about a third smaller or
+  larger at most) and eases back over 0.4 s when the fingers lift. A trackpad
+  pinch does the same; a mouse wheel still stops at the ends. Letting go
+  between steps settles on the nearest 0.05 about the fingers, not the
+  middle of the view.
+
 ## 2026-11 (139) — hymns for the LCMS and LCC calendars; antiphons in the searches
 
 ### Added

@@ -84,7 +84,7 @@ atrás.
 |---|---|
 | hacer clic o tocar una celda | elegir ese día |
 | girar la rueda del ratón | ampliar alrededor del puntero; lo que está debajo se queda en su sitio |
-| pellizcar (pantalla táctil o trackpad) | ampliar alrededor de los dedos, y moverse al pellizcar |
+| pellizcar (pantalla táctil o trackpad) | ampliar alrededor de los dedos, y moverse al pellizcar; más allá de 1x o 6x cede un poco y vuelve con un rebote |
 | deslizar dos dedos en un trackpad | moverse por la rueda ampliada |
 | arrastrar (con la rueda ampliada) | moverse por la rueda |
 | arrastrar con un dedo en un teléfono | moverse cuando está ampliada |

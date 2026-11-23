@@ -80,7 +80,7 @@ Ctrl − stále zväčšujú celú stránku a Alt+← stále ide späť.
 |---|---|
 | kliknúť alebo ťuknúť na bunku | zvoliť ten deň |
 | otáčať kolieskom myši | priblížiť okolo ukazovateľa; to, čo je pod ním, zostane na mieste |
-| roztiahnuť prsty (dotyková obrazovka alebo touchpad) | priblížiť okolo prstov a posúvať počas toho |
+| roztiahnuť prsty (dotyková obrazovka alebo touchpad) | priblížiť okolo prstov a posúvať počas toho; za hranicou 1x alebo 6x trochu povolí a pruží späť |
 | potiahnuť dvoma prstami po touchpade | pohybovať sa v priblíženom kolese |
 | ťahať (keď je koleso priblížené) | pohybovať sa v kolese |
 | ťahať jedným prstom na telefóne | pohybovať sa, keď je priblížené |

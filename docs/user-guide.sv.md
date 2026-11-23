@@ -81,7 +81,7 @@ och Ctrl − zoomar fortfarande hela sidan och Alt+← går fortfarande tillbaka
 |---|---|
 | klicka eller tryck på en cell | välj den dagen |
 | rulla med mushjulet | zooma kring pekaren; det som är under den stannar kvar |
-| nypa (pekskärm eller styrplatta) | zooma kring fingrarna, och flytta medan du nyper |
+| nypa (pekskärm eller styrplatta) | zooma kring fingrarna, och flytta medan du nyper; förbi 1x eller 6x ger den efter lite och fjädrar tillbaka |
 | svepa med två fingrar på styrplattan | flytta runt i det inzoomade hjulet |
 | dra (när hjulet är inzoomat) | flytta runt i hjulet |
 | dra med ett finger på telefonen | flytta när det är inzoomat |
