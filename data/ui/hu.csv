@@ -485,3 +485,14 @@ commemoration,emléknap
 major day,főünnep
 read by {0} churches: a change here changes them all,{0} egyház olvassa: egy itteni módosítás mindegyiket módosítja
 a run of days: the change is the whole run’s,napok sora: a módosítás az egész sorra vonatkozik
+Hymns,Énekek
+Hymns: {0},Énekek: {0}
+"Hymn suggestions, {0}, from LCMS Worship","Énekjavaslatok, {0}, az LCMS Worship-től"
+Hymn of the Day (LSB): the LSB Hymn Selection Guide,A nap éneke (LSB): az LSB Hymn Selection Guide
+This hymn at Hymnary.org,Ez az ének a Hymnary.org-on
+All {0} lists of suggested hymns for this day,A nap mind a(z) {0} énekjavaslat-listája
+The suggested hymns for this day,A nap javasolt énekei
+"Hymns suggested by LCMS Worship, year by year, each under the part of the service it is for; the page shows one list a year, in turn. Each number opens at Hymnary.org.","Az LCMS Worship által javasolt énekek évről évre, mindegyik az istentisztelet azon része alatt, amelyre szól; az oldal évente egy listát mutat, sorban. Minden szám a Hymnary.org-on nyílik meg."
+shown this year,idén látható
+the same as {0},"ugyanaz, mint {0}"
+Also on this day: {0},Ugyanezen a napon: {0}

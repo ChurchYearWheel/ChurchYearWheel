@@ -2379,6 +2379,20 @@ function localCite(text) {
 
 /** A reading's parts, [text, url]: each alternative ("A or B") opens on its own, the words between have no url (links.py: reading_links). */
 function readingParts(text, version, site, numbering, cite) {
+  // An introit's antiphon opens on its own: "Psalm 25:4–5 (antiphon: Psalm 25:1–3a)".
+  const ant = /(\s*\(antiphons?:\s*)([^)]*)(\))/i;
+  const m = String(text).match(ant);
+  if (m) {
+    const t = String(text), cm = cite ? String(cite).match(ant) : null;
+    const c = String(cite || '');
+    const strip = a => a.replace(/\s+(?:NIV|ESV|KJV|NKJV|RSV|NRSV)\b/g, '');
+    return [].concat(
+      readingParts(t.slice(0, m.index), version, site, numbering, cm ? c.slice(0, cm.index) : null),
+      [[m[1], null]],
+      readingParts(m[2], version, site, numbering, strip(cm ? cm[2] : m[2])),
+      [[m[3], null]],
+      readingParts(t.slice(m.index + m[0].length), version, site, numbering, cm ? c.slice(cm.index + cm[0].length) : null));
+  }
   const out = [];
   const split = t => String(t).split(/( or |, or the Passion History| or [Tt]he [A-Z][a-z]+ [A-Za-z ]+$)/);
   const parts = split(text);
@@ -2416,9 +2430,20 @@ function readingChoices(text) {
   return parts.filter(p => p && !/^ or |^, or /.test(p) && (/\d/.test(p) || APOCRYPHA.test(p)) && !concordUrl(p));
 }
 
+/**
+ * An introit's antiphon is searched with its psalm: "Psalm 24:1, 3–5
+ * (antiphon: Psalm 2:7)" -> "Psalm 24:1, 3–5; Psalm 2:7" (a translation's
+ * name after it, "1 Peter 3:15 NIV", is dropped; "Liturgical Text" goes in
+ * plainCitation) (links.py: with_antiphons).
+ */
+function withAntiphons(text) {
+  return String(text).replace(/\s*\(antiphons?:\s*([^)]*)\)/gi,
+    (m, a) => '; ' + a.replace(/\s+(?:NIV|ESV|KJV|NKJV|RSV|NRSV)\b/g, ''));
+}
+
 /** A set's readings as one search, every choice of each, joined with semicolons. */
 function groupCitation(readings, numbering, english, canon) {
-  return [].concat(...readings.map(readingChoices))
+  return [].concat(...readings.map(withAntiphons).map(readingChoices))
     .filter(c => !(canon && APOCRYPHA.test(plainCitation(c))))
     .map(c => plainCitation(english && numbering ? englishCitation(c, numbering) : c)).join('; ');
 }
@@ -2475,6 +2500,7 @@ function showHymnList(x, book) {
   const key = Object.keys(DATA.hymnals || {}).find(k => k.toLowerCase() === x.h.toLowerCase());
   const lines = key ? DATA.hymnals[key] : {};
   $('hymnsHead').textContent = x.t;
+  $('hymnsList').classList.remove('suggest');
   $('hymnsNote').textContent = book + ', ' + x.n.replace(/-/g, '\u2013').split(/[\s,]+/).join(', ') + '. Each opens at Hymnary.org.';
   $('hymnsList').replaceChildren(...hymnNumbers(x.n).map(n => {
     const li = document.createElement('li');
@@ -2646,6 +2672,10 @@ function readingLinesFor(iso) {
   // after a set's readings, on a line of their own with a link of their own:
   // the set's name opens only its readings, as a lector prints them.
   const own = propersOf(currentTradition());
+  // Every set with hymns on the day (a Sunday and a festival kept on it): each
+  // one's window holds the others' lists too.
+  const sung = groups.filter(g => g.hymns && g.hymns.length)
+    .map(g => ({ g: g, whose: g.title && !(appointed.indexOf(g) === 0 && names.indexOf(g.title) >= 0) ? g.title : '' }));
   const lines = groups.filter(g => propersBox.checked || g.items.some(it => own.indexOf(it.kind) < 0)).map(g => {
     const line = document.createElement('div');
     const mine = g.items.filter(it => own.indexOf(it.kind) < 0);
@@ -2735,9 +2765,250 @@ function readingLinesFor(iso) {
       marks(block, parts.map(it => it.cite || it.reading), 'propers');
       line.append(block);
     }
-    return line;
+    const hymns = hymnLine(g, plain ? '' : g.title, sung.filter(x => x.g !== g));
+    return hymns ? [line, hymns] : [line];
   });
-  return lines;
+  return [].concat(...lines);
+}
+
+// A hymn's number's page at Hymnary.org: LSB's (the church's hymnal), or The
+// Lutheran Hymnal's or Lutheran Worship's when the number says so.
+const HYMN_BOOKS = { TLH: 'TLH1941', LW: 'LW1982', ELH: 'ELH1996' };
+/** Who prepared each list of hymns (tradition.csv hymn_credits: "source=who | ..."). */
+function hymnCredits(key) {
+  const out = {};
+  for (const part of String((((DATA.profiles[key] || {}).settings || {}).hymn_credits) || '').split('|')) {
+    const i = part.indexOf('=');
+    if (i > 0) out[part.slice(0, i).trim()] = part.slice(i + 1).trim();
+  }
+  return out;
+}
+
+// "343 Prepare the Royal Highway or 340/1 Lift Up ...": the numbers in a hymn's text.
+const hymnNumbersIn = text => (String(text).match(/\b(?:(?:TLH|LW|WS|ELH|WH) )?\d+/g) || []);
+/** A hymn's text, each number that begins a hymn (at the start, or after "or ") a link to it at Hymnary.org. */
+function hymnText(into, text, code) {
+  const re = /\b(?:(TLH|LW|WS|ELH|WH) )?(\d+)(?:\/\d+)?/g;
+  let at = 0, m;
+  while ((m = re.exec(text))) {
+    if (m.index && !/(?:\bor|\+) $/.test(text.slice(0, m.index))) continue;
+    const book = m[1] ? HYMN_BOOKS[m[1]] : code;
+    into.append(text.slice(at, m.index));
+    if (book && bibleLinks) {
+      const a = document.createElement('a');
+      a.href = hymnaryHymnUrl(book, m[2]);
+      a.target = '_blank';
+      a.rel = 'noopener';
+      a.title = T('This hymn at Hymnary.org');
+      a.textContent = m[0];
+      into.append(a);
+    } else into.append(m[0]);
+    at = m.index + m[0].length;
+  }
+  into.append(text.slice(at));
+}
+/** One part of the service and its hymns: "Distribution 333 ...; 340 ...". */
+function hymnPart(into, label, items, code) {
+  const span = document.createElement('span');
+  span.className = 'item';
+  const k = document.createElement('span');
+  k.className = 'kind';
+  k.textContent = readingWord(label) + ' ';
+  span.append(k);
+  items.forEach((it, i) => { if (i) span.append('; '); hymnText(span, it.reading, code); });
+  into.append(span);
+}
+/** A list's hymns by part, each part once, in the list's order. */
+function hymnParts(items) {
+  const order = [];
+  for (const it of items) { const o = order.find(x => x.kind === it.kind); if (o) o.items.push(it); else order.push({ kind: it.kind, label: it.label, items: [it] }); }
+  return order;
+}
+// "One-year 2025–26" -> 2025.
+const hymnListYear = source => parseInt((/(\d{4})/.exec(source || '') || [])[1], 10);
+
+/**
+ * A set's lists of hymns (data/readings/lsb-hymns.csv), one per year and
+ * series, each list's services (Christmas Dawn and Day ...) in order:
+ * [{source, year, services: [{name, items}]}], oldest first.
+ */
+function hymnLists(g) {
+  const lists = [];
+  for (const it of g.hymns.filter(h => h.kind !== 'hymn_lsb')) {
+    let l = lists.find(x => x.source === it.source);
+    if (!l) lists.push(l = { source: it.source || '', year: hymnListYear(it.source), services: [] });
+    let s = l.services.find(x => x.name === (it.service || ''));
+    if (!s) l.services.push(s = { name: it.service || '', items: [] });
+    s.items.push(it);
+  }
+  lists.sort((a, b) => a.year - b.year);
+  // A list printed again unchanged in a later year (Series C 2024-25 repeats
+  // most of 2021-22's) is one list: the later year's, naming the earlier.
+  const sig = l => l.services.map(s => s.items.map(it => it.kind + ' ' + it.reading).join('|')).join('||');
+  const out = [];
+  for (const l of lists) {
+    const twin = out.find(x => sig(x) === sig(l));
+    if (twin) { twin.also = (twin.also || []).concat(twin.source); twin.source = l.source; twin.year = l.year; twin.services = l.services; }
+    else out.push(l);
+  }
+  return out.sort((a, b) => a.year - b.year);
+}
+
+/**
+ * The list a year shows: its own, when there is one; else the lists in turn,
+ * year by year from the first (the three-year series a list every third
+ * year), so a planner meets each of them.  2026-27, one-year: 2020-21's.
+ */
+function hymnListFor(lists, year) {
+  // A saint's day keeps both series' lists: the church's own series first.
+  const one = /one-year$/.test(currentTradition());
+  const mine = lists.filter(l => /^One-year/.test(l.source) === one);
+  if (mine.length) lists = mine;
+  if (!lists.length) return null;
+  const own = lists.find(l => l.year === year || (l.also || []).some(src => hymnListYear(src) === year));
+  if (own) return own;
+  const step = lists.length > 1 && lists.every(l => (l.year - lists[0].year) % 3 === 0) && lists.some(l => /^Series /.test(l.source)) ? 3 : 1;
+  const n = lists.length;
+  const k = ((Math.floor((year - lists[0].year) / step) % n) + n) % n;
+  return lists[k];
+}
+
+/**
+ * A set's hymns (reading_hymns; data/readings/lsb-hymns.csv), on a line of
+ * their own under Hymns: one year's list from LCMS Worship's Hymn Suggestions
+ * (hymnListFor), each hymn after the part of the service it is for, and the
+ * Hymn of the Day the LSB Hymn Selection Guide appoints when the list does
+ * not sing it.  A day with two services (Christmas Dawn and Day ...) names
+ * each.  The mark after the heading opens every year's list (showHymnLists).
+ */
+function hymnLine(g, whose, others) {
+  others = (others || []).filter(o => hymnLists(o.g).length);
+  if (!g.hymns || !g.hymns.length || !hymnsOn()) return null;
+  const key = currentTradition();
+  const code = hymnalOf(key);
+  const guide = g.hymns.filter(it => it.kind === 'hymn_lsb');
+  const lists = hymnLists(g);
+  const list = hymnListFor(lists, drawnYear());
+  const services = list ? list.services : [];
+  const line = document.createElement('div');
+  line.className = 'hymnset';
+  line.dataset.cat = g.category;
+  // A feast's hymns say whose they are, as its readings do.
+  line.dataset.tab = whose ? T('Hymns: {0}', whose) : T('Hymns');
+  const head = document.createElement('span');
+  head.className = 'set';
+  head.textContent = T('Hymns');
+  const credits = hymnCredits(key);
+  const who = list ? [list.source].concat(list.also || []).map(src => credits[src]).filter(Boolean) : [];
+  head.title = list
+    ? T('Hymn suggestions, {0}, from LCMS Worship', list.source + (list.also ? ', ' + list.also.join(', ') : '')) + (who.length ? ' (' + who.join('; ') + ')' : '')
+      + (guide.length ? '\n' + T('Hymn of the Day (LSB): the LSB Hymn Selection Guide') : '')
+    : T('Hymn of the Day (LSB): the LSB Hymn Selection Guide');
+  line.append(head);
+  // Every year's suggestions, in a window.
+  const total = lists.length + others.reduce((n, o) => n + hymnLists(o.g).length, 0);
+  if (total) {
+    const a = document.createElement('a');
+    a.className = 'w2w hymns';
+    a.href = '#';
+    a.title = total > 1
+      ? T('All {0} lists of suggested hymns for this day', total)
+      : T('The suggested hymns for this day');
+    a.setAttribute('aria-label', a.title);
+    a.innerHTML = HYMN_ICON;
+    a.onclick = ev => { ev.preventDefault(); showHymnLists(g, whose, list, others); };
+    line.append(' ', a);
+  }
+  line.append(': ');
+  let first = true;
+  const sep = () => { if (!first) line.append(' · '); first = false; };
+  services.forEach(s => {
+    if (services.length > 1 && s.name) {
+      sep();
+      const n = document.createElement('span');
+      n.className = 'service';
+      n.textContent = s.name + ':';
+      line.append(n, ' ');
+      first = true;
+    }
+    for (const o of hymnParts(s.items)) { sep(); hymnPart(line, o.label, o.items, code); }
+  });
+  // The Guide's Hymn of the Day, unless the list sings it (as its own Hymn of
+  // the Day, or elsewhere in the service, as the lists' asterisks note).
+  const sung = new Set([].concat(...services.map(s => [].concat(...s.items.map(it => hymnNumbersIn(it.reading))))));
+  const guideOwn = guide.filter(it => !hymnNumbersIn(it.reading).some(n => sung.has(n)));
+  if (guideOwn.length) { sep(); hymnPart(line, guideOwn[0].label, guideOwn, code); }
+  return line;
+}
+
+/**
+ * Every year's suggested hymns for a set, newest first, with the Guide's Hymn
+ * of the Day, in a window; then the same for each other set kept that day
+ * (`others`: [{g, whose}], a Sunday and the festival observed on it).
+ */
+function showHymnLists(g, whose, shown, others) {
+  const dlg = $('hymnsDialog');
+  const key = currentTradition();
+  const code = hymnalOf(key);
+  const credits = hymnCredits(key);
+  $('hymnsHead').textContent = whose || g.title || T('Hymns');
+  $('hymnsNote').textContent = T('Hymns suggested by LCMS Worship, year by year, each under the part of the service it is for; the page shows one list a year, in turn. Each number opens at Hymnary.org.');
+  const ul = $('hymnsList');
+  ul.classList.add('suggest');
+  const items = [];
+  const sets = [{ g: g, whose: whose, shown: shown }].concat((others || []).map(o => ({ g: o.g, whose: o.whose, shown: null })));
+  sets.forEach((set, si) => {
+    const g = set.g, shown = set.shown;
+    const guide = g.hymns.filter(it => it.kind === 'hymn_lsb');
+    // The list shown this year first, then the rest, newest first.
+    const on = l => !!shown && l.source === shown.source;
+    const lists = hymnLists(g).reverse().sort((a, b) => on(b) - on(a));
+    if (si) {
+      const li = document.createElement('li');
+      li.className = 'sethead';
+      li.textContent = T('Also on this day: {0}', set.whose || set.g.title || T('Hymns'));
+      items.push(li);
+    }
+    if (guide.length) {
+      const li = document.createElement('li');
+      hymnPart(li, guide[0].label, guide, code);
+      items.push(li);
+    }
+    for (const l of lists) {
+      const li = document.createElement('li');
+      const h = document.createElement('div');
+      h.className = 'listhead';
+      h.textContent = l.source + (l.also ? ' · ' + T('the same as {0}', l.also.join(', ')) : '')
+        + (on(l) ? ' · ' + T('shown this year') : '');
+      const who = [l.source].concat(l.also || []).map(src => credits[src]).filter(Boolean);
+      if (who.length) h.title = who.join('\n');
+      li.append(h);
+      for (const w of who) {
+        const c = document.createElement('div');
+        c.className = 'credit';
+        c.textContent = w;
+        li.append(c);
+      }
+      // Each service named (when there are two), each part of it on a line.
+      for (const s of l.services) {
+        if (l.services.length > 1 && s.name) {
+          const n = document.createElement('div');
+          n.className = 'service';
+          n.textContent = s.name;
+          li.append(n);
+        }
+        for (const o of hymnParts(s.items)) {
+          const d = document.createElement('div');
+          d.className = 'part';
+          hymnPart(d, o.label, o.items, code);
+          li.append(d);
+        }
+      }
+      items.push(li);
+    }
+  });
+  ul.replaceChildren(...items);
+  if (dlg.showModal) dlg.showModal(); else dlg.setAttribute('open', '');
 }
 
 let readingLines = [];

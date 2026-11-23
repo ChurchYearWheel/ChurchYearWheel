@@ -375,6 +375,7 @@ def concord_url(text: str) -> Optional[str]:
     return _concord_page(pages[""], None)
 
 
+_ANTIPHON = re.compile(r"(\s*\(antiphons?:\s*)([^)]*)(\))", re.I)
 _ALTERNATIVES = re.compile(r"( or |, or the Passion History| or [Tt]he [A-Z][a-z]+ [A-Za-z ]+\Z)")
 
 
@@ -383,7 +384,18 @@ def reading_links(text: str, version: str = "ESV", site: str = "biblegateway",
     """A reading as (text, url) parts: each alternative ("A or B") opens on its
     own, and the words between them have no url (page.js: readingLinks).
     `cite`: the reading in the English verses, where the church cites its own
-    psalter's (lectionary.readings_index); the links open that."""
+    psalter's (lectionary.readings_index); the links open that. An introit's
+    antiphon opens on its own: "Psalm 25:4–5 (antiphon: Psalm 25:1–3a)"."""
+    m = _ANTIPHON.search(str(text))
+    if m:
+        t, c = str(text), str(cite or "")
+        cm = _ANTIPHON.search(c) if cite else None
+        strip = lambda a: re.sub(r"\s+(?:NIV|ESV|KJV|NKJV|RSV|NRSV)\b", "", a)
+        return (reading_links(t[:m.start()], version, site, numbering, c[:cm.start()] if cm else None)
+                + [(m.group(1), None)]
+                + reading_links(m.group(2), version, site, numbering, strip(cm.group(2) if cm else m.group(2)))
+                + [(m.group(3), None)]
+                + reading_links(t[m.end():], version, site, numbering, c[cm.end():] if cm else None))
     out: list[tuple[str, Optional[str]]] = []
     parts = _ALTERNATIVES.split(str(text))
     targets = _ALTERNATIVES.split(str(cite)) if cite else parts
@@ -410,13 +422,22 @@ def reading_choices(text: str) -> list[str]:
             and not concord_url(part)]
 
 
+def with_antiphons(text: str) -> str:
+    """An introit's antiphon searched with its psalm: "Psalm 24:1, 3–5
+    (antiphon: Psalm 2:7)" -> "Psalm 24:1, 3–5; Psalm 2:7", without a
+    translation's name after it (page.js: withAntiphons)."""
+    return re.sub(r"\s*\(antiphons?:\s*([^)]*)\)",
+                  lambda m: "; " + re.sub(r"\s+(?:NIV|ESV|KJV|NKJV|RSV|NRSV)\b", "", m.group(1)),
+                  str(text), flags=re.I)
+
+
 def group_citation(readings, numbering=None, english: bool = True, canon: bool = False) -> str:
     """A set's readings as one search, every choice of each, joined with
     semicolons; in the English numbering when `english`; without the
     Apocrypha when `canon` (page.js: groupCitation).  The Book of Concord is
     never in it (reading_choices)."""
     return "; ".join(plain_citation(convert(c, numbering) if english and numbering else c)
-                     for text in readings for c in reading_choices(text)
+                     for text in readings for c in reading_choices(with_antiphons(text))
                      if not (canon and APOCRYPHA.match(plain_citation(c))))
 
 

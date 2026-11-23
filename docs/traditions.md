@@ -177,6 +177,31 @@ Testament twice, with readings of their own on fourteen festivals. It is kept
 by the calendar year, not the church year (see [readings.csv](#readingscsv)),
 under its own box, *Bible reading plan*.
 
+The LSB calendars of the LCMS and Lutheran Church–Canada (one-year and three-year) also have the **hymns** of
+each Sunday and festival (`data/readings/lsb-hymns.csv`, keyed like `lsb.csv`
+so each joins its day's set; `reading_hymns` keeps them apart from the
+readings): the Hymn of the Day the LSB Hymn Selection Guide appoints, and the
+lists of LCMS Worship's yearly *Hymn Suggestions* (one-year 2020–21 to 2025–26;
+Series A, B and C two years each), every hymn under the part of the service it
+is for (Entrance, Hymn of the Day, Distribution, Closing, Offertory ...). Each
+list is a year's (`source`: `One-year 2025–26`), and all are kept every year:
+the page shows a year its own list, else the lists in turn (one-year 2026–27
+takes 2020–21's, 2027–28 2021–22's ...; Series B 2026–27 takes 2020–21's), and
+a mark after *Hymns* opens every year's list for the day, each part of the
+service on a line. A day whose readings are the same every year (Christmas,
+the Epiphany, the saints' days) gathers the lists of every year of its series,
+and a saint's day those of both series, the church's own shown first; a
+three-year Sunday has its own letter's (A, B or C), as its readings are.
+Reformation Day and All Saints' Day share their lists whether kept on the date
+or on the Sunday before, and a list printed again unchanged in a later year
+(most of Series C 2024–25 repeats 2021–22's) is shown once, naming both years.
+A new year's list
+joins the turn when it is added. The page lists them under *Hymns* while Hymn
+search is on; the lists and
+`lectionary.py` leave them out. The lists were made for LCMS congregations:
+LCC's calendar takes them too, its Thanksgiving in October singing the
+American Thanksgiving's hymns.
+
 ### Wilhelm Loehe's calendars of saints
 
 Two more LCMS entries, **Loehe Martyrologium (1868)** and **Loehe Kirchenbuch
@@ -974,6 +999,8 @@ A few settings exist only here:
 | `weekday_titles` | how the page names a weekday that has no name of its own, from the Sunday before it: `after` (blank; the Lutheran and Anglican convention: "Tuesday after the Sixth Sunday after Pentecost", and with the one-year series' Latin names "Wednesday of Laetare"), `week` (the Roman Missal's and the Byzantine books': "Tuesday of the Sixth Week after Pentecost", "Tuesday of the First Week of Advent", "Tuesday of the Thirteenth Week in Ordinary Time"; the Roman and Orthodox folders) or `none` (calendars whose names are not in English). A Sunday a fixed-date feast takes (a `days.csv` row that `claims` it with a date rule naming a month and day: Reformation Day, All Saints' Day observed) leaves the week to the Sunday it displaced: "Tuesday after the Twenty-first Sunday after Pentecost"; Christmas, the Epiphany and the feasts of their season, and named Sundays ("Sunday of the Forefathers"), keep their weeks, except with `week`, where every week keeps its number ("Tuesday of the Twenty-first Week after Pentecost" after the Sunday of the Holy Fathers) |
 | `reading_order` | groups of kinds of reading, split by `\|`, put in this order within each set (each group keeping its own order, the other kinds their places) (ELCA: `ot_c psalm_c \| ot_s psalm_s`, the complementary series first as Evangelical Lutheran Worship prints it) |
 | `reading_labels` | the page's names for kinds of reading, as `kind=Name; kind=Name` (ELHB: `ot=Old Testament (Historical Books); ot2=Old Testament (Poetical Books)`) |
+| `reading_hymns` | the kinds that are hymns sung with a set rather than readings (LCMS, LCC: `hymn_lsb hymn_entrance hymn_day hymn_distribution hymn_closing ...`, from `data/readings/lsb-hymns.csv`): kept apart from the readings, out of the lists and the links, and shown by the page under *Hymns*, after each set, while Hymn search is on |
+| `hymn_credits` | who prepared each list of those hymns, by its `source`: `source=who`, separated by `\|` (the page's *Hymns* heading names them) |
 | `reading_propers` | the kinds that are parts of the service, sung or said, rather than readings (LCMS, LCC: `introit gradual verse`): the page and `lectionary.py` list them apart, as *Propers*, after each set's readings, and a set's heading opens only its readings |
 
 ### readings.csv

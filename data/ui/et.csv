@@ -485,3 +485,14 @@ commemoration,mälestuspäev
 major day,peamine püha
 read by {0} churches: a change here changes them all,loevad {0} kirikut: muudatus siin muudab neid kõiki
 a run of days: the change is the whole run’s,päevade rida: muudatus kehtib kogu reale
+Hymns,Laulud
+Hymns: {0},Laulud: {0}
+"Hymn suggestions, {0}, from LCMS Worship","Laulusoovitused, {0}, LCMS Worshipilt"
+Hymn of the Day (LSB): the LSB Hymn Selection Guide,Päeva laul (LSB): LSB Hymn Selection Guide
+This hymn at Hymnary.org,See laul Hymnary.org-is
+All {0} lists of suggested hymns for this day,Kõik {0} selle päeva soovitatud laulude nimekirja
+The suggested hymns for this day,Selle päeva soovitatud laulud
+"Hymns suggested by LCMS Worship, year by year, each under the part of the service it is for; the page shows one list a year, in turn. Each number opens at Hymnary.org.","LCMS Worshipi soovitatud laulud aasta kaupa, igaüks jumalateenistuse selle osa all, mille jaoks see on; leht näitab igal aastal ühte nimekirja, kordamööda. Iga number avaneb Hymnary.org-is."
+shown this year,näidatakse sel aastal
+the same as {0},sama mis {0}
+Also on this day: {0},Samal päeval ka: {0}

@@ -1,5 +1,41 @@
 # Changelog
 
+## 2026-11 (139) — hymns for the LCMS and LCC calendars; antiphons in the searches
+
+### Added
+
+- **Hymns for each Sunday and festival of the LCMS and LCC calendars** (LSB,
+  one-year and three-year): listed under *Hymns*, after the day's readings, while Hymn
+  search is on. A list from LCMS Worship's *Hymn Suggestions*
+  (one-year 2020–21 to 2025–26; Series A, B and C two years each) names the
+  part of the service each hymn is for (Entrance, Hymn of the Day,
+  Distribution, Closing, Offertory ...); the Hymn of the Day the LSB Hymn
+  Selection Guide appoints is shown beside it when the list does not sing
+  it, and alone on days without a list. A few parts are sung without a
+  number (Psalm 22 chanted, the Litany). A year shows its own year's list,
+  else the lists in turn (one-year 2026–27 takes 2020–21's, 2027–28
+  2021–22's ...), and a hymnal mark after *Hymns* opens every year's list for
+  the day, each part of the service on a line, for planning (a day with the
+  same readings every year, such as Christmas or a saint's day, gathers every
+  year's lists, of both series for a saint's day; Reformation and All Saints
+  share theirs whether kept on the date or the Sunday, and on a Sunday that
+  keeps one of them each window holds the Sunday's lists and the festival's
+  together; a list printed again
+  unchanged in a later year is shown once, naming both years); a new year's list joins the turn. Each number opens the hymn at
+  Hymnary.org (LSB, or TLH, LW and ELH where a list takes one from them); the
+  heading's note names who prepared the list. `data/readings/lsb-hymns.csv`,
+  keyed like `lsb.csv`; `reading_hymns` and `hymn_credits` in tradition.csv;
+  the lists and `lectionary.py` leave the hymns out.
+
+### Changed
+
+- **An Introit's antiphon is searched with its psalm**: the Propers' Hymn
+  search and song search marks, and their heading's Bible Gateway link, now
+  include it ("Psalm 24:1, 3–5; Psalm 2:7"); before, the antiphon in
+  parentheses was dropped with the other notes. In the Propers the
+  antiphon is now a link of its own, beside the Introit's psalm, in the page
+  and the lists.
+
 ## 2026-11 (138) — the page is church_year.py; published by GitHub Pages
 
 ### Added

@@ -273,6 +273,8 @@ SETTING_SPEC: dict[str, tuple[Callable[[Any], Any], Any, str]] = {
     "weekday_titles":             (_as_str, "", "How the web page names a weekday that has no name of its own, from the Sunday before it: after (blank; Tuesday after the Sixth Sunday after Pentecost, Wednesday of Laetare) or week (Tuesday of the Sixth Week after Pentecost) (page only)"),
     "reading_order":              (_as_str, "", "readings: groups of kinds (split by |) put in this order within each set, the others staying put (ELCA: complementary series first; page only)"),
     "reading_labels":             (_as_str, "", "readings.csv: the page's names for reading kinds, as kind=Name; kind=Name (page only)"),
+    "reading_hymns":              (_as_str, "", "readings: the kinds that are hymns sung with a set rather than readings (LCMS: hymn_lsb hymn_entrance hymn_day ...; data/readings/lsb-hymns.csv): kept apart from the readings, and listed under Hymns by the page's Hymn search (page only)"),
+    "hymn_credits":               (_as_str, "", "Who prepared each list of hymns (reading_hymns), as source=who, separated by | (page only)"),
     "reading_propers":            (_as_str, "", "readings: the kinds that are parts of the service, sung or said, rather than readings (LCMS: introit gradual verse): listed apart after each set's readings, and left out of the links that open its readings together (page and lectionary.py)"),
     "latin_names":                (_as_bool, False, "LCMS one-year series: append the Sunday's Latin name to its title (read by new_year.py)"),
     "deduplicate_day_labels":       (_as_bool, True, "Drop a commemoration whose name repeats the day's own title"),

@@ -560,6 +560,10 @@ def readings_index(year: T.Year, rows: list[dict],
                 groups.append(group)
             kind = row.get("kind", "")
             item = {"kind": kind, "label": labels.get(kind, kind), "reading": row.get("reading", "")}
+            # A hymn's list and service (data/readings/lsb-hymns.csv).
+            for k in ("service", "source"):
+                if row.get(k):
+                    item[k] = row[k]
             # The church's own psalms cited in its Prayer Book psalter's
             # verses (`psalter`): `cite` is the citation in the English ones,
             # for the links.
@@ -580,10 +584,24 @@ def readings_index(year: T.Year, rows: list[dict],
                 picked = sorted((g["items"][i] for i in slots), key=lambda it: rank[it["kind"]])
                 for s, it in zip(slots, picked):
                     g["items"][s] = it
+    # The hymns of a set (`reading_hymns`) are not readings: they go apart, as
+    # its `hymns`, and a set of hymns alone is left out.
+    hymn_kinds = hymns_of(cfg)
+
+    def shaped(g: dict) -> dict:
+        items = [it for it in g["items"] if it["kind"] not in hymn_kinds]
+        hymns = [it for it in g["items"] if it["kind"] in hymn_kinds]
+        out = {"title": g["title"], "category": g["category"], "items": items}
+        if hymns:
+            out["hymns"] = hymns
+        return out
+
     for day, groups in found.items():
         ordered = sorted(enumerate(groups), key=lambda p: (-int(p[1]["own"]), office_hour(p[1]), p[0]))
-        out[day] = [{"title": g["title"], "category": g["category"], "items": g["items"]}
-                    for _, g in ordered]
+        sets = [shaped(g) for _, g in ordered]
+        sets = [g for g in sets if g["items"]]
+        if sets:
+            out[day] = sets
     return out
 
 
@@ -613,6 +631,11 @@ def day_names(year: T.Year, detail: str = "all") -> dict[int, list[str]]:
         if text and text not in names.get(f["day"], []):
             names.setdefault(f["day"], []).append(text)
     return names
+
+
+def hymns_of(cfg: dict) -> set[str]:
+    """The kinds that are hymns sung with a set, not readings (`reading_hymns`)."""
+    return set(str(cfg.get("reading_hymns", "") or "").replace(",", " ").split())
 
 
 def propers_of(cfg: dict) -> set[str]:

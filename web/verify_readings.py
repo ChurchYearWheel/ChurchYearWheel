@@ -71,7 +71,8 @@ def main(argv=None) -> int:
         for y in range(a.start, a.end + 1):
             _, index = L.church_year(key, y, feasts=a.feasts)
             py = {GREGORIAN.isoformat(d): [{"title": g["title"], "category": g["category"],
-                                            "items": g["items"]} for g in groups]
+                                            "items": g["items"], **({"hymns": g["hymns"]} if "hymns" in g else {})}
+                                           for g in groups]
                   for d, groups in index.items()}
             want = js[str(y)]
             for day in sorted(set(py) | set(want)):

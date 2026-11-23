@@ -43,7 +43,7 @@ PARTS = ("BIBLE_VERSIONS", "BIBLE_LANGS", "bibleAllowed", "YOUVERSION", "NOT_AT_
          "APOCRYPHA", "APOCRYPHA_AT_BIBLE_GATEWAY", "APOCRYPHA_AT_YOUVERSION", "USFM", "HEBREW_NUMBERED",
          "CONCORD_SITE", "CONCORD_DOCS", "CONCORD_PAGES", "romanValue", "concordPage", "concordUrl",
          "PSALM_HEADING", "VERSE_SHIFTS", "numberingBooks", "englishVerse", "englishCitation",
-         "plainCitation", "bibleUrl", "readingParts", "readingChoices", "groupCitation", "groupUrl",
+         "plainCitation", "bibleUrl", "readingParts", "readingChoices", "withAntiphons", "groupCitation", "groupUrl",
          "feastUrlFor")
 
 HARNESS = r"""

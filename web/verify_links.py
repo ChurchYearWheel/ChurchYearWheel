@@ -39,7 +39,7 @@ PAGE_PARTS = ("BIBLE_VERSIONS", "BIBLE_LANGS", "bibleAllowed", "YOUVERSION", "NO
               "APOCRYPHA", "APOCRYPHA_AT_BIBLE_GATEWAY", "APOCRYPHA_AT_YOUVERSION", "USFM", "HEBREW_NUMBERED", "PSALM_HEADING",
               "CONCORD_SITE", "CONCORD_DOCS", "CONCORD_PAGES", "romanValue", "concordPage", "concordUrl",
               "VERSE_SHIFTS", "numberingBooks", "englishVerse", "englishCitation", "verseNumbering",
-              "bibleDefault", "plainCitation", "bibleUrl", "readingParts", "readingLinks", "readingChoices", "groupCitation",
+              "bibleDefault", "plainCitation", "bibleUrl", "readingParts", "readingLinks", "readingChoices", "withAntiphons", "groupCitation",
               "groupUrl", "wordToWorshipUrl", "HYMNARY_ORDER", "hymnaryUrl", "feastUrl", "feastUrlFor")
 
 

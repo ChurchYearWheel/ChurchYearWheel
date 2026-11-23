@@ -4295,6 +4295,8 @@ function readingsIndex(cal) {
       if (!group) groups.push(group = { title: title, own: own, category: category, items: [] });
       const kind = cell(row, 'kind');
       const item = withRow({ kind: kind, label: labels[kind] || kind, reading: cell(row, 'reading') }, row);
+      // A hymn's list and service (data/readings/lsb-hymns.csv).
+      for (const k of ['service', 'source']) if (cell(row, k)) item[k] = cell(row, k);
       // The church's own psalms cited in its Prayer Book psalter's verses
       // (`psalter`): `cite` is the citation in the English ones, for the links.
       if (psalter && !cell(row, '_file') && item.reading.indexOf('Psalm') >= 0) {
@@ -4322,10 +4324,20 @@ function readingsIndex(cal) {
       }
     }
   }
+  // The hymns of a set (`reading_hymns`) are not readings: they go apart, as
+  // its `hymns`, and a set of hymns alone is left out (lectionary.py).
+  const hymnKinds = String(cfg.reading_hymns || '').replace(/,/g, ' ').split(/\s+/).filter(Boolean);
+  const shaped = g => {
+    const out = { title: g.title, category: g.category, items: g.items.filter(it => hymnKinds.indexOf(it.kind) < 0) };
+    const hymns = g.items.filter(it => hymnKinds.indexOf(it.kind) >= 0);
+    if (hymns.length) out.hymns = hymns;
+    return out;
+  };
   for (const day in found) {
-    out[iso(+day)] = found[day].map((g, i) => [g, i])
+    const sets = found[day].map((g, i) => [g, i])
       .sort((a, b) => (b[0].own - a[0].own) || officeHour(a[0]) - officeHour(b[0]) || a[1] - b[1])
-      .map(p => ({ title: p[0].title, category: p[0].category, items: p[0].items }));
+      .map(p => shaped(p[0])).filter(g => g.items.length);
+    if (sets.length) out[iso(+day)] = sets;
   }
   return out;
 }

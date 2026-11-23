@@ -496,6 +496,17 @@ html:not(.cy-page) .cy-app .stage:not(.grabbable) { touch-action: pan-x pan-y; }
        border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
 .cy-app dialog.hymnlist li { padding: .15rem 0; display: flex; gap: .6rem; }
 .cy-app dialog.hymnlist li a { flex: 0 0 2.4rem; text-align: right; font-variant-numeric: tabular-nums; color: var(--accent); }
+/* A day's suggested hymns, year by year: a block for each list. */
+.cy-app dialog.hymnlist:has(ul.suggest) { width: 36rem; }
+.cy-app dialog.hymnlist ul.suggest li { display: block; padding: .45rem 0; border-top: 1px solid var(--line); line-height: 1.45; }
+.cy-app dialog.hymnlist ul.suggest li:first-child { border-top: 0; }
+.cy-app dialog.hymnlist ul.suggest li a { flex: none; color: var(--accent); }
+.cy-app dialog.hymnlist ul.suggest .listhead { font-weight: 600; }
+.cy-app dialog.hymnlist ul.suggest li.sethead { font-weight: 700; font-size: 1.1em; margin-top: .6rem; border-top: 2px solid var(--line); }
+.cy-app dialog.hymnlist ul.suggest .credit { font-size: .85em; opacity: .75; }
+.cy-app dialog.hymnlist ul.suggest .kind { opacity: .75; }
+.cy-app dialog.hymnlist ul.suggest .service { font-style: italic; margin-top: .25rem; }
+.cy-app dialog.hymnlist ul.suggest .part { padding-left: 1.2em; text-indent: -1.2em; }
 /* Edit the data: a tab for each part, a card for each row. */
 .cy-app dialog.edit { width: 34rem; }
 .cy-app dialog.edit .tabs { gap: .3rem; }
