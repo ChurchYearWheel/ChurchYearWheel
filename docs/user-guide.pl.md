@@ -57,6 +57,7 @@ stronie, najpierw je kliknij).
 | Shift+strzałka | miesiąc wstecz lub naprzód, na ten sam dzień tego samego tygodnia (z trzeciej niedzieli na trzecią niedzielę) |
 | Page Up / Page Down | ta sama data rok kościelny wcześniej lub później |
 | T | dziś |
+| S | najbliższa niedziela (dziś, jeśli jest niedziela); link z `date=sunday` też otwiera się na niej |
 | F | Znajdź dzień: wpisz nazwę |
 | W | lista tygodnia |
 | + i − | powiększenie lub pomniejszenie |
@@ -178,6 +179,7 @@ church_year.html#date=2027-04-18&lectionary=lcms-one-year&latin=1&zoom=2.5
 church_year.html#date=2026-03-19&lectionary=roman&sub=united_states
 church_year.html#year=2030
 church_year.html#date=today
+church_year.html#date=sunday
 church_year.html#2026-12-25
 ```
 

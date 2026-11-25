@@ -58,6 +58,7 @@ disematkan di halaman web lain).
 | Shift+panah | mundur atau maju satu bulan, ke hari yang sama dalam minggu yang sama (Minggu ketiga ke Minggu ketiga) |
 | Page Up / Page Down | tanggal yang sama satu tahun gerejawi lebih awal atau lebih lambat |
 | T | hari ini |
+| S | hari Minggu berikutnya (hari ini, jika hari Minggu); tautan dengan `date=sunday` juga membuka hari itu |
 | F | Cari hari: ketik nama |
 | W | daftar minggu |
 | + dan − | memperbesar atau memperkecil |
@@ -180,6 +181,7 @@ church_year.html#date=2027-04-18&lectionary=lcms-one-year&latin=1&zoom=2.5
 church_year.html#date=2026-03-19&lectionary=roman&sub=united_states
 church_year.html#year=2030
 church_year.html#date=today
+church_year.html#date=sunday
 church_year.html#2026-12-25
 ```
 

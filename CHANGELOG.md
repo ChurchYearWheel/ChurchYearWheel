@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-11 (141) — the coming Sunday
+
+### Added
+
+- **`S` jumps to the coming Sunday**: today on a Sunday, otherwise the next
+  one. A link with `date=sunday` (or a bare `#sunday`) opens there too, and
+  after either the address keeps `date=sunday` while the wheel stays on that
+  Sunday, so a bookmark always opens on the Sunday ahead. **Copy link** still
+  writes the date out.
+
 ## 2026-11 (140) — a smoother pinch on the iPhone
 
 ### Fixed

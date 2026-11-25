@@ -623,6 +623,11 @@ const pt = (r, a) => [G.cx + r * Math.cos(rad(a)), G.cy + r * Math.sin(rad(a))];
 // Gregorian calendar the browser clock speaks, and iso() names it in whatever
 // calendar the wheel is currently drawn in.
 const isoToday = () => CY.iso(CY.todayDay());
+// The coming Sunday: today when it is one, else the next (weekday 6 is Sunday).
+const isoSunday = () => { const d = CY.todayDay(); return CY.iso(d + (((6 - CY.weekday(d)) % 7) + 7) % 7); };
+// Set by S or a `date=sunday` link: while the wheel stays on that Sunday the
+// address keeps the word, so a bookmark opens on whichever Sunday is next.
+let onComingSunday = false;
 
 /**
  * The year whose church year contains this date: its Advent year, for most
@@ -3550,6 +3555,7 @@ addEventListener('keydown', ev => {
   else if (ev.key === '-' || ev.key === '_') { setZoom(magnify - 0.5); ev.preventDefault(); }
   else if (ev.key === '0') { toggleWholeWheel(); ev.preventDefault(); }
   else if (letterKey(ev) === 't') { pushNext = true; choose(isoToday()); }
+  else if (letterKey(ev) === 's') { pushNext = true; onComingSunday = true; choose(isoSunday()); }
   else if (letterKey(ev) === 'f') { findBox.focus(); findBox.select(); ev.preventDefault(); }
   else if (letterKey(ev) === 'w') { openWeek(); ev.preventDefault(); }
   // The Year box now lives behind the gear, so the keyboard steps whole
@@ -3866,6 +3872,7 @@ function syncNote(extra) {
 //   #year=2030                      (an Advent year, opening on its first day)
 //   #2026-12-25                     (a bare date works too)
 //   #date=today                     (whatever day it is when the link is opened)
+//   #date=sunday                    (the coming Sunday then: today, on a Sunday)
 //
 // Settings left at the file's own values are left out, so a plain link stays
 // short and follows the file if config.csv changes later.  While the wheel is on
@@ -3876,7 +3883,9 @@ let lastHash = '';
 
 function linkState(explicit) {
   const d = DATA.settings;
-  const parts = [['date', explicit || chosen !== isoToday() ? chosen : 'today']];
+  if (chosen !== isoSunday()) onComingSunday = false;
+  const word = chosen === isoToday() ? 'today' : onComingSunday ? 'sunday' : null;
+  const parts = [['date', explicit || !word ? chosen : word]];
   const own = profileOf(currentTradition()).settings;
   if (currentTradition() !== DATA.defaultTradition) parts.push(['lectionary', currentTradition()]);
   if (chosenSubs().join(',') !== DATA.defaultSubcalendars.join(',')) {
@@ -3938,7 +3947,7 @@ function syncLink() {
 function readLink(hash) {
   const text = (hash || '').replace(/^#/, '');
   if (!text) return null;
-  if (/^[+-]?\d{4,6}-\d\d-\d\d$/.test(text) || /^today$/i.test(text)) return { date: text };
+  if (/^[+-]?\d{4,6}-\d\d-\d\d$/.test(text) || /^(today|sunday)$/i.test(text)) return { date: text };
   const out = {};
   for (const part of text.split('&')) {
     const i = part.indexOf('=');
@@ -4004,10 +4013,13 @@ function applyLink(state) {
   const year = parseInt(state.year, 10);
   const m = /^([+-]?\d{4,6})-(\d\d)-\d\d$/.exec(state.date || '');
   try {
-    if (/^today$/i.test(state.date || '')) {
+    if (/^(today|sunday)$/i.test(state.date || '')) {
       // Today is a day, not a label: find it after the link's calendar is set.
-      const day = CY.todayDay(), g = CY.gregorianOf(day);
+      // `sunday` is the coming Sunday (today, on a Sunday).
+      const sunday = /^sunday$/i.test(state.date);
+      const day = CY.fromIso(sunday ? isoSunday() : isoToday()), g = CY.gregorianOf(day);
       drawYear(g.m >= 11 ? g.y : g.y - 1, null);
+      onComingSunday = sunday;
       choose(CY.iso(day));
       landed = true;
     } else if (m) {

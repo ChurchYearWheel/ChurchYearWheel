@@ -47,6 +47,7 @@ The panel opens on **Simple**: the year, the church (with its hymnal, lectionary
 | | the arrow keys go round the church year on the wheel: past its last week to its first, and back; the ◀ ▶ buttons and `PageUp` / `PageDown` go on into the next or previous year. With **Arrow keys go on into the next year** checked in Settings the arrow keys go on too, into the next year's wheel and back into the last |
 | `PageDown` / `PageUp` | a church year on / back, keeping the date (29 February becomes the 28th, and a date near Advent is held inside the year asked for) |
 | **Today** or `T` | jump back |
+| `S` | jump to the coming Sunday (today, on a Sunday) |
 | **Find a day** or `F` | type a Sunday's, a season's or a feast's name (any part of it, in any case, accents or none) and pick it from the list, or press Enter for the first: the wheel goes to that day in the year it shows. The names that begin with what you typed come first |
 | **Week** or `W` | the chosen day's week, Sunday to Saturday, in a list: each day's names, color and season, and its readings (the kinds the Readings boxes show) with their links. ◀ ▶ step a week; a day's date chooses it on the wheel. Easier to read on a phone than the wheel's cells. **Print** prints the week alone: the church and year, the week, and each day with its full date, names, color and readings, the links as plain text, a day never split between pages |
 | the slider, the 1×–6× menu beside it, `+` / `-`, the mouse wheel, or pinching | read a cell close up (the menu steps by halves, and shows a zoom in between while the wheel or a pinch has left one) |
@@ -118,6 +119,8 @@ and magnification.
 
 While the wheel is on today the address says `date=today` rather than the
 date, so a bookmark, or a reload next week, opens on whatever day it is then.
+After `S` or a `date=sunday` link the address says `date=sunday` while the
+wheel stays on that Sunday, so a bookmark opens on whichever Sunday comes next.
 Step to any other day and the address names it. **Copy link** always writes the
 date out, so a link you send opens on the day you were looking at:
 
@@ -129,6 +132,7 @@ church_year.html#date=2026-12-25&calendar=julian&easter=calendar
 church_year.html#year=2030                  an Advent year, opening on its first day
 church_year.html#2026-12-25                 a bare date works too
 church_year.html#date=today                 whatever day it is when opened
+church_year.html#date=sunday                the coming Sunday (today, on a Sunday)
 ```
 
 | key | values |

@@ -57,6 +57,7 @@ ela estiver dentro de outra página).
 | Shift+seta | um mês para trás ou para frente, para o mesmo dia da semana da mesma semana (do terceiro domingo ao terceiro domingo) |
 | Page Up / Page Down | a mesma data um ano litúrgico para trás ou para frente |
 | T | hoje |
+| S | o próximo domingo (hoje, se for domingo); um link com `date=sunday` também abre nele |
 | F | Procurar um dia: digite um nome |
 | W | a lista da semana |
 | + e − | ampliar ou reduzir |
@@ -178,6 +179,7 @@ church_year.html#date=2027-04-18&lectionary=lcms-one-year&latin=1&zoom=2.5
 church_year.html#date=2026-03-19&lectionary=roman&sub=united_states
 church_year.html#year=2030
 church_year.html#date=today
+church_year.html#date=sunday
 church_year.html#2026-12-25
 ```
 

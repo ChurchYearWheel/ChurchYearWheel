@@ -62,6 +62,7 @@ kodiarana raha ampidirina ao anaty pejy web hafa izy).
 | Shift+zana-tsipika | volana iray miverina na mandroso, amin'ny andro mitovy amin'ny herinandro mitovy (Alahady fahatelo ho amin'ny Alahady fahatelo) |
 | Page Up / Page Down | ny daty mitovy taona fiangonana iray aloha na aoriana |
 | T | androany |
+| S | ny alahady manaraka (androany, raha alahady); misokatra eo koa ny rohy misy `date=sunday` |
 | F | Hitady andro: soraty ny anarana |
 | W | ny lisitry ny herinandro |
 | + sy − | manalehibe na manakely |
@@ -191,6 +192,7 @@ church_year.html#date=2027-04-18&lectionary=lcms-one-year&latin=1&zoom=2.5
 church_year.html#date=2026-03-19&lectionary=roman&sub=united_states
 church_year.html#year=2030
 church_year.html#date=today
+church_year.html#date=sunday
 church_year.html#2026-12-25
 ```
 

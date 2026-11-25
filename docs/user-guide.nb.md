@@ -55,6 +55,7 @@ i en annen nettside).
 | Shift+pil | en måned tilbake eller fram, til samme dag i samme uke (tredje søndag til tredje søndag) |
 | Page Up / Page Down | samme dato et kirkeår tilbake eller fram |
 | T | i dag |
+| S | den kommende søndagen (i dag, hvis det er søndag); en lenke med `date=sunday` åpner også på den |
 | F | Finn en dag: skriv et navn |
 | W | ukelisten |
 | + og − | zoom inn eller ut |
@@ -174,6 +175,7 @@ church_year.html#date=2027-04-18&lectionary=lcms-one-year&latin=1&zoom=2.5
 church_year.html#date=2026-03-19&lectionary=roman&sub=united_states
 church_year.html#year=2030
 church_year.html#date=today
+church_year.html#date=sunday
 church_year.html#2026-12-25
 ```
 

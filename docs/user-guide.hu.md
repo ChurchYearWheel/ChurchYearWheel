@@ -57,6 +57,7 @@ másik weboldalba van ágyazva, előbb kattints rá).
 | Shift+nyíl | egy hónap vissza vagy előre, ugyanannak a hétnek ugyanarra a napjára (harmadik vasárnaptól harmadik vasárnapig) |
 | Page Up / Page Down | ugyanaz a dátum egy egyházi évvel korábban vagy később |
 | T | ma |
+| S | a következő vasárnap (ma, ha vasárnap van); a `date=sunday` hivatkozás is ezen nyílik meg |
 | F | Nap keresése: írj be egy nevet |
 | W | a heti lista |
 | + és − | nagyítás vagy kicsinyítés |
@@ -180,6 +181,7 @@ church_year.html#date=2027-04-18&lectionary=lcms-one-year&latin=1&zoom=2.5
 church_year.html#date=2026-03-19&lectionary=roman&sub=united_states
 church_year.html#year=2030
 church_year.html#date=today
+church_year.html#date=sunday
 church_year.html#2026-12-25
 ```
 

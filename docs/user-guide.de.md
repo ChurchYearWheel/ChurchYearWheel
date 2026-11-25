@@ -58,6 +58,7 @@ das Rad, wenn es in eine andere Webseite eingebettet ist).
 | Umschalt+Pfeil | einen Monat zurück oder weiter, zum selben Wochentag derselben Woche (vom dritten Sonntag zum dritten Sonntag) |
 | Bild ↑ / Bild ↓ | dasselbe Datum ein Kirchenjahr zurück oder weiter |
 | T | heute |
+| S | der kommende Sonntag (heute, wenn Sonntag ist); ein Link mit `date=sunday` öffnet ebenfalls dort |
 | F | Tag suchen: einen Namen eingeben |
 | W | die Wochenliste |
 | + und − | vergrößern oder verkleinern |
@@ -182,6 +183,7 @@ church_year.html#date=2027-04-18&lectionary=lcms-one-year&latin=1&zoom=2.5
 church_year.html#date=2026-03-19&lectionary=roman&sub=united_states
 church_year.html#year=2030
 church_year.html#date=today
+church_year.html#date=sunday
 church_year.html#2026-12-25
 ```
 

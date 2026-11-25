@@ -58,6 +58,7 @@ se on upotettu toiselle verkkosivulle).
 | Vaihto+nuoli | kuukausi taakse- tai eteenpäin, saman viikon samaan päivään (kolmannesta sunnuntaista kolmanteen sunnuntaihin) |
 | Page Up / Page Down | sama päivämäärä kirkkovuotta aiemmin tai myöhemmin |
 | T | tänään |
+| S | tuleva sunnuntai (tänään, jos on sunnuntai); linkki, jossa on `date=sunday`, avautuu myös siihen |
 | F | Etsi päivä: kirjoita nimi |
 | W | viikkoluettelo |
 | + ja − | lähennä tai loitonna |
@@ -179,6 +180,7 @@ church_year.html#date=2027-04-18&lectionary=lcms-one-year&latin=1&zoom=2.5
 church_year.html#date=2026-03-19&lectionary=roman&sub=united_states
 church_year.html#year=2030
 church_year.html#date=today
+church_year.html#date=sunday
 church_year.html#2026-12-25
 ```
 

@@ -54,6 +54,7 @@ Lyklarnir virka þegar síðan hefur fókus (smelltu fyrst á hjólið ef það 
 | Shift+ör | einn mánuður aftur eða fram, á sama dag í sömu viku (þriðja sunnudag á þriðja sunnudag) |
 | Page Up / Page Down | sama dagsetning einu kirkjuári fyrr eða síðar |
 | T | í dag |
+| S | næsti sunnudagur (í dag, ef það er sunnudagur); tengill með `date=sunday` opnar líka á honum |
 | F | Finna dag: skrifaðu heiti |
 | W | vikulistinn |
 | + og − | stækka eða minnka |
@@ -172,6 +173,7 @@ church_year.html#date=2027-04-18&lectionary=lcms-one-year&latin=1&zoom=2.5
 church_year.html#date=2026-03-19&lectionary=roman&sub=united_states
 church_year.html#year=2030
 church_year.html#date=today
+church_year.html#date=sunday
 church_year.html#2026-12-25
 ```
 

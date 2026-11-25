@@ -57,6 +57,7 @@ en la rueda si está dentro de otra página web).
 | Mayús+flecha | un mes atrás o adelante, al mismo día de la semana de la misma semana (del tercer domingo al tercer domingo) |
 | Re Pág / Av Pág | la misma fecha un año litúrgico atrás o adelante |
 | T | hoy |
+| S | el próximo domingo (hoy, si es domingo); un enlace con `date=sunday` también abre en él |
 | F | Buscar un día: escriba un nombre |
 | W | la lista de la semana |
 | + y − | ampliar o reducir |
@@ -180,6 +181,7 @@ church_year.html#date=2027-04-18&lectionary=lcms-one-year&latin=1&zoom=2.5
 church_year.html#date=2026-03-19&lectionary=roman&sub=united_states
 church_year.html#year=2030
 church_year.html#date=today
+church_year.html#date=sunday
 church_year.html#2026-12-25
 ```
 

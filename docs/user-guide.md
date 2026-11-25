@@ -57,13 +57,14 @@ is set inside another web page).
 | Shift+arrow | a month back or on, to the same weekday of the same week (the third Sunday to the third Sunday) |
 | Page Up / Page Down | the same date a church year back or on |
 | T | today |
+| S | the coming Sunday (today, on a Sunday); a link with `date=sunday` opens on it too |
 | F | Find a day: type a name |
 | W | the Week list |
 | + and − | magnify or shrink |
 | 0 | the whole wheel again (1×, centered); pressed again, back to the zoom it left (or the page's own) |
 | Esc | close the Colors window, then the settings |
 
-T, F and W come from English (Today, Find, Week) and are the same in every
+T, S, F and W come from English (Today, Sunday, Find, Week) and are the same in every
 language the page speaks. They work on any keyboard: on one that types
 another alphabet there (Cyrillic, for example), the key in the T, F or W
 place does.
@@ -169,10 +170,11 @@ church_year.html#date=2027-04-18&lectionary=lcms-one-year&latin=1&zoom=2.5
 church_year.html#date=2026-03-19&lectionary=roman&sub=united_states
 church_year.html#year=2030
 church_year.html#date=today
+church_year.html#date=sunday
 church_year.html#2026-12-25
 ```
 
-A bare date (or `today`) after the `#` works as `date=` does.
+A bare date (or `today`, or `sunday`) after the `#` works as `date=` does. `date=sunday` is the coming Sunday, today when it is one, and the address keeps the word while the wheel stays on that Sunday.
 
 | Part | Values |
 |---|---|

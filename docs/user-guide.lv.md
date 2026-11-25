@@ -54,6 +54,7 @@ iegults citā tīmekļa lapā).
 | Shift+bultiņa | mēnesi atpakaļ vai uz priekšu, uz tās pašas nedēļas to pašu dienu (no trešās svētdienas uz trešo svētdienu) |
 | Page Up / Page Down | tas pats datums vienu baznīcas gadu agrāk vai vēlāk |
 | T | šodien |
+| S | nākamā svētdiena (šodiena, ja ir svētdiena); saite ar `date=sunday` arī atveras tajā |
 | F | Atrast dienu: ieraksti nosaukumu |
 | W | nedēļas saraksts |
 | + un − | tuvināt vai tālināt |
@@ -170,6 +171,7 @@ church_year.html#date=2027-04-18&lectionary=lcms-one-year&latin=1&zoom=2.5
 church_year.html#date=2026-03-19&lectionary=roman&sub=united_states
 church_year.html#year=2030
 church_year.html#date=today
+church_year.html#date=sunday
 church_year.html#2026-12-25
 ```
 

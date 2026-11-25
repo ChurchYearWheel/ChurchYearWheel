@@ -59,6 +59,7 @@ ikiwa limepachikwa ndani ya ukurasa mwingine wa wavuti).
 | Shift+mshale | mwezi mmoja nyuma au mbele, hadi siku ileile ya wiki ileile (Jumapili ya tatu hadi Jumapili ya tatu) |
 | Page Up / Page Down | tarehe ileile mwaka mmoja wa kanisa kabla au baadaye |
 | T | leo |
+| S | Jumapili ijayo (leo, kama ni Jumapili); kiungo chenye `date=sunday` pia hufungua siku hiyo |
 | F | Tafuta siku: andika jina |
 | W | orodha ya wiki |
 | + na − | kukuza au kupunguza |
@@ -180,6 +181,7 @@ church_year.html#date=2027-04-18&lectionary=lcms-one-year&latin=1&zoom=2.5
 church_year.html#date=2026-03-19&lectionary=roman&sub=united_states
 church_year.html#year=2030
 church_year.html#date=today
+church_year.html#date=sunday
 church_year.html#2026-12-25
 ```
 

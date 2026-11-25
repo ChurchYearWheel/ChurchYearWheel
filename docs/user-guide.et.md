@@ -54,6 +54,7 @@ teise veebilehe sisse manustatud).
 | Shift+nool | kuu tagasi või edasi, sama nädala samale päevale (kolmandast pühapäevast kolmandale pühapäevale) |
 | Page Up / Page Down | sama kuupäev kirikuaasta võrra varem või hiljem |
 | T | täna |
+| S | tulev pühapäev (täna, kui on pühapäev); link `date=sunday` avab ka selle |
 | F | Leia päev: kirjuta nimi |
 | W | nädala loend |
 | + ja − | suurenda või vähenda |
@@ -173,6 +174,7 @@ church_year.html#date=2027-04-18&lectionary=lcms-one-year&latin=1&zoom=2.5
 church_year.html#date=2026-03-19&lectionary=roman&sub=united_states
 church_year.html#year=2030
 church_year.html#date=today
+church_year.html#date=sunday
 church_year.html#2026-12-25
 ```
 

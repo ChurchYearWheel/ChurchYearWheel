@@ -54,6 +54,7 @@ webovej stránky, najprv naň kliknite).
 | Shift+šípka | mesiac dozadu alebo dopredu, na ten istý deň toho istého týždňa (z tretej nedele na tretiu nedeľu) |
 | Page Up / Page Down | ten istý dátum o cirkevný rok skôr alebo neskôr |
 | T | dnes |
+| S | najbližšia nedeľa (dnes, ak je nedeľa); odkaz s `date=sunday` sa tiež otvorí na nej |
 | F | Nájsť deň: napíšte názov |
 | W | zoznam týždňa |
 | + a − | priblížiť alebo oddialiť |
@@ -172,6 +173,7 @@ church_year.html#date=2027-04-18&lectionary=lcms-one-year&latin=1&zoom=2.5
 church_year.html#date=2026-03-19&lectionary=roman&sub=united_states
 church_year.html#year=2030
 church_year.html#date=today
+church_year.html#date=sunday
 church_year.html#2026-12-25
 ```
 
