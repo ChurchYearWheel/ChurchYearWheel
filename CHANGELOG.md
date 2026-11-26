@@ -1,5 +1,21 @@
 # Changelog
 
+## 2026-11 (142) — a Music section in Settings
+
+### Changed
+
+- **Settings → All has a Music section**, with a box for each thing the
+  Hymn search box used to switch together: **Suggested hymns** (the Hymns
+  tabs), **Hymnal topics** (the hymnal marks after the day's name), **Hymn
+  search** (the Hymnary.org mark after each set of readings) and
+  **Contemporary song search**, with the Hymnal menu under them. New link
+  keys `suggest=0` and `topics=0`; `hymns=0` now turns off only the search
+  marks.
+- **Open in** stands first under Readings, in line with the kinds, and
+  **Propers** is now among the kinds; **Slide** follows Readings shown as.
+- **The Hymns tabs come last**, after every set of readings: Readings ·
+  Reformation Day · … · Hymns · Hymns: Reformation Day.
+
 ## 2026-11 (141) — the coming Sunday
 
 ### Added

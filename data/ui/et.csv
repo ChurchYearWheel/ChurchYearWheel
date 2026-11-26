@@ -164,7 +164,7 @@ The hymnal's or prayer book's daily or weekday lectionary,Lauluraamatu või palv
 How fast the sets slide between the columns when more or less is clicked (kept in this browser),"Kui kiiresti read veergude vahel libisevad, kui klõpsatakse rohkem või vähem (salvestatakse selles brauseris)"
 "The parts of the service the church lists with each day's readings (an Introit, a Gradual and a Verse), on a line of their own after them; a set's heading opens only its readings together","Jumalateenistuse osad, mida kirik iga päeva lugemistega loetleb (introitus, graduaal ja salm), omal real nende järel; rea pealkiri avab ainult selle lugemised koos"
 A hymnal mark after each set of readings that searches Hymnary.org for the hymns on them in this church's hymnal,"Lauluraamatu märk iga lugemisrea järel, mis otsib Hymnary.org-ist nende kohta laule selle kiriku lauluraamatus"
-"The hymnal Hymn search looks in, where the church has several","Lauluraamat, millest laulude otsing otsib, kui kirikul on mitu"
+"The hymnal Hymn search and Hymnal topics look in, where the church has several","Lauluraamat, millest otsivad laulude otsing ja lauluraamatu teemad, kui kirikul on neid mitu"
 A circled note after each set of readings that searches Word to Worship (wordtoworship.com) for contemporary worship songs on them,"Ringis noot iga lugemisrea järel, mis otsib Word to Worshipist (wordtoworship.com) nende kohta kaasaegseid ülistuslaule"
 "The picture in the middle of the wheel. Each tradition has its own; any of them can be chosen. By season changes it with the day chosen: the wreath in Advent, the manger at Christmas, the empty tomb at Easter, and the church's own picture in the seasons that have none.","Pilt ratta keskel. Igal traditsioonil on oma; valida võib ükskõik millise. „Aja järgi“ vahetab seda valitud päevaga: pärg advendiajal, sõim jõulude ajal, tühi haud lihavõtete ajal ja kiriku oma pilt aegadel, millel oma pole."
 "A thicker line where the year's last week meets its first, which are a year apart","Paksem joon, kus aasta viimane nädal kohtub esimesega, mille vahel on aasta"
@@ -496,3 +496,8 @@ The suggested hymns for this day,Selle päeva soovitatud laulud
 shown this year,näidatakse sel aastal
 the same as {0},sama mis {0}
 Also on this day: {0},Samal päeval ka: {0}
+Music,Muusika
+Suggested hymns,Soovitatud laulud
+Hymnal topics,Lauluraamatu teemad
+"The hymns suggested for the day, year by year, under a Hymns tab (or after the readings), with the Hymn of the Day",Päevaks soovitatud laulud aasta kaupa vahelehel Laulud (või lugemiste järel) koos päeva lauluga
+"After the day's name, a hymnal mark for each section of the hymnal's index the day has (Advent, Reformation, a saint), opening its hymns","Päeva nime järel lauluraamatu märk iga lauluraamatu registri osa kohta, mis päeval on (advent, usupuhastus, pühak), mis avab selle laulud"

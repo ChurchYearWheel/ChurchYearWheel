@@ -164,7 +164,7 @@ The hymnal's or prayer book's daily or weekday lectionary,Dziesmu grāmatas vai 
 How fast the sets slide between the columns when more or less is clicked (kept in this browser),"Cik ātri sērijas slīd starp kolonnām, noklikšķinot „vairāk“ vai „mazāk“ (saglabāts šajā pārlūkā)"
 "The parts of the service the church lists with each day's readings (an Introit, a Gradual and a Verse), on a line of their own after them; a set's heading opens only its readings together","Dievkalpojuma daļas, ko baznīca norāda ar katras dienas lasījumiem (introits, graduāls un pants), atsevišķā rindā pēc tiem; sērijas virsraksts atver tikai tās lasījumus kopā"
 A hymnal mark after each set of readings that searches Hymnary.org for the hymns on them in this church's hymnal,"Dziesmu grāmatas zīme pēc katras lasījumu sērijas, kas meklē Hymnary.org dziesmas par tiem šīs baznīcas dziesmu grāmatā"
-"The hymnal Hymn search looks in, where the church has several","Dziesmu grāmata, kurā meklē dziesmu meklēšana, ja baznīcai ir vairākas"
+"The hymnal Hymn search and Hymnal topics look in, where the church has several","Dziesmu grāmata, kurā meklē dziesmu meklēšana un dziesmu grāmatas tēmas, ja baznīcai to ir vairākas"
 A circled note after each set of readings that searches Word to Worship (wordtoworship.com) for contemporary worship songs on them,"Apvilkta nots pēc katras lasījumu sērijas, kas meklē Word to Worship (wordtoworship.com) mūsdienu slavas dziesmas par tiem"
 "The picture in the middle of the wheel. Each tradition has its own; any of them can be chosen. By season changes it with the day chosen: the wreath in Advent, the manger at Christmas, the empty tomb at Easter, and the church's own picture in the seasons that have none.","Attēls rata centrā. Katrai tradīcijai ir savs; var izvēlēties jebkuru. „Pēc laika“ to maina līdz ar izvēlēto dienu: vainags Adventē, silīte Ziemassvētkos, tukšais kaps Lieldienās un baznīcas pašas attēls laikos, kam sava nav."
 "A thicker line where the year's last week meets its first, which are a year apart","Biezāka līnija, kur gada pēdējā nedēļa satiek pirmo, starp kurām ir gads"
@@ -496,3 +496,8 @@ The suggested hymns for this day,Šīs dienas ieteiktās dziesmas
 shown this year,rādīts šogad
 the same as {0},tāds pats kā {0}
 Also on this day: {0},Tajā pašā dienā arī: {0}
+Music,Mūzika
+Suggested hymns,Ieteiktās dziesmas
+Hymnal topics,Dziesmu grāmatas tēmas
+"The hymns suggested for the day, year by year, under a Hymns tab (or after the readings), with the Hymn of the Day","Dienai ieteiktās dziesmas, gadu pa gadam, cilnē Dziesmas (vai pēc lasījumiem), kopā ar dienas dziesmu"
+"After the day's name, a hymnal mark for each section of the hymnal's index the day has (Advent, Reformation, a saint), opening its hymns","Pēc dienas nosaukuma dziesmu grāmatas zīme katrai dziesmu grāmatas rādītāja daļai, kas dienai ir (Advente, Reformācija, svētais), kas atver tās dziesmas"

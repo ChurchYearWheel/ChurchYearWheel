@@ -164,7 +164,7 @@ The hymnal's or prayer book's daily or weekday lectionary,Leksionari harian atau
 How fast the sets slide between the columns when more or less is clicked (kept in this browser),Seberapa cepat rangkaian bergeser di antara kolom bila lebih banyak atau lebih sedikit diklik (disimpan di peramban ini)
 "The parts of the service the church lists with each day's readings (an Introit, a Gradual and a Verse), on a line of their own after them; a set's heading opens only its readings together","Bagian-bagian ibadah yang dicantumkan gereja bersama bacaan setiap hari (introitus, graduale, dan ayat), pada baris tersendiri sesudahnya; judul sebuah rangkaian hanya membuka bacaannya bersama-sama"
 A hymnal mark after each set of readings that searches Hymnary.org for the hymns on them in this church's hymnal,Tanda buku nyanyian sesudah setiap rangkaian bacaan yang mencari di Hymnary.org nyanyian tentangnya dalam buku nyanyian gereja ini
-"The hymnal Hymn search looks in, where the church has several","Buku nyanyian tempat Cari nyanyian mencari, bila gereja memiliki beberapa"
+"The hymnal Hymn search and Hymnal topics look in, where the church has several","Buku nyanyian yang dipakai pencarian himne dan topik buku nyanyian, jika gereja punya beberapa"
 A circled note after each set of readings that searches Word to Worship (wordtoworship.com) for contemporary worship songs on them,Not dalam lingkaran sesudah setiap rangkaian bacaan yang mencari di Word to Worship (wordtoworship.com) lagu pujian kontemporer tentangnya
 "The picture in the middle of the wheel. Each tradition has its own; any of them can be chosen. By season changes it with the day chosen: the wreath in Advent, the manger at Christmas, the empty tomb at Easter, and the church's own picture in the seasons that have none.","Gambar di tengah roda. Setiap tradisi punya gambarnya sendiri; mana pun dapat dipilih. “Menurut masa” menggantinya sesuai hari yang dipilih: karangan bunga pada masa Adven, palungan pada Natal, kubur kosong pada Paskah, dan gambar gereja sendiri pada masa yang tidak punya gambar."
 "A thicker line where the year's last week meets its first, which are a year apart","Garis lebih tebal tempat minggu terakhir tahun bertemu minggu pertamanya, yang berjarak setahun"
@@ -496,3 +496,8 @@ The suggested hymns for this day,Usulan nyanyian untuk hari ini
 shown this year,ditampilkan tahun ini
 the same as {0},sama dengan {0}
 Also on this day: {0},Juga pada hari ini: {0}
+Music,Musik
+Suggested hymns,Himne yang disarankan
+Hymnal topics,Topik buku nyanyian
+"The hymns suggested for the day, year by year, under a Hymns tab (or after the readings), with the Hymn of the Day","Himne yang disarankan untuk hari itu, tahun demi tahun, di tab Himne (atau sesudah bacaan), dengan Himne Hari Itu"
+"After the day's name, a hymnal mark for each section of the hymnal's index the day has (Advent, Reformation, a saint), opening its hymns","Sesudah nama hari, tanda buku nyanyian untuk tiap bagian indeks buku nyanyian yang dimiliki hari itu (Adven, Reformasi, seorang santo), yang membuka himnenya"

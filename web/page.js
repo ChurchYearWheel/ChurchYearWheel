@@ -481,6 +481,11 @@ const w2wRow = $('w2wRow');
 const hymnsRow = $('hymnsRow');
 const propersBox = $('propers'), propersRow = $('propersRow');
 const hymnalBox = $('hymnal'), hymnalRow = $('hymnalRow');
+// Music: the suggested hymns (the Hymns tabs), the hymnal's topics after the
+// day's name, and the two searches; each its own box.
+const suggestBox = $('suggest'), suggestRow = $('suggestRow');
+const topicsBox = $('hymnTopics'), topicsRow = $('topicsRow');
+const musicHead = $('musicHead');
 const artBox = $('artwork');
 const credit = $('credit');
 const calBox = $('calendar');
@@ -805,6 +810,8 @@ function buildSubMenus() {
   bibleSiteRow.hidden = !hasReadings() || !bibleLinks;
   w2wRow.hidden = !hasReadings() || w2wOff();
   hymnsRow.hidden = !hasReadings() || hymnaryOff() || !hymnalOf(currentTradition());
+  suggestRow.hidden = !hasReadings() || !String(((DATA.profiles[currentTradition()] || {}).settings || {}).reading_hymns || '').trim();
+  topicsRow.hidden = hymnaryOff() || !bibleLinks || !hymnalsOf(currentTradition()).some(h => hymnalHasTopics(h.code));
   // The parts of the service a church lists with its readings: the box names them.
   const parts = propersOf(currentTradition());
   propersRow.hidden = !hasReadings() || !parts.length;
@@ -815,7 +822,8 @@ function buildSubMenus() {
   hymnalBox.replaceChildren(...hymnals.map(h => new Option(h.name || h.code, h.code)));
   if (hymnals.some(h => h.code === keep)) hymnalBox.value = keep;
   else hymnalBox.value = hymnalDefault();
-  hymnalRow.hidden = hymnsRow.hidden || hymnals.length < 2;
+  hymnalRow.hidden = (hymnsRow.hidden && topicsRow.hidden) || hymnals.length < 2;
+  musicHead.hidden = [suggestRow, topicsRow, hymnsRow, w2wRow].every(r => r.hidden);
   layoutRow.hidden = !hasReadings() || layoutsOffered().length < 2;
   syncSlideRow();
   bibleRow.hidden = !hasReadings() || bibleFixed() || !bibleLinks;
@@ -1258,7 +1266,7 @@ function choose(iso, turn) {
   parts.forEach((p, i) => { if (i) bits.push(' \u00b7 '); bits.push(p); });
   // After the day's names, a hymn mark for each topic of the chosen hymnal's
   // index the day has (hymn_topics.csv), as the readings' marks are.
-  const hymnal = hymnsOn() && bibleLinks ? chosenHymnal(currentTradition()) : null;
+  const hymnal = topicsOn() && bibleLinks ? chosenHymnal(currentTradition()) : null;
   for (const x of hymnal ? (info.H || []).filter(x => x.h.toLowerCase() === hymnal.code.toLowerCase()) : []) {
     const a = document.createElement('a');
     a.className = 'w2w hymns';
@@ -1574,7 +1582,7 @@ seriesBox.onchange = () => {
 };
 latinBox.onchange = () => drawYear(parseInt(yearBox.value, 10), chosen);
 for (const b of readingBoxes) b.onchange = () => { showDayReadings(); markChanged(); syncLink(); };
-bibleBox.onchange = siteBox.onchange = w2wBox.onchange = hymnsBox.onchange = propersBox.onchange = hymnalBox.onchange = layoutBox.onchange = () => { showDayReadings(); markChanged(); syncLink(); };
+bibleBox.onchange = siteBox.onchange = w2wBox.onchange = hymnsBox.onchange = suggestBox.onchange = topicsBox.onchange = propersBox.onchange = hymnalBox.onchange = layoutBox.onchange = () => { showDayReadings(); markChanged(); syncLink(); };
 pick(layoutBox, layoutDefault());
 artBox.onchange = () => drawYear(parseInt(yearBox.value, 10), chosen);
 // Changing the calendar renames every day, so the date in hand is carried
@@ -2023,6 +2031,14 @@ const hymnalOf = key => { const h = chosenHymnal(key); return h ? h.code : ''; }
 const hymnalDefault = () => { const list = hymnalsOf(currentTradition());
   const own = list.find(h => h.code === DATA.hymnalDefault); return own ? own.code : list.length ? list[0].code : ''; };
 const hymnsOn = () => !hymnaryOff() && hymnsBox.checked;
+const topicsOn = () => !hymnaryOff() && topicsBox.checked;
+const suggestOn = () => suggestBox.checked;
+/** Whether the church's folder files topics of this hymnal's index (hymn_topics.csv). */
+function hymnalHasTopics(code) {
+  const c = String(code).toLowerCase();
+  const rows = ((DATA.folders[traditionOf(currentTradition()).folder] || {}).hymnTopics) || [];
+  return rows.some(r => String(r.hymnal || '').toLowerCase() === c);
+}
 // The links a page has (--links / page_links): to the Bible, to pages about
 // the feasts; a page made without them shows plain text.
 const LINKS = Array.isArray(DATA.links) ? DATA.links : ['bible', 'feasts'];
@@ -2778,7 +2794,9 @@ function readingLinesFor(iso) {
     const hymns = hymnLine(g, plain ? '' : g.title, sung.filter(x => x.g !== g));
     return hymns ? [line, hymns] : [line];
   });
-  return [].concat(...lines);
+  // The music after all the readings: Readings · Readings: X · Hymns · Hymns: X.
+  const all = [].concat(...lines);
+  return all.filter(l => !l.classList.contains('hymnset')).concat(all.filter(l => l.classList.contains('hymnset')));
 }
 
 // A hymn's number's page at Hymnary.org: LSB's (the church's hymnal), or The
@@ -2893,7 +2911,7 @@ function hymnListFor(lists, year) {
  */
 function hymnLine(g, whose, others) {
   others = (others || []).filter(o => hymnLists(o.g).length);
-  if (!g.hymns || !g.hymns.length || !hymnsOn()) return null;
+  if (!g.hymns || !g.hymns.length || !suggestOn()) return null;
   const key = currentTradition();
   const code = hymnalOf(key);
   const guide = g.hymns.filter(it => it.kind === 'hymn_lsb');
@@ -3194,6 +3212,8 @@ function markChanged() {
                || siteBox.value !== bibleSiteDefault()
                || (!w2wOff() && w2wBox.checked !== w2wDefault())
                || (!hymnaryOff() && hymnsBox.checked !== hymnaryDefault())
+               || !suggestBox.checked
+               || (!hymnaryOff() && !topicsBox.checked)
                || !propersBox.checked
                || (!hymnalRow.hidden && hymnalBox.value !== hymnalDefault())
                || yearLineBox.checked !== yearLineDefault()
@@ -3237,6 +3257,8 @@ function applyDefaults() {
   pick(siteBox, bibleSiteDefault());
   w2wBox.checked = w2wDefault();
   hymnsBox.checked = hymnaryDefault();
+  suggestBox.checked = true;
+  topicsBox.checked = true;
   propersBox.checked = true;
   hymnalBox.value = hymnalDefault();
   yearLineBox.checked = yearLineDefault();
@@ -3904,6 +3926,8 @@ function linkState(explicit) {
   if (siteBox.value !== bibleSiteDefault()) parts.push(['bibleat', siteBox.value]);
   if (!w2wOff() && w2wBox.checked !== w2wDefault()) parts.push(['songs', w2wBox.checked ? '1' : '0']);
   if (!hymnaryOff() && hymnsBox.checked !== hymnaryDefault()) parts.push(['hymns', hymnsBox.checked ? '1' : '0']);
+  if (!suggestBox.checked) parts.push(['suggest', '0']);
+  if (!hymnaryOff() && !topicsBox.checked) parts.push(['topics', '0']);
   if (!propersBox.checked) parts.push(['propers', '0']);
   if (!hymnalRow.hidden && hymnalBox.value !== hymnalDefault()) parts.push(['hymnal', hymnalBox.value]);
   if (yearLineBox.checked !== yearLineDefault()) parts.push(['yearline', yearLineBox.checked ? '1' : '0']);
@@ -3994,6 +4018,8 @@ function applyLink(state) {
   if (state.bibleat != null) pick(siteBox, state.bibleat);
   if (state.songs != null && !w2wOff()) w2wBox.checked = /^(1|true|yes|on)$/i.test(state.songs);
   if (state.hymns != null && !hymnaryOff()) hymnsBox.checked = /^(1|true|yes|on)$/i.test(state.hymns);
+  if (state.suggest != null) suggestBox.checked = /^(1|true|yes|on)$/i.test(state.suggest);
+  if (state.topics != null && !hymnaryOff()) topicsBox.checked = /^(1|true|yes|on)$/i.test(state.topics);
   if (state.propers != null) propersBox.checked = /^(1|true|yes|on)$/i.test(state.propers);
   if (state.hymnal != null) pick(hymnalBox, state.hymnal);
   if (state.yearline != null) yearLineBox.checked = /^(1|true|yes|on)$/i.test(state.yearline);
@@ -4681,6 +4707,7 @@ const ringBoxes = () => Array.from(pageRings.querySelectorAll('input'));
 pageHymns.addEventListener('change', () => pageLinksShow());
 // The day's own hymn marks follow Hymn search and the Hymnal menu too.
 hymnsBox.addEventListener('change', () => { if (chosen) choose(chosen, false); });
+topicsBox.addEventListener('change', () => { if (chosen) choose(chosen, false); });
 hymnalBox.addEventListener('change', () => { if (chosen) choose(chosen, false); });
 pageBibles.addEventListener('change', () => { pageBibleList.hidden = pageBibles.value !== 'some'; pageBibleFit(); pageCommandShow(); });
 pageBibleList.addEventListener('change', e => {

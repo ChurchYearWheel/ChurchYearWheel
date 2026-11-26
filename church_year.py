@@ -439,6 +439,8 @@ def build(data: dict, fragment: bool = False, compress: bool = True) -> str:
         <select id="bibleVersion"></select></label>
       <label id="layoutRow" title="How the day's readings are shown when there are several sets: one at a time under tabs, or all of them in columns (on the right, and across two columns when opened with more)">Readings shown as
         <select id="readingsLayout"><option value="tabs">Tabs</option><option value="columns">Columns</option></select></label>
+      <label class="adv" id="slideRow" title="How fast the sets slide between the columns when more or less is clicked (kept in this browser)" hidden>Slide
+        <select id="slideSpeed"><option value="0">Off</option><option value="350">Quick</option><option value="700">Medium</option><option value="1200">Slow</option></select></label>
       <div class="head adv">Calendar and names</div>
       <label class="adv" id="calRow" title="Which calendar the dates are reckoned in">Calendar
         <select id="calendar">
@@ -454,6 +456,11 @@ def build(data: dict, fragment: bool = False, compress: bool = True) -> str:
         </select></label>
       <label class="adv check" id="latinRow" title="Name the one-year Sundays as the historic calendar does, from the first words of the day's Introit: Ad Te Levavi, Laetare, Quasimodo Geniti"><input type="checkbox" id="latin"> Latin names</label>
       <div class="adv group" id="readingsRow" title="List the day's Bible readings under its name. Each kind can be left out; only the kinds this church's lectionary has are offered.">Readings
+        <label class="site" id="bibleSiteRow" title="Where a reading opens. On a phone or tablet either one opens in its own app when the app is installed, and in the browser otherwise.">Open in
+        <select id="bibleSite">
+          <option value="biblegateway">Bible Gateway</option>
+          <option value="youversion">Bible.com (YouVersion)</option>
+        </select></label>
         <label title="The lessons of the day's own propers: its Sunday, holy day or season, and any other service its book appoints for it"><input type="checkbox" data-reading="day" checked> The day's propers</label>
         <label title="The lessons of a saint's day or festival, listed only while the wheel shows it (see Feasts)"><input type="checkbox" data-reading="feasts" checked> Feasts and festivals</label>
         <label title="The lessons of a day the calendar does not name, kept by its date or a date rule: Ember and Rogation Days, Thanksgiving, New Year's and national days, the Saturdays before and after a feast"><input type="checkbox" data-reading="dated" checked> Other dated days</label>
@@ -461,17 +468,13 @@ def build(data: dict, fragment: bool = False, compress: bool = True) -> str:
         <label title="The additional readings a daily lectionary offers beside its own, for reading more of the Bible (Lutheran Service Book prints them in italics)"><input type="checkbox" data-reading="additional" checked> Additional readings</label>
         <label title="A table of psalms for daily prayer, morning and evening, by season and weekday (Lutheran Service Book, p. 304)"><input type="checkbox" data-reading="psalms" checked> Psalm table</label>
         <label title="A plan of daily Bible reading kept by the calendar year: Reading the Word of God (LCMS, LCC and NALC), through the Old Testament in three years and the Psalms and New Testament twice"><input type="checkbox" data-reading="plan" checked> Bible reading plan</label>
-        <label title="The lessons of the Office: Morning and Evening Prayer, Matins, a second or third service"><input type="checkbox" data-reading="office" checked> Office lessons</label></div>
-      <label class="adv" id="bibleSiteRow" title="Where a reading opens. On a phone or tablet either one opens in its own app when the app is installed, and in the browser otherwise.">Open in
-        <select id="bibleSite">
-          <option value="biblegateway">Bible Gateway</option>
-          <option value="youversion">Bible.com (YouVersion)</option>
-        </select></label>
-      <label class="adv" id="slideRow" title="How fast the sets slide between the columns when more or less is clicked (kept in this browser)" hidden>Slide
-        <select id="slideSpeed"><option value="0">Off</option><option value="350">Quick</option><option value="700">Medium</option><option value="1200">Slow</option></select></label>
-      <label class="adv check" id="propersRow" title="The parts of the service the church lists with each day's readings (an Introit, a Gradual and a Verse), on a line of their own after them; a set's heading opens only its readings together" hidden><input type="checkbox" id="propers" checked> <span id="propersName">Propers</span></label>
+        <label title="The lessons of the Office: Morning and Evening Prayer, Matins, a second or third service"><input type="checkbox" data-reading="office" checked> Office lessons</label>
+        <label id="propersRow" title="The parts of the service the church lists with each day's readings (an Introit, a Gradual and a Verse), on a line of their own after them; a set's heading opens only its readings together" hidden><input type="checkbox" id="propers" checked> <span id="propersName">Propers</span></label></div>
+      <div class="head adv" id="musicHead">Music</div>
+      <label class="adv check" id="suggestRow" title="The hymns suggested for the day, year by year, under a Hymns tab (or after the readings), with the Hymn of the Day"><input type="checkbox" id="suggest" checked> Suggested hymns</label>
+      <label class="adv check" id="topicsRow" title="After the day's name, a hymnal mark for each section of the hymnal's index the day has (Advent, Reformation, a saint), opening its hymns"><input type="checkbox" id="hymnTopics" checked> Hymnal topics</label>
       <label class="adv check" id="hymnsRow" title="A hymnal mark after each set of readings that searches Hymnary.org for the hymns on them in this church's hymnal"><input type="checkbox" id="hymns" checked> Hymn search</label>
-      <label class="adv" id="hymnalRow" title="The hymnal Hymn search looks in, where the church has several" hidden>Hymnal
+      <label class="adv" id="hymnalRow" title="The hymnal Hymn search and Hymnal topics look in, where the church has several" hidden>Hymnal
         <select id="hymnal"></select></label>
       <label class="adv check" id="w2wRow" title="A circled note after each set of readings that searches Word to Worship (wordtoworship.com) for contemporary worship songs on them"><input type="checkbox" id="w2w" checked> Contemporary song search</label>
       <div class="head adv">The wheel</div>

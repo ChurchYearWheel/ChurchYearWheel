@@ -164,7 +164,7 @@ The hymnal's or prayer book's daily or weekday lectionary,Ny filaharan'ny famaki
 How fast the sets slide between the columns when more or less is clicked (kept in this browser),Ny hafainganan'ny fikorisan'ny andiany eo anelanelan'ny tsanganana rehefa tsindriana ny bebe kokoa na kely kokoa (voatahiry ao amin'ity mpitety ity)
 "The parts of the service the church lists with each day's readings (an Introit, a Gradual and a Verse), on a line of their own after them; a set's heading opens only its readings together","Ny fizaran'ny fanompoam-pivavahana tanisain'ny fiangonana miaraka amin'ny famakiana isan'andro (introitus, graduale ary andininy), amin'ny andalana manokana aoriany; ny lohatenin'ny andiany dia manokatra ny famakiany ihany miaraka"
 A hymnal mark after each set of readings that searches Hymnary.org for the hymns on them in this church's hymnal,Marika fihirana aorian'ny andiana famakiana tsirairay izay mitady ao amin'ny Hymnary.org ny hira momba azy ireo ao amin'ny fihiran'ity fiangonana ity
-"The hymnal Hymn search looks in, where the church has several","Ny fihirana itadiavan'ny Fitadiavana hira, raha manana maromaro ny fiangonana"
+"The hymnal Hymn search and Hymnal topics look in, where the church has several","Ny boky fihirana itadiavan'ny fikarohana hira sy ny lohahevitry ny boky fihirana, raha maro no ananan'ny fiangonana"
 A circled note after each set of readings that searches Word to Worship (wordtoworship.com) for contemporary worship songs on them,Naoty ao anaty faribolana aorian'ny andiana famakiana tsirairay izay mitady ao amin'ny Word to Worship (wordtoworship.com) hira fiderana maoderina momba azy ireo
 "The picture in the middle of the wheel. Each tradition has its own; any of them can be chosen. By season changes it with the day chosen: the wreath in Advent, the manger at Christmas, the empty tomb at Easter, and the church's own picture in the seasons that have none.","Ny sary eo afovoan'ny kodiarana. Samy manana ny azy ny fomban-drazana tsirairay; azo fidiana izay tianao. «Araka ny fotoana» dia manova azy araka ny andro voafidy: ny fehiloha amin'ny Advento, ny fihinanam-bilona amin'ny Krismasy, ny fasana foana amin'ny Paska, ary ny sarin'ny fiangonana amin'ireo fotoana tsy manana."
 "A thicker line where the year's last week meets its first, which are a year apart","Tsipika matevina kokoa izay ifanenan'ny herinandro farany amin'ny taona sy ny voalohany, izay misy elanelana taona iray"
@@ -496,3 +496,8 @@ The suggested hymns for this day,Ireo hira natolotra ho an'ity andro ity
 shown this year,aseho amin'ity taona ity
 the same as {0},mitovy amin'ny {0}
 Also on this day: {0},Amin'io andro io koa: {0}
+Music,Mozika
+Suggested hymns,Hira atolotra
+Hymnal topics,Lohahevitry ny boky fihirana
+"The hymns suggested for the day, year by year, under a Hymns tab (or after the readings), with the Hymn of the Day","Ireo hira atolotra ho an'ny andro, isan-taona, ao amin'ny tabilao Hira (na aorian'ny vakiteny), miaraka amin'ny hiran'ny andro"
+"After the day's name, a hymnal mark for each section of the hymnal's index the day has (Advent, Reformation, a saint), opening its hymns","Aorian'ny anaran'ny andro, marika boky fihirana ho an'ny fizarana tsirairay ao amin'ny fanondroan'ny boky fihirana ananan'ny andro (Advento, Fanavaozana, olomasina), manokatra ny hirany"

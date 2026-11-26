@@ -164,7 +164,7 @@ The hymnal's or prayer book's daily or weekday lectionary,Salmebokens eller bøn
 How fast the sets slide between the columns when more or less is clicked (kept in this browser),Hvor raskt rekkene glir mellom kolonnene når det klikkes på mer eller mindre (lagret i denne nettleseren)
 "The parts of the service the church lists with each day's readings (an Introit, a Gradual and a Verse), on a line of their own after them; a set's heading opens only its readings together","Delene av gudstjenesten kirken oppgir med hver dags tekster (introitus, graduale og vers), på en egen linje etter dem; en rekkes overskrift åpner bare dens tekster samlet"
 A hymnal mark after each set of readings that searches Hymnary.org for the hymns on them in this church's hymnal,Et salmebokmerke etter hver rekke tekster som søker på Hymnary.org etter salmer om dem i denne kirkens salmebok
-"The hymnal Hymn search looks in, where the church has several","Salmeboken salmesøket søker i, der kirken har flere"
+"The hymnal Hymn search and Hymnal topics look in, where the church has several","Salmeboken som salmesøket og salmebokens emner leter i, der kirken har flere"
 A circled note after each set of readings that searches Word to Worship (wordtoworship.com) for contemporary worship songs on them,En note i en sirkel etter hver rekke tekster som søker på Word to Worship (wordtoworship.com) etter lovsanger om dem
 "The picture in the middle of the wheel. Each tradition has its own; any of them can be chosen. By season changes it with the day chosen: the wreath in Advent, the manger at Christmas, the empty tomb at Easter, and the church's own picture in the seasons that have none.","Bildet i midten av hjulet. Hver tradisjon har sitt eget; hvilket som helst kan velges. «Etter tid» skifter det med den valgte dagen: kransen i advent, krybben i jula, den tomme graven i påsken og kirkens eget bilde i tidene som ikke har noe."
 "A thicker line where the year's last week meets its first, which are a year apart","En tykkere linje der årets siste uke møter den første, som ligger et år fra hverandre"
@@ -496,3 +496,8 @@ The suggested hymns for this day,De foreslåtte salmene for denne dagen
 shown this year,vist i år
 the same as {0},den samme som {0}
 Also on this day: {0},Også denne dagen: {0}
+Music,Musikk
+Suggested hymns,Foreslåtte salmer
+Hymnal topics,Salmebokens emner
+"The hymns suggested for the day, year by year, under a Hymns tab (or after the readings), with the Hymn of the Day","Salmene som foreslås for dagen, år for år, under fanen Salmer (eller etter lesningene), med dagens salme"
+"After the day's name, a hymnal mark for each section of the hymnal's index the day has (Advent, Reformation, a saint), opening its hymns","Etter dagens navn et salmebokmerke for hver del av salmebokens register som dagen har (advent, reformasjon, en helgen), som åpner salmene der"

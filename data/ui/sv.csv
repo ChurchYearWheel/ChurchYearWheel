@@ -164,7 +164,7 @@ The hymnal's or prayer book's daily or weekday lectionary,Psalmbokens eller bön
 How fast the sets slide between the columns when more or less is clicked (kept in this browser),Hur snabbt serierna glider mellan kolumnerna när man klickar på mer eller mindre (sparas i denna webbläsare)
 "The parts of the service the church lists with each day's readings (an Introit, a Gradual and a Verse), on a line of their own after them; a set's heading opens only its readings together","De delar av gudstjänsten som kyrkan anger med varje dags läsningar (introitus, graduale och vers), på en egen rad efter dem; en series rubrik öppnar bara dess läsningar tillsammans"
 A hymnal mark after each set of readings that searches Hymnary.org for the hymns on them in this church's hymnal,Ett psalmbokstecken efter varje läsningsserie som söker på Hymnary.org efter psalmer om dem i denna kyrkas psalmbok
-"The hymnal Hymn search looks in, where the church has several","Den psalmbok psalmsökningen söker i, där kyrkan har flera"
+"The hymnal Hymn search and Hymnal topics look in, where the church has several","Den psalmbok som psalmsökningen och psalmbokens ämnen söker i, där kyrkan har flera"
 A circled note after each set of readings that searches Word to Worship (wordtoworship.com) for contemporary worship songs on them,En inringad not efter varje läsningsserie som söker på Word to Worship (wordtoworship.com) efter lovsånger om dem
 "The picture in the middle of the wheel. Each tradition has its own; any of them can be chosen. By season changes it with the day chosen: the wreath in Advent, the manger at Christmas, the empty tomb at Easter, and the church's own picture in the seasons that have none.","Bilden i hjulets mitt. Varje tradition har sin egen; vilken som helst kan väljas. ”Efter tid” byter den med den valda dagen: kransen i advent, krubban vid jul, den tomma graven vid påsk och kyrkans egen bild i de tider som inte har någon."
 "A thicker line where the year's last week meets its first, which are a year apart","En tjockare linje där årets sista vecka möter dess första, som ligger ett år isär"
@@ -496,3 +496,8 @@ The suggested hymns for this day,De föreslagna psalmerna för denna dag
 shown this year,visas i år
 the same as {0},samma som {0}
 Also on this day: {0},Även denna dag: {0}
+Music,Musik
+Suggested hymns,Föreslagna psalmer
+Hymnal topics,Psalmbokens ämnen
+"The hymns suggested for the day, year by year, under a Hymns tab (or after the readings), with the Hymn of the Day","Psalmerna som föreslås för dagen, år för år, under fliken Psalmer (eller efter läsningarna), med dagens psalm"
+"After the day's name, a hymnal mark for each section of the hymnal's index the day has (Advent, Reformation, a saint), opening its hymns","Efter dagens namn ett psalmboksmärke för varje avsnitt i psalmbokens register som dagen har (advent, reformation, ett helgon), som öppnar dess psalmer"

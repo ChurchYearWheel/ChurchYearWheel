@@ -164,7 +164,7 @@ The hymnal's or prayer book's daily or weekday lectionary,Die tägliche oder wer
 How fast the sets slide between the columns when more or less is clicked (kept in this browser),"Wie schnell die Reihen zwischen den Spalten gleiten, wenn auf mehr oder weniger geklickt wird (in diesem Browser gespeichert)"
 "The parts of the service the church lists with each day's readings (an Introit, a Gradual and a Verse), on a line of their own after them; a set's heading opens only its readings together","Die Teile des Gottesdienstes, die die Kirche mit den Lesungen jedes Tages aufführt (Introitus, Graduale und Vers), in einer eigenen Zeile danach; die Überschrift einer Reihe öffnet nur ihre Lesungen zusammen"
 A hymnal mark after each set of readings that searches Hymnary.org for the hymns on them in this church's hymnal,"Ein Gesangbuchzeichen nach jeder Lesereihe, das bei Hymnary.org die Lieder dazu im Gesangbuch dieser Kirche sucht"
-"The hymnal Hymn search looks in, where the church has several","Das Gesangbuch, in dem die Liedsuche sucht, wenn die Kirche mehrere hat"
+"The hymnal Hymn search and Hymnal topics look in, where the church has several","Das Gesangbuch, in dem die Liedsuche und die Gesangbuch-Themen suchen, wenn die Kirche mehrere hat"
 A circled note after each set of readings that searches Word to Worship (wordtoworship.com) for contemporary worship songs on them,"Eine Note im Kreis nach jeder Lesereihe, die bei Word to Worship (wordtoworship.com) neue geistliche Lieder dazu sucht"
 "The picture in the middle of the wheel. Each tradition has its own; any of them can be chosen. By season changes it with the day chosen: the wreath in Advent, the manger at Christmas, the empty tomb at Easter, and the church's own picture in the seasons that have none.","Das Bild in der Mitte des Rades. Jede Tradition hat ihr eigenes; jedes kann gewählt werden. „Nach Zeit“ wechselt es mit dem gewählten Tag: der Kranz im Advent, die Krippe zu Weihnachten, das leere Grab zu Ostern und das eigene Bild der Kirche in den Zeiten, die keines haben."
 "A thicker line where the year's last week meets its first, which are a year apart","Eine dickere Linie, wo die letzte Woche des Jahres auf die erste trifft, die ein Jahr auseinander liegen"
@@ -496,3 +496,8 @@ The suggested hymns for this day,Die vorgeschlagenen Lieder für diesen Tag
 shown this year,in diesem Jahr gezeigt
 the same as {0},dieselbe wie {0}
 Also on this day: {0},Ebenfalls an diesem Tag: {0}
+Music,Musik
+Suggested hymns,Liedvorschläge
+Hymnal topics,Gesangbuch-Themen
+"The hymns suggested for the day, year by year, under a Hymns tab (or after the readings), with the Hymn of the Day","Die für den Tag vorgeschlagenen Lieder, Jahr für Jahr, unter einem Reiter Lieder (oder nach den Lesungen), mit dem Wochenlied"
+"After the day's name, a hymnal mark for each section of the hymnal's index the day has (Advent, Reformation, a saint), opening its hymns","Nach dem Namen des Tages ein Gesangbuchzeichen für jeden Abschnitt im Register des Gesangbuchs, den der Tag hat (Advent, Reformation, ein Heiliger), der seine Lieder öffnet"

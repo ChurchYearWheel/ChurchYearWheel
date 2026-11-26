@@ -164,7 +164,7 @@ The hymnal's or prayer book's daily or weekday lectionary,Il lezionario quotidia
 How fast the sets slide between the columns when more or less is clicked (kept in this browser),Quanto velocemente le serie scorrono tra le colonne quando si fa clic su altro o meno (salvato in questo browser)
 "The parts of the service the church lists with each day's readings (an Introit, a Gradual and a Verse), on a line of their own after them; a set's heading opens only its readings together","Le parti della celebrazione che la chiesa elenca con le letture di ogni giorno (introito, graduale e versetto), su una riga propria dopo di esse; il titolo di una serie apre solo le sue letture insieme"
 A hymnal mark after each set of readings that searches Hymnary.org for the hymns on them in this church's hymnal,Un segno di innario dopo ogni serie di letture che cerca su Hymnary.org gli inni su di esse nell'innario di questa chiesa
-"The hymnal Hymn search looks in, where the church has several","L'innario in cui cerca la ricerca di inni, dove la chiesa ne ha più di uno"
+"The hymnal Hymn search and Hymnal topics look in, where the church has several","L'innario in cui cercano la ricerca degli inni e i temi dell'innario, se la chiesa ne ha più d'uno"
 A circled note after each set of readings that searches Word to Worship (wordtoworship.com) for contemporary worship songs on them,Una nota cerchiata dopo ogni serie di letture che cerca su Word to Worship (wordtoworship.com) canti di lode contemporanei su di esse
 "The picture in the middle of the wheel. Each tradition has its own; any of them can be chosen. By season changes it with the day chosen: the wreath in Advent, the manger at Christmas, the empty tomb at Easter, and the church's own picture in the seasons that have none.","L'immagine al centro della ruota. Ogni tradizione ha la sua; si può scegliere qualunque. «Per tempo» la cambia con il giorno scelto: la corona in Avvento, la mangiatoia a Natale, la tomba vuota a Pasqua e l'immagine propria della chiesa nei tempi che non ne hanno."
 "A thicker line where the year's last week meets its first, which are a year apart","Una linea più spessa dove l'ultima settimana dell'anno incontra la prima, che distano un anno"
@@ -496,3 +496,8 @@ The suggested hymns for this day,Gli inni suggeriti per questo giorno
 shown this year,mostrata quest'anno
 the same as {0},la stessa del {0}
 Also on this day: {0},Anche in questo giorno: {0}
+Music,Musica
+Suggested hymns,Inni suggeriti
+Hymnal topics,Temi dell'innario
+"The hymns suggested for the day, year by year, under a Hymns tab (or after the readings), with the Hymn of the Day","Gli inni suggeriti per il giorno, anno per anno, in una scheda Inni (o dopo le letture), con l'inno del giorno"
+"After the day's name, a hymnal mark for each section of the hymnal's index the day has (Advent, Reformation, a saint), opening its hymns","Dopo il nome del giorno, un segno dell'innario per ogni sezione dell'indice dell'innario che il giorno ha (Avvento, Riforma, un santo), che ne apre gli inni"

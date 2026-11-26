@@ -233,6 +233,9 @@ html:not(.cy-page) .cy-app .stage:not(.grabbable) { touch-action: pan-x pan-y; }
 .cy-app .panel .head { border-top: 1px solid var(--line); padding-top: .45rem;
        font-size: .9rem; color: var(--muted); }
 .cy-app .panel .group label.fixed { color: var(--muted); cursor: default; }
+/* Open in, first under Readings: its words in line with the boxes' names. */
+.cy-app .panel .group label.site { padding-left: calc(13px + .4rem); cursor: default; }
+.cy-app .panel .group label.site select { flex: 1; min-width: 0; width: auto; }
 .cy-app .stage.grabbable { cursor: grab; }
 .cy-app .stage.grabbable:active { cursor: grabbing; }
 .cy-app .hi-under { fill: none; stroke: #fff; stroke-width: 5; stroke-linejoin: round; }

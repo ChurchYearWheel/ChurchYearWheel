@@ -164,7 +164,7 @@ The hymnal's or prayer book's daily or weekday lectionary,Daglegir lestrar eða 
 How fast the sets slide between the columns when more or less is clicked (kept in this browser),Hversu hratt raðirnar renna milli dálka þegar smellt er á meira eða minna (vistað í þessum vafra)
 "The parts of the service the church lists with each day's readings (an Introit, a Gradual and a Verse), on a line of their own after them; a set's heading opens only its readings together","Þeir hlutar guðsþjónustunnar sem kirkjan tilgreinir með lestrum hvers dags (inngöngusálmur, millisöngur og vers), í eigin línu á eftir þeim; fyrirsögn raðar opnar aðeins lestra hennar saman"
 A hymnal mark after each set of readings that searches Hymnary.org for the hymns on them in this church's hymnal,Sálmabókarmerki á eftir hverri lestraröð sem leitar á Hymnary.org að sálmum um þá í sálmabók þessarar kirkju
-"The hymnal Hymn search looks in, where the church has several","Sálmabókin sem sálmaleitin leitar í, þar sem kirkjan hefur fleiri en eina"
+"The hymnal Hymn search and Hymnal topics look in, where the church has several","Sálmabókin sem sálmaleitin og efnisflokkar sálmabókarinnar leita í, þar sem kirkjan hefur fleiri en eina"
 A circled note after each set of readings that searches Word to Worship (wordtoworship.com) for contemporary worship songs on them,Nóta í hring á eftir hverri lestraröð sem leitar á Word to Worship (wordtoworship.com) að nýjum lofgjörðarsöngvum um þá
 "The picture in the middle of the wheel. Each tradition has its own; any of them can be chosen. By season changes it with the day chosen: the wreath in Advent, the manger at Christmas, the empty tomb at Easter, and the church's own picture in the seasons that have none.","Myndin í miðju hjólsins. Hver hefð á sína; velja má hverja sem er. „Eftir tímabili“ skiptir henni eftir völdum degi: kransinn á aðventu, jatan á jólum, tóma gröfin á páskum og eigin mynd kirkjunnar á tímabilum sem hafa enga."
 "A thicker line where the year's last week meets its first, which are a year apart","Þykkari lína þar sem síðasta vika ársins mætir þeirri fyrstu, sem eru ár hvor frá annarri"
@@ -496,3 +496,8 @@ The suggested hymns for this day,Tillögur að sálmum fyrir þennan dag
 shown this year,sýndur í ár
 the same as {0},sá sami og {0}
 Also on this day: {0},Einnig þennan dag: {0}
+Music,Tónlist
+Suggested hymns,Tillögur að sálmum
+Hymnal topics,Efnisflokkar sálmabókar
+"The hymns suggested for the day, year by year, under a Hymns tab (or after the readings), with the Hymn of the Day","Sálmarnir sem stungið er upp á fyrir daginn, ár fyrir ár, á flipanum Sálmar (eða á eftir lestrunum), með sálmi dagsins"
+"After the day's name, a hymnal mark for each section of the hymnal's index the day has (Advent, Reformation, a saint), opening its hymns","Á eftir heiti dagsins sálmabókarmerki fyrir hvern hluta efnisskrár sálmabókarinnar sem dagurinn á (aðventa, siðbót, dýrlingur), sem opnar sálma hans"

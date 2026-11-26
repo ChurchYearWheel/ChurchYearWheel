@@ -164,7 +164,7 @@ The hymnal's or prayer book's daily or weekday lectionary,Az énekeskönyv vagy 
 How fast the sets slide between the columns when more or less is clicked (kept in this browser),Milyen gyorsan csúsznak a sorozatok az oszlopok között a több vagy kevesebb gombra kattintva (ebben a böngészőben tárolva)
 "The parts of the service the church lists with each day's readings (an Introit, a Gradual and a Verse), on a line of their own after them; a set's heading opens only its readings together","Az istentisztelet részei, amelyeket az egyház minden nap olvasmányaival felsorol (introitus, graduale és vers), saját sorban utánuk; egy sorozat címe csak annak olvasmányait nyitja meg együtt"
 A hymnal mark after each set of readings that searches Hymnary.org for the hymns on them in this church's hymnal,"Énekeskönyv-jel minden olvasmánysorozat után, amely a Hymnary.org oldalon keres hozzájuk illő énekeket ennek az egyháznak az énekeskönyvében"
-"The hymnal Hymn search looks in, where the church has several","Az énekeskönyv, amelyben az énekkeresés keres, ha az egyháznak több van"
+"The hymnal Hymn search and Hymnal topics look in, where the church has several","Az énekeskönyv, amelyben az énekkeresés és az énekeskönyv témái keresnek, ha az egyháznak több is van"
 A circled note after each set of readings that searches Word to Worship (wordtoworship.com) for contemporary worship songs on them,"Bekarikázott hangjegy minden olvasmánysorozat után, amely a Word to Worship oldalon (wordtoworship.com) keres hozzájuk mai dicsőítő énekeket"
 "The picture in the middle of the wheel. Each tradition has its own; any of them can be chosen. By season changes it with the day chosen: the wreath in Advent, the manger at Christmas, the empty tomb at Easter, and the church's own picture in the seasons that have none.","A kép a kerék közepén. Minden hagyománynak saját van; bármelyik választható. Az „Időszak szerint” a választott nappal változtatja: koszorú adventben, jászol karácsonykor, az üres sír húsvétkor, és az egyház saját képe azokban az időszakokban, amelyeknek nincs."
 "A thicker line where the year's last week meets its first, which are a year apart","Vastagabb vonal ott, ahol az év utolsó hete találkozik az elsővel, amelyek között egy év van"
@@ -496,3 +496,8 @@ The suggested hymns for this day,A nap javasolt énekei
 shown this year,idén látható
 the same as {0},"ugyanaz, mint {0}"
 Also on this day: {0},Ugyanezen a napon: {0}
+Music,Zene
+Suggested hymns,Javasolt énekek
+Hymnal topics,Az énekeskönyv témái
+"The hymns suggested for the day, year by year, under a Hymns tab (or after the readings), with the Hymn of the Day","A napra javasolt énekek évről évre, az Énekek fülön (vagy az olvasmányok után), a nap énekével"
+"After the day's name, a hymnal mark for each section of the hymnal's index the day has (Advent, Reformation, a saint), opening its hymns","A nap neve után énekeskönyv-jel az énekeskönyv mutatójának minden olyan részéhez, amely a napé (advent, reformáció, egy szent), és megnyitja az énekeit"

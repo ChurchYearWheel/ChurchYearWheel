@@ -164,7 +164,7 @@ The hymnal's or prayer book's daily or weekday lectionary,Virsikirjan tai rukous
 How fast the sets slide between the columns when more or less is clicked (kept in this browser),"Kuinka nopeasti sarjat liukuvat sarakkeiden välillä, kun napsautetaan enemmän tai vähemmän (tallennetaan tähän selaimeen)"
 "The parts of the service the church lists with each day's readings (an Introit, a Gradual and a Verse), on a line of their own after them; a set's heading opens only its readings together","Jumalanpalveluksen osat, jotka kirkko luettelee kunkin päivän lukukappaleiden kanssa (introitus, graduale ja jae), omalla rivillään niiden jälkeen; sarjan otsikko avaa vain sen lukukappaleet yhdessä"
 A hymnal mark after each set of readings that searches Hymnary.org for the hymns on them in this church's hymnal,"Virsikirjamerkki jokaisen lukukappalesarjan perässä, joka hakee Hymnary.orgista niihin liittyviä virsiä tämän kirkon virsikirjasta"
-"The hymnal Hymn search looks in, where the church has several","Virsikirja, josta virsihaku hakee, jos kirkolla on useita"
+"The hymnal Hymn search and Hymnal topics look in, where the church has several","Virsikirja, josta virsihaku ja virsikirjan aiheet hakevat, jos kirkolla on useita"
 A circled note after each set of readings that searches Word to Worship (wordtoworship.com) for contemporary worship songs on them,"Ympyröity nuotti jokaisen lukukappalesarjan perässä, joka hakee Word to Worshipista (wordtoworship.com) niihin liittyviä nykyisiä ylistyslauluja"
 "The picture in the middle of the wheel. Each tradition has its own; any of them can be chosen. By season changes it with the day chosen: the wreath in Advent, the manger at Christmas, the empty tomb at Easter, and the church's own picture in the seasons that have none.","Kuva pyörän keskellä. Jokaisella perinteellä on omansa; mikä tahansa voidaan valita. ”Ajan mukaan” vaihtaa sen valitun päivän mukaan: seppele adventtina, seimi jouluna, tyhjä hauta pääsiäisenä ja kirkon oma kuva ajoissa, joilla ei ole omaa."
 "A thicker line where the year's last week meets its first, which are a year apart","Paksumpi viiva, jossa vuoden viimeinen viikko kohtaa ensimmäisen, joiden välillä on vuosi"
@@ -496,3 +496,8 @@ The suggested hymns for this day,Tämän päivän ehdotetut virret
 shown this year,näytetään tänä vuonna
 the same as {0},sama kuin {0}
 Also on this day: {0},Samana päivänä myös: {0}
+Music,Musiikki
+Suggested hymns,Ehdotetut virret
+Hymnal topics,Virsikirjan aiheet
+"The hymns suggested for the day, year by year, under a Hymns tab (or after the readings), with the Hymn of the Day",Päivälle ehdotetut virret vuosi vuodelta Virret-välilehdellä (tai lukujen jälkeen) päivän virren kera
+"After the day's name, a hymnal mark for each section of the hymnal's index the day has (Advent, Reformation, a saint), opening its hymns","Päivän nimen jälkeen virsikirjamerkki jokaiselle virsikirjan hakemiston osalle, joka päivällä on (adventti, uskonpuhdistus, pyhimys), ja se avaa sen virret"

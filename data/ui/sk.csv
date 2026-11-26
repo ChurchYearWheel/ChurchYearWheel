@@ -164,7 +164,7 @@ The hymnal's or prayer book's daily or weekday lectionary,Denné alebo všednode
 How fast the sets slide between the columns when more or less is clicked (kept in this browser),Ako rýchlo sa rady posúvajú medzi stĺpcami po kliknutí na viac alebo menej (uložené v tomto prehliadači)
 "The parts of the service the church lists with each day's readings (an Introit, a Gradual and a Verse), on a line of their own after them; a set's heading opens only its readings together","Časti bohoslužby, ktoré cirkev uvádza s čítaniami každého dňa (introit, graduál a verš), na vlastnom riadku za nimi; nadpis radu otvára len jeho čítania spolu"
 A hymnal mark after each set of readings that searches Hymnary.org for the hymns on them in this church's hymnal,"Značka spevníka za každým radom čítaní, ktorá hľadá na Hymnary.org piesne k nim v spevníku tejto cirkvi"
-"The hymnal Hymn search looks in, where the church has several","Spevník, v ktorom hľadá Hľadanie piesní, ak má cirkev viac spevníkov"
+"The hymnal Hymn search and Hymnal topics look in, where the church has several","Spevník, v ktorom hľadá vyhľadávanie piesní a témy spevníka, ak má cirkev viac spevníkov"
 A circled note after each set of readings that searches Word to Worship (wordtoworship.com) for contemporary worship songs on them,"Nota v krúžku za každým radom čítaní, ktorá hľadá na Word to Worship (wordtoworship.com) súčasné chválospevy k nim"
 "The picture in the middle of the wheel. Each tradition has its own; any of them can be chosen. By season changes it with the day chosen: the wreath in Advent, the manger at Christmas, the empty tomb at Easter, and the church's own picture in the seasons that have none.","Obrázok v strede kolesa. Každá tradícia má svoj; vybrať možno ktorýkoľvek. „Podľa obdobia“ ho mení s vybraným dňom: veniec v advente, jasličky na Vianoce, prázdny hrob na Veľkú noc a vlastný obrázok cirkvi v obdobiach, ktoré žiadny nemajú."
 "A thicker line where the year's last week meets its first, which are a year apart","Hrubšia čiara, kde sa posledný týždeň roka stretáva s prvým, ktoré delí rok"
@@ -496,3 +496,8 @@ The suggested hymns for this day,Navrhnuté piesne pre tento deň
 shown this year,zobrazený tento rok
 the same as {0},rovnaký ako {0}
 Also on this day: {0},V tento deň aj: {0}
+Music,Hudba
+Suggested hymns,Navrhované piesne
+Hymnal topics,Témy spevníka
+"The hymns suggested for the day, year by year, under a Hymns tab (or after the readings), with the Hymn of the Day","Piesne navrhované na deň, rok po roku, na karte Piesne (alebo po čítaniach), s piesňou dňa"
+"After the day's name, a hymnal mark for each section of the hymnal's index the day has (Advent, Reformation, a saint), opening its hymns","Za názvom dňa značka spevníka pre každú časť registra spevníka, ktorú deň má (advent, reformácia, svätý), ktorá otvorí jej piesne"

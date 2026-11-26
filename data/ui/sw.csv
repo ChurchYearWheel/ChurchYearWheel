@@ -164,7 +164,7 @@ The hymnal's or prayer book's daily or weekday lectionary,Mpangilio wa masomo wa
 How fast the sets slide between the columns when more or less is clicked (kept in this browser),Jinsi mifululizo inavyoteleza kwa haraka kati ya safu unapobofya zaidi au punguza (huhifadhiwa katika kivinjari hiki)
 "The parts of the service the church lists with each day's readings (an Introit, a Gradual and a Verse), on a line of their own after them; a set's heading opens only its readings together","Sehemu za ibada ambazo kanisa linaorodhesha pamoja na masomo ya kila siku (introitus, gradual na mstari), kwenye mstari wake baada yake; kichwa cha mfululizo kinafungua masomo yake tu pamoja"
 A hymnal mark after each set of readings that searches Hymnary.org for the hymns on them in this church's hymnal,Alama ya kitabu cha nyimbo baada ya kila mfululizo wa masomo inayotafuta kwenye Hymnary.org nyimbo kuhusu masomo hayo katika kitabu cha nyimbo cha kanisa hili
-"The hymnal Hymn search looks in, where the church has several","Kitabu cha nyimbo ambacho Kutafuta nyimbo kinatafuta, pale kanisa lina vitabu kadhaa"
+"The hymnal Hymn search and Hymnal topics look in, where the church has several","Kitabu cha nyimbo ambamo utafutaji wa nyimbo na mada za kitabu cha nyimbo hutafuta, kanisa likiwa na vingi"
 A circled note after each set of readings that searches Word to Worship (wordtoworship.com) for contemporary worship songs on them,Noti ndani ya duara baada ya kila mfululizo wa masomo inayotafuta kwenye Word to Worship (wordtoworship.com) nyimbo za kisasa za sifa kuhusu masomo hayo
 "The picture in the middle of the wheel. Each tradition has its own; any of them can be chosen. By season changes it with the day chosen: the wreath in Advent, the manger at Christmas, the empty tomb at Easter, and the church's own picture in the seasons that have none.","Picha katikati ya gurudumu. Kila mapokeo yana yake; yoyote inaweza kuchaguliwa. «Kwa majira» huibadilisha kulingana na siku iliyochaguliwa: shada katika Majilio, hori wakati wa Krismasi, kaburi tupu wakati wa Pasaka, na picha ya kanisa lenyewe katika majira yasiyo na picha."
 "A thicker line where the year's last week meets its first, which are a year apart","Mstari mnene mahali wiki ya mwisho ya mwaka inapokutana na ya kwanza, zilizo mbali kwa mwaka mmoja"
@@ -496,3 +496,8 @@ The suggested hymns for this day,Nyimbo zilizopendekezwa kwa siku hii
 shown this year,imeonyeshwa mwaka huu
 the same as {0},sawa na {0}
 Also on this day: {0},Pia siku hii: {0}
+Music,Muziki
+Suggested hymns,Nyimbo zinazopendekezwa
+Hymnal topics,Mada za kitabu cha nyimbo
+"The hymns suggested for the day, year by year, under a Hymns tab (or after the readings), with the Hymn of the Day","Nyimbo zinazopendekezwa kwa siku hiyo, mwaka baada ya mwaka, chini ya kichupo Nyimbo (au baada ya masomo), pamoja na Wimbo wa Siku"
+"After the day's name, a hymnal mark for each section of the hymnal's index the day has (Advent, Reformation, a saint), opening its hymns","Baada ya jina la siku, alama ya kitabu cha nyimbo kwa kila sehemu ya faharasa ya kitabu cha nyimbo iliyo na siku hiyo (Majilio, Matengenezo, mtakatifu), inayofungua nyimbo zake"
