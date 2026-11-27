@@ -1,5 +1,20 @@
 # Changelog
 
+## 2026-11 (144) — review fixes
+
+### Fixed
+
+- **A wheel set into someone else's page changed that site's tab icon.**
+  The icon is now set only by a wheel that owns the page (the full page, or
+  a fragment that is the whole page's content), as the tab's title already
+  was; a parish site keeps its own icon.
+- **The translated user guides said `songs` switched the hymn and song
+  search marks.** It has only ever switched Word to Worship's; with `hymns`
+  now listed beside it, the 18 translations say contemporary songs.
+- **The translated guides' note on T, F and W left out S**, and the English
+  one still spoke of "the key in the T, F or W place"; all 19 now name S
+  (on a Ukrainian layout, І).
+
 ## 2026-11 (143) — a tab icon
 
 ### Added

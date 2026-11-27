@@ -65,10 +65,10 @@ das Rad, wenn es in eine andere Webseite eingebettet ist).
 | 0 | wieder das ganze Rad (1×, zentriert); noch einmal gedrückt, zurück zur vorigen Vergrößerung (oder der der Seite) |
 | Esc | das Fenster Farben schließen, dann die Einstellungen |
 
-T, F und W kommen aus dem Englischen (Today = heute, Find = suchen, Week =
-Woche) und sind in jeder Sprache der Seite dieselben. Sie funktionieren auf
-jeder Tastatur: auf einer, die dort ein anderes Alphabet schreibt (etwa
-Kyrillisch), wirkt die Taste an der Stelle von T, F oder W.
+T, S, F und W kommen aus dem Englischen (Today = heute, Sunday = Sonntag, Find
+= suchen, Week = Woche) und sind in jeder Sprache der Seite dieselben. Sie
+funktionieren auf jeder Tastatur: auf einer, die dort ein anderes Alphabet
+schreibt (etwa Kyrillisch), wirkt die Taste an der Stelle von T, S, F oder W.
 
 Die Pfeiltasten bleiben im Kirchenjahr auf dem Rad: nach seiner letzten Woche
 kommen sie zu seiner ersten zurück und von der ersten zur letzten, wie das Rad.
@@ -205,7 +205,7 @@ Ein bloßes Datum (oder `today`) nach dem `#` wirkt wie `date=`.
 | `readings` | `none`, um sie zu verbergen, oder die zu zeigenden Arten (`day,feasts`) oder die wegzulassenden (`-daily,-office`): `day`, `feasts`, `dated`, `daily`, `additional`, `psalms`, `plan`, `office`; weggelassen, solange alle gezeigt werden |
 | `bible` | eine Übersetzung: `ESV`, `KJV`, `NRSVUE` ... |
 | `bibleat` | `biblegateway` oder `youversion` |
-| `songs` | `1` oder `0`: die Zeichen der Lied- und Songsuche an oder aus |
+| `songs` | `1` oder `0`: die Zeichen der Suche nach neuen Liedern an oder aus |
 | `hymns` | `1` oder `0`: die Zeichen der Liedsuche an oder aus |
 | `suggest` | `0`: keine Liedvorschläge (kein Reiter Lieder) |
 | `topics` | `0`: keine Gesangbuch-Themen nach dem Namen des Tages |

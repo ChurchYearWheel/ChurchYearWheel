@@ -64,10 +64,10 @@ ela estiver dentro de outra página).
 | 0 | a roda inteira de novo (1×, centralizada); pressionada outra vez, volta ao zoom anterior (ou ao da página) |
 | Esc | fecha a janela Cores, depois as configurações |
 
-T, F e W vêm do inglês (Today = hoje, Find = procurar, Week = semana) e são
-as mesmas em todos os idiomas da página. Funcionam em qualquer teclado: num
-que escreve outro alfabeto nesse lugar (o cirílico, por exemplo), vale a tecla
-que fica no lugar do T, do F ou do W.
+T, S, F e W vêm do inglês (Today = hoje, Sunday = domingo, Find = procurar,
+Week = semana) e são as mesmas em todos os idiomas da página. Funcionam em
+qualquer teclado: num que escreve outro alfabeto nesse lugar (o cirílico, por
+exemplo), vale a tecla que fica no lugar do T, do S, do F ou do W.
 
 As setas ficam no ano litúrgico da roda: depois da última semana voltam para a
 primeira, e da primeira para a última, como a roda. Page Up e Page Down, e os
@@ -201,7 +201,7 @@ Uma data sozinha (ou `today`) depois do `#` funciona como `date=`.
 | `readings` | `none` para ocultá-las, ou os tipos a mostrar (`day,feasts`) ou a deixar de fora (`-daily,-office`): `day`, `feasts`, `dated`, `daily`, `additional`, `psalms`, `plan`, `office`; omitido enquanto todos são mostrados |
 | `bible` | uma versão: `ESV`, `KJV`, `NRSVUE` ... |
 | `bibleat` | `biblegateway` ou `youversion` |
-| `songs` | `1` ou `0`: as marcas de busca de hinos e cânticos ligadas ou não |
+| `songs` | `1` ou `0`: as marcas de busca de cânticos contemporâneos ligadas ou não |
 | `hymns` | `1` ou `0`: as marcas de busca de hinos ligadas ou não |
 | `suggest` | `0`: sem hinos sugeridos (sem separador Hinos) |
 | `topics` | `0`: sem marcas de temas do hinário depois do nome do dia |

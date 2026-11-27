@@ -61,10 +61,10 @@ webovej stránky, najprv naň kliknite).
 | 0 | opäť celé koleso (1×, v strede); stlačte znova, aby ste sa vrátili k priblíženiu, ktoré ste opustili (alebo k priblíženiu stránky) |
 | Esc | zavrieť okno Farby, potom nastavenia |
 
-T, F a W pochádzajú z angličtiny (Today = dnes, Find = nájsť, Week = týždeň)
-a sú rovnaké vo všetkých jazykoch stránky. Fungujú na akejkoľvek klávesnici:
-na takej, ktorá na tých miestach píše inú abecedu (napríklad cyriliku), platí
-kláves na mieste T, F alebo W.
+T, S, F a W pochádzajú z angličtiny (Today = dnes, Sunday = nedeľa, Find =
+nájsť, Week = týždeň) a sú rovnaké vo všetkých jazykoch stránky. Fungujú na
+akejkoľvek klávesnici: na takej, ktorá na tých miestach píše inú abecedu
+(napríklad cyriliku), platí kláves na mieste T, S, F alebo W.
 
 Šípky zostávajú v cirkevnom roku kolesa: po poslednom týždni sa vrátia na
 prvý a z prvého na posledný, ako koleso. Page Up a Page Down a tlačidlá ◀ ▶ na
@@ -195,7 +195,7 @@ Samotný dátum (alebo `today`) za `#` funguje ako `date=`.
 | `readings` | `none` na ich skrytie, alebo druhy, ktoré sa majú zobraziť (`day,feasts`) či vynechať (`-daily,-office`): `day`, `feasts`, `dated`, `daily`, `additional`, `psalms`, `plan`, `office`; vynechané, kým sú zobrazené všetky |
 | `bible` | preklad: `ESV`, `KJV`, `NRSVUE` ... |
 | `bibleat` | `biblegateway` alebo `youversion` |
-| `songs` | `1` alebo `0`: značky hľadania piesní a chválospevov zapnuté alebo vypnuté |
+| `songs` | `1` alebo `0`: značky hľadania súčasných chválospevov zapnuté alebo vypnuté |
 | `hymns` | `1` alebo `0`: značky hľadania piesní zapnuté alebo vypnuté |
 | `suggest` | `0`: bez navrhovaných piesní (bez karty Piesne) |
 | `topics` | `0`: bez značiek tém spevníka za názvom dňa |

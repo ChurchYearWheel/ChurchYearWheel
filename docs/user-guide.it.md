@@ -64,10 +64,11 @@ ruota se è inserita in un'altra pagina web).
 | 0 | di nuovo tutta la ruota (1×, centrata); premuto ancora, torna allo zoom lasciato (o a quello della pagina) |
 | Esc | chiude la finestra Colori, poi le impostazioni |
 
-T, F e W vengono dall'inglese (Today = oggi, Find = cerca, Week = settimana) e
-sono le stesse in ogni lingua della pagina. Funzionano su qualunque tastiera:
-su una che lì scrive un altro alfabeto (il cirillico, per esempio), vale il
-tasto al posto della T, della F o della W.
+T, S, F e W vengono dall'inglese (Today = oggi, Sunday = domenica, Find =
+cerca, Week = settimana) e sono le stesse in ogni lingua della pagina.
+Funzionano su qualunque tastiera: su una che lì scrive un altro alfabeto (il
+cirillico, per esempio), vale il tasto al posto della T, della S, della F o
+della W.
 
 Le frecce restano nell'anno liturgico della ruota: dopo l'ultima settimana
 tornano alla prima, e dalla prima all'ultima, come la ruota. Pag Su e Pag Giù,
@@ -203,7 +204,7 @@ Una data sola (o `today`) dopo il `#` funziona come `date=`.
 | `readings` | `none` per nasconderle, o i tipi da mostrare (`day,feasts`) o da omettere (`-daily,-office`): `day`, `feasts`, `dated`, `daily`, `additional`, `psalms`, `plan`, `office`; omesso finché sono mostrati tutti |
 | `bible` | una versione: `ESV`, `KJV`, `NRSVUE` ... |
 | `bibleat` | `biblegateway` o `youversion` |
-| `songs` | `1` o `0`: i segni della ricerca di inni e canti accesi o spenti |
+| `songs` | `1` o `0`: i segni della ricerca di canti contemporanei accesi o spenti |
 | `hymns` | `1` o `0`: i segni della ricerca di inni accesi o spenti |
 | `suggest` | `0`: nessun inno suggerito (nessuna scheda Inni) |
 | `topics` | `0`: nessun segno dei temi dell'innario dopo il nome del giorno |

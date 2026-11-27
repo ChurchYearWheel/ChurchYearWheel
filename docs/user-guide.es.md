@@ -64,10 +64,10 @@ en la rueda si está dentro de otra página web).
 | 0 | otra vez toda la rueda (1×, centrada); pulsada de nuevo, vuelve al zoom que dejó (o al de la página) |
 | Esc | cerrar la ventana Colores, luego los ajustes |
 
-T, F y W vienen del inglés (Today = hoy, Find = buscar, Week = semana) y son
-las mismas en todos los idiomas de la página. Funcionan en cualquier teclado:
-en uno que escribe otro alfabeto en ese lugar (el cirílico, por ejemplo), sirve
-la tecla que ocupa el lugar de la T, la F o la W.
+T, S, F y W vienen del inglés (Today = hoy, Sunday = domingo, Find = buscar,
+Week = semana) y son las mismas en todos los idiomas de la página. Funcionan en
+cualquier teclado: en uno que escribe otro alfabeto en ese lugar (el cirílico,
+por ejemplo), sirve la tecla que ocupa el lugar de la T, la S, la F o la W.
 
 Las flechas se quedan en el año litúrgico de la rueda: pasada su última semana
 vuelven a la primera, y desde la primera a la última, como la rueda. Re Pág y
@@ -203,7 +203,7 @@ Una fecha sola (o `today`) después del `#` funciona como `date=`.
 | `readings` | `none` para ocultarlas, o los tipos que mostrar (`day,feasts`) u omitir (`-daily,-office`): `day`, `feasts`, `dated`, `daily`, `additional`, `psalms`, `plan`, `office`; se omite mientras se muestran todos |
 | `bible` | una versión: `ESV`, `KJV`, `NRSVUE` ... |
 | `bibleat` | `biblegateway` o `youversion` |
-| `songs` | `1` o `0`: las marcas de búsqueda de himnos y cantos activadas o no |
+| `songs` | `1` o `0`: las marcas de búsqueda de cantos contemporáneos activadas o no |
 | `hymns` | `1` o `0`: las marcas de búsqueda de himnos activadas o no |
 | `suggest` | `0`: sin himnos sugeridos (sin pestaña Himnos) |
 | `topics` | `0`: sin marcas de temas del himnario tras el nombre del día |

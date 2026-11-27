@@ -65,10 +65,11 @@ disematkan di halaman web lain).
 | 0 | seluruh roda lagi (1×, di tengah); tekan lagi untuk kembali ke perbesaran yang Anda tinggalkan (atau perbesaran halaman) |
 | Esc | menutup jendela Warna, lalu pengaturan |
 
-T, F, dan W berasal dari bahasa Inggris (Today = hari ini, Find = cari, Week =
-minggu) dan sama di setiap bahasa halaman. Tombol-tombol ini bekerja di
-keyboard apa pun: di keyboard yang menulis abjad lain di tempat itu (misalnya
-Sirilik), tombol di posisi T, F, atau W yang berlaku.
+T, S, F, dan W berasal dari bahasa Inggris (Today = hari ini, Sunday = hari
+Minggu, Find = cari, Week = minggu) dan sama di setiap bahasa halaman.
+Tombol-tombol ini bekerja di keyboard apa pun: di keyboard yang menulis abjad
+lain di tempat itu (misalnya Sirilik), tombol di posisi T, S, F, atau W yang
+berlaku.
 
 Tombol panah tetap di dalam tahun gerejawi roda: setelah minggu terakhir,
 panah kembali ke minggu pertama, dan dari yang pertama ke yang terakhir,
@@ -203,7 +204,7 @@ Tanggal saja (atau `today`) setelah `#` berfungsi seperti `date=`.
 | `readings` | `none` untuk menyembunyikannya, atau jenis yang ditampilkan (`day,feasts`) atau dihilangkan (`-daily,-office`): `day`, `feasts`, `dated`, `daily`, `additional`, `psalms`, `plan`, `office`; dihilangkan selama semuanya tampil |
 | `bible` | terjemahan: `ESV`, `KJV`, `NRSVUE` ... |
 | `bibleat` | `biblegateway` atau `youversion` |
-| `songs` | `1` atau `0`: tanda pencarian nyanyian dan lagu nyala atau mati |
+| `songs` | `1` atau `0`: tanda pencarian lagu pujian kontemporer nyala atau mati |
 | `hymns` | `1` atau `0`: tanda pencarian himne nyala atau mati |
 | `suggest` | `0`: tanpa himne yang disarankan (tanpa tab Himne) |
 | `topics` | `0`: tanpa tanda topik buku nyanyian sesudah nama hari |

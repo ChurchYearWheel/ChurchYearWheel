@@ -65,10 +65,11 @@ se on upotettu toiselle verkkosivulle).
 | 0 | taas koko pyörä (1×, keskitettynä); paina uudelleen palataksesi jättämääsi zoomaukseen (tai sivun omaan) |
 | Esc | sulje Värit-ikkuna, sitten asetukset |
 
-T, F ja W tulevat englannista (Today = tänään, Find = etsi, Week = viikko) ja
-ovat samat kaikilla sivun kielillä. Ne toimivat millä tahansa näppäimistöllä:
-näppäimistöllä, joka kirjoittaa niissä kohdissa toista aakkostoa (esimerkiksi
-kyrillistä), toimii T:n, F:n tai W:n paikalla oleva näppäin.
+T, S, F ja W tulevat englannista (Today = tänään, Sunday = sunnuntai, Find =
+etsi, Week = viikko) ja ovat samat kaikilla sivun kielillä. Ne toimivat millä
+tahansa näppäimistöllä: näppäimistöllä, joka kirjoittaa niissä kohdissa toista
+aakkostoa (esimerkiksi kyrillistä), toimii T:n, S:n, F:n tai W:n paikalla oleva
+näppäin.
 
 Nuolinäppäimet pysyvät pyörän kirkkovuodessa: viimeisen viikon jälkeen ne
 palaavat ensimmäiseen ja ensimmäisestä viimeiseen, kuten pyörä. Page Up ja
@@ -202,7 +203,7 @@ Pelkkä päivämäärä (tai `today`) `#`-merkin jälkeen toimii kuin `date=`.
 | `readings` | `none` piilottaa ne, tai näytettävät (`day,feasts`) tai pois jätettävät (`-daily,-office`) lajit: `day`, `feasts`, `dated`, `daily`, `additional`, `psalms`, `plan`, `office`; jätetään pois, kun kaikki näytetään |
 | `bible` | käännös: `ESV`, `KJV`, `NRSVUE` ... |
 | `bibleat` | `biblegateway` tai `youversion` |
-| `songs` | `1` tai `0`: virsi- ja ylistyslaulujen hakumerkit päällä tai pois |
+| `songs` | `1` tai `0`: nykyaikaisten ylistyslaulujen hakumerkit päällä tai pois |
 | `hymns` | `1` tai `0`: virsihaun merkit päällä tai pois |
 | `suggest` | `0`: ei ehdotettuja virsiä (ei Virret-välilehteä) |
 | `topics` | `0`: ei virsikirjan aihemerkkejä päivän nimen jälkeen |

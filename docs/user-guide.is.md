@@ -61,10 +61,10 @@ Lyklarnir virka þegar síðan hefur fókus (smelltu fyrst á hjólið ef það 
 | 0 | allt hjólið aftur (1×, fyrir miðju); ýttu aftur til að fara í aðdráttinn sem þú yfirgafst (eða aðdrátt síðunnar) |
 | Esc | loka glugganum Litir, síðan stillingunum |
 
-T, F og W koma úr ensku (Today = í dag, Find = finna, Week = vika) og eru eins
-á öllum tungumálum síðunnar. Þeir virka á hvaða lyklaborði sem er: á
-lyklaborði sem skrifar annað stafróf á þeim stöðum (kyrillískt, til dæmis)
-gildir lykillinn í stað T, F eða W.
+T, S, F og W koma úr ensku (Today = í dag, Sunday = sunnudagur, Find = finna,
+Week = vika) og eru eins á öllum tungumálum síðunnar. Þeir virka á hvaða
+lyklaborði sem er: á lyklaborði sem skrifar annað stafróf á þeim stöðum
+(kyrillískt, til dæmis) gildir lykillinn í stað T, S, F eða W.
 
 Örvalyklarnir halda sig við kirkjuár hjólsins: eftir síðustu vikuna fara þeir
 aftur í þá fyrstu, og frá þeirri fyrstu í þá síðustu, eins og hjólið. Page Up
@@ -195,7 +195,7 @@ Dagsetning ein og sér (eða `today`) á eftir `#` virkar eins og `date=`.
 | `readings` | `none` til að fela þá, eða tegundirnar sem á að sýna (`day,feasts`) eða sleppa (`-daily,-office`): `day`, `feasts`, `dated`, `daily`, `additional`, `psalms`, `plan`, `office`; sleppt á meðan allar eru sýndar |
 | `bible` | þýðing: `ESV`, `KJV`, `NRSVUE` ... |
 | `bibleat` | `biblegateway` eða `youversion` |
-| `songs` | `1` eða `0`: tákn sálma- og söngvaleitar á eða af |
+| `songs` | `1` eða `0`: tákn leitar að nýrri lofsöngvum á eða af |
 | `hymns` | `1` eða `0`: tákn sálmaleitar á eða af |
 | `suggest` | `0`: engar tillögur að sálmum (enginn Sálmar-flipi) |
 | `topics` | `0`: engin efnisflokkamerki á eftir heiti dagsins |

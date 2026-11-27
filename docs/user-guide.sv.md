@@ -62,10 +62,10 @@ inbäddat i en annan webbsida).
 | 0 | hela hjulet igen (1×, centrerat); tryck igen för att återgå till den zoom du lämnade (eller sidans) |
 | Esc | stäng fönstret Färger, sedan inställningarna |
 
-T, F och W kommer från engelskan (Today = idag, Find = hitta, Week = vecka)
-och är desamma på alla språk sidan talar. De fungerar på alla tangentbord: på
-ett som skriver ett annat alfabet där (kyrilliskt, till exempel) gäller
-tangenten på T:s, F:s eller W:s plats.
+T, S, F och W kommer från engelskan (Today = idag, Sunday = söndag, Find =
+hitta, Week = vecka) och är desamma på alla språk sidan talar. De fungerar på
+alla tangentbord: på ett som skriver ett annat alfabet där (kyrilliskt, till
+exempel) gäller tangenten på T:s, S:s, F:s eller W:s plats.
 
 Piltangenterna stannar i hjulets kyrkoår: efter den sista veckan går de
 tillbaka till den första, och från den första till den sista, som hjulet. Page
@@ -195,7 +195,7 @@ Ett datum ensamt (eller `today`) efter `#` fungerar som `date=`.
 | `readings` | `none` för att dölja dem, eller typerna som ska visas (`day,feasts`) eller utelämnas (`-daily,-office`): `day`, `feasts`, `dated`, `daily`, `additional`, `psalms`, `plan`, `office`; utelämnad så länge alla visas |
 | `bible` | en översättning: `ESV`, `KJV`, `NRSVUE` ... |
 | `bibleat` | `biblegateway` eller `youversion` |
-| `songs` | `1` eller `0`: tecknen för psalm- och lovsångssökning på eller av |
+| `songs` | `1` eller `0`: tecknen för sökning efter nyare lovsånger på eller av |
 | `hymns` | `1` eller `0`: psalmsökningens tecken på eller av |
 | `suggest` | `0`: inga föreslagna psalmer (ingen Psalmer-flik) |
 | `topics` | `0`: inga psalmboksämnen efter dagens namn |

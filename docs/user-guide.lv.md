@@ -61,10 +61,10 @@ iegults citā tīmekļa lapā).
 | 0 | atkal viss rats (1×, centrā); nospied vēlreiz, lai atgrieztos pie atstātās tālummaiņas (vai lapas) |
 | Esc | aizvērt logu Krāsas, tad iestatījumus |
 
-T, F un W nāk no angļu valodas (Today = šodien, Find = atrast, Week = nedēļa) un
-ir vienādi visās valodās, ko lapa runā. Tie darbojas jebkurā tastatūrā:
-tastatūrā, kas tajās vietās raksta citu alfabētu (piemēram, kirilicu), der
-taustiņš T, F vai W vietā.
+T, S, F un W nāk no angļu valodas (Today = šodien, Sunday = svētdiena, Find =
+atrast, Week = nedēļa) un ir vienādi visās valodās, ko lapa runā. Tie darbojas
+jebkurā tastatūrā: tastatūrā, kas tajās vietās raksta citu alfabētu (piemēram,
+kirilicu), der taustiņš T, S, F vai W vietā.
 
 Bultiņu taustiņi paliek rata baznīcas gadā: pēc pēdējās nedēļas tie atgriežas
 pirmajā un no pirmās pēdējā, kā rats. Page Up un Page Down, kā arī pogas ◀ ▶
@@ -193,7 +193,7 @@ Datums viens pats (vai `today`) pēc `#` darbojas kā `date=`.
 | `readings` | `none`, lai tos paslēptu, vai veidi, ko rādīt (`day,feasts`) vai izlaist (`-daily,-office`): `day`, `feasts`, `dated`, `daily`, `additional`, `psalms`, `plan`, `office`; izlaists, kamēr rādīti visi |
 | `bible` | tulkojums: `ESV`, `KJV`, `NRSVUE` ... |
 | `bibleat` | `biblegateway` vai `youversion` |
-| `songs` | `1` vai `0`: dziesmu un slavas dziesmu meklēšanas zīmes ieslēgtas vai izslēgtas |
+| `songs` | `1` vai `0`: mūsdienu slavas dziesmu meklēšanas zīmes ieslēgtas vai izslēgtas |
 | `hymns` | `1` vai `0`: dziesmu meklēšanas zīmes ieslēgtas vai izslēgtas |
 | `suggest` | `0`: bez ieteiktajām dziesmām (bez cilnes Dziesmas) |
 | `topics` | `0`: bez dziesmu grāmatas tēmu zīmēm pēc dienas nosaukuma |

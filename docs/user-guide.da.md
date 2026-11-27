@@ -61,10 +61,10 @@ indlejret i en anden webside).
 | 0 | hele hjulet igen (1×, centreret); tryk igen for at vende tilbage til den zoom, du forlod (eller sidens) |
 | Esc | luk vinduet Farver, derefter indstillingerne |
 
-T, F og W kommer fra engelsk (Today = i dag, Find = find, Week = uge) og er de
-samme på alle de sprog, siden taler. De virker på ethvert tastatur: på et, der
-skriver et andet alfabet der (kyrillisk, for eksempel), gælder tasten på T's,
-F's eller W's plads.
+T, S, F og W kommer fra engelsk (Today = i dag, Sunday = søndag, Find = find,
+Week = uge) og er de samme på alle de sprog, siden taler. De virker på ethvert
+tastatur: på et, der skriver et andet alfabet der (kyrillisk, for eksempel),
+gælder tasten på T's, S's, F's eller W's plads.
 
 Piletasterne bliver i hjulets kirkeår: efter den sidste uge går de tilbage til
 den første, og fra den første til den sidste, som hjulet. Page Up og Page Down,
@@ -194,7 +194,7 @@ En dato alene (eller `today`) efter `#` virker som `date=`.
 | `readings` | `none` for at skjule dem, eller de typer, der skal vises (`day,feasts`) eller udelades (`-daily,-office`): `day`, `feasts`, `dated`, `daily`, `additional`, `psalms`, `plan`, `office`; udeladt så længe alle vises |
 | `bible` | en oversættelse: `ESV`, `KJV`, `NRSVUE` ... |
 | `bibleat` | `biblegateway` eller `youversion` |
-| `songs` | `1` eller `0`: tegnene for salme- og lovsangssøgning til eller fra |
+| `songs` | `1` eller `0`: tegnene for søgning efter nyere lovsange til eller fra |
 | `hymns` | `1` eller `0`: salmesøgningens mærker til eller fra |
 | `suggest` | `0`: ingen foreslåede salmer (ingen fane Salmer) |
 | `topics` | `0`: ingen salmebogsemner efter dagens navn |

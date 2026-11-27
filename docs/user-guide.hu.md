@@ -64,10 +64,10 @@ másik weboldalba van ágyazva, előbb kattints rá).
 | 0 | ismét az egész kerék (1×, középen); nyomd meg újra, hogy visszatérj az elhagyott nagyításhoz (vagy az oldaléhoz) |
 | Esc | bezárja a Színek ablakot, aztán a beállításokat |
 
-A T, F és W az angolból jön (Today = ma, Find = keresés, Week = hét), és az
-oldal minden nyelvén ugyanaz. Bármilyen billentyűzeten működnek: olyan
-billentyűzeten, amely azokon a helyeken más ábécét ír (például cirill
-betűket), a T, F vagy W helyén lévő billentyű érvényes.
+A T, S, F és W az angolból jön (Today = ma, Sunday = vasárnap, Find = keresés,
+Week = hét), és az oldal minden nyelvén ugyanaz. Bármilyen billentyűzeten
+működnek: olyan billentyűzeten, amely azokon a helyeken más ábécét ír (például
+cirill betűket), a T, S, F vagy W helyén lévő billentyű érvényes.
 
 A nyílbillentyűk a kerék egyházi évében maradnak: az utolsó hét után
 visszatérnek az elsőre, az elsőről az utolsóra, ahogy a kerék. A Page Up és
@@ -203,7 +203,7 @@ Egy dátum egymagában (vagy `today`) a `#` után úgy működik, mint a `date=`
 | `readings` | `none` az elrejtésükhöz, vagy a megjelenítendő (`day,feasts`) vagy elhagyandó (`-daily,-office`) fajták: `day`, `feasts`, `dated`, `daily`, `additional`, `psalms`, `plan`, `office`; elmarad, amíg mind látszik |
 | `bible` | egy fordítás: `ESV`, `KJV`, `NRSVUE` ... |
 | `bibleat` | `biblegateway` vagy `youversion` |
-| `songs` | `1` vagy `0`: az ének- és dicsőítőének-keresés jelei be- vagy kikapcsolva |
+| `songs` | `1` vagy `0`: a mai dicsőítő énekek keresésének jelei be- vagy kikapcsolva |
 | `hymns` | `1` vagy `0`: az énekkeresés jelei be- vagy kikapcsolva |
 | `suggest` | `0`: nincsenek javasolt énekek (nincs Énekek fül) |
 | `topics` | `0`: nincsenek énekeskönyv-téma jelek a nap neve után |

@@ -1231,6 +1231,9 @@ function cssPaint(fill) {
  * light color, else a white one.
  */
 function setFavicon() {
+  // Only a wheel that owns the page: a wheel inside someone else's page must
+  // leave their site's icon alone (settleOwnership calls this once it knows).
+  if (!owned) return;
   const info = DAYS[isoToday()];
   if (!info) return;
   const fill = String(info.fill || '').split(';')[0].trim();
@@ -4453,6 +4456,7 @@ function settleOwnership() {
   embedBtn.hidden = !owned;
   if (owned) {
     document.title = pageTitle;
+    setFavicon();
     syncLink();
   }
   restoring = false;

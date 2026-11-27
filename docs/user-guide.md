@@ -66,7 +66,7 @@ is set inside another web page).
 
 T, S, F and W come from English (Today, Sunday, Find, Week) and are the same in every
 language the page speaks. They work on any keyboard: on one that types
-another alphabet there (Cyrillic, for example), the key in the T, F or W
+another alphabet there (Cyrillic, for example), the key in the T, S, F or W
 place does.
 
 The arrow keys stay in the church year on the wheel: past its last week they

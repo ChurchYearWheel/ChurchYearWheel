@@ -61,10 +61,10 @@ teise veebilehe sisse manustatud).
 | 0 | taas kogu ratas (1×, keskel); vajuta uuesti, et naasta suumile, mille jätsid (või lehe omale) |
 | Esc | sulge aken Värvid, seejärel seaded |
 
-T, F ja W tulevad inglise keelest (Today = täna, Find = leia, Week = nädal) ja
-on samad kõigis keeltes, mida leht räägib. Need töötavad igal klaviatuuril:
-klaviatuuril, mis kirjutab neis kohtades teist tähestikku (näiteks
-kirillitsat), kehtib T, F või W kohal olev klahv.
+T, S, F ja W tulevad inglise keelest (Today = täna, Sunday = pühapäev, Find =
+leia, Week = nädal) ja on samad kõigis keeltes, mida leht räägib. Need töötavad
+igal klaviatuuril: klaviatuuril, mis kirjutab neis kohtades teist tähestikku
+(näiteks kirillitsat), kehtib T, S, F või W kohal olev klahv.
 
 Nooleklahvid jäävad ratta kirikuaastasse: pärast viimast nädalat lähevad nad
 tagasi esimesse ja esimesest viimasesse, nagu ratas. Page Up ja Page Down
@@ -196,7 +196,7 @@ Ainult kuupäev (või `today`) pärast `#` töötab nagu `date=`.
 | `readings` | `none` nende peitmiseks või näidatavad (`day,feasts`) või välja jäetavad (`-daily,-office`) liigid: `day`, `feasts`, `dated`, `daily`, `additional`, `psalms`, `plan`, `office`; puudub, kui kõiki näidatakse |
 | `bible` | tõlge: `ESV`, `KJV`, `NRSVUE` ... |
 | `bibleat` | `biblegateway` või `youversion` |
-| `songs` | `1` või `0`: laulu- ja ülistuslauluotsingu märgid sees või väljas |
+| `songs` | `1` või `0`: tänapäevaste ülistuslaulude otsingu märgid sees või väljas |
 | `hymns` | `1` või `0`: lauluotsingu märgid sees või väljas |
 | `suggest` | `0`: soovitatud laule ei näidata (vahelehte Laulud pole) |
 | `topics` | `0`: päeva nime järel pole lauluraamatu teemade märke |

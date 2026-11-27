@@ -69,11 +69,11 @@ kodiarana raha ampidirina ao anaty pejy web hafa izy).
 | 0 | ny kodiarana manontolo indray (1×, eo afovoany); tsindrio indray mba hiverina amin'ny fanalebeana nialanao (na an'ny pejy) |
 | Esc | manidy ny varavarankely Loko, avy eo ny fandrindrana |
 
-Avy amin'ny teny anglisy ny T, F ary W (Today = androany, Find = hitady, Week =
-herinandro) ary mitovy amin'ny fiteny rehetra itenenan'ny pejy. Miasa amin'ny
-fafan-teny rehetra izy ireo: amin'ny fafan-teny manoratra abidy hafa amin'ireo
-toerana ireo (sirilika, ohatra), ny fanalahidy eo amin'ny toeran'ny T, F na W
-no miasa.
+Avy amin'ny teny anglisy ny T, S, F ary W (Today = androany, Sunday = alahady,
+Find = hitady, Week = herinandro) ary mitovy amin'ny fiteny rehetra itenenan'ny
+pejy. Miasa amin'ny fafan-teny rehetra izy ireo: amin'ny fafan-teny manoratra
+abidy hafa amin'ireo toerana ireo (sirilika, ohatra), ny fanalahidy eo amin'ny
+toeran'ny T, S, F na W no miasa.
 
 Mijanona ao anatin'ny taona fiangonan'ny kodiarana ny zana-tsipika: aorian'ny
 herinandro farany dia miverina amin'ny voalohany izy, ary avy amin'ny voalohany
@@ -214,7 +214,7 @@ Ny daty irery (na `today`) aorian'ny `#` dia miasa toy ny `date=`.
 | `readings` | `none` hanafenana azy, na ny karazana haseho (`day,feasts`) na tsy hampidirina (`-daily,-office`): `day`, `feasts`, `dated`, `daily`, `additional`, `psalms`, `plan`, `office`; tsy asiana raha aseho daholo |
 | `bible` | dikan-teny: `ESV`, `KJV`, `NRSVUE` ... |
 | `bibleat` | `biblegateway` na `youversion` |
-| `songs` | `1` na `0`: velona na maty ny marika fitadiavana hira |
+| `songs` | `1` na `0`: velona na maty ny marika fitadiavana hira fiderana ankehitriny |
 | `hymns` | `1` na `0`: velona na maty ny marika fikarohana hira |
 | `suggest` | `0`: tsy misy hira atolotra (tsy misy tabilao Hira) |
 | `topics` | `0`: tsy misy marika lohahevitry ny boky fihirana aorian'ny anaran'ny andro |

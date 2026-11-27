@@ -64,10 +64,10 @@ stronie, najpierw je kliknij).
 | 0 | znów całe koło (1×, wyśrodkowane); naciśnij ponownie, aby wrócić do opuszczonego powiększenia (lub powiększenia strony) |
 | Esc | zamyka okno Kolory, potem ustawienia |
 
-T, F i W pochodzą z angielskiego (Today = dziś, Find = znajdź, Week = tydzień)
-i są takie same we wszystkich językach strony. Działają na każdej klawiaturze:
-na takiej, która w tych miejscach pisze innym alfabetem (na przykład cyrylicą),
-działa klawisz w miejscu T, F lub W.
+T, S, F i W pochodzą z angielskiego (Today = dziś, Sunday = niedziela, Find =
+znajdź, Week = tydzień) i są takie same we wszystkich językach strony. Działają
+na każdej klawiaturze: na takiej, która w tych miejscach pisze innym alfabetem
+(na przykład cyrylicą), działa klawisz w miejscu T, S, F lub W.
 
 Strzałki pozostają w roku kościelnym koła: po ostatnim tygodniu wracają do
 pierwszego, a z pierwszego do ostatniego, tak jak koło. Page Up i Page Down
@@ -201,7 +201,7 @@ Sama data (lub `today`) po `#` działa jak `date=`.
 | `readings` | `none`, aby je ukryć, albo rodzaje do pokazania (`day,feasts`) lub pominięcia (`-daily,-office`): `day`, `feasts`, `dated`, `daily`, `additional`, `psalms`, `plan`, `office`; pomijane, dopóki pokazane są wszystkie |
 | `bible` | przekład: `ESV`, `KJV`, `NRSVUE` ... |
 | `bibleat` | `biblegateway` lub `youversion` |
-| `songs` | `1` lub `0`: znaki wyszukiwania pieśni włączone lub wyłączone |
+| `songs` | `1` lub `0`: znaki wyszukiwania współczesnych pieśni uwielbienia włączone lub wyłączone |
 | `hymns` | `1` lub `0`: znaki wyszukiwania pieśni włączone lub wyłączone |
 | `suggest` | `0`: bez proponowanych pieśni (bez karty Pieśni) |
 | `topics` | `0`: bez znaków tematów śpiewnika po nazwie dnia |

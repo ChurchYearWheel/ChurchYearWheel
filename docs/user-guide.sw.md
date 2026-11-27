@@ -66,10 +66,11 @@ ikiwa limepachikwa ndani ya ukurasa mwingine wa wavuti).
 | 0 | gurudumu lote tena (1×, katikati); bonyeza tena kurudi kwenye ukuzaji uliouacha (au wa ukurasa) |
 | Esc | kufunga dirisha la Rangi, kisha mipangilio |
 
-T, F na W vinatoka kwa Kiingereza (Today = leo, Find = tafuta, Week = wiki) na
-ni vilevile katika kila lugha ya ukurasa. Vinafanya kazi kwenye kibodi yoyote:
-kwenye kibodi inayoandika alfabeti nyingine mahali hapo (Kisiriliki, kwa
-mfano), kitufe kilicho mahali pa T, F au W ndicho kinachofanya kazi.
+T, S, F na W vinatoka kwa Kiingereza (Today = leo, Sunday = Jumapili, Find =
+tafuta, Week = wiki) na ni vilevile katika kila lugha ya ukurasa. Vinafanya
+kazi kwenye kibodi yoyote: kwenye kibodi inayoandika alfabeti nyingine mahali
+hapo (Kisiriliki, kwa mfano), kitufe kilicho mahali pa T, S, F au W ndicho
+kinachofanya kazi.
 
 Vitufe vya mishale hubaki ndani ya mwaka wa kanisa wa gurudumu: baada ya wiki
 ya mwisho hurudi kwenye ya kwanza, na kutoka ya kwanza hadi ya mwisho, kama
@@ -203,7 +204,7 @@ Tarehe peke yake (au `today`) baada ya `#` hufanya kazi kama `date=`.
 | `readings` | `none` kuyaficha, au aina za kuonyesha (`day,feasts`) au za kuacha (`-daily,-office`): `day`, `feasts`, `dated`, `daily`, `additional`, `psalms`, `plan`, `office`; huachwa wakati zote zinaonyeshwa |
 | `bible` | tafsiri: `ESV`, `KJV`, `NRSVUE` ... |
 | `bibleat` | `biblegateway` au `youversion` |
-| `songs` | `1` au `0`: alama za kutafuta nyimbo zimewashwa au zimezimwa |
+| `songs` | `1` au `0`: alama za kutafuta nyimbo za kisasa za kusifu zimewashwa au zimezimwa |
 | `hymns` | `1` au `0`: alama za kutafuta nyimbo zimewashwa au zimezimwa |
 | `suggest` | `0`: hakuna nyimbo zinazopendekezwa (hakuna kichupo Nyimbo) |
 | `topics` | `0`: hakuna alama za mada za kitabu cha nyimbo baada ya jina la siku |
