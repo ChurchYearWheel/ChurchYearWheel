@@ -213,7 +213,7 @@ Una data sola (o `today`) dopo il `#` funziona come `date=`.
 | `help` | `1` o `0`: le istruzioni e le note sotto la ruota |
 | `credit` | `1` o `0`: i crediti dell'immagine sotto la ruota |
 | `hide` | anelli da nascondere, separati da virgole |
-| `colors` | colori cambiati nella finestra Colori, separati da virgole: `PURPLE-7a1f7a` (un colore di giorno), `lutheran:PURPLE-7a1f7a` (un colore di giorno solo in una tradizione), `lutheran:wels-one-year:PURPLE-7a1f7a` (solo in una chiesa), `ring.halves-e6c3f7` (un anello), `text.halves-000000` (le parole di un anello), `empty-f0f0f0` (fuori dall'anno) |
+| `colors` | colori cambiati nella finestra Colori, separati da virgole: `PURPLE-7a1f7a` (un colore di giorno), `lutheran:PURPLE-7a1f7a` (un colore di giorno solo in una tradizione), `lutheran:wels-one-year:PURPLE-7a1f7a` (solo in una chiesa), `ring.halves-e6c3f7` (un anello), `text.halves-000000` (le parole di un anello), `PURPLE.text-ffffff` (le parole di un colore di giorno), `NONE-ffffff/bfbfbf` (a strisce), `empty-f0f0f0` (fuori dall'anno) |
 | `zoom` | da 1 a 6 |
 
 I pulsanti Indietro e Avanti del browser ripercorrono i giorni scelti e le

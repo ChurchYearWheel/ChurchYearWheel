@@ -173,7 +173,7 @@ A circled note after each set of readings that searches Word to Worship (wordtow
 "How to use the wheel, the calendar's notes and how long it took to draw","Hogyan használd a kereket, a naptár megjegyzései és mennyi ideig tartott a rajzolás"
 "Who made the picture in the middle, and its license. When it is off and the license asks for credit, a small i button keeps it a click away.","Ki készítette a középső képet, és a licence. Ha ez ki van kapcsolva, és a licenc forrásmegjelölést kér, egy kis i gomb egy kattintásnyira tartja."
 "The colors the days and the rings are painted in, each of which can be changed for this page","A színek, amelyekkel a napok és a gyűrűk festve vannak; mindegyik módosítható ehhez az oldalhoz"
-The colors on the wheel this year. Click a swatch to change it; the change is kept in the page's link. Text on a day stays readable: it turns black or white if it would not.,"A kerék színei ebben az évben. Kattints egy színmintára a módosításhoz; a változás az oldal hivatkozásában marad. Egy nap szövege olvasható marad: feketére vagy fehérre vált, ha különben nem lenne az."
+"The colors on the wheel this year. Click a swatch to change it; the change is kept in the page's link. Text on a day stays readable: it turns black or white if it would not, unless you choose it with the text box.","A kerék színei ebben az évben. Kattints egy színmintára a módosításhoz; a változás az oldal hivatkozásában marad. Egy nap szövege olvasható marad: feketére vagy fehérre vált, ha különben nem lenne az, hacsak nem a szöveg mezővel választja meg."
 Put every color back to the page's own,Minden szín visszaállítása az oldal sajátjára
 "Put every setting here back to what config.csv asks for, keeping the day on the wheel","Minden beállítás visszaállítása arra, amit a config.csv kér, a nap a keréken marad"
 "Copy a link that opens on this day, with these settings","Hivatkozás másolása, amely ezen a napon nyílik meg ezekkel a beállításokkal"
@@ -501,3 +501,5 @@ Suggested hymns,Javasolt énekek
 Hymnal topics,Az énekeskönyv témái
 "The hymns suggested for the day, year by year, under a Hymns tab (or after the readings), with the Hymn of the Day","A napra javasolt énekek évről évre, az Énekek fülön (vagy az olvasmányok után), a nap énekével"
 "After the day's name, a hymnal mark for each section of the hymnal's index the day has (Advent, Reformation, a saint), opening its hymns","A nap neve után énekeskönyv-jel az énekeskönyv mutatójának minden olyan részéhez, amely a napé (advent, reformáció, egy szent), és megnyitja az énekeit"
+The color of the words on these days,E napok feliratának színe
+No color appointed: drawn in stripes,Nincs előírt szín: csíkozva rajzolva

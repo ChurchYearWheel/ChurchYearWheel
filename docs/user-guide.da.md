@@ -203,7 +203,7 @@ En dato alene (eller `today`) efter `#` virker som `date=`.
 | `help` | `1` eller `0`: vejledningen og noterne under hjulet |
 | `credit` | `1` eller `0`: billedets kreditering under hjulet |
 | `hide` | ringe der skal skjules, kommaadskilte |
-| `colors` | farver ændret i vinduet Farver, kommaadskilte: `PURPLE-7a1f7a` (en dagfarve), `lutheran:PURPLE-7a1f7a` (en dagfarve kun i én tradition), `lutheran:wels-one-year:PURPLE-7a1f7a` (kun i én kirke), `ring.halves-e6c3f7` (en ring), `text.halves-000000` (en rings ord), `empty-f0f0f0` (uden for året) |
+| `colors` | farver ændret i vinduet Farver, kommaadskilte: `PURPLE-7a1f7a` (en dagfarve), `lutheran:PURPLE-7a1f7a` (en dagfarve kun i én tradition), `lutheran:wels-one-year:PURPLE-7a1f7a` (kun i én kirke), `ring.halves-e6c3f7` (en ring), `text.halves-000000` (en rings ord), `PURPLE.text-ffffff` (ordene på en dagfarve), `NONE-ffffff/bfbfbf` (stribet), `empty-f0f0f0` (uden for året) |
 | `zoom` | 1 til 6 |
 
 Browserens Tilbage- og Frem-knapper går gennem de valgte dage og de ændrede

@@ -212,7 +212,7 @@ Egy dátum egymagában (vagy `today`) a `#` után úgy működik, mint a `date=`
 | `help` | `1` vagy `0`: az útmutatás és a megjegyzések a kerék alatt |
 | `credit` | `1` vagy `0`: a kép forrásmegjelölése a kerék alatt |
 | `hide` | elrejtendő gyűrűk, vesszővel elválasztva |
-| `colors` | a Színek ablakban megváltoztatott színek, vesszővel elválasztva: `PURPLE-7a1f7a` (napszín), `lutheran:PURPLE-7a1f7a` (napszín csak egy hagyományban), `lutheran:wels-one-year:PURPLE-7a1f7a` (csak egy egyházban), `ring.halves-e6c3f7` (egy gyűrű), `text.halves-000000` (egy gyűrű szavai), `empty-f0f0f0` (az éven kívül) |
+| `colors` | a Színek ablakban megváltoztatott színek, vesszővel elválasztva: `PURPLE-7a1f7a` (napszín), `lutheran:PURPLE-7a1f7a` (napszín csak egy hagyományban), `lutheran:wels-one-year:PURPLE-7a1f7a` (csak egy egyházban), `ring.halves-e6c3f7` (egy gyűrű), `text.halves-000000` (egy gyűrű szavai), `PURPLE.text-ffffff` (egy napszín felirata), `NONE-ffffff/bfbfbf` (csíkos), `empty-f0f0f0` (az éven kívül) |
 | `zoom` | 1-től 6-ig |
 
 A böngésző Vissza és Előre gombjai végigmennek a kiválasztott napokon és a

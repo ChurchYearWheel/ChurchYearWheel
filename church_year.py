@@ -492,7 +492,7 @@ def build(data: dict, fragment: bool = False, compress: bool = True) -> str:
         <dialog id="colorDialog" class="colors" aria-labelledby="colorHead">
           <form method="dialog">
             <h2 id="colorHead">Colors</h2>
-            <p class="note">The colors on the wheel this year. Click a swatch to change it; the change is kept in the page's link. Text on a day stays readable: it turns black or white if it would not.</p>
+            <p class="note">The colors on the wheel this year. Click a swatch to change it; the change is kept in the page's link. Text on a day stays readable: it turns black or white if it would not, unless you choose it with the text box.</p>
             <div class="group">Days<div id="dayColors" class="swatches"></div></div>
             <div class="group">Rings<div id="ringColors" class="swatches"></div></div>
             <div class="actions">

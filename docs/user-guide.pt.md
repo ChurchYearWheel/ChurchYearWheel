@@ -210,7 +210,7 @@ Uma data sozinha (ou `today`) depois do `#` funciona como `date=`.
 | `help` | `1` ou `0`: as instruções e notas abaixo da roda |
 | `credit` | `1` ou `0`: o crédito da imagem abaixo da roda |
 | `hide` | anéis a ocultar, separados por vírgulas |
-| `colors` | cores mudadas na janela Cores, separadas por vírgulas: `PURPLE-7a1f7a` (uma cor de dia), `lutheran:PURPLE-7a1f7a` (uma cor de dia só numa tradição), `lutheran:wels-one-year:PURPLE-7a1f7a` (só numa igreja), `ring.halves-e6c3f7` (um anel), `text.halves-000000` (as palavras de um anel), `empty-f0f0f0` (fora do ano) |
+| `colors` | cores mudadas na janela Cores, separadas por vírgulas: `PURPLE-7a1f7a` (uma cor de dia), `lutheran:PURPLE-7a1f7a` (uma cor de dia só numa tradição), `lutheran:wels-one-year:PURPLE-7a1f7a` (só numa igreja), `ring.halves-e6c3f7` (um anel), `text.halves-000000` (as palavras de um anel), `PURPLE.text-ffffff` (as palavras de uma cor de dia), `NONE-ffffff/bfbfbf` (às riscas), `empty-f0f0f0` (fora do ano) |
 | `zoom` | de 1 a 6 |
 
 Os botões Voltar e Avançar do navegador percorrem os dias escolhidos e as

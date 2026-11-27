@@ -213,7 +213,7 @@ Tanggal saja (atau `today`) setelah `#` berfungsi seperti `date=`.
 | `help` | `1` atau `0`: petunjuk dan catatan di bawah roda |
 | `credit` | `1` atau `0`: keterangan sumber gambar di bawah roda |
 | `hide` | cincin yang disembunyikan, dipisahkan koma |
-| `colors` | warna yang diubah di jendela Warna, dipisahkan koma: `PURPLE-7a1f7a` (warna hari), `lutheran:PURPLE-7a1f7a` (warna hari hanya dalam satu tradisi), `lutheran:wels-one-year:PURPLE-7a1f7a` (hanya di satu gereja), `ring.halves-e6c3f7` (cincin), `text.halves-000000` (tulisan cincin), `empty-f0f0f0` (di luar tahun) |
+| `colors` | warna yang diubah di jendela Warna, dipisahkan koma: `PURPLE-7a1f7a` (warna hari), `lutheran:PURPLE-7a1f7a` (warna hari hanya dalam satu tradisi), `lutheran:wels-one-year:PURPLE-7a1f7a` (hanya di satu gereja), `ring.halves-e6c3f7` (cincin), `text.halves-000000` (tulisan cincin), `PURPLE.text-ffffff` (tulisan pada warna hari), `NONE-ffffff/bfbfbf` (bergaris), `empty-f0f0f0` (di luar tahun) |
 | `zoom` | 1 sampai 6 |
 
 Tombol Kembali dan Maju peramban menelusuri hari-hari yang dipilih dan

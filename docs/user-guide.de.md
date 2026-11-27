@@ -214,7 +214,7 @@ Ein bloßes Datum (oder `today`) nach dem `#` wirkt wie `date=`.
 | `help` | `1` oder `0`: die Anleitung und Hinweise unter dem Rad |
 | `credit` | `1` oder `0`: der Bildnachweis unter dem Rad |
 | `hide` | zu verbergende Ringe, durch Kommas getrennt |
-| `colors` | im Fenster Farben geänderte Farben, durch Kommas getrennt: `PURPLE-7a1f7a` (eine Tagesfarbe), `lutheran:PURPLE-7a1f7a` (eine Tagesfarbe nur in einer Tradition), `lutheran:wels-one-year:PURPLE-7a1f7a` (nur in einer Kirche), `ring.halves-e6c3f7` (ein Ring), `text.halves-000000` (die Worte eines Rings), `empty-f0f0f0` (außerhalb des Jahres) |
+| `colors` | im Fenster Farben geänderte Farben, durch Kommas getrennt: `PURPLE-7a1f7a` (eine Tagesfarbe), `lutheran:PURPLE-7a1f7a` (eine Tagesfarbe nur in einer Tradition), `lutheran:wels-one-year:PURPLE-7a1f7a` (nur in einer Kirche), `ring.halves-e6c3f7` (ein Ring), `text.halves-000000` (die Worte eines Rings), `PURPLE.text-ffffff` (die Schrift einer Tagesfarbe), `NONE-ffffff/bfbfbf` (gestreift), `empty-f0f0f0` (außerhalb des Jahres) |
 | `zoom` | 1 bis 6 |
 
 Die Schaltflächen Zurück und Vor des Browsers gehen durch die gewählten Tage

@@ -173,7 +173,7 @@ A circled note after each set of readings that searches Word to Worship (wordtow
 "How to use the wheel, the calendar's notes and how long it took to draw","Як користуватися колом, примітки календаря і скільки тривало малювання"
 "Who made the picture in the middle, and its license. When it is off and the license asks for credit, a small i button keeps it a click away.","Хто створив зображення в центрі та його ліцензія. Коли це вимкнено, а ліцензія вимагає зазначити автора, маленька кнопка i тримає це на відстані одного клацання."
 "The colors the days and the rings are painted in, each of which can be changed for this page","Кольори, якими пофарбовано дні й кільця; кожен можна змінити для цієї сторінки"
-The colors on the wheel this year. Click a swatch to change it; the change is kept in the page's link. Text on a day stays readable: it turns black or white if it would not.,"Кольори на колі цього року. Клацніть зразок, щоб змінити його; зміна зберігається в посиланні сторінки. Текст на дні залишається читабельним: стає чорним чи білим, якщо інакше не був би."
+"The colors on the wheel this year. Click a swatch to change it; the change is kept in the page's link. Text on a day stays readable: it turns black or white if it would not, unless you choose it with the text box.","Кольори на колі цього року. Клацніть зразок, щоб змінити його; зміна зберігається в посиланні сторінки. Текст на дні залишається читабельним: стає чорним чи білим, якщо інакше не був би, якщо ви не виберете його полем тексту."
 Put every color back to the page's own,Повернути кожен колір до кольору сторінки
 "Put every setting here back to what config.csv asks for, keeping the day on the wheel","Повернути кожне налаштування до того, що вказує config.csv, зберігши день на колі"
 "Copy a link that opens on this day, with these settings","Копіювати посилання, яке відкривається на цьому дні з цими налаштуваннями"
@@ -501,3 +501,5 @@ Suggested hymns,Запропоновані гімни
 Hymnal topics,Теми співаника
 "The hymns suggested for the day, year by year, under a Hymns tab (or after the readings), with the Hymn of the Day","Гімни, запропоновані на день, рік за роком, на вкладці Гімни (або після читань), з гімном дня"
 "After the day's name, a hymnal mark for each section of the hymnal's index the day has (Advent, Reformation, a saint), opening its hymns","Після назви дня позначка співаника для кожного розділу покажчика співаника, що має цей день (Адвент, Реформація, святий), яка відкриває його гімни"
+The color of the words on these days,Колір написів у ці дні
+No color appointed: drawn in stripes,Колір не визначено: показано смугами

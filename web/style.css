@@ -357,6 +357,9 @@ html:not(.cy-page) .cy-app .stage:not(.grabbable) { touch-action: pan-x pan-y; }
 .cy-app dialog.colors input[type=color] { width: 2.2rem; height: 1.6rem; padding: 0;
        border: 1px solid var(--line); border-radius: 4px; background: none; cursor: pointer; }
 .cy-app dialog.colors code { font-size: .8rem; color: var(--muted); }
+/* A day with no color appointed is drawn in stripes: a swatch for each. */
+.cy-app dialog.colors .stripes { display: flex; gap: 2px; }
+.cy-app dialog.colors .stripes input[type=color] { width: 1.1rem; }
 .cy-app dialog.colors .text { font-size: .8rem; color: var(--muted); }
 .cy-app dialog.colors .text input[type=color] { width: 1.6rem; height: 1.2rem; vertical-align: middle; }
 .cy-app dialog.colors .actions { display: flex; gap: .4rem; justify-content: flex-end; }

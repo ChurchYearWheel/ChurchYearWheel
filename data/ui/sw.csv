@@ -173,7 +173,7 @@ A circled note after each set of readings that searches Word to Worship (wordtow
 "How to use the wheel, the calendar's notes and how long it took to draw","Jinsi ya kutumia gurudumu, maelezo ya kalenda na muda uliochukuliwa kuchora"
 "Who made the picture in the middle, and its license. When it is off and the license asks for credit, a small i button keeps it a click away.","Aliyetengeneza picha ya katikati na leseni yake. Ikizimwa na leseni ikitaka kutajwa, kitufe kidogo cha i kinakiweka umbali wa mbofyo mmoja."
 "The colors the days and the rings are painted in, each of which can be changed for this page",Rangi ambazo siku na pete zinapakwa; kila moja inaweza kubadilishwa kwa ukurasa huu
-The colors on the wheel this year. Click a swatch to change it; the change is kept in the page's link. Text on a day stays readable: it turns black or white if it would not.,Rangi kwenye gurudumu mwaka huu. Bofya sampuli ili kuibadilisha; badiliko linahifadhiwa katika kiungo cha ukurasa. Maandishi kwenye siku yanabaki yanasomeka: yanakuwa meusi au meupe yasipokuwa hivyo.
+"The colors on the wheel this year. Click a swatch to change it; the change is kept in the page's link. Text on a day stays readable: it turns black or white if it would not, unless you choose it with the text box.","Rangi kwenye gurudumu mwaka huu. Bofya sampuli ili kuibadilisha; badiliko linahifadhiwa katika kiungo cha ukurasa. Maandishi kwenye siku yanabaki yanasomeka: yanakuwa meusi au meupe yasipokuwa hivyo, isipokuwa ukiichagua kwa kisanduku cha maandishi."
 Put every color back to the page's own,Rudisha kila rangi kwenye rangi ya ukurasa
 "Put every setting here back to what config.csv asks for, keeping the day on the wheel","Rudisha kila mpangilio hapa kwenye kile ambacho config.csv inataka, ukiacha siku kwenye gurudumu"
 "Copy a link that opens on this day, with these settings","Nakili kiungo kinachofunguka katika siku hii, pamoja na mipangilio hii"
@@ -501,3 +501,5 @@ Suggested hymns,Nyimbo zinazopendekezwa
 Hymnal topics,Mada za kitabu cha nyimbo
 "The hymns suggested for the day, year by year, under a Hymns tab (or after the readings), with the Hymn of the Day","Nyimbo zinazopendekezwa kwa siku hiyo, mwaka baada ya mwaka, chini ya kichupo Nyimbo (au baada ya masomo), pamoja na Wimbo wa Siku"
 "After the day's name, a hymnal mark for each section of the hymnal's index the day has (Advent, Reformation, a saint), opening its hymns","Baada ya jina la siku, alama ya kitabu cha nyimbo kwa kila sehemu ya faharasa ya kitabu cha nyimbo iliyo na siku hiyo (Majilio, Matengenezo, mtakatifu), inayofungua nyimbo zake"
+The color of the words on these days,Rangi ya maneno katika siku hizi
+No color appointed: drawn in stripes,Hakuna rangi iliyowekwa: imechorwa kwa milia

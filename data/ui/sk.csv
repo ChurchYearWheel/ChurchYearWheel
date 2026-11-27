@@ -173,7 +173,7 @@ A circled note after each set of readings that searches Word to Worship (wordtow
 "How to use the wheel, the calendar's notes and how long it took to draw","Ako používať koleso, poznámky kalendára a ako dlho trvalo kreslenie"
 "Who made the picture in the middle, and its license. When it is off and the license asks for credit, a small i button keeps it a click away.","Kto vytvoril obrázok v strede a jeho licencia. Keď je to vypnuté a licencia žiada uvedenie autora, malé tlačidlo i ho drží na jedno kliknutie."
 "The colors the days and the rings are painted in, each of which can be changed for this page","Farby, ktorými sú namaľované dni a kruhy; každú možno pre túto stránku zmeniť"
-The colors on the wheel this year. Click a swatch to change it; the change is kept in the page's link. Text on a day stays readable: it turns black or white if it would not.,"Farby na kolese v tomto roku. Kliknutím na vzorku ju zmeníte; zmena sa uloží v odkaze stránky. Text na dni zostane čitateľný: zmení sa na čierny alebo biely, ak by nebol."
+"The colors on the wheel this year. Click a swatch to change it; the change is kept in the page's link. Text on a day stays readable: it turns black or white if it would not, unless you choose it with the text box.","Farby na kolese v tomto roku. Kliknutím na vzorku ju zmeníte; zmena sa uloží v odkaze stránky. Text na dni zostane čitateľný: zmení sa na čierny alebo biely, ak by nebol, ak ho nezvolíte poľom textu."
 Put every color back to the page's own,Vrátiť každú farbu na farbu stránky
 "Put every setting here back to what config.csv asks for, keeping the day on the wheel","Vrátiť každé nastavenie na to, čo určuje config.csv, a ponechať deň na kolese"
 "Copy a link that opens on this day, with these settings","Skopírovať odkaz, ktorý sa otvorí na tomto dni s týmito nastaveniami"
@@ -501,3 +501,5 @@ Suggested hymns,Navrhované piesne
 Hymnal topics,Témy spevníka
 "The hymns suggested for the day, year by year, under a Hymns tab (or after the readings), with the Hymn of the Day","Piesne navrhované na deň, rok po roku, na karte Piesne (alebo po čítaniach), s piesňou dňa"
 "After the day's name, a hymnal mark for each section of the hymnal's index the day has (Advent, Reformation, a saint), opening its hymns","Za názvom dňa značka spevníka pre každú časť registra spevníka, ktorú deň má (advent, reformácia, svätý), ktorá otvorí jej piesne"
+The color of the words on these days,Farba písma v tieto dni
+No color appointed: drawn in stripes,Bez určenej farby: kreslené pruhovane

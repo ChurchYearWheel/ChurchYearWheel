@@ -204,7 +204,7 @@ Samotný dátum (alebo `today`) za `#` funguje ako `date=`.
 | `help` | `1` alebo `0`: pokyny a poznámky pod kolesom |
 | `credit` | `1` alebo `0`: uvedenie autora obrázka pod kolesom |
 | `hide` | kruhy, ktoré sa majú skryť, oddelené čiarkami |
-| `colors` | farby zmenené v okne Farby, oddelené čiarkami: `PURPLE-7a1f7a` (farba dňa), `lutheran:PURPLE-7a1f7a` (farba dňa len v jednej tradícii), `lutheran:wels-one-year:PURPLE-7a1f7a` (len v jednej cirkvi), `ring.halves-e6c3f7` (kruh), `text.halves-000000` (slová kruhu), `empty-f0f0f0` (mimo roka) |
+| `colors` | farby zmenené v okne Farby, oddelené čiarkami: `PURPLE-7a1f7a` (farba dňa), `lutheran:PURPLE-7a1f7a` (farba dňa len v jednej tradícii), `lutheran:wels-one-year:PURPLE-7a1f7a` (len v jednej cirkvi), `ring.halves-e6c3f7` (kruh), `text.halves-000000` (slová kruhu), `PURPLE.text-ffffff` (písmo farby dňa), `NONE-ffffff/bfbfbf` (pruhovaná), `empty-f0f0f0` (mimo roka) |
 | `zoom` | 1 až 6 |
 
 Tlačidlá prehliadača Späť a Dopredu prechádzajú zvolenými dňami a zmenenými

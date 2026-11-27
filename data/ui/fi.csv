@@ -173,7 +173,7 @@ A circled note after each set of readings that searches Word to Worship (wordtow
 "How to use the wheel, the calendar's notes and how long it took to draw","Miten pyörää käytetään, kalenterin huomautukset ja kuinka kauan piirtäminen kesti"
 "Who made the picture in the middle, and its license. When it is off and the license asks for credit, a small i button keeps it a click away.","Kuka teki keskikuvan ja sen lisenssi. Kun tämä on pois päältä ja lisenssi vaatii tekijätiedot, pieni i-painike pitää ne napsautuksen päässä."
 "The colors the days and the rings are painted in, each of which can be changed for this page","Värit, joilla päivät ja renkaat maalataan; kunkin voi muuttaa tätä sivua varten"
-The colors on the wheel this year. Click a swatch to change it; the change is kept in the page's link. Text on a day stays readable: it turns black or white if it would not.,"Pyörän värit tänä vuonna. Muuta väriä napsauttamalla näytettä; muutos tallentuu sivun linkkiin. Päivän teksti pysyy luettavana: siitä tulee musta tai valkoinen, jos se ei muuten olisi."
+"The colors on the wheel this year. Click a swatch to change it; the change is kept in the page's link. Text on a day stays readable: it turns black or white if it would not, unless you choose it with the text box.","Pyörän värit tänä vuonna. Muuta väriä napsauttamalla näytettä; muutos tallentuu sivun linkkiin. Päivän teksti pysyy luettavana: siitä tulee musta tai valkoinen, jos se ei muuten olisi, ellet valitse sitä tekstin värikentästä."
 Put every color back to the page's own,Palauta jokainen väri sivun omaksi
 "Put every setting here back to what config.csv asks for, keeping the day on the wheel","Palauta jokainen asetus siihen, mitä config.csv määrää, päivä pyörällä säilyttäen"
 "Copy a link that opens on this day, with these settings","Kopioi linkki, joka avautuu tähän päivään näillä asetuksilla"
@@ -501,3 +501,5 @@ Suggested hymns,Ehdotetut virret
 Hymnal topics,Virsikirjan aiheet
 "The hymns suggested for the day, year by year, under a Hymns tab (or after the readings), with the Hymn of the Day",Päivälle ehdotetut virret vuosi vuodelta Virret-välilehdellä (tai lukujen jälkeen) päivän virren kera
 "After the day's name, a hymnal mark for each section of the hymnal's index the day has (Advent, Reformation, a saint), opening its hymns","Päivän nimen jälkeen virsikirjamerkki jokaiselle virsikirjan hakemiston osalle, joka päivällä on (adventti, uskonpuhdistus, pyhimys), ja se avaa sen virret"
+The color of the words on these days,Näiden päivien tekstin väri
+No color appointed: drawn in stripes,Väriä ei ole määrätty: piirretty raidallisena

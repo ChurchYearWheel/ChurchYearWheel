@@ -212,7 +212,7 @@ Pelkkä päivämäärä (tai `today`) `#`-merkin jälkeen toimii kuin `date=`.
 | `help` | `1` tai `0`: ohjeet ja huomautukset pyörän alla |
 | `credit` | `1` tai `0`: kuvan tekijätiedot pyörän alla |
 | `hide` | piilotettavat renkaat pilkuin eroteltuina |
-| `colors` | Värit-ikkunassa muutetut värit pilkuin eroteltuina: `PURPLE-7a1f7a` (päivän väri), `lutheran:PURPLE-7a1f7a` (päivän väri vain yhdessä perinteessä), `lutheran:wels-one-year:PURPLE-7a1f7a` (vain yhdessä kirkossa), `ring.halves-e6c3f7` (rengas), `text.halves-000000` (renkaan sanat), `empty-f0f0f0` (vuoden ulkopuolella) |
+| `colors` | Värit-ikkunassa muutetut värit pilkuin eroteltuina: `PURPLE-7a1f7a` (päivän väri), `lutheran:PURPLE-7a1f7a` (päivän väri vain yhdessä perinteessä), `lutheran:wels-one-year:PURPLE-7a1f7a` (vain yhdessä kirkossa), `ring.halves-e6c3f7` (rengas), `text.halves-000000` (renkaan sanat), `PURPLE.text-ffffff` (päivän värin teksti), `NONE-ffffff/bfbfbf` (raidallinen), `empty-f0f0f0` (vuoden ulkopuolella) |
 | `zoom` | 1–6 |
 
 Selaimen Takaisin- ja Eteenpäin-painikkeet kulkevat valittujen päivien ja

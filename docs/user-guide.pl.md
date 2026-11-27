@@ -210,7 +210,7 @@ Sama data (lub `today`) po `#` działa jak `date=`.
 | `help` | `1` lub `0`: instrukcje i uwagi pod kołem |
 | `credit` | `1` lub `0`: informacja o autorze obrazu pod kołem |
 | `hide` | pierścienie do ukrycia, oddzielone przecinkami |
-| `colors` | kolory zmienione w oknie Kolory, oddzielone przecinkami: `PURPLE-7a1f7a` (kolor dnia), `lutheran:PURPLE-7a1f7a` (kolor dnia tylko w jednej tradycji), `lutheran:wels-one-year:PURPLE-7a1f7a` (tylko w jednym Kościele), `ring.halves-e6c3f7` (pierścień), `text.halves-000000` (słowa pierścienia), `empty-f0f0f0` (poza rokiem) |
+| `colors` | kolory zmienione w oknie Kolory, oddzielone przecinkami: `PURPLE-7a1f7a` (kolor dnia), `lutheran:PURPLE-7a1f7a` (kolor dnia tylko w jednej tradycji), `lutheran:wels-one-year:PURPLE-7a1f7a` (tylko w jednym Kościele), `ring.halves-e6c3f7` (pierścień), `text.halves-000000` (słowa pierścienia), `PURPLE.text-ffffff` (napisy w kolorze dnia), `NONE-ffffff/bfbfbf` (w paski), `empty-f0f0f0` (poza rokiem) |
 | `zoom` | od 1 do 6 |
 
 Przyciski przeglądarki Wstecz i Dalej przechodzą przez wybrane dni i zmienione

@@ -3577,11 +3577,19 @@ function contrast(a, b) {
 function withOverrides(colors, fills) {
   if (!fills) return colors;
   const out = Object.assign({}, colors);
+  const hex = v => /^#[0-9a-f]{6}$/i.test(v);
+  // A fill may be stripes (#ffffff/#bfbfbf, a day with no color appointed);
+  // NAME.TEXT is the color of a day's words, which then stays as chosen.
   for (const k in fills) {
-    const c = out[k];
-    if (!c || !/^#[0-9a-f]{6}$/i.test(fills[k])) continue;
-    const text = contrast(fills[k], c.text) >= 4.5 ? c.text : readableText(fills[k]);
+    if (/\.TEXT$/.test(k)) continue;
+    const c = out[k], parts = String(fills[k]).split('/');
+    if (!c || !parts.every(hex)) continue;
+    const text = parts.every(p => contrast(p, c.text) >= 4.5) ? c.text : readableText(parts[0]);
     out[k] = Object.assign({}, c, { fill: fills[k].toLowerCase(), text: text });
+  }
+  for (const k in fills) {
+    const m = /^(.+)\.TEXT$/.exec(k);
+    if (m && out[m[1]] && hex(fills[k])) out[m[1]] = Object.assign({}, out[m[1]], { text: fills[k].toLowerCase() });
   }
   return out;
 }
@@ -3646,6 +3654,10 @@ function build(data, options) {
                                                          labeled: r.labelMode !== 'none' })),
     palette: colorsUsed(cal),
     emptyFill: cfg.empty_cell_fill,
+    // Whether anything is painted in it: a cell before the year begins or
+    // after it ends, or the notch closed where it starts or ends midweek.
+    emptyUsed: cal.weeks.some(w => w.some(d => d === null))
+      || (/^(auto|)$/i.test(String(cfg.year_seam_fill || 'auto').trim()) && cal.yearSeams().length > 0),
     calendar: cal.cy.calendar,
     calendarLabel: cal.cy.reckoning.label,
     paschalion: cal.cy.paschalion,

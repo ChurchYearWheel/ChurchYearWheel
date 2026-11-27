@@ -173,7 +173,7 @@ A circled note after each set of readings that searches Word to Worship (wordtow
 "How to use the wheel, the calendar's notes and how long it took to draw","Kuidas ratast kasutada, kalendri märkused ja kui kaua joonistamine aega võttis"
 "Who made the picture in the middle, and its license. When it is off and the license asks for credit, a small i button keeps it a click away.","Kes tegi keskel oleva pildi ja selle litsents. Kui see on väljas ja litsents nõuab viidet, hoiab väike i-nupp seda ühe klõpsu kaugusel."
 "The colors the days and the rings are painted in, each of which can be changed for this page","Värvid, millega päevad ja rõngad värvitakse; igaüht saab selle lehe jaoks muuta"
-The colors on the wheel this year. Click a swatch to change it; the change is kept in the page's link. Text on a day stays readable: it turns black or white if it would not.,"Ratta värvid sel aastal. Klõpsa näidisel, et seda muuta; muudatus jääb lehe linki. Päeva tekst jääb loetavaks: see muutub mustaks või valgeks, kui muidu ei oleks."
+"The colors on the wheel this year. Click a swatch to change it; the change is kept in the page's link. Text on a day stays readable: it turns black or white if it would not, unless you choose it with the text box.","Ratta värvid sel aastal. Klõpsa näidisel, et seda muuta; muudatus jääb lehe linki. Päeva tekst jääb loetavaks: see muutub mustaks või valgeks, kui muidu ei oleks, kui te ei vali seda tekstiväljaga ise."
 Put every color back to the page's own,Pane iga värv tagasi lehe omaks
 "Put every setting here back to what config.csv asks for, keeping the day on the wheel","Pane iga seade siin tagasi selleks, mida config.csv nõuab, jättes ratta päeva alles"
 "Copy a link that opens on this day, with these settings","Kopeeri link, mis avaneb sellel päeval nende seadetega"
@@ -501,3 +501,5 @@ Suggested hymns,Soovitatud laulud
 Hymnal topics,Lauluraamatu teemad
 "The hymns suggested for the day, year by year, under a Hymns tab (or after the readings), with the Hymn of the Day",Päevaks soovitatud laulud aasta kaupa vahelehel Laulud (või lugemiste järel) koos päeva lauluga
 "After the day's name, a hymnal mark for each section of the hymnal's index the day has (Advent, Reformation, a saint), opening its hymns","Päeva nime järel lauluraamatu märk iga lauluraamatu registri osa kohta, mis päeval on (advent, usupuhastus, pühak), mis avab selle laulud"
+The color of the words on these days,Nende päevade kirja värv
+No color appointed: drawn in stripes,Värvi pole määratud: joonistatud triipudena

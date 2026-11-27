@@ -173,7 +173,7 @@ A circled note after each set of readings that searches Word to Worship (wordtow
 "How to use the wheel, the calendar's notes and how long it took to draw","Wie man das Rad benutzt, die Hinweise des Kalenders und wie lange das Zeichnen dauerte"
 "Who made the picture in the middle, and its license. When it is off and the license asks for credit, a small i button keeps it a click away.","Wer das Bild in der Mitte gemacht hat und seine Lizenz. Ist dies aus und verlangt die Lizenz einen Nachweis, hält eine kleine i-Schaltfläche ihn einen Klick entfernt."
 "The colors the days and the rings are painted in, each of which can be changed for this page","Die Farben, in denen die Tage und die Ringe gemalt sind; jede kann für diese Seite geändert werden"
-The colors on the wheel this year. Click a swatch to change it; the change is kept in the page's link. Text on a day stays readable: it turns black or white if it would not.,"Die Farben auf dem Rad in diesem Jahr. Klicken Sie auf ein Farbfeld, um es zu ändern; die Änderung bleibt im Link der Seite. Die Schrift auf einem Tag bleibt lesbar: sie wird schwarz oder weiß, wenn sie es sonst nicht wäre."
+"The colors on the wheel this year. Click a swatch to change it; the change is kept in the page's link. Text on a day stays readable: it turns black or white if it would not, unless you choose it with the text box.","Die Farben auf dem Rad in diesem Jahr. Klicken Sie auf ein Farbfeld, um es zu ändern; die Änderung bleibt im Link der Seite. Die Schrift auf einem Tag bleibt lesbar: sie wird schwarz oder weiß, wenn sie es sonst nicht wäre, es sei denn, Sie wählen sie mit dem Feld „Text“."
 Put every color back to the page's own,Jede Farbe auf die der Seite zurücksetzen
 "Put every setting here back to what config.csv asks for, keeping the day on the wheel","Jede Einstellung hier auf das zurücksetzen, was config.csv vorsieht, mit dem Tag auf dem Rad"
 "Copy a link that opens on this day, with these settings","Einen Link kopieren, der mit diesem Tag und diesen Einstellungen öffnet"
@@ -501,3 +501,5 @@ Suggested hymns,Liedvorschläge
 Hymnal topics,Gesangbuch-Themen
 "The hymns suggested for the day, year by year, under a Hymns tab (or after the readings), with the Hymn of the Day","Die für den Tag vorgeschlagenen Lieder, Jahr für Jahr, unter einem Reiter Lieder (oder nach den Lesungen), mit dem Wochenlied"
 "After the day's name, a hymnal mark for each section of the hymnal's index the day has (Advent, Reformation, a saint), opening its hymns","Nach dem Namen des Tages ein Gesangbuchzeichen für jeden Abschnitt im Register des Gesangbuchs, den der Tag hat (Advent, Reformation, ein Heiliger), der seine Lieder öffnet"
+The color of the words on these days,Die Farbe der Schrift an diesen Tagen
+No color appointed: drawn in stripes,Keine Farbe vorgesehen: gestreift gezeichnet

@@ -166,7 +166,7 @@ church_year.html#date=sunday                the coming Sunday (today, on a Sunda
 | `help` | `1` or `0`: the instructions and notes under the wheel |
 | `credit` | `1` or `0`: the artwork credit under the wheel |
 | `hide` | ring keys from `rings.csv`, comma separated: `hide=halves,seasons` (the day cells and the artwork cannot be hidden) |
-| `colors` | colors changed in the Colors menu, comma separated: a color's name and its new fill (`PURPLE-7a1f7a`), a ring's fill (`ring.halves-e6c3f7`) or its words (`text.halves-000000`), and the cells outside the year (`empty-f0f0f0`) |
+| `colors` | colors changed in the Colors menu, comma separated: a color's name and its new fill (`PURPLE-7a1f7a`), a striped one's (`NONE-ffffff/bfbfbf`), a color's words (`PURPLE.text-ffffff`), a ring's fill (`ring.halves-e6c3f7`) or its words (`text.halves-000000`), and the cells outside the year (`empty-f0f0f0`) |
 | `zoom` | 1 to 6 (left out when it is the page's own, `--zoom` / `page_zoom`, 1 unless set) |
 
 Only settings that differ from `config.csv` are written into the link, so an
@@ -627,11 +627,15 @@ used to read `15`, for the same drawing.
 
 **Colors…**, under the Rings, opens a list of the colors on the wheel this
 year: each color the days are painted in (the tradition's palette, only those
-the year uses, the lower halves included), the cells outside the year, and
-each ring's fill and, where the ring is labeled, its words.  Clicking a swatch
-picks a new color and the wheel is redrawn with it.  A day's text keeps its
-color while it still reads at 4.5:1 on the new fill; otherwise it turns black
-or white, whichever reads better.  The changes belong to this page: they are
+the year uses, the lower halves included) and the color of its words, the
+cells outside the year where the wheel has any (a year starting on September
+1; the notch where a year starts or ends midweek), and each ring's fill and,
+where the ring is labeled, its words.  A fill drawn in stripes
+(`#ffffff/#bfbfbf`, the PC(USA)'s *None*) has a swatch for each stripe.
+Clicking a swatch picks a new color and the wheel is redrawn with it.  A
+day's text keeps its color while it still reads at 4.5:1 on the new fill (on
+each stripe); otherwise it turns black or white, whichever reads better.  A
+text color chosen in the window (`PURPLE.text-ffffff`) stays as chosen.  The changes belong to this page: they are
 written into its link (`colors=`), so a copied link carries them, and Reset
 colors or Reset settings puts them back.  They do not change the data files;
 `church_year_image.py --color-changes` draws the same repainted wheel from Python

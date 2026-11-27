@@ -204,7 +204,7 @@ Dagsetning ein og sér (eða `today`) á eftir `#` virkar eins og `date=`.
 | `help` | `1` eða `0`: leiðbeiningarnar og athugasemdirnar undir hjólinu |
 | `credit` | `1` eða `0`: höfundargetning myndarinnar undir hjólinu |
 | `hide` | hringir sem á að fela, aðskildir með kommum |
-| `colors` | litir sem breytt var í glugganum Litir, aðskildir með kommum: `PURPLE-7a1f7a` (litur dags), `lutheran:PURPLE-7a1f7a` (litur dags aðeins í einni hefð), `lutheran:wels-one-year:PURPLE-7a1f7a` (aðeins í einni kirkju), `ring.halves-e6c3f7` (hringur), `text.halves-000000` (orð hrings), `empty-f0f0f0` (utan ársins) |
+| `colors` | litir sem breytt var í glugganum Litir, aðskildir með kommum: `PURPLE-7a1f7a` (litur dags), `lutheran:PURPLE-7a1f7a` (litur dags aðeins í einni hefð), `lutheran:wels-one-year:PURPLE-7a1f7a` (aðeins í einni kirkju), `ring.halves-e6c3f7` (hringur), `text.halves-000000` (orð hrings), `PURPLE.text-ffffff` (orðin á lit dags), `NONE-ffffff/bfbfbf` (röndóttur), `empty-f0f0f0` (utan ársins) |
 | `zoom` | 1 til 6 |
 
 Til baka- og Áfram-hnappar vafrans fara um valda daga og breyttar stillingar.

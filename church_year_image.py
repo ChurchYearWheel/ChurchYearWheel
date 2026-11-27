@@ -715,12 +715,18 @@ def with_overrides(colors: dict[str, LiturgicalColor],
     withOverrides).  The text keeps its color while it still reads (4.5:1);
     otherwise it turns black or white, whichever reads better."""
     out = dict(colors)
+    # A fill may be stripes (#ffffff/#bfbfbf, a day with no color appointed);
+    # NAME.TEXT is the color of a day's words, which then stays as chosen.
     for name, fill in fills.items():
         c = out.get(name)
-        if c is None:
+        if c is None or name.endswith(".TEXT"):
             continue
-        text = c.text if _contrast(fill, c.text) >= 4.5 else readable_text(fill)
+        parts = fill.split("/")
+        text = c.text if all(_contrast(p, c.text) >= 4.5 for p in parts) else readable_text(parts[0])
         out[name] = replace(c, fill=fill.lower(), text=text)
+    for name, text in fills.items():
+        if name.endswith(".TEXT") and name[:-5] in out:
+            out[name[:-5]] = replace(out[name[:-5]], text=text.lower())
     return out
 
 
@@ -745,7 +751,9 @@ def parse_color_changes(spec: str, church: str = "", family: str = "") -> ColorC
     """--color-changes for one church: PURPLE-7a1f7a (every church),
     lutheran:WHITE-fffff0 (a tradition's, which wins), lutheran:wels-one-year:RED-c00000
     (a church's, which wins again), ring.halves-e6c3f7, text.halves-000000,
-    empty-f0f0f0.  `church` is the key being drawn and `family` its tradition
+    empty-f0f0f0; a day's fill may be stripes (NONE-ffffff/bfbfbf), and
+    PURPLE.text-ffffff (with the same tradition: and church: prefixes) is
+    the color of its words.  `church` is the key being drawn and `family` its tradition
     (traditions.csv); changes for other churches are passed over, as the page
     does.  Raises ValueError for an item that is not NAME-rrggbb."""
     def trad_slug(name: str) -> str:
@@ -760,7 +768,9 @@ def parse_color_changes(spec: str, church: str = "", family: str = "") -> ColorC
         if not item or item.lower() == "none":
             continue
         key, _, raw = item.rpartition("-")
-        value = _hex6(raw)
+        # Stripes (NONE-ffffff/bfbfbf) for a day's fill.
+        parts = [_hex6(p) for p in raw.split("/")]
+        value = "/".join(parts) if all(parts) and (len(parts) == 1 or "." not in key and key != "empty") else ""
         if not key or not value:
             raise ValueError(f"'{item}' is not NAME-rrggbb (PURPLE-7a1f7a, lutheran:WHITE-fffff0, "
                              "ring.halves-e6c3f7, text.halves-000000, empty-f0f0f0)")

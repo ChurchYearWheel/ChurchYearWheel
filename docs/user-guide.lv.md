@@ -202,7 +202,7 @@ Datums viens pats (vai `today`) pēc `#` darbojas kā `date=`.
 | `help` | `1` vai `0`: norādījumi un piezīmes zem rata |
 | `credit` | `1` vai `0`: attēla autortiesību norāde zem rata |
 | `hide` | paslēpjamie gredzeni, atdalīti ar komatiem |
-| `colors` | logā Krāsas mainītās krāsas, atdalītas ar komatiem: `PURPLE-7a1f7a` (dienas krāsa), `lutheran:PURPLE-7a1f7a` (dienas krāsa tikai vienā tradīcijā), `lutheran:wels-one-year:PURPLE-7a1f7a` (tikai vienā baznīcā), `ring.halves-e6c3f7` (gredzens), `text.halves-000000` (gredzena vārdi), `empty-f0f0f0` (ārpus gada) |
+| `colors` | logā Krāsas mainītās krāsas, atdalītas ar komatiem: `PURPLE-7a1f7a` (dienas krāsa), `lutheran:PURPLE-7a1f7a` (dienas krāsa tikai vienā tradīcijā), `lutheran:wels-one-year:PURPLE-7a1f7a` (tikai vienā baznīcā), `ring.halves-e6c3f7` (gredzens), `text.halves-000000` (gredzena vārdi), `PURPLE.text-ffffff` (dienas krāsas teksts), `NONE-ffffff/bfbfbf` (svītrains), `empty-f0f0f0` (ārpus gada) |
 | `zoom` | no 1 līdz 6 |
 
 Pārlūkprogrammas pogas Atpakaļ un Uz priekšu iet cauri izvēlētajām dienām un

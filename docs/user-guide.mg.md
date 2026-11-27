@@ -223,7 +223,7 @@ Ny daty irery (na `today`) aorian'ny `#` dia miasa toy ny `date=`.
 | `help` | `1` na `0`: ny toromarika sy ny fanamarihana eo ambanin'ny kodiarana |
 | `credit` | `1` na `0`: ny fanondroana ny tompon'ny sary eo ambanin'ny kodiarana |
 | `hide` | peratra hafenina, sarahina faingo |
-| `colors` | loko novaina tao amin'ny varavarankely Loko, sarahina faingo: `PURPLE-7a1f7a` (lokon'ny andro), `lutheran:PURPLE-7a1f7a` (lokon'ny andro ao amin'ny fomban-drazana iray ihany), `lutheran:wels-one-year:PURPLE-7a1f7a` (ao amin'ny fiangonana iray ihany), `ring.halves-e6c3f7` (peratra), `text.halves-000000` (ny tenin'ny peratra), `empty-f0f0f0` (ivelan'ny taona) |
+| `colors` | loko novaina tao amin'ny varavarankely Loko, sarahina faingo: `PURPLE-7a1f7a` (lokon'ny andro), `lutheran:PURPLE-7a1f7a` (lokon'ny andro ao amin'ny fomban-drazana iray ihany), `lutheran:wels-one-year:PURPLE-7a1f7a` (ao amin'ny fiangonana iray ihany), `ring.halves-e6c3f7` (peratra), `text.halves-000000` (ny tenin'ny peratra), `PURPLE.text-ffffff` (ny soratra amin'ny lokon'ny andro), `NONE-ffffff/bfbfbf` (misy tsipika), `empty-f0f0f0` (ivelan'ny taona) |
 | `zoom` | 1 ka hatramin'ny 6 |
 
 Ny bokotra Miverina sy Mandroso amin'ny mpitety tranonkala dia mandalo ireo

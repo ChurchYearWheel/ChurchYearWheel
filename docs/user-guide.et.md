@@ -205,7 +205,7 @@ Ainult kuupäev (või `today`) pärast `#` töötab nagu `date=`.
 | `help` | `1` või `0`: juhised ja märkused ratta all |
 | `credit` | `1` või `0`: pildi autoriteave ratta all |
 | `hide` | peidetavad rõngad komadega eraldatult |
-| `colors` | aknas Värvid muudetud värvid komadega eraldatult: `PURPLE-7a1f7a` (päeva värv), `lutheran:PURPLE-7a1f7a` (päeva värv ainult ühes traditsioonis), `lutheran:wels-one-year:PURPLE-7a1f7a` (ainult ühes kirikus), `ring.halves-e6c3f7` (rõngas), `text.halves-000000` (rõnga sõnad), `empty-f0f0f0` (väljaspool aastat) |
+| `colors` | aknas Värvid muudetud värvid komadega eraldatult: `PURPLE-7a1f7a` (päeva värv), `lutheran:PURPLE-7a1f7a` (päeva värv ainult ühes traditsioonis), `lutheran:wels-one-year:PURPLE-7a1f7a` (ainult ühes kirikus), `ring.halves-e6c3f7` (rõngas), `text.halves-000000` (rõnga sõnad), `PURPLE.text-ffffff` (päeva värvi kiri), `NONE-ffffff/bfbfbf` (triibuline), `empty-f0f0f0` (väljaspool aastat) |
 | `zoom` | 1 kuni 6 |
 
 Brauseri nupud Tagasi ja Edasi liiguvad läbi valitud päevade ja muudetud

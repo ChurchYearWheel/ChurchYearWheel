@@ -173,7 +173,7 @@ A circled note after each set of readings that searches Word to Worship (wordtow
 "How to use the wheel, the calendar's notes and how long it took to draw","Jak używać koła, uwagi kalendarza i ile trwało rysowanie"
 "Who made the picture in the middle, and its license. When it is off and the license asks for credit, a small i button keeps it a click away.","Kto wykonał obraz w środku i jego licencja. Gdy jest wyłączone, a licencja wymaga podania autora, mały przycisk i trzyma to na jedno kliknięcie."
 "The colors the days and the rings are painted in, each of which can be changed for this page","Kolory, którymi malowane są dni i pierścienie; każdy można zmienić dla tej strony"
-The colors on the wheel this year. Click a swatch to change it; the change is kept in the page's link. Text on a day stays readable: it turns black or white if it would not.,"Kolory na kole w tym roku. Kliknij próbkę, aby ją zmienić; zmiana zostaje w linku strony. Tekst na dniu pozostaje czytelny: staje się czarny lub biały, jeśli inaczej by nie był."
+"The colors on the wheel this year. Click a swatch to change it; the change is kept in the page's link. Text on a day stays readable: it turns black or white if it would not, unless you choose it with the text box.","Kolory na kole w tym roku. Kliknij próbkę, aby ją zmienić; zmiana zostaje w linku strony. Tekst na dniu pozostaje czytelny: staje się czarny lub biały, jeśli inaczej by nie był, chyba że wybierzesz go polem tekstu."
 Put every color back to the page's own,Przywróć każdemu kolorowi kolor strony
 "Put every setting here back to what config.csv asks for, keeping the day on the wheel","Przywróć każde ustawienie do tego, co podaje config.csv, z dniem zachowanym na kole"
 "Copy a link that opens on this day, with these settings","Skopiuj link, który otwiera się na tym dniu z tymi ustawieniami"
@@ -501,3 +501,5 @@ Suggested hymns,Proponowane pieśni
 Hymnal topics,Tematy śpiewnika
 "The hymns suggested for the day, year by year, under a Hymns tab (or after the readings), with the Hymn of the Day","Pieśni proponowane na ten dzień, rok po roku, w karcie Pieśni (lub po czytaniach), z pieśnią dnia"
 "After the day's name, a hymnal mark for each section of the hymnal's index the day has (Advent, Reformation, a saint), opening its hymns","Po nazwie dnia znak śpiewnika dla każdej części indeksu śpiewnika, którą ma ten dzień (Adwent, Reformacja, święty), otwierający jej pieśni"
+The color of the words on these days,Kolor napisów w te dni
+No color appointed: drawn in stripes,Bez wyznaczonego koloru: rysowane w paski

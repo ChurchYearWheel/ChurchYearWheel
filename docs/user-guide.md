@@ -143,14 +143,18 @@ wheel for the year shown:
 
 - **Days**: each liturgical color the year uses (lower halves included),
   named as the church's palette names them, with its swatch and code
-  (`#660066`), and **Outside the year**, the gray cells before and after the
-  church year.
+  (`#660066`) and a **text** swatch for the color of its words. A color
+  drawn in stripes, as the PC(USA)'s *None* for Good Friday and Holy
+  Saturday (no color appointed), has a swatch for each stripe. **Outside
+  the year**, the gray cells before and after the church year, is listed
+  when the wheel has some (a year that starts on September 1, say).
 - **Rings**: each ring's fill, outermost first, and for a ring with words
   (Parts of the year, Seasons, Months) the color of its words.
 
 Click a swatch to pick a new color; the wheel is redrawn with it, and the row
 is marked as changed. If a day's text would no longer read well on the new
-color, it turns black or white, whichever reads better. The changes are kept
+color, it turns black or white, whichever reads better, unless you choose its
+color with the text swatch, which then stays as chosen. The changes are kept
 in the page's address, so **Copy link** shares them and the gear shows its
 dot. **Reset colors** (in the window) or **Reset settings** puts them back.
 The changes belong to this page only; to change the colors a church's data
@@ -201,7 +205,7 @@ A bare date (or `today`, or `sunday`) after the `#` works as `date=` does. `date
 | `help` | `1` or `0`: the instructions and notes under the wheel |
 | `credit` | `1` or `0`: the artwork credit under the wheel |
 | `hide` | rings to hide, comma separated |
-| `colors` | colors changed in the Colors window, comma separated: `PURPLE-7a1f7a` (a day color), `lutheran:PURPLE-7a1f7a` (a day color in one tradition only), `lutheran:wels-one-year:PURPLE-7a1f7a` (in one church only), `ring.halves-e6c3f7` (a ring), `text.halves-000000` (a ring's words), `empty-f0f0f0` (outside the year) |
+| `colors` | colors changed in the Colors window, comma separated: `PURPLE-7a1f7a` (a day color), `lutheran:PURPLE-7a1f7a` (a day color in one tradition only), `lutheran:wels-one-year:PURPLE-7a1f7a` (in one church only), `ring.halves-e6c3f7` (a ring), `text.halves-000000` (a ring's words), `PURPLE.text-ffffff` (a day color's words, with the same tradition and church prefixes), `NONE-ffffff/bfbfbf` (a striped color), `empty-f0f0f0` (outside the year) |
 | `zoom` | 1 to 6 |
 
 The browser's Back and Forward buttons step through the days you picked and

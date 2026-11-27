@@ -173,7 +173,7 @@ A circled note after each set of readings that searches Word to Worship (wordtow
 "How to use the wheel, the calendar's notes and how long it took to draw","Hur man använder hjulet, kalenderns anteckningar och hur lång tid det tog att rita"
 "Who made the picture in the middle, and its license. When it is off and the license asks for credit, a small i button keeps it a click away.",Vem som gjort bilden i mitten och dess licens. När detta är av och licensen kräver erkännande håller en liten i-knapp det ett klick bort.
 "The colors the days and the rings are painted in, each of which can be changed for this page",Färgerna som dagarna och ringarna målas i; var och en kan ändras för denna sida
-The colors on the wheel this year. Click a swatch to change it; the change is kept in the page's link. Text on a day stays readable: it turns black or white if it would not.,Färgerna på hjulet i år. Klicka på ett färgprov för att ändra det; ändringen sparas i sidans länk. Texten på en dag förblir läsbar: den blir svart eller vit om den inte skulle vara det.
+"The colors on the wheel this year. Click a swatch to change it; the change is kept in the page's link. Text on a day stays readable: it turns black or white if it would not, unless you choose it with the text box.","Färgerna på hjulet i år. Klicka på ett färgprov för att ändra det; ändringen sparas i sidans länk. Texten på en dag förblir läsbar: den blir svart eller vit om den inte skulle vara det, om du inte väljer den med textrutan."
 Put every color back to the page's own,Återställ varje färg till sidans egen
 "Put every setting here back to what config.csv asks for, keeping the day on the wheel","Återställ varje inställning här till vad config.csv anger, med dagen kvar på hjulet"
 "Copy a link that opens on this day, with these settings","Kopiera en länk som öppnas på denna dag, med dessa inställningar"
@@ -501,3 +501,5 @@ Suggested hymns,Föreslagna psalmer
 Hymnal topics,Psalmbokens ämnen
 "The hymns suggested for the day, year by year, under a Hymns tab (or after the readings), with the Hymn of the Day","Psalmerna som föreslås för dagen, år för år, under fliken Psalmer (eller efter läsningarna), med dagens psalm"
 "After the day's name, a hymnal mark for each section of the hymnal's index the day has (Advent, Reformation, a saint), opening its hymns","Efter dagens namn ett psalmboksmärke för varje avsnitt i psalmbokens register som dagen har (advent, reformation, ett helgon), som öppnar dess psalmer"
+The color of the words on these days,Färgen på orden dessa dagar
+No color appointed: drawn in stripes,Ingen färg föreskriven: ritas randig

@@ -173,7 +173,7 @@ A circled note after each set of readings that searches Word to Worship (wordtow
 "How to use the wheel, the calendar's notes and how long it took to draw","Cara memakai roda, catatan kalender, dan berapa lama penggambarannya"
 "Who made the picture in the middle, and its license. When it is off and the license asks for credit, a small i button keeps it a click away.","Siapa pembuat gambar di tengah dan lisensinya. Bila ini dimatikan dan lisensi meminta pencantuman, tombol i kecil menyimpannya sejauh satu klik."
 "The colors the days and the rings are painted in, each of which can be changed for this page",Warna yang dipakai untuk mewarnai hari dan cincin; masing-masing dapat diubah untuk halaman ini
-The colors on the wheel this year. Click a swatch to change it; the change is kept in the page's link. Text on a day stays readable: it turns black or white if it would not.,Warna-warna pada roda tahun ini. Klik contoh warna untuk mengubahnya; perubahan disimpan dalam tautan halaman. Teks pada suatu hari tetap terbaca: berubah hitam atau putih bila tidak.
+"The colors on the wheel this year. Click a swatch to change it; the change is kept in the page's link. Text on a day stays readable: it turns black or white if it would not, unless you choose it with the text box.","Warna-warna pada roda tahun ini. Klik contoh warna untuk mengubahnya; perubahan disimpan dalam tautan halaman. Teks pada suatu hari tetap terbaca: berubah hitam atau putih bila tidak, kecuali Anda memilihnya dengan kotak teks."
 Put every color back to the page's own,Kembalikan setiap warna ke warna halaman
 "Put every setting here back to what config.csv asks for, keeping the day on the wheel","Kembalikan setiap pengaturan ke yang diminta config.csv, dengan hari tetap pada roda"
 "Copy a link that opens on this day, with these settings","Salin tautan yang terbuka pada hari ini, dengan pengaturan ini"
@@ -501,3 +501,5 @@ Suggested hymns,Himne yang disarankan
 Hymnal topics,Topik buku nyanyian
 "The hymns suggested for the day, year by year, under a Hymns tab (or after the readings), with the Hymn of the Day","Himne yang disarankan untuk hari itu, tahun demi tahun, di tab Himne (atau sesudah bacaan), dengan Himne Hari Itu"
 "After the day's name, a hymnal mark for each section of the hymnal's index the day has (Advent, Reformation, a saint), opening its hymns","Sesudah nama hari, tanda buku nyanyian untuk tiap bagian indeks buku nyanyian yang dimiliki hari itu (Adven, Reformasi, seorang santo), yang membuka himnenya"
+The color of the words on these days,Warna tulisan pada hari-hari ini
+No color appointed: drawn in stripes,Tidak ada warna yang ditetapkan: digambar bergaris

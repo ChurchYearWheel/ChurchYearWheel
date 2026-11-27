@@ -18,7 +18,7 @@ so drawing another church, year or look never means editing `config.csv`:
 | `--credit always\|auto\|none` | the artwork's credit in the corner | `artwork_credit` |
 | `--mid-text as-set\|dark\|dark-reds\|light` | text on the mid-tone colors | `mid_text` |
 | `--hide RING` (repeatable, or `gold,halves`) | leave a ring out, by its `rings.csv` key, as the page's `hide=` does; the others close over the gap. The day cells and the center stay | |
-| `--color-changes CHANGES` | repaint colors for this drawing, as the page's Colors menu does and a link's `colors=` writes them: `PURPLE-7a1f7a` (every church), `lutheran:WHITE-fffff0` (a tradition), `lutheran:wels-one-year:RED-c00000` (a church), `ring.halves-e6c3f7`, `text.halves-000000`, `empty-f0f0f0`. Text on a day stays readable | |
+| `--color-changes CHANGES` | repaint colors for this drawing, as the page's Colors menu does and a link's `colors=` writes them: `PURPLE-7a1f7a` (every church), `lutheran:WHITE-fffff0` (a tradition), `lutheran:wels-one-year:RED-c00000` (a church), `PURPLE.text-ffffff` (a color's words, which then stay as chosen), `NONE-ffffff/bfbfbf` (stripes), `ring.halves-e6c3f7`, `text.halves-000000`, `empty-f0f0f0`. Text on a day stays readable | |
 | `--png-background COLOR` | the PNG's background, `none` (clear) or a color, as the page's Download offers | `png_background` |
 | `-o PATH` (`--output`, `--out`) | the SVG file, or a folder for the default name | `output_filename` |
 | `--png`/`--no-png`, `--png-width`, `--png-renderer` | the PNG (below) | `png_output`, `png_width`, `png_renderer` |

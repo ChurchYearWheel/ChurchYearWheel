@@ -173,7 +173,7 @@ A circled note after each set of readings that searches Word to Worship (wordtow
 "How to use the wheel, the calendar's notes and how long it took to draw","Kā lietot ratu, kalendāra piezīmes un cik ilgi zīmēja"
 "Who made the picture in the middle, and its license. When it is off and the license asks for credit, a small i button keeps it a click away.","Kas veidoja attēlu centrā un tā licence. Ja tas ir izslēgts un licence prasa norādi, maza i poga to tur viena klikšķa attālumā."
 "The colors the days and the rings are painted in, each of which can be changed for this page","Krāsas, kurās krāso dienas un gredzenus; katru var mainīt šai lapai"
-The colors on the wheel this year. Click a swatch to change it; the change is kept in the page's link. Text on a day stays readable: it turns black or white if it would not.,"Rata krāsas šogad. Noklikšķini uz parauga, lai to mainītu; izmaiņa saglabājas lapas saitē. Teksts uz dienas paliek salasāms: tas kļūst melns vai balts, ja citādi nebūtu."
+"The colors on the wheel this year. Click a swatch to change it; the change is kept in the page's link. Text on a day stays readable: it turns black or white if it would not, unless you choose it with the text box.","Rata krāsas šogad. Noklikšķini uz parauga, lai to mainītu; izmaiņa saglabājas lapas saitē. Teksts uz dienas paliek salasāms: tas kļūst melns vai balts, ja citādi nebūtu, ja vien jūs to neizvēlaties ar teksta lodziņu."
 Put every color back to the page's own,Atjaunot katru krāsu uz lapas pašas
 "Put every setting here back to what config.csv asks for, keeping the day on the wheel","Atjaunot katru iestatījumu uz to, ko prasa config.csv, paturot dienu uz rata"
 "Copy a link that opens on this day, with these settings","Kopēt saiti, kas atveras šajā dienā ar šiem iestatījumiem"
@@ -501,3 +501,5 @@ Suggested hymns,Ieteiktās dziesmas
 Hymnal topics,Dziesmu grāmatas tēmas
 "The hymns suggested for the day, year by year, under a Hymns tab (or after the readings), with the Hymn of the Day","Dienai ieteiktās dziesmas, gadu pa gadam, cilnē Dziesmas (vai pēc lasījumiem), kopā ar dienas dziesmu"
 "After the day's name, a hymnal mark for each section of the hymnal's index the day has (Advent, Reformation, a saint), opening its hymns","Pēc dienas nosaukuma dziesmu grāmatas zīme katrai dziesmu grāmatas rādītāja daļai, kas dienai ir (Advente, Reformācija, svētais), kas atver tās dziesmas"
+The color of the words on these days,Šo dienu teksta krāsa
+No color appointed: drawn in stripes,Krāsa nav noteikta: zīmēts svītrains

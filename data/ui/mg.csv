@@ -173,7 +173,7 @@ A circled note after each set of readings that searches Word to Worship (wordtow
 "How to use the wheel, the calendar's notes and how long it took to draw","Ny fomba fampiasana ny kodiarana, ny fanamarihan'ny tetiandro ary ny faharetan'ny fanaovana azy"
 "Who made the picture in the middle, and its license. When it is off and the license asks for credit, a small i button keeps it a click away.","Ny nanao ny sary eo afovoany sy ny fahazoan-dàlana. Raha maty izy ary mitaky fanononana ny fahazoan-dàlana, misy bokotra i kely mitahiry izany ho tsindry iray monja."
 "The colors the days and the rings are painted in, each of which can be changed for this page",Ny loko andokoana ny andro sy ny peratra; samy azo ovaina ho an'ity pejy ity
-The colors on the wheel this year. Click a swatch to change it; the change is kept in the page's link. Text on a day stays readable: it turns black or white if it would not.,Ny loko eo amin'ny kodiarana amin'ity taona ity. Tsindrio ny santionany raha hanova azy; voatahiry ao amin'ny rohin'ny pejy ny fanovana. Mbola azo vakiana ny soratra amin'ny andro: lasa mainty na fotsy izy raha tsy izany.
+"The colors on the wheel this year. Click a swatch to change it; the change is kept in the page's link. Text on a day stays readable: it turns black or white if it would not, unless you choose it with the text box.","Ny loko eo amin'ny kodiarana amin'ity taona ity. Tsindrio ny santionany raha hanova azy; voatahiry ao amin'ny rohin'ny pejy ny fanovana. Mbola azo vakiana ny soratra amin'ny andro: lasa mainty na fotsy izy raha tsy izany, raha tsy safidinao amin'ny boaty soratra izany."
 Put every color back to the page's own,Avereno amin'ny lokon'ny pejy ny loko tsirairay
 "Put every setting here back to what config.csv asks for, keeping the day on the wheel","Avereno amin'izay takian'ny config.csv ny fandrindrana rehetra eto, tazonina eo amin'ny kodiarana ny andro"
 "Copy a link that opens on this day, with these settings","Adikao rohy misokatra amin'ity andro ity, miaraka amin'ireo fandrindrana ireo"
@@ -501,3 +501,5 @@ Suggested hymns,Hira atolotra
 Hymnal topics,Lohahevitry ny boky fihirana
 "The hymns suggested for the day, year by year, under a Hymns tab (or after the readings), with the Hymn of the Day","Ireo hira atolotra ho an'ny andro, isan-taona, ao amin'ny tabilao Hira (na aorian'ny vakiteny), miaraka amin'ny hiran'ny andro"
 "After the day's name, a hymnal mark for each section of the hymnal's index the day has (Advent, Reformation, a saint), opening its hymns","Aorian'ny anaran'ny andro, marika boky fihirana ho an'ny fizarana tsirairay ao amin'ny fanondroan'ny boky fihirana ananan'ny andro (Advento, Fanavaozana, olomasina), manokatra ny hirany"
+The color of the words on these days,Ny lokon'ny soratra amin'ireo andro ireo
+No color appointed: drawn in stripes,Tsy misy loko voatendry: voasoritra misy tsipika

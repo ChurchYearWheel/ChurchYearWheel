@@ -204,7 +204,7 @@ Ett datum ensamt (eller `today`) efter `#` fungerar som `date=`.
 | `help` | `1` eller `0`: instruktionerna och anteckningarna under hjulet |
 | `credit` | `1` eller `0`: bildens erkännande under hjulet |
 | `hide` | ringar att dölja, kommaseparerade |
-| `colors` | färger ändrade i fönstret Färger, kommaseparerade: `PURPLE-7a1f7a` (en dagfärg), `lutheran:PURPLE-7a1f7a` (en dagfärg bara i en tradition), `lutheran:wels-one-year:PURPLE-7a1f7a` (bara i en kyrka), `ring.halves-e6c3f7` (en ring), `text.halves-000000` (en rings ord), `empty-f0f0f0` (utanför året) |
+| `colors` | färger ändrade i fönstret Färger, kommaseparerade: `PURPLE-7a1f7a` (en dagfärg), `lutheran:PURPLE-7a1f7a` (en dagfärg bara i en tradition), `lutheran:wels-one-year:PURPLE-7a1f7a` (bara i en kyrka), `ring.halves-e6c3f7` (en ring), `text.halves-000000` (en rings ord), `PURPLE.text-ffffff` (orden på en dagfärg), `NONE-ffffff/bfbfbf` (randig), `empty-f0f0f0` (utanför året) |
 | `zoom` | 1 till 6 |
 
 Webbläsarens Bakåt- och Framåt-knappar går igenom de valda dagarna och de

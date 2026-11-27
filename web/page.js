@@ -1701,11 +1701,43 @@ function buildColorMenu() {
     const key = currentTradition();
     const church = colorOverrides.churches[key] || {};
     const trad = colorOverrides.traditions[tradSlug(traditionOf(key).tradition)] || {};
-    const into = church[c.name] ? church : trad[c.name] ? trad : colorOverrides.days;
-    dayColors.appendChild(colorRow(colorName(c.name), c.fill, !!(church[c.name] || trad[c.name] || colorOverrides.days[c.name]),
-      v => { into[c.name] = v; redrawColors(); }));
+    const T_ = c.name + '.TEXT';
+    const has = m => !!(m[c.name] || m[T_]);
+    const into = has(church) ? church : has(trad) ? trad : colorOverrides.days;
+    const changed = [church, trad, colorOverrides.days].some(has);
+    // The words on these days: chosen, they stay as chosen.
+    const text = document.createElement('span');
+    text.className = 'text';
+    text.title = 'The color of the words on these days';
+    const tbox = document.createElement('input');
+    tbox.type = 'color';
+    tbox.value = hex6(c.text) || '#000000';
+    tbox.setAttribute('aria-label', colorName(c.name) + ' text');
+    tbox.addEventListener('change', () => { into[T_] = tbox.value; redrawColors(); });
+    text.append('text ', tbox);
+    const stripes = String(c.fill).split('/').map(hex6);
+    if (stripes.length > 1 && stripes.every(Boolean)) {
+      // A day with no color appointed is drawn in stripes: a swatch for each.
+      const row = colorRow(colorName(c.name), stripes[0], changed,
+        v => { const now = String(into[c.name] || c.fill).split('/').map(hex6); now[0] = v; into[c.name] = now.join('/'); redrawColors(); }, text);
+      row.title = 'No color appointed: drawn in stripes';
+      const second = document.createElement('input');
+      second.type = 'color';
+      second.value = stripes[1];
+      second.setAttribute('aria-label', colorName(c.name) + ' 2');
+      second.addEventListener('change', () => { const now = String(into[c.name] || c.fill).split('/').map(hex6); now[1] = second.value; into[c.name] = now.join('/'); redrawColors(); });
+      const pair = document.createElement('span');
+      pair.className = 'stripes';
+      pair.append(row.firstChild, second);
+      row.prepend(pair);
+      row.querySelector('code').textContent = stripes.join(' / ');
+      dayColors.appendChild(row);
+      continue;
+    }
+    dayColors.appendChild(colorRow(colorName(c.name), c.fill, changed,
+      v => { into[c.name] = v; redrawColors(); }, text));
   }
-  if (hex6(lastBuilt.emptyFill)) {
+  if (hex6(lastBuilt.emptyFill) && (lastBuilt.emptyUsed || colorOverrides.empty)) {
     dayColors.appendChild(colorRow('Outside the year', lastBuilt.emptyFill, !!colorOverrides.empty,
       v => { colorOverrides.empty = v; redrawColors(); }));
   }
@@ -1758,17 +1790,19 @@ function clearColors() {
  * empty-f0f0f0. */
 function colorsParam() {
   const out = [];
-  for (const k of Object.keys(colorOverrides.days).sort()) out.push(k + '-' + colorOverrides.days[k].slice(1));
+  // NAME.TEXT is written NAME.text; stripes as ffffff/bfbfbf.
+  const item = (k, v) => k.replace(/\.TEXT$/, '.text') + '-' + String(v).replace(/#/g, '');
+  for (const k of Object.keys(colorOverrides.days).sort()) out.push(item(k, colorOverrides.days[k]));
   for (const t of Object.keys(colorOverrides.traditions).sort()) {
     const m = colorOverrides.traditions[t];
-    for (const k of Object.keys(m).sort()) out.push(t + ':' + k + '-' + m[k].slice(1));
+    for (const k of Object.keys(m).sort()) out.push(t + ':' + item(k, m[k]));
   }
   const slugOf = key => colorOverrides.churchTrad[key] || tradSlug((TRADITIONS.find(t => t.key === key) || {}).tradition);
   const churches = Object.keys(colorOverrides.churches)
     .sort((a, b) => (slugOf(a) < slugOf(b) ? -1 : slugOf(a) > slugOf(b) ? 1 : a < b ? -1 : a > b ? 1 : 0));
   for (const c of churches) {
     const m = colorOverrides.churches[c];
-    for (const k of Object.keys(m).sort()) out.push(slugOf(c) + ':' + c + ':' + k + '-' + m[k].slice(1));
+    for (const k of Object.keys(m).sort()) out.push(slugOf(c) + ':' + c + ':' + item(k, m[k]));
   }
   for (const k of Object.keys(colorOverrides.rings).sort()) out.push('ring.' + k + '-' + colorOverrides.rings[k].slice(1));
   for (const k of Object.keys(colorOverrides.ringText).sort()) out.push('text.' + k + '-' + colorOverrides.ringText[k].slice(1));
@@ -1781,8 +1815,10 @@ function readColorsParam(text) {
   for (const item of String(text || '').split(',')) {
     const i = item.lastIndexOf('-');
     if (i <= 0) continue;
-    const key = item.slice(0, i), value = hex6('#' + item.slice(i + 1));
-    if (!value) continue;
+    const key = item.slice(0, i), raw = item.slice(i + 1).split('/').map(p => hex6('#' + p));
+    // Stripes (NONE-ffffff/bfbfbf) only for a day's own fill.
+    if (!raw.every(Boolean) || (raw.length > 1 && (key === 'empty' || key.indexOf('.') >= 0))) continue;
+    const value = raw.join('/');
     if (key === 'empty') colorOverrides.empty = value;
     else if (key.indexOf('ring.') === 0) colorOverrides.rings[key.slice(5)] = value;
     else if (key.indexOf('text.') === 0) colorOverrides.ringText[key.slice(5)] = value;
@@ -4989,8 +5025,10 @@ function pageColorMap() {
   for (const item of pageColors.value.split(',')) {
     const t = item.trim(), i = t.lastIndexOf('-');
     if (i <= 0) continue;
-    const v = hex6('#' + t.slice(i + 1));
-    if (!v) continue;
+    // Stripes (NONE-ffffff/bfbfbf) for a day color's fill, as the Colors window writes them.
+    const parts = t.slice(i + 1).split('/').map(p => hex6('#' + p));
+    if (!parts.every(Boolean)) continue;
+    const v = parts.join('/');
     let k = t.slice(0, i);
     if (isDayKey(k)) {
       const p = k.split(':');
@@ -5009,7 +5047,7 @@ function setPageColorMap(m) {
   const depth = d => keys.filter(k => scopeDepth(k) === d).sort(cmp);
   const part = pre => keys.filter(k => k.indexOf(pre) === 0).sort();
   pageColors.value = depth(0).concat(depth(1), depth(2), part('ring.'), part('text.'), keys.filter(k => k === 'empty'))
-    .map(k => k + '-' + m[k].slice(1)).join(',');
+    .map(k => k.replace(/\.TEXT$/, '.text') + '-' + String(m[k]).replace(/#/g, '')).join(',');
 }
 function pageColorsShow() {
   const m = pageColorMap(), keys = new Set(pageKeys()), mode = pageColorMode.value;

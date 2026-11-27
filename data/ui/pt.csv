@@ -173,7 +173,7 @@ A circled note after each set of readings that searches Word to Worship (wordtow
 "How to use the wheel, the calendar's notes and how long it took to draw","Como usar a roda, as notas do calendário e quanto tempo levou para desenhar"
 "Who made the picture in the middle, and its license. When it is off and the license asks for credit, a small i button keeps it a click away.","Quem fez a imagem do centro e a sua licença. Quando está desligado e a licença pede crédito, um pequeno botão i o deixa a um clique."
 "The colors the days and the rings are painted in, each of which can be changed for this page",As cores em que os dias e os anéis são pintados; cada uma pode ser mudada para esta página
-The colors on the wheel this year. Click a swatch to change it; the change is kept in the page's link. Text on a day stays readable: it turns black or white if it would not.,As cores da roda neste ano. Clique numa amostra para mudá-la; a mudança fica no link da página. O texto de um dia continua legível: fica preto ou branco se não fosse.
+"The colors on the wheel this year. Click a swatch to change it; the change is kept in the page's link. Text on a day stays readable: it turns black or white if it would not, unless you choose it with the text box.","As cores da roda neste ano. Clique numa amostra para mudá-la; a mudança fica no link da página. O texto de um dia continua legível: fica preto ou branco se não fosse, a não ser que o escolha com a caixa do texto."
 Put every color back to the page's own,Voltar cada cor à da página
 "Put every setting here back to what config.csv asks for, keeping the day on the wheel","Voltar cada configuração ao que pede o config.csv, mantendo o dia na roda"
 "Copy a link that opens on this day, with these settings","Copiar um link que abre neste dia, com estas configurações"
@@ -501,3 +501,5 @@ Suggested hymns,Hinos sugeridos
 Hymnal topics,Temas do hinário
 "The hymns suggested for the day, year by year, under a Hymns tab (or after the readings), with the Hymn of the Day","Os hinos sugeridos para o dia, ano a ano, num separador Hinos (ou após as leituras), com o hino do dia"
 "After the day's name, a hymnal mark for each section of the hymnal's index the day has (Advent, Reformation, a saint), opening its hymns","Após o nome do dia, uma marca de hinário para cada secção do índice do hinário que o dia tem (Advento, Reforma, um santo), que abre os seus hinos"
+The color of the words on these days,A cor das palavras nestes dias
+No color appointed: drawn in stripes,Sem cor indicada: desenhado às riscas

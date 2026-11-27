@@ -213,7 +213,7 @@ Tarehe peke yake (au `today`) baada ya `#` hufanya kazi kama `date=`.
 | `help` | `1` au `0`: maelekezo na maelezo chini ya gurudumu |
 | `credit` | `1` au `0`: sifa za mwenye picha chini ya gurudumu |
 | `hide` | pete za kuficha, zikitenganishwa kwa koma |
-| `colors` | rangi zilizobadilishwa katika dirisha la Rangi, zikitenganishwa kwa koma: `PURPLE-7a1f7a` (rangi ya siku), `lutheran:PURPLE-7a1f7a` (rangi ya siku katika mapokeo moja tu), `lutheran:wels-one-year:PURPLE-7a1f7a` (katika kanisa moja tu), `ring.halves-e6c3f7` (pete), `text.halves-000000` (maneno ya pete), `empty-f0f0f0` (nje ya mwaka) |
+| `colors` | rangi zilizobadilishwa katika dirisha la Rangi, zikitenganishwa kwa koma: `PURPLE-7a1f7a` (rangi ya siku), `lutheran:PURPLE-7a1f7a` (rangi ya siku katika mapokeo moja tu), `lutheran:wels-one-year:PURPLE-7a1f7a` (katika kanisa moja tu), `ring.halves-e6c3f7` (pete), `text.halves-000000` (maneno ya pete), `PURPLE.text-ffffff` (maneno ya rangi ya siku), `NONE-ffffff/bfbfbf` (yenye milia), `empty-f0f0f0` (nje ya mwaka) |
 | `zoom` | 1 hadi 6 |
 
 Vitufe vya kivinjari vya Nyuma na Mbele hupitia siku zilizochaguliwa na

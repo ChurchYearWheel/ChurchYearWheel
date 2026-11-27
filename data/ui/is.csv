@@ -173,7 +173,7 @@ A circled note after each set of readings that searches Word to Worship (wordtow
 "How to use the wheel, the calendar's notes and how long it took to draw","Hvernig á að nota hjólið, athugasemdir tímatalsins og hve langan tíma tók að teikna"
 "Who made the picture in the middle, and its license. When it is off and the license asks for credit, a small i button keeps it a click away.",Hver gerði myndina í miðjunni og leyfi hennar. Þegar slökkt er á þessu og leyfið krefst tilvísunar heldur lítill i-hnappur henni í smellifjarlægð.
 "The colors the days and the rings are painted in, each of which can be changed for this page",Litirnir sem dagarnir og hringirnir eru málaðir í; breyta má hverjum fyrir þessa síðu
-The colors on the wheel this year. Click a swatch to change it; the change is kept in the page's link. Text on a day stays readable: it turns black or white if it would not.,Litirnir á hjólinu í ár. Smelltu á litaprufu til að breyta henni; breytingin geymist í tengli síðunnar. Texti á degi helst læsilegur: hann verður svartur eða hvítur ef hann væri það annars ekki.
+"The colors on the wheel this year. Click a swatch to change it; the change is kept in the page's link. Text on a day stays readable: it turns black or white if it would not, unless you choose it with the text box.","Litirnir á hjólinu í ár. Smelltu á litaprufu til að breyta henni; breytingin geymist í tengli síðunnar. Texti á degi helst læsilegur: hann verður svartur eða hvítur ef hann væri það annars ekki, nema þú veljir hann með textareitnum."
 Put every color back to the page's own,Setja hvern lit aftur í lit síðunnar
 "Put every setting here back to what config.csv asks for, keeping the day on the wheel","Setja hverja stillingu hér aftur í það sem config.csv segir, með daginn áfram á hjólinu"
 "Copy a link that opens on this day, with these settings","Afrita tengil sem opnast á þessum degi, með þessum stillingum"
@@ -501,3 +501,5 @@ Suggested hymns,Tillögur að sálmum
 Hymnal topics,Efnisflokkar sálmabókar
 "The hymns suggested for the day, year by year, under a Hymns tab (or after the readings), with the Hymn of the Day","Sálmarnir sem stungið er upp á fyrir daginn, ár fyrir ár, á flipanum Sálmar (eða á eftir lestrunum), með sálmi dagsins"
 "After the day's name, a hymnal mark for each section of the hymnal's index the day has (Advent, Reformation, a saint), opening its hymns","Á eftir heiti dagsins sálmabókarmerki fyrir hvern hluta efnisskrár sálmabókarinnar sem dagurinn á (aðventa, siðbót, dýrlingur), sem opnar sálma hans"
+The color of the words on these days,Litur orðanna á þessum dögum
+No color appointed: drawn in stripes,Enginn litur ákveðinn: teiknað með röndum

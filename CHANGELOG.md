@@ -1,5 +1,26 @@
 # Changelog
 
+## 2026-11 (145) — more in the Colors window
+
+### Added
+
+- **A day color's words can be recolored** in the Colors window, as a
+  ring's can: a *text* swatch on each day color. A text color chosen this
+  way stays as chosen; one left alone still turns black or white when a new
+  fill would make it hard to read. In a link, `PURPLE.text-ffffff` (with the
+  same tradition and church prefixes as the fills).
+- **A striped color gets a swatch for each stripe**: the PC(USA)'s *None*,
+  Good Friday and Holy Saturday with no color appointed, was listed as a
+  plain white swatch and could only be changed to a single color. In a link,
+  `NONE-ffffff/bfbfbf`. `church_year_image.py --color-changes` takes both.
+
+### Changed
+
+- **Outside the year is listed only when the wheel has some**: cells before
+  the year begins or after it ends (the Orthodox, Coptic, Ethiopian and
+  Eastern Catholic years, which start on September 1 or in the fall), or
+  the notch closed where a year starts or ends midweek.
+
 ## 2026-11 (144) — review fixes
 
 ### Fixed

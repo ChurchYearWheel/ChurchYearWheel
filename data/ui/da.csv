@@ -173,7 +173,7 @@ A circled note after each set of readings that searches Word to Worship (wordtow
 "How to use the wheel, the calendar's notes and how long it took to draw","Hvordan man bruger hjulet, kalenderens noter og hvor lang tid det tog at tegne"
 "Who made the picture in the middle, and its license. When it is off and the license asks for credit, a small i button keeps it a click away.","Hvem der lavede billedet i midten, og dets licens. Når det er slået fra og licensen kræver kreditering, holder en lille i-knap det et klik væk."
 "The colors the days and the rings are painted in, each of which can be changed for this page",De farver dagene og ringene males i; hver kan ændres for denne side
-The colors on the wheel this year. Click a swatch to change it; the change is kept in the page's link. Text on a day stays readable: it turns black or white if it would not.,"Farverne på hjulet i år. Klik på en farveprøve for at ændre den; ændringen gemmes i sidens link. Teksten på en dag forbliver læselig: den bliver sort eller hvid, hvis den ellers ikke ville være det."
+"The colors on the wheel this year. Click a swatch to change it; the change is kept in the page's link. Text on a day stays readable: it turns black or white if it would not, unless you choose it with the text box.","Farverne på hjulet i år. Klik på en farveprøve for at ændre den; ændringen gemmes i sidens link. Teksten på en dag forbliver læselig: den bliver sort eller hvid, hvis den ellers ikke ville være det, medmindre du vælger den med tekstfeltet."
 Put every color back to the page's own,Sæt hver farve tilbage til sidens egen
 "Put every setting here back to what config.csv asks for, keeping the day on the wheel","Sæt hver indstilling her tilbage til det config.csv angiver, med dagen bevaret på hjulet"
 "Copy a link that opens on this day, with these settings","Kopiér et link der åbner på denne dag, med disse indstillinger"
@@ -501,3 +501,5 @@ Suggested hymns,Foreslåede salmer
 Hymnal topics,Salmebogens emner
 "The hymns suggested for the day, year by year, under a Hymns tab (or after the readings), with the Hymn of the Day","De salmer, der foreslås til dagen, år for år, under fanen Salmer (eller efter læsningerne), med dagens salme"
 "After the day's name, a hymnal mark for each section of the hymnal's index the day has (Advent, Reformation, a saint), opening its hymns","Efter dagens navn et salmebogsmærke for hvert afsnit i salmebogens register, som dagen har (advent, reformation, en helgen), der åbner dets salmer"
+The color of the words on these days,Farven på ordene på disse dage
+No color appointed: drawn in stripes,Ingen farve fastsat: tegnet med striber
