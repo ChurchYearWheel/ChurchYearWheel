@@ -341,7 +341,8 @@ Day for the American churches; and on weekdays the RCL Daily Readings
 (`data/readings/rcl-daily.csv`: a psalm and two lessons, Thursday to Saturday
 preparing for the coming Sunday and Monday to Wednesday reflecting on the
 past one), from Vanderbilt's three years (2025–28) and, for the weeks those
-years lack, from liturgical-calendar.com's RCL Daily Readings. The ELCA, Episcopal and other books make
+years lack, from liturgical-calendar.com's RCL Daily Readings (the PC(USA)
+has its own Daily Lectionary instead: see below). The ELCA, Episcopal and other books make
 small changes of their own to the RCL that are not shown.
 
 - **Episcopal:** the Holy Days of the 1979 Prayer Book (colored in the lower
@@ -361,6 +362,24 @@ small changes of their own to the RCL that are not shown.
   annual conference dates for itself are left out.
 - **Presbyterian:** the festivals of the *Book of Common Worship* (2018) and the
   four special offerings. Colors follow the PC(USA)'s planning calendars.
+  On every day the *Book of Common Worship*'s Daily Lectionary (1993, pp.
+  1049–1095; `data/Presbyterian/readings.csv`), the one the PC(USA)'s Daily
+  Readings follow, takes the place of the RCL Daily Readings: two years (Year
+  One from Advent 2024, 2026 ..., Year Two from Advent 2025 ...), each day with
+  two morning and two evening psalms, an Old Testament reading, an epistle and
+  a Gospel. Readings from the Apocrypha (Sirach, Wisdom, Baruch, 1 Maccabees)
+  are given with the canonical alternative the book provides, after "or"; their
+  links open a Bible that has them when the one chosen does not. 18 December to
+  12 January go by date (18–24 December with the psalms of the day of the week;
+  "Laudate Psalm" is the day of the week's, Sunday 150 to Saturday 149); after the
+  Baptism and after Pentecost each week is the one its Sunday's date falls in,
+  the weekdays after the Day of Pentecost and Trinity Sunday taking the week of
+  that Sunday's date. The Eves of the Epiphany, the Baptism, the Ascension,
+  Pentecost and Trinity Sunday and Christmas Eve are listed as evening prayer; a
+  reading the book marks for the morning or the evening is labeled so; and the
+  Special Days (the Presentation, the Annunciation, the Visitation, the Birth
+  of John the Baptist, Holy Cross, All Saints' Day, New Year's Eve and Day,
+  Thanksgiving Day) are listed beside the day's own, for both years.
 - **Reformed:** colors follow the Reformed Church in America's calendar with
   liturgical colors. The **Special days** menu lays the Christian Reformed
   Church's Canadian observances over it, from its offering schedule: Sanctity

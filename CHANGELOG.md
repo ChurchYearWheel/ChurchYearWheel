@@ -1,5 +1,29 @@
 # Changelog
 
+## 2026-11 (146) — the PC(USA)'s Daily Lectionary
+
+### Added
+
+- **The PC(USA) calendar lists the Daily Lectionary of the Book of Common
+  Worship** (1993, pp. 1049–1095) every day, in place of the RCL Daily
+  Readings: the PC(USA)'s own two-year daily lectionary, which its Daily
+  Readings (pcusa.org/daily/devotion) follow. Year One begins at Advent of an
+  even year (2026 ...), Year Two of an odd one. Each day has two morning and
+  two evening psalms, an Old Testament reading, an epistle and a Gospel, with
+  the Eves at evening prayer, readings marked for the morning or the evening,
+  and the Special Days. Readings from the Apocrypha come with the book's
+  canonical alternative. Read from the book's PDF and checked against a second
+  extraction, the Prayer Book table it adapts and pcusa.org; ten misprints are
+  corrected and listed in docs/source-errors.csv.
+
+### Fixed
+
+- **The Episcopal Daily Office had Luke 14:18–30 on the Thursday of Proper 26,
+  Year Two**, as the Prayer Book (1979) misprints it; Luke is read in course
+  there (13:10–17, then 13:31–35), and the Book of Common Worship has 13:18–30.
+- **The hymn row of the user guides ran two sentences together** ("for planning
+  On a Sunday …"), in all 19 languages.
+
 ## 2026-11 (145) — more in the Colors window
 
 ### Added
