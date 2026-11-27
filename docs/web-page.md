@@ -119,6 +119,11 @@ holds a link to what is on screen. **Copy link** behind the gear puts it on the
 clipboard. Opening the link opens the page on that day, with the same settings
 and magnification.
 
+The tab's icon is a cross on a circle of today's color (its first, where
+the day has two), on the church's own colors, as the paraments likely are;
+a gold cross on white or a light color. It is written into the page (no file beside it) and is violet until
+the page's script has run.
+
 While the wheel is on today the address says `date=today` rather than the
 date, so a bookmark, or a reload next week, opens on whatever day it is then.
 After `S` or a `date=sunday` link the address says `date=sunday` while the

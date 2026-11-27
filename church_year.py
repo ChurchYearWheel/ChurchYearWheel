@@ -724,6 +724,7 @@ aria-label="About the artwork" title="About the artwork" aria-expanded="false">i
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{xml_escape(title)}</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ccircle cx=%2750%27 cy=%2750%27 r=%2748%27 fill=%27%236b3fa0%27/%3E%3Cpath d=%27M42 16h16v18h18v16H58v34H42V50H24V34h18z%27 fill=%27%23fff%27/%3E%3C/svg%3E">
 </head>
 <body>
 {body}</body>

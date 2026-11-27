@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-11 (143) — a tab icon
+
+### Added
+
+- **The page has an icon in the browser tab**: a cross on a circle of the
+  day's color (its first, where it has two), on the church's own colors, as
+  the paraments likely are: violet in Advent, white from Christmas Day, red
+  on a martyr's day; a gold cross on white or a light color. Written into the page, so it shows on GitHub Pages, a saved
+  copy and a page from **Make a page** alike; violet until the page has run.
+
 ## 2026-11 (142) — a Music section in Settings
 
 ### Changed

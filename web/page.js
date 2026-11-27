@@ -1225,7 +1225,28 @@ function cssPaint(fill) {
   return 'repeating-linear-gradient(45deg, ' + line + ' 0 1.5px, ' + ground + ' 1.5px 5px)';
 }
 
+/**
+ * The tab's icon: a cross on a circle of today's color (its first, where the
+ * day has two), as the paraments likely are; a gold cross on white or another
+ * light color, else a white one.
+ */
+function setFavicon() {
+  const info = DAYS[isoToday()];
+  if (!info) return;
+  const fill = String(info.fill || '').split(';')[0].trim();
+  if (!hex6(fill)) return;
+  const n = parseInt(fill.slice(1), 16), lum = 0.299 * (n >> 16) + 0.587 * (n >> 8 & 255) + 0.114 * (n & 255);
+  const light = lum > 170;
+  const svg = `<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='${fill}'${light ? " stroke='#b08d2a' stroke-width='4'" : ''}/>`
+    + `<path d='M42 16h16v18h18v16H58v34H42V50H24V34h18z' fill='${light ? '#c9a227' : '#fff'}'/></svg>`;
+  let link = document.querySelector('link[rel~="icon"]');
+  if (!link) { link = document.createElement('link'); link.rel = 'icon'; document.head.appendChild(link); }
+  link.type = 'image/svg+xml';
+  link.href = 'data:image/svg+xml,' + encodeURIComponent(svg);
+}
+
 function choose(iso, turn) {
+  setFavicon();
   // Any date names exactly one church year -- Advent Sunday to Advent Sunday is
   // a whole number of weeks, so the years tile the calendar without a gap or an
   // overlap.  A date outside the year on the wheel therefore redraws for its
@@ -6492,6 +6513,7 @@ async function pageHtml(d, fragment, compress) {
   if (fragment) return '<title>Church Year Wheel</title>\n' + body;
   return '<!doctype html>\n<html lang="en" class="cy-page">\n<head>\n<meta charset="utf-8">\n'
     + '<meta name="viewport" content="width=device-width, initial-scale=1">\n<title>Church Year Wheel</title>\n'
+    + '<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ccircle cx=%2750%27 cy=%2750%27 r=%2748%27 fill=%27%236b3fa0%27/%3E%3Cpath d=%27M42 16h16v18h18v16H58v34H42V50H24V34h18z%27 fill=%27%23fff%27/%3E%3C/svg%3E">\n'
     + '</head>\n<body>\n' + body + '</body>\n</html>\n';
 }
 
