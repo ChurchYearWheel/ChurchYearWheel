@@ -363,7 +363,8 @@ small changes of their own to the RCL that are not shown.
   Justice Sunday, World Communion Sunday, United Methodist Student Day and the
   rest), with the days Discipleship Ministries' yearly Sundays and Special Days
   calendars keep (Epiphany Sunday, the Festival of the Christian Home,
-  Reformation Sunday, Thanksgiving Sunday). The Sundays each annual conference
+  Reformation Sunday, Thanksgiving Sunday, and from 2025 Ecumenical Sunday, the
+  last Sunday in January). The Sundays each annual conference
   dates for itself are left out. From Easter 2025 the Consultation on Common
   Texts' alternative readings ("Addressing Anti-Judaism", 2025, updated 2026;
   `data/readings/rcl-cct2025.csv`), which the church's 2026 calendar uses, are
@@ -417,9 +418,17 @@ Lutherans):
   its colors, and the Moravian festivals: 1 March (the Unity's founding), 12
   May (the Brotherly Agreement), 17 June, 6 July (Jan Hus), 13 August (the
   renewal of 1727), 17 August, 16 September and 13 November (the Chief Elder
-  festival). All Saints is kept on the Sunday when 1 November is one. The John
-  Hus, August Thirteenth and Chief Elder festivals have their readings, from
-  the church's 2025 Sundays and Special Days calendar.
+  festival). All Saints' Day is kept on 1 November (on a Sunday, beside the
+  Sunday's own readings), Reformation Day when 31 October is a Sunday, and the
+  Sunday after the Epiphany is the First Sunday after the Epiphany, green, with
+  the Baptism's readings. The John Hus, August Thirteenth and Chief Elder
+  festivals have their readings. The special Sundays and prayer days its
+  Provincial Elders' Conferences assign on a fixed rule are listed too
+  (Ecumenical Sunday, World-wide Communion Sunday, the Prayer Days for Moravian
+  Unity Work, World Mission, the Bible Society and the rest, with the province
+  that keeps each in the full name); those whose date is optional or varies
+  are left out. All as the church's Sundays and Special Days calendars of 2025,
+  2026 and 2027 give them.
 - **Methodist Church in Britain:** the Sundays in Ordinary Time numbered as in
   the Roman calendar, the Sunday before Lent (the Transfiguration) and the
   Sunday before Advent (Christ the King); Covenant Sunday (the first Sunday

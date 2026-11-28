@@ -79,7 +79,7 @@ christmas_eve,moravian,,12-24,,,,,,,,Christmas Eve,,,,,WHITE,,,,,,
 christmas,moravian,,12-25,,,,,,,,Nativity of the Lord,,,,,,,,,,,Nativity of the Lord - Christmas
 after_christmas,moravian,,,@christmas+1,@epiphany-1,sun,1,,,,{ordinal} Sunday after Christmas,,,,,,,,,,,
 epiphany,moravian,,01-06,,,,,,,,Epiphany of the Lord,,,,WHITE,,,,,,,
-baptism,moravian,,sun>@epiphany,,,,,,,,Baptism of the Lord,,,,WHITE,,,,,TRUE,,First Sunday after the Epiphany - Baptism of the Lord
+baptism,moravian,,sun>@epiphany,,,,,,,,First Sunday after the Epiphany,,,,GREEN,,,,,TRUE,,First Sunday after the Epiphany - Baptism of the Lord
 after_epiphany,moravian,,,@epiphany+1,@transfiguration,sun,1,,,,{ordinal} Sunday after the Epiphany,,,,,,,,,,,
 transfiguration,moravian,,easter-49,,,,,,,,Transfiguration Sunday,,,,WHITE,,,,,TRUE,,Last Sunday after the Epiphany - Transfiguration Sunday
 ash_wednesday,moravian,,easter-46,,,,,,,,Ash Wednesday,,,,PURPLE,,,,,,,
@@ -94,7 +94,6 @@ ascension,moravian,,easter+39,,,,,,,,Ascension of the Lord,,,,WHITE,,,,,,,
 pentecost,moravian,,easter+49,,,,,,,,Day of Pentecost,,,,RED,,,,,,,
 trinity,moravian,,easter+56,,,,,,,,Trinity Sunday,,,,WHITE,,,,,,,
 after_pentecost,moravian,,,@trinity+1,end,sun,2,,29,down,{ordinal} Sunday after Pentecost,,Proper {number2},,,,,,,,,
-all_saints,moravian,date eq 11-01,sun#1:11,,,,,,,,All Saints' Day,,,,WHITE,,,,,TRUE,,
 christ_the_king,moravian,,next_start-7,,,,,,,,Reign of Christ Sunday,,,,WHITE,,,,,TRUE,,
 advent,methodist-gb,,,start,start+27,sun,1,,,,{ordinal} Sunday of Advent,,,,,,,,,,,
 christmas_eve,methodist-gb,,12-24,,,,,,,,Christmas Eve,,,,,WHITE,,,,,,

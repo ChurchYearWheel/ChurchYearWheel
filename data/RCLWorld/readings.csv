@@ -823,7 +823,8 @@ day,offset,when,cycle,variant,title,kind,reading
 03-31,,year eq 2027,,lca,Daily Bible Reading,lesson,Luke 19:1–10
 # ===========================================================================
 "# The Moravian Church in America (variant moravian): the readings of three of its"
-"# festivals, from its 2025 Sundays and Special Days calendar (Lectionary Cycle C)."
+"# festivals, the same in its Sundays and Special Days calendars of 2025, 2026 and"
+"# 2027 (Lectionary Cycles C, A and B)."
 # ===========================================================================
 07-06,,,,moravian,John Hus Festival,ot,Isaiah 49:1–7
 07-06,,,,moravian,John Hus Festival,psalm,Psalm 135:1–13

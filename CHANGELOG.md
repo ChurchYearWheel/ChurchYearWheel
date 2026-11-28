@@ -1,5 +1,40 @@
 # Changelog
 
+## 2026-11 (150) — the Moravian prayer days
+
+### Added
+
+- **Moravian: the special Sundays and prayer days with a fixed rule**, 20 of
+  them, as the 2025–2027 calendars assign them for the Northern and Southern
+  Provinces: Ecumenical Sunday and the Prayer Day for Retired Ministers (last
+  Sunday in January), Moravian Unity Work (first Sunday in March), Moravian
+  Archives (last Sunday in April), Mother's Day and the Moravian Retirement
+  Community (second Sunday in May), Outdoor Ministries and Camps and
+  Conferences (the Second Sunday after Pentecost), World Peace (first Sunday in
+  August), Public Education (last Sunday in August), Christian Education,
+  Church Development and Older Adults (second, third and last Sundays in
+  September), World-wide Communion Sunday, World Mission, Peace with Justice
+  and Freedom, Prison Ministry and Human Rights for Women (the first four
+  Sundays in October), and the Bible Society and the Moravian University
+  (Reign of Christ Sunday). The province that keeps each is in its full name.
+
+## 2026-11 (149) — the Moravian calendars of 2026 and 2027
+
+### Changed
+
+- **Moravian: the Sunday after the Epiphany is the First Sunday after the
+  Epiphany, green**, with the Baptism's readings, as the church's calendars of
+  2025, 2026 and 2027 all name and color it.
+- **Moravian: All Saints' Day stays on 1 November**; on a Sunday it is listed
+  beside the Sunday, which keeps its own name, color and readings, as in the 2026
+  calendar. Reformation Day is listed when 31 October is a Sunday.
+
+### Added
+
+- **United Methodist: Ecumenical Sunday**, the last Sunday in January, from
+  2025, as the church's 2025 and 2026 calendars and the Moravian calendars of
+  2025–2027 keep it.
+
 ## 2026-11 (148) — the 2018 Book of Common Worship; the CCT's alternative readings
 
 ### Added
