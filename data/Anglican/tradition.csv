@@ -18,7 +18,6 @@ reading_labels,introit=Introit; gradual=Psalm between the Lections; ot=Lesson (P
 "# BCP 1962's Table of Lessons: Year I when Advent Sunday falls in an even year.",,
 reading_cycle,I II 2024,bcp-1962
 # The books that keep the Revised Common Lectionary year read it (Year A from Advent 2025).,,
-readings,rcl-daily,acna-2019
 "# The books whose own readings cite the psalms in their Prayer Book psalter's verses; links open the same verses in English Bibles (lib/versification.py: PSALTERS).",,
 psalter,acna-2019,acna-2019
 psalter,american-1928,bcp-1928 rec-2005

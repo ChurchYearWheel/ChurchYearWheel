@@ -18,6 +18,13 @@ day,offset,when,cycle,variant,title,kind,reading
 # and the dated days 22-23 December and 7-9 January (the first to third days after the
 "# Epiphany, kept unless the Thursday before the Baptism has come).  The two sources were"
 # compared on days they share and agree.
+"# Checked against the ELCA's yearly lists (Year C 2024-25, Year A 2025-26), which"
+"# corrected the Monday to Wednesday of Easter Week in Years A and C (a day late"
+"# before), four readings (Year C: Ezekiel 1:1-2:1, 2 Kings 18:19-25; 19:1-7,"
+"# 2 Kings 15:1-7, Proverbs 15:8-11, 24-33; confirmed by Bible Gateway's plan) and"
+"# gave 26 December and 2 January of Year C (its 2 January Old Testament, printed"
+"# ""Proverbs 147:12-20"", is taken as Year B's Proverbs 1:1-7, with the same James)."
+# A few dated days of Years A and B are still missing.
 next_start,-3,,C,,Daily Readings,psalm,Psalm 122
 next_start,-3,,C,,Daily Readings,ot,Daniel 9:15–19
 next_start,-3,,C,,Daily Readings,nt,James 4:1–10
@@ -309,15 +316,15 @@ easter-7,-2,,A,,Daily Readings,nt,Philippians 1:21–30
 easter-7,-1,,A,,Daily Readings,psalm,Psalm 31:9–16
 easter-7,-1,,A,,Daily Readings,ot,Lamentations 3:55–66
 easter-7,-1,,A,,Daily Readings,nt,Mark 10:32–34
-easter-1,1,,A,,Daily Readings,psalm,"Psalm 118:1–2, 14–24"
-easter-1,1,,A,,Daily Readings,ot,Exodus 14:10–31; 15:20–21
-easter-1,1,,A,,Daily Readings,nt,Colossians 3:5–11
-easter-1,2,,A,,Daily Readings,psalm,"Psalm 118:1–2, 14–24"
-easter-1,2,,A,,Daily Readings,ot,Exodus 15:1–18
-easter-1,2,,A,,Daily Readings,nt,Colossians 3:12–17
-easter-1,3,,A,,Daily Readings,psalm,"Psalm 118:1–2, 14–24"
-easter-1,3,,A,,Daily Readings,ot,Joshua 3:1–17
-easter-1,3,,A,,Daily Readings,nt,Matthew 28:1–10
+easter,1,,A,,Daily Readings,psalm,"Psalm 118:1–2, 14–24"
+easter,1,,A,,Daily Readings,ot,Exodus 14:10–31; 15:20–21
+easter,1,,A,,Daily Readings,nt,Colossians 3:5–11
+easter,2,,A,,Daily Readings,psalm,"Psalm 118:1–2, 14–24"
+easter,2,,A,,Daily Readings,ot,Exodus 15:1–18
+easter,2,,A,,Daily Readings,nt,Colossians 3:12–17
+easter,3,,A,,Daily Readings,psalm,"Psalm 118:1–2, 14–24"
+easter,3,,A,,Daily Readings,ot,Joshua 3:1–17
+easter,3,,A,,Daily Readings,nt,Matthew 28:1–10
 easter+7,-3,,A,,Daily Readings,psalm,Psalm 16
 easter+7,-3,,A,,Daily Readings,ot,Song of Solomon 2:8–15
 easter+7,-3,,A,,Daily Readings,nt,Colossians 4:2–5
@@ -2490,6 +2497,9 @@ start+21,1,date lt 12-22,C,,Daily Readings,nt,Colossians 1:15–20
 start+21,2,date lt 12-22,C,,Daily Readings,psalm,Psalm 113
 start+21,2,date lt 12-22,C,,Daily Readings,ot,Genesis 30:1–24
 start+21,2,date lt 12-22,C,,Daily Readings,nt,Romans 8:18–30
+12-26,,date nwd sun,C,,Daily Readings,psalm,Psalm 148
+12-26,,date nwd sun,C,,Daily Readings,ot,2 Chronicles 24:17–24
+12-26,,date nwd sun,C,,Daily Readings,nt,Acts 6:1–7; 7:51–60
 12-27,,date nwd sun,C,,Daily Readings,psalm,Psalm 148
 12-27,,date nwd sun,C,,Daily Readings,ot,Proverbs 8:32–36
 12-27,,date nwd sun,C,,Daily Readings,nt,John 21:19b–24
@@ -2505,6 +2515,9 @@ start+21,2,date lt 12-22,C,,Daily Readings,nt,Romans 8:18–30
 12-31,,date nwd sun,C,,Daily Readings,psalm,Psalm 147:12–20
 12-31,,date nwd sun,C,,Daily Readings,ot,1 Kings 3:5–14
 12-31,,date nwd sun,C,,Daily Readings,nt,John 8:12–19
+01-02,,date nwd sun,C,,Daily Readings,psalm,Psalm 147:12–20
+01-02,,date nwd sun,C,,Daily Readings,ot,Proverbs 1:1–7
+01-02,,date nwd sun,C,,Daily Readings,nt,James 3:13–18
 01-03,,date nwd sun,C,,Daily Readings,psalm,Psalm 72
 01-03,,date nwd sun,C,,Daily Readings,ot,Job 42:10–17
 01-03,,date nwd sun,C,,Daily Readings,nt,Luke 8:16–21
@@ -2650,7 +2663,7 @@ easter-49,1,,C,,Daily Readings,psalm,Psalm 35:11–28
 easter-49,1,,C,,Daily Readings,ot,Exodus 35:1–29
 easter-49,1,,C,,Daily Readings,nt,Acts 10:9–23a
 easter-49,2,,C,,Daily Readings,psalm,Psalm 35:11–28
-easter-49,2,,C,,Daily Readings,ot,Ezekiel 1:1; 2:1
+easter-49,2,,C,,Daily Readings,ot,Ezekiel 1:1–2:1
 easter-49,2,,C,,Daily Readings,nt,Acts 10:23b–33
 easter-42,-3,,C,,Daily Readings,psalm,"Psalm 91:1–2, 9–16"
 easter-42,-3,,C,,Daily Readings,ot,Exodus 5:10–23
@@ -2748,15 +2761,15 @@ easter-7,-2,,C,,Daily Readings,nt,Hebrews 2:10–18
 easter-7,-1,,C,,Daily Readings,psalm,Psalm 31:9–16
 easter-7,-1,,C,,Daily Readings,ot,Leviticus 23:1–8
 easter-7,-1,,C,,Daily Readings,nt,Luke 22:1–13
-easter-1,1,,C,,Daily Readings,psalm,"Psalm 118:1–2, 14–24"
-easter-1,1,,C,,Daily Readings,ot,Joshua 10:16–27
-easter-1,1,,C,,Daily Readings,nt,1 Corinthians 5:6b–8
-easter-1,2,,C,,Daily Readings,psalm,"Psalm 118:1–2, 14–24"
-easter-1,2,,C,,Daily Readings,ot,Judges 4:17–23; 5:24–31a
-easter-1,2,,C,,Daily Readings,nt,Revelation 12:1–12
-easter-1,3,,C,,Daily Readings,psalm,"Psalm 118:1–2, 14–24"
-easter-1,3,,C,,Daily Readings,ot,2 Samuel 6:1–15
-easter-1,3,,C,,Daily Readings,nt,Luke 24:1–12
+easter,1,,C,,Daily Readings,psalm,"Psalm 118:1–2, 14–24"
+easter,1,,C,,Daily Readings,ot,Joshua 10:16–27
+easter,1,,C,,Daily Readings,nt,1 Corinthians 5:6b–8
+easter,2,,C,,Daily Readings,psalm,"Psalm 118:1–2, 14–24"
+easter,2,,C,,Daily Readings,ot,Judges 4:17–23; 5:24–31a
+easter,2,,C,,Daily Readings,nt,Revelation 12:1–12
+easter,3,,C,,Daily Readings,psalm,"Psalm 118:1–2, 14–24"
+easter,3,,C,,Daily Readings,ot,2 Samuel 6:1–15
+easter,3,,C,,Daily Readings,nt,Luke 24:1–12
 easter+7,-3,,C,,Daily Readings,psalm,Psalm 150
 easter+7,-3,,C,,Daily Readings,ot,1 Samuel 17:1–23
 easter+7,-3,,C,,Daily Readings,nt,Acts 5:12–16
@@ -3286,7 +3299,7 @@ sun>=09-04,2,date gt easter+56+2 & date lt next_start-7+2,C,,Daily Readings,nt,1
 sun>=09-04,3,date gt easter+56+3 & date lt next_start-7+3,C,,Daily Readings,psalm_s,Psalm 2
 sun>=09-04,3,date gt easter+56+3 & date lt next_start-7+3,C,,Daily Readings,ot_s,Jeremiah 20:1–18
 sun>=09-04,3,date gt easter+56+3 & date lt next_start-7+3,C,,Daily Readings,psalm_c,Psalm 101
-sun>=09-04,3,date gt easter+56+3 & date lt next_start-7+3,C,,Daily Readings,ot_c,2 Kings 18:19–25
+sun>=09-04,3,date gt easter+56+3 & date lt next_start-7+3,C,,Daily Readings,ot_c,2 Kings 18:19–25; 19:1–7
 sun>=09-04,3,date gt easter+56+3 & date lt next_start-7+3,C,,Daily Readings,nt,Luke 18:18–30
 sun>=09-11,-3,date gt easter+56-3 & date lt next_start-7-3,C,,Daily Readings,psalm_s,Psalm 14
 sun>=09-11,-3,date gt easter+56-3 & date lt next_start-7-3,C,,Daily Readings,ot_s,Jeremiah 13:20–27
@@ -3436,7 +3449,7 @@ sun>=10-09,2,date gt easter+56+2 & date lt next_start-7+2,C,,Daily Readings,nt,E
 sun>=10-09,3,date gt easter+56+3 & date lt next_start-7+3,C,,Daily Readings,psalm_s,Psalm 102:1–17
 sun>=10-09,3,date gt easter+56+3 & date lt next_start-7+3,C,,Daily Readings,ot_s,Jeremiah 25:15–32
 sun>=10-09,3,date gt easter+56+3 & date lt next_start-7+3,C,,Daily Readings,psalm_c,Psalm 61
-sun>=10-09,3,date gt easter+56+3 & date lt next_start-7+3,C,,Daily Readings,ot_c,2 Kings 15:1–6
+sun>=10-09,3,date gt easter+56+3 & date lt next_start-7+3,C,,Daily Readings,ot_c,2 Kings 15:1–7
 sun>=10-09,3,date gt easter+56+3 & date lt next_start-7+3,C,,Daily Readings,nt,Matthew 10:5–15
 sun>=10-16,-3,date gt easter+56-3 & date lt next_start-7-3,C,,Daily Readings,psalm_s,Psalm 119:97–104
 sun>=10-16,-3,date gt easter+56-3 & date lt next_start-7-3,C,,Daily Readings,ot_s,Jeremiah 26:1–15
@@ -3501,7 +3514,7 @@ sun>=10-23,3,date gt easter+56+3 & date lt next_start-7+3,C,,Daily Readings,nt,M
 sun>=10-30,-3,date gt easter+56-3 & date lt next_start-7-3,C,,Daily Readings,psalm_s,Psalm 119:137–144
 sun>=10-30,-3,date gt easter+56-3 & date lt next_start-7-3,C,,Daily Readings,ot_s,Jeremiah 33:14–26
 sun>=10-30,-3,date gt easter+56-3 & date lt next_start-7-3,C,,Daily Readings,psalm_c,Psalm 32:1–7
-sun>=10-30,-3,date gt easter+56-3 & date lt next_start-7-3,C,,Daily Readings,ot_c,Proverbs 15:8–11
+sun>=10-30,-3,date gt easter+56-3 & date lt next_start-7-3,C,,Daily Readings,ot_c,"Proverbs 15:8–11, 24–33"
 sun>=10-30,-3,date gt easter+56-3 & date lt next_start-7-3,C,,Daily Readings,nt,2 Corinthians 1:1–11
 sun>=10-30,-2,date gt easter+56-2 & date lt next_start-7-2,C,,Daily Readings,psalm_s,Psalm 119:137–144
 sun>=10-30,-2,date gt easter+56-2 & date lt next_start-7-2,C,,Daily Readings,ot_s,Habakkuk 1:5–17
@@ -3621,9 +3634,6 @@ next_start-7,3,,C,,Daily Readings,nt,Luke 1:1–4
 easter-28,2,,C,,Daily Readings,psalm,Psalm 39
 easter-28,2,,C,,Daily Readings,ot,Ezekiel 17:1–10
 easter-28,2,,C,,Daily Readings,nt,Romans 2:12–16
-easter,3,,C,,Daily Readings,psalm,"Psalm 118:1–2, 14–24"
-easter,3,,C,,Daily Readings,ot,2 Samuel 6:1–15
-easter,3,,C,,Daily Readings,nt,Luke 24:1–12
 sun>01-06+35,-3,date lt easter-49-3,A,,Daily Readings,psalm,Psalm 119:1–8
 sun>01-06+35,-3,date lt easter-49-3,A,,Daily Readings,ot,Genesis 26:1–5
 sun>01-06+35,-3,date lt easter-49-3,A,,Daily Readings,nt,James 1:12–16
@@ -3642,9 +3652,6 @@ sun>01-06+35,2,date lt easter-49+2,A,,Daily Readings,nt,James 2:1–13
 sun>01-06+35,3,date lt easter-49+3,A,,Daily Readings,psalm,Psalm 119:9–16
 sun>01-06+35,3,date lt easter-49+3,A,,Daily Readings,ot,Proverbs 2:1–15
 sun>01-06+35,3,date lt easter-49+3,A,,Daily Readings,nt,Matthew 19:1–12
-easter,3,,A,,Daily Readings,psalm,"Psalm 118:1–2, 14–24"
-easter,3,,A,,Daily Readings,ot,Joshua 3
-easter,3,,A,,Daily Readings,nt,Matthew 28:1–10
 sun>01-06+28,-3,date lt easter-49-3,B,,Daily Readings,psalm,"Psalm 147:1–11, 20c"
 sun>01-06+28,-3,date lt easter-49-3,B,,Daily Readings,ot,Proverbs 12:10–21
 sun>01-06+28,-3,date lt easter-49-3,B,,Daily Readings,nt,Galatians 5:2–15

@@ -17016,6 +17016,2254 @@ mon>=05-25,,,,acna-2019,Memorial Day,ot,Wisdom 3:1–9
 mon>=05-25,,,,acna-2019,Memorial Day,psalm,Psalm 121
 mon>=05-25,,,,acna-2019,Memorial Day,epistle,Revelation 7:9–17
 mon>=05-25,,,,acna-2019,Memorial Day,gospel,John 11:21–27 or John 15:12–17
+"# ------------------------------------------- ACNA 2019 Daily Office (variant acna-2019)"
+"# The Daily Office Lectionary of the Book of Common Prayer (2019), pp. 735-762, in"
+"# the same copy of the book (read November 2026): Morning and Evening Prayer for each"
+"# date of the civil year, each with the psalms of the sixty-day psalter (the ""v"" after"
+"# some is left out), a first lesson (the Old Testament or the Apocrypha) and a second."
+"# Where the book marks a way to shorten a long chapter (†), the shorter reading follows"
+"# the chapter after ""or"".  A lesson ""to the end"" of a later chapter is given its last"
+"# verse.  Ash Wednesday, Maundy Thursday to Easter Day, the Ascension and Pentecost"
+"# have proper lessons (pp. 739, 744, 745), which replace those of the date.  February 29"
+"# has its own.  ""Luke:23:26-49"" (29 December) is read as Luke 23:26-49."
+01-01,,,,acna-2019,Morning Prayer,psalm,"Psalms 1, 2"
+01-01,,,,acna-2019,Morning Prayer,first,Genesis 1
+01-01,,,,acna-2019,Morning Prayer,second,John 1:1–28
+01-02,,,,acna-2019,Morning Prayer,psalm,"Psalms 5, 6"
+01-02,,,,acna-2019,Morning Prayer,first,Genesis 2
+01-02,,,,acna-2019,Morning Prayer,second,John 1:29–end
+01-03,,,,acna-2019,Morning Prayer,psalm,Psalm 9
+01-03,,,,acna-2019,Morning Prayer,first,Genesis 3
+01-03,,,,acna-2019,Morning Prayer,second,John 2
+01-04,,,,acna-2019,Morning Prayer,psalm,"Psalms 8, 11"
+01-04,,,,acna-2019,Morning Prayer,first,Genesis 4
+01-04,,,,acna-2019,Morning Prayer,second,John 3:1–21
+01-05,,,,acna-2019,Morning Prayer,psalm,"Psalms 12, 13, 14"
+01-05,,,,acna-2019,Morning Prayer,first,Genesis 5
+01-05,,,,acna-2019,Morning Prayer,second,John 3:22–end
+01-06,,,,acna-2019,Morning Prayer,psalm,"Psalms 96, 97"
+01-06,,,,acna-2019,Morning Prayer,first,Genesis 6
+01-06,,,,acna-2019,Morning Prayer,second,Matthew 2:1–12
+01-07,,,,acna-2019,Morning Prayer,psalm,Psalm 18:1–20
+01-07,,,,acna-2019,Morning Prayer,first,Genesis 7
+01-07,,,,acna-2019,Morning Prayer,second,John 4:1–26
+01-08,,,,acna-2019,Morning Prayer,psalm,Psalm 19
+01-08,,,,acna-2019,Morning Prayer,first,Genesis 8
+01-08,,,,acna-2019,Morning Prayer,second,John 4:27–end
+01-09,,,,acna-2019,Morning Prayer,psalm,Psalm 22
+01-09,,,,acna-2019,Morning Prayer,first,Genesis 9
+01-09,,,,acna-2019,Morning Prayer,second,John 5:1–24
+01-10,,,,acna-2019,Morning Prayer,psalm,Psalm 25
+01-10,,,,acna-2019,Morning Prayer,first,"Genesis 10 or Genesis 10:1–9, 15–22, 30–32"
+01-10,,,,acna-2019,Morning Prayer,second,John 5:25–end
+01-11,,,,acna-2019,Morning Prayer,psalm,"Psalms 26, 28"
+01-11,,,,acna-2019,Morning Prayer,first,"Genesis 11 or Genesis 11:1–9, 27–32"
+01-11,,,,acna-2019,Morning Prayer,second,John 6:1–21
+01-12,,,,acna-2019,Morning Prayer,psalm,"Psalms 29, 30"
+01-12,,,,acna-2019,Morning Prayer,first,Genesis 12
+01-12,,,,acna-2019,Morning Prayer,second,John 6:22–40
+01-13,,,,acna-2019,Morning Prayer,psalm,Psalm 34
+01-13,,,,acna-2019,Morning Prayer,first,Genesis 13
+01-13,,,,acna-2019,Morning Prayer,second,John 6:41–end
+01-14,,,,acna-2019,Morning Prayer,psalm,"Psalms 32, 36"
+01-14,,,,acna-2019,Morning Prayer,first,Genesis 14
+01-14,,,,acna-2019,Morning Prayer,second,John 7:1–24
+01-15,,,,acna-2019,Morning Prayer,psalm,Psalm 37:1–17
+01-15,,,,acna-2019,Morning Prayer,first,Genesis 15
+01-15,,,,acna-2019,Morning Prayer,second,John 7:25–52
+01-16,,,,acna-2019,Morning Prayer,psalm,Psalm 40
+01-16,,,,acna-2019,Morning Prayer,first,Genesis 16
+01-16,,,,acna-2019,Morning Prayer,second,John 7:53–8:30
+01-17,,,,acna-2019,Morning Prayer,psalm,"Psalms 42, 43"
+01-17,,,,acna-2019,Morning Prayer,first,Genesis 17
+01-17,,,,acna-2019,Morning Prayer,second,John 8:31–end
+01-18,,,,acna-2019,Morning Prayer,psalm,Psalm 45
+01-18,,,,acna-2019,Morning Prayer,first,Genesis 18
+01-18,,,,acna-2019,Morning Prayer,second,Matthew 16:13–20
+01-19,,,,acna-2019,Morning Prayer,psalm,"Psalms 47, 48"
+01-19,,,,acna-2019,Morning Prayer,first,Genesis 19 or Genesis 19:1–29
+01-19,,,,acna-2019,Morning Prayer,second,John 9
+01-20,,,,acna-2019,Morning Prayer,psalm,Psalm 50
+01-20,,,,acna-2019,Morning Prayer,first,Genesis 20
+01-20,,,,acna-2019,Morning Prayer,second,John 10:1–21
+01-21,,,,acna-2019,Morning Prayer,psalm,"Psalms 52, 53, 54"
+01-21,,,,acna-2019,Morning Prayer,first,Genesis 21 or Genesis 21:1–21
+01-21,,,,acna-2019,Morning Prayer,second,John 10:22–end
+01-22,,,,acna-2019,Morning Prayer,psalm,"Psalms 56, 57"
+01-22,,,,acna-2019,Morning Prayer,first,Genesis 22
+01-22,,,,acna-2019,Morning Prayer,second,John 11:1–44
+01-23,,,,acna-2019,Morning Prayer,psalm,Psalm 59
+01-23,,,,acna-2019,Morning Prayer,first,Genesis 23
+01-23,,,,acna-2019,Morning Prayer,second,John 11:45–end
+01-24,,,,acna-2019,Morning Prayer,psalm,"Psalms 61, 62"
+01-24,,,,acna-2019,Morning Prayer,first,"Genesis 24 or Genesis 24:1–28, 53–58"
+01-24,,,,acna-2019,Morning Prayer,second,John 12:1–19
+01-25,,,,acna-2019,Morning Prayer,psalm,Psalm 68:1–18
+01-25,,,,acna-2019,Morning Prayer,first,Acts 9:1–22
+01-25,,,,acna-2019,Morning Prayer,second,John 12:20–end
+01-26,,,,acna-2019,Morning Prayer,psalm,Psalm 69:1–18
+01-26,,,,acna-2019,Morning Prayer,first,"Genesis 25 or Genesis 25:7–11, 19–34"
+01-26,,,,acna-2019,Morning Prayer,second,John 13
+01-27,,,,acna-2019,Morning Prayer,psalm,Psalm 66
+01-27,,,,acna-2019,Morning Prayer,first,Genesis 26 or Genesis 26:1–25
+01-27,,,,acna-2019,Morning Prayer,second,John 14:1–14
+01-28,,,,acna-2019,Morning Prayer,psalm,Psalm 71
+01-28,,,,acna-2019,Morning Prayer,first,"Genesis 27 or Genesis 27:1–13, 18–36, 39–40"
+01-28,,,,acna-2019,Morning Prayer,second,John 14:15–end
+01-29,,,,acna-2019,Morning Prayer,psalm,Psalm 74
+01-29,,,,acna-2019,Morning Prayer,first,Genesis 28
+01-29,,,,acna-2019,Morning Prayer,second,John 15:1–17
+01-30,,,,acna-2019,Morning Prayer,psalm,"Psalms 75, 76"
+01-30,,,,acna-2019,Morning Prayer,first,Genesis 29 or Genesis 29:1–28
+01-30,,,,acna-2019,Morning Prayer,second,John 15:18–end
+01-31,,,,acna-2019,Morning Prayer,psalm,Psalm 78:1–18
+01-31,,,,acna-2019,Morning Prayer,first,"Genesis 30 or Genesis 30:1–2, 22–43"
+01-31,,,,acna-2019,Morning Prayer,second,John 16:1–15
+02-01,,,,acna-2019,Morning Prayer,psalm,Psalm 78:41–73
+02-01,,,,acna-2019,Morning Prayer,first,"Genesis 31 or Genesis 31:1–3, 17–45"
+02-01,,,,acna-2019,Morning Prayer,second,John 16:16–end
+02-02,,,,acna-2019,Morning Prayer,psalm,"Psalms 24, 81"
+02-02,,,,acna-2019,Morning Prayer,first,"Genesis 32 or Genesis 32:1–13, 21–32"
+02-02,,,,acna-2019,Morning Prayer,second,Luke 2:22–40
+02-03,,,,acna-2019,Morning Prayer,psalm,Psalm 83
+02-03,,,,acna-2019,Morning Prayer,first,Genesis 33
+02-03,,,,acna-2019,Morning Prayer,second,John 17
+02-04,,date ne easter-46,,acna-2019,Morning Prayer,psalm,"Psalms 86, 87"
+02-04,,date ne easter-46,,acna-2019,Morning Prayer,first,Genesis 34
+02-04,,date ne easter-46,,acna-2019,Morning Prayer,second,John 18:1–27
+02-05,,date ne easter-46,,acna-2019,Morning Prayer,psalm,Psalm 89:1–18
+02-05,,date ne easter-46,,acna-2019,Morning Prayer,first,Genesis 35
+02-05,,date ne easter-46,,acna-2019,Morning Prayer,second,John 18:28–end
+02-06,,date ne easter-46,,acna-2019,Morning Prayer,psalm,Psalm 90
+02-06,,date ne easter-46,,acna-2019,Morning Prayer,first,Genesis 36 or Genesis 36:1–8
+02-06,,date ne easter-46,,acna-2019,Morning Prayer,second,John 19:1–37
+02-07,,date ne easter-46,,acna-2019,Morning Prayer,psalm,"Psalms 92, 93"
+02-07,,date ne easter-46,,acna-2019,Morning Prayer,first,"Genesis 37 or Genesis 37:3–8, 12–36"
+02-07,,date ne easter-46,,acna-2019,Morning Prayer,second,John 19:38–end
+02-08,,date ne easter-46,,acna-2019,Morning Prayer,psalm,"Psalms 95, 96"
+02-08,,date ne easter-46,,acna-2019,Morning Prayer,first,Genesis 38 or Genesis 38:1–26
+02-08,,date ne easter-46,,acna-2019,Morning Prayer,second,John 20
+02-09,,date ne easter-46,,acna-2019,Morning Prayer,psalm,"Psalms 99, 100, 101"
+02-09,,date ne easter-46,,acna-2019,Morning Prayer,first,Genesis 39
+02-09,,date ne easter-46,,acna-2019,Morning Prayer,second,John 21
+02-10,,date ne easter-46,,acna-2019,Morning Prayer,psalm,Psalm 103
+02-10,,date ne easter-46,,acna-2019,Morning Prayer,first,Genesis 40
+02-10,,date ne easter-46,,acna-2019,Morning Prayer,second,Matthew 1:1–17
+02-11,,date ne easter-46,,acna-2019,Morning Prayer,psalm,Psalm 105:1–22
+02-11,,date ne easter-46,,acna-2019,Morning Prayer,first,"Genesis 41 or Genesis 41:1–15, 25–40"
+02-11,,date ne easter-46,,acna-2019,Morning Prayer,second,Matthew 1:18–end
+02-12,,date ne easter-46,,acna-2019,Morning Prayer,psalm,Psalm 106:1–18
+02-12,,date ne easter-46,,acna-2019,Morning Prayer,first,Genesis 42 or Genesis 42:1–28
+02-12,,date ne easter-46,,acna-2019,Morning Prayer,second,Matthew 2
+02-13,,date ne easter-46,,acna-2019,Morning Prayer,psalm,Psalm 107:1–22
+02-13,,date ne easter-46,,acna-2019,Morning Prayer,first,"Genesis 43 or Genesis 43:1–10, 15–34"
+02-13,,date ne easter-46,,acna-2019,Morning Prayer,second,Matthew 3
+02-14,,date ne easter-46,,acna-2019,Morning Prayer,psalm,"Psalms 108, 110"
+02-14,,date ne easter-46,,acna-2019,Morning Prayer,first,"Genesis 44 or Genesis 44:1–20, 30–34"
+02-14,,date ne easter-46,,acna-2019,Morning Prayer,second,Matthew 4
+02-15,,date ne easter-46,,acna-2019,Morning Prayer,psalm,"Psalms 111, 112"
+02-15,,date ne easter-46,,acna-2019,Morning Prayer,first,Genesis 45
+02-15,,date ne easter-46,,acna-2019,Morning Prayer,second,Matthew 5:1–20
+02-16,,date ne easter-46,,acna-2019,Morning Prayer,psalm,Psalm 115
+02-16,,date ne easter-46,,acna-2019,Morning Prayer,first,"Genesis 46 or Genesis 46:1–7, 28–34"
+02-16,,date ne easter-46,,acna-2019,Morning Prayer,second,Matthew 5:21–48
+02-17,,date ne easter-46,,acna-2019,Morning Prayer,psalm,Psalm 119:1–24
+02-17,,date ne easter-46,,acna-2019,Morning Prayer,first,"Genesis 47 or Genesis 47:1–15, 23–31"
+02-17,,date ne easter-46,,acna-2019,Morning Prayer,second,Matthew 6:1–18
+02-18,,date ne easter-46,,acna-2019,Morning Prayer,psalm,Psalm 119:49–72
+02-18,,date ne easter-46,,acna-2019,Morning Prayer,first,Genesis 48
+02-18,,date ne easter-46,,acna-2019,Morning Prayer,second,Matthew 6:19–end
+02-19,,date ne easter-46,,acna-2019,Morning Prayer,psalm,Psalm 119:89–104
+02-19,,date ne easter-46,,acna-2019,Morning Prayer,first,Genesis 49
+02-19,,date ne easter-46,,acna-2019,Morning Prayer,second,Matthew 7
+02-20,,date ne easter-46,,acna-2019,Morning Prayer,psalm,Psalm 119:129–152
+02-20,,date ne easter-46,,acna-2019,Morning Prayer,first,Genesis 50
+02-20,,date ne easter-46,,acna-2019,Morning Prayer,second,Matthew 8:1–17
+02-21,,date ne easter-46,,acna-2019,Morning Prayer,psalm,Psalm 118
+02-21,,date ne easter-46,,acna-2019,Morning Prayer,first,Exodus 1
+02-21,,date ne easter-46,,acna-2019,Morning Prayer,second,Matthew 8:18–end
+02-22,,date ne easter-46,,acna-2019,Morning Prayer,psalm,"Psalms 122, 123"
+02-22,,date ne easter-46,,acna-2019,Morning Prayer,first,Exodus 2
+02-22,,date ne easter-46,,acna-2019,Morning Prayer,second,Matthew 9:1–17
+02-23,,date ne easter-46,,acna-2019,Morning Prayer,psalm,"Psalms 127, 128"
+02-23,,date ne easter-46,,acna-2019,Morning Prayer,first,Exodus 3
+02-23,,date ne easter-46,,acna-2019,Morning Prayer,second,Matthew 9:18–34
+02-24,,date ne easter-46,,acna-2019,Morning Prayer,psalm,"Psalms 132, 133"
+02-24,,date ne easter-46,,acna-2019,Morning Prayer,first,Acts 1:15–26
+02-24,,date ne easter-46,,acna-2019,Morning Prayer,second,Matthew 9:35–10:23
+02-25,,date ne easter-46,,acna-2019,Morning Prayer,psalm,Psalm 136
+02-25,,date ne easter-46,,acna-2019,Morning Prayer,first,Exodus 4
+02-25,,date ne easter-46,,acna-2019,Morning Prayer,second,Matthew 10:24–end
+02-26,,date ne easter-46,,acna-2019,Morning Prayer,psalm,Psalm 139
+02-26,,date ne easter-46,,acna-2019,Morning Prayer,first,Exodus 5
+02-26,,date ne easter-46,,acna-2019,Morning Prayer,second,Matthew 11
+02-27,,date ne easter-46,,acna-2019,Morning Prayer,psalm,Psalm 140
+02-27,,date ne easter-46,,acna-2019,Morning Prayer,first,Exodus 6 or Exodus 6:1–13
+02-27,,date ne easter-46,,acna-2019,Morning Prayer,second,Matthew 12:1–21
+02-28,,date ne easter-46,,acna-2019,Morning Prayer,psalm,Psalm 144
+02-28,,date ne easter-46,,acna-2019,Morning Prayer,first,Exodus 7
+02-28,,date ne easter-46,,acna-2019,Morning Prayer,second,Matthew 12:22–end
+02-29,,date ne easter-46,,acna-2019,Morning Prayer,psalm,Psalm 90
+02-29,,date ne easter-46,,acna-2019,Morning Prayer,first,2 Kings 2
+02-29,,date ne easter-46,,acna-2019,Morning Prayer,second,Luke 24:44–53
+03-01,,date ne easter-46,,acna-2019,Morning Prayer,psalm,Psalm 146
+03-01,,date ne easter-46,,acna-2019,Morning Prayer,first,Exodus 8
+03-01,,date ne easter-46,,acna-2019,Morning Prayer,second,Matthew 13:1–23
+03-02,,date ne easter-46,,acna-2019,Morning Prayer,psalm,Psalm 148
+03-02,,date ne easter-46,,acna-2019,Morning Prayer,first,"Exodus 9 or Exodus 9:1–29, 33–34"
+03-02,,date ne easter-46,,acna-2019,Morning Prayer,second,Matthew 13:24–43
+03-03,,date ne easter-46,,acna-2019,Morning Prayer,psalm,"Psalms 1, 2"
+03-03,,date ne easter-46,,acna-2019,Morning Prayer,first,Exodus 10
+03-03,,date ne easter-46,,acna-2019,Morning Prayer,second,Matthew 13:44–end
+03-04,,date ne easter-46,,acna-2019,Morning Prayer,psalm,"Psalms 5, 6"
+03-04,,date ne easter-46,,acna-2019,Morning Prayer,first,Exodus 11
+03-04,,date ne easter-46,,acna-2019,Morning Prayer,second,Matthew 14
+03-05,,date ne easter-46,,acna-2019,Morning Prayer,psalm,Psalm 9
+03-05,,date ne easter-46,,acna-2019,Morning Prayer,first,"Exodus 12 or Exodus 12:1–20, 28–36"
+03-05,,date ne easter-46,,acna-2019,Morning Prayer,second,Matthew 15:1–28
+03-06,,date ne easter-46,,acna-2019,Morning Prayer,psalm,"Psalms 8, 11"
+03-06,,date ne easter-46,,acna-2019,Morning Prayer,first,Exodus 13
+03-06,,date ne easter-46,,acna-2019,Morning Prayer,second,Matthew 15:29–16:12
+03-07,,date ne easter-46,,acna-2019,Morning Prayer,psalm,"Psalms 12, 13, 14"
+03-07,,date ne easter-46,,acna-2019,Morning Prayer,first,Exodus 14 or Exodus 14:5–31
+03-07,,date ne easter-46,,acna-2019,Morning Prayer,second,Matthew 16:13–end
+03-08,,date ne easter-46,,acna-2019,Morning Prayer,psalm,Psalm 18:1–20
+03-08,,date ne easter-46,,acna-2019,Morning Prayer,first,Exodus 15
+03-08,,date ne easter-46,,acna-2019,Morning Prayer,second,Matthew 17:1–23
+03-09,,date ne easter-46,,acna-2019,Morning Prayer,psalm,Psalm 19
+03-09,,date ne easter-46,,acna-2019,Morning Prayer,first,"Exodus 16 or Exodus 16:1–7, 11–33"
+03-09,,date ne easter-46,,acna-2019,Morning Prayer,second,Matthew 17:24–18:14
+03-10,,date ne easter-46,,acna-2019,Morning Prayer,psalm,Psalm 22
+03-10,,date ne easter-46,,acna-2019,Morning Prayer,first,Exodus 17
+03-10,,date ne easter-46,,acna-2019,Morning Prayer,second,Matthew 18:15–end
+03-11,,,,acna-2019,Morning Prayer,psalm,Psalm 25
+03-11,,,,acna-2019,Morning Prayer,first,Exodus 18
+03-11,,,,acna-2019,Morning Prayer,second,Matthew 19:1–15
+03-12,,,,acna-2019,Morning Prayer,psalm,"Psalms 26, 28"
+03-12,,,,acna-2019,Morning Prayer,first,Exodus 19
+03-12,,,,acna-2019,Morning Prayer,second,Matthew 19:16–20:16
+03-13,,,,acna-2019,Morning Prayer,psalm,"Psalms 29, 30"
+03-13,,,,acna-2019,Morning Prayer,first,Exodus 20
+03-13,,,,acna-2019,Morning Prayer,second,Matthew 20:17–end
+03-14,,,,acna-2019,Morning Prayer,psalm,Psalm 34
+03-14,,,,acna-2019,Morning Prayer,first,"Exodus 21 or Exodus 21:1–19, 22–29"
+03-14,,,,acna-2019,Morning Prayer,second,Matthew 21:1–22
+03-15,,,,acna-2019,Morning Prayer,psalm,"Psalms 32, 36"
+03-15,,,,acna-2019,Morning Prayer,first,Exodus 22
+03-15,,,,acna-2019,Morning Prayer,second,Matthew 21:23–end
+03-16,,,,acna-2019,Morning Prayer,psalm,Psalm 37:1–17
+03-16,,,,acna-2019,Morning Prayer,first,"Exodus 23 or Exodus 23:1–13, 18–30"
+03-16,,,,acna-2019,Morning Prayer,second,Matthew 22:1–33
+03-17,,,,acna-2019,Morning Prayer,psalm,Psalm 40
+03-17,,,,acna-2019,Morning Prayer,first,Exodus 24
+03-17,,,,acna-2019,Morning Prayer,second,Matthew 22:34–23:12
+03-18,,,,acna-2019,Morning Prayer,psalm,"Psalms 42, 43"
+03-18,,,,acna-2019,Morning Prayer,first,"Exodus 25 or Exodus 25:1–23, 31–40"
+03-18,,,,acna-2019,Morning Prayer,second,Matthew 23:13–end
+03-19,,date ne easter-3,,acna-2019,Morning Prayer,psalm,Psalm 45
+03-19,,date ne easter-3,,acna-2019,Morning Prayer,first,"Exodus 26 or Exodus 26:1–10, 15–16, 29–37"
+03-19,,date ne easter-3,,acna-2019,Morning Prayer,second,Matthew 24:1–28
+03-20,,date ne easter-3 & date ne easter-2,,acna-2019,Morning Prayer,psalm,"Psalms 47, 48"
+03-20,,date ne easter-3 & date ne easter-2,,acna-2019,Morning Prayer,first,Exodus 27
+03-20,,date ne easter-3 & date ne easter-2,,acna-2019,Morning Prayer,second,Matthew 24:29–end
+03-21,,date ne easter-3 & date ne easter-2 & date ne easter-1,,acna-2019,Morning Prayer,psalm,Psalm 50
+03-21,,date ne easter-3 & date ne easter-2 & date ne easter-1,,acna-2019,Morning Prayer,first,"Exodus 28 or Exodus 28:1–6, 15–21, 29–43"
+03-21,,date ne easter-3 & date ne easter-2 & date ne easter-1,,acna-2019,Morning Prayer,second,Matthew 25:1–30
+03-22,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,psalm,"Psalms 52, 53, 54"
+03-22,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,first,"Exodus 29 or Exodus 29:1–18, 35–46"
+03-22,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,second,Matthew 25:31–end
+03-23,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,psalm,"Psalms 56, 57"
+03-23,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,first,"Exodus 30 or Exodus 30:1–3, 7–33"
+03-23,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,second,Matthew 26:1–30
+03-24,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,psalm,Psalm 59
+03-24,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,first,Exodus 31
+03-24,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,second,Matthew 26:31–56
+03-25,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,psalm,"Psalms 113, 138"
+03-25,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,first,Exodus 32 or Exodus 32:1–29
+03-25,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,second,Luke 1:26–38
+03-26,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,psalm,"Psalms 61, 62"
+03-26,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,first,Exodus 33
+03-26,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,second,Matthew 26:57–end
+03-27,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,psalm,Psalm 68:1–18
+03-27,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,first,"Exodus 34 or Exodus 34:1–17, 27–35"
+03-27,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,second,Matthew 27:1–26
+03-28,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,psalm,Psalm 69:1–18
+03-28,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,first,"Exodus 35 or Exodus 35:1–10, 20–35"
+03-28,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,second,Matthew 27:27–56
+03-29,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,psalm,Psalm 66
+03-29,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,first,"Exodus 36 or Exodus 36:1–10, 18–20, 31–38"
+03-29,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,second,Matthew 27:57–28:20
+03-30,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,psalm,Psalm 71
+03-30,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,first,"Exodus 37 or Exodus 37:1–11, 16–29"
+03-30,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,second,Mark 1:1–13
+03-31,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,psalm,Psalm 74
+03-31,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,first,Exodus 38 or Exodus 38:1–23
+03-31,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,second,Mark 1:14–31
+04-01,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,psalm,"Psalms 75, 76"
+04-01,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,first,"Exodus 39 or Exodus 39:1–14, 27–43"
+04-01,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,second,Mark 1:32–end
+04-02,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,psalm,Psalm 78:1–18
+04-02,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,first,"Exodus 40 or Exodus 40:1–2, 16–38"
+04-02,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,second,Mark 2:1–22
+04-03,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,psalm,Psalm 78:41–73
+04-03,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,first,Leviticus 1
+04-03,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,second,Mark 2:23–3:12
+04-04,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,psalm,Psalm 81
+04-04,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,first,"Leviticus 8 or Leviticus 8:1–24, 30–36"
+04-04,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,second,Mark 3:13–end
+04-05,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,psalm,Psalm 84
+04-05,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,first,Leviticus 10
+04-05,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,second,Mark 4:1–34
+04-06,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,psalm,"Psalms 86, 87"
+04-06,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,first,"Leviticus 16 or Leviticus 16:1–22, 29–34"
+04-06,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,second,Mark 4:35–5:20
+04-07,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,psalm,Psalm 89:1–18
+04-07,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,first,Leviticus 17
+04-07,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,second,Mark 5:21–end
+04-08,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,psalm,Psalm 90
+04-08,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,first,Leviticus 18
+04-08,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,second,Mark 6:1–29
+04-09,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,psalm,"Psalms 92, 93"
+04-09,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,first,"Leviticus 19 or Leviticus 19:1–2, 9–37"
+04-09,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,second,Mark 6:30–end
+04-10,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,psalm,"Psalms 95, 96"
+04-10,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,first,Leviticus 20
+04-10,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,second,Mark 7:1–23
+04-11,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,psalm,"Psalms 99, 100, 101"
+04-11,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,first,"Leviticus 23 or Leviticus 23:9–32, 39–43"
+04-11,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,second,Mark 7:24–8:10
+04-12,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,psalm,Psalm 103
+04-12,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,first,"Leviticus 26 or Leviticus 26:3–20, 38–46"
+04-12,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,second,Mark 8:11–end
+04-13,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,psalm,Psalm 105:1–22
+04-13,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,first,Numbers 6
+04-13,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,second,Mark 9:1–29
+04-14,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,psalm,Psalm 106:1–18
+04-14,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,first,Numbers 8 or Numbers 8:5–26
+04-14,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,second,Mark 9:30–end
+04-15,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,psalm,Psalm 107:1–22
+04-15,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,first,"Numbers 11 or Numbers 11:4–6, 10–33"
+04-15,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,second,Mark 10:1–31
+04-16,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,psalm,"Psalms 108, 110"
+04-16,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,first,Numbers 12
+04-16,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,second,Mark 10:32–end
+04-17,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,psalm,"Psalms 111, 112"
+04-17,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,first,"Numbers 13 or Numbers 13:1–3, 17–33"
+04-17,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,second,Mark 11:1–26
+04-18,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,psalm,Psalm 115
+04-18,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,first,Numbers 14 or Numbers 14:1–31
+04-18,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,second,Mark 11:27–12:12
+04-19,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,psalm,Psalm 119:1–24
+04-19,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,first,Numbers 15 or Numbers 15:22–41
+04-19,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,second,Mark 12:13–34
+04-20,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,psalm,Psalm 119:49–72
+04-20,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,first,"Numbers 16 or Numbers 16:1–11, 20–38"
+04-20,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,second,Mark 12:35–13:13
+04-21,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,psalm,Psalm 119:89–104
+04-21,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,first,Numbers 17
+04-21,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,second,Mark 13:14–end
+04-22,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,psalm,Psalm 119:129–152
+04-22,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,first,Numbers 18 or Numbers 18:1–24
+04-22,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,second,Mark 14:1–25
+04-23,,date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,psalm,Psalm 118
+04-23,,date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,first,Numbers 20
+04-23,,date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,second,Mark 14:26–52
+04-24,,date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,psalm,"Psalms 122, 123"
+04-24,,date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,first,"Numbers 21 or Numbers 21:4–9, 21–35"
+04-24,,date ne easter-1 & date ne easter,,acna-2019,Morning Prayer,second,Mark 14:53–end
+04-25,,date ne easter,,acna-2019,Morning Prayer,psalm,"Psalms 127, 128"
+04-25,,date ne easter,,acna-2019,Morning Prayer,first,Acts 12:11–25
+04-25,,date ne easter,,acna-2019,Morning Prayer,second,Mark 15
+04-26,,,,acna-2019,Morning Prayer,psalm,"Psalms 132, 133"
+04-26,,,,acna-2019,Morning Prayer,first,Numbers 22 or Numbers 22:1–35
+04-26,,,,acna-2019,Morning Prayer,second,Mark 16
+04-27,,,,acna-2019,Morning Prayer,psalm,Psalm 136
+04-27,,,,acna-2019,Morning Prayer,first,Numbers 23 or Numbers 23:1–26
+04-27,,,,acna-2019,Morning Prayer,second,Luke 1:1–23
+04-28,,,,acna-2019,Morning Prayer,psalm,Psalm 139
+04-28,,,,acna-2019,Morning Prayer,first,Numbers 24
+04-28,,,,acna-2019,Morning Prayer,second,Luke 1:24–56
+04-29,,,,acna-2019,Morning Prayer,psalm,Psalm 140
+04-29,,,,acna-2019,Morning Prayer,first,Numbers 25
+04-29,,,,acna-2019,Morning Prayer,second,Luke 1:57–end
+04-30,,date ne easter+39,,acna-2019,Morning Prayer,psalm,Psalm 144
+04-30,,date ne easter+39,,acna-2019,Morning Prayer,first,"Deuteronomy 1 or Deuteronomy 1:1–21, 26–33"
+04-30,,date ne easter+39,,acna-2019,Morning Prayer,second,Luke 2:1–21
+05-01,,date ne easter+39,,acna-2019,Morning Prayer,psalm,Psalm 146
+05-01,,date ne easter+39,,acna-2019,Morning Prayer,first,"Deuteronomy 2 or Deuteronomy 2:1–9, 14–19, 24–37"
+05-01,,date ne easter+39,,acna-2019,Morning Prayer,second,Luke 2:22–end
+05-02,,date ne easter+39,,acna-2019,Morning Prayer,psalm,Psalm 148
+05-02,,date ne easter+39,,acna-2019,Morning Prayer,first,Deuteronomy 3
+05-02,,date ne easter+39,,acna-2019,Morning Prayer,second,Luke 3:1–22
+05-03,,date ne easter+39,,acna-2019,Morning Prayer,psalm,"Psalms 1, 2"
+05-03,,date ne easter+39,,acna-2019,Morning Prayer,first,"Deuteronomy 4 or Deuteronomy 4:1–18, 24–40"
+05-03,,date ne easter+39,,acna-2019,Morning Prayer,second,Luke 3:23–end
+05-04,,date ne easter+39,,acna-2019,Morning Prayer,psalm,"Psalms 5, 6"
+05-04,,date ne easter+39,,acna-2019,Morning Prayer,first,Deuteronomy 5
+05-04,,date ne easter+39,,acna-2019,Morning Prayer,second,Luke 4:1–30
+05-05,,date ne easter+39,,acna-2019,Morning Prayer,psalm,Psalm 9
+05-05,,date ne easter+39,,acna-2019,Morning Prayer,first,Deuteronomy 6
+05-05,,date ne easter+39,,acna-2019,Morning Prayer,second,Luke 4:31–end
+05-06,,date ne easter+39,,acna-2019,Morning Prayer,psalm,"Psalms 8, 11"
+05-06,,date ne easter+39,,acna-2019,Morning Prayer,first,Deuteronomy 7
+05-06,,date ne easter+39,,acna-2019,Morning Prayer,second,Luke 5:1–16
+05-07,,date ne easter+39,,acna-2019,Morning Prayer,psalm,"Psalms 12, 13, 14"
+05-07,,date ne easter+39,,acna-2019,Morning Prayer,first,Deuteronomy 8
+05-07,,date ne easter+39,,acna-2019,Morning Prayer,second,Luke 5:17–end
+05-08,,date ne easter+39,,acna-2019,Morning Prayer,psalm,Psalm 18:1–20
+05-08,,date ne easter+39,,acna-2019,Morning Prayer,first,Deuteronomy 9
+05-08,,date ne easter+39,,acna-2019,Morning Prayer,second,Luke 6:1–19
+05-09,,date ne easter+39,,acna-2019,Morning Prayer,psalm,Psalm 19
+05-09,,date ne easter+39,,acna-2019,Morning Prayer,first,Deuteronomy 10
+05-09,,date ne easter+39,,acna-2019,Morning Prayer,second,Luke 6:20–38
+05-10,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,psalm,Psalm 22
+05-10,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,first,Deuteronomy 11
+05-10,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,second,Luke 6:39–7:10
+05-11,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,psalm,Psalm 25
+05-11,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,first,Deuteronomy 12
+05-11,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,second,Luke 7:11–35
+05-12,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,psalm,"Psalms 26, 28"
+05-12,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,first,Deuteronomy 13
+05-12,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,second,Luke 7:36–end
+05-13,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,psalm,"Psalms 29, 30"
+05-13,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,first,Deuteronomy 14
+05-13,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,second,Luke 8:1–21
+05-14,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,psalm,Psalm 34
+05-14,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,first,Deuteronomy 15
+05-14,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,second,Luke 8:22–end
+05-15,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,psalm,"Psalms 32, 36"
+05-15,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,first,Deuteronomy 16
+05-15,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,second,Luke 9:1–17
+05-16,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,psalm,Psalm 37:1–17
+05-16,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,first,Deuteronomy 17
+05-16,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,second,Luke 9:18–50
+05-17,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,psalm,Psalm 40
+05-17,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,first,Deuteronomy 18
+05-17,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,second,Luke 9:51–end
+05-18,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,psalm,"Psalms 42, 43"
+05-18,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,first,Deuteronomy 19
+05-18,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,second,Luke 10:1–24
+05-19,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,psalm,Psalm 45
+05-19,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,first,Deuteronomy 20
+05-19,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,second,Luke 10:25–end
+05-20,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,psalm,"Psalms 47, 48"
+05-20,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,first,Deuteronomy 21
+05-20,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,second,Luke 11:1–28
+05-21,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,psalm,Psalm 50
+05-21,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,first,Deuteronomy 22
+05-21,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,second,Luke 11:29–end
+05-22,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,psalm,"Psalms 52, 53, 54"
+05-22,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,first,Deuteronomy 23
+05-22,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,second,Luke 12:1–34
+05-23,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,psalm,"Psalms 56, 57"
+05-23,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,first,Deuteronomy 24
+05-23,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,second,Luke 12:35–53
+05-24,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,psalm,Psalm 59
+05-24,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,first,Deuteronomy 25
+05-24,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,second,Luke 12:54–13:9
+05-25,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,psalm,"Psalms 61, 62"
+05-25,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,first,Deuteronomy 26
+05-25,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,second,Luke 13:10–end
+05-26,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,psalm,Psalm 68:1–18
+05-26,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,first,Deuteronomy 27
+05-26,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,second,Luke 14:1–24
+05-27,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,psalm,Psalm 69:1–18
+05-27,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,first,"Deuteronomy 28 or Deuteronomy 28:1–25, 64–68"
+05-27,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,second,Luke 14:25–15:10
+05-28,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,psalm,Psalm 66
+05-28,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,first,Deuteronomy 29
+05-28,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,second,Luke 15:11–end
+05-29,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,psalm,Psalm 71
+05-29,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,first,Deuteronomy 30
+05-29,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,second,Luke 16
+05-30,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,psalm,Psalm 74
+05-30,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,first,Deuteronomy 31
+05-30,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,second,Luke 17:1–19
+05-31,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,psalm,"Psalms 75, 76"
+05-31,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,first,"Deuteronomy 32 or Deuteronomy 32:1–10, 15–22, 39–52"
+05-31,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,second,Luke 1:39–56
+06-01,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,psalm,Psalm 78:1–18
+06-01,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,first,Deuteronomy 33
+06-01,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,second,Luke 17:20–end
+06-02,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,psalm,Psalm 78:41–73
+06-02,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,first,Deuteronomy 34
+06-02,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,second,Luke 18:1–30
+06-03,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,psalm,Psalm 81
+06-03,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,first,Joshua 1
+06-03,,date ne easter+39 & date ne easter+49,,acna-2019,Morning Prayer,second,Luke 18:31–19:10
+06-04,,date ne easter+49,,acna-2019,Morning Prayer,psalm,Psalm 84
+06-04,,date ne easter+49,,acna-2019,Morning Prayer,first,Joshua 2
+06-04,,date ne easter+49,,acna-2019,Morning Prayer,second,Luke 19:11–28
+06-05,,date ne easter+49,,acna-2019,Morning Prayer,psalm,"Psalms 86, 87"
+06-05,,date ne easter+49,,acna-2019,Morning Prayer,first,Joshua 3
+06-05,,date ne easter+49,,acna-2019,Morning Prayer,second,Luke 19:29–end
+06-06,,date ne easter+49,,acna-2019,Morning Prayer,psalm,Psalm 89:1–18
+06-06,,date ne easter+49,,acna-2019,Morning Prayer,first,Joshua 4
+06-06,,date ne easter+49,,acna-2019,Morning Prayer,second,Luke 20:1–26
+06-07,,date ne easter+49,,acna-2019,Morning Prayer,psalm,Psalm 90
+06-07,,date ne easter+49,,acna-2019,Morning Prayer,first,Joshua 5
+06-07,,date ne easter+49,,acna-2019,Morning Prayer,second,Luke 20:27–21:4
+06-08,,date ne easter+49,,acna-2019,Morning Prayer,psalm,"Psalms 92, 93"
+06-08,,date ne easter+49,,acna-2019,Morning Prayer,first,Joshua 6
+06-08,,date ne easter+49,,acna-2019,Morning Prayer,second,Luke 21:5–end
+06-09,,date ne easter+49,,acna-2019,Morning Prayer,psalm,"Psalms 95, 96"
+06-09,,date ne easter+49,,acna-2019,Morning Prayer,first,Joshua 7
+06-09,,date ne easter+49,,acna-2019,Morning Prayer,second,Luke 22:1–38
+06-10,,date ne easter+49,,acna-2019,Morning Prayer,psalm,"Psalms 99, 100, 101"
+06-10,,date ne easter+49,,acna-2019,Morning Prayer,first,"Joshua 8 or Joshua 8:1–22, 30–35"
+06-10,,date ne easter+49,,acna-2019,Morning Prayer,second,Luke 22:39–53
+06-11,,date ne easter+49,,acna-2019,Morning Prayer,psalm,Psalm 103
+06-11,,date ne easter+49,,acna-2019,Morning Prayer,first,Acts 4:32–37
+06-11,,date ne easter+49,,acna-2019,Morning Prayer,second,Luke 22:54–end
+06-12,,date ne easter+49,,acna-2019,Morning Prayer,psalm,Psalm 105:1–22
+06-12,,date ne easter+49,,acna-2019,Morning Prayer,first,Joshua 9
+06-12,,date ne easter+49,,acna-2019,Morning Prayer,second,Luke 23:1–25
+06-13,,date ne easter+49,,acna-2019,Morning Prayer,psalm,Psalm 106:1–18
+06-13,,date ne easter+49,,acna-2019,Morning Prayer,first,"Joshua 10 or Joshua 10:1–27, 40–43"
+06-13,,date ne easter+49,,acna-2019,Morning Prayer,second,Luke :23:26–49
+06-14,,,,acna-2019,Morning Prayer,psalm,Psalm 107:1–22
+06-14,,,,acna-2019,Morning Prayer,first,Joshua 14 or Joshua 14:5–15
+06-14,,,,acna-2019,Morning Prayer,second,Luke 23:50–24:12
+06-15,,,,acna-2019,Morning Prayer,psalm,"Psalms 108, 110"
+06-15,,,,acna-2019,Morning Prayer,first,Joshua 22 or Joshua 22:7–31
+06-15,,,,acna-2019,Morning Prayer,second,Luke 24:13–end
+06-16,,,,acna-2019,Morning Prayer,psalm,"Psalms 111, 112"
+06-16,,,,acna-2019,Morning Prayer,first,Joshua 23
+06-16,,,,acna-2019,Morning Prayer,second,Galatians 1
+06-17,,,,acna-2019,Morning Prayer,psalm,Psalm 115
+06-17,,,,acna-2019,Morning Prayer,first,Joshua 24 or Joshua 24:1–31
+06-17,,,,acna-2019,Morning Prayer,second,Galatians 2
+06-18,,,,acna-2019,Morning Prayer,psalm,Psalm 119:1–24
+06-18,,,,acna-2019,Morning Prayer,first,Judges 1 or Judges 1:1–21
+06-18,,,,acna-2019,Morning Prayer,second,Galatians 3
+06-19,,,,acna-2019,Morning Prayer,psalm,Psalm 119:49–72
+06-19,,,,acna-2019,Morning Prayer,first,Judges 2 or Judges 2:6–23
+06-19,,,,acna-2019,Morning Prayer,second,Galatians 4
+06-20,,,,acna-2019,Morning Prayer,psalm,Psalm 119:89–104
+06-20,,,,acna-2019,Morning Prayer,first,Judges 3 or Judges 3:7–30
+06-20,,,,acna-2019,Morning Prayer,second,Galatians 5
+06-21,,,,acna-2019,Morning Prayer,psalm,Psalm 119:129–152
+06-21,,,,acna-2019,Morning Prayer,first,Judges 4
+06-21,,,,acna-2019,Morning Prayer,second,Galatians 6
+06-22,,,,acna-2019,Morning Prayer,psalm,Psalm 118
+06-22,,,,acna-2019,Morning Prayer,first,"Judges 5 or Judges 5:1–5, 19–31"
+06-22,,,,acna-2019,Morning Prayer,second,1 Thessalonians 1
+06-23,,,,acna-2019,Morning Prayer,psalm,"Psalms 122, 123"
+06-23,,,,acna-2019,Morning Prayer,first,"Judges 6 or Judges 6:1, 6, 11–24, 33–40"
+06-23,,,,acna-2019,Morning Prayer,second,1 Thessalonians 2:1–16
+06-24,,,,acna-2019,Morning Prayer,psalm,"Psalms 127, 128"
+06-24,,,,acna-2019,Morning Prayer,first,1 Thessalonians 2:17–3:13
+06-24,,,,acna-2019,Morning Prayer,second,Matthew 14:1–13
+06-25,,,,acna-2019,Morning Prayer,psalm,"Psalms 132, 133"
+06-25,,,,acna-2019,Morning Prayer,first,"Judges 7 or Judges 7:1–8, 16–25"
+06-25,,,,acna-2019,Morning Prayer,second,1 Thessalonians 4:1–12
+06-26,,,,acna-2019,Morning Prayer,psalm,Psalm 136
+06-26,,,,acna-2019,Morning Prayer,first,"Judges 8 or Judges 8:4–23, 28"
+06-26,,,,acna-2019,Morning Prayer,second,1 Thessalonians 4:13–5:11
+06-27,,,,acna-2019,Morning Prayer,psalm,Psalm 139
+06-27,,,,acna-2019,Morning Prayer,first,"Judges 9 or Judges 9:1–6, 22–25, 43–56"
+06-27,,,,acna-2019,Morning Prayer,second,1 Thessalonians 5:12–end
+06-28,,,,acna-2019,Morning Prayer,psalm,Psalm 140
+06-28,,,,acna-2019,Morning Prayer,first,Judges 10 or Judges 10:6–18
+06-28,,,,acna-2019,Morning Prayer,second,2 Thessalonians 1
+06-29,,,,acna-2019,Morning Prayer,psalm,Psalm 144
+06-29,,,,acna-2019,Morning Prayer,first,2 Thessalonians 2
+06-29,,,,acna-2019,Morning Prayer,second,2 Peter 3:14–end
+06-30,,,,acna-2019,Morning Prayer,psalm,Psalm 146
+06-30,,,,acna-2019,Morning Prayer,first,"Judges 11 or Judges 11:1–11, 29–40"
+06-30,,,,acna-2019,Morning Prayer,second,2 Thessalonians 3
+07-01,,,,acna-2019,Morning Prayer,psalm,Psalm 148
+07-01,,,,acna-2019,Morning Prayer,first,Judges 12
+07-01,,,,acna-2019,Morning Prayer,second,1 Corinthians 1:1–25
+07-02,,,,acna-2019,Morning Prayer,psalm,"Psalms 1, 2"
+07-02,,,,acna-2019,Morning Prayer,first,Judges 13
+07-02,,,,acna-2019,Morning Prayer,second,1 Corinthians 1:26–2:16
+07-03,,,,acna-2019,Morning Prayer,psalm,"Psalms 5, 6"
+07-03,,,,acna-2019,Morning Prayer,first,Judges 14
+07-03,,,,acna-2019,Morning Prayer,second,1 Corinthians 3
+07-04,,,,acna-2019,Morning Prayer,psalm,Psalm 9
+07-04,,,,acna-2019,Morning Prayer,first,Judges 15
+07-04,,,,acna-2019,Morning Prayer,second,1 Corinthians 4:1–17
+07-05,,,,acna-2019,Morning Prayer,psalm,"Psalms 8, 11"
+07-05,,,,acna-2019,Morning Prayer,first,Judges 16
+07-05,,,,acna-2019,Morning Prayer,second,1 Corinthians 4:18–5:13
+07-06,,,,acna-2019,Morning Prayer,psalm,"Psalms 12, 13, 14"
+07-06,,,,acna-2019,Morning Prayer,first,Ruth 1
+07-06,,,,acna-2019,Morning Prayer,second,1 Corinthians 6
+07-07,,,,acna-2019,Morning Prayer,psalm,Psalm 18:1–20
+07-07,,,,acna-2019,Morning Prayer,first,Ruth 2
+07-07,,,,acna-2019,Morning Prayer,second,1 Corinthians 7
+07-08,,,,acna-2019,Morning Prayer,psalm,Psalm 19
+07-08,,,,acna-2019,Morning Prayer,first,Ruth 3
+07-08,,,,acna-2019,Morning Prayer,second,1 Corinthians 8
+07-09,,,,acna-2019,Morning Prayer,psalm,Psalm 22
+07-09,,,,acna-2019,Morning Prayer,first,Ruth 4
+07-09,,,,acna-2019,Morning Prayer,second,1 Corinthians 9
+07-10,,,,acna-2019,Morning Prayer,psalm,Psalm 25
+07-10,,,,acna-2019,Morning Prayer,first,1 Samuel 1 or 1 Samuel 1:1–20
+07-10,,,,acna-2019,Morning Prayer,second,1 Corinthians 10
+07-11,,,,acna-2019,Morning Prayer,psalm,"Psalms 26, 28"
+07-11,,,,acna-2019,Morning Prayer,first,1 Samuel 2 or 1 Samuel 2:1–21
+07-11,,,,acna-2019,Morning Prayer,second,1 Corinthians 11
+07-12,,,,acna-2019,Morning Prayer,psalm,"Psalms 29, 30"
+07-12,,,,acna-2019,Morning Prayer,first,1 Samuel 3
+07-12,,,,acna-2019,Morning Prayer,second,1 Corinthians 12
+07-13,,,,acna-2019,Morning Prayer,psalm,Psalm 34
+07-13,,,,acna-2019,Morning Prayer,first,1 Samuel 4
+07-13,,,,acna-2019,Morning Prayer,second,1 Corinthians 13
+07-14,,,,acna-2019,Morning Prayer,psalm,"Psalms 32, 36"
+07-14,,,,acna-2019,Morning Prayer,first,1 Samuel 5
+07-14,,,,acna-2019,Morning Prayer,second,1 Corinthians 14:1–19
+07-15,,,,acna-2019,Morning Prayer,psalm,Psalm 37:1–17
+07-15,,,,acna-2019,Morning Prayer,first,1 Samuel 6 or 1 Samuel 6:1–15
+07-15,,,,acna-2019,Morning Prayer,second,1 Corinthians 14:20–end
+07-16,,,,acna-2019,Morning Prayer,psalm,Psalm 40
+07-16,,,,acna-2019,Morning Prayer,first,1 Samuel 7
+07-16,,,,acna-2019,Morning Prayer,second,1 Corinthians 15:1–34
+07-17,,,,acna-2019,Morning Prayer,psalm,"Psalms 42, 43"
+07-17,,,,acna-2019,Morning Prayer,first,1 Samuel 8
+07-17,,,,acna-2019,Morning Prayer,second,1 Corinthians 15:35–end
+07-18,,,,acna-2019,Morning Prayer,psalm,Psalm 45
+07-18,,,,acna-2019,Morning Prayer,first,1 Samuel 9
+07-18,,,,acna-2019,Morning Prayer,second,1 Corinthians 16
+07-19,,,,acna-2019,Morning Prayer,psalm,"Psalms 47, 48"
+07-19,,,,acna-2019,Morning Prayer,first,1 Samuel 10
+07-19,,,,acna-2019,Morning Prayer,second,2 Corinthians 1:1–2:11
+07-20,,,,acna-2019,Morning Prayer,psalm,Psalm 50
+07-20,,,,acna-2019,Morning Prayer,first,1 Samuel 11
+07-20,,,,acna-2019,Morning Prayer,second,2 Corinthians 2:12–3:18
+07-21,,,,acna-2019,Morning Prayer,psalm,"Psalms 52, 53, 54"
+07-21,,,,acna-2019,Morning Prayer,first,1 Samuel 12
+07-21,,,,acna-2019,Morning Prayer,second,2 Corinthians 4
+07-22,,,,acna-2019,Morning Prayer,psalm,"Psalms 56, 57"
+07-22,,,,acna-2019,Morning Prayer,first,2 Corinthians 5
+07-22,,,,acna-2019,Morning Prayer,second,Luke 7:36–8:3
+07-23,,,,acna-2019,Morning Prayer,psalm,Psalm 59
+07-23,,,,acna-2019,Morning Prayer,first,1 Samuel 13
+07-23,,,,acna-2019,Morning Prayer,second,2 Corinthians 6
+07-24,,,,acna-2019,Morning Prayer,psalm,"Psalms 61, 62"
+07-24,,,,acna-2019,Morning Prayer,first,"1 Samuel 14 or 1 Samuel 14:1–15, 20, 24–30"
+07-24,,,,acna-2019,Morning Prayer,second,2 Corinthians 7
+07-25,,,,acna-2019,Morning Prayer,psalm,Psalm 68:1–18
+07-25,,,,acna-2019,Morning Prayer,first,2 Corinthians 8
+07-25,,,,acna-2019,Morning Prayer,second,Mark 1:14–20
+07-26,,,,acna-2019,Morning Prayer,psalm,Psalm 69:1–18
+07-26,,,,acna-2019,Morning Prayer,first,1 Samuel 15
+07-26,,,,acna-2019,Morning Prayer,second,2 Corinthians 9
+07-27,,,,acna-2019,Morning Prayer,psalm,Psalm 66
+07-27,,,,acna-2019,Morning Prayer,first,1 Samuel 16
+07-27,,,,acna-2019,Morning Prayer,second,2 Corinthians 10
+07-28,,,,acna-2019,Morning Prayer,psalm,Psalm 71
+07-28,,,,acna-2019,Morning Prayer,first,"1 Samuel 17 or 1 Samuel 17:1–11, 26–27, 31–51"
+07-28,,,,acna-2019,Morning Prayer,second,2 Corinthians 11
+07-29,,,,acna-2019,Morning Prayer,psalm,Psalm 74
+07-29,,,,acna-2019,Morning Prayer,first,1 Samuel 18
+07-29,,,,acna-2019,Morning Prayer,second,2 Corinthians 12:1–13
+07-30,,,,acna-2019,Morning Prayer,psalm,"Psalms 75, 76"
+07-30,,,,acna-2019,Morning Prayer,first,1 Samuel 19
+07-30,,,,acna-2019,Morning Prayer,second,2 Corinthians 12:14–13:14
+07-31,,,,acna-2019,Morning Prayer,psalm,Psalm 78:1–18
+07-31,,,,acna-2019,Morning Prayer,first,"1 Samuel 20 or 1 Samuel 20:1–7, 24–42"
+07-31,,,,acna-2019,Morning Prayer,second,Romans 1
+08-01,,,,acna-2019,Morning Prayer,psalm,Psalm 78:41–73
+08-01,,,,acna-2019,Morning Prayer,first,1 Samuel 21
+08-01,,,,acna-2019,Morning Prayer,second,Romans 2
+08-02,,,,acna-2019,Morning Prayer,psalm,Psalm 81
+08-02,,,,acna-2019,Morning Prayer,first,1 Samuel 22
+08-02,,,,acna-2019,Morning Prayer,second,Romans 3
+08-03,,,,acna-2019,Morning Prayer,psalm,Psalm 84
+08-03,,,,acna-2019,Morning Prayer,first,1 Samuel 23
+08-03,,,,acna-2019,Morning Prayer,second,Romans 4
+08-04,,,,acna-2019,Morning Prayer,psalm,"Psalms 86, 87"
+08-04,,,,acna-2019,Morning Prayer,first,1 Samuel 24
+08-04,,,,acna-2019,Morning Prayer,second,Romans 5
+08-05,,,,acna-2019,Morning Prayer,psalm,Psalm 89:1–18
+08-05,,,,acna-2019,Morning Prayer,first,"1 Samuel 25 or 1 Samuel 25:1–19, 23–25, 32–42"
+08-05,,,,acna-2019,Morning Prayer,second,Romans 6
+08-06,,,,acna-2019,Morning Prayer,psalm,Psalm 27
+08-06,,,,acna-2019,Morning Prayer,first,Romans 7
+08-06,,,,acna-2019,Morning Prayer,second,Mark 9:2–10
+08-07,,,,acna-2019,Morning Prayer,psalm,Psalm 90
+08-07,,,,acna-2019,Morning Prayer,first,1 Samuel 26
+08-07,,,,acna-2019,Morning Prayer,second,Romans 8:1–17
+08-08,,,,acna-2019,Morning Prayer,psalm,"Psalms 92, 93"
+08-08,,,,acna-2019,Morning Prayer,first,1 Samuel 27
+08-08,,,,acna-2019,Morning Prayer,second,Romans 8:18–end
+08-09,,,,acna-2019,Morning Prayer,psalm,"Psalms 95, 96"
+08-09,,,,acna-2019,Morning Prayer,first,1 Samuel 28
+08-09,,,,acna-2019,Morning Prayer,second,Romans 9
+08-10,,,,acna-2019,Morning Prayer,psalm,"Psalms 99, 100, 101"
+08-10,,,,acna-2019,Morning Prayer,first,1 Samuel 29
+08-10,,,,acna-2019,Morning Prayer,second,Romans 10
+08-11,,,,acna-2019,Morning Prayer,psalm,Psalm 103
+08-11,,,,acna-2019,Morning Prayer,first,1 Samuel 30 or 1 Samuel 30:1–25
+08-11,,,,acna-2019,Morning Prayer,second,Romans 11
+08-12,,,,acna-2019,Morning Prayer,psalm,Psalm 105:1–22
+08-12,,,,acna-2019,Morning Prayer,first,1 Samuel 31
+08-12,,,,acna-2019,Morning Prayer,second,Romans 12
+08-13,,,,acna-2019,Morning Prayer,psalm,Psalm 106:1–18
+08-13,,,,acna-2019,Morning Prayer,first,2 Samuel 1
+08-13,,,,acna-2019,Morning Prayer,second,Romans 13
+08-14,,,,acna-2019,Morning Prayer,psalm,Psalm 107:1–22
+08-14,,,,acna-2019,Morning Prayer,first,"2 Samuel 2 or 2 Samuel 2:1–17, 26–31"
+08-14,,,,acna-2019,Morning Prayer,second,Romans 14
+08-15,,,,acna-2019,Morning Prayer,psalm,"Psalms 108, 110"
+08-15,,,,acna-2019,Morning Prayer,first,"2 Samuel 3 or 2 Samuel 3:6–11, 17–39"
+08-15,,,,acna-2019,Morning Prayer,second,Luke 1:26–38
+08-16,,,,acna-2019,Morning Prayer,psalm,"Psalms 111, 112"
+08-16,,,,acna-2019,Morning Prayer,first,2 Samuel 4
+08-16,,,,acna-2019,Morning Prayer,second,Romans 15
+08-17,,,,acna-2019,Morning Prayer,psalm,Psalm 115
+08-17,,,,acna-2019,Morning Prayer,first,2 Samuel 5
+08-17,,,,acna-2019,Morning Prayer,second,Romans 16
+08-18,,,,acna-2019,Morning Prayer,psalm,Psalm 119:1–24
+08-18,,,,acna-2019,Morning Prayer,first,2 Samuel 6
+08-18,,,,acna-2019,Morning Prayer,second,Philippians 1:1–11
+08-19,,,,acna-2019,Morning Prayer,psalm,Psalm 119:49–72
+08-19,,,,acna-2019,Morning Prayer,first,2 Samuel 7
+08-19,,,,acna-2019,Morning Prayer,second,Philippians 1:12–end
+08-20,,,,acna-2019,Morning Prayer,psalm,Psalm 119:89–104
+08-20,,,,acna-2019,Morning Prayer,first,2 Samuel 8
+08-20,,,,acna-2019,Morning Prayer,second,Philippians 2:1–11
+08-21,,,,acna-2019,Morning Prayer,psalm,Psalm 119:129–152
+08-21,,,,acna-2019,Morning Prayer,first,2 Samuel 9
+08-21,,,,acna-2019,Morning Prayer,second,Philippians 2:12–end
+08-22,,,,acna-2019,Morning Prayer,psalm,Psalm 118
+08-22,,,,acna-2019,Morning Prayer,first,2 Samuel 10
+08-22,,,,acna-2019,Morning Prayer,second,Philippians 3
+08-23,,,,acna-2019,Morning Prayer,psalm,"Psalms 122, 123"
+08-23,,,,acna-2019,Morning Prayer,first,2 Samuel 11
+08-23,,,,acna-2019,Morning Prayer,second,Philippians 4
+08-24,,,,acna-2019,Morning Prayer,psalm,"Psalms 127, 128"
+08-24,,,,acna-2019,Morning Prayer,first,Colossians 1:1–20
+08-24,,,,acna-2019,Morning Prayer,second,Luke 6:12–16
+08-25,,,,acna-2019,Morning Prayer,psalm,"Psalms 132, 133"
+08-25,,,,acna-2019,Morning Prayer,first,2 Samuel 12 or 2 Samuel 12:1–25
+08-25,,,,acna-2019,Morning Prayer,second,Colossians 1:21–2:7
+08-26,,,,acna-2019,Morning Prayer,psalm,Psalm 136
+08-26,,,,acna-2019,Morning Prayer,first,"2 Samuel 13 or 2 Samuel 13:1–29, 38–39"
+08-26,,,,acna-2019,Morning Prayer,second,Colossians 2:8–19
+08-27,,,,acna-2019,Morning Prayer,psalm,Psalm 139
+08-27,,,,acna-2019,Morning Prayer,first,"2 Samuel 14 or 2 Samuel 14:1–21, 28"
+08-27,,,,acna-2019,Morning Prayer,second,Colossians 2:20–3:11
+08-28,,,,acna-2019,Morning Prayer,psalm,Psalm 140
+08-28,,,,acna-2019,Morning Prayer,first,"2 Samuel 15 or 2 Samuel 15:1–18, 23–25, 32–34"
+08-28,,,,acna-2019,Morning Prayer,second,Colossians 3:12–end
+08-29,,,,acna-2019,Morning Prayer,psalm,Psalm 144
+08-29,,,,acna-2019,Morning Prayer,first,2 Samuel 16
+08-29,,,,acna-2019,Morning Prayer,second,Colossians 4
+08-30,,,,acna-2019,Morning Prayer,psalm,Psalm 146
+08-30,,,,acna-2019,Morning Prayer,first,2 Samuel 17 or 2 Samuel 17:1–23
+08-30,,,,acna-2019,Morning Prayer,second,Philemon
+08-31,,,,acna-2019,Morning Prayer,psalm,Psalm 148
+08-31,,,,acna-2019,Morning Prayer,first,"2 Samuel 18 or 2 Samuel 18:1–15, 19–33"
+08-31,,,,acna-2019,Morning Prayer,second,Ephesians 1:1–14
+09-01,,,,acna-2019,Morning Prayer,psalm,"Psalms 1, 2"
+09-01,,,,acna-2019,Morning Prayer,first,2 Samuel 19 or 2 Samuel 19:1–30
+09-01,,,,acna-2019,Morning Prayer,second,Ephesians 1:15–end
+09-02,,,,acna-2019,Morning Prayer,psalm,"Psalms 5, 6"
+09-02,,,,acna-2019,Morning Prayer,first,2 Samuel 20
+09-02,,,,acna-2019,Morning Prayer,second,Ephesians 2:1–10
+09-03,,,,acna-2019,Morning Prayer,psalm,Psalm 9
+09-03,,,,acna-2019,Morning Prayer,first,2 Samuel 21
+09-03,,,,acna-2019,Morning Prayer,second,Ephesians 2:11–end
+09-04,,,,acna-2019,Morning Prayer,psalm,"Psalms 8, 11"
+09-04,,,,acna-2019,Morning Prayer,first,"2 Samuel 22 or 2 Samuel 22:1–7, 14–20, 32–51"
+09-04,,,,acna-2019,Morning Prayer,second,Ephesians 3
+09-05,,,,acna-2019,Morning Prayer,psalm,"Psalms 12, 13, 14"
+09-05,,,,acna-2019,Morning Prayer,first,2 Samuel 23 or 2 Samuel 23:1–23
+09-05,,,,acna-2019,Morning Prayer,second,Ephesians 4:1–16
+09-06,,,,acna-2019,Morning Prayer,psalm,Psalm 18:1–20
+09-06,,,,acna-2019,Morning Prayer,first,2 Samuel 24
+09-06,,,,acna-2019,Morning Prayer,second,Ephesians 4:17–end
+09-07,,,,acna-2019,Morning Prayer,psalm,Psalm 19
+09-07,,,,acna-2019,Morning Prayer,first,1 Chronicles 22
+09-07,,,,acna-2019,Morning Prayer,second,Ephesians 5:1–17
+09-08,,,,acna-2019,Morning Prayer,psalm,Psalm 22
+09-08,,,,acna-2019,Morning Prayer,first,"1 Kings 1 or 1 Kings 1:1–18, 29–40"
+09-08,,,,acna-2019,Morning Prayer,second,Ephesians 5:18–end
+09-09,,,,acna-2019,Morning Prayer,psalm,Psalm 25
+09-09,,,,acna-2019,Morning Prayer,first,1 Chronicles 28
+09-09,,,,acna-2019,Morning Prayer,second,Ephesians 6
+09-10,,,,acna-2019,Morning Prayer,psalm,"Psalms 26, 28"
+09-10,,,,acna-2019,Morning Prayer,first,1 Kings 2 or 1 Kings 2:1–25
+09-10,,,,acna-2019,Morning Prayer,second,Hebrews 1
+09-11,,,,acna-2019,Morning Prayer,psalm,"Psalms 29, 30"
+09-11,,,,acna-2019,Morning Prayer,first,1 Kings 3
+09-11,,,,acna-2019,Morning Prayer,second,Hebrews 2
+09-12,,,,acna-2019,Morning Prayer,psalm,Psalm 34
+09-12,,,,acna-2019,Morning Prayer,first,"1 Kings 4 or 1 Kings 4:1–6, 20–34"
+09-12,,,,acna-2019,Morning Prayer,second,Hebrews 3
+09-13,,,,acna-2019,Morning Prayer,psalm,"Psalms 32, 36"
+09-13,,,,acna-2019,Morning Prayer,first,1 Kings 5
+09-13,,,,acna-2019,Morning Prayer,second,Hebrews 4:1–13
+09-14,,,,acna-2019,Morning Prayer,psalm,Psalm 37:1–17
+09-14,,,,acna-2019,Morning Prayer,first,Hebrews 4:14–5:10
+09-14,,,,acna-2019,Morning Prayer,second,John 12:23–33
+09-15,,,,acna-2019,Morning Prayer,psalm,Psalm 40
+09-15,,,,acna-2019,Morning Prayer,first,"1 Kings 6 or 1 Kings 6:1–7, 11–30, 37–38"
+09-15,,,,acna-2019,Morning Prayer,second,Hebrews 5:11–6:20
+09-16,,,,acna-2019,Morning Prayer,psalm,"Psalms 42, 43"
+09-16,,,,acna-2019,Morning Prayer,first,"1 Kings 7 or 1 Kings 7:1–14, 40–44, 47–51"
+09-16,,,,acna-2019,Morning Prayer,second,Hebrews 7
+09-17,,,,acna-2019,Morning Prayer,psalm,Psalm 45
+09-17,,,,acna-2019,Morning Prayer,first,"1 Kings 8 or 1 Kings 8:1–11, 22–30, 54–63"
+09-17,,,,acna-2019,Morning Prayer,second,Hebrews 8
+09-18,,,,acna-2019,Morning Prayer,psalm,"Psalms 47, 48"
+09-18,,,,acna-2019,Morning Prayer,first,"1 Kings 9 or 1 Kings 9:1–9, 15–28"
+09-18,,,,acna-2019,Morning Prayer,second,Hebrews 9:1–14
+09-19,,,,acna-2019,Morning Prayer,psalm,Psalm 50
+09-19,,,,acna-2019,Morning Prayer,first,"1 Kings 10 or 1 Kings 10:1–13, 23–29"
+09-19,,,,acna-2019,Morning Prayer,second,Hebrews 9:15–end
+09-20,,,,acna-2019,Morning Prayer,psalm,"Psalms 52, 53, 54"
+09-20,,,,acna-2019,Morning Prayer,first,"1 Kings 11 or 1 Kings 11:1–14, 23–33, 41–43"
+09-20,,,,acna-2019,Morning Prayer,second,Hebrews 10:1–18
+09-21,,,,acna-2019,Morning Prayer,psalm,"Psalms 56, 57"
+09-21,,,,acna-2019,Morning Prayer,first,Hebrews 10:19–end
+09-21,,,,acna-2019,Morning Prayer,second,Matthew 9:9–13
+09-22,,,,acna-2019,Morning Prayer,psalm,Psalm 59
+09-22,,,,acna-2019,Morning Prayer,first,"1 Kings 12 or 1 Kings 12:1–20, 25–30"
+09-22,,,,acna-2019,Morning Prayer,second,Hebrews 11
+09-23,,,,acna-2019,Morning Prayer,psalm,"Psalms 61, 62"
+09-23,,,,acna-2019,Morning Prayer,first,"1 Kings 13 or 1 Kings 13:1–25, 33–34"
+09-23,,,,acna-2019,Morning Prayer,second,Hebrews 12:1–17
+09-24,,,,acna-2019,Morning Prayer,psalm,Psalm 68:1–18
+09-24,,,,acna-2019,Morning Prayer,first,1 Kings 14
+09-24,,,,acna-2019,Morning Prayer,second,Hebrews 12:18–end
+09-25,,,,acna-2019,Morning Prayer,psalm,Psalm 69:1–18
+09-25,,,,acna-2019,Morning Prayer,first,2 Chronicles 12
+09-25,,,,acna-2019,Morning Prayer,second,Hebrews 13
+09-26,,,,acna-2019,Morning Prayer,psalm,Psalm 66
+09-26,,,,acna-2019,Morning Prayer,first,2 Chronicles 13
+09-26,,,,acna-2019,Morning Prayer,second,James 1
+09-27,,,,acna-2019,Morning Prayer,psalm,Psalm 71
+09-27,,,,acna-2019,Morning Prayer,first,2 Chronicles 14
+09-27,,,,acna-2019,Morning Prayer,second,James 2:1–13
+09-28,,,,acna-2019,Morning Prayer,psalm,Psalm 74
+09-28,,,,acna-2019,Morning Prayer,first,2 Chronicles 15
+09-28,,,,acna-2019,Morning Prayer,second,James 2:14–end
+09-29,,,,acna-2019,Morning Prayer,psalm,"Psalms 75, 76"
+09-29,,,,acna-2019,Morning Prayer,first,Revelation 12:7–12
+09-29,,,,acna-2019,Morning Prayer,second,James 3
+09-30,,,,acna-2019,Morning Prayer,psalm,Psalm 78:1–18
+09-30,,,,acna-2019,Morning Prayer,first,2 Chronicles 16
+09-30,,,,acna-2019,Morning Prayer,second,James 4
+10-01,,,,acna-2019,Morning Prayer,psalm,Psalm 78:41–73
+10-01,,,,acna-2019,Morning Prayer,first,1 Kings 15 or 1 Kings 15:1–30
+10-01,,,,acna-2019,Morning Prayer,second,James 5
+10-02,,,,acna-2019,Morning Prayer,psalm,Psalm 81
+10-02,,,,acna-2019,Morning Prayer,first,"1 Kings 16 or 1 Kings 16:1–4, 8–19, 23–34"
+10-02,,,,acna-2019,Morning Prayer,second,1 Peter 1:1–21
+10-03,,,,acna-2019,Morning Prayer,psalm,Psalm 84
+10-03,,,,acna-2019,Morning Prayer,first,1 Kings 17
+10-03,,,,acna-2019,Morning Prayer,second,1 Peter 1:22–2:10
+10-04,,,,acna-2019,Morning Prayer,psalm,"Psalms 86, 87"
+10-04,,,,acna-2019,Morning Prayer,first,"1 Kings 18 or 1 Kings 18:1–8, 17–46"
+10-04,,,,acna-2019,Morning Prayer,second,1 Peter 2:11–3:7
+10-05,,,,acna-2019,Morning Prayer,psalm,Psalm 89:1–18
+10-05,,,,acna-2019,Morning Prayer,first,1 Kings 19
+10-05,,,,acna-2019,Morning Prayer,second,1 Peter 3:8–4:6
+10-06,,,,acna-2019,Morning Prayer,psalm,Psalm 90
+10-06,,,,acna-2019,Morning Prayer,first,"1 Kings 20 or 1 Kings 20:1, 13, 21–43"
+10-06,,,,acna-2019,Morning Prayer,second,1 Peter 4:7–end
+10-07,,,,acna-2019,Morning Prayer,psalm,"Psalms 92, 93"
+10-07,,,,acna-2019,Morning Prayer,first,1 Kings 21
+10-07,,,,acna-2019,Morning Prayer,second,1 Peter 5
+10-08,,,,acna-2019,Morning Prayer,psalm,"Psalms 95, 96"
+10-08,,,,acna-2019,Morning Prayer,first,"1 Kings 22 or 1 Kings 22:1–23, 29–38"
+10-08,,,,acna-2019,Morning Prayer,second,2 Peter 1
+10-09,,,,acna-2019,Morning Prayer,psalm,"Psalms 99, 100, 101"
+10-09,,,,acna-2019,Morning Prayer,first,2 Chronicles 20
+10-09,,,,acna-2019,Morning Prayer,second,2 Peter 2
+10-10,,,,acna-2019,Morning Prayer,psalm,Psalm 103
+10-10,,,,acna-2019,Morning Prayer,first,2 Kings 1
+10-10,,,,acna-2019,Morning Prayer,second,2 Peter 3
+10-11,,,,acna-2019,Morning Prayer,psalm,Psalm 105:1–22
+10-11,,,,acna-2019,Morning Prayer,first,2 Kings 2
+10-11,,,,acna-2019,Morning Prayer,second,Jude
+10-12,,,,acna-2019,Morning Prayer,psalm,Psalm 106:1–18
+10-12,,,,acna-2019,Morning Prayer,first,2 Kings 3
+10-12,,,,acna-2019,Morning Prayer,second,1 John 1:1–2:6
+10-13,,,,acna-2019,Morning Prayer,psalm,Psalm 107:1–22
+10-13,,,,acna-2019,Morning Prayer,first,2 Kings 4 or 2 Kings 4:8–37
+10-13,,,,acna-2019,Morning Prayer,second,1 John 2:7–end
+10-14,,,,acna-2019,Morning Prayer,psalm,"Psalms 108, 110"
+10-14,,,,acna-2019,Morning Prayer,first,2 Kings 5
+10-14,,,,acna-2019,Morning Prayer,second,1 John 3:1–10
+10-15,,,,acna-2019,Morning Prayer,psalm,"Psalms 111, 112"
+10-15,,,,acna-2019,Morning Prayer,first,2 Kings 6 or 2 Kings 6:1–24
+10-15,,,,acna-2019,Morning Prayer,second,1 John 3:11–4:6
+10-16,,,,acna-2019,Morning Prayer,psalm,Psalm 115
+10-16,,,,acna-2019,Morning Prayer,first,2 Kings 7
+10-16,,,,acna-2019,Morning Prayer,second,1 John 4:7–end
+10-17,,,,acna-2019,Morning Prayer,psalm,Psalm 119:1–24
+10-17,,,,acna-2019,Morning Prayer,first,"2 Kings 8 or 2 Kings 8:1–19, 25–27"
+10-17,,,,acna-2019,Morning Prayer,second,1 John 5
+10-18,,,,acna-2019,Morning Prayer,psalm,Psalm 119:49–72
+10-18,,,,acna-2019,Morning Prayer,first,2 John
+10-18,,,,acna-2019,Morning Prayer,second,Luke 1:1–4
+10-19,,,,acna-2019,Morning Prayer,psalm,Psalm 119:89–104
+10-19,,,,acna-2019,Morning Prayer,first,"2 Kings 9 or 2 Kings 9:1–26, 30–37"
+10-19,,,,acna-2019,Morning Prayer,second,3 John
+10-20,,,,acna-2019,Morning Prayer,psalm,Psalm 119:129–152
+10-20,,,,acna-2019,Morning Prayer,first,"2 Kings 10 or 2 Kings 10:1–11, 18–31"
+10-20,,,,acna-2019,Morning Prayer,second,Acts 1:1–14
+10-21,,,,acna-2019,Morning Prayer,psalm,Psalm 118
+10-21,,,,acna-2019,Morning Prayer,first,2 Kings 11
+10-21,,,,acna-2019,Morning Prayer,second,Acts 1:15–end
+10-22,,,,acna-2019,Morning Prayer,psalm,"Psalms 122, 123"
+10-22,,,,acna-2019,Morning Prayer,first,2 Kings 12
+10-22,,,,acna-2019,Morning Prayer,second,Acts 2:1–21
+10-23,,,,acna-2019,Morning Prayer,psalm,"Psalms 127, 128"
+10-23,,,,acna-2019,Morning Prayer,first,Acts 2:22–end
+10-23,,,,acna-2019,Morning Prayer,second,James 1
+10-24,,,,acna-2019,Morning Prayer,psalm,"Psalms 132, 133"
+10-24,,,,acna-2019,Morning Prayer,first,2 Kings 13
+10-24,,,,acna-2019,Morning Prayer,second,Acts 3:1–4:4
+10-25,,,,acna-2019,Morning Prayer,psalm,Psalm 136
+10-25,,,,acna-2019,Morning Prayer,first,2 Kings 14
+10-25,,,,acna-2019,Morning Prayer,second,Acts 4:5–31
+10-26,,,,acna-2019,Morning Prayer,psalm,Psalm 139
+10-26,,,,acna-2019,Morning Prayer,first,2 Chronicles 26
+10-26,,,,acna-2019,Morning Prayer,second,Acts 4:32–5:11
+10-27,,,,acna-2019,Morning Prayer,psalm,Psalm 140
+10-27,,,,acna-2019,Morning Prayer,first,2 Kings 15 or 2 Kings 15:1–29
+10-27,,,,acna-2019,Morning Prayer,second,Acts 5:12–end
+10-28,,,,acna-2019,Morning Prayer,psalm,Psalm 144
+10-28,,,,acna-2019,Morning Prayer,first,Acts 6:1–7:16
+10-28,,,,acna-2019,Morning Prayer,second,John 14:15–31
+10-29,,,,acna-2019,Morning Prayer,psalm,Psalm 146
+10-29,,,,acna-2019,Morning Prayer,first,2 Kings 16
+10-29,,,,acna-2019,Morning Prayer,second,Acts 7:17–34
+10-30,,,,acna-2019,Morning Prayer,psalm,Psalm 148
+10-30,,,,acna-2019,Morning Prayer,first,"2 Kings 17 or 2 Kings 17:1–28, 41"
+10-30,,,,acna-2019,Morning Prayer,second,Acts 7:35–8:3
+10-31,,,,acna-2019,Morning Prayer,psalm,Psalm 2
+10-31,,,,acna-2019,Morning Prayer,first,2 Chronicles 28
+10-31,,,,acna-2019,Morning Prayer,second,Acts 8:4–25
+11-01,,,,acna-2019,Morning Prayer,psalm,"Psalms 1, 15"
+11-01,,,,acna-2019,Morning Prayer,first,Hebrews 11:32–12:2
+11-01,,,,acna-2019,Morning Prayer,second,Acts 8:26–end
+11-02,,,,acna-2019,Morning Prayer,psalm,"Psalms 5, 6"
+11-02,,,,acna-2019,Morning Prayer,first,"2 Chronicles 29 or 2 Chronicles 29:1–11, 20–30, 35–36"
+11-02,,,,acna-2019,Morning Prayer,second,Acts 9:1–31
+11-03,,,,acna-2019,Morning Prayer,psalm,Psalm 9
+11-03,,,,acna-2019,Morning Prayer,first,"2 Chronicles 30 or 2 Chronicles 30:1–22, 26–27"
+11-03,,,,acna-2019,Morning Prayer,second,Acts 9:32–end
+11-04,,,,acna-2019,Morning Prayer,psalm,"Psalms 8, 11"
+11-04,,,,acna-2019,Morning Prayer,first,"2 Kings 18 or 2 Kings 18:1–13, 17–30, 35–37"
+11-04,,,,acna-2019,Morning Prayer,second,Acts 10:1–23
+11-05,,,,acna-2019,Morning Prayer,psalm,"Psalms 12, 13, 14"
+11-05,,,,acna-2019,Morning Prayer,first,"2 Kings 19 or 2 Kings 19:1–20, 29–31, 35–37"
+11-05,,,,acna-2019,Morning Prayer,second,Acts 10:24–end
+11-06,,,,acna-2019,Morning Prayer,psalm,Psalm 18:1–20
+11-06,,,,acna-2019,Morning Prayer,first,2 Kings 20
+11-06,,,,acna-2019,Morning Prayer,second,Acts 11:1–18
+11-07,,,,acna-2019,Morning Prayer,psalm,Psalm 19
+11-07,,,,acna-2019,Morning Prayer,first,2 Chronicles 33
+11-07,,,,acna-2019,Morning Prayer,second,Acts 11:19–end
+11-08,,,,acna-2019,Morning Prayer,psalm,Psalm 22
+11-08,,,,acna-2019,Morning Prayer,first,2 Kings 21
+11-08,,,,acna-2019,Morning Prayer,second,Acts 12:1–24
+11-09,,,,acna-2019,Morning Prayer,psalm,Psalm 25
+11-09,,,,acna-2019,Morning Prayer,first,2 Kings 22
+11-09,,,,acna-2019,Morning Prayer,second,Acts 12:25–13:12
+11-10,,,,acna-2019,Morning Prayer,psalm,"Psalms 26, 28"
+11-10,,,,acna-2019,Morning Prayer,first,"2 Kings 23 or 2 Kings 23:1–20, 26–30"
+11-10,,,,acna-2019,Morning Prayer,second,Acts 13:13–43
+11-11,,,,acna-2019,Morning Prayer,psalm,"Psalms 29, 30"
+11-11,,,,acna-2019,Morning Prayer,first,2 Kings 24
+11-11,,,,acna-2019,Morning Prayer,second,Acts 13:44–14:7
+11-12,,,,acna-2019,Morning Prayer,psalm,Psalm 34
+11-12,,,,acna-2019,Morning Prayer,first,"2 Kings 25 or 2 Kings 25:1–22, 25–30"
+11-12,,,,acna-2019,Morning Prayer,second,Acts 14:8–end
+11-13,,,,acna-2019,Morning Prayer,psalm,"Psalms 32, 36"
+11-13,,,,acna-2019,Morning Prayer,first,Judith 4
+11-13,,,,acna-2019,Morning Prayer,second,Acts 15:1–21
+11-14,,,,acna-2019,Morning Prayer,psalm,Psalm 37:1–17
+11-14,,,,acna-2019,Morning Prayer,first,Judith 8
+11-14,,,,acna-2019,Morning Prayer,second,Acts 15:22–35
+11-15,,,,acna-2019,Morning Prayer,psalm,Psalm 40
+11-15,,,,acna-2019,Morning Prayer,first,Judith 9
+11-15,,,,acna-2019,Morning Prayer,second,Acts 15:36–16:5
+11-16,,,,acna-2019,Morning Prayer,psalm,"Psalms 42, 43"
+11-16,,,,acna-2019,Morning Prayer,first,Judith 10
+11-16,,,,acna-2019,Morning Prayer,second,Acts 16:6–end
+11-17,,,,acna-2019,Morning Prayer,psalm,Psalm 45
+11-17,,,,acna-2019,Morning Prayer,first,Judith 11
+11-17,,,,acna-2019,Morning Prayer,second,Acts 17:1–15
+11-18,,,,acna-2019,Morning Prayer,psalm,"Psalms 47, 48"
+11-18,,,,acna-2019,Morning Prayer,first,Judith 12
+11-18,,,,acna-2019,Morning Prayer,second,Acts 17:16–end
+11-19,,,,acna-2019,Morning Prayer,psalm,Psalm 50
+11-19,,,,acna-2019,Morning Prayer,first,Judith 13
+11-19,,,,acna-2019,Morning Prayer,second,Acts 18:1–23
+11-20,,,,acna-2019,Morning Prayer,psalm,"Psalms 52, 53, 54"
+11-20,,,,acna-2019,Morning Prayer,first,Judith 14
+11-20,,,,acna-2019,Morning Prayer,second,Acts 18:24–19:7
+11-21,,,,acna-2019,Morning Prayer,psalm,"Psalms 56, 57"
+11-21,,,,acna-2019,Morning Prayer,first,Judith 15
+11-21,,,,acna-2019,Morning Prayer,second,Acts 19:8–20
+11-22,,,,acna-2019,Morning Prayer,psalm,Psalm 59
+11-22,,,,acna-2019,Morning Prayer,first,Judith 16
+11-22,,,,acna-2019,Morning Prayer,second,Acts 19:21–end
+11-23,,,,acna-2019,Morning Prayer,psalm,"Psalms 61, 62"
+11-23,,,,acna-2019,Morning Prayer,first,Ecclesiasticus 1
+11-23,,,,acna-2019,Morning Prayer,second,Acts 20:1–16
+11-24,,,,acna-2019,Morning Prayer,psalm,Psalm 68:1–18
+11-24,,,,acna-2019,Morning Prayer,first,Ecclesiasticus 2
+11-24,,,,acna-2019,Morning Prayer,second,Acts 20:17–end
+11-25,,,,acna-2019,Morning Prayer,psalm,Psalm 69:1–18
+11-25,,,,acna-2019,Morning Prayer,first,Ecclesiasticus 4 or Ecclesiasticus 4:1–19
+11-25,,,,acna-2019,Morning Prayer,second,Acts 21:1–16
+11-26,,,,acna-2019,Morning Prayer,psalm,Psalm 66
+11-26,,,,acna-2019,Morning Prayer,first,Ecclesiasticus 6 or Ecclesiasticus 6:5–31
+11-26,,,,acna-2019,Morning Prayer,second,Acts 21:17–36
+11-27,,,,acna-2019,Morning Prayer,psalm,Psalm 71
+11-27,,,,acna-2019,Morning Prayer,first,"Ecclesiasticus 7 or Ecclesiasticus 7:1–21, 27–36"
+11-27,,,,acna-2019,Morning Prayer,second,Acts 21:37–22:22
+11-28,,,,acna-2019,Morning Prayer,psalm,Psalm 74
+11-28,,,,acna-2019,Morning Prayer,first,Ecclesiasticus 9
+11-28,,,,acna-2019,Morning Prayer,second,Acts 22:23–23:11
+11-29,,,,acna-2019,Morning Prayer,psalm,"Psalms 75, 76"
+11-29,,,,acna-2019,Morning Prayer,first,Ecclesiasticus 10 or Ecclesiasticus 10:1–24
+11-29,,,,acna-2019,Morning Prayer,second,Acts 23:12–end
+11-30,,,,acna-2019,Morning Prayer,psalm,Psalm 78:1–18
+11-30,,,,acna-2019,Morning Prayer,first,"Ecclesiasticus 11 or Ecclesiasticus 11:1–9, 18–28"
+11-30,,,,acna-2019,Morning Prayer,second,John 1:35–42
+12-01,,,,acna-2019,Morning Prayer,psalm,Psalm 78:41–73
+12-01,,,,acna-2019,Morning Prayer,first,Ecclesiasticus 14
+12-01,,,,acna-2019,Morning Prayer,second,Acts 24:1–23
+12-02,,,,acna-2019,Morning Prayer,psalm,Psalm 81
+12-02,,,,acna-2019,Morning Prayer,first,Ecclesiasticus 17
+12-02,,,,acna-2019,Morning Prayer,second,Acts 24:24–25:12
+12-03,,,,acna-2019,Morning Prayer,psalm,Psalm 84
+12-03,,,,acna-2019,Morning Prayer,first,"Ecclesiasticus 18 or Ecclesiasticus 18:1–26, 30–33"
+12-03,,,,acna-2019,Morning Prayer,second,Acts 25:13–end
+12-04,,,,acna-2019,Morning Prayer,psalm,"Psalms 86, 87"
+12-04,,,,acna-2019,Morning Prayer,first,Ecclesiasticus 21
+12-04,,,,acna-2019,Morning Prayer,second,Acts 26
+12-05,,,,acna-2019,Morning Prayer,psalm,Psalm 89:1–18
+12-05,,,,acna-2019,Morning Prayer,first,Ecclesiasticus 34
+12-05,,,,acna-2019,Morning Prayer,second,Acts 27
+12-06,,,,acna-2019,Morning Prayer,psalm,Psalm 90
+12-06,,,,acna-2019,Morning Prayer,first,"Ecclesiasticus 38 or Ecclesiasticus 38:1–15, 24–34"
+12-06,,,,acna-2019,Morning Prayer,second,Acts 28:1–15
+12-07,,,,acna-2019,Morning Prayer,psalm,"Psalms 92, 93"
+12-07,,,,acna-2019,Morning Prayer,first,"Ecclesiasticus 39 or Ecclesiasticus 39:1–11, 16–35"
+12-07,,,,acna-2019,Morning Prayer,second,Acts 28:16–end
+12-08,,,,acna-2019,Morning Prayer,psalm,"Psalms 95, 96"
+12-08,,,,acna-2019,Morning Prayer,first,Ecclesiasticus 44
+12-08,,,,acna-2019,Morning Prayer,second,Revelation 1
+12-09,,,,acna-2019,Morning Prayer,psalm,"Psalms 99, 100, 101"
+12-09,,,,acna-2019,Morning Prayer,first,Ecclesiasticus 45
+12-09,,,,acna-2019,Morning Prayer,second,Revelation 2:1–17
+12-10,,,,acna-2019,Morning Prayer,psalm,Psalm 103
+12-10,,,,acna-2019,Morning Prayer,first,Ecclesiasticus 46
+12-10,,,,acna-2019,Morning Prayer,second,Revelation 2:18–3:6
+12-11,,,,acna-2019,Morning Prayer,psalm,Psalm 105:1–22
+12-11,,,,acna-2019,Morning Prayer,first,Ecclesiasticus 47
+12-11,,,,acna-2019,Morning Prayer,second,Revelation 3:7–end
+12-12,,,,acna-2019,Morning Prayer,psalm,Psalm 106:1–18
+12-12,,,,acna-2019,Morning Prayer,first,Ecclesiasticus 48
+12-12,,,,acna-2019,Morning Prayer,second,Revelation 4
+12-13,,,,acna-2019,Morning Prayer,psalm,Psalm 107:1–22
+12-13,,,,acna-2019,Morning Prayer,first,Ecclesiasticus 49
+12-13,,,,acna-2019,Morning Prayer,second,Revelation 5
+12-14,,,,acna-2019,Morning Prayer,psalm,"Psalms 108, 110"
+12-14,,,,acna-2019,Morning Prayer,first,Ecclesiasticus 50
+12-14,,,,acna-2019,Morning Prayer,second,Revelation 6
+12-15,,,,acna-2019,Morning Prayer,psalm,"Psalms 111, 112"
+12-15,,,,acna-2019,Morning Prayer,first,Ecclesiasticus 51
+12-15,,,,acna-2019,Morning Prayer,second,Revelation 7
+12-16,,,,acna-2019,Morning Prayer,psalm,Psalm 115
+12-16,,,,acna-2019,Morning Prayer,first,Wisdom of Solomon 1
+12-16,,,,acna-2019,Morning Prayer,second,Revelation 8
+12-17,,,,acna-2019,Morning Prayer,psalm,Psalm 119:1–24
+12-17,,,,acna-2019,Morning Prayer,first,Wisdom of Solomon 2
+12-17,,,,acna-2019,Morning Prayer,second,Revelation 9
+12-18,,,,acna-2019,Morning Prayer,psalm,Psalm 119:49–72
+12-18,,,,acna-2019,Morning Prayer,first,Wisdom of Solomon 3
+12-18,,,,acna-2019,Morning Prayer,second,Revelation 10
+12-19,,,,acna-2019,Morning Prayer,psalm,Psalm 119:89–104
+12-19,,,,acna-2019,Morning Prayer,first,Wisdom of Solomon 4
+12-19,,,,acna-2019,Morning Prayer,second,Revelation 11
+12-20,,,,acna-2019,Morning Prayer,psalm,Psalm 119:129–152
+12-20,,,,acna-2019,Morning Prayer,first,Wisdom of Solomon 5
+12-20,,,,acna-2019,Morning Prayer,second,Revelation 12
+12-21,,,,acna-2019,Morning Prayer,psalm,Psalm 118
+12-21,,,,acna-2019,Morning Prayer,first,Revelation 13
+12-21,,,,acna-2019,Morning Prayer,second,John 14:1–7
+12-22,,,,acna-2019,Morning Prayer,psalm,"Psalms 122, 123"
+12-22,,,,acna-2019,Morning Prayer,first,Wisdom of Solomon 6
+12-22,,,,acna-2019,Morning Prayer,second,Revelation 14
+12-23,,,,acna-2019,Morning Prayer,psalm,"Psalms 127, 128"
+12-23,,,,acna-2019,Morning Prayer,first,Wisdom of Solomon 7
+12-23,,,,acna-2019,Morning Prayer,second,Revelation 15
+12-24,,,,acna-2019,Morning Prayer,psalm,"Psalms 132, 133"
+12-24,,,,acna-2019,Morning Prayer,first,Wisdom of Solomon 8
+12-24,,,,acna-2019,Morning Prayer,second,Revelation 16
+12-25,,,,acna-2019,Morning Prayer,psalm,Psalm 19 or Psalm 45
+12-25,,,,acna-2019,Morning Prayer,first,Isaiah 9:1–7
+12-25,,,,acna-2019,Morning Prayer,second,Revelation 17
+12-26,,,,acna-2019,Morning Prayer,psalm,Psalm 136
+12-26,,,,acna-2019,Morning Prayer,first,"Acts 6:8–7:6, 17–41, 44–60"
+12-26,,,,acna-2019,Morning Prayer,second,Revelation 18
+12-27,,,,acna-2019,Morning Prayer,psalm,Psalm 139
+12-27,,,,acna-2019,Morning Prayer,first,Revelation 19
+12-27,,,,acna-2019,Morning Prayer,second,John 21:9–25
+12-28,,,,acna-2019,Morning Prayer,psalm,Psalm 140
+12-28,,,,acna-2019,Morning Prayer,first,Jeremiah 31:1–17
+12-28,,,,acna-2019,Morning Prayer,second,Revelation 20
+12-29,,,,acna-2019,Morning Prayer,psalm,Psalm 144
+12-29,,,,acna-2019,Morning Prayer,first,Wisdom of Solomon 9
+12-29,,,,acna-2019,Morning Prayer,second,Revelation 21:1–14
+12-30,,,,acna-2019,Morning Prayer,psalm,Psalm 146
+12-30,,,,acna-2019,Morning Prayer,first,Wisdom of Solomon 10
+12-30,,,,acna-2019,Morning Prayer,second,Revelation 21:15–22:5
+12-31,,,,acna-2019,Morning Prayer,psalm,Psalm 148
+12-31,,,,acna-2019,Morning Prayer,first,Wisdom of Solomon 11
+12-31,,,,acna-2019,Morning Prayer,second,Revelation 22:6–end
+01-01,,,,acna-2019,Evening Prayer,psalm,"Psalms 3, 4"
+01-01,,,,acna-2019,Evening Prayer,first,Galatians 1
+01-01,,,,acna-2019,Evening Prayer,second,Luke 2:8–21
+01-02,,,,acna-2019,Evening Prayer,psalm,Psalm 7
+01-02,,,,acna-2019,Evening Prayer,first,Jeremiah 1
+01-02,,,,acna-2019,Evening Prayer,second,Galatians 2
+01-03,,,,acna-2019,Evening Prayer,psalm,Psalm 10
+01-03,,,,acna-2019,Evening Prayer,first,Jeremiah 2 or Jeremiah 2:1–22
+01-03,,,,acna-2019,Evening Prayer,second,Galatians 3
+01-04,,,,acna-2019,Evening Prayer,psalm,"Psalms 15, 16"
+01-04,,,,acna-2019,Evening Prayer,first,Jeremiah 3
+01-04,,,,acna-2019,Evening Prayer,second,Galatians 4
+01-05,,,,acna-2019,Evening Prayer,psalm,Psalm 17
+01-05,,,,acna-2019,Evening Prayer,first,Jeremiah 4
+01-05,,,,acna-2019,Evening Prayer,second,Galatians 5
+01-06,,,,acna-2019,Evening Prayer,psalm,"Psalms 67, 72"
+01-06,,,,acna-2019,Evening Prayer,first,Jeremiah 5
+01-06,,,,acna-2019,Evening Prayer,second,John 2:1–12
+01-07,,,,acna-2019,Evening Prayer,psalm,Psalm 18:21–52
+01-07,,,,acna-2019,Evening Prayer,first,Jeremiah 6
+01-07,,,,acna-2019,Evening Prayer,second,Galatians 6
+01-08,,,,acna-2019,Evening Prayer,psalm,"Psalms 20, 21"
+01-08,,,,acna-2019,Evening Prayer,first,"Jeremiah 7 or Jeremiah 7:1–28, 34"
+01-08,,,,acna-2019,Evening Prayer,second,1 Thessalonians 1
+01-09,,,,acna-2019,Evening Prayer,psalm,"Psalms 23, 24"
+01-09,,,,acna-2019,Evening Prayer,first,Jeremiah 8
+01-09,,,,acna-2019,Evening Prayer,second,1 Thessalonians 2:1–16
+01-10,,,,acna-2019,Evening Prayer,psalm,Psalm 27
+01-10,,,,acna-2019,Evening Prayer,first,Jeremiah 9
+01-10,,,,acna-2019,Evening Prayer,second,1 Thessalonians 2:17–3:13
+01-11,,,,acna-2019,Evening Prayer,psalm,Psalm 31
+01-11,,,,acna-2019,Evening Prayer,first,Jeremiah 10
+01-11,,,,acna-2019,Evening Prayer,second,1 Thessalonians 4:1–12
+01-12,,,,acna-2019,Evening Prayer,psalm,Psalm 33
+01-12,,,,acna-2019,Evening Prayer,first,Jeremiah 11
+01-12,,,,acna-2019,Evening Prayer,second,1 Thessalonians 4:13–5:11
+01-13,,,,acna-2019,Evening Prayer,psalm,Psalm 35
+01-13,,,,acna-2019,Evening Prayer,first,Jeremiah 12
+01-13,,,,acna-2019,Evening Prayer,second,1 Thessalonians 5:12–end
+01-14,,,,acna-2019,Evening Prayer,psalm,Psalm 38
+01-14,,,,acna-2019,Evening Prayer,first,Jeremiah 13
+01-14,,,,acna-2019,Evening Prayer,second,2 Thessalonians 1
+01-15,,,,acna-2019,Evening Prayer,psalm,Psalm 37:18–41
+01-15,,,,acna-2019,Evening Prayer,first,Jeremiah 14
+01-15,,,,acna-2019,Evening Prayer,second,2 Thessalonians 2
+01-16,,,,acna-2019,Evening Prayer,psalm,"Psalms 39, 41"
+01-16,,,,acna-2019,Evening Prayer,first,Jeremiah 15
+01-16,,,,acna-2019,Evening Prayer,second,2 Thessalonians 3
+01-17,,,,acna-2019,Evening Prayer,psalm,Psalm 44
+01-17,,,,acna-2019,Evening Prayer,first,Jeremiah 16
+01-17,,,,acna-2019,Evening Prayer,second,1 Corinthians 1:1–25
+01-18,,,,acna-2019,Evening Prayer,psalm,Psalm 46
+01-18,,,,acna-2019,Evening Prayer,first,Jeremiah 17
+01-18,,,,acna-2019,Evening Prayer,second,1 Corinthians 1:26–2:16
+01-19,,,,acna-2019,Evening Prayer,psalm,Psalm 49
+01-19,,,,acna-2019,Evening Prayer,first,Jeremiah 18
+01-19,,,,acna-2019,Evening Prayer,second,1 Corinthians 3
+01-20,,,,acna-2019,Evening Prayer,psalm,Psalm 51
+01-20,,,,acna-2019,Evening Prayer,first,Jeremiah 19
+01-20,,,,acna-2019,Evening Prayer,second,1 Corinthians 4:1–17
+01-21,,,,acna-2019,Evening Prayer,psalm,Psalm 55
+01-21,,,,acna-2019,Evening Prayer,first,Jeremiah 20
+01-21,,,,acna-2019,Evening Prayer,second,1 Corinthians 4:18–5:13
+01-22,,,,acna-2019,Evening Prayer,psalm,"Psalms 58, 60"
+01-22,,,,acna-2019,Evening Prayer,first,Jeremiah 21
+01-22,,,,acna-2019,Evening Prayer,second,1 Corinthians 6
+01-23,,,,acna-2019,Evening Prayer,psalm,"Psalms 63, 64"
+01-23,,,,acna-2019,Evening Prayer,first,Jeremiah 22
+01-23,,,,acna-2019,Evening Prayer,second,1 Corinthians 7
+01-24,,,,acna-2019,Evening Prayer,psalm,"Psalms 65, 67"
+01-24,,,,acna-2019,Evening Prayer,first,"Jeremiah 23 or Jeremiah 23:1–9, 16–18, 21–40"
+01-24,,,,acna-2019,Evening Prayer,second,1 Corinthians 8
+01-25,,,,acna-2019,Evening Prayer,psalm,Psalm 68:19–36
+01-25,,,,acna-2019,Evening Prayer,first,Jeremiah 24
+01-25,,,,acna-2019,Evening Prayer,second,1 Corinthians 9
+01-26,,,,acna-2019,Evening Prayer,psalm,Psalm 69:19–37
+01-26,,,,acna-2019,Evening Prayer,first,"Jeremiah 25 or Jeremiah 25:1–19, 26–31"
+01-26,,,,acna-2019,Evening Prayer,second,1 Corinthians 10
+01-27,,,,acna-2019,Evening Prayer,psalm,"Psalms 70, 72"
+01-27,,,,acna-2019,Evening Prayer,first,Jeremiah 26
+01-27,,,,acna-2019,Evening Prayer,second,1 Corinthians 11
+01-28,,,,acna-2019,Evening Prayer,psalm,Psalm 73
+01-28,,,,acna-2019,Evening Prayer,first,Jeremiah 27
+01-28,,,,acna-2019,Evening Prayer,second,1 Corinthians 12
+01-29,,,,acna-2019,Evening Prayer,psalm,Psalm 77
+01-29,,,,acna-2019,Evening Prayer,first,Jeremiah 28
+01-29,,,,acna-2019,Evening Prayer,second,1 Corinthians 13
+01-30,,,,acna-2019,Evening Prayer,psalm,"Psalms 79, 82"
+01-30,,,,acna-2019,Evening Prayer,first,"Jeremiah 29 or Jeremiah 29:1–14, 24–32"
+01-30,,,,acna-2019,Evening Prayer,second,1 Corinthians 14:1–19
+01-31,,,,acna-2019,Evening Prayer,psalm,Psalm 78:19–40
+01-31,,,,acna-2019,Evening Prayer,first,Jeremiah 30
+01-31,,,,acna-2019,Evening Prayer,second,1 Corinthians 14:20–end
+02-01,,,,acna-2019,Evening Prayer,psalm,Psalm 80
+02-01,,,,acna-2019,Evening Prayer,first,"Jeremiah 31 or Jeremiah 31:1–17, 27–37"
+02-01,,,,acna-2019,Evening Prayer,second,1 Corinthians 15:1–34
+02-02,,,,acna-2019,Evening Prayer,psalm,Psalm 84
+02-02,,,,acna-2019,Evening Prayer,first,"Jeremiah 32 or Jeremiah 32:1–15, 36–44"
+02-02,,,,acna-2019,Evening Prayer,second,1 Corinthians 15:35–end
+02-03,,,,acna-2019,Evening Prayer,psalm,Psalm 85
+02-03,,,,acna-2019,Evening Prayer,first,Jeremiah 33
+02-03,,,,acna-2019,Evening Prayer,second,1 Corinthians 16
+02-04,,date ne easter-46,,acna-2019,Evening Prayer,psalm,Psalm 88
+02-04,,date ne easter-46,,acna-2019,Evening Prayer,first,Jeremiah 34
+02-04,,date ne easter-46,,acna-2019,Evening Prayer,second,2 Corinthians 1:1–2:11
+02-05,,date ne easter-46,,acna-2019,Evening Prayer,psalm,Psalm 89:19–51
+02-05,,date ne easter-46,,acna-2019,Evening Prayer,first,Jeremiah 35
+02-05,,date ne easter-46,,acna-2019,Evening Prayer,second,2 Corinthians 2:12–3:18
+02-06,,date ne easter-46,,acna-2019,Evening Prayer,psalm,Psalm 91
+02-06,,date ne easter-46,,acna-2019,Evening Prayer,first,"Jeremiah 36 or Jeremiah 36:1–10, 19–32"
+02-06,,date ne easter-46,,acna-2019,Evening Prayer,second,2 Corinthians 4
+02-07,,date ne easter-46,,acna-2019,Evening Prayer,psalm,Psalm 94
+02-07,,date ne easter-46,,acna-2019,Evening Prayer,first,Jeremiah 37
+02-07,,date ne easter-46,,acna-2019,Evening Prayer,second,2 Corinthians 5
+02-08,,date ne easter-46,,acna-2019,Evening Prayer,psalm,"Psalms 97, 98"
+02-08,,date ne easter-46,,acna-2019,Evening Prayer,first,Jeremiah 38
+02-08,,date ne easter-46,,acna-2019,Evening Prayer,second,2 Corinthians 6
+02-09,,date ne easter-46,,acna-2019,Evening Prayer,psalm,Psalm 102
+02-09,,date ne easter-46,,acna-2019,Evening Prayer,first,Jeremiah 39
+02-09,,date ne easter-46,,acna-2019,Evening Prayer,second,2 Corinthians 7
+02-10,,date ne easter-46,,acna-2019,Evening Prayer,psalm,Psalm 104
+02-10,,date ne easter-46,,acna-2019,Evening Prayer,first,Jeremiah 40
+02-10,,date ne easter-46,,acna-2019,Evening Prayer,second,2 Corinthians 8
+02-11,,date ne easter-46,,acna-2019,Evening Prayer,psalm,Psalm 105:23–44
+02-11,,date ne easter-46,,acna-2019,Evening Prayer,first,Jeremiah 41
+02-11,,date ne easter-46,,acna-2019,Evening Prayer,second,2 Corinthians 9
+02-12,,date ne easter-46,,acna-2019,Evening Prayer,psalm,Psalm 106:19–46
+02-12,,date ne easter-46,,acna-2019,Evening Prayer,first,Jeremiah 42
+02-12,,date ne easter-46,,acna-2019,Evening Prayer,second,2 Corinthians 10
+02-13,,date ne easter-46,,acna-2019,Evening Prayer,psalm,Psalm 107:23–43
+02-13,,date ne easter-46,,acna-2019,Evening Prayer,first,Jeremiah 43
+02-13,,date ne easter-46,,acna-2019,Evening Prayer,second,2 Corinthians 11
+02-14,,date ne easter-46,,acna-2019,Evening Prayer,psalm,Psalm 109
+02-14,,date ne easter-46,,acna-2019,Evening Prayer,first,"Jeremiah 44 or Jeremiah 44:1–19, 24–30"
+02-14,,date ne easter-46,,acna-2019,Evening Prayer,second,2 Corinthians 12:1–13
+02-15,,date ne easter-46,,acna-2019,Evening Prayer,psalm,"Psalms 113, 114"
+02-15,,date ne easter-46,,acna-2019,Evening Prayer,first,Jeremiah 45
+02-15,,date ne easter-46,,acna-2019,Evening Prayer,second,2 Corinthians 12:14–13:14
+02-16,,date ne easter-46,,acna-2019,Evening Prayer,psalm,"Psalms 116, 117"
+02-16,,date ne easter-46,,acna-2019,Evening Prayer,first,Jeremiah 46
+02-16,,date ne easter-46,,acna-2019,Evening Prayer,second,Romans 1
+02-17,,date ne easter-46,,acna-2019,Evening Prayer,psalm,Psalm 119:25–48
+02-17,,date ne easter-46,,acna-2019,Evening Prayer,first,Jeremiah 47
+02-17,,date ne easter-46,,acna-2019,Evening Prayer,second,Romans 2
+02-18,,date ne easter-46,,acna-2019,Evening Prayer,psalm,Psalm 119:73–88
+02-18,,date ne easter-46,,acna-2019,Evening Prayer,first,"Jeremiah 48 or Jeremiah 48:1–20, 40–47"
+02-18,,date ne easter-46,,acna-2019,Evening Prayer,second,Romans 3
+02-19,,date ne easter-46,,acna-2019,Evening Prayer,psalm,Psalm 119:105–128
+02-19,,date ne easter-46,,acna-2019,Evening Prayer,first,"Jeremiah 49 or Jeremiah 49:1–13, 23–39"
+02-19,,date ne easter-46,,acna-2019,Evening Prayer,second,Romans 4
+02-20,,date ne easter-46,,acna-2019,Evening Prayer,psalm,Psalm 119:153–176
+02-20,,date ne easter-46,,acna-2019,Evening Prayer,first,"Jeremiah 50 or Jeremiah 50:1–20, 33–40"
+02-20,,date ne easter-46,,acna-2019,Evening Prayer,second,Romans 5
+02-21,,date ne easter-46,,acna-2019,Evening Prayer,psalm,"Psalms 120, 121"
+02-21,,date ne easter-46,,acna-2019,Evening Prayer,first,"Jeremiah 51 or Jeremiah 51:6–10, 45–64"
+02-21,,date ne easter-46,,acna-2019,Evening Prayer,second,Romans 6
+02-22,,date ne easter-46,,acna-2019,Evening Prayer,psalm,"Psalms 124, 125, 126"
+02-22,,date ne easter-46,,acna-2019,Evening Prayer,first,"Jeremiah 52 or Jeremiah 52:1–27, 31–34"
+02-22,,date ne easter-46,,acna-2019,Evening Prayer,second,Romans 7
+02-23,,date ne easter-46,,acna-2019,Evening Prayer,psalm,"Psalms 129, 130, 131"
+02-23,,date ne easter-46,,acna-2019,Evening Prayer,first,"Baruch 4 or Baruch 4:5–13, 21–37"
+02-23,,date ne easter-46,,acna-2019,Evening Prayer,second,Romans 8:1–17
+02-24,,date ne easter-46,,acna-2019,Evening Prayer,psalm,"Psalms 134, 135"
+02-24,,date ne easter-46,,acna-2019,Evening Prayer,first,Baruch 5
+02-24,,date ne easter-46,,acna-2019,Evening Prayer,second,Romans 8:18–end
+02-25,,date ne easter-46,,acna-2019,Evening Prayer,psalm,"Psalms 137, 138"
+02-25,,date ne easter-46,,acna-2019,Evening Prayer,first,"Lamentations 1 or Lamentations 1:1–12, 17–22"
+02-25,,date ne easter-46,,acna-2019,Evening Prayer,second,Romans 9
+02-26,,date ne easter-46,,acna-2019,Evening Prayer,psalm,"Psalms 141, 142"
+02-26,,date ne easter-46,,acna-2019,Evening Prayer,first,Lamentations 2 or Lamentations 2:1–18
+02-26,,date ne easter-46,,acna-2019,Evening Prayer,second,Romans 10
+02-27,,date ne easter-46,,acna-2019,Evening Prayer,psalm,Psalm 143
+02-27,,date ne easter-46,,acna-2019,Evening Prayer,first,"Lamentations 3 or Lamentations 3:1–9, 19–33, 52–66"
+02-27,,date ne easter-46,,acna-2019,Evening Prayer,second,Romans 11
+02-28,,date ne easter-46,,acna-2019,Evening Prayer,psalm,Psalm 145
+02-28,,date ne easter-46,,acna-2019,Evening Prayer,first,Lamentations 4
+02-28,,date ne easter-46,,acna-2019,Evening Prayer,second,Romans 12
+02-29,,date ne easter-46,,acna-2019,Evening Prayer,psalm,Psalm 104
+02-29,,date ne easter-46,,acna-2019,Evening Prayer,first,"Joel 2 or Joel 2:1–2, 12–32"
+02-29,,date ne easter-46,,acna-2019,Evening Prayer,second,2 Peter 3
+03-01,,date ne easter-46,,acna-2019,Evening Prayer,psalm,Psalm 147
+03-01,,date ne easter-46,,acna-2019,Evening Prayer,first,Lamentations 5
+03-01,,date ne easter-46,,acna-2019,Evening Prayer,second,Romans 13
+03-02,,date ne easter-46,,acna-2019,Evening Prayer,psalm,"Psalms 149, 150"
+03-02,,date ne easter-46,,acna-2019,Evening Prayer,first,Proverbs 1
+03-02,,date ne easter-46,,acna-2019,Evening Prayer,second,Romans 14
+03-03,,date ne easter-46,,acna-2019,Evening Prayer,psalm,"Psalms 3, 4"
+03-03,,date ne easter-46,,acna-2019,Evening Prayer,first,Proverbs 2
+03-03,,date ne easter-46,,acna-2019,Evening Prayer,second,Romans 15
+03-04,,date ne easter-46,,acna-2019,Evening Prayer,psalm,Psalm 7
+03-04,,date ne easter-46,,acna-2019,Evening Prayer,first,Proverbs 3 or Proverbs 3:1–27
+03-04,,date ne easter-46,,acna-2019,Evening Prayer,second,Romans 16
+03-05,,date ne easter-46,,acna-2019,Evening Prayer,psalm,Psalm 10
+03-05,,date ne easter-46,,acna-2019,Evening Prayer,first,Proverbs 4
+03-05,,date ne easter-46,,acna-2019,Evening Prayer,second,Philippians 1:1–11
+03-06,,date ne easter-46,,acna-2019,Evening Prayer,psalm,"Psalms 15, 16"
+03-06,,date ne easter-46,,acna-2019,Evening Prayer,first,Proverbs 5
+03-06,,date ne easter-46,,acna-2019,Evening Prayer,second,Philippians 1:12–end
+03-07,,date ne easter-46,,acna-2019,Evening Prayer,psalm,Psalm 17
+03-07,,date ne easter-46,,acna-2019,Evening Prayer,first,"Proverbs 6 or Proverbs 6:1–11, 20–35"
+03-07,,date ne easter-46,,acna-2019,Evening Prayer,second,Philippians 2:1–11
+03-08,,date ne easter-46,,acna-2019,Evening Prayer,psalm,Psalm 18:21–52
+03-08,,date ne easter-46,,acna-2019,Evening Prayer,first,Proverbs 7
+03-08,,date ne easter-46,,acna-2019,Evening Prayer,second,Philippians 2:12–end
+03-09,,date ne easter-46,,acna-2019,Evening Prayer,psalm,"Psalms 20, 21"
+03-09,,date ne easter-46,,acna-2019,Evening Prayer,first,Proverbs 8
+03-09,,date ne easter-46,,acna-2019,Evening Prayer,second,Philippians 3
+03-10,,date ne easter-46,,acna-2019,Evening Prayer,psalm,"Psalms 23, 24"
+03-10,,date ne easter-46,,acna-2019,Evening Prayer,first,Proverbs 9
+03-10,,date ne easter-46,,acna-2019,Evening Prayer,second,Philippians 4
+03-11,,,,acna-2019,Evening Prayer,psalm,Psalm 27
+03-11,,,,acna-2019,Evening Prayer,first,Proverbs 10
+03-11,,,,acna-2019,Evening Prayer,second,Colossians 1:1–20
+03-12,,,,acna-2019,Evening Prayer,psalm,Psalm 31
+03-12,,,,acna-2019,Evening Prayer,first,Proverbs 11
+03-12,,,,acna-2019,Evening Prayer,second,Colossians 1:21–2:7
+03-13,,,,acna-2019,Evening Prayer,psalm,Psalm 33
+03-13,,,,acna-2019,Evening Prayer,first,Proverbs 12
+03-13,,,,acna-2019,Evening Prayer,second,Colossians 2:8–19
+03-14,,,,acna-2019,Evening Prayer,psalm,Psalm 35
+03-14,,,,acna-2019,Evening Prayer,first,Proverbs 13
+03-14,,,,acna-2019,Evening Prayer,second,Colossians 2:20–3:11
+03-15,,,,acna-2019,Evening Prayer,psalm,Psalm 38
+03-15,,,,acna-2019,Evening Prayer,first,Proverbs 14
+03-15,,,,acna-2019,Evening Prayer,second,Colossians 3:12–end
+03-16,,,,acna-2019,Evening Prayer,psalm,Psalm 37:18–41
+03-16,,,,acna-2019,Evening Prayer,first,Proverbs 15
+03-16,,,,acna-2019,Evening Prayer,second,Colossians 4
+03-17,,,,acna-2019,Evening Prayer,psalm,"Psalms 39, 41"
+03-17,,,,acna-2019,Evening Prayer,first,Proverbs 16
+03-17,,,,acna-2019,Evening Prayer,second,Philemon
+03-18,,,,acna-2019,Evening Prayer,psalm,Psalm 44
+03-18,,,,acna-2019,Evening Prayer,first,Proverbs 17
+03-18,,,,acna-2019,Evening Prayer,second,Ephesians 1:1–14
+03-19,,date ne easter-3,,acna-2019,Evening Prayer,psalm,Psalm 46
+03-19,,date ne easter-3,,acna-2019,Evening Prayer,first,Ephesians 1:15–end
+03-19,,date ne easter-3,,acna-2019,Evening Prayer,second,Matthew 1:18–end
+03-20,,date ne easter-3 & date ne easter-2,,acna-2019,Evening Prayer,psalm,Psalm 49
+03-20,,date ne easter-3 & date ne easter-2,,acna-2019,Evening Prayer,first,Proverbs 18
+03-20,,date ne easter-3 & date ne easter-2,,acna-2019,Evening Prayer,second,Ephesians 2:1–10
+03-21,,date ne easter-3 & date ne easter-2 & date ne easter-1,,acna-2019,Evening Prayer,psalm,Psalm 51
+03-21,,date ne easter-3 & date ne easter-2 & date ne easter-1,,acna-2019,Evening Prayer,first,Proverbs 19
+03-21,,date ne easter-3 & date ne easter-2 & date ne easter-1,,acna-2019,Evening Prayer,second,Ephesians 2:11–end
+03-22,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,psalm,Psalm 55
+03-22,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,first,Proverbs 20
+03-22,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,second,Ephesians 3
+03-23,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,psalm,"Psalms 58, 60"
+03-23,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,first,Proverbs 21
+03-23,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,second,Ephesians 4:1–16
+03-24,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,psalm,"Psalms 63, 64"
+03-24,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,first,Proverbs 22
+03-24,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,second,Ephesians 4:17–end
+03-25,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,psalm,"Psalms 131, 132"
+03-25,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,first,Proverbs 23
+03-25,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,second,Ephesians 5:1–17
+03-26,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,psalm,"Psalms 65, 67"
+03-26,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,first,"Proverbs 24 or Proverbs 24:1–14, 23–34"
+03-26,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,second,Ephesians 5:18–end
+03-27,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,psalm,Psalm 68:19–36
+03-27,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,first,Proverbs 25
+03-27,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,second,Ephesians 6:1–9
+03-28,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,psalm,Psalm 69:19–37
+03-28,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,first,Proverbs 26
+03-28,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,second,Ephesians 6:10–end
+03-29,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,psalm,"Psalms 70, 72"
+03-29,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,first,Proverbs 27
+03-29,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,second,1 Timothy 1:1–17
+03-30,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,psalm,Psalm 73
+03-30,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,first,Proverbs 28
+03-30,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,second,1 Timothy 1:18–2:15
+03-31,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,psalm,Psalm 77
+03-31,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,first,Proverbs 29
+03-31,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,second,1 Timothy 3
+04-01,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,psalm,"Psalms 79, 82"
+04-01,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,first,"Proverbs 30 or Proverbs 30:1–9, 15–33"
+04-01,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,second,1 Timothy 4
+04-02,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,psalm,Psalm 78:19–40
+04-02,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,first,Proverbs 31
+04-02,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,second,1 Timothy 5
+04-03,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,psalm,Psalm 80
+04-03,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,first,Job 1
+04-03,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,second,1 Timothy 6
+04-04,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,psalm,Psalm 83
+04-04,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,first,Job 2
+04-04,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,second,Titus 1
+04-05,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,psalm,Psalm 85
+04-05,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,first,Job 3
+04-05,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,second,Titus 2
+04-06,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,psalm,Psalm 88
+04-06,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,first,Job 4
+04-06,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,second,Titus 3
+04-07,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,psalm,Psalm 89:19–51
+04-07,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,first,Job 5
+04-07,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,second,2 Timothy 1
+04-08,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,psalm,Psalm 91
+04-08,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,first,Job 6
+04-08,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,second,2 Timothy 2
+04-09,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,psalm,Psalm 94
+04-09,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,first,Job 7
+04-09,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,second,2 Timothy 3
+04-10,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,psalm,"Psalms 97, 98"
+04-10,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,first,Job 8
+04-10,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,second,2 Timothy 4
+04-11,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,psalm,Psalm 102
+04-11,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,first,Job 9
+04-11,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,second,Hebrews 1
+04-12,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,psalm,Psalm 104
+04-12,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,first,Job 10
+04-12,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,second,Hebrews 2
+04-13,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,psalm,Psalm 105:23–44
+04-13,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,first,Job 11
+04-13,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,second,Hebrews 3
+04-14,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,psalm,Psalm 106:19–46
+04-14,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,first,Job 12
+04-14,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,second,Hebrews 4:1–13
+04-15,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,psalm,Psalm 107:23–43
+04-15,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,first,Job 13
+04-15,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,second,Hebrews 4:14–5:10
+04-16,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,psalm,Psalm 109
+04-16,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,first,Job 14
+04-16,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,second,Hebrews 5:11–6:20
+04-17,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,psalm,"Psalms 113, 114"
+04-17,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,first,Job 15
+04-17,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,second,Hebrews 7
+04-18,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,psalm,"Psalms 116, 117"
+04-18,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,first,Job 16
+04-18,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,second,Hebrews 8
+04-19,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,psalm,Psalm 119:25–48
+04-19,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,first,Job 17
+04-19,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,second,Hebrews 9:1–14
+04-20,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,psalm,Psalm 119:73–88
+04-20,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,first,Job 18
+04-20,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,second,Hebrews 9:15–end
+04-21,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,psalm,Psalm 119:105–128
+04-21,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,first,Job 19
+04-21,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,second,Hebrews 10:1–18
+04-22,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,psalm,Psalm 119:153–176
+04-22,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,first,Job 20
+04-22,,date ne easter-3 & date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,second,Hebrews 10:19–end
+04-23,,date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,psalm,"Psalms 120, 121"
+04-23,,date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,first,Job 21
+04-23,,date ne easter-2 & date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,second,Hebrews 11
+04-24,,date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,psalm,"Psalms 124, 125, 126"
+04-24,,date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,first,Job 22
+04-24,,date ne easter-1 & date ne easter,,acna-2019,Evening Prayer,second,Hebrews 12:1–17
+04-25,,date ne easter,,acna-2019,Evening Prayer,psalm,"Psalms 129, 130, 131"
+04-25,,date ne easter,,acna-2019,Evening Prayer,first,Job 23
+04-25,,date ne easter,,acna-2019,Evening Prayer,second,Hebrews 12:18–end
+04-26,,,,acna-2019,Evening Prayer,psalm,"Psalms 134, 135"
+04-26,,,,acna-2019,Evening Prayer,first,Job 24
+04-26,,,,acna-2019,Evening Prayer,second,Hebrews 13
+04-27,,,,acna-2019,Evening Prayer,psalm,"Psalms 137, 138"
+04-27,,,,acna-2019,Evening Prayer,first,Job 25–26
+04-27,,,,acna-2019,Evening Prayer,second,James 1
+04-28,,,,acna-2019,Evening Prayer,psalm,"Psalms 141, 142"
+04-28,,,,acna-2019,Evening Prayer,first,Job 27
+04-28,,,,acna-2019,Evening Prayer,second,James 2:1–13
+04-29,,,,acna-2019,Evening Prayer,psalm,Psalm 143
+04-29,,,,acna-2019,Evening Prayer,first,Job 28
+04-29,,,,acna-2019,Evening Prayer,second,James 2:14–end
+04-30,,date ne easter+39,,acna-2019,Evening Prayer,psalm,Psalm 145
+04-30,,date ne easter+39,,acna-2019,Evening Prayer,first,Job 29
+04-30,,date ne easter+39,,acna-2019,Evening Prayer,second,James 3
+05-01,,date ne easter+39,,acna-2019,Evening Prayer,psalm,Psalm 147
+05-01,,date ne easter+39,,acna-2019,Evening Prayer,first,James 4
+05-01,,date ne easter+39,,acna-2019,Evening Prayer,second,John 1:43–end
+05-02,,date ne easter+39,,acna-2019,Evening Prayer,psalm,"Psalms 149, 150"
+05-02,,date ne easter+39,,acna-2019,Evening Prayer,first,Job 30
+05-02,,date ne easter+39,,acna-2019,Evening Prayer,second,James 5
+05-03,,date ne easter+39,,acna-2019,Evening Prayer,psalm,"Psalms 3, 4"
+05-03,,date ne easter+39,,acna-2019,Evening Prayer,first,"Job 31 or Job 31:1–23, 35–40"
+05-03,,date ne easter+39,,acna-2019,Evening Prayer,second,1 Peter 1:1–21
+05-04,,date ne easter+39,,acna-2019,Evening Prayer,psalm,Psalm 7
+05-04,,date ne easter+39,,acna-2019,Evening Prayer,first,Job 32
+05-04,,date ne easter+39,,acna-2019,Evening Prayer,second,1 Peter 1:22–2:10
+05-05,,date ne easter+39,,acna-2019,Evening Prayer,psalm,Psalm 10
+05-05,,date ne easter+39,,acna-2019,Evening Prayer,first,Job 33
+05-05,,date ne easter+39,,acna-2019,Evening Prayer,second,1 Peter 2:11–3:7
+05-06,,date ne easter+39,,acna-2019,Evening Prayer,psalm,"Psalms 15, 16"
+05-06,,date ne easter+39,,acna-2019,Evening Prayer,first,"Job 34 or Job 34:1–15, 21–28, 31–37"
+05-06,,date ne easter+39,,acna-2019,Evening Prayer,second,1 Peter 3:8–4:6
+05-07,,date ne easter+39,,acna-2019,Evening Prayer,psalm,Psalm 17
+05-07,,date ne easter+39,,acna-2019,Evening Prayer,first,Job 35
+05-07,,date ne easter+39,,acna-2019,Evening Prayer,second,1 Peter 4:7–end
+05-08,,date ne easter+39,,acna-2019,Evening Prayer,psalm,Psalm 18:21–52
+05-08,,date ne easter+39,,acna-2019,Evening Prayer,first,Job 36
+05-08,,date ne easter+39,,acna-2019,Evening Prayer,second,1 Peter 5
+05-09,,date ne easter+39,,acna-2019,Evening Prayer,psalm,"Psalms 20, 21"
+05-09,,date ne easter+39,,acna-2019,Evening Prayer,first,Job 37
+05-09,,date ne easter+39,,acna-2019,Evening Prayer,second,2 Peter 1
+05-10,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,psalm,"Psalms 23, 24"
+05-10,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,first,"Job 38 or Job 38:1–27, 31–33"
+05-10,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,second,2 Peter 2
+05-11,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,psalm,Psalm 27
+05-11,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,first,Job 39
+05-11,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,second,2 Peter 3
+05-12,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,psalm,Psalm 31
+05-12,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,first,Job 40
+05-12,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,second,Jude
+05-13,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,psalm,Psalm 33
+05-13,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,first,Job 41
+05-13,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,second,1 John 1:1–2:6
+05-14,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,psalm,Psalm 35
+05-14,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,first,Job 42
+05-14,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,second,1 John 2:7–end
+05-15,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,psalm,Psalm 38
+05-15,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,first,Ecclesiastes 1
+05-15,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,second,1 John 3:1–10
+05-16,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,psalm,Psalm 37:18–41
+05-16,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,first,Ecclesiastes 2
+05-16,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,second,1 John 3:11–4:6
+05-17,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,psalm,"Psalms 39, 41"
+05-17,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,first,Ecclesiastes 3
+05-17,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,second,1 John 4:7–end
+05-18,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,psalm,Psalm 44
+05-18,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,first,Ecclesiastes 4
+05-18,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,second,1 John 5
+05-19,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,psalm,Psalm 46
+05-19,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,first,Ecclesiastes 5
+05-19,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,second,2 John
+05-20,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,psalm,Psalm 49
+05-20,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,first,Ecclesiastes 6
+05-20,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,second,3 John
+05-21,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,psalm,Psalm 51
+05-21,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,first,Ecclesiastes 7
+05-21,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,second,Acts 1:1–14
+05-22,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,psalm,Psalm 55
+05-22,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,first,Ecclesiastes 8
+05-22,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,second,Acts 1:15–end
+05-23,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,psalm,"Psalms 58, 60"
+05-23,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,first,Ecclesiastes 9
+05-23,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,second,Acts 2:1–21
+05-24,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,psalm,"Psalms 63, 64"
+05-24,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,first,Ecclesiastes 10
+05-24,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,second,Acts 2:22–end
+05-25,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,psalm,"Psalms 65, 67"
+05-25,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,first,Ecclesiastes 11
+05-25,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,second,Acts 3:1–4:4
+05-26,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,psalm,Psalm 68:19–36
+05-26,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,first,Ecclesiastes 12
+05-26,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,second,Acts 4:5–31
+05-27,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,psalm,Psalm 69:19–37
+05-27,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,first,Ezekiel 1
+05-27,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,second,Acts 4:32–5:11
+05-28,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,psalm,"Psalms 70, 72"
+05-28,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,first,Ezekiel 2
+05-28,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,second,Acts 5:12–end
+05-29,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,psalm,Psalm 73
+05-29,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,first,Ezekiel 3
+05-29,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,second,Acts 6:1–7:16
+05-30,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,psalm,Psalm 77
+05-30,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,first,Ezekiel 4
+05-30,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,second,Acts 7:17–34
+05-31,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,psalm,"Psalms 79, 82"
+05-31,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,first,Ezekiel 5
+05-31,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,second,Acts 7:35–8:3
+06-01,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,psalm,Psalm 78:19–40
+06-01,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,first,Ezekiel 6
+06-01,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,second,Acts 8:4–25
+06-02,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,psalm,Psalm 80
+06-02,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,first,Ezekiel 7
+06-02,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,second,Acts 8:26–end
+06-03,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,psalm,Psalm 83
+06-03,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,first,Ezekiel 8
+06-03,,date ne easter+39 & date ne easter+49,,acna-2019,Evening Prayer,second,Acts 9:1–31
+06-04,,date ne easter+49,,acna-2019,Evening Prayer,psalm,Psalm 85
+06-04,,date ne easter+49,,acna-2019,Evening Prayer,first,Ezekiel 9
+06-04,,date ne easter+49,,acna-2019,Evening Prayer,second,Acts 9:32–end
+06-05,,date ne easter+49,,acna-2019,Evening Prayer,psalm,Psalm 88
+06-05,,date ne easter+49,,acna-2019,Evening Prayer,first,Ezekiel 10
+06-05,,date ne easter+49,,acna-2019,Evening Prayer,second,Acts 10:1–23
+06-06,,date ne easter+49,,acna-2019,Evening Prayer,psalm,Psalm 89:19–51
+06-06,,date ne easter+49,,acna-2019,Evening Prayer,first,Ezekiel 11
+06-06,,date ne easter+49,,acna-2019,Evening Prayer,second,Acts 10:24–end
+06-07,,date ne easter+49,,acna-2019,Evening Prayer,psalm,Psalm 91
+06-07,,date ne easter+49,,acna-2019,Evening Prayer,first,Ezekiel 12
+06-07,,date ne easter+49,,acna-2019,Evening Prayer,second,Acts 11:1–18
+06-08,,date ne easter+49,,acna-2019,Evening Prayer,psalm,Psalm 94
+06-08,,date ne easter+49,,acna-2019,Evening Prayer,first,Ezekiel 13
+06-08,,date ne easter+49,,acna-2019,Evening Prayer,second,Acts 11:19–end
+06-09,,date ne easter+49,,acna-2019,Evening Prayer,psalm,"Psalms 97, 98"
+06-09,,date ne easter+49,,acna-2019,Evening Prayer,first,Ezekiel 14
+06-09,,date ne easter+49,,acna-2019,Evening Prayer,second,Acts 12:1–24
+06-10,,date ne easter+49,,acna-2019,Evening Prayer,psalm,Psalm 102
+06-10,,date ne easter+49,,acna-2019,Evening Prayer,first,Ezekiel 15
+06-10,,date ne easter+49,,acna-2019,Evening Prayer,second,Acts 12:25–13:12
+06-11,,date ne easter+49,,acna-2019,Evening Prayer,psalm,Psalm 104
+06-11,,date ne easter+49,,acna-2019,Evening Prayer,first,"Ezekiel 16 or Ezekiel 16:1–15, 33–47, 59–63"
+06-11,,date ne easter+49,,acna-2019,Evening Prayer,second,Acts 13:13–43
+06-12,,date ne easter+49,,acna-2019,Evening Prayer,psalm,Psalm 105:23–44
+06-12,,date ne easter+49,,acna-2019,Evening Prayer,first,Ezekiel 17
+06-12,,date ne easter+49,,acna-2019,Evening Prayer,second,Acts 13:44–14:7
+06-13,,date ne easter+49,,acna-2019,Evening Prayer,psalm,Psalm 106:19–46
+06-13,,date ne easter+49,,acna-2019,Evening Prayer,first,Ezekiel 18
+06-13,,date ne easter+49,,acna-2019,Evening Prayer,second,Acts 14:8–end
+06-14,,,,acna-2019,Evening Prayer,psalm,Psalm 107:23–43
+06-14,,,,acna-2019,Evening Prayer,first,"Ezekiel 33 or Ezekiel 33:1–23, 30–33"
+06-14,,,,acna-2019,Evening Prayer,second,Acts 15:1–21
+06-15,,,,acna-2019,Evening Prayer,psalm,Psalm 109
+06-15,,,,acna-2019,Evening Prayer,first,Ezekiel 34
+06-15,,,,acna-2019,Evening Prayer,second,Acts 15:22–35
+06-16,,,,acna-2019,Evening Prayer,psalm,"Psalms 113, 114"
+06-16,,,,acna-2019,Evening Prayer,first,Ezekiel 35
+06-16,,,,acna-2019,Evening Prayer,second,Acts 15:36–16:5
+06-17,,,,acna-2019,Evening Prayer,psalm,"Psalms 116, 117"
+06-17,,,,acna-2019,Evening Prayer,first,Ezekiel 36 or Ezekiel 36:16–37
+06-17,,,,acna-2019,Evening Prayer,second,Acts 16:6–end
+06-18,,,,acna-2019,Evening Prayer,psalm,Psalm 119:25–48
+06-18,,,,acna-2019,Evening Prayer,first,Ezekiel 37
+06-18,,,,acna-2019,Evening Prayer,second,Acts 17:1–15
+06-19,,,,acna-2019,Evening Prayer,psalm,Psalm 119:73–88
+06-19,,,,acna-2019,Evening Prayer,first,"Ezekiel 40 or Ezekiel 40:1–5, 17–19, 35–49"
+06-19,,,,acna-2019,Evening Prayer,second,Acts 17:16–end
+06-20,,,,acna-2019,Evening Prayer,psalm,Psalm 119:105–128
+06-20,,,,acna-2019,Evening Prayer,first,Ezekiel 43
+06-20,,,,acna-2019,Evening Prayer,second,Acts 18:1–23
+06-21,,,,acna-2019,Evening Prayer,psalm,Psalm 119:153–176
+06-21,,,,acna-2019,Evening Prayer,first,Ezekiel 47
+06-21,,,,acna-2019,Evening Prayer,second,Acts 18:24–19:7
+06-22,,,,acna-2019,Evening Prayer,psalm,"Psalms 120, 121"
+06-22,,,,acna-2019,Evening Prayer,first,Daniel 1
+06-22,,,,acna-2019,Evening Prayer,second,Acts 19:8–20
+06-23,,,,acna-2019,Evening Prayer,psalm,"Psalms 124, 125, 126"
+06-23,,,,acna-2019,Evening Prayer,first,"Daniel 2 or Daniel 2:1–14, 25–28, 31–45"
+06-23,,,,acna-2019,Evening Prayer,second,Acts 19:21–end
+06-24,,,,acna-2019,Evening Prayer,psalm,"Psalms 129, 130, 131"
+06-24,,,,acna-2019,Evening Prayer,first,Daniel 3
+06-24,,,,acna-2019,Evening Prayer,second,Acts 20:1–16
+06-25,,,,acna-2019,Evening Prayer,psalm,"Psalms 134, 135"
+06-25,,,,acna-2019,Evening Prayer,first,"Daniel 4 or Daniel 4:1–9, 19–35"
+06-25,,,,acna-2019,Evening Prayer,second,Acts 20:17–end
+06-26,,,,acna-2019,Evening Prayer,psalm,"Psalms 137, 138"
+06-26,,,,acna-2019,Evening Prayer,first,Daniel 5
+06-26,,,,acna-2019,Evening Prayer,second,Acts 21:1–16
+06-27,,,,acna-2019,Evening Prayer,psalm,"Psalms 141, 142"
+06-27,,,,acna-2019,Evening Prayer,first,Daniel 6
+06-27,,,,acna-2019,Evening Prayer,second,Acts 21:17–36
+06-28,,,,acna-2019,Evening Prayer,psalm,Psalm 143
+06-28,,,,acna-2019,Evening Prayer,first,Daniel 7
+06-28,,,,acna-2019,Evening Prayer,second,Acts 21:37–22:22
+06-29,,,,acna-2019,Evening Prayer,psalm,Psalm 145
+06-29,,,,acna-2019,Evening Prayer,first,Daniel 8
+06-29,,,,acna-2019,Evening Prayer,second,Acts 22:23–23:11
+06-30,,,,acna-2019,Evening Prayer,psalm,Psalm 147
+06-30,,,,acna-2019,Evening Prayer,first,Daniel 9
+06-30,,,,acna-2019,Evening Prayer,second,Acts 23:12–end
+07-01,,,,acna-2019,Evening Prayer,psalm,"Psalms 149, 150"
+07-01,,,,acna-2019,Evening Prayer,first,Daniel 10
+07-01,,,,acna-2019,Evening Prayer,second,Acts 24:1–23
+07-02,,,,acna-2019,Evening Prayer,psalm,"Psalms 3, 4"
+07-02,,,,acna-2019,Evening Prayer,first,Daniel 11 or Daniel 11:1–19
+07-02,,,,acna-2019,Evening Prayer,second,Acts 24:24–25:12
+07-03,,,,acna-2019,Evening Prayer,psalm,Psalm 7
+07-03,,,,acna-2019,Evening Prayer,first,Daniel 12
+07-03,,,,acna-2019,Evening Prayer,second,Acts 25:13–end
+07-04,,,,acna-2019,Evening Prayer,psalm,Psalm 10
+07-04,,,,acna-2019,Evening Prayer,first,Susanna
+07-04,,,,acna-2019,Evening Prayer,second,Acts 26
+07-05,,,,acna-2019,Evening Prayer,psalm,"Psalms 15, 16"
+07-05,,,,acna-2019,Evening Prayer,first,Esther 1
+07-05,,,,acna-2019,Evening Prayer,second,Acts 27
+07-06,,,,acna-2019,Evening Prayer,psalm,Psalm 17
+07-06,,,,acna-2019,Evening Prayer,first,Esther 2
+07-06,,,,acna-2019,Evening Prayer,second,Acts 28:1–15
+07-07,,,,acna-2019,Evening Prayer,psalm,Psalm 18:21–52
+07-07,,,,acna-2019,Evening Prayer,first,Esther 3
+07-07,,,,acna-2019,Evening Prayer,second,Acts 28:16–end
+07-08,,,,acna-2019,Evening Prayer,psalm,"Psalms 20, 21"
+07-08,,,,acna-2019,Evening Prayer,first,Esther 4
+07-08,,,,acna-2019,Evening Prayer,second,Philemon
+07-09,,,,acna-2019,Evening Prayer,psalm,"Psalms 23, 24"
+07-09,,,,acna-2019,Evening Prayer,first,Esther 5
+07-09,,,,acna-2019,Evening Prayer,second,1 Timothy 1:1–17
+07-10,,,,acna-2019,Evening Prayer,psalm,Psalm 27
+07-10,,,,acna-2019,Evening Prayer,first,Esther 6
+07-10,,,,acna-2019,Evening Prayer,second,1 Timothy 1:18–2:15
+07-11,,,,acna-2019,Evening Prayer,psalm,Psalm 31
+07-11,,,,acna-2019,Evening Prayer,first,Esther 7
+07-11,,,,acna-2019,Evening Prayer,second,1 Timothy 3
+07-12,,,,acna-2019,Evening Prayer,psalm,Psalm 33
+07-12,,,,acna-2019,Evening Prayer,first,Esther 8
+07-12,,,,acna-2019,Evening Prayer,second,1 Timothy 4
+07-13,,,,acna-2019,Evening Prayer,psalm,Psalm 35
+07-13,,,,acna-2019,Evening Prayer,first,Esther 9–10
+07-13,,,,acna-2019,Evening Prayer,second,1 Timothy 5
+07-14,,,,acna-2019,Evening Prayer,psalm,Psalm 38
+07-14,,,,acna-2019,Evening Prayer,first,Ezra 1
+07-14,,,,acna-2019,Evening Prayer,second,1 Timothy 6
+07-15,,,,acna-2019,Evening Prayer,psalm,Psalm 37:18–41
+07-15,,,,acna-2019,Evening Prayer,first,Ezra 3
+07-15,,,,acna-2019,Evening Prayer,second,Titus 1
+07-16,,,,acna-2019,Evening Prayer,psalm,"Psalms 39, 41"
+07-16,,,,acna-2019,Evening Prayer,first,Ezra 4
+07-16,,,,acna-2019,Evening Prayer,second,Titus 2
+07-17,,,,acna-2019,Evening Prayer,psalm,Psalm 44
+07-17,,,,acna-2019,Evening Prayer,first,Ezra 5
+07-17,,,,acna-2019,Evening Prayer,second,Titus 3
+07-18,,,,acna-2019,Evening Prayer,psalm,Psalm 46
+07-18,,,,acna-2019,Evening Prayer,first,Ezra 6
+07-18,,,,acna-2019,Evening Prayer,second,2 Timothy 1
+07-19,,,,acna-2019,Evening Prayer,psalm,Psalm 49
+07-19,,,,acna-2019,Evening Prayer,first,Ezra 7
+07-19,,,,acna-2019,Evening Prayer,second,2 Timothy 2
+07-20,,,,acna-2019,Evening Prayer,psalm,Psalm 51
+07-20,,,,acna-2019,Evening Prayer,first,Ezra 8 or Ezra 8:21–36
+07-20,,,,acna-2019,Evening Prayer,second,2 Timothy 3
+07-21,,,,acna-2019,Evening Prayer,psalm,Psalm 55
+07-21,,,,acna-2019,Evening Prayer,first,Ezra 9
+07-21,,,,acna-2019,Evening Prayer,second,2 Timothy 4
+07-22,,,,acna-2019,Evening Prayer,psalm,"Psalms 58, 60"
+07-22,,,,acna-2019,Evening Prayer,first,Ezra 10 or Ezra 10:1–16
+07-22,,,,acna-2019,Evening Prayer,second,John 1:1–28
+07-23,,,,acna-2019,Evening Prayer,psalm,"Psalms 63, 64"
+07-23,,,,acna-2019,Evening Prayer,first,Nehemiah 1
+07-23,,,,acna-2019,Evening Prayer,second,John 1:29–end
+07-24,,,,acna-2019,Evening Prayer,psalm,"Psalms 65, 67"
+07-24,,,,acna-2019,Evening Prayer,first,Nehemiah 2
+07-24,,,,acna-2019,Evening Prayer,second,John 2
+07-25,,,,acna-2019,Evening Prayer,psalm,Psalm 68:19–36
+07-25,,,,acna-2019,Evening Prayer,first,Nehemiah 3 or Nehemiah 3:1–15
+07-25,,,,acna-2019,Evening Prayer,second,John 3:1–21
+07-26,,,,acna-2019,Evening Prayer,psalm,Psalm 69:19–37
+07-26,,,,acna-2019,Evening Prayer,first,Nehemiah 4
+07-26,,,,acna-2019,Evening Prayer,second,John 3:22–end
+07-27,,,,acna-2019,Evening Prayer,psalm,"Psalms 70, 72"
+07-27,,,,acna-2019,Evening Prayer,first,Nehemiah 5
+07-27,,,,acna-2019,Evening Prayer,second,John 4:1–26
+07-28,,,,acna-2019,Evening Prayer,psalm,Psalm 73
+07-28,,,,acna-2019,Evening Prayer,first,Nehemiah 6
+07-28,,,,acna-2019,Evening Prayer,second,John 4:27–end
+07-29,,,,acna-2019,Evening Prayer,psalm,Psalm 77
+07-29,,,,acna-2019,Evening Prayer,first,Nehemiah 8
+07-29,,,,acna-2019,Evening Prayer,second,John 5:1–24
+07-30,,,,acna-2019,Evening Prayer,psalm,"Psalms 79, 82"
+07-30,,,,acna-2019,Evening Prayer,first,"Nehemiah 9 or Nehemiah 9:1–15, 26–38"
+07-30,,,,acna-2019,Evening Prayer,second,John 5:25–end
+07-31,,,,acna-2019,Evening Prayer,psalm,Psalm 78:19–40
+07-31,,,,acna-2019,Evening Prayer,first,Nehemiah 10 or Nehemiah 10:28–39
+07-31,,,,acna-2019,Evening Prayer,second,John 6:1–21
+08-01,,,,acna-2019,Evening Prayer,psalm,Psalm 80
+08-01,,,,acna-2019,Evening Prayer,first,Nehemiah 12 or Nehemiah 12:27–47
+08-01,,,,acna-2019,Evening Prayer,second,John 6:22–40
+08-02,,,,acna-2019,Evening Prayer,psalm,Psalm 83
+08-02,,,,acna-2019,Evening Prayer,first,"Nehemiah 13 or Nehemiah 13:1–22, 30–31"
+08-02,,,,acna-2019,Evening Prayer,second,John 6:41–end
+08-03,,,,acna-2019,Evening Prayer,psalm,Psalm 85
+08-03,,,,acna-2019,Evening Prayer,first,Hosea 1
+08-03,,,,acna-2019,Evening Prayer,second,John 7:1–24
+08-04,,,,acna-2019,Evening Prayer,psalm,Psalm 88
+08-04,,,,acna-2019,Evening Prayer,first,Hosea 2
+08-04,,,,acna-2019,Evening Prayer,second,John 7:25–52
+08-05,,,,acna-2019,Evening Prayer,psalm,Psalm 89:19–51
+08-05,,,,acna-2019,Evening Prayer,first,Hosea 3
+08-05,,,,acna-2019,Evening Prayer,second,John 7:53–8:30
+08-06,,,,acna-2019,Evening Prayer,psalm,Psalm 80
+08-06,,,,acna-2019,Evening Prayer,first,Hosea 4
+08-06,,,,acna-2019,Evening Prayer,second,John 8:31–end
+08-07,,,,acna-2019,Evening Prayer,psalm,Psalm 91
+08-07,,,,acna-2019,Evening Prayer,first,Hosea 5
+08-07,,,,acna-2019,Evening Prayer,second,John 9
+08-08,,,,acna-2019,Evening Prayer,psalm,Psalm 94
+08-08,,,,acna-2019,Evening Prayer,first,Hosea 6
+08-08,,,,acna-2019,Evening Prayer,second,John 10:1–21
+08-09,,,,acna-2019,Evening Prayer,psalm,"Psalms 97, 98"
+08-09,,,,acna-2019,Evening Prayer,first,Hosea 7
+08-09,,,,acna-2019,Evening Prayer,second,John 10:22–end
+08-10,,,,acna-2019,Evening Prayer,psalm,Psalm 102
+08-10,,,,acna-2019,Evening Prayer,first,Hosea 8
+08-10,,,,acna-2019,Evening Prayer,second,John 11:1–44
+08-11,,,,acna-2019,Evening Prayer,psalm,Psalm 104
+08-11,,,,acna-2019,Evening Prayer,first,Hosea 9
+08-11,,,,acna-2019,Evening Prayer,second,John 11:45–end
+08-12,,,,acna-2019,Evening Prayer,psalm,Psalm 105:23–44
+08-12,,,,acna-2019,Evening Prayer,first,Hosea 10
+08-12,,,,acna-2019,Evening Prayer,second,John 12:1–19
+08-13,,,,acna-2019,Evening Prayer,psalm,Psalm 106:19–46
+08-13,,,,acna-2019,Evening Prayer,first,Hosea 11
+08-13,,,,acna-2019,Evening Prayer,second,John 12:20–end
+08-14,,,,acna-2019,Evening Prayer,psalm,Psalm 107:23–43
+08-14,,,,acna-2019,Evening Prayer,first,Hosea 12
+08-14,,,,acna-2019,Evening Prayer,second,John 13
+08-15,,,,acna-2019,Evening Prayer,psalm,Psalm 109
+08-15,,,,acna-2019,Evening Prayer,first,Hosea 13
+08-15,,,,acna-2019,Evening Prayer,second,John 14:1–14
+08-16,,,,acna-2019,Evening Prayer,psalm,"Psalms 113, 114"
+08-16,,,,acna-2019,Evening Prayer,first,Hosea 14
+08-16,,,,acna-2019,Evening Prayer,second,John 14:15–end
+08-17,,,,acna-2019,Evening Prayer,psalm,"Psalms 116, 117"
+08-17,,,,acna-2019,Evening Prayer,first,Joel 1
+08-17,,,,acna-2019,Evening Prayer,second,John 15:1–17
+08-18,,,,acna-2019,Evening Prayer,psalm,Psalm 119:25–48
+08-18,,,,acna-2019,Evening Prayer,first,"Joel 2 or Joel 2:1–17, 28–32"
+08-18,,,,acna-2019,Evening Prayer,second,John 15:18–end
+08-19,,,,acna-2019,Evening Prayer,psalm,Psalm 119:73–88
+08-19,,,,acna-2019,Evening Prayer,first,Joel 3
+08-19,,,,acna-2019,Evening Prayer,second,John 16:1–15
+08-20,,,,acna-2019,Evening Prayer,psalm,Psalm 119:105–128
+08-20,,,,acna-2019,Evening Prayer,first,Amos 1
+08-20,,,,acna-2019,Evening Prayer,second,John 16:16–end
+08-21,,,,acna-2019,Evening Prayer,psalm,Psalm 119:153–176
+08-21,,,,acna-2019,Evening Prayer,first,Amos 2
+08-21,,,,acna-2019,Evening Prayer,second,John 17
+08-22,,,,acna-2019,Evening Prayer,psalm,"Psalms 120, 121"
+08-22,,,,acna-2019,Evening Prayer,first,Amos 3
+08-22,,,,acna-2019,Evening Prayer,second,John 18:1–27
+08-23,,,,acna-2019,Evening Prayer,psalm,"Psalms 124, 125, 126"
+08-23,,,,acna-2019,Evening Prayer,first,Amos 4
+08-23,,,,acna-2019,Evening Prayer,second,John 18:28–end
+08-24,,,,acna-2019,Evening Prayer,psalm,"Psalms 129, 130, 131"
+08-24,,,,acna-2019,Evening Prayer,first,Amos 5
+08-24,,,,acna-2019,Evening Prayer,second,John 19:1–37
+08-25,,,,acna-2019,Evening Prayer,psalm,"Psalms 134, 135"
+08-25,,,,acna-2019,Evening Prayer,first,Amos 6
+08-25,,,,acna-2019,Evening Prayer,second,John 19:38–end
+08-26,,,,acna-2019,Evening Prayer,psalm,"Psalms 137, 138"
+08-26,,,,acna-2019,Evening Prayer,first,Amos 7
+08-26,,,,acna-2019,Evening Prayer,second,John 20
+08-27,,,,acna-2019,Evening Prayer,psalm,"Psalms 141, 142"
+08-27,,,,acna-2019,Evening Prayer,first,Amos 8
+08-27,,,,acna-2019,Evening Prayer,second,John 21
+08-28,,,,acna-2019,Evening Prayer,psalm,Psalm 143
+08-28,,,,acna-2019,Evening Prayer,first,Amos 9
+08-28,,,,acna-2019,Evening Prayer,second,Matthew 1:1–17
+08-29,,,,acna-2019,Evening Prayer,psalm,Psalm 145
+08-29,,,,acna-2019,Evening Prayer,first,Obadiah
+08-29,,,,acna-2019,Evening Prayer,second,Matthew 1:18–end
+08-30,,,,acna-2019,Evening Prayer,psalm,Psalm 147
+08-30,,,,acna-2019,Evening Prayer,first,Jonah 1
+08-30,,,,acna-2019,Evening Prayer,second,Matthew 2
+08-31,,,,acna-2019,Evening Prayer,psalm,"Psalms 149, 150"
+08-31,,,,acna-2019,Evening Prayer,first,Jonah 2
+08-31,,,,acna-2019,Evening Prayer,second,Matthew 3
+09-01,,,,acna-2019,Evening Prayer,psalm,"Psalms 3, 4"
+09-01,,,,acna-2019,Evening Prayer,first,Jonah 3
+09-01,,,,acna-2019,Evening Prayer,second,Matthew 4
+09-02,,,,acna-2019,Evening Prayer,psalm,Psalm 7
+09-02,,,,acna-2019,Evening Prayer,first,Jonah 4
+09-02,,,,acna-2019,Evening Prayer,second,Matthew 5:1–20
+09-03,,,,acna-2019,Evening Prayer,psalm,Psalm 10
+09-03,,,,acna-2019,Evening Prayer,first,Micah 1
+09-03,,,,acna-2019,Evening Prayer,second,Matthew 5:21–48
+09-04,,,,acna-2019,Evening Prayer,psalm,"Psalms 15, 16"
+09-04,,,,acna-2019,Evening Prayer,first,Micah 2
+09-04,,,,acna-2019,Evening Prayer,second,Matthew 6:1–18
+09-05,,,,acna-2019,Evening Prayer,psalm,Psalm 17
+09-05,,,,acna-2019,Evening Prayer,first,Micah 3
+09-05,,,,acna-2019,Evening Prayer,second,Matthew 6:19–end
+09-06,,,,acna-2019,Evening Prayer,psalm,Psalm 18:21–52
+09-06,,,,acna-2019,Evening Prayer,first,Micah 4
+09-06,,,,acna-2019,Evening Prayer,second,Matthew 7
+09-07,,,,acna-2019,Evening Prayer,psalm,"Psalms 20, 21"
+09-07,,,,acna-2019,Evening Prayer,first,Micah 5
+09-07,,,,acna-2019,Evening Prayer,second,Matthew 8:1–17
+09-08,,,,acna-2019,Evening Prayer,psalm,"Psalms 23, 24"
+09-08,,,,acna-2019,Evening Prayer,first,Micah 6
+09-08,,,,acna-2019,Evening Prayer,second,Matthew 8:18–end
+09-09,,,,acna-2019,Evening Prayer,psalm,Psalm 27
+09-09,,,,acna-2019,Evening Prayer,first,Micah 7
+09-09,,,,acna-2019,Evening Prayer,second,Matthew 9:1–17
+09-10,,,,acna-2019,Evening Prayer,psalm,Psalm 31
+09-10,,,,acna-2019,Evening Prayer,first,Nahum 1
+09-10,,,,acna-2019,Evening Prayer,second,Matthew 9:18–34
+09-11,,,,acna-2019,Evening Prayer,psalm,Psalm 33
+09-11,,,,acna-2019,Evening Prayer,first,Nahum 2
+09-11,,,,acna-2019,Evening Prayer,second,Matthew 9:35–10:23
+09-12,,,,acna-2019,Evening Prayer,psalm,Psalm 35
+09-12,,,,acna-2019,Evening Prayer,first,Nahum 3
+09-12,,,,acna-2019,Evening Prayer,second,Matthew 10:24–end
+09-13,,,,acna-2019,Evening Prayer,psalm,Psalm 38
+09-13,,,,acna-2019,Evening Prayer,first,Habakkuk 1
+09-13,,,,acna-2019,Evening Prayer,second,Matthew 11
+09-14,,,,acna-2019,Evening Prayer,psalm,Psalm 37:18–41
+09-14,,,,acna-2019,Evening Prayer,first,Habakkuk 2
+09-14,,,,acna-2019,Evening Prayer,second,Matthew 12:1–21
+09-15,,,,acna-2019,Evening Prayer,psalm,"Psalms 39, 41"
+09-15,,,,acna-2019,Evening Prayer,first,Habakkuk 3
+09-15,,,,acna-2019,Evening Prayer,second,Matthew 12:22–end
+09-16,,,,acna-2019,Evening Prayer,psalm,Psalm 44
+09-16,,,,acna-2019,Evening Prayer,first,Zephaniah 1
+09-16,,,,acna-2019,Evening Prayer,second,Matthew 13:1–23
+09-17,,,,acna-2019,Evening Prayer,psalm,Psalm 46
+09-17,,,,acna-2019,Evening Prayer,first,Zephaniah 2
+09-17,,,,acna-2019,Evening Prayer,second,Matthew 13:24–43
+09-18,,,,acna-2019,Evening Prayer,psalm,Psalm 49
+09-18,,,,acna-2019,Evening Prayer,first,Zephaniah 3
+09-18,,,,acna-2019,Evening Prayer,second,Matthew 13:44–end
+09-19,,,,acna-2019,Evening Prayer,psalm,Psalm 51
+09-19,,,,acna-2019,Evening Prayer,first,Haggai 1
+09-19,,,,acna-2019,Evening Prayer,second,Matthew 14
+09-20,,,,acna-2019,Evening Prayer,psalm,Psalm 55
+09-20,,,,acna-2019,Evening Prayer,first,Haggai 2
+09-20,,,,acna-2019,Evening Prayer,second,Matthew 15:1–28
+09-21,,,,acna-2019,Evening Prayer,psalm,"Psalms 58, 60"
+09-21,,,,acna-2019,Evening Prayer,first,Zechariah 1
+09-21,,,,acna-2019,Evening Prayer,second,Matthew 15:29–16:12
+09-22,,,,acna-2019,Evening Prayer,psalm,"Psalms 63, 64"
+09-22,,,,acna-2019,Evening Prayer,first,Zechariah 2
+09-22,,,,acna-2019,Evening Prayer,second,Matthew 16:13–end
+09-23,,,,acna-2019,Evening Prayer,psalm,"Psalms 65, 67"
+09-23,,,,acna-2019,Evening Prayer,first,Zechariah 3
+09-23,,,,acna-2019,Evening Prayer,second,Matthew 17:1–23
+09-24,,,,acna-2019,Evening Prayer,psalm,Psalm 68:19–36
+09-24,,,,acna-2019,Evening Prayer,first,Zechariah 4
+09-24,,,,acna-2019,Evening Prayer,second,Matthew 17:24–18:14
+09-25,,,,acna-2019,Evening Prayer,psalm,Psalm 69:19–37
+09-25,,,,acna-2019,Evening Prayer,first,Zechariah 5
+09-25,,,,acna-2019,Evening Prayer,second,Matthew 18:15–end
+09-26,,,,acna-2019,Evening Prayer,psalm,"Psalms 70, 72"
+09-26,,,,acna-2019,Evening Prayer,first,Zechariah 6
+09-26,,,,acna-2019,Evening Prayer,second,Matthew 19:1–15
+09-27,,,,acna-2019,Evening Prayer,psalm,Psalm 73
+09-27,,,,acna-2019,Evening Prayer,first,Zechariah 7
+09-27,,,,acna-2019,Evening Prayer,second,Matthew 19:16–20:16
+09-28,,,,acna-2019,Evening Prayer,psalm,Psalm 77
+09-28,,,,acna-2019,Evening Prayer,first,Zechariah 8
+09-28,,,,acna-2019,Evening Prayer,second,Matthew 20:17–end
+09-29,,,,acna-2019,Evening Prayer,psalm,"Psalms 79, 82"
+09-29,,,,acna-2019,Evening Prayer,first,Zechariah 9
+09-29,,,,acna-2019,Evening Prayer,second,Matthew 21:1–22
+09-30,,,,acna-2019,Evening Prayer,psalm,Psalm 78:19–40
+09-30,,,,acna-2019,Evening Prayer,first,Zechariah 10
+09-30,,,,acna-2019,Evening Prayer,second,Matthew 21:23–end
+10-01,,,,acna-2019,Evening Prayer,psalm,Psalm 80
+10-01,,,,acna-2019,Evening Prayer,first,Zechariah 11
+10-01,,,,acna-2019,Evening Prayer,second,Matthew 22:1–33
+10-02,,,,acna-2019,Evening Prayer,psalm,Psalm 83
+10-02,,,,acna-2019,Evening Prayer,first,Zechariah 12
+10-02,,,,acna-2019,Evening Prayer,second,Matthew 22:34–23:12
+10-03,,,,acna-2019,Evening Prayer,psalm,Psalm 85
+10-03,,,,acna-2019,Evening Prayer,first,Zechariah 13
+10-03,,,,acna-2019,Evening Prayer,second,Matthew 23:13–end
+10-04,,,,acna-2019,Evening Prayer,psalm,Psalm 88
+10-04,,,,acna-2019,Evening Prayer,first,Zechariah 14
+10-04,,,,acna-2019,Evening Prayer,second,Matthew 24:1–28
+10-05,,,,acna-2019,Evening Prayer,psalm,Psalm 89:19–51
+10-05,,,,acna-2019,Evening Prayer,first,Malachi 1
+10-05,,,,acna-2019,Evening Prayer,second,Matthew 24:29–end
+10-06,,,,acna-2019,Evening Prayer,psalm,Psalm 91
+10-06,,,,acna-2019,Evening Prayer,first,Malachi 2
+10-06,,,,acna-2019,Evening Prayer,second,Matthew 25:1–30
+10-07,,,,acna-2019,Evening Prayer,psalm,Psalm 94
+10-07,,,,acna-2019,Evening Prayer,first,Malachi 3
+10-07,,,,acna-2019,Evening Prayer,second,Matthew 25:31–end
+10-08,,,,acna-2019,Evening Prayer,psalm,"Psalms 97, 98"
+10-08,,,,acna-2019,Evening Prayer,first,Malachi 4
+10-08,,,,acna-2019,Evening Prayer,second,Matthew 26:1–30
+10-09,,,,acna-2019,Evening Prayer,psalm,Psalm 102
+10-09,,,,acna-2019,Evening Prayer,first,"1 Maccabees 1 or 1 Maccabees 1:1–15, 20–25, 41–64"
+10-09,,,,acna-2019,Evening Prayer,second,Matthew 26:31–56
+10-10,,,,acna-2019,Evening Prayer,psalm,Psalm 104
+10-10,,,,acna-2019,Evening Prayer,first,1 Maccabees 2 or 1 Maccabees 2:1–28
+10-10,,,,acna-2019,Evening Prayer,second,Matthew 26:57–end
+10-11,,,,acna-2019,Evening Prayer,psalm,Psalm 105:23–44
+10-11,,,,acna-2019,Evening Prayer,first,2 Maccabees 6
+10-11,,,,acna-2019,Evening Prayer,second,Matthew 27:1–26
+10-12,,,,acna-2019,Evening Prayer,psalm,Psalm 106:19–46
+10-12,,,,acna-2019,Evening Prayer,first,2 Maccabees 7
+10-12,,,,acna-2019,Evening Prayer,second,Matthew 27:27–56
+10-13,,,,acna-2019,Evening Prayer,psalm,Psalm 107:23–43
+10-13,,,,acna-2019,Evening Prayer,first,2 Maccabees 8 or 2 Maccabees 8:1–29
+10-13,,,,acna-2019,Evening Prayer,second,Matthew 27:57–28:20
+10-14,,,,acna-2019,Evening Prayer,psalm,Psalm 109
+10-14,,,,acna-2019,Evening Prayer,first,"2 Maccabees 10 or 2 Maccabees 10:1–8, 24–38"
+10-14,,,,acna-2019,Evening Prayer,second,Mark 1:1–13
+10-15,,,,acna-2019,Evening Prayer,psalm,"Psalms 113, 114"
+10-15,,,,acna-2019,Evening Prayer,first,"1 Maccabees 7 or 1 Maccabees 7:1–6, 23–50"
+10-15,,,,acna-2019,Evening Prayer,second,Mark 1:14–31
+10-16,,,,acna-2019,Evening Prayer,psalm,"Psalms 116, 117"
+10-16,,,,acna-2019,Evening Prayer,first,1 Maccabees 9 or 1 Maccabees 9:1–31
+10-16,,,,acna-2019,Evening Prayer,second,Mark 1:32–end
+10-17,,,,acna-2019,Evening Prayer,psalm,Psalm 119:25–48
+10-17,,,,acna-2019,Evening Prayer,first,"1 Maccabees 13 or 1 Maccabees 13:1–30, 41–42"
+10-17,,,,acna-2019,Evening Prayer,second,Mark 2:1–22
+10-18,,,,acna-2019,Evening Prayer,psalm,Psalm 119:73–88
+10-18,,,,acna-2019,Evening Prayer,first,"1 Maccabees 14 or 1 Maccabees 14:4–18, 35–43"
+10-18,,,,acna-2019,Evening Prayer,second,Mark 2:23–3:12
+10-19,,,,acna-2019,Evening Prayer,psalm,Psalm 119:105–128
+10-19,,,,acna-2019,Evening Prayer,first,Isaiah 1
+10-19,,,,acna-2019,Evening Prayer,second,Mark 3:13–end
+10-20,,,,acna-2019,Evening Prayer,psalm,Psalm 119:153–176
+10-20,,,,acna-2019,Evening Prayer,first,Isaiah 2
+10-20,,,,acna-2019,Evening Prayer,second,Mark 4:1–34
+10-21,,,,acna-2019,Evening Prayer,psalm,"Psalms 120, 121"
+10-21,,,,acna-2019,Evening Prayer,first,Isaiah 3
+10-21,,,,acna-2019,Evening Prayer,second,Mark 4:35–5:20
+10-22,,,,acna-2019,Evening Prayer,psalm,"Psalms 124, 125, 126"
+10-22,,,,acna-2019,Evening Prayer,first,Isaiah 4
+10-22,,,,acna-2019,Evening Prayer,second,Mark 5:21–end
+10-23,,,,acna-2019,Evening Prayer,psalm,"Psalms 129, 130, 131"
+10-23,,,,acna-2019,Evening Prayer,first,Isaiah 5
+10-23,,,,acna-2019,Evening Prayer,second,Mark 6:1–29
+10-24,,,,acna-2019,Evening Prayer,psalm,"Psalms 134, 135"
+10-24,,,,acna-2019,Evening Prayer,first,Isaiah 6
+10-24,,,,acna-2019,Evening Prayer,second,Mark 6:30–end
+10-25,,,,acna-2019,Evening Prayer,psalm,"Psalms 137, 138"
+10-25,,,,acna-2019,Evening Prayer,first,Isaiah 7
+10-25,,,,acna-2019,Evening Prayer,second,Mark 7:1–23
+10-26,,,,acna-2019,Evening Prayer,psalm,"Psalms 141, 142"
+10-26,,,,acna-2019,Evening Prayer,first,Isaiah 8
+10-26,,,,acna-2019,Evening Prayer,second,Mark 7:24–8:10
+10-27,,,,acna-2019,Evening Prayer,psalm,Psalm 143
+10-27,,,,acna-2019,Evening Prayer,first,Isaiah 9
+10-27,,,,acna-2019,Evening Prayer,second,Mark 8:11–end
+10-28,,,,acna-2019,Evening Prayer,psalm,Psalm 145
+10-28,,,,acna-2019,Evening Prayer,first,Isaiah 10
+10-28,,,,acna-2019,Evening Prayer,second,Mark 9:1–29
+10-29,,,,acna-2019,Evening Prayer,psalm,Psalm 147
+10-29,,,,acna-2019,Evening Prayer,first,Isaiah 11
+10-29,,,,acna-2019,Evening Prayer,second,Mark 9:30–end
+10-30,,,,acna-2019,Evening Prayer,psalm,"Psalms 149, 150"
+10-30,,,,acna-2019,Evening Prayer,first,Isaiah 12
+10-30,,,,acna-2019,Evening Prayer,second,Mark 10:1–31
+10-31,,,,acna-2019,Evening Prayer,psalm,"Psalms 3, 4"
+10-31,,,,acna-2019,Evening Prayer,first,Isaiah 13
+10-31,,,,acna-2019,Evening Prayer,second,Mark 10:32–end
+11-01,,,,acna-2019,Evening Prayer,psalm,Psalm 34
+11-01,,,,acna-2019,Evening Prayer,first,Isaiah 14
+11-01,,,,acna-2019,Evening Prayer,second,Revelation 19:1–16
+11-02,,,,acna-2019,Evening Prayer,psalm,Psalm 7
+11-02,,,,acna-2019,Evening Prayer,first,Isaiah 15
+11-02,,,,acna-2019,Evening Prayer,second,Mark 11:1–26
+11-03,,,,acna-2019,Evening Prayer,psalm,Psalm 10
+11-03,,,,acna-2019,Evening Prayer,first,Isaiah 16
+11-03,,,,acna-2019,Evening Prayer,second,Mark 11:27–12:12
+11-04,,,,acna-2019,Evening Prayer,psalm,"Psalms 15, 16"
+11-04,,,,acna-2019,Evening Prayer,first,Isaiah 17
+11-04,,,,acna-2019,Evening Prayer,second,Mark 12:13–34
+11-05,,,,acna-2019,Evening Prayer,psalm,Psalm 17
+11-05,,,,acna-2019,Evening Prayer,first,Isaiah 18
+11-05,,,,acna-2019,Evening Prayer,second,Mark 12:35–13:13
+11-06,,,,acna-2019,Evening Prayer,psalm,Psalm 18:21–52
+11-06,,,,acna-2019,Evening Prayer,first,Isaiah 19
+11-06,,,,acna-2019,Evening Prayer,second,Mark 13:14–end
+11-07,,,,acna-2019,Evening Prayer,psalm,"Psalms 20, 21"
+11-07,,,,acna-2019,Evening Prayer,first,Isaiah 20
+11-07,,,,acna-2019,Evening Prayer,second,Mark 14:1–25
+11-08,,,,acna-2019,Evening Prayer,psalm,"Psalms 23, 24"
+11-08,,,,acna-2019,Evening Prayer,first,Isaiah 21
+11-08,,,,acna-2019,Evening Prayer,second,Mark 14:26–52
+11-09,,,,acna-2019,Evening Prayer,psalm,Psalm 27
+11-09,,,,acna-2019,Evening Prayer,first,Isaiah 22
+11-09,,,,acna-2019,Evening Prayer,second,Mark 14:53–end
+11-10,,,,acna-2019,Evening Prayer,psalm,Psalm 31
+11-10,,,,acna-2019,Evening Prayer,first,Isaiah 23
+11-10,,,,acna-2019,Evening Prayer,second,Mark 15
+11-11,,,,acna-2019,Evening Prayer,psalm,Psalm 33
+11-11,,,,acna-2019,Evening Prayer,first,Isaiah 24
+11-11,,,,acna-2019,Evening Prayer,second,Mark 16
+11-12,,,,acna-2019,Evening Prayer,psalm,Psalm 35
+11-12,,,,acna-2019,Evening Prayer,first,Isaiah 25
+11-12,,,,acna-2019,Evening Prayer,second,Luke 1:1–23
+11-13,,,,acna-2019,Evening Prayer,psalm,Psalm 38
+11-13,,,,acna-2019,Evening Prayer,first,Isaiah 26
+11-13,,,,acna-2019,Evening Prayer,second,Luke 1:24–56
+11-14,,,,acna-2019,Evening Prayer,psalm,Psalm 37:18–41
+11-14,,,,acna-2019,Evening Prayer,first,Isaiah 27
+11-14,,,,acna-2019,Evening Prayer,second,Luke 1:57–end
+11-15,,,,acna-2019,Evening Prayer,psalm,"Psalms 39, 41"
+11-15,,,,acna-2019,Evening Prayer,first,Isaiah 28
+11-15,,,,acna-2019,Evening Prayer,second,Luke 2:1–21
+11-16,,,,acna-2019,Evening Prayer,psalm,Psalm 44
+11-16,,,,acna-2019,Evening Prayer,first,Isaiah 29
+11-16,,,,acna-2019,Evening Prayer,second,Luke 2:22–end
+11-17,,,,acna-2019,Evening Prayer,psalm,Psalm 46
+11-17,,,,acna-2019,Evening Prayer,first,Isaiah 30
+11-17,,,,acna-2019,Evening Prayer,second,Luke 3:1–22
+11-18,,,,acna-2019,Evening Prayer,psalm,Psalm 49
+11-18,,,,acna-2019,Evening Prayer,first,Isaiah 31
+11-18,,,,acna-2019,Evening Prayer,second,Luke 3:23–end
+11-19,,,,acna-2019,Evening Prayer,psalm,Psalm 51
+11-19,,,,acna-2019,Evening Prayer,first,Isaiah 32
+11-19,,,,acna-2019,Evening Prayer,second,Luke 4:1–30
+11-20,,,,acna-2019,Evening Prayer,psalm,Psalm 55
+11-20,,,,acna-2019,Evening Prayer,first,Isaiah 33
+11-20,,,,acna-2019,Evening Prayer,second,Luke 4:31–end
+11-21,,,,acna-2019,Evening Prayer,psalm,"Psalms 58, 60"
+11-21,,,,acna-2019,Evening Prayer,first,Isaiah 34
+11-21,,,,acna-2019,Evening Prayer,second,Luke 5:1–16
+11-22,,,,acna-2019,Evening Prayer,psalm,"Psalms 63, 64"
+11-22,,,,acna-2019,Evening Prayer,first,Isaiah 35
+11-22,,,,acna-2019,Evening Prayer,second,Luke 5:17–end
+11-23,,,,acna-2019,Evening Prayer,psalm,"Psalms 65, 67"
+11-23,,,,acna-2019,Evening Prayer,first,Isaiah 36
+11-23,,,,acna-2019,Evening Prayer,second,Luke 6:1–19
+11-24,,,,acna-2019,Evening Prayer,psalm,Psalm 68:19–36
+11-24,,,,acna-2019,Evening Prayer,first,Isaiah 37
+11-24,,,,acna-2019,Evening Prayer,second,Luke 6:20–38
+11-25,,,,acna-2019,Evening Prayer,psalm,Psalm 69:19–37
+11-25,,,,acna-2019,Evening Prayer,first,Isaiah 38
+11-25,,,,acna-2019,Evening Prayer,second,Luke 6:39–7:10
+11-26,,,,acna-2019,Evening Prayer,psalm,"Psalms 70, 72"
+11-26,,,,acna-2019,Evening Prayer,first,Isaiah 39
+11-26,,,,acna-2019,Evening Prayer,second,Luke 7:11–35
+11-27,,,,acna-2019,Evening Prayer,psalm,Psalm 73
+11-27,,,,acna-2019,Evening Prayer,first,Isaiah 40
+11-27,,,,acna-2019,Evening Prayer,second,Luke 7:36–end
+11-28,,,,acna-2019,Evening Prayer,psalm,Psalm 77
+11-28,,,,acna-2019,Evening Prayer,first,Isaiah 41
+11-28,,,,acna-2019,Evening Prayer,second,Luke 8:1–21
+11-29,,,,acna-2019,Evening Prayer,psalm,"Psalms 79, 82"
+11-29,,,,acna-2019,Evening Prayer,first,Isaiah 42
+11-29,,,,acna-2019,Evening Prayer,second,Luke 8:22–end
+11-30,,,,acna-2019,Evening Prayer,psalm,Psalm 78:19–40
+11-30,,,,acna-2019,Evening Prayer,first,Isaiah 43
+11-30,,,,acna-2019,Evening Prayer,second,Luke 9:1–17
+12-01,,,,acna-2019,Evening Prayer,psalm,Psalm 80
+12-01,,,,acna-2019,Evening Prayer,first,Isaiah 44
+12-01,,,,acna-2019,Evening Prayer,second,Luke 9:18–50
+12-02,,,,acna-2019,Evening Prayer,psalm,Psalm 83
+12-02,,,,acna-2019,Evening Prayer,first,Isaiah 45
+12-02,,,,acna-2019,Evening Prayer,second,Luke 9:51–end
+12-03,,,,acna-2019,Evening Prayer,psalm,Psalm 85
+12-03,,,,acna-2019,Evening Prayer,first,Isaiah 46
+12-03,,,,acna-2019,Evening Prayer,second,Luke 10:1–24
+12-04,,,,acna-2019,Evening Prayer,psalm,Psalm 88
+12-04,,,,acna-2019,Evening Prayer,first,Isaiah 47
+12-04,,,,acna-2019,Evening Prayer,second,Luke 10:25–end
+12-05,,,,acna-2019,Evening Prayer,psalm,Psalm 89:19–51
+12-05,,,,acna-2019,Evening Prayer,first,Isaiah 48
+12-05,,,,acna-2019,Evening Prayer,second,Luke 11:1–28
+12-06,,,,acna-2019,Evening Prayer,psalm,Psalm 91
+12-06,,,,acna-2019,Evening Prayer,first,Isaiah 49
+12-06,,,,acna-2019,Evening Prayer,second,Luke 11:29–end
+12-07,,,,acna-2019,Evening Prayer,psalm,Psalm 94
+12-07,,,,acna-2019,Evening Prayer,first,Isaiah 50
+12-07,,,,acna-2019,Evening Prayer,second,Luke 12:1–34
+12-08,,,,acna-2019,Evening Prayer,psalm,"Psalms 97, 98"
+12-08,,,,acna-2019,Evening Prayer,first,Isaiah 51
+12-08,,,,acna-2019,Evening Prayer,second,Luke 12:35–53
+12-09,,,,acna-2019,Evening Prayer,psalm,Psalm 102
+12-09,,,,acna-2019,Evening Prayer,first,Isaiah 52
+12-09,,,,acna-2019,Evening Prayer,second,Luke 12:54–13:9
+12-10,,,,acna-2019,Evening Prayer,psalm,Psalm 104
+12-10,,,,acna-2019,Evening Prayer,first,Isaiah 53
+12-10,,,,acna-2019,Evening Prayer,second,Luke 13:10–end
+12-11,,,,acna-2019,Evening Prayer,psalm,Psalm 105:23–44
+12-11,,,,acna-2019,Evening Prayer,first,Isaiah 54
+12-11,,,,acna-2019,Evening Prayer,second,Luke 14:1–24
+12-12,,,,acna-2019,Evening Prayer,psalm,Psalm 106:19–46
+12-12,,,,acna-2019,Evening Prayer,first,Isaiah 55
+12-12,,,,acna-2019,Evening Prayer,second,Luke 14:25–15:10
+12-13,,,,acna-2019,Evening Prayer,psalm,Psalm 107:23–43
+12-13,,,,acna-2019,Evening Prayer,first,Isaiah 56
+12-13,,,,acna-2019,Evening Prayer,second,Luke 15:11–end
+12-14,,,,acna-2019,Evening Prayer,psalm,Psalm 109
+12-14,,,,acna-2019,Evening Prayer,first,Isaiah 57
+12-14,,,,acna-2019,Evening Prayer,second,Luke 16
+12-15,,,,acna-2019,Evening Prayer,psalm,"Psalms 113, 114"
+12-15,,,,acna-2019,Evening Prayer,first,Isaiah 58
+12-15,,,,acna-2019,Evening Prayer,second,Luke 17:1–19
+12-16,,,,acna-2019,Evening Prayer,psalm,"Psalms 116, 117"
+12-16,,,,acna-2019,Evening Prayer,first,Isaiah 59
+12-16,,,,acna-2019,Evening Prayer,second,Luke 17:20–end
+12-17,,,,acna-2019,Evening Prayer,psalm,Psalm 119:25–48
+12-17,,,,acna-2019,Evening Prayer,first,Isaiah 60
+12-17,,,,acna-2019,Evening Prayer,second,Luke 18:1–30
+12-18,,,,acna-2019,Evening Prayer,psalm,Psalm 119:73–88
+12-18,,,,acna-2019,Evening Prayer,first,Isaiah 61
+12-18,,,,acna-2019,Evening Prayer,second,Luke 18:31–19:10
+12-19,,,,acna-2019,Evening Prayer,psalm,Psalm 119:105–128
+12-19,,,,acna-2019,Evening Prayer,first,Isaiah 62
+12-19,,,,acna-2019,Evening Prayer,second,Luke 19:11–28
+12-20,,,,acna-2019,Evening Prayer,psalm,Psalm 119:153–176
+12-20,,,,acna-2019,Evening Prayer,first,Isaiah 63
+12-20,,,,acna-2019,Evening Prayer,second,Luke 19:29–end
+12-21,,,,acna-2019,Evening Prayer,psalm,"Psalms 120, 121"
+12-21,,,,acna-2019,Evening Prayer,first,Isaiah 64
+12-21,,,,acna-2019,Evening Prayer,second,Luke 20:1–26
+12-22,,,,acna-2019,Evening Prayer,psalm,"Psalms 124, 125, 126"
+12-22,,,,acna-2019,Evening Prayer,first,Isaiah 65
+12-22,,,,acna-2019,Evening Prayer,second,Luke 20:27–21:4
+12-23,,,,acna-2019,Evening Prayer,psalm,"Psalms 129, 130, 131"
+12-23,,,,acna-2019,Evening Prayer,first,Isaiah 66
+12-23,,,,acna-2019,Evening Prayer,second,Luke 21:5–end
+12-24,,,,acna-2019,Evening Prayer,psalm,"Psalms 134, 135"
+12-24,,,,acna-2019,Evening Prayer,first,Song of Songs 1
+12-24,,,,acna-2019,Evening Prayer,second,Luke 22:1–38
+12-25,,,,acna-2019,Evening Prayer,psalm,"Psalms 85, 110"
+12-25,,,,acna-2019,Evening Prayer,first,Song of Songs 2
+12-25,,,,acna-2019,Evening Prayer,second,Luke 2:1–14
+12-26,,,,acna-2019,Evening Prayer,psalm,"Psalms 137, 138"
+12-26,,,,acna-2019,Evening Prayer,first,Song of Songs 3
+12-26,,,,acna-2019,Evening Prayer,second,Luke 22:39–53
+12-27,,,,acna-2019,Evening Prayer,psalm,"Psalms 141, 142"
+12-27,,,,acna-2019,Evening Prayer,first,Song of Songs 4
+12-27,,,,acna-2019,Evening Prayer,second,Luke 22:54–end
+12-28,,,,acna-2019,Evening Prayer,psalm,Psalm 143
+12-28,,,,acna-2019,Evening Prayer,first,Song of Songs 5
+12-28,,,,acna-2019,Evening Prayer,second,Luke 23:1–25
+12-29,,,,acna-2019,Evening Prayer,psalm,Psalm 145
+12-29,,,,acna-2019,Evening Prayer,first,Song of Songs 6
+12-29,,,,acna-2019,Evening Prayer,second,Luke 23:26–49
+12-30,,,,acna-2019,Evening Prayer,psalm,Psalm 147
+12-30,,,,acna-2019,Evening Prayer,first,Song of Songs 7
+12-30,,,,acna-2019,Evening Prayer,second,Luke 23:50–24:12
+12-31,,,,acna-2019,Evening Prayer,psalm,"Psalms 149, 150"
+12-31,,,,acna-2019,Evening Prayer,first,Song of Songs 8
+12-31,,,,acna-2019,Evening Prayer,second,Luke 24:13–end
+ash_wednesday,,,,acna-2019,Morning Prayer,psalm,Psalm 38
+ash_wednesday,,,,acna-2019,Morning Prayer,first,Isaiah 58:1–12
+ash_wednesday,,,,acna-2019,Morning Prayer,second,Luke 18:9–14
+ash_wednesday,,,,acna-2019,Evening Prayer,psalm,"Psalms 6, 32"
+ash_wednesday,,,,acna-2019,Evening Prayer,first,Jonah 3
+ash_wednesday,,,,acna-2019,Evening Prayer,second,1 Corinthians 9:24–27
+easter-3,,,,acna-2019,Morning Prayer,psalm,Psalm 41
+easter-3,,,,acna-2019,Morning Prayer,first,Daniel 9
+easter-3,,,,acna-2019,Morning Prayer,second,John 13:1–20
+easter-3,,,,acna-2019,Evening Prayer,psalm,"Psalms 142, 143"
+easter-3,,,,acna-2019,Evening Prayer,first,1 Corinthians 10:1–22
+easter-3,,,,acna-2019,Evening Prayer,second,John 13:21–38
+easter-2,,,,acna-2019,Morning Prayer,psalm,Psalm 40
+easter-2,,,,acna-2019,Morning Prayer,first,Lamentations 3:1–36
+easter-2,,,,acna-2019,Morning Prayer,second,John 18
+easter-2,,,,acna-2019,Evening Prayer,psalm,Psalm 102
+easter-2,,,,acna-2019,Evening Prayer,first,1 Peter 2:11–25
+easter-2,,,,acna-2019,Evening Prayer,second,Luke 23:18–49
+easter-1,,,,acna-2019,Morning Prayer,psalm,Psalm 88
+easter-1,,,,acna-2019,Morning Prayer,first,Lamentations 3:37–58
+easter-1,,,,acna-2019,Morning Prayer,second,Hebrews 4
+easter-1,,,,acna-2019,Evening Prayer,psalm,Psalm 91
+easter-1,,,,acna-2019,Evening Prayer,first,1 Peter 4:1–8
+easter-1,,,,acna-2019,Evening Prayer,second,Luke 23:50–56
+easter,,,,acna-2019,Morning Prayer,psalm,Psalm 118
+easter,,,,acna-2019,Morning Prayer,first,Exodus 15
+easter,,,,acna-2019,Morning Prayer,second,Acts 2:22–32
+easter,,,,acna-2019,Evening Prayer,psalm,"Psalms 111, 113, 114"
+easter,,,,acna-2019,Evening Prayer,first,Romans 6
+easter,,,,acna-2019,Evening Prayer,second,Luke 24:13–43
+ascension,,,,acna-2019,Morning Prayer,psalm,"Psalms 8, 47"
+ascension,,,,acna-2019,Morning Prayer,first,2 Kings 2
+ascension,,,,acna-2019,Morning Prayer,second,Ephesians 4:1–17
+ascension,,,,acna-2019,Evening Prayer,psalm,"Psalms 21, 24"
+ascension,,,,acna-2019,Evening Prayer,first,Hebrews 8
+ascension,,,,acna-2019,Evening Prayer,second,Luke 24:44–53
+pentecost,,,,acna-2019,Morning Prayer,psalm,Psalm 48
+pentecost,,,,acna-2019,Morning Prayer,first,Isaiah 11
+pentecost,,,,acna-2019,Morning Prayer,second,John 16:1–15
+pentecost,,,,acna-2019,Evening Prayer,psalm,Psalm 145
+pentecost,,,,acna-2019,Evening Prayer,first,Acts 2
+pentecost,,,,acna-2019,Evening Prayer,second,Acts 10:34–end
 # ===========================================================================
 # REC 2005: the Book of Common Prayer of the Reformed Episcopal Church (2005
 "# edition, PDF).  The Epistles and Gospels are those of BCP 1928, with the"

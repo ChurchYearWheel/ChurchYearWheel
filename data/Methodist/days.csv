@@ -14,9 +14,9 @@ transfiguration,,,easter-49,,,,,,,,Transfiguration Sunday,,,,WHITE,,,,,TRUE,,
 ash_wednesday,,,easter-46,,,,,,,,Ash Wednesday,,,,PURPLE,,,,,,,
 lent,,,,@ash_wednesday,@palm_sunday-1,sun,1,,,,{ordinal} Sunday in Lent,,,,,,,,,,,
 palm_sunday,,,easter-7,,,,,,,,Palm/Passion Sunday,,,,,,,,,,,
-maundy_thursday,,,easter-3,,,,,,,,Holy Thursday,,,,,,,,,,,
+maundy_thursday,,,easter-3,,,,,,,,Maundy Thursday,,,,,,,,,,,Holy Thursday / Maundy Thursday
 good_friday,,,easter-2,,,,,,,,Good Friday,,,,NONE,,,,,,,
-holy_saturday,,,easter-1,,,,,,,,Holy Saturday,,,,NONE,,,,,,,
+holy_saturday,,,easter-1,,,,,,,,Holy Saturday,,,,NONE,,,,,,,Holy Saturday / Easter Eve
 easter,,,easter,,,,,,,,Easter Day,,,,WHITE,,,,,,,
 after_easter,,,,easter+1,@pentecost-1,sun,2,,,,{ordinal} Sunday of Easter,,,,,,,,,,,
 ascension,,,easter+39,,,,,,,,Ascension of the Lord,,,,WHITE,,,,,,,

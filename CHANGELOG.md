@@ -1,5 +1,51 @@
 # Changelog
 
+## 2026-11 (147) — checked against the churches' own lists
+
+### Added
+
+- **ACNA: the Daily Office Lectionary of the 2019 Prayer Book** (pp. 735–762)
+  every day, in place of the RCL Daily Readings: Morning and Evening Prayer by
+  the date of the civil year, each with the sixty-day psalter's psalms and two
+  lessons, the shorter form of a long chapter after "or", and the proper lessons
+  of Ash Wednesday, Maundy Thursday to Easter Day, the Ascension and Pentecost.
+- **LCA: the festivals of its lectionary**, with their readings and colors: the
+  apostles, evangelists and martyrs, the Name of Jesus, the Presentation, the
+  Annunciation, the Visitation, the Nativity of St John the Baptist, the
+  Augsburg Confession, St Mary Magdalene and St Michael, and readings for New
+  Year's Eve, Australia, Waitangi and Anzac Days. The daily Bible reading of its
+  Church Year calendars (2026 to early 2028) is listed beside the RCL Daily
+  Readings.
+- **Moravian: readings for the John Hus, August Thirteenth and Chief Elder
+  festivals**, from the church's 2025 calendar.
+- **United Methodist: United Methodist Student Day, Epiphany Sunday, the
+  Festival of the Christian Home, Reformation Sunday and Thanksgiving Sunday**,
+  as Discipleship Ministries' yearly calendars keep them, and the alternate
+  Scouting Sunday (second Sunday in March).
+
+### Changed
+
+- **The PC(USA)'s daily readings are labeled as pcusa.org lists them**:
+  Morning, First Reading, Second Reading, Gospel Reading, Evening, in that
+  order.
+- **The PC(USA)'s Easter Vigil is the 2018 Book of Common Worship's**: twelve
+  readings (the RCL's nine, Isaiah 61, Daniel 3 and Jonah) and John 20:1–18
+  every year.
+- **United Methodist: "Maundy Thursday"**, as the church's calendars name it.
+
+### Fixed
+
+- **The RCL Daily Readings of Easter Week were a day late in Years A and C**,
+  starting on Easter Day; they now run Monday to Wednesday. Four Year C
+  readings were short (Ezekiel 1:1–2:1, 2 Kings 18:19–25; 19:1–7, 2 Kings
+  15:1–7, Proverbs 15:8–11, 24–33), and 26 December and 2 January of Year C
+  had none. Found by checking against the ELCA's yearly lists.
+- **The PC(USA) Daily Lectionary had 1 Samuel 21:1–23** (Year One, the
+  Saturday after the Sunday between 10 and 16 July), as the 1993 book misprints
+  it; the 2018 book has 22:1–23.
+- **United Methodist Scouting Sunday was on the first Sunday in February**; the
+  church keeps it on the second.
+
 ## 2026-11 (146) — the PC(USA)'s Daily Lectionary
 
 ### Added

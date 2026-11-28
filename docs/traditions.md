@@ -358,8 +358,11 @@ small changes of their own to the RCL that are not shown.
 - **Methodist:** the festivals of the *Book of Worship*, Aldersgate Day, and
   the special Sundays of the *Book of Discipline* that have set dates (Human
   Relations Day, UMCOR Sunday, Native American Ministries Sunday, Peace with
-  Justice Sunday, World Communion Sunday and the rest). The Sundays each
-  annual conference dates for itself are left out.
+  Justice Sunday, World Communion Sunday, United Methodist Student Day and the
+  rest), with the days Discipleship Ministries' yearly Sundays and Special Days
+  calendars keep (Epiphany Sunday, the Festival of the Christian Home,
+  Reformation Sunday, Thanksgiving Sunday). The Sundays each annual conference
+  dates for itself are left out.
 - **Presbyterian:** the festivals of the *Book of Common Worship* (2018) and the
   four special offerings. Colors follow the PC(USA)'s planning calendars.
   On every day the *Book of Common Worship*'s Daily Lectionary (1993, pp.
@@ -379,7 +382,12 @@ small changes of their own to the RCL that are not shown.
   reading the book marks for the morning or the evening is labeled so; and the
   Special Days (the Presentation, the Annunciation, the Visitation, the Birth
   of John the Baptist, Holy Cross, All Saints' Day, New Year's Eve and Day,
-  Thanksgiving Day) are listed beside the day's own, for both years.
+  Thanksgiving Day) are listed beside the day's own, for both years. They are
+  labeled and ordered as pcusa.org lists them: Morning, First Reading, Second
+  Reading, Gospel Reading, Evening. Checked against the PC(USA)'s yearly lists
+  for 2025 and 2026 (from the 2018 *Book of Common Worship*), which agree but
+  for a few days. The Easter Vigil is the 2018 book's: the RCL's nine readings
+  with Isaiah 61, Daniel 3 and Jonah, and John 20:1–18 every year.
 - **Reformed:** colors follow the Reformed Church in America's calendar with
   liturgical colors. The **Special days** menu lays the Christian Reformed
   Church's Canadian observances over it, from its offering schedule: Sanctity
@@ -394,7 +402,9 @@ Lutherans):
   its colors, and the Moravian festivals: 1 March (the Unity's founding), 12
   May (the Brotherly Agreement), 17 June, 6 July (Jan Hus), 13 August (the
   renewal of 1727), 17 August, 16 September and 13 November (the Chief Elder
-  festival). All Saints is kept on the Sunday when 1 November is one.
+  festival). All Saints is kept on the Sunday when 1 November is one. The John
+  Hus, August Thirteenth and Chief Elder festivals have their readings, from
+  the church's 2025 Sundays and Special Days calendar.
 - **Methodist Church in Britain:** the Sundays in Ordinary Time numbered as in
   the Roman calendar, the Sunday before Lent (the Transfiguration) and the
   Sunday before Advent (Christ the King); Covenant Sunday (the first Sunday
@@ -413,7 +423,12 @@ Quinquagesima, the Sundays after Easter and after Trinity, and the Sunday next
 before Advent. ACNA 2019 follows the Revised Common Lectionary year with
 Sundays after Trinity and their Propers, and reads its own Sunday, Holy Day,
 and Commemoration Lectionary (BCP 2019, pp. 716-732): three years of four
-readings, the holy days, the Ember and Rogation Days and the national days. Common Worship keeps the Epiphany
+readings, the holy days, the Ember and Rogation Days and the national days; and
+on every day the book's Daily Office Lectionary (pp. 735–762): Morning and
+Evening Prayer by the date of the civil year, each with the psalms of the
+sixty-day psalter and two lessons, the shorter form of a long chapter (†) after
+"or", and the proper lessons of Ash Wednesday, Maundy Thursday to Easter Day,
+the Ascension and Pentecost in place of the date's. Common Worship keeps the Epiphany
 season white until the Presentation, numbers the Sundays before Lent and
 before Advent, and ends with Christ the King. BCP 1979 (`episcopal`) is the
 Episcopal calendar.
@@ -786,7 +801,14 @@ Reformation and All Saints; and the Sundays before Advent counted down.
 Revised Common Lectionary, with the Proper beneath each Sunday after
 Pentecost and the colors of its own table (lca.org.au, *Planning ahead*);
 Good Friday black; the Reformation, All Saints, Australia Day, Waitangi Day,
-Anzac Day, Mother's and Father's Day.
+Anzac Day, Mother's and Father's Day. Its festivals of apostles, evangelists
+and martyrs, the Name of Jesus, the Presentation, the Annunciation, the
+Visitation, the Nativity of St John the Baptist, the Augsburg Confession, St
+Mary Magdalene and St Michael have the readings of its yearly lectionaries
+(Years A 2025–26 and B 2026–27), as do New Year's Eve and the national days;
+and the daily Bible reading of its Church Year calendars (2026, 2027 and the
+first months of 2028) is listed beside the RCL Daily Readings, one reading a
+weekday, on Saturday the coming Sunday's psalm.
 
 The Ethiopian Evangelical Church Mekane Yesus publishes no church year that
 could be followed (only Genna on 7 January and Easter by the Ethiopian
