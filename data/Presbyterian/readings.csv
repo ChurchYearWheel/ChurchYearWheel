@@ -1,8 +1,10 @@
 day,offset,when,cycle,variant,title,kind,reading
 # ===========================================================================
-"# The Daily Lectionary of the Book of Common Worship (Presbyterian Church (U.S.A.),"
-"# Westminster/John Knox Press, 1993), pp. 1049-1095, read from the book's PDF in"
-# November 2026; the PC(USA)'s Daily Readings (pcusa.org/daily/devotion) follow it.
+"# The Daily Lectionary of the Book of Common Worship (Presbyterian Church (U.S.A.)):"
+"# the 1993 edition's table (Westminster/John Knox Press, pp. 1049-1095, read from"
+"# the book's PDF in November 2026), updated to the 2018 edition (Westminster John"
+"# Knox Press) as the PC(USA)'s yearly lists for 2025 and 2026 give it; the PC(USA)'s"
+# Daily Readings (pcusa.org/daily/devotion) follow the 2018 edition.
 # Listed as pcusa.org lists them: Morning (psalms), First Reading, Second Reading,
 # Gospel Reading, Evening (psalms); tradition.csv's reading_labels names the kinds.
 # Two years: Year One (cycle 1) begins on the First Sunday of Advent of an
@@ -19,15 +21,17 @@ day,offset,when,cycle,variant,title,kind,reading
 "#     stop at the Transfiguration, and the weekdays after the Day of Pentecost and"
 #     Trinity Sunday take the week their Sunday's date falls in.
 "#   - The eves (Christmas Eve, the Epiphany, the Baptism, the Ascension, Pentecost,"
-#     Trinity Sunday) are evening prayer only; where the book marks a reading for the
+"#     Trinity Sunday): as in 2018, the eve's psalms are the day's Evening, in place"
+"#     of the weekday's (the Eve of the Baptism's give way on the Epiphany); the eve's"
+"#     two readings are listed as their own set.  Where the book marks a reading for the"
 "#     morning (*) or the evening (**) its kind says so (first_reading_morning ...)."
-"#   - The Special Days (p. 1095), for both years, with the psalms of the day of the week."
+"#   - The Special Days (p. 1095), for both years, with the psalms of the day of the"
+"#     week; All Saints' Day, when not a Sunday, has its own (2018): 96; 149 and 132; 134."
+#   - Other 2018 changes: the Epiphany (Year One) Isaiah 52:7-13 for 52:7-10, and
+#     2 Corinthians 13:1-13 for 13:1-14 (Year One).
 # Typos in the table are corrected and listed in docs/source-errors.csv.
-"# Checked against the PC(USA)'s yearly lists for 2025 and 2026 (from the Book of"
-"# Common Worship, 2018), which agree but for a few days: they give All Saints' Day"
-"# its own psalms (96; 149 / 132; 134), the Epiphany Isaiah 52:7-13, 20 December"
-"# (Year Two) Luke 1:26-36, and 2 Corinthians 13:1-13 for 13:1-14; an eve's"
-"# psalms, listed here as their own evening, are there the day's Evening."
+"# Where the 2018 lists differ otherwise, the 1993 table is kept: they print Luke 1:26-36"
+"# for 1:26-38 on 20 December (Year Two), which stops before Mary's answer."
 # ===========================================================================
 advent:1,,,1,,Daily Lectionary,psalm_morning,Psalm 24; 150
 advent:1,,,1,,Daily Lectionary,first_reading,Isaiah 1:1–9
@@ -485,10 +489,8 @@ christmas,,,2,,Daily Lectionary,psalm_evening,Psalm 98; 96
 01-05,,date nwd sun,2,,Daily Lectionary,gospel_reading,"John 11:17–27, 38–44"
 01-05,,,1,,Daily Lectionary: Eve of the Epiphany,first_reading,Isaiah 66:18–23
 01-05,,,1,,Daily Lectionary: Eve of the Epiphany,second_reading,Romans 15:7–13
-01-05,,,1,,Daily Lectionary: Eve of the Epiphany,psalm_evening,Psalm 96; 110
 01-05,,,2,,Daily Lectionary: Eve of the Epiphany,first_reading,Isaiah 66:18–23
 01-05,,,2,,Daily Lectionary: Eve of the Epiphany,second_reading,Romans 15:7–13
-01-05,,,2,,Daily Lectionary: Eve of the Epiphany,psalm_evening,Psalm 96; 110
 epiphany,,date wd sun,1,,Daily Lectionary,psalm_morning,Psalm 72; 150
 epiphany,,date wd mon,1,,Daily Lectionary,psalm_morning,Psalm 72; 145
 epiphany,,date wd tue,1,,Daily Lectionary,psalm_morning,Psalm 72; 146
@@ -496,7 +498,7 @@ epiphany,,date wd wed,1,,Daily Lectionary,psalm_morning,Psalm 72; 147:1–11
 epiphany,,date wd thu,1,,Daily Lectionary,psalm_morning,Psalm 72; 147:12–20
 epiphany,,date wd fri,1,,Daily Lectionary,psalm_morning,Psalm 72; 148
 epiphany,,date wd sat,1,,Daily Lectionary,psalm_morning,Psalm 72; 149
-epiphany,,,1,,Daily Lectionary,first_reading,Isaiah 52:7–10
+epiphany,,,1,,Daily Lectionary,first_reading,Isaiah 52:7–13
 epiphany,,,1,,Daily Lectionary,second_reading,Revelation 21:22–27
 epiphany,,,1,,Daily Lectionary,gospel_reading,Matthew 12:14–21
 epiphany,,,1,,Daily Lectionary,psalm_evening,Psalm 100; 67
@@ -521,7 +523,7 @@ epiphany,,,2,,Daily Lectionary,psalm_evening,Psalm 100; 67
 01-07,,date lt sun>01-06,1,,Daily Lectionary,first_reading,Isaiah 52:3–6
 01-07,,date lt sun>01-06,1,,Daily Lectionary,second_reading,Revelation 2:1–7
 01-07,,date lt sun>01-06,1,,Daily Lectionary,gospel_reading,John 2:1–11
-01-07,,date lt sun>01-06,1,,Daily Lectionary,psalm_evening,Psalm 27; Psalm 93 or Psalm 114
+01-07,,date lt sun>01-06 & date ne sun>01-06-1,1,,Daily Lectionary,psalm_evening,Psalm 27; Psalm 93 or Psalm 114
 01-07,,date lt sun>01-06 & date wd sun,2,,Daily Lectionary,psalm_morning,Psalm 46 or Psalm 97; Psalm 150
 01-07,,date lt sun>01-06 & date wd mon,2,,Daily Lectionary,psalm_morning,Psalm 46 or Psalm 97; Psalm 145
 01-07,,date lt sun>01-06 & date wd tue,2,,Daily Lectionary,psalm_morning,Psalm 46 or Psalm 97; Psalm 146
@@ -532,7 +534,7 @@ epiphany,,,2,,Daily Lectionary,psalm_evening,Psalm 100; 67
 01-07,,date lt sun>01-06,2,,Daily Lectionary,first_reading,Deuteronomy 8:1–3
 01-07,,date lt sun>01-06,2,,Daily Lectionary,second_reading,Colossians 1:1–14
 01-07,,date lt sun>01-06,2,,Daily Lectionary,gospel_reading,"John 6:30–33, 48–51"
-01-07,,date lt sun>01-06,2,,Daily Lectionary,psalm_evening,Psalm 27; Psalm 93 or Psalm 114
+01-07,,date lt sun>01-06 & date ne sun>01-06-1,2,,Daily Lectionary,psalm_evening,Psalm 27; Psalm 93 or Psalm 114
 01-08,,date lt sun>01-06 & date wd sun,1,,Daily Lectionary,psalm_morning,Psalm 46 or Psalm 47; Psalm 150
 01-08,,date lt sun>01-06 & date wd mon,1,,Daily Lectionary,psalm_morning,Psalm 46 or Psalm 47; Psalm 145
 01-08,,date lt sun>01-06 & date wd tue,1,,Daily Lectionary,psalm_morning,Psalm 46 or Psalm 47; Psalm 146
@@ -543,7 +545,7 @@ epiphany,,,2,,Daily Lectionary,psalm_evening,Psalm 100; 67
 01-08,,date lt sun>01-06,1,,Daily Lectionary,first_reading,Isaiah 59:15b–21
 01-08,,date lt sun>01-06,1,,Daily Lectionary,second_reading,Revelation 2:8–17
 01-08,,date lt sun>01-06,1,,Daily Lectionary,gospel_reading,John 4:46–54
-01-08,,date lt sun>01-06,1,,Daily Lectionary,psalm_evening,Psalm 27; Psalm 93 or Psalm 114
+01-08,,date lt sun>01-06 & date ne sun>01-06-1,1,,Daily Lectionary,psalm_evening,Psalm 27; Psalm 93 or Psalm 114
 01-08,,date lt sun>01-06 & date wd sun,2,,Daily Lectionary,psalm_morning,Psalm 46 or Psalm 47; Psalm 150
 01-08,,date lt sun>01-06 & date wd mon,2,,Daily Lectionary,psalm_morning,Psalm 46 or Psalm 47; Psalm 145
 01-08,,date lt sun>01-06 & date wd tue,2,,Daily Lectionary,psalm_morning,Psalm 46 or Psalm 47; Psalm 146
@@ -554,7 +556,7 @@ epiphany,,,2,,Daily Lectionary,psalm_evening,Psalm 100; 67
 01-08,,date lt sun>01-06,2,,Daily Lectionary,first_reading,Exodus 17:1–7
 01-08,,date lt sun>01-06,2,,Daily Lectionary,second_reading,Colossians 1:15–23
 01-08,,date lt sun>01-06,2,,Daily Lectionary,gospel_reading,John 7:37–52
-01-08,,date lt sun>01-06,2,,Daily Lectionary,psalm_evening,Psalm 27; Psalm 93 or Psalm 114
+01-08,,date lt sun>01-06 & date ne sun>01-06-1,2,,Daily Lectionary,psalm_evening,Psalm 27; Psalm 93 or Psalm 114
 01-09,,date lt sun>01-06 & date wd sun,1,,Daily Lectionary,psalm_morning,Psalm 46 or Psalm 47; Psalm 150
 01-09,,date lt sun>01-06 & date wd mon,1,,Daily Lectionary,psalm_morning,Psalm 46 or Psalm 47; Psalm 145
 01-09,,date lt sun>01-06 & date wd tue,1,,Daily Lectionary,psalm_morning,Psalm 46 or Psalm 47; Psalm 146
@@ -565,7 +567,7 @@ epiphany,,,2,,Daily Lectionary,psalm_evening,Psalm 100; 67
 01-09,,date lt sun>01-06,1,,Daily Lectionary,first_reading,Isaiah 63:1–5
 01-09,,date lt sun>01-06,1,,Daily Lectionary,second_reading,Revelation 2:18–29
 01-09,,date lt sun>01-06,1,,Daily Lectionary,gospel_reading,John 5:1–15
-01-09,,date lt sun>01-06,1,,Daily Lectionary,psalm_evening,Psalm 27; Psalm 93 or Psalm 114
+01-09,,date lt sun>01-06 & date ne sun>01-06-1,1,,Daily Lectionary,psalm_evening,Psalm 27; Psalm 93 or Psalm 114
 01-09,,date lt sun>01-06 & date wd sun,2,,Daily Lectionary,psalm_morning,Psalm 46 or Psalm 47; Psalm 150
 01-09,,date lt sun>01-06 & date wd mon,2,,Daily Lectionary,psalm_morning,Psalm 46 or Psalm 47; Psalm 145
 01-09,,date lt sun>01-06 & date wd tue,2,,Daily Lectionary,psalm_morning,Psalm 46 or Psalm 47; Psalm 146
@@ -576,7 +578,7 @@ epiphany,,,2,,Daily Lectionary,psalm_evening,Psalm 100; 67
 01-09,,date lt sun>01-06,2,,Daily Lectionary,first_reading,Isaiah 45:14–19
 01-09,,date lt sun>01-06,2,,Daily Lectionary,second_reading,Colossians 1:24–2:7
 01-09,,date lt sun>01-06,2,,Daily Lectionary,gospel_reading,John 8:12–19
-01-09,,date lt sun>01-06,2,,Daily Lectionary,psalm_evening,Psalm 27; Psalm 93 or Psalm 114
+01-09,,date lt sun>01-06 & date ne sun>01-06-1,2,,Daily Lectionary,psalm_evening,Psalm 27; Psalm 93 or Psalm 114
 01-10,,date lt sun>01-06 & date wd sun,1,,Daily Lectionary,psalm_morning,Psalm 46 or Psalm 47; Psalm 150
 01-10,,date lt sun>01-06 & date wd mon,1,,Daily Lectionary,psalm_morning,Psalm 46 or Psalm 47; Psalm 145
 01-10,,date lt sun>01-06 & date wd tue,1,,Daily Lectionary,psalm_morning,Psalm 46 or Psalm 47; Psalm 146
@@ -587,7 +589,7 @@ epiphany,,,2,,Daily Lectionary,psalm_evening,Psalm 100; 67
 01-10,,date lt sun>01-06,1,,Daily Lectionary,first_reading,Isaiah 65:1–9
 01-10,,date lt sun>01-06,1,,Daily Lectionary,second_reading,Revelation 3:1–6
 01-10,,date lt sun>01-06,1,,Daily Lectionary,gospel_reading,John 6:1–14
-01-10,,date lt sun>01-06,1,,Daily Lectionary,psalm_evening,Psalm 27; Psalm 93 or Psalm 114
+01-10,,date lt sun>01-06 & date ne sun>01-06-1,1,,Daily Lectionary,psalm_evening,Psalm 27; Psalm 93 or Psalm 114
 01-10,,date lt sun>01-06 & date wd sun,2,,Daily Lectionary,psalm_morning,Psalm 46 or Psalm 47; Psalm 150
 01-10,,date lt sun>01-06 & date wd mon,2,,Daily Lectionary,psalm_morning,Psalm 46 or Psalm 47; Psalm 145
 01-10,,date lt sun>01-06 & date wd tue,2,,Daily Lectionary,psalm_morning,Psalm 46 or Psalm 47; Psalm 146
@@ -598,7 +600,7 @@ epiphany,,,2,,Daily Lectionary,psalm_evening,Psalm 100; 67
 01-10,,date lt sun>01-06,2,,Daily Lectionary,first_reading,Jeremiah 23:1–8
 01-10,,date lt sun>01-06,2,,Daily Lectionary,second_reading,Colossians 2:8–23
 01-10,,date lt sun>01-06,2,,Daily Lectionary,gospel_reading,John 10:7–17
-01-10,,date lt sun>01-06,2,,Daily Lectionary,psalm_evening,Psalm 27; Psalm 93 or Psalm 114
+01-10,,date lt sun>01-06 & date ne sun>01-06-1,2,,Daily Lectionary,psalm_evening,Psalm 27; Psalm 93 or Psalm 114
 01-11,,date lt sun>01-06 & date wd sun,1,,Daily Lectionary,psalm_morning,Psalm 46 or Psalm 47; Psalm 150
 01-11,,date lt sun>01-06 & date wd mon,1,,Daily Lectionary,psalm_morning,Psalm 46 or Psalm 47; Psalm 145
 01-11,,date lt sun>01-06 & date wd tue,1,,Daily Lectionary,psalm_morning,Psalm 46 or Psalm 47; Psalm 146
@@ -609,7 +611,7 @@ epiphany,,,2,,Daily Lectionary,psalm_evening,Psalm 100; 67
 01-11,,date lt sun>01-06,1,,Daily Lectionary,first_reading,Isaiah 65:13–16
 01-11,,date lt sun>01-06,1,,Daily Lectionary,second_reading,Revelation 3:7–13
 01-11,,date lt sun>01-06,1,,Daily Lectionary,gospel_reading,John 6:15–27
-01-11,,date lt sun>01-06,1,,Daily Lectionary,psalm_evening,Psalm 27; Psalm 93 or Psalm 114
+01-11,,date lt sun>01-06 & date ne sun>01-06-1,1,,Daily Lectionary,psalm_evening,Psalm 27; Psalm 93 or Psalm 114
 01-11,,date lt sun>01-06 & date wd sun,2,,Daily Lectionary,psalm_morning,Psalm 46 or Psalm 47; Psalm 150
 01-11,,date lt sun>01-06 & date wd mon,2,,Daily Lectionary,psalm_morning,Psalm 46 or Psalm 47; Psalm 145
 01-11,,date lt sun>01-06 & date wd tue,2,,Daily Lectionary,psalm_morning,Psalm 46 or Psalm 47; Psalm 146
@@ -620,7 +622,7 @@ epiphany,,,2,,Daily Lectionary,psalm_evening,Psalm 100; 67
 01-11,,date lt sun>01-06,2,,Daily Lectionary,first_reading,Isaiah 55:3–9
 01-11,,date lt sun>01-06,2,,Daily Lectionary,second_reading,Colossians 3:1–17
 01-11,,date lt sun>01-06,2,,Daily Lectionary,gospel_reading,John 14:6–14
-01-11,,date lt sun>01-06,2,,Daily Lectionary,psalm_evening,Psalm 27; Psalm 93 or Psalm 114
+01-11,,date lt sun>01-06 & date ne sun>01-06-1,2,,Daily Lectionary,psalm_evening,Psalm 27; Psalm 93 or Psalm 114
 01-12,,date lt sun>01-06 & date wd sun,1,,Daily Lectionary,psalm_morning,Psalm 46 or Psalm 97; Psalm 150
 01-12,,date lt sun>01-06 & date wd mon,1,,Daily Lectionary,psalm_morning,Psalm 46 or Psalm 97; Psalm 145
 01-12,,date lt sun>01-06 & date wd tue,1,,Daily Lectionary,psalm_morning,Psalm 46 or Psalm 97; Psalm 146
@@ -643,10 +645,8 @@ epiphany,,,2,,Daily Lectionary,psalm_evening,Psalm 100; 67
 01-12,,date lt sun>01-06,2,,Daily Lectionary,gospel_reading,John 15:1–16
 baptism,-1,,1,,Daily Lectionary: Eve of the Baptism of the Lord,first_reading,Isaiah 61:1–9
 baptism,-1,,1,,Daily Lectionary: Eve of the Baptism of the Lord,second_reading,Galatians 3:23–29; 4:4–7
-baptism,-1,,1,,Daily Lectionary: Eve of the Baptism of the Lord,psalm_evening,Psalm 27; Psalm 93 or Psalm 114
 baptism,-1,,2,,Daily Lectionary: Eve of the Baptism of the Lord,first_reading,Isaiah 61:1–9
 baptism,-1,,2,,Daily Lectionary: Eve of the Baptism of the Lord,second_reading,Galatians 3:23–29; 4:4–7
-baptism,-1,,2,,Daily Lectionary: Eve of the Baptism of the Lord,psalm_evening,Psalm 27; Psalm 93 or Psalm 114
 baptism,,,1,,Daily Lectionary,psalm_morning,Psalm 104; 150
 baptism,,,1,,Daily Lectionary,first_reading,Isaiah 40:1–11
 baptism,,,1,,Daily Lectionary,second_reading,Hebrews 1:1–12
@@ -1199,7 +1199,7 @@ sun>=02-25,5,date lt @transfiguration,2,,Daily Lectionary,gospel_reading,John 13
 sun>=02-25,5,date lt @transfiguration,2,,Daily Lectionary,psalm_evening,Psalm 25; 40
 sun>=02-25,6,date lt @transfiguration,1,,Daily Lectionary,psalm_morning,Psalm 63; 149
 sun>=02-25,6,date lt @transfiguration,1,,Daily Lectionary,first_reading,Deuteronomy 5:22–33
-sun>=02-25,6,date lt @transfiguration,1,,Daily Lectionary,second_reading,2 Corinthians 13:1–14
+sun>=02-25,6,date lt @transfiguration,1,,Daily Lectionary,second_reading,2 Corinthians 13:1–13
 sun>=02-25,6,date lt @transfiguration,1,,Daily Lectionary,gospel_reading,Matthew 7:22–29
 sun>=02-25,6,date lt @transfiguration,1,,Daily Lectionary,psalm_evening,Psalm 125; 90
 sun>=02-25,6,date lt @transfiguration,2,,Daily Lectionary,psalm_morning,Psalm 63; 149
@@ -2093,10 +2093,8 @@ after_easter:6,3,,2,,Daily Lectionary,second_reading,Ephesians 1:1–10
 after_easter:6,3,,2,,Daily Lectionary,gospel_reading,Matthew 22:41–46
 ascension,-1,,1,,Daily Lectionary: Eve of the Ascension,first_reading,2 Kings 2:1–15
 ascension,-1,,1,,Daily Lectionary: Eve of the Ascension,second_reading,Revelation 5:1–14
-ascension,-1,,1,,Daily Lectionary: Eve of the Ascension,psalm_evening,Psalm 9; 118
 ascension,-1,,2,,Daily Lectionary: Eve of the Ascension,first_reading,2 Kings 2:1–15
 ascension,-1,,2,,Daily Lectionary: Eve of the Ascension,second_reading,Revelation 5:1–14
-ascension,-1,,2,,Daily Lectionary: Eve of the Ascension,psalm_evening,Psalm 9; 118
 ascension,,,1,,Daily Lectionary,psalm_morning,Psalm 47; 147:12–20
 ascension,,,1,,Daily Lectionary,first_reading,"Ezekiel 1:1–14, 24–28b"
 ascension,,,1,,Daily Lectionary,second_reading,Hebrews 2:5–18
@@ -2197,10 +2195,8 @@ after_easter:7,6,,2,,Daily Lectionary,second_reading,Ephesians 6:1–24
 after_easter:7,6,,2,,Daily Lectionary,gospel_reading,Matthew 9:18–26
 pentecost,-1,,1,,Daily Lectionary: Eve of Pentecost,first_reading,"Exodus 19:3–8a, 16–20"
 pentecost,-1,,1,,Daily Lectionary: Eve of Pentecost,second_reading,1 Peter 2:4–10
-pentecost,-1,,1,,Daily Lectionary: Eve of Pentecost,psalm_evening,Psalm 23; 114
 pentecost,-1,,2,,Daily Lectionary: Eve of Pentecost,first_reading,"Exodus 19:3–8a, 16–20"
 pentecost,-1,,2,,Daily Lectionary: Eve of Pentecost,second_reading,1 Peter 2:4–10
-pentecost,-1,,2,,Daily Lectionary: Eve of Pentecost,psalm_evening,Psalm 23; 114
 pentecost,,,1,,Daily Lectionary,psalm_morning,Psalm 104; 150
 pentecost,,,1,,Daily Lectionary,first_reading,Isaiah 11:1–9
 pentecost,,,1,,Daily Lectionary,second_reading,1 Corinthians 2:1–13
@@ -2213,10 +2209,8 @@ pentecost,,,2,,Daily Lectionary,gospel_reading,John 4:19–26
 pentecost,,,2,,Daily Lectionary,psalm_evening,Psalm 29; 33
 trinity,-1,,1,,Daily Lectionary: Eve of Trinity Sunday,first_reading,Sirach 42:15–25 or Isaiah 6:1–8
 trinity,-1,,1,,Daily Lectionary: Eve of Trinity Sunday,second_reading,Ephesians 3:14–21
-trinity,-1,,1,,Daily Lectionary: Eve of Trinity Sunday,psalm_evening,Psalm 125; 90
 trinity,-1,,2,,Daily Lectionary: Eve of Trinity Sunday,first_reading,Sirach 42:15–25 or Isaiah 6:1–8
 trinity,-1,,2,,Daily Lectionary: Eve of Trinity Sunday,second_reading,Ephesians 3:14–21
-trinity,-1,,2,,Daily Lectionary: Eve of Trinity Sunday,psalm_evening,Psalm 125; 90
 trinity,,,1,,Daily Lectionary,psalm_morning,Psalm 103; 150
 trinity,,,1,,Daily Lectionary,first_reading,Sirach 43:1–12 (27–33) or Deuteronomy 6:1–9 (10–15)
 trinity,,,1,,Daily Lectionary,second_reading,Ephesians 4:1–16
@@ -2281,12 +2275,12 @@ sun>=05-11,6,date gt easter+49 & date lt 05-23,1,,Daily Lectionary,psalm_morning
 sun>=05-11,6,date gt easter+49 & date lt 05-23,1,,Daily Lectionary,first_reading,Isaiah 66:7–14
 sun>=05-11,6,date gt easter+49 & date lt 05-23,1,,Daily Lectionary,second_reading,2 Timothy 4:9–22
 sun>=05-11,6,date gt easter+49 & date lt 05-23,1,,Daily Lectionary,gospel_reading,Luke 12:49–59
-sun>=05-11,6,date gt easter+49 & date lt 05-23,1,,Daily Lectionary,psalm_evening,Psalm 125; 90
+sun>=05-11,6,date gt easter+49 & date lt 05-23 & date ne easter+55,1,,Daily Lectionary,psalm_evening,Psalm 125; 90
 sun>=05-11,6,date gt easter+49 & date lt 05-23,2,,Daily Lectionary,psalm_morning,Psalm 63; 149
 sun>=05-11,6,date gt easter+49 & date lt 05-23,2,,Daily Lectionary,first_reading,Ezekiel 47:1–12
 sun>=05-11,6,date gt easter+49 & date lt 05-23,2,,Daily Lectionary,second_reading,1 John 3:11–18
 sun>=05-11,6,date gt easter+49 & date lt 05-23,2,,Daily Lectionary,gospel_reading,Matthew 10:34–42
-sun>=05-11,6,date gt easter+49 & date lt 05-23,2,,Daily Lectionary,psalm_evening,Psalm 125; 90
+sun>=05-11,6,date gt easter+49 & date lt 05-23 & date ne easter+55,2,,Daily Lectionary,psalm_evening,Psalm 125; 90
 sun>=05-17,1,date gt easter+49,1,,Daily Lectionary,psalm_morning,Psalm 5; 145
 sun>=05-17,1,date gt easter+49,1,,Daily Lectionary,first_reading,Ruth 1:1–18
 sun>=05-17,1,date gt easter+49,1,,Daily Lectionary,second_reading,1 Timothy 1:1–17
@@ -2341,12 +2335,12 @@ sun>=05-17,6,date gt easter+49,1,,Daily Lectionary,psalm_morning,Psalm 104; 149
 sun>=05-17,6,date gt easter+49,1,,Daily Lectionary,first_reading,Deuteronomy 1:1–8
 sun>=05-17,6,date gt easter+49,1,,Daily Lectionary,second_reading,1 Timothy 6:6–21
 sun>=05-17,6,date gt easter+49,1,,Daily Lectionary,gospel_reading,Luke 14:12–24
-sun>=05-17,6,date gt easter+49,1,,Daily Lectionary,psalm_evening,Psalm 138; 98
+sun>=05-17,6,date gt easter+49 & date ne easter+55,1,,Daily Lectionary,psalm_evening,Psalm 138; 98
 sun>=05-17,6,date gt easter+49,2,,Daily Lectionary,psalm_morning,Psalm 104; 149
 sun>=05-17,6,date gt easter+49,2,,Daily Lectionary,first_reading,Proverbs 8:22–36
 sun>=05-17,6,date gt easter+49,2,,Daily Lectionary,second_reading,3 John 1–15
 sun>=05-17,6,date gt easter+49,2,,Daily Lectionary,gospel_reading,Matthew 12:15–21
-sun>=05-17,6,date gt easter+49,2,,Daily Lectionary,psalm_evening,Psalm 138; 98
+sun>=05-17,6,date gt easter+49 & date ne easter+55,2,,Daily Lectionary,psalm_evening,Psalm 138; 98
 sun>=05-24,,date gt easter+56 & date lt 05-29,1,,Daily Lectionary,psalm_morning,Psalm 19; 150
 sun>=05-24,,date gt easter+56 & date lt 05-29,1,,Daily Lectionary,first_reading,Deuteronomy 4:1–9
 sun>=05-24,,date gt easter+56 & date lt 05-29,1,,Daily Lectionary,second_reading,"Revelation 7:1–4, 9–17"
@@ -2411,12 +2405,12 @@ sun>=05-24,6,date gt easter+49 & date lt 06-04,1,,Daily Lectionary,psalm_morning
 sun>=05-24,6,date gt easter+49 & date lt 06-04,1,,Daily Lectionary,first_reading,Deuteronomy 5:22–33
 sun>=05-24,6,date gt easter+49 & date lt 06-04,1,,Daily Lectionary,second_reading,2 Corinthians 4:13–5:10
 sun>=05-24,6,date gt easter+49 & date lt 06-04,1,,Daily Lectionary,gospel_reading,Luke 16:19–31
-sun>=05-24,6,date gt easter+49 & date lt 06-04,1,,Daily Lectionary,psalm_evening,Psalm 118; 111
+sun>=05-24,6,date gt easter+49 & date lt 06-04 & date ne easter+55,1,,Daily Lectionary,psalm_evening,Psalm 118; 111
 sun>=05-24,6,date gt easter+49 & date lt 06-04,2,,Daily Lectionary,psalm_morning,Psalm 56; 149
 sun>=05-24,6,date gt easter+49 & date lt 06-04,2,,Daily Lectionary,first_reading,Proverbs 25:15–28
 sun>=05-24,6,date gt easter+49 & date lt 06-04,2,,Daily Lectionary,second_reading,1 Timothy 6:6–21
 sun>=05-24,6,date gt easter+49 & date lt 06-04,2,,Daily Lectionary,gospel_reading,Matthew 13:36–43
-sun>=05-24,6,date gt easter+49 & date lt 06-04,2,,Daily Lectionary,psalm_evening,Psalm 118; 111
+sun>=05-24,6,date gt easter+49 & date lt 06-04 & date ne easter+55,2,,Daily Lectionary,psalm_evening,Psalm 118; 111
 sun>=05-29,,date gt easter+56,1,,Daily Lectionary,psalm_morning,Psalm 67; 150
 sun>=05-29,,date gt easter+56,1,,Daily Lectionary,first_reading,Deuteronomy 11:1–12
 sun>=05-29,,date gt easter+56,1,,Daily Lectionary,second_reading,Revelation 10:1–11
@@ -2481,12 +2475,12 @@ sun>=05-29,6,date gt easter+49,1,,Daily Lectionary,psalm_morning,Psalm 122; 149
 sun>=05-29,6,date gt easter+49,1,,Daily Lectionary,first_reading,Deuteronomy 29:2–15
 sun>=05-29,6,date gt easter+49,1,,Daily Lectionary,second_reading,2 Corinthians 9:1–15
 sun>=05-29,6,date gt easter+49,1,,Daily Lectionary,gospel_reading,Luke 18:15–30
-sun>=05-29,6,date gt easter+49,1,,Daily Lectionary,psalm_evening,Psalm 100; 63
+sun>=05-29,6,date gt easter+49 & date ne easter+55,1,,Daily Lectionary,psalm_evening,Psalm 100; 63
 sun>=05-29,6,date gt easter+49,2,,Daily Lectionary,psalm_morning,Psalm 122; 149
 sun>=05-29,6,date gt easter+49,2,,Daily Lectionary,first_reading,Ecclesiastes 5:8–20
 sun>=05-29,6,date gt easter+49,2,,Daily Lectionary,second_reading,Galatians 3:23–4:11
 sun>=05-29,6,date gt easter+49,2,,Daily Lectionary,gospel_reading,Matthew 15:1–20
-sun>=05-29,6,date gt easter+49,2,,Daily Lectionary,psalm_evening,Psalm 100; 63
+sun>=05-29,6,date gt easter+49 & date ne easter+55,2,,Daily Lectionary,psalm_evening,Psalm 100; 63
 sun>=06-05,,date gt easter+56,1,,Daily Lectionary,psalm_morning,Psalm 108; 150
 sun>=06-05,,date gt easter+56,1,,Daily Lectionary,first_reading,Deuteronomy 29:16–29
 sun>=06-05,,date gt easter+56,1,,Daily Lectionary,second_reading,Revelation 12:1–12
@@ -2549,14 +2543,14 @@ sun>=06-05,5,date gt easter+49,2,,Daily Lectionary,gospel_reading,Matthew 16:21�
 sun>=06-05,5,date gt easter+49,2,,Daily Lectionary,psalm_evening,Psalm 25; 40
 sun>=06-05,6,date gt easter+49,1,,Daily Lectionary,psalm_morning,Psalm 63; 149
 sun>=06-05,6,date gt easter+49,1,,Daily Lectionary,first_reading,Sirach 46:1–10 or Song of Solomon 5:10–16; 7:1–2 (3–5) 6–7a (9); 8:6–7
-sun>=06-05,6,date gt easter+49,1,,Daily Lectionary,second_reading,2 Corinthians 13:1–14
+sun>=06-05,6,date gt easter+49,1,,Daily Lectionary,second_reading,2 Corinthians 13:1–13
 sun>=06-05,6,date gt easter+49,1,,Daily Lectionary,gospel_reading,Luke 20:1–8
-sun>=06-05,6,date gt easter+49,1,,Daily Lectionary,psalm_evening,Psalm 125; 90
+sun>=06-05,6,date gt easter+49 & date ne easter+55,1,,Daily Lectionary,psalm_evening,Psalm 125; 90
 sun>=06-05,6,date gt easter+49,2,,Daily Lectionary,psalm_morning,Psalm 63; 149
 sun>=06-05,6,date gt easter+49,2,,Daily Lectionary,first_reading,Numbers 3:1–13
 sun>=06-05,6,date gt easter+49,2,,Daily Lectionary,second_reading,Galatians 6:11–18
 sun>=06-05,6,date gt easter+49,2,,Daily Lectionary,gospel_reading,Matthew 17:1–13
-sun>=06-05,6,date gt easter+49,2,,Daily Lectionary,psalm_evening,Psalm 125; 90
+sun>=06-05,6,date gt easter+49 & date ne easter+55,2,,Daily Lectionary,psalm_evening,Psalm 125; 90
 sun>=06-12,,date gt easter+56,1,,Daily Lectionary,psalm_morning,Psalm 103; 150
 sun>=06-12,,date gt easter+56,1,,Daily Lectionary,first_reading,Sirach 46:11–20 or Exodus 6:2–13; 7:1–6
 sun>=06-12,,date gt easter+56,1,,Daily Lectionary,second_reading,Revelation 15:1–8
@@ -2621,12 +2615,12 @@ sun>=06-12,6,date gt easter+49,1,,Daily Lectionary,psalm_morning,Psalm 104; 149
 sun>=06-12,6,date gt easter+49,1,,Daily Lectionary,first_reading,1 Samuel 4:1b–11
 sun>=06-12,6,date gt easter+49,1,,Daily Lectionary,second_reading,Acts 4:32–5:11
 sun>=06-12,6,date gt easter+49,1,,Daily Lectionary,gospel_reading,Luke 21:20–28
-sun>=06-12,6,date gt easter+49,1,,Daily Lectionary,psalm_evening,Psalm 138; 98
+sun>=06-12,6,date gt easter+49 & date ne easter+55,1,,Daily Lectionary,psalm_evening,Psalm 138; 98
 sun>=06-12,6,date gt easter+49,2,,Daily Lectionary,psalm_morning,Psalm 104; 149
 sun>=06-12,6,date gt easter+49,2,,Daily Lectionary,first_reading,Numbers 13:31–14:25
 sun>=06-12,6,date gt easter+49,2,,Daily Lectionary,second_reading,Romans 3:9–20
 sun>=06-12,6,date gt easter+49,2,,Daily Lectionary,gospel_reading,Matthew 19:1–12
-sun>=06-12,6,date gt easter+49,2,,Daily Lectionary,psalm_evening,Psalm 138; 98
+sun>=06-12,6,date gt easter+49 & date ne easter+55,2,,Daily Lectionary,psalm_evening,Psalm 138; 98
 sun>=06-19,,date gt easter+56,1,,Daily Lectionary,psalm_morning,Psalm 19; 150
 sun>=06-19,,date gt easter+56,1,,Daily Lectionary,first_reading,1 Samuel 4:12–22
 sun>=06-19,,date gt easter+56,1,,Daily Lectionary,second_reading,James 1:1–18
@@ -2691,12 +2685,12 @@ sun>=06-19,6,date gt easter+49,1,,Daily Lectionary,psalm_morning,Psalm 56; 149
 sun>=06-19,6,date gt easter+49,1,,Daily Lectionary,first_reading,1 Samuel 9:15–10:1
 sun>=06-19,6,date gt easter+49,1,,Daily Lectionary,second_reading,Acts 7:30–43
 sun>=06-19,6,date gt easter+49,1,,Daily Lectionary,gospel_reading,Luke 22:39–51
-sun>=06-19,6,date gt easter+49,1,,Daily Lectionary,psalm_evening,Psalm 118; 111
+sun>=06-19,6,date gt easter+49 & date ne easter+55,1,,Daily Lectionary,psalm_evening,Psalm 118; 111
 sun>=06-19,6,date gt easter+49,2,,Daily Lectionary,psalm_morning,Psalm 56; 149
 sun>=06-19,6,date gt easter+49,2,,Daily Lectionary,first_reading,Numbers 20:14–29
 sun>=06-19,6,date gt easter+49,2,,Daily Lectionary,second_reading,Romans 6:1–11
 sun>=06-19,6,date gt easter+49,2,,Daily Lectionary,gospel_reading,Matthew 21:1–11
-sun>=06-19,6,date gt easter+49,2,,Daily Lectionary,psalm_evening,Psalm 118; 111
+sun>=06-19,6,date gt easter+49 & date ne easter+55,2,,Daily Lectionary,psalm_evening,Psalm 118; 111
 sun>=06-26,,date gt easter+56,1,,Daily Lectionary,psalm_morning,Psalm 67; 150
 sun>=06-26,,date gt easter+56,1,,Daily Lectionary,first_reading,1 Samuel 10:1–16
 sun>=06-26,,date gt easter+56,1,,Daily Lectionary,second_reading,Romans 4:13–25
@@ -2761,12 +2755,12 @@ sun>=06-26,6,date gt easter+49,1,,Daily Lectionary,psalm_morning,Psalm 122; 149
 sun>=06-26,6,date gt easter+49,1,,Daily Lectionary,first_reading,1 Samuel 14:16–30
 sun>=06-26,6,date gt easter+49,1,,Daily Lectionary,second_reading,Acts 9:10–19a
 sun>=06-26,6,date gt easter+49,1,,Daily Lectionary,gospel_reading,Luke 23:32–43
-sun>=06-26,6,date gt easter+49,1,,Daily Lectionary,psalm_evening,Psalm 100; 63
+sun>=06-26,6,date gt easter+49 & date ne easter+55,1,,Daily Lectionary,psalm_evening,Psalm 100; 63
 sun>=06-26,6,date gt easter+49,2,,Daily Lectionary,psalm_morning,Psalm 122; 149
 sun>=06-26,6,date gt easter+49,2,,Daily Lectionary,first_reading,Numbers 24:12–25
 sun>=06-26,6,date gt easter+49,2,,Daily Lectionary,second_reading,Romans 8:18–25
 sun>=06-26,6,date gt easter+49,2,,Daily Lectionary,gospel_reading,Matthew 22:23–40
-sun>=06-26,6,date gt easter+49,2,,Daily Lectionary,psalm_evening,Psalm 100; 63
+sun>=06-26,6,date gt easter+49 & date ne easter+55,2,,Daily Lectionary,psalm_evening,Psalm 100; 63
 sun>=07-03,,date gt easter+56,1,,Daily Lectionary,psalm_morning,Psalm 108; 150
 sun>=07-03,,date gt easter+56,1,,Daily Lectionary,first_reading,1 Samuel 14:36–45
 sun>=07-03,,date gt easter+56,1,,Daily Lectionary,second_reading,Romans 5:1–11
@@ -2831,12 +2825,12 @@ sun>=07-03,6,date gt easter+49,1,,Daily Lectionary,psalm_morning,Psalm 63; 149
 sun>=07-03,6,date gt easter+49,1,,Daily Lectionary,first_reading,1 Samuel 17:31–49
 sun>=07-03,6,date gt easter+49,1,,Daily Lectionary,second_reading,Acts 11:1–18
 sun>=07-03,6,date gt easter+49,1,,Daily Lectionary,gospel_reading,Mark 1:14–28
-sun>=07-03,6,date gt easter+49,1,,Daily Lectionary,psalm_evening,Psalm 125; 90
+sun>=07-03,6,date gt easter+49 & date ne easter+55,1,,Daily Lectionary,psalm_evening,Psalm 125; 90
 sun>=07-03,6,date gt easter+49,2,,Daily Lectionary,psalm_morning,Psalm 63; 149
 sun>=07-03,6,date gt easter+49,2,,Daily Lectionary,first_reading,Deuteronomy 34:1–12
 sun>=07-03,6,date gt easter+49,2,,Daily Lectionary,second_reading,Romans 10:14–21
 sun>=07-03,6,date gt easter+49,2,,Daily Lectionary,gospel_reading,Matthew 24:32–51
-sun>=07-03,6,date gt easter+49,2,,Daily Lectionary,psalm_evening,Psalm 125; 90
+sun>=07-03,6,date gt easter+49 & date ne easter+55,2,,Daily Lectionary,psalm_evening,Psalm 125; 90
 sun>=07-10,,date gt easter+56,1,,Daily Lectionary,psalm_morning,Psalm 103; 150
 sun>=07-10,,date gt easter+56,1,,Daily Lectionary,first_reading,1 Samuel 17:50–18:4
 sun>=07-10,,date gt easter+56,1,,Daily Lectionary,second_reading,Romans 10:4–17
@@ -2901,12 +2895,12 @@ sun>=07-10,6,date gt easter+49,1,,Daily Lectionary,psalm_morning,Psalm 104; 149
 sun>=07-10,6,date gt easter+49,1,,Daily Lectionary,first_reading,1 Samuel 22:1–23
 sun>=07-10,6,date gt easter+49,1,,Daily Lectionary,second_reading,Acts 13:26–43
 sun>=07-10,6,date gt easter+49,1,,Daily Lectionary,gospel_reading,Mark 3:19b–35
-sun>=07-10,6,date gt easter+49,1,,Daily Lectionary,psalm_evening,Psalm 138; 98
+sun>=07-10,6,date gt easter+49 & date ne easter+55,1,,Daily Lectionary,psalm_evening,Psalm 138; 98
 sun>=07-10,6,date gt easter+49,2,,Daily Lectionary,psalm_morning,Psalm 104; 149
 sun>=07-10,6,date gt easter+49,2,,Daily Lectionary,first_reading,Joshua 6:1–14
 sun>=07-10,6,date gt easter+49,2,,Daily Lectionary,second_reading,Romans 13:1–7
 sun>=07-10,6,date gt easter+49,2,,Daily Lectionary,gospel_reading,Matthew 26:26–35
-sun>=07-10,6,date gt easter+49,2,,Daily Lectionary,psalm_evening,Psalm 138; 98
+sun>=07-10,6,date gt easter+49 & date ne easter+55,2,,Daily Lectionary,psalm_evening,Psalm 138; 98
 sun>=07-17,,date gt easter+56,1,,Daily Lectionary,psalm_morning,Psalm 19; 150
 sun>=07-17,,date gt easter+56,1,,Daily Lectionary,first_reading,1 Samuel 23:7–18
 sun>=07-17,,date gt easter+56,1,,Daily Lectionary,second_reading,Romans 11:33–12:2
@@ -2971,12 +2965,12 @@ sun>=07-17,6,date gt easter+49,1,,Daily Lectionary,psalm_morning,Psalm 56; 149
 sun>=07-17,6,date gt easter+49,1,,Daily Lectionary,first_reading,2 Samuel 1:1–16
 sun>=07-17,6,date gt easter+49,1,,Daily Lectionary,second_reading,Acts 15:22–35
 sun>=07-17,6,date gt easter+49,1,,Daily Lectionary,gospel_reading,Mark 6:1–13
-sun>=07-17,6,date gt easter+49,1,,Daily Lectionary,psalm_evening,Psalm 118; 111
+sun>=07-17,6,date gt easter+49 & date ne easter+55,1,,Daily Lectionary,psalm_evening,Psalm 118; 111
 sun>=07-17,6,date gt easter+49,2,,Daily Lectionary,psalm_morning,Psalm 56; 149
 sun>=07-17,6,date gt easter+49,2,,Daily Lectionary,first_reading,Joshua 23:1–16
 sun>=07-17,6,date gt easter+49,2,,Daily Lectionary,second_reading,Romans 15:25–33
 sun>=07-17,6,date gt easter+49,2,,Daily Lectionary,gospel_reading,Matthew 27:11–23
-sun>=07-17,6,date gt easter+49,2,,Daily Lectionary,psalm_evening,Psalm 118; 111
+sun>=07-17,6,date gt easter+49 & date ne easter+55,2,,Daily Lectionary,psalm_evening,Psalm 118; 111
 sun>=07-24,,date gt easter+56,1,,Daily Lectionary,psalm_morning,Psalm 67; 150
 sun>=07-24,,date gt easter+56,1,,Daily Lectionary,first_reading,2 Samuel 1:17–27
 sun>=07-24,,date gt easter+56,1,,Daily Lectionary,second_reading,Romans 12:9–21
@@ -3041,12 +3035,12 @@ sun>=07-24,6,date gt easter+49,1,,Daily Lectionary,psalm_morning,Psalm 122; 149
 sun>=07-24,6,date gt easter+49,1,,Daily Lectionary,first_reading,2 Samuel 5:22–6:11
 sun>=07-24,6,date gt easter+49,1,,Daily Lectionary,second_reading,Acts 17:16–34
 sun>=07-24,6,date gt easter+49,1,,Daily Lectionary,gospel_reading,Mark 8:1–10
-sun>=07-24,6,date gt easter+49,1,,Daily Lectionary,psalm_evening,Psalm 100; 63
+sun>=07-24,6,date gt easter+49 & date ne easter+55,1,,Daily Lectionary,psalm_evening,Psalm 100; 63
 sun>=07-24,6,date gt easter+49,2,,Daily Lectionary,psalm_morning,Psalm 122; 149
 sun>=07-24,6,date gt easter+49,2,,Daily Lectionary,first_reading,Judges 5:19–31
 sun>=07-24,6,date gt easter+49,2,,Daily Lectionary,second_reading,Acts 2:22–36
 sun>=07-24,6,date gt easter+49,2,,Daily Lectionary,gospel_reading,Matthew 28:11–20
-sun>=07-24,6,date gt easter+49,2,,Daily Lectionary,psalm_evening,Psalm 100; 63
+sun>=07-24,6,date gt easter+49 & date ne easter+55,2,,Daily Lectionary,psalm_evening,Psalm 100; 63
 sun>=07-31,,date gt easter+56,1,,Daily Lectionary,psalm_morning,Psalm 108; 150
 sun>=07-31,,date gt easter+56,1,,Daily Lectionary,first_reading,2 Samuel 6:12–23
 sun>=07-31,,date gt easter+56,1,,Daily Lectionary,second_reading,Romans 14:7–12
@@ -3111,12 +3105,12 @@ sun>=07-31,6,date gt easter+49,1,,Daily Lectionary,psalm_morning,Psalm 63; 149
 sun>=07-31,6,date gt easter+49,1,,Daily Lectionary,first_reading,2 Samuel 12:15–31
 sun>=07-31,6,date gt easter+49,1,,Daily Lectionary,second_reading,Acts 20:1–16
 sun>=07-31,6,date gt easter+49,1,,Daily Lectionary,gospel_reading,Mark 9:30–41
-sun>=07-31,6,date gt easter+49,1,,Daily Lectionary,psalm_evening,Psalm 125; 90
+sun>=07-31,6,date gt easter+49 & date ne easter+55,1,,Daily Lectionary,psalm_evening,Psalm 125; 90
 sun>=07-31,6,date gt easter+49,2,,Daily Lectionary,psalm_morning,Psalm 63; 149
 sun>=07-31,6,date gt easter+49,2,,Daily Lectionary,first_reading,"Judges 9:22–25, 50–57"
 sun>=07-31,6,date gt easter+49,2,,Daily Lectionary,second_reading,Acts 4:32–5:11
 sun>=07-31,6,date gt easter+49,2,,Daily Lectionary,gospel_reading,John 2:13–25
-sun>=07-31,6,date gt easter+49,2,,Daily Lectionary,psalm_evening,Psalm 125; 90
+sun>=07-31,6,date gt easter+49 & date ne easter+55,2,,Daily Lectionary,psalm_evening,Psalm 125; 90
 sun>=08-07,,date gt easter+56,1,,Daily Lectionary,psalm_morning,Psalm 103; 150
 sun>=08-07,,date gt easter+56,1,,Daily Lectionary,first_reading,2 Samuel 13:1–22
 sun>=08-07,,date gt easter+56,1,,Daily Lectionary,second_reading,Romans 15:1–13
@@ -3181,12 +3175,12 @@ sun>=08-07,6,date gt easter+49,1,,Daily Lectionary,psalm_morning,Psalm 104; 149
 sun>=08-07,6,date gt easter+49,1,,Daily Lectionary,first_reading,2 Samuel 16:1–23
 sun>=08-07,6,date gt easter+49,1,,Daily Lectionary,second_reading,Acts 22:17–29
 sun>=08-07,6,date gt easter+49,1,,Daily Lectionary,gospel_reading,Mark 11:1–11
-sun>=08-07,6,date gt easter+49,1,,Daily Lectionary,psalm_evening,Psalm 138; 98
+sun>=08-07,6,date gt easter+49 & date ne easter+55,1,,Daily Lectionary,psalm_evening,Psalm 138; 98
 sun>=08-07,6,date gt easter+49,2,,Daily Lectionary,psalm_morning,Psalm 104; 149
 sun>=08-07,6,date gt easter+49,2,,Daily Lectionary,first_reading,Judges 16:1–14
 sun>=08-07,6,date gt easter+49,2,,Daily Lectionary,second_reading,Acts 7:30–43
 sun>=08-07,6,date gt easter+49,2,,Daily Lectionary,gospel_reading,John 5:1–18
-sun>=08-07,6,date gt easter+49,2,,Daily Lectionary,psalm_evening,Psalm 138; 98
+sun>=08-07,6,date gt easter+49 & date ne easter+55,2,,Daily Lectionary,psalm_evening,Psalm 138; 98
 sun>=08-14,,date gt easter+56,1,,Daily Lectionary,psalm_morning,Psalm 19; 150
 sun>=08-14,,date gt easter+56,1,,Daily Lectionary,first_reading,2 Samuel 17:1–23
 sun>=08-14,,date gt easter+56,1,,Daily Lectionary,second_reading,Galatians 3:6–14
@@ -3251,12 +3245,12 @@ sun>=08-14,6,date gt easter+49,1,,Daily Lectionary,psalm_morning,Psalm 56; 149
 sun>=08-14,6,date gt easter+49,1,,Daily Lectionary,first_reading,"2 Samuel 23:1–7, 13–17"
 sun>=08-14,6,date gt easter+49,1,,Daily Lectionary,second_reading,Acts 25:13–27
 sun>=08-14,6,date gt easter+49,1,,Daily Lectionary,gospel_reading,Mark 13:1–13
-sun>=08-14,6,date gt easter+49,1,,Daily Lectionary,psalm_evening,Psalm 118; 111
+sun>=08-14,6,date gt easter+49 & date ne easter+55,1,,Daily Lectionary,psalm_evening,Psalm 118; 111
 sun>=08-14,6,date gt easter+49,2,,Daily Lectionary,psalm_morning,Psalm 56; 149
 sun>=08-14,6,date gt easter+49,2,,Daily Lectionary,first_reading,Job 3:1–26
 sun>=08-14,6,date gt easter+49,2,,Daily Lectionary,second_reading,Acts 9:10–19a
 sun>=08-14,6,date gt easter+49,2,,Daily Lectionary,gospel_reading,John 6:41–51
-sun>=08-14,6,date gt easter+49,2,,Daily Lectionary,psalm_evening,Psalm 118; 111
+sun>=08-14,6,date gt easter+49 & date ne easter+55,2,,Daily Lectionary,psalm_evening,Psalm 118; 111
 sun>=08-21,,date gt easter+56,1,,Daily Lectionary,psalm_morning,Psalm 67; 150
 sun>=08-21,,date gt easter+56,1,,Daily Lectionary,first_reading,"2 Samuel 24:1–2, 10–25"
 sun>=08-21,,date gt easter+56,1,,Daily Lectionary,second_reading,Galatians 3:23–4:7
@@ -3321,12 +3315,12 @@ sun>=08-21,6,date gt easter+49,1,,Daily Lectionary,psalm_morning,Psalm 122; 149
 sun>=08-21,6,date gt easter+49,1,,Daily Lectionary,first_reading,1 Kings 7:51–8:21
 sun>=08-21,6,date gt easter+49,1,,Daily Lectionary,second_reading,Acts 28:17–31
 sun>=08-21,6,date gt easter+49,1,,Daily Lectionary,gospel_reading,Mark 14:43–52
-sun>=08-21,6,date gt easter+49,1,,Daily Lectionary,psalm_evening,Psalm 100; 63
+sun>=08-21,6,date gt easter+49 & date ne easter+55,1,,Daily Lectionary,psalm_evening,Psalm 100; 63
 sun>=08-21,6,date gt easter+49,2,,Daily Lectionary,psalm_morning,Psalm 122; 149
 sun>=08-21,6,date gt easter+49,2,,Daily Lectionary,first_reading,"Job 9:1; 10:1–9, 16–22"
 sun>=08-21,6,date gt easter+49,2,,Daily Lectionary,second_reading,Acts 11:1–18
 sun>=08-21,6,date gt easter+49,2,,Daily Lectionary,gospel_reading,John 8:12–20
-sun>=08-21,6,date gt easter+49,2,,Daily Lectionary,psalm_evening,Psalm 100; 63
+sun>=08-21,6,date gt easter+49 & date ne easter+55,2,,Daily Lectionary,psalm_evening,Psalm 100; 63
 sun>=08-28,,date gt easter+56,1,,Daily Lectionary,psalm_morning,Psalm 108; 150
 sun>=08-28,,date gt easter+56,1,,Daily Lectionary,first_reading,1 Kings 8:22–30 (31–40)
 sun>=08-28,,date gt easter+56,1,,Daily Lectionary,second_reading,1 Timothy 4:7b–16
@@ -3391,12 +3385,12 @@ sun>=08-28,6,date gt easter+49,1,,Daily Lectionary,psalm_morning,Psalm 63; 149
 sun>=08-28,6,date gt easter+49,1,,Daily Lectionary,first_reading,1 Kings 12:1–20
 sun>=08-28,6,date gt easter+49,1,,Daily Lectionary,second_reading,James 5:7–20
 sun>=08-28,6,date gt easter+49,1,,Daily Lectionary,gospel_reading,Mark 15:33–39
-sun>=08-28,6,date gt easter+49,1,,Daily Lectionary,psalm_evening,Psalm 125; 90
+sun>=08-28,6,date gt easter+49 & date ne easter+55,1,,Daily Lectionary,psalm_evening,Psalm 125; 90
 sun>=08-28,6,date gt easter+49,2,,Daily Lectionary,psalm_morning,Psalm 63; 149
 sun>=08-28,6,date gt easter+49,2,,Daily Lectionary,first_reading,"Job 22:1–4, 21–23:7"
 sun>=08-28,6,date gt easter+49,2,,Daily Lectionary,second_reading,Acts 13:26–43
 sun>=08-28,6,date gt easter+49,2,,Daily Lectionary,gospel_reading,John 10:1–18
-sun>=08-28,6,date gt easter+49,2,,Daily Lectionary,psalm_evening,Psalm 125; 90
+sun>=08-28,6,date gt easter+49 & date ne easter+55,2,,Daily Lectionary,psalm_evening,Psalm 125; 90
 sun>=09-04,,date gt easter+56,1,,Daily Lectionary,psalm_morning,Psalm 103; 150
 sun>=09-04,,date gt easter+56,1,,Daily Lectionary,first_reading,1 Kings 12:21–33
 sun>=09-04,,date gt easter+56,1,,Daily Lectionary,second_reading,Acts 4:18–31
@@ -3461,12 +3455,12 @@ sun>=09-04,6,date gt easter+49,1,,Daily Lectionary,psalm_morning,Psalm 104; 149
 sun>=09-04,6,date gt easter+49,1,,Daily Lectionary,first_reading,1 Kings 18:41–19:8
 sun>=09-04,6,date gt easter+49,1,,Daily Lectionary,second_reading,Philippians 3:17–4:7
 sun>=09-04,6,date gt easter+49,1,,Daily Lectionary,gospel_reading,Matthew 3:13–17
-sun>=09-04,6,date gt easter+49,1,,Daily Lectionary,psalm_evening,Psalm 138; 98
+sun>=09-04,6,date gt easter+49 & date ne easter+55,1,,Daily Lectionary,psalm_evening,Psalm 138; 98
 sun>=09-04,6,date gt easter+49,2,,Daily Lectionary,psalm_morning,Psalm 104; 149
 sun>=09-04,6,date gt easter+49,2,,Daily Lectionary,first_reading,Job 38:1–17
 sun>=09-04,6,date gt easter+49,2,,Daily Lectionary,second_reading,Acts 15:22–35
 sun>=09-04,6,date gt easter+49,2,,Daily Lectionary,gospel_reading,John 11:45–54
-sun>=09-04,6,date gt easter+49,2,,Daily Lectionary,psalm_evening,Psalm 138; 98
+sun>=09-04,6,date gt easter+49 & date ne easter+55,2,,Daily Lectionary,psalm_evening,Psalm 138; 98
 sun>=09-11,,date gt easter+56,1,,Daily Lectionary,psalm_morning,Psalm 19; 150
 sun>=09-11,,date gt easter+56,1,,Daily Lectionary,first_reading,1 Kings 19:8–21
 sun>=09-11,,date gt easter+56,1,,Daily Lectionary,second_reading,Acts 5:34–42
@@ -3531,12 +3525,12 @@ sun>=09-11,6,date gt easter+49,1,,Daily Lectionary,psalm_morning,Psalm 56; 149
 sun>=09-11,6,date gt easter+49,1,,Daily Lectionary,first_reading,2 Kings 2:1–18
 sun>=09-11,6,date gt easter+49,1,,Daily Lectionary,second_reading,1 Corinthians 4:1–7
 sun>=09-11,6,date gt easter+49,1,,Daily Lectionary,gospel_reading,Matthew 5:17–20
-sun>=09-11,6,date gt easter+49,1,,Daily Lectionary,psalm_evening,Psalm 118; 111
+sun>=09-11,6,date gt easter+49 & date ne easter+55,1,,Daily Lectionary,psalm_evening,Psalm 118; 111
 sun>=09-11,6,date gt easter+49,2,,Daily Lectionary,psalm_morning,Psalm 56; 149
 sun>=09-11,6,date gt easter+49,2,,Daily Lectionary,first_reading,"Esther 2:5–8, 15–23"
 sun>=09-11,6,date gt easter+49,2,,Daily Lectionary,second_reading,Acts 17:16–34
 sun>=09-11,6,date gt easter+49,2,,Daily Lectionary,gospel_reading,John 12:44–50
-sun>=09-11,6,date gt easter+49,2,,Daily Lectionary,psalm_evening,Psalm 118; 111
+sun>=09-11,6,date gt easter+49 & date ne easter+55,2,,Daily Lectionary,psalm_evening,Psalm 118; 111
 sun>=09-18,,date gt easter+56,1,,Daily Lectionary,psalm_morning,Psalm 67; 150
 sun>=09-18,,date gt easter+56,1,,Daily Lectionary,first_reading,2 Kings 4:8–37
 sun>=09-18,,date gt easter+56,1,,Daily Lectionary,second_reading,Acts 9:10–31
@@ -3601,12 +3595,12 @@ sun>=09-18,6,date gt easter+49,1,,Daily Lectionary,psalm_morning,Psalm 122; 149
 sun>=09-18,6,date gt easter+49,1,,Daily Lectionary,first_reading,2 Kings 11:1–20a
 sun>=09-18,6,date gt easter+49,1,,Daily Lectionary,second_reading,1 Corinthians 7:10–24
 sun>=09-18,6,date gt easter+49,1,,Daily Lectionary,gospel_reading,Matthew 6:19–24
-sun>=09-18,6,date gt easter+49,1,,Daily Lectionary,psalm_evening,Psalm 100; 63
+sun>=09-18,6,date gt easter+49 & date ne easter+55,1,,Daily Lectionary,psalm_evening,Psalm 100; 63
 sun>=09-18,6,date gt easter+49,2,,Daily Lectionary,psalm_morning,Psalm 122; 149
 sun>=09-18,6,date gt easter+49,2,,Daily Lectionary,first_reading,Esther 9:1–32
 sun>=09-18,6,date gt easter+49,2,,Daily Lectionary,second_reading,Acts 20:1–16
 sun>=09-18,6,date gt easter+49,2,,Daily Lectionary,gospel_reading,Luke 4:38–44
-sun>=09-18,6,date gt easter+49,2,,Daily Lectionary,psalm_evening,Psalm 100; 63
+sun>=09-18,6,date gt easter+49 & date ne easter+55,2,,Daily Lectionary,psalm_evening,Psalm 100; 63
 sun>=09-25,,date gt easter+56,1,,Daily Lectionary,psalm_morning,Psalm 108; 150
 sun>=09-25,,date gt easter+56,1,,Daily Lectionary,first_reading,2 Kings 17:1–18
 sun>=09-25,,date gt easter+56,1,,Daily Lectionary,second_reading,Acts 9:36–43
@@ -3671,12 +3665,12 @@ sun>=09-25,6,date gt easter+49,1,,Daily Lectionary,psalm_morning,Psalm 63; 149
 sun>=09-25,6,date gt easter+49,1,,Daily Lectionary,first_reading,2 Kings 19:21–36
 sun>=09-25,6,date gt easter+49,1,,Daily Lectionary,second_reading,1 Corinthians 10:1–13
 sun>=09-25,6,date gt easter+49,1,,Daily Lectionary,gospel_reading,Matthew 8:18–27
-sun>=09-25,6,date gt easter+49,1,,Daily Lectionary,psalm_evening,Psalm 125; 90
+sun>=09-25,6,date gt easter+49 & date ne easter+55,1,,Daily Lectionary,psalm_evening,Psalm 125; 90
 sun>=09-25,6,date gt easter+49,2,,Daily Lectionary,psalm_morning,Psalm 63; 149
 sun>=09-25,6,date gt easter+49,2,,Daily Lectionary,first_reading,Hosea 5:1–7
 sun>=09-25,6,date gt easter+49,2,,Daily Lectionary,second_reading,Acts 22:17–29
 sun>=09-25,6,date gt easter+49,2,,Daily Lectionary,gospel_reading,Luke 6:27–38
-sun>=09-25,6,date gt easter+49,2,,Daily Lectionary,psalm_evening,Psalm 125; 90
+sun>=09-25,6,date gt easter+49 & date ne easter+55,2,,Daily Lectionary,psalm_evening,Psalm 125; 90
 sun>=10-02,,date gt easter+56,1,,Daily Lectionary,psalm_morning,Psalm 103; 150
 sun>=10-02,,date gt easter+56,1,,Daily Lectionary,first_reading,2 Kings 20:1–21
 sun>=10-02,,date gt easter+56,1,,Daily Lectionary,second_reading,Acts 12:1–17
@@ -3741,12 +3735,12 @@ sun>=10-02,6,date gt easter+49,1,,Daily Lectionary,psalm_morning,Psalm 104; 149
 sun>=10-02,6,date gt easter+49,1,,Daily Lectionary,first_reading,Jeremiah 35:1–19
 sun>=10-02,6,date gt easter+49,1,,Daily Lectionary,second_reading,1 Corinthians 12:27–13:3
 sun>=10-02,6,date gt easter+49,1,,Daily Lectionary,gospel_reading,Matthew 9:35–10:4
-sun>=10-02,6,date gt easter+49,1,,Daily Lectionary,psalm_evening,Psalm 138; 98
+sun>=10-02,6,date gt easter+49 & date ne easter+55,1,,Daily Lectionary,psalm_evening,Psalm 138; 98
 sun>=10-02,6,date gt easter+49,2,,Daily Lectionary,psalm_morning,Psalm 104; 149
 sun>=10-02,6,date gt easter+49,2,,Daily Lectionary,first_reading,Hosea 10:1–15
 sun>=10-02,6,date gt easter+49,2,,Daily Lectionary,second_reading,Acts 25:13–27
 sun>=10-02,6,date gt easter+49,2,,Daily Lectionary,gospel_reading,Luke 8:16–25
-sun>=10-02,6,date gt easter+49,2,,Daily Lectionary,psalm_evening,Psalm 138; 98
+sun>=10-02,6,date gt easter+49 & date ne easter+55,2,,Daily Lectionary,psalm_evening,Psalm 138; 98
 sun>=10-09,,date gt easter+56,1,,Daily Lectionary,psalm_morning,Psalm 19; 150
 sun>=10-09,,date gt easter+56,1,,Daily Lectionary,first_reading,Jeremiah 36:1–10
 sun>=10-09,,date gt easter+56,1,,Daily Lectionary,second_reading,Acts 14:8–18
@@ -3811,12 +3805,12 @@ sun>=10-09,6,date gt easter+49,1,,Daily Lectionary,psalm_morning,Psalm 56; 149
 sun>=10-09,6,date gt easter+49,1,,Daily Lectionary,first_reading,Jeremiah 52:1–34
 sun>=10-09,6,date gt easter+49,1,,Daily Lectionary,second_reading,1 Corinthians 15:12–29
 sun>=10-09,6,date gt easter+49,1,,Daily Lectionary,gospel_reading,Matthew 11:7–15
-sun>=10-09,6,date gt easter+49,1,,Daily Lectionary,psalm_evening,Psalm 118; 111
+sun>=10-09,6,date gt easter+49 & date ne easter+55,1,,Daily Lectionary,psalm_evening,Psalm 118; 111
 sun>=10-09,6,date gt easter+49,2,,Daily Lectionary,psalm_morning,Psalm 56; 149
 sun>=10-09,6,date gt easter+49,2,,Daily Lectionary,first_reading,Hosea 14:1–9
 sun>=10-09,6,date gt easter+49,2,,Daily Lectionary,second_reading,Acts 28:17–31
 sun>=10-09,6,date gt easter+49,2,,Daily Lectionary,gospel_reading,Luke 9:37–50
-sun>=10-09,6,date gt easter+49,2,,Daily Lectionary,psalm_evening,Psalm 118; 111
+sun>=10-09,6,date gt easter+49 & date ne easter+55,2,,Daily Lectionary,psalm_evening,Psalm 118; 111
 sun>=10-16,,date gt easter+56,1,,Daily Lectionary,psalm_morning,Psalm 67; 150
 sun>=10-16,,date gt easter+56,1,,Daily Lectionary,first_reading,"Jeremiah 29:1, 4–14 or Jeremiah 39:11–40:6"
 sun>=10-16,,date gt easter+56,1,,Daily Lectionary,second_reading,Acts 16:6–15
@@ -3881,152 +3875,152 @@ sun>=10-16,6,date gt easter+49,1,,Daily Lectionary,psalm_morning,Psalm 122; 149
 sun>=10-16,6,date gt easter+49,1,,Daily Lectionary,first_reading,"Ezra 4:7, 11–24 or Jeremiah 44:1–14"
 sun>=10-16,6,date gt easter+49,1,,Daily Lectionary,second_reading,Philemon 1–25
 sun>=10-16,6,date gt easter+49,1,,Daily Lectionary,gospel_reading,Matthew 12:33–42
-sun>=10-16,6,date gt easter+49,1,,Daily Lectionary,psalm_evening,Psalm 100; 63
+sun>=10-16,6,date gt easter+49 & date ne easter+55,1,,Daily Lectionary,psalm_evening,Psalm 100; 63
 sun>=10-16,6,date gt easter+49,2,,Daily Lectionary,psalm_morning,Psalm 122; 149
 sun>=10-16,6,date gt easter+49,2,,Daily Lectionary,first_reading,Sirach 15:9–20 or Micah 7:1–7
 sun>=10-16,6,date gt easter+49,2,,Daily Lectionary,second_reading,Revelation 10:1–11
 sun>=10-16,6,date gt easter+49,2,,Daily Lectionary,gospel_reading,Luke 11:1–13
-sun>=10-16,6,date gt easter+49,2,,Daily Lectionary,psalm_evening,Psalm 100; 63
-sun>=10-23,,date gt easter+56,1,,Daily Lectionary,psalm_morning,Psalm 108; 150
+sun>=10-16,6,date gt easter+49 & date ne easter+55,2,,Daily Lectionary,psalm_evening,Psalm 100; 63
+sun>=10-23,,date gt easter+56 & date ne 11-01 or date wd sun,1,,Daily Lectionary,psalm_morning,Psalm 108; 150
 sun>=10-23,,date gt easter+56,1,,Daily Lectionary,first_reading,Haggai 1:1–2:9 or Jeremiah 44:15–30
 sun>=10-23,,date gt easter+56,1,,Daily Lectionary,second_reading,Acts 18:24–19:7
 sun>=10-23,,date gt easter+56,1,,Daily Lectionary,gospel_reading,Luke 10:25–37
-sun>=10-23,,date gt easter+56,1,,Daily Lectionary,psalm_evening,Psalm 66; 23
-sun>=10-23,,date gt easter+56,2,,Daily Lectionary,psalm_morning,Psalm 108; 150
+sun>=10-23,,date gt easter+56 & date ne 11-01 or date wd sun,1,,Daily Lectionary,psalm_evening,Psalm 66; 23
+sun>=10-23,,date gt easter+56 & date ne 11-01 or date wd sun,2,,Daily Lectionary,psalm_morning,Psalm 108; 150
 sun>=10-23,,date gt easter+56,2,,Daily Lectionary,first_reading,Sirach 18:19–33 or Jonah 1:1–17a
 sun>=10-23,,date gt easter+56,2,,Daily Lectionary,second_reading,1 Corinthians 10:15–24
 sun>=10-23,,date gt easter+56,2,,Daily Lectionary,gospel_reading,Matthew 18:15–20
-sun>=10-23,,date gt easter+56,2,,Daily Lectionary,psalm_evening,Psalm 66; 23
-sun>=10-23,1,date gt easter+49,1,,Daily Lectionary,psalm_morning,Psalm 62; 145
+sun>=10-23,,date gt easter+56 & date ne 11-01 or date wd sun,2,,Daily Lectionary,psalm_evening,Psalm 66; 23
+sun>=10-23,1,date gt easter+49 & date ne 11-01 or date wd sun,1,,Daily Lectionary,psalm_morning,Psalm 62; 145
 sun>=10-23,1,date gt easter+49,1,,Daily Lectionary,first_reading,Zechariah 1:7–17 or Jeremiah 45:1–5
 sun>=10-23,1,date gt easter+49,1,,Daily Lectionary,second_reading,Revelation 1:4–20
 sun>=10-23,1,date gt easter+49,1,,Daily Lectionary,gospel_reading,Matthew 12:43–50
-sun>=10-23,1,date gt easter+49,1,,Daily Lectionary,psalm_evening,Psalm 73; 9
-sun>=10-23,1,date gt easter+49,2,,Daily Lectionary,psalm_morning,Psalm 62; 145
+sun>=10-23,1,date gt easter+49 & date ne 11-01 or date wd sun,1,,Daily Lectionary,psalm_evening,Psalm 73; 9
+sun>=10-23,1,date gt easter+49 & date ne 11-01 or date wd sun,2,,Daily Lectionary,psalm_morning,Psalm 62; 145
 sun>=10-23,1,date gt easter+49,2,,Daily Lectionary,first_reading,Sirach 19:4–17 or Jonah 1:17–2:10
 sun>=10-23,1,date gt easter+49,2,,Daily Lectionary,second_reading,Revelation 11:1–14
 sun>=10-23,1,date gt easter+49,2,,Daily Lectionary,gospel_reading,Luke 11:14–26
-sun>=10-23,1,date gt easter+49,2,,Daily Lectionary,psalm_evening,Psalm 73; 9
-sun>=10-23,2,date gt easter+49,1,,Daily Lectionary,psalm_morning,Psalm 12; 146
+sun>=10-23,1,date gt easter+49 & date ne 11-01 or date wd sun,2,,Daily Lectionary,psalm_evening,Psalm 73; 9
+sun>=10-23,2,date gt easter+49 & date ne 11-01 or date wd sun,1,,Daily Lectionary,psalm_morning,Psalm 12; 146
 sun>=10-23,2,date gt easter+49,1,,Daily Lectionary,first_reading,Ezra 5:1–17 or Lamentations 1:1–5 (6–9) 10–12
 sun>=10-23,2,date gt easter+49,1,,Daily Lectionary,second_reading,Revelation 4:1–11
 sun>=10-23,2,date gt easter+49,1,,Daily Lectionary,gospel_reading,Matthew 13:1–9
-sun>=10-23,2,date gt easter+49,1,,Daily Lectionary,psalm_evening,Psalm 36; 7
-sun>=10-23,2,date gt easter+49,2,,Daily Lectionary,psalm_morning,Psalm 12; 146
+sun>=10-23,2,date gt easter+49 & date ne 11-01 or date wd sun,1,,Daily Lectionary,psalm_evening,Psalm 36; 7
+sun>=10-23,2,date gt easter+49 & date ne 11-01 or date wd sun,2,,Daily Lectionary,psalm_morning,Psalm 12; 146
 sun>=10-23,2,date gt easter+49,2,,Daily Lectionary,first_reading,Sirach 24:1–12 or Jonah 3:1–4:11
 sun>=10-23,2,date gt easter+49,2,,Daily Lectionary,second_reading,Revelation 11:14–19
 sun>=10-23,2,date gt easter+49,2,,Daily Lectionary,gospel_reading,Luke 11:27–36
-sun>=10-23,2,date gt easter+49,2,,Daily Lectionary,psalm_evening,Psalm 36; 7
-sun>=10-23,3,date gt easter+49,1,,Daily Lectionary,psalm_morning,Psalm 96; 147:1–11
+sun>=10-23,2,date gt easter+49 & date ne 11-01 or date wd sun,2,,Daily Lectionary,psalm_evening,Psalm 36; 7
+sun>=10-23,3,date gt easter+49 & date ne 11-01 or date wd sun,1,,Daily Lectionary,psalm_morning,Psalm 96; 147:1–11
 sun>=10-23,3,date gt easter+49,1,,Daily Lectionary,first_reading,Ezra 6:1–22 or Lamentations 2:8–15
 sun>=10-23,3,date gt easter+49,1,,Daily Lectionary,second_reading,Revelation 5:1–10
 sun>=10-23,3,date gt easter+49,1,,Daily Lectionary,gospel_reading,Matthew 13:10–17
-sun>=10-23,3,date gt easter+49,1,,Daily Lectionary,psalm_evening,Psalm 132; 134
-sun>=10-23,3,date gt easter+49,2,,Daily Lectionary,psalm_morning,Psalm 96; 147:1–11
+sun>=10-23,3,date gt easter+49 & date ne 11-01 or date wd sun,1,,Daily Lectionary,psalm_evening,Psalm 132; 134
+sun>=10-23,3,date gt easter+49 & date ne 11-01 or date wd sun,2,,Daily Lectionary,psalm_morning,Psalm 96; 147:1–11
 sun>=10-23,3,date gt easter+49,2,,Daily Lectionary,first_reading,Sirach 28:14–26 or Nahum 1:1–14
 sun>=10-23,3,date gt easter+49,2,,Daily Lectionary,second_reading,Revelation 12:1–6
 sun>=10-23,3,date gt easter+49,2,,Daily Lectionary,gospel_reading,Luke 11:37–52
-sun>=10-23,3,date gt easter+49,2,,Daily Lectionary,psalm_evening,Psalm 132; 134
-sun>=10-23,4,date gt easter+49,1,,Daily Lectionary,psalm_morning,Psalm 116; 147:12–20
+sun>=10-23,3,date gt easter+49 & date ne 11-01 or date wd sun,2,,Daily Lectionary,psalm_evening,Psalm 132; 134
+sun>=10-23,4,date gt easter+49 & date ne 11-01 or date wd sun,1,,Daily Lectionary,psalm_morning,Psalm 116; 147:12–20
 sun>=10-23,4,date gt easter+49,1,,Daily Lectionary,first_reading,Nehemiah 1:1–11 or Lamentations 2:16–22
 sun>=10-23,4,date gt easter+49,1,,Daily Lectionary,second_reading,Revelation 5:11–6:11
 sun>=10-23,4,date gt easter+49,1,,Daily Lectionary,gospel_reading,Matthew 13:18–23
-sun>=10-23,4,date gt easter+49,1,,Daily Lectionary,psalm_evening,Psalm 26; 130
-sun>=10-23,4,date gt easter+49,2,,Daily Lectionary,psalm_morning,Psalm 116; 147:12–20
+sun>=10-23,4,date gt easter+49 & date ne 11-01 or date wd sun,1,,Daily Lectionary,psalm_evening,Psalm 26; 130
+sun>=10-23,4,date gt easter+49 & date ne 11-01 or date wd sun,2,,Daily Lectionary,psalm_morning,Psalm 116; 147:12–20
 sun>=10-23,4,date gt easter+49,2,,Daily Lectionary,first_reading,"Sirach 31:12–18, 25–32:2 or Nahum 1:15–2:12"
 sun>=10-23,4,date gt easter+49,2,,Daily Lectionary,second_reading,Revelation 12:7–17
 sun>=10-23,4,date gt easter+49,2,,Daily Lectionary,gospel_reading,Luke 11:53–12:12
-sun>=10-23,4,date gt easter+49,2,,Daily Lectionary,psalm_evening,Psalm 26; 130
-sun>=10-23,5,date gt easter+49,1,,Daily Lectionary,psalm_morning,Psalm 84; 148
+sun>=10-23,4,date gt easter+49 & date ne 11-01 or date wd sun,2,,Daily Lectionary,psalm_evening,Psalm 26; 130
+sun>=10-23,5,date gt easter+49 & date ne 11-01 or date wd sun,1,,Daily Lectionary,psalm_morning,Psalm 84; 148
 sun>=10-23,5,date gt easter+49,1,,Daily Lectionary,first_reading,Nehemiah 2:1–20 or Lamentations 4:1–22
 sun>=10-23,5,date gt easter+49,1,,Daily Lectionary,second_reading,Revelation 6:12–7:4
 sun>=10-23,5,date gt easter+49,1,,Daily Lectionary,gospel_reading,Matthew 13:24–30
-sun>=10-23,5,date gt easter+49,1,,Daily Lectionary,psalm_evening,Psalm 25; 40
-sun>=10-23,5,date gt easter+49,2,,Daily Lectionary,psalm_morning,Psalm 84; 148
+sun>=10-23,5,date gt easter+49 & date ne 11-01 or date wd sun,1,,Daily Lectionary,psalm_evening,Psalm 25; 40
+sun>=10-23,5,date gt easter+49 & date ne 11-01 or date wd sun,2,,Daily Lectionary,psalm_morning,Psalm 84; 148
 sun>=10-23,5,date gt easter+49,2,,Daily Lectionary,first_reading,"Sirach 34:1–8, 18–22 or Nahum 2:13–3:7"
 sun>=10-23,5,date gt easter+49,2,,Daily Lectionary,second_reading,Revelation 13:1–10
 sun>=10-23,5,date gt easter+49,2,,Daily Lectionary,gospel_reading,Luke 12:13–31
-sun>=10-23,5,date gt easter+49,2,,Daily Lectionary,psalm_evening,Psalm 25; 40
-sun>=10-23,6,date gt easter+49,1,,Daily Lectionary,psalm_morning,Psalm 63; 149
+sun>=10-23,5,date gt easter+49 & date ne 11-01 or date wd sun,2,,Daily Lectionary,psalm_evening,Psalm 25; 40
+sun>=10-23,6,date gt easter+49 & date ne 11-01 or date wd sun,1,,Daily Lectionary,psalm_morning,Psalm 63; 149
 sun>=10-23,6,date gt easter+49,1,,Daily Lectionary,first_reading,Nehemiah 4:1–23 or Lamentations 5:1–22
 sun>=10-23,6,date gt easter+49,1,,Daily Lectionary,second_reading,Revelation 7:(4–8) 9–17
 sun>=10-23,6,date gt easter+49,1,,Daily Lectionary,gospel_reading,Matthew 13:31–35
-sun>=10-23,6,date gt easter+49,1,,Daily Lectionary,psalm_evening,Psalm 125; 90
-sun>=10-23,6,date gt easter+49,2,,Daily Lectionary,psalm_morning,Psalm 63; 149
+sun>=10-23,6,date gt easter+49 & date ne 11-01 or date wd sun & date ne easter+55,1,,Daily Lectionary,psalm_evening,Psalm 125; 90
+sun>=10-23,6,date gt easter+49 & date ne 11-01 or date wd sun,2,,Daily Lectionary,psalm_morning,Psalm 63; 149
 sun>=10-23,6,date gt easter+49,2,,Daily Lectionary,first_reading,Sirach 35:1–17 or Nahum 3:8–19
 sun>=10-23,6,date gt easter+49,2,,Daily Lectionary,second_reading,Revelation 13:11–18
 sun>=10-23,6,date gt easter+49,2,,Daily Lectionary,gospel_reading,Luke 12:32–48
-sun>=10-23,6,date gt easter+49,2,,Daily Lectionary,psalm_evening,Psalm 125; 90
-sun>=10-30,,date gt easter+56,1,,Daily Lectionary,psalm_morning,Psalm 103; 150
+sun>=10-23,6,date gt easter+49 & date ne 11-01 or date wd sun & date ne easter+55,2,,Daily Lectionary,psalm_evening,Psalm 125; 90
+sun>=10-30,,date gt easter+56 & date ne 11-01 or date wd sun,1,,Daily Lectionary,psalm_morning,Psalm 103; 150
 sun>=10-30,,date gt easter+56,1,,Daily Lectionary,first_reading,Nehemiah 5:1–9 or Ezra 1:1–11
 sun>=10-30,,date gt easter+56,1,,Daily Lectionary,second_reading,Acts 20:7–12
 sun>=10-30,,date gt easter+56,1,,Daily Lectionary,gospel_reading,Luke 12:22–31
-sun>=10-30,,date gt easter+56,1,,Daily Lectionary,psalm_evening,Psalm 117; 139
-sun>=10-30,,date gt easter+56,2,,Daily Lectionary,psalm_morning,Psalm 103; 150
+sun>=10-30,,date gt easter+56 & date ne 11-01 or date wd sun,1,,Daily Lectionary,psalm_evening,Psalm 117; 139
+sun>=10-30,,date gt easter+56 & date ne 11-01 or date wd sun,2,,Daily Lectionary,psalm_morning,Psalm 103; 150
 sun>=10-30,,date gt easter+56,2,,Daily Lectionary,first_reading,Sirach 36:1–17 or Zephaniah 1:1–6
 sun>=10-30,,date gt easter+56,2,,Daily Lectionary,second_reading,1 Corinthians 12:27–13:13
 sun>=10-30,,date gt easter+56,2,,Daily Lectionary,gospel_reading,Matthew 18:21–35
-sun>=10-30,,date gt easter+56,2,,Daily Lectionary,psalm_evening,Psalm 117; 139
-sun>=10-30,1,date gt easter+49,1,,Daily Lectionary,psalm_morning,Psalm 5; 145
+sun>=10-30,,date gt easter+56 & date ne 11-01 or date wd sun,2,,Daily Lectionary,psalm_evening,Psalm 117; 139
+sun>=10-30,1,date gt easter+49 & date ne 11-01 or date wd sun,1,,Daily Lectionary,psalm_morning,Psalm 5; 145
 sun>=10-30,1,date gt easter+49,1,,Daily Lectionary,first_reading,Nehemiah 6:1–19 or Ezra 3:1–13
 sun>=10-30,1,date gt easter+49,1,,Daily Lectionary,second_reading,Revelation 10:1–11
 sun>=10-30,1,date gt easter+49,1,,Daily Lectionary,gospel_reading,Matthew 13:36–43
-sun>=10-30,1,date gt easter+49,1,,Daily Lectionary,psalm_evening,Psalm 82; 29
-sun>=10-30,1,date gt easter+49,2,,Daily Lectionary,psalm_morning,Psalm 5; 145
+sun>=10-30,1,date gt easter+49 & date ne 11-01 or date wd sun,1,,Daily Lectionary,psalm_evening,Psalm 82; 29
+sun>=10-30,1,date gt easter+49 & date ne 11-01 or date wd sun,2,,Daily Lectionary,psalm_morning,Psalm 5; 145
 sun>=10-30,1,date gt easter+49,2,,Daily Lectionary,first_reading,Sirach 38:24–34 or Zephaniah 1:7–13
 sun>=10-30,1,date gt easter+49,2,,Daily Lectionary,second_reading,Revelation 14:1–13
 sun>=10-30,1,date gt easter+49,2,,Daily Lectionary,gospel_reading,Luke 12:49–59
-sun>=10-30,1,date gt easter+49,2,,Daily Lectionary,psalm_evening,Psalm 82; 29
-sun>=10-30,2,date gt easter+49,1,,Daily Lectionary,psalm_morning,Psalm 42; 146
+sun>=10-30,1,date gt easter+49 & date ne 11-01 or date wd sun,2,,Daily Lectionary,psalm_evening,Psalm 82; 29
+sun>=10-30,2,date gt easter+49 & date ne 11-01 or date wd sun,1,,Daily Lectionary,psalm_morning,Psalm 42; 146
 sun>=10-30,2,date gt easter+49,1,,Daily Lectionary,first_reading,"Nehemiah 12:27–31a, 42b–47 or Ezra 4:7, 11–24"
 sun>=10-30,2,date gt easter+49,1,,Daily Lectionary,second_reading,Revelation 11:1–19
 sun>=10-30,2,date gt easter+49,1,,Daily Lectionary,gospel_reading,Matthew 13:44–52
-sun>=10-30,2,date gt easter+49,1,,Daily Lectionary,psalm_evening,Psalm 102; 133
-sun>=10-30,2,date gt easter+49,2,,Daily Lectionary,psalm_morning,Psalm 42; 146
+sun>=10-30,2,date gt easter+49 & date ne 11-01 or date wd sun,1,,Daily Lectionary,psalm_evening,Psalm 102; 133
+sun>=10-30,2,date gt easter+49 & date ne 11-01 or date wd sun,2,,Daily Lectionary,psalm_morning,Psalm 42; 146
 sun>=10-30,2,date gt easter+49,2,,Daily Lectionary,first_reading,Sirach 43:1–22 or Zephaniah 1:14–18
 sun>=10-30,2,date gt easter+49,2,,Daily Lectionary,second_reading,Revelation 14:14–15:8
 sun>=10-30,2,date gt easter+49,2,,Daily Lectionary,gospel_reading,Luke 13:1–9
-sun>=10-30,2,date gt easter+49,2,,Daily Lectionary,psalm_evening,Psalm 102; 133
-sun>=10-30,3,date gt easter+49,1,,Daily Lectionary,psalm_morning,Psalm 89:1–18; 147:1–11
+sun>=10-30,2,date gt easter+49 & date ne 11-01 or date wd sun,2,,Daily Lectionary,psalm_evening,Psalm 102; 133
+sun>=10-30,3,date gt easter+49 & date ne 11-01 or date wd sun,1,,Daily Lectionary,psalm_morning,Psalm 89:1–18; 147:1–11
 sun>=10-30,3,date gt easter+49,1,,Daily Lectionary,first_reading,Nehemiah 13:4–22 or Haggai 1:1–2:9
 sun>=10-30,3,date gt easter+49,1,,Daily Lectionary,second_reading,Revelation 12:1–12
 sun>=10-30,3,date gt easter+49,1,,Daily Lectionary,gospel_reading,Matthew 13:53–58
-sun>=10-30,3,date gt easter+49,1,,Daily Lectionary,psalm_evening,Psalm 1; 33
-sun>=10-30,3,date gt easter+49,2,,Daily Lectionary,psalm_morning,Psalm 89:1–18; 147:1–11
+sun>=10-30,3,date gt easter+49 & date ne 11-01 or date wd sun,1,,Daily Lectionary,psalm_evening,Psalm 1; 33
+sun>=10-30,3,date gt easter+49 & date ne 11-01 or date wd sun,2,,Daily Lectionary,psalm_morning,Psalm 89:1–18; 147:1–11
 sun>=10-30,3,date gt easter+49,2,,Daily Lectionary,first_reading,Sirach 43:23–33 or Zephaniah 2:1–15
 sun>=10-30,3,date gt easter+49,2,,Daily Lectionary,second_reading,Revelation 16:1–11
 sun>=10-30,3,date gt easter+49,2,,Daily Lectionary,gospel_reading,Luke 13:10–17
-sun>=10-30,3,date gt easter+49,2,,Daily Lectionary,psalm_evening,Psalm 1; 33
-sun>=10-30,4,date gt easter+49,1,,Daily Lectionary,psalm_morning,Psalm 97; 147:12–20
+sun>=10-30,3,date gt easter+49 & date ne 11-01 or date wd sun,2,,Daily Lectionary,psalm_evening,Psalm 1; 33
+sun>=10-30,4,date gt easter+49 & date ne 11-01 or date wd sun,1,,Daily Lectionary,psalm_morning,Psalm 97; 147:12–20
 sun>=10-30,4,date gt easter+49,1,,Daily Lectionary,first_reading,Ezra 7:(1–10) 11–26 or Zechariah 1:7–17
 sun>=10-30,4,date gt easter+49,1,,Daily Lectionary,second_reading,Revelation 14:1–13
 sun>=10-30,4,date gt easter+49,1,,Daily Lectionary,gospel_reading,Matthew 14:1–12
-sun>=10-30,4,date gt easter+49,1,,Daily Lectionary,psalm_evening,Psalm 16; 62
-sun>=10-30,4,date gt easter+49,2,,Daily Lectionary,psalm_morning,Psalm 97; 147:12–20
+sun>=10-30,4,date gt easter+49 & date ne 11-01 or date wd sun,1,,Daily Lectionary,psalm_evening,Psalm 16; 62
+sun>=10-30,4,date gt easter+49 & date ne 11-01 or date wd sun,2,,Daily Lectionary,psalm_morning,Psalm 97; 147:12–20
 sun>=10-30,4,date gt easter+49,2,,Daily Lectionary,first_reading,Sirach 44:1–15 or Zephaniah 3:1–7
 sun>=10-30,4,date gt easter+49,2,,Daily Lectionary,second_reading,Revelation 16:12–21
 sun>=10-30,4,date gt easter+49,2,,Daily Lectionary,gospel_reading,Luke 13:18–30
-sun>=10-30,4,date gt easter+49,2,,Daily Lectionary,psalm_evening,Psalm 16; 62
-sun>=10-30,5,date gt easter+49,1,,Daily Lectionary,psalm_morning,Psalm 51; 148
+sun>=10-30,4,date gt easter+49 & date ne 11-01 or date wd sun,2,,Daily Lectionary,psalm_evening,Psalm 16; 62
+sun>=10-30,5,date gt easter+49 & date ne 11-01 or date wd sun,1,,Daily Lectionary,psalm_morning,Psalm 51; 148
 sun>=10-30,5,date gt easter+49,1,,Daily Lectionary,first_reading,Ezra 7:27–28; 8:21–36 or Ezra 5:1–17
 sun>=10-30,5,date gt easter+49,1,,Daily Lectionary,second_reading,Revelation 15:1–8
 sun>=10-30,5,date gt easter+49,1,,Daily Lectionary,gospel_reading,Matthew 14:13–21
-sun>=10-30,5,date gt easter+49,1,,Daily Lectionary,psalm_evening,Psalm 142; 65
-sun>=10-30,5,date gt easter+49,2,,Daily Lectionary,psalm_morning,Psalm 51; 148
+sun>=10-30,5,date gt easter+49 & date ne 11-01 or date wd sun,1,,Daily Lectionary,psalm_evening,Psalm 142; 65
+sun>=10-30,5,date gt easter+49 & date ne 11-01 or date wd sun,2,,Daily Lectionary,psalm_morning,Psalm 51; 148
 sun>=10-30,5,date gt easter+49,2,,Daily Lectionary,first_reading,"Sirach 50:1, 11–24 or Zephaniah 3:8–13"
 sun>=10-30,5,date gt easter+49,2,,Daily Lectionary,second_reading,Revelation 17:1–18
 sun>=10-30,5,date gt easter+49,2,,Daily Lectionary,gospel_reading,Luke 13:31–35
-sun>=10-30,5,date gt easter+49,2,,Daily Lectionary,psalm_evening,Psalm 142; 65
-sun>=10-30,6,date gt easter+49,1,,Daily Lectionary,psalm_morning,Psalm 104; 149
+sun>=10-30,5,date gt easter+49 & date ne 11-01 or date wd sun,2,,Daily Lectionary,psalm_evening,Psalm 142; 65
+sun>=10-30,6,date gt easter+49 & date ne 11-01 or date wd sun,1,,Daily Lectionary,psalm_morning,Psalm 104; 149
 sun>=10-30,6,date gt easter+49,1,,Daily Lectionary,first_reading,Ezra 9:1–15 or Ezra 6:1–22
 sun>=10-30,6,date gt easter+49,1,,Daily Lectionary,second_reading,Revelation 17:1–14
 sun>=10-30,6,date gt easter+49,1,,Daily Lectionary,gospel_reading,Matthew 14:22–36
-sun>=10-30,6,date gt easter+49,1,,Daily Lectionary,psalm_evening,Psalm 138; 98
-sun>=10-30,6,date gt easter+49,2,,Daily Lectionary,psalm_morning,Psalm 104; 149
+sun>=10-30,6,date gt easter+49 & date ne 11-01 or date wd sun & date ne easter+55,1,,Daily Lectionary,psalm_evening,Psalm 138; 98
+sun>=10-30,6,date gt easter+49 & date ne 11-01 or date wd sun,2,,Daily Lectionary,psalm_morning,Psalm 104; 149
 sun>=10-30,6,date gt easter+49,2,,Daily Lectionary,first_reading,Sirach 51:1–12 or Zephaniah 3:14–20
 sun>=10-30,6,date gt easter+49,2,,Daily Lectionary,second_reading,Revelation 18:1–14
 sun>=10-30,6,date gt easter+49,2,,Daily Lectionary,gospel_reading,Luke 14:1–11
-sun>=10-30,6,date gt easter+49,2,,Daily Lectionary,psalm_evening,Psalm 138; 98
+sun>=10-30,6,date gt easter+49 & date ne 11-01 or date wd sun & date ne easter+55,2,,Daily Lectionary,psalm_evening,Psalm 138; 98
 sun>=11-06,,date gt easter+56,1,,Daily Lectionary,psalm_morning,Psalm 19; 150
 sun>=11-06,,date gt easter+56,1,,Daily Lectionary,first_reading,Ezra 10:1–17 or Nehemiah 1:1–11
 sun>=11-06,,date gt easter+56,1,,Daily Lectionary,second_reading,Acts 24:10–21
@@ -4091,12 +4085,12 @@ sun>=11-06,6,date gt easter+49,1,,Daily Lectionary,psalm_morning,Psalm 56; 149
 sun>=11-06,6,date gt easter+49,1,,Daily Lectionary,first_reading,1 Maccabees 2:1–28 or Nehemiah 13:4–22
 sun>=11-06,6,date gt easter+49,1,,Daily Lectionary,second_reading,Revelation 20:1–6
 sun>=11-06,6,date gt easter+49,1,,Daily Lectionary,gospel_reading,Matthew 16:21–28
-sun>=11-06,6,date gt easter+49,1,,Daily Lectionary,psalm_evening,Psalm 118; 111
+sun>=11-06,6,date gt easter+49 & date ne easter+55,1,,Daily Lectionary,psalm_evening,Psalm 118; 111
 sun>=11-06,6,date gt easter+49,2,,Daily Lectionary,psalm_morning,Psalm 56; 149
 sun>=11-06,6,date gt easter+49,2,,Daily Lectionary,first_reading,Joel 3:9–17
 sun>=11-06,6,date gt easter+49,2,,Daily Lectionary,second_reading,James 2:1–13
 sun>=11-06,6,date gt easter+49,2,,Daily Lectionary,gospel_reading,Luke 16:10–17 (18)
-sun>=11-06,6,date gt easter+49,2,,Daily Lectionary,psalm_evening,Psalm 118; 111
+sun>=11-06,6,date gt easter+49 & date ne easter+55,2,,Daily Lectionary,psalm_evening,Psalm 118; 111
 sun>=11-13,,date gt easter+56,1,,Daily Lectionary,psalm_morning,Psalm 67; 150
 sun>=11-13,,date gt easter+56,1,,Daily Lectionary,first_reading,1 Maccabees 2:29–43 (44–48) or Ezra 7:(1–10) 11–26
 sun>=11-13,,date gt easter+56,1,,Daily Lectionary,second_reading,Acts 28:14b–23
@@ -4161,12 +4155,12 @@ sun>=11-13,6,date gt easter+49,1,,Daily Lectionary,psalm_morning,Psalm 122; 149
 sun>=11-13,6,date gt easter+49,1,,Daily Lectionary,first_reading,"1 Maccabees 4:36–59 or Nehemiah 7:73b–8:3, 5–18"
 sun>=11-13,6,date gt easter+49,1,,Daily Lectionary,second_reading,Revelation 22:14–21
 sun>=11-13,6,date gt easter+49,1,,Daily Lectionary,gospel_reading,Matthew 18:21–35
-sun>=11-13,6,date gt easter+49,1,,Daily Lectionary,psalm_evening,Psalm 100; 63
+sun>=11-13,6,date gt easter+49 & date ne easter+55,1,,Daily Lectionary,psalm_evening,Psalm 100; 63
 sun>=11-13,6,date gt easter+49,2,,Daily Lectionary,psalm_morning,Psalm 122; 149
 sun>=11-13,6,date gt easter+49,2,,Daily Lectionary,first_reading,Malachi 3:13–4:6
 sun>=11-13,6,date gt easter+49,2,,Daily Lectionary,second_reading,James 5:13–20
 sun>=11-13,6,date gt easter+49,2,,Daily Lectionary,gospel_reading,Luke 18:9–14
-sun>=11-13,6,date gt easter+49,2,,Daily Lectionary,psalm_evening,Psalm 100; 63
+sun>=11-13,6,date gt easter+49 & date ne easter+55,2,,Daily Lectionary,psalm_evening,Psalm 100; 63
 christ_the_king,,,1,,Daily Lectionary,psalm_morning,Psalm 108; 150
 christ_the_king,,,1,,Daily Lectionary,first_reading,Isaiah 19:19–25
 christ_the_king,,,1,,Daily Lectionary,second_reading,Romans 15:5–13
@@ -4473,20 +4467,6 @@ sun>01-01,,date lt 01-06,2,,Daily Lectionary,gospel_reading,John 6:41–47
 12-24,,,2,,Daily Lectionary,first_reading,Isaiah 60:1–6
 12-24,,,2,,Daily Lectionary,second_reading,Galatians 3:23–4:7
 12-24,,,2,,Daily Lectionary,gospel_reading,Matthew 1:18–25
-12-24,,date wd sun,1,,Daily Lectionary,psalm_evening,Psalm 25; 110
-12-24,,date wd mon,1,,Daily Lectionary,psalm_evening,Psalm 40; 67
-12-24,,date wd tue,1,,Daily Lectionary,psalm_evening,Psalm 85; 94
-12-24,,date wd wed,1,,Daily Lectionary,psalm_evening,Psalm 53; 17
-12-24,,date wd thu,1,,Daily Lectionary,psalm_evening,Psalm 126; 62
-12-24,,date wd fri,1,,Daily Lectionary,psalm_evening,Psalm 130; 16
-12-24,,date wd sat,1,,Daily Lectionary,psalm_evening,Psalm 80; 72
-12-24,,date wd sun,2,,Daily Lectionary,psalm_evening,Psalm 25; 110
-12-24,,date wd mon,2,,Daily Lectionary,psalm_evening,Psalm 40; 67
-12-24,,date wd tue,2,,Daily Lectionary,psalm_evening,Psalm 85; 94
-12-24,,date wd wed,2,,Daily Lectionary,psalm_evening,Psalm 53; 17
-12-24,,date wd thu,2,,Daily Lectionary,psalm_evening,Psalm 126; 62
-12-24,,date wd fri,2,,Daily Lectionary,psalm_evening,Psalm 130; 16
-12-24,,date wd sat,2,,Daily Lectionary,psalm_evening,Psalm 80; 72
 12-26,,,1,,Daily Lectionary,psalm_evening,Psalm 119:1–24; 27
 12-26,,,2,,Daily Lectionary,psalm_evening,Psalm 119:1–24; 27
 12-27,,,1,,Daily Lectionary,psalm_evening,Psalm 19; 121
@@ -4507,10 +4487,8 @@ sun>01-01,,date lt 01-06,2,,Daily Lectionary,gospel_reading,John 6:41–47
 01-04,,,2,,Daily Lectionary,psalm_evening,Psalm 93; 97
 12-24,,,1,,Daily Lectionary: Christmas Eve,first_reading,Isaiah 59:15b–21
 12-24,,,1,,Daily Lectionary: Christmas Eve,second_reading,Philippians 2:5–11
-12-24,,,1,,Daily Lectionary: Christmas Eve,psalm_evening,Psalm 132; 114
 12-24,,,2,,Daily Lectionary: Christmas Eve,first_reading,Isaiah 59:15b–21
 12-24,,,2,,Daily Lectionary: Christmas Eve,second_reading,Philippians 2:5–11
-12-24,,,2,,Daily Lectionary: Christmas Eve,psalm_evening,Psalm 132; 114
 01-01,,,1,,Daily Lectionary: New Year's Eve or Day,first_reading,Ecclesiastes 3:1–13
 01-01,,,1,,Daily Lectionary: New Year's Eve or Day,second_reading,Revelation 21:1–6a
 01-01,,,1,,Daily Lectionary: New Year's Eve or Day,gospel_reading,Matthew 25:31–46
@@ -4553,18 +4531,34 @@ sun>01-01,,date lt 01-06,2,,Daily Lectionary,gospel_reading,John 6:41–47
 09-14,,,2,,Daily Lectionary: Holy Cross,first_reading,Numbers 21:4b–9 or Isaiah 45:21–25
 09-14,,,2,,Daily Lectionary: Holy Cross,second_reading,1 Corinthians 1:18–24
 09-14,,,2,,Daily Lectionary: Holy Cross,gospel_reading,John 3:13–17 or John 12:20–33
+11-01,,date nwd sun,1,,Daily Lectionary: All Saints' Day,psalm_morning,Psalm 96; 149
 11-01,,,1,,Daily Lectionary: All Saints' Day,first_reading,"Isaiah 26:1–4, 8–9, 12–13, 19–21"
 11-01,,,1,,Daily Lectionary: All Saints' Day,second_reading,"Revelation 21:9–11, 22–27 (22:1–5) or Hebrews 11:32–12:2"
 11-01,,,1,,Daily Lectionary: All Saints' Day,gospel_reading,Matthew 5:1–12
+11-01,,date nwd sun,1,,Daily Lectionary: All Saints' Day,psalm_evening,Psalm 132; 134
+11-01,,date nwd sun,2,,Daily Lectionary: All Saints' Day,psalm_morning,Psalm 96; 149
 11-01,,,2,,Daily Lectionary: All Saints' Day,first_reading,"Isaiah 26:1–4, 8–9, 12–13, 19–21"
 11-01,,,2,,Daily Lectionary: All Saints' Day,second_reading,"Revelation 21:9–11, 22–27 (22:1–5) or Hebrews 11:32–12:2"
 11-01,,,2,,Daily Lectionary: All Saints' Day,gospel_reading,Matthew 5:1–12
+11-01,,date nwd sun,2,,Daily Lectionary: All Saints' Day,psalm_evening,Psalm 132; 134
 thu#4:11,,,1,,Daily Lectionary: Thanksgiving Day,first_reading,Deuteronomy 8:1–10 or Deuteronomy 26:1–11
 thu#4:11,,,1,,Daily Lectionary: Thanksgiving Day,second_reading,Philippians 4:6–20 or 1 Timothy 2:1–4
 thu#4:11,,,1,,Daily Lectionary: Thanksgiving Day,gospel_reading,Luke 17:11–19 or Matthew 6:25–33
 thu#4:11,,,2,,Daily Lectionary: Thanksgiving Day,first_reading,Deuteronomy 8:1–10 or Deuteronomy 26:1–11
 thu#4:11,,,2,,Daily Lectionary: Thanksgiving Day,second_reading,Philippians 4:6–20 or 1 Timothy 2:1–4
 thu#4:11,,,2,,Daily Lectionary: Thanksgiving Day,gospel_reading,Luke 17:11–19 or Matthew 6:25–33
+01-05,,,1,,Daily Lectionary,psalm_evening,Psalm 96; 110
+01-05,,,2,,Daily Lectionary,psalm_evening,Psalm 96; 110
+baptism,-1,date ne 01-06,1,,Daily Lectionary,psalm_evening,Psalm 27; Psalm 93 or Psalm 114
+baptism,-1,date ne 01-06,2,,Daily Lectionary,psalm_evening,Psalm 27; Psalm 93 or Psalm 114
+ascension,-1,,1,,Daily Lectionary,psalm_evening,Psalm 9; 118
+ascension,-1,,2,,Daily Lectionary,psalm_evening,Psalm 9; 118
+pentecost,-1,,1,,Daily Lectionary,psalm_evening,Psalm 23; 114
+pentecost,-1,,2,,Daily Lectionary,psalm_evening,Psalm 23; 114
+trinity,-1,,1,,Daily Lectionary,psalm_evening,Psalm 125; 90
+trinity,-1,,2,,Daily Lectionary,psalm_evening,Psalm 125; 90
+12-24,,,1,,Daily Lectionary,psalm_evening,Psalm 132; 114
+12-24,,,2,,Daily Lectionary,psalm_evening,Psalm 132; 114
 # ===========================================================================
 "# The Easter Vigil of the Book of Common Worship (2018), as the PC(USA)'s yearly"
 "# lists of the Revised Common Lectionary give it (2025, 2026): twelve readings"

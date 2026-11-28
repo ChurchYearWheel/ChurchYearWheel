@@ -354,7 +354,9 @@ small changes of their own to the RCL that are not shown.
   own psalms and lessons at both offices.
 - **ELCA:** the lesser festivals and commemorations of *Evangelical Lutheran
   Worship* (2006), with those added since. Reformation Sunday and All Saints
-  Sunday are kept as the LCMS calendar keeps them.
+  Sunday are kept as the LCMS calendar keeps them. The Consultation on Common
+  Texts' 2025 alternative readings are listed beside the RCL's, as for the
+  Methodists.
 - **Methodist:** the festivals of the *Book of Worship*, Aldersgate Day, and
   the special Sundays of the *Book of Discipline* that have set dates (Human
   Relations Day, UMCOR Sunday, Native American Ministries Sunday, Peace with
@@ -362,11 +364,19 @@ small changes of their own to the RCL that are not shown.
   rest), with the days Discipleship Ministries' yearly Sundays and Special Days
   calendars keep (Epiphany Sunday, the Festival of the Christian Home,
   Reformation Sunday, Thanksgiving Sunday). The Sundays each annual conference
-  dates for itself are left out.
+  dates for itself are left out. From Easter 2025 the Consultation on Common
+  Texts' alternative readings ("Addressing Anti-Judaism", 2025, updated 2026;
+  `data/readings/rcl-cct2025.csv`), which the church's 2026 calendar uses, are
+  listed beside the RCL's as *Alternative Readings (CCT, 2025)*: Mark's passion
+  as a choice on Good Friday, a reading from the Hebrew Scriptures and a psalm
+  in place of Acts on the Sundays of Easter, the Ascension and Pentecost, and
+  readings from Acts in place of the Epistle on seven Sundays after Pentecost
+  (Propers 20–26 in Year A, 10–16 in Years B and C). The ELCA lists them too.
 - **Presbyterian:** the festivals of the *Book of Common Worship* (2018) and the
   four special offerings. Colors follow the PC(USA)'s planning calendars.
-  On every day the *Book of Common Worship*'s Daily Lectionary (1993, pp.
-  1049–1095; `data/Presbyterian/readings.csv`), the one the PC(USA)'s Daily
+  On every day the *Book of Common Worship*'s Daily Lectionary (the 1993
+  table, pp. 1049–1095, updated to the 2018 edition as the PC(USA)'s yearly
+  lists give it; `data/Presbyterian/readings.csv`), the one the PC(USA)'s Daily
   Readings follow, takes the place of the RCL Daily Readings: two years (Year
   One from Advent 2024, 2026 ..., Year Two from Advent 2025 ...), each day with
   two morning and two evening psalms, an Old Testament reading, an epistle and
@@ -377,16 +387,21 @@ small changes of their own to the RCL that are not shown.
   "Laudate Psalm" is the day of the week's, Sunday 150 to Saturday 149); after the
   Baptism and after Pentecost each week is the one its Sunday's date falls in,
   the weekdays after the Day of Pentecost and Trinity Sunday taking the week of
-  that Sunday's date. The Eves of the Epiphany, the Baptism, the Ascension,
-  Pentecost and Trinity Sunday and Christmas Eve are listed as evening prayer; a
+  that Sunday's date. On the Eves of the Epiphany, the Baptism, the Ascension,
+  Pentecost and Trinity Sunday and on Christmas Eve, the eve's psalms are the
+  day's Evening, as in 2018, and the eve's two readings are listed as their own
+  set; a
   reading the book marks for the morning or the evening is labeled so; and the
   Special Days (the Presentation, the Annunciation, the Visitation, the Birth
   of John the Baptist, Holy Cross, All Saints' Day, New Year's Eve and Day,
-  Thanksgiving Day) are listed beside the day's own, for both years. They are
+  Thanksgiving Day) are listed beside the day's own, for both years, All
+  Saints' Day with its own psalms (2018) when it is not a Sunday. They are
   labeled and ordered as pcusa.org lists them: Morning, First Reading, Second
   Reading, Gospel Reading, Evening. Checked against the PC(USA)'s yearly lists
-  for 2025 and 2026 (from the 2018 *Book of Common Worship*), which agree but
-  for a few days. The Easter Vigil is the 2018 book's: the RCL's nine readings
+  for 2025 and 2026 (from the 2018 *Book of Common Worship*), whose changes
+  are adopted (the Epiphany's Isaiah 52:7–13, 2 Corinthians 13:1–13), but for
+  their Luke 1:26–36 on 20 December, which stops before Mary's answer. The
+  Easter Vigil is the 2018 book's: the RCL's nine readings
   with Isaiah 61, Daniel 3 and Jonah, and John 20:1–18 every year.
 - **Reformed:** colors follow the Reformed Church in America's calendar with
   liturgical colors. The **Special days** menu lays the Christian Reformed
@@ -1026,7 +1041,7 @@ A few settings exist only here:
 | `hide_outranked_titles` | leave off a Sunday's name when a feast takes its place |
 | `commemoration_style` | the text style for a memorial reduced to a commemoration |
 | `principal_max_rank`, `festival_max_rank` | the ranks the Feasts menu's *principal* and *festival* levels reach |
-| `readings` | shared lectionaries from `data/readings/` that this calendar uses, by file name: `rcl rcl-us rcl-daily` (the Revised Common Lectionary, its US Thanksgiving Day, and its Daily Readings) |
+| `readings` | shared lectionaries from `data/readings/` that this calendar uses, by file name: `rcl rcl-us rcl-daily` (the Revised Common Lectionary, its US Thanksgiving Day, and its Daily Readings; `rcl-cct2025` adds the 2025 alternative readings) |
 | `bible_version` | the Bible version the page's reading links open in (ESV when blank) |
 | `verse_numbering` | the verse numbering the readings are cited in when it is the Hebrew one their church's Bible uses: `hebrew` for every book, or the books (`Psalms Joel`); the Bible links translate it (docs/versification.md) |
 | `major_days_exclude` | ids of single-dated days.csv rows that feasts.py `--major-days` leaves out, beside its own list of Sundays of a sequence |
@@ -1072,8 +1087,9 @@ next_start-7,,date gt @trinity,,,,epistle,1 Thessalonians 5:1–11
 A lectionary that several calendars keep is written once, in
 `data/readings/<name>.csv`, with every day as a date rule so it reads the same
 in any folder, and each calendar names it with its `readings` setting:
-`data/readings/rcl.csv` is the Revised Common Lectionary (with `rcl-us` and
-`rcl-daily`), `lsb.csv` Lutheran Service Book (the LCMS and Lutheran
+`data/readings/rcl.csv` is the Revised Common Lectionary (with `rcl-us`,
+`rcl-daily` and `rcl-cct2025`, the Consultation on Common Texts' 2025
+alternative readings), `lsb.csv` Lutheran Service Book (the LCMS and Lutheran
 Church–Canada, keyed by the day ids their calendars share), `cw21.csv`
 Christian Worship (2021) of the WELS and `roman.csv` the Roman Lectionary for
 Mass (the General Roman Calendar and *Divine Worship*, keyed by the Roman

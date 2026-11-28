@@ -6,7 +6,7 @@ setting,value,variant
 year_start,sun<12-25-21,
 center_art,chi_rho,
 "# readings: the Revised Common Lectionary (data/readings), Year A from Advent 2025.",,
-readings,rcl rcl-us rcl-daily,
+readings,rcl rcl-us rcl-daily rcl-cct2025,
 reading_cycle,abc,
 # The Bible version the page opens readings in (bible_version).,,
 bible_version,CEB,

@@ -1,5 +1,29 @@
 # Changelog
 
+## 2026-11 (148) — the 2018 Book of Common Worship; the CCT's alternative readings
+
+### Added
+
+- **United Methodist and ELCA: the Consultation on Common Texts' alternative
+  readings** ("Addressing Anti-Judaism", 2025, updated 2026), from Easter 2025,
+  as a set of their own beside the RCL's (*Alternative Readings (CCT, 2025)*):
+  Mark's passion as a choice on Good Friday (and John on Palm/Passion Sunday,
+  Year B), a reading from the Hebrew Scriptures and a psalm in place of Acts on
+  the Sundays of Easter, the Ascension and Pentecost, and readings from Acts in
+  place of the Epistle on seven Sundays after Pentecost (Propers 20–26 in Year A,
+  10–16 in Years B and C). The UMC's 2026 calendar uses them.
+
+### Changed
+
+- **The PC(USA) Daily Lectionary follows the 2018 Book of Common Worship**
+  where the PC(USA)'s yearly lists show it differs from the 1993 table: All
+  Saints' Day has its own psalms (96; 149 and 132; 134) when it is not a
+  Sunday, the Epiphany (Year One) reads Isaiah 52:7–13, and 2 Corinthians
+  13:1–13 replaces 13:1–14.
+- **On the PC(USA)'s eves the eve's psalms are the day's Evening**, as on
+  pcusa.org, in place of the weekday's; the eve's two readings stay a set of
+  their own.
+
 ## 2026-11 (147) — checked against the churches' own lists
 
 ### Added
